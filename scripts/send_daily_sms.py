@@ -85,88 +85,101 @@ def parse_date_str(s):
 # 복습 대상 추출
 # ============================================================
 
-def extract_review_targets(student_id, assignments, today):
+def parse_note_name(note_name, student_name=''):
+    """
+    noteName에서 단원/주제만 추출.
+    형식: "학생이름_교재이름_단원이름" (예: "송유림_개념루트_삼각함수의 그래프")
+    
+    파싱 전략:
+    1. '_'로 분할 시도
+    2. 학생이름이 첫 부분에 있으면 제거
+    3. 마지막 부분(또는 마지막 2번째 이후 전부)을 단원으로 사용
+    4. 분할 실패 시 원본 그대로 반환
+    """
+    if not note_name:
+        return '복습'
+    
+    parts = note_name.split('_')
+    if len(parts) <= 1:
+        return note_name.strip()
+    
+    # 첫 부분이 학생 이름이면 제거 (있을 때)
+    if student_name and parts[0].strip() == student_name.strip():
+        parts = parts[1:]
+    
+    if len(parts) <= 1:
+        return parts[0].strip() if parts else note_name
+    
+    # 마지막 부분이 보통 단원명. 길이가 의미 있으면 그것만 사용
+    last = parts[-1].strip()
+    if last:
+        return last
+    return note_name.strip()
+
+
+def extract_review_targets(student_id, assignments, today, student_name=''):
     """
     한 학생에 대해 (오늘 예정, 밀린 것) 두 리스트를 반환.
-    각 항목: {'subject': '이차함수', 'round': 2}
+    각 항목: {'subject': '삼각함수의 그래프', 'round': 2}
     
-    assignments는 학생별 배정 데이터 구조에 따라 파싱.
-    여러 가능한 스키마를 시도 (현재 시스템 + 향후 변경 대응).
+    실제 스키마:
+        {
+          "id": "a_...",
+          "studentId": "s_...",
+          "noteName": "학생이름_교재_단원",
+          "subject": "대수",
+          "schedule": [
+            { "stage": 1, "planned": "2026-05-09", "actualDone": true, "doneAt": "..." },
+            { "stage": 2, "planned": "2026-05-11", "actualDone": false, "doneAt": null },
+            ...
+          ]
+        }
     """
     today_items = []
     overdue_items = []
 
-    # assignments가 dict인지 list인지 판별
-    items = []
-    if isinstance(assignments, list):
-        items = assignments
-    elif isinstance(assignments, dict):
-        # {studentId: [...assignments]} 형식이거나 {id: assignment} 형식
-        if student_id in assignments:
-            val = assignments[student_id]
-            if isinstance(val, list):
-                items = val
-        else:
-            items = list(assignments.values())
+    if not isinstance(assignments, list):
+        return today_items, overdue_items
 
-    for item in items:
+    for item in assignments:
         if not isinstance(item, dict):
             continue
         # 학생 매칭
-        item_student = item.get('studentId') or item.get('student_id') or item.get('student')
-        if item_student and item_student != student_id:
+        if item.get('studentId') != student_id:
             continue
 
-        # 노트 주제/제목
-        subject = (
-            item.get('title') or item.get('subject') or item.get('topic')
-            or item.get('name') or '복습'
-        )
+        # 단원/주제 추출 (noteName에서 파싱)
+        note_name = item.get('noteName', '')
+        topic = parse_note_name(note_name, student_name)
 
-        # 복습 일정 추출 - 가능한 여러 스키마
-        # 1) schedules: [{round:1, date:'2025-...', done:false}, ...]
-        # 2) reviews: 같은 형식
-        # 3) round1Date, round2Date, ..., round1Done, ...
-        schedules = item.get('schedules') or item.get('reviews') or item.get('reviewSchedule')
+        # 복습 일정 추출
+        schedule = item.get('schedule')
+        if not isinstance(schedule, list):
+            continue
 
-        if isinstance(schedules, list):
-            for sch in schedules:
-                if not isinstance(sch, dict):
-                    continue
-                rnd = sch.get('round') or sch.get('number') or sch.get('n')
-                date_str = sch.get('date') or sch.get('scheduledDate') or sch.get('plannedDate')
-                done = sch.get('done') or sch.get('completed') or sch.get('finished')
-                if rnd is None or not date_str:
-                    continue
-                if rnd < 2:  # 2차부터만
-                    continue
-                if done:
-                    continue
-                d = parse_date_str(date_str)
-                if not d:
-                    continue
-                target = {'subject': subject, 'round': rnd}
-                if d == today:
-                    today_items.append(target)
-                elif d < today:
-                    overdue_items.append(target)
-        else:
-            # round1Date, round2Date... 형식
-            for n in range(2, 6):  # 2차 ~ 5차까지 지원
-                date_str = item.get(f'round{n}Date') or item.get(f'r{n}Date')
-                done = item.get(f'round{n}Done') or item.get(f'r{n}Done')
-                if not date_str:
-                    continue
-                if done:
-                    continue
-                d = parse_date_str(date_str)
-                if not d:
-                    continue
-                target = {'subject': subject, 'round': n}
-                if d == today:
-                    today_items.append(target)
-                elif d < today:
-                    overdue_items.append(target)
+        for sch in schedule:
+            if not isinstance(sch, dict):
+                continue
+            stage = sch.get('stage')
+            planned = sch.get('planned')
+            done = sch.get('actualDone')
+            
+            if stage is None or not planned:
+                continue
+            if stage < 2:  # 2차부터만
+                continue
+            if done:
+                continue
+            
+            d = parse_date_str(planned)
+            if not d:
+                continue
+            
+            target = {'subject': topic, 'round': stage, 'assignment_id': item.get('id')}
+            if d == today:
+                today_items.append(target)
+            elif d < today:
+                overdue_items.append(target)
 
     return today_items, overdue_items
 
@@ -325,7 +338,7 @@ def main():
             continue
 
         # 복습 대상 추출
-        today_items, overdue_items = extract_review_targets(sid, assignments, today)
+        today_items, overdue_items = extract_review_targets(sid, assignments, today, name)
 
         if not today_items and not overdue_items:
             continue  # 발송할 내용 없음

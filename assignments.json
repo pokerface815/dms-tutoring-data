@@ -151,8 +151,8 @@
       {
         "stage": 2,
         "planned": "2026-05-11",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-11T14:23:27.305Z"
       },
       {
         "stage": 3,
@@ -287,8 +287,8 @@
       {
         "stage": 2,
         "planned": "2026-05-11",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-11T14:23:28.939Z"
       },
       {
         "stage": 3,

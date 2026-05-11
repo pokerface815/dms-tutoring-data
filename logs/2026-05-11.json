@@ -75,5 +75,57 @@
         "result": "sent"
       }
     ]
+  },
+  {
+    "run_at": "2026-05-11T16:01:53.577213+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 4,
+      "failed": 0,
+      "total": 4
+    },
+    "entries": [
+      {
+        "student_id": "s_1777546978791_hsee5a",
+        "student_name": "김규림",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-2155",
+        "text_length": 48,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777546978791_hsee5a",
+        "student_name": "김규림",
+        "category": "today",
+        "recipient_type": "parent",
+        "to_number_masked": "010-****-7661",
+        "text_length": 53,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 50,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "today",
+        "recipient_type": "parent",
+        "to_number_masked": "010-****-7661",
+        "text_length": 53,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
   }
 ]

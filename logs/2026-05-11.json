@@ -43,5 +43,37 @@
         "text_preview": "[문대승t] 조예나 학생, 오늘 2차 복습 오답노트 1개 있어요.\n(사인법칙과 코사인법칙)"
       }
     ]
+  },
+  {
+    "run_at": "2026-05-11T15:26:10.143664+09:00",
+    "dry_run": false,
+    "test_mode": true,
+    "summary": {
+      "sent": 2,
+      "failed": 0,
+      "total": 2
+    },
+    "entries": [
+      {
+        "student_id": "s_1777546978791_hsee5a",
+        "student_name": "김규림",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-7661",
+        "text_length": 48,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-7661",
+        "text_length": 50,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
   }
 ]

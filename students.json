@@ -18,7 +18,7 @@
     "studentPhone": "010-6482-4837",
     "parentPhone": "010-9327-7661",
     "notifyStudent": true,
-    "notifyParent": false
+    "notifyParent": true
   },
   {
     "id": "s_1777546951753_p3pskl",

@@ -7,18 +7,10 @@
     "class": "토,일 6시",
     "memo": "",
     "days": [
-      "월",
-      "화",
       "수",
-      "목",
-      "금",
       "토",
       "일"
-    ],
-    "studentPhone": "010-6482-4837",
-    "parentPhone": "010-9327-7661",
-    "notifyStudent": true,
-    "notifyParent": true
+    ]
   },
   {
     "id": "s_1777546951753_p3pskl",
@@ -28,18 +20,10 @@
     "class": "토,일 6시",
     "memo": "",
     "days": [
-      "월",
-      "화",
       "수",
-      "목",
-      "금",
       "토",
       "일"
-    ],
-    "studentPhone": "010-2585-7708",
-    "parentPhone": "010-3823-7708",
-    "notifyStudent": true,
-    "notifyParent": false
+    ]
   },
   {
     "id": "s_1777546978791_hsee5a",
@@ -49,18 +33,10 @@
     "class": "토,일 6시",
     "memo": "",
     "days": [
-      "월",
-      "화",
       "수",
-      "목",
-      "금",
       "토",
       "일"
-    ],
-    "studentPhone": "010-6236-2155",
-    "parentPhone": "010-6309-2155",
-    "notifyStudent": true,
-    "notifyParent": false
+    ]
   },
   {
     "id": "s_1777547014208_7l30nn",
@@ -70,18 +46,10 @@
     "class": "토,일 6시",
     "memo": "",
     "days": [
-      "월",
-      "화",
       "수",
-      "목",
-      "금",
       "토",
       "일"
-    ],
-    "studentPhone": "010-8312-2591",
-    "parentPhone": "010-3715-2591",
-    "notifyStudent": true,
-    "notifyParent": false
+    ]
   },
   {
     "id": "s_1777547047005_uo92w5",
@@ -92,84 +60,8 @@
     "memo": "",
     "days": [
       "월",
-      "화",
       "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-2997-6145",
-    "parentPhone": "010-2703-5208",
-    "notifyStudent": true,
-    "notifyParent": false
-  },
-  {
-    "id": "s_1778325875686_1uoe4b",
-    "name": "이경주",
-    "school": "국제고",
-    "grade": "고2",
-    "class": "토,일 4시",
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ]
-  },
-  {
-    "id": "s_1778397156600_clkd2u",
-    "name": "서연준",
-    "school": "살레고",
-    "grade": "고2",
-    "class": "토,일 4시",
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ]
-  },
-  {
-    "id": "s_1778402500926_7fxigp",
-    "name": "정찬민",
-    "school": "살레고",
-    "grade": "고2",
-    "class": "토,일 6시",
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ]
-  },
-  {
-    "id": "s_1778404886523_0ag055",
-    "name": "박다인",
-    "school": "국제고",
-    "grade": "고2",
-    "class": "토,일 6시",
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
+      "토"
     ]
   }
 ]

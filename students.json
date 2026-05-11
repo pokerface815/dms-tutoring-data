@@ -58,9 +58,9 @@
       "일"
     ],
     "studentPhone": "010-6236-2155",
-    "parentPhone": "010-6309-2155",
+    "parentPhone": "010-9327-7661",
     "notifyStudent": true,
-    "notifyParent": false
+    "notifyParent": true
   },
   {
     "id": "s_1777547014208_7l30nn",

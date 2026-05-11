@@ -1,0 +1,64 @@
+name: Daily SMS Notification
+
+# 매일 KST 16:00 (UTC 07:00) 자동 실행 + 수동 실행 가능
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '드라이런 모드 (실제 발송 안 함)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+      test_only_to:
+        description: '테스트 모드: 이 번호로만 발송 (비워두면 전체 발송)'
+        required: false
+        default: ''
+        type: string
+
+jobs:
+  send-sms:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # logs/ 폴더에 커밋용
+    steps:
+      - name: 코드 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 환경 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 의존성 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: SMS 발송 스크립트 실행
+        env:
+          SOLAPI_API_KEY: ${{ secrets.SOLAPI_API_KEY }}
+          SOLAPI_API_SECRET: ${{ secrets.SOLAPI_API_SECRET }}
+          SOLAPI_SENDER: ${{ secrets.SOLAPI_SENDER }}
+          ACADEMY_NAME: ${{ vars.ACADEMY_NAME }}
+          ADMIN_PHONE: ${{ secrets.ADMIN_PHONE }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+          TEST_ONLY_TO: ${{ inputs.test_only_to || '' }}
+        run: python scripts/send_daily_sms.py
+
+      - name: 발송 로그 커밋
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain logs/ 2>/dev/null)" ]; then
+            git add logs/
+            git commit -m "Add SMS log $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "변경된 로그 없음"
+          fi

@@ -79,9 +79,9 @@
       "일"
     ],
     "studentPhone": "010-8312-2591",
-    "parentPhone": "010-3715-2591",
+    "parentPhone": "010-9327-7661",
     "notifyStudent": true,
-    "notifyParent": false
+    "notifyParent": true
   },
   {
     "id": "s_1777547047005_uo92w5",

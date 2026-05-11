@@ -100,9 +100,9 @@
       "일"
     ],
     "studentPhone": "010-2997-6145",
-    "parentPhone": "010-2703-5208",
+    "parentPhone": "010-9327-7661",
     "notifyStudent": true,
-    "notifyParent": false
+    "notifyParent": true
   },
   {
     "id": "s_1778325875686_1uoe4b",

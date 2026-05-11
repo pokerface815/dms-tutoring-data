@@ -1,0 +1,451 @@
+"""
+오답노트 복습 알림 SMS 자동 발송 스크립트
+=====================================
+
+매일 KST 16:00 GitHub Actions cron에 의해 실행됩니다.
+
+발송 규칙:
+- 2차 이상 복습 일정만 대상 (1차는 수업 중에 처리되므로 알림 X)
+- 오늘 예정 복습 → "오늘 복습" 알림
+- 밀린 복습 (지난 일정 + 미완료) → "밀린 복습" 별도 알림
+- 학생/학부모 각각 ON일 때만 발송, 번호 없으면 건너뜀
+
+환경변수 (GitHub Secrets/Variables):
+- SOLAPI_API_KEY      (secret) 솔라피 API Key
+- SOLAPI_API_SECRET   (secret) 솔라피 API Secret
+- SOLAPI_SENDER       (secret) 등록된 발신번호 (01000000000 형식)
+- ACADEMY_NAME        (var)    학원/과외명 ([이름] 접두어용, 예: '문대승수학')
+- ADMIN_PHONE         (secret) 관리자(본인) 휴대폰 - 오류 발생 시 알림용
+- DRY_RUN             (input)  'true'면 실제 발송 안 하고 콘솔에만 출력
+- TEST_ONLY_TO        (input)  이 번호가 설정되면 그 번호로만 발송 (테스트용)
+"""
+
+import json
+import os
+import sys
+import re
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+# ============================================================
+# 설정 및 상수
+# ============================================================
+
+# KST 타임존
+KST = timezone(timedelta(hours=9))
+
+# 발송 일일 한도 (무한루프/오버플로 방어)
+DAILY_SEND_LIMIT = 100
+
+# 메시지 호칭 변형 규칙
+# 학생용은 "민수야"/"민수 학생", 학부모용은 항상 "김민수 학생"
+
+REPO_ROOT = Path(__file__).parent.parent
+LOGS_DIR = REPO_ROOT / 'logs'
+
+
+# ============================================================
+# 데이터 로드
+# ============================================================
+
+def load_json(filename):
+    """repo 루트의 JSON 파일을 로드. 없으면 None."""
+    path = REPO_ROOT / filename
+    if not path.exists():
+        print(f"[WARN] {filename} 파일이 없습니다.")
+        return None
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"[ERROR] {filename} 로드 실패: {e}")
+        return None
+
+
+# ============================================================
+# 날짜 처리
+# ============================================================
+
+def today_kst_str():
+    """KST 기준 오늘 날짜 YYYY-MM-DD"""
+    return datetime.now(KST).strftime('%Y-%m-%d')
+
+
+def parse_date_str(s):
+    """YYYY-MM-DD 문자열을 date 객체로. 실패 시 None."""
+    if not s:
+        return None
+    try:
+        return datetime.strptime(s[:10], '%Y-%m-%d').date()
+    except Exception:
+        return None
+
+
+# ============================================================
+# 복습 대상 추출
+# ============================================================
+
+def extract_review_targets(student_id, assignments, today):
+    """
+    한 학생에 대해 (오늘 예정, 밀린 것) 두 리스트를 반환.
+    각 항목: {'subject': '이차함수', 'round': 2}
+    
+    assignments는 학생별 배정 데이터 구조에 따라 파싱.
+    여러 가능한 스키마를 시도 (현재 시스템 + 향후 변경 대응).
+    """
+    today_items = []
+    overdue_items = []
+
+    # assignments가 dict인지 list인지 판별
+    items = []
+    if isinstance(assignments, list):
+        items = assignments
+    elif isinstance(assignments, dict):
+        # {studentId: [...assignments]} 형식이거나 {id: assignment} 형식
+        if student_id in assignments:
+            val = assignments[student_id]
+            if isinstance(val, list):
+                items = val
+        else:
+            items = list(assignments.values())
+
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        # 학생 매칭
+        item_student = item.get('studentId') or item.get('student_id') or item.get('student')
+        if item_student and item_student != student_id:
+            continue
+
+        # 노트 주제/제목
+        subject = (
+            item.get('title') or item.get('subject') or item.get('topic')
+            or item.get('name') or '복습'
+        )
+
+        # 복습 일정 추출 - 가능한 여러 스키마
+        # 1) schedules: [{round:1, date:'2025-...', done:false}, ...]
+        # 2) reviews: 같은 형식
+        # 3) round1Date, round2Date, ..., round1Done, ...
+        schedules = item.get('schedules') or item.get('reviews') or item.get('reviewSchedule')
+
+        if isinstance(schedules, list):
+            for sch in schedules:
+                if not isinstance(sch, dict):
+                    continue
+                rnd = sch.get('round') or sch.get('number') or sch.get('n')
+                date_str = sch.get('date') or sch.get('scheduledDate') or sch.get('plannedDate')
+                done = sch.get('done') or sch.get('completed') or sch.get('finished')
+                if rnd is None or not date_str:
+                    continue
+                if rnd < 2:  # 2차부터만
+                    continue
+                if done:
+                    continue
+                d = parse_date_str(date_str)
+                if not d:
+                    continue
+                target = {'subject': subject, 'round': rnd}
+                if d == today:
+                    today_items.append(target)
+                elif d < today:
+                    overdue_items.append(target)
+        else:
+            # round1Date, round2Date... 형식
+            for n in range(2, 6):  # 2차 ~ 5차까지 지원
+                date_str = item.get(f'round{n}Date') or item.get(f'r{n}Date')
+                done = item.get(f'round{n}Done') or item.get(f'r{n}Done')
+                if not date_str:
+                    continue
+                if done:
+                    continue
+                d = parse_date_str(date_str)
+                if not d:
+                    continue
+                target = {'subject': subject, 'round': n}
+                if d == today:
+                    today_items.append(target)
+                elif d < today:
+                    overdue_items.append(target)
+
+    return today_items, overdue_items
+
+
+# ============================================================
+# 메시지 빌드
+# ============================================================
+
+def build_student_message(academy, name, items, is_overdue=False):
+    """
+    학생용 메시지 생성.
+    "민수 학생" 형식으로 호칭. (이름 첫 글자 빼고 부르는 야자 형태는 학생마다 어색할 수 있어서 일관성 유지)
+    """
+    count = len(items)
+    # 주제는 중복 제거 후 최대 3개까지만
+    subjects = []
+    for it in items:
+        s = it.get('subject', '')
+        if s and s not in subjects:
+            subjects.append(s)
+    subjects = subjects[:3]
+    subject_str = ', '.join(subjects) if subjects else ''
+
+    if is_overdue:
+        msg = f"[{academy}] {name} 학생, 밀린 복습 오답노트 {count}개 있어요. 챙겨서 진행해주세요!"
+    else:
+        # 2차/3차/혼합 표기
+        rounds = sorted(set(it.get('round', 2) for it in items))
+        if len(rounds) == 1:
+            round_label = f"{rounds[0]}차"
+        else:
+            round_label = "/".join(f"{r}차" for r in rounds)
+        msg = f"[{academy}] {name} 학생, 오늘 {round_label} 복습 오답노트 {count}개 있어요."
+        if subject_str:
+            msg += f"\n({subject_str})"
+    return msg
+
+
+def build_parent_message(academy, name, items, is_overdue=False):
+    """학부모용: 학원이 관리하고 있음을 알리는 보고형 문구."""
+    count = len(items)
+    if is_overdue:
+        msg = f"[{academy}] {name} 학생, 밀린 복습 오답노트 {count}개 있습니다. 학생에게 안내하였습니다."
+    else:
+        msg = f"[{academy}] {name} 학생이 오늘 복습할 오답노트는 {count}개이며, 학생에게 안내 문자 발송하였습니다."
+    return msg
+
+
+# ============================================================
+# 발송
+# ============================================================
+
+def normalize_phone(phone):
+    """전화번호에서 숫자만 남김. 빈 문자열이면 None."""
+    if not phone:
+        return None
+    digits = re.sub(r'[^0-9]', '', phone)
+    if not re.match(r'^01[016789][0-9]{7,8}$', digits):
+        return None
+    return digits
+
+
+def send_via_solapi(service, sender, to, text):
+    """솔라피 SDK로 메시지 1건 발송. 성공 시 True 리턴."""
+    try:
+        from solapi.model import RequestMessage
+        message = RequestMessage(
+            from_=sender,
+            to=to,
+            text=text,
+        )
+        response = service.send(message)
+        return True, None
+    except Exception as e:
+        return False, str(e)
+
+
+# ============================================================
+# 메인 로직
+# ============================================================
+
+def main():
+    print("=" * 60)
+    print(f"오답노트 SMS 알림 발송 시작 — {datetime.now(KST).isoformat()}")
+    print("=" * 60)
+
+    # 환경변수 읽기
+    api_key = os.environ.get('SOLAPI_API_KEY')
+    api_secret = os.environ.get('SOLAPI_API_SECRET')
+    sender = os.environ.get('SOLAPI_SENDER')
+    academy = os.environ.get('ACADEMY_NAME', '오답노트').strip()
+    admin_phone = normalize_phone(os.environ.get('ADMIN_PHONE'))
+    dry_run = os.environ.get('DRY_RUN', 'false').lower() == 'true'
+    test_only_to = normalize_phone(os.environ.get('TEST_ONLY_TO'))
+
+    # 환경변수 검증
+    missing = []
+    if not api_key: missing.append('SOLAPI_API_KEY')
+    if not api_secret: missing.append('SOLAPI_API_SECRET')
+    if not sender: missing.append('SOLAPI_SENDER')
+    if missing:
+        print(f"[ERROR] 필수 환경변수 누락: {', '.join(missing)}")
+        sys.exit(1)
+
+    sender_normalized = normalize_phone(sender) or sender
+
+    if dry_run:
+        print("[MODE] 드라이런 — 실제 발송 안 함")
+    if test_only_to:
+        print(f"[MODE] 테스트 모드 — {test_only_to} 번호로만 발송")
+
+    # 데이터 로드
+    students = load_json('students.json')
+    assignments = load_json('assignments.json')
+
+    if students is None:
+        print("[ERROR] students.json을 읽을 수 없습니다.")
+        sys.exit(1)
+    if assignments is None:
+        print("[WARN] assignments.json이 없습니다. 발송할 데이터가 없을 수 있습니다.")
+        assignments = []
+
+    today = datetime.now(KST).date()
+    print(f"[INFO] 오늘 날짜 (KST): {today}")
+    print(f"[INFO] 학생 수: {len(students)}")
+
+    # 솔라피 서비스 초기화 (드라이런 아닐 때만)
+    service = None
+    if not dry_run:
+        try:
+            from solapi import SolapiMessageService
+            service = SolapiMessageService(api_key=api_key, api_secret=api_secret)
+        except Exception as e:
+            print(f"[ERROR] 솔라피 SDK 초기화 실패: {e}")
+            sys.exit(1)
+
+    # 발송 로그
+    log_entries = []
+    sent_count = 0
+    failed_count = 0
+    skipped_count = 0
+
+    for student in students:
+        sid = student.get('id')
+        name = student.get('name', '').strip()
+        if not sid or not name:
+            continue
+
+        notify_student = bool(student.get('notifyStudent'))
+        notify_parent = bool(student.get('notifyParent'))
+        student_phone = normalize_phone(student.get('studentPhone'))
+        parent_phone = normalize_phone(student.get('parentPhone'))
+
+        # 알림이 모두 OFF면 스킵
+        if not notify_student and not notify_parent:
+            continue
+
+        # 복습 대상 추출
+        today_items, overdue_items = extract_review_targets(sid, assignments, today)
+
+        if not today_items and not overdue_items:
+            continue  # 발송할 내용 없음
+
+        print(f"\n[학생] {name} (id={sid})")
+        print(f"  오늘 예정: {len(today_items)}개, 밀린 것: {len(overdue_items)}개")
+
+        # 발송 계획
+        plans = []
+        if today_items:
+            if notify_student and student_phone:
+                plans.append(('today', 'student', student_phone, build_student_message(academy, name, today_items, False)))
+            elif notify_student and not student_phone:
+                print(f"  [SKIP] 학생 알림 ON이지만 번호 없음")
+            if notify_parent and parent_phone:
+                plans.append(('today', 'parent', parent_phone, build_parent_message(academy, name, today_items, False)))
+            elif notify_parent and not parent_phone:
+                print(f"  [SKIP] 학부모 알림 ON이지만 번호 없음")
+        if overdue_items:
+            if notify_student and student_phone:
+                plans.append(('overdue', 'student', student_phone, build_student_message(academy, name, overdue_items, True)))
+            if notify_parent and parent_phone:
+                plans.append(('overdue', 'parent', parent_phone, build_parent_message(academy, name, overdue_items, True)))
+
+        # 실제 발송
+        for category, recipient_type, to_number, text in plans:
+            # 일일 한도 체크
+            if sent_count + failed_count >= DAILY_SEND_LIMIT:
+                print(f"  [LIMIT] 일일 한도 {DAILY_SEND_LIMIT}건 도달, 발송 중단")
+                break
+
+            # 테스트 모드: test_only_to가 설정되어 있으면 그 번호로만
+            actual_to = test_only_to if test_only_to else to_number
+
+            entry = {
+                'student_id': sid,
+                'student_name': name,
+                'category': category,         # 'today' | 'overdue'
+                'recipient_type': recipient_type,  # 'student' | 'parent'
+                'to_number_masked': mask_phone(actual_to),
+                'text_length': len(text),
+                'dry_run': dry_run,
+            }
+
+            print(f"  → [{category}/{recipient_type}] to={mask_phone(actual_to)} text_len={len(text)}")
+
+            if dry_run:
+                entry['result'] = 'dry-run'
+                entry['text_preview'] = text
+                sent_count += 1  # 드라이런도 카운트 (한도 체크용)
+                log_entries.append(entry)
+                continue
+
+            ok, err = send_via_solapi(service, sender_normalized, actual_to, text)
+            if ok:
+                entry['result'] = 'sent'
+                sent_count += 1
+            else:
+                entry['result'] = 'failed'
+                entry['error'] = err
+                failed_count += 1
+                print(f"    [FAIL] {err}")
+            log_entries.append(entry)
+
+    # 결과 요약
+    print("\n" + "=" * 60)
+    print(f"발송 완료 — 성공 {sent_count}, 실패 {failed_count}")
+    print("=" * 60)
+
+    # 로그 파일 저장
+    save_log(today, log_entries, sent_count, failed_count, dry_run, test_only_to)
+
+    # 실패 다수 시 관리자 알림
+    if not dry_run and failed_count > 0 and admin_phone:
+        try:
+            from solapi.model import RequestMessage
+            alert = RequestMessage(
+                from_=sender_normalized,
+                to=admin_phone,
+                text=f"[알림시스템] {today} SMS 발송 중 {failed_count}건 실패. logs/ 확인 필요."
+            )
+            service.send(alert)
+            print(f"[INFO] 관리자에게 실패 알림 발송")
+        except Exception as e:
+            print(f"[WARN] 관리자 알림 발송 실패: {e}")
+
+
+def mask_phone(phone):
+    """전화번호 일부 마스킹 (로그 보안)"""
+    if not phone or len(phone) < 8:
+        return phone or ''
+    return phone[:3] + '-****-' + phone[-4:]
+
+
+def save_log(date, entries, sent, failed, dry_run, test_only_to):
+    """logs/YYYY-MM-DD.json에 저장"""
+    LOGS_DIR.mkdir(exist_ok=True)
+    filename = LOGS_DIR / f"{date}.json"
+    # 같은 날짜 파일이 있으면 append 모드
+    existing = []
+    if filename.exists():
+        try:
+            with open(filename, 'r', encoding='utf-8') as f:
+                existing = json.load(f)
+                if not isinstance(existing, list):
+                    existing = []
+        except Exception:
+            existing = []
+    run_data = {
+        'run_at': datetime.now(KST).isoformat(),
+        'dry_run': dry_run,
+        'test_mode': bool(test_only_to),
+        'summary': {'sent': sent, 'failed': failed, 'total': sent + failed},
+        'entries': entries,
+    }
+    existing.append(run_data)
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(existing, f, ensure_ascii=False, indent=2)
+    print(f"[LOG] 저장됨: {filename}")
+
+
+if __name__ == '__main__':
+    main()

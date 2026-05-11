@@ -153,7 +153,11 @@
       "금",
       "토",
       "일"
-    ]
+    ],
+    "studentPhone": "",
+    "parentPhone": "",
+    "notifyStudent": false,
+    "notifyParent": false
   },
   {
     "id": "s_1778404886523_0ag055",

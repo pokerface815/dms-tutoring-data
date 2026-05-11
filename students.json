@@ -37,9 +37,9 @@
       "일"
     ],
     "studentPhone": "010-2585-7708",
-    "parentPhone": "010-3823-7708",
+    "parentPhone": "010-9327-7661",
     "notifyStudent": true,
-    "notifyParent": false
+    "notifyParent": true
   },
   {
     "id": "s_1777546978791_hsee5a",

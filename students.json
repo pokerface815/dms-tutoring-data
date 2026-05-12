@@ -158,9 +158,9 @@
       "토",
       "일"
     ],
-    "studentPhone": "",
+    "studentPhone": "010-4894-3873",
     "parentPhone": "",
-    "notifyStudent": false,
+    "notifyStudent": true,
     "notifyParent": false
   },
   {

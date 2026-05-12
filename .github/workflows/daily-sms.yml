@@ -1,9 +1,7 @@
 name: Daily SMS Notification
 
-# 매일 KST 16:00 (UTC 07:00) 자동 실행 + 수동 실행 가능
+# 외부 cron(cron-job.org)에서 트리거됩니다. 수동 실행도 가능.
 on:
-  schedule:
-    - cron: '0 7 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

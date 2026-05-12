@@ -121,9 +121,9 @@
       "일"
     ],
     "studentPhone": "",
-    "parentPhone": "010-9327-7661",
+    "parentPhone": "",
     "notifyStudent": false,
-    "notifyParent": true
+    "notifyParent": false
   },
   {
     "id": "s_1778397156600_clkd2u",

@@ -165,7 +165,7 @@
     "studentPhone": "010-4894-3873",
     "parentPhone": "010-9327-7661",
     "notifyStudent": true,
-    "notifyParent": false
+    "notifyParent": true
   },
   {
     "id": "s_1778404886523_0ag055",

@@ -183,5 +183,26 @@
       "토",
       "일"
     ]
+  },
+  {
+    "id": "s_1778638262495_alq1jg",
+    "name": "이현승",
+    "school": "살레고",
+    "grade": "고2",
+    "class": "토,일 4시",
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-7654-9592",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false
   }
 ]

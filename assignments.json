@@ -338,5 +338,39 @@
       }
     ],
     "createdAt": "2026-05-11T14:30:42.286Z"
+  },
+  {
+    "id": "a_1778638358032_1cfx1z",
+    "noteId": "note_1778638095375_kzehjj",
+    "noteName": "이현승_자이스토리_삼각함수의 그래프( ~F115)",
+    "studentId": "s_1778638262495_alq1jg",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-14",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-10",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-13T02:12:38.032Z"
   }
 ]

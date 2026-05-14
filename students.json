@@ -142,9 +142,9 @@
       "일"
     ],
     "studentPhone": "010-2127-2159",
-    "parentPhone": "010-9327-7661",
+    "parentPhone": "",
     "notifyStudent": true,
-    "notifyParent": true
+    "notifyParent": false
   },
   {
     "id": "s_1778402500926_7fxigp",

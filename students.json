@@ -201,9 +201,9 @@
       "일"
     ],
     "studentPhone": "010-7654-9592",
-    "parentPhone": "",
+    "parentPhone": "010-9327-7661",
     "notifyStudent": true,
-    "notifyParent": false
+    "notifyParent": true
   },
   {
     "id": "s_1778768401651_7hlihp",

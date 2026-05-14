@@ -182,7 +182,11 @@
       "금",
       "토",
       "일"
-    ]
+    ],
+    "studentPhone": "010-3571-3505",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false
   },
   {
     "id": "s_1778638262495_alq1jg",

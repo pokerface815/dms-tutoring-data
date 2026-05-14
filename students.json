@@ -163,9 +163,9 @@
       "일"
     ],
     "studentPhone": "010-4894-3873",
-    "parentPhone": "010-9327-7661",
+    "parentPhone": "",
     "notifyStudent": true,
-    "notifyParent": true
+    "notifyParent": false
   },
   {
     "id": "s_1778404886523_0ag055",
@@ -201,9 +201,9 @@
       "일"
     ],
     "studentPhone": "010-7654-9592",
-    "parentPhone": "010-9327-7661",
+    "parentPhone": "",
     "notifyStudent": true,
-    "notifyParent": true
+    "notifyParent": false
   },
   {
     "id": "s_1778768401651_7hlihp",
@@ -222,8 +222,8 @@
       "일"
     ],
     "studentPhone": "010-2533-7613",
-    "parentPhone": "010-9327-7661",
+    "parentPhone": "",
     "notifyStudent": true,
-    "notifyParent": true
+    "notifyParent": false
   }
 ]

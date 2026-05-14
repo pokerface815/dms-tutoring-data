@@ -120,9 +120,9 @@
       "토",
       "일"
     ],
-    "studentPhone": "",
+    "studentPhone": "010-2626-1429",
     "parentPhone": "",
-    "notifyStudent": false,
+    "notifyStudent": true,
     "notifyParent": false
   },
   {

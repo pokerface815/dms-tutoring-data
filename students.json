@@ -222,8 +222,8 @@
       "일"
     ],
     "studentPhone": "010-2533-7613",
-    "parentPhone": "",
+    "parentPhone": "010-9327-7661",
     "notifyStudent": true,
-    "notifyParent": false
+    "notifyParent": true
   }
 ]

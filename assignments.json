@@ -372,39 +372,5 @@
       }
     ],
     "createdAt": "2026-05-13T02:12:38.032Z"
-  },
-  {
-    "id": "a_1778768478649_fdm6hi",
-    "noteId": "note_1778768355801_12n0lr",
-    "noteName": "김현민_자이스토리_삼각함수의 그래프( ~F165)",
-    "studentId": "s_1778768401651_7hlihp",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-05-16",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-05-17",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 3,
-        "planned": "2026-05-23",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 4,
-        "planned": "2026-06-13",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-05-14T14:21:18.649Z"
   }
 ]

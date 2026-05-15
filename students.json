@@ -229,5 +229,26 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false
+  },
+  {
+    "id": "s_1778849219765_v88lqq",
+    "name": "지유진",
+    "school": "문정여고",
+    "grade": "고2",
+    "class": "토,일 4시",
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-3621-4079",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false
   }
 ]

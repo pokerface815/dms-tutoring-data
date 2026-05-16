@@ -610,5 +610,39 @@
       }
     ],
     "createdAt": "2026-05-16T10:06:57.708Z"
+  },
+  {
+    "id": "a_1778926078603_csiw8v",
+    "noteId": "note_1778926068928_5vggkg",
+    "noteName": "박다인_수매씽 유형_삼각함수의 그래프( ~ 1376번)",
+    "studentId": "s_1778404886523_0ag055",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-16",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-18",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-06",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-16T10:07:58.603Z"
   }
 ]

@@ -576,5 +576,39 @@
       }
     ],
     "createdAt": "2026-05-16T07:22:28.104Z"
+  },
+  {
+    "id": "a_1778926017708_ls6p14",
+    "noteId": "note_1778926008532_2ok4qf",
+    "noteName": "김규림_개념루트_사인법칙과 코사인법칙( ~ 595번)",
+    "studentId": "s_1777546978791_hsee5a",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-16",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-18",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-06",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-16T10:06:57.708Z"
   }
 ]

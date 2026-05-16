@@ -474,5 +474,39 @@
       }
     ],
     "createdAt": "2026-05-16T04:57:00.589Z"
+  },
+  {
+    "id": "a_1778908306804_awswgq",
+    "noteId": "note_1778908233915_7aroa4",
+    "noteName": "서은영_마더텅_삼각함수의 활용( ~70번)",
+    "studentId": "s_1778908285779_1cmzde",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-16",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-18",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-06",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-16T05:11:46.804Z"
   }
 ]

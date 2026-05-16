@@ -678,5 +678,39 @@
       }
     ],
     "createdAt": "2026-05-16T12:35:22.832Z"
+  },
+  {
+    "id": "a_1778934945766_23vi3p",
+    "noteId": "note_1778916137282_ozt8eb",
+    "noteName": "정찬민_개념루트_삼각함수의 그래프( ~500번)",
+    "studentId": "s_1778638262495_alq1jg",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-16",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-18",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-06",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-16T12:35:45.766Z"
   }
 ]

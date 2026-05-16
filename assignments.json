@@ -508,5 +508,39 @@
       }
     ],
     "createdAt": "2026-05-16T05:11:46.804Z"
+  },
+  {
+    "id": "a_1778915661771_axjpq8",
+    "noteId": "note_1778915645930_ci0smq",
+    "noteName": "서연준_개념루트_사이법칙( ~ 547번)",
+    "studentId": "s_1778397156600_clkd2u",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-16",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-18",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-06",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-16T07:14:21.771Z"
   }
 ]

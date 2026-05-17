@@ -678,5 +678,39 @@
       }
     ],
     "createdAt": "2026-05-17T08:08:52.752Z"
+  },
+  {
+    "id": "a_1779008218684_q2cybr",
+    "noteId": "note_1779008199692_wc83br",
+    "noteName": "김시현_수매씽 유형_삼각함수의 활용( ~ 1468번)",
+    "studentId": "s_1779005266373_7iq1b8",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-17",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-24",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-07",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-17T08:56:58.685Z"
   }
 ]

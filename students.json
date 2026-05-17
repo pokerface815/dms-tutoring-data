@@ -271,5 +271,26 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false
+  },
+  {
+    "id": "s_1779005266373_7iq1b8",
+    "name": "김시현",
+    "school": "국제고",
+    "grade": "고2",
+    "class": "토,일 4시",
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-6227-9746",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false
   }
 ]

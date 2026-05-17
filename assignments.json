@@ -1,73 +1,5 @@
 [
   {
-    "id": "a_1778325826503_xen1ox",
-    "noteId": "note_1778325094139_hwqplo",
-    "noteName": "송유림_개념루트_삼각함수의 그래프",
-    "studentId": "s_1777538277049_9le2r7",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-05-09",
-        "actualDone": true,
-        "doneAt": "2026-05-10T00:56:15.423Z"
-      },
-      {
-        "stage": 2,
-        "planned": "2026-05-13",
-        "actualDone": true,
-        "doneAt": "2026-05-14T14:20:45.687Z"
-      },
-      {
-        "stage": 3,
-        "planned": "2026-05-20",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 4,
-        "planned": "2026-06-06",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-05-09T11:23:46.503Z"
-  },
-  {
-    "id": "a_1778325841647_2ml3ux",
-    "noteId": "note_1778325152169_l8i7n3",
-    "noteName": "송유림_수학의 바이블 유형ON 1권_삼각함수의 그래프",
-    "studentId": "s_1777538277049_9le2r7",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-05-09",
-        "actualDone": true,
-        "doneAt": "2026-05-10T00:56:16.482Z"
-      },
-      {
-        "stage": 2,
-        "planned": "2026-05-13",
-        "actualDone": true,
-        "doneAt": "2026-05-14T14:20:46.615Z"
-      },
-      {
-        "stage": 3,
-        "planned": "2026-05-20",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 4,
-        "planned": "2026-06-06",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-05-09T11:24:01.647Z"
-  },
-  {
     "id": "a_1778325853565_sgfuqf",
     "noteId": "note_1778325043481_hhcxyr",
     "noteName": "박다윤_마더텅_삼각함수의 활용",
@@ -442,40 +374,6 @@
     "createdAt": "2026-05-15T12:47:32.765Z"
   },
   {
-    "id": "a_1778907420589_at0it3",
-    "noteId": "note_1778907396128_dmjzs6",
-    "noteName": "송유림_수학의 바이블 유형ON 1권_삼각형의 그래프( ~ 677번)",
-    "studentId": "s_1777538277049_9le2r7",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-05-16",
-        "actualDone": true,
-        "doneAt": "2026-05-17T08:09:12.767Z"
-      },
-      {
-        "stage": 2,
-        "planned": "2026-05-18",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 3,
-        "planned": "2026-05-23",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 4,
-        "planned": "2026-06-06",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-05-16T04:57:00.589Z"
-  },
-  {
     "id": "a_1778908306804_awswgq",
     "noteId": "note_1778908233915_7aroa4",
     "noteName": "서은영_마더텅_삼각함수의 활용( ~70번)",
@@ -712,40 +610,6 @@
       }
     ],
     "createdAt": "2026-05-17T08:56:58.685Z"
-  },
-  {
-    "id": "a_1779012107989_wsvhfw",
-    "noteId": "note_1779012094147_6hnqfo",
-    "noteName": "송유림_수학의 바이블 유형ON 1권_삼각함수의 그래프(part C)",
-    "studentId": "s_1777538277049_9le2r7",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-05-17",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-05-19",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 3,
-        "planned": "2026-05-24",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 4,
-        "planned": "2026-06-07",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-05-17T10:01:47.989Z"
   },
   {
     "id": "a_1779012339753_dsrd3v",

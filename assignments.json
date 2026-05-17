@@ -383,8 +383,8 @@
       {
         "stage": 1,
         "planned": "2026-05-16",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-17T08:09:11.834Z"
       },
       {
         "stage": 2,
@@ -417,8 +417,8 @@
       {
         "stage": 1,
         "planned": "2026-05-16",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-17T08:09:12.352Z"
       },
       {
         "stage": 2,
@@ -451,8 +451,8 @@
       {
         "stage": 1,
         "planned": "2026-05-16",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-17T08:09:12.767Z"
       },
       {
         "stage": 2,
@@ -485,8 +485,8 @@
       {
         "stage": 1,
         "planned": "2026-05-16",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-17T08:09:13.256Z"
       },
       {
         "stage": 2,
@@ -519,8 +519,8 @@
       {
         "stage": 1,
         "planned": "2026-05-16",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-17T08:09:13.755Z"
       },
       {
         "stage": 2,
@@ -553,8 +553,8 @@
       {
         "stage": 1,
         "planned": "2026-05-16",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-17T08:09:14.447Z"
       },
       {
         "stage": 2,
@@ -587,8 +587,8 @@
       {
         "stage": 1,
         "planned": "2026-05-16",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-17T08:09:15.017Z"
       },
       {
         "stage": 2,
@@ -621,8 +621,8 @@
       {
         "stage": 1,
         "planned": "2026-05-16",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-17T08:09:17.000Z"
       },
       {
         "stage": 2,
@@ -655,14 +655,14 @@
       {
         "stage": 1,
         "planned": "2026-05-10",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-17T08:09:18.550Z"
       },
       {
         "stage": 2,
         "planned": "2026-05-12",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-17T08:09:19.649Z"
       },
       {
         "stage": 3,

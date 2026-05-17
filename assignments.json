@@ -678,5 +678,39 @@
       }
     ],
     "createdAt": "2026-05-17T10:57:17.718Z"
+  },
+  {
+    "id": "a_1779016655790_78wtrl",
+    "noteId": "note_1779016635717_6yrdsf",
+    "noteName": "박다윤_마더텅_삼각함수의 활용( ~ 73번)",
+    "studentId": "s_1777547014208_7l30nn",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-17",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-24",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-07",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-17T11:17:35.790Z"
   }
 ]

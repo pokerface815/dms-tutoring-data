@@ -644,5 +644,39 @@
       }
     ],
     "createdAt": "2026-05-16T10:07:58.603Z"
+  },
+  {
+    "id": "a_1779005332752_2a4093",
+    "noteId": "note_1778401612188_5m405v",
+    "noteName": "김시현_수매씽 유형_06. 삼각함수의 그래프",
+    "studentId": "s_1779005266373_7iq1b8",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-10",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-12",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-17",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-05-31",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-17T08:08:52.752Z"
   }
 ]

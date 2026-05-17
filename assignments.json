@@ -712,5 +712,39 @@
       }
     ],
     "createdAt": "2026-05-17T11:17:35.790Z"
+  },
+  {
+    "id": "a_1779021918098_361mo6",
+    "noteId": "note_1779021908936_jpucgo",
+    "noteName": "김채린_수학의 바이블 유형ON 1권_삼각함수의 그래프( ~621번)",
+    "studentId": "s_1777546951753_p3pskl",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-17",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-24",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-07",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-17T12:45:18.098Z"
   }
 ]

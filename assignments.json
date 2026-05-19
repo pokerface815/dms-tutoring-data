@@ -780,5 +780,39 @@
       }
     ],
     "createdAt": "2026-05-18T14:42:56.279Z"
+  },
+  {
+    "id": "a_1779199815812_kc9oc2",
+    "noteId": "note_1779199800817_wfsg04",
+    "noteName": "이경주_개념루트_삼각함수의 그래프( ~521번)",
+    "studentId": "s_1778325875686_1uoe4b",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-27",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-10",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-19T14:10:15.812Z"
   }
 ]

@@ -882,5 +882,39 @@
       }
     ],
     "createdAt": "2026-05-20T14:32:39.980Z"
+  },
+  {
+    "id": "a_1779295686560_srnrbc",
+    "noteId": "note_1779295675992_uy9kbi",
+    "noteName": "이경주_수매씽 유형_등차수열( ~1793번)",
+    "studentId": "s_1778325875686_1uoe4b",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-21",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-28",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-11",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-20T16:48:06.560Z"
   }
 ]

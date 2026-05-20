@@ -848,5 +848,39 @@
       }
     ],
     "createdAt": "2026-05-20T12:59:20.451Z"
+  },
+  {
+    "id": "a_1779287559980_ge3q7f",
+    "noteId": "note_1779287550530_ft109a",
+    "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙(고난도 4,5,6번)",
+    "studentId": "s_1777547047005_uo92w5",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-27",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-10",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-20T14:32:39.980Z"
   }
 ]

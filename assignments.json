@@ -34,40 +34,6 @@
     "createdAt": "2026-05-09T11:24:13.565Z"
   },
   {
-    "id": "a_1778325905427_ko4o2t",
-    "noteId": "note_1778311316525_0abwkq",
-    "noteName": "이경주_수매씽 유형_06.삼각함수의 그래프",
-    "studentId": "s_1778325875686_1uoe4b",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-05-09",
-        "actualDone": true,
-        "doneAt": "2026-05-10T00:56:18.591Z"
-      },
-      {
-        "stage": 2,
-        "planned": "2026-05-13",
-        "actualDone": true,
-        "doneAt": "2026-05-13T10:27:25.552Z"
-      },
-      {
-        "stage": 3,
-        "planned": "2026-05-20",
-        "actualDone": true,
-        "doneAt": "2026-05-20T11:46:09.149Z"
-      },
-      {
-        "stage": 4,
-        "planned": "2026-06-06",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-05-09T11:25:05.427Z"
-  },
-  {
     "id": "a_1778384022946_9m9pgb",
     "noteId": "note_1778384007762_cl8bxj",
     "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
@@ -882,40 +848,6 @@
       }
     ],
     "createdAt": "2026-05-20T14:32:39.980Z"
-  },
-  {
-    "id": "a_1779295686560_srnrbc",
-    "noteId": "note_1779295675992_uy9kbi",
-    "noteName": "이경주_수매씽 유형_등차수열( ~1793번)",
-    "studentId": "s_1778325875686_1uoe4b",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-05-21",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-05-23",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 3,
-        "planned": "2026-05-28",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 4,
-        "planned": "2026-06-11",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-05-20T16:48:06.560Z"
   },
   {
     "id": "a_1779296270419_vfwqcd",

@@ -55,8 +55,8 @@
       {
         "stage": 3,
         "planned": "2026-05-20",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-20T11:46:09.149Z"
       },
       {
         "stage": 4,
@@ -293,8 +293,8 @@
       {
         "stage": 3,
         "planned": "2026-05-20",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-20T11:46:07.969Z"
       },
       {
         "stage": 4,
@@ -814,5 +814,39 @@
       }
     ],
     "createdAt": "2026-05-19T14:10:15.812Z"
+  },
+  {
+    "id": "a_1779281960451_f7td1x",
+    "noteId": "note_1779281947202_sl7ljk",
+    "noteName": "송유림_종합 오답노트 (2개 합본 · 2026-05-20)",
+    "studentId": "s_1777538277049_9le2r7",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-27",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-10",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-20T12:59:20.451Z"
   }
 ]

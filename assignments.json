@@ -916,5 +916,39 @@
       }
     ],
     "createdAt": "2026-05-23T06:57:46.437Z"
+  },
+  {
+    "id": "a_1779522836564_0qh9aq",
+    "noteId": "note_1779522825795_2ftojj",
+    "noteName": "서연준_개념루트_등차수열과 등비수열(~678번)",
+    "studentId": "s_1778397156600_clkd2u",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-25",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-30",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-13",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-23T07:53:56.564Z"
   }
 ]

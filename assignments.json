@@ -950,5 +950,39 @@
       }
     ],
     "createdAt": "2026-05-23T07:53:56.564Z"
+  },
+  {
+    "id": "a_1779527476621_8ztsaj",
+    "noteId": "note_1779527447593_frfccp",
+    "noteName": "박다인_수매씽 유형_삼각함수의 활용(~1546번)",
+    "studentId": "s_1778404886523_0ag055",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-25",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-30",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-13",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-23T09:11:16.621Z"
   }
 ]

@@ -882,5 +882,39 @@
       }
     ],
     "createdAt": "2026-05-20T17:01:08.841Z"
+  },
+  {
+    "id": "a_1779519466437_4zcqh7",
+    "noteId": "note_1779519455027_vno8s4",
+    "noteName": "지유진_올림포스 유형편_등차수열과 등비수열",
+    "studentId": "s_1778849219765_v88lqq",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-25",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-30",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-13",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-23T06:57:46.437Z"
   }
 ]

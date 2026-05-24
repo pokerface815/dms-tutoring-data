@@ -1120,5 +1120,39 @@
       }
     ],
     "createdAt": "2026-05-24T10:57:31.071Z"
+  },
+  {
+    "id": "a_1779628229457_kpp0ll",
+    "noteId": "note_1779628166350_lybkhs",
+    "noteName": "박현우_개념루트_삼각함수의 그래프( ~486번)",
+    "studentId": "s_1779628208770_oahez9",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-24",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-31",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-14",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-24T13:10:29.457Z"
   }
 ]

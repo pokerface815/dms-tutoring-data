@@ -1052,5 +1052,39 @@
       }
     ],
     "createdAt": "2026-05-24T08:26:50.724Z"
+  },
+  {
+    "id": "a_1779614518153_8fgga4",
+    "noteId": "note_1779614503376_tk3naz",
+    "noteName": "정찬민_개념루트_사인법칙과 코사인법칙( ~591번)",
+    "studentId": "s_1778402500926_7fxigp",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-24",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-31",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-14",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-24T09:21:58.153Z"
   }
 ]

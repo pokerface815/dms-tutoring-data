@@ -996,7 +996,7 @@
         "stage": 1,
         "planned": "2026-05-23",
         "actualDone": true,
-        "doneAt": "2026-05-23T14:47:50.210Z"
+        "doneAt": "2026-05-24T08:32:36.174Z"
       },
       {
         "stage": 2,
@@ -1018,5 +1018,39 @@
       }
     ],
     "createdAt": "2026-05-23T13:29:18.590Z"
+  },
+  {
+    "id": "a_1779611210724_3z5dhl",
+    "noteId": "note_1779611201534_yd0a0o",
+    "noteName": "이경주_수매씽 유형_등비수열( ~1993번)",
+    "studentId": "s_1778325875686_1uoe4b",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-24",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-05-31",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-14",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-24T08:26:50.724Z"
   }
 ]

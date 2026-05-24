@@ -292,5 +292,26 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false
+  },
+  {
+    "id": "s_1779628208770_oahez9",
+    "name": "박현우",
+    "school": "살레고",
+    "grade": "고2",
+    "class": "토,일 4시",
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-9967-7009",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false
   }
 ]

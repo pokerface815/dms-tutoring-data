@@ -1063,8 +1063,8 @@
       {
         "stage": 1,
         "planned": "2026-05-24",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-24T09:25:22.898Z"
       },
       {
         "stage": 2,

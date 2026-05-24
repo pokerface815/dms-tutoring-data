@@ -175,7 +175,12 @@ def extract_review_targets(student_id, assignments, today, student_name=''):
             if not d:
                 continue
             
-            target = {'subject': topic, 'round': stage, 'assignment_id': item.get('id')}
+            target = {
+                'subject': topic,
+                'round': stage,
+                'assignment_id': item.get('id'),
+                'note_name': note_name,  # 학생용 메시지에 전체 노트명 표시
+            }
             if d == today:
                 today_items.append(target)
             elif d < today:
@@ -190,32 +195,23 @@ def extract_review_targets(student_id, assignments, today, student_name=''):
 
 def build_student_message(academy, name, items, is_overdue=False):
     """
-    학생용 메시지 생성.
-    "민수 학생" 형식으로 호칭. (이름 첫 글자 빼고 부르는 야자 형태는 학생마다 어색할 수 있어서 일관성 유지)
+    학생용 메시지 생성. 새 형식:
+    <오늘 복습할 오답노트>
+    "전체 노트명" {차수}차
+    "전체 노트명" {차수}차
+    ...
+    학원명 및 학생 이름 별도 표시 없음 (노트명에 학생명 포함).
+    노트 1개면 보통 SMS, 2개 이상이면 LMS 전환.
     """
-    count = len(items)
-    # 주제는 중복 제거 후 최대 3개까지만
-    subjects = []
+    header = "<밀린 복습 오답노트>" if is_overdue else "<오늘 복습할 오답노트>"
+    lines = [header]
     for it in items:
-        s = it.get('subject', '')
-        if s and s not in subjects:
-            subjects.append(s)
-    subjects = subjects[:3]
-    subject_str = ', '.join(subjects) if subjects else ''
-
-    if is_overdue:
-        msg = f"[{academy}] {name} 학생, 밀린 복습 오답노트 {count}개 있어요. 챙겨서 진행해주세요!"
-    else:
-        # 2차/3차/혼합 표기
-        rounds = sorted(set(it.get('round', 2) for it in items))
-        if len(rounds) == 1:
-            round_label = f"{rounds[0]}차"
-        else:
-            round_label = "/".join(f"{r}차" for r in rounds)
-        msg = f"[{academy}] {name} 학생, 오늘 {round_label} 복습 오답노트 {count}개 있어요."
-        if subject_str:
-            msg += f"\n({subject_str})"
-    return msg
+        note_name = it.get('note_name', '').strip()
+        if not note_name:
+            note_name = it.get('subject', '오답노트')  # 노트명 없으면 fallback
+        round_label = f"{it.get('round', 2)}차"
+        lines.append(f'"{note_name}" {round_label}')
+    return "\n".join(lines)
 
 
 def build_parent_message(academy, name, items, is_overdue=False):

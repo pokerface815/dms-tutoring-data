@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-26T13:10:43.636Z",
+  "student": {
+    "name": "서은영",
+    "school": "경신여고",
+    "grade": "고2",
+    "class": "토,일 2시"
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
+    {
+      "assignmentId": "a_1778908306804_awswgq",
+      "noteName": "서은영_마더텅_삼각함수의 활용( ~70번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-23",
+      "done": true,
+      "doneAt": "2026-05-23T12:48:03.601Z"
+    },
+    {
+      "assignmentId": "a_1778908306804_awswgq",
+      "noteName": "서은영_마더텅_삼각함수의 활용( ~70번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-18",
+      "done": true,
+      "doneAt": "2026-05-18T12:46:25.693Z"
+    },
+    {
+      "assignmentId": "a_1778908306804_awswgq",
+      "noteName": "서은영_마더텅_삼각함수의 활용( ~70번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-16",
+      "done": true,
+      "doneAt": "2026-05-17T08:09:13.256Z"
+    }
+  ],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  }
+}

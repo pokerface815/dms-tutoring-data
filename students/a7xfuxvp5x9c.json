@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-26T13:10:45.384Z",
+  "student": {
+    "name": "김시현",
+    "school": "국제고",
+    "grade": "고2",
+    "class": "토,일 4시"
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1779005332752_2a4093",
+      "noteName": "김시현_수매씽 유형_06. 삼각함수의 그래프",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-05-31",
+      "done": false,
+      "doneAt": null
+    }
+  ],
+  "completed": [
+    {
+      "assignmentId": "a_1779008218684_q2cybr",
+      "noteName": "김시현_수매씽 유형_삼각함수의 활용( ~ 1468번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-24",
+      "done": true,
+      "doneAt": "2026-05-24T08:33:01.924Z"
+    },
+    {
+      "assignmentId": "a_1779008218684_q2cybr",
+      "noteName": "김시현_수매씽 유형_삼각함수의 활용( ~ 1468번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-19",
+      "done": true,
+      "doneAt": "2026-05-19T16:10:30.694Z"
+    },
+    {
+      "assignmentId": "a_1779008218684_q2cybr",
+      "noteName": "김시현_수매씽 유형_삼각함수의 활용( ~ 1468번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-17",
+      "done": true,
+      "doneAt": "2026-05-17T13:17:14.930Z"
+    },
+    {
+      "assignmentId": "a_1779005332752_2a4093",
+      "noteName": "김시현_수매씽 유형_06. 삼각함수의 그래프",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-17",
+      "done": true,
+      "doneAt": "2026-05-17T13:17:13.212Z"
+    },
+    {
+      "assignmentId": "a_1779005332752_2a4093",
+      "noteName": "김시현_수매씽 유형_06. 삼각함수의 그래프",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-12",
+      "done": true,
+      "doneAt": "2026-05-17T08:09:19.649Z"
+    },
+    {
+      "assignmentId": "a_1779005332752_2a4093",
+      "noteName": "김시현_수매씽 유형_06. 삼각함수의 그래프",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-10",
+      "done": true,
+      "doneAt": "2026-05-17T08:09:18.550Z"
+    }
+  ],
+  "weekProgress": {
+    "total": 1,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  }
+}

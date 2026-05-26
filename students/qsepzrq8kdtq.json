@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-26T13:10:22.601Z",
+  "student": {
+    "name": "김채린",
+    "school": "숭일고",
+    "grade": "고2",
+    "class": "토,일 6시"
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
+    {
+      "assignmentId": "a_1779021918098_361mo6",
+      "noteName": "김채린_수학의 바이블 유형ON 1권_삼각함수의 그래프( ~621번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-24",
+      "done": true,
+      "doneAt": "2026-05-24T08:33:04.956Z"
+    },
+    {
+      "assignmentId": "a_1779021918098_361mo6",
+      "noteName": "김채린_수학의 바이블 유형ON 1권_삼각함수의 그래프( ~621번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-19",
+      "done": true,
+      "doneAt": "2026-05-19T16:10:35.909Z"
+    },
+    {
+      "assignmentId": "a_1779021918098_361mo6",
+      "noteName": "김채린_수학의 바이블 유형ON 1권_삼각함수의 그래프( ~621번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-17",
+      "done": true,
+      "doneAt": "2026-05-17T13:17:17.997Z"
+    }
+  ],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  }
+}

@@ -23,9 +23,11 @@
       --text3: #999;
       --accent: #8b5a2b;
       --accent-light: #c69856;
+      --accent-dark: #6b4520;
       --danger: #c0392b;
       --warning: #e8a23e;
       --success: #5d8a4a;
+      --info: #3498db;
       --radius: 12px;
     }
     html, body {
@@ -37,9 +39,8 @@
       min-height: 100vh;
       -webkit-font-smoothing: antialiased;
     }
-    .app { max-width: 600px; margin: 0 auto; padding: 0; }
+    .app { max-width: 600px; margin: 0 auto; padding: 0; padding-bottom: 60px; }
 
-    /* 헤더 */
     .header {
       padding: 24px 20px 16px;
       background: var(--surface);
@@ -48,202 +49,85 @@
       top: 0;
       z-index: 10;
     }
-    .header-brand {
-      font-family: 'Gowun Batang', serif;
-      font-size: 22px;
-      font-weight: 700;
-      color: var(--accent);
-      letter-spacing: -0.5px;
-      text-align: center;
-    }
-    .header-tagline {
-      font-family: 'Gowun Batang', serif;
-      font-size: 11px;
-      color: var(--text3);
-      text-align: center;
-      margin-top: 2px;
-    }
-    .student-info {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-top: 16px;
-      padding-top: 14px;
-      border-top: 0.5px solid var(--border);
-    }
-    .student-name {
-      font-size: 18px;
-      font-weight: 600;
-    }
-    .student-meta {
-      font-size: 12px;
-      color: var(--text3);
-    }
+    .header-brand { font-family: 'Gowun Batang', serif; font-size: 22px; font-weight: 700; color: var(--accent); letter-spacing: -0.5px; text-align: center; }
+    .header-tagline { font-family: 'Gowun Batang', serif; font-size: 11px; color: var(--text3); text-align: center; margin-top: 2px; }
+    .student-info { display: flex; justify-content: space-between; align-items: baseline; margin-top: 16px; padding-top: 14px; border-top: 0.5px solid var(--border); }
+    .student-name { font-size: 18px; font-weight: 600; }
+    .student-meta { font-size: 12px; color: var(--text3); }
 
-    /* 진도 카드 */
-    .progress-card {
-      margin: 16px 20px;
-      padding: 18px 20px;
-      background: var(--surface);
-      border-radius: var(--radius);
-      border: 0.5px solid var(--border);
-    }
-    .progress-title {
-      font-size: 13px;
-      color: var(--text2);
-      margin-bottom: 10px;
-    }
-    .progress-bar-bg {
-      width: 100%;
-      height: 10px;
-      background: var(--surface2);
-      border-radius: 5px;
-      overflow: hidden;
-      margin-bottom: 8px;
-    }
-    .progress-bar-fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--accent-light), var(--accent));
-      transition: width 0.5s;
-      border-radius: 5px;
-    }
-    .progress-text {
-      display: flex;
-      justify-content: space-between;
-      font-size: 12px;
-    }
+    .progress-card { margin: 16px 20px; padding: 18px 20px; background: var(--surface); border-radius: var(--radius); border: 0.5px solid var(--border); }
+    .progress-title { font-size: 13px; color: var(--text2); margin-bottom: 10px; }
+    .progress-bar-bg { width: 100%; height: 10px; background: var(--surface2); border-radius: 5px; overflow: hidden; margin-bottom: 8px; }
+    .progress-bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent-light), var(--accent)); transition: width 0.5s; border-radius: 5px; }
+    .progress-text { display: flex; justify-content: space-between; font-size: 12px; }
     .progress-percent { font-weight: 600; color: var(--accent); }
     .progress-detail { color: var(--text3); }
 
-    /* 섹션 */
     .section { margin: 20px 20px 0; }
-    .section-title {
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--text2);
-      margin-bottom: 10px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .section-count {
-      background: var(--surface2);
-      color: var(--text3);
-      padding: 1px 8px;
-      border-radius: 10px;
-      font-size: 11px;
-      font-weight: 500;
-    }
+    .section-title { font-size: 13px; font-weight: 600; color: var(--text2); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+    .section-count { background: var(--surface2); color: var(--text3); padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 500; }
     .section-count.today { background: #fcebd5; color: var(--accent); }
     .section-count.overdue { background: #fdd9d3; color: var(--danger); }
 
-    /* 노트 카드 */
-    .note-card {
-      background: var(--surface);
-      border-radius: var(--radius);
-      border: 0.5px solid var(--border);
-      padding: 14px 16px;
-      margin-bottom: 10px;
-      transition: transform 0.1s;
-    }
+    .note-card { background: var(--surface); border-radius: var(--radius); border: 0.5px solid var(--border); padding: 14px 16px; margin-bottom: 10px; }
     .note-card.today { border-left: 3px solid var(--accent); }
     .note-card.overdue { border-left: 3px solid var(--danger); background: #fdf7f5; }
-    .note-card.completed { opacity: 0.6; background: var(--surface2); }
-    .note-card-title {
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 1.4;
-      margin-bottom: 4px;
-      word-break: keep-all;
-    }
-    .note-card-meta {
-      font-size: 11px;
-      color: var(--text3);
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .note-card-round {
-      background: var(--accent);
-      color: white;
-      padding: 1px 7px;
-      border-radius: 8px;
-      font-size: 10px;
-      font-weight: 600;
-    }
+    .note-card.completed { opacity: 0.7; background: var(--surface2); }
+    .note-card.submitted { border-left: 3px solid var(--info); background: #f0f7fc; }
+    .note-card.confirmed { border-left: 3px solid var(--success); background: #f3f8f0; }
+    .note-card-title { font-size: 14px; font-weight: 500; line-height: 1.4; margin-bottom: 4px; word-break: keep-all; }
+    .note-card-meta { font-size: 11px; color: var(--text3); display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+    .note-card-round { background: var(--accent); color: white; padding: 1px 7px; border-radius: 8px; font-size: 10px; font-weight: 600; }
     .note-card-round.overdue { background: var(--danger); }
     .note-card-round.upcoming { background: var(--surface2); color: var(--text2); }
     .note-card-round.completed { background: var(--text3); }
-    .note-card-date {
-      font-size: 11px;
-      color: var(--text3);
-    }
+    .note-card-date { font-size: 11px; color: var(--text3); }
+    .note-card-status { font-size: 11px; font-weight: 500; padding: 1px 7px; border-radius: 8px; }
+    .note-card-status.submitted { background: var(--info); color: white; }
+    .note-card-status.confirmed { background: var(--success); color: white; }
 
-    /* 빈 상태 */
-    .empty-state {
-      text-align: center;
-      padding: 30px 20px;
-      color: var(--text3);
-      font-size: 13px;
-    }
+    .upload-area { margin-top: 12px; padding-top: 12px; border-top: 0.5px dashed var(--border); }
+    .upload-btn { width: 100%; padding: 10px 14px; background: var(--accent); color: white; border: none; border-radius: 8px; font-size: 13px; font-weight: 500; cursor: pointer; font-family: inherit; display: flex; align-items: center; justify-content: center; gap: 6px; }
+    .upload-btn:active { background: var(--accent-dark); }
+    .upload-btn:disabled { background: var(--text3); cursor: not-allowed; }
+    .upload-btn.secondary { background: var(--surface); color: var(--accent); border: 1px solid var(--accent-light); }
+    .upload-btn.secondary:active { background: var(--surface2); }
 
-    /* 로딩 */
-    .loading {
-      text-align: center;
-      padding: 60px 20px;
-      color: var(--text3);
-    }
-    .loading-spinner {
-      display: inline-block;
-      width: 32px;
-      height: 32px;
-      border: 3px solid var(--border);
-      border-top-color: var(--accent);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-    }
+    .photo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 10px; }
+    .photo-item { position: relative; aspect-ratio: 1; border-radius: 6px; overflow: hidden; background: var(--surface2); }
+    .photo-item img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .photo-item.uploading { opacity: 0.5; }
+    .photo-item .photo-spinner { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 24px; height: 24px; border: 2px solid white; border-top-color: transparent; border-radius: 50%; animation: spin 0.8s linear infinite; }
+    .photo-item .photo-delete { position: absolute; top: 4px; right: 4px; width: 22px; height: 22px; background: rgba(0, 0, 0, 0.6); color: white; border: none; border-radius: 50%; font-size: 14px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0; }
+    .photo-item .photo-delete:active { background: rgba(0, 0, 0, 0.8); }
+
+    .submit-status { font-size: 12px; color: var(--text2); margin-top: 8px; padding: 8px 10px; background: var(--surface2); border-radius: 6px; line-height: 1.5; }
+    .submit-status.success { background: #e8f3e0; color: var(--success); }
+    .submit-status.info { background: #e3eff8; color: var(--info); }
+
+    .empty-state { text-align: center; padding: 30px 20px; color: var(--text3); font-size: 13px; }
+
+    .loading { text-align: center; padding: 60px 20px; color: var(--text3); }
+    .loading-spinner { display: inline-block; width: 32px; height: 32px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* 에러 */
-    .error-state {
-      text-align: center;
-      padding: 60px 20px;
-    }
+    .error-state { text-align: center; padding: 60px 20px; }
     .error-icon { font-size: 48px; margin-bottom: 12px; }
-    .error-title {
-      font-size: 16px;
-      font-weight: 600;
-      margin-bottom: 8px;
-      color: var(--danger);
-    }
+    .error-title { font-size: 16px; font-weight: 600; margin-bottom: 8px; color: var(--danger); }
     .error-text { font-size: 13px; color: var(--text2); line-height: 1.6; }
 
-    /* 푸터 */
-    .footer {
-      text-align: center;
-      padding: 30px 20px 40px;
-      font-size: 11px;
-      color: var(--text3);
-    }
-    .refresh-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 8px 16px;
-      background: var(--surface);
-      border: 0.5px solid var(--border);
-      border-radius: 18px;
-      font-size: 12px;
-      color: var(--text2);
-      cursor: pointer;
-      margin-bottom: 10px;
-      font-family: inherit;
-    }
+    .footer { text-align: center; padding: 30px 20px 40px; font-size: 11px; color: var(--text3); }
+    .refresh-btn { display: inline-flex; align-items: center; gap: 4px; padding: 8px 16px; background: var(--surface); border: 0.5px solid var(--border); border-radius: 18px; font-size: 12px; color: var(--text2); cursor: pointer; margin-bottom: 10px; font-family: inherit; }
     .refresh-btn:active { background: var(--surface2); }
-    .last-updated {
-      display: block;
-      margin-top: 6px;
-    }
+    .last-updated { display: block; margin-top: 6px; }
+
+    .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.85); color: white; padding: 10px 18px; border-radius: 24px; font-size: 13px; z-index: 100; animation: toast-in 0.3s; max-width: 90vw; text-align: center; }
+    @keyframes toast-in { from { opacity: 0; transform: translate(-50%, 10px); } to { opacity: 1; transform: translate(-50%, 0); } }
+
+    .photo-viewer { position: fixed; inset: 0; background: rgba(0,0,0,0.92); z-index: 200; display: none; align-items: center; justify-content: center; padding: 20px; }
+    .photo-viewer.active { display: flex; }
+    .photo-viewer img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    .photo-viewer-close { position: fixed; top: 16px; right: 16px; width: 40px; height: 40px; background: rgba(255,255,255,0.9); border: none; border-radius: 50%; font-size: 22px; cursor: pointer; z-index: 201; }
   </style>
 </head>
 <body>
@@ -254,58 +138,70 @@
   </div>
 </div>
 
-<script>
-  // ===== 설정 =====
-  // 이 페이지가 호스팅된 GitHub repo의 raw 데이터 위치
-  // 같은 repo, 같은 branch에 있는 students/{code}.json을 읽음
-  const DATA_BASE = ''; // 같은 경로 기준 상대 URL
+<input type="file" id="photoInput" accept="image/*" multiple style="display:none;">
 
-  // ===== 메인 =====
+<div class="photo-viewer" id="photoViewer" onclick="closePhotoViewer()">
+  <button class="photo-viewer-close" onclick="closePhotoViewer()">×</button>
+  <img id="photoViewerImg" src="" alt="">
+</div>
+
+<script>
+  const CLOUDINARY_CLOUD_NAME = 'dyjtnb4he';
+  const CLOUDINARY_UPLOAD_PRESET = 'student_submissions';
+  const CLOUDINARY_UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`;
+
+  let studentCode = '';
+  let studentData = null;
+  let submissions = {};
+
   (async function() {
     const params = new URLSearchParams(window.location.search);
-    const code = (params.get('code') || '').trim();
+    studentCode = (params.get('code') || '').trim();
+    if (!studentCode) { renderError('학생 코드가 없습니다', '올바른 학생 URL로 접속해주세요.'); return; }
+    if (!/^[a-z0-9]{6,20}$/.test(studentCode)) { renderError('잘못된 학생 코드', '올바른 학생 URL로 접속해주세요.'); return; }
 
-    if (!code) {
-      renderError('학생 코드가 없습니다', '올바른 학생 URL로 접속해주세요.');
-      return;
-    }
-    // 코드 형식 간단 검증
-    if (!/^[a-z0-9]{6,20}$/.test(code)) {
-      renderError('잘못된 학생 코드', '올바른 학생 URL로 접속해주세요.');
-      return;
-    }
+    loadSubmissions();
 
     try {
-      // 캐시 방지를 위해 timestamp 추가
-      const url = `../students/${code}.json?t=${Date.now()}`;
+      const url = `../students/${studentCode}.json?t=${Date.now()}`;
       const res = await fetch(url, { cache: 'no-store' });
       if (!res.ok) {
-        if (res.status === 404) {
-          renderError('학생 페이지를 찾을 수 없습니다',
-            '학생 URL이 정확한지 확인해주세요.<br>문제가 계속되면 선생님께 문의하세요.');
-        } else {
-          renderError('데이터 로드 실패', `오류 코드: ${res.status}`);
-        }
+        if (res.status === 404) renderError('학생 페이지를 찾을 수 없습니다', '학생 URL이 정확한지 확인해주세요.<br>문제가 계속되면 선생님께 문의하세요.');
+        else renderError('데이터 로드 실패', `오류 코드: ${res.status}`);
         return;
       }
-      const data = await res.json();
-      renderPage(data);
+      studentData = await res.json();
+      renderPage();
     } catch (e) {
       console.error(e);
       renderError('네트워크 오류', '인터넷 연결을 확인해주세요.<br>' + e.message);
     }
   })();
 
-  // ===== 렌더링 =====
-  function renderPage(data) {
+  function loadSubmissions() {
+    try {
+      const raw = localStorage.getItem(`submissions_${studentCode}`);
+      submissions = raw ? JSON.parse(raw) : {};
+    } catch (e) { submissions = {}; }
+  }
+  function saveSubmissions() {
+    try { localStorage.setItem(`submissions_${studentCode}`, JSON.stringify(submissions)); } catch (e) {}
+  }
+  function getSubmission(assignmentId, round) {
+    return submissions[`${assignmentId}_${round}`] || { photos: [], submittedAt: null, confirmedAt: null };
+  }
+  function setSubmission(assignmentId, round, data) {
+    submissions[`${assignmentId}_${round}`] = data;
+    saveSubmissions();
+  }
+
+  function renderPage() {
+    const data = studentData;
     const app = document.getElementById('app');
     const s = data.student || {};
     const wp = data.weekProgress || { total: 0, done: 0, percent: 0 };
 
-    let html = '';
-
-    // 헤더
-    html += `
+    let html = `
       <div class="header">
         <div class="header-brand">기억의 설계</div>
         <div class="header-tagline">잊지 않게 만드는 수학 학습</div>
@@ -314,15 +210,9 @@
           <div class="student-meta">${escapeHtml([s.school, s.grade, s.class].filter(Boolean).join(' · '))}</div>
         </div>
       </div>
-    `;
-
-    // 진도 카드
-    html += `
       <div class="progress-card">
         <div class="progress-title">📊 이번 주 진행률</div>
-        <div class="progress-bar-bg">
-          <div class="progress-bar-fill" style="width:${wp.percent}%;"></div>
-        </div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${wp.percent}%;"></div></div>
         <div class="progress-text">
           <span class="progress-percent">${wp.percent}%</span>
           <span class="progress-detail">${wp.done} / ${wp.total} 완료 (${formatDateRange(wp.startDate, wp.endDate)})</span>
@@ -330,25 +220,11 @@
       </div>
     `;
 
-    // 오늘 할 일
-    html += renderSection('🔴 오늘 풀어야 할 노트', data.today || [], 'today', '오늘 풀 노트가 없어요. 잠깐 쉬는 날 ☺️');
+    html += renderSection('🔴 오늘 풀어야 할 노트', data.today || [], 'today', '오늘 풀 노트가 없어요. 잠깐 쉬는 날 ☺️', true);
+    if ((data.overdue || []).length > 0) html += renderSection('⚠️ 밀린 노트', data.overdue, 'overdue', '', true);
+    if ((data.upcoming || []).length > 0) html += renderSection('📅 이번 주 일정', data.upcoming, 'upcoming', '', false);
+    if ((data.completed || []).length > 0) html += renderSection('✅ 최근 완료한 노트', data.completed, 'completed', '', false);
 
-    // 밀린 노트
-    if ((data.overdue || []).length > 0) {
-      html += renderSection('⚠️ 밀린 노트', data.overdue, 'overdue', '');
-    }
-
-    // 다가올 일정
-    if ((data.upcoming || []).length > 0) {
-      html += renderSection('📅 이번 주 일정', data.upcoming, 'upcoming', '');
-    }
-
-    // 완료한 노트
-    if ((data.completed || []).length > 0) {
-      html += renderSection('✅ 최근 완료한 노트', data.completed, 'completed', '');
-    }
-
-    // 푸터
     const updatedTime = data.generatedAt ? new Date(data.generatedAt) : null;
     html += `
       <div class="footer">
@@ -356,50 +232,85 @@
         ${updatedTime ? `<span class="last-updated">마지막 업데이트: ${formatRelativeTime(updatedTime)}</span>` : ''}
       </div>
     `;
-
     app.innerHTML = html;
   }
 
-  function renderSection(title, items, type, emptyMsg) {
+  function renderSection(title, items, type, emptyMsg, allowUpload) {
+    let html = `<div class="section"><div class="section-title"><span>${title}</span>${items.length > 0 ? `<span class="section-count ${type}">${items.length}</span>` : ''}</div>`;
+    if (items.length === 0) html += `<div class="empty-state">${emptyMsg}</div>`;
+    else for (const item of items) html += renderNoteCard(item, type, allowUpload);
+    html += '</div>';
+    return html;
+  }
+
+  function renderNoteCard(item, type, allowUpload) {
+    const sub = getSubmission(item.assignmentId, item.round);
+    const isSubmitted = sub.photos && sub.photos.length > 0;
+    const isConfirmed = !!sub.confirmedAt;
+    let cardClass = type;
+    if (isConfirmed) cardClass = 'confirmed';
+    else if (isSubmitted) cardClass = 'submitted';
+    const roundClass = type === 'completed' ? 'completed' : (type === 'overdue' ? 'overdue' : (type === 'upcoming' ? 'upcoming' : ''));
+    const dateDisplay = type === 'today' ? '오늘' : type === 'overdue' ? formatOverdueDate(item.plannedDate) : type === 'upcoming' ? formatUpcomingDate(item.plannedDate) : type === 'completed' ? (item.doneAt ? formatCompletedDate(item.doneAt) : '') : '';
+    let statusBadge = '';
+    if (isConfirmed) statusBadge = '<span class="note-card-status confirmed">✓ 확인됨</span>';
+    else if (isSubmitted) statusBadge = '<span class="note-card-status submitted">⏳ 확인 대기</span>';
+
     let html = `
-      <div class="section">
-        <div class="section-title">
-          <span>${title}</span>
-          ${items.length > 0 ? `<span class="section-count ${type}">${items.length}</span>` : ''}
+      <div class="note-card ${cardClass}">
+        <div class="note-card-title">${escapeHtml(item.noteName || '오답노트')}</div>
+        <div class="note-card-meta">
+          <span class="note-card-round ${roundClass}">${item.round}차</span>
+          <span class="note-card-date">${dateDisplay}</span>
+          ${statusBadge}
         </div>
     `;
-    if (items.length === 0) {
-      html += `<div class="empty-state">${emptyMsg}</div>`;
-    } else {
-      for (const item of items) {
-        html += renderNoteCard(item, type);
+    if (allowUpload && type !== 'completed' && !isConfirmed) html += renderUploadArea(item, sub);
+    else if (isSubmitted) html += renderSubmittedPhotos(item, sub);
+    html += '</div>';
+    return html;
+  }
+
+  function renderUploadArea(item, sub) {
+    const photos = sub.photos || [];
+    let html = '<div class="upload-area">';
+    if (photos.length > 0) {
+      html += '<div class="photo-grid">';
+      for (let i = 0; i < photos.length; i++) {
+        const p = photos[i];
+        if (p.uploading) {
+          html += `<div class="photo-item uploading"><div class="photo-spinner"></div></div>`;
+        } else {
+          html += `<div class="photo-item"><img src="${p.url}" alt="" onclick="openPhotoViewer('${p.url}')"><button class="photo-delete" onclick="deletePhoto('${item.assignmentId}', ${item.round}, ${i})" title="삭제">×</button></div>`;
+        }
       }
+      html += '</div>';
+    }
+    if (photos.length === 0) {
+      html += `<button class="upload-btn" onclick="selectPhotos('${item.assignmentId}', ${item.round})">📷 다 풀었어요! 사진 올리기</button>`;
+    } else {
+      html += `
+        <button class="upload-btn secondary" onclick="selectPhotos('${item.assignmentId}', ${item.round})">+ 사진 더 추가</button>
+        <div class="submit-status info">⏳ ${photos.filter(p => !p.uploading).length}장 제출 완료. 선생님 확인 전엔 추가/삭제 가능합니다.</div>
+      `;
     }
     html += '</div>';
     return html;
   }
 
-  function renderNoteCard(item, type) {
-    const roundClass = type === 'completed' ? 'completed' : (type === 'overdue' ? 'overdue' : (type === 'upcoming' ? 'upcoming' : ''));
-    const dateDisplay = type === 'today' ? '오늘' :
-                        type === 'overdue' ? formatOverdueDate(item.plannedDate) :
-                        type === 'upcoming' ? formatUpcomingDate(item.plannedDate) :
-                        type === 'completed' ? (item.doneAt ? formatCompletedDate(item.doneAt) : '') : '';
-
-    return `
-      <div class="note-card ${type}">
-        <div class="note-card-title">${escapeHtml(item.noteName || '오답노트')}</div>
-        <div class="note-card-meta">
-          <span class="note-card-round ${roundClass}">${item.round}차</span>
-          <span class="note-card-date">${dateDisplay}</span>
-        </div>
-      </div>
-    `;
+  function renderSubmittedPhotos(item, sub) {
+    const photos = sub.photos || [];
+    if (photos.length === 0) return '';
+    let html = '<div class="upload-area"><div class="photo-grid">';
+    for (const p of photos) {
+      if (!p.uploading) html += `<div class="photo-item"><img src="${p.url}" alt="" onclick="openPhotoViewer('${p.url}')"></div>`;
+    }
+    html += '</div></div>';
+    return html;
   }
 
   function renderError(title, text) {
-    const app = document.getElementById('app');
-    app.innerHTML = `
+    document.getElementById('app').innerHTML = `
       <div class="header">
         <div class="header-brand">기억의 설계</div>
         <div class="header-tagline">잊지 않게 만드는 수학 학습</div>
@@ -412,58 +323,116 @@
     `;
   }
 
-  // ===== 유틸 =====
-  function escapeHtml(s) {
-    return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let pendingUploadContext = null;
+  function selectPhotos(assignmentId, round) {
+    pendingUploadContext = { assignmentId, round };
+    const input = document.getElementById('photoInput');
+    input.value = '';
+    input.click();
   }
 
-  function formatDateRange(start, end) {
-    if (!start || !end) return '';
-    const s = new Date(start), e = new Date(end);
-    return `${s.getMonth()+1}/${s.getDate()} ~ ${e.getMonth()+1}/${e.getDate()}`;
+  document.getElementById('photoInput').addEventListener('change', async (e) => {
+    const files = Array.from(e.target.files || []);
+    if (files.length === 0 || !pendingUploadContext) return;
+    const ctx = pendingUploadContext;
+    pendingUploadContext = null;
+    await uploadPhotos(ctx.assignmentId, ctx.round, files);
+  });
+
+  async function uploadPhotos(assignmentId, round, files) {
+    const sub = getSubmission(assignmentId, round);
+    const photos = sub.photos || [];
+    showToast(`📤 ${files.length}장 업로드 중...`);
+
+    const tempIds = [];
+    for (const _ of files) {
+      const tempId = 'temp_' + Date.now() + '_' + Math.random();
+      tempIds.push(tempId);
+      photos.push({ url: '', publicId: tempId, uploadedAt: new Date().toISOString(), uploading: true });
+    }
+    setSubmission(assignmentId, round, { ...sub, photos });
+    renderPage();
+
+    let successCount = 0;
+    for (let i = 0; i < files.length; i++) {
+      const file = files[i];
+      const tempId = tempIds[i];
+      try {
+        const result = await uploadToCloudinary(file, assignmentId, round);
+        const currentSub = getSubmission(assignmentId, round);
+        const currentPhotos = currentSub.photos || [];
+        const idx = currentPhotos.findIndex(p => p.publicId === tempId);
+        if (idx !== -1) {
+          currentPhotos[idx] = { url: result.secure_url, publicId: result.public_id, uploadedAt: new Date().toISOString() };
+          setSubmission(assignmentId, round, { ...currentSub, photos: currentPhotos, submittedAt: currentSub.submittedAt || new Date().toISOString() });
+          successCount++;
+        }
+      } catch (e) {
+        console.error('업로드 실패:', e);
+        const currentSub = getSubmission(assignmentId, round);
+        const currentPhotos = (currentSub.photos || []).filter(p => p.publicId !== tempId);
+        setSubmission(assignmentId, round, { ...currentSub, photos: currentPhotos });
+      }
+      renderPage();
+    }
+
+    if (successCount === files.length) showToast(`✅ ${successCount}장 업로드 완료`);
+    else if (successCount > 0) showToast(`⚠️ ${successCount}/${files.length}장만 성공 (일부 실패)`);
+    else showToast('❌ 업로드 실패. 인터넷 확인 후 다시 시도해주세요.', 4000);
   }
 
-  function formatOverdueDate(dateStr) {
-    const today = new Date();
-    today.setHours(0,0,0,0);
-    const d = new Date(dateStr);
-    const diffDays = Math.floor((today - d) / 86400000);
-    if (diffDays === 1) return '어제';
-    if (diffDays <= 7) return `${diffDays}일 전`;
-    return `${d.getMonth()+1}/${d.getDate()}`;
+  async function uploadToCloudinary(file, assignmentId, round) {
+    const formData = new FormData();
+    formData.append('file', file);
+    formData.append('upload_preset', CLOUDINARY_UPLOAD_PRESET);
+    formData.append('context', `student_code=${studentCode}|assignment_id=${assignmentId}|round=${round}|submitted_at=${new Date().toISOString()}`);
+    formData.append('tags', `student_${studentCode},assignment_${assignmentId},round_${round}`);
+    const res = await fetch(CLOUDINARY_UPLOAD_URL, { method: 'POST', body: formData });
+    if (!res.ok) {
+      const text = await res.text();
+      throw new Error(`Cloudinary 응답 오류 ${res.status}: ${text}`);
+    }
+    return await res.json();
   }
 
-  function formatUpcomingDate(dateStr) {
-    const today = new Date();
-    today.setHours(0,0,0,0);
-    const d = new Date(dateStr);
-    const diffDays = Math.floor((d - today) / 86400000);
-    const days = ['일','월','화','수','목','금','토'];
-    if (diffDays === 1) return '내일';
-    if (diffDays <= 6) return `${d.getMonth()+1}/${d.getDate()}(${days[d.getDay()]})`;
-    return `${d.getMonth()+1}/${d.getDate()}`;
+  async function deletePhoto(assignmentId, round, index) {
+    if (!confirm('이 사진을 삭제할까요?')) return;
+    const sub = getSubmission(assignmentId, round);
+    const photos = sub.photos || [];
+    if (index < 0 || index >= photos.length) return;
+    photos.splice(index, 1);
+    setSubmission(assignmentId, round, { ...sub, photos });
+    renderPage();
+    showToast('삭제됨');
   }
 
-  function formatCompletedDate(isoStr) {
-    const d = new Date(isoStr);
-    const today = new Date();
-    today.setHours(0,0,0,0);
-    d.setHours(0,0,0,0);
-    const diffDays = Math.floor((today - d) / 86400000);
-    if (diffDays === 0) return '오늘 완료';
-    if (diffDays === 1) return '어제 완료';
-    if (diffDays <= 7) return `${diffDays}일 전 완료`;
-    return `${d.getMonth()+1}/${d.getDate()} 완료`;
+  function openPhotoViewer(url) {
+    document.getElementById('photoViewerImg').src = url;
+    document.getElementById('photoViewer').classList.add('active');
+  }
+  function closePhotoViewer() {
+    document.getElementById('photoViewer').classList.remove('active');
+    document.getElementById('photoViewerImg').src = '';
   }
 
-  function formatRelativeTime(d) {
-    const now = new Date();
-    const diff = Math.floor((now - d) / 1000);
-    if (diff < 60) return '방금 전';
-    if (diff < 3600) return `${Math.floor(diff/60)}분 전`;
-    if (diff < 86400) return `${Math.floor(diff/3600)}시간 전`;
-    return `${Math.floor(diff/86400)}일 전`;
+  let toastTimer = null;
+  function showToast(msg, duration = 2500) {
+    const existing = document.querySelector('.toast');
+    if (existing) existing.remove();
+    if (toastTimer) clearTimeout(toastTimer);
+    const t = document.createElement('div');
+    t.className = 'toast';
+    t.textContent = msg;
+    document.body.appendChild(t);
+    toastTimer = setTimeout(() => t.remove(), duration);
   }
+
+  function escapeHtml(s) { return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+  function formatDateRange(start, end) { if (!start || !end) return ''; const s = new Date(start), e = new Date(end); return `${s.getMonth()+1}/${s.getDate()} ~ ${e.getMonth()+1}/${e.getDate()}`; }
+  function formatOverdueDate(dateStr) { const today = new Date(); today.setHours(0,0,0,0); const d = new Date(dateStr); const diffDays = Math.floor((today - d) / 86400000); if (diffDays === 1) return '어제'; if (diffDays <= 7) return `${diffDays}일 전`; return `${d.getMonth()+1}/${d.getDate()}`; }
+  function formatUpcomingDate(dateStr) { const today = new Date(); today.setHours(0,0,0,0); const d = new Date(dateStr); const diffDays = Math.floor((d - today) / 86400000); const days = ['일','월','화','수','목','금','토']; if (diffDays === 1) return '내일'; if (diffDays <= 6) return `${d.getMonth()+1}/${d.getDate()}(${days[d.getDay()]})`; return `${d.getMonth()+1}/${d.getDate()}`; }
+  function formatCompletedDate(isoStr) { const d = new Date(isoStr); const today = new Date(); today.setHours(0,0,0,0); d.setHours(0,0,0,0); const diffDays = Math.floor((today - d) / 86400000); if (diffDays === 0) return '오늘 완료'; if (diffDays === 1) return '어제 완료'; if (diffDays <= 7) return `${diffDays}일 전 완료`; return `${d.getMonth()+1}/${d.getDate()} 완료`; }
+  function formatRelativeTime(d) { const now = new Date(); const diff = Math.floor((now - d) / 1000); if (diff < 60) return '방금 전'; if (diff < 3600) return `${Math.floor(diff/60)}분 전`; if (diff < 86400) return `${Math.floor(diff/3600)}시간 전`; return `${Math.floor(diff/86400)}일 전`; }
 </script>
 </body>
 </html>

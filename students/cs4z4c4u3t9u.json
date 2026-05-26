@@ -1,23 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-26T13:11:29.523Z",
+  "generatedAt": "2026-05-26T16:01:41.776Z",
   "student": {
     "name": "박현우",
     "school": "살레고",
     "grade": "고2",
     "class": "토,일 4시"
   },
-  "today": [
-    {
-      "assignmentId": "a_1779628229457_kpp0ll",
-      "noteName": "박현우_개념루트_삼각함수의 그래프( ~486번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-05-26",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -35,6 +25,15 @@
       "assignmentId": "a_1779628229457_kpp0ll",
       "noteName": "박현우_개념루트_삼각함수의 그래프( ~486번)",
       "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-26",
+      "done": true,
+      "doneAt": "2026-05-26T16:01:18.205Z"
+    },
+    {
+      "assignmentId": "a_1779628229457_kpp0ll",
+      "noteName": "박현우_개념루트_삼각함수의 그래프( ~486번)",
+      "subject": "대수",
       "round": 1,
       "plannedDate": "2026-05-24",
       "done": true,
@@ -43,8 +42,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
   }

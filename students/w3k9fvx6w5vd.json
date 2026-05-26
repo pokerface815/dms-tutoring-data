@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-26T13:10:41.896Z",
+  "student": {
+    "name": "지유진",
+    "school": "문정여고",
+    "grade": "고2",
+    "class": "토,일 4시"
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1779519466437_4zcqh7",
+      "noteName": "지유진_올림포스 유형편_등차수열과 등비수열",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-30",
+      "done": false,
+      "doneAt": null
+    }
+  ],
+  "completed": [
+    {
+      "assignmentId": "a_1779519466437_4zcqh7",
+      "noteName": "지유진_올림포스 유형편_등차수열과 등비수열",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-25",
+      "done": true,
+      "doneAt": "2026-05-25T16:42:49.788Z"
+    },
+    {
+      "assignmentId": "a_1779519466437_4zcqh7",
+      "noteName": "지유진_올림포스 유형편_등차수열과 등비수열",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-23",
+      "done": true,
+      "doneAt": "2026-05-23T12:48:08.823Z"
+    },
+    {
+      "assignmentId": "a_1778849252765_2tk887",
+      "noteName": "지유진_올림포스 유형편_사인법칙과 코사인법칙",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-23",
+      "done": true,
+      "doneAt": "2026-05-23T12:48:03.118Z"
+    },
+    {
+      "assignmentId": "a_1778849252765_2tk887",
+      "noteName": "지유진_올림포스 유형편_사인법칙과 코사인법칙",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-18",
+      "done": true,
+      "doneAt": "2026-05-18T12:46:25.157Z"
+    },
+    {
+      "assignmentId": "a_1778849252765_2tk887",
+      "noteName": "지유진_올림포스 유형편_사인법칙과 코사인법칙",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-16",
+      "done": true,
+      "doneAt": "2026-05-17T08:09:12.352Z"
+    }
+  ],
+  "weekProgress": {
+    "total": 2,
+    "done": 1,
+    "percent": 50,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  }
+}

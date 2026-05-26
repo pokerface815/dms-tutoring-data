@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-26T13:10:24.588Z",
+  "student": {
+    "name": "김규림",
+    "school": "중앙여고",
+    "grade": "고2",
+    "class": "토,일 6시"
+  },
+  "today": [
+    {
+      "assignmentId": "a_1779620251071_skubw4",
+      "noteName": "김규림_개념루트_등차수열과 등비수열( ~657번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-26",
+      "done": false,
+      "doneAt": null
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1779620251071_skubw4",
+      "noteName": "김규림_개념루트_등차수열과 등비수열( ~657번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-31",
+      "done": false,
+      "doneAt": null
+    }
+  ],
+  "completed": [
+    {
+      "assignmentId": "a_1779620251071_skubw4",
+      "noteName": "김규림_개념루트_등차수열과 등비수열( ~657번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-24",
+      "done": true,
+      "doneAt": "2026-05-24T13:10:36.111Z"
+    },
+    {
+      "assignmentId": "a_1778926017708_ls6p14",
+      "noteName": "김규림_개념루트_사인법칙과 코사인법칙( ~ 595번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-23",
+      "done": true,
+      "doneAt": "2026-05-23T12:48:05.634Z"
+    },
+    {
+      "assignmentId": "a_1778926017708_ls6p14",
+      "noteName": "김규림_개념루트_사인법칙과 코사인법칙( ~ 595번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-18",
+      "done": true,
+      "doneAt": "2026-05-18T12:46:28.343Z"
+    },
+    {
+      "assignmentId": "a_1778408570246_sklo64",
+      "noteName": "김규림_개념루트_삼각함수의 그래프",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-17",
+      "done": true,
+      "doneAt": "2026-05-17T13:17:12.246Z"
+    },
+    {
+      "assignmentId": "a_1778926017708_ls6p14",
+      "noteName": "김규림_개념루트_사인법칙과 코사인법칙( ~ 595번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-16",
+      "done": true,
+      "doneAt": "2026-05-17T08:09:15.017Z"
+    },
+    {
+      "assignmentId": "a_1778408570246_sklo64",
+      "noteName": "김규림_개념루트_삼각함수의 그래프",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-11",
+      "done": true,
+      "doneAt": "2026-05-11T14:23:28.939Z"
+    },
+    {
+      "assignmentId": "a_1778408570246_sklo64",
+      "noteName": "김규림_개념루트_삼각함수의 그래프",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-10",
+      "done": true,
+      "doneAt": "2026-05-10T10:57:08.952Z"
+    }
+  ],
+  "weekProgress": {
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  }
+}

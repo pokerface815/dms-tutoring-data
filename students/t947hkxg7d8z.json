@@ -1,15 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-26T13:11:15.788Z",
+  "generatedAt": "2026-05-26T16:01:22.320Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
     "grade": "고2",
     "class": "개별수업"
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779287559980_ge3q7f",
       "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙(고난도 4,5,6번)",
@@ -18,7 +16,10 @@
       "plannedDate": "2026-05-27",
       "done": false,
       "doneAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1779542958590_b0w63c",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~33번)",

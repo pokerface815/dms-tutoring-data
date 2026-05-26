@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-26T13:10:20.563Z",
+  "student": {
+    "name": "송유림",
+    "school": "숭일고",
+    "grade": "고2",
+    "class": "토,일 6시"
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1779281960451_f7td1x",
+      "noteName": "송유림_종합 오답노트 (2개 합본 · 2026-05-20)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-27",
+      "done": false,
+      "doneAt": null
+    }
+  ],
+  "completed": [
+    {
+      "assignmentId": "a_1779012339753_dsrd3v",
+      "noteName": "송유림_오답노트 4개 종합( ~ 5월 17일)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-24",
+      "done": true,
+      "doneAt": "2026-05-24T08:33:02.441Z"
+    },
+    {
+      "assignmentId": "a_1779281960451_f7td1x",
+      "noteName": "송유림_종합 오답노트 (2개 합본 · 2026-05-20)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-22",
+      "done": true,
+      "doneAt": "2026-05-23T04:23:43.311Z"
+    },
+    {
+      "assignmentId": "a_1779281960451_f7td1x",
+      "noteName": "송유림_종합 오답노트 (2개 합본 · 2026-05-20)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-20",
+      "done": true,
+      "doneAt": "2026-05-20T13:30:18.069Z"
+    },
+    {
+      "assignmentId": "a_1779012339753_dsrd3v",
+      "noteName": "송유림_오답노트 4개 종합( ~ 5월 17일)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-19",
+      "done": true,
+      "doneAt": "2026-05-19T16:10:31.467Z"
+    },
+    {
+      "assignmentId": "a_1779012339753_dsrd3v",
+      "noteName": "송유림_오답노트 4개 종합( ~ 5월 17일)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-17",
+      "done": true,
+      "doneAt": "2026-05-17T13:17:15.634Z"
+    }
+  ],
+  "weekProgress": {
+    "total": 1,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  }
+}

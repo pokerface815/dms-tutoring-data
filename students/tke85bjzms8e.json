@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-26T13:10:33.964Z",
+  "student": {
+    "name": "정찬민",
+    "school": "살레고",
+    "grade": "고2",
+    "class": "토,일 6시"
+  },
+  "today": [
+    {
+      "assignmentId": "a_1779614518153_8fgga4",
+      "noteName": "정찬민_개념루트_사인법칙과 코사인법칙( ~591번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-26",
+      "done": false,
+      "doneAt": null
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1779614518153_8fgga4",
+      "noteName": "정찬민_개념루트_사인법칙과 코사인법칙( ~591번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-31",
+      "done": false,
+      "doneAt": null
+    }
+  ],
+  "completed": [
+    {
+      "assignmentId": "a_1779614518153_8fgga4",
+      "noteName": "정찬민_개념루트_사인법칙과 코사인법칙( ~591번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-24",
+      "done": true,
+      "doneAt": "2026-05-24T09:25:22.898Z"
+    },
+    {
+      "assignmentId": "a_1779015437718_uv3779",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프( ~ 521번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-24",
+      "done": true,
+      "doneAt": "2026-05-24T08:33:02.891Z"
+    },
+    {
+      "assignmentId": "a_1778916148104_r5ncp4",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프( ~500번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-23",
+      "done": true,
+      "doneAt": "2026-05-23T12:48:05.081Z"
+    },
+    {
+      "assignmentId": "a_1779015437718_uv3779",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프( ~ 521번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-19",
+      "done": true,
+      "doneAt": "2026-05-19T16:10:32.407Z"
+    },
+    {
+      "assignmentId": "a_1778916148104_r5ncp4",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프( ~500번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-18",
+      "done": true,
+      "doneAt": "2026-05-18T12:46:27.777Z"
+    },
+    {
+      "assignmentId": "a_1779015437718_uv3779",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프( ~ 521번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-17",
+      "done": true,
+      "doneAt": "2026-05-17T13:17:16.541Z"
+    },
+    {
+      "assignmentId": "a_1778402514957_22si70",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-17",
+      "done": true,
+      "doneAt": "2026-05-17T13:17:10.658Z"
+    },
+    {
+      "assignmentId": "a_1778916148104_r5ncp4",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프( ~500번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-16",
+      "done": true,
+      "doneAt": "2026-05-17T08:09:14.447Z"
+    },
+    {
+      "assignmentId": "a_1778402514957_22si70",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-11",
+      "done": true,
+      "doneAt": "2026-05-11T12:06:42.084Z"
+    },
+    {
+      "assignmentId": "a_1778402514957_22si70",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-10",
+      "done": true,
+      "doneAt": "2026-05-10T08:47:18.287Z"
+    }
+  ],
+  "weekProgress": {
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  }
+}

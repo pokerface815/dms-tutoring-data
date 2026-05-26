@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-26T13:10:30.388Z",
+  "student": {
+    "name": "이경주",
+    "school": "국제고",
+    "grade": "고2",
+    "class": "토,일 4시"
+  },
+  "today": [
+    {
+      "assignmentId": "a_1779611210724_3z5dhl",
+      "noteName": "이경주_수매씽 유형_등비수열( ~1993번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-26",
+      "done": false,
+      "doneAt": null
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1779199815812_kc9oc2",
+      "noteName": "이경주_개념루트_삼각함수의 그래프( ~521번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-27",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1779296468841_a6a8w6",
+      "noteName": "이경주_수매씽 유형_종합 오답노트 (3개 합본 · 2026-05-21)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-28",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1779611210724_3z5dhl",
+      "noteName": "이경주_수매씽 유형_등비수열( ~1993번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-31",
+      "done": false,
+      "doneAt": null
+    }
+  ],
+  "completed": [
+    {
+      "assignmentId": "a_1779611210724_3z5dhl",
+      "noteName": "이경주_수매씽 유형_등비수열( ~1993번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-24",
+      "done": true,
+      "doneAt": "2026-05-24T08:33:06.173Z"
+    },
+    {
+      "assignmentId": "a_1779296468841_a6a8w6",
+      "noteName": "이경주_수매씽 유형_종합 오답노트 (3개 합본 · 2026-05-21)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-23",
+      "done": true,
+      "doneAt": "2026-05-23T12:48:07.140Z"
+    },
+    {
+      "assignmentId": "a_1779199815812_kc9oc2",
+      "noteName": "이경주_개념루트_삼각함수의 그래프( ~521번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-22",
+      "done": true,
+      "doneAt": "2026-05-23T04:23:42.711Z"
+    },
+    {
+      "assignmentId": "a_1779296468841_a6a8w6",
+      "noteName": "이경주_수매씽 유형_종합 오답노트 (3개 합본 · 2026-05-21)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-21",
+      "done": true,
+      "doneAt": "2026-05-20T17:04:03.731Z"
+    },
+    {
+      "assignmentId": "a_1779199815812_kc9oc2",
+      "noteName": "이경주_개념루트_삼각함수의 그래프( ~521번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-20",
+      "done": true,
+      "doneAt": "2026-05-20T11:45:55.687Z"
+    }
+  ],
+  "weekProgress": {
+    "total": 4,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  }
+}

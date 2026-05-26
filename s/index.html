@@ -1,0 +1,469 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#fefcf8">
+  <title>기억의 설계</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    :root {
+      --bg: #fefcf8;
+      --surface: #ffffff;
+      --surface2: #f9f6ef;
+      --border: #e6dfd0;
+      --text: #2a2a2a;
+      --text2: #5a5a5a;
+      --text3: #999;
+      --accent: #8b5a2b;
+      --accent-light: #c69856;
+      --danger: #c0392b;
+      --warning: #e8a23e;
+      --success: #5d8a4a;
+      --radius: 12px;
+    }
+    html, body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.5;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+    .app { max-width: 600px; margin: 0 auto; padding: 0; }
+
+    /* 헤더 */
+    .header {
+      padding: 24px 20px 16px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .header-brand {
+      font-family: 'Gowun Batang', serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: -0.5px;
+      text-align: center;
+    }
+    .header-tagline {
+      font-family: 'Gowun Batang', serif;
+      font-size: 11px;
+      color: var(--text3);
+      text-align: center;
+      margin-top: 2px;
+    }
+    .student-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 0.5px solid var(--border);
+    }
+    .student-name {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .student-meta {
+      font-size: 12px;
+      color: var(--text3);
+    }
+
+    /* 진도 카드 */
+    .progress-card {
+      margin: 16px 20px;
+      padding: 18px 20px;
+      background: var(--surface);
+      border-radius: var(--radius);
+      border: 0.5px solid var(--border);
+    }
+    .progress-title {
+      font-size: 13px;
+      color: var(--text2);
+      margin-bottom: 10px;
+    }
+    .progress-bar-bg {
+      width: 100%;
+      height: 10px;
+      background: var(--surface2);
+      border-radius: 5px;
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent-light), var(--accent));
+      transition: width 0.5s;
+      border-radius: 5px;
+    }
+    .progress-text {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+    }
+    .progress-percent { font-weight: 600; color: var(--accent); }
+    .progress-detail { color: var(--text3); }
+
+    /* 섹션 */
+    .section { margin: 20px 20px 0; }
+    .section-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text2);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .section-count {
+      background: var(--surface2);
+      color: var(--text3);
+      padding: 1px 8px;
+      border-radius: 10px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    .section-count.today { background: #fcebd5; color: var(--accent); }
+    .section-count.overdue { background: #fdd9d3; color: var(--danger); }
+
+    /* 노트 카드 */
+    .note-card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      border: 0.5px solid var(--border);
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      transition: transform 0.1s;
+    }
+    .note-card.today { border-left: 3px solid var(--accent); }
+    .note-card.overdue { border-left: 3px solid var(--danger); background: #fdf7f5; }
+    .note-card.completed { opacity: 0.6; background: var(--surface2); }
+    .note-card-title {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.4;
+      margin-bottom: 4px;
+      word-break: keep-all;
+    }
+    .note-card-meta {
+      font-size: 11px;
+      color: var(--text3);
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .note-card-round {
+      background: var(--accent);
+      color: white;
+      padding: 1px 7px;
+      border-radius: 8px;
+      font-size: 10px;
+      font-weight: 600;
+    }
+    .note-card-round.overdue { background: var(--danger); }
+    .note-card-round.upcoming { background: var(--surface2); color: var(--text2); }
+    .note-card-round.completed { background: var(--text3); }
+    .note-card-date {
+      font-size: 11px;
+      color: var(--text3);
+    }
+
+    /* 빈 상태 */
+    .empty-state {
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--text3);
+      font-size: 13px;
+    }
+
+    /* 로딩 */
+    .loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text3);
+    }
+    .loading-spinner {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* 에러 */
+    .error-state {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .error-icon { font-size: 48px; margin-bottom: 12px; }
+    .error-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--danger);
+    }
+    .error-text { font-size: 13px; color: var(--text2); line-height: 1.6; }
+
+    /* 푸터 */
+    .footer {
+      text-align: center;
+      padding: 30px 20px 40px;
+      font-size: 11px;
+      color: var(--text3);
+    }
+    .refresh-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 8px 16px;
+      background: var(--surface);
+      border: 0.5px solid var(--border);
+      border-radius: 18px;
+      font-size: 12px;
+      color: var(--text2);
+      cursor: pointer;
+      margin-bottom: 10px;
+      font-family: inherit;
+    }
+    .refresh-btn:active { background: var(--surface2); }
+    .last-updated {
+      display: block;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+<div class="app" id="app">
+  <div class="loading">
+    <div class="loading-spinner"></div>
+    <div style="margin-top:12px;">불러오는 중...</div>
+  </div>
+</div>
+
+<script>
+  // ===== 설정 =====
+  // 이 페이지가 호스팅된 GitHub repo의 raw 데이터 위치
+  // 같은 repo, 같은 branch에 있는 students/{code}.json을 읽음
+  const DATA_BASE = ''; // 같은 경로 기준 상대 URL
+
+  // ===== 메인 =====
+  (async function() {
+    const params = new URLSearchParams(window.location.search);
+    const code = (params.get('code') || '').trim();
+
+    if (!code) {
+      renderError('학생 코드가 없습니다', '올바른 학생 URL로 접속해주세요.');
+      return;
+    }
+    // 코드 형식 간단 검증
+    if (!/^[a-z0-9]{6,20}$/.test(code)) {
+      renderError('잘못된 학생 코드', '올바른 학생 URL로 접속해주세요.');
+      return;
+    }
+
+    try {
+      // 캐시 방지를 위해 timestamp 추가
+      const url = `../students/${code}.json?t=${Date.now()}`;
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) {
+        if (res.status === 404) {
+          renderError('학생 페이지를 찾을 수 없습니다',
+            '학생 URL이 정확한지 확인해주세요.<br>문제가 계속되면 선생님께 문의하세요.');
+        } else {
+          renderError('데이터 로드 실패', `오류 코드: ${res.status}`);
+        }
+        return;
+      }
+      const data = await res.json();
+      renderPage(data);
+    } catch (e) {
+      console.error(e);
+      renderError('네트워크 오류', '인터넷 연결을 확인해주세요.<br>' + e.message);
+    }
+  })();
+
+  // ===== 렌더링 =====
+  function renderPage(data) {
+    const app = document.getElementById('app');
+    const s = data.student || {};
+    const wp = data.weekProgress || { total: 0, done: 0, percent: 0 };
+
+    let html = '';
+
+    // 헤더
+    html += `
+      <div class="header">
+        <div class="header-brand">기억의 설계</div>
+        <div class="header-tagline">잊지 않게 만드는 수학 학습</div>
+        <div class="student-info">
+          <div class="student-name">${escapeHtml(s.name || '학생')}</div>
+          <div class="student-meta">${escapeHtml([s.school, s.grade, s.class].filter(Boolean).join(' · '))}</div>
+        </div>
+      </div>
+    `;
+
+    // 진도 카드
+    html += `
+      <div class="progress-card">
+        <div class="progress-title">📊 이번 주 진행률</div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" style="width:${wp.percent}%;"></div>
+        </div>
+        <div class="progress-text">
+          <span class="progress-percent">${wp.percent}%</span>
+          <span class="progress-detail">${wp.done} / ${wp.total} 완료 (${formatDateRange(wp.startDate, wp.endDate)})</span>
+        </div>
+      </div>
+    `;
+
+    // 오늘 할 일
+    html += renderSection('🔴 오늘 풀어야 할 노트', data.today || [], 'today', '오늘 풀 노트가 없어요. 잠깐 쉬는 날 ☺️');
+
+    // 밀린 노트
+    if ((data.overdue || []).length > 0) {
+      html += renderSection('⚠️ 밀린 노트', data.overdue, 'overdue', '');
+    }
+
+    // 다가올 일정
+    if ((data.upcoming || []).length > 0) {
+      html += renderSection('📅 이번 주 일정', data.upcoming, 'upcoming', '');
+    }
+
+    // 완료한 노트
+    if ((data.completed || []).length > 0) {
+      html += renderSection('✅ 최근 완료한 노트', data.completed, 'completed', '');
+    }
+
+    // 푸터
+    const updatedTime = data.generatedAt ? new Date(data.generatedAt) : null;
+    html += `
+      <div class="footer">
+        <button class="refresh-btn" onclick="location.reload()">🔄 새로고침</button>
+        ${updatedTime ? `<span class="last-updated">마지막 업데이트: ${formatRelativeTime(updatedTime)}</span>` : ''}
+      </div>
+    `;
+
+    app.innerHTML = html;
+  }
+
+  function renderSection(title, items, type, emptyMsg) {
+    let html = `
+      <div class="section">
+        <div class="section-title">
+          <span>${title}</span>
+          ${items.length > 0 ? `<span class="section-count ${type}">${items.length}</span>` : ''}
+        </div>
+    `;
+    if (items.length === 0) {
+      html += `<div class="empty-state">${emptyMsg}</div>`;
+    } else {
+      for (const item of items) {
+        html += renderNoteCard(item, type);
+      }
+    }
+    html += '</div>';
+    return html;
+  }
+
+  function renderNoteCard(item, type) {
+    const roundClass = type === 'completed' ? 'completed' : (type === 'overdue' ? 'overdue' : (type === 'upcoming' ? 'upcoming' : ''));
+    const dateDisplay = type === 'today' ? '오늘' :
+                        type === 'overdue' ? formatOverdueDate(item.plannedDate) :
+                        type === 'upcoming' ? formatUpcomingDate(item.plannedDate) :
+                        type === 'completed' ? (item.doneAt ? formatCompletedDate(item.doneAt) : '') : '';
+
+    return `
+      <div class="note-card ${type}">
+        <div class="note-card-title">${escapeHtml(item.noteName || '오답노트')}</div>
+        <div class="note-card-meta">
+          <span class="note-card-round ${roundClass}">${item.round}차</span>
+          <span class="note-card-date">${dateDisplay}</span>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderError(title, text) {
+    const app = document.getElementById('app');
+    app.innerHTML = `
+      <div class="header">
+        <div class="header-brand">기억의 설계</div>
+        <div class="header-tagline">잊지 않게 만드는 수학 학습</div>
+      </div>
+      <div class="error-state">
+        <div class="error-icon">😕</div>
+        <div class="error-title">${escapeHtml(title)}</div>
+        <div class="error-text">${text}</div>
+      </div>
+    `;
+  }
+
+  // ===== 유틸 =====
+  function escapeHtml(s) {
+    return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function formatDateRange(start, end) {
+    if (!start || !end) return '';
+    const s = new Date(start), e = new Date(end);
+    return `${s.getMonth()+1}/${s.getDate()} ~ ${e.getMonth()+1}/${e.getDate()}`;
+  }
+
+  function formatOverdueDate(dateStr) {
+    const today = new Date();
+    today.setHours(0,0,0,0);
+    const d = new Date(dateStr);
+    const diffDays = Math.floor((today - d) / 86400000);
+    if (diffDays === 1) return '어제';
+    if (diffDays <= 7) return `${diffDays}일 전`;
+    return `${d.getMonth()+1}/${d.getDate()}`;
+  }
+
+  function formatUpcomingDate(dateStr) {
+    const today = new Date();
+    today.setHours(0,0,0,0);
+    const d = new Date(dateStr);
+    const diffDays = Math.floor((d - today) / 86400000);
+    const days = ['일','월','화','수','목','금','토'];
+    if (diffDays === 1) return '내일';
+    if (diffDays <= 6) return `${d.getMonth()+1}/${d.getDate()}(${days[d.getDay()]})`;
+    return `${d.getMonth()+1}/${d.getDate()}`;
+  }
+
+  function formatCompletedDate(isoStr) {
+    const d = new Date(isoStr);
+    const today = new Date();
+    today.setHours(0,0,0,0);
+    d.setHours(0,0,0,0);
+    const diffDays = Math.floor((today - d) / 86400000);
+    if (diffDays === 0) return '오늘 완료';
+    if (diffDays === 1) return '어제 완료';
+    if (diffDays <= 7) return `${diffDays}일 전 완료`;
+    return `${d.getMonth()+1}/${d.getDate()} 완료`;
+  }
+
+  function formatRelativeTime(d) {
+    const now = new Date();
+    const diff = Math.floor((now - d) / 1000);
+    if (diff < 60) return '방금 전';
+    if (diff < 3600) return `${Math.floor(diff/60)}분 전`;
+    if (diff < 86400) return `${Math.floor(diff/3600)}시간 전`;
+    return `${Math.floor(diff/86400)}일 전`;
+  }
+</script>
+</body>
+</html>

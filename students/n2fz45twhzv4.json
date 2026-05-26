@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-26T13:10:39.771Z",
+  "student": {
+    "name": "김현민",
+    "school": "살레고",
+    "grade": "고2",
+    "class": "토,일 6시"
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
+    {
+      "assignmentId": "a_1778849161316_nahing",
+      "noteName": "김현민_자이스토리_삼각함수의 그래프( ~F165)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-23",
+      "done": true,
+      "doneAt": "2026-05-23T12:48:02.631Z"
+    },
+    {
+      "assignmentId": "a_1778849161316_nahing",
+      "noteName": "김현민_자이스토리_삼각함수의 그래프( ~F165)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-18",
+      "done": true,
+      "doneAt": "2026-05-18T12:46:24.565Z"
+    },
+    {
+      "assignmentId": "a_1778849161316_nahing",
+      "noteName": "김현민_자이스토리_삼각함수의 그래프( ~F165)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-16",
+      "done": true,
+      "doneAt": "2026-05-17T08:09:11.834Z"
+    }
+  ],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  }
+}

@@ -1,15 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-26T13:11:10.291Z",
+  "generatedAt": "2026-05-26T16:01:14.372Z",
   "student": {
     "name": "송유림",
     "school": "숭일고",
     "grade": "고2",
     "class": "토,일 6시"
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779281960451_f7td1x",
       "noteName": "송유림_종합 오답노트 (2개 합본 · 2026-05-20)",
@@ -20,6 +18,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1779012339753_dsrd3v",

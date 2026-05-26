@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-26T16:01:43.847Z",
+  "student": {
+    "name": "김한비",
+    "school": "전사고",
+    "grade": "고2",
+    "class": "토,일 4시"
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  }
+}

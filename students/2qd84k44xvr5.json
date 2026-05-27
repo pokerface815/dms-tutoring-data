@@ -1,26 +1,25 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-27T05:28:55.307Z",
+  "generatedAt": "2026-05-27T12:19:20.798Z",
   "student": {
     "name": "송유림",
     "school": "숭일고",
     "grade": "고2",
     "class": "토,일 6시"
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1779281960451_f7td1x",
       "noteName": "송유림_종합 오답노트 (2개 합본 · 2026-05-20)",
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-05-27",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-05-27T12:18:54.658Z"
+    },
     {
       "assignmentId": "a_1779012339753_dsrd3v",
       "noteName": "송유림_오답노트 4개 종합( ~ 5월 17일)",
@@ -69,8 +68,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
   }

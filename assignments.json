@@ -1154,5 +1154,39 @@
       }
     ],
     "createdAt": "2026-05-24T13:10:29.457Z"
+  },
+  {
+    "id": "a_1779859726685_m4y27f",
+    "noteId": "note_1779859715237_vgar35",
+    "noteName": "김채린_개념루트_사인법칙과 코사인법칙( ~571번)",
+    "studentId": "s_1777546951753_p3pskl",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-27",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-05-29",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-03",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-17",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-27T05:28:46.685Z"
   }
 ]

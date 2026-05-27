@@ -1,23 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-27T05:28:56.878Z",
+  "generatedAt": "2026-05-27T12:19:23.298Z",
   "student": {
     "name": "김채린",
     "school": "숭일고",
     "grade": "고2",
     "class": "토,일 6시"
   },
-  "today": [
-    {
-      "assignmentId": "a_1779859726685_m4y27f",
-      "noteName": "김채린_개념루트_사인법칙과 코사인법칙( ~571번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-05-27",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -31,6 +21,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1779859726685_m4y27f",
+      "noteName": "김채린_개념루트_사인법칙과 코사인법칙( ~571번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-27",
+      "done": true,
+      "doneAt": "2026-05-27T12:19:00.357Z"
+    },
     {
       "assignmentId": "a_1779021918098_361mo6",
       "noteName": "김채린_수학의 바이블 유형ON 1권_삼각함수의 그래프( ~621번)",
@@ -61,8 +60,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
   }

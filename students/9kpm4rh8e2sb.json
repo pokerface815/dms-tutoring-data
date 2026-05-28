@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generatedAt": "2026-05-27T14:41:15.365Z",
+  "version": 2,
+  "generatedAt": "2026-05-28T06:10:35.360Z",
   "student": {
     "name": "박다인",
     "school": "국제고",
@@ -100,5 +100,7 @@
     "percent": 50,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
-  }
+  },
+  "teacherConfirms": {},
+  "tasks": []
 }

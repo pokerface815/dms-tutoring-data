@@ -194,6 +194,8 @@
         return;
       }
       studentData = await res.json();
+      // 디버그: 과제 데이터 확인 (문제 생기면 콘솔에서 볼 수 있음)
+      console.log('[학생페이지] tasks:', studentData.tasks, '| 오늘요일:', new Date().getDay());
       renderPage();
     } catch (e) {
       console.error(e);
@@ -293,13 +295,17 @@
     if (isConfirmed) cardClass = 'confirmed';
     else if (isSubmitted) cardClass = 'submitted';
 
-    const dueText = t.dueDate ? `마감 ${formatTaskDueDate(t.dueDate)}` : '';
+    const dueText = t.dueDate ? `${t.isRepeat ? '' : '마감 '}${formatTaskDueDate(t.dueDate)}` : '';
     let statusBadge = '';
     if (isConfirmed) statusBadge = '<span class="note-card-status confirmed">✓ 확인됨</span>';
     else if (isSubmitted) statusBadge = '<span class="note-card-status submitted">⏳ 확인 대기</span>';
 
-    // 반복 과제는 "오늘 과제" 배지 추가
-    const repeatBadge = t.isRepeat ? '<span class="note-card-date" style="color:#7c5cbf;">🔁 오늘 과제</span>' : '';
+    // 반복 과제 배지: 오늘이면 "오늘 과제", 아니면 날짜 표시
+    let repeatBadge = '';
+    if (t.isRepeat) {
+      if (t.dayOffset === 0) repeatBadge = '<span class="note-card-date" style="color:#7c5cbf; font-weight:600;">🔁 오늘 과제</span>';
+      else repeatBadge = '<span class="note-card-date" style="color:#7c5cbf;">🔁 반복</span>';
+    }
 
     let html = `
       <div class="note-card ${cardClass}">

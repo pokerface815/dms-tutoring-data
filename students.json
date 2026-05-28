@@ -308,7 +308,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "a7xfuxvp5x9c"
+    "pageCode": "a7xfuxvp5x9c",
+    "classes": [
+      "cls_1779986714726_9v8uvl"
+    ]
   },
   {
     "id": "s_1779628208770_oahez9",

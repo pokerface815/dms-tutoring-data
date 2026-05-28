@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generatedAt": "2026-05-27T14:41:22.838Z",
+  "version": 2,
+  "generatedAt": "2026-05-28T06:10:42.704Z",
   "student": {
     "name": "서은영",
     "school": "경신여고",
@@ -45,5 +45,7 @@
     "percent": 0,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
-  }
+  },
+  "teacherConfirms": {},
+  "tasks": []
 }

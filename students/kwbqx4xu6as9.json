@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-28T14:40:31.389Z",
+  "generatedAt": "2026-05-28T15:22:59.199Z",
   "student": {
     "name": "서준우",
     "school": "살레중",
     "grade": "중2",
-    "class": "개별수업"
+    "class": "고등선행"
   },
   "today": [],
   "overdue": [],
@@ -34,15 +34,6 @@
   },
   "tasks": [
     {
-      "assignmentId": "task_1779969246743_sslvtg",
-      "round": 20260526,
-      "title": "개+유 공수1 2장씩",
-      "dueDate": "2026-05-26",
-      "isRepeat": true,
-      "dayOffset": -2,
-      "assignedAt": "2026-05-28T11:09:14.731Z"
-    },
-    {
       "assignmentId": "task_1779969842199_gtbdtg",
       "round": 1,
       "title": "일품 2장 풀기",
@@ -56,7 +47,7 @@
       "title": "개+유 공수1 2장씩",
       "dueDate": "2026-05-30",
       "isRepeat": true,
-      "dayOffset": 2,
+      "dayOffset": 1,
       "assignedAt": "2026-05-28T11:09:14.731Z"
     },
     {
@@ -65,7 +56,7 @@
       "title": "개+유 공수1 2장씩",
       "dueDate": "2026-06-02",
       "isRepeat": true,
-      "dayOffset": 5,
+      "dayOffset": 4,
       "assignedAt": "2026-05-28T11:09:14.731Z"
     }
   ]

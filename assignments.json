@@ -1199,21 +1199,6 @@
     "batchId": "t_mpp3svzg"
   },
   {
-    "id": "task_1779966554731_8irsjo",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "개+유 공수1 2장씩",
-    "dueDate": null,
-    "assignedAt": "2026-05-28T11:09:14.731Z",
-    "batchId": "t_mppe4nl7",
-    "repeat": {
-      "enabled": true,
-      "weekdays": [
-        3
-      ]
-    }
-  },
-  {
     "id": "task_1779969178739_v9ob21",
     "type": "task",
     "studentId": "s_1779948611035_qbdt5h",
@@ -1230,6 +1215,22 @@
         3,
         4,
         5,
+        6
+      ]
+    }
+  },
+  {
+    "id": "task_1779969246743_sslvtg",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "개+유 공수1 2장씩",
+    "dueDate": null,
+    "assignedAt": "2026-05-28T11:09:14.731Z",
+    "batchId": "t_mppe4nl7",
+    "repeat": {
+      "enabled": true,
+      "weekdays": [
+        2,
         6
       ]
     }

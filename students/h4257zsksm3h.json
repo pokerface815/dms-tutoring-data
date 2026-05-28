@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generatedAt": "2026-05-27T14:41:17.208Z",
+  "version": 2,
+  "generatedAt": "2026-05-28T06:10:37.277Z",
   "student": {
     "name": "이현승",
     "school": "살레고",
@@ -45,5 +45,7 @@
     "percent": 0,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
-  }
+  },
+  "teacherConfirms": {},
+  "tasks": []
 }

@@ -1199,27 +1199,6 @@
     "batchId": "t_mpp3svzg"
   },
   {
-    "id": "task_1779969178739_v9ob21",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "확인용 수정되었나요?",
-    "dueDate": null,
-    "assignedAt": "2026-05-28T11:28:58.599Z",
-    "batchId": "t_mppeu12f",
-    "repeat": {
-      "enabled": true,
-      "weekdays": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
     "id": "task_1779969246743_sslvtg",
     "type": "task",
     "studentId": "s_1779948611035_qbdt5h",
@@ -1231,6 +1210,22 @@
       "enabled": true,
       "weekdays": [
         2,
+        6
+      ]
+    }
+  },
+  {
+    "id": "task_1779969727824_q3b78d",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "확인용 수정되었나요?",
+    "dueDate": null,
+    "assignedAt": "2026-05-28T11:28:58.599Z",
+    "batchId": "t_mppeu12f",
+    "repeat": {
+      "enabled": true,
+      "weekdays": [
+        0,
         6
       ]
     }

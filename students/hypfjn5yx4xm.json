@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-28T03:11:58.929Z",
+  "generatedAt": "2026-05-28T06:10:29.705Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -107,5 +107,6 @@
       "confirmed": true,
       "confirmedAt": "2026-05-28T03:11:52.627Z"
     }
-  }
+  },
+  "tasks": []
 }

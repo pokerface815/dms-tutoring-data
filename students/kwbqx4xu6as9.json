@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-28T12:29:46.741Z",
+  "generatedAt": "2026-05-28T12:31:34.355Z",
   "student": {
     "name": "서준우",
     "school": "살레중",
@@ -24,6 +24,12 @@
       "commentAt": "2026-05-28T06:30:43.310Z",
       "confirmed": true,
       "confirmedAt": "2026-05-28T06:30:43.311Z"
+    },
+    "task_1779969246743_sslvtg__20260526": {
+      "comment": "잘 되고 있는 것 맞지?ㅋ",
+      "commentAt": "2026-05-28T12:31:27.445Z",
+      "confirmed": true,
+      "confirmedAt": "2026-05-28T12:31:27.446Z"
     }
   },
   "tasks": [

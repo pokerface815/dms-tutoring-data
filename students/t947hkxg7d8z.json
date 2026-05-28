@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generatedAt": "2026-05-27T14:41:04.816Z",
+  "version": 2,
+  "generatedAt": "2026-05-28T03:09:37.128Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -118,5 +118,13 @@
     "percent": 75,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
+  },
+  "teacherConfirms": {
+    "a_1779287559980_ge3q7f__3": {
+      "comment": "계산 실수 없이 잘 풀었어요~",
+      "commentAt": "2026-05-28T03:09:30.318Z",
+      "confirmed": true,
+      "confirmedAt": "2026-05-28T03:09:30.318Z"
+    }
   }
 }

@@ -1197,5 +1197,20 @@
     "dueDate": "2026-05-29",
     "assignedAt": "2026-05-28T06:20:09.580Z",
     "batchId": "t_mpp3svzg"
+  },
+  {
+    "id": "task_1779966554731_8irsjo",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "개+유 공수1 2장씩",
+    "dueDate": null,
+    "assignedAt": "2026-05-28T11:09:14.731Z",
+    "batchId": "t_mppe4nl7",
+    "repeat": {
+      "enabled": true,
+      "weekdays": [
+        3
+      ]
+    }
   }
 ]

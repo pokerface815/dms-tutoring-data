@@ -243,10 +243,10 @@
       </div>
     `;
 
-    html += renderSection('🔴 오늘 풀어야 할 노트', data.today || [], 'today', '오늘 풀 노트가 없어요. 잠깐 쉬는 날 ☺️', true);
-    if ((data.overdue || []).length > 0) html += renderSection('⚠️ 밀린 노트', data.overdue, 'overdue', '', true);
+    html += renderSection('🔴 오늘 풀어야 할 오답노트', data.today || [], 'today', '오늘 풀 오답노트가 없어요. 잠깐 쉬는 날 ☺️', true);
+    if ((data.overdue || []).length > 0) html += renderSection('⚠️ 밀린 오답노트', data.overdue, 'overdue', '', true);
     if ((data.upcoming || []).length > 0) html += renderSection('📅 이번 주 일정', data.upcoming, 'upcoming', '', false);
-    if ((data.completed || []).length > 0) html += renderSection('✅ 최근 완료한 노트', data.completed, 'completed', '', false);
+    if ((data.completed || []).length > 0) html += renderSection('✅ 최근 완료한 오답노트', data.completed, 'completed', '', false);
 
     // 일반 과제 섹션 (오답노트와 구분)
     html += renderTaskSection(data.tasks || []);
@@ -281,8 +281,8 @@
   }
 
   function renderTaskCard(t) {
-    // 과제는 round=1 고정, assignmentId는 task id
-    const round = 1;
+    // round는 서버 데이터에서 받음 (일반 과제=1, 반복 과제=날짜 YYYYMMDD)
+    const round = t.round || 1;
     const sub = getSubmission(t.assignmentId, round);
     const teacherInfo = getTeacherConfirm(t.assignmentId, round);
     const isSubmitted = sub.photos && sub.photos.length > 0;
@@ -298,11 +298,15 @@
     if (isConfirmed) statusBadge = '<span class="note-card-status confirmed">✓ 확인됨</span>';
     else if (isSubmitted) statusBadge = '<span class="note-card-status submitted">⏳ 확인 대기</span>';
 
+    // 반복 과제는 "오늘 과제" 배지 추가
+    const repeatBadge = t.isRepeat ? '<span class="note-card-date" style="color:#7c5cbf;">🔁 오늘 과제</span>' : '';
+
     let html = `
       <div class="note-card ${cardClass}">
         <div class="note-card-title">${escapeHtml(t.title || '과제')}</div>
         <div class="note-card-meta">
           <span class="note-card-round task">과제</span>
+          ${repeatBadge}
           ${dueText ? `<span class="note-card-date">${dueText}</span>` : ''}
           ${statusBadge}
         </div>

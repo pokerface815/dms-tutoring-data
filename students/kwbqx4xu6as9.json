@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-28T06:20:47.010Z",
+  "generatedAt": "2026-05-28T06:30:50.000Z",
   "student": {
     "name": "서준우",
     "school": "살레중",
@@ -18,7 +18,14 @@
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
   },
-  "teacherConfirms": {},
+  "teacherConfirms": {
+    "task_1779949209580_wpk6og__1": {
+      "comment": "잘 햇어요",
+      "commentAt": "2026-05-28T06:30:43.310Z",
+      "confirmed": true,
+      "confirmedAt": "2026-05-28T06:30:43.311Z"
+    }
+  },
   "tasks": [
     {
       "assignmentId": "task_1779949209580_wpk6og",

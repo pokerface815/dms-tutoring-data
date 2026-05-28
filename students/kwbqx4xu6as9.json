@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-28T12:02:37.227Z",
+  "generatedAt": "2026-05-28T12:04:11.234Z",
   "student": {
     "name": "서준우",
     "school": "살레중",
@@ -37,7 +37,7 @@
       "assignedAt": "2026-05-28T11:09:14.731Z"
     },
     {
-      "assignmentId": "task_1779949209580_wpk6og",
+      "assignmentId": "task_1779969842199_gtbdtg",
       "round": 1,
       "title": "일품 2장 풀기",
       "dueDate": "2026-05-29",

@@ -1,0 +1,24 @@
+[
+  {
+    "run_at": "2026-05-28T16:00:30.993518+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 1,
+      "failed": 0,
+      "total": 1
+    },
+    "entries": [
+      {
+        "student_id": "s_1778325875686_1uoe4b",
+        "student_name": "이경주",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-1429",
+        "text_length": 55,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

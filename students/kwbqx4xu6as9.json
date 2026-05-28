@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-28T12:31:34.355Z",
+  "generatedAt": "2026-05-28T12:54:03.696Z",
   "student": {
     "name": "서준우",
     "school": "살레중",
@@ -58,24 +58,6 @@
       "isRepeat": true,
       "dayOffset": 2,
       "assignedAt": "2026-05-28T11:09:14.731Z"
-    },
-    {
-      "assignmentId": "task_1779969727824_q3b78d",
-      "round": 20260530,
-      "title": "확인용 수정되었나요?",
-      "dueDate": "2026-05-30",
-      "isRepeat": true,
-      "dayOffset": 2,
-      "assignedAt": "2026-05-28T11:28:58.599Z"
-    },
-    {
-      "assignmentId": "task_1779969727824_q3b78d",
-      "round": 20260531,
-      "title": "확인용 수정되었나요?",
-      "dueDate": "2026-05-31",
-      "isRepeat": true,
-      "dayOffset": 3,
-      "assignedAt": "2026-05-28T11:28:58.599Z"
     },
     {
       "assignmentId": "task_1779969246743_sslvtg",

@@ -75,16 +75,39 @@
     .note-card.completed { opacity: 0.7; background: var(--surface2); }
     .note-card.submitted { border-left: 3px solid var(--info); background: #f0f7fc; }
     .note-card.confirmed { border-left: 3px solid var(--success); background: #f3f8f0; }
+    .note-card.task { border-left: 3px solid #7c5cbf; }
     .note-card-title { font-size: 14px; font-weight: 500; line-height: 1.4; margin-bottom: 4px; word-break: keep-all; }
     .note-card-meta { font-size: 11px; color: var(--text3); display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
     .note-card-round { background: var(--accent); color: white; padding: 1px 7px; border-radius: 8px; font-size: 10px; font-weight: 600; }
     .note-card-round.overdue { background: var(--danger); }
     .note-card-round.upcoming { background: var(--surface2); color: var(--text2); }
     .note-card-round.completed { background: var(--text3); }
+    .note-card-round.task { background: #7c5cbf; }
     .note-card-date { font-size: 11px; color: var(--text3); }
     .note-card-status { font-size: 11px; font-weight: 500; padding: 1px 7px; border-radius: 8px; }
     .note-card-status.submitted { background: var(--info); color: white; }
     .note-card-status.confirmed { background: var(--success); color: white; }
+
+    .teacher-comment {
+      margin-top: 10px;
+      padding: 10px 12px;
+      background: #fef9e7;
+      border-left: 3px solid #e8a23e;
+      border-radius: 6px;
+    }
+    .teacher-comment-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: #a86b1c;
+      margin-bottom: 4px;
+    }
+    .teacher-comment-body {
+      font-size: 13px;
+      color: var(--text);
+      line-height: 1.5;
+      white-space: pre-wrap;
+      word-break: keep-all;
+    }
 
     .upload-area { margin-top: 12px; padding-top: 12px; border-top: 0.5px dashed var(--border); }
     .upload-btn { width: 100%; padding: 10px 14px; background: var(--accent); color: white; border: none; border-radius: 8px; font-size: 13px; font-weight: 500; cursor: pointer; font-family: inherit; display: flex; align-items: center; justify-content: center; gap: 6px; }
@@ -225,6 +248,9 @@
     if ((data.upcoming || []).length > 0) html += renderSection('📅 이번 주 일정', data.upcoming, 'upcoming', '', false);
     if ((data.completed || []).length > 0) html += renderSection('✅ 최근 완료한 노트', data.completed, 'completed', '', false);
 
+    // 일반 과제 섹션 (오답노트와 구분)
+    html += renderTaskSection(data.tasks || []);
+
     const updatedTime = data.generatedAt ? new Date(data.generatedAt) : null;
     html += `
       <div class="footer">
@@ -243,10 +269,82 @@
     return html;
   }
 
+  // 일반 과제 섹션
+  function renderTaskSection(tasks) {
+    if (!tasks || tasks.length === 0) return '';
+    let html = `<div class="section"><div class="section-title"><span>📚 과제</span><span class="section-count">${tasks.length}</span></div>`;
+    for (const t of tasks) {
+      html += renderTaskCard(t);
+    }
+    html += '</div>';
+    return html;
+  }
+
+  function renderTaskCard(t) {
+    // 과제는 round=1 고정, assignmentId는 task id
+    const round = 1;
+    const sub = getSubmission(t.assignmentId, round);
+    const teacherInfo = getTeacherConfirm(t.assignmentId, round);
+    const isSubmitted = sub.photos && sub.photos.length > 0;
+    const isConfirmed = !!(teacherInfo && teacherInfo.confirmed);
+    const teacherComment = (teacherInfo && teacherInfo.comment) || '';
+
+    let cardClass = 'task';
+    if (isConfirmed) cardClass = 'confirmed';
+    else if (isSubmitted) cardClass = 'submitted';
+
+    const dueText = t.dueDate ? `마감 ${formatTaskDueDate(t.dueDate)}` : '';
+    let statusBadge = '';
+    if (isConfirmed) statusBadge = '<span class="note-card-status confirmed">✓ 확인됨</span>';
+    else if (isSubmitted) statusBadge = '<span class="note-card-status submitted">⏳ 확인 대기</span>';
+
+    let html = `
+      <div class="note-card ${cardClass}">
+        <div class="note-card-title">${escapeHtml(t.title || '과제')}</div>
+        <div class="note-card-meta">
+          <span class="note-card-round task">과제</span>
+          ${dueText ? `<span class="note-card-date">${dueText}</span>` : ''}
+          ${statusBadge}
+        </div>
+    `;
+    if (teacherComment) {
+      html += `<div class="teacher-comment"><div class="teacher-comment-label">📝 선생님 코멘트</div><div class="teacher-comment-body">${escapeHtml(teacherComment)}</div></div>`;
+    }
+    // 확인 전이면 업로드 가능
+    if (!isConfirmed) html += renderUploadArea({ assignmentId: t.assignmentId, round: round }, sub);
+    else if (isSubmitted) html += renderSubmittedPhotos({ assignmentId: t.assignmentId, round: round }, sub);
+    html += '</div>';
+    return html;
+  }
+
+  function formatTaskDueDate(dateStr) {
+    const d = new Date(dateStr);
+    const today = new Date(); today.setHours(0,0,0,0);
+    const dd = new Date(dateStr); dd.setHours(0,0,0,0);
+    const diffDays = Math.floor((dd - today) / 86400000);
+    const days = ['일','월','화','수','목','금','토'];
+    const base = `${d.getMonth()+1}/${d.getDate()}(${days[d.getDay()]})`;
+    if (diffDays === 0) return base + ' · 오늘까지';
+    if (diffDays === 1) return base + ' · 내일까지';
+    if (diffDays < 0) return base + ` · ${-diffDays}일 지남`;
+    if (diffDays <= 7) return base + ` · ${diffDays}일 남음`;
+    return base;
+  }
+
+  // 선생님이 확인한 정보 (서버에서 받은 데이터)
+  function getTeacherConfirm(assignmentId, round) {
+    const map = (studentData && studentData.teacherConfirms) || {};
+    return map[`${assignmentId}__${round}`] || null;
+  }
+
   function renderNoteCard(item, type, allowUpload) {
     const sub = getSubmission(item.assignmentId, item.round);
+    const teacherInfo = getTeacherConfirm(item.assignmentId, item.round);
     const isSubmitted = sub.photos && sub.photos.length > 0;
-    const isConfirmed = !!sub.confirmedAt;
+    // 확인 여부는 선생님 데이터를 우선 (localStorage의 confirmedAt은 더 이상 사용 안 함)
+    const isConfirmed = !!(teacherInfo && teacherInfo.confirmed);
+    const teacherComment = (teacherInfo && teacherInfo.comment) || '';
+
     let cardClass = type;
     if (isConfirmed) cardClass = 'confirmed';
     else if (isSubmitted) cardClass = 'submitted';
@@ -265,6 +363,10 @@
           ${statusBadge}
         </div>
     `;
+    // 선생님 코멘트 표시 (있으면 항상)
+    if (teacherComment) {
+      html += `<div class="teacher-comment"><div class="teacher-comment-label">📝 선생님 코멘트</div><div class="teacher-comment-body">${escapeHtml(teacherComment)}</div></div>`;
+    }
     if (allowUpload && type !== 'completed' && !isConfirmed) html += renderUploadArea(item, sub);
     else if (isSubmitted) html += renderSubmittedPhotos(item, sub);
     html += '</div>';

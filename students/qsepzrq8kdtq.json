@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-28T14:40:08.382Z",
+  "generatedAt": "2026-05-28T15:22:37.901Z",
   "student": {
     "name": "김채린",
     "school": "숭일고",
     "grade": "고2",
     "class": "토,일 6시"
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779859726685_m4y27f",
       "noteName": "김채린_개념루트_사인법칙과 코사인법칙( ~571번)",
@@ -20,6 +18,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1779859726685_m4y27f",

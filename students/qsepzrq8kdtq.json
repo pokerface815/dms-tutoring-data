@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generatedAt": "2026-05-27T14:40:52.347Z",
+  "version": 2,
+  "generatedAt": "2026-05-28T06:10:22.222Z",
   "student": {
     "name": "김채린",
     "school": "숭일고",
@@ -64,5 +64,7 @@
     "percent": 50,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
-  }
+  },
+  "teacherConfirms": {},
+  "tasks": []
 }

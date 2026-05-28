@@ -63,7 +63,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "uhytagv8njqs"
+    "pageCode": "uhytagv8njqs",
+    "classes": [
+      "cls_1779986589959_uaer45"
+    ]
   },
   {
     "id": "s_1777547014208_7l30nn",

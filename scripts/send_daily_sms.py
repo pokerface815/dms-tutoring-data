@@ -193,24 +193,33 @@ def extract_review_targets(student_id, assignments, today, student_name=''):
 # 메시지 빌드
 # ============================================================
 
+def circled_number(n):
+    """1~20은 원문자(①②③…⑳), 그 이상은 'N.' 형식으로 반환."""
+    if 1 <= n <= 20:
+        # ①(U+2460)부터 시작
+        return chr(0x2460 + (n - 1))
+    return f"{n}."
+
+
 def build_student_message(academy, name, items, is_overdue=False):
     """
-    학생용 메시지 생성. 새 형식:
+    학생용 메시지 생성. 형식:
     <오늘 복습할 오답노트>
-    "전체 노트명" {차수}차
-    "전체 노트명" {차수}차
+    ① 전체 노트명
+    ② 전체 노트명
     ...
-    학원명 및 학생 이름 별도 표시 없음 (노트명에 학생명 포함).
-    노트 1개면 보통 SMS, 2개 이상이면 LMS 전환.
+    - 노트 제목 앞에 번호(①②③…)를 붙여 여러 개일 때 구분.
+    - 회차(차수)는 학생용 메시지에서 표시하지 않음 (선생님 확인용에는 표시).
+    - 학원명 및 학생 이름 별도 표시 없음 (노트명에 학생명 포함).
+    - 노트 1개면 보통 SMS, 2개 이상이면 LMS 전환.
     """
     header = "<밀린 복습 오답노트>" if is_overdue else "<오늘 복습할 오답노트>"
     lines = [header]
-    for it in items:
+    for idx, it in enumerate(items, start=1):
         note_name = it.get('note_name', '').strip()
         if not note_name:
             note_name = it.get('subject', '오답노트')  # 노트명 없으면 fallback
-        round_label = f"{it.get('round', 2)}차"
-        lines.append(f'"{note_name}" {round_label}')
+        lines.append(f"{circled_number(idx)} {note_name}")
     return "\n".join(lines)
 
 

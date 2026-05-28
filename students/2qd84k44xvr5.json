@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generatedAt": "2026-05-27T14:40:50.461Z",
+  "version": 2,
+  "generatedAt": "2026-05-28T06:10:20.185Z",
   "student": {
     "name": "송유림",
     "school": "숭일고",
@@ -72,5 +72,7 @@
     "percent": 100,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
-  }
+  },
+  "teacherConfirms": {},
+  "tasks": []
 }

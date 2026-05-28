@@ -368,9 +368,9 @@
       "일"
     ],
     "studentPhone": "010-9327-7661",
-    "parentPhone": "",
+    "parentPhone": "010-9327-7661",
     "notifyStudent": true,
-    "notifyParent": false,
+    "notifyParent": true,
     "pageCode": "kwbqx4xu6as9"
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generatedAt": "2026-05-27T14:41:11.264Z",
+  "version": 2,
+  "generatedAt": "2026-05-28T06:10:31.586Z",
   "student": {
     "name": "서연준",
     "school": "살레고",
@@ -100,5 +100,7 @@
     "percent": 50,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
-  }
+  },
+  "teacherConfirms": {},
+  "tasks": []
 }

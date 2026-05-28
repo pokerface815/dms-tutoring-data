@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-28T11:54:34.154Z",
+  "generatedAt": "2026-05-28T12:02:37.227Z",
   "student": {
     "name": "서준우",
     "school": "살레중",
@@ -28,15 +28,6 @@
   },
   "tasks": [
     {
-      "assignmentId": "task_1779969178739_v9ob21",
-      "round": 20260526,
-      "title": "확인용 수정되었나요?",
-      "dueDate": "2026-05-26",
-      "isRepeat": true,
-      "dayOffset": -2,
-      "assignedAt": "2026-05-28T11:28:58.599Z"
-    },
-    {
       "assignmentId": "task_1779969246743_sslvtg",
       "round": 20260526,
       "title": "개+유 공수1 2장씩",
@@ -44,24 +35,6 @@
       "isRepeat": true,
       "dayOffset": -2,
       "assignedAt": "2026-05-28T11:09:14.731Z"
-    },
-    {
-      "assignmentId": "task_1779969178739_v9ob21",
-      "round": 20260527,
-      "title": "확인용 수정되었나요?",
-      "dueDate": "2026-05-27",
-      "isRepeat": true,
-      "dayOffset": -1,
-      "assignedAt": "2026-05-28T11:28:58.599Z"
-    },
-    {
-      "assignmentId": "task_1779969178739_v9ob21",
-      "round": 20260528,
-      "title": "확인용 수정되었나요?",
-      "dueDate": "2026-05-28",
-      "isRepeat": true,
-      "dayOffset": 0,
-      "assignedAt": "2026-05-28T11:28:58.599Z"
     },
     {
       "assignmentId": "task_1779949209580_wpk6og",
@@ -72,24 +45,6 @@
       "assignedAt": "2026-05-28T06:20:09.580Z"
     },
     {
-      "assignmentId": "task_1779969178739_v9ob21",
-      "round": 20260529,
-      "title": "확인용 수정되었나요?",
-      "dueDate": "2026-05-29",
-      "isRepeat": true,
-      "dayOffset": 1,
-      "assignedAt": "2026-05-28T11:28:58.599Z"
-    },
-    {
-      "assignmentId": "task_1779969178739_v9ob21",
-      "round": 20260530,
-      "title": "확인용 수정되었나요?",
-      "dueDate": "2026-05-30",
-      "isRepeat": true,
-      "dayOffset": 2,
-      "assignedAt": "2026-05-28T11:28:58.599Z"
-    },
-    {
       "assignmentId": "task_1779969246743_sslvtg",
       "round": 20260530,
       "title": "개+유 공수1 2장씩",
@@ -99,30 +54,21 @@
       "assignedAt": "2026-05-28T11:09:14.731Z"
     },
     {
-      "assignmentId": "task_1779969178739_v9ob21",
+      "assignmentId": "task_1779969727824_q3b78d",
+      "round": 20260530,
+      "title": "확인용 수정되었나요?",
+      "dueDate": "2026-05-30",
+      "isRepeat": true,
+      "dayOffset": 2,
+      "assignedAt": "2026-05-28T11:28:58.599Z"
+    },
+    {
+      "assignmentId": "task_1779969727824_q3b78d",
       "round": 20260531,
       "title": "확인용 수정되었나요?",
       "dueDate": "2026-05-31",
       "isRepeat": true,
       "dayOffset": 3,
-      "assignedAt": "2026-05-28T11:28:58.599Z"
-    },
-    {
-      "assignmentId": "task_1779969178739_v9ob21",
-      "round": 20260601,
-      "title": "확인용 수정되었나요?",
-      "dueDate": "2026-06-01",
-      "isRepeat": true,
-      "dayOffset": 4,
-      "assignedAt": "2026-05-28T11:28:58.599Z"
-    },
-    {
-      "assignmentId": "task_1779969178739_v9ob21",
-      "round": 20260602,
-      "title": "확인용 수정되었나요?",
-      "dueDate": "2026-06-02",
-      "isRepeat": true,
-      "dayOffset": 5,
       "assignedAt": "2026-05-28T11:28:58.599Z"
     },
     {

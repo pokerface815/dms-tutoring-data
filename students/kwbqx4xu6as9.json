@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "generatedAt": "2026-05-28T06:10:50.381Z",
+  "student": {
+    "name": "서준우",
+    "school": "살레중",
+    "grade": "중2",
+    "class": "개별수업"
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  },
+  "teacherConfirms": {},
+  "tasks": []
+}

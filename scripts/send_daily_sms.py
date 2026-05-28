@@ -190,6 +190,73 @@ def extract_review_targets(student_id, assignments, today, student_name=''):
 
 
 # ============================================================
+# 과제(일반/반복) 미확인 대상 추출
+# ============================================================
+
+def extract_unconfirmed_tasks(student, assignments, confirms, today):
+    """
+    한 학생에 대해 '오늘 알림 보낼 과제' 리스트를 반환.
+    각 항목: {'title': '과제내용', 'assignment_id': ..., 'round': ...}
+
+    대상 조건:
+    - 일반 과제: 마감일이 오늘 또는 내일 (전날 + 당일 알림)
+    - 반복 과제: 오늘 요일이 weekdays에 포함
+    - 위 조건 만족 + confirms에서 confirmed=true가 아닌 것 (Q1=b: 선생님 미확인)
+    """
+    result = []
+    if not isinstance(assignments, list):
+        return result
+
+    student_id = student.get('id')
+    page_code = student.get('pageCode', '')
+    tomorrow = today + timedelta(days=1)
+    # 파이썬 weekday: 월=0~일=6 / JS getDay: 일=0~토=6 → 변환
+    today_weekday_js = (today.weekday() + 1) % 7
+
+    for item in assignments:
+        if not isinstance(item, dict):
+            continue
+        if item.get('type') != 'task':
+            continue
+        if item.get('studentId') != student_id:
+            continue
+
+        title = (item.get('title') or '과제').strip()
+        aid = item.get('id')
+        rep = item.get('repeat')
+
+        if rep and rep.get('enabled') and isinstance(rep.get('weekdays'), list):
+            # 반복 과제: 오늘 요일이 해당되면
+            if today_weekday_js not in rep['weekdays']:
+                continue
+            round_val = int(today.strftime('%Y%m%d'))  # JS와 동일 규칙
+            if is_task_confirmed(confirms, page_code, aid, round_val):
+                continue
+            result.append({'title': title, 'assignment_id': aid, 'round': round_val})
+        else:
+            # 일반 과제: 마감일 있고 오늘 또는 내일이면
+            due = parse_date_str(item.get('dueDate'))
+            if not due:
+                continue
+            if due != today and due != tomorrow:
+                continue
+            if is_task_confirmed(confirms, page_code, aid, 1):
+                continue
+            result.append({'title': title, 'assignment_id': aid, 'round': 1})
+
+    return result
+
+
+def is_task_confirmed(confirms, page_code, assignment_id, round_val):
+    """confirms.json에서 해당 과제가 확인 완료됐는지 확인."""
+    if not isinstance(confirms, dict) or not page_code:
+        return False
+    key = f"{page_code}__{assignment_id}__{round_val}"
+    item = confirms.get(key)
+    return bool(item and item.get('confirmed') is True)
+
+
+# ============================================================
 # 메시지 빌드
 # ============================================================
 
@@ -221,6 +288,26 @@ def build_student_message(academy, name, items, is_overdue=False):
             note_name = it.get('subject', '오답노트')  # 노트명 없으면 fallback
         lines.append(f"{circled_number(idx)} {note_name}")
     return "\n".join(lines)
+
+
+def build_student_task_message(items):
+    """
+    학생용 과제 미제출 알림. 형식:
+    <오늘 제출할 과제>
+    ① 과제 제목
+    ② 과제 제목
+    """
+    lines = ["<오늘 제출할 과제>"]
+    for idx, it in enumerate(items, start=1):
+        title = it.get('title', '과제').strip() or '과제'
+        lines.append(f"{circled_number(idx)} {title}")
+    return "\n".join(lines)
+
+
+def build_parent_task_message(academy, name, items):
+    """학부모용 과제 미제출 보고."""
+    count = len(items)
+    return f"[{academy}] {name} 학생, 오늘 제출할 과제 {count}개가 아직 확인되지 않았습니다. 학생에게 안내하였습니다."
 
 
 def build_parent_message(academy, name, items, is_overdue=False):
@@ -299,6 +386,9 @@ def main():
     # 데이터 로드
     students = load_json('students.json')
     assignments = load_json('assignments.json')
+    confirms = load_json('submissions/confirms.json')
+    if confirms is None or not isinstance(confirms, dict):
+        confirms = {}
 
     if students is None:
         print("[ERROR] students.json을 읽을 수 없습니다.")
@@ -344,12 +434,14 @@ def main():
 
         # 복습 대상 추출
         today_items, overdue_items = extract_review_targets(sid, assignments, today, name)
+        # 과제 미확인 대상 추출
+        task_items = extract_unconfirmed_tasks(student, assignments, confirms, today)
 
-        if not today_items and not overdue_items:
+        if not today_items and not overdue_items and not task_items:
             continue  # 발송할 내용 없음
 
         print(f"\n[학생] {name} (id={sid})")
-        print(f"  오늘 예정: {len(today_items)}개, 밀린 것: {len(overdue_items)}개")
+        print(f"  오늘 예정: {len(today_items)}개, 밀린 것: {len(overdue_items)}개, 과제: {len(task_items)}개")
 
         # 발송 계획
         plans = []
@@ -367,6 +459,11 @@ def main():
                 plans.append(('overdue', 'student', student_phone, build_student_message(academy, name, overdue_items, True)))
             if notify_parent and parent_phone:
                 plans.append(('overdue', 'parent', parent_phone, build_parent_message(academy, name, overdue_items, True)))
+        if task_items:
+            if notify_student and student_phone:
+                plans.append(('task', 'student', student_phone, build_student_task_message(task_items)))
+            if notify_parent and parent_phone:
+                plans.append(('task', 'parent', parent_phone, build_parent_task_message(academy, name, task_items)))
 
         # 실제 발송
         for category, recipient_type, to_number, text in plans:

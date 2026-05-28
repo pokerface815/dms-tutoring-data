@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generatedAt": "2026-05-27T14:40:54.361Z",
+  "version": 2,
+  "generatedAt": "2026-05-28T06:10:24.068Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -100,5 +100,7 @@
     "percent": 50,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
-  }
+  },
+  "teacherConfirms": {},
+  "tasks": []
 }

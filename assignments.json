@@ -1190,15 +1190,6 @@
     "createdAt": "2026-05-27T05:28:46.685Z"
   },
   {
-    "id": "task_1779949209580_wpk6og",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "일품 2장 풀기",
-    "dueDate": "2026-05-29",
-    "assignedAt": "2026-05-28T06:20:09.580Z",
-    "batchId": "t_mpp3svzg"
-  },
-  {
     "id": "task_1779969246743_sslvtg",
     "type": "task",
     "studentId": "s_1779948611035_qbdt5h",
@@ -1229,5 +1220,15 @@
         6
       ]
     }
+  },
+  {
+    "id": "task_1779969822264_8r85m4",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "일품 2장 풀기",
+    "dueDate": "2026-05-29",
+    "assignedAt": "2026-05-28T06:20:09.580Z",
+    "batchId": "t_mpp3svzg",
+    "repeat": null
   }
 ]

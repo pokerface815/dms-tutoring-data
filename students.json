@@ -370,7 +370,7 @@
     "studentPhone": "010-9327-7661",
     "parentPhone": "010-9327-7661",
     "notifyStudent": true,
-    "notifyParent": true,
+    "notifyParent": false,
     "pageCode": "kwbqx4xu6as9"
   }
 ]

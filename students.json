@@ -350,5 +350,27 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "szsvtwbygpkz"
+  },
+  {
+    "id": "s_1779948611035_qbdt5h",
+    "name": "서준우",
+    "school": "살레중",
+    "grade": "중2",
+    "class": "개별수업",
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-9327-7661",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "pageCode": "kwbqx4xu6as9"
   }
 ]

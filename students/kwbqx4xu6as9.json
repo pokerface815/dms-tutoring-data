@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-28T11:14:54.948Z",
+  "generatedAt": "2026-05-28T11:29:26.392Z",
   "student": {
     "name": "서준우",
     "school": "살레중",
@@ -34,6 +34,14 @@
       "dueDate": "2026-05-29",
       "isRepeat": false,
       "assignedAt": "2026-05-28T06:20:09.580Z"
+    },
+    {
+      "assignmentId": "task_1779967738599_s0gs85",
+      "round": 20260528,
+      "title": "확인용",
+      "dueDate": null,
+      "isRepeat": true,
+      "assignedAt": "2026-05-28T11:28:58.599Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-28T03:12:17.311Z",
+  "generatedAt": "2026-05-28T06:10:46.506Z",
   "student": {
     "name": "박현우",
     "school": "살레고",
@@ -54,5 +54,6 @@
       "confirmed": false,
       "confirmedAt": null
     }
-  }
+  },
+  "tasks": []
 }

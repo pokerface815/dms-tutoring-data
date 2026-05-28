@@ -41,7 +41,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "qsepzrq8kdtq"
+    "pageCode": "qsepzrq8kdtq",
+    "classes": [
+      "cls_1779986589959_uaer45"
+    ]
   },
   {
     "id": "s_1777546978791_hsee5a",
@@ -88,7 +91,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "86wtsdncpk8h"
+    "pageCode": "86wtsdncpk8h",
+    "classes": [
+      "cls_1779986589959_uaer45"
+    ]
   },
   {
     "id": "s_1777547047005_uo92w5",
@@ -242,7 +248,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "n2fz45twhzv4"
+    "pageCode": "n2fz45twhzv4",
+    "classes": [
+      "cls_1779986589959_uaer45"
+    ]
   },
   {
     "id": "s_1778849219765_v88lqq",
@@ -310,7 +319,7 @@
     "notifyParent": false,
     "pageCode": "a7xfuxvp5x9c",
     "classes": [
-      "cls_1779986714726_9v8uvl"
+      "cls_1779987510578_5e6to7"
     ]
   },
   {

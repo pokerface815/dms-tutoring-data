@@ -19,7 +19,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "2qd84k44xvr5"
+    "pageCode": "2qd84k44xvr5",
+    "classes": [
+      "cls_1779986589959_uaer45"
+    ]
   },
   {
     "id": "s_1777546951753_p3pskl",
@@ -138,7 +141,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "hypfjn5yx4xm"
+    "pageCode": "hypfjn5yx4xm",
+    "classes": [
+      "cls_1779987510578_5e6to7"
+    ]
   },
   {
     "id": "s_1778397156600_clkd2u",
@@ -160,7 +166,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "y8jkzjbpkmfh"
+    "pageCode": "y8jkzjbpkmfh",
+    "classes": [
+      "cls_1779987510578_5e6to7"
+    ]
   },
   {
     "id": "s_1778402500926_7fxigp",
@@ -182,7 +191,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "tke85bjzms8e"
+    "pageCode": "tke85bjzms8e",
+    "classes": [
+      "cls_1779986589959_uaer45"
+    ]
   },
   {
     "id": "s_1778404886523_0ag055",
@@ -204,7 +216,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "9kpm4rh8e2sb"
+    "pageCode": "9kpm4rh8e2sb",
+    "classes": [
+      "cls_1779986589959_uaer45"
+    ]
   },
   {
     "id": "s_1778638262495_alq1jg",
@@ -226,7 +241,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "h4257zsksm3h"
+    "pageCode": "h4257zsksm3h",
+    "classes": [
+      "cls_1779986589959_uaer45"
+    ]
   },
   {
     "id": "s_1778768401651_7hlihp",
@@ -342,7 +360,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "cs4z4c4u3t9u"
+    "pageCode": "cs4z4c4u3t9u",
+    "classes": [
+      "cls_1779987510578_5e6to7"
+    ]
   },
   {
     "id": "s_1779811264964_kbtli4",
@@ -364,7 +385,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "szsvtwbygpkz"
+    "pageCode": "szsvtwbygpkz",
+    "classes": [
+      "cls_1779987510578_5e6to7"
+    ]
   },
   {
     "id": "s_1779948611035_qbdt5h",

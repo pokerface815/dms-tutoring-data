@@ -291,7 +291,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "w3k9fvx6w5vd"
+    "pageCode": "w3k9fvx6w5vd",
+    "classes": [
+      "cls_1779987510578_5e6to7"
+    ]
   },
   {
     "id": "s_1778908285779_1cmzde",
@@ -313,7 +316,10 @@
     "parentPhone": "",
     "notifyStudent": true,
     "notifyParent": false,
-    "pageCode": "meut9zmgs6g3"
+    "pageCode": "meut9zmgs6g3",
+    "classes": [
+      "cls_1780065876900_57up14"
+    ]
   },
   {
     "id": "s_1779005266373_7iq1b8",

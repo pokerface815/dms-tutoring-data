@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-29T02:56:58.308Z",
+  "generatedAt": "2026-05-29T08:45:59.259Z",
   "student": {
     "name": "서준우",
     "school": "살레중",
@@ -34,30 +34,12 @@
   },
   "tasks": [
     {
-      "assignmentId": "task_1779969842199_gtbdtg",
+      "assignmentId": "task_1780044346438_o1f994",
       "round": 1,
-      "title": "일품 2장 풀기",
-      "dueDate": "2026-05-29",
+      "title": "일품 10장",
+      "dueDate": "2026-05-31",
       "isRepeat": false,
-      "assignedAt": "2026-05-28T06:20:09.580Z"
-    },
-    {
-      "assignmentId": "task_1779969246743_sslvtg",
-      "round": 20260530,
-      "title": "개+유 공수1 2장씩",
-      "dueDate": "2026-05-30",
-      "isRepeat": true,
-      "dayOffset": 1,
-      "assignedAt": "2026-05-28T11:09:14.731Z"
-    },
-    {
-      "assignmentId": "task_1779969246743_sslvtg",
-      "round": 20260602,
-      "title": "개+유 공수1 2장씩",
-      "dueDate": "2026-06-02",
-      "isRepeat": true,
-      "dayOffset": 4,
-      "assignedAt": "2026-05-28T11:09:14.731Z"
+      "assignedAt": "2026-05-29T08:45:46.438Z"
     }
   ]
 }

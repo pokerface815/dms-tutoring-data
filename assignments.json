@@ -1188,31 +1188,5 @@
       }
     ],
     "createdAt": "2026-05-27T05:28:46.685Z"
-  },
-  {
-    "id": "task_1779969246743_sslvtg",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "개+유 공수1 2장씩",
-    "dueDate": null,
-    "assignedAt": "2026-05-28T11:09:14.731Z",
-    "batchId": "t_mppe4nl7",
-    "repeat": {
-      "enabled": true,
-      "weekdays": [
-        2,
-        6
-      ]
-    }
-  },
-  {
-    "id": "task_1779969842199_gtbdtg",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "일품 2장 풀기",
-    "dueDate": "2026-05-29",
-    "assignedAt": "2026-05-28T06:20:09.580Z",
-    "batchId": "t_mpp3svzg",
-    "repeat": null
   }
 ]

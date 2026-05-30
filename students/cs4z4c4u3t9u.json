@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T14:41:50.464Z",
+  "generatedAt": "2026-05-30T15:09:28.606Z",
   "student": {
     "name": "박현우",
     "school": "살레고",
     "grade": "고2",
     "class": "토,일 4시"
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779628229457_kpp0ll",
       "noteName": "박현우_개념루트_삼각함수의 그래프( ~486번)",
@@ -20,6 +18,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1779628229457_kpp0ll",

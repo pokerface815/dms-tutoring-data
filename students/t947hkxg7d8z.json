@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-29T14:46:08.440Z",
+  "generatedAt": "2026-05-30T05:55:38.112Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
     "grade": "고2",
     "class": "개별수업"
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779542958590_b0w63c",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~33번)",
@@ -20,6 +18,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1779287559980_ge3q7f",

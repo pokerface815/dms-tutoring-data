@@ -21,5 +21,20 @@
     "taskBatchId": "t_mpsg3v23",
     "createdAt": "2026-05-30T14:16:10.128Z",
     "updatedAt": "2026-05-30T14:27:55.515Z"
+  },
+  {
+    "id": "lesson_1780185291295_v0t1tj",
+    "classId": "cls_1779986589959_uaer45",
+    "date": "2026-05-31",
+    "content": "각 학교 부교재 풀이",
+    "studentNotes": [
+      {
+        "studentId": "s_1777546978791_hsee5a",
+        "note": "ㅁㄴㅇㄹㄴㅇㄹ"
+      }
+    ],
+    "taskBatchId": null,
+    "createdAt": "2026-05-30T23:54:51.293Z",
+    "updatedAt": "2026-05-30T23:54:51.293Z"
   }
 ]

@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-29T14:45:36.965Z",
+  "generatedAt": "2026-05-30T05:55:41.151Z",
   "student": {
     "name": "서연준",
     "school": "살레고",
     "grade": "고2",
     "class": "토,일 4시"
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779522836564_0qh9aq",
       "noteName": "서연준_개념루트_등차수열과 등비수열(~678번)",
@@ -20,6 +18,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1779522836564_0qh9aq",

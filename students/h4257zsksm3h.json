@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T15:09:23.078Z",
+  "generatedAt": "2026-05-30T23:55:31.440Z",
   "student": {
     "name": "이현승",
     "school": "살레고",
@@ -47,5 +47,14 @@
     "endDate": "2026-05-31"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [
+    {
+      "assignmentId": "task_1780185326012_ldud7m",
+      "round": 1,
+      "title": "오답노트 철저히",
+      "dueDate": "2026-06-04",
+      "isRepeat": false,
+      "assignedAt": "2026-05-30T23:55:26.012Z"
+    }
+  ]
 }

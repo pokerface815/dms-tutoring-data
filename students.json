@@ -418,5 +418,29 @@
     "notifyParent": false,
     "pageCode": "kwbqx4xu6as9",
     "classes": []
+  },
+  {
+    "id": "s_1780120522491_e0xa20",
+    "name": "김민지",
+    "school": "숭일고",
+    "grade": "고2",
+    "classes": [
+      "cls_1780065876900_57up14"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-2103-9815",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "pageCode": "pfw7m6zkbf5r"
   }
 ]

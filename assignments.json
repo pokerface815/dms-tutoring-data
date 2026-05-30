@@ -1334,5 +1334,39 @@
       }
     ],
     "createdAt": "2026-05-30T09:13:03.298Z"
+  },
+  {
+    "id": "a_1780135968357_h4pk5b",
+    "noteId": "note_1780135960991_r2i45d",
+    "noteName": "김규림_개념루트_등차수열과 등비수열( ~709번)",
+    "studentId": "s_1777546978791_hsee5a",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-05-30",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-01",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-06",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-20",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-05-30T10:12:48.357Z"
   }
 ]

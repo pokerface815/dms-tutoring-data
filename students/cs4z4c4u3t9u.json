@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T13:52:53.505Z",
+  "generatedAt": "2026-05-30T14:16:43.778Z",
   "student": {
     "name": "박현우",
     "school": "살레고",
@@ -55,5 +55,14 @@
       "confirmedAt": "2026-05-28T06:11:24.127Z"
     }
   },
-  "tasks": []
+  "tasks": [
+    {
+      "assignmentId": "task_1780150570128_b339w2",
+      "round": 1,
+      "title": "오답노트 풀어서 제출",
+      "dueDate": "2026-05-31",
+      "isRepeat": false,
+      "assignedAt": "2026-05-30T14:16:10.128Z"
+    }
+  ]
 }

@@ -1,26 +1,25 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T11:02:24.709Z",
+  "generatedAt": "2026-05-30T13:52:40.905Z",
   "student": {
     "name": "서연준",
     "school": "살레고",
     "grade": "고2",
     "class": "토,일 4시"
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1779522836564_0qh9aq",
       "noteName": "서연준_개념루트_등차수열과 등비수열(~678번)",
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-05-30",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-05-30T13:52:06.788Z"
+    },
     {
       "assignmentId": "a_1779522836564_0qh9aq",
       "noteName": "서연준_개념루트_등차수열과 등비수열(~678번)",
@@ -96,8 +95,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
   },

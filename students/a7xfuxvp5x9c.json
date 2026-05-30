@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T14:41:49.361Z",
+  "generatedAt": "2026-05-30T15:09:27.480Z",
   "student": {
     "name": "김시현",
     "school": "국제고",
     "grade": "고2",
     "class": "토,일 4시"
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779005332752_2a4093",
       "noteName": "김시현_수매씽 유형_06. 삼각함수의 그래프",
@@ -20,6 +18,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1779008218684_q2cybr",

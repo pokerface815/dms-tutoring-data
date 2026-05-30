@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T15:09:20.953Z",
+  "generatedAt": "2026-05-30T23:55:25.269Z",
   "student": {
     "name": "정찬민",
     "school": "살레고",
@@ -120,5 +120,14 @@
     "endDate": "2026-05-31"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [
+    {
+      "assignmentId": "task_1780185308279_wwb83v",
+      "round": 1,
+      "title": "오답노트 철저히",
+      "dueDate": "2026-05-31",
+      "isRepeat": false,
+      "assignedAt": "2026-05-30T23:55:08.279Z"
+    }
+  ]
 }

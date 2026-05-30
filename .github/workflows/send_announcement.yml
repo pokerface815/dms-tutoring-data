@@ -1,0 +1,61 @@
+name: Send Announcement SMS
+
+# announcements/pending.json 이 변경되어 push되면 자동 실행
+on:
+  push:
+    paths:
+      - 'announcements/pending.json'
+  # 수동 실행도 가능 (테스트용)
+  workflow_dispatch:
+    inputs:
+      DRY_RUN:
+        description: "true면 실제 발송 안 함 (미리보기만)"
+        required: false
+        default: "false"
+      TEST_ONLY_TO:
+        description: "이 번호로만 발송 (테스트용, 비우면 전체 발송)"
+        required: false
+        default: ""
+
+# 동시 실행 방지 (중복 발송 방지)
+concurrency:
+  group: send-announcement
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install solapi SDK
+        run: pip install solapi
+
+      - name: Send announcements
+        env:
+          SOLAPI_API_KEY: ${{ secrets.SOLAPI_API_KEY }}
+          SOLAPI_API_SECRET: ${{ secrets.SOLAPI_API_SECRET }}
+          SOLAPI_SENDER: ${{ secrets.SOLAPI_SENDER }}
+          ACADEMY_NAME: ${{ vars.ACADEMY_NAME }}
+          DRY_RUN: ${{ github.event.inputs.DRY_RUN || 'false' }}
+          TEST_ONLY_TO: ${{ github.event.inputs.TEST_ONLY_TO || '' }}
+        run: python scripts/send_announcement.py
+
+      - name: Commit sent records and cleared pending
+        if: ${{ github.event.inputs.DRY_RUN != 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add announcements/
+          if git diff --staged --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "chore: announcement sent records [skip ci]"
+            git push
+          fi

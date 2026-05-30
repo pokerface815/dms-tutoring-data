@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T15:09:22.020Z",
+  "generatedAt": "2026-05-30T23:55:28.312Z",
   "student": {
     "name": "박다인",
     "school": "국제고",
@@ -110,5 +110,14 @@
     "endDate": "2026-05-31"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [
+    {
+      "assignmentId": "task_1780185326012_lg7e3g",
+      "round": 1,
+      "title": "오답노트 철저히",
+      "dueDate": "2026-06-04",
+      "isRepeat": false,
+      "assignedAt": "2026-05-30T23:55:26.012Z"
+    }
+  ]
 }

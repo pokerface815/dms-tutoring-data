@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T15:09:29.631Z",
+  "generatedAt": "2026-05-30T23:55:50.668Z",
   "student": {
     "name": "김한비",
     "school": "전사고",
@@ -62,14 +62,6 @@
       "assignedAt": "2026-05-30T14:41:26.917Z"
     },
     {
-      "assignmentId": "task_1780151275515_a5jhgo",
-      "round": 1,
-      "title": "오답노트 풀어서 제출",
-      "dueDate": "2026-05-31",
-      "isRepeat": false,
-      "assignedAt": "2026-05-30T14:27:55.515Z"
-    },
-    {
       "assignmentId": "task_1780152086917_f8u2ai",
       "round": 20260531,
       "title": "반복 과제 테스트",
@@ -113,6 +105,14 @@
       "isRepeat": true,
       "dayOffset": 4,
       "assignedAt": "2026-05-30T14:41:26.917Z"
+    },
+    {
+      "assignmentId": "task_1780185332740_chlpqd",
+      "round": 1,
+      "title": "오답노트 풀어서 제출",
+      "dueDate": "2026-06-04",
+      "isRepeat": false,
+      "assignedAt": "2026-05-30T23:55:32.739Z"
     },
     {
       "assignmentId": "task_1780152086917_f8u2ai",

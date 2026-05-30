@@ -1470,13 +1470,13 @@
     "fromLesson": "lesson_1780150570128_lr54q1"
   },
   {
-    "id": "task_1780152040111_gppgb8",
+    "id": "task_1780152086917_f8u2ai",
     "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "쎈 매일 2장씩",
+    "studentId": "s_1779811264964_kbtli4",
+    "title": "반복 과제 테스트",
     "dueDate": null,
-    "assignedAt": "2026-05-30T14:40:40.111Z",
-    "batchId": "t_mpsgk90v",
+    "assignedAt": "2026-05-30T14:41:26.917Z",
+    "batchId": "t_mpsgl951",
     "repeat": {
       "enabled": true,
       "weekdays": [

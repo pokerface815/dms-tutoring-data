@@ -1,26 +1,25 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T11:02:30.057Z",
+  "generatedAt": "2026-05-30T13:52:48.927Z",
   "student": {
     "name": "지유진",
     "school": "문정여고",
     "grade": "고2",
     "class": "토,일 4시"
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1779519466437_4zcqh7",
       "noteName": "지유진_올림포스 유형편_등차수열과 등비수열",
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-05-30",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-05-30T13:52:32.810Z"
+    },
     {
       "assignmentId": "a_1779519466437_4zcqh7",
       "noteName": "지유진_올림포스 유형편_등차수열과 등비수열",
@@ -69,8 +68,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
   },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T14:45:23.908Z",
+  "generatedAt": "2026-05-30T15:09:29.631Z",
   "student": {
     "name": "김한비",
     "school": "전사고",
@@ -45,20 +45,11 @@
   "tasks": [
     {
       "assignmentId": "task_1780152086917_f8u2ai",
-      "round": 20260528,
-      "title": "반복 과제 테스트",
-      "dueDate": "2026-05-28",
-      "isRepeat": true,
-      "dayOffset": -2,
-      "assignedAt": "2026-05-30T14:41:26.917Z"
-    },
-    {
-      "assignmentId": "task_1780152086917_f8u2ai",
       "round": 20260529,
       "title": "반복 과제 테스트",
       "dueDate": "2026-05-29",
       "isRepeat": true,
-      "dayOffset": -1,
+      "dayOffset": -2,
       "assignedAt": "2026-05-30T14:41:26.917Z"
     },
     {
@@ -67,7 +58,7 @@
       "title": "반복 과제 테스트",
       "dueDate": "2026-05-30",
       "isRepeat": true,
-      "dayOffset": 0,
+      "dayOffset": -1,
       "assignedAt": "2026-05-30T14:41:26.917Z"
     },
     {
@@ -84,7 +75,7 @@
       "title": "반복 과제 테스트",
       "dueDate": "2026-05-31",
       "isRepeat": true,
-      "dayOffset": 1,
+      "dayOffset": 0,
       "assignedAt": "2026-05-30T14:41:26.917Z"
     },
     {
@@ -93,7 +84,7 @@
       "title": "반복 과제 테스트",
       "dueDate": "2026-06-01",
       "isRepeat": true,
-      "dayOffset": 2,
+      "dayOffset": 1,
       "assignedAt": "2026-05-30T14:41:26.917Z"
     },
     {
@@ -102,7 +93,7 @@
       "title": "반복 과제 테스트",
       "dueDate": "2026-06-02",
       "isRepeat": true,
-      "dayOffset": 3,
+      "dayOffset": 2,
       "assignedAt": "2026-05-30T14:41:26.917Z"
     },
     {
@@ -111,7 +102,7 @@
       "title": "반복 과제 테스트",
       "dueDate": "2026-06-03",
       "isRepeat": true,
-      "dayOffset": 4,
+      "dayOffset": 3,
       "assignedAt": "2026-05-30T14:41:26.917Z"
     },
     {
@@ -119,6 +110,15 @@
       "round": 20260604,
       "title": "반복 과제 테스트",
       "dueDate": "2026-06-04",
+      "isRepeat": true,
+      "dayOffset": 4,
+      "assignedAt": "2026-05-30T14:41:26.917Z"
+    },
+    {
+      "assignmentId": "task_1780152086917_f8u2ai",
+      "round": 20260605,
+      "title": "반복 과제 테스트",
+      "dueDate": "2026-06-05",
       "isRepeat": true,
       "dayOffset": 5,
       "assignedAt": "2026-05-30T14:41:26.917Z"

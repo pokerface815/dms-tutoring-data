@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T14:16:43.778Z",
+  "generatedAt": "2026-05-30T14:17:07.017Z",
   "student": {
     "name": "박현우",
     "school": "살레고",
@@ -52,7 +52,7 @@
       "comment": "풀이가 부족해요.",
       "commentAt": "2026-05-28T03:12:11.160Z",
       "confirmed": true,
-      "confirmedAt": "2026-05-28T06:11:24.127Z"
+      "confirmedAt": "2026-05-30T14:17:05.535Z"
     }
   },
   "tasks": [

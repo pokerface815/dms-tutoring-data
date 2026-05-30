@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "ann_mpsd3je7h2bq",
+    "createdAt": "2026-05-30T13:03:41.551Z",
+    "target": "student",
+    "message": "테스트",
+    "recipients": [
+      {
+        "name": "조예나",
+        "type": "student",
+        "phone": "010-2997-6145"
+      }
+    ],
+    "status": "pending"
+  }
+]

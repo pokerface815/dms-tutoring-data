@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>학습 안내 · 기억의 설계</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fefcf8;
+    --surface: #ffffff;
+    --surface2: #f9f6ef;
+    --border: #ece5d8;
+    --text: #2a2a2a;
+    --text2: #5a5a5a;
+    --text3: #999;
+    --accent: #8b5a2b;
+    --accent-light: #c69856;
+    --accent-dark: #6b4520;
+    --purple: #7c5cbf;
+    --radius: 14px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+  body { max-width: 680px; margin: 0 auto; min-height: 100vh; }
+  .header {
+    background: var(--surface);
+    padding: 20px;
+    border-bottom: 0.5px solid var(--border);
+    position: sticky; top: 0; z-index: 10;
+  }
+  .header-brand { font-family: 'Gowun Batang', serif; font-size: 22px; font-weight: 700; color: var(--accent); letter-spacing: -0.5px; text-align: center; }
+  .header-tagline { font-family: 'Gowun Batang', serif; font-size: 11px; color: var(--text3); text-align: center; margin-top: 2px; }
+  .student-banner {
+    margin: 16px 20px 4px;
+    padding: 16px 20px;
+    background: var(--surface);
+    border-radius: var(--radius);
+    border: 0.5px solid var(--border);
+  }
+  .student-name { font-size: 18px; font-weight: 700; }
+  .student-sub { font-size: 12px; color: var(--text3); margin-top: 2px; }
+
+  .content { padding: 8px 20px 40px; }
+  .month-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .month-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 18px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .month-header:hover { background: var(--surface2); }
+  .month-title { font-size: 15px; font-weight: 700; }
+  .month-count { font-size: 12px; color: var(--text3); margin-left: 8px; font-weight: 400; }
+  .month-rate { font-size: 11px; color: var(--purple); margin-left: 8px; font-weight: 700; background: #f3effa; padding: 2px 8px; border-radius: 10px; }
+  .rate-box { padding: 12px 14px; background: #f6f2fb; border-radius: 10px; margin: 10px 0 4px; }
+  .rate-top { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--text2); margin-bottom: 8px; }
+  .rate-top b { color: var(--purple); font-size: 16px; }
+  .rate-track { height: 8px; background: #e3d9f3; border-radius: 4px; overflow: hidden; }
+  .rate-fill { height: 100%; background: var(--purple); border-radius: 4px; transition: width 0.3s; }
+  .rate-sub { font-size: 11px; color: var(--text3); margin-top: 6px; }
+  .month-arrow { font-size: 12px; color: var(--text3); transition: transform 0.2s; }
+  .month-card.open .month-arrow { transform: rotate(90deg); }
+  .month-body { display: none; padding: 0 18px 8px; }
+  .month-card.open .month-body { display: block; }
+
+  .lesson-item {
+    padding: 14px 0;
+    border-top: 0.5px solid var(--border);
+  }
+  .lesson-date {
+    font-size: 13px; font-weight: 700; color: var(--accent);
+    margin-bottom: 6px;
+  }
+  .lesson-class { font-size: 11px; color: var(--text3); font-weight: 400; margin-left: 6px; }
+  .lesson-content { font-size: 14px; line-height: 1.65; white-space: pre-wrap; word-break: keep-all; }
+  .lesson-task {
+    margin-top: 8px; padding: 8px 12px;
+    background: #f6f2fb; border-radius: 8px;
+    font-size: 13px; line-height: 1.5;
+  }
+  .lesson-task-label { color: var(--purple); font-weight: 700; }
+  .lesson-note {
+    margin-top: 8px; padding: 10px 12px;
+    background: #fdf6e9; border-radius: 8px;
+    font-size: 13px; line-height: 1.55;
+    border-left: 3px solid var(--accent-light);
+  }
+  .lesson-note-label { color: var(--accent-dark); font-weight: 700; display: block; margin-bottom: 2px; font-size: 12px; }
+
+  .empty-state {
+    text-align: center; padding: 60px 20px; color: var(--text3);
+  }
+  .empty-state .icon { font-size: 44px; margin-bottom: 12px; }
+  .footer { text-align: center; padding: 24px 20px 40px; font-size: 11px; color: var(--text3); }
+  .refresh-btn {
+    background: var(--surface); border: 0.5px solid var(--border); color: var(--text2);
+    padding: 8px 18px; border-radius: 20px; font-size: 13px; cursor: pointer; font-family: inherit;
+  }
+  .last-updated { display: block; margin-top: 8px; }
+  .loading { text-align: center; padding: 80px 20px; color: var(--text3); }
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="loading">불러오는 중...</div>
+</div>
+
+<script>
+  let parentCode = '';
+  let parentData = null;
+
+  (async function() {
+    const params = new URLSearchParams(window.location.search);
+    parentCode = (params.get('code') || '').trim();
+    if (!parentCode) { renderError('코드가 없습니다', '올바른 URL로 접속해주세요.'); return; }
+    if (!/^[a-z0-9]{6,20}$/.test(parentCode)) { renderError('잘못된 코드', '올바른 URL로 접속해주세요.'); return; }
+
+    try {
+      const url = `../parents/${parentCode}.json?t=${Date.now()}`;
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) {
+        if (res.status === 404) renderError('페이지를 찾을 수 없습니다', 'URL이 정확한지 확인해주세요.<br>문제가 계속되면 선생님께 문의하세요.');
+        else renderError('데이터 로드 실패', `오류 코드: ${res.status}`);
+        return;
+      }
+      parentData = await res.json();
+      renderPage();
+    } catch (e) {
+      console.error(e);
+      renderError('네트워크 오류', '인터넷 연결을 확인해주세요.<br>' + e.message);
+    }
+  })();
+
+  function escapeHtml(s) {
+    if (s == null) return '';
+    return String(s).replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+  }
+
+  function renderError(title, msg) {
+    document.getElementById('app').innerHTML = `
+      <div class="header">
+        <div class="header-brand">기억의 설계</div>
+        <div class="header-tagline">잊지 않게 만드는 수학 학습</div>
+      </div>
+      <div class="empty-state">
+        <div class="icon">⚠️</div>
+        <h3 style="margin-bottom:8px;">${title}</h3>
+        <p style="font-size:13px; line-height:1.6;">${msg}</p>
+      </div>
+    `;
+  }
+
+  function formatRelativeTime(date) {
+    const diff = Date.now() - date.getTime();
+    const mins = Math.floor(diff / 60000);
+    if (mins < 1) return '방금 전';
+    if (mins < 60) return `${mins}분 전`;
+    const hrs = Math.floor(mins / 60);
+    if (hrs < 24) return `${hrs}시간 전`;
+    const d = Math.floor(hrs / 24);
+    return `${d}일 전`;
+  }
+
+  function renderPage() {
+    const d = parentData;
+    const student = d.student || {};
+    const months = d.months || [];
+
+    let html = `
+      <div class="header">
+        <div class="header-brand">기억의 설계</div>
+        <div class="header-tagline">잊지 않게 만드는 수학 학습</div>
+      </div>
+      <div class="student-banner">
+        <div class="student-name">${escapeHtml(student.name || '')} 학생</div>
+        <div class="student-sub">학습 안내 · 수업 내용을 월별로 확인하실 수 있습니다</div>
+      </div>
+      <div class="content">
+    `;
+
+    if (months.length === 0) {
+      html += `
+        <div class="empty-state">
+          <div class="icon">📘</div>
+          <h3 style="margin-bottom:8px;">아직 등록된 수업 내용이 없습니다</h3>
+          <p style="font-size:13px;">수업이 진행되면 이곳에 안내됩니다.</p>
+        </div>
+      `;
+    } else {
+      months.forEach((m, idx) => {
+        // 첫 달(가장 최근)은 기본 펼침
+        const openClass = idx === 0 ? ' open' : '';
+        const rate = m.completionRate;
+        const rateBadge = rate ? `<span class="month-rate">과제 ${rate.done}/${rate.total} · ${rate.percent}%</span>` : '';
+        const rateBar = rate ? `
+          <div class="rate-box">
+            <div class="rate-top"><span>📚 이번 달 과제 완료율</span><b>${rate.percent}%</b></div>
+            <div class="rate-track"><div class="rate-fill" style="width:${rate.percent}%;"></div></div>
+            <div class="rate-sub">${rate.done}건 완료 / ${rate.total}건 (마감 지난 과제 기준)</div>
+          </div>
+        ` : '';
+        html += `
+          <div class="month-card${openClass}">
+            <div class="month-header" onclick="this.parentElement.classList.toggle('open')">
+              <div><span class="month-title">${escapeHtml(m.label)}</span><span class="month-count">수업 ${m.lessons.length}회</span>${rateBadge}</div>
+              <span class="month-arrow">▶</span>
+            </div>
+            <div class="month-body">
+              ${rateBar}
+              ${m.lessons.map(renderLesson).join('')}
+            </div>
+          </div>
+        `;
+      });
+    }
+
+    const updatedTime = d.generatedAt ? new Date(d.generatedAt) : null;
+    html += `
+        <div class="footer">
+          <button class="refresh-btn" onclick="location.reload()">🔄 새로고침</button>
+          ${updatedTime ? `<span class="last-updated">마지막 업데이트: ${formatRelativeTime(updatedTime)}</span>` : ''}
+        </div>
+      </div>
+    `;
+    document.getElementById('app').innerHTML = html;
+  }
+
+  function renderLesson(l) {
+    const dateObj = new Date((l.date || '') + 'T00:00:00');
+    const mmdd = isNaN(dateObj) ? (l.date || '') : `${dateObj.getMonth()+1}/${dateObj.getDate()}`;
+    const wd = l.weekday ? ` (${l.weekday})` : '';
+
+    let html = `
+      <div class="lesson-item">
+        <div class="lesson-date">${mmdd}${wd}<span class="lesson-class">${escapeHtml(l.className || '')}</span></div>
+        <div class="lesson-content">${escapeHtml(l.content || '')}</div>
+    `;
+    if (l.task) {
+      const due = l.taskDue ? ` <span style="color:var(--text3);">(마감 ${escapeHtml(l.taskDue)})</span>` : '';
+      html += `<div class="lesson-task"><span class="lesson-task-label">📚 과제</span> ${escapeHtml(l.task)}${due}</div>`;
+    }
+    if (l.myNote) {
+      html += `<div class="lesson-note"><span class="lesson-note-label">📝 특이사항</span>${escapeHtml(l.myNote)}</div>`;
+    }
+    html += '</div>';
+    return html;
+  }
+</script>
+</body>
+</html>

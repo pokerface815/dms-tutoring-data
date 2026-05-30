@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T14:41:41.409Z",
+  "generatedAt": "2026-05-30T15:09:18.619Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
     "grade": "고2",
     "class": "토,일 4시"
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779611210724_3z5dhl",
       "noteName": "이경주_수매씽 유형_등비수열( ~1993번)",
@@ -20,6 +18,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1780075403993_90or5b",

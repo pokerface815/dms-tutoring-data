@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T14:41:51.458Z",
+  "generatedAt": "2026-05-30T14:45:23.908Z",
   "student": {
     "name": "김한비",
     "school": "전사고",
@@ -28,7 +28,20 @@
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
   },
-  "teacherConfirms": {},
+  "teacherConfirms": {
+    "task_1780152086917_f8u2ai__20260530": {
+      "confirmed": true,
+      "confirmedAt": "2026-05-30T14:45:10.919Z"
+    },
+    "task_1780151275515_a5jhgo__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-05-30T14:45:14.804Z"
+    },
+    "task_1780150570128_u5kj1u__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-05-30T14:45:17.213Z"
+    }
+  },
   "tasks": [
     {
       "assignmentId": "task_1780152086917_f8u2ai",

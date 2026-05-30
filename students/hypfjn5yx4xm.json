@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T14:16:29.854Z",
+  "generatedAt": "2026-05-30T14:28:14.870Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -118,12 +118,12 @@
   },
   "tasks": [
     {
-      "assignmentId": "task_1780150570128_n4hqn2",
+      "assignmentId": "task_1780151275515_sqv788",
       "round": 1,
       "title": "오답노트 풀어서 제출",
       "dueDate": "2026-05-31",
       "isRepeat": false,
-      "assignedAt": "2026-05-30T14:16:10.128Z"
+      "assignedAt": "2026-05-30T14:27:55.515Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T14:16:45.404Z",
+  "generatedAt": "2026-05-30T14:28:29.616Z",
   "student": {
     "name": "김한비",
     "school": "전사고",
@@ -31,12 +31,12 @@
   "teacherConfirms": {},
   "tasks": [
     {
-      "assignmentId": "task_1780150570128_u5kj1u",
+      "assignmentId": "task_1780151275515_a5jhgo",
       "round": 1,
       "title": "오답노트 풀어서 제출",
       "dueDate": "2026-05-31",
       "isRepeat": false,
-      "assignedAt": "2026-05-30T14:16:10.128Z"
+      "assignedAt": "2026-05-30T14:27:55.515Z"
     }
   ]
 }

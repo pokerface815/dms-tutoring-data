@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T14:41:43.397Z",
+  "generatedAt": "2026-05-30T15:09:20.953Z",
   "student": {
     "name": "정찬민",
     "school": "살레고",
     "grade": "고2",
     "class": "토,일 6시"
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779614518153_8fgga4",
       "noteName": "정찬민_개념루트_사인법칙과 코사인법칙( ~591번)",
@@ -20,6 +18,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1779614518153_8fgga4",

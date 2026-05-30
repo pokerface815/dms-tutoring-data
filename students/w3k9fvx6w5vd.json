@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-29T14:45:42.633Z",
+  "generatedAt": "2026-05-30T05:56:22.373Z",
   "student": {
     "name": "지유진",
     "school": "문정여고",
     "grade": "고2",
     "class": "토,일 4시"
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779519466437_4zcqh7",
       "noteName": "지유진_올림포스 유형편_등차수열과 등비수열",
@@ -20,6 +18,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1779519466437_4zcqh7",

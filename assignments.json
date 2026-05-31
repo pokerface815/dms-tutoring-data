@@ -1436,5 +1436,16 @@
       }
     ],
     "createdAt": "2026-05-30T15:08:42.620Z"
+  },
+  {
+    "id": "task_1780190478572_mowsbw",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "매일 하나씩 킬러문항",
+    "dueDate": "2026-06-01",
+    "assignedAt": "2026-05-31T01:21:18.572Z",
+    "batchId": "t_mpt3g4bw",
+    "repeat": null,
+    "fromLesson": "lesson_1780190478572_c6hscq"
   }
 ]

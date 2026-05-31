@@ -1,15 +1,53 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T10:10:07.705Z",
+  "generatedAt": "2026-05-31T17:48:43.083Z",
   "student": {
     "name": "박다인",
     "school": "국제고",
     "grade": "고2",
     "class": "토,일 6시"
   },
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1780132383298_b371c0",
+      "noteName": "박다인_수매씽 유형_등차수열( ~1763번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-01",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1778926078603_csiw8v",
+      "noteName": "박다인_수매씽 유형_삼각함수의 그래프( ~ 1376번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-06",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1780132383298_b371c0",
+      "noteName": "박다인_수매씽 유형_등차수열( ~1763번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-06",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1778404955321_ulqgty",
+      "noteName": "박다인_수매씽 유형_06. 삼각함수의 그래프",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-07",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1780132383298_b371c0",
@@ -103,11 +141,11 @@
     }
   ],
   "weekProgress": {
-    "total": 3,
-    "done": 3,
-    "percent": 100,
-    "startDate": "2026-05-25",
-    "endDate": "2026-05-31"
+    "total": 4,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
   },
   "teacherConfirms": {},
   "tasks": []

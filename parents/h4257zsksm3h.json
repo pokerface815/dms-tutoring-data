@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-30T23:55:32.947Z",
+  "generatedAt": "2026-05-31T01:20:17.740Z",
   "showCompletionRate": true,
   "student": {
     "name": "이현승",
@@ -16,12 +16,13 @@
           "weekday": "일",
           "className": "토,일 6시",
           "content": "각 학교 부교재 풀이",
-          "task": "오답노트 철저히",
-          "taskDue": "2026-06-04",
+          "task": "",
+          "taskDue": "",
           "myNote": ""
         }
       ],
       "completionRate": null
     }
-  ]
+  ],
+  "tests": []
 }

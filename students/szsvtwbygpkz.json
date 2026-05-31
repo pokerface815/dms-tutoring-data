@@ -1,15 +1,35 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T10:10:24.194Z",
+  "generatedAt": "2026-05-31T17:49:05.352Z",
   "student": {
     "name": "김한비",
     "school": "전사고",
     "grade": "고2",
     "class": "토,일 4시"
   },
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1780061919737_cwqd4a",
+      "noteName": "김한비_유형 해결의 법칙_등차등비수열( ~1226번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-01",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1780061919737_cwqd4a",
+      "noteName": "김한비_유형 해결의 법칙_등차등비수열( ~1226번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-06",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1780061919737_cwqd4a",
@@ -22,11 +42,11 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
-    "done": 1,
-    "percent": 100,
-    "startDate": "2026-05-25",
-    "endDate": "2026-05-31"
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
   },
   "teacherConfirms": {
     "task_1780152086917_f8u2ai__20260530": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T10:10:17.030Z",
+  "generatedAt": "2026-05-31T17:48:55.763Z",
   "student": {
     "name": "서은영",
     "school": "경신여고",
@@ -9,7 +9,17 @@
   },
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1778908306804_awswgq",
+      "noteName": "서은영_마더텅_삼각함수의 활용( ~70번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-06",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1778908306804_awswgq",
@@ -40,11 +50,11 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 1,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-05-25",
-    "endDate": "2026-05-31"
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
   },
   "teacherConfirms": {},
   "tasks": []

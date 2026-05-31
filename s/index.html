@@ -66,6 +66,9 @@
     .section { margin: 20px 20px 0; }
     .section-title { font-size: 13px; font-weight: 600; color: var(--text2); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
     .section-count { background: var(--surface2); color: var(--text3); padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 500; }
+    .completed-arrow { font-size: 10px; color: var(--text3); margin-left: 2px; }
+    .completed-toggle { user-select: none; }
+    .completed-more-btn { width: 100%; margin-top: 6px; padding: 9px; background: var(--surface2); border: 0.5px solid var(--border); border-radius: 10px; font-size: 13px; color: var(--text2); cursor: pointer; font-family: inherit; }
     .section-count.today { background: #fcebd5; color: var(--accent); }
     .section-count.overdue { background: #fdd9d3; color: var(--danger); }
 
@@ -248,7 +251,7 @@
     html += renderSection('🔴 오늘 풀어야 할 오답노트', data.today || [], 'today', '오늘 풀 오답노트가 없어요. 잠깐 쉬는 날 ☺️', true);
     if ((data.overdue || []).length > 0) html += renderSection('⚠️ 밀린 오답노트', data.overdue, 'overdue', '', true);
     if ((data.upcoming || []).length > 0) html += renderSection('📅 이번 주 일정', data.upcoming, 'upcoming', '', false);
-    if ((data.completed || []).length > 0) html += renderSection('✅ 최근 완료한 오답노트', data.completed, 'completed', '', false);
+    if ((data.completed || []).length > 0) html += renderCompletedSection(data.completed);
 
     // 일반 과제 섹션 (오답노트와 구분)
     html += renderTaskSection(data.tasks || []);
@@ -261,6 +264,44 @@
       </div>
     `;
     app.innerHTML = html;
+  }
+
+  // 완료 노트: 토글 + 8개 + 더보기
+  function renderCompletedSection(items) {
+    const INITIAL = 8;
+    const recent = items.slice(0, INITIAL);
+    const rest = items.slice(INITIAL);
+    let inner = recent.map(it => renderNoteCard(it, 'completed', false)).join('');
+    if (rest.length > 0) {
+      inner += `<div id="completedRest" style="display:none;">${rest.map(it => renderNoteCard(it, 'completed', false)).join('')}</div>`;
+      inner += `<button class="completed-more-btn" id="completedMoreBtn" onclick="toggleCompletedMore()">+ 이전 완료 ${rest.length}개 더 보기</button>`;
+    }
+    return `
+      <div class="section">
+        <div class="section-title completed-toggle" onclick="toggleCompletedSection()" style="cursor:pointer;">
+          <span>✅ 최근 완료한 오답노트 <span class="completed-arrow" id="completedArrow">▶</span></span>
+          <span class="section-count completed">${items.length}</span>
+        </div>
+        <div id="completedBody" style="display:none;">${inner}</div>
+      </div>
+    `;
+  }
+
+  function toggleCompletedSection() {
+    const body = document.getElementById('completedBody');
+    const arrow = document.getElementById('completedArrow');
+    if (!body) return;
+    const open = body.style.display !== 'none';
+    body.style.display = open ? 'none' : 'block';
+    if (arrow) arrow.textContent = open ? '▶' : '▼';
+  }
+
+  function toggleCompletedMore() {
+    const rest = document.getElementById('completedRest');
+    const btn = document.getElementById('completedMoreBtn');
+    if (!rest || !btn) return;
+    rest.style.display = 'block';
+    btn.style.display = 'none';
   }
 
   function renderSection(title, items, type, emptyMsg, allowUpload) {

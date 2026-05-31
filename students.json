@@ -442,5 +442,30 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "pfw7m6zkbf5r"
+  },
+  {
+    "id": "s_1780190418387_a11waf",
+    "name": "문대승",
+    "school": "창평고",
+    "grade": "고3",
+    "classes": [
+      "cls_1780190403417_b3vo4d"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-9327-7661",
+    "parentPhone": "010-9327-7661",
+    "notifyStudent": true,
+    "notifyParent": true,
+    "showCompletionRate": true,
+    "pageCode": "3neea68kw4pt"
   }
 ]

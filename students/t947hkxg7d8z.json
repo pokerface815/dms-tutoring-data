@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T09:00:46.076Z",
+  "generatedAt": "2026-05-31T09:54:57.274Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -100,6 +100,60 @@
       "plannedDate": "2026-05-18",
       "done": true,
       "doneAt": "2026-05-19T07:02:36.459Z"
+    },
+    {
+      "assignmentId": "a_1778509842286_m42zba",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-18",
+      "done": true,
+      "doneAt": "2026-05-18T12:46:19.677Z"
+    },
+    {
+      "assignmentId": "a_1778384022946_9m9pgb",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-17",
+      "done": true,
+      "doneAt": "2026-05-17T13:17:09.381Z"
+    },
+    {
+      "assignmentId": "a_1778509842286_m42zba",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-12",
+      "done": true,
+      "doneAt": "2026-05-13T10:27:18.636Z"
+    },
+    {
+      "assignmentId": "a_1778509842286_m42zba",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-11",
+      "done": true,
+      "doneAt": "2026-05-11T14:43:19.249Z"
+    },
+    {
+      "assignmentId": "a_1778384022946_9m9pgb",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-11",
+      "done": true,
+      "doneAt": "2026-05-11T14:23:27.305Z"
+    },
+    {
+      "assignmentId": "a_1778384022946_9m9pgb",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-10",
+      "done": true,
+      "doneAt": "2026-05-10T08:47:16.503Z"
     }
   ],
   "weekProgress": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T23:55:22.179Z",
+  "generatedAt": "2026-05-31T01:20:07.047Z",
   "student": {
     "name": "서연준",
     "school": "살레고",
@@ -101,14 +101,5 @@
     "endDate": "2026-05-31"
   },
   "teacherConfirms": {},
-  "tasks": [
-    {
-      "assignmentId": "task_1780151275515_rngy13",
-      "round": 1,
-      "title": "오답노트 풀어서 제출",
-      "dueDate": "2026-05-31",
-      "isRepeat": false,
-      "assignedAt": "2026-05-30T14:27:55.515Z"
-    }
-  ]
+  "tasks": []
 }

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "generatedAt": "2026-05-31T01:22:05.403Z",
+  "student": {
+    "name": "문대승",
+    "school": "창평고",
+    "grade": "고3",
+    "class": ""
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-31"
+  },
+  "teacherConfirms": {},
+  "tasks": [
+    {
+      "assignmentId": "task_1780190478572_mowsbw",
+      "round": 1,
+      "title": "매일 하나씩 킬러문항",
+      "dueDate": "2026-06-01",
+      "isRepeat": false,
+      "assignedAt": "2026-05-31T01:21:18.572Z"
+    }
+  ]
+}

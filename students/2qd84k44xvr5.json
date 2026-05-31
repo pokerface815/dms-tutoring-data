@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T10:09:50.353Z",
+  "generatedAt": "2026-05-31T17:48:18.113Z",
   "student": {
     "name": "송유림",
     "school": "숭일고",
@@ -9,7 +9,17 @@
   },
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1779012339753_dsrd3v",
+      "noteName": "송유림_오답노트 4개 종합( ~ 5월 17일)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-07",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1779281960451_f7td1x",
@@ -68,10 +78,10 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 1,
-    "percent": 100,
-    "startDate": "2026-05-25",
-    "endDate": "2026-05-31"
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
   },
   "teacherConfirms": {},
   "tasks": []

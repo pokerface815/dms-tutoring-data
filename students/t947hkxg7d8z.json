@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T10:09:58.961Z",
+  "generatedAt": "2026-05-31T17:48:30.852Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -9,7 +9,35 @@
   },
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1780153722620_6lfbh5",
+      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-02",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1778384022946_9m9pgb",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-07",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1780153722620_6lfbh5",
+      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-07",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1780153722620_6lfbh5",
@@ -157,11 +185,11 @@
     }
   ],
   "weekProgress": {
-    "total": 5,
-    "done": 5,
-    "percent": 100,
-    "startDate": "2026-05-25",
-    "endDate": "2026-05-31"
+    "total": 3,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
   },
   "teacherConfirms": {
     "a_1779287559980_ge3q7f__3": {

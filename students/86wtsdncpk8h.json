@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T23:55:13.002Z",
+  "generatedAt": "2026-05-31T01:19:57.897Z",
   "student": {
     "name": "박다윤",
     "school": "경신여고",
@@ -83,14 +83,5 @@
     "endDate": "2026-05-31"
   },
   "teacherConfirms": {},
-  "tasks": [
-    {
-      "assignmentId": "task_1780185308279_3nkeq9",
-      "round": 1,
-      "title": "오답노트 철저히",
-      "dueDate": "2026-05-31",
-      "isRepeat": false,
-      "assignedAt": "2026-05-30T23:55:08.279Z"
-    }
-  ]
+  "tasks": []
 }

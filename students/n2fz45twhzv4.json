@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T10:10:12.254Z",
+  "generatedAt": "2026-05-31T17:48:49.446Z",
   "student": {
     "name": "김현민",
     "school": "살레고",
@@ -9,7 +9,17 @@
   },
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1778849161316_nahing",
+      "noteName": "김현민_자이스토리_삼각함수의 그래프( ~F165)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-06",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1778849161316_nahing",
@@ -40,11 +50,11 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 1,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-05-25",
-    "endDate": "2026-05-31"
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
   },
   "teacherConfirms": {},
   "tasks": []

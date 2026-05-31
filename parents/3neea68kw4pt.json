@@ -1,37 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-31T10:04:54.668Z",
+  "generatedAt": "2026-05-31T10:07:33.903Z",
   "showCompletionRate": true,
   "student": {
     "name": "문대승",
     "grade": "고3"
   },
-  "months": [
-    {
-      "ym": "2026-05",
-      "label": "2026년 5월",
-      "lessons": [
-        {
-          "date": "2026-05-31",
-          "weekday": "일",
-          "className": "S반",
-          "content": "모의고사 킬러 문항",
-          "task": "매일 하나씩 킬러문항",
-          "taskDue": "2026-06-01",
-          "myNote": ""
-        },
-        {
-          "date": "2026-05-31",
-          "weekday": "일",
-          "className": "S반",
-          "content": "잘 되고 있나?",
-          "task": "",
-          "taskDue": "",
-          "myNote": "ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㄴㅇㄹ"
-        }
-      ],
-      "completionRate": null
-    }
-  ],
+  "months": [],
   "tests": []
 }

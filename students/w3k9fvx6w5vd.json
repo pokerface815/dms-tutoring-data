@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T10:10:14.769Z",
+  "generatedAt": "2026-05-31T17:48:52.723Z",
   "student": {
     "name": "지유진",
     "school": "문정여고",
@@ -9,7 +9,17 @@
   },
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1778849252765_2tk887",
+      "noteName": "지유진_올림포스 유형편_사인법칙과 코사인법칙",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-06",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1779519466437_4zcqh7",
@@ -67,11 +77,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-05-25",
-    "endDate": "2026-05-31"
+    "total": 1,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
   },
   "teacherConfirms": {},
   "tasks": []

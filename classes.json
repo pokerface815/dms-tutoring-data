@@ -12,7 +12,7 @@
     "memo": "",
     "createdAt": "2026-05-28T16:58:30.578Z",
     "order": 1,
-    "showInParent": false
+    "showInParent": true
   },
   {
     "id": "cls_1780065876900_57up14",
@@ -27,7 +27,7 @@
     "memo": "",
     "order": 3,
     "createdAt": "2026-05-31T01:20:03.417Z",
-    "showInParent": false
+    "showInParent": true
   },
   {
     "id": "cls_1780216632557_kkn5sl",

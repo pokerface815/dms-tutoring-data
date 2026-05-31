@@ -26,7 +26,8 @@
     "name": "S반",
     "memo": "",
     "order": 3,
-    "createdAt": "2026-05-31T01:20:03.417Z"
+    "createdAt": "2026-05-31T01:20:03.417Z",
+    "showInParent": false
   },
   {
     "id": "cls_1780216632557_kkn5sl",

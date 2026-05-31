@@ -46,5 +46,20 @@
     "taskBatchId": "t_mpt3g4bw",
     "createdAt": "2026-05-31T01:21:18.572Z",
     "updatedAt": "2026-05-31T01:21:18.572Z"
+  },
+  {
+    "id": "lesson_1780221869001_zym51o",
+    "classId": "cls_1780190403417_b3vo4d",
+    "date": "2026-05-31",
+    "content": "잘 되고 있나?",
+    "studentNotes": [
+      {
+        "studentId": "s_1780190418387_a11waf",
+        "note": "ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㄴㅇㄹ"
+      }
+    ],
+    "taskBatchId": null,
+    "createdAt": "2026-05-31T10:04:29.001Z",
+    "updatedAt": "2026-05-31T10:04:29.001Z"
   }
 ]

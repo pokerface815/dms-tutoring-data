@@ -1,26 +1,25 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T08:06:33.686Z",
+  "generatedAt": "2026-05-31T08:15:23.429Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
     "grade": "고2",
     "class": "토,일 4시"
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1779611210724_3z5dhl",
       "noteName": "이경주_수매씽 유형_등비수열( ~1993번)",
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-05-31",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-05-31T08:14:49.976Z"
+    },
     {
       "assignmentId": "a_1780075403993_90or5b",
       "noteName": "이경주_수매씽 유형_수열의 합( ~2199번)",
@@ -105,8 +104,8 @@
   ],
   "weekProgress": {
     "total": 5,
-    "done": 4,
-    "percent": 80,
+    "done": 5,
+    "percent": 100,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
   },

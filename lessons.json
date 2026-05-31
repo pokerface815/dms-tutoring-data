@@ -36,5 +36,15 @@
     "taskBatchId": "t_mpt0dol8",
     "createdAt": "2026-05-30T23:54:51.293Z",
     "updatedAt": "2026-05-30T23:55:26.012Z"
+  },
+  {
+    "id": "lesson_1780190478572_c6hscq",
+    "classId": "cls_1780190403417_b3vo4d",
+    "date": "2026-05-31",
+    "content": "모의고사 킬러 문항",
+    "studentNotes": [],
+    "taskBatchId": "t_mpt3g4bw",
+    "createdAt": "2026-05-31T01:21:18.572Z",
+    "updatedAt": "2026-05-31T01:21:18.572Z"
   }
 ]

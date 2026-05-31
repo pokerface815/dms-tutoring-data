@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-30T23:55:23.733Z",
+  "generatedAt": "2026-05-31T01:20:08.581Z",
   "showCompletionRate": true,
   "student": {
     "name": "서연준",
@@ -16,12 +16,13 @@
           "weekday": "토",
           "className": "토,일 4시",
           "content": "각 학교별 부교재 풀이",
-          "task": "오답노트 풀어서 제출",
-          "taskDue": "2026-05-31",
+          "task": "",
+          "taskDue": "",
           "myNote": "ㅁㄴㅇㄹㄴㅇㄹㄴㅁㅇㄹ"
         }
       ],
       "completionRate": null
     }
-  ]
+  ],
+  "tests": []
 }

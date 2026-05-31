@@ -1,28 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-31T09:55:05.677Z",
+  "generatedAt": "2026-05-31T10:04:17.367Z",
   "showCompletionRate": true,
   "student": {
     "name": "서연준",
     "grade": "고2"
   },
-  "months": [
-    {
-      "ym": "2026-05",
-      "label": "2026년 5월",
-      "lessons": [
-        {
-          "date": "2026-05-30",
-          "weekday": "토",
-          "className": "토,일 4시",
-          "content": "각 학교별 부교재 풀이",
-          "task": "",
-          "taskDue": "",
-          "myNote": "ㅁㄴㅇㄹㄴㅇㄹㄴㅁㅇㄹ"
-        }
-      ],
-      "completionRate": null
-    }
-  ],
+  "months": [],
   "tests": []
 }

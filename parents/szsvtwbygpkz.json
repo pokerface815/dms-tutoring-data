@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-30T23:55:52.202Z",
+  "generatedAt": "2026-05-31T01:20:36.279Z",
   "showCompletionRate": true,
   "student": {
     "name": "김한비",
@@ -16,16 +16,13 @@
           "weekday": "토",
           "className": "토,일 4시",
           "content": "각 학교별 부교재 풀이",
-          "task": "오답노트 풀어서 제출",
-          "taskDue": "2026-06-04",
+          "task": "",
+          "taskDue": "",
           "myNote": "ㅁㄴㅇㄹ호ㅓㅗㅓ로ㅓ"
         }
       ],
-      "completionRate": {
-        "done": 1,
-        "total": 1,
-        "percent": 100
-      }
+      "completionRate": null
     }
-  ]
+  ],
+  "tests": []
 }

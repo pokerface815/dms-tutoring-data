@@ -1,26 +1,25 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T08:06:23.973Z",
+  "generatedAt": "2026-05-31T08:15:14.190Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
     "grade": "고2",
     "class": "토,일 6시"
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1779620251071_skubw4",
       "noteName": "김규림_개념루트_등차수열과 등비수열( ~657번)",
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-05-31",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-05-31T08:14:51.656Z"
+    },
     {
       "assignmentId": "a_1780135968357_h4pk5b",
       "noteName": "김규림_개념루트_등차수열과 등비수열( ~709번)",
@@ -105,8 +104,8 @@
   ],
   "weekProgress": {
     "total": 3,
-    "done": 2,
-    "percent": 67,
+    "done": 3,
+    "percent": 100,
     "startDate": "2026-05-25",
     "endDate": "2026-05-31"
   },

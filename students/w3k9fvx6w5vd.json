@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T23:55:37.554Z",
+  "generatedAt": "2026-05-31T01:20:22.302Z",
   "student": {
     "name": "지유진",
     "school": "문정여고",
@@ -74,14 +74,5 @@
     "endDate": "2026-05-31"
   },
   "teacherConfirms": {},
-  "tasks": [
-    {
-      "assignmentId": "task_1780185332740_qcwt2j",
-      "round": 1,
-      "title": "오답노트 풀어서 제출",
-      "dueDate": "2026-06-04",
-      "isRepeat": false,
-      "assignedAt": "2026-05-30T23:55:32.739Z"
-    }
-  ]
+  "tasks": []
 }

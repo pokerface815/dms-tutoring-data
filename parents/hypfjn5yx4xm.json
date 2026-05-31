@@ -1,11 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-31T10:07:07.686Z",
+  "generatedAt": "2026-05-31T10:10:02.172Z",
   "showCompletionRate": true,
   "student": {
     "name": "이경주",
     "grade": "고2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-05",
+      "label": "2026년 5월",
+      "lessons": [
+        {
+          "date": "2026-05-30",
+          "weekday": "토",
+          "className": "토,일 4시",
+          "content": "각 학교별 부교재 풀이",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        }
+      ],
+      "completionRate": null
+    }
+  ],
   "tests": []
 }

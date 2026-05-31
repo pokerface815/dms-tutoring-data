@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-30T23:55:43.749Z",
+  "generatedAt": "2026-05-31T01:20:28.785Z",
   "student": {
     "name": "김시현",
     "school": "국제고",
@@ -84,14 +84,5 @@
     "endDate": "2026-05-31"
   },
   "teacherConfirms": {},
-  "tasks": [
-    {
-      "assignmentId": "task_1780185332740_caqxz9",
-      "round": 1,
-      "title": "오답노트 풀어서 제출",
-      "dueDate": "2026-06-04",
-      "isRepeat": false,
-      "assignedAt": "2026-05-30T23:55:32.739Z"
-    }
-  ]
+  "tasks": []
 }

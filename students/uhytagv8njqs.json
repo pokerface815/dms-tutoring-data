@@ -1,15 +1,53 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T10:09:54.729Z",
+  "generatedAt": "2026-05-31T17:48:24.785Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
     "grade": "고2",
     "class": "토,일 6시"
   },
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1780135968357_h4pk5b",
+      "noteName": "김규림_개념루트_등차수열과 등비수열( ~709번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-01",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1778926017708_ls6p14",
+      "noteName": "김규림_개념루트_사인법칙과 코사인법칙( ~ 595번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-06",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1780135968357_h4pk5b",
+      "noteName": "김규림_개념루트_등차수열과 등비수열( ~709번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-06",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1778408570246_sklo64",
+      "noteName": "김규림_개념루트_삼각함수의 그래프",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-07",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1779620251071_skubw4",
@@ -103,11 +141,11 @@
     }
   ],
   "weekProgress": {
-    "total": 3,
-    "done": 3,
-    "percent": 100,
-    "startDate": "2026-05-25",
-    "endDate": "2026-05-31"
+    "total": 4,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
   },
   "teacherConfirms": {},
   "tasks": []

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T10:10:26.404Z",
+  "generatedAt": "2026-05-31T17:49:08.227Z",
   "student": {
     "name": "서준우",
     "school": "살레중",
@@ -15,8 +15,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-05-25",
-    "endDate": "2026-05-31"
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
   },
   "teacherConfirms": {
     "task_1779949209580_wpk6og__1": {

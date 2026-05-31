@@ -537,8 +537,8 @@
       {
         "stage": 4,
         "planned": "2026-05-31",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-31T08:14:48.845Z"
       }
     ],
     "createdAt": "2026-05-17T08:08:52.752Z"
@@ -1041,8 +1041,8 @@
       {
         "stage": 3,
         "planned": "2026-05-31",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-31T08:14:49.976Z"
       },
       {
         "stage": 4,
@@ -1075,8 +1075,8 @@
       {
         "stage": 3,
         "planned": "2026-05-31",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-31T08:14:50.839Z"
       },
       {
         "stage": 4,
@@ -1109,8 +1109,8 @@
       {
         "stage": 3,
         "planned": "2026-05-31",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-31T08:14:51.656Z"
       },
       {
         "stage": 4,
@@ -1143,8 +1143,8 @@
       {
         "stage": 3,
         "planned": "2026-05-31",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-31T08:14:52.416Z"
       },
       {
         "stage": 4,
@@ -1413,8 +1413,8 @@
       {
         "stage": 1,
         "planned": "2026-05-31",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-05-31T08:14:54.422Z"
       },
       {
         "stage": 2,

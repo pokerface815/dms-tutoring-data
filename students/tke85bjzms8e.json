@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-05-31T09:00:52.237Z",
+  "generatedAt": "2026-05-31T09:55:07.204Z",
   "student": {
     "name": "정찬민",
     "school": "살레고",
@@ -100,6 +100,24 @@
       "plannedDate": "2026-05-16",
       "done": true,
       "doneAt": "2026-05-17T08:09:14.447Z"
+    },
+    {
+      "assignmentId": "a_1778402514957_22si70",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-11",
+      "done": true,
+      "doneAt": "2026-05-11T12:06:42.084Z"
+    },
+    {
+      "assignmentId": "a_1778402514957_22si70",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-10",
+      "done": true,
+      "doneAt": "2026-05-10T08:47:18.287Z"
     }
   ],
   "weekProgress": {

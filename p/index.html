@@ -122,6 +122,12 @@
   .test-item-title { font-size: 14px; font-weight: 600; }
   .test-item-date { font-size: 12px; color: var(--text3); margin-top: 2px; }
   .test-item-open { font-size: 13px; color: var(--accent); font-weight: 600; white-space: nowrap; }
+  .test-more-btn {
+    width: 100%; margin-top: 8px; padding: 10px;
+    background: var(--surface2); border: 0.5px solid var(--border); border-radius: 10px;
+    font-size: 13px; color: var(--text2); cursor: pointer; font-family: inherit;
+  }
+  .test-more-btn:active { background: #efe9dd; }
   .empty-state {
     text-align: center; padding: 60px 20px; color: var(--text3);
   }
@@ -213,13 +219,20 @@
       <div class="content">
     `;
 
-    // 주간테스트 결과 섹션 (있을 때만)
+    // 테스트 결과 섹션 (있을 때만)
     const tests = d.tests || [];
     if (tests.length > 0) {
+      const INITIAL = 8;
+      const recent = tests.slice(0, INITIAL);
+      const rest = tests.slice(INITIAL);
       html += `
         <div class="test-section">
-          <div class="test-section-title">📝 주간테스트 결과</div>
-          ${tests.map(renderTestItem).join('')}
+          <div class="test-section-title">📝 테스트 결과 <span style="font-size:12px;color:var(--text3);font-weight:400;">(${tests.length})</span></div>
+          <div id="testRecent">${recent.map(renderTestItem).join('')}</div>
+          ${rest.length > 0 ? `
+            <div id="testRest" style="display:none;">${rest.map(renderTestItem).join('')}</div>
+            <button class="test-more-btn" id="testMoreBtn" onclick="toggleTestMore()">+ 이전 결과 ${rest.length}개 더 보기</button>
+          ` : ''}
         </div>
       `;
     }
@@ -269,6 +282,16 @@
       </div>
     `;
     document.getElementById('app').innerHTML = html;
+  }
+
+  function toggleTestMore() {
+    const rest = document.getElementById('testRest');
+    const btn = document.getElementById('testMoreBtn');
+    if (!rest || !btn) return;
+    if (rest.style.display === 'none') {
+      rest.style.display = 'block';
+      btn.style.display = 'none';
+    }
   }
 
   function renderTestItem(t) {

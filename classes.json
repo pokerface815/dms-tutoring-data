@@ -4,7 +4,8 @@
     "name": "토,일 6시",
     "memo": "각 학교 부교재",
     "createdAt": "2026-05-28T16:43:09.959Z",
-    "order": 0
+    "order": 0,
+    "slot": 10
   },
   {
     "id": "cls_1779987510578_5e6to7",
@@ -12,14 +13,16 @@
     "memo": "",
     "createdAt": "2026-05-28T16:58:30.578Z",
     "order": 1,
-    "showInParent": true
+    "showInParent": true,
+    "slot": 7
   },
   {
     "id": "cls_1780065876900_57up14",
     "name": "토, 일2시",
     "memo": "",
     "order": 2,
-    "createdAt": "2026-05-29T14:44:36.900Z"
+    "createdAt": "2026-05-29T14:44:36.900Z",
+    "slot": 4
   },
   {
     "id": "cls_1780190403417_b3vo4d",
@@ -27,13 +30,7 @@
     "memo": "",
     "order": 3,
     "createdAt": "2026-05-31T01:20:03.417Z",
-    "showInParent": true
-  },
-  {
-    "id": "cls_1780216632557_kkn5sl",
-    "name": "테스트",
-    "memo": "",
-    "order": 5,
-    "createdAt": "2026-05-31T08:37:12.557Z"
+    "showInParent": true,
+    "slot": 5
   }
 ]

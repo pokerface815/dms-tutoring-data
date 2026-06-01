@@ -71,5 +71,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-01T11:40:01.686Z",
     "updatedAt": "2026-06-01T11:40:01.686Z"
+  },
+  {
+    "id": "lesson_1780314584317_0av73m",
+    "classId": "cls_1780311125071_i1638e",
+    "date": "2026-06-01",
+    "content": "이차방정식의 풀이 - 제곱근에 의한 풀이방법, 완전제곱식에 의한 풀이방법, 근의 공식",
+    "studentNotes": [],
+    "taskBatchId": "t_mpv5c4xp",
+    "createdAt": "2026-06-01T11:49:44.317Z",
+    "updatedAt": "2026-06-01T11:49:44.317Z"
   }
 ]

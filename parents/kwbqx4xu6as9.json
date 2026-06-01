@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-01T09:51:20.195Z",
+  "generatedAt": "2026-06-01T09:55:01.069Z",
   "showCompletionRate": true,
   "student": {
     "name": "서준우",
@@ -22,9 +22,9 @@
         }
       ],
       "completionRate": {
-        "done": 0,
+        "done": 1,
         "total": 1,
-        "percent": 0
+        "percent": 100
       }
     }
   ],

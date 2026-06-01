@@ -1,28 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-01T10:17:49.695Z",
+  "generatedAt": "2026-06-01T10:22:55.864Z",
   "showCompletionRate": true,
   "student": {
     "name": "김채린",
     "grade": "고2"
   },
-  "months": [
-    {
-      "ym": "2026-05",
-      "label": "2026년 5월",
-      "lessons": [
-        {
-          "date": "2026-05-31",
-          "weekday": "일",
-          "className": "토,일 6시",
-          "content": "각 학교 부교재 풀이",
-          "task": "",
-          "taskDue": "",
-          "myNote": ""
-        }
-      ],
-      "completionRate": null
-    }
-  ],
+  "months": [],
   "tests": []
 }

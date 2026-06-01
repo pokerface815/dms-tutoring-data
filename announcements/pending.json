@@ -27,5 +27,20 @@
       }
     ],
     "status": "pending"
+  },
+  {
+    "id": "ann_mpv9vnpw66ge",
+    "createdAt": "2026-06-01T13:56:53.588Z",
+    "target": "student",
+    "message": "{이름} 학생이 오늘 수업에 결석하였습니다.\n- 열성수학학원 -",
+    "recipients": [
+      {
+        "name": "문대승",
+        "type": "student",
+        "phone": "010-9327-7661",
+        "message": "문대승 학생이 오늘 수업에 결석하였습니다.\n- 열성수학학원 -"
+      }
+    ],
+    "status": "pending"
   }
 ]

@@ -61,5 +61,15 @@
     "taskBatchId": null,
     "createdAt": "2026-05-31T10:04:29.001Z",
     "updatedAt": "2026-05-31T10:04:29.001Z"
+  },
+  {
+    "id": "lesson_1780314001686_vqaban",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-01",
+    "content": "8단원 등차수열과 등비수열 - 서술형 완성하기",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-01T11:40:01.686Z",
+    "updatedAt": "2026-06-01T11:40:01.686Z"
   }
 ]

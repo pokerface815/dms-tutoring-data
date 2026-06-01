@@ -453,5 +453,27 @@
     "showCompletionRate": true,
     "pageCode": "3neea68kw4pt",
     "showTestResults": false
+  },
+  {
+    "id": "s_1780309053750_4dw5li",
+    "name": "장승원",
+    "school": "숭일중",
+    "grade": "중3",
+    "classes": [
+      "cls_1780309030966_ingi3o"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "studentPhone": "010-4430-0079",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "pageCode": "t2dh88gcxggm"
   }
 ]

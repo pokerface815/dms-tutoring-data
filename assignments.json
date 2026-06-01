@@ -1404,17 +1404,6 @@
     "createdAt": "2026-05-30T15:08:42.620Z"
   },
   {
-    "id": "task_1780190478572_mowsbw",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "매일 하나씩 킬러문항",
-    "dueDate": "2026-06-01",
-    "assignedAt": "2026-05-31T01:21:18.572Z",
-    "batchId": "t_mpt3g4bw",
-    "repeat": null,
-    "fromLesson": "lesson_1780190478572_c6hscq"
-  },
-  {
     "id": "a_1780218025861_mor5ad",
     "noteId": "note_1780218013411_lvmmc2",
     "noteName": "이경주_수매씽 유형_수열의 합(2차 오답)",
@@ -1447,5 +1436,15 @@
       }
     ],
     "createdAt": "2026-05-31T09:00:25.861Z"
+  },
+  {
+    "id": "task_1780311172383_7hlf90",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "일품 91쪽까지",
+    "dueDate": "2026-06-05",
+    "assignedAt": "2026-06-01T10:52:52.383Z",
+    "batchId": "t_mpv3b09r",
+    "repeat": null
   }
 ]

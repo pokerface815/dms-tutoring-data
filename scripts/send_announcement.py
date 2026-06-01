@@ -143,13 +143,16 @@ def main():
 
             actual_to = test_only_to if test_only_to else phone
 
+            # 수신자별 개인 메시지가 있으면 사용 ({이름} 치환된 메시지), 없으면 공통
+            r_message = (r.get('message') or message)
+
             if dry_run:
-                print(f"  [DRY] → {name}({rtype}) {actual_to}: {message[:30]}...")
+                print(f"  [DRY] → {name}({rtype}) {actual_to}: {r_message[:30]}...")
                 results.append({'name': name, 'type': rtype, 'ok': True, 'dry_run': True})
                 total_sent += 1
                 continue
 
-            ok, err = send_via_solapi(service, sender_normalized, actual_to, message)
+            ok, err = send_via_solapi(service, sender_normalized, actual_to, r_message)
             if ok:
                 print(f"  [발송] → {name}({rtype}) {actual_to}")
                 results.append({'name': name, 'type': rtype, 'ok': True})

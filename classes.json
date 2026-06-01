@@ -37,5 +37,12 @@
     "showInParent": true,
     "slot": 1,
     "lessonSlot": 2
+  },
+  {
+    "id": "cls_1780309030966_ingi3o",
+    "name": "장승원 개별",
+    "memo": "",
+    "order": 4,
+    "createdAt": "2026-06-01T10:17:10.967Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T10:48:55.934Z",
+  "generatedAt": "2026-06-01T10:52:53.805Z",
   "student": {
     "name": "서준우",
     "school": "살레중",
@@ -44,6 +44,14 @@
       "dueDate": "2026-05-31",
       "isRepeat": false,
       "assignedAt": "2026-05-29T08:45:46.438Z"
+    },
+    {
+      "assignmentId": "task_1780311172383_7hlf90",
+      "round": 1,
+      "title": "일품 91쪽까지",
+      "dueDate": "2026-06-05",
+      "isRepeat": false,
+      "assignedAt": "2026-06-01T10:52:52.383Z"
     }
   ]
 }

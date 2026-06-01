@@ -52,5 +52,14 @@
     "order": 9,
     "createdAt": "2026-06-01T10:34:55.581Z",
     "slot": 7
+  },
+  {
+    "id": "cls_1780310883451_eliu81",
+    "name": "조예나 개별",
+    "memo": "",
+    "showInParent": true,
+    "order": 10,
+    "createdAt": "2026-06-01T10:48:03.451Z",
+    "slot": 2
   }
 ]

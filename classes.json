@@ -11,17 +11,28 @@
   {
     "id": "cls_1780309335387_ry7cd9",
     "name": "박유솔 개별",
-    "memo": "",
+    "memo": "월 - 공수2 개념, 수 - 공수1 문풀",
     "order": 5,
     "createdAt": "2026-06-01T10:22:15.387Z",
-    "slot": 11
+    "slot": 11,
+    "showInParent": true
   },
   {
     "id": "cls_1780309370989_i1lo00",
     "name": "서준우 개별",
-    "memo": "",
+    "memo": "월 - 중등심화, 수 - 공수1",
     "order": 6,
     "createdAt": "2026-06-01T10:22:50.989Z",
-    "slot": 5
+    "slot": 5,
+    "showInParent": true
+  },
+  {
+    "id": "cls_1780310019938_5xpe6o",
+    "name": "토,일 2시",
+    "memo": "",
+    "showInParent": true,
+    "order": 7,
+    "createdAt": "2026-06-01T10:33:39.938Z",
+    "slot": 1
   }
 ]

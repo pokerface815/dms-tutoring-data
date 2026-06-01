@@ -81,5 +81,15 @@
     "taskBatchId": "t_mpv5c4xp",
     "createdAt": "2026-06-01T11:49:44.317Z",
     "updatedAt": "2026-06-01T11:49:44.317Z"
+  },
+  {
+    "id": "lesson_1780316833657_6o173p",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-06-01",
+    "content": "일품 연립방정식의 풀이 및 활용\n부족한 부분 보충(채점, 오답, 질문)",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-01T12:27:13.656Z",
+    "updatedAt": "2026-06-01T12:27:13.656Z"
   }
 ]

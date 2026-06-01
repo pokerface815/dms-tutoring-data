@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T09:51:18.247Z",
+  "generatedAt": "2026-06-01T09:54:59.954Z",
   "student": {
     "name": "서준우",
     "school": "살레중",
@@ -30,6 +30,10 @@
       "commentAt": "2026-05-28T12:31:27.445Z",
       "confirmed": true,
       "confirmedAt": "2026-05-28T12:31:27.446Z"
+    },
+    "task_1780044346438_o1f994__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-01T09:54:08.752Z"
     }
   },
   "tasks": [

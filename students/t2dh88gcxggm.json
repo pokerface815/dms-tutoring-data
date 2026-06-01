@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "generatedAt": "2026-06-01T10:18:41.297Z",
+  "student": {
+    "name": "장승원",
+    "school": "숭일중",
+    "grade": "중3",
+    "class": ""
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
+  },
+  "teacherConfirms": {},
+  "tasks": []
+}

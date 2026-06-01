@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T14:47:04.743Z",
+  "generatedAt": "2026-06-01T15:36:07.788Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -9,18 +9,6 @@
   },
   "today": [
     {
-      "assignmentId": "a_1780325196252_vl7pxy",
-      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-01",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [
-    {
       "assignmentId": "a_1780153722620_6lfbh5",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
       "subject": "대수",
@@ -28,7 +16,10 @@
       "plannedDate": "2026-06-02",
       "done": false,
       "doneAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1780325196252_vl7pxy",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
@@ -58,6 +49,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1780325196252_vl7pxy",
+      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-01",
+      "done": true,
+      "doneAt": "2026-06-01T15:35:45.402Z"
+    },
     {
       "assignmentId": "a_1780153722620_6lfbh5",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
@@ -205,8 +205,8 @@
   ],
   "weekProgress": {
     "total": 5,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 20,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

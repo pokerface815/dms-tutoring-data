@@ -1,23 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T09:40:44.822Z",
+  "generatedAt": "2026-06-01T09:50:47.202Z",
   "student": {
     "name": "박다인",
     "school": "국제고",
     "grade": "고2",
     "class": "토,일 6시"
   },
-  "today": [
-    {
-      "assignmentId": "a_1780132383298_b371c0",
-      "noteName": "박다인_수매씽 유형_등차수열( ~1763번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-01",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -49,6 +39,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1780132383298_b371c0",
+      "noteName": "박다인_수매씽 유형_등차수열( ~1763번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-01",
+      "done": true,
+      "doneAt": "2026-06-01T09:49:59.196Z"
+    },
     {
       "assignmentId": "a_1780132383298_b371c0",
       "noteName": "박다인_수매씽 유형_등차수열( ~1763번)",
@@ -142,8 +141,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 25,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

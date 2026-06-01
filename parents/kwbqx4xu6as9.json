@@ -1,11 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-01T09:26:46.217Z",
+  "generatedAt": "2026-06-01T09:29:15.984Z",
   "showCompletionRate": true,
   "student": {
     "name": "서준우",
     "grade": "중2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-05",
+      "label": "2026년 5월",
+      "lessons": [
+        {
+          "date": "2026-05-31",
+          "weekday": "일",
+          "className": "토,일 6시",
+          "content": "각 학교 부교재 풀이",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        }
+      ],
+      "completionRate": {
+        "done": 0,
+        "total": 1,
+        "percent": 0
+      }
+    }
+  ],
   "tests": []
 }

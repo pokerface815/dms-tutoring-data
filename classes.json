@@ -25,7 +25,7 @@
     "memo": "",
     "order": 2,
     "createdAt": "2026-05-29T14:44:36.900Z",
-    "slot": 5,
+    "slot": 7,
     "lessonSlot": 0
   },
   {
@@ -35,7 +35,7 @@
     "order": 3,
     "createdAt": "2026-05-31T01:20:03.417Z",
     "showInParent": true,
-    "slot": 2,
+    "slot": 1,
     "lessonSlot": 5
   }
 ]

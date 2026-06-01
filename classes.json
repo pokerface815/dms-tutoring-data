@@ -1,48 +1,16 @@
 [
   {
-    "id": "cls_1779986589959_uaer45",
-    "name": "토,일 6시",
-    "memo": "각 학교 부교재",
-    "createdAt": "2026-05-28T16:43:09.959Z",
-    "order": 0,
-    "slot": 3,
-    "lessonSlot": 7,
-    "showInParent": true
-  },
-  {
-    "id": "cls_1779987510578_5e6to7",
-    "name": "토,일 4시",
-    "memo": "",
-    "createdAt": "2026-05-28T16:58:30.578Z",
-    "order": 1,
-    "showInParent": true,
-    "slot": 0,
-    "lessonSlot": 4
-  },
-  {
-    "id": "cls_1780065876900_57up14",
-    "name": "토, 일2시",
-    "memo": "",
-    "order": 2,
-    "createdAt": "2026-05-29T14:44:36.900Z",
-    "slot": 7,
-    "lessonSlot": 1
-  },
-  {
-    "id": "cls_1780190403417_b3vo4d",
-    "name": "S반",
-    "memo": "",
-    "order": 3,
-    "createdAt": "2026-05-31T01:20:03.417Z",
-    "showInParent": true,
-    "slot": 1,
-    "lessonSlot": 2
-  },
-  {
     "id": "cls_1780309030966_ingi3o",
     "name": "장승원 개별",
     "memo": "",
     "order": 4,
     "createdAt": "2026-06-01T10:17:10.967Z"
+  },
+  {
+    "id": "cls_1780309335387_ry7cd9",
+    "name": "박유솔 개별",
+    "memo": "",
+    "order": 5,
+    "createdAt": "2026-06-01T10:22:15.387Z"
   }
 ]

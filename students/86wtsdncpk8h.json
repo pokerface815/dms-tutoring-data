@@ -1,23 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T09:40:26.073Z",
+  "generatedAt": "2026-06-01T09:50:29.094Z",
   "student": {
     "name": "박다윤",
     "school": "경신여고",
     "grade": "고2",
     "class": "토,일 6시"
   },
-  "today": [
-    {
-      "assignmentId": "a_1780138916040_3yonbq",
-      "noteName": "박다윤_마더텅_삼각함수의 활용( ~113번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-01",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -49,6 +39,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1780138916040_3yonbq",
+      "noteName": "박다윤_마더텅_삼각함수의 활용( ~113번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-01",
+      "done": true,
+      "doneAt": "2026-06-01T09:50:01.895Z"
+    },
     {
       "assignmentId": "a_1780138916040_3yonbq",
       "noteName": "박다윤_마더텅_삼각함수의 활용( ~113번)",
@@ -115,8 +114,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 25,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

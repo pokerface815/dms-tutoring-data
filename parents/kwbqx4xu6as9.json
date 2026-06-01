@@ -1,11 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-01T11:50:34.294Z",
+  "generatedAt": "2026-06-01T12:28:32.067Z",
   "showCompletionRate": true,
   "student": {
     "name": "서준우",
     "grade": "중2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-06",
+      "label": "2026년 6월",
+      "lessons": [
+        {
+          "date": "2026-06-01",
+          "weekday": "월",
+          "className": "서준우 개별",
+          "content": "일품 연립방정식의 풀이 및 활용\n부족한 부분 보충(채점, 오답, 질문)",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        }
+      ],
+      "completionRate": null
+    }
+  ],
   "tests": []
 }

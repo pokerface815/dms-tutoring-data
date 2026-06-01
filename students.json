@@ -20,9 +20,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "2qd84k44xvr5",
-    "classes": [
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1777546951753_p3pskl",
@@ -45,9 +43,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "qsepzrq8kdtq",
-    "classes": [
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1777546978791_hsee5a",
@@ -70,9 +66,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "uhytagv8njqs",
-    "classes": [
-      "cls_1779986589959_uaer45"
-    ],
+    "classes": [],
     "showCompletionRate": true,
     "showTestResults": false
   },
@@ -97,9 +91,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "86wtsdncpk8h",
-    "classes": [
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1777547047005_uo92w5",
@@ -144,9 +136,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "hypfjn5yx4xm",
-    "classes": [
-      "cls_1779987510578_5e6to7"
-    ]
+    "classes": []
   },
   {
     "id": "s_1778397156600_clkd2u",
@@ -169,10 +159,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "y8jkzjbpkmfh",
-    "classes": [
-      "cls_1779987510578_5e6to7",
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1778402500926_7fxigp",
@@ -195,9 +182,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "tke85bjzms8e",
-    "classes": [
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1778404886523_0ag055",
@@ -220,9 +205,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "9kpm4rh8e2sb",
-    "classes": [
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1778638262495_alq1jg",
@@ -245,9 +228,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "h4257zsksm3h",
-    "classes": [
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1778768401651_7hlihp",
@@ -270,9 +251,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "n2fz45twhzv4",
-    "classes": [
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1778849219765_v88lqq",
@@ -295,9 +274,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "w3k9fvx6w5vd",
-    "classes": [
-      "cls_1779987510578_5e6to7"
-    ]
+    "classes": []
   },
   {
     "id": "s_1778908285779_1cmzde",
@@ -320,9 +297,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "meut9zmgs6g3",
-    "classes": [
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1779005266373_7iq1b8",
@@ -345,10 +320,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "a7xfuxvp5x9c",
-    "classes": [
-      "cls_1779987510578_5e6to7",
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1779628208770_oahez9",
@@ -371,10 +343,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "cs4z4c4u3t9u",
-    "classes": [
-      "cls_1779987510578_5e6to7",
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1779811264964_kbtli4",
@@ -397,10 +366,7 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "szsvtwbygpkz",
-    "classes": [
-      "cls_1779987510578_5e6to7",
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1779948611035_qbdt5h",
@@ -423,19 +389,14 @@
     "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "kwbqx4xu6as9",
-    "classes": [
-      "cls_1779986589959_uaer45"
-    ]
+    "classes": []
   },
   {
     "id": "s_1780190418387_a11waf",
     "name": "문대승",
     "school": "창평고",
     "grade": "고3",
-    "classes": [
-      "cls_1780190403417_b3vo4d",
-      "cls_1779986589959_uaer45"
-    ],
+    "classes": [],
     "memo": "",
     "days": [
       "월",
@@ -475,5 +436,27 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "pageCode": "t2dh88gcxggm"
+  },
+  {
+    "id": "s_1780309359751_gjl2s0",
+    "name": "박유솔",
+    "school": "숭일중",
+    "grade": "중3",
+    "classes": [
+      "cls_1780309335387_ry7cd9"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "studentPhone": "010-8579-2198",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "pageCode": "cu95x3bj3tmk"
   }
 ]

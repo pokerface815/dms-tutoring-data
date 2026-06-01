@@ -120,6 +120,10 @@ def main():
         if not isinstance(ann, dict):
             continue
         ann_id = ann.get('id', 'unknown')
+        # 이미 발송 완료된 공지는 절대 재발송하지 않음 (중복 발송 방지)
+        if ann.get('status') == 'sent':
+            print(f"\n[공지 {ann_id}] 이미 발송됨 — 건너뜀")
+            continue
         message = (ann.get('message') or '').strip()
         recipients = ann.get('recipients') or []
         print(f"\n[공지 {ann_id}] 수신 {len(recipients)}건")
@@ -181,6 +185,8 @@ def main():
                 print(f"  결과 기록: {sent_path}")
             except Exception as e:
                 print(f"  [경고] 결과 기록 실패: {e}")
+            # 이 공지를 발송 완료로 표시 (재발송 방지 이중 안전장치)
+            ann['status'] = 'sent'
 
     # pending 비우기 (dry_run이 아닐 때만)
     if not dry_run:
@@ -190,6 +196,13 @@ def main():
             print("\npending.json 비움 (처리 완료)")
         except Exception as e:
             print(f"[경고] pending.json 비우기 실패: {e}")
+            # 비우기 실패 시, 최소한 status='sent' 표시라도 남겨 재발송 방지
+            try:
+                with open(PENDING_PATH, 'w', encoding='utf-8') as f:
+                    json.dump(pending, f, ensure_ascii=False, indent=2)
+                print("pending.json에 발송완료 표시 기록")
+            except Exception as e2:
+                print(f"[경고] status 기록도 실패: {e2}")
 
     print("\n" + "=" * 60)
     print(f"발송 완료 — 성공 {total_sent}건, 실패 {total_fail}건")

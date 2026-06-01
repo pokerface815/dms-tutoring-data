@@ -91,5 +91,25 @@
     "taskBatchId": null,
     "createdAt": "2026-06-01T12:27:13.656Z",
     "updatedAt": "2026-06-01T12:27:13.656Z"
+  },
+  {
+    "id": "lesson_1780316879798_mqs374",
+    "classId": "cls_1780309030966_ingi3o",
+    "date": "2026-06-01",
+    "content": "대수 개+유 유형편\n사인, 코사인법칙 질문 및 등차, 등비수열",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-01T12:27:59.798Z",
+    "updatedAt": "2026-06-01T12:27:59.798Z"
+  },
+  {
+    "id": "lesson_1780316930954_36o8vx",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-06-01",
+    "content": "쎈B 공통수학1\n취약 단원인 복소수 단원 문제 풀이",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-01T12:28:50.954Z",
+    "updatedAt": "2026-06-01T12:28:50.954Z"
   }
 ]

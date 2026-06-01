@@ -2,15 +2,26 @@
   {
     "id": "cls_1780309030966_ingi3o",
     "name": "장승원 개별",
-    "memo": "",
+    "memo": "월 - 대수, 수 - 미적분1",
     "order": 4,
-    "createdAt": "2026-06-01T10:17:10.967Z"
+    "createdAt": "2026-06-01T10:17:10.967Z",
+    "slot": 8,
+    "showInParent": true
   },
   {
     "id": "cls_1780309335387_ry7cd9",
     "name": "박유솔 개별",
     "memo": "",
     "order": 5,
-    "createdAt": "2026-06-01T10:22:15.387Z"
+    "createdAt": "2026-06-01T10:22:15.387Z",
+    "slot": 11
+  },
+  {
+    "id": "cls_1780309370989_i1lo00",
+    "name": "서준우 개별",
+    "memo": "",
+    "order": 6,
+    "createdAt": "2026-06-01T10:22:50.989Z",
+    "slot": 5
   }
 ]

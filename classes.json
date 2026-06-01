@@ -6,7 +6,7 @@
     "createdAt": "2026-05-28T16:43:09.959Z",
     "order": 0,
     "slot": 7,
-    "lessonSlot": 7
+    "lessonSlot": 1
   },
   {
     "id": "cls_1779987510578_5e6to7",
@@ -35,6 +35,6 @@
     "createdAt": "2026-05-31T01:20:03.417Z",
     "showInParent": true,
     "slot": 8,
-    "lessonSlot": 2
+    "lessonSlot": 5
   }
 ]

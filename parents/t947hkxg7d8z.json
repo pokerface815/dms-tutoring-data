@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-01T12:47:25.536Z",
+  "generatedAt": "2026-06-01T14:07:14.173Z",
   "showCompletionRate": true,
   "student": {
     "name": "조예나",
@@ -12,10 +12,19 @@
       "label": "2026년 6월",
       "lessons": [
         {
-          "date": "2026-06-01",
-          "weekday": "월",
+          "date": "2026-06-10",
+          "weekday": "수",
           "className": "조예나 개별",
           "content": "8단원 등차수열과 등비수열 - 서술형 완성하기",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        },
+        {
+          "date": "2026-06-08",
+          "weekday": "월",
+          "className": "조예나 개별",
+          "content": "ㄴㅇㄹ",
           "task": "",
           "taskDue": "",
           "myNote": ""

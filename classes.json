@@ -6,7 +6,8 @@
     "order": 4,
     "createdAt": "2026-06-01T10:17:10.967Z",
     "slot": 8,
-    "showInParent": true
+    "showInParent": true,
+    "lessonSlot": 8
   },
   {
     "id": "cls_1780309335387_ry7cd9",
@@ -15,7 +16,8 @@
     "order": 5,
     "createdAt": "2026-06-01T10:22:15.387Z",
     "slot": 11,
-    "showInParent": true
+    "showInParent": true,
+    "lessonSlot": 11
   },
   {
     "id": "cls_1780309370989_i1lo00",
@@ -24,7 +26,8 @@
     "order": 6,
     "createdAt": "2026-06-01T10:22:50.989Z",
     "slot": 5,
-    "showInParent": true
+    "showInParent": true,
+    "lessonSlot": 5
   },
   {
     "id": "cls_1780310019938_5xpe6o",
@@ -33,7 +36,8 @@
     "showInParent": true,
     "order": 7,
     "createdAt": "2026-06-01T10:33:39.938Z",
-    "slot": 1
+    "slot": 1,
+    "lessonSlot": 1
   },
   {
     "id": "cls_1780310061018_vay6zf",
@@ -42,7 +46,8 @@
     "showInParent": true,
     "order": 8,
     "createdAt": "2026-06-01T10:34:21.018Z",
-    "slot": 4
+    "slot": 4,
+    "lessonSlot": 4
   },
   {
     "id": "cls_1780310095581_j36rd5",
@@ -51,7 +56,8 @@
     "showInParent": true,
     "order": 9,
     "createdAt": "2026-06-01T10:34:55.581Z",
-    "slot": 7
+    "slot": 7,
+    "lessonSlot": 7
   },
   {
     "id": "cls_1780310883451_eliu81",
@@ -60,7 +66,8 @@
     "showInParent": true,
     "order": 10,
     "createdAt": "2026-06-01T10:48:03.451Z",
-    "slot": 2
+    "slot": 2,
+    "lessonSlot": 2
   },
   {
     "id": "cls_1780311125071_i1638e",
@@ -68,6 +75,7 @@
     "memo": "",
     "showInParent": true,
     "order": 11,
-    "createdAt": "2026-06-01T10:52:05.071Z"
+    "createdAt": "2026-06-01T10:52:05.071Z",
+    "lessonSlot": 0
   }
 ]

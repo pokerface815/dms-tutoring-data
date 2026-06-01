@@ -1579,5 +1579,39 @@
       }
     ],
     "createdAt": "2026-06-01T14:43:08.727Z"
+  },
+  {
+    "id": "a_1780325196252_vl7pxy",
+    "noteId": "note_1780324957444_s0yzl1",
+    "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
+    "studentId": "s_1777547047005_uo92w5",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-01",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-03",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-08",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-22",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-01T14:46:36.252Z"
   }
 ]

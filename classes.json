@@ -5,7 +5,8 @@
     "memo": "각 학교 부교재",
     "createdAt": "2026-05-28T16:43:09.959Z",
     "order": 0,
-    "slot": 10
+    "slot": 7,
+    "lessonSlot": 7
   },
   {
     "id": "cls_1779987510578_5e6to7",
@@ -14,7 +15,8 @@
     "createdAt": "2026-05-28T16:58:30.578Z",
     "order": 1,
     "showInParent": true,
-    "slot": 7
+    "slot": 4,
+    "lessonSlot": 4
   },
   {
     "id": "cls_1780065876900_57up14",
@@ -22,7 +24,8 @@
     "memo": "",
     "order": 2,
     "createdAt": "2026-05-29T14:44:36.900Z",
-    "slot": 4
+    "slot": 1,
+    "lessonSlot": 1
   },
   {
     "id": "cls_1780190403417_b3vo4d",
@@ -31,6 +34,7 @@
     "order": 3,
     "createdAt": "2026-05-31T01:20:03.417Z",
     "showInParent": true,
-    "slot": 5
+    "slot": 2,
+    "lessonSlot": 2
   }
 ]

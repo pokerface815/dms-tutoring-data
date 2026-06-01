@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "generatedAt": "2026-06-01T11:49:11.586Z",
+  "student": {
+    "name": "문현빈",
+    "school": "",
+    "grade": "중3",
+    "class": ""
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
+  },
+  "teacherConfirms": {},
+  "tasks": []
+}

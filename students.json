@@ -491,5 +491,185 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "pageCode": "cu95x3bj3tmk"
+  },
+  {
+    "id": "s_1780314459772_3emo5z",
+    "name": "강화진",
+    "school": "",
+    "grade": "중3",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "memo": "",
+    "studentPhone": "",
+    "parentPhone": "",
+    "notifyStudent": false,
+    "notifyParent": false,
+    "pageCode": "rgb8kevqmdtt"
+  },
+  {
+    "id": "s_1780314459772_slkq6q",
+    "name": "김소윤",
+    "school": "",
+    "grade": "중3",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "memo": "",
+    "studentPhone": "",
+    "parentPhone": "",
+    "notifyStudent": false,
+    "notifyParent": false,
+    "pageCode": "dhm4znbjqs4z"
+  },
+  {
+    "id": "s_1780314459772_u5kn1l",
+    "name": "문현빈",
+    "school": "",
+    "grade": "중3",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "memo": "",
+    "studentPhone": "",
+    "parentPhone": "",
+    "notifyStudent": false,
+    "notifyParent": false,
+    "pageCode": "vcsyut7aa9yx"
+  },
+  {
+    "id": "s_1780314459772_58a78m",
+    "name": "장경원",
+    "school": "",
+    "grade": "중3",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "memo": "",
+    "studentPhone": "",
+    "parentPhone": "",
+    "notifyStudent": false,
+    "notifyParent": false,
+    "pageCode": "dfa3wge6dm65"
+  },
+  {
+    "id": "s_1780314459772_mrri1r",
+    "name": "채수완",
+    "school": "",
+    "grade": "중3",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "memo": "",
+    "studentPhone": "",
+    "parentPhone": "",
+    "notifyStudent": false,
+    "notifyParent": false,
+    "pageCode": "y6p5fvfxgfeu"
+  },
+  {
+    "id": "s_1780314459772_frngyj",
+    "name": "고승민",
+    "school": "",
+    "grade": "중3",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "memo": "",
+    "studentPhone": "",
+    "parentPhone": "",
+    "notifyStudent": false,
+    "notifyParent": false,
+    "pageCode": "t644dsvutyb8"
+  },
+  {
+    "id": "s_1780314459772_jsjhe4",
+    "name": "왕예진",
+    "school": "",
+    "grade": "중3",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "memo": "",
+    "studentPhone": "",
+    "parentPhone": "",
+    "notifyStudent": false,
+    "notifyParent": false,
+    "pageCode": "wmad574kw6zz"
+  },
+  {
+    "id": "s_1780314459772_hl9biz",
+    "name": "이도겸",
+    "school": "",
+    "grade": "중3",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "memo": "",
+    "studentPhone": "",
+    "parentPhone": "",
+    "notifyStudent": false,
+    "notifyParent": false,
+    "pageCode": "sujrjyha99fe"
+  },
+  {
+    "id": "s_1780314459772_wcllxa",
+    "name": "조아라",
+    "school": "",
+    "grade": "중3",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "memo": "",
+    "studentPhone": "",
+    "parentPhone": "",
+    "notifyStudent": false,
+    "notifyParent": false,
+    "pageCode": "rhu3ug525wup"
   }
 ]

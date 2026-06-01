@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "ann_mpvu5r03i9wk",
+    "createdAt": "2026-06-01T23:24:36.723Z",
+    "target": "student",
+    "message": "고쳐졌지?",
+    "recipients": [
+      {
+        "name": "문대승",
+        "type": "student",
+        "phone": "010-9327-7661",
+        "message": "고쳐졌지?"
+      }
+    ],
+    "status": "pending"
+  }
+]

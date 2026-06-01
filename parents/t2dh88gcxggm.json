@@ -1,11 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-01T11:50:39.109Z",
+  "generatedAt": "2026-06-01T12:28:39.236Z",
   "showCompletionRate": true,
   "student": {
     "name": "장승원",
     "grade": "중3"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-06",
+      "label": "2026년 6월",
+      "lessons": [
+        {
+          "date": "2026-06-01",
+          "weekday": "월",
+          "className": "장승원 개별",
+          "content": "대수 개+유 유형편\n사인, 코사인법칙 질문 및 등차, 등비수열",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        }
+      ],
+      "completionRate": null
+    }
+  ],
   "tests": []
 }

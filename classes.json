@@ -61,5 +61,13 @@
     "order": 10,
     "createdAt": "2026-06-01T10:48:03.451Z",
     "slot": 2
+  },
+  {
+    "id": "cls_1780311125071_i1638e",
+    "name": "월,수,금 중3 5시 수업",
+    "memo": "",
+    "showInParent": true,
+    "order": 11,
+    "createdAt": "2026-06-01T10:52:05.071Z"
   }
 ]

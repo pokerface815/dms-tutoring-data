@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T10:52:55.956Z",
+  "generatedAt": "2026-06-01T10:54:36.367Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -19,14 +19,5 @@
     "endDate": "2026-06-07"
   },
   "teacherConfirms": {},
-  "tasks": [
-    {
-      "assignmentId": "task_1780190478572_mowsbw",
-      "round": 1,
-      "title": "매일 하나씩 킬러문항",
-      "dueDate": "2026-06-01",
-      "isRepeat": false,
-      "assignedAt": "2026-05-31T01:21:18.572Z"
-    }
-  ]
+  "tasks": []
 }

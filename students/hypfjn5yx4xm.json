@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T14:47:07.687Z",
+  "generatedAt": "2026-06-01T15:36:10.865Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
     "grade": "고2",
     "class": "토,일 4시"
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1780218025861_mor5ad",
       "noteName": "이경주_수매씽 유형_수열의 합(2차 오답)",
@@ -18,7 +16,10 @@
       "plannedDate": "2026-06-02",
       "done": false,
       "doneAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1780075403993_90or5b",
       "noteName": "이경주_수매씽 유형_수열의 합( ~2199번)",

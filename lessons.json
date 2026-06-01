@@ -111,5 +111,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-01T12:28:50.954Z",
     "updatedAt": "2026-06-01T12:28:50.954Z"
+  },
+  {
+    "id": "lesson_1780322792394_74z1be",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-08",
+    "content": "ㄴㅇㄹ",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-01T14:06:32.394Z",
+    "updatedAt": "2026-06-01T14:06:32.394Z"
   }
 ]

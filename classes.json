@@ -34,5 +34,23 @@
     "order": 7,
     "createdAt": "2026-06-01T10:33:39.938Z",
     "slot": 1
+  },
+  {
+    "id": "cls_1780310061018_vay6zf",
+    "name": "토,일 4시",
+    "memo": "",
+    "showInParent": true,
+    "order": 8,
+    "createdAt": "2026-06-01T10:34:21.018Z",
+    "slot": 4
+  },
+  {
+    "id": "cls_1780310095581_j36rd5",
+    "name": "토,일 6시",
+    "memo": "",
+    "showInParent": true,
+    "order": 9,
+    "createdAt": "2026-06-01T10:34:55.581Z",
+    "slot": 7
   }
 ]

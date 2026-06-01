@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T14:43:52.183Z",
+  "generatedAt": "2026-06-01T14:47:04.743Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -9,7 +9,7 @@
   },
   "today": [
     {
-      "assignmentId": "a_1780324988727_6ze6et",
+      "assignmentId": "a_1780325196252_vl7pxy",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
       "subject": "대수",
       "round": 1,
@@ -30,7 +30,7 @@
       "doneAt": null
     },
     {
-      "assignmentId": "a_1780324988727_6ze6et",
+      "assignmentId": "a_1780325196252_vl7pxy",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
       "subject": "대수",
       "round": 2,

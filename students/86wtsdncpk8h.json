@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T23:16:51.627Z",
+  "generatedAt": "2026-06-02T00:43:12.151Z",
   "student": {
     "name": "박다윤",
     "school": "경신여고",
     "grade": "고2",
-    "class": "토,일 6시"
+    "class": "토,일 6시",
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T23:16:57.956Z",
+  "generatedAt": "2026-06-02T00:43:18.497Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
     "grade": "고2",
-    "class": "토,일 4시"
+    "class": "토,일 4시",
+    "showMakeNote": true
   },
   "today": [
     {

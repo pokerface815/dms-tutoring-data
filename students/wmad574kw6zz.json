@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:37:04.509Z",
+  "generatedAt": "2026-06-02T00:44:27.612Z",
   "student": {
     "name": "왕예진",
     "school": "",
     "grade": "중3",
-    "class": ""
+    "class": "",
+    "showMakeNote": false
   },
   "today": [],
   "overdue": [],

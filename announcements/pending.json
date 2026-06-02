@@ -1,17 +1,1 @@
-[
-  {
-    "id": "ann_mpvyumbevy6v",
-    "createdAt": "2026-06-02T01:35:55.514Z",
-    "target": "student",
-    "message": "(페이지 링크 발송)",
-    "recipients": [
-      {
-        "name": "문대승",
-        "type": "student",
-        "phone": "010-9327-7661",
-        "message": "[생각의 흐름] 문대승 학생 전용 학습 페이지 안내\n\nhttps://pokerface815.github.io/dms-tutoring-data/s/?code=3neea68kw4pt\n\n위 주소를 눌러 접속하세요."
-      }
-    ],
-    "status": "pending"
-  }
-]
+[]

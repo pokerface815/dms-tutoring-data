@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:36:23.212Z",
+  "generatedAt": "2026-06-02T00:43:34.773Z",
   "student": {
     "name": "김현민",
     "school": "살레고",
     "grade": "고2",
-    "class": "토,일 6시"
+    "class": "토,일 6시",
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

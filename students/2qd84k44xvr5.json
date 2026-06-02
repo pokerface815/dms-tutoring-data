@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T23:16:36.196Z",
+  "generatedAt": "2026-06-02T00:43:02.710Z",
   "student": {
     "name": "송유림",
     "school": "숭일고",
     "grade": "고2",
-    "class": "토,일 6시"
+    "class": "토,일 6시",
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

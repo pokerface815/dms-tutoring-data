@@ -17,6 +17,10 @@ on:
         required: false
         default: ""
 
+# Actions가 저장소에 commit/push 할 수 있도록 쓰기 권한 부여 (pending 비우기 반영에 필수)
+permissions:
+  contents: write
+
 # 동시 실행 방지 (중복 발송 방지)
 concurrency:
   group: send-announcement

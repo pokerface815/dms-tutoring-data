@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:36:18.147Z",
+  "generatedAt": "2026-06-02T00:43:28.121Z",
   "student": {
     "name": "박다인",
     "school": "국제고",
     "grade": "고2",
-    "class": "토,일 6시"
+    "class": "토,일 6시",
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

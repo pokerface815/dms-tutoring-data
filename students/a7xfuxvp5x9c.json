@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:36:30.667Z",
+  "generatedAt": "2026-06-02T00:43:44.136Z",
   "student": {
     "name": "김시현",
     "school": "국제고",
     "grade": "고2",
-    "class": "토,일 4시"
+    "class": "토,일 4시",
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

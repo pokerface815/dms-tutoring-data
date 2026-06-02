@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:37:07.088Z",
+  "generatedAt": "2026-06-02T00:44:30.791Z",
   "student": {
     "name": "이도겸",
     "school": "",
     "grade": "중3",
-    "class": ""
+    "class": "",
+    "showMakeNote": false
   },
   "today": [],
   "overdue": [],

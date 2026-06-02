@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:36:44.458Z",
+  "generatedAt": "2026-06-02T00:44:00.422Z",
   "student": {
     "name": "장승원",
     "school": "숭일중",
     "grade": "중3",
-    "class": ""
+    "class": "",
+    "showMakeNote": false
   },
   "today": [],
   "overdue": [],

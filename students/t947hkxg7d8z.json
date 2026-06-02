@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T23:16:54.755Z",
+  "generatedAt": "2026-06-02T00:43:15.426Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
     "grade": "고2",
-    "class": "개별수업"
+    "class": "개별수업",
+    "showMakeNote": true
   },
   "today": [
     {

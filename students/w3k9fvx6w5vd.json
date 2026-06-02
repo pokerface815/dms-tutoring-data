@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:36:25.648Z",
+  "generatedAt": "2026-06-02T00:43:37.843Z",
   "student": {
     "name": "지유진",
     "school": "문정여고",
     "grade": "고2",
-    "class": "토,일 4시"
+    "class": "토,일 4시",
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

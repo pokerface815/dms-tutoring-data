@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:37:09.773Z",
+  "generatedAt": "2026-06-02T00:44:33.965Z",
   "student": {
     "name": "조아라",
     "school": "",
     "grade": "중3",
-    "class": ""
+    "class": "",
+    "showMakeNote": false
   },
   "today": [],
   "overdue": [],

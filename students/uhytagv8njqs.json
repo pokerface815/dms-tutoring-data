@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T23:16:48.536Z",
+  "generatedAt": "2026-06-02T00:43:09.076Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
     "grade": "고2",
-    "class": "토,일 6시"
+    "class": "토,일 6시",
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

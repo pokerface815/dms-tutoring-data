@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:36:42.007Z",
+  "generatedAt": "2026-06-02T00:43:57.307Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
     "grade": "고3",
-    "class": ""
+    "class": "",
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

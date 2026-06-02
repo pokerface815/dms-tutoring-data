@@ -22,7 +22,8 @@
     "pageCode": "2qd84k44xvr5",
     "classes": [
       "cls_1780310095581_j36rd5"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1777546951753_p3pskl",
@@ -47,7 +48,8 @@
     "pageCode": "qsepzrq8kdtq",
     "classes": [
       "cls_1780310095581_j36rd5"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1777546978791_hsee5a",
@@ -74,7 +76,8 @@
       "cls_1780310095581_j36rd5"
     ],
     "showCompletionRate": true,
-    "showTestResults": false
+    "showTestResults": false,
+    "showMakeNote": true
   },
   {
     "id": "s_1777547014208_7l30nn",
@@ -99,7 +102,8 @@
     "pageCode": "86wtsdncpk8h",
     "classes": [
       "cls_1780310095581_j36rd5"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1777547047005_uo92w5",
@@ -124,7 +128,8 @@
     "pageCode": "t947hkxg7d8z",
     "classes": [
       "cls_1780310883451_eliu81"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1778325875686_1uoe4b",
@@ -149,7 +154,8 @@
     "pageCode": "hypfjn5yx4xm",
     "classes": [
       "cls_1780310061018_vay6zf"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1778397156600_clkd2u",
@@ -174,7 +180,8 @@
     "pageCode": "y8jkzjbpkmfh",
     "classes": [
       "cls_1780310061018_vay6zf"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1778402500926_7fxigp",
@@ -199,7 +206,8 @@
     "pageCode": "tke85bjzms8e",
     "classes": [
       "cls_1780310095581_j36rd5"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1778404886523_0ag055",
@@ -224,7 +232,8 @@
     "pageCode": "9kpm4rh8e2sb",
     "classes": [
       "cls_1780310095581_j36rd5"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1778638262495_alq1jg",
@@ -249,7 +258,8 @@
     "pageCode": "h4257zsksm3h",
     "classes": [
       "cls_1780310095581_j36rd5"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1778768401651_7hlihp",
@@ -274,7 +284,8 @@
     "pageCode": "n2fz45twhzv4",
     "classes": [
       "cls_1780310095581_j36rd5"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1778849219765_v88lqq",
@@ -299,7 +310,8 @@
     "pageCode": "w3k9fvx6w5vd",
     "classes": [
       "cls_1780310061018_vay6zf"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1778908285779_1cmzde",
@@ -324,7 +336,8 @@
     "pageCode": "meut9zmgs6g3",
     "classes": [
       "cls_1780310019938_5xpe6o"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1779005266373_7iq1b8",
@@ -349,7 +362,8 @@
     "pageCode": "a7xfuxvp5x9c",
     "classes": [
       "cls_1780310061018_vay6zf"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1779628208770_oahez9",
@@ -374,7 +388,8 @@
     "pageCode": "cs4z4c4u3t9u",
     "classes": [
       "cls_1780310061018_vay6zf"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1779811264964_kbtli4",
@@ -399,7 +414,8 @@
     "pageCode": "szsvtwbygpkz",
     "classes": [
       "cls_1780310061018_vay6zf"
-    ]
+    ],
+    "showMakeNote": true
   },
   {
     "id": "s_1779948611035_qbdt5h",
@@ -429,7 +445,9 @@
     "name": "문대승",
     "school": "창평고",
     "grade": "고3",
-    "classes": [],
+    "classes": [
+      "cls_1780355764530_wxb5as"
+    ],
     "memo": "",
     "days": [
       "월",
@@ -446,7 +464,8 @@
     "notifyParent": true,
     "showCompletionRate": true,
     "pageCode": "3neea68kw4pt",
-    "showTestResults": false
+    "showTestResults": false,
+    "showMakeNote": true
   },
   {
     "id": "s_1780309053750_4dw5li",
@@ -696,6 +715,7 @@
     "notifyParent": false,
     "showCompletionRate": true,
     "showTestResults": true,
-    "pageCode": "agt64ex4yqvh"
+    "pageCode": "agt64ex4yqvh",
+    "showMakeNote": true
   }
 ]

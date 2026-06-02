@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:36:28.166Z",
+  "generatedAt": "2026-06-02T00:43:41.023Z",
   "student": {
     "name": "서은영",
     "school": "경신여고",
     "grade": "고2",
-    "class": "토,일 2시"
+    "class": "토,일 2시",
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

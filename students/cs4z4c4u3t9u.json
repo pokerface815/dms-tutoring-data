@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:36:33.099Z",
+  "generatedAt": "2026-06-02T00:43:47.373Z",
   "student": {
     "name": "박현우",
     "school": "살레고",
     "grade": "고2",
-    "class": "토,일 4시"
+    "class": "토,일 4시",
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

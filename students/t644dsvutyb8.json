@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:37:02.041Z",
+  "generatedAt": "2026-06-02T00:44:24.137Z",
   "student": {
     "name": "고승민",
     "school": "",
     "grade": "중3",
-    "class": ""
+    "class": "",
+    "showMakeNote": false
   },
   "today": [],
   "overdue": [],

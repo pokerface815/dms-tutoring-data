@@ -1,0 +1,16 @@
+{
+  "id": "ann_mpw0kd7rlx5b",
+  "sentAt": "2026-06-02T11:24:08.893882+09:00",
+  "target": "student",
+  "message": "https://pokerface815.github.io/dms-tutoring-data/s/?code=3neea68kw4pt",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "문대승",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

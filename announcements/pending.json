@@ -1,17 +1,1 @@
-[
-  {
-    "id": "ann_mpw0kd7rlx5b",
-    "createdAt": "2026-06-02T02:23:56.391Z",
-    "target": "student",
-    "message": "https://pokerface815.github.io/dms-tutoring-data/s/?code=3neea68kw4pt",
-    "recipients": [
-      {
-        "name": "문대승",
-        "type": "student",
-        "phone": "010-9327-7661",
-        "message": "https://pokerface815.github.io/dms-tutoring-data/s/?code=3neea68kw4pt"
-      }
-    ],
-    "status": "pending"
-  }
-]
+[]

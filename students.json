@@ -464,7 +464,7 @@
     "notifyParent": true,
     "showCompletionRate": true,
     "pageCode": "3neea68kw4pt",
-    "showTestResults": false,
+    "showTestResults": true,
     "showMakeNote": true
   },
   {

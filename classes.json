@@ -83,6 +83,7 @@
     "name": "S",
     "memo": "",
     "order": 12,
-    "createdAt": "2026-06-01T23:16:04.530Z"
+    "createdAt": "2026-06-01T23:16:04.530Z",
+    "lessonSlot": 14
   }
 ]

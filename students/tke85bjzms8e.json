@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T23:17:04.193Z",
+  "generatedAt": "2026-06-02T00:43:24.742Z",
   "student": {
     "name": "정찬민",
     "school": "살레고",
     "grade": "고2",
-    "class": "토,일 6시"
+    "class": "토,일 6시",
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

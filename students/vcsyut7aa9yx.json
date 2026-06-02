@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-01T15:36:54.963Z",
+  "generatedAt": "2026-06-02T00:44:12.970Z",
   "student": {
     "name": "문현빈",
     "school": "",
     "grade": "중3",
-    "class": ""
+    "class": "",
+    "showMakeNote": false
   },
   "today": [],
   "overdue": [],

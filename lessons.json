@@ -145,10 +145,20 @@
     "id": "lesson_1780500319551_fpti7u",
     "classId": "cls_1780355764530_wxb5as",
     "date": "2026-06-01",
-    "content": "중3 수업\n고등 선행\n과외",
+    "content": "중3 수업\n고등 선행\n예나 수업",
     "studentNotes": [],
     "taskBatchId": null,
     "createdAt": "2026-06-03T15:25:19.551Z",
-    "updatedAt": "2026-06-03T15:25:19.551Z"
+    "updatedAt": "2026-06-03T15:52:42.152Z"
+  },
+  {
+    "id": "lesson_1780501953698_yd44mz",
+    "classId": "cls_1780355764530_wxb5as",
+    "date": "2026-06-04",
+    "content": "확통 보충\n대수 질문\n예나 수업",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-03T15:52:33.698Z",
+    "updatedAt": "2026-06-03T15:52:33.698Z"
   }
 ]

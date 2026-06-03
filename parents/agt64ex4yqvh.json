@@ -1,11 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T11:25:09.562Z",
+  "generatedAt": "2026-06-03T15:09:15.387Z",
   "showCompletionRate": true,
   "student": {
     "name": "이세영",
     "grade": "고2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-06",
+      "label": "2026년 6월",
+      "lessons": [
+        {
+          "date": "2026-06-03",
+          "weekday": "수",
+          "className": "S",
+          "content": "에버랜드",
+          "task": "여행 뒷정리",
+          "taskDue": "",
+          "myNote": ""
+        },
+        {
+          "date": "2026-06-02",
+          "weekday": "화",
+          "className": "S",
+          "content": "이룸 퇴소\n서울 한강",
+          "task": "안전 운전",
+          "taskDue": "",
+          "myNote": "유석 담당"
+        }
+      ],
+      "completionRate": null
+    }
+  ],
   "tests": []
 }

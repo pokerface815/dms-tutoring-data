@@ -111,5 +111,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-01T12:28:50.954Z",
     "updatedAt": "2026-06-01T12:28:50.954Z"
+  },
+  {
+    "id": "lesson_1780499220708_08g6xk",
+    "classId": "cls_1780355764530_wxb5as",
+    "date": "2026-06-02",
+    "content": "이룸 퇴소\n서울 한강",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-03T15:07:00.707Z",
+    "updatedAt": "2026-06-03T15:07:00.707Z"
   }
 ]

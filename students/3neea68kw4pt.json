@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-03T11:24:39.307Z",
+  "generatedAt": "2026-06-03T15:08:25.573Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -20,5 +20,14 @@
     "endDate": "2026-06-07"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [
+    {
+      "assignmentId": "task_1780499298479_b3ko7f",
+      "round": 1,
+      "title": "안전 운전",
+      "dueDate": null,
+      "isRepeat": false,
+      "assignedAt": "2026-06-03T15:08:18.479Z"
+    }
+  ]
 }

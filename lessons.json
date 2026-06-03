@@ -140,5 +140,15 @@
     "taskBatchId": "t_mpy7bjdd",
     "createdAt": "2026-06-03T15:08:04.766Z",
     "updatedAt": "2026-06-03T15:08:34.129Z"
+  },
+  {
+    "id": "lesson_1780500319551_fpti7u",
+    "classId": "cls_1780355764530_wxb5as",
+    "date": "2026-06-01",
+    "content": "중3 수업\n고등 선행\n과외",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-03T15:25:19.551Z",
+    "updatedAt": "2026-06-03T15:25:19.551Z"
   }
 ]

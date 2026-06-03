@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T16:49:42.701Z",
+  "generatedAt": "2026-06-03T16:52:39.457Z",
   "showCompletionRate": true,
   "student": {
     "name": "문대승",
@@ -51,5 +51,12 @@
       "completionRate": null
     }
   ],
-  "tests": []
+  "tests": [
+    {
+      "title": "6월 5일 킬러문항",
+      "date": "2026-06-04",
+      "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780505537/ifaz2kbhy1dt8ipar05y.pdf",
+      "fileName": "서준우_4월3일.pdf"
+    }
+  ]
 }

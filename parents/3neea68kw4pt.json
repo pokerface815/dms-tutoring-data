@@ -1,11 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T11:24:40.403Z",
+  "generatedAt": "2026-06-03T15:08:27.458Z",
   "showCompletionRate": true,
   "student": {
     "name": "문대승",
     "grade": "고3"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-06",
+      "label": "2026년 6월",
+      "lessons": [
+        {
+          "date": "2026-06-03",
+          "weekday": "수",
+          "className": "S",
+          "content": "에버랜드",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        },
+        {
+          "date": "2026-06-02",
+          "weekday": "화",
+          "className": "S",
+          "content": "이룸 퇴소\n서울 한강",
+          "task": "안전 운전",
+          "taskDue": "",
+          "myNote": "운전"
+        }
+      ],
+      "completionRate": null
+    }
+  ],
   "tests": []
 }

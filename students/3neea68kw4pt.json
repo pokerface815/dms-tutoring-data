@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-03T16:54:38.521Z",
+  "generatedAt": "2026-06-03T16:56:48.977Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -31,20 +31,20 @@
   },
   "tasks": [
     {
-      "assignmentId": "task_1780499314129_2sd1m1",
-      "round": 1,
-      "title": "여행 뒷정리",
-      "dueDate": null,
-      "isRepeat": false,
-      "assignedAt": "2026-06-03T15:08:34.129Z"
-    },
-    {
-      "assignmentId": "task_1780499298479_b3ko7f",
+      "assignmentId": "task_1780505761390_p5vsow",
       "round": 1,
       "title": "안전 운전",
-      "dueDate": null,
+      "dueDate": "2026-06-03",
       "isRepeat": false,
       "assignedAt": "2026-06-03T15:08:18.479Z"
+    },
+    {
+      "assignmentId": "task_1780505755161_msepda",
+      "round": 1,
+      "title": "여행 뒷정리",
+      "dueDate": "2026-06-04",
+      "isRepeat": false,
+      "assignedAt": "2026-06-03T15:08:34.129Z"
     }
   ]
 }

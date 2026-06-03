@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T16:54:39.656Z",
+  "generatedAt": "2026-06-03T16:56:50.178Z",
   "showCompletionRate": true,
   "student": {
     "name": "문대승",
@@ -26,7 +26,7 @@
           "className": "S",
           "content": "에버랜드",
           "task": "여행 뒷정리",
-          "taskDue": "",
+          "taskDue": "2026-06-04",
           "myNote": ""
         },
         {
@@ -35,7 +35,7 @@
           "className": "S",
           "content": "이룸 퇴소\n서울 한강",
           "task": "안전 운전",
-          "taskDue": "",
+          "taskDue": "2026-06-03",
           "myNote": "운전"
         },
         {
@@ -48,7 +48,11 @@
           "myNote": ""
         }
       ],
-      "completionRate": null
+      "completionRate": {
+        "done": 0,
+        "total": 1,
+        "percent": 0
+      }
     }
   ],
   "tests": [
@@ -57,6 +61,12 @@
       "date": "2026-06-04",
       "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780505537/ifaz2kbhy1dt8ipar05y.pdf",
       "fileName": "서준우_4월3일.pdf"
+    },
+    {
+      "title": "6월 3일 중간 테스트",
+      "date": "2026-06-03",
+      "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780505809/uxiydfbbgy3132grnzcl.pdf",
+      "fileName": "서준우_4월15일.pdf"
     }
   ]
 }

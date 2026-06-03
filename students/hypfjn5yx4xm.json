@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-02T01:51:35.516Z",
+  "generatedAt": "2026-06-03T11:24:10.167Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -8,17 +8,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1780218025861_mor5ad",
-      "noteName": "이경주_수매씽 유형_수열의 합(2차 오답)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-02",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -41,6 +31,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1780218025861_mor5ad",
+      "noteName": "이경주_수매씽 유형_수열의 합(2차 오답)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-02",
+      "done": true,
+      "doneAt": "2026-06-03T11:23:45.399Z"
+    },
     {
       "assignmentId": "a_1780075403993_90or5b",
       "noteName": "이경주_수매씽 유형_수열의 합( ~2199번)",
@@ -152,8 +151,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 1,
-    "percent": 25,
+    "done": 2,
+    "percent": 50,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

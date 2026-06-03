@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T15:08:27.458Z",
+  "generatedAt": "2026-06-03T15:20:37.381Z",
   "showCompletionRate": true,
   "student": {
     "name": "문대승",
@@ -16,7 +16,7 @@
           "weekday": "수",
           "className": "S",
           "content": "에버랜드",
-          "task": "",
+          "task": "여행 뒷정리",
           "taskDue": "",
           "myNote": ""
         },

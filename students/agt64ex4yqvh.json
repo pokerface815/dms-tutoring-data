@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-03T16:55:08.768Z",
+  "generatedAt": "2026-06-03T16:57:18.410Z",
   "student": {
     "name": "이세영",
     "school": "전남여고",
@@ -22,20 +22,20 @@
   "teacherConfirms": {},
   "tasks": [
     {
-      "assignmentId": "task_1780499314129_1lzt8o",
-      "round": 1,
-      "title": "여행 뒷정리",
-      "dueDate": null,
-      "isRepeat": false,
-      "assignedAt": "2026-06-03T15:08:34.129Z"
-    },
-    {
-      "assignmentId": "task_1780499298479_tba48d",
+      "assignmentId": "task_1780505761390_16ycn8",
       "round": 1,
       "title": "안전 운전",
-      "dueDate": null,
+      "dueDate": "2026-06-03",
       "isRepeat": false,
       "assignedAt": "2026-06-03T15:08:18.479Z"
+    },
+    {
+      "assignmentId": "task_1780505755161_0k15s3",
+      "round": 1,
+      "title": "여행 뒷정리",
+      "dueDate": "2026-06-04",
+      "isRepeat": false,
+      "assignedAt": "2026-06-03T15:08:34.129Z"
     }
   ]
 }

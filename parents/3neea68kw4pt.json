@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T15:20:37.381Z",
+  "generatedAt": "2026-06-03T15:26:17.211Z",
   "showCompletionRate": true,
   "student": {
     "name": "문대승",
@@ -28,6 +28,15 @@
           "task": "안전 운전",
           "taskDue": "",
           "myNote": "운전"
+        },
+        {
+          "date": "2026-06-01",
+          "weekday": "월",
+          "className": "S",
+          "content": "중3 수업\n고등 선행\n과외",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
         }
       ],
       "completionRate": null

@@ -1579,5 +1579,49 @@
       }
     ],
     "createdAt": "2026-06-01T14:46:36.252Z"
+  },
+  {
+    "id": "task_1780499298479_b3ko7f",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "안전 운전",
+    "dueDate": null,
+    "assignedAt": "2026-06-03T15:08:18.479Z",
+    "batchId": "t_mpy7b7an",
+    "repeat": null,
+    "fromLesson": "lesson_1780499220708_08g6xk"
+  },
+  {
+    "id": "task_1780499298479_tba48d",
+    "type": "task",
+    "studentId": "s_1780355782316_yrovp3",
+    "title": "안전 운전",
+    "dueDate": null,
+    "assignedAt": "2026-06-03T15:08:18.479Z",
+    "batchId": "t_mpy7b7an",
+    "repeat": null,
+    "fromLesson": "lesson_1780499220708_08g6xk"
+  },
+  {
+    "id": "task_1780499314129_2sd1m1",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "여행 뒷정리",
+    "dueDate": null,
+    "assignedAt": "2026-06-03T15:08:34.129Z",
+    "batchId": "t_mpy7bjdd",
+    "repeat": null,
+    "fromLesson": "lesson_1780499284766_03g44z"
+  },
+  {
+    "id": "task_1780499314129_1lzt8o",
+    "type": "task",
+    "studentId": "s_1780355782316_yrovp3",
+    "title": "여행 뒷정리",
+    "dueDate": null,
+    "assignedAt": "2026-06-03T15:08:34.129Z",
+    "batchId": "t_mpy7bjdd",
+    "repeat": null,
+    "fromLesson": "lesson_1780499284766_03g44z"
   }
 ]

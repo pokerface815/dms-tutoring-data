@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-03T11:24:00.186Z",
+  "generatedAt": "2026-06-03T15:07:22.331Z",
   "student": {
     "name": "김채린",
     "school": "숭일고",
@@ -8,17 +8,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1779859726685_m4y27f",
-      "noteName": "김채린_개념루트_사인법칙과 코사인법칙( ~571번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-03",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -32,6 +22,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1779859726685_m4y27f",
+      "noteName": "김채린_개념루트_사인법칙과 코사인법칙( ~571번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-03",
+      "done": true,
+      "doneAt": "2026-06-03T11:24:02.241Z"
+    },
     {
       "assignmentId": "a_1779859726685_m4y27f",
       "noteName": "김채린_개념루트_사인법칙과 코사인법칙( ~571번)",
@@ -80,8 +79,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

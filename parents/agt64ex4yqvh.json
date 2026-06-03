@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T15:26:51.048Z",
+  "generatedAt": "2026-06-03T15:54:02.117Z",
   "showCompletionRate": true,
   "student": {
     "name": "이세영",
@@ -11,6 +11,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-04",
+          "weekday": "목",
+          "className": "S",
+          "content": "확통 보충\n대수 질문\n예나 수업",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        },
         {
           "date": "2026-06-03",
           "weekday": "수",
@@ -33,7 +42,7 @@
           "date": "2026-06-01",
           "weekday": "월",
           "className": "S",
-          "content": "중3 수업\n고등 선행\n과외",
+          "content": "중3 수업\n고등 선행\n예나 수업",
           "task": "",
           "taskDue": "",
           "myNote": ""

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-04T07:04:24.268Z",
+  "generatedAt": "2026-06-04T07:36:51.962Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -47,12 +47,12 @@
       "assignedAt": "2026-06-03T15:08:18.479Z"
     },
     {
-      "assignmentId": "task_1780505755161_msepda",
+      "assignmentId": "task_1780558539137_0pojf0",
       "round": 1,
       "title": "여행 뒷정리",
-      "dueDate": "2026-06-04",
+      "dueDate": "2026-06-05",
       "isRepeat": false,
-      "assignedAt": "2026-06-03T15:08:34.129Z"
+      "assignedAt": "2026-06-04T07:35:39.137Z"
     }
   ]
 }

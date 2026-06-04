@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-04T07:37:35.547Z",
+  "generatedAt": "2026-06-04T07:43:08.408Z",
   "student": {
     "name": "이세영",
     "school": "전남여고",
@@ -36,6 +36,14 @@
       "dueDate": "2026-06-05",
       "isRepeat": false,
       "assignedAt": "2026-06-04T07:35:39.137Z"
+    },
+    {
+      "assignmentId": "task_1780558953094_gc38n3",
+      "round": 1,
+      "title": "학부모 상담 전화",
+      "dueDate": "2026-06-05",
+      "isRepeat": false,
+      "assignedAt": "2026-06-04T07:42:33.094Z"
     }
   ]
 }

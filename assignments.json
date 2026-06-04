@@ -1643,5 +1643,15 @@
     "batchId": "t_mpz73nj3",
     "repeat": null,
     "fromLesson": "lesson_1780558953094_8uqypk"
+  },
+  {
+    "id": "task_1780562198827_w2n5ap",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "일반 과제 마감일 수정",
+    "dueDate": "2026-06-05",
+    "assignedAt": "2026-06-04T08:36:38.827Z",
+    "batchId": "t_mpz8rdij",
+    "repeat": null
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-04T07:43:09.612Z",
+  "generatedAt": "2026-06-04T07:51:19.074Z",
   "showCompletionRate": true,
   "student": {
     "name": "이세영",
@@ -17,7 +17,7 @@
           "className": "S",
           "content": "중등, 확통 보충\n예나 수업",
           "task": "학부모 상담 전화",
-          "taskDue": "2026-06-05",
+          "taskDue": "2026-06-06",
           "myNote": ""
         },
         {

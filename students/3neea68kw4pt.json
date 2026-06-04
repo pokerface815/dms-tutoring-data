@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-04T07:36:51.962Z",
+  "generatedAt": "2026-06-04T07:42:39.123Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -53,6 +53,14 @@
       "dueDate": "2026-06-05",
       "isRepeat": false,
       "assignedAt": "2026-06-04T07:35:39.137Z"
+    },
+    {
+      "assignmentId": "task_1780558953094_rez4nc",
+      "round": 1,
+      "title": "학부모 상담 전화",
+      "dueDate": "2026-06-05",
+      "isRepeat": false,
+      "assignedAt": "2026-06-04T07:42:33.094Z"
     }
   ]
 }

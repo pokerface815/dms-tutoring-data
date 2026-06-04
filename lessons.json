@@ -165,5 +165,15 @@
     "taskBatchId": "t_mpz73nj3",
     "createdAt": "2026-06-04T07:42:33.094Z",
     "updatedAt": "2026-06-04T07:50:12.447Z"
+  },
+  {
+    "id": "lesson_1780568864986_p6qtl9",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-04",
+    "content": "6월 모의고사 - 73점(1등급컷 80~84점 예상)",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-04T10:27:44.985Z",
+    "updatedAt": "2026-06-04T10:27:44.985Z"
   }
 ]

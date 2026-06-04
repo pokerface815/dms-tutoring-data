@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-04T11:21:19.548Z",
+  "generatedAt": "2026-06-04T15:00:33.999Z",
   "showCompletionRate": true,
   "student": {
     "name": "문대승",
@@ -16,8 +16,8 @@
           "weekday": "목",
           "className": "S",
           "content": "중등, 확통 보충\n예나 수업",
-          "task": "학부모 상담 전화",
-          "taskDue": "2026-06-07",
+          "task": "",
+          "taskDue": "",
           "myNote": "진도 잘 챙기기"
         },
         {
@@ -25,8 +25,8 @@
           "weekday": "수",
           "className": "S",
           "content": "에버랜드",
-          "task": "여행 뒷정리",
-          "taskDue": "2026-06-05",
+          "task": "",
+          "taskDue": "",
           "myNote": ""
         },
         {
@@ -34,8 +34,8 @@
           "weekday": "화",
           "className": "S",
           "content": "이룸 퇴소\n서울 한강",
-          "task": "안전 운전",
-          "taskDue": "2026-06-03",
+          "task": "",
+          "taskDue": "",
           "myNote": "운전"
         },
         {
@@ -48,11 +48,7 @@
           "myNote": ""
         }
       ],
-      "completionRate": {
-        "done": 1,
-        "total": 1,
-        "percent": 100
-      }
+      "completionRate": null
     }
   ],
   "tests": [

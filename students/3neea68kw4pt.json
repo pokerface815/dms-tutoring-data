@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-03T16:56:48.977Z",
+  "generatedAt": "2026-06-04T07:04:24.268Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -27,6 +27,14 @@
     "task_1780499314129_2sd1m1__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-03T16:48:45.199Z"
+    },
+    "task_1780505755161_msepda__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-04T07:03:28.272Z"
+    },
+    "task_1780505761390_p5vsow__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-04T07:03:29.735Z"
     }
   },
   "tasks": [

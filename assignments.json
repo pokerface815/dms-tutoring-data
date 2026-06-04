@@ -1649,7 +1649,7 @@
     "type": "task",
     "studentId": "s_1780190418387_a11waf",
     "title": "일반 과제 마감일 수정",
-    "dueDate": "2026-06-05",
+    "dueDate": "2026-06-06",
     "assignedAt": "2026-06-04T08:36:38.827Z",
     "batchId": "t_mpz8rdij",
     "repeat": null
@@ -1658,7 +1658,7 @@
     "id": "task_1780562221556_d0fx4n",
     "type": "task",
     "studentId": "s_1780190418387_a11waf",
-    "title": "일반 과제 제목 수정",
+    "title": "일반 과제 제목 수정 했다.",
     "dueDate": "2026-06-05",
     "assignedAt": "2026-06-04T08:37:01.556Z",
     "batchId": "t_mpz8rv1w",
@@ -1668,16 +1668,6 @@
     "id": "task_1780562258086_nepwxw",
     "type": "task",
     "studentId": "s_1780190418387_a11waf",
-    "title": "대상 학생 추가 삭제",
-    "dueDate": "2026-06-05",
-    "assignedAt": "2026-06-04T08:37:38.086Z",
-    "batchId": "t_mpz8sn8m",
-    "repeat": null
-  },
-  {
-    "id": "task_1780562258086_j47l15",
-    "type": "task",
-    "studentId": "s_1780355782316_yrovp3",
     "title": "대상 학생 추가 삭제",
     "dueDate": "2026-06-05",
     "assignedAt": "2026-06-04T08:37:38.086Z",
@@ -1695,8 +1685,18 @@
     "repeat": {
       "enabled": true,
       "weekdays": [
-        5
+        6
       ]
     }
+  },
+  {
+    "id": "task_1780568931299_tl9ctf",
+    "type": "task",
+    "studentId": "s_1780314459772_frngyj",
+    "title": "대상 학생 추가 삭제",
+    "dueDate": "2026-06-05",
+    "assignedAt": "2026-06-04T08:37:38.086Z",
+    "batchId": "t_mpz8sn8m",
+    "repeat": null
   }
 ]

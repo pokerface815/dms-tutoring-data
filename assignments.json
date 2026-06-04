@@ -1621,5 +1621,27 @@
     "batchId": "t_mpz6kxoh",
     "repeat": null,
     "fromLesson": "lesson_1780499284766_03g44z"
+  },
+  {
+    "id": "task_1780558953094_rez4nc",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "학부모 상담 전화",
+    "dueDate": "2026-06-05",
+    "assignedAt": "2026-06-04T07:42:33.094Z",
+    "batchId": "t_mpz6tt3a",
+    "repeat": null,
+    "fromLesson": "lesson_1780558953094_8uqypk"
+  },
+  {
+    "id": "task_1780558953094_gc38n3",
+    "type": "task",
+    "studentId": "s_1780355782316_yrovp3",
+    "title": "학부모 상담 전화",
+    "dueDate": "2026-06-05",
+    "assignedAt": "2026-06-04T07:42:33.094Z",
+    "batchId": "t_mpz6tt3a",
+    "repeat": null,
+    "fromLesson": "lesson_1780558953094_8uqypk"
   }
 ]

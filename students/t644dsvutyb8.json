@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-04T08:42:00.530Z",
+  "generatedAt": "2026-06-04T10:28:55.669Z",
   "student": {
     "name": "고승민",
     "school": "",
@@ -28,6 +28,14 @@
       "dueDate": "2026-06-05",
       "isRepeat": false,
       "assignedAt": "2026-06-01T11:49:44.317Z"
+    },
+    {
+      "assignmentId": "task_1780568931299_tl9ctf",
+      "round": 1,
+      "title": "대상 학생 추가 삭제",
+      "dueDate": "2026-06-05",
+      "isRepeat": false,
+      "assignedAt": "2026-06-04T08:37:38.086Z"
     }
   ]
 }

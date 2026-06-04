@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-04T10:30:28.716Z",
+  "generatedAt": "2026-06-04T15:01:20.335Z",
   "showCompletionRate": true,
   "student": {
     "name": "이세영",
@@ -16,8 +16,8 @@
           "weekday": "목",
           "className": "S",
           "content": "중등, 확통 보충\n예나 수업",
-          "task": "학부모 상담 전화",
-          "taskDue": "2026-06-07",
+          "task": "",
+          "taskDue": "",
           "myNote": ""
         },
         {
@@ -25,8 +25,8 @@
           "weekday": "수",
           "className": "S",
           "content": "에버랜드",
-          "task": "여행 뒷정리",
-          "taskDue": "2026-06-05",
+          "task": "",
+          "taskDue": "",
           "myNote": ""
         },
         {
@@ -34,8 +34,8 @@
           "weekday": "화",
           "className": "S",
           "content": "이룸 퇴소\n서울 한강",
-          "task": "안전 운전",
-          "taskDue": "2026-06-03",
+          "task": "",
+          "taskDue": "",
           "myNote": "유석 담당"
         },
         {
@@ -48,11 +48,7 @@
           "myNote": ""
         }
       ],
-      "completionRate": {
-        "done": 0,
-        "total": 1,
-        "percent": 0
-      }
+      "completionRate": null
     }
   ],
   "tests": []

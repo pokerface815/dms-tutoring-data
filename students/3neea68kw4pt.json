@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-04T14:58:32.257Z",
+  "generatedAt": "2026-06-04T15:00:32.749Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -69,63 +69,5 @@
       "confirmedAt": "2026-06-04T14:58:25.211Z"
     }
   },
-  "tasks": [
-    {
-      "assignmentId": "task_1780505761390_p5vsow",
-      "round": 1,
-      "title": "안전 운전",
-      "dueDate": "2026-06-03",
-      "isRepeat": false,
-      "assignedAt": "2026-06-03T15:08:18.479Z"
-    },
-    {
-      "assignmentId": "task_1780558539137_0pojf0",
-      "round": 1,
-      "title": "여행 뒷정리",
-      "dueDate": "2026-06-05",
-      "isRepeat": false,
-      "assignedAt": "2026-06-04T07:35:39.137Z"
-    },
-    {
-      "assignmentId": "task_1780562221556_d0fx4n",
-      "round": 1,
-      "title": "일반 과제 제목 수정 했다.",
-      "dueDate": "2026-06-05",
-      "isRepeat": false,
-      "assignedAt": "2026-06-04T08:37:01.556Z"
-    },
-    {
-      "assignmentId": "task_1780562258086_nepwxw",
-      "round": 1,
-      "title": "대상 학생 추가 삭제",
-      "dueDate": "2026-06-05",
-      "isRepeat": false,
-      "assignedAt": "2026-06-04T08:37:38.086Z"
-    },
-    {
-      "assignmentId": "task_1780562198827_w2n5ap",
-      "round": 1,
-      "title": "일반 과제 마감일 수정",
-      "dueDate": "2026-06-06",
-      "isRepeat": false,
-      "assignedAt": "2026-06-04T08:36:38.827Z"
-    },
-    {
-      "assignmentId": "task_1780562282260_czwguk",
-      "round": 20260606,
-      "title": "반복 과제 마감일 수정",
-      "dueDate": "2026-06-06",
-      "isRepeat": true,
-      "dayOffset": 2,
-      "assignedAt": "2026-06-04T08:38:02.260Z"
-    },
-    {
-      "assignmentId": "task_1780559412447_wqzyjy",
-      "round": 1,
-      "title": "학부모 상담 전화",
-      "dueDate": "2026-06-07",
-      "isRepeat": false,
-      "assignedAt": "2026-06-04T07:50:12.447Z"
-    }
-  ]
+  "tasks": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-04T10:29:28.950Z",
+  "generatedAt": "2026-06-04T10:33:02.825Z",
   "showCompletionRate": true,
   "student": {
     "name": "조예나",
@@ -15,7 +15,7 @@
           "date": "2026-06-04",
           "weekday": "목",
           "className": "조예나 개별",
-          "content": "6월 모의고사 - 73점(1등급컷 80~84점 예상)",
+          "content": "6월 모의고사 - 73점(1등급컷 80~84점 예상), 2문제 찍어서 맞춤(-8점)",
           "task": "",
           "taskDue": "",
           "myNote": ""

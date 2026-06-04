@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-04T08:31:42.052Z",
+  "generatedAt": "2026-06-04T08:37:30.904Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -65,6 +65,22 @@
       "dueDate": "2026-06-05",
       "isRepeat": false,
       "assignedAt": "2026-06-04T07:35:39.137Z"
+    },
+    {
+      "assignmentId": "task_1780562198827_w2n5ap",
+      "round": 1,
+      "title": "일반 과제 마감일 수정",
+      "dueDate": "2026-06-05",
+      "isRepeat": false,
+      "assignedAt": "2026-06-04T08:36:38.827Z"
+    },
+    {
+      "assignmentId": "task_1780562221556_d0fx4n",
+      "round": 1,
+      "title": "일반 과제 제목 수정",
+      "dueDate": "2026-06-05",
+      "isRepeat": false,
+      "assignedAt": "2026-06-04T08:37:01.556Z"
     },
     {
       "assignmentId": "task_1780559412447_wqzyjy",

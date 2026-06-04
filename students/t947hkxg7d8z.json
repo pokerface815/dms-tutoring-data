@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-04T11:20:47.699Z",
+  "generatedAt": "2026-06-04T14:59:39.397Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -218,5 +218,14 @@
       "confirmedAt": "2026-05-28T03:09:30.318Z"
     }
   },
-  "tasks": []
+  "tasks": [
+    {
+      "assignmentId": "task_1780577128102_r7e7xq",
+      "round": 1,
+      "title": "1. 부교재 풀기\n2. 6월 모의고사 17, 19, 20, 27, 28 오답 해오기",
+      "dueDate": "2026-06-06",
+      "isRepeat": false,
+      "assignedAt": "2026-06-04T12:45:28.102Z"
+    }
+  ]
 }

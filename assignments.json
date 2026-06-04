@@ -1581,26 +1581,6 @@
     "createdAt": "2026-06-01T14:46:36.252Z"
   },
   {
-    "id": "task_1780505755161_msepda",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "여행 뒷정리",
-    "dueDate": "2026-06-04",
-    "assignedAt": "2026-06-03T15:08:34.129Z",
-    "batchId": "t_mpy7bjdd",
-    "repeat": null
-  },
-  {
-    "id": "task_1780505755161_0k15s3",
-    "type": "task",
-    "studentId": "s_1780355782316_yrovp3",
-    "title": "여행 뒷정리",
-    "dueDate": "2026-06-04",
-    "assignedAt": "2026-06-03T15:08:34.129Z",
-    "batchId": "t_mpy7bjdd",
-    "repeat": null
-  },
-  {
     "id": "task_1780505761390_p5vsow",
     "type": "task",
     "studentId": "s_1780190418387_a11waf",
@@ -1619,5 +1599,27 @@
     "assignedAt": "2026-06-03T15:08:18.479Z",
     "batchId": "t_mpy7b7an",
     "repeat": null
+  },
+  {
+    "id": "task_1780558539137_0pojf0",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "여행 뒷정리",
+    "dueDate": "2026-06-05",
+    "assignedAt": "2026-06-04T07:35:39.137Z",
+    "batchId": "t_mpz6kxoh",
+    "repeat": null,
+    "fromLesson": "lesson_1780499284766_03g44z"
+  },
+  {
+    "id": "task_1780558539137_7ib6du",
+    "type": "task",
+    "studentId": "s_1780355782316_yrovp3",
+    "title": "여행 뒷정리",
+    "dueDate": "2026-06-05",
+    "assignedAt": "2026-06-04T07:35:39.137Z",
+    "batchId": "t_mpz6kxoh",
+    "repeat": null,
+    "fromLesson": "lesson_1780499284766_03g44z"
   }
 ]

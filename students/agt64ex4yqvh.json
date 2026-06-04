@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-04T08:32:26.062Z",
+  "generatedAt": "2026-06-04T08:38:00.500Z",
   "student": {
     "name": "이세영",
     "school": "전남여고",
@@ -44,6 +44,14 @@
       "dueDate": "2026-06-07",
       "isRepeat": false,
       "assignedAt": "2026-06-04T07:50:12.447Z"
+    },
+    {
+      "assignmentId": "task_1780562258086_j47l15",
+      "round": 1,
+      "title": "대상 학생 추가 삭제",
+      "dueDate": null,
+      "isRepeat": false,
+      "assignedAt": "2026-06-04T08:37:38.086Z"
     }
   ]
 }

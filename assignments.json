@@ -1653,5 +1653,50 @@
     "assignedAt": "2026-06-04T08:36:38.827Z",
     "batchId": "t_mpz8rdij",
     "repeat": null
+  },
+  {
+    "id": "task_1780562221556_d0fx4n",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "일반 과제 제목 수정",
+    "dueDate": "2026-06-05",
+    "assignedAt": "2026-06-04T08:37:01.556Z",
+    "batchId": "t_mpz8rv1w",
+    "repeat": null
+  },
+  {
+    "id": "task_1780562258086_nepwxw",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "대상 학생 추가 삭제",
+    "dueDate": null,
+    "assignedAt": "2026-06-04T08:37:38.086Z",
+    "batchId": "t_mpz8sn8m",
+    "repeat": null
+  },
+  {
+    "id": "task_1780562258086_j47l15",
+    "type": "task",
+    "studentId": "s_1780355782316_yrovp3",
+    "title": "대상 학생 추가 삭제",
+    "dueDate": null,
+    "assignedAt": "2026-06-04T08:37:38.086Z",
+    "batchId": "t_mpz8sn8m",
+    "repeat": null
+  },
+  {
+    "id": "task_1780562282260_czwguk",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "반복 과제 마감일 수정",
+    "dueDate": null,
+    "assignedAt": "2026-06-04T08:38:02.260Z",
+    "batchId": "t_mpz8t5w4",
+    "repeat": {
+      "enabled": true,
+      "weekdays": [
+        5
+      ]
+    }
   }
 ]

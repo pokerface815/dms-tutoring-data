@@ -150,5 +150,20 @@
     "taskBatchId": null,
     "createdAt": "2026-06-03T15:25:19.551Z",
     "updatedAt": "2026-06-03T15:52:42.152Z"
+  },
+  {
+    "id": "lesson_1780558953094_8uqypk",
+    "classId": "cls_1780355764530_wxb5as",
+    "date": "2026-06-04",
+    "content": "중등, 확통 보충\n예나 수업",
+    "studentNotes": [
+      {
+        "studentId": "s_1780190418387_a11waf",
+        "note": "진도 잘 챙기기"
+      }
+    ],
+    "taskBatchId": "t_mpz6tt3a",
+    "createdAt": "2026-06-04T07:42:33.094Z",
+    "updatedAt": "2026-06-04T07:42:33.094Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-04T07:42:39.123Z",
+  "generatedAt": "2026-06-04T07:50:48.413Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -35,6 +35,14 @@
     "task_1780505761390_p5vsow__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-04T07:03:29.735Z"
+    },
+    "task_1780558953094_rez4nc__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-04T07:49:54.280Z"
+    },
+    "task_1780558539137_0pojf0__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-04T07:49:55.631Z"
     }
   },
   "tasks": [
@@ -55,12 +63,12 @@
       "assignedAt": "2026-06-04T07:35:39.137Z"
     },
     {
-      "assignmentId": "task_1780558953094_rez4nc",
+      "assignmentId": "task_1780559412447_wqzyjy",
       "round": 1,
       "title": "학부모 상담 전화",
-      "dueDate": "2026-06-05",
+      "dueDate": "2026-06-06",
       "isRepeat": false,
-      "assignedAt": "2026-06-04T07:42:33.094Z"
+      "assignedAt": "2026-06-04T07:50:12.447Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-04T08:39:26.642Z",
+  "generatedAt": "2026-06-04T08:42:10.363Z",
   "student": {
     "name": "이세영",
     "school": "전남여고",
@@ -38,20 +38,20 @@
       "assignedAt": "2026-06-04T07:35:39.137Z"
     },
     {
+      "assignmentId": "task_1780562258086_j47l15",
+      "round": 1,
+      "title": "대상 학생 추가 삭제",
+      "dueDate": "2026-06-05",
+      "isRepeat": false,
+      "assignedAt": "2026-06-04T08:37:38.086Z"
+    },
+    {
       "assignmentId": "task_1780559412447_hqsgd9",
       "round": 1,
       "title": "학부모 상담 전화",
       "dueDate": "2026-06-07",
       "isRepeat": false,
       "assignedAt": "2026-06-04T07:50:12.447Z"
-    },
-    {
-      "assignmentId": "task_1780562258086_j47l15",
-      "round": 1,
-      "title": "대상 학생 추가 삭제",
-      "dueDate": null,
-      "isRepeat": false,
-      "assignedAt": "2026-06-04T08:37:38.086Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-04T07:36:53.640Z",
+  "generatedAt": "2026-06-04T07:42:40.206Z",
   "showCompletionRate": true,
   "student": {
     "name": "문대승",
@@ -15,10 +15,10 @@
           "date": "2026-06-04",
           "weekday": "목",
           "className": "S",
-          "content": "확통 보충\n대수 질문\n예나 수업",
-          "task": "",
-          "taskDue": "",
-          "myNote": ""
+          "content": "중등, 확통 보충\n예나 수업",
+          "task": "학부모 상담 전화",
+          "taskDue": "2026-06-05",
+          "myNote": "진도 잘 챙기기"
         },
         {
           "date": "2026-06-03",

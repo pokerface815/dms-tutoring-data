@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T16:56:50.178Z",
+  "generatedAt": "2026-06-04T07:04:25.598Z",
   "showCompletionRate": true,
   "student": {
     "name": "문대승",
@@ -49,9 +49,9 @@
         }
       ],
       "completionRate": {
-        "done": 0,
+        "done": 1,
         "total": 1,
-        "percent": 0
+        "percent": 100
       }
     }
   ],

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-04T08:37:30.904Z",
+  "generatedAt": "2026-06-04T08:38:56.305Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -83,12 +83,29 @@
       "assignedAt": "2026-06-04T08:37:01.556Z"
     },
     {
+      "assignmentId": "task_1780562282260_czwguk",
+      "round": 20260605,
+      "title": "반복 과제 마감일 수정",
+      "dueDate": "2026-06-05",
+      "isRepeat": true,
+      "dayOffset": 1,
+      "assignedAt": "2026-06-04T08:38:02.260Z"
+    },
+    {
       "assignmentId": "task_1780559412447_wqzyjy",
       "round": 1,
       "title": "학부모 상담 전화",
       "dueDate": "2026-06-07",
       "isRepeat": false,
       "assignedAt": "2026-06-04T07:50:12.447Z"
+    },
+    {
+      "assignmentId": "task_1780562258086_nepwxw",
+      "round": 1,
+      "title": "대상 학생 추가 삭제",
+      "dueDate": null,
+      "isRepeat": false,
+      "assignedAt": "2026-06-04T08:37:38.086Z"
     }
   ]
 }

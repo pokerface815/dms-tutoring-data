@@ -12,5 +12,19 @@
       }
     },
     "createdAt": "2026-06-03T16:51:43.669Z"
+  },
+  {
+    "id": "test_1780505799796_zescun",
+    "title": "6월 3일 중간 테스트",
+    "date": "2026-06-03",
+    "classId": "cls_1780355764530_wxb5as",
+    "results": {
+      "s_1780190418387_a11waf": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780505809/uxiydfbbgy3132grnzcl.pdf",
+        "fileName": "서준우_4월15일.pdf",
+        "uploadedAt": "2026-06-03T16:56:49.873Z"
+      }
+    },
+    "createdAt": "2026-06-03T16:56:39.796Z"
   }
 ]

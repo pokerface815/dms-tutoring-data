@@ -83,14 +83,22 @@
   .month-card.open .month-body { display: block; }
 
   .lesson-item {
-    padding: 14px 0;
-    border-top: 0.5px solid var(--border);
+    padding: 14px;
+    margin-bottom: 12px;
+    background: var(--surface2);
+    border-radius: 12px;
+    border: 0.5px solid var(--border);
+    border-left: 4px solid var(--accent-light);
   }
+  .lesson-item:last-child { margin-bottom: 0; }
   .lesson-date {
-    font-size: 13px; font-weight: 700; color: var(--accent);
-    margin-bottom: 6px;
+    font-size: 14px; font-weight: 700; color: var(--accent-dark);
+    margin-bottom: 8px; padding-bottom: 8px;
+    border-bottom: 1px dashed var(--border);
+    display: flex; align-items: center; gap: 6px;
   }
-  .lesson-class { font-size: 11px; color: var(--text3); font-weight: 400; margin-left: 6px; }
+  .lesson-date::before { content: "📅"; font-size: 13px; }
+  .lesson-class { font-size: 11px; color: var(--text3); font-weight: 400; margin-left: auto; }
   .lesson-content { font-size: 14px; line-height: 1.65; white-space: pre-wrap; word-break: keep-all; }
   .lesson-task {
     margin-top: 8px; padding: 8px 12px;
@@ -223,20 +231,25 @@
       <div class="content">
     `;
 
-    // 테스트 결과 섹션 (있을 때만)
+    // 테스트 결과 섹션 (있을 때만) — 아코디언, 기본 닫힘
     const tests = d.tests || [];
     if (tests.length > 0) {
       const INITIAL = 8;
       const recent = tests.slice(0, INITIAL);
       const rest = tests.slice(INITIAL);
       html += `
-        <div class="test-section">
-          <div class="test-section-title">📝 테스트 결과 <span style="font-size:12px;color:var(--text3);font-weight:400;">(${tests.length})</span></div>
-          <div id="testRecent">${recent.map(renderTestItem).join('')}</div>
-          ${rest.length > 0 ? `
-            <div id="testRest" style="display:none;">${rest.map(renderTestItem).join('')}</div>
-            <button class="test-more-btn" id="testMoreBtn" onclick="toggleTestMore()">+ 이전 결과 ${rest.length}개 더 보기</button>
-          ` : ''}
+        <div class="month-card">
+          <div class="month-header" onclick="this.parentElement.classList.toggle('open')">
+            <div><span class="month-title">📝 테스트 결과</span><span class="month-count">${tests.length}개</span></div>
+            <span class="month-arrow">▶</span>
+          </div>
+          <div class="month-body">
+            <div id="testRecent">${recent.map(renderTestItem).join('')}</div>
+            ${rest.length > 0 ? `
+              <div id="testRest" style="display:none;">${rest.map(renderTestItem).join('')}</div>
+              <button class="test-more-btn" id="testMoreBtn" onclick="toggleTestMore()">+ 이전 결과 ${rest.length}개 더 보기</button>
+            ` : ''}
+          </div>
         </div>
       `;
     }
@@ -251,8 +264,8 @@
       `;
     } else {
       months.forEach((m, idx) => {
-        // 첫 달(가장 최근)은 기본 펼침
-        const openClass = idx === 0 ? ' open' : '';
+        // 모든 달 기본 닫힘 (사용자가 클릭해서 펼침)
+        const openClass = '';
         const rate = m.completionRate;
         const rateBadge = rate ? `<span class="month-rate">과제 ${rate.done}/${rate.total} · ${rate.percent}%</span>` : '';
         const rateBar = rate ? `

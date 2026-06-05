@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-05T14:47:08.311Z",
+  "generatedAt": "2026-06-05T15:40:26.788Z",
   "student": {
     "name": "서연준",
     "school": "살레고",
@@ -8,9 +8,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1778915661771_axjpq8",
       "noteName": "서연준_개념루트_사이법칙( ~ 547번)",
@@ -19,7 +17,10 @@
       "plannedDate": "2026-06-06",
       "done": false,
       "doneAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1778397172629_i82xie",
       "noteName": "서연준_개념루트_삼각함수의 그래프",

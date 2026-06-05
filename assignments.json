@@ -1607,5 +1607,71 @@
       "startDate": null,
       "endDate": "2026-06-20"
     }
+  },
+  {
+    "id": "task_1780670793023_kh56qh",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "반복 과제 확인",
+    "dueDate": "2026-06-06",
+    "assignedAt": "2026-06-05T14:46:33.023Z",
+    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-06",
+    "templateId": "tpl_mq11exbzcy91",
+    "repeat": null
+  },
+  {
+    "id": "task_1780670793023_6npukm",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "반복 과제 확인",
+    "dueDate": "2026-06-08",
+    "assignedAt": "2026-06-05T14:46:33.023Z",
+    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-08",
+    "templateId": "tpl_mq11exbzcy91",
+    "repeat": null
+  },
+  {
+    "id": "task_1780670793023_3luxis",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "반복 과제 확인",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-05T14:46:33.023Z",
+    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-10",
+    "templateId": "tpl_mq11exbzcy91",
+    "repeat": null
+  },
+  {
+    "id": "task_1780670793023_n36dem",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "반복 과제 확인",
+    "dueDate": "2026-06-13",
+    "assignedAt": "2026-06-05T14:46:33.023Z",
+    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-13",
+    "templateId": "tpl_mq11exbzcy91",
+    "repeat": null
+  },
+  {
+    "id": "task_1780670793023_p2ld2t",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "반복 과제 확인",
+    "dueDate": "2026-06-15",
+    "assignedAt": "2026-06-05T14:46:33.023Z",
+    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-15",
+    "templateId": "tpl_mq11exbzcy91",
+    "repeat": null
+  },
+  {
+    "id": "task_1780670793023_4czoaj",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "반복 과제 확인",
+    "dueDate": "2026-06-17",
+    "assignedAt": "2026-06-05T14:46:33.023Z",
+    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-17",
+    "templateId": "tpl_mq11exbzcy91",
+    "repeat": null
   }
 ]

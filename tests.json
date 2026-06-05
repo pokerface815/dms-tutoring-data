@@ -33,15 +33,50 @@
     "date": "2026-06-05",
     "classId": "cls_1780311125071_i1638e",
     "results": {
-      "s_1780314459772_3emo5z": {
-        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658466/ypwgbfo6pulzmxzx3arv.pdf",
-        "fileName": "강화진_6월5일.pdf",
-        "uploadedAt": "2026-06-05T11:21:07.286Z"
-      },
       "s_1780314459772_frngyj": {
         "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658478/njozcxjqkkcrdq2h57zx.pdf",
         "fileName": "고승민_6월5일.pdf",
         "uploadedAt": "2026-06-05T11:21:20.038Z"
+      },
+      "s_1780314459772_slkq6q": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658482/gcjryejbize1dlrbnppg.pdf",
+        "fileName": "김소윤_6월5일.pdf",
+        "uploadedAt": "2026-06-05T11:21:22.850Z"
+      },
+      "s_1780314459772_u5kn1l": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658487/ev7qcmh5z1n2gjoaec3h.pdf",
+        "fileName": "문현빈_6월5일.pdf",
+        "uploadedAt": "2026-06-05T11:21:27.562Z"
+      },
+      "s_1780633652940_9hqjzx": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658491/yjlnawhrqtp9digcx1y6.pdf",
+        "fileName": "박은준_6월5일.pdf",
+        "uploadedAt": "2026-06-05T11:21:31.919Z"
+      },
+      "s_1780314459772_jsjhe4": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658495/w16h4he9by42me18dlhw.pdf",
+        "fileName": "왕예진_6월5일.pdf",
+        "uploadedAt": "2026-06-05T11:21:35.588Z"
+      },
+      "s_1780314459772_hl9biz": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658500/swj04v5uccljxsbpno3i.pdf",
+        "fileName": "이도겸_6월5일.pdf",
+        "uploadedAt": "2026-06-05T11:21:41.466Z"
+      },
+      "s_1780314459772_58a78m": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658504/fcn0sm77y9s5ev6gtlr4.pdf",
+        "fileName": "장경원_6월5일.pdf",
+        "uploadedAt": "2026-06-05T11:21:45.168Z"
+      },
+      "s_1780314459772_wcllxa": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658508/pvdqupywhfdv26ipmlqq.pdf",
+        "fileName": "조아라_6월5일.pdf",
+        "uploadedAt": "2026-06-05T11:21:49.476Z"
+      },
+      "s_1780314459772_mrri1r": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658517/kxjuqqj6gjyfpuon7v3m.pdf",
+        "fileName": "채수완_6월5일.pdf",
+        "uploadedAt": "2026-06-05T11:21:58.427Z"
       }
     },
     "createdAt": "2026-06-05T04:26:37.652Z"
@@ -51,7 +86,13 @@
     "title": "미분계수 ~ 접선의 방정식",
     "date": "2026-06-05",
     "classId": "cls_1780309030966_ingi3o",
-    "results": {},
+    "results": {
+      "s_1780309053750_4dw5li": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658526/t7uu0tvnowqkymgzrlb2.pdf",
+        "fileName": "장승원_6월5일.pdf",
+        "uploadedAt": "2026-06-05T11:22:06.576Z"
+      }
+    },
     "createdAt": "2026-06-05T04:30:06.565Z"
   },
   {
@@ -59,7 +100,13 @@
     "title": "고차방정식 ~ 이차부등식",
     "date": "2026-06-05",
     "classId": "cls_1780309370989_i1lo00",
-    "results": {},
+    "results": {
+      "s_1779948611035_qbdt5h": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658534/jzdce3jx52woh2f7yoy0.pdf",
+        "fileName": "서준우_6월5일.pdf",
+        "uploadedAt": "2026-06-05T11:22:14.782Z"
+      }
+    },
     "createdAt": "2026-06-05T04:31:07.883Z"
   },
   {
@@ -67,7 +114,13 @@
     "title": "복소수 ~ 이차부등식",
     "date": "2026-06-05",
     "classId": "cls_1780309335387_ry7cd9",
-    "results": {},
+    "results": {
+      "s_1780309359751_gjl2s0": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658541/l62on7qooh2u9yarcmwe.pdf",
+        "fileName": "박유솔_6월5일.pdf",
+        "uploadedAt": "2026-06-05T11:22:21.630Z"
+      }
+    },
     "createdAt": "2026-06-05T04:31:40.349Z"
   }
 ]

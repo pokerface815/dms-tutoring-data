@@ -1590,5 +1590,22 @@
     "batchId": "t_mpzhnd0m",
     "repeat": null,
     "fromLesson": "lesson_1780568864986_p6qtl9"
+  },
+  {
+    "id": "task_1780663962641_os1oyf",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "반복 주기 확인",
+    "dueDate": null,
+    "assignedAt": "2026-06-05T12:52:42.641Z",
+    "batchId": "t_mq0xciz5",
+    "repeat": {
+      "enabled": true,
+      "weekdays": [
+        6
+      ],
+      "startDate": null,
+      "endDate": "2026-06-27"
+    }
   }
 ]

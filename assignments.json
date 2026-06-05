@@ -1602,7 +1602,7 @@
     "repeat": {
       "enabled": true,
       "weekdays": [
-        6
+        0
       ],
       "startDate": null,
       "endDate": "2026-06-27"

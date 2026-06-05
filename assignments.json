@@ -1590,22 +1590,5 @@
     "batchId": "t_mpzhnd0m",
     "repeat": null,
     "fromLesson": "lesson_1780568864986_p6qtl9"
-  },
-  {
-    "id": "task_1780626028556_p0iasm",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 주기 제목만 수정",
-    "dueDate": null,
-    "assignedAt": "2026-06-05T02:20:28.555Z",
-    "batchId": "t_mq0arguk",
-    "repeat": {
-      "enabled": true,
-      "weekdays": [
-        0
-      ],
-      "startDate": null,
-      "endDate": "2026-06-27"
-    }
   }
 ]

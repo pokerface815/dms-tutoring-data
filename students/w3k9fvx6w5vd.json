@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-05T14:47:26.126Z",
+  "generatedAt": "2026-06-05T15:40:38.469Z",
   "student": {
     "name": "지유진",
     "school": "문정여고",
@@ -8,9 +8,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1778849252765_2tk887",
       "noteName": "지유진_올림포스 유형편_사인법칙과 코사인법칙",
@@ -21,6 +19,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1779519466437_4zcqh7",

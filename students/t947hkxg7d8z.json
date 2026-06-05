@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-05T04:31:58.520Z",
+  "generatedAt": "2026-06-05T10:50:20.128Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -216,6 +216,12 @@
       "commentAt": "2026-05-28T03:09:30.318Z",
       "confirmed": true,
       "confirmedAt": "2026-05-28T03:09:30.318Z"
+    },
+    "task_1780577128102_r7e7xq__1": {
+      "comment": "17, 19번은 모르고?!  ㅇㅋ~ 고생했어^^",
+      "commentAt": "2026-06-05T10:50:13.401Z",
+      "confirmed": true,
+      "confirmedAt": "2026-06-05T10:50:13.402Z"
     }
   },
   "tasks": [

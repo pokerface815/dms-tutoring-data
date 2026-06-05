@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "generatedAt": "2026-06-05T04:31:22.138Z",
+  "student": {
+    "name": "박은준",
+    "school": "살레중",
+    "grade": "중3",
+    "class": "",
+    "showMakeNote": false
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
+  },
+  "teacherConfirms": {},
+  "tasks": []
+}

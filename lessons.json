@@ -175,5 +175,15 @@
     "taskBatchId": "t_mpzhnd0m",
     "createdAt": "2026-06-04T10:27:44.985Z",
     "updatedAt": "2026-06-04T12:45:28.102Z"
+  },
+  {
+    "id": "lesson_1780634146536_ppxoms",
+    "classId": "cls_1780355764530_wxb5as",
+    "date": "2026-06-05",
+    "content": "주간테스트",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-05T04:35:46.536Z",
+    "updatedAt": "2026-06-05T04:35:46.536Z"
   }
 ]

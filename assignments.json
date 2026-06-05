@@ -1707,5 +1707,39 @@
       }
     ],
     "createdAt": "2026-06-05T15:40:00.953Z"
+  },
+  {
+    "id": "a_1780674822191_a4avvt",
+    "noteId": "note_1780674813630_d51mxe",
+    "noteName": "지유진_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
+    "studentId": "s_1778849219765_v88lqq",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-06",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-08",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-27",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-05T15:53:42.191Z"
   }
 ]

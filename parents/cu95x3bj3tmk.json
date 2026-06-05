@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-05T11:28:26.273Z",
+  "generatedAt": "2026-06-05T12:53:40.856Z",
   "showCompletionRate": true,
   "student": {
     "name": "박유솔",
@@ -30,7 +30,7 @@
       "date": "2026-06-05",
       "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658541/l62on7qooh2u9yarcmwe.pdf",
       "fileName": "박유솔_6월5일.pdf",
-      "comment": ""
+      "comment": "가우스 기호에 대한 기본 개념 추가 설명."
     }
   ]
 }

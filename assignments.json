@@ -1592,20 +1592,20 @@
     "fromLesson": "lesson_1780568864986_p6qtl9"
   },
   {
-    "id": "task_1780663962641_os1oyf",
+    "id": "task_1780664555306_w8sp37",
     "type": "task",
     "studentId": "s_1780190418387_a11waf",
-    "title": "반복 주기 확인",
+    "title": "반복 과제 고정 옵션 확인",
     "dueDate": null,
-    "assignedAt": "2026-06-05T12:52:42.641Z",
-    "batchId": "t_mq0xciz5",
+    "assignedAt": "2026-06-05T13:02:35.305Z",
+    "batchId": "t_mq0xp8a2",
     "repeat": {
       "enabled": true,
       "weekdays": [
-        6
+        5
       ],
       "startDate": null,
-      "endDate": "2026-06-27"
+      "endDate": "2026-06-20"
     }
   }
 ]

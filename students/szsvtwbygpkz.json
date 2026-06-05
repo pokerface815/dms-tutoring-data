@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-05T14:47:39.748Z",
+  "generatedAt": "2026-06-05T15:40:47.891Z",
   "student": {
     "name": "김한비",
     "school": "전사고",
@@ -8,9 +8,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1780061919737_cwqd4a",
       "noteName": "김한비_유형 해결의 법칙_등차등비수열( ~1226번)",
@@ -21,6 +19,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1780061919737_cwqd4a",

@@ -717,5 +717,28 @@
     "showTestResults": true,
     "pageCode": "agt64ex4yqvh",
     "showMakeNote": true
+  },
+  {
+    "id": "s_1780633652940_9hqjzx",
+    "name": "박은준",
+    "school": "살레중",
+    "grade": "중3",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "studentPhone": "",
+    "parentPhone": "",
+    "notifyStudent": false,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showMakeNote": false,
+    "pageCode": "3dqm5z9tex4t"
   }
 ]

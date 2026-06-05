@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-05T12:53:35.121Z",
+  "generatedAt": "2026-06-05T13:03:52.395Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -77,5 +77,15 @@
       "confirmedAt": "2026-06-05T02:45:27.825Z"
     }
   },
-  "tasks": []
+  "tasks": [
+    {
+      "assignmentId": "task_1780664555306_w8sp37",
+      "round": 20260605,
+      "title": "반복 과제 고정 옵션 확인",
+      "dueDate": "2026-06-05",
+      "isRepeat": true,
+      "dayOffset": 0,
+      "assignedAt": "2026-06-05T13:02:35.305Z"
+    }
+  ]
 }

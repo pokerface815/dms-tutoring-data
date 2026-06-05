@@ -42,5 +42,21 @@
     "classId": "cls_1780309030966_ingi3o",
     "results": {},
     "createdAt": "2026-06-05T04:30:06.565Z"
+  },
+  {
+    "id": "test_1780633867883_uj3imm",
+    "title": "고차방정식 ~ 이차부등식",
+    "date": "2026-06-05",
+    "classId": "cls_1780309370989_i1lo00",
+    "results": {},
+    "createdAt": "2026-06-05T04:31:07.883Z"
+  },
+  {
+    "id": "test_1780633900349_ust5ww",
+    "title": "복소수 ~ 이차부등식",
+    "date": "2026-06-05",
+    "classId": "cls_1780309335387_ry7cd9",
+    "results": {},
+    "createdAt": "2026-06-05T04:31:40.349Z"
   }
 ]

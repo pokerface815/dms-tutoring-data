@@ -1673,5 +1673,39 @@
     "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-17",
     "templateId": "tpl_mq11exbzcy91",
     "repeat": null
+  },
+  {
+    "id": "a_1780674000953_zztmxb",
+    "noteId": "note_1780673961538_qc01ck",
+    "noteName": "이경주_수매씽 유형_수학적 귀납법( ~2390번)",
+    "studentId": "s_1778325875686_1uoe4b",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-06",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-08",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-27",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-05T15:40:00.953Z"
   }
 ]

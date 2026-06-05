@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-05T14:47:46.993Z",
+  "generatedAt": "2026-06-05T15:40:52.608Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -84,7 +84,7 @@
       "title": "반복 과제 고정 옵션 확인",
       "dueDate": "2026-06-05",
       "isRepeat": true,
-      "dayOffset": 0,
+      "dayOffset": -1,
       "assignedAt": "2026-06-05T13:02:35.305Z"
     },
     {

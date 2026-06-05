@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-05T13:03:52.395Z",
+  "generatedAt": "2026-06-05T14:47:46.993Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -86,6 +86,54 @@
       "isRepeat": true,
       "dayOffset": 0,
       "assignedAt": "2026-06-05T13:02:35.305Z"
+    },
+    {
+      "assignmentId": "task_1780670793023_kh56qh",
+      "round": 1,
+      "title": "반복 과제 확인",
+      "dueDate": "2026-06-06",
+      "isRepeat": false,
+      "assignedAt": "2026-06-05T14:46:33.023Z"
+    },
+    {
+      "assignmentId": "task_1780670793023_6npukm",
+      "round": 1,
+      "title": "반복 과제 확인",
+      "dueDate": "2026-06-08",
+      "isRepeat": false,
+      "assignedAt": "2026-06-05T14:46:33.023Z"
+    },
+    {
+      "assignmentId": "task_1780670793023_3luxis",
+      "round": 1,
+      "title": "반복 과제 확인",
+      "dueDate": "2026-06-10",
+      "isRepeat": false,
+      "assignedAt": "2026-06-05T14:46:33.023Z"
+    },
+    {
+      "assignmentId": "task_1780670793023_n36dem",
+      "round": 1,
+      "title": "반복 과제 확인",
+      "dueDate": "2026-06-13",
+      "isRepeat": false,
+      "assignedAt": "2026-06-05T14:46:33.023Z"
+    },
+    {
+      "assignmentId": "task_1780670793023_p2ld2t",
+      "round": 1,
+      "title": "반복 과제 확인",
+      "dueDate": "2026-06-15",
+      "isRepeat": false,
+      "assignedAt": "2026-06-05T14:46:33.023Z"
+    },
+    {
+      "assignmentId": "task_1780670793023_4czoaj",
+      "round": 1,
+      "title": "반복 과제 확인",
+      "dueDate": "2026-06-17",
+      "isRepeat": false,
+      "assignedAt": "2026-06-05T14:46:33.023Z"
     }
   ]
 }

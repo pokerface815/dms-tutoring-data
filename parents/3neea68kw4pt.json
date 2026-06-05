@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-05T04:32:27.352Z",
+  "generatedAt": "2026-06-05T11:22:25.772Z",
   "showCompletionRate": true,
   "student": {
     "name": "문대승",
@@ -11,6 +11,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-05",
+          "weekday": "금",
+          "className": "S",
+          "content": "주간테스트",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        },
         {
           "date": "2026-06-04",
           "weekday": "목",
@@ -56,13 +65,15 @@
       "title": "6월 5일 킬러문항",
       "date": "2026-06-04",
       "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780505537/ifaz2kbhy1dt8ipar05y.pdf",
-      "fileName": "서준우_4월3일.pdf"
+      "fileName": "서준우_4월3일.pdf",
+      "comment": ""
     },
     {
       "title": "6월 3일 중간 테스트",
       "date": "2026-06-03",
       "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780505809/uxiydfbbgy3132grnzcl.pdf",
-      "fileName": "서준우_4월15일.pdf"
+      "fileName": "서준우_4월15일.pdf",
+      "comment": ""
     }
   ]
 }

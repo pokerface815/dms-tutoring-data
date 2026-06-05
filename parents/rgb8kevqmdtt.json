@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-05T11:22:35.642Z",
+  "generatedAt": "2026-06-05T11:24:10.970Z",
   "showCompletionRate": true,
   "student": {
     "name": "강화진",
@@ -24,13 +24,5 @@
       "completionRate": null
     }
   ],
-  "tests": [
-    {
-      "title": "인수분해, 이차방정식의 풀이",
-      "date": "2026-06-05",
-      "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658466/ypwgbfo6pulzmxzx3arv.pdf",
-      "fileName": "강화진_6월5일.pdf",
-      "comment": ""
-    }
-  ]
+  "tests": []
 }

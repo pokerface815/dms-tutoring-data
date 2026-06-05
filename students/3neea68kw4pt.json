@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-05T02:45:33.948Z",
+  "generatedAt": "2026-06-05T02:48:02.266Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -81,7 +81,7 @@
     {
       "assignmentId": "task_1780626028556_p0iasm",
       "round": 20260607,
-      "title": "반복 주기",
+      "title": "반복 주기 제목만 수정",
       "dueDate": "2026-06-07",
       "isRepeat": true,
       "dayOffset": 2,

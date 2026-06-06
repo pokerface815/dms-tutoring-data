@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-06T10:22:18.445Z",
+  "generatedAt": "2026-06-06T12:02:24.790Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -8,35 +8,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1780075403993_90or5b",
-      "noteName": "이경주_수매씽 유형_수열의 합( ~2199번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-06",
-      "done": false,
-      "doneAt": null
-    },
-    {
-      "assignmentId": "a_1780674000953_zztmxb",
-      "noteName": "이경주_수매씽 유형_수학적 귀납법( ~2390번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-06",
-      "done": false,
-      "doneAt": null
-    },
-    {
-      "assignmentId": "a_1780739488448_kksi0o",
-      "noteName": "이경주_수매씽 유형_재오답(1260~2139번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-06",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -50,6 +22,33 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1780739488448_kksi0o",
+      "noteName": "이경주_수매씽 유형_재오답(1260~2139번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-06",
+      "done": true,
+      "doneAt": "2026-06-06T12:01:59.906Z"
+    },
+    {
+      "assignmentId": "a_1780674000953_zztmxb",
+      "noteName": "이경주_수매씽 유형_수학적 귀납법( ~2390번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-06",
+      "done": true,
+      "doneAt": "2026-06-06T12:01:54.228Z"
+    },
+    {
+      "assignmentId": "a_1780075403993_90or5b",
+      "noteName": "이경주_수매씽 유형_수열의 합( ~2199번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-06",
+      "done": true,
+      "doneAt": "2026-06-06T12:01:48.334Z"
+    },
     {
       "assignmentId": "a_1780218025861_mor5ad",
       "noteName": "이경주_수매씽 유형_수열의 합(2차 오답)",
@@ -170,8 +169,8 @@
   ],
   "weekProgress": {
     "total": 6,
-    "done": 2,
-    "percent": 33,
+    "done": 5,
+    "percent": 83,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

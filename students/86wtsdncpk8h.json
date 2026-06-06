@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-06T10:22:14.328Z",
+  "generatedAt": "2026-06-06T12:02:20.725Z",
   "student": {
     "name": "박다윤",
     "school": "경신여고",
@@ -8,26 +8,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1778325853565_sgfuqf",
-      "noteName": "박다윤_마더텅_삼각함수의 활용",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-06",
-      "done": false,
-      "doneAt": null
-    },
-    {
-      "assignmentId": "a_1780138916040_3yonbq",
-      "noteName": "박다윤_마더텅_삼각함수의 활용( ~113번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-06",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -41,6 +22,24 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1780138916040_3yonbq",
+      "noteName": "박다윤_마더텅_삼각함수의 활용( ~113번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-06",
+      "done": true,
+      "doneAt": "2026-06-06T12:01:53.000Z"
+    },
+    {
+      "assignmentId": "a_1778325853565_sgfuqf",
+      "noteName": "박다윤_마더텅_삼각함수의 활용",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-06",
+      "done": true,
+      "doneAt": "2026-06-06T12:01:28.498Z"
+    },
     {
       "assignmentId": "a_1780138916040_3yonbq",
       "noteName": "박다윤_마더텅_삼각함수의 활용( ~113번)",
@@ -116,8 +115,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 1,
-    "percent": 25,
+    "done": 3,
+    "percent": 75,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

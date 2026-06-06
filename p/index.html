@@ -133,7 +133,14 @@
   .test-item:active { background: #efe9dd; }
   .test-item-title { font-size: 14px; font-weight: 600; }
   .test-item-date { font-size: 12px; color: var(--text3); margin-top: 2px; }
-  .test-item-open { font-size: 13px; color: var(--accent); font-weight: 600; white-space: nowrap; }
+  .test-item-open {
+    font-size: 13px; font-weight: 600; white-space: nowrap;
+    background: var(--accent); color: #fff;
+    padding: 8px 14px; border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(124,92,191,0.25);
+    flex-shrink: 0;
+  }
+  .test-item:active .test-item-open { opacity: 0.85; }
   .test-item-comment {
     margin-top: 6px; padding: 8px 10px;
     background: #fffdf5; border-left: 3px solid var(--accent);

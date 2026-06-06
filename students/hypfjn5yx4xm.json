@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-06T07:49:09.618Z",
+  "generatedAt": "2026-06-06T09:51:50.667Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -21,6 +21,15 @@
     {
       "assignmentId": "a_1780674000953_zztmxb",
       "noteName": "이경주_수매씽 유형_수학적 귀납법( ~2390번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-06",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1780739488448_kksi0o",
+      "noteName": "이경주_수매씽 유형_재오답(1260~2139번)",
       "subject": "대수",
       "round": 1,
       "plannedDate": "2026-06-06",
@@ -160,9 +169,9 @@
     }
   ],
   "weekProgress": {
-    "total": 5,
+    "total": 6,
     "done": 2,
-    "percent": 40,
+    "percent": 33,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-06T09:51:56.710Z",
+  "generatedAt": "2026-06-06T10:22:24.588Z",
   "student": {
     "name": "박다인",
     "school": "국제고",
@@ -23,6 +23,15 @@
       "noteName": "박다인_수매씽 유형_등차수열( ~1763번)",
       "subject": "대수",
       "round": 3,
+      "plannedDate": "2026-06-06",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1780741295707_qhu2oh",
+      "noteName": "박다인_수매씽 유형_등비수열( ~1898번)",
+      "subject": "대수",
+      "round": 1,
       "plannedDate": "2026-06-06",
       "done": false,
       "doneAt": null
@@ -142,9 +151,9 @@
     }
   ],
   "weekProgress": {
-    "total": 4,
+    "total": 5,
     "done": 1,
-    "percent": 25,
+    "percent": 20,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

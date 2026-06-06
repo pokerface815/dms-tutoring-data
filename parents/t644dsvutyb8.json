@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-06T10:23:00.534Z",
+  "generatedAt": "2026-06-06T12:03:06.950Z",
   "showCompletionRate": true,
   "student": {
     "name": "고승민",
@@ -22,9 +22,9 @@
         }
       ],
       "completionRate": {
-        "done": 0,
+        "done": 1,
         "total": 1,
-        "percent": 0
+        "percent": 100
       }
     }
   ],

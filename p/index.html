@@ -123,7 +123,7 @@
   }
   .test-section-title { font-size: 15px; font-weight: 700; margin-bottom: 12px; }
   .test-item {
-    display: flex; align-items: center; justify-content: space-between;
+    display: block;
     padding: 12px 14px; margin-bottom: 8px;
     background: var(--surface2); border-radius: 10px;
     text-decoration: none; color: inherit;
@@ -131,16 +131,20 @@
   }
   .test-item:last-child { margin-bottom: 0; }
   .test-item:active { background: #efe9dd; }
-  .test-item-title { font-size: 14px; font-weight: 600; }
+  .test-item-title-row {
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 8px;
+  }
+  .test-item-title { font-size: 14px; font-weight: 600; flex: 1; min-width: 0; }
   .test-item-date { font-size: 12px; color: var(--text3); margin-top: 2px; }
   .test-item-open {
-    font-size: 13px; font-weight: 600; white-space: nowrap;
-    background: var(--accent); color: #fff;
-    padding: 8px 14px; border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(124,92,191,0.25);
+    font-size: 11px; font-weight: 600; white-space: nowrap;
+    background: #d9eed1; color: #2e7d32;
+    padding: 4px 9px; border-radius: 6px;
+    border: 0.5px solid rgba(46,125,50,0.25);
     flex-shrink: 0;
   }
-  .test-item:active .test-item-open { opacity: 0.85; }
+  .test-item:active .test-item-open { background: #c1e0b6; }
   .test-item-comment {
     margin-top: 6px; padding: 8px 10px;
     background: #fffdf5; border-left: 3px solid var(--accent);
@@ -338,11 +342,13 @@
       return `
         <a class="test-item" href="${escapeHtml(t.pdfUrl)}" target="_blank" rel="noopener">
           <div class="test-item-info">
-            <div class="test-item-title">${escapeHtml(t.title)}</div>
+            <div class="test-item-title-row">
+              <div class="test-item-title">${escapeHtml(t.title)}</div>
+              <span class="test-item-open">📄 결과 보기</span>
+            </div>
             <div class="test-item-date">${dateStr}</div>
             ${commentHtml}
           </div>
-          <span class="test-item-open">📄 결과 보기</span>
         </a>
       `;
     }
@@ -350,7 +356,9 @@
     return `
       <div class="test-item test-item-noimg">
         <div class="test-item-info">
-          <div class="test-item-title">${escapeHtml(t.title)}</div>
+          <div class="test-item-title-row">
+            <div class="test-item-title">${escapeHtml(t.title)}</div>
+          </div>
           <div class="test-item-date">${dateStr}</div>
           ${commentHtml}
         </div>

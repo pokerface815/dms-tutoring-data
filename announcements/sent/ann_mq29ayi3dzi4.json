@@ -1,0 +1,21 @@
+{
+  "id": "ann_mq29ayi3dzi4",
+  "sentAt": "2026-06-06T20:15:24.868166+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "박다윤",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "송유림",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 2,
+  "failCount": 0
+}

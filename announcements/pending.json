@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "ann_mq29ayi3dzi4",
+    "createdAt": "2026-06-06T11:15:11.019Z",
+    "target": "student",
+    "message": "(페이지 링크 발송)",
+    "recipients": [
+      {
+        "name": "박다윤",
+        "type": "student",
+        "phone": "010-8312-2591",
+        "message": "박다윤 학생 전용 학습 페이지입니다.\n\nhttps://pokerface815.github.io/dms-tutoring-data/s/?code=86wtsdncpk8h\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
+      },
+      {
+        "name": "송유림",
+        "type": "student",
+        "phone": "010-6482-4837",
+        "message": "송유림 학생 전용 학습 페이지입니다.\n\nhttps://pokerface815.github.io/dms-tutoring-data/s/?code=2qd84k44xvr5\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
+      }
+    ],
+    "status": "pending"
+  }
+]

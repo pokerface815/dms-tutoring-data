@@ -185,5 +185,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-05T04:35:46.536Z",
     "updatedAt": "2026-06-05T04:35:46.536Z"
+  },
+  {
+    "id": "lesson_1780750860339_6kskr1",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-06",
+    "content": "모의고사 오답(19, 28번) 질문\n부교재 풀이",
+    "studentNotes": [],
+    "taskBatchId": "t_mq2d31o3",
+    "createdAt": "2026-06-06T13:01:00.339Z",
+    "updatedAt": "2026-06-06T13:01:00.339Z"
   }
 ]

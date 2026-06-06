@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "generatedAt": "2026-06-06T06:49:34.874Z",
+  "student": {
+    "name": "백서현",
+    "school": "숭일고",
+    "grade": "고2",
+    "class": "",
+    "showMakeNote": true
+  },
+  "today": [
+    {
+      "assignmentId": "a_1780728513742_by5tel",
+      "noteName": "백서현_개념루트_삼각함수의 그래프( ~521번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-06",
+      "done": false,
+      "doneAt": null
+    }
+  ],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 1,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
+  },
+  "teacherConfirms": {},
+  "tasks": []
+}

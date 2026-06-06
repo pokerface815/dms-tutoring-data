@@ -1592,23 +1592,6 @@
     "fromLesson": "lesson_1780568864986_p6qtl9"
   },
   {
-    "id": "task_1780664555306_w8sp37",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 과제 고정 옵션 확인",
-    "dueDate": null,
-    "assignedAt": "2026-06-05T13:02:35.305Z",
-    "batchId": "t_mq0xp8a2",
-    "repeat": {
-      "enabled": true,
-      "weekdays": [
-        5
-      ],
-      "startDate": null,
-      "endDate": "2026-06-20"
-    }
-  },
-  {
     "id": "task_1780670793023_kh56qh",
     "type": "task",
     "studentId": "s_1780190418387_a11waf",
@@ -1911,5 +1894,16 @@
       }
     ],
     "createdAt": "2026-06-06T10:22:43.676Z"
+  },
+  {
+    "id": "task_1780750860339_e5zhe0",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "부교재 120쪽 42번까지 풀어오기",
+    "dueDate": "2026-06-08",
+    "assignedAt": "2026-06-06T13:01:00.339Z",
+    "batchId": "t_mq2d31o3",
+    "repeat": null,
+    "fromLesson": "lesson_1780750860339_6kskr1"
   }
 ]

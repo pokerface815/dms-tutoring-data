@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-06T12:02:22.748Z",
+  "generatedAt": "2026-06-06T13:01:19.630Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -232,6 +232,14 @@
       "dueDate": "2026-06-06",
       "isRepeat": false,
       "assignedAt": "2026-06-04T12:45:28.102Z"
+    },
+    {
+      "assignmentId": "task_1780750860339_e5zhe0",
+      "round": 1,
+      "title": "부교재 120쪽 42번까지 풀어오기",
+      "dueDate": "2026-06-08",
+      "isRepeat": false,
+      "assignedAt": "2026-06-06T13:01:00.339Z"
     }
   ]
 }

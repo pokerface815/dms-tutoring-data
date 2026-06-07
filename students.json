@@ -848,5 +848,32 @@
     "showTestResults": true,
     "showMakeNote": true,
     "pageCode": "mpxq2gey9jpc"
+  },
+  {
+    "id": "s_1780833047673_dy7d3f",
+    "name": "조은별",
+    "school": "숭일고",
+    "grade": "고2",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-3714-3625",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showMakeNote": true,
+    "pageCode": "59kas6tf2r77"
   }
 ]

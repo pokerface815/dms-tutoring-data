@@ -1884,49 +1884,5 @@
       }
     ],
     "createdAt": "2026-06-07T08:36:07.626Z"
-  },
-  {
-    "id": "task_1780824324846_oexl5n",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 과제 테스트",
-    "dueDate": "2026-06-08",
-    "assignedAt": "2026-06-07T09:25:24.846Z",
-    "batchId": "tplbatch_tpl_mq3ktn8t90x7_2026-06-08",
-    "templateId": "tpl_mq3ktn8t90x7",
-    "repeat": null
-  },
-  {
-    "id": "task_1780824324846_scvgz3",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 과제 테스트",
-    "dueDate": "2026-06-10",
-    "assignedAt": "2026-06-07T09:25:24.846Z",
-    "batchId": "tplbatch_tpl_mq3ktn8t90x7_2026-06-10",
-    "templateId": "tpl_mq3ktn8t90x7",
-    "repeat": null
-  },
-  {
-    "id": "task_1780824324846_m7ljhw",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 과제 테스트",
-    "dueDate": "2026-06-15",
-    "assignedAt": "2026-06-07T09:25:24.846Z",
-    "batchId": "tplbatch_tpl_mq3ktn8t90x7_2026-06-15",
-    "templateId": "tpl_mq3ktn8t90x7",
-    "repeat": null
-  },
-  {
-    "id": "task_1780824324846_0arx7m",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 과제 테스트",
-    "dueDate": "2026-06-17",
-    "assignedAt": "2026-06-07T09:25:24.846Z",
-    "batchId": "tplbatch_tpl_mq3ktn8t90x7_2026-06-17",
-    "templateId": "tpl_mq3ktn8t90x7",
-    "repeat": null
   }
 ]

@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "generatedAt": "2026-06-07T09:51:23.098Z",
+  "student": {
+    "name": "노태원",
+    "school": "살레고",
+    "grade": "고2",
+    "class": "",
+    "showMakeNote": false
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
+  },
+  "teacherConfirms": {},
+  "tasks": []
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T04:49:53.965Z",
+  "generatedAt": "2026-06-07T08:19:03.234Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -8,20 +8,19 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1780218025861_mor5ad",
       "noteName": "이경주_수매씽 유형_수열의 합(2차 오답)",
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-06-07",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-07T08:18:42.027Z"
+    },
     {
       "assignmentId": "a_1780739488448_kksi0o",
       "noteName": "이경주_수매씽 유형_재오답(1260~2139번)",
@@ -169,8 +168,8 @@
   ],
   "weekProgress": {
     "total": 6,
-    "done": 5,
-    "percent": 83,
+    "done": 6,
+    "percent": 100,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

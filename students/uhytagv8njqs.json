@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-06T13:01:14.936Z",
+  "generatedAt": "2026-06-07T04:38:21.953Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -8,9 +8,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1778408570246_sklo64",
       "noteName": "김규림_개념루트_삼각함수의 그래프",
@@ -21,6 +19,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1780135968357_h4pk5b",

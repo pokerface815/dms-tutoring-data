@@ -794,5 +794,32 @@
     "showTestResults": true,
     "showMakeNote": true,
     "pageCode": "87dutmkxr9rz"
+  },
+  {
+    "id": "s_1780825523674_8dwstz",
+    "name": "정시우",
+    "school": "살레고",
+    "grade": "고2",
+    "classes": [
+      "cls_1780310095581_j36rd5"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-4092-0577",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showMakeNote": false,
+    "pageCode": "jh4b29p5qwtn"
   }
 ]

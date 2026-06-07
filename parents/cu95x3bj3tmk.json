@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-07T04:39:14.862Z",
+  "generatedAt": "2026-06-07T04:43:05.379Z",
   "showCompletionRate": true,
   "student": {
     "name": "박유솔",
@@ -11,6 +11,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-07",
+          "weekday": "일",
+          "className": "박유솔 개별",
+          "content": "<수업 보충>\n공수2 - 두 점 사이의 거리 마무리, 내분점 개념",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        },
         {
           "date": "2026-06-01",
           "weekday": "월",

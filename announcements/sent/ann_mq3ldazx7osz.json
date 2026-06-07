@@ -1,0 +1,36 @@
+{
+  "id": "ann_mq3ldazx7osz",
+  "sentAt": "2026-06-07T18:40:59.758240+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "김규림",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "김채린",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "박다인",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "이현승",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "정찬민",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 5,
+  "failCount": 0
+}

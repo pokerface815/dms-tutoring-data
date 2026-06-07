@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T11:53:02.673Z",
+  "generatedAt": "2026-06-07T11:57:09.071Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -147,5 +147,22 @@
     "endDate": "2026-06-07"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [
+    {
+      "assignmentId": "task_1780833206589_ybwbrw",
+      "round": 1,
+      "title": "개념루트 사인, 코사인법칙 다시 풀어오기",
+      "dueDate": "2026-06-13",
+      "isRepeat": false,
+      "assignedAt": "2026-06-07T11:53:26.589Z"
+    },
+    {
+      "assignmentId": "task_1780833238420_v9xdmb",
+      "round": 1,
+      "title": "고쟁이 사인, 코사인법칙 스텝2 풀어오기",
+      "dueDate": "2026-06-13",
+      "isRepeat": false,
+      "assignedAt": "2026-06-07T11:53:58.420Z"
+    }
+  ]
 }

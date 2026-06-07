@@ -1894,5 +1894,25 @@
     "assignedAt": "2026-06-07T11:52:48.065Z",
     "batchId": "t_mq3q36pt",
     "repeat": null
+  },
+  {
+    "id": "task_1780833206589_ybwbrw",
+    "type": "task",
+    "studentId": "s_1777546978791_hsee5a",
+    "title": "개념루트 사인, 코사인법칙 다시 풀어오기",
+    "dueDate": "2026-06-13",
+    "assignedAt": "2026-06-07T11:53:26.589Z",
+    "batchId": "t_mq3q40fx",
+    "repeat": null
+  },
+  {
+    "id": "task_1780833238420_v9xdmb",
+    "type": "task",
+    "studentId": "s_1777546978791_hsee5a",
+    "title": "고쟁이 사인, 코사인법칙 스텝2 풀어오기",
+    "dueDate": "2026-06-13",
+    "assignedAt": "2026-06-07T11:53:58.420Z",
+    "batchId": "t_mq3q4p04",
+    "repeat": null
   }
 ]

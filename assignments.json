@@ -1905,5 +1905,16 @@
     "batchId": "t_mq2d31o3",
     "repeat": null,
     "fromLesson": "lesson_1780750860339_6kskr1"
+  },
+  {
+    "id": "task_1780807081945_s3p68e",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "반복 과제 확인",
+    "dueDate": "2026-06-20",
+    "assignedAt": "2026-06-07T04:38:01.945Z",
+    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-20",
+    "templateId": "tpl_mq11exbzcy91",
+    "repeat": null
   }
 ]

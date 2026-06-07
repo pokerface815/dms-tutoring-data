@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T11:52:09.338Z",
+  "generatedAt": "2026-06-07T11:54:09.968Z",
   "student": {
     "name": "조은별",
     "school": "숭일고",
@@ -20,5 +20,14 @@
     "endDate": "2026-06-07"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [
+    {
+      "assignmentId": "task_1780833168065_o2irmx",
+      "round": 1,
+      "title": "쎈 다 풀어오기",
+      "dueDate": "2026-06-10",
+      "isRepeat": false,
+      "assignedAt": "2026-06-07T11:52:48.065Z"
+    }
+  ]
 }

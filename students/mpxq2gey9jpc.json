@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T09:51:23.098Z",
+  "generatedAt": "2026-06-07T09:54:09.495Z",
   "student": {
     "name": "노태원",
     "school": "살레고",
     "grade": "고2",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

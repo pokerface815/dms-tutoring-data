@@ -1884,5 +1884,15 @@
       }
     ],
     "createdAt": "2026-06-07T08:36:07.626Z"
+  },
+  {
+    "id": "task_1780833168065_o2irmx",
+    "type": "task",
+    "studentId": "s_1780833047673_dy7d3f",
+    "title": "쎈 다 풀어오기",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-07T11:52:48.065Z",
+    "batchId": "t_mq3q36pt",
+    "repeat": null
   }
 ]

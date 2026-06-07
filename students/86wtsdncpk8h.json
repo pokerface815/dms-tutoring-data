@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-06T13:01:17.563Z",
+  "generatedAt": "2026-06-07T04:38:24.895Z",
   "student": {
     "name": "박다윤",
     "school": "경신여고",
@@ -8,9 +8,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779016655790_78wtrl",
       "noteName": "박다윤_마더텅_삼각함수의 활용( ~ 73번)",
@@ -21,6 +19,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1780138916040_3yonbq",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T04:49:44.325Z",
+  "generatedAt": "2026-06-07T08:18:57.193Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -8,20 +8,19 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1778408570246_sklo64",
       "noteName": "김규림_개념루트_삼각함수의 그래프",
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-07",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-07T08:18:35.326Z"
+    },
     {
       "assignmentId": "a_1780135968357_h4pk5b",
       "noteName": "김규림_개념루트_등차수열과 등비수열( ~709번)",
@@ -142,8 +141,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 3,
-    "percent": 75,
+    "done": 4,
+    "percent": 100,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

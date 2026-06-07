@@ -95,8 +95,8 @@
       {
         "stage": 4,
         "planned": "2026-06-07",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-07T08:18:33.016Z"
       }
     ],
     "createdAt": "2026-05-10T07:12:52.629Z"
@@ -129,8 +129,8 @@
       {
         "stage": 4,
         "planned": "2026-06-07",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-07T08:18:33.727Z"
       }
     ],
     "createdAt": "2026-05-10T08:41:54.957Z"
@@ -163,8 +163,8 @@
       {
         "stage": 4,
         "planned": "2026-06-07",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-07T08:18:34.410Z"
       }
     ],
     "createdAt": "2026-05-10T09:22:35.321Z"
@@ -197,8 +197,8 @@
       {
         "stage": 4,
         "planned": "2026-06-07",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-07T08:18:35.326Z"
       }
     ],
     "createdAt": "2026-05-10T10:22:50.246Z"
@@ -571,8 +571,8 @@
       {
         "stage": 4,
         "planned": "2026-06-07",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-07T08:18:36.757Z"
       }
     ],
     "createdAt": "2026-05-17T08:56:58.685Z"
@@ -605,8 +605,8 @@
       {
         "stage": 4,
         "planned": "2026-06-07",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-07T08:18:37.744Z"
       }
     ],
     "createdAt": "2026-05-17T10:05:39.753Z"
@@ -639,8 +639,8 @@
       {
         "stage": 4,
         "planned": "2026-06-07",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-07T08:18:38.660Z"
       }
     ],
     "createdAt": "2026-05-17T10:57:17.718Z"
@@ -673,8 +673,8 @@
       {
         "stage": 4,
         "planned": "2026-06-07",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-07T08:18:39.241Z"
       }
     ],
     "createdAt": "2026-05-17T11:17:35.790Z"
@@ -707,8 +707,8 @@
       {
         "stage": 4,
         "planned": "2026-06-07",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-07T08:18:39.885Z"
       }
     ],
     "createdAt": "2026-05-17T12:45:18.098Z"
@@ -1425,8 +1425,8 @@
       {
         "stage": 3,
         "planned": "2026-06-07",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-07T08:18:42.027Z"
       },
       {
         "stage": 4,
@@ -1599,61 +1599,6 @@
     "dueDate": "2026-06-06",
     "assignedAt": "2026-06-05T14:46:33.023Z",
     "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-06",
-    "templateId": "tpl_mq11exbzcy91",
-    "repeat": null
-  },
-  {
-    "id": "task_1780670793023_6npukm",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 과제 확인",
-    "dueDate": "2026-06-08",
-    "assignedAt": "2026-06-05T14:46:33.023Z",
-    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-08",
-    "templateId": "tpl_mq11exbzcy91",
-    "repeat": null
-  },
-  {
-    "id": "task_1780670793023_3luxis",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 과제 확인",
-    "dueDate": "2026-06-10",
-    "assignedAt": "2026-06-05T14:46:33.023Z",
-    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-10",
-    "templateId": "tpl_mq11exbzcy91",
-    "repeat": null
-  },
-  {
-    "id": "task_1780670793023_n36dem",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 과제 확인",
-    "dueDate": "2026-06-13",
-    "assignedAt": "2026-06-05T14:46:33.023Z",
-    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-13",
-    "templateId": "tpl_mq11exbzcy91",
-    "repeat": null
-  },
-  {
-    "id": "task_1780670793023_p2ld2t",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 과제 확인",
-    "dueDate": "2026-06-15",
-    "assignedAt": "2026-06-05T14:46:33.023Z",
-    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-15",
-    "templateId": "tpl_mq11exbzcy91",
-    "repeat": null
-  },
-  {
-    "id": "task_1780670793023_4czoaj",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 과제 확인",
-    "dueDate": "2026-06-17",
-    "assignedAt": "2026-06-05T14:46:33.023Z",
-    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-17",
     "templateId": "tpl_mq11exbzcy91",
     "repeat": null
   },
@@ -1905,16 +1850,5 @@
     "batchId": "t_mq2d31o3",
     "repeat": null,
     "fromLesson": "lesson_1780750860339_6kskr1"
-  },
-  {
-    "id": "task_1780807081945_s3p68e",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "반복 과제 확인",
-    "dueDate": "2026-06-20",
-    "assignedAt": "2026-06-07T04:38:01.945Z",
-    "batchId": "tplbatch_tpl_mq11exbzcy91_2026-06-20",
-    "templateId": "tpl_mq11exbzcy91",
-    "repeat": null
   }
 ]

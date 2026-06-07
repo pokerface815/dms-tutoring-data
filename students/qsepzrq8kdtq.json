@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-06T13:01:12.982Z",
+  "generatedAt": "2026-06-07T04:38:18.611Z",
   "student": {
     "name": "김채린",
     "school": "숭일고",
@@ -8,9 +8,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779021918098_361mo6",
       "noteName": "김채린_수학의 바이블 유형ON 1권_삼각함수의 그래프( ~621번)",
@@ -21,6 +19,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1780732118879_lx4ea0",

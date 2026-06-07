@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-06-07T11:58:17.646Z",
+  "student": {
+    "name": "국보민",
+    "school": "숭일고",
+    "grade": "고2",
+    "class": "",
+    "showMakeNote": true
+  },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-07"
+  },
+  "teacherConfirms": {},
+  "tasks": [
+    {
+      "assignmentId": "task_1780833488960_0g2lyw",
+      "round": 1,
+      "title": "오답노트 만들 문제 보내고, 수요일에 찾아가기",
+      "dueDate": "2026-06-09",
+      "isRepeat": false,
+      "assignedAt": "2026-06-07T11:58:08.960Z"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T04:50:00.097Z",
+  "generatedAt": "2026-06-07T08:19:07.533Z",
   "student": {
     "name": "정찬민",
     "school": "살레고",
@@ -8,29 +8,28 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1778402514957_22si70",
-      "noteName": "정찬민_개념루트_삼각함수의 그래프",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-07",
-      "done": false,
-      "doneAt": null
-    },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1779015437718_uv3779",
       "noteName": "정찬민_개념루트_삼각함수의 그래프( ~ 521번)",
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-07",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-07T08:18:38.660Z"
+    },
+    {
+      "assignmentId": "a_1778402514957_22si70",
+      "noteName": "정찬민_개념루트_삼각함수의 그래프",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-07",
+      "done": true,
+      "doneAt": "2026-06-07T08:18:33.727Z"
+    },
     {
       "assignmentId": "a_1778916148104_r5ncp4",
       "noteName": "정찬민_개념루트_삼각함수의 그래프( ~500번)",
@@ -151,8 +150,8 @@
   ],
   "weekProgress": {
     "total": 3,
-    "done": 1,
-    "percent": 33,
+    "done": 3,
+    "percent": 100,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

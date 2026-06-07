@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T09:46:43.590Z",
+  "generatedAt": "2026-06-07T09:51:21.050Z",
   "student": {
     "name": "정시우",
     "school": "살레고",
     "grade": "고2",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "today": [],
   "overdue": [],

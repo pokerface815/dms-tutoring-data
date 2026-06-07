@@ -1850,5 +1850,39 @@
     "batchId": "t_mq2d31o3",
     "repeat": null,
     "fromLesson": "lesson_1780750860339_6kskr1"
+  },
+  {
+    "id": "a_1780821367626_4ynanq",
+    "noteId": "note_1780821297475_u6x9j1",
+    "noteName": "국아인_개념루트_사인법칙과 코사인법칙( ~595번)",
+    "studentId": "s_1780821352355_cv63jr",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-07",
+        "actualDone": true,
+        "doneAt": "2026-06-07T09:16:15.571Z"
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-09",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-14",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-28",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-07T08:36:07.626Z"
   }
 ]

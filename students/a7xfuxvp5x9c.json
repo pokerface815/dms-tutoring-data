@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T04:50:23.441Z",
+  "generatedAt": "2026-06-07T08:19:19.927Z",
   "student": {
     "name": "김시현",
     "school": "국제고",
@@ -8,20 +8,19 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1779008218684_q2cybr",
       "noteName": "김시현_수매씽 유형_삼각함수의 활용( ~ 1468번)",
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-07",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-07T08:18:36.757Z"
+    },
     {
       "assignmentId": "a_1779005332752_2a4093",
       "noteName": "김시현_수매씽 유형_06. 삼각함수의 그래프",
@@ -88,8 +87,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

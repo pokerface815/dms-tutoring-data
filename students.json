@@ -846,7 +846,7 @@
     "notifyParent": false,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showMakeNote": false,
+    "showMakeNote": true,
     "pageCode": "mpxq2gey9jpc"
   }
 ]

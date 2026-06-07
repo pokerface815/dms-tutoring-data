@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T04:49:56.818Z",
+  "generatedAt": "2026-06-07T08:19:05.380Z",
   "student": {
     "name": "서연준",
     "school": "살레고",
@@ -8,20 +8,19 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1778397172629_i82xie",
       "noteName": "서연준_개념루트_삼각함수의 그래프",
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-07",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-07T08:18:33.016Z"
+    },
     {
       "assignmentId": "a_1778915661771_axjpq8",
       "noteName": "서연준_개념루트_사이법칙( ~ 547번)",
@@ -115,8 +114,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

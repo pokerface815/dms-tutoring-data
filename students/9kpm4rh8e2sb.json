@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T04:50:02.950Z",
+  "generatedAt": "2026-06-07T08:19:09.582Z",
   "student": {
     "name": "박다인",
     "school": "국제고",
@@ -8,20 +8,19 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1778404955321_ulqgty",
       "noteName": "박다인_수매씽 유형_06. 삼각함수의 그래프",
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-07",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-07T08:18:34.410Z"
+    },
     {
       "assignmentId": "a_1780741363676_y0neub",
       "noteName": "박다인_수매씽 유형_등비수열( ~1916번)",
@@ -160,8 +159,8 @@
   ],
   "weekProgress": {
     "total": 6,
-    "done": 5,
-    "percent": 83,
+    "done": 6,
+    "percent": 100,
     "startDate": "2026-06-01",
     "endDate": "2026-06-07"
   },

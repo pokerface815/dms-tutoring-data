@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T05:21:38.966Z",
+  "generatedAt": "2026-06-08T05:29:47.561Z",
   "showCompletionRate": true,
+  "showNoteStages": false,
   "student": {
     "name": "문대승",
     "grade": "고3"
@@ -61,7 +62,8 @@
         "done": 0,
         "total": 1,
         "percent": 0
-      }
+      },
+      "noteStages": null
     }
   ],
   "tests": [

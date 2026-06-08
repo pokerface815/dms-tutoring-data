@@ -1,11 +1,59 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T05:21:01.523Z",
+  "generatedAt": "2026-06-08T05:29:09.880Z",
   "showCompletionRate": true,
+  "showNoteStages": true,
   "student": {
     "name": "이경주",
     "grade": "고2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-06",
+      "label": "2026년 6월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 0,
+          "total": 2,
+          "percent": 0
+        },
+        "2": {
+          "done": 0,
+          "total": 2,
+          "percent": 0
+        },
+        "3": {
+          "done": 0,
+          "total": 2,
+          "percent": 0
+        }
+      }
+    },
+    {
+      "ym": "2026-05",
+      "label": "2026년 5월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 0,
+          "total": 5,
+          "percent": 0
+        },
+        "2": {
+          "done": 0,
+          "total": 3,
+          "percent": 0
+        },
+        "3": {
+          "done": 1,
+          "total": 3,
+          "percent": 33
+        }
+      }
+    }
+  ],
   "tests": []
 }

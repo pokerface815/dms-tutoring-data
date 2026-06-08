@@ -2045,5 +2045,50 @@
     "batchId": "t_mq55ldi8",
     "repeat": null,
     "fromLesson": "lesson_1780919677088_ubd33m"
+  },
+  {
+    "id": "task_1780920727933_jhbwrr",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "일품 4장 풀기",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-08T12:12:07.933Z",
+    "batchId": "t_mq567wcd",
+    "repeat": null,
+    "fromLesson": "lesson_1780912943607_zgs5oj"
+  },
+  {
+    "id": "a_1780924991578_sd6w86",
+    "noteId": "note_1780924977116_99vdb2",
+    "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~36번)",
+    "studentId": "s_1777547047005_uo92w5",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-08",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-10",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-06-29",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-08T13:23:11.578Z"
   }
 ]

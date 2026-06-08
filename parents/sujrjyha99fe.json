@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T06:23:14.333Z",
+  "generatedAt": "2026-06-08T08:24:45.544Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -12,6 +12,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-08",
+          "weekday": "월",
+          "className": "월,수,금 중3 5시 수업",
+          "content": "시험대비 시작\n각 학교별 교과서 변형문제 풀이\n끝나는대로 추가 프린트 풀이 할 예정임.",
+          "task": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+          "taskDue": "2026-06-10",
+          "myNote": ""
+        },
         {
           "date": "2026-06-01",
           "weekday": "월",

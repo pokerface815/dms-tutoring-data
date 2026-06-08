@@ -241,7 +241,7 @@
         <div class="header-tagline">잊지 않게 만드는 수학 학습</div>
         <div class="student-info">
           <div class="student-name">${escapeHtml(s.name || '학생')}</div>
-          <div class="student-meta">${escapeHtml([s.school, s.grade, s.class].filter(Boolean).join(' · '))}</div>
+          <div class="student-meta">${escapeHtml([s.school, s.grade].filter(Boolean).join(' · '))}</div>
         </div>
       </div>
       <div class="progress-card">

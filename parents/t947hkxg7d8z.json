@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T05:20:58.565Z",
+  "generatedAt": "2026-06-08T05:29:06.737Z",
   "showCompletionRate": true,
+  "showNoteStages": true,
   "student": {
     "name": "조예나",
     "grade": "고2"
@@ -43,6 +44,51 @@
         "done": 1,
         "total": 1,
         "percent": 100
+      },
+      "noteStages": {
+        "1": {
+          "done": 0,
+          "total": 1,
+          "percent": 0
+        },
+        "2": {
+          "done": 0,
+          "total": 2,
+          "percent": 0
+        },
+        "3": {
+          "done": 0,
+          "total": 1,
+          "percent": 0
+        },
+        "4": {
+          "done": 0,
+          "total": 1,
+          "percent": 0
+        }
+      }
+    },
+    {
+      "ym": "2026-05",
+      "label": "2026년 5월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 0,
+          "total": 6,
+          "percent": 0
+        },
+        "2": {
+          "done": 0,
+          "total": 5,
+          "percent": 0
+        },
+        "3": {
+          "done": 1,
+          "total": 5,
+          "percent": 20
+        }
       }
     }
   ],

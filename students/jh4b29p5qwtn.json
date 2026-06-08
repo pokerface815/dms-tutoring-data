@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T11:58:11.842Z",
+  "generatedAt": "2026-06-08T05:22:26.560Z",
   "student": {
     "name": "정시우",
     "school": "살레고",
@@ -16,8 +16,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-01",
-    "endDate": "2026-06-07"
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-14"
   },
   "teacherConfirms": {},
   "tasks": []

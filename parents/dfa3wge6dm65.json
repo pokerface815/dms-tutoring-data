@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T05:21:57.492Z",
+  "generatedAt": "2026-06-08T05:30:06.404Z",
   "showCompletionRate": true,
+  "showNoteStages": false,
   "student": {
     "name": "장경원",
     "grade": "중3"
@@ -25,7 +26,8 @@
         "done": 1,
         "total": 1,
         "percent": 100
-      }
+      },
+      "noteStages": null
     }
   ],
   "tests": [

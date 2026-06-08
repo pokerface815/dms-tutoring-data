@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T05:22:31.479Z",
+  "generatedAt": "2026-06-08T05:30:41.334Z",
   "showCompletionRate": true,
+  "showNoteStages": true,
   "student": {
     "name": "노태원",
     "grade": "고2"

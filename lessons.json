@@ -245,5 +245,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-08T10:04:09.250Z",
     "updatedAt": "2026-06-08T10:04:09.250Z"
+  },
+  {
+    "id": "lesson_1780913212394_88bita",
+    "classId": "cls_1780309030966_ingi3o",
+    "date": "2026-06-08",
+    "content": "대수 - 수열의 귀납적 정의, 수학적 귀납법 수업영상으로 마무리\n미적분1 - 도함수의 활용(함수의 그래프 + 함수의 최대,최소)",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-08T10:06:52.394Z",
+    "updatedAt": "2026-06-08T10:06:52.394Z"
   }
 ]

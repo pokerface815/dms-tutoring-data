@@ -205,5 +205,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-07T04:42:15.966Z",
     "updatedAt": "2026-06-07T04:42:36.274Z"
+  },
+  {
+    "id": "lesson_1780907008277_7dgplb",
+    "classId": "cls_1780311125071_i1638e",
+    "date": "2026-06-08",
+    "content": "시험대비 시작\n각 학교별 교과서 변형문제 풀이\n끝나는대로 추가 프린트 풀이 할 예정임.",
+    "studentNotes": [],
+    "taskBatchId": "t_mq4y1u6t",
+    "createdAt": "2026-06-08T08:23:28.277Z",
+    "updatedAt": "2026-06-08T08:23:28.277Z"
   }
 ]

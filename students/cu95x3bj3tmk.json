@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T11:57:43.805Z",
+  "generatedAt": "2026-06-08T05:21:43.516Z",
   "student": {
     "name": "박유솔",
     "school": "숭일중",
@@ -16,8 +16,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-01",
-    "endDate": "2026-06-07"
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-14"
   },
   "teacherConfirms": {},
   "tasks": []

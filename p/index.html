@@ -77,6 +77,17 @@
   .rate-track { height: 8px; background: #e3d9f3; border-radius: 4px; overflow: hidden; }
   .rate-fill { height: 100%; background: var(--purple); border-radius: 4px; transition: width 0.3s; }
   .rate-sub { font-size: 11px; color: var(--text3); margin-top: 6px; }
+  /* 회차별 오답노트 진행률 */
+  .stage-list { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
+  .stage-row { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+  .stage-label {
+    flex-shrink: 0; width: 28px; text-align: center;
+    background: #e3d9f3; color: #6a4cb1; font-weight: 700;
+    padding: 2px 0; border-radius: 5px; font-size: 11px;
+  }
+  .stage-track { flex: 1; height: 7px; background: #e3d9f3; border-radius: 4px; overflow: hidden; }
+  .stage-fill { height: 100%; background: var(--purple); border-radius: 4px; transition: width 0.3s; }
+  .stage-text { flex-shrink: 0; font-size: 11px; color: var(--text2); min-width: 36px; text-align: right; }
   .month-arrow { font-size: 12px; color: var(--text3); transition: transform 0.2s; }
   .month-card.open .month-arrow { transform: rotate(90deg); }
   .month-body { display: none; padding: 0 18px 8px; }
@@ -294,6 +305,31 @@
             <div class="rate-sub">${rate.done}건 완료 / ${rate.total}건 (마감 지난 과제 기준)</div>
           </div>
         ` : '';
+        // 회차별 오답노트 진행률
+        const stages = m.noteStages;
+        let stagesBar = '';
+        if (stages) {
+          const rows = [1,2,3,4].map(st => {
+            const s = stages[st];
+            if (!s || s.total === 0) return '';
+            return `
+              <div class="stage-row">
+                <span class="stage-label">${st}차</span>
+                <div class="stage-track"><div class="stage-fill" style="width:${s.percent}%;"></div></div>
+                <span class="stage-text">${s.done}/${s.total}</span>
+              </div>
+            `;
+          }).filter(Boolean).join('');
+          if (rows) {
+            stagesBar = `
+              <div class="rate-box">
+                <div class="rate-top"><span>📖 이번 달 오답노트 진행</span></div>
+                <div class="stage-list">${rows}</div>
+                <div class="rate-sub">회차별로 풀이를 마친 비율 (마감 지난 회차 기준)</div>
+              </div>
+            `;
+          }
+        }
         html += `
           <div class="month-card${openClass}">
             <div class="month-header" onclick="this.parentElement.classList.toggle('open')">
@@ -302,6 +338,7 @@
             </div>
             <div class="month-body">
               ${rateBar}
+              ${stagesBar}
               ${m.lessons.map(renderLesson).join('')}
             </div>
           </div>

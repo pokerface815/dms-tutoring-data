@@ -1924,5 +1924,115 @@
     "assignedAt": "2026-06-07T11:58:08.960Z",
     "batchId": "t_mq3qa2bk",
     "repeat": null
+  },
+  {
+    "id": "task_1780907008277_xqvsm0",
+    "type": "task",
+    "studentId": "s_1780314459772_3emo5z",
+    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-08T08:23:28.277Z",
+    "batchId": "t_mq4y1u6t",
+    "repeat": null,
+    "fromLesson": "lesson_1780907008277_7dgplb"
+  },
+  {
+    "id": "task_1780907008277_n4ky01",
+    "type": "task",
+    "studentId": "s_1780314459772_slkq6q",
+    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-08T08:23:28.277Z",
+    "batchId": "t_mq4y1u6t",
+    "repeat": null,
+    "fromLesson": "lesson_1780907008277_7dgplb"
+  },
+  {
+    "id": "task_1780907008277_yujtny",
+    "type": "task",
+    "studentId": "s_1780314459772_u5kn1l",
+    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-08T08:23:28.277Z",
+    "batchId": "t_mq4y1u6t",
+    "repeat": null,
+    "fromLesson": "lesson_1780907008277_7dgplb"
+  },
+  {
+    "id": "task_1780907008277_hqho9m",
+    "type": "task",
+    "studentId": "s_1780314459772_58a78m",
+    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-08T08:23:28.277Z",
+    "batchId": "t_mq4y1u6t",
+    "repeat": null,
+    "fromLesson": "lesson_1780907008277_7dgplb"
+  },
+  {
+    "id": "task_1780907008277_mn5lx2",
+    "type": "task",
+    "studentId": "s_1780314459772_mrri1r",
+    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-08T08:23:28.277Z",
+    "batchId": "t_mq4y1u6t",
+    "repeat": null,
+    "fromLesson": "lesson_1780907008277_7dgplb"
+  },
+  {
+    "id": "task_1780907008277_xdhiu7",
+    "type": "task",
+    "studentId": "s_1780314459772_frngyj",
+    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-08T08:23:28.277Z",
+    "batchId": "t_mq4y1u6t",
+    "repeat": null,
+    "fromLesson": "lesson_1780907008277_7dgplb"
+  },
+  {
+    "id": "task_1780907008277_1hqz7u",
+    "type": "task",
+    "studentId": "s_1780314459772_jsjhe4",
+    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-08T08:23:28.277Z",
+    "batchId": "t_mq4y1u6t",
+    "repeat": null,
+    "fromLesson": "lesson_1780907008277_7dgplb"
+  },
+  {
+    "id": "task_1780907008277_ashqeo",
+    "type": "task",
+    "studentId": "s_1780314459772_hl9biz",
+    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-08T08:23:28.277Z",
+    "batchId": "t_mq4y1u6t",
+    "repeat": null,
+    "fromLesson": "lesson_1780907008277_7dgplb"
+  },
+  {
+    "id": "task_1780907008277_t57jdi",
+    "type": "task",
+    "studentId": "s_1780314459772_wcllxa",
+    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-08T08:23:28.277Z",
+    "batchId": "t_mq4y1u6t",
+    "repeat": null,
+    "fromLesson": "lesson_1780907008277_7dgplb"
+  },
+  {
+    "id": "task_1780907008277_s2u5ua",
+    "type": "task",
+    "studentId": "s_1780633652940_9hqjzx",
+    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+    "dueDate": "2026-06-10",
+    "assignedAt": "2026-06-08T08:23:28.277Z",
+    "batchId": "t_mq4y1u6t",
+    "repeat": null,
+    "fromLesson": "lesson_1780907008277_7dgplb"
   }
 ]

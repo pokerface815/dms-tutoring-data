@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T11:57:11.114Z",
+  "generatedAt": "2026-06-08T05:20:53.954Z",
   "student": {
     "name": "박다윤",
     "school": "경신여고",
@@ -113,11 +113,11 @@
     }
   ],
   "weekProgress": {
-    "total": 4,
-    "done": 4,
-    "percent": 100,
-    "startDate": "2026-06-01",
-    "endDate": "2026-06-07"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-14"
   },
   "teacherConfirms": {},
   "tasks": []

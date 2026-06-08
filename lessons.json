@@ -215,5 +215,25 @@
     "taskBatchId": "t_mq4y1u6t",
     "createdAt": "2026-06-08T08:23:28.277Z",
     "updatedAt": "2026-06-08T08:23:28.277Z"
+  },
+  {
+    "id": "lesson_1780910730396_c4nf4t",
+    "classId": "cls_1780910683163_gtovnl",
+    "date": "2026-06-08",
+    "content": "시험 대비 시작\n학교 교과서 변형문제 프린트 풀이",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-08T09:25:30.396Z",
+    "updatedAt": "2026-06-08T09:25:30.396Z"
+  },
+  {
+    "id": "lesson_1780912943607_zgs5oj",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-06-08",
+    "content": "공수1 개+유 유형편 누락부분 채우면서 질문\n다음 시간부터 기말고사 대비 시작",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-08T10:02:23.607Z",
+    "updatedAt": "2026-06-08T10:02:23.607Z"
   }
 ]

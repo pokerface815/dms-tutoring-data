@@ -235,5 +235,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-08T10:02:23.607Z",
     "updatedAt": "2026-06-08T10:02:23.607Z"
+  },
+  {
+    "id": "lesson_1780913049250_l2t7rh",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-06-08",
+    "content": "공수2\n두 점 사이의 거리 - 연습문제 실력UP 풀이\n내분점 - 수업영상 들은 부분 문제 풀이",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-08T10:04:09.250Z",
+    "updatedAt": "2026-06-08T10:04:09.250Z"
   }
 ]

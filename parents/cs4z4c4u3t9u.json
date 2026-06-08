@@ -1,11 +1,36 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T05:21:29.443Z",
+  "generatedAt": "2026-06-08T05:29:38.656Z",
   "showCompletionRate": true,
+  "showNoteStages": true,
   "student": {
     "name": "박현우",
     "grade": "고2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-05",
+      "label": "2026년 5월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 0,
+          "total": 1,
+          "percent": 0
+        },
+        "2": {
+          "done": 1,
+          "total": 1,
+          "percent": 100
+        },
+        "3": {
+          "done": 0,
+          "total": 1,
+          "percent": 0
+        }
+      }
+    }
+  ],
   "tests": []
 }

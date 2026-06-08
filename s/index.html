@@ -70,19 +70,21 @@
     .section { margin: 20px 20px 0; }
     .section-title { font-size: 13px; font-weight: 600; color: var(--text2); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
     .section-count { background: var(--surface2); color: var(--text3); padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 500; }
-    /* 그룹 라벨 (오답노트 vs 과제) */
+    /* 그룹 라벨 (오답노트 vs 과제) — 섹션 헤더 (버튼 아님) */
     .group-label {
-      margin: 28px 20px 4px; padding: 12px 14px;
-      font-size: 16px; font-weight: 800;
-      border-radius: 10px;
+      margin: 28px 20px 8px;
+      padding: 0 0 8px 0;
+      font-size: 18px; font-weight: 800;
+      background: none; border-radius: 0;
+      border-bottom: 2px solid;
     }
     .group-label.note-group {
-      background: linear-gradient(135deg, #f3eafe, #e8d8fb);
-      color: #5a3a9e; border-left: 4px solid #7c5cbf;
+      color: #5a3a9e;
+      border-bottom-color: #7c5cbf;
     }
     .group-label.task-group {
-      background: linear-gradient(135deg, #e3eefc, #d0e1f8);
-      color: #1e4a8a; border-left: 4px solid #2563eb;
+      color: #1e4a8a;
+      border-bottom-color: #2563eb;
       margin-top: 36px;
     }
     .completed-arrow { font-size: 10px; color: var(--text3); margin-left: 2px; }
@@ -163,7 +165,7 @@
 
     .footer { text-align: center; padding: 30px 20px 40px; font-size: 11px; color: var(--text3); }
     .refresh-btn { display: inline-flex; align-items: center; gap: 4px; padding: 8px 16px; background: var(--surface); border: 0.5px solid var(--border); border-radius: 18px; font-size: 12px; color: var(--text2); cursor: pointer; margin-bottom: 10px; font-family: inherit; }
-    .make-note-btn { display: flex; align-items: center; justify-content: center; gap: 6px; width: auto; margin: 0 16px 16px; box-sizing: border-box; padding: 13px; background: #c8e6c9; color: #1b5e20; border: 0.5px solid rgba(46,125,50,0.3); border-radius: 12px; font-size: 15px; font-weight: 700; text-decoration: none; box-shadow: 0 2px 6px rgba(46,125,50,0.15); }
+    .make-note-btn { display: flex; align-items: center; justify-content: center; gap: 6px; width: 66.67%; max-width: 380px; margin: 0 auto 16px; box-sizing: border-box; padding: 13px; background: #c8e6c9; color: #1b5e20; border: 0.5px solid rgba(46,125,50,0.3); border-radius: 12px; font-size: 15px; font-weight: 700; text-decoration: none; box-shadow: 0 2px 6px rgba(46,125,50,0.15); }
     .make-note-btn:active { background: #a5d6a7; }
     .refresh-btn:active { background: var(--surface2); }
     .last-updated { display: block; margin-top: 6px; }
@@ -306,8 +308,10 @@
     }
     return `
       <details style="margin-top:12px;">
-        <summary style="cursor:pointer; padding:10px 14px; background:#e8f5e9; border:0.5px solid rgba(46,125,50,0.25); border-radius:10px; font-size:13px; font-weight:600; color:#2e7d32; list-style:none; text-align:center; user-select:none;">
-          ✓ 최근 완료한 오답노트 ${items.length}건 보기
+        <summary style="cursor:pointer; list-style:none; user-select:none;">
+          <div style="width:66.67%; max-width:380px; margin:0 auto; padding:10px 14px; background:#e8f5e9; border:0.5px solid rgba(46,125,50,0.25); border-radius:10px; font-size:13px; font-weight:600; color:#2e7d32; text-align:center;">
+            ✓ 최근 완료한 오답노트 ${items.length}건 보기
+          </div>
         </summary>
         <div style="margin-top:10px;">${inner}</div>
       </details>
@@ -371,8 +375,10 @@
     if (confirmed.length > 0) {
       html += `
         <details style="margin-top:12px;">
-          <summary style="cursor:pointer; padding:10px 14px; background:#e8f5e9; border:0.5px solid rgba(46,125,50,0.25); border-radius:10px; font-size:13px; font-weight:600; color:#2e7d32; list-style:none; text-align:center; user-select:none;">
-            ✓ 확인 완료된 과제 ${confirmed.length}건 보기
+          <summary style="cursor:pointer; list-style:none; user-select:none;">
+            <div style="width:66.67%; max-width:380px; margin:0 auto; padding:10px 14px; background:#e8f5e9; border:0.5px solid rgba(46,125,50,0.25); border-radius:10px; font-size:13px; font-weight:600; color:#2e7d32; text-align:center;">
+              ✓ 확인 완료된 과제 ${confirmed.length}건 보기
+            </div>
           </summary>
           <div style="margin-top:10px;">${confirmed.map(renderTaskCard).join('')}</div>
         </details>

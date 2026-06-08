@@ -1,0 +1,104 @@
+[
+  {
+    "run_at": "2026-06-08T16:00:43.483382+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 9,
+      "failed": 0,
+      "total": 9
+    },
+    "entries": [
+      {
+        "student_id": "s_1777546951753_p3pskl",
+        "student_name": "김채린",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-7708",
+        "text_length": 52,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 118,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "overdue",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 72,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 33,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1778325875686_1uoe4b",
+        "student_name": "이경주",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-1429",
+        "text_length": 72,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1778404886523_0ag055",
+        "student_name": "박다인",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-3505",
+        "text_length": 67,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1778849219765_v88lqq",
+        "student_name": "지유진",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-4079",
+        "text_length": 48,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1780728495466_3t0ug5",
+        "student_name": "백서현",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-3830",
+        "text_length": 42,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1780833414231_dup17p",
+        "student_name": "국보민",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-3721",
+        "text_length": 39,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

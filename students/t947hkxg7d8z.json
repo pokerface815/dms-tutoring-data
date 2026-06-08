@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-08T11:34:04.659Z",
+  "generatedAt": "2026-06-08T11:55:04.380Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -285,6 +285,14 @@
       "dueDate": "2026-06-08",
       "isRepeat": false,
       "assignedAt": "2026-06-06T13:01:00.339Z"
+    },
+    {
+      "assignmentId": "task_1780919677088_axztl2",
+      "round": 1,
+      "title": "오답노트 2~3개(4차시에 해당하는) 풀어오기",
+      "dueDate": "2026-06-10",
+      "isRepeat": false,
+      "assignedAt": "2026-06-08T11:54:37.088Z"
     }
   ]
 }

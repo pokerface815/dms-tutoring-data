@@ -1,11 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T05:22:25.050Z",
+  "generatedAt": "2026-06-08T05:30:35.181Z",
   "showCompletionRate": true,
+  "showNoteStages": true,
   "student": {
     "name": "국아인",
     "grade": "고2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-06",
+      "label": "2026년 6월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 0,
+          "total": 1,
+          "percent": 0
+        }
+      }
+    }
+  ],
   "tests": []
 }

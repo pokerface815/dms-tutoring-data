@@ -70,6 +70,21 @@
     .section { margin: 20px 20px 0; }
     .section-title { font-size: 13px; font-weight: 600; color: var(--text2); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
     .section-count { background: var(--surface2); color: var(--text3); padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 500; }
+    /* 그룹 라벨 (오답노트 vs 과제) */
+    .group-label {
+      margin: 28px 20px 4px; padding: 12px 14px;
+      font-size: 16px; font-weight: 800;
+      border-radius: 10px;
+    }
+    .group-label.note-group {
+      background: linear-gradient(135deg, #f3eafe, #e8d8fb);
+      color: #5a3a9e; border-left: 4px solid #7c5cbf;
+    }
+    .group-label.task-group {
+      background: linear-gradient(135deg, #e3eefc, #d0e1f8);
+      color: #1e4a8a; border-left: 4px solid #2563eb;
+      margin-top: 36px;
+    }
     .completed-arrow { font-size: 10px; color: var(--text3); margin-left: 2px; }
     .completed-toggle { user-select: none; }
     .completed-more-btn { width: 100%; margin-top: 6px; padding: 9px; background: var(--surface2); border: 0.5px solid var(--border); border-radius: 10px; font-size: 13px; color: var(--text2); cursor: pointer; font-family: inherit; }
@@ -257,13 +272,17 @@
       </a>` : ''}
     `;
 
+    html += '<div class="group-label note-group">📖 오답노트</div>';
     html += renderSection('🔴 오늘 풀어야 할 오답노트', data.today || [], 'today', '오늘 풀 오답노트가 없어요. 잠깐 쉬는 날 ☺️', true);
     if ((data.overdue || []).length > 0) html += renderSection('⚠️ 밀린 오답노트', data.overdue, 'overdue', '', true);
     if ((data.upcoming || []).length > 0) html += renderSection('📅 이번 주 일정', data.upcoming, 'upcoming', '', false);
     if ((data.completed || []).length > 0) html += renderCompletedSection(data.completed);
 
     // 일반 과제 섹션 (오답노트와 구분)
-    html += renderTaskSection(data.tasks || []);
+    if ((data.tasks || []).length > 0) {
+      html += '<div class="group-label task-group">📚 과제</div>';
+      html += renderTaskSection(data.tasks);
+    }
 
     const updatedTime = data.generatedAt ? new Date(data.generatedAt) : null;
     html += `
@@ -275,7 +294,7 @@
     app.innerHTML = html;
   }
 
-  // 완료 노트: 토글 + 8개 + 더보기
+  // 완료 노트: details/summary 토글 (과제 토글과 통일된 모양)
   function renderCompletedSection(items) {
     const INITIAL = 8;
     const recent = items.slice(0, INITIAL);
@@ -286,13 +305,12 @@
       inner += `<button class="completed-more-btn" id="completedMoreBtn" onclick="toggleCompletedMore()">+ 이전 완료 ${rest.length}개 더 보기</button>`;
     }
     return `
-      <div class="section">
-        <div class="section-title completed-toggle" onclick="toggleCompletedSection()" style="cursor:pointer;">
-          <span>✅ 최근 완료한 오답노트 <span class="completed-arrow" id="completedArrow">▶</span></span>
-          <span class="section-count completed">${items.length}</span>
-        </div>
-        <div id="completedBody" style="display:none;">${inner}</div>
-      </div>
+      <details style="margin-top:12px;">
+        <summary style="cursor:pointer; padding:10px 14px; background:#e8f5e9; border:0.5px solid rgba(46,125,50,0.25); border-radius:10px; font-size:13px; font-weight:600; color:#2e7d32; list-style:none; text-align:center; user-select:none;">
+          ✓ 최근 완료한 오답노트 ${items.length}건 보기
+        </summary>
+        <div style="margin-top:10px;">${inner}</div>
+      </details>
     `;
   }
 
@@ -345,7 +363,7 @@
     pending.sort(sortRecent);
     confirmed.sort(sortRecent);
 
-    let html = `<div class="section"><div class="section-title"><span>📚 과제</span><span class="section-count">${pending.length}</span></div>`;
+    let html = `<div class="section"><div class="section-title"><span>제출하거나 확인 대기 중인 과제</span><span class="section-count">${pending.length}</span></div>`;
     for (const t of pending) html += renderTaskCard(t);
     if (pending.length === 0) {
       html += `<div style="padding:14px; background:var(--surface2); border-radius:10px; color:var(--text3); font-size:13px; text-align:center;">제출하거나 확인 대기 중인 과제가 없습니다 👍</div>`;

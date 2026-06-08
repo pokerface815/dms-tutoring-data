@@ -23,7 +23,10 @@
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1777546951753_p3pskl",
@@ -49,7 +52,10 @@
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1777546978791_hsee5a",
@@ -76,8 +82,9 @@
       "cls_1780310095581_j36rd5"
     ],
     "showCompletionRate": true,
-    "showTestResults": false,
-    "showMakeNote": true
+    "showTestResults": true,
+    "showMakeNote": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1777547014208_7l30nn",
@@ -103,7 +110,10 @@
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1777547047005_uo92w5",
@@ -129,7 +139,10 @@
     "classes": [
       "cls_1780310883451_eliu81"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1778325875686_1uoe4b",
@@ -155,7 +168,10 @@
     "classes": [
       "cls_1780310061018_vay6zf"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1778397156600_clkd2u",
@@ -181,7 +197,10 @@
     "classes": [
       "cls_1780310061018_vay6zf"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1778402500926_7fxigp",
@@ -207,7 +226,10 @@
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1778404886523_0ag055",
@@ -233,7 +255,10 @@
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1778638262495_alq1jg",
@@ -259,7 +284,10 @@
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1778768401651_7hlihp",
@@ -285,7 +313,10 @@
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1778849219765_v88lqq",
@@ -311,7 +342,10 @@
     "classes": [
       "cls_1780310061018_vay6zf"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1778908285779_1cmzde",
@@ -337,7 +371,10 @@
     "classes": [
       "cls_1780310019938_5xpe6o"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1779005266373_7iq1b8",
@@ -363,7 +400,10 @@
     "classes": [
       "cls_1780310061018_vay6zf"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1779628208770_oahez9",
@@ -389,7 +429,10 @@
     "classes": [
       "cls_1780310061018_vay6zf"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1779811264964_kbtli4",
@@ -415,7 +458,10 @@
     "classes": [
       "cls_1780310061018_vay6zf"
     ],
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1779948611035_qbdt5h",
@@ -716,7 +762,8 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "pageCode": "agt64ex4yqvh",
-    "showMakeNote": true
+    "showMakeNote": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1780633652940_9hqjzx",
@@ -766,7 +813,8 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "showMakeNote": true,
-    "pageCode": "pnuj5d6majxc"
+    "pageCode": "pnuj5d6majxc",
+    "showNoteStages": true
   },
   {
     "id": "s_1780821352355_cv63jr",
@@ -793,7 +841,8 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "showMakeNote": true,
-    "pageCode": "87dutmkxr9rz"
+    "pageCode": "87dutmkxr9rz",
+    "showNoteStages": true
   },
   {
     "id": "s_1780825523674_8dwstz",
@@ -820,7 +869,8 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "showMakeNote": true,
-    "pageCode": "jh4b29p5qwtn"
+    "pageCode": "jh4b29p5qwtn",
+    "showNoteStages": true
   },
   {
     "id": "s_1780825552050_3a3ma5",
@@ -847,7 +897,8 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "showMakeNote": true,
-    "pageCode": "mpxq2gey9jpc"
+    "pageCode": "mpxq2gey9jpc",
+    "showNoteStages": true
   },
   {
     "id": "s_1780833047673_dy7d3f",
@@ -874,7 +925,8 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "showMakeNote": true,
-    "pageCode": "59kas6tf2r77"
+    "pageCode": "59kas6tf2r77",
+    "showNoteStages": true
   },
   {
     "id": "s_1780833414231_dup17p",
@@ -901,6 +953,7 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "showMakeNote": true,
-    "pageCode": "zm39mvjpdvgu"
+    "pageCode": "zm39mvjpdvgu",
+    "showNoteStages": true
   }
 ]

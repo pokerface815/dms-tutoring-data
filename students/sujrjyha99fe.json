@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-08T06:23:13.312Z",
+  "generatedAt": "2026-06-08T08:24:44.417Z",
   "student": {
     "name": "이도겸",
     "school": "",
@@ -33,6 +33,14 @@
       "dueDate": "2026-06-05",
       "isRepeat": false,
       "assignedAt": "2026-06-01T11:49:44.317Z"
+    },
+    {
+      "assignmentId": "task_1780907008277_ashqeo",
+      "round": 1,
+      "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+      "dueDate": "2026-06-10",
+      "isRepeat": false,
+      "assignedAt": "2026-06-08T08:23:28.277Z"
     }
   ]
 }

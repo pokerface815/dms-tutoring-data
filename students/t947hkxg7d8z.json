@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-08T10:29:19.512Z",
+  "generatedAt": "2026-06-08T11:34:04.659Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -8,35 +8,7 @@
     "class": "개별수업",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1778509842286_m42zba",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-08",
-      "done": false,
-      "doneAt": null
-    },
-    {
-      "assignmentId": "a_1779115376279_zzxgy1",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-08",
-      "done": false,
-      "doneAt": null
-    },
-    {
-      "assignmentId": "a_1780325196252_vl7pxy",
-      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-08",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -59,6 +31,33 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1780325196252_vl7pxy",
+      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-08",
+      "done": true,
+      "doneAt": "2026-06-08T11:33:35.675Z"
+    },
+    {
+      "assignmentId": "a_1779115376279_zzxgy1",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-08",
+      "done": true,
+      "doneAt": "2026-06-08T11:33:35.065Z"
+    },
+    {
+      "assignmentId": "a_1778509842286_m42zba",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-08",
+      "done": true,
+      "doneAt": "2026-06-08T11:33:34.465Z"
+    },
     {
       "assignmentId": "a_1780153722620_6lfbh5",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
@@ -251,8 +250,8 @@
   ],
   "weekProgress": {
     "total": 5,
-    "done": 0,
-    "percent": 0,
+    "done": 3,
+    "percent": 60,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

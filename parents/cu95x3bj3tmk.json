@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T05:21:45.050Z",
+  "generatedAt": "2026-06-08T05:29:53.705Z",
   "showCompletionRate": true,
+  "showNoteStages": false,
   "student": {
     "name": "박유솔",
     "grade": "중3"
@@ -30,7 +31,8 @@
           "myNote": ""
         }
       ],
-      "completionRate": null
+      "completionRate": null,
+      "noteStages": null
     }
   ],
   "tests": [

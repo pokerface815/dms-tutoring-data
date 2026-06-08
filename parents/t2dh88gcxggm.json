@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T05:21:41.982Z",
+  "generatedAt": "2026-06-08T05:29:50.534Z",
   "showCompletionRate": true,
+  "showNoteStages": false,
   "student": {
     "name": "장승원",
     "grade": "중3"
@@ -21,7 +22,8 @@
           "myNote": ""
         }
       ],
-      "completionRate": null
+      "completionRate": null,
+      "noteStages": null
     }
   ],
   "tests": [

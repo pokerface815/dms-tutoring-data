@@ -324,9 +324,41 @@
   // 일반 과제 섹션
   function renderTaskSection(tasks) {
     if (!tasks || tasks.length === 0) return '';
-    let html = `<div class="section"><div class="section-title"><span>📚 과제</span><span class="section-count">${tasks.length}</span></div>`;
+    // 미확인(제출해야할 + 확인 대기) / 확인됨 분리
+    const pending = [];
+    const confirmed = [];
     for (const t of tasks) {
-      html += renderTaskCard(t);
+      const round = t.round || 1;
+      const teacherInfo = getTeacherConfirm(t.assignmentId, round);
+      const isConfirmed = !!(teacherInfo && teacherInfo.confirmed);
+      if (isConfirmed) confirmed.push(t);
+      else pending.push(t);
+    }
+    // 최근 순 정렬: dueDate 내림차순 (없으면 뒤로)
+    const sortRecent = (a, b) => {
+      const ad = a.dueDate || '';
+      const bd = b.dueDate || '';
+      if (!ad && bd) return 1;
+      if (ad && !bd) return -1;
+      return bd.localeCompare(ad);
+    };
+    pending.sort(sortRecent);
+    confirmed.sort(sortRecent);
+
+    let html = `<div class="section"><div class="section-title"><span>📚 과제</span><span class="section-count">${pending.length}</span></div>`;
+    for (const t of pending) html += renderTaskCard(t);
+    if (pending.length === 0) {
+      html += `<div style="padding:14px; background:var(--surface2); border-radius:10px; color:var(--text3); font-size:13px; text-align:center;">제출하거나 확인 대기 중인 과제가 없습니다 👍</div>`;
+    }
+    if (confirmed.length > 0) {
+      html += `
+        <details style="margin-top:12px;">
+          <summary style="cursor:pointer; padding:10px 14px; background:#e8f5e9; border:0.5px solid rgba(46,125,50,0.25); border-radius:10px; font-size:13px; font-weight:600; color:#2e7d32; list-style:none; text-align:center; user-select:none;">
+            ✓ 확인 완료된 과제 ${confirmed.length}건 보기
+          </summary>
+          <div style="margin-top:10px;">${confirmed.map(renderTaskCard).join('')}</div>
+        </details>
+      `;
     }
     html += '</div>';
     return html;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T11:57:57.706Z",
+  "generatedAt": "2026-06-08T05:22:05.225Z",
   "student": {
     "name": "왕예진",
     "school": "",
@@ -16,8 +16,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-01",
-    "endDate": "2026-06-07"
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-14"
   },
   "teacherConfirms": {
     "task_1780314584317_bcrtk9__1": {

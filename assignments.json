@@ -2036,16 +2036,6 @@
     "fromLesson": "lesson_1780907008277_7dgplb"
   },
   {
-    "id": "task_1780914241414_8lq20f",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "일품 4장 풀기",
-    "dueDate": "2026-06-10",
-    "assignedAt": "2026-06-08T10:24:01.414Z",
-    "batchId": "t_mq52cvba",
-    "repeat": null
-  },
-  {
     "id": "task_1780919677088_axztl2",
     "type": "task",
     "studentId": "s_1777547047005_uo92w5",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T08:54:16.813Z",
+  "generatedAt": "2026-06-08T09:26:08.485Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -19,6 +19,15 @@
           "content": "시험대비 시작\n각 학교별 교과서 변형문제 풀이\n끝나는대로 추가 프린트 풀이 할 예정임.",
           "task": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
           "taskDue": "2026-06-10",
+          "myNote": ""
+        },
+        {
+          "date": "2026-06-08",
+          "weekday": "월",
+          "className": "박은준 개별",
+          "content": "시험 대비 시작\n학교 교과서 변형문제 프린트 풀이",
+          "task": "",
+          "taskDue": "",
           "myNote": ""
         },
         {

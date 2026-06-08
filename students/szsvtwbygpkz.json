@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T11:57:35.284Z",
+  "generatedAt": "2026-06-08T05:21:30.921Z",
   "student": {
     "name": "김한비",
     "school": "전사고",
@@ -41,11 +41,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-06-01",
-    "endDate": "2026-06-07"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-14"
   },
   "teacherConfirms": {
     "task_1780152086917_f8u2ai__20260530": {

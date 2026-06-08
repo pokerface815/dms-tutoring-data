@@ -94,6 +94,8 @@
     "memo": "",
     "showInParent": true,
     "order": 13,
-    "createdAt": "2026-06-08T09:24:43.163Z"
+    "createdAt": "2026-06-08T09:24:43.163Z",
+    "slot": 10,
+    "lessonSlot": 14
   }
 ]

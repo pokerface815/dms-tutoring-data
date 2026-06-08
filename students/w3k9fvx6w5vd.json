@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-08T08:24:06.121Z",
+  "generatedAt": "2026-06-08T08:53:31.458Z",
   "student": {
     "name": "지유진",
     "school": "문정여고",
@@ -8,17 +8,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1780674822191_a4avvt",
-      "noteName": "지유진_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-08",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -41,6 +31,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1780674822191_a4avvt",
+      "noteName": "지유진_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-08",
+      "done": true,
+      "doneAt": "2026-06-08T08:53:00.895Z"
+    },
     {
       "assignmentId": "a_1780674822191_a4avvt",
       "noteName": "지유진_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
@@ -116,8 +115,8 @@
   ],
   "weekProgress": {
     "total": 3,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 33,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

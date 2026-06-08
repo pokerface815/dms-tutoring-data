@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T11:58:17.646Z",
+  "generatedAt": "2026-06-08T05:22:36.170Z",
   "student": {
     "name": "국보민",
     "school": "숭일고",
@@ -16,8 +16,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-01",
-    "endDate": "2026-06-07"
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-14"
   },
   "teacherConfirms": {},
   "tasks": [

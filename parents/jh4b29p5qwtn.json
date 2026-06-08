@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T05:22:28.062Z",
+  "generatedAt": "2026-06-08T05:30:38.181Z",
   "showCompletionRate": true,
+  "showNoteStages": true,
   "student": {
     "name": "정시우",
     "grade": "고2"

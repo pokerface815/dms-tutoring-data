@@ -255,5 +255,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-08T10:06:52.394Z",
     "updatedAt": "2026-06-08T10:06:52.394Z"
+  },
+  {
+    "id": "lesson_1780919677088_ubd33m",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-08",
+    "content": "부교재 수열의 합 풀이",
+    "studentNotes": [],
+    "taskBatchId": "t_mq55ldi8",
+    "createdAt": "2026-06-08T11:54:37.088Z",
+    "updatedAt": "2026-06-08T11:54:37.088Z"
   }
 ]

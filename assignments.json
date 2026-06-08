@@ -1914,5 +1914,15 @@
     "assignedAt": "2026-06-07T11:53:58.420Z",
     "batchId": "t_mq3q4p04",
     "repeat": null
+  },
+  {
+    "id": "task_1780833488960_0g2lyw",
+    "type": "task",
+    "studentId": "s_1780833414231_dup17p",
+    "title": "오답노트 만들 문제 보내고, 수요일에 찾아가기",
+    "dueDate": "2026-06-09",
+    "assignedAt": "2026-06-07T11:58:08.960Z",
+    "batchId": "t_mq3qa2bk",
+    "repeat": null
   }
 ]

@@ -1,11 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T05:22:22.017Z",
+  "generatedAt": "2026-06-08T05:30:32.006Z",
   "showCompletionRate": true,
+  "showNoteStages": true,
   "student": {
     "name": "백서현",
     "grade": "고2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-06",
+      "label": "2026년 6월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 0,
+          "total": 1,
+          "percent": 0
+        }
+      }
+    }
+  ],
   "tests": []
 }

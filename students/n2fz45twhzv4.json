@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T11:57:25.144Z",
+  "generatedAt": "2026-06-08T05:21:15.359Z",
   "student": {
     "name": "김현민",
     "school": "살레고",
@@ -50,11 +50,11 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
-    "done": 1,
-    "percent": 100,
-    "startDate": "2026-06-01",
-    "endDate": "2026-06-07"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-14"
   },
   "teacherConfirms": {},
   "tasks": []

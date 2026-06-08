@@ -87,5 +87,13 @@
     "createdAt": "2026-06-01T23:16:04.530Z",
     "lessonSlot": 9,
     "slot": 9
+  },
+  {
+    "id": "cls_1780910683163_gtovnl",
+    "name": "박은준 개별",
+    "memo": "",
+    "showInParent": true,
+    "order": 13,
+    "createdAt": "2026-06-08T09:24:43.163Z"
   }
 ]

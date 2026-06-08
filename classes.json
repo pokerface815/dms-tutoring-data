@@ -76,7 +76,8 @@
     "showInParent": true,
     "order": 11,
     "createdAt": "2026-06-01T10:52:05.071Z",
-    "lessonSlot": 0
+    "lessonSlot": 0,
+    "slot": 0
   },
   {
     "id": "cls_1780355764530_wxb5as",
@@ -84,6 +85,7 @@
     "memo": "",
     "order": 12,
     "createdAt": "2026-06-01T23:16:04.530Z",
-    "lessonSlot": 9
+    "lessonSlot": 9,
+    "slot": 9
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08T10:05:03.572Z",
+  "generatedAt": "2026-06-08T10:07:49.462Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -12,6 +12,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-08",
+          "weekday": "월",
+          "className": "장승원 개별",
+          "content": "대수 - 수열의 귀납적 정의, 수학적 귀납법 수업영상으로 마무리\n미적분1 - 도함수의 활용(함수의 그래프 + 함수의 최대,최소)",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        },
         {
           "date": "2026-06-01",
           "weekday": "월",

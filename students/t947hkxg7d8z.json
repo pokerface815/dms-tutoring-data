@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-07T11:57:13.064Z",
+  "generatedAt": "2026-06-08T05:20:56.844Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -9,6 +9,35 @@
     "showMakeNote": true
   },
   "today": [
+    {
+      "assignmentId": "a_1778509842286_m42zba",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-08",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1779115376279_zzxgy1",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-08",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1780325196252_vl7pxy",
+      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-08",
+      "done": false,
+      "doneAt": null
+    }
+  ],
+  "overdue": [
     {
       "assignmentId": "a_1778384022946_9m9pgb",
       "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
@@ -28,8 +57,26 @@
       "doneAt": null
     }
   ],
-  "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1779287559980_ge3q7f",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙(고난도 4,5,6번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-10",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1779542958590_b0w63c",
+      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~33번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-13",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1780325196252_vl7pxy",
@@ -205,10 +252,10 @@
   ],
   "weekProgress": {
     "total": 5,
-    "done": 3,
-    "percent": 60,
-    "startDate": "2026-06-01",
-    "endDate": "2026-06-07"
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-14"
   },
   "teacherConfirms": {
     "a_1779287559980_ge3q7f__3": {

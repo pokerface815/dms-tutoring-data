@@ -220,7 +220,7 @@
     ],
     "studentPhone": "010-4894-3873",
     "parentPhone": "",
-    "notifyStudent": true,
+    "notifyStudent": false,
     "notifyParent": false,
     "pageCode": "tke85bjzms8e",
     "classes": [

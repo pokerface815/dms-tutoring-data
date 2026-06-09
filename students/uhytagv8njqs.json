@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-09T13:15:02.971Z",
+  "generatedAt": "2026-06-09T13:33:40.161Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -8,9 +8,28 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1781011994095_h8x2yj",
+      "noteName": "김규림_개념루트_사인법칙과 코사인법칙( ~595번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-09",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [
+    {
+      "assignmentId": "a_1781011994095_h8x2yj",
+      "noteName": "김규림_개념루트_사인법칙과 코사인법칙( ~595번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-11",
+      "done": false,
+      "doneAt": null
+    },
     {
       "assignmentId": "a_1779620251071_skubw4",
       "noteName": "김규림_개념루트_등차수열과 등비수열( ~657번)",
@@ -150,7 +169,7 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
+    "total": 3,
     "done": 0,
     "percent": 0,
     "startDate": "2026-06-08",

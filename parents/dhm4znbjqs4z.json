@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-10T13:41:38.985Z",
+  "generatedAt": "2026-06-10T13:47:29.051Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -12,6 +12,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-10",
+          "weekday": "수",
+          "className": "월,수,금 중3 5시 수업",
+          "content": "교과서 변형 문제 프린트 풀이 끝난 친구들에게 시험 대비 프린트 분출(각 학교 시험범위에 맞춰)",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        },
         {
           "date": "2026-06-08",
           "weekday": "월",

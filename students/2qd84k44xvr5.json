@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-09T13:33:35.137Z",
+  "generatedAt": "2026-06-10T00:11:03.291Z",
   "student": {
     "name": "송유림",
     "school": "숭일고",
@@ -8,9 +8,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779281960451_f7td1x",
       "noteName": "송유림_종합 오답노트 (2개 합본 · 2026-05-20)",
@@ -21,6 +19,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1779012339753_dsrd3v",

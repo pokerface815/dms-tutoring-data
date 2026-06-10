@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-09T13:33:48.172Z",
+  "generatedAt": "2026-06-10T00:11:19.657Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -8,9 +8,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1779199815812_kc9oc2",
       "noteName": "이경주_개념루트_삼각함수의 그래프( ~521번)",
@@ -19,7 +17,10 @@
       "plannedDate": "2026-06-10",
       "done": false,
       "doneAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1779296468841_a6a8w6",
       "noteName": "이경주_수매씽 유형_종합 오답노트 (3개 합본 · 2026-05-21)",

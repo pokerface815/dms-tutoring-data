@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-10T13:47:24.300Z",
+  "generatedAt": "2026-06-10T13:51:36.227Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -16,7 +16,7 @@
           "date": "2026-06-10",
           "weekday": "수",
           "className": "박유솔 개별",
-          "content": "결석",
+          "content": "결석 - 주말에 보충 예정",
           "task": "",
           "taskDue": "",
           "myNote": ""

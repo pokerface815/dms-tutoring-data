@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-10T10:42:25.502Z",
+  "generatedAt": "2026-06-10T10:46:22.882Z",
   "student": {
     "name": "이세영",
     "school": "전남여고",
@@ -19,6 +19,20 @@
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },
-  "teacherConfirms": {},
-  "tasks": []
+  "teacherConfirms": {
+    "task_1781088257205_pajp85__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-10T10:44:22.249Z"
+    }
+  },
+  "tasks": [
+    {
+      "assignmentId": "task_1781088257205_pajp85",
+      "round": 1,
+      "title": "테스트",
+      "dueDate": "2026-06-13",
+      "isRepeat": false,
+      "assignedAt": "2026-06-10T10:44:17.205Z"
+    }
+  ]
 }

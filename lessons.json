@@ -285,5 +285,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-10T09:48:17.820Z",
     "updatedAt": "2026-06-10T09:48:17.820Z"
+  },
+  {
+    "id": "lesson_1781095712691_4j831x",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-10",
+    "content": "과제로 나간 오답노트 3개 풀이",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-10T12:48:32.691Z",
+    "updatedAt": "2026-06-10T12:48:32.691Z"
   }
 ]

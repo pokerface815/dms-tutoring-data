@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-09T13:33:58.797Z",
+  "generatedAt": "2026-06-10T00:11:32.498Z",
   "student": {
     "name": "이현승",
     "school": "살레고",
@@ -8,9 +8,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1778638358032_1cfx1z",
       "noteName": "이현승_자이스토리_삼각함수의 그래프( ~F115)",
@@ -21,6 +19,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1778638358032_1cfx1z",

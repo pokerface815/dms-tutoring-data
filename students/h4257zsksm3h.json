@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-10T10:41:38.088Z",
+  "generatedAt": "2026-06-10T10:45:13.540Z",
   "student": {
     "name": "이현승",
     "school": "살레고",
@@ -8,20 +8,19 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1778638358032_1cfx1z",
       "noteName": "이현승_자이스토리_삼각함수의 그래프( ~F115)",
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-10",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-10T10:41:53.333Z"
+    },
     {
       "assignmentId": "a_1778638358032_1cfx1z",
       "noteName": "이현승_자이스토리_삼각함수의 그래프( ~F115)",
@@ -52,8 +51,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-10T10:44:57.157Z",
+  "generatedAt": "2026-06-10T12:48:54.992Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-10",
+          "weekday": "수",
+          "className": "조예나 개별",
+          "content": "과제로 나간 오답노트 3개 풀이",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        },
         {
           "date": "2026-06-08",
           "weekday": "월",

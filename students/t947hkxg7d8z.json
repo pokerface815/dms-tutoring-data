@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-10T12:56:10.817Z",
+  "generatedAt": "2026-06-10T12:59:25.159Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -293,7 +293,7 @@
     },
     "task_1780919677088_axztl2__1": {
       "confirmed": true,
-      "confirmedAt": "2026-06-10T12:48:49.606Z"
+      "confirmedAt": "2026-06-10T12:59:19.026Z"
     }
   },
   "tasks": [

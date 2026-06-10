@@ -1,0 +1,84 @@
+[
+  {
+    "run_at": "2026-06-10T16:00:36.620539+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 7,
+      "failed": 0,
+      "total": 7
+    },
+    "entries": [
+      {
+        "student_id": "s_1777538277049_9le2r7",
+        "student_name": "송유림",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-4837",
+        "text_length": 48,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 89,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 39,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1778325875686_1uoe4b",
+        "student_name": "이경주",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-1429",
+        "text_length": 42,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1778638262495_alq1jg",
+        "student_name": "이현승",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-9592",
+        "text_length": 43,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1779948611035_qbdt5h",
+        "student_name": "서준우",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-4189",
+        "text_length": 22,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1780833047673_dy7d3f",
+        "student_name": "조은별",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-3625",
+        "text_length": 22,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

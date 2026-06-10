@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-10T10:42:39.731Z",
+  "generatedAt": "2026-06-10T10:44:28.514Z",
   "student": {
     "name": "조은별",
     "school": "숭일고",
@@ -19,7 +19,12 @@
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },
-  "teacherConfirms": {},
+  "teacherConfirms": {
+    "task_1780833168065_o2irmx__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-10T10:43:16.625Z"
+    }
+  },
   "tasks": [
     {
       "assignmentId": "task_1780833168065_o2irmx",

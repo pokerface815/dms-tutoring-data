@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-10T10:10:50.226Z",
+  "generatedAt": "2026-06-10T10:41:55.531Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -16,7 +16,7 @@
           "date": "2026-06-10",
           "weekday": "수",
           "className": "서준우 개별",
-          "content": "교과서 상 문제 변형 프린트",
+          "content": "교과서 상 문제 변형 프린트\n시험 대비 프린트 분출",
           "task": "",
           "taskDue": "",
           "myNote": ""

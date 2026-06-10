@@ -295,5 +295,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-10T12:48:32.691Z",
     "updatedAt": "2026-06-10T12:48:32.691Z"
+  },
+  {
+    "id": "lesson_1781099183984_voz5d5",
+    "classId": "cls_1780311125071_i1638e",
+    "date": "2026-06-10",
+    "content": "교과서 변형 문제 프린트 풀이 끝난 친구들에게 시험 대비 프린트 분출(각 학교 시험범위에 맞춰)",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-10T13:46:23.984Z",
+    "updatedAt": "2026-06-10T13:46:23.984Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-10T10:41:28.465Z",
+  "generatedAt": "2026-06-10T10:44:58.999Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -8,17 +8,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1779199815812_kc9oc2",
-      "noteName": "이경주_개념루트_삼각함수의 그래프( ~521번)",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-10",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -59,6 +49,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1779199815812_kc9oc2",
+      "noteName": "이경주_개념루트_삼각함수의 그래프( ~521번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-10",
+      "done": true,
+      "doneAt": "2026-06-10T10:41:53.880Z"
+    },
     {
       "assignmentId": "a_1780739488448_kksi0o",
       "noteName": "이경주_수매씽 유형_재오답(1260~2139번)",
@@ -233,8 +232,8 @@
   ],
   "weekProgress": {
     "total": 7,
-    "done": 2,
-    "percent": 29,
+    "done": 3,
+    "percent": 43,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

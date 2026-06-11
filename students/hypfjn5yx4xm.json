@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-11T08:07:17.157Z",
+  "generatedAt": "2026-06-11T08:50:06.718Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -8,17 +8,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1779296468841_a6a8w6",
-      "noteName": "이경주_수매씽 유형_종합 오답노트 (3개 합본 · 2026-05-21)",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-11",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -50,6 +40,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1779296468841_a6a8w6",
+      "noteName": "이경주_수매씽 유형_종합 오답노트 (3개 합본 · 2026-05-21)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-11",
+      "done": true,
+      "doneAt": "2026-06-11T08:49:34.738Z"
+    },
     {
       "assignmentId": "a_1779199815812_kc9oc2",
       "noteName": "이경주_개념루트_삼각함수의 그래프( ~521번)",
@@ -233,8 +232,8 @@
   ],
   "weekProgress": {
     "total": 7,
-    "done": 3,
-    "percent": 43,
+    "done": 4,
+    "percent": 57,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

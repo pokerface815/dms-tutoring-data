@@ -2118,25 +2118,5 @@
       }
     ],
     "createdAt": "2026-06-09T13:33:14.095Z"
-  },
-  {
-    "id": "task_1781088257205_vuu08f",
-    "type": "task",
-    "studentId": "s_1780190418387_a11waf",
-    "title": "테스트",
-    "dueDate": "2026-06-13",
-    "assignedAt": "2026-06-10T10:44:17.205Z",
-    "batchId": "t_mq7xymr9",
-    "repeat": null
-  },
-  {
-    "id": "task_1781088257205_pajp85",
-    "type": "task",
-    "studentId": "s_1780355782316_yrovp3",
-    "title": "테스트",
-    "dueDate": "2026-06-13",
-    "assignedAt": "2026-06-10T10:44:17.205Z",
-    "batchId": "t_mq7xymr9",
-    "repeat": null
   }
 ]

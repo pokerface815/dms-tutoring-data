@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-11T08:08:16.572Z",
+  "generatedAt": "2026-06-11T08:51:33.964Z",
   "student": {
     "name": "박은준",
     "school": "살레시오중",
@@ -19,12 +19,7 @@
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },
-  "teacherConfirms": {
-    "task_1780907008277_s2u5ua__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-06-10T10:43:08.196Z"
-    }
-  },
+  "teacherConfirms": {},
   "tasks": [
     {
       "assignmentId": "task_1780907008277_s2u5ua",

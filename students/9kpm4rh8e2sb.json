@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-13T12:27:24.386Z",
+  "generatedAt": "2026-06-13T14:15:09.999Z",
   "student": {
     "name": "박다인",
     "school": "국제고",
@@ -8,15 +8,18 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
-      "assignmentId": "a_1779527476621_8ztsaj",
-      "noteName": "박다인_수매씽 유형_삼각함수의 활용(~1546번)",
+      "assignmentId": "a_1780741363676_y0neub",
+      "noteName": "박다인_수매씽 유형_등비수열( ~1916번)",
       "subject": "대수",
-      "round": 4,
+      "round": 3,
       "plannedDate": "2026-06-13",
-      "done": false,
-      "doneAt": null
+      "done": true,
+      "doneAt": "2026-06-13T14:14:26.871Z"
     },
     {
       "assignmentId": "a_1780741295707_qhu2oh",
@@ -24,22 +27,18 @@
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-06-13",
-      "done": false,
-      "doneAt": null
+      "done": true,
+      "doneAt": "2026-06-13T14:14:26.182Z"
     },
     {
-      "assignmentId": "a_1780741363676_y0neub",
-      "noteName": "박다인_수매씽 유형_등비수열( ~1916번)",
+      "assignmentId": "a_1779527476621_8ztsaj",
+      "noteName": "박다인_수매씽 유형_삼각함수의 활용(~1546번)",
       "subject": "대수",
-      "round": 3,
+      "round": 4,
       "plannedDate": "2026-06-13",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-13T14:14:20.428Z"
+    },
     {
       "assignmentId": "a_1780741363676_y0neub",
       "noteName": "박다인_수매씽 유형_등비수열( ~1916번)",
@@ -205,8 +204,8 @@
   ],
   "weekProgress": {
     "total": 5,
-    "done": 2,
-    "percent": 40,
+    "done": 5,
+    "percent": 100,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

@@ -1,0 +1,94 @@
+[
+  {
+    "run_at": "2026-06-13T16:00:43.160775+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 8,
+      "failed": 0,
+      "total": 8
+    },
+    "entries": [
+      {
+        "student_id": "s_1777546951753_p3pskl",
+        "student_name": "김채린",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-7708",
+        "text_length": 52,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777546978791_hsee5a",
+        "student_name": "김규림",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-2155",
+        "text_length": 61,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 46,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1778325875686_1uoe4b",
+        "student_name": "이경주",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-1429",
+        "text_length": 72,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1778397156600_clkd2u",
+        "student_name": "서연준",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-2159",
+        "text_length": 42,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1778404886523_0ag055",
+        "student_name": "박다인",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-3505",
+        "text_length": 97,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1778849219765_v88lqq",
+        "student_name": "지유진",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-4079",
+        "text_length": 74,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1780728495466_3t0ug5",
+        "student_name": "백서현",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-3830",
+        "text_length": 42,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

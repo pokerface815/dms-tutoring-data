@@ -2174,5 +2174,33 @@
       }
     ],
     "createdAt": "2026-06-13T07:38:39.894Z"
+  },
+  {
+    "id": "a_1781336642293_8uu8p2",
+    "noteId": "note_1781336635451_xba77l",
+    "noteName": "이경주_수매씽 유형_기말 범위 전체",
+    "studentId": "s_1778325875686_1uoe4b",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-20",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-13T07:44:02.293Z"
   }
 ]

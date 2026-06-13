@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-13T12:27:18.552Z",
+  "generatedAt": "2026-06-13T14:15:03.608Z",
   "student": {
     "name": "서연준",
     "school": "살레시오고",
@@ -8,20 +8,19 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1779522836564_0qh9aq",
       "noteName": "서연준_개념루트_등차수열과 등비수열(~678번)",
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-13",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-13T14:14:19.637Z"
+    },
     {
       "assignmentId": "a_1778397172629_i82xie",
       "noteName": "서연준_개념루트_삼각함수의 그래프",
@@ -124,8 +123,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

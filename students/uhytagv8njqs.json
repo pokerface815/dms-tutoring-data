@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-13T09:01:13.219Z",
+  "generatedAt": "2026-06-13T09:01:21.519Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -178,6 +178,10 @@
     "task_1780833238420_v9xdmb__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-13T09:01:06.512Z"
+    },
+    "task_1780833206589_ybwbrw__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-13T09:01:15.406Z"
     }
   },
   "tasks": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-13T12:28:35.942Z",
+  "generatedAt": "2026-06-13T14:16:21.401Z",
   "student": {
     "name": "백서현",
     "school": "숭일고",
@@ -8,20 +8,19 @@
     "class": "",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1780728513742_by5tel",
       "noteName": "백서현_개념루트_삼각함수의 그래프( ~521번)",
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-06-13",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-13T14:14:23.921Z"
+    },
     {
       "assignmentId": "a_1780728513742_by5tel",
       "noteName": "백서현_개념루트_삼각함수의 그래프( ~521번)",
@@ -43,8 +42,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

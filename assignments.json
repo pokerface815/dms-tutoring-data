@@ -2146,5 +2146,33 @@
       }
     ],
     "createdAt": "2026-06-13T03:38:23.492Z"
+  },
+  {
+    "id": "a_1781336319894_g34zjb",
+    "noteId": "note_1781336310354_1stbl9",
+    "noteName": "이경주_개념루트_기말 범위 전체",
+    "studentId": "s_1778325875686_1uoe4b",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-20",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-13T07:38:39.894Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-13T12:10:27.764Z",
+  "generatedAt": "2026-06-13T12:17:22.272Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-13",
+          "weekday": "토",
+          "className": "조예나 개별",
+          "content": "오답노트 반복 & 질문",
+          "task": "",
+          "taskDue": "",
+          "myNote": "시그마 부분이 약하니, 추가 보충 필요함."
+        },
         {
           "date": "2026-06-10",
           "weekday": "수",

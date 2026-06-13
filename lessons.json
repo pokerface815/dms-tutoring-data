@@ -325,5 +325,20 @@
     "taskBatchId": null,
     "createdAt": "2026-06-10T13:47:00.316Z",
     "updatedAt": "2026-06-10T13:47:11.968Z"
+  },
+  {
+    "id": "lesson_1781353022211_7isgf5",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-13",
+    "content": "오답노트 반복 & 질문",
+    "studentNotes": [
+      {
+        "studentId": "s_1777547047005_uo92w5",
+        "note": "시그마 부분이 약하니, 추가 보충 필요함."
+      }
+    ],
+    "taskBatchId": null,
+    "createdAt": "2026-06-13T12:17:02.211Z",
+    "updatedAt": "2026-06-13T12:17:02.211Z"
   }
 ]

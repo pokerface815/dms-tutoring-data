@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-13T05:29:40.328Z",
+  "generatedAt": "2026-06-13T07:39:24.157Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -23,6 +23,15 @@
       "noteName": "이경주_수매씽 유형_재오답(1260~2139번)",
       "subject": "대수",
       "round": 3,
+      "plannedDate": "2026-06-13",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1781336319894_g34zjb",
+      "noteName": "이경주_개념루트_기말 범위 전체",
+      "subject": "대수",
+      "round": 1,
       "plannedDate": "2026-06-13",
       "done": false,
       "doneAt": null
@@ -232,9 +241,9 @@
     }
   ],
   "weekProgress": {
-    "total": 7,
+    "total": 8,
     "done": 4,
-    "percent": 57,
+    "percent": 50,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

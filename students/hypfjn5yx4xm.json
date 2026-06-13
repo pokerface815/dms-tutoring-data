@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-13T12:27:14.771Z",
+  "generatedAt": "2026-06-13T14:15:00.625Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -8,44 +8,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1780674000953_zztmxb",
-      "noteName": "이경주_수매씽 유형_수학적 귀납법( ~2390번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-13",
-      "done": false,
-      "doneAt": null
-    },
-    {
-      "assignmentId": "a_1780739488448_kksi0o",
-      "noteName": "이경주_수매씽 유형_재오답(1260~2139번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-13",
-      "done": false,
-      "doneAt": null
-    },
-    {
-      "assignmentId": "a_1781336319894_g34zjb",
-      "noteName": "이경주_개념루트_기말 범위 전체",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-13",
-      "done": false,
-      "doneAt": null
-    },
-    {
-      "assignmentId": "a_1781336642293_8uu8p2",
-      "noteName": "이경주_수매씽 유형_기말 범위 전체",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-13",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -59,6 +22,42 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1781336642293_8uu8p2",
+      "noteName": "이경주_수매씽 유형_기말 범위 전체",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-13",
+      "done": true,
+      "doneAt": "2026-06-13T14:14:31.715Z"
+    },
+    {
+      "assignmentId": "a_1781336319894_g34zjb",
+      "noteName": "이경주_개념루트_기말 범위 전체",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-13",
+      "done": true,
+      "doneAt": "2026-06-13T14:14:31.026Z"
+    },
+    {
+      "assignmentId": "a_1780739488448_kksi0o",
+      "noteName": "이경주_수매씽 유형_재오답(1260~2139번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-13",
+      "done": true,
+      "doneAt": "2026-06-13T14:14:25.347Z"
+    },
+    {
+      "assignmentId": "a_1780674000953_zztmxb",
+      "noteName": "이경주_수매씽 유형_수학적 귀납법( ~2390번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-13",
+      "done": true,
+      "doneAt": "2026-06-13T14:14:22.621Z"
+    },
     {
       "assignmentId": "a_1779296468841_a6a8w6",
       "noteName": "이경주_수매씽 유형_종합 오답노트 (3개 합본 · 2026-05-21)",
@@ -251,8 +250,8 @@
   ],
   "weekProgress": {
     "total": 9,
-    "done": 4,
-    "percent": 44,
+    "done": 8,
+    "percent": 89,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

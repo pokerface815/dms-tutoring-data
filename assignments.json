@@ -2118,5 +2118,33 @@
       }
     ],
     "createdAt": "2026-06-09T13:33:14.095Z"
+  },
+  {
+    "id": "a_1781321903492_hou25c",
+    "noteId": "note_1781321891695_5iw5n2",
+    "noteName": "김채린_수학의 바이블 유형ON 1권_등차수열과 등비수열( ~914번)",
+    "studentId": "s_1777546951753_p3pskl",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-20",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-13T03:38:23.492Z"
   }
 ]

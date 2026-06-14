@@ -177,6 +177,15 @@
     .photo-viewer.active { display: flex; }
     .photo-viewer img { max-width: 100%; max-height: 100%; object-fit: contain; }
     .photo-viewer-close { position: fixed; top: 16px; right: 16px; width: 40px; height: 40px; background: rgba(255,255,255,0.9); border: none; border-radius: 50%; font-size: 22px; cursor: pointer; z-index: 201; }
+  .gi-label {
+    display: block; font-size: 11px; color: var(--text2); font-weight: 600; margin-bottom: 3px;
+  }
+  .gi-input {
+    width: 100%; box-sizing: border-box;
+    padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px;
+    background: var(--bg); color: var(--text); font-size: 14px;
+  }
+  .gi-input:focus { outline: none; border-color: var(--accent); }
   </style>
 </head>
 <body>
@@ -286,6 +295,9 @@
       html += renderTaskSection(data.tasks);
     }
 
+    // 내 성적 입력 섹션 (활성화된 시험 정보가 있을 때만 표시)
+    html += `<div id="gradeInputSection"></div>`;
+
     const updatedTime = data.generatedAt ? new Date(data.generatedAt) : null;
     html += `
       <div class="footer">
@@ -294,6 +306,124 @@
       </div>
     `;
     app.innerHTML = html;
+    // 시험 정보 로드 + 표시 (비동기)
+    loadGradeExams().catch(e => console.warn('시험 정보 로드 실패:', e));
+  }
+
+  // ===== 내 성적 입력 =====
+  let cachedSchoolGradeCuts = null;
+  let cachedLocalDrafts = {};  // { entryId__examKind: {score, grade, rank, percent, savedAt} }
+
+  function loadLocalDrafts() {
+    try {
+      const raw = localStorage.getItem('mySchoolGradeDrafts__' + studentCode);
+      if (raw) cachedLocalDrafts = JSON.parse(raw) || {};
+    } catch (e) { cachedLocalDrafts = {}; }
+  }
+  function saveLocalDrafts() {
+    try { localStorage.setItem('mySchoolGradeDrafts__' + studentCode, JSON.stringify(cachedLocalDrafts)); } catch (e) {}
+  }
+
+  async function loadGradeExams() {
+    const wrap = document.getElementById('gradeInputSection');
+    if (!wrap) return;
+    loadLocalDrafts();
+    try {
+      if (!cachedSchoolGradeCuts) {
+        const url = `../school_grade_cuts.json?t=${Date.now()}`;
+        const res = await fetch(url, { cache: 'no-store' });
+        if (!res.ok) {
+          if (res.status === 404) return;  // 파일이 아직 없음
+          return;
+        }
+        cachedSchoolGradeCuts = await res.json();
+      }
+      renderGradeExams();
+    } catch (e) { console.warn('시험 정보 fetch 실패:', e); }
+  }
+
+  function renderGradeExams() {
+    const wrap = document.getElementById('gradeInputSection');
+    const s = studentData.student || {};
+    const myEntries = (cachedSchoolGradeCuts || []).filter(c => {
+      if (!c.school || c.school !== s.school) return false;
+      const lvl = c.gradeLevel || '';
+      if (lvl && s.grade && lvl !== s.grade) return false;
+      const enabled = c.studentInputEnabledByExamKind || {};
+      return Object.values(enabled).some(v => v === true);
+    });
+    if (myEntries.length === 0) { wrap.innerHTML = ''; return; }
+
+    let html = `<div class="group-label" style="background:#fff7e6; border-left:4px solid #e8a23e; color:#7a5520;">📝 내 성적 입력</div>`;
+    html += `<div style="font-size:12px; color:var(--text2); margin:0 0 10px 4px; line-height:1.5;">시험 결과를 입력해주세요. 등급컷은 선생님이 채우니, <b>원점수·등급·석차/전교 인원</b>만 입력하시면 됩니다.</div>`;
+
+    for (const c of myEntries) {
+      const enabled = c.studentInputEnabledByExamKind || {};
+      const lvl = c.gradeLevel || '';
+      const isMid = ['중1','중2','중3'].includes(lvl);
+      const examKinds = (isMid ? ['중간','기말'] : ['중간','기말','최종']).filter(ek => enabled[ek]);
+      if (examKinds.length === 0) continue;
+
+      html += `<div class="card" style="margin-bottom:10px; padding:12px; background:var(--surface); border-radius:8px; border:1px solid var(--border);">`;
+      html += `<div style="font-weight:700; font-size:14px; margin-bottom:8px;">${escapeHtml(c.school)} · ${escapeHtml(lvl)} · ${c.year || '?'}-${c.semester || '?'}학기 · ${escapeHtml(c.subject || '')}</div>`;
+
+      for (const ek of examKinds) {
+        const draftKey = `${c.id}__${ek}`;
+        const d = cachedLocalDrafts[draftKey] || {};
+        const notes = (c.notesByExamKind || {})[ek] || '';
+        const examInfo = (c.examInfoByExamKind || {})[ek] || '';
+        html += `
+          <div style="margin-top:10px; padding:10px; background:var(--surface2); border-radius:6px;">
+            <div style="font-weight:600; color:#5a3a9e; margin-bottom:6px;">${ek}</div>
+            ${notes ? `<div style="font-size:11px; color:var(--text2); margin-bottom:6px;">📝 범위: ${escapeHtml(notes)}</div>` : ''}
+            ${examInfo ? `<div style="font-size:11px; color:var(--text2); margin-bottom:6px;">📋 출제정보: ${escapeHtml(examInfo)}</div>` : ''}
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-bottom:6px;">
+              <div><label class="gi-label">원점수</label><input type="number" min="0" max="100" class="gi-input" data-key="${draftKey}" data-field="score" value="${d.score ?? ''}" placeholder="예: 88"></div>
+              ${!isMid ? `<div><label class="gi-label">등급</label><select class="gi-input" data-key="${draftKey}" data-field="grade">
+                <option value="">선택</option>
+                ${[1,2,3,4,5,6,7,8,9].map(g => `<option value="${g}" ${String(d.grade)===String(g)?'selected':''}>${g}등급</option>`).join('')}
+              </select></div>` : ''}
+            </div>
+            ${!isMid ? `
+              <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px;">
+                <div><label class="gi-label">석차</label><input type="number" min="1" class="gi-input" data-key="${draftKey}" data-field="rank" value="${d.rank ?? ''}" placeholder="3"></div>
+                <div><label class="gi-label">전교 인원</label><input type="number" min="1" class="gi-input" data-key="${draftKey}" data-field="totalStudents" value="${d.totalStudents ?? ''}" placeholder="250"></div>
+              </div>
+            ` : ''}
+            ${d.savedAt ? `<div style="font-size:11px; color:var(--text3); margin-top:6px;">💾 ${formatRelativeTime(new Date(d.savedAt))} 저장됨</div>` : ''}
+          </div>
+        `;
+      }
+      html += `</div>`;
+    }
+    html += `
+      <button class="make-note-btn" style="background:#5d8a4a; margin:4px 0 20px;" onclick="saveAllGradeInputs()">
+        💾 입력한 성적 저장 (선생님께 전송)
+      </button>
+    `;
+    wrap.innerHTML = html;
+
+    // 인풋 변경 이벤트 — localStorage 자동 저장 (전송은 별도 버튼)
+    wrap.querySelectorAll('.gi-input').forEach(el => {
+      el.addEventListener('input', () => {
+        const k = el.dataset.key;
+        const f = el.dataset.field;
+        if (!cachedLocalDrafts[k]) cachedLocalDrafts[k] = {};
+        cachedLocalDrafts[k][f] = el.value;
+        saveLocalDrafts();
+      });
+    });
+  }
+
+  // 전송 함수 placeholder — 다음 단계에서 Cloudinary 업로드 추가
+  async function saveAllGradeInputs() {
+    alert('이번 단계에서는 임시로 로컬에만 저장됩니다.\n다음 업데이트에서 선생님께 자동 전송 기능이 추가됩니다.\n\n지금 입력한 내용은 브라우저에 안전하게 저장되어 있어요.');
+    // 저장 시간 기록
+    for (const k in cachedLocalDrafts) {
+      cachedLocalDrafts[k].savedAt = new Date().toISOString();
+    }
+    saveLocalDrafts();
+    renderGradeExams();
   }
 
   // 완료 노트: details/summary 토글 (과제 토글과 통일된 모양)

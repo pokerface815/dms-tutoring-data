@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T14:36:11.720Z",
+  "generatedAt": "2026-06-14T15:26:52.307Z",
   "student": {
     "name": "지유진",
     "school": "문정여고",
@@ -113,11 +113,11 @@
     }
   ],
   "weekProgress": {
-    "total": 3,
-    "done": 3,
-    "percent": 100,
-    "startDate": "2026-06-08",
-    "endDate": "2026-06-14"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
   "tasks": []

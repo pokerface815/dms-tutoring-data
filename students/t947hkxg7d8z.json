@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T01:07:45.556Z",
+  "generatedAt": "2026-06-14T01:15:33.167Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -9,26 +9,33 @@
     "showMakeNote": true
   },
   "today": [],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+  "overdue": [
     {
       "assignmentId": "a_1778384022946_9m9pgb",
       "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
       "subject": "대수",
       "round": 1,
       "plannedDate": "2026-05-10",
-      "done": true,
-      "doneAt": "2026-06-14T01:07:17.768Z"
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1778384022946_9m9pgb",
       "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
       "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-05-17",
-      "done": true,
-      "doneAt": "2026-06-14T01:07:14.327Z"
+      "round": 2,
+      "plannedDate": "2026-05-11",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1778509842286_m42zba",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-11",
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1778509842286_m42zba",
@@ -36,35 +43,53 @@
       "subject": "대수",
       "round": 2,
       "plannedDate": "2026-05-12",
-      "done": true,
-      "doneAt": "2026-06-14T01:07:12.683Z"
-    },
-    {
-      "assignmentId": "a_1778509842286_m42zba",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-05-11",
-      "done": true,
-      "doneAt": "2026-06-14T01:07:11.910Z"
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1778384022946_9m9pgb",
       "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
       "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-05-11",
-      "done": true,
-      "doneAt": "2026-06-14T01:07:11.094Z"
+      "round": 3,
+      "plannedDate": "2026-05-17",
+      "done": false,
+      "doneAt": null
     },
     {
-      "assignmentId": "a_1779542958590_b0w63c",
-      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~33번)",
+      "assignmentId": "a_1778509842286_m42zba",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-05-18",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1779115376279_zzxgy1",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
       "subject": "대수",
       "round": 1,
-      "plannedDate": "2026-05-23",
-      "done": true,
-      "doneAt": "2026-06-14T01:07:04.713Z"
+      "plannedDate": "2026-05-18",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1779115376279_zzxgy1",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-05-20",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1779287559980_ge3q7f",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙(고난도 4,5,6번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-20",
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1779287559980_ge3q7f",
@@ -72,44 +97,26 @@
       "subject": "대수",
       "round": 2,
       "plannedDate": "2026-05-22",
-      "done": true,
-      "doneAt": "2026-06-14T01:07:03.513Z"
+      "done": false,
+      "doneAt": null
     },
     {
-      "assignmentId": "a_1779287559980_ge3q7f",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙(고난도 4,5,6번)",
+      "assignmentId": "a_1779542958590_b0w63c",
+      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~33번)",
       "subject": "대수",
       "round": 1,
-      "plannedDate": "2026-05-20",
-      "done": true,
-      "doneAt": "2026-06-14T01:07:02.468Z"
+      "plannedDate": "2026-05-23",
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1779115376279_zzxgy1",
       "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-05-20",
-      "done": true,
-      "doneAt": "2026-06-14T01:07:01.684Z"
-    },
-    {
-      "assignmentId": "a_1779115376279_zzxgy1",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-05-18",
-      "done": true,
-      "doneAt": "2026-06-14T01:07:00.880Z"
-    },
-    {
-      "assignmentId": "a_1778509842286_m42zba",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
       "subject": "대수",
       "round": 3,
-      "plannedDate": "2026-05-18",
-      "done": true,
-      "doneAt": "2026-06-14T01:07:00.094Z"
+      "plannedDate": "2026-05-25",
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1779542958590_b0w63c",
@@ -117,17 +124,8 @@
       "subject": "대수",
       "round": 2,
       "plannedDate": "2026-05-25",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:50.813Z"
-    },
-    {
-      "assignmentId": "a_1779115376279_zzxgy1",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-05-25",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:50.111Z"
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1779287559980_ge3q7f",
@@ -135,8 +133,8 @@
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-05-27",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:47.272Z"
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1779542958590_b0w63c",
@@ -144,8 +142,8 @@
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-05-30",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:46.411Z"
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1780153722620_6lfbh5",
@@ -153,44 +151,8 @@
       "subject": "대수",
       "round": 1,
       "plannedDate": "2026-05-31",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:45.696Z"
-    },
-    {
-      "assignmentId": "a_1780153722620_6lfbh5",
-      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-07",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:38.732Z"
-    },
-    {
-      "assignmentId": "a_1778384022946_9m9pgb",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-07",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:37.337Z"
-    },
-    {
-      "assignmentId": "a_1780325196252_vl7pxy",
-      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-03",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:33.119Z"
-    },
-    {
-      "assignmentId": "a_1780153722620_6lfbh5",
-      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-02",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:32.337Z"
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1780325196252_vl7pxy",
@@ -198,44 +160,44 @@
       "subject": "대수",
       "round": 1,
       "plannedDate": "2026-06-01",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:31.561Z"
+      "done": false,
+      "doneAt": null
     },
     {
-      "assignmentId": "a_1780924991578_sd6w86",
-      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~36번)",
+      "assignmentId": "a_1780153722620_6lfbh5",
+      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
       "subject": "대수",
       "round": 2,
-      "plannedDate": "2026-06-10",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:22.215Z"
-    },
-    {
-      "assignmentId": "a_1780924991578_sd6w86",
-      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~36번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-08",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:20.590Z"
+      "plannedDate": "2026-06-02",
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1780325196252_vl7pxy",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
       "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-08",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:18.861Z"
+      "round": 2,
+      "plannedDate": "2026-06-03",
+      "done": false,
+      "doneAt": null
     },
     {
-      "assignmentId": "a_1779115376279_zzxgy1",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
+      "assignmentId": "a_1778384022946_9m9pgb",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
       "subject": "대수",
       "round": 4,
-      "plannedDate": "2026-06-08",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:17.488Z"
+      "plannedDate": "2026-06-07",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1780153722620_6lfbh5",
+      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-07",
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1778509842286_m42zba",
@@ -243,8 +205,35 @@
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-08",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:16.073Z"
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1779115376279_zzxgy1",
+      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-08",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1780325196252_vl7pxy",
+      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-08",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1780924991578_sd6w86",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~36번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-08",
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1779287559980_ge3q7f",
@@ -252,8 +241,17 @@
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-10",
-      "done": true,
-      "doneAt": "2026-06-14T01:06:05.380Z"
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1780924991578_sd6w86",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~36번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-10",
+      "done": false,
+      "doneAt": null
     },
     {
       "assignmentId": "a_1779542958590_b0w63c",
@@ -261,14 +259,16 @@
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-13",
-      "done": true,
-      "doneAt": "2026-06-14T01:05:56.686Z"
+      "done": false,
+      "doneAt": null
     }
   ],
+  "upcoming": [],
+  "completed": [],
   "weekProgress": {
     "total": 7,
-    "done": 7,
-    "percent": 100,
+    "done": 0,
+    "percent": 0,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

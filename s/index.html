@@ -390,7 +390,7 @@
                 <div><label class="gi-label">전교 인원</label><input type="number" min="1" class="gi-input" data-key="${draftKey}" data-field="totalStudents" value="${d.totalStudents ?? ''}" placeholder="250"></div>
               </div>
             ` : ''}
-            ${d.savedAt ? `<div style="font-size:11px; color:var(--text3); margin-top:6px;">💾 ${formatRelativeTime(new Date(d.savedAt))} 저장됨</div>` : ''}
+            ${d.sentAt ? `<div style="font-size:11px; color:var(--success); margin-top:6px; font-weight:600;">✓ ${formatRelativeTime(new Date(d.sentAt))} 선생님께 전송됨</div>` : (d.savedAt ? `<div style="font-size:11px; color:var(--text3); margin-top:6px;">💾 ${formatRelativeTime(new Date(d.savedAt))} 저장됨 (아직 전송 안 함)</div>` : '')}
           </div>
         `;
       }
@@ -415,15 +415,76 @@
     });
   }
 
-  // 전송 함수 placeholder — 다음 단계에서 Cloudinary 업로드 추가
   async function saveAllGradeInputs() {
-    alert('이번 단계에서는 임시로 로컬에만 저장됩니다.\n다음 업데이트에서 선생님께 자동 전송 기능이 추가됩니다.\n\n지금 입력한 내용은 브라우저에 안전하게 저장되어 있어요.');
-    // 저장 시간 기록
+    // 입력된 항목들 수집
+    const submissions = [];
     for (const k in cachedLocalDrafts) {
-      cachedLocalDrafts[k].savedAt = new Date().toISOString();
+      const d = cachedLocalDrafts[k];
+      const hasValue = (d.score && d.score !== '') || (d.grade && d.grade !== '') || (d.rank && d.rank !== '') || (d.totalStudents && d.totalStudents !== '');
+      if (!hasValue) continue;
+      const [entryId, examKind] = k.split('__');
+      // 해당 시험 정보 카드 찾기
+      const entry = (cachedSchoolGradeCuts || []).find(c => c.id === entryId);
+      if (!entry) continue;
+      submissions.push({
+        entryId,
+        examKind,
+        school: entry.school,
+        gradeLevel: entry.gradeLevel,
+        year: entry.year,
+        semester: entry.semester,
+        subject: entry.subject,
+        score: d.score ? Number(d.score) : null,
+        grade: d.grade ? Number(d.grade) : null,
+        rank: d.rank ? Number(d.rank) : null,
+        totalStudents: d.totalStudents ? Number(d.totalStudents) : null,
+      });
     }
-    saveLocalDrafts();
-    renderGradeExams();
+    if (submissions.length === 0) {
+      alert('입력된 성적이 없습니다.\n원점수 또는 등급/석차를 입력한 후 저장해주세요.');
+      return;
+    }
+
+    if (!confirm(`${submissions.length}개 시험의 성적을 선생님께 전송합니다.\n\n진행할까요?`)) return;
+
+    const payload = {
+      studentCode,
+      studentName: (studentData.student || {}).name || '',
+      school: (studentData.student || {}).school || '',
+      grade: (studentData.student || {}).grade || '',
+      submittedAt: new Date().toISOString(),
+      submissions,
+    };
+
+    try {
+      const jsonStr = JSON.stringify(payload, null, 2);
+      const blob = new Blob([jsonStr], { type: 'application/json' });
+      const file = new File([blob], `grade_${studentCode}_${Date.now()}.json`, { type: 'application/json' });
+
+      const formData = new FormData();
+      formData.append('file', file);
+      formData.append('upload_preset', CLOUDINARY_UPLOAD_PRESET);
+      formData.append('tags', `student_${studentCode},grade_submission`);
+      formData.append('context', `student_code=${studentCode}|kind=grade_submission`);
+
+      const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
+      const res = await fetch(url, { method: 'POST', body: formData });
+      const data = await res.json();
+      if (!res.ok || !data.secure_url) throw new Error((data.error && data.error.message) || '업로드 실패');
+
+      // 저장 시간 기록 (전송된 항목들)
+      for (const k in cachedLocalDrafts) {
+        const d = cachedLocalDrafts[k];
+        const hasValue = (d.score && d.score !== '') || (d.grade && d.grade !== '') || (d.rank && d.rank !== '') || (d.totalStudents && d.totalStudents !== '');
+        if (hasValue) cachedLocalDrafts[k].sentAt = new Date().toISOString();
+      }
+      saveLocalDrafts();
+      renderGradeExams();
+      alert(`✓ ${submissions.length}개 시험 성적을 선생님께 전송했습니다.\n선생님이 통합본에서 확인 후 받아갑니다.`);
+    } catch (e) {
+      console.error(e);
+      alert('전송 실패: ' + e.message + '\n\n나중에 다시 시도해주세요.');
+    }
   }
 
   // 완료 노트: details/summary 토글 (과제 토글과 통일된 모양)

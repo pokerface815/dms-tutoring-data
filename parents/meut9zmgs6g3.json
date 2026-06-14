@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-14T04:52:48.899Z",
+  "generatedAt": "2026-06-14T06:15:53.518Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -15,9 +15,9 @@
       "completionRate": null,
       "noteStages": {
         "4": {
-          "done": 0,
+          "done": 1,
           "total": 1,
-          "percent": 0
+          "percent": 100
         }
       }
     },
@@ -28,19 +28,19 @@
       "completionRate": null,
       "noteStages": {
         "1": {
-          "done": 0,
+          "done": 1,
           "total": 1,
-          "percent": 0
+          "percent": 100
         },
         "2": {
-          "done": 0,
+          "done": 1,
           "total": 1,
-          "percent": 0
+          "percent": 100
         },
         "3": {
-          "done": 0,
+          "done": 1,
           "total": 1,
-          "percent": 0
+          "percent": 100
         }
       }
     }

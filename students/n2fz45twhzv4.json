@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T14:36:09.674Z",
+  "generatedAt": "2026-06-14T15:26:50.260Z",
   "student": {
     "name": "김현민",
     "school": "살레시오고",
@@ -53,8 +53,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-08",
-    "endDate": "2026-06-14"
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
   "tasks": []

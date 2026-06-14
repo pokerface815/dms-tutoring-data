@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T14:35:54.518Z",
+  "generatedAt": "2026-06-14T15:26:36.130Z",
   "student": {
     "name": "박다윤",
     "school": "경신여고",
@@ -10,7 +10,17 @@
   },
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1780138916040_3yonbq",
+      "noteName": "박다윤_마더텅_삼각함수의 활용( ~113번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-20",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1779016655790_78wtrl",
@@ -113,11 +123,11 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 1,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-08",
-    "endDate": "2026-06-14"
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
   "tasks": []

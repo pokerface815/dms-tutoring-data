@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T04:53:28.528Z",
+  "generatedAt": "2026-06-14T07:07:57.671Z",
   "student": {
     "name": "국아인",
     "school": "중앙여고",
@@ -8,20 +8,19 @@
     "class": "",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1780821367626_4ynanq",
       "noteName": "국아인_개념루트_사인법칙과 코사인법칙( ~595번)",
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-06-14",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-14T07:06:22.237Z"
+    },
     {
       "assignmentId": "a_1780821367626_4ynanq",
       "noteName": "국아인_개념루트_사인법칙과 코사인법칙( ~595번)",
@@ -43,8 +42,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

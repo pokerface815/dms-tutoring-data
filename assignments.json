@@ -2202,5 +2202,16 @@
       }
     ],
     "createdAt": "2026-06-13T07:44:02.293Z"
+  },
+  {
+    "id": "task_1781399987259_fergd4",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "부교재 수학적 귀납법 유형완성하기 풀어오기",
+    "dueDate": "2026-06-15",
+    "assignedAt": "2026-06-14T01:19:47.259Z",
+    "batchId": "t_mqd3k37f",
+    "repeat": null,
+    "fromLesson": "lesson_1781353022211_7isgf5"
   }
 ]

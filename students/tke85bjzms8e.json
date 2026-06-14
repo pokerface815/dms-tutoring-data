@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T04:52:37.810Z",
+  "generatedAt": "2026-06-14T07:06:53.543Z",
   "student": {
     "name": "정찬민",
     "school": "살레시오고",
@@ -8,20 +8,19 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1779614518153_8fgga4",
       "noteName": "정찬민_개념루트_사인법칙과 코사인법칙( ~591번)",
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-14",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-14T07:06:20.837Z"
+    },
     {
       "assignmentId": "a_1779015437718_uv3779",
       "noteName": "정찬민_개념루트_삼각함수의 그래프( ~ 521번)",
@@ -160,8 +159,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

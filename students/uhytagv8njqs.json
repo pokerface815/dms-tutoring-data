@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T11:26:49.620Z",
+  "generatedAt": "2026-06-14T11:29:17.586Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -203,7 +203,7 @@
     {
       "assignmentId": "task_1781436387098_luyf18",
       "round": 1,
-      "title": "개념루트 수열의 합 끝내기",
+      "title": "개념루트, 고쟁이 -  수열의 합까지 끝내기\n쎈 - 정규분포가지 끝내기",
       "dueDate": "2026-06-20",
       "isRepeat": false,
       "assignedAt": "2026-06-14T11:26:27.097Z"

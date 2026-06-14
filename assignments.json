@@ -2246,10 +2246,20 @@
     "id": "task_1781436387098_luyf18",
     "type": "task",
     "studentId": "s_1777546978791_hsee5a",
-    "title": "개념루트, 고쟁이 -  수열의 합까지 끝내기\n쎈 - 정규분포가지 끝내기",
+    "title": "개념루트, 고쟁이 -  수열의 합까지 끝내기",
     "dueDate": "2026-06-20",
     "assignedAt": "2026-06-14T11:26:27.097Z",
     "batchId": "t_mqdp89i2",
+    "repeat": null
+  },
+  {
+    "id": "task_1781447441833_wddliz",
+    "type": "task",
+    "studentId": "s_1777546978791_hsee5a",
+    "title": "쎈 - 정규분포가지 끝내기",
+    "dueDate": "2026-06-20",
+    "assignedAt": "2026-06-14T14:30:41.833Z",
+    "batchId": "t_mqdvt7e1",
     "repeat": null
   }
 ]

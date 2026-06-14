@@ -395,21 +395,26 @@
     "subject": "확률과 통계",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {
-      "중간": "조건부확률",
-      "기말": "독립, 종속, 독립시행의 확률, 이산확률분포, 이항분포, 연속확률분포, 정규분포, 통계적 추정"
-    },
-    "examInfoByExamKind": {
-      "기말": "교과서, 부교재"
-    },
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
     "commentsByExamKind": {},
-    "teacher": "최성호",
+    "teacher": "",
     "textbookPublisher": "",
     "supplementaryBook": "쎈",
     "studentInputEnabledByExamKind": {
       "중간": true,
       "기말": true,
       "최종": true
+    },
+    "pdfsByExamKind": {
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781447674/oudioa0ozsco9hqfeh9y.jpg",
+          "name": "동신여 대수 확통 기말 출제범위.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-06-14T14:34:35.125Z"
+        }
+      ]
     }
   },
   {

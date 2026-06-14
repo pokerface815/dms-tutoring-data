@@ -2213,5 +2213,33 @@
     "batchId": "t_mqd3k37f",
     "repeat": null,
     "fromLesson": "lesson_1781353022211_7isgf5"
+  },
+  {
+    "id": "a_1781408618395_mdruwv",
+    "noteId": "note_1781408607360_zpd2au",
+    "noteName": "서은영_마더텅_이산확률분포( ~72번)",
+    "studentId": "s_1778908285779_1cmzde",
+    "subject": "확률과 통계",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-14",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-16",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-21",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-14T03:43:38.395Z"
   }
 ]

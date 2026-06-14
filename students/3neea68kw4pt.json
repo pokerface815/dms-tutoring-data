@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T14:36:23.990Z",
+  "generatedAt": "2026-06-14T15:27:04.596Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -16,8 +16,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-08",
-    "endDate": "2026-06-14"
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21"
   },
   "teacherConfirms": {
     "task_1780499298479_b3ko7f__1": {

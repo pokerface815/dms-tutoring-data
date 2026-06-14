@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T04:49:14.686Z",
+  "generatedAt": "2026-06-14T04:52:47.875Z",
   "student": {
     "name": "서은영",
     "school": "경신여고",
@@ -8,20 +8,19 @@
     "class": "토,일 2시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1781408618395_mdruwv",
       "noteName": "서은영_마더텅_이산확률분포( ~72번)",
       "subject": "확률과 통계",
       "round": 1,
       "plannedDate": "2026-06-14",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-14T04:52:11.928Z"
+    },
     {
       "assignmentId": "a_1778908306804_awswgq",
       "noteName": "서은영_마더텅_삼각함수의 활용( ~70번)",
@@ -61,8 +60,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

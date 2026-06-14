@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T01:17:20.341Z",
+  "generatedAt": "2026-06-14T01:20:05.753Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -318,6 +318,14 @@
       "dueDate": "2026-06-10",
       "isRepeat": false,
       "assignedAt": "2026-06-08T11:54:37.088Z"
+    },
+    {
+      "assignmentId": "task_1781399987259_fergd4",
+      "round": 1,
+      "title": "부교재 수학적 귀납법 유형완성하기 풀어오기",
+      "dueDate": "2026-06-15",
+      "isRepeat": false,
+      "assignedAt": "2026-06-14T01:19:47.259Z"
     }
   ]
 }

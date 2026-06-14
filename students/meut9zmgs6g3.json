@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T14:36:13.736Z",
+  "generatedAt": "2026-06-14T15:26:54.358Z",
   "student": {
     "name": "서은영",
     "school": "경신여고",
@@ -10,7 +10,26 @@
   },
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1781408618395_mdruwv",
+      "noteName": "서은영_마더텅_이산확률분포( ~72번)",
+      "subject": "확률과 통계",
+      "round": 2,
+      "plannedDate": "2026-06-16",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1781408618395_mdruwv",
+      "noteName": "서은영_마더텅_이산확률분포( ~72번)",
+      "subject": "확률과 통계",
+      "round": 3,
+      "plannedDate": "2026-06-21",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1781408618395_mdruwv",
@@ -59,11 +78,11 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
-    "done": 1,
-    "percent": 100,
-    "startDate": "2026-06-08",
-    "endDate": "2026-06-14"
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
   "tasks": []

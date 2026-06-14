@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T04:52:27.703Z",
+  "generatedAt": "2026-06-14T07:06:40.949Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -8,20 +8,19 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1779620251071_skubw4",
       "noteName": "김규림_개념루트_등차수열과 등비수열( ~657번)",
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-14",
-      "done": false,
-      "doneAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "done": true,
+      "doneAt": "2026-06-14T07:06:21.604Z"
+    },
     {
       "assignmentId": "a_1781011994095_h8x2yj",
       "noteName": "김규림_개념루트_사인법칙과 코사인법칙( ~595번)",
@@ -169,8 +168,8 @@
   ],
   "weekProgress": {
     "total": 3,
-    "done": 2,
-    "percent": 67,
+    "done": 3,
+    "percent": 100,
     "startDate": "2026-06-08",
     "endDate": "2026-06-14"
   },

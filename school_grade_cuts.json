@@ -395,7 +395,9 @@
     "subject": "확률과 통계",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
+    "notesByExamKind": {
+      "기말": "독립, 종속, 독립시행의 확률, 이산확률분포, 이항분포, 연속확률분표, 정규분포, 통계적 추정"
+    },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
     "teacher": "",

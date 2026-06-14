@@ -1,0 +1,498 @@
+[
+  {
+    "id": "scut_mq6bav60",
+    "school": "문정여고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "대수",
+    "examKind": "중간",
+    "cuts": [
+      80.4,
+      47.5,
+      null,
+      null
+    ],
+    "textbookPublisher": "미래엔",
+    "supplementaryBook": "올림포스 유형편",
+    "notes": "지수, 로그 ~ 삼각함수의 그래프",
+    "comment": "",
+    "cutsByExamKind": {
+      "중간": [
+        80.4,
+        47.5,
+        null,
+        null
+      ]
+    },
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "지수함수, 로그함수, 삼각함수의 정의, 삼각함수의 그래프",
+      "기말": "삼각함수의 활용, 수열, 수학적 귀납법"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "박현정, 오혜연",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq7eq649g22",
+    "school": "숭일고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "대수",
+    "cutsByExamKind": {
+      "중간": [
+        57,
+        null,
+        null,
+        null
+      ]
+    },
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "지수함수, 로그함수, 삼각함수의 정의",
+      "기말": "삼각함수의 그래프, 삼각함수의 활용, 수열, 수학적 귀납법"
+    },
+    "examInfoByExamKind": {
+      "기말": "교과서, 부교재"
+    },
+    "commentsByExamKind": {
+      "중간": "서술형 출제비율 높음(45점)",
+      "기말": "서술형 출제비율 높음(45점)"
+    },
+    "textbookPublisher": "",
+    "supplementaryBook": "개념루트, 수학의 바이블 유형ON 1권",
+    "teacher": "",
+    "studentInputEnabledByExamKind": {
+      "기말": true,
+      "최종": true,
+      "중간": true
+    },
+    "pdfsByExamKind": {
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781432719/cw53rolqoncimlenroid.png",
+          "name": "숭일고 대수 기말 출제범위.png",
+          "type": "image",
+          "uploadedAt": "2026-06-14T10:25:19.714Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scut_mq7eub4b156",
+    "school": "경신여고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "대수",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "지수함수, 로그함수, 삼각함수의 정의, 삼각함수의 그래프",
+      "기말": "삼각함수의 활용, 수열, 수학적 귀납법"
+    },
+    "examInfoByExamKind": {
+      "기말": "마더텅(삼각함수의 활용, 수열), 교과서(수학적 귀납법)"
+    },
+    "commentsByExamKind": {
+      "중간": "주로 마더텅 출제, 학교 공지에 제외 문항 공지됨.",
+      "기말": "주로 마더텅 출제, 학교 공지에 제외 문항 공지됨. 서술형 43점"
+    },
+    "textbookPublisher": "천재(전)",
+    "supplementaryBook": "마더텅",
+    "teacher": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    },
+    "pdfsByExamKind": {
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781432551/qoqvtykypanvvusqlm3f.jpg",
+          "name": "경신여고 대수 기말 참고사항.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-06-14T10:22:31.985Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scut_mq7eybtrjdb",
+    "school": "경신여고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "확률과 통계",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "여러 가지 순열, 중복조합과 이항정리, 확률의 뜻과 성질",
+      "기말": "조건부확률, 독립과 종속, 이산확률분포와 이항분포, 연속확률분포와 정규분포, 통계적 추정"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {
+      "중간": "최고난도 문항 제외",
+      "기말": "최고난도 문항 제외"
+    },
+    "textbookPublisher": "",
+    "supplementaryBook": "마더텅",
+    "teacher": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9q7xwmgnr",
+    "school": "살레시오고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "대수",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "고민우",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념루트, 자이스토리",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9q8obtrpu",
+    "school": "중앙여고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "대수",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "최진영",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념루트",
+    "studentInputEnabledByExamKind": {
+      "최종": true,
+      "기말": true,
+      "중간": true
+    }
+  },
+  {
+    "id": "scut_mq9q9caefjm",
+    "school": "국제고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "대수",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념루트, 수매씽 유형",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9qh2g6r3l",
+    "school": "전사고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "대수",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "유형 해결의 법칙",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9qimjkwmq",
+    "school": "살레시오고",
+    "gradeLevel": "고1",
+    "year": 2026,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념+유형, 마더텅(노란책)",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9qjhn1xya",
+    "school": "고려고",
+    "gradeLevel": "고1",
+    "year": 2026,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "유형 해결의 법칙, 씨뮬",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9qjzcmwho",
+    "school": "숭일고",
+    "gradeLevel": "고1",
+    "year": 2026,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념루트, 올림포스 기출",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9ra02zag7",
+    "school": "동신여고",
+    "gradeLevel": "고1",
+    "year": 2026,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "기말": "여러 가지 방정식, 여러 가지 부등식, 경우의 수(순열, 조합), 행렬"
+    },
+    "examInfoByExamKind": {
+      "기말": "교과서, 부교재, 최근 3개년 6월 모의고사(24,25,26년)"
+    },
+    "commentsByExamKind": {},
+    "teacher": "박준일, 송민선, 이창석",
+    "textbookPublisher": "미래엔",
+    "supplementaryBook": "수학의 왕도",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9radsil8a",
+    "school": "동신고",
+    "gradeLevel": "고1",
+    "year": 2026,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "기출픽",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9releb8t9",
+    "school": "살레시오고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "확률과 통계",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "수매씽 개념, 풍산자 필수유형",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9rf5fji6o",
+    "school": "중앙여고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "확률과 통계",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "쎈",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9rg5g6o71",
+    "school": "동신여고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "확률과 통계",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "조건부확률",
+      "기말": "독립, 종속, 독립시행의 확률, 이산확률분포, 이항분포, 연속확률분포, 정규분포, 통계적 추정"
+    },
+    "examInfoByExamKind": {
+      "기말": "교과서, 부교재"
+    },
+    "commentsByExamKind": {},
+    "teacher": "최성호",
+    "textbookPublisher": "",
+    "supplementaryBook": "쎈",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mq9rhi57eq2",
+    "school": "전사고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "기하",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {
+      "중간": "부교재 출제율이 낮았음. 교과서 문제 위주"
+    },
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념원리",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mqbvj4bq5va",
+    "school": "국제고",
+    "gradeLevel": "고1",
+    "year": 2026,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "기말": "이차함수의 최대,최소, 여러 가지 방정식, 여러 가지 부등식, 경우의 수(순열, 조합), 행렬"
+    },
+    "examInfoByExamKind": {
+      "기말": "교과서, 부교재"
+    },
+    "commentsByExamKind": {},
+    "teacher": "박남이, 서태원",
+    "textbookPublisher": "동아",
+    "supplementaryBook": "개념+유형",
+    "pdfsByExamKind": {
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781432779/e9ertvdvimpj6tgau7yp.png",
+          "name": "국제고 공수1 기말 출제범위.png",
+          "type": "image",
+          "uploadedAt": "2026-06-14T10:26:19.743Z"
+        }
+      ]
+    },
+    "studentInputEnabledByExamKind": {
+      "기말": true,
+      "중간": true,
+      "최종": true
+    }
+  },
+  {
+    "id": "scut_mqbwsfyf7pn",
+    "school": "동신여고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "대수",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "기말": "삼각함수의 그래프, 삼각함수의 활용, 수열, 수학적 귀납법"
+    },
+    "examInfoByExamKind": {
+      "기말": "교과서, 부교재, 학교 프린트, 6월 모의고사"
+    },
+    "commentsByExamKind": {},
+    "teacher": "박종훈, 조가윤",
+    "textbookPublisher": "",
+    "supplementaryBook": "수학의 왕도",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "최종": true,
+      "기말": true
+    }
+  }
+]

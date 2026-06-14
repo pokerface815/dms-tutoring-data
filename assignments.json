@@ -2241,5 +2241,15 @@
       }
     ],
     "createdAt": "2026-06-14T03:43:38.395Z"
+  },
+  {
+    "id": "task_1781436387098_luyf18",
+    "type": "task",
+    "studentId": "s_1777546978791_hsee5a",
+    "title": "개념루트 수열의 합 끝내기",
+    "dueDate": "2026-06-20",
+    "assignedAt": "2026-06-14T11:26:27.097Z",
+    "batchId": "t_mqdp89i2",
+    "repeat": null
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-13T14:14:52.479Z",
+  "generatedAt": "2026-06-14T01:07:40.277Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,7 +12,11 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [],
-      "completionRate": null,
+      "completionRate": {
+        "done": 2,
+        "total": 2,
+        "percent": 100
+      },
       "noteStages": {
         "1": {
           "done": 0,

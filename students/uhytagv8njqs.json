@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T14:35:52.163Z",
+  "generatedAt": "2026-06-14T15:26:34.105Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -10,7 +10,26 @@
   },
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1781011994095_h8x2yj",
+      "noteName": "김규림_개념루트_사인법칙과 코사인법칙( ~595번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-16",
+      "done": false,
+      "doneAt": null
+    },
+    {
+      "assignmentId": "a_1780135968357_h4pk5b",
+      "noteName": "김규림_개념루트_등차수열과 등비수열( ~709번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-20",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1779620251071_skubw4",
@@ -167,11 +186,11 @@
     }
   ],
   "weekProgress": {
-    "total": 3,
-    "done": 3,
-    "percent": 100,
-    "startDate": "2026-06-08",
-    "endDate": "2026-06-14"
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21"
   },
   "teacherConfirms": {
     "task_1780833238420_v9xdmb__1": {

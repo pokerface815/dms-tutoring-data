@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-14T01:17:21.508Z",
+  "generatedAt": "2026-06-14T01:20:06.861Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -17,8 +17,8 @@
           "weekday": "토",
           "className": "조예나 개별",
           "content": "오답노트 반복 & 질문",
-          "task": "",
-          "taskDue": "",
+          "task": "부교재 수학적 귀납법 유형완성하기 풀어오기",
+          "taskDue": "2026-06-15",
           "myNote": "시그마 부분이 약하니, 추가 보충 필요함."
         },
         {

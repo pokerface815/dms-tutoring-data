@@ -44,25 +44,25 @@
         "stage": 1,
         "planned": "2026-05-10",
         "actualDone": true,
-        "doneAt": "2026-05-10T08:47:16.503Z"
+        "doneAt": "2026-06-14T01:07:17.768Z"
       },
       {
         "stage": 2,
         "planned": "2026-05-11",
         "actualDone": true,
-        "doneAt": "2026-05-11T14:23:27.305Z"
+        "doneAt": "2026-06-14T01:07:11.094Z"
       },
       {
         "stage": 3,
         "planned": "2026-05-17",
         "actualDone": true,
-        "doneAt": "2026-05-17T13:17:09.381Z"
+        "doneAt": "2026-06-14T01:07:14.327Z"
       },
       {
         "stage": 4,
         "planned": "2026-06-07",
         "actualDone": true,
-        "doneAt": "2026-06-08T08:52:54.168Z"
+        "doneAt": "2026-06-14T01:06:37.337Z"
       }
     ],
     "createdAt": "2026-05-10T03:33:42.946Z"
@@ -214,25 +214,25 @@
         "stage": 1,
         "planned": "2026-05-11",
         "actualDone": true,
-        "doneAt": "2026-05-11T14:43:19.249Z"
+        "doneAt": "2026-06-14T01:07:11.910Z"
       },
       {
         "stage": 2,
         "planned": "2026-05-12",
         "actualDone": true,
-        "doneAt": "2026-05-13T10:27:18.636Z"
+        "doneAt": "2026-06-14T01:07:12.683Z"
       },
       {
         "stage": 3,
         "planned": "2026-05-18",
         "actualDone": true,
-        "doneAt": "2026-05-18T12:46:19.677Z"
+        "doneAt": "2026-06-14T01:07:00.094Z"
       },
       {
         "stage": 4,
         "planned": "2026-06-08",
         "actualDone": true,
-        "doneAt": "2026-06-08T11:33:34.465Z"
+        "doneAt": "2026-06-14T01:06:16.073Z"
       }
     ],
     "createdAt": "2026-05-11T14:30:42.286Z"
@@ -724,25 +724,25 @@
         "stage": 1,
         "planned": "2026-05-18",
         "actualDone": true,
-        "doneAt": "2026-05-19T07:02:36.459Z"
+        "doneAt": "2026-06-14T01:07:00.880Z"
       },
       {
         "stage": 2,
         "planned": "2026-05-20",
         "actualDone": true,
-        "doneAt": "2026-05-20T11:45:59.509Z"
+        "doneAt": "2026-06-14T01:07:01.684Z"
       },
       {
         "stage": 3,
         "planned": "2026-05-25",
         "actualDone": true,
-        "doneAt": "2026-05-27T14:40:31.521Z"
+        "doneAt": "2026-06-14T01:06:50.111Z"
       },
       {
         "stage": 4,
         "planned": "2026-06-08",
         "actualDone": true,
-        "doneAt": "2026-06-08T11:33:35.065Z"
+        "doneAt": "2026-06-14T01:06:17.488Z"
       }
     ],
     "createdAt": "2026-05-18T14:42:56.279Z"
@@ -826,25 +826,25 @@
         "stage": 1,
         "planned": "2026-05-20",
         "actualDone": true,
-        "doneAt": "2026-05-20T16:59:35.326Z"
+        "doneAt": "2026-06-14T01:07:02.468Z"
       },
       {
         "stage": 2,
         "planned": "2026-05-22",
         "actualDone": true,
-        "doneAt": "2026-05-23T04:23:44.052Z"
+        "doneAt": "2026-06-14T01:07:03.513Z"
       },
       {
         "stage": 3,
         "planned": "2026-05-27",
         "actualDone": true,
-        "doneAt": "2026-05-27T14:40:40.769Z"
+        "doneAt": "2026-06-14T01:06:47.272Z"
       },
       {
         "stage": 4,
         "planned": "2026-06-10",
         "actualDone": true,
-        "doneAt": "2026-06-11T07:32:36.468Z"
+        "doneAt": "2026-06-14T01:06:05.380Z"
       }
     ],
     "createdAt": "2026-05-20T14:32:39.980Z"
@@ -996,25 +996,25 @@
         "stage": 1,
         "planned": "2026-05-23",
         "actualDone": true,
-        "doneAt": "2026-05-24T08:32:36.174Z"
+        "doneAt": "2026-06-14T01:07:04.713Z"
       },
       {
         "stage": 2,
         "planned": "2026-05-25",
         "actualDone": true,
-        "doneAt": "2026-05-27T14:40:35.951Z"
+        "doneAt": "2026-06-14T01:06:50.813Z"
       },
       {
         "stage": 3,
         "planned": "2026-05-30",
         "actualDone": true,
-        "doneAt": "2026-05-30T13:52:12.119Z"
+        "doneAt": "2026-06-14T01:06:46.411Z"
       },
       {
         "stage": 4,
         "planned": "2026-06-13",
         "actualDone": true,
-        "doneAt": "2026-06-13T14:14:21.978Z"
+        "doneAt": "2026-06-14T01:05:56.686Z"
       }
     ],
     "createdAt": "2026-05-23T13:29:18.590Z"
@@ -1380,19 +1380,19 @@
         "stage": 1,
         "planned": "2026-05-31",
         "actualDone": true,
-        "doneAt": "2026-05-31T08:14:54.422Z"
+        "doneAt": "2026-06-14T01:06:45.696Z"
       },
       {
         "stage": 2,
         "planned": "2026-06-02",
         "actualDone": true,
-        "doneAt": "2026-06-03T11:23:44.274Z"
+        "doneAt": "2026-06-14T01:06:32.337Z"
       },
       {
         "stage": 3,
         "planned": "2026-06-07",
         "actualDone": true,
-        "doneAt": "2026-06-08T08:52:54.884Z"
+        "doneAt": "2026-06-14T01:06:38.732Z"
       },
       {
         "stage": 4,
@@ -1557,19 +1557,19 @@
         "stage": 1,
         "planned": "2026-06-01",
         "actualDone": true,
-        "doneAt": "2026-06-01T15:35:45.402Z"
+        "doneAt": "2026-06-14T01:06:31.561Z"
       },
       {
         "stage": 2,
         "planned": "2026-06-03",
         "actualDone": true,
-        "doneAt": "2026-06-03T11:24:06.926Z"
+        "doneAt": "2026-06-14T01:06:33.119Z"
       },
       {
         "stage": 3,
         "planned": "2026-06-08",
         "actualDone": true,
-        "doneAt": "2026-06-08T11:33:35.675Z"
+        "doneAt": "2026-06-14T01:06:18.861Z"
       },
       {
         "stage": 4,
@@ -2068,13 +2068,13 @@
         "stage": 1,
         "planned": "2026-06-08",
         "actualDone": true,
-        "doneAt": "2026-06-08T14:50:06.368Z"
+        "doneAt": "2026-06-14T01:06:20.590Z"
       },
       {
         "stage": 2,
         "planned": "2026-06-10",
         "actualDone": true,
-        "doneAt": "2026-06-11T07:32:37.474Z"
+        "doneAt": "2026-06-14T01:06:22.215Z"
       },
       {
         "stage": 3,

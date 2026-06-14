@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T11:07:28.302Z",
+  "generatedAt": "2026-06-14T11:26:49.620Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -199,6 +199,14 @@
       "dueDate": "2026-06-13",
       "isRepeat": false,
       "assignedAt": "2026-06-07T11:53:58.420Z"
+    },
+    {
+      "assignmentId": "task_1781436387098_luyf18",
+      "round": 1,
+      "title": "개념루트 수열의 합 끝내기",
+      "dueDate": "2026-06-20",
+      "isRepeat": false,
+      "assignedAt": "2026-06-14T11:26:27.097Z"
     }
   ]
 }

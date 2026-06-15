@@ -168,6 +168,13 @@
     .refresh-btn { display: inline-flex; align-items: center; gap: 4px; padding: 8px 16px; background: var(--surface); border: 0.5px solid var(--border); border-radius: 18px; font-size: 12px; color: var(--text2); cursor: pointer; margin-bottom: 10px; font-family: inherit; }
     .make-note-btn { display: flex; align-items: center; justify-content: center; gap: 6px; width: 66.67%; max-width: 380px; margin: 0 auto 16px; box-sizing: border-box; padding: 13px; background: #c8e6c9; color: #1b5e20; border: 0.5px solid rgba(46,125,50,0.3); border-radius: 12px; font-size: 15px; font-weight: 700; text-decoration: none; box-shadow: 0 2px 6px rgba(46,125,50,0.15); }
     .make-note-btn:active { background: #a5d6a7; }
+    /* 모든 가로 버튼 동일 크기 */
+    .upload-btn,
+    .grades-action-btn {
+      width: 66.67% !important;
+      max-width: 380px !important;
+      box-sizing: border-box;
+    }
     .refresh-btn:active { background: var(--surface2); }
     .last-updated { display: block; margin-top: 6px; }
 
@@ -214,7 +221,7 @@
   .progress-mini-fill.task { background: #97aac8; }
 
   .back-link {
-    display: inline-block; padding: 4px 10px 4px 0; margin: 4px 0 0;
+    display: inline-block; padding: 4px 10px; margin: 4px 0 0 4px;
     color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 500;
   }
   .back-link:active { opacity: 0.6; }
@@ -473,96 +480,121 @@
   function renderGradeChart(myGrades) {
     const wrap = document.getElementById('gradeChartSection');
     if (!wrap) return;
-    const naesin = (myGrades || []).filter(g => g.type === 'naesin').slice();
-    const mock = (myGrades || []).filter(g => g.type === 'mock').slice();
+    // "최종" examKind 제외 (옛 데이터 호환)
+    const allGrades = (myGrades || []).filter(g => g.type !== 'naesin' || g.examKind !== '최종');
+    const naesin = allGrades.filter(g => g.type === 'naesin');
+    const mock = allGrades.filter(g => g.type === 'mock');
     if (naesin.length === 0 && mock.length === 0) { wrap.innerHTML = ''; return; }
 
-    naesin.sort((a,b) => {
-      if (a.year !== b.year) return (a.year||0) - (b.year||0);
-      if (String(a.semester) !== String(b.semester)) return String(a.semester).localeCompare(String(b.semester));
-      const exOrder = { '중간': 1, '기말': 2, '최종': 3 };
-      return (exOrder[a.examKind]||0) - (exOrder[b.examKind]||0);
-    });
-    mock.sort((a,b) => {
-      if (a.year !== b.year) return (a.year||0) - (b.year||0);
-      return (a.month||0) - (b.month||0);
-    });
-
     let html = '';
-
     if (naesin.length >= 1) {
       html += `<div class="grade-chart-card">
         <div class="grade-chart-title">학교 내신</div>
-        ${renderBarChart(naesin, 'naesin')}
+        ${renderNaesinBarChart(naesin)}
       </div>`;
     }
     if (mock.length >= 1) {
       html += `<div class="grade-chart-card">
         <div class="grade-chart-title">모의고사</div>
-        ${renderBarChart(mock, 'mock')}
+        ${renderMockBarChart(mock)}
       </div>`;
     }
     wrap.innerHTML = html;
   }
 
-  function renderBarChart(items, kind) {
-    if (items.length === 0) return '';
-    const W = 320, H = 180, padL = 22, padR = 10, padT = 24, padB = 56;
-    const innerW = W - padL - padR, innerH = H - padT - padB;
-    const values = items.map(g => g.score ?? g.mathScore).map(v => v == null ? null : Number(v));
-    const validValues = values.filter(v => v != null);
-    if (validValues.length === 0) return `<div class="chart-empty">점수 데이터 없음</div>`;
-    const yMin = 0, yMax = 100;
-
-    // 라벨: 내신 = "과목명 / 중간", 모의고사 = "년월 (선택과목)"
-    const labels = items.map(g => {
-      if (kind === 'naesin') {
-        const subj = (g.subject || '').slice(0, 4);
-        const ek = (g.examKind || '').slice(0, 2);
-        return [subj, ek];
-      } else {
-        const m = String(g.month || '').padStart(2, '0');
-        const ye = String(g.year || '').slice(2);
-        return [`${ye}.${m}월`, (g.elective || '').slice(0, 4)];
+  // 학교 내신 그래프 — 기본 5과목 × 2(중간/기말) = 10슬롯 + 학생 추가 과목
+  function renderNaesinBarChart(items) {
+    const DEFAULT_SUBJECTS = ['공통수학1', '공통수학2', '대수', '미적분1', '확률과 통계'];
+    // 학생이 실제 입력한 과목 (기본에 없는 것)
+    const inputSubjects = [...new Set(items.map(g => g.subject).filter(Boolean))];
+    const extraSubjects = inputSubjects.filter(s => !DEFAULT_SUBJECTS.includes(s));
+    const subjects = [...DEFAULT_SUBJECTS, ...extraSubjects];
+    // 슬롯: 과목 × (중간, 기말)
+    const slots = [];
+    for (const subj of subjects) {
+      for (const ek of ['중간', '기말']) {
+        const match = items.find(g => g.subject === subj && g.examKind === ek);
+        slots.push({
+          subject: subj,
+          examKind: ek,
+          grade: match,
+          label: [subj.length > 5 ? subj.slice(0, 4) + '…' : subj, ek],
+        });
       }
-    });
+    }
+    return renderSlotChart(slots);
+  }
 
-    const n = items.length;
-    const barGap = 6;
+  // 모의고사 그래프 — 최소 10슬롯, 시간순 채움
+  function renderMockBarChart(items) {
+    // 시간순 정렬
+    const sorted = items.slice().sort((a,b) => {
+      if (a.year !== b.year) return (a.year||0) - (b.year||0);
+      return (a.month||0) - (b.month||0);
+    });
+    const MIN_SLOTS = 10;
+    const n = Math.max(MIN_SLOTS, sorted.length);
+    const slots = [];
+    for (let i = 0; i < n; i++) {
+      const g = sorted[i];
+      if (g) {
+        const ye = String(g.year || '').slice(2);
+        const m = String(g.month || '').padStart(2, '0');
+        const elective = (g.elective || '').slice(0, 4);
+        slots.push({ grade: g, label: [`${ye}.${m}월`, elective] });
+      } else {
+        slots.push({ grade: null, label: ['', ''] });
+      }
+    }
+    return renderSlotChart(slots);
+  }
+
+  // 공통 슬롯 막대 그래프 렌더
+  function renderSlotChart(slots) {
+    if (slots.length === 0) return '';
+    const n = slots.length;
+    // 너무 좁아지지 않도록 폭 조정 (n에 비례)
+    const W = Math.max(320, n * 32);
+    const H = 200, padL = 24, padR = 10, padT = 24, padB = 60;
+    const innerW = W - padL - padR, innerH = H - padT - padB;
+    const yMin = 0, yMax = 100;
+    const barGap = 4;
     const barW = Math.max(8, (innerW - barGap * (n - 1)) / Math.max(n, 1));
 
     let bars = '';
-    items.forEach((g, i) => {
-      const v = values[i];
-      if (v == null) return;
-      const x = padL + i * (barW + barGap);
-      const h = (v / yMax) * innerH;
-      const y = padT + innerH - h;
-      const color = gradeColor(g.grade);
-      // 막대
-      bars += `<rect x="${x}" y="${y}" width="${barW}" height="${h}" fill="${color}" rx="3" ry="3" opacity="0.85"/>`;
-      // 값 표시: 점수(등급)
-      const displayText = g.grade ? `${v}(${g.grade})` : `${v}`;
-      bars += `<text x="${x + barW/2}" y="${y - 5}" text-anchor="middle" font-size="9.5" fill="#444" font-weight="700">${displayText}</text>`;
-    });
-
     let xLabels = '';
-    items.forEach((g, i) => {
-      const x = padL + i * (barW + barGap) + barW/2;
-      const [l1, l2] = labels[i];
-      xLabels += `<text x="${x}" y="${H - 36}" text-anchor="middle" font-size="9.5" fill="#555" font-weight="600">${escapeHtml(l1)}</text>`;
-      if (l2) xLabels += `<text x="${x}" y="${H - 22}" text-anchor="middle" font-size="9" fill="#888">${escapeHtml(l2)}</text>`;
+    slots.forEach((slot, i) => {
+      const x = padL + i * (barW + barGap);
+      const cx = x + barW / 2;
+      const g = slot.grade;
+      const v = g ? (g.score ?? g.mathScore) : null;
+      if (v != null) {
+        const h = (Number(v) / yMax) * innerH;
+        const y = padT + innerH - h;
+        const color = gradeColor(g.grade);
+        bars += `<rect x="${x}" y="${y}" width="${barW}" height="${h}" fill="${color}" rx="3" ry="3" opacity="0.85"/>`;
+        const displayText = g.grade ? `${v}(${g.grade})` : `${v}`;
+        bars += `<text x="${cx}" y="${y - 5}" text-anchor="middle" font-size="9.5" fill="#444" font-weight="700">${displayText}</text>`;
+      } else {
+        // 빈 슬롯 — 옅은 점선 (입력 대기)
+        bars += `<rect x="${x}" y="${padT + innerH - 6}" width="${barW}" height="6" fill="#eee" rx="2" ry="2"/>`;
+      }
+      const [l1, l2] = slot.label;
+      if (l1) xLabels += `<text x="${cx}" y="${H - 38}" text-anchor="middle" font-size="9" fill="#555" font-weight="600">${escapeHtml(l1)}</text>`;
+      if (l2) xLabels += `<text x="${cx}" y="${H - 24}" text-anchor="middle" font-size="8.5" fill="#888">${escapeHtml(l2)}</text>`;
     });
 
     return `
-      <svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="xMidYMid meet" style="background:#fff; border-radius:6px;">
-        <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT + innerH}" stroke="#e8e8e8" stroke-width="1"/>
-        <line x1="${padL}" y1="${padT + innerH}" x2="${padL + innerW}" y2="${padT + innerH}" stroke="#e8e8e8" stroke-width="1"/>
-        <text x="${padL - 4}" y="${padT + 4}" text-anchor="end" font-size="8.5" fill="#999">100</text>
-        <text x="${padL - 4}" y="${padT + innerH + 3}" text-anchor="end" font-size="8.5" fill="#999">0</text>
-        ${bars}
-        ${xLabels}
-      </svg>
+      <div style="overflow-x:auto;">
+        <svg viewBox="0 0 ${W} ${H}" width="${W}" preserveAspectRatio="xMinYMid meet" style="background:#fff; border-radius:6px; display:block;">
+          <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT + innerH}" stroke="#e8e8e8" stroke-width="1"/>
+          <line x1="${padL}" y1="${padT + innerH}" x2="${padL + innerW}" y2="${padT + innerH}" stroke="#e8e8e8" stroke-width="1"/>
+          <text x="${padL - 4}" y="${padT + 4}" text-anchor="end" font-size="8.5" fill="#999">100</text>
+          <text x="${padL - 4}" y="${padT + innerH + 3}" text-anchor="end" font-size="8.5" fill="#999">0</text>
+          ${bars}
+          ${xLabels}
+        </svg>
+      </div>
       <div class="chart-axis-label">점수(등급) — 막대 색상은 등급</div>
     `;
   }
@@ -737,16 +769,37 @@
   function renderGradeExams() {
     const wrap = document.getElementById('gradeInputSection');
     const s = studentData.student || {};
+    // 학년 매핑 (학생의 현재 학년 이하의 모든 카드 표시)
+    const ORDER = { '중1': 1, '중2': 2, '중3': 3, '고1': 1, '고2': 2, '고3': 3 };
+    const studentType = (s.grade || '').charAt(0); // '중' 또는 '고'
+    const studentLvl = ORDER[s.grade] || 99;
+
     const myEntries = (cachedSchoolGradeCuts || []).filter(c => {
       if (!c.school || c.school !== s.school) return false;
       const lvl = c.gradeLevel || '';
-      if (lvl && s.grade && lvl !== s.grade) return false;
+      // 같은 학교급(중/고)에서 본인 학년 이하만
+      if (lvl && studentType) {
+        if (lvl.charAt(0) !== studentType) return false;
+        if ((ORDER[lvl] || 0) > studentLvl) return false;
+      }
       const enabled = c.studentInputEnabledByExamKind || {};
       return Object.values(enabled).some(v => v === true);
     });
+
+    // 정렬: 학년(낮→높) → 년도 → 학기 → 과목 (교과서 순서 기준)
+    const SUBJECT_ORDER = ['공통수학1', '공통수학2', '대수', '미적분1', '확률과 통계', '기하', '미적분2'];
+    myEntries.sort((a, b) => {
+      const al = ORDER[a.gradeLevel] || 99, bl = ORDER[b.gradeLevel] || 99;
+      if (al !== bl) return al - bl;
+      if ((a.year || 0) !== (b.year || 0)) return (a.year || 0) - (b.year || 0);
+      if (String(a.semester) !== String(b.semester)) return String(a.semester).localeCompare(String(b.semester));
+      const ai = SUBJECT_ORDER.indexOf(a.subject), bi = SUBJECT_ORDER.indexOf(b.subject);
+      if (ai !== bi) return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+      return 0;
+    });
+
     if (myEntries.length === 0) { wrap.innerHTML = ''; return; }
 
-    // 반성 draft 로드
     loadReflectionDrafts();
     const myGrades = (studentData || {}).myGrades || [];
 
@@ -760,7 +813,7 @@
       const isMid = ['중1','중2','중3'].includes(lvl);
 
       html += `<div class="card" style="margin-bottom:14px; padding:14px; background:var(--surface); border-radius:10px; border:1px solid var(--border);">`;
-      html += `<div style="font-weight:700; font-size:14px; margin-bottom:4px; letter-spacing:-0.2px;">${escapeHtml(c.subject || '')} <span style="color:var(--text3); font-weight:500;">· ${c.year || '?'}-${c.semester || '?'}학기</span></div>`;
+      html += `<div style="font-weight:700; font-size:14px; margin-bottom:4px; letter-spacing:-0.2px;">${escapeHtml(c.subject || '')} <span style="color:var(--text3); font-weight:500;">· ${escapeHtml(lvl)} · ${c.year || '?'}-${c.semester || '?'}학기</span></div>`;
       if (c.extraNote) html += `<div style="font-size:11.5px; color:var(--text2); margin-bottom:8px; padding:6px 8px; background:var(--surface2); border-radius:5px; line-height:1.5;">💡 ${escapeHtml(c.extraNote)}</div>`;
 
       for (const ek of examKinds) {
@@ -768,22 +821,36 @@
         const d = cachedLocalDrafts[draftKey] || {};
         const notes = (c.notesByExamKind || {})[ek] || '';
         const examInfo = (c.examInfoByExamKind || {})[ek] || '';
-        // 매칭되는 dashGrade의 reflection 가져오기
+
+        // 이미 dashGrades에 입력된 점수가 있는지
         const matchedGrade = myGrades.find(g => g.type === 'naesin'
           && Number(g.year) === Number(c.year)
           && String(g.semester) === String(c.semester)
           && g.subject === c.subject && g.examKind === ek);
+        const hasScore = matchedGrade && (matchedGrade.score != null || matchedGrade.grade != null);
+
         const reflectionDraftKey = `reflection__${c.id}__${ek}`;
         const reflectionFromGrade = matchedGrade ? (matchedGrade.reflection || '') : '';
         const currentReflection = (cachedReflectionDrafts[reflectionDraftKey] && cachedReflectionDrafts[reflectionDraftKey].text != null)
           ? cachedReflectionDrafts[reflectionDraftKey].text
           : reflectionFromGrade;
 
-        html += `
-          <div style="margin-top:12px; padding:12px; background:var(--surface2); border-radius:8px;">
-            <div style="font-weight:600; color:#5a3a9e; margin-bottom:8px; font-size:13.5px;">${ek}</div>
-            ${notes ? `<div style="font-size:11.5px; color:var(--text2); margin-bottom:6px;">범위: ${escapeHtml(notes)}</div>` : ''}
-            ${examInfo ? `<div style="font-size:11.5px; color:var(--text2); margin-bottom:6px;">출제정보: ${escapeHtml(examInfo)}</div>` : ''}
+        // 점수 표시 또는 입력 폼
+        let scoreBlock;
+        if (hasScore) {
+          // 이미 점수 채워짐 → 표시만
+          const sc = matchedGrade.score, gd = matchedGrade.grade, rk = matchedGrade.rank, ts = matchedGrade.totalStudents;
+          scoreBlock = `
+            <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap; padding:8px 10px; background:#f0f4f0; border:1px solid #d8e6d8; border-radius:6px;">
+              ${sc != null ? `<span style="font-size:13px; font-weight:700; color:#2e5d2e;">${sc}점</span>` : ''}
+              ${gd ? `<span style="display:inline-block; padding:2px 8px; background:${gradeColor(gd)}; color:#fff; border-radius:4px; font-size:11px; font-weight:700;">${gd}등급</span>` : ''}
+              ${(rk && ts) ? `<span style="font-size:11px; color:var(--text2);">석차 ${rk}/${ts}</span>` : ''}
+              <span style="margin-left:auto; font-size:10.5px; color:var(--text3);">입력됨</span>
+            </div>
+          `;
+        } else {
+          // 입력 폼
+          scoreBlock = `
             <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-bottom:6px;">
               <div><label class="gi-label">원점수</label><input type="number" min="0" max="100" class="gi-input" data-key="${draftKey}" data-field="score" value="${d.score ?? ''}" placeholder="예: 88"></div>
               ${!isMid ? `<div><label class="gi-label">등급</label><select class="gi-input" data-key="${draftKey}" data-field="grade">
@@ -797,24 +864,32 @@
                 <div><label class="gi-label">전교 인원</label><input type="number" min="1" class="gi-input" data-key="${draftKey}" data-field="totalStudents" value="${d.totalStudents ?? ''}" placeholder="250"></div>
               </div>
             ` : ''}
+          `;
+        }
+
+        html += `
+          <div style="margin-top:12px; padding:12px; background:var(--surface2); border-radius:8px;">
+            <div style="font-weight:600; color:#5a3a9e; margin-bottom:8px; font-size:13.5px;">${ek}</div>
+            ${notes ? `<div style="font-size:11.5px; color:var(--text2); margin-bottom:6px;">범위: ${escapeHtml(notes)}</div>` : ''}
+            ${examInfo ? `<div style="font-size:11.5px; color:var(--text2); margin-bottom:6px;">출제정보: ${escapeHtml(examInfo)}</div>` : ''}
+            ${scoreBlock}
             <div style="margin-top:8px;">
               <label class="gi-label">반성 · 다짐</label>
               <textarea class="gi-input reflection-input" data-reflection-key="${reflectionDraftKey}" rows="3" placeholder="예: 계산 실수 많았음. 다음엔 검산 두 번 하자!">${escapeHtml(currentReflection)}</textarea>
             </div>
-            ${d.sentAt ? `<div style="font-size:11px; color:var(--success); margin-top:6px; font-weight:600;">✓ ${formatRelativeTime(new Date(d.sentAt))} 선생님께 전송됨</div>` : (d.savedAt ? `<div style="font-size:11px; color:var(--text3); margin-top:6px;">저장됨 (아직 전송 안 함)</div>` : '')}
+            ${(d.sentAt && !hasScore) ? `<div style="font-size:11px; color:var(--success); margin-top:6px; font-weight:600;">✓ ${formatRelativeTime(new Date(d.sentAt))} 선생님께 전송됨</div>` : ((d.savedAt && !hasScore) ? `<div style="font-size:11px; color:var(--text3); margin-top:6px;">저장됨 (아직 전송 안 함)</div>` : '')}
           </div>
         `;
       }
       html += `</div>`;
     }
     html += `
-      <button class="make-note-btn" style="background:#c8e6c9; color:#1b5e20;" onclick="saveAllGradeInputs()">
+      <button class="make-note-btn" onclick="saveAllGradeInputs()">
         저장 · 선생님께 전송
       </button>
     `;
     wrap.innerHTML = html;
 
-    // 인풋 변경 이벤트 — localStorage 자동 저장
     wrap.querySelectorAll('.gi-input:not(.reflection-input)').forEach(el => {
       el.addEventListener('input', () => {
         const k = el.dataset.key;
@@ -824,7 +899,6 @@
         saveLocalDrafts();
       });
     });
-    // 반성 인풋
     wrap.querySelectorAll('.reflection-input').forEach(el => {
       el.addEventListener('input', () => {
         const k = el.dataset.reflectionKey;

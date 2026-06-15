@@ -511,5 +511,29 @@
         }
       ]
     }
+  },
+  {
+    "id": "scut_mqf2pb0urz8",
+    "school": "경신여고",
+    "gradeLevel": "고1",
+    "year": 2025,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {
+      "중간": "부교재 주로 출제.",
+      "기말": "부교재 주로 출제"
+    },
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "마더텅",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

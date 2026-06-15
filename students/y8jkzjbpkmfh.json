@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:22:26.362Z",
+  "generatedAt": "2026-06-15T05:04:32.308Z",
   "student": {
     "name": "서연준",
     "school": "살레시오고",
@@ -129,5 +129,6 @@
     "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [],
+  "myGrades": []
 }

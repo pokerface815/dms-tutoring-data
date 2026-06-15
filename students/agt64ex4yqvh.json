@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T11:28:13.894Z",
+  "generatedAt": "2026-06-15T02:58:46.358Z",
   "student": {
     "name": "이세영",
     "school": "전남여고",
@@ -16,8 +16,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-08",
-    "endDate": "2026-06-14"
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21"
   },
   "teacherConfirms": {
     "task_1781088257205_pajp85__1": {

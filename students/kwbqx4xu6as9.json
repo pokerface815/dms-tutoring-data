@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:22:57.801Z",
+  "generatedAt": "2026-06-15T05:04:48.078Z",
   "student": {
     "name": "서준우",
     "school": "살레시오중",
@@ -68,5 +68,6 @@
       "isRepeat": false,
       "assignedAt": "2026-06-08T12:12:07.933Z"
     }
-  ]
+  ],
+  "myGrades": []
 }

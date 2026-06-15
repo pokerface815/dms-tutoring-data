@@ -340,5 +340,20 @@
     "taskBatchId": "t_mqd3k37f",
     "createdAt": "2026-06-13T12:17:02.211Z",
     "updatedAt": "2026-06-14T01:19:47.259Z"
+  },
+  {
+    "id": "lesson_1781525379490_852cgq",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-15",
+    "content": "부교재 수열의 합과 수학적 귀납법 마무리.\n부교재 끝. \n복습 + 교과서",
+    "studentNotes": [
+      {
+        "studentId": "s_1777547047005_uo92w5",
+        "note": "Sn이 포함된 귀납적 정의 체크해보기"
+      }
+    ],
+    "taskBatchId": null,
+    "createdAt": "2026-06-15T12:09:39.490Z",
+    "updatedAt": "2026-06-15T12:09:39.490Z"
   }
 ]

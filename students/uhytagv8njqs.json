@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T08:20:08.601Z",
+  "generatedAt": "2026-06-15T08:22:59.994Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -230,7 +230,7 @@
     {
       "assignmentId": "task_1781447441833_wddliz",
       "round": 1,
-      "title": "쎈 - 정규분포가지 끝내기",
+      "title": "쎈 - 정규분포까지 끝내기",
       "dueDate": "2026-06-20",
       "isRepeat": false,
       "assignedAt": "2026-06-14T14:30:41.833Z"

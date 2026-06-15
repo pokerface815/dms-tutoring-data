@@ -376,7 +376,7 @@
   }
 
   function backLinkHtml() {
-    return `<a href="#menu" class="back-link">← 메인으로</a>`;
+    return `<div style="text-align:right; margin-right:4px;"><a href="#menu" class="back-link">← 메인으로</a></div>`;
   }
 
   function renderMainMenu(data) {
@@ -470,7 +470,7 @@
   }
 
   function renderGradesInputView(data) {
-    let html = `<a href="#grades" class="back-link">← 성적 관리</a>`;
+    let html = `<div style="text-align:right; margin-right:4px;"><a href="#grades" class="back-link">← 성적 관리</a></div>`;
     html += `<h2 class="view-title">성적 입력 / 반성</h2>`;
     html += `<div id="gradeInputSection"></div>`;
     return html;
@@ -505,20 +505,17 @@
   // 학교 내신 그래프 — 기본 5과목 × 2(중간/기말) = 10슬롯 + 학생 추가 과목
   function renderNaesinBarChart(items) {
     const DEFAULT_SUBJECTS = ['공통수학1', '공통수학2', '대수', '미적분1', '확률과 통계'];
-    // 학생이 실제 입력한 과목 (기본에 없는 것)
     const inputSubjects = [...new Set(items.map(g => g.subject).filter(Boolean))];
     const extraSubjects = inputSubjects.filter(s => !DEFAULT_SUBJECTS.includes(s));
     const subjects = [...DEFAULT_SUBJECTS, ...extraSubjects];
-    // 슬롯: 과목 × (중간, 기말)
     const slots = [];
     for (const subj of subjects) {
       for (const ek of ['중간', '기말']) {
         const match = items.find(g => g.subject === subj && g.examKind === ek);
         slots.push({
-          subject: subj,
-          examKind: ek,
+          topLabel: ek,
+          groupLabel: subj,
           grade: match,
-          label: [subj.length > 5 ? subj.slice(0, 4) + '…' : subj, ek],
         });
       }
     }
@@ -527,7 +524,6 @@
 
   // 모의고사 그래프 — 최소 10슬롯, 시간순 채움
   function renderMockBarChart(items) {
-    // 시간순 정렬
     const sorted = items.slice().sort((a,b) => {
       if (a.year !== b.year) return (a.year||0) - (b.year||0);
       return (a.month||0) - (b.month||0);
@@ -541,48 +537,69 @@
         const ye = String(g.year || '').slice(2);
         const m = String(g.month || '').padStart(2, '0');
         const elective = (g.elective || '').slice(0, 4);
-        slots.push({ grade: g, label: [`${ye}.${m}월`, elective] });
+        slots.push({ topLabel: `${ye}.${m}월`, groupLabel: elective, grade: g });
       } else {
-        slots.push({ grade: null, label: ['', ''] });
+        slots.push({ topLabel: '', groupLabel: '', grade: null });
       }
     }
     return renderSlotChart(slots);
   }
 
-  // 공통 슬롯 막대 그래프 렌더
+  // 공통 슬롯 막대 그래프 — 같은 groupLabel이 연속이면 묶어서 한 번만 표시
   function renderSlotChart(slots) {
     if (slots.length === 0) return '';
     const n = slots.length;
-    // 너무 좁아지지 않도록 폭 조정 (n에 비례)
-    const W = Math.max(320, n * 32);
-    const H = 200, padL = 24, padR = 10, padT = 24, padB = 60;
+    // 더 넓고 오른쪽 여백 살짝
+    const W = Math.max(340, n * 40);
+    const H = 200, padL = 24, padR = 14, padT = 24, padB = 64;
     const innerW = W - padL - padR, innerH = H - padT - padB;
-    const yMin = 0, yMax = 100;
-    const barGap = 4;
-    const barW = Math.max(8, (innerW - barGap * (n - 1)) / Math.max(n, 1));
+    const yMax = 100;
+    const barGap = 3;
+    const barW = Math.max(10, (innerW - barGap * (n - 1)) / Math.max(n, 1));
+
+    // 슬롯 중심 좌표 계산
+    const slotCx = slots.map((_, i) => padL + i * (barW + barGap) + barW / 2);
 
     let bars = '';
-    let xLabels = '';
+    let topLabels = '';
     slots.forEach((slot, i) => {
       const x = padL + i * (barW + barGap);
-      const cx = x + barW / 2;
+      const cx = slotCx[i];
       const g = slot.grade;
       const v = g ? (g.score ?? g.mathScore) : null;
       if (v != null) {
         const h = (Number(v) / yMax) * innerH;
         const y = padT + innerH - h;
         const color = gradeColor(g.grade);
-        bars += `<rect x="${x}" y="${y}" width="${barW}" height="${h}" fill="${color}" rx="3" ry="3" opacity="0.85"/>`;
-        const displayText = g.grade ? `${v}(${g.grade})` : `${v}`;
-        bars += `<text x="${cx}" y="${y - 5}" text-anchor="middle" font-size="9.5" fill="#444" font-weight="700">${displayText}</text>`;
+        bars += `<rect x="${x}" y="${y}" width="${barW}" height="${h}" fill="${color}" rx="3" ry="3" opacity="0.88"/>`;
+        // 점수만 표시 (등급은 색으로 구분)
+        bars += `<text x="${cx}" y="${y - 5}" text-anchor="middle" font-size="10" fill="#333" font-weight="700">${v}</text>`;
       } else {
-        // 빈 슬롯 — 옅은 점선 (입력 대기)
-        bars += `<rect x="${x}" y="${padT + innerH - 6}" width="${barW}" height="6" fill="#eee" rx="2" ry="2"/>`;
+        bars += `<rect x="${x}" y="${padT + innerH - 5}" width="${barW}" height="5" fill="#eee" rx="2" ry="2"/>`;
       }
-      const [l1, l2] = slot.label;
-      if (l1) xLabels += `<text x="${cx}" y="${H - 38}" text-anchor="middle" font-size="9" fill="#555" font-weight="600">${escapeHtml(l1)}</text>`;
-      if (l2) xLabels += `<text x="${cx}" y="${H - 24}" text-anchor="middle" font-size="8.5" fill="#888">${escapeHtml(l2)}</text>`;
+      // 위 라벨 (각 슬롯마다)
+      if (slot.topLabel) topLabels += `<text x="${cx}" y="${H - 42}" text-anchor="middle" font-size="9.5" fill="#555" font-weight="600">${escapeHtml(slot.topLabel)}</text>`;
     });
+
+    // 그룹 라벨 (같은 groupLabel이 연속인 구간은 묶어서 가운데에 한 번)
+    let groupLabels = '';
+    let i = 0;
+    while (i < n) {
+      const gl = slots[i].groupLabel;
+      if (!gl) { i++; continue; }
+      let j = i;
+      while (j < n && slots[j].groupLabel === gl) j++;
+      const startCx = slotCx[i] - barW / 2;
+      const endCx = slotCx[j - 1] + barW / 2;
+      const midX = (startCx + endCx) / 2;
+      const shortLabel = gl.length > 7 ? gl.slice(0, 6) + '…' : gl;
+      groupLabels += `<text x="${midX}" y="${H - 26}" text-anchor="middle" font-size="10" fill="#333" font-weight="700">${escapeHtml(shortLabel)}</text>`;
+      // 그룹 underline
+      if (j - i > 1) {
+        groupLabels += `<line x1="${startCx + 2}" y1="${H - 18}" x2="${endCx - 2}" y2="${H - 18}" stroke="#bbb" stroke-width="1"/>`;
+      }
+      i = j;
+    }
 
     return `
       <div style="overflow-x:auto;">
@@ -592,11 +609,24 @@
           <text x="${padL - 4}" y="${padT + 4}" text-anchor="end" font-size="8.5" fill="#999">100</text>
           <text x="${padL - 4}" y="${padT + innerH + 3}" text-anchor="end" font-size="8.5" fill="#999">0</text>
           ${bars}
-          ${xLabels}
+          ${topLabels}
+          ${groupLabels}
         </svg>
       </div>
-      <div class="chart-axis-label">점수(등급) — 막대 색상은 등급</div>
+      ${renderGradeLegend()}
     `;
+  }
+
+  // 등급별 색상 범례
+  function renderGradeLegend() {
+    let dots = '';
+    for (let g = 1; g <= 9; g++) {
+      dots += `<span style="display:inline-flex; align-items:center; gap:3px;">
+        <span style="display:inline-block; width:9px; height:9px; background:${gradeColor(g)}; border-radius:2px;"></span>
+        <span style="font-size:10px; color:var(--text2); font-weight:600;">${g}</span>
+      </span>`;
+    }
+    return `<div style="display:flex; gap:8px; justify-content:center; align-items:center; margin-top:8px; flex-wrap:wrap;"><span style="font-size:10px; color:var(--text3); margin-right:2px;">등급</span>${dots}</div>`;
   }
 
   function gradeColor(g) {

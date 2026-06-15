@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T13:54:42.174Z",
+  "generatedAt": "2026-06-15T13:59:03.907Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -435,6 +435,21 @@
       "teacherEdited": true,
       "sourceSubmittedAt": "2026-06-14T16:04:59.943Z",
       "createdAt": "2026-06-15T02:56:58.429Z"
+    },
+    {
+      "id": "grade_mqfa3undjvy",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "미적분2",
+      "examKind": "중간",
+      "score": 98,
+      "grade": null,
+      "rank": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-06-15T13:58:39.337Z"
     }
   ]
 }

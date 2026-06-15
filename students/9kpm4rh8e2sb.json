@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:22:32.602Z",
+  "generatedAt": "2026-06-15T05:04:35.454Z",
   "student": {
     "name": "박다인",
     "school": "국제고",
@@ -220,5 +220,6 @@
     "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [],
+  "myGrades": []
 }

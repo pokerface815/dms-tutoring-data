@@ -188,33 +188,49 @@
   .gi-input:focus { outline: none; border-color: var(--accent); }
 
   /* 메인 메뉴 */
-  .menu-grid { display: flex; flex-direction: column; gap: 12px; margin: 20px 0; }
+  .menu-grid { display: flex; flex-direction: column; gap: 10px; margin: 24px 0 16px; }
   .menu-card {
-    display: block; padding: 24px 20px; background: var(--surface);
-    border-radius: var(--radius); border: 1px solid var(--border);
+    display: block; padding: 18px 20px; background: var(--surface);
+    border-radius: 10px; border: 1px solid var(--border);
     text-decoration: none; color: var(--text);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    transition: background 0.12s ease, transform 0.08s ease;
     text-align: center;
   }
-  .menu-card:active { transform: scale(0.98); }
-  .menu-icon { font-size: 36px; margin-bottom: 6px; }
-  .menu-label { font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
-  .menu-sub { font-size: 12px; color: var(--text2); }
-  .menu-learning { background: #fef8f0; border-color: #ecd8b5; }
-  .menu-video { background: #f0f3fb; border-color: #c6d3e6; }
-  .menu-grades { background: #f3eafe; border-color: #d4b9ee; }
+  .menu-card:active { transform: scale(0.985); background: var(--surface2); }
+  .menu-label { font-size: 16px; font-weight: 600; color: var(--text); letter-spacing: -0.2px; }
+  .menu-learning { border-left: 3px solid var(--accent-light); }
+  .menu-video { border-left: 3px solid #97aac8; }
+  .menu-grades { border-left: 3px solid #b095d5; }
+
+  /* 미니 진행률 (학습관리 화면) */
+  .progress-mini-wrap { display: flex; flex-direction: column; gap: 8px; margin: 10px 0 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+  .progress-mini-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; }
+  .pm-label { font-size: 12px; font-weight: 600; color: var(--text); }
+  .pm-stat { font-size: 11px; color: var(--text2); }
+  .progress-mini-bar { height: 6px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
+  .progress-mini-fill { height: 100%; background: var(--accent-light); border-radius: 3px; transition: width 0.3s ease; }
+  .progress-mini-fill.task { background: #97aac8; }
 
   .back-link {
-    display: inline-block; padding: 6px 12px; margin: 8px 0 4px;
-    color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600;
+    display: inline-block; padding: 4px 10px 4px 0; margin: 4px 0 0;
+    color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 500;
   }
   .back-link:active { opacity: 0.6; }
-  .view-title { font-size: 20px; font-weight: 700; margin: 8px 0 16px; color: var(--text); }
+  .view-title { font-size: 19px; font-weight: 700; margin: 6px 0 14px; color: var(--text); letter-spacing: -0.3px; }
   .empty-view-card {
     background: var(--surface); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 40px 20px; text-align: center;
+    border-radius: 10px; padding: 32px 20px; text-align: center;
     margin: 16px 0;
   }
+  /* 성적 관리 액션 버튼 */
+  .grades-action-btn {
+    display: block; text-align: center; padding: 14px;
+    background: var(--accent); color: #fff; text-decoration: none;
+    border-radius: 10px; font-size: 14.5px; font-weight: 600;
+    margin: 16px 0; letter-spacing: -0.2px;
+    transition: background 0.12s ease;
+  }
+  .grades-action-btn:active { background: var(--accent-dark); }
   /* 성적 추이 그래프 */
   .grade-chart-card {
     background: var(--surface); border: 1px solid var(--border);
@@ -328,6 +344,8 @@
       body = renderVideoView(data);
     } else if (view === 'grades') {
       body = renderGradesView(data);
+    } else if (view === 'grades-input') {
+      body = renderGradesInputView(data);
     } else {
       body = renderMainMenu(data);
     }
@@ -342,7 +360,7 @@
 
     app.innerHTML = headerHtml + body + footerHtml;
 
-    if (view === 'grades') {
+    if (view === 'grades' || view === 'grades-input') {
       loadGradeExams().catch(e => console.warn('시험 정보 로드 실패:', e));
     }
   }
@@ -352,32 +370,16 @@
   }
 
   function renderMainMenu(data) {
-    const wp = data.weekProgress || { total: 0, done: 0, percent: 0 };
-    const s = data.student || {};
     return `
-      <div class="progress-card">
-        <div class="progress-title">📊 이번 주 진행률</div>
-        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${wp.percent}%;"></div></div>
-        <div class="progress-text">
-          <span class="progress-percent">${wp.percent}%</span>
-          <span class="progress-detail">${wp.done} / ${wp.total} 완료 (${formatDateRange(wp.startDate, wp.endDate)})</span>
-        </div>
-      </div>
       <div class="menu-grid">
         <a href="#learning" class="menu-card menu-learning">
-          <div class="menu-icon">📚</div>
           <div class="menu-label">학습관리</div>
-          <div class="menu-sub">과제 · 오답노트</div>
         </a>
         <a href="#video" class="menu-card menu-video">
-          <div class="menu-icon">🎥</div>
           <div class="menu-label">강의 영상</div>
-          <div class="menu-sub">준비 중</div>
         </a>
         <a href="#grades" class="menu-card menu-grades">
-          <div class="menu-icon">📝</div>
           <div class="menu-label">성적 관리</div>
-          <div class="menu-sub">시험 점수 입력</div>
         </a>
       </div>
     `;
@@ -385,18 +387,48 @@
 
   function renderLearningView(data) {
     const s = data.student || {};
+    const wp = data.weekProgress || { total: 0, done: 0, percent: 0 };
+
+    // 과제 진행률 계산 (이번 주)
+    const weekStart = wp.startDate, weekEnd = wp.endDate;
+    const weekTasks = (data.tasks || []).filter(t => t.dueDate && weekStart && weekEnd && t.dueDate >= weekStart && t.dueDate <= weekEnd);
+    const weekTaskDone = weekTasks.filter(t => {
+      const info = getTeacherConfirm(t.assignmentId, t.round || 1);
+      return !!(info && info.confirmed);
+    }).length;
+    const weekTaskTotal = weekTasks.length;
+    const tpPercent = weekTaskTotal > 0 ? Math.round(weekTaskDone / weekTaskTotal * 100) : 0;
+
     let html = backLinkHtml();
-    html += `<h2 class="view-title">📚 학습관리</h2>`;
+    html += `<h2 class="view-title">학습관리</h2>`;
+    html += `
+      <div class="progress-mini-wrap">
+        <div class="progress-mini">
+          <div class="progress-mini-head">
+            <span class="pm-label">오답노트</span>
+            <span class="pm-stat">${wp.done}/${wp.total} · ${wp.percent}%</span>
+          </div>
+          <div class="progress-mini-bar"><div class="progress-mini-fill" style="width:${wp.percent}%;"></div></div>
+        </div>
+        <div class="progress-mini">
+          <div class="progress-mini-head">
+            <span class="pm-label">과제</span>
+            <span class="pm-stat">${weekTaskDone}/${weekTaskTotal} · ${tpPercent}%</span>
+          </div>
+          <div class="progress-mini-bar"><div class="progress-mini-fill task" style="width:${tpPercent}%;"></div></div>
+        </div>
+      </div>
+    `;
     html += (s.showMakeNote ? `<a class="make-note-btn" href="https://pokerface815.github.io/wrong-notes/?name=${encodeURIComponent(s.name || '')}">
       ✏️ 오답노트 만들기
     </a>` : '');
-    html += '<div class="group-label note-group">📖 오답노트</div>';
-    html += renderSection('🔴 오늘 풀어야 할 오답노트', data.today || [], 'today', '오늘 풀 오답노트가 없어요. 잠깐 쉬는 날 ☺️', true);
-    if ((data.overdue || []).length > 0) html += renderSection('⚠️ 밀린 오답노트', data.overdue, 'overdue', '', true);
-    if ((data.upcoming || []).length > 0) html += renderSection('📅 이번 주 일정', data.upcoming, 'upcoming', '', false);
+    html += '<div class="group-label note-group">오답노트</div>';
+    html += renderSection('오늘 풀어야 할 오답노트', data.today || [], 'today', '오늘 풀 오답노트가 없어요. 잠깐 쉬는 날 ☺️', true);
+    if ((data.overdue || []).length > 0) html += renderSection('밀린 오답노트', data.overdue, 'overdue', '', true);
+    if ((data.upcoming || []).length > 0) html += renderSection('이번 주 일정', data.upcoming, 'upcoming', '', false);
     if ((data.completed || []).length > 0) html += renderCompletedSection(data.completed);
     if ((data.tasks || []).length > 0) {
-      html += '<div class="group-label task-group">📚 과제</div>';
+      html += '<div class="group-label task-group">과제</div>';
       html += renderTaskSection(data.tasks);
     }
     return html;
@@ -404,12 +436,11 @@
 
   function renderVideoView(data) {
     let html = backLinkHtml();
-    html += `<h2 class="view-title">🎥 강의 영상</h2>`;
+    html += `<h2 class="view-title">강의 영상</h2>`;
     html += `
       <div class="empty-view-card">
-        <div style="font-size:48px; margin-bottom:12px;">🚧</div>
-        <div style="font-size:16px; font-weight:600; color:var(--text); margin-bottom:6px;">준비 중입니다</div>
-        <div style="font-size:13px; color:var(--text2); line-height:1.6;">곧 강의 영상을 이곳에서 볼 수 있어요.<br>조금만 기다려 주세요!</div>
+        <div style="font-size:15px; font-weight:600; color:var(--text); margin-bottom:6px;">준비 중입니다</div>
+        <div style="font-size:13px; color:var(--text2); line-height:1.6;">곧 강의 영상을 이곳에서 볼 수 있어요.</div>
       </div>
     `;
     return html;
@@ -417,13 +448,21 @@
 
   function renderGradesView(data) {
     let html = backLinkHtml();
-    html += `<h2 class="view-title">📝 성적 관리</h2>`;
-    // 1. 추이 그래프
+    html += `<h2 class="view-title">성적 관리</h2>`;
     html += `<div id="gradeChartSection"></div>`;
-    // 2. 지난 시험 기록 + 반성
-    html += `<div id="gradeHistorySection"></div>`;
-    // 3. 새 시험 입력
+    html += `
+      <a href="#grades-input" class="grades-action-btn">
+        성적 입력 / 반성
+      </a>
+    `;
+    return html;
+  }
+
+  function renderGradesInputView(data) {
+    let html = `<a href="#grades" class="back-link">← 성적 관리</a>`;
+    html += `<h2 class="view-title">성적 입력 / 반성</h2>`;
     html += `<div id="gradeInputSection"></div>`;
+    html += `<div id="gradeHistorySection"></div>`;
     return html;
   }
 
@@ -435,7 +474,6 @@
     const mock = (myGrades || []).filter(g => g.type === 'mock').slice();
     if (naesin.length === 0 && mock.length === 0) { wrap.innerHTML = ''; return; }
 
-    // 시간순 정렬
     naesin.sort((a,b) => {
       if (a.year !== b.year) return (a.year||0) - (b.year||0);
       if (String(a.semester) !== String(b.semester)) return String(a.semester).localeCompare(String(b.semester));
@@ -447,111 +485,82 @@
       return (a.month||0) - (b.month||0);
     });
 
-    let html = `<div class="group-label" style="background:#fdf2e9; border-left:4px solid #e67e22; color:#8d4d12;">📈 내 성적 추이</div>`;
+    let html = `<div class="group-label" style="background:#f5f0e7; border-left:3px solid #c69856; color:#6b4520; font-weight:700;">내 성적 추이</div>`;
 
-    // 내신 그래프
     if (naesin.length >= 1) {
       html += `<div class="grade-chart-card">
         <div class="grade-chart-title">학교 내신</div>
-        ${renderLineChart(naesin, 'naesin')}
+        ${renderBarChart(naesin, 'naesin')}
       </div>`;
     }
-    // 모의고사 그래프
     if (mock.length >= 1) {
       html += `<div class="grade-chart-card">
         <div class="grade-chart-title">모의고사</div>
-        ${renderLineChart(mock, 'mock')}
+        ${renderBarChart(mock, 'mock')}
       </div>`;
     }
     wrap.innerHTML = html;
   }
 
-  function renderLineChart(items, kind) {
+  function renderBarChart(items, kind) {
     if (items.length === 0) return '';
-    // 점수가 있으면 점수로, 없으면 등급으로
-    const usesScore = items.some(g => g.score != null) || items.some(g => g.mathScore != null);
-    const W = 320, H = 160, padL = 32, padR = 12, padT = 14, padB = 30;
+    const W = 320, H = 180, padL = 22, padR = 10, padT = 24, padB = 56;
     const innerW = W - padL - padR, innerH = H - padT - padB;
-    const values = items.map(g => usesScore ? (g.score ?? g.mathScore) : g.grade).map(v => v == null ? null : Number(v));
+    const values = items.map(g => g.score ?? g.mathScore).map(v => v == null ? null : Number(v));
     const validValues = values.filter(v => v != null);
-    if (validValues.length === 0) {
-      return `<div class="chart-empty">점수/등급 데이터 없음</div>`;
-    }
-    let yMin, yMax;
-    if (usesScore) { yMin = 0; yMax = 100; }
-    else { yMin = 1; yMax = 9; }  // 등급은 1이 최고
+    if (validValues.length === 0) return `<div class="chart-empty">점수 데이터 없음</div>`;
+    const yMin = 0, yMax = 100;
 
+    // 라벨: 내신 = "과목명 / 중간", 모의고사 = "년월 (선택과목)"
     const labels = items.map(g => {
-      if (kind === 'naesin') return `${String(g.year).slice(2)}.${g.semester}.${g.examKind?.slice(0,1)||''}`;
-      else return `${String(g.year).slice(2)}.${String(g.month).padStart(2,'0')}월`;
+      if (kind === 'naesin') {
+        const subj = (g.subject || '').slice(0, 4);
+        const ek = (g.examKind || '').slice(0, 2);
+        return [subj, ek];
+      } else {
+        const m = String(g.month || '').padStart(2, '0');
+        const ye = String(g.year || '').slice(2);
+        return [`${ye}.${m}월`, (g.elective || '').slice(0, 4)];
+      }
     });
 
-    const xStep = items.length > 1 ? innerW / (items.length - 1) : 0;
-    const yScale = (v) => {
-      // 등급이면 1(최고)이 위, 9가 아래로 (역순)
-      if (!usesScore) return padT + ((v - yMin) / (yMax - yMin)) * innerH;
-      // 점수면 100이 위
-      return padT + innerH - ((v - yMin) / (yMax - yMin)) * innerH;
-    };
+    const n = items.length;
+    const barGap = 6;
+    const barW = Math.max(8, (innerW - barGap * (n - 1)) / Math.max(n, 1));
 
-    // 라인 path
-    let path = '';
-    let firstX = null;
+    let bars = '';
     items.forEach((g, i) => {
       const v = values[i];
       if (v == null) return;
-      const x = padL + i * xStep;
-      const y = yScale(v);
-      path += (path ? 'L' : 'M') + ` ${x} ${y} `;
-      if (firstX == null) firstX = x;
-    });
-
-    // 점 + 라벨
-    let dots = '';
-    items.forEach((g, i) => {
-      const v = values[i];
-      if (v == null) return;
-      const x = padL + i * xStep;
-      const y = yScale(v);
+      const x = padL + i * (barW + barGap);
+      const h = (v / yMax) * innerH;
+      const y = padT + innerH - h;
       const color = gradeColor(g.grade);
-      dots += `<circle cx="${x}" cy="${y}" r="4.5" fill="${color}" stroke="#fff" stroke-width="2"/>`;
-      dots += `<text x="${x}" y="${y - 9}" text-anchor="middle" font-size="9.5" fill="#444" font-weight="600">${v}</text>`;
+      // 막대
+      bars += `<rect x="${x}" y="${y}" width="${barW}" height="${h}" fill="${color}" rx="3" ry="3" opacity="0.85"/>`;
+      // 값 표시: 점수(등급)
+      const displayText = g.grade ? `${v}(${g.grade})` : `${v}`;
+      bars += `<text x="${x + barW/2}" y="${y - 5}" text-anchor="middle" font-size="9.5" fill="#444" font-weight="700">${displayText}</text>`;
     });
 
-    // X축 라벨
     let xLabels = '';
     items.forEach((g, i) => {
-      const x = padL + i * xStep;
-      const lbl = labels[i];
-      // 텍스트가 너무 빽빽하면 일부만 (3건 이하 모두, 더 많으면 양 끝 + 중간)
-      const show = items.length <= 4 || i === 0 || i === items.length - 1 || i % Math.ceil(items.length / 4) === 0;
-      if (show) xLabels += `<text x="${x}" y="${H - 14}" text-anchor="middle" font-size="9" fill="#888">${lbl}</text>`;
+      const x = padL + i * (barW + barGap) + barW/2;
+      const [l1, l2] = labels[i];
+      xLabels += `<text x="${x}" y="${H - 36}" text-anchor="middle" font-size="9.5" fill="#555" font-weight="600">${escapeHtml(l1)}</text>`;
+      if (l2) xLabels += `<text x="${x}" y="${H - 22}" text-anchor="middle" font-size="9" fill="#888">${escapeHtml(l2)}</text>`;
     });
 
-    // Y축 표시
-    let yAxis;
-    if (usesScore) {
-      yAxis = `
-        <text x="${padL - 6}" y="${padT + 4}" text-anchor="end" font-size="9" fill="#888">100</text>
-        <text x="${padL - 6}" y="${padT + innerH + 4}" text-anchor="end" font-size="9" fill="#888">0</text>
-      `;
-    } else {
-      yAxis = `
-        <text x="${padL - 6}" y="${padT + 4}" text-anchor="end" font-size="9" fill="#888">1등급</text>
-        <text x="${padL - 6}" y="${padT + innerH + 4}" text-anchor="end" font-size="9" fill="#888">9등급</text>
-      `;
-    }
-
     return `
-      <svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="xMidYMid meet" style="background:#fff; border-radius:8px;">
-        <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT + innerH}" stroke="#ddd" stroke-width="1"/>
-        <line x1="${padL}" y1="${padT + innerH}" x2="${padL + innerW}" y2="${padT + innerH}" stroke="#ddd" stroke-width="1"/>
-        ${yAxis}
-        <path d="${path}" fill="none" stroke="#7c5cbf" stroke-width="2"/>
-        ${dots}
+      <svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="xMidYMid meet" style="background:#fff; border-radius:6px;">
+        <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT + innerH}" stroke="#e8e8e8" stroke-width="1"/>
+        <line x1="${padL}" y1="${padT + innerH}" x2="${padL + innerW}" y2="${padT + innerH}" stroke="#e8e8e8" stroke-width="1"/>
+        <text x="${padL - 4}" y="${padT + 4}" text-anchor="end" font-size="8.5" fill="#999">100</text>
+        <text x="${padL - 4}" y="${padT + innerH + 3}" text-anchor="end" font-size="8.5" fill="#999">0</text>
+        ${bars}
         ${xLabels}
       </svg>
-      <div class="chart-axis-label">${usesScore ? '원점수 (0~100)' : '등급 (1~9, 위쪽이 좋음)'}</div>
+      <div class="chart-axis-label">점수(등급) — 막대 색상은 등급</div>
     `;
   }
 
@@ -703,25 +712,23 @@
   }
 
   async function loadGradeExams() {
-    const wrap = document.getElementById('gradeInputSection');
-    if (!wrap) return;
     loadLocalDrafts();
-    // 본인 성적 추이 + 지난 시험 카드 (서버 데이터는 이미 studentData.myGrades에 있음)
     const myGrades = (studentData || {}).myGrades || [];
-    renderGradeChart(myGrades);
-    renderGradeHistory(myGrades);
-    try {
-      if (!cachedSchoolGradeCuts) {
-        const url = `../school_grade_cuts.json?t=${Date.now()}`;
-        const res = await fetch(url, { cache: 'no-store' });
-        if (!res.ok) {
-          if (res.status === 404) return;
-          return;
+    // 성적 관리 메인 — 그래프만
+    if (document.getElementById('gradeChartSection')) renderGradeChart(myGrades);
+    // 성적 입력/반성 화면 — 입력폼 + 반성 카드
+    if (document.getElementById('gradeHistorySection')) renderGradeHistory(myGrades);
+    // 입력 폼은 school_grade_cuts 필요
+    if (document.getElementById('gradeInputSection')) {
+      try {
+        if (!cachedSchoolGradeCuts) {
+          const url = `../school_grade_cuts.json?t=${Date.now()}`;
+          const res = await fetch(url, { cache: 'no-store' });
+          if (res.ok) cachedSchoolGradeCuts = await res.json();
         }
-        cachedSchoolGradeCuts = await res.json();
-      }
-      renderGradeExams();
-    } catch (e) { console.warn('시험 정보 fetch 실패:', e); }
+        renderGradeExams();
+      } catch (e) { console.warn('시험 정보 fetch 실패:', e); }
+    }
   }
 
   function renderGradeExams() {

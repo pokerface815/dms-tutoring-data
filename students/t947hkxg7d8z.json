@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T15:14:08.361Z",
+  "generatedAt": "2026-06-15T15:21:35.548Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -8,9 +8,28 @@
     "class": "개별수업",
     "showMakeNote": true
   },
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1781536830575_5ol8ni",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-16",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [
+    {
+      "assignmentId": "a_1781536830575_5ol8ni",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-18",
+      "done": false,
+      "doneAt": null
+    },
     {
       "assignmentId": "a_1780153722620_6lfbh5",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
@@ -285,9 +304,9 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
+    "total": 4,
     "done": 1,
-    "percent": 50,
+    "percent": 25,
     "startDate": "2026-06-15",
     "endDate": "2026-06-21"
   },

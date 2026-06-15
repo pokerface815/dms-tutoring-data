@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:22:45.510Z",
+  "generatedAt": "2026-06-15T05:04:41.935Z",
   "student": {
     "name": "서은영",
     "school": "경신여고",
@@ -85,5 +85,6 @@
     "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [],
+  "myGrades": []
 }

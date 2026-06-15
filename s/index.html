@@ -206,6 +206,7 @@
   }
   .menu-card:active { transform: scale(0.985); background: var(--surface2); }
   .menu-label { font-size: 16px; font-weight: 600; color: var(--text); letter-spacing: -0.2px; }
+  .menu-sub { font-size: 11.5px; color: var(--text3); margin-top: 4px; }
   .menu-learning { border-left: 3px solid var(--accent-light); }
   .menu-video { border-left: 3px solid #97aac8; }
   .menu-grades { border-left: 3px solid #b095d5; }
@@ -221,9 +222,13 @@
   .progress-mini-fill.task { background: #97aac8; }
 
   .back-link {
-    display: inline-block; padding: 4px 10px; margin: 4px 0 0 4px;
-    color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 500;
+    display: inline-block; padding: 7px 14px; margin: 6px 4px 4px 0;
+    color: var(--text); background: var(--surface);
+    border: 1px solid var(--border); border-radius: 8px;
+    text-decoration: none; font-size: 13px; font-weight: 600;
+    transition: background 0.12s ease;
   }
+  .back-link:active { background: var(--surface2); }
   .back-link:active { opacity: 0.6; }
   .view-title { font-size: 19px; font-weight: 700; margin: 6px 0 14px; color: var(--text); letter-spacing: -0.3px; }
   .empty-view-card {
@@ -384,6 +389,7 @@
       <div class="menu-grid">
         <a href="#learning" class="menu-card menu-learning">
           <div class="menu-label">학습관리</div>
+          <div class="menu-sub">과제 / 오답노트</div>
         </a>
         <a href="#video" class="menu-card menu-video">
           <div class="menu-label">강의 영상</div>
@@ -519,7 +525,7 @@
         });
       }
     }
-    return renderSlotChart(slots);
+    return renderSlotChart(slots, 5);
   }
 
   // 모의고사 그래프 — 최소 10슬롯, 시간순 채움
@@ -534,37 +540,38 @@
     for (let i = 0; i < n; i++) {
       const g = sorted[i];
       if (g) {
-        const ye = String(g.year || '').slice(2);
-        const m = String(g.month || '').padStart(2, '0');
+        const lvl = g.gradeLevel || '';
+        const m = g.month != null ? `${g.month}월` : '';
         const elective = (g.elective || '').slice(0, 4);
-        slots.push({ topLabel: `${ye}.${m}월`, groupLabel: elective, grade: g });
+        slots.push({ topLabel: lvl, groupLabel: m, grade: g, footLabel: elective });
       } else {
         slots.push({ topLabel: '', groupLabel: '', grade: null });
       }
     }
-    return renderSlotChart(slots);
+    return renderSlotChart(slots, 9);
   }
 
-  // 공통 슬롯 막대 그래프 — 같은 groupLabel이 연속이면 묶어서 한 번만 표시
-  function renderSlotChart(slots) {
+  // 공통 슬롯 막대 그래프
+  function renderSlotChart(slots, maxGradeLevels) {
     if (slots.length === 0) return '';
     const n = slots.length;
-    // 더 넓고 오른쪽 여백 살짝
     const W = Math.max(340, n * 40);
     const H = 200, padL = 24, padR = 14, padT = 24, padB = 64;
     const innerW = W - padL - padR, innerH = H - padT - padB;
     const yMax = 100;
     const barGap = 3;
-    const barW = Math.max(10, (innerW - barGap * (n - 1)) / Math.max(n, 1));
+    // 막대 폭 80% (남은 20%는 좌우 여백)
+    const barWAvail = (innerW - barGap * (n - 1)) / Math.max(n, 1);
+    const barW = Math.max(8, barWAvail * 0.8);
+    const barOffset = (barWAvail - barW) / 2;
 
-    // 슬롯 중심 좌표 계산
-    const slotCx = slots.map((_, i) => padL + i * (barW + barGap) + barW / 2);
+    const slotCx = slots.map((_, i) => padL + i * (barWAvail + barGap) + barWAvail / 2);
 
     let bars = '';
     let topLabels = '';
     slots.forEach((slot, i) => {
-      const x = padL + i * (barW + barGap);
       const cx = slotCx[i];
+      const x = cx - barW / 2;
       const g = slot.grade;
       const v = g ? (g.score ?? g.mathScore) : null;
       if (v != null) {
@@ -572,16 +579,14 @@
         const y = padT + innerH - h;
         const color = gradeColor(g.grade);
         bars += `<rect x="${x}" y="${y}" width="${barW}" height="${h}" fill="${color}" rx="3" ry="3" opacity="0.88"/>`;
-        // 점수만 표시 (등급은 색으로 구분)
         bars += `<text x="${cx}" y="${y - 5}" text-anchor="middle" font-size="10" fill="#333" font-weight="700">${v}</text>`;
       } else {
         bars += `<rect x="${x}" y="${padT + innerH - 5}" width="${barW}" height="5" fill="#eee" rx="2" ry="2"/>`;
       }
-      // 위 라벨 (각 슬롯마다)
       if (slot.topLabel) topLabels += `<text x="${cx}" y="${H - 42}" text-anchor="middle" font-size="9.5" fill="#555" font-weight="600">${escapeHtml(slot.topLabel)}</text>`;
+      if (slot.footLabel) topLabels += `<text x="${cx}" y="${H - 6}" text-anchor="middle" font-size="8.5" fill="#999">${escapeHtml(slot.footLabel)}</text>`;
     });
 
-    // 그룹 라벨 (같은 groupLabel이 연속인 구간은 묶어서 가운데에 한 번)
     let groupLabels = '';
     let i = 0;
     while (i < n) {
@@ -589,12 +594,11 @@
       if (!gl) { i++; continue; }
       let j = i;
       while (j < n && slots[j].groupLabel === gl) j++;
-      const startCx = slotCx[i] - barW / 2;
-      const endCx = slotCx[j - 1] + barW / 2;
+      const startCx = slotCx[i] - barWAvail / 2;
+      const endCx = slotCx[j - 1] + barWAvail / 2;
       const midX = (startCx + endCx) / 2;
       const shortLabel = gl.length > 7 ? gl.slice(0, 6) + '…' : gl;
       groupLabels += `<text x="${midX}" y="${H - 26}" text-anchor="middle" font-size="10" fill="#333" font-weight="700">${escapeHtml(shortLabel)}</text>`;
-      // 그룹 underline
       if (j - i > 1) {
         groupLabels += `<line x1="${startCx + 2}" y1="${H - 18}" x2="${endCx - 2}" y2="${H - 18}" stroke="#bbb" stroke-width="1"/>`;
       }
@@ -613,14 +617,15 @@
           ${groupLabels}
         </svg>
       </div>
-      ${renderGradeLegend()}
+      ${renderGradeLegend(maxGradeLevels)}
     `;
   }
 
-  // 등급별 색상 범례
-  function renderGradeLegend() {
+  // 등급별 색상 범례 (5 또는 9)
+  function renderGradeLegend(maxLevels) {
+    const max = maxLevels || 9;
     let dots = '';
-    for (let g = 1; g <= 9; g++) {
+    for (let g = 1; g <= max; g++) {
       dots += `<span style="display:inline-flex; align-items:center; gap:3px;">
         <span style="display:inline-block; width:9px; height:9px; background:${gradeColor(g)}; border-radius:2px;"></span>
         <span style="font-size:10px; color:var(--text2); font-weight:600;">${g}</span>

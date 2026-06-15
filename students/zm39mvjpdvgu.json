@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:24:01.465Z",
+  "generatedAt": "2026-06-15T05:05:20.335Z",
   "student": {
     "name": "국보민",
     "school": "숭일고",
@@ -34,5 +34,6 @@
       "isRepeat": false,
       "assignedAt": "2026-06-07T11:58:08.960Z"
     }
-  ]
+  ],
+  "myGrades": []
 }

@@ -134,7 +134,8 @@
     }
 
     .upload-area { margin-top: 12px; padding-top: 12px; border-top: 0.5px dashed var(--border); }
-    .upload-btn { width: 100%; padding: 10px 14px; background: var(--accent); color: white; border: none; border-radius: 8px; font-size: 13px; font-weight: 500; cursor: pointer; font-family: inherit; display: flex; align-items: center; justify-content: center; gap: 6px; }
+    .upload-btn { width: 66.67%; max-width: 380px; margin: 8px auto; display: flex; align-items: center; justify-content: center; gap: 6px; padding: 11px 14px; background: #e8dcc4; color: #5a4a2f; border: 0.5px solid rgba(120,90,60,0.25); border-radius: 10px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: inherit; }
+    .upload-btn:active { background: #d9c9aa; }
     .upload-btn:active { background: var(--accent-dark); }
     .upload-btn:disabled { background: var(--text3); cursor: not-allowed; }
     .upload-btn.secondary { background: var(--surface); color: var(--accent); border: 1px solid var(--accent-light); }
@@ -188,7 +189,7 @@
   .gi-input:focus { outline: none; border-color: var(--accent); }
 
   /* 메인 메뉴 */
-  .menu-grid { display: flex; flex-direction: column; gap: 10px; margin: 24px 0 16px; }
+  .menu-grid { display: flex; flex-direction: column; gap: 14px; margin: 32px auto 16px; width: 80%; max-width: 380px; }
   .menu-card {
     display: block; padding: 18px 20px; background: var(--surface);
     border-radius: 10px; border: 1px solid var(--border);
@@ -203,7 +204,8 @@
   .menu-grades { border-left: 3px solid #b095d5; }
 
   /* 미니 진행률 (학습관리 화면) */
-  .progress-mini-wrap { display: flex; flex-direction: column; gap: 8px; margin: 10px 0 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+  .progress-mini-wrap { display: flex; flex-direction: column; gap: 10px; margin: 10px 0 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+  .pm-section-title { font-size: 13px; font-weight: 700; color: var(--text); letter-spacing: -0.2px; margin-bottom: 2px; }
   .progress-mini-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; }
   .pm-label { font-size: 12px; font-weight: 600; color: var(--text); }
   .pm-stat { font-size: 11px; color: var(--text2); }
@@ -224,13 +226,14 @@
   }
   /* 성적 관리 액션 버튼 */
   .grades-action-btn {
-    display: block; text-align: center; padding: 14px;
-    background: var(--accent); color: #fff; text-decoration: none;
-    border-radius: 10px; font-size: 14.5px; font-weight: 600;
-    margin: 16px 0; letter-spacing: -0.2px;
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+    width: 66.67%; max-width: 380px; margin: 18px auto;
+    padding: 13px; background: #e8dcc4; color: #5a4a2f;
+    border: 0.5px solid rgba(120,90,60,0.25); border-radius: 10px;
+    font-size: 14px; font-weight: 600; text-decoration: none; letter-spacing: -0.2px;
     transition: background 0.12s ease;
   }
-  .grades-action-btn:active { background: var(--accent-dark); }
+  .grades-action-btn:active { background: #d9c9aa; }
   /* 성적 추이 그래프 */
   .grade-chart-card {
     background: var(--surface); border: 1px solid var(--border);
@@ -403,6 +406,7 @@
     html += `<h2 class="view-title">학습관리</h2>`;
     html += `
       <div class="progress-mini-wrap">
+        <div class="pm-section-title">이번 주 학습일정</div>
         <div class="progress-mini">
           <div class="progress-mini-head">
             <span class="pm-label">오답노트</span>
@@ -462,7 +466,6 @@
     let html = `<a href="#grades" class="back-link">← 성적 관리</a>`;
     html += `<h2 class="view-title">성적 입력 / 반성</h2>`;
     html += `<div id="gradeInputSection"></div>`;
-    html += `<div id="gradeHistorySection"></div>`;
     return html;
   }
 
@@ -485,7 +488,7 @@
       return (a.month||0) - (b.month||0);
     });
 
-    let html = `<div class="group-label" style="background:#f5f0e7; border-left:3px solid #c69856; color:#6b4520; font-weight:700;">내 성적 추이</div>`;
+    let html = '';
 
     if (naesin.length >= 1) {
       html += `<div class="grade-chart-card">
@@ -743,29 +746,44 @@
     });
     if (myEntries.length === 0) { wrap.innerHTML = ''; return; }
 
-    let html = `<div class="group-label" style="background:#fff7e6; border-left:4px solid #e8a23e; color:#7a5520;">📝 내 성적 입력</div>`;
-    html += `<div style="font-size:12px; color:var(--text2); margin:0 0 10px 4px; line-height:1.5;">시험 결과를 입력해주세요. 등급컷은 선생님이 채우니, <b>원점수·등급·석차/전교 인원</b>만 입력하시면 됩니다.</div>`;
+    // 반성 draft 로드
+    loadReflectionDrafts();
+    const myGrades = (studentData || {}).myGrades || [];
+
+    let html = `<div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">시험 결과와 반성을 함께 적어주세요. 등급컷은 선생님이 채웁니다.</div>`;
 
     for (const c of myEntries) {
       const enabled = c.studentInputEnabledByExamKind || {};
+      const examKinds = ['중간','기말'].filter(ek => enabled[ek]);
+      if (examKinds.length === 0) continue;
       const lvl = c.gradeLevel || '';
       const isMid = ['중1','중2','중3'].includes(lvl);
-      const examKinds = (isMid ? ['중간','기말'] : ['중간','기말','최종']).filter(ek => enabled[ek]);
-      if (examKinds.length === 0) continue;
 
-      html += `<div class="card" style="margin-bottom:10px; padding:12px; background:var(--surface); border-radius:8px; border:1px solid var(--border);">`;
-      html += `<div style="font-weight:700; font-size:14px; margin-bottom:8px;">${escapeHtml(c.school)} · ${escapeHtml(lvl)} · ${c.year || '?'}-${c.semester || '?'}학기 · ${escapeHtml(c.subject || '')}</div>`;
+      html += `<div class="card" style="margin-bottom:14px; padding:14px; background:var(--surface); border-radius:10px; border:1px solid var(--border);">`;
+      html += `<div style="font-weight:700; font-size:14px; margin-bottom:4px; letter-spacing:-0.2px;">${escapeHtml(c.subject || '')} <span style="color:var(--text3); font-weight:500;">· ${c.year || '?'}-${c.semester || '?'}학기</span></div>`;
+      if (c.extraNote) html += `<div style="font-size:11.5px; color:var(--text2); margin-bottom:8px; padding:6px 8px; background:var(--surface2); border-radius:5px; line-height:1.5;">💡 ${escapeHtml(c.extraNote)}</div>`;
 
       for (const ek of examKinds) {
         const draftKey = `${c.id}__${ek}`;
         const d = cachedLocalDrafts[draftKey] || {};
         const notes = (c.notesByExamKind || {})[ek] || '';
         const examInfo = (c.examInfoByExamKind || {})[ek] || '';
+        // 매칭되는 dashGrade의 reflection 가져오기
+        const matchedGrade = myGrades.find(g => g.type === 'naesin'
+          && Number(g.year) === Number(c.year)
+          && String(g.semester) === String(c.semester)
+          && g.subject === c.subject && g.examKind === ek);
+        const reflectionDraftKey = `reflection__${c.id}__${ek}`;
+        const reflectionFromGrade = matchedGrade ? (matchedGrade.reflection || '') : '';
+        const currentReflection = (cachedReflectionDrafts[reflectionDraftKey] && cachedReflectionDrafts[reflectionDraftKey].text != null)
+          ? cachedReflectionDrafts[reflectionDraftKey].text
+          : reflectionFromGrade;
+
         html += `
-          <div style="margin-top:10px; padding:10px; background:var(--surface2); border-radius:6px;">
-            <div style="font-weight:600; color:#5a3a9e; margin-bottom:6px;">${ek}</div>
-            ${notes ? `<div style="font-size:11px; color:var(--text2); margin-bottom:6px;">📝 범위: ${escapeHtml(notes)}</div>` : ''}
-            ${examInfo ? `<div style="font-size:11px; color:var(--text2); margin-bottom:6px;">📋 출제정보: ${escapeHtml(examInfo)}</div>` : ''}
+          <div style="margin-top:12px; padding:12px; background:var(--surface2); border-radius:8px;">
+            <div style="font-weight:600; color:#5a3a9e; margin-bottom:8px; font-size:13.5px;">${ek}</div>
+            ${notes ? `<div style="font-size:11.5px; color:var(--text2); margin-bottom:6px;">범위: ${escapeHtml(notes)}</div>` : ''}
+            ${examInfo ? `<div style="font-size:11.5px; color:var(--text2); margin-bottom:6px;">출제정보: ${escapeHtml(examInfo)}</div>` : ''}
             <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-bottom:6px;">
               <div><label class="gi-label">원점수</label><input type="number" min="0" max="100" class="gi-input" data-key="${draftKey}" data-field="score" value="${d.score ?? ''}" placeholder="예: 88"></div>
               ${!isMid ? `<div><label class="gi-label">등급</label><select class="gi-input" data-key="${draftKey}" data-field="grade">
@@ -774,26 +792,30 @@
               </select></div>` : ''}
             </div>
             ${!isMid ? `
-              <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px;">
+              <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-bottom:8px;">
                 <div><label class="gi-label">석차</label><input type="number" min="1" class="gi-input" data-key="${draftKey}" data-field="rank" value="${d.rank ?? ''}" placeholder="3"></div>
                 <div><label class="gi-label">전교 인원</label><input type="number" min="1" class="gi-input" data-key="${draftKey}" data-field="totalStudents" value="${d.totalStudents ?? ''}" placeholder="250"></div>
               </div>
             ` : ''}
-            ${d.sentAt ? `<div style="font-size:11px; color:var(--success); margin-top:6px; font-weight:600;">✓ ${formatRelativeTime(new Date(d.sentAt))} 선생님께 전송됨</div>` : (d.savedAt ? `<div style="font-size:11px; color:var(--text3); margin-top:6px;">💾 ${formatRelativeTime(new Date(d.savedAt))} 저장됨 (아직 전송 안 함)</div>` : '')}
+            <div style="margin-top:8px;">
+              <label class="gi-label">반성 · 다짐</label>
+              <textarea class="gi-input reflection-input" data-reflection-key="${reflectionDraftKey}" rows="3" placeholder="예: 계산 실수 많았음. 다음엔 검산 두 번 하자!">${escapeHtml(currentReflection)}</textarea>
+            </div>
+            ${d.sentAt ? `<div style="font-size:11px; color:var(--success); margin-top:6px; font-weight:600;">✓ ${formatRelativeTime(new Date(d.sentAt))} 선생님께 전송됨</div>` : (d.savedAt ? `<div style="font-size:11px; color:var(--text3); margin-top:6px;">저장됨 (아직 전송 안 함)</div>` : '')}
           </div>
         `;
       }
       html += `</div>`;
     }
     html += `
-      <button class="make-note-btn" style="background:#5d8a4a; margin:4px 0 20px;" onclick="saveAllGradeInputs()">
-        💾 입력한 성적 저장 (선생님께 전송)
+      <button class="make-note-btn" style="background:#c8e6c9; color:#1b5e20;" onclick="saveAllGradeInputs()">
+        저장 · 선생님께 전송
       </button>
     `;
     wrap.innerHTML = html;
 
-    // 인풋 변경 이벤트 — localStorage 자동 저장 (전송은 별도 버튼)
-    wrap.querySelectorAll('.gi-input').forEach(el => {
+    // 인풋 변경 이벤트 — localStorage 자동 저장
+    wrap.querySelectorAll('.gi-input:not(.reflection-input)').forEach(el => {
       el.addEventListener('input', () => {
         const k = el.dataset.key;
         const f = el.dataset.field;
@@ -802,39 +824,64 @@
         saveLocalDrafts();
       });
     });
+    // 반성 인풋
+    wrap.querySelectorAll('.reflection-input').forEach(el => {
+      el.addEventListener('input', () => {
+        const k = el.dataset.reflectionKey;
+        if (!cachedReflectionDrafts[k]) cachedReflectionDrafts[k] = {};
+        cachedReflectionDrafts[k].text = el.value;
+        saveReflectionDrafts();
+      });
+    });
   }
 
   async function saveAllGradeInputs() {
-    // 입력된 항목들 수집
     const submissions = [];
+    // 점수 + 매칭되는 반성
     for (const k in cachedLocalDrafts) {
       const d = cachedLocalDrafts[k];
       const hasValue = (d.score && d.score !== '') || (d.grade && d.grade !== '') || (d.rank && d.rank !== '') || (d.totalStudents && d.totalStudents !== '');
       if (!hasValue) continue;
       const [entryId, examKind] = k.split('__');
-      // 해당 시험 정보 카드 찾기
       const entry = (cachedSchoolGradeCuts || []).find(c => c.id === entryId);
       if (!entry) continue;
+      const reflectionKey = `reflection__${entryId}__${examKind}`;
+      const reflection = (cachedReflectionDrafts[reflectionKey] && cachedReflectionDrafts[reflectionKey].text != null)
+        ? cachedReflectionDrafts[reflectionKey].text : '';
       submissions.push({
-        entryId,
-        examKind,
-        school: entry.school,
-        gradeLevel: entry.gradeLevel,
-        year: entry.year,
-        semester: entry.semester,
-        subject: entry.subject,
+        entryId, examKind,
+        school: entry.school, gradeLevel: entry.gradeLevel,
+        year: entry.year, semester: entry.semester, subject: entry.subject,
         score: d.score ? Number(d.score) : null,
         grade: d.grade ? Number(d.grade) : null,
         rank: d.rank ? Number(d.rank) : null,
         totalStudents: d.totalStudents ? Number(d.totalStudents) : null,
+        reflection,
+      });
+    }
+    // 반성만 적은 경우(점수 없음)
+    for (const rk in cachedReflectionDrafts) {
+      const rd = cachedReflectionDrafts[rk];
+      if (!rd || !rd.text || rd.text === '') continue;
+      const m = rk.match(/^reflection__(.+)__(중간|기말)$/);
+      if (!m) continue;
+      const entryId = m[1], examKind = m[2];
+      if (submissions.some(s => s.entryId === entryId && s.examKind === examKind)) continue;
+      const entry = (cachedSchoolGradeCuts || []).find(c => c.id === entryId);
+      if (!entry) continue;
+      submissions.push({
+        entryId, examKind,
+        school: entry.school, gradeLevel: entry.gradeLevel,
+        year: entry.year, semester: entry.semester, subject: entry.subject,
+        score: null, grade: null, rank: null, totalStudents: null,
+        reflection: rd.text,
       });
     }
     if (submissions.length === 0) {
-      alert('입력된 성적이 없습니다.\n원점수 또는 등급/석차를 입력한 후 저장해주세요.');
+      alert('입력된 내용이 없습니다.');
       return;
     }
-
-    if (!confirm(`${submissions.length}개 시험의 성적을 선생님께 전송합니다.\n\n진행할까요?`)) return;
+    if (!confirm(`${submissions.length}건의 성적/반성을 선생님께 전송합니다.\n진행할까요?`)) return;
 
     const payload = {
       studentCode,
@@ -849,32 +896,35 @@
       const jsonStr = JSON.stringify(payload, null, 2);
       const blob = new Blob([jsonStr], { type: 'application/json' });
       const file = new File([blob], `grade_${studentCode}_${Date.now()}.json`, { type: 'application/json' });
-
       const formData = new FormData();
       formData.append('file', file);
       formData.append('upload_preset', CLOUDINARY_UPLOAD_PRESET);
       formData.append('tags', `student_${studentCode},grade_submission`);
       formData.append('context', `student_code=${studentCode}|kind=grade_submission`);
-
       const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
       const res = await fetch(url, { method: 'POST', body: formData });
       const data = await res.json();
       if (!res.ok || !data.secure_url) throw new Error((data.error && data.error.message) || '업로드 실패');
 
-      // 저장 시간 기록 (전송된 항목들)
+      const now = new Date().toISOString();
       for (const k in cachedLocalDrafts) {
         const d = cachedLocalDrafts[k];
         const hasValue = (d.score && d.score !== '') || (d.grade && d.grade !== '') || (d.rank && d.rank !== '') || (d.totalStudents && d.totalStudents !== '');
-        if (hasValue) cachedLocalDrafts[k].sentAt = new Date().toISOString();
+        if (hasValue) cachedLocalDrafts[k].sentAt = now;
+      }
+      for (const rk in cachedReflectionDrafts) {
+        if (cachedReflectionDrafts[rk] && cachedReflectionDrafts[rk].text) cachedReflectionDrafts[rk].sentAt = now;
       }
       saveLocalDrafts();
+      saveReflectionDrafts();
       renderGradeExams();
-      alert(`✓ ${submissions.length}개 시험 성적을 선생님께 전송했습니다.\n선생님이 통합본에서 확인 후 받아갑니다.`);
+      alert(`✓ ${submissions.length}건을 선생님께 전송했습니다.`);
     } catch (e) {
       console.error(e);
-      alert('전송 실패: ' + e.message + '\n\n나중에 다시 시도해주세요.');
+      alert('전송 실패: ' + e.message);
     }
   }
+
 
   // 완료 노트: details/summary 토글 (과제 토글과 통일된 모양)
   function renderCompletedSection(items) {

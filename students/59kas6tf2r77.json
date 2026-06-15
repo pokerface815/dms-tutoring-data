@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:23:58.478Z",
+  "generatedAt": "2026-06-15T05:05:18.687Z",
   "student": {
     "name": "조은별",
     "school": "숭일고",
@@ -34,5 +34,6 @@
       "isRepeat": false,
       "assignedAt": "2026-06-07T11:52:48.065Z"
     }
-  ]
+  ],
+  "myGrades": []
 }

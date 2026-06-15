@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-15T12:10:38.185Z",
+  "generatedAt": "2026-06-15T12:12:24.385Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -45,6 +45,13 @@
     }
   ],
   "tests": [
+    {
+      "title": "지수, 로그, 삼각함수 전체",
+      "date": "2026-06-12",
+      "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781525485/eiwo3o81dmfmw2jxicjq.pdf",
+      "fileName": "장승원_6월12일.pdf",
+      "comment": ""
+    },
     {
       "title": "미분계수 ~ 접선의 방정식",
       "date": "2026-06-05",

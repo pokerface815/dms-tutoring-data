@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:22:20.013Z",
+  "generatedAt": "2026-06-15T05:04:29.031Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -346,6 +346,96 @@
       "dueDate": "2026-06-15",
       "isRepeat": false,
       "assignedAt": "2026-06-14T01:19:47.259Z"
+    }
+  ],
+  "myGrades": [
+    {
+      "id": "grade_mq5gxo3c47r",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "2",
+      "subject": "공통수학2",
+      "examKind": "중간",
+      "score": 44.4,
+      "grade": 3,
+      "rank": "111/240",
+      "percent": 46.25,
+      "reflection": "",
+      "teacherEdited": false,
+      "createdAt": "2026-06-08T17:12:06.456Z"
+    },
+    {
+      "id": "grade_mq5gylk1jjc",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "2",
+      "subject": "공통수학2",
+      "examKind": "기말",
+      "score": 60.3,
+      "grade": 3,
+      "rank": "85/235",
+      "percent": 36.17,
+      "reflection": "",
+      "teacherEdited": false,
+      "createdAt": "2026-06-08T17:12:49.824Z"
+    },
+    {
+      "id": "grade_mq5gziky64t",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "2",
+      "subject": "공통수학2",
+      "examKind": "최종",
+      "score": null,
+      "grade": 3,
+      "rank": "88/235",
+      "percent": 37.45,
+      "reflection": "",
+      "teacherEdited": false,
+      "createdAt": "2026-06-08T17:13:32.625Z"
+    },
+    {
+      "id": "grade_mq6b9gtxizm",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "중간",
+      "score": 66.6,
+      "grade": 2,
+      "rank": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": false,
+      "createdAt": "2026-06-09T07:21:05.397Z"
+    },
+    {
+      "id": "grade_mq6mpbkkiaz",
+      "type": "mock",
+      "year": 2026,
+      "gradeLevel": "고2",
+      "month": 6,
+      "mathScore": 73,
+      "reflection": "",
+      "teacherEdited": false,
+      "createdAt": "2026-06-09T12:41:20.852Z"
+    },
+    {
+      "id": "grade_mqemgx8dhmo",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "기말",
+      "score": 85.1,
+      "grade": null,
+      "rank": null,
+      "totalStudents": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-06-14T16:04:59.943Z",
+      "createdAt": "2026-06-15T02:56:58.429Z"
     }
   ]
 }

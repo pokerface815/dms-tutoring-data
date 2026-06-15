@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T08:24:08.550Z",
+  "generatedAt": "2026-06-15T09:05:23.707Z",
   "student": {
     "name": "송유림",
     "school": "숭일고",
@@ -150,17 +150,6 @@
       "reflection": "",
       "teacherEdited": false,
       "createdAt": "2026-06-11T02:07:03.206Z"
-    },
-    {
-      "id": "grade_mq8vp6i9s5v",
-      "type": "mock",
-      "year": 2026,
-      "gradeLevel": "고2",
-      "month": 3,
-      "mathScore": 84,
-      "reflection": "",
-      "teacherEdited": false,
-      "createdAt": "2026-06-11T02:28:43.185Z"
     }
   ]
 }

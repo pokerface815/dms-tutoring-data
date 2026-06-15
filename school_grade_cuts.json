@@ -915,7 +915,9 @@
     "subject": "미적분2",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "테스트"
+    },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
     "teacher": "",

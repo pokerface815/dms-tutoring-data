@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-15T10:40:23.099Z",
+  "generatedAt": "2026-06-15T12:10:04.360Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-15",
+          "weekday": "월",
+          "className": "조예나 개별",
+          "content": "부교재 수열의 합과 수학적 귀납법 마무리.\n부교재 끝. \n복습 + 교과서",
+          "task": "",
+          "taskDue": "",
+          "myNote": "Sn이 포함된 귀납적 정의 체크해보기"
+        },
         {
           "date": "2026-06-13",
           "weekday": "토",

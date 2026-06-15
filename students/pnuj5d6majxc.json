@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:23:46.440Z",
+  "generatedAt": "2026-06-15T05:05:11.936Z",
   "student": {
     "name": "백서현",
     "school": "숭일고",
@@ -48,5 +48,6 @@
     "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [],
+  "myGrades": []
 }

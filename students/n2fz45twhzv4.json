@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:22:39.367Z",
+  "generatedAt": "2026-06-15T05:04:38.761Z",
   "student": {
     "name": "김현민",
     "school": "살레시오고",
@@ -57,5 +57,24 @@
     "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [],
+  "myGrades": [
+    {
+      "id": "grade_mqemgx8cvfc",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "기말",
+      "score": 98.1,
+      "grade": 1,
+      "rank": null,
+      "totalStudents": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "sourceSubmittedAt": "2026-06-15T02:48:23.762Z",
+      "createdAt": "2026-06-15T02:56:58.428Z"
+    }
+  ]
 }

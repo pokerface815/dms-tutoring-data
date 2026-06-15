@@ -139,7 +139,13 @@
     "title": "일차, 이차부등식",
     "date": "2026-06-12",
     "classId": "cls_1780309370989_i1lo00",
-    "results": {},
+    "results": {
+      "s_1779948611035_qbdt5h": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781525482/oe1fus9zokulkwuk3yrf.pdf",
+        "fileName": "서준우_6월12일.pdf",
+        "uploadedAt": "2026-06-15T12:11:23.159Z"
+      }
+    },
     "createdAt": "2026-06-10T10:09:58.924Z"
   },
   {
@@ -147,7 +153,13 @@
     "title": "지수, 로그, 삼각함수 전체",
     "date": "2026-06-12",
     "classId": "cls_1780309030966_ingi3o",
-    "results": {},
+    "results": {
+      "s_1780309053750_4dw5li": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781525485/eiwo3o81dmfmw2jxicjq.pdf",
+        "fileName": "장승원_6월12일.pdf",
+        "uploadedAt": "2026-06-15T12:11:26.316Z"
+      }
+    },
     "createdAt": "2026-06-10T10:10:18.538Z"
   }
 ]

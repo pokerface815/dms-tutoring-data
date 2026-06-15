@@ -905,5 +905,26 @@
       "중간": true,
       "기말": true
     }
+  },
+  {
+    "id": "scut_mqf9y9dff11",
+    "school": "문정여고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "미적분2",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

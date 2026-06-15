@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:23:55.473Z",
+  "generatedAt": "2026-06-15T05:05:17.057Z",
   "student": {
     "name": "노태원",
     "school": "살레시오고",
@@ -20,5 +20,6 @@
     "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [],
+  "myGrades": []
 }

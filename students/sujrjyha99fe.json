@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:23:33.397Z",
+  "generatedAt": "2026-06-15T05:05:05.307Z",
   "student": {
     "name": "이도겸",
     "school": "",
@@ -46,5 +46,6 @@
       "isRepeat": false,
       "assignedAt": "2026-06-08T08:23:28.277Z"
     }
-  ]
+  ],
+  "myGrades": []
 }

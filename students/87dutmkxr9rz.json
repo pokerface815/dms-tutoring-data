@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:23:49.505Z",
+  "generatedAt": "2026-06-15T05:05:13.780Z",
   "student": {
     "name": "국아인",
     "school": "중앙여고",
@@ -48,5 +48,6 @@
     "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [],
+  "myGrades": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T14:05:51.790Z",
+  "generatedAt": "2026-06-15T14:42:38.742Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -8,17 +8,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1781528977125_g9nvng",
-      "noteName": "이경주_개념루트_기말 전체 재오답 6월 15일",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-15",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -59,6 +49,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1781528977125_g9nvng",
+      "noteName": "이경주_개념루트_기말 전체 재오답 6월 15일",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-15",
+      "done": true,
+      "doneAt": "2026-06-15T14:35:39.894Z"
+    },
     {
       "assignmentId": "a_1781336642293_8uu8p2",
       "noteName": "이경주_수매씽 유형_기말 범위 전체",
@@ -314,8 +313,8 @@
   ],
   "weekProgress": {
     "total": 7,
-    "done": 2,
-    "percent": 29,
+    "done": 3,
+    "percent": 43,
     "startDate": "2026-06-15",
     "endDate": "2026-06-21"
   },

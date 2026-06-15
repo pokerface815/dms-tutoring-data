@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:23:04.352Z",
+  "generatedAt": "2026-06-15T05:04:51.150Z",
   "student": {
     "name": "장승원",
     "school": "숭일중",
@@ -20,5 +20,6 @@
     "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [],
+  "myGrades": []
 }

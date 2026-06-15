@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T11:27:48.530Z",
+  "generatedAt": "2026-06-15T02:58:20.655Z",
   "student": {
     "name": "김소윤",
     "school": "",
@@ -16,8 +16,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-08",
-    "endDate": "2026-06-14"
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21"
   },
   "teacherConfirms": {
     "task_1780314584317_h8eaq9__1": {

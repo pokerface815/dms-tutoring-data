@@ -152,6 +152,52 @@
     }
   },
   {
+    "id": "scut_mq90jsg8aj5",
+    "school": "살레시오고",
+    "gradeLevel": "고1",
+    "year": 2025,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {
+      "중간": "개념루트 10문제, 자이스토리 내신기출 10문제, 외부문항 3문제",
+      "기말": "개념루트 10문제, 자이스토리 내신기출 10문제, 외부문항 3문제"
+    },
+    "teacher": "고민우",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념루트, 자이스토리 내신기출",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
+  },
+  {
+    "id": "scut_mq90knxfpwn",
+    "school": "살레시오고",
+    "gradeLevel": "고1",
+    "year": 2025,
+    "semester": "2",
+    "subject": "공통수학2",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {
+      "중간": "개념루트 10문제, 자이스토리 내신기출 10문제, 외부문항 3문제",
+      "기말": "개념루트 10문제, 자이스토리 내신기출 10문제, 외부문항 3문제"
+    },
+    "teacher": "고민우",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념루트, 자이스토리 내신기출",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
+  },
+  {
     "id": "scut_mq9q7xwmgnr",
     "school": "살레시오고",
     "gradeLevel": "고2",
@@ -567,6 +613,27 @@
     "year": 2025,
     "semester": "1",
     "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념+유형",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
+  },
+  {
+    "id": "scut_mqf2s8o3o7v",
+    "school": "국제고",
+    "gradeLevel": "고1",
+    "year": 2025,
+    "semester": "2",
+    "subject": "공통수학2",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
     "notesByExamKind": {},

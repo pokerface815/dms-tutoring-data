@@ -186,6 +186,54 @@
     background: var(--bg); color: var(--text); font-size: 14px;
   }
   .gi-input:focus { outline: none; border-color: var(--accent); }
+
+  /* 메인 메뉴 */
+  .menu-grid { display: flex; flex-direction: column; gap: 12px; margin: 20px 0; }
+  .menu-card {
+    display: block; padding: 24px 20px; background: var(--surface);
+    border-radius: var(--radius); border: 1px solid var(--border);
+    text-decoration: none; color: var(--text);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    text-align: center;
+  }
+  .menu-card:active { transform: scale(0.98); }
+  .menu-icon { font-size: 36px; margin-bottom: 6px; }
+  .menu-label { font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+  .menu-sub { font-size: 12px; color: var(--text2); }
+  .menu-learning { background: #fef8f0; border-color: #ecd8b5; }
+  .menu-video { background: #f0f3fb; border-color: #c6d3e6; }
+  .menu-grades { background: #f3eafe; border-color: #d4b9ee; }
+
+  .back-link {
+    display: inline-block; padding: 6px 12px; margin: 8px 0 4px;
+    color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600;
+  }
+  .back-link:active { opacity: 0.6; }
+  .view-title { font-size: 20px; font-weight: 700; margin: 8px 0 16px; color: var(--text); }
+  .empty-view-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 40px 20px; text-align: center;
+    margin: 16px 0;
+  }
+  /* 성적 추이 그래프 */
+  .grade-chart-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 12px; margin-bottom: 10px;
+  }
+  .grade-chart-title { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+  .chart-empty { padding: 16px; text-align: center; color: var(--text3); font-size: 12px; }
+  .chart-axis-label { font-size: 10px; color: var(--text3); text-align: right; margin-top: 4px; }
+  /* 지난 시험 카드 */
+  .history-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 12px; margin-bottom: 10px;
+  }
+  .history-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+  .history-title { font-weight: 700; font-size: 13.5px; color: var(--text); flex: 1; min-width: 0; }
+  .history-score { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; }
+  .hs-score { font-size: 13px; font-weight: 700; color: var(--accent-dark); }
+  .hs-grade { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; color: #fff; }
+  .hs-rank { font-size: 11px; color: var(--text2); padding: 2px 6px; background: var(--surface2); border-radius: 4px; }
   </style>
 </head>
 <body>
@@ -259,9 +307,10 @@
     const data = studentData;
     const app = document.getElementById('app');
     const s = data.student || {};
-    const wp = data.weekProgress || { total: 0, done: 0, percent: 0 };
 
-    let html = `
+    const view = ((location.hash || '').replace('#', '') || 'menu');
+
+    const headerHtml = `
       <div class="header">
         <div class="header-brand">생각의 흐름 · 기억의 설계</div>
         <div class="header-tagline">잊지 않게 만드는 수학 학습</div>
@@ -270,6 +319,42 @@
           <div class="student-meta">${escapeHtml([s.school, s.grade].filter(Boolean).join(' · '))}</div>
         </div>
       </div>
+    `;
+
+    let body = '';
+    if (view === 'learning') {
+      body = renderLearningView(data);
+    } else if (view === 'video') {
+      body = renderVideoView(data);
+    } else if (view === 'grades') {
+      body = renderGradesView(data);
+    } else {
+      body = renderMainMenu(data);
+    }
+
+    const updatedTime = data.generatedAt ? new Date(data.generatedAt) : null;
+    const footerHtml = `
+      <div class="footer">
+        <button class="refresh-btn" onclick="location.reload()">🔄 새로고침</button>
+        ${updatedTime ? `<span class="last-updated">마지막 업데이트: ${formatRelativeTime(updatedTime)}</span>` : ''}
+      </div>
+    `;
+
+    app.innerHTML = headerHtml + body + footerHtml;
+
+    if (view === 'grades') {
+      loadGradeExams().catch(e => console.warn('시험 정보 로드 실패:', e));
+    }
+  }
+
+  function backLinkHtml() {
+    return `<a href="#menu" class="back-link">← 메인으로</a>`;
+  }
+
+  function renderMainMenu(data) {
+    const wp = data.weekProgress || { total: 0, done: 0, percent: 0 };
+    const s = data.student || {};
+    return `
       <div class="progress-card">
         <div class="progress-title">📊 이번 주 진행률</div>
         <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${wp.percent}%;"></div></div>
@@ -278,36 +363,329 @@
           <span class="progress-detail">${wp.done} / ${wp.total} 완료 (${formatDateRange(wp.startDate, wp.endDate)})</span>
         </div>
       </div>
-      ${s.showMakeNote ? `<a class="make-note-btn" href="https://pokerface815.github.io/wrong-notes/?name=${encodeURIComponent(s.name || '')}">
-        ✏️ 오답노트 만들기
-      </a>` : ''}
+      <div class="menu-grid">
+        <a href="#learning" class="menu-card menu-learning">
+          <div class="menu-icon">📚</div>
+          <div class="menu-label">학습관리</div>
+          <div class="menu-sub">과제 · 오답노트</div>
+        </a>
+        <a href="#video" class="menu-card menu-video">
+          <div class="menu-icon">🎥</div>
+          <div class="menu-label">강의 영상</div>
+          <div class="menu-sub">준비 중</div>
+        </a>
+        <a href="#grades" class="menu-card menu-grades">
+          <div class="menu-icon">📝</div>
+          <div class="menu-label">성적 관리</div>
+          <div class="menu-sub">시험 점수 입력</div>
+        </a>
+      </div>
     `;
+  }
 
+  function renderLearningView(data) {
+    const s = data.student || {};
+    let html = backLinkHtml();
+    html += `<h2 class="view-title">📚 학습관리</h2>`;
+    html += (s.showMakeNote ? `<a class="make-note-btn" href="https://pokerface815.github.io/wrong-notes/?name=${encodeURIComponent(s.name || '')}">
+      ✏️ 오답노트 만들기
+    </a>` : '');
     html += '<div class="group-label note-group">📖 오답노트</div>';
     html += renderSection('🔴 오늘 풀어야 할 오답노트', data.today || [], 'today', '오늘 풀 오답노트가 없어요. 잠깐 쉬는 날 ☺️', true);
     if ((data.overdue || []).length > 0) html += renderSection('⚠️ 밀린 오답노트', data.overdue, 'overdue', '', true);
     if ((data.upcoming || []).length > 0) html += renderSection('📅 이번 주 일정', data.upcoming, 'upcoming', '', false);
     if ((data.completed || []).length > 0) html += renderCompletedSection(data.completed);
-
-    // 일반 과제 섹션 (오답노트와 구분)
     if ((data.tasks || []).length > 0) {
       html += '<div class="group-label task-group">📚 과제</div>';
       html += renderTaskSection(data.tasks);
     }
+    return html;
+  }
 
-    // 내 성적 입력 섹션 (활성화된 시험 정보가 있을 때만 표시)
-    html += `<div id="gradeInputSection"></div>`;
-
-    const updatedTime = data.generatedAt ? new Date(data.generatedAt) : null;
+  function renderVideoView(data) {
+    let html = backLinkHtml();
+    html += `<h2 class="view-title">🎥 강의 영상</h2>`;
     html += `
-      <div class="footer">
-        <button class="refresh-btn" onclick="location.reload()">🔄 새로고침</button>
-        ${updatedTime ? `<span class="last-updated">마지막 업데이트: ${formatRelativeTime(updatedTime)}</span>` : ''}
+      <div class="empty-view-card">
+        <div style="font-size:48px; margin-bottom:12px;">🚧</div>
+        <div style="font-size:16px; font-weight:600; color:var(--text); margin-bottom:6px;">준비 중입니다</div>
+        <div style="font-size:13px; color:var(--text2); line-height:1.6;">곧 강의 영상을 이곳에서 볼 수 있어요.<br>조금만 기다려 주세요!</div>
       </div>
     `;
-    app.innerHTML = html;
-    // 시험 정보 로드 + 표시 (비동기)
-    loadGradeExams().catch(e => console.warn('시험 정보 로드 실패:', e));
+    return html;
+  }
+
+  function renderGradesView(data) {
+    let html = backLinkHtml();
+    html += `<h2 class="view-title">📝 성적 관리</h2>`;
+    // 1. 추이 그래프
+    html += `<div id="gradeChartSection"></div>`;
+    // 2. 지난 시험 기록 + 반성
+    html += `<div id="gradeHistorySection"></div>`;
+    // 3. 새 시험 입력
+    html += `<div id="gradeInputSection"></div>`;
+    return html;
+  }
+
+  // ===== 성적 추이 그래프 =====
+  function renderGradeChart(myGrades) {
+    const wrap = document.getElementById('gradeChartSection');
+    if (!wrap) return;
+    const naesin = (myGrades || []).filter(g => g.type === 'naesin').slice();
+    const mock = (myGrades || []).filter(g => g.type === 'mock').slice();
+    if (naesin.length === 0 && mock.length === 0) { wrap.innerHTML = ''; return; }
+
+    // 시간순 정렬
+    naesin.sort((a,b) => {
+      if (a.year !== b.year) return (a.year||0) - (b.year||0);
+      if (String(a.semester) !== String(b.semester)) return String(a.semester).localeCompare(String(b.semester));
+      const exOrder = { '중간': 1, '기말': 2, '최종': 3 };
+      return (exOrder[a.examKind]||0) - (exOrder[b.examKind]||0);
+    });
+    mock.sort((a,b) => {
+      if (a.year !== b.year) return (a.year||0) - (b.year||0);
+      return (a.month||0) - (b.month||0);
+    });
+
+    let html = `<div class="group-label" style="background:#fdf2e9; border-left:4px solid #e67e22; color:#8d4d12;">📈 내 성적 추이</div>`;
+
+    // 내신 그래프
+    if (naesin.length >= 1) {
+      html += `<div class="grade-chart-card">
+        <div class="grade-chart-title">학교 내신</div>
+        ${renderLineChart(naesin, 'naesin')}
+      </div>`;
+    }
+    // 모의고사 그래프
+    if (mock.length >= 1) {
+      html += `<div class="grade-chart-card">
+        <div class="grade-chart-title">모의고사</div>
+        ${renderLineChart(mock, 'mock')}
+      </div>`;
+    }
+    wrap.innerHTML = html;
+  }
+
+  function renderLineChart(items, kind) {
+    if (items.length === 0) return '';
+    // 점수가 있으면 점수로, 없으면 등급으로
+    const usesScore = items.some(g => g.score != null) || items.some(g => g.mathScore != null);
+    const W = 320, H = 160, padL = 32, padR = 12, padT = 14, padB = 30;
+    const innerW = W - padL - padR, innerH = H - padT - padB;
+    const values = items.map(g => usesScore ? (g.score ?? g.mathScore) : g.grade).map(v => v == null ? null : Number(v));
+    const validValues = values.filter(v => v != null);
+    if (validValues.length === 0) {
+      return `<div class="chart-empty">점수/등급 데이터 없음</div>`;
+    }
+    let yMin, yMax;
+    if (usesScore) { yMin = 0; yMax = 100; }
+    else { yMin = 1; yMax = 9; }  // 등급은 1이 최고
+
+    const labels = items.map(g => {
+      if (kind === 'naesin') return `${String(g.year).slice(2)}.${g.semester}.${g.examKind?.slice(0,1)||''}`;
+      else return `${String(g.year).slice(2)}.${String(g.month).padStart(2,'0')}월`;
+    });
+
+    const xStep = items.length > 1 ? innerW / (items.length - 1) : 0;
+    const yScale = (v) => {
+      // 등급이면 1(최고)이 위, 9가 아래로 (역순)
+      if (!usesScore) return padT + ((v - yMin) / (yMax - yMin)) * innerH;
+      // 점수면 100이 위
+      return padT + innerH - ((v - yMin) / (yMax - yMin)) * innerH;
+    };
+
+    // 라인 path
+    let path = '';
+    let firstX = null;
+    items.forEach((g, i) => {
+      const v = values[i];
+      if (v == null) return;
+      const x = padL + i * xStep;
+      const y = yScale(v);
+      path += (path ? 'L' : 'M') + ` ${x} ${y} `;
+      if (firstX == null) firstX = x;
+    });
+
+    // 점 + 라벨
+    let dots = '';
+    items.forEach((g, i) => {
+      const v = values[i];
+      if (v == null) return;
+      const x = padL + i * xStep;
+      const y = yScale(v);
+      const color = gradeColor(g.grade);
+      dots += `<circle cx="${x}" cy="${y}" r="4.5" fill="${color}" stroke="#fff" stroke-width="2"/>`;
+      dots += `<text x="${x}" y="${y - 9}" text-anchor="middle" font-size="9.5" fill="#444" font-weight="600">${v}</text>`;
+    });
+
+    // X축 라벨
+    let xLabels = '';
+    items.forEach((g, i) => {
+      const x = padL + i * xStep;
+      const lbl = labels[i];
+      // 텍스트가 너무 빽빽하면 일부만 (3건 이하 모두, 더 많으면 양 끝 + 중간)
+      const show = items.length <= 4 || i === 0 || i === items.length - 1 || i % Math.ceil(items.length / 4) === 0;
+      if (show) xLabels += `<text x="${x}" y="${H - 14}" text-anchor="middle" font-size="9" fill="#888">${lbl}</text>`;
+    });
+
+    // Y축 표시
+    let yAxis;
+    if (usesScore) {
+      yAxis = `
+        <text x="${padL - 6}" y="${padT + 4}" text-anchor="end" font-size="9" fill="#888">100</text>
+        <text x="${padL - 6}" y="${padT + innerH + 4}" text-anchor="end" font-size="9" fill="#888">0</text>
+      `;
+    } else {
+      yAxis = `
+        <text x="${padL - 6}" y="${padT + 4}" text-anchor="end" font-size="9" fill="#888">1등급</text>
+        <text x="${padL - 6}" y="${padT + innerH + 4}" text-anchor="end" font-size="9" fill="#888">9등급</text>
+      `;
+    }
+
+    return `
+      <svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="xMidYMid meet" style="background:#fff; border-radius:8px;">
+        <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT + innerH}" stroke="#ddd" stroke-width="1"/>
+        <line x1="${padL}" y1="${padT + innerH}" x2="${padL + innerW}" y2="${padT + innerH}" stroke="#ddd" stroke-width="1"/>
+        ${yAxis}
+        <path d="${path}" fill="none" stroke="#7c5cbf" stroke-width="2"/>
+        ${dots}
+        ${xLabels}
+      </svg>
+      <div class="chart-axis-label">${usesScore ? '원점수 (0~100)' : '등급 (1~9, 위쪽이 좋음)'}</div>
+    `;
+  }
+
+  function gradeColor(g) {
+    if (g == null) return '#999';
+    const colors = {1:'#2ecc71', 2:'#27ae60', 3:'#3498db', 4:'#5d8a4a', 5:'#e8a23e', 6:'#e67e22', 7:'#d35400', 8:'#c0392b', 9:'#922b21'};
+    return colors[g] || '#999';
+  }
+
+  // ===== 지난 시험 기록 + 반성 =====
+  function renderGradeHistory(myGrades) {
+    const wrap = document.getElementById('gradeHistorySection');
+    if (!wrap) return;
+    const items = (myGrades || []).slice().sort((a,b) => {
+      const ay = (a.year || 0), by = (b.year || 0);
+      if (ay !== by) return by - ay;
+      if (a.type === 'mock' && b.type === 'mock') return (b.month||0) - (a.month||0);
+      return String(b.semester || '').localeCompare(String(a.semester || ''));
+    });
+    if (items.length === 0) { wrap.innerHTML = ''; return; }
+
+    // localStorage에서 임시 저장된 반성 가져오기
+    loadReflectionDrafts();
+
+    let html = `<div class="group-label" style="background:#fef8e8; border-left:4px solid #e8b423; color:#7a5520;">📔 지난 시험 + 반성</div>`;
+    html += `<div style="font-size:12px; color:var(--text2); margin:0 0 10px 4px; line-height:1.5;">시험을 돌아보며 다음을 다지는 시간 ✍️</div>`;
+    for (const g of items) {
+      const isMock = g.type === 'mock';
+      const title = isMock
+        ? `${g.gradeLevel || ''} · ${g.year}-${String(g.month).padStart(2,'0')}월 모의고사${g.elective ? ` (${escapeHtml(g.elective)})` : ''}`
+        : `${escapeHtml(g.subject || '')} · ${g.year}-${g.semester}학기 · ${g.examKind || ''}`;
+      const score = isMock ? g.mathScore : g.score;
+      const draftKey = `reflection__${g.id}`;
+      const currentReflection = (cachedReflectionDrafts[draftKey] && cachedReflectionDrafts[draftKey].text != null)
+        ? cachedReflectionDrafts[draftKey].text
+        : (g.reflection || '');
+      const isSent = cachedReflectionDrafts[draftKey] && cachedReflectionDrafts[draftKey].sentAt;
+      const isDirty = cachedReflectionDrafts[draftKey] && cachedReflectionDrafts[draftKey].text != null && cachedReflectionDrafts[draftKey].text !== (g.reflection || '');
+
+      html += `
+        <div class="history-card">
+          <div class="history-head">
+            <div class="history-title">${title}</div>
+            <div class="history-score">
+              ${score != null ? `<span class="hs-score">${score}점</span>` : ''}
+              ${g.grade ? `<span class="hs-grade" style="background:${gradeColor(g.grade)};">${g.grade}등급</span>` : ''}
+              ${(g.rank && g.totalStudents) ? `<span class="hs-rank">${g.rank}/${g.totalStudents}</span>` : ''}
+            </div>
+          </div>
+          <div style="margin-top:8px;">
+            <label class="gi-label">✍️ 이번 시험 반성 · 다음 다짐</label>
+            <textarea class="gi-input reflection-input" data-grade-id="${g.id}" rows="3" placeholder="예: 계산 실수 많았음. 다음엔 검산 두 번 하자!">${escapeHtml(currentReflection)}</textarea>
+            ${isSent && !isDirty ? `<div style="font-size:11px; color:var(--success); margin-top:4px; font-weight:600;">✓ ${formatRelativeTime(new Date(cachedReflectionDrafts[draftKey].sentAt))} 전송됨</div>` : ''}
+            ${isDirty ? `<div style="font-size:11px; color:#e8a23e; margin-top:4px;">📝 수정됨 — 아래 저장 버튼으로 전송</div>` : ''}
+          </div>
+        </div>
+      `;
+    }
+    html += `
+      <button class="make-note-btn" style="background:#7c5cbf; margin:4px 0 20px;" onclick="saveAllReflections()">
+        💾 반성/다짐 저장 (선생님께 전송)
+      </button>
+    `;
+    wrap.innerHTML = html;
+
+    // 인풋 변경 이벤트
+    wrap.querySelectorAll('.reflection-input').forEach(el => {
+      el.addEventListener('input', () => {
+        const gid = el.dataset.gradeId;
+        const k = `reflection__${gid}`;
+        if (!cachedReflectionDrafts[k]) cachedReflectionDrafts[k] = {};
+        cachedReflectionDrafts[k].text = el.value;
+        saveReflectionDrafts();
+      });
+    });
+  }
+
+  let cachedReflectionDrafts = {};
+  function loadReflectionDrafts() {
+    try {
+      const raw = localStorage.getItem('myReflectionDrafts__' + studentCode);
+      if (raw) cachedReflectionDrafts = JSON.parse(raw) || {};
+    } catch (e) { cachedReflectionDrafts = {}; }
+  }
+  function saveReflectionDrafts() {
+    try { localStorage.setItem('myReflectionDrafts__' + studentCode, JSON.stringify(cachedReflectionDrafts)); } catch (e) {}
+  }
+
+  async function saveAllReflections() {
+    const items = [];
+    for (const k in cachedReflectionDrafts) {
+      const d = cachedReflectionDrafts[k];
+      if (d.text == null) continue;
+      const gradeId = k.replace('reflection__', '');
+      items.push({ gradeId, text: d.text });
+    }
+    if (items.length === 0) {
+      alert('전송할 반성/다짐이 없습니다.');
+      return;
+    }
+    if (!confirm(`${items.length}개 시험의 반성/다짐을 선생님께 전송합니다.\n진행할까요?`)) return;
+
+    const payload = {
+      studentCode,
+      studentName: (studentData.student || {}).name || '',
+      submittedAt: new Date().toISOString(),
+      reflections: items,
+    };
+
+    try {
+      const jsonStr = JSON.stringify(payload, null, 2);
+      const blob = new Blob([jsonStr], { type: 'application/json' });
+      const file = new File([blob], `reflection_${studentCode}_${Date.now()}.json`, { type: 'application/json' });
+      const formData = new FormData();
+      formData.append('file', file);
+      formData.append('upload_preset', CLOUDINARY_UPLOAD_PRESET);
+      formData.append('tags', `student_${studentCode},reflection_submission`);
+      formData.append('context', `student_code=${studentCode}|kind=reflection_submission`);
+      const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
+      const res = await fetch(url, { method: 'POST', body: formData });
+      const data = await res.json();
+      if (!res.ok || !data.secure_url) throw new Error((data.error && data.error.message) || '업로드 실패');
+      const now = new Date().toISOString();
+      for (const it of items) {
+        const k = `reflection__${it.gradeId}`;
+        cachedReflectionDrafts[k].sentAt = now;
+      }
+      saveReflectionDrafts();
+      renderGradeHistory((studentData || {}).myGrades || []);
+      alert(`✓ ${items.length}개 반성/다짐을 선생님께 전송했습니다.`);
+    } catch (e) {
+      console.error(e);
+      alert('전송 실패: ' + e.message);
+    }
   }
 
   // ===== 내 성적 입력 =====
@@ -328,12 +706,16 @@
     const wrap = document.getElementById('gradeInputSection');
     if (!wrap) return;
     loadLocalDrafts();
+    // 본인 성적 추이 + 지난 시험 카드 (서버 데이터는 이미 studentData.myGrades에 있음)
+    const myGrades = (studentData || {}).myGrades || [];
+    renderGradeChart(myGrades);
+    renderGradeHistory(myGrades);
     try {
       if (!cachedSchoolGradeCuts) {
         const url = `../school_grade_cuts.json?t=${Date.now()}`;
         const res = await fetch(url, { cache: 'no-store' });
         if (!res.ok) {
-          if (res.status === 404) return;  // 파일이 아직 없음
+          if (res.status === 404) return;
           return;
         }
         cachedSchoolGradeCuts = await res.json();
@@ -842,6 +1224,11 @@
   function formatUpcomingDate(dateStr) { const today = new Date(); today.setHours(0,0,0,0); const d = new Date(dateStr); const diffDays = Math.floor((d - today) / 86400000); const days = ['일','월','화','수','목','금','토']; if (diffDays === 1) return '내일'; if (diffDays <= 6) return `${d.getMonth()+1}/${d.getDate()}(${days[d.getDay()]})`; return `${d.getMonth()+1}/${d.getDate()}`; }
   function formatCompletedDate(isoStr) { const d = new Date(isoStr); const today = new Date(); today.setHours(0,0,0,0); d.setHours(0,0,0,0); const diffDays = Math.floor((today - d) / 86400000); if (diffDays === 0) return '오늘 완료'; if (diffDays === 1) return '어제 완료'; if (diffDays <= 7) return `${diffDays}일 전 완료`; return `${d.getMonth()+1}/${d.getDate()} 완료`; }
   function formatRelativeTime(d) { const now = new Date(); const diff = Math.floor((now - d) / 1000); if (diff < 60) return '방금 전'; if (diff < 3600) return `${Math.floor(diff/60)}분 전`; if (diff < 86400) return `${Math.floor(diff/3600)}시간 전`; return `${Math.floor(diff/86400)}일 전`; }
+
+  // 해시 변경 시 화면 전환
+  window.addEventListener('hashchange', () => {
+    if (studentData) renderPage();
+  });
 </script>
 </body>
 </html>

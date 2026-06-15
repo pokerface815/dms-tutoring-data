@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T10:40:21.822Z",
+  "generatedAt": "2026-06-15T12:10:03.068Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -8,17 +8,7 @@
     "class": "개별수업",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1780924991578_sd6w86",
-      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~36번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-15",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -32,6 +22,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1780924991578_sd6w86",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~36번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-15",
+      "done": true,
+      "doneAt": "2026-06-15T12:09:48.877Z"
+    },
     {
       "assignmentId": "a_1780924991578_sd6w86",
       "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~36번)",
@@ -287,8 +286,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-06-15",
     "endDate": "2026-06-21"
   },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:23:36.504Z",
+  "generatedAt": "2026-06-15T05:05:06.922Z",
   "student": {
     "name": "조아라",
     "school": "",
@@ -42,5 +42,6 @@
       "isRepeat": false,
       "assignedAt": "2026-06-08T08:23:28.277Z"
     }
-  ]
+  ],
+  "myGrades": []
 }

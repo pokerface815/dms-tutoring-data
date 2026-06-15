@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-14T11:28:23.107Z",
+  "generatedAt": "2026-06-15T02:58:55.779Z",
   "student": {
     "name": "국아인",
     "school": "중앙여고",
@@ -41,11 +41,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-06-08",
-    "endDate": "2026-06-14"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
   "tasks": []

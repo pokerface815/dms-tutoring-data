@@ -1,5 +1,43 @@
 [
   {
+    "id": "scut_mq5frbfo",
+    "school": "문정여고",
+    "grade": "고2",
+    "semester": "1",
+    "examKind": "기말",
+    "cuts": [
+      80.8,
+      61.2,
+      null,
+      null
+    ],
+    "year": 2025,
+    "subject": "공통수학2",
+    "gradeLevel": "고2",
+    "cutsByExamKind": {
+      "기말": [
+        80.8,
+        61.2,
+        null,
+        null
+      ]
+    },
+    "averagesByExamKind": {
+      "중간": 44.9,
+      "기말": 46
+    },
+    "notesByExamKind": {},
+    "commentsByExamKind": {},
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "examInfoByExamKind": {},
+    "teacher": "임미혜, 박현정",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
+  },
+  {
     "id": "scut_mq6bav60",
     "school": "문정여고",
     "gradeLevel": "고2",
@@ -284,6 +322,47 @@
           "name": "2025 고1-2 기말 숭일고_출력.pdf",
           "type": "pdf",
           "uploadedAt": "2026-06-11T09:36:28.977Z"
+        }
+      ]
+    },
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
+  },
+  {
+    "id": "scut_mq9b15r7cnr",
+    "school": "문정여고",
+    "gradeLevel": "고1",
+    "year": 2025,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "다항식 ~ 이차함수",
+      "기말": "여러 가지 방정식 ~ 행렬"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "pdfsByExamKind": {
+      "중간": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781170716/o7kb8mt15gfyb1izpuni.pdf",
+          "name": "2025 고1-1 중간 문정여고(완).pdf",
+          "type": "pdf",
+          "uploadedAt": "2026-06-11T09:38:36.941Z"
+        }
+      ],
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781170819/flkxb3smmoclczdgx2mb.pdf",
+          "name": "2025 고1-1 기말 문정여고_출력.pdf",
+          "type": "pdf",
+          "uploadedAt": "2026-06-11T09:40:20.299Z"
         }
       ]
     },
@@ -792,6 +871,27 @@
     "year": 2025,
     "semester": "1",
     "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
+  },
+  {
+    "id": "scut_mqf30pue1ee",
+    "school": "중앙여고",
+    "gradeLevel": "고1",
+    "year": 2025,
+    "semester": "2",
+    "subject": "공통수학2",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
     "notesByExamKind": {},

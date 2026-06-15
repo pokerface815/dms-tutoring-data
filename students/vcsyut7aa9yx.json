@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:23:16.744Z",
+  "generatedAt": "2026-06-15T05:04:57.294Z",
   "student": {
     "name": "문현빈",
     "school": "",
@@ -46,5 +46,6 @@
       "isRepeat": false,
       "assignedAt": "2026-06-08T08:23:28.277Z"
     }
-  ]
+  ],
+  "myGrades": []
 }

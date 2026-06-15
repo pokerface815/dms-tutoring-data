@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T08:18:11.147Z",
+  "generatedAt": "2026-06-15T08:21:54.351Z",
   "student": {
     "name": "국아인",
     "school": "중앙여고",
@@ -8,17 +8,7 @@
     "class": "",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1781511394108_frgazt",
-      "noteName": "국아인_개념루트_등차수열과 등비수열( ~709번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-15",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -32,6 +22,15 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1781511394108_frgazt",
+      "noteName": "국아인_개념루트_등차수열과 등비수열( ~709번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-15",
+      "done": true,
+      "doneAt": "2026-06-15T08:19:42.044Z"
+    },
     {
       "assignmentId": "a_1780821367626_4ynanq",
       "noteName": "국아인_개념루트_사인법칙과 코사인법칙( ~595번)",
@@ -62,8 +61,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-06-15",
     "endDate": "2026-06-21"
   },

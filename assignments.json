@@ -2261,5 +2261,33 @@
     "assignedAt": "2026-06-14T14:30:41.833Z",
     "batchId": "t_mqdvt7e1",
     "repeat": null
+  },
+  {
+    "id": "a_1781511394108_frgazt",
+    "noteId": "note_1781511384380_rd2x7e",
+    "noteName": "국아인_개념루트_등차수열과 등비수열( ~709번)",
+    "studentId": "s_1780821352355_cv63jr",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-17",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-22",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-15T08:16:34.108Z"
   }
 ]

@@ -2135,8 +2135,8 @@
       {
         "stage": 2,
         "planned": "2026-06-15",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-15T08:19:39.373Z"
       },
       {
         "stage": 3,
@@ -2163,8 +2163,8 @@
       {
         "stage": 2,
         "planned": "2026-06-15",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-15T08:19:39.969Z"
       },
       {
         "stage": 3,
@@ -2191,8 +2191,8 @@
       {
         "stage": 2,
         "planned": "2026-06-15",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-15T08:19:41.006Z"
       },
       {
         "stage": 3,
@@ -2272,8 +2272,8 @@
       {
         "stage": 1,
         "planned": "2026-06-15",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-15T08:19:42.044Z"
       },
       {
         "stage": 2,

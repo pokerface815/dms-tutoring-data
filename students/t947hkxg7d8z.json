@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T14:59:58.123Z",
+  "generatedAt": "2026-06-15T15:14:08.361Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -450,7 +450,7 @@
       "percent": null,
       "reflection": "",
       "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-15T14:45:51.269Z",
+      "sourceSubmittedAt": "2026-06-15T15:12:15.283Z",
       "createdAt": "2026-06-15T14:46:16.541Z"
     },
     {
@@ -464,6 +464,23 @@
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-06-15T14:47:48.091Z"
+    },
+    {
+      "id": "grade_mqfcsel7376",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "기하",
+      "examKind": "중간",
+      "score": 87,
+      "grade": null,
+      "rank": null,
+      "totalStudents": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-06-15T15:12:15.283Z",
+      "createdAt": "2026-06-15T15:13:44.155Z"
     }
   ]
 }

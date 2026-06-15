@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-15T12:13:56.947Z",
+  "generatedAt": "2026-06-15T12:18:06.082Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -19,7 +19,7 @@
           "content": "부교재 수열의 합과 수학적 귀납법 마무리.\n부교재 끝. \n복습 + 교과서",
           "task": "",
           "taskDue": "",
-          "myNote": "Sn이 포함된 귀납적 정의 체크해보기"
+          "myNote": "Sn이 포함된 귀납적 정의에서 주의 사항 체크."
         },
         {
           "date": "2026-06-13",

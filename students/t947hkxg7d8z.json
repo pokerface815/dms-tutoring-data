@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T14:46:42.019Z",
+  "generatedAt": "2026-06-15T14:48:57.533Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -452,6 +452,18 @@
       "teacherEdited": false,
       "sourceSubmittedAt": "2026-06-15T14:45:51.269Z",
       "createdAt": "2026-06-15T14:46:16.541Z"
+    },
+    {
+      "id": "grade_mqfbv1x73lz",
+      "type": "mock",
+      "year": 2026,
+      "gradeLevel": "고2",
+      "month": 3,
+      "elective": "",
+      "mathScore": 68,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-06-15T14:47:48.091Z"
     }
   ]
 }

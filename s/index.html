@@ -265,6 +265,29 @@
   .hs-score { font-size: 13px; font-weight: 700; color: var(--accent-dark); }
   .hs-grade { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; color: #fff; }
   .hs-rank { font-size: 11px; color: var(--text2); padding: 2px 6px; background: var(--surface2); border-radius: 4px; }
+  /* 성적 카드 토글 */
+  .grade-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; margin-bottom: 8px; overflow: hidden;
+  }
+  .grade-card-toggle {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    width: 100%; padding: 12px 14px; background: var(--surface);
+    border: none; border-radius: 10px; cursor: pointer;
+    font-family: inherit; text-align: left;
+    transition: background 0.12s ease;
+  }
+  .grade-card-toggle:active { background: var(--surface2); }
+  .grade-card-title { font-weight: 700; font-size: 14px; color: var(--text); letter-spacing: -0.2px; }
+  .grade-card-meta { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+  .grade-card-status { font-size: 10.5px; padding: 2px 7px; border-radius: 4px; font-weight: 600; }
+  .grade-card-status.filled { background: #e6f3df; color: #2e5d2e; }
+  .grade-card-status.partial { background: #fef3d7; color: #8b6914; }
+  .grade-card-status.empty { background: #eee; color: var(--text3); }
+  .grade-card-chevron { font-size: 10px; color: var(--text3); transition: transform 0.2s ease; }
+  .grade-card[data-collapsed="false"] .grade-card-chevron { transform: rotate(180deg); }
+  .grade-card-body { padding: 0 14px 14px; }
+  .grade-card[data-collapsed="true"] .grade-card-body { display: none; }
   </style>
 </head>
 <body>
@@ -641,6 +664,14 @@
     return colors[g] || '#999';
   }
 
+  // 성적 카드 토글
+  window.toggleGradeCard = function(cardId) {
+    const el = document.getElementById(cardId);
+    if (!el) return;
+    const cur = el.dataset.collapsed === 'true';
+    el.dataset.collapsed = cur ? 'false' : 'true';
+  };
+
   // ===== 지난 시험 기록 + 반성 =====
   function renderGradeHistory(myGrades) {
     const wrap = document.getElementById('gradeHistorySection');
@@ -839,7 +870,7 @@
     loadReflectionDrafts();
     const myGrades = (studentData || {}).myGrades || [];
 
-    let html = `<div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">시험 결과와 반성을 함께 적어주세요. 등급컷은 선생님이 채웁니다.</div>`;
+    let html = `<div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">시험 결과와 반성을 적어주세요. 입력 후 <b>꼭 "저장"</b> 버튼을 눌러주세요.</div>`;
 
     for (const c of myEntries) {
       const enabled = c.studentInputEnabledByExamKind || {};
@@ -848,8 +879,28 @@
       const lvl = c.gradeLevel || '';
       const isMid = ['중1','중2','중3'].includes(lvl);
 
-      html += `<div class="card" style="margin-bottom:14px; padding:14px; background:var(--surface); border-radius:10px; border:1px solid var(--border);">`;
-      html += `<div style="font-weight:700; font-size:14px; margin-bottom:4px; letter-spacing:-0.2px;">${escapeHtml(c.subject || '')} <span style="color:var(--text3); font-weight:500;">· ${escapeHtml(lvl)} · ${c.year || '?'}-${c.semester || '?'}학기</span></div>`;
+      // 카드 헤더(과목명) — 클릭 시 토글
+      const cardId = `gradecard_${c.id}`;
+      // 점수 입력 상태 요약 (몇 건 입력됨, 몇 건 비어있음)
+      const myGrades_arr = myGrades; // alias
+      let scoreSummary = '';
+      const filled = examKinds.filter(ek => {
+        return myGrades_arr.find(g => g.type === 'naesin'
+          && Number(g.year) === Number(c.year)
+          && String(g.semester) === String(c.semester)
+          && g.subject === c.subject && g.examKind === ek
+          && (g.score != null || g.grade != null));
+      }).length;
+      if (filled > 0 && filled === examKinds.length) scoreSummary = `<span class="grade-card-status filled">${filled}/${examKinds.length} 입력됨</span>`;
+      else if (filled > 0) scoreSummary = `<span class="grade-card-status partial">${filled}/${examKinds.length} 입력됨</span>`;
+      else scoreSummary = `<span class="grade-card-status empty">미입력</span>`;
+
+      html += `<div class="grade-card" id="${cardId}" data-collapsed="true">`;
+      html += `<button type="button" class="grade-card-toggle" onclick="toggleGradeCard('${cardId}')">
+        <span class="grade-card-title">${escapeHtml(c.subject || '')} <span style="color:var(--text3); font-weight:500; font-size:12px;">· ${escapeHtml(lvl)} · ${c.year || '?'}-${c.semester || '?'}학기</span></span>
+        <span class="grade-card-meta">${scoreSummary}<span class="grade-card-chevron">▼</span></span>
+      </button>`;
+      html += `<div class="grade-card-body">`;
       if (c.extraNote) html += `<div style="font-size:11.5px; color:var(--text2); margin-bottom:8px; padding:6px 8px; background:var(--surface2); border-radius:5px; line-height:1.5;">💡 ${escapeHtml(c.extraNote)}</div>`;
 
       for (const ek of examKinds) {
@@ -858,7 +909,6 @@
         const notes = (c.notesByExamKind || {})[ek] || '';
         const examInfo = (c.examInfoByExamKind || {})[ek] || '';
 
-        // 이미 dashGrades에 입력된 점수가 있는지
         const matchedGrade = myGrades.find(g => g.type === 'naesin'
           && Number(g.year) === Number(c.year)
           && String(g.semester) === String(c.semester)
@@ -871,10 +921,8 @@
           ? cachedReflectionDrafts[reflectionDraftKey].text
           : reflectionFromGrade;
 
-        // 점수 표시 또는 입력 폼
         let scoreBlock;
         if (hasScore) {
-          // 이미 점수 채워짐 → 표시만
           const sc = matchedGrade.score, gd = matchedGrade.grade, rk = matchedGrade.rank, ts = matchedGrade.totalStudents;
           scoreBlock = `
             <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap; padding:8px 10px; background:#f0f4f0; border:1px solid #d8e6d8; border-radius:6px;">
@@ -885,13 +933,12 @@
             </div>
           `;
         } else {
-          // 입력 폼
           scoreBlock = `
             <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-bottom:6px;">
               <div><label class="gi-label">원점수</label><input type="number" min="0" max="100" class="gi-input" data-key="${draftKey}" data-field="score" value="${d.score ?? ''}" placeholder="예: 88"></div>
               ${!isMid ? `<div><label class="gi-label">등급</label><select class="gi-input" data-key="${draftKey}" data-field="grade">
                 <option value="">선택</option>
-                ${[1,2,3,4,5,6,7,8,9].map(g => `<option value="${g}" ${String(d.grade)===String(g)?'selected':''}>${g}등급</option>`).join('')}
+                ${[1,2,3,4,5].map(g => `<option value="${g}" ${String(d.grade)===String(g)?'selected':''}>${g}등급</option>`).join('')}
               </select></div>` : ''}
             </div>
             ${!isMid ? `
@@ -913,15 +960,15 @@
               <label class="gi-label">반성 · 다짐</label>
               <textarea class="gi-input reflection-input" data-reflection-key="${reflectionDraftKey}" rows="3" placeholder="예: 계산 실수 많았음. 다음엔 검산 두 번 하자!">${escapeHtml(currentReflection)}</textarea>
             </div>
-            ${(d.sentAt && !hasScore) ? `<div style="font-size:11px; color:var(--success); margin-top:6px; font-weight:600;">✓ ${formatRelativeTime(new Date(d.sentAt))} 선생님께 전송됨</div>` : ((d.savedAt && !hasScore) ? `<div style="font-size:11px; color:var(--text3); margin-top:6px;">저장됨 (아직 전송 안 함)</div>` : '')}
+            ${(d.sentAt && !hasScore) ? `<div style="font-size:11px; color:var(--success); margin-top:6px; font-weight:600;">✓ ${formatRelativeTime(new Date(d.sentAt))} 저장됨</div>` : ((d.savedAt && !hasScore) ? `<div style="font-size:11px; color:var(--text3); margin-top:6px;">임시저장됨 (아직 저장 안 함)</div>` : '')}
           </div>
         `;
       }
-      html += `</div>`;
+      html += `</div></div>`;  // body + card 닫기
     }
     html += `
       <button class="make-note-btn" onclick="saveAllGradeInputs()">
-        저장 · 선생님께 전송
+        💾 저장
       </button>
     `;
     wrap.innerHTML = html;

@@ -349,11 +349,11 @@
     "studentNotes": [
       {
         "studentId": "s_1777547047005_uo92w5",
-        "note": "Sn이 포함된 귀납적 정의 체크해보기"
+        "note": "Sn이 포함된 귀납적 정의에서 주의 사항 체크."
       }
     ],
     "taskBatchId": null,
     "createdAt": "2026-06-15T12:09:39.490Z",
-    "updatedAt": "2026-06-15T12:09:39.490Z"
+    "updatedAt": "2026-06-15T12:17:41.378Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:23:42.753Z",
+  "generatedAt": "2026-06-15T05:05:10.301Z",
   "student": {
     "name": "박은준",
     "school": "살레시오중",
@@ -29,5 +29,6 @@
       "isRepeat": false,
       "assignedAt": "2026-06-08T08:23:28.277Z"
     }
-  ]
+  ],
+  "myGrades": []
 }

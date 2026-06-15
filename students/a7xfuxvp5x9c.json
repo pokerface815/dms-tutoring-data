@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:22:48.685Z",
+  "generatedAt": "2026-06-15T05:04:43.573Z",
   "student": {
     "name": "김시현",
     "school": "국제고",
@@ -93,5 +93,6 @@
     "endDate": "2026-06-21"
   },
   "teacherConfirms": {},
-  "tasks": []
+  "tasks": [],
+  "myGrades": []
 }

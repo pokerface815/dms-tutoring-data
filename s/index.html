@@ -555,14 +555,15 @@
   function renderSlotChart(slots, maxGradeLevels) {
     if (slots.length === 0) return '';
     const n = slots.length;
-    const W = Math.max(340, n * 40);
-    const H = 200, padL = 24, padR = 14, padT = 24, padB = 64;
+    // 10슬롯이 모바일 한 화면에 맞도록 — n*28, 최소 320
+    const W = Math.max(320, n * 28);
+    const H = 200, padL = 22, padR = 10, padT = 24, padB = 64;
     const innerW = W - padL - padR, innerH = H - padT - padB;
     const yMax = 100;
-    const barGap = 3;
+    const barGap = 2;
     // 막대 폭 80% (남은 20%는 좌우 여백)
     const barWAvail = (innerW - barGap * (n - 1)) / Math.max(n, 1);
-    const barW = Math.max(8, barWAvail * 0.8);
+    const barW = Math.max(7, barWAvail * 0.8);
     const barOffset = (barWAvail - barW) / 2;
 
     const slotCx = slots.map((_, i) => padL + i * (barWAvail + barGap) + barWAvail / 2);
@@ -607,7 +608,7 @@
 
     return `
       <div style="overflow-x:auto;">
-        <svg viewBox="0 0 ${W} ${H}" width="${W}" preserveAspectRatio="xMinYMid meet" style="background:#fff; border-radius:6px; display:block;">
+        <svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="xMidYMid meet" style="background:#fff; border-radius:6px; display:block; min-width:${W}px;">
           <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT + innerH}" stroke="#e8e8e8" stroke-width="1"/>
           <line x1="${padL}" y1="${padT + innerH}" x2="${padL + innerW}" y2="${padT + innerH}" stroke="#e8e8e8" stroke-width="1"/>
           <text x="${padL - 4}" y="${padT + 4}" text-anchor="end" font-size="8.5" fill="#999">100</text>

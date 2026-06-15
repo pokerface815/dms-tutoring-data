@@ -152,6 +152,60 @@
     }
   },
   {
+    "id": "scut_mq82o44h24f",
+    "school": "숭일고",
+    "gradeLevel": "고1",
+    "year": 2025,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {
+      "중간": [
+        74,
+        null,
+        null,
+        null
+      ]
+    },
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "다항식의 연산 ~ 이차함수의 최대,최소",
+      "기말": "여러 가지 방정식 ~ 행렬"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "이상현, 김혜미, 류성필",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념루트",
+    "pdfsByExamKind": {
+      "중간": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781163909/kgzwrbouen4ntscv899o.pdf",
+          "name": "2025 고1-1 중간 숭일고_출력.pdf",
+          "type": "pdf",
+          "uploadedAt": "2026-06-11T07:45:09.911Z"
+        }
+      ],
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781164090/igb2hfbgpzyneabzrqas.pdf",
+          "name": "2025 고1-1 기말 숭일고_출력.pdf",
+          "type": "pdf",
+          "uploadedAt": "2026-06-11T07:48:11.464Z"
+        },
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781165006/xgxg79bp2gxj66stbesb.jpg",
+          "name": "서술형 답.jpg",
+          "type": "image",
+          "uploadedAt": "2026-06-11T08:03:27.128Z"
+        }
+      ]
+    },
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
+  },
+  {
     "id": "scut_mq90jsg8aj5",
     "school": "살레시오고",
     "gradeLevel": "고1",
@@ -192,6 +246,47 @@
     "teacher": "고민우",
     "textbookPublisher": "",
     "supplementaryBook": "개념루트, 자이스토리 내신기출",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
+  },
+  {
+    "id": "scut_mq97qdv7i7y",
+    "school": "숭일고",
+    "gradeLevel": "고1",
+    "year": 2025,
+    "semester": "2",
+    "subject": "공통수학2",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "도형의 방정식 ~ 집합의 연산",
+      "기말": "명제 ~ 무리함수"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념루트",
+    "pdfsByExamKind": {
+      "중간": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781170487/rmqojl2iatk6ghsehgis.pdf",
+          "name": "2025 고1-2 중간 숭일고_출력.pdf",
+          "type": "pdf",
+          "uploadedAt": "2026-06-11T09:34:48.363Z"
+        }
+      ],
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781170588/p015fmcc5qaf8joxajn2.pdf",
+          "name": "2025 고1-2 기말 숭일고_출력.pdf",
+          "type": "pdf",
+          "uploadedAt": "2026-06-11T09:36:28.977Z"
+        }
+      ]
+    },
     "studentInputEnabledByExamKind": {
       "중간": true,
       "기말": true
@@ -642,6 +737,69 @@
     "teacher": "",
     "textbookPublisher": "",
     "supplementaryBook": "개념+유형",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
+  },
+  {
+    "id": "scut_mqf2zdcpvzo",
+    "school": "전사고",
+    "gradeLevel": "고1",
+    "year": 2025,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
+  },
+  {
+    "id": "scut_mqf2zr7eclh",
+    "school": "전사고",
+    "gradeLevel": "고1",
+    "year": 2025,
+    "semester": "2",
+    "subject": "공통수학2",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
+  },
+  {
+    "id": "scut_mqf30chwagt",
+    "school": "중앙여고",
+    "gradeLevel": "고1",
+    "year": 2025,
+    "semester": "1",
+    "subject": "공통수학1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
     "extraNote": "",
     "studentInputEnabledByExamKind": {
       "중간": true,

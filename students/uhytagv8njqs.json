@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T03:22:13.766Z",
+  "generatedAt": "2026-06-15T05:04:25.857Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -235,5 +235,6 @@
       "isRepeat": false,
       "assignedAt": "2026-06-14T14:30:41.833Z"
     }
-  ]
+  ],
+  "myGrades": []
 }

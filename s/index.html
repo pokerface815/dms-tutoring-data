@@ -227,18 +227,17 @@
     background: var(--bg);
     margin: 0 -16px;
     padding: 0 16px;
-    border-bottom: 1px solid var(--border);
   }
-  .view-body { padding-top: 4px; }
+  .view-body { padding: 4px 12px 0; }
   .back-link {
-    display: inline-block; padding: 7px 14px;
-    color: #1b5e20; background: #c8e6c9;
-    border: 1px solid rgba(46,125,50,0.35); border-radius: 8px;
-    text-decoration: none; font-size: 13px; font-weight: 600;
+    display: inline-block; padding: 5px 11px;
+    color: #fff; background: var(--accent);
+    border: 1px solid var(--accent-dark); border-radius: 7px;
+    text-decoration: none; font-size: 11px; font-weight: 600;
     transition: background 0.12s ease;
   }
-  .back-link:active { background: #a5d6a7; }
-  /* 스크롤해도 보이는 상단 바 */
+  .back-link:active { background: var(--accent-dark); }
+  /* 상단 액션 바 */
   .page-header-bar {
     display: flex; align-items: center; justify-content: space-between;
     gap: 8px; padding: 8px 12px;
@@ -247,16 +246,16 @@
   }
   .header-btn {
     display: inline-flex; align-items: center; justify-content: center;
-    padding: 7px 14px; border-radius: 8px;
-    font-family: inherit; font-size: 13px; font-weight: 600;
+    padding: 5px 11px; border-radius: 7px;
+    font-family: inherit; font-size: 11px; font-weight: 600;
     text-decoration: none; cursor: pointer;
-    background: #c8e6c9; color: #1b5e20;
-    border: 1px solid rgba(46,125,50,0.35);
+    background: var(--accent); color: #fff;
+    border: 1px solid var(--accent-dark);
     transition: background 0.12s ease;
   }
-  .header-btn:active { background: #a5d6a7; }
-  .header-btn.primary { background: #c8e6c9; color: #1b5e20; border-color: rgba(46,125,50,0.35); }
-  .header-btn.primary:active { background: #a5d6a7; }
+  .header-btn:active { background: var(--accent-dark); }
+  .header-btn.primary { background: var(--accent); color: #fff; border-color: var(--accent-dark); }
+  .header-btn.primary:active { background: var(--accent-dark); }
   .back-link:active { opacity: 0.6; }
   .view-title { font-size: 19px; font-weight: 700; margin: 6px 0 14px; color: var(--text); letter-spacing: -0.3px; }
   .empty-view-card {
@@ -1328,6 +1327,8 @@
       const hasValue = (d.score && d.score !== '') || (d.grade && d.grade !== '') || (d.rank && d.rank !== '') || (d.totalStudents && d.totalStudents !== '');
       // 일반 모드: 값이 있어야 제출, 수정 모드: 빈 값이어도 제출 (삭제)
       if (!hasValue && !isEditing) continue;
+      // 이미 전송된 항목 + 수정 모드 아님 → skip (누적 방지)
+      if (d.sentAt && !isEditing) continue;
       const [entryId, examKind] = k.split('__');
       const entry = (cachedSchoolGradeCuts || []).find(c => c.id === entryId);
       if (!entry) continue;

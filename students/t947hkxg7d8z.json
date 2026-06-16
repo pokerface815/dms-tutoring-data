@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-16T01:19:35.679Z",
+  "generatedAt": "2026-06-16T01:26:24.059Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -419,14 +419,14 @@
       "semester": "1",
       "subject": "대수",
       "examKind": "중간",
-      "score": null,
+      "score": 66.6,
       "grade": null,
       "rank": null,
       "totalStudents": null,
       "percent": null,
-      "reflection": "",
+      "reflection": "열공!!",
       "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-16T00:51:29.743Z",
+      "sourceSubmittedAt": "2026-06-16T01:25:23.992Z",
       "createdAt": "2026-06-09T07:21:05.397Z"
     },
     {
@@ -464,14 +464,14 @@
       "semester": "1",
       "subject": "미적분2",
       "examKind": "중간",
-      "score": 88,
+      "score": null,
       "grade": null,
       "rank": null,
       "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-16T00:51:29.743Z",
+      "sourceSubmittedAt": "2026-06-16T01:25:23.992Z",
       "createdAt": "2026-06-15T14:46:16.541Z"
     },
     {
@@ -493,14 +493,14 @@
       "semester": "1",
       "subject": "기하",
       "examKind": "중간",
-      "score": 87,
+      "score": null,
       "grade": null,
       "rank": null,
       "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-15T15:12:15.283Z",
+      "sourceSubmittedAt": "2026-06-16T01:25:23.992Z",
       "createdAt": "2026-06-15T15:13:44.155Z"
     }
   ]

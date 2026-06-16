@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-16T02:20:49.293Z",
+  "generatedAt": "2026-06-16T02:22:22.886Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -394,23 +394,6 @@
       "reflection": "",
       "teacherEdited": false,
       "createdAt": "2026-06-09T12:41:20.852Z"
-    },
-    {
-      "id": "grade_mqemgx8dhmo",
-      "type": "naesin",
-      "year": 2026,
-      "semester": "1",
-      "subject": "대수",
-      "examKind": "기말",
-      "score": null,
-      "grade": null,
-      "rank": null,
-      "totalStudents": null,
-      "percent": null,
-      "reflection": "",
-      "teacherEdited": true,
-      "sourceSubmittedAt": "2026-06-14T16:04:59.943Z",
-      "createdAt": "2026-06-15T02:56:58.429Z"
     },
     {
       "id": "grade_mqfbv1x73lz",

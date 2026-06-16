@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-16T10:45:21.219Z",
+  "generatedAt": "2026-06-16T10:53:11.800Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -12,6 +12,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-12",
+          "weekday": "금",
+          "className": "월,수,금 중3 5시 수업",
+          "content": "주간테스트",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        },
         {
           "date": "2026-06-10",
           "weekday": "수",

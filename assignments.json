@@ -2349,5 +2349,33 @@
       }
     ],
     "createdAt": "2026-06-16T01:19:04.234Z"
+  },
+  {
+    "id": "a_1781625913556_wqcqhq",
+    "noteId": "note_1781625890781_enu34g",
+    "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법(고난도 3,4,5)",
+    "studentId": "s_1777547047005_uo92w5",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-17",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-24",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-16T16:05:13.556Z"
   }
 ]

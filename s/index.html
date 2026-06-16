@@ -882,18 +882,23 @@
   function renderGradeExams() {
     const wrap = document.getElementById('gradeInputSection');
     const s = studentData.student || {};
-    // 학년 매핑 (학생의 현재 학년 이하의 모든 카드 표시)
+    // 학년 매핑
     const ORDER = { '중1': 1, '중2': 2, '중3': 3, '고1': 1, '고2': 2, '고3': 3 };
     const studentType = (s.grade || '').charAt(0); // '중' 또는 '고'
-    const studentLvl = ORDER[s.grade] || 99;
+    const studentLvl = ORDER[s.grade] || 0;
+    const currentYear = new Date().getFullYear();
 
     const myEntries = (cachedSchoolGradeCuts || []).filter(c => {
       if (!c.school || c.school !== s.school) return false;
       const lvl = c.gradeLevel || '';
-      // 같은 학교급(중/고)에서 본인 학년 이하만
+      // 같은 학교급(중/고)에서 학생의 timeline에 맞는 카드만
+      // entryYear - currentYear === entryGradeLvl - studentLvl (같은 사람의 학년 변화)
       if (lvl && studentType) {
         if (lvl.charAt(0) !== studentType) return false;
-        if ((ORDER[lvl] || 0) > studentLvl) return false;
+        const entryLvl = ORDER[lvl] || 0;
+        const entryYear = Number(c.year) || 0;
+        if (entryLvl === 0 || studentLvl === 0 || entryYear === 0) return false;
+        if (entryYear - currentYear !== entryLvl - studentLvl) return false;
       }
       const enabled = c.studentInputEnabledByExamKind || {};
       return Object.values(enabled).some(v => v === true);
@@ -934,8 +939,9 @@
       const filled = examKinds.filter(ek => {
         return myGrades_arr.find(g => g.type === 'naesin'
           && Number(g.year) === Number(c.year)
-          && String(g.semester) === String(c.semester)
-          && g.subject === c.subject && g.examKind === ek
+          && String(g.semester || '').trim() === String(c.semester || '').trim()
+          && (g.subject || '').trim() === (c.subject || '').trim()
+          && (g.examKind || '').trim() === ek
           && (g.score != null || g.grade != null));
       }).length;
       if (filled > 0 && filled === examKinds.length) scoreSummary = `<span class="grade-card-status filled">${filled}/${examKinds.length} 입력됨</span>`;
@@ -958,10 +964,17 @@
 
         const matchedGrade = myGrades.find(g => g.type === 'naesin'
           && Number(g.year) === Number(c.year)
-          && String(g.semester) === String(c.semester)
-          && g.subject === c.subject && g.examKind === ek);
+          && String(g.semester || '').trim() === String(c.semester || '').trim()
+          && (g.subject || '').trim() === (c.subject || '').trim()
+          && (g.examKind || '').trim() === ek);
         const hasScore = matchedGrade && (matchedGrade.score != null || matchedGrade.grade != null);
         const isEditing = editingExams.has(draftKey);
+
+        // 디버그 — 점수 매칭이 안 될 때 콘솔에 표시
+        if (!matchedGrade && myGrades.some(g => g.type === 'naesin' && g.subject === c.subject)) {
+          console.log('[성적매칭]', `${c.subject} ${ek}`, '시험정보:', {year: c.year, semester: c.semester, subject: c.subject, examKind: ek},
+            '내신 record 후보:', myGrades.filter(g => g.type === 'naesin' && (g.subject || '').includes((c.subject || '').slice(0,2))));
+        }
 
         const reflectionDraftKey = `reflection__${c.id}__${ek}`;
         const reflectionFromGrade = matchedGrade ? (matchedGrade.reflection || '') : '';

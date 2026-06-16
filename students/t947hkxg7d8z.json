@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-16T02:19:04.067Z",
+  "generatedAt": "2026-06-16T02:20:49.293Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -423,6 +423,36 @@
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-06-15T14:47:48.091Z"
+    },
+    {
+      "id": "grade_mqg0kr9x72j",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "2",
+      "subject": "공통수학2",
+      "examKind": "중간",
+      "score": 44.4,
+      "grade": 3,
+      "rank": "111/240",
+      "percent": 46.25,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-06-16T02:19:38.133Z"
+    },
+    {
+      "id": "grade_mqg0lt796qa",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "2",
+      "subject": "공통수학2",
+      "examKind": "기말",
+      "score": 60.3,
+      "grade": 3,
+      "rank": "85/235",
+      "percent": 36.17,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-06-16T02:20:27.284Z"
     }
   ]
 }

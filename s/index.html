@@ -1038,7 +1038,7 @@
       alert('입력된 내용이 없습니다.');
       return;
     }
-    if (!confirm(`${submissions.length}건의 성적/반성을 선생님께 전송합니다.\n진행할까요?`)) return;
+    if (!confirm(`${submissions.length}건의 성적/반성을 저장할까요?`)) return;
 
     const payload = {
       studentCode,
@@ -1075,7 +1075,7 @@
       saveLocalDrafts();
       saveReflectionDrafts();
       renderGradeExams();
-      alert(`✓ ${submissions.length}건을 선생님께 전송했습니다.`);
+      alert(`✓ ${submissions.length}건을 저장했어요.`);
     } catch (e) {
       console.error(e);
       alert('전송 실패: ' + e.message);

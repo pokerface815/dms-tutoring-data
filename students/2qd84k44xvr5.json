@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-16T02:20:40.386Z",
+  "generatedAt": "2026-06-16T02:22:14.491Z",
   "student": {
     "name": "송유림",
     "school": "숭일고",
@@ -122,21 +122,6 @@
       "createdAt": "2026-06-10T13:50:27.931Z"
     },
     {
-      "id": "grade_mq8ux1u4a4p",
-      "type": "naesin",
-      "year": 2025,
-      "semester": "2",
-      "subject": "공통수학2",
-      "examKind": "중간",
-      "score": 83,
-      "grade": null,
-      "rank": null,
-      "percent": null,
-      "reflection": "",
-      "teacherEdited": false,
-      "createdAt": "2026-06-11T02:06:50.764Z"
-    },
-    {
       "id": "grade_mq8uxbfqeb2",
       "type": "naesin",
       "year": 2025,
@@ -169,6 +154,21 @@
       "teacherEdited": false,
       "sourceSubmittedAt": "2026-06-16T02:11:52.309Z",
       "createdAt": "2026-06-16T02:12:03.367Z"
+    },
+    {
+      "id": "grade_mqg0nlqmug2",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "2",
+      "subject": "공통수학2",
+      "examKind": "중간",
+      "score": 83,
+      "grade": 1,
+      "rank": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-06-16T02:21:50.926Z"
     }
   ]
 }

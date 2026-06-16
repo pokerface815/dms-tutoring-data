@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-16T01:29:24.178Z",
+  "generatedAt": "2026-06-16T01:36:13.966Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -379,7 +379,7 @@
       "rank": "85/235",
       "percent": 36.17,
       "reflection": "",
-      "teacherEdited": false,
+      "teacherEdited": true,
       "createdAt": "2026-06-08T17:12:49.824Z"
     },
     {
@@ -428,23 +428,6 @@
       "createdAt": "2026-06-15T02:56:58.429Z"
     },
     {
-      "id": "grade_mqfbt3a5he8",
-      "type": "naesin",
-      "year": 2026,
-      "semester": "1",
-      "subject": "미적분2",
-      "examKind": "중간",
-      "score": null,
-      "grade": null,
-      "rank": null,
-      "totalStudents": null,
-      "percent": null,
-      "reflection": "",
-      "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-16T01:25:23.992Z",
-      "createdAt": "2026-06-15T14:46:16.541Z"
-    },
-    {
       "id": "grade_mqfbv1x73lz",
       "type": "mock",
       "year": 2026,
@@ -455,23 +438,6 @@
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-06-15T14:47:48.091Z"
-    },
-    {
-      "id": "grade_mqfcsel7376",
-      "type": "naesin",
-      "year": 2026,
-      "semester": "1",
-      "subject": "기하",
-      "examKind": "중간",
-      "score": null,
-      "grade": null,
-      "rank": null,
-      "totalStudents": null,
-      "percent": null,
-      "reflection": "",
-      "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-16T01:25:23.992Z",
-      "createdAt": "2026-06-15T15:13:44.155Z"
     },
     {
       "id": "grade_mqfyqeo82ss",

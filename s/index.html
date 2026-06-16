@@ -222,13 +222,34 @@
   .progress-mini-fill.task { background: #97aac8; }
 
   .back-link {
-    display: inline-block; padding: 7px 14px; margin: 6px 4px 4px 0;
+    display: inline-block; padding: 7px 14px;
     color: var(--text); background: var(--surface);
     border: 1px solid var(--border); border-radius: 8px;
     text-decoration: none; font-size: 13px; font-weight: 600;
     transition: background 0.12s ease;
   }
   .back-link:active { background: var(--surface2); }
+  /* 스크롤해도 보이는 상단 바 */
+  .page-header-bar {
+    position: sticky; top: 0; z-index: 50;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 8px; padding: 8px 4px 8px 4px;
+    background: var(--bg); border-bottom: 1px solid transparent;
+    margin: 0 0 6px;
+  }
+  .page-header-bar.scrolled { border-bottom-color: var(--border); }
+  .header-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    padding: 7px 14px; border-radius: 8px;
+    font-family: inherit; font-size: 13px; font-weight: 600;
+    text-decoration: none; cursor: pointer;
+    background: var(--surface); color: var(--text);
+    border: 1px solid var(--border);
+    transition: background 0.12s ease;
+  }
+  .header-btn:active { background: var(--surface2); }
+  .header-btn.primary { background: #c8e6c9; color: #1b5e20; border-color: rgba(46,125,50,0.35); }
+  .header-btn.primary:active { background: #a5d6a7; }
   .back-link:active { opacity: 0.6; }
   .view-title { font-size: 19px; font-weight: 700; margin: 6px 0 14px; color: var(--text); letter-spacing: -0.3px; }
   .empty-view-card {
@@ -404,7 +425,7 @@
   }
 
   function backLinkHtml() {
-    return `<div style="text-align:right; margin-right:4px;"><a href="#menu" class="back-link">← 메인으로</a></div>`;
+    return `<div class="page-header-bar"><span></span><a href="#menu" class="back-link">← 메인으로</a></div>`;
   }
 
   function renderMainMenu(data) {
@@ -487,24 +508,24 @@
   }
 
   function renderGradesView(data) {
-    let html = backLinkHtml();
+    let html = `<div class="page-header-bar">
+      <a href="#grades-input" class="header-btn">성적 입력 / 반성</a>
+      <a href="#menu" class="back-link">← 메인으로</a>
+    </div>`;
     html += `<h2 class="view-title">성적 관리</h2>`;
     html += `<div id="gradeChartSection"></div>`;
-    html += `
-      <a href="#grades-input" class="grades-action-btn">
-        성적 입력 / 반성
-      </a>
-    `;
     return html;
   }
 
   function renderGradesInputView(data) {
-    let html = `<div style="text-align:right; margin-right:4px;"><a href="#grades" class="back-link">← 성적 관리</a></div>`;
+    let html = `<div class="page-header-bar">
+      <button class="header-btn primary" onclick="saveAllGradeInputs()">저장</button>
+      <a href="#grades" class="back-link">← 성적 관리</a>
+    </div>`;
     html += `<h2 class="view-title">성적 입력 / 반성</h2>`;
-    html += `<div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">시험 결과와 반성을 적어주세요. 입력 후 화면 아래 <b>"저장"</b> 버튼을 꼭 눌러주세요.</div>`;
+    html += `<div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">시험 결과와 반성을 적어주세요. 입력 후 위쪽 <b>"저장"</b> 버튼을 꼭 눌러주세요.</div>`;
     html += `<div id="gradeInputSection"></div>`;
     html += `<div id="mockInputSection" style="margin-top:24px;"></div>`;
-    html += `<button class="make-note-btn" onclick="saveAllGradeInputs()" style="margin-top:24px;">💾 저장</button>`;
     return html;
   }
 
@@ -1063,6 +1084,13 @@
     });
   }
 
+  // 모의고사 신규 추가 폼 열림 상태
+  let _mockFormOpen = false;
+  window.toggleMockForm = function() {
+    _mockFormOpen = !_mockFormOpen;
+    renderMockExams();
+  };
+
   // 모의고사 입력 화면
   function renderMockExams() {
     const wrap = document.getElementById('mockInputSection');
@@ -1074,7 +1102,6 @@
     const myGrades = (studentData || {}).myGrades || [];
     const existingMock = myGrades.filter(g => g.type === 'mock');
 
-    // 학년 옵션 — 학생 본인 학년까지
     const ORDER = { '고1': 1, '고2': 2, '고3': 3 };
     const studentLvl = ORDER[s.grade] || 3;
     const gradeLvlOptions = [];
@@ -1082,13 +1109,12 @@
     if (studentLvl >= 2) gradeLvlOptions.push('고2');
     if (studentLvl >= 3) gradeLvlOptions.push('고3');
 
-    // 사용자가 추가한(저장 안 된) draft + 이미 등록된 record들 표시
     let html = `
       <h3 style="margin:24px 0 8px; font-size:14px; font-weight:700; letter-spacing:-0.3px;">📗 모의고사</h3>
       <div style="font-size:12px; color:var(--text2); margin-bottom:12px; line-height:1.6;">학교 시험과 별도로 본 모의고사 점수를 적어주세요.</div>
     `;
 
-    // 등록된 모의고사 record들 (사용자가 받기 한 것)
+    // 등록된 모의고사 record들
     if (existingMock.length > 0) {
       html += `<div style="margin-bottom:12px;">`;
       existingMock.forEach(g => {
@@ -1119,50 +1145,59 @@
               <button type="button" onclick="removeMockDraft(${idx})" style="margin-left:auto; padding:2px 8px; background:transparent; border:1px solid var(--border); border-radius:4px; font-size:11px; color:var(--text2); cursor:pointer; font-family:inherit;">×</button>
             </div>
             ${m.reflection ? `<div style="font-size:11.5px; color:var(--text2); padding:6px 8px; background:var(--surface); border-radius:4px;">📔 ${escapeHtml(m.reflection)}</div>` : ''}
-            <div style="font-size:10.5px; color:var(--text3); margin-top:4px;">${m.sentAt ? '✓ 저장됨' : '임시저장 — 아래 "저장" 버튼 누르기'}</div>
+            <div style="font-size:10.5px; color:var(--text3); margin-top:4px;">${m.sentAt ? '✓ 저장됨' : '임시저장 — 위쪽 "저장" 버튼 누르기'}</div>
           </div>
         `;
       });
       html += `</div>`;
     }
 
-    // 신규 추가 폼
-    html += `
-      <div style="padding:12px; background:var(--surface); border:1px solid var(--border); border-radius:8px;">
-        <div style="font-weight:600; margin-bottom:8px; font-size:13px;">+ 새 모의고사 추가</div>
-        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:6px; margin-bottom:6px;">
-          <div><label class="gi-label">학년</label>
-            <select class="gi-input" id="newMockGradeLvl">
-              ${gradeLvlOptions.map(g => `<option value="${g}">${g}</option>`).join('')}
-            </select>
+    // 신규 추가 — 토글 버튼 또는 입력 폼
+    if (!_mockFormOpen) {
+      html += `
+        <button type="button" onclick="toggleMockForm()" style="width:100%; padding:11px; background:var(--surface); color:var(--text); border:1px dashed var(--border); border-radius:8px; font-size:13px; font-weight:600; cursor:pointer; font-family:inherit;">+ 새 모의고사 추가</button>
+      `;
+    } else {
+      html += `
+        <div style="padding:12px; background:var(--surface); border:1px solid var(--border); border-radius:8px;">
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
+            <div style="font-weight:600; font-size:13px;">+ 새 모의고사 추가</div>
+            <button type="button" onclick="toggleMockForm()" style="padding:3px 10px; background:transparent; border:1px solid var(--border); border-radius:4px; font-size:11px; color:var(--text2); cursor:pointer; font-family:inherit;">접기</button>
           </div>
-          <div><label class="gi-label">실시월</label>
-            <select class="gi-input" id="newMockMonth">
-              <option value="">선택</option>
-              ${[3,4,5,6,7,9,10,11].map(m => `<option value="${m}">${m}월</option>`).join('')}
-            </select>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:6px; margin-bottom:6px;">
+            <div><label class="gi-label">학년</label>
+              <select class="gi-input" id="newMockGradeLvl">
+                ${gradeLvlOptions.map(g => `<option value="${g}">${g}</option>`).join('')}
+              </select>
+            </div>
+            <div><label class="gi-label">실시월</label>
+              <select class="gi-input" id="newMockMonth">
+                <option value="">선택</option>
+                ${[3,4,5,6,7,9,10,11].map(m => `<option value="${m}">${m}월</option>`).join('')}
+              </select>
+            </div>
           </div>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:6px; margin-bottom:6px;">
+            <div><label class="gi-label">선택과목</label>
+              <select class="gi-input" id="newMockElective">
+                <option value="미선택">미선택</option>
+                <option value="미적분">미적분</option>
+                <option value="확률과 통계">확률과 통계</option>
+                <option value="기하">기하</option>
+              </select>
+            </div>
+            <div><label class="gi-label">수학 점수</label>
+              <input type="number" min="0" max="100" class="gi-input" id="newMockScore" placeholder="예: 88">
+            </div>
+          </div>
+          <div>
+            <label class="gi-label">반성 · 다짐 (선택)</label>
+            <textarea class="gi-input" id="newMockReflection" rows="2" placeholder="예: 시간 부족, 30번 손도 못 댐"></textarea>
+          </div>
+          <button type="button" onclick="addMockDraft()" style="width:100%; margin-top:8px; padding:9px; background:var(--surface2); color:var(--text); border:1px solid var(--border); border-radius:6px; font-size:13px; font-weight:600; cursor:pointer; font-family:inherit;">목록에 담기</button>
         </div>
-        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:6px; margin-bottom:6px;">
-          <div><label class="gi-label">선택과목</label>
-            <select class="gi-input" id="newMockElective">
-              <option value="미선택">미선택</option>
-              <option value="미적분">미적분</option>
-              <option value="확률과 통계">확률과 통계</option>
-              <option value="기하">기하</option>
-            </select>
-          </div>
-          <div><label class="gi-label">수학 점수</label>
-            <input type="number" min="0" max="100" class="gi-input" id="newMockScore" placeholder="예: 88">
-          </div>
-        </div>
-        <div>
-          <label class="gi-label">반성 · 다짐 (선택)</label>
-          <textarea class="gi-input" id="newMockReflection" rows="2" placeholder="예: 시간 부족, 30번 손도 못 댐"></textarea>
-        </div>
-        <button type="button" onclick="addMockDraft()" style="width:100%; margin-top:8px; padding:9px; background:var(--surface2); color:var(--text); border:1px solid var(--border); border-radius:6px; font-size:13px; font-weight:600; cursor:pointer; font-family:inherit;">+ 추가</button>
-      </div>
-    `;
+      `;
+    }
     wrap.innerHTML = html;
   }
 
@@ -1189,10 +1224,7 @@
       reflection,
     });
     saveMockDrafts();
-    // 입력 폼 초기화
-    document.getElementById('newMockScore').value = '';
-    document.getElementById('newMockReflection').value = '';
-    document.getElementById('newMockMonth').value = '';
+    _mockFormOpen = false;
     renderMockExams();
   };
   window.removeMockDraft = function(idx) {

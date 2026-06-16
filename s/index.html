@@ -231,12 +231,12 @@
   .view-body { padding: 4px 12px 0; }
   .back-link {
     display: inline-block; padding: 5px 11px;
-    color: #fff; background: var(--accent);
-    border: 1px solid var(--accent-dark); border-radius: 7px;
+    color: #fff; background: var(--accent-light);
+    border: 1px solid var(--accent); border-radius: 7px;
     text-decoration: none; font-size: 11px; font-weight: 600;
     transition: background 0.12s ease;
   }
-  .back-link:active { background: var(--accent-dark); }
+  .back-link:active { background: var(--accent); }
   /* 상단 액션 바 */
   .page-header-bar {
     display: flex; align-items: center; justify-content: space-between;
@@ -249,13 +249,13 @@
     padding: 5px 11px; border-radius: 7px;
     font-family: inherit; font-size: 11px; font-weight: 600;
     text-decoration: none; cursor: pointer;
-    background: var(--accent); color: #fff;
-    border: 1px solid var(--accent-dark);
+    background: var(--accent-light); color: #fff;
+    border: 1px solid var(--accent);
     transition: background 0.12s ease;
   }
-  .header-btn:active { background: var(--accent-dark); }
-  .header-btn.primary { background: var(--accent); color: #fff; border-color: var(--accent-dark); }
-  .header-btn.primary:active { background: var(--accent-dark); }
+  .header-btn:active { background: var(--accent); }
+  .header-btn.primary { background: var(--accent-light); color: #fff; border-color: var(--accent); }
+  .header-btn.primary:active { background: var(--accent); }
   .back-link:active { opacity: 0.6; }
   .view-title { font-size: 19px; font-weight: 700; margin: 6px 0 14px; color: var(--text); letter-spacing: -0.3px; }
   .empty-view-card {
@@ -1102,6 +1102,31 @@
 
     const myGrades = (studentData || {}).myGrades || [];
     const existingMock = myGrades.filter(g => g.type === 'mock');
+
+    // 처리된 mockDrafts 자동 정리 — myGrades에 반영된 항목은 localStorage에서 제거
+    let cleanedAny = false;
+    const matchKey = (m, g) =>
+      g.gradeLevel === m.gradeLevel
+      && Number(g.year) === Number(m.year)
+      && Number(g.month) === Number(m.month)
+      && (g.elective || '') === (m.elective || '');
+    cachedMockDrafts = cachedMockDrafts.filter(m => {
+      if (!m.sentAt) return true;  // 미전송 — 유지
+      if (m.delete === true) {
+        // 삭제 요청 — myGrades에 그 record가 없으면 처리됨
+        const stillExists = existingMock.some(g => matchKey(m, g));
+        if (!stillExists) { cleanedAny = true; return false; }
+        return true;  // 아직 사용자가 받기 안 함
+      }
+      // 추가/수정 — myGrades 매칭 record의 점수가 같으면 처리됨
+      const matching = existingMock.find(g => matchKey(m, g));
+      if (matching && Number(matching.mathScore) === Number(m.mathScore)) {
+        cleanedAny = true;
+        return false;
+      }
+      return true;
+    });
+    if (cleanedAny) saveMockDrafts();
 
     const ORDER = { '고1': 1, '고2': 2, '고3': 3 };
     const studentLvl = ORDER[s.grade] || 3;

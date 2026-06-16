@@ -502,6 +502,7 @@
     let html = `<div style="text-align:right; margin-right:4px;"><a href="#grades" class="back-link">← 성적 관리</a></div>`;
     html += `<h2 class="view-title">성적 입력 / 반성</h2>`;
     html += `<div id="gradeInputSection"></div>`;
+    html += `<div id="mockInputSection" style="margin-top:24px;"></div>`;
     return html;
   }
 
@@ -797,6 +798,18 @@
     try { localStorage.setItem('myReflectionDrafts__' + studentCode, JSON.stringify(cachedReflectionDrafts)); } catch (e) {}
   }
 
+  // 모의고사 임시저장 (학생이 직접 추가하는 모의고사)
+  let cachedMockDrafts = [];  // [{tempId, gradeLevel, year, month, elective, mathScore, reflection, sentAt?}]
+  function loadMockDrafts() {
+    try {
+      const raw = localStorage.getItem('myMockDrafts__' + studentCode);
+      if (raw) cachedMockDrafts = JSON.parse(raw) || [];
+    } catch (e) { cachedMockDrafts = []; }
+  }
+  function saveMockDrafts() {
+    try { localStorage.setItem('myMockDrafts__' + studentCode, JSON.stringify(cachedMockDrafts)); } catch (e) {}
+  }
+
   async function saveAllReflections() {
     const items = [];
     for (const k in cachedReflectionDrafts) {
@@ -861,6 +874,7 @@
 
   async function loadGradeExams() {
     loadLocalDrafts();
+    loadMockDrafts();
     const myGrades = (studentData || {}).myGrades || [];
     // 성적 관리 메인 — 그래프만
     if (document.getElementById('gradeChartSection')) renderGradeChart(myGrades);
@@ -877,6 +891,8 @@
         renderGradeExams();
       } catch (e) { console.warn('시험 정보 fetch 실패:', e); }
     }
+    // 모의고사 입력 섹션
+    if (document.getElementById('mockInputSection')) renderMockExams();
   }
 
   function renderGradeExams() {
@@ -970,12 +986,6 @@
         const hasScore = matchedGrade && (matchedGrade.score != null || matchedGrade.grade != null);
         const isEditing = editingExams.has(draftKey);
 
-        // 디버그 — 점수 매칭이 안 될 때 콘솔에 표시
-        if (!matchedGrade && myGrades.some(g => g.type === 'naesin' && g.subject === c.subject)) {
-          console.log('[성적매칭]', `${c.subject} ${ek}`, '시험정보:', {year: c.year, semester: c.semester, subject: c.subject, examKind: ek},
-            '내신 record 후보:', myGrades.filter(g => g.type === 'naesin' && (g.subject || '').includes((c.subject || '').slice(0,2))));
-        }
-
         const reflectionDraftKey = `reflection__${c.id}__${ek}`;
         const reflectionFromGrade = matchedGrade ? (matchedGrade.reflection || '') : '';
         const currentReflection = (cachedReflectionDrafts[reflectionDraftKey] && cachedReflectionDrafts[reflectionDraftKey].text != null)
@@ -1056,6 +1066,145 @@
     });
   }
 
+  // 모의고사 입력 화면
+  function renderMockExams() {
+    const wrap = document.getElementById('mockInputSection');
+    if (!wrap) return;
+    const s = studentData.student || {};
+    const studentType = (s.grade || '').charAt(0);
+    if (studentType !== '고') { wrap.innerHTML = ''; return; }  // 모의고사는 고등학생만
+
+    const myGrades = (studentData || {}).myGrades || [];
+    const existingMock = myGrades.filter(g => g.type === 'mock');
+
+    // 학년 옵션 — 학생 본인 학년까지
+    const ORDER = { '고1': 1, '고2': 2, '고3': 3 };
+    const studentLvl = ORDER[s.grade] || 3;
+    const gradeLvlOptions = [];
+    if (studentLvl >= 1) gradeLvlOptions.push('고1');
+    if (studentLvl >= 2) gradeLvlOptions.push('고2');
+    if (studentLvl >= 3) gradeLvlOptions.push('고3');
+
+    // 사용자가 추가한(저장 안 된) draft + 이미 등록된 record들 표시
+    let html = `
+      <h3 style="margin:24px 0 8px; font-size:14px; font-weight:700; letter-spacing:-0.3px;">📗 모의고사</h3>
+      <div style="font-size:12px; color:var(--text2); margin-bottom:12px; line-height:1.6;">학교 시험과 별도로 본 모의고사 점수를 적어주세요.</div>
+    `;
+
+    // 등록된 모의고사 record들 (사용자가 받기 한 것)
+    if (existingMock.length > 0) {
+      html += `<div style="margin-bottom:12px;">`;
+      existingMock.forEach(g => {
+        const cutAvailable = g.grade != null;
+        html += `
+          <div style="padding:10px 12px; background:#f0f4f0; border:1px solid #d8e6d8; border-radius:6px; margin-bottom:6px; display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+            <span style="font-weight:700; min-width:70px; font-size:13px;">${escapeHtml(g.gradeLevel || '')} ${g.year || '?'}.${g.month || '?'}월</span>
+            ${g.elective ? `<span style="font-size:11px; color:var(--text2);">${escapeHtml(g.elective)}</span>` : ''}
+            <span style="font-size:13px; font-weight:700; color:#2e5d2e;">${g.mathScore != null ? g.mathScore + '점' : '-'}</span>
+            ${cutAvailable ? `<span style="display:inline-block; padding:2px 8px; background:${gradeColor(g.grade)}; color:#fff; border-radius:4px; font-size:11px; font-weight:700;">${g.grade}등급</span>` : `<span style="font-size:10.5px; color:#8b6914;">등급컷 대기</span>`}
+            <span style="margin-left:auto; font-size:10.5px; color:var(--text3);">등록됨</span>
+          </div>
+        `;
+      });
+      html += `</div>`;
+    }
+
+    // 임시저장된 추가 항목들
+    if (cachedMockDrafts.length > 0) {
+      html += `<div style="margin-bottom:12px;">`;
+      cachedMockDrafts.forEach((m, idx) => {
+        html += `
+          <div style="padding:10px 12px; background:var(--surface2); border:1px dashed var(--border); border-radius:6px; margin-bottom:6px;">
+            <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:6px;">
+              <span style="font-weight:700; font-size:13px;">${escapeHtml(m.gradeLevel || '')} ${m.year || '?'}.${m.month || '?'}월</span>
+              ${m.elective && m.elective !== '미선택' ? `<span style="font-size:11px; color:var(--text2);">${escapeHtml(m.elective)}</span>` : ''}
+              <span style="font-size:13px; font-weight:600; color:var(--text);">${m.mathScore != null ? m.mathScore + '점' : '-'}</span>
+              <button type="button" onclick="removeMockDraft(${idx})" style="margin-left:auto; padding:2px 8px; background:transparent; border:1px solid var(--border); border-radius:4px; font-size:11px; color:var(--text2); cursor:pointer; font-family:inherit;">×</button>
+            </div>
+            ${m.reflection ? `<div style="font-size:11.5px; color:var(--text2); padding:6px 8px; background:var(--surface); border-radius:4px;">📔 ${escapeHtml(m.reflection)}</div>` : ''}
+            <div style="font-size:10.5px; color:var(--text3); margin-top:4px;">${m.sentAt ? '✓ 저장됨' : '임시저장 — 아래 "저장" 버튼 누르기'}</div>
+          </div>
+        `;
+      });
+      html += `</div>`;
+    }
+
+    // 신규 추가 폼
+    html += `
+      <div style="padding:12px; background:var(--surface); border:1px solid var(--border); border-radius:8px;">
+        <div style="font-weight:600; margin-bottom:8px; font-size:13px;">+ 새 모의고사 추가</div>
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:6px; margin-bottom:6px;">
+          <div><label class="gi-label">학년</label>
+            <select class="gi-input" id="newMockGradeLvl">
+              ${gradeLvlOptions.map(g => `<option value="${g}">${g}</option>`).join('')}
+            </select>
+          </div>
+          <div><label class="gi-label">실시월</label>
+            <select class="gi-input" id="newMockMonth">
+              <option value="">선택</option>
+              ${[3,4,5,6,7,9,10,11].map(m => `<option value="${m}">${m}월</option>`).join('')}
+            </select>
+          </div>
+        </div>
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:6px; margin-bottom:6px;">
+          <div><label class="gi-label">선택과목</label>
+            <select class="gi-input" id="newMockElective">
+              <option value="미선택">미선택</option>
+              <option value="미적분">미적분</option>
+              <option value="확률과 통계">확률과 통계</option>
+              <option value="기하">기하</option>
+            </select>
+          </div>
+          <div><label class="gi-label">수학 점수</label>
+            <input type="number" min="0" max="100" class="gi-input" id="newMockScore" placeholder="예: 88">
+          </div>
+        </div>
+        <div>
+          <label class="gi-label">반성 · 다짐 (선택)</label>
+          <textarea class="gi-input" id="newMockReflection" rows="2" placeholder="예: 시간 부족, 30번 손도 못 댐"></textarea>
+        </div>
+        <button type="button" onclick="addMockDraft()" style="width:100%; margin-top:8px; padding:9px; background:var(--surface2); color:var(--text); border:1px solid var(--border); border-radius:6px; font-size:13px; font-weight:600; cursor:pointer; font-family:inherit;">+ 추가</button>
+      </div>
+    `;
+    wrap.innerHTML = html;
+  }
+
+  window.addMockDraft = function() {
+    const gradeLevel = document.getElementById('newMockGradeLvl')?.value || '';
+    const month = document.getElementById('newMockMonth')?.value;
+    const elective = document.getElementById('newMockElective')?.value || '미선택';
+    const score = document.getElementById('newMockScore')?.value;
+    const reflection = document.getElementById('newMockReflection')?.value || '';
+    if (!gradeLevel || !month) { alert('학년과 실시월을 선택해주세요.'); return; }
+    if (!score || score === '') { alert('수학 점수를 입력해주세요.'); return; }
+    // 학년→년도 추정 (학생 현재 학년 기준)
+    const s = studentData.student || {};
+    const ORDER = { '고1': 1, '고2': 2, '고3': 3 };
+    const studentLvl = ORDER[s.grade] || 1;
+    const entryLvl = ORDER[gradeLevel] || 1;
+    const currentYear = new Date().getFullYear();
+    const year = currentYear - (studentLvl - entryLvl);
+    cachedMockDrafts.push({
+      tempId: 'mock_' + Date.now().toString(36),
+      gradeLevel, year, month: Number(month),
+      elective: elective === '미선택' ? '' : elective,
+      mathScore: Number(score),
+      reflection,
+    });
+    saveMockDrafts();
+    // 입력 폼 초기화
+    document.getElementById('newMockScore').value = '';
+    document.getElementById('newMockReflection').value = '';
+    document.getElementById('newMockMonth').value = '';
+    renderMockExams();
+  };
+  window.removeMockDraft = function(idx) {
+    if (!confirm('이 모의고사 임시저장 항목을 삭제할까요?')) return;
+    cachedMockDrafts.splice(idx, 1);
+    saveMockDrafts();
+    renderMockExams();
+  };
+
   async function saveAllGradeInputs() {
     const submissions = [];
     // 점수 + 매칭되는 반성
@@ -1102,11 +1251,28 @@
         reflection: rd.text,
       });
     }
-    if (submissions.length === 0) {
+
+    // 모의고사 draft (전송 안 된 것만)
+    const mockSubmissions = [];
+    for (const m of cachedMockDrafts) {
+      if (m.sentAt) continue;  // 이미 전송된 항목
+      mockSubmissions.push({
+        type: 'mock',
+        gradeLevel: m.gradeLevel,
+        year: Number(m.year),
+        month: Number(m.month),
+        elective: m.elective || '',
+        mathScore: m.mathScore,
+        reflection: m.reflection || '',
+      });
+    }
+
+    const totalCount = submissions.length + mockSubmissions.length;
+    if (totalCount === 0) {
       alert('입력된 내용이 없습니다.');
       return;
     }
-    if (!confirm(`${submissions.length}건의 성적/반성을 저장할까요?`)) return;
+    if (!confirm(`${totalCount}건의 성적/반성을 저장할까요?`)) return;
 
     const payload = {
       studentCode,
@@ -1115,6 +1281,7 @@
       grade: (studentData.student || {}).grade || '',
       submittedAt: new Date().toISOString(),
       submissions,
+      mockSubmissions,
     };
 
     try {
@@ -1140,11 +1307,17 @@
       for (const rk in cachedReflectionDrafts) {
         if (cachedReflectionDrafts[rk] && cachedReflectionDrafts[rk].text) cachedReflectionDrafts[rk].sentAt = now;
       }
+      // 모의고사 draft에 sentAt 마킹
+      for (const m of cachedMockDrafts) {
+        if (!m.sentAt) m.sentAt = now;
+      }
       saveLocalDrafts();
       saveReflectionDrafts();
+      saveMockDrafts();
       editingExams.clear();
       renderGradeExams();
-      alert(`✓ ${submissions.length}건을 저장했어요.`);
+      renderMockExams();
+      alert(`✓ ${totalCount}건을 저장했어요.`);
     } catch (e) {
       console.error(e);
       alert('전송 실패: ' + e.message);

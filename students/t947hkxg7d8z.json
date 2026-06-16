@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-16T01:52:35.401Z",
+  "generatedAt": "2026-06-16T01:58:54.419Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -390,13 +390,13 @@
       "subject": "대수",
       "examKind": "중간",
       "score": 66.6,
-      "grade": null,
+      "grade": 2,
       "rank": null,
       "totalStudents": null,
       "percent": null,
-      "reflection": "열공!!",
+      "reflection": "",
       "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-16T01:25:23.992Z",
+      "sourceSubmittedAt": "2026-06-16T01:58:23.803Z",
       "createdAt": "2026-06-09T07:21:05.397Z"
     },
     {

@@ -665,19 +665,23 @@
   }
 
   // 성적 카드 토글
+  let expandedGradeCards = new Set();  // 펼친 카드 id 저장
   window.toggleGradeCard = function(cardId) {
     const el = document.getElementById(cardId);
     if (!el) return;
     const cur = el.dataset.collapsed === 'true';
     el.dataset.collapsed = cur ? 'false' : 'true';
+    if (cur) expandedGradeCards.add(cardId);
+    else expandedGradeCards.delete(cardId);
   };
 
   // 수정 모드 — 점수가 이미 등록된 시험을 다시 입력 가능하게
   let editingExams = new Set();
   window.enableEditMode = function(draftKey) {
     editingExams.add(draftKey);
-    // 기존 매칭 grade 값을 draft에 미리 채움
+    // 해당 카드 자동 펼침 보장
     const [entryId, examKind] = draftKey.split('__');
+    expandedGradeCards.add(`gradecard_${entryId}`);
     const entry = (cachedSchoolGradeCuts || []).find(c => c.id === entryId);
     if (entry) {
       const myGrades = (studentData || {}).myGrades || [];
@@ -923,6 +927,7 @@
 
       // 카드 헤더(과목명) — 클릭 시 토글
       const cardId = `gradecard_${c.id}`;
+      const isCardExpanded = expandedGradeCards.has(cardId);
       // 점수 입력 상태 요약 (몇 건 입력됨, 몇 건 비어있음)
       const myGrades_arr = myGrades; // alias
       let scoreSummary = '';
@@ -937,7 +942,7 @@
       else if (filled > 0) scoreSummary = `<span class="grade-card-status partial">${filled}/${examKinds.length} 입력됨</span>`;
       else scoreSummary = `<span class="grade-card-status empty">미입력</span>`;
 
-      html += `<div class="grade-card" id="${cardId}" data-collapsed="true">`;
+      html += `<div class="grade-card" id="${cardId}" data-collapsed="${isCardExpanded ? 'false' : 'true'}">`;
       html += `<button type="button" class="grade-card-toggle" onclick="toggleGradeCard('${cardId}')">
         <span class="grade-card-title">${escapeHtml(c.subject || '')} <span style="color:var(--text3); font-weight:500; font-size:12px;">· ${escapeHtml(lvl)} · ${c.year || '?'}-${c.semester || '?'}학기</span></span>
         <span class="grade-card-meta">${scoreSummary}<span class="grade-card-chevron">▼</span></span>
@@ -1041,10 +1046,14 @@
   async function saveAllGradeInputs() {
     const submissions = [];
     // 점수 + 매칭되는 반성
-    for (const k in cachedLocalDrafts) {
-      const d = cachedLocalDrafts[k];
+    // 수정 모드(editingExams)에 포함된 키도 처리 — 빈 값이어도 제출 (점수 삭제)
+    const allKeys = new Set([...Object.keys(cachedLocalDrafts), ...editingExams]);
+    for (const k of allKeys) {
+      const d = cachedLocalDrafts[k] || {};
+      const isEditing = editingExams.has(k);
       const hasValue = (d.score && d.score !== '') || (d.grade && d.grade !== '') || (d.rank && d.rank !== '') || (d.totalStudents && d.totalStudents !== '');
-      if (!hasValue) continue;
+      // 일반 모드: 값이 있어야 제출, 수정 모드: 빈 값이어도 제출 (삭제)
+      if (!hasValue && !isEditing) continue;
       const [entryId, examKind] = k.split('__');
       const entry = (cachedSchoolGradeCuts || []).find(c => c.id === entryId);
       if (!entry) continue;
@@ -1055,10 +1064,10 @@
         entryId, examKind,
         school: entry.school, gradeLevel: entry.gradeLevel,
         year: entry.year, semester: entry.semester, subject: entry.subject,
-        score: d.score ? Number(d.score) : null,
-        grade: d.grade ? Number(d.grade) : null,
-        rank: d.rank ? Number(d.rank) : null,
-        totalStudents: d.totalStudents ? Number(d.totalStudents) : null,
+        score: (d.score !== '' && d.score != null) ? Number(d.score) : null,
+        grade: (d.grade !== '' && d.grade != null) ? Number(d.grade) : null,
+        rank: (d.rank !== '' && d.rank != null) ? Number(d.rank) : null,
+        totalStudents: (d.totalStudents !== '' && d.totalStudents != null) ? Number(d.totalStudents) : null,
         reflection,
       });
     }

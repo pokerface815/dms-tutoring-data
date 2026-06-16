@@ -672,6 +672,48 @@
     el.dataset.collapsed = cur ? 'false' : 'true';
   };
 
+  // 수정 모드 — 점수가 이미 등록된 시험을 다시 입력 가능하게
+  let editingExams = new Set();
+  window.enableEditMode = function(draftKey) {
+    editingExams.add(draftKey);
+    // 기존 매칭 grade 값을 draft에 미리 채움
+    const [entryId, examKind] = draftKey.split('__');
+    const entry = (cachedSchoolGradeCuts || []).find(c => c.id === entryId);
+    if (entry) {
+      const myGrades = (studentData || {}).myGrades || [];
+      const matched = myGrades.find(g => g.type === 'naesin'
+        && Number(g.year) === Number(entry.year)
+        && String(g.semester) === String(entry.semester)
+        && g.subject === entry.subject && g.examKind === examKind);
+      if (matched) {
+        if (!cachedLocalDrafts[draftKey]) cachedLocalDrafts[draftKey] = {};
+        if (cachedLocalDrafts[draftKey].score == null || cachedLocalDrafts[draftKey].score === '') {
+          if (matched.score != null) cachedLocalDrafts[draftKey].score = matched.score;
+        }
+        if (cachedLocalDrafts[draftKey].grade == null || cachedLocalDrafts[draftKey].grade === '') {
+          if (matched.grade != null) cachedLocalDrafts[draftKey].grade = matched.grade;
+        }
+        if (cachedLocalDrafts[draftKey].rank == null || cachedLocalDrafts[draftKey].rank === '') {
+          if (matched.rank != null) cachedLocalDrafts[draftKey].rank = matched.rank;
+        }
+        if (cachedLocalDrafts[draftKey].totalStudents == null || cachedLocalDrafts[draftKey].totalStudents === '') {
+          if (matched.totalStudents != null) cachedLocalDrafts[draftKey].totalStudents = matched.totalStudents;
+        }
+        saveLocalDrafts();
+      }
+    }
+    renderGradeExams();
+  };
+  window.cancelEditMode = function(draftKey) {
+    editingExams.delete(draftKey);
+    // 미저장 입력 초기화 (이미 등록된 값으로 되돌림)
+    if (cachedLocalDrafts[draftKey]) {
+      delete cachedLocalDrafts[draftKey];
+      saveLocalDrafts();
+    }
+    renderGradeExams();
+  };
+
   // ===== 지난 시험 기록 + 반성 =====
   function renderGradeHistory(myGrades) {
     const wrap = document.getElementById('gradeHistorySection');
@@ -914,6 +956,7 @@
           && String(g.semester) === String(c.semester)
           && g.subject === c.subject && g.examKind === ek);
         const hasScore = matchedGrade && (matchedGrade.score != null || matchedGrade.grade != null);
+        const isEditing = editingExams.has(draftKey);
 
         const reflectionDraftKey = `reflection__${c.id}__${ek}`;
         const reflectionFromGrade = matchedGrade ? (matchedGrade.reflection || '') : '';
@@ -922,17 +965,19 @@
           : reflectionFromGrade;
 
         let scoreBlock;
-        if (hasScore) {
+        if (hasScore && !isEditing) {
+          // 점수 등록됨 — 표시 + 수정 버튼
           const sc = matchedGrade.score, gd = matchedGrade.grade, rk = matchedGrade.rank, ts = matchedGrade.totalStudents;
           scoreBlock = `
             <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap; padding:8px 10px; background:#f0f4f0; border:1px solid #d8e6d8; border-radius:6px;">
               ${sc != null ? `<span style="font-size:13px; font-weight:700; color:#2e5d2e;">${sc}점</span>` : ''}
               ${gd ? `<span style="display:inline-block; padding:2px 8px; background:${gradeColor(gd)}; color:#fff; border-radius:4px; font-size:11px; font-weight:700;">${gd}등급</span>` : ''}
               ${(rk && ts) ? `<span style="font-size:11px; color:var(--text2);">석차 ${rk}/${ts}</span>` : ''}
-              <span style="margin-left:auto; font-size:10.5px; color:var(--text3);">입력됨</span>
+              <button type="button" onclick="enableEditMode('${draftKey}')" style="margin-left:auto; padding:3px 10px; background:var(--surface); border:1px solid var(--border); border-radius:5px; font-size:11px; font-weight:600; color:var(--text); cursor:pointer; font-family:inherit;">수정</button>
             </div>
           `;
         } else {
+          // 입력 폼 (신규 또는 수정 모드)
           scoreBlock = `
             <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-bottom:6px;">
               <div><label class="gi-label">원점수</label><input type="number" min="0" max="100" class="gi-input" data-key="${draftKey}" data-field="score" value="${d.score ?? ''}" placeholder="예: 88"></div>
@@ -947,6 +992,7 @@
                 <div><label class="gi-label">전교 인원</label><input type="number" min="1" class="gi-input" data-key="${draftKey}" data-field="totalStudents" value="${d.totalStudents ?? ''}" placeholder="250"></div>
               </div>
             ` : ''}
+            ${isEditing ? `<div style="text-align:right; margin-bottom:6px;"><button type="button" onclick="cancelEditMode('${draftKey}')" style="padding:3px 10px; background:var(--surface); border:1px solid var(--border); border-radius:5px; font-size:11px; color:var(--text2); cursor:pointer; font-family:inherit;">수정 취소</button></div>` : ''}
           `;
         }
 
@@ -1074,6 +1120,7 @@
       }
       saveLocalDrafts();
       saveReflectionDrafts();
+      editingExams.clear();
       renderGradeExams();
       alert(`✓ ${submissions.length}건을 저장했어요.`);
     } catch (e) {

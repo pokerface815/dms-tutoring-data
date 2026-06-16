@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-16T11:02:34.390Z",
+  "generatedAt": "2026-06-16T12:13:00.604Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -384,7 +384,7 @@
       "percent": null,
       "reflection": "",
       "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-16T10:48:53.863Z",
+      "sourceSubmittedAt": "2026-06-16T12:07:15.028Z",
       "createdAt": "2026-06-09T07:21:05.397Z"
     },
     {
@@ -427,6 +427,20 @@
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-06-16T02:20:27.284Z"
+    },
+    {
+      "id": "grade_mqglr6lh2o6",
+      "type": "mock",
+      "year": 2026,
+      "grade": null,
+      "gradeLevel": "고2",
+      "month": 3,
+      "elective": "",
+      "mathScore": 90,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-06-16T12:07:15.028Z",
+      "createdAt": "2026-06-16T12:12:29.861Z"
     }
   ]
 }

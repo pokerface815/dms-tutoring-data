@@ -501,8 +501,10 @@
   function renderGradesInputView(data) {
     let html = `<div style="text-align:right; margin-right:4px;"><a href="#grades" class="back-link">← 성적 관리</a></div>`;
     html += `<h2 class="view-title">성적 입력 / 반성</h2>`;
+    html += `<div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">시험 결과와 반성을 적어주세요. 입력 후 화면 아래 <b>"저장"</b> 버튼을 꼭 눌러주세요.</div>`;
     html += `<div id="gradeInputSection"></div>`;
     html += `<div id="mockInputSection" style="margin-top:24px;"></div>`;
+    html += `<button class="make-note-btn" onclick="saveAllGradeInputs()" style="margin-top:24px;">💾 저장</button>`;
     return html;
   }
 
@@ -937,7 +939,7 @@
     loadReflectionDrafts();
     const myGrades = (studentData || {}).myGrades || [];
 
-    let html = `<div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">시험 결과와 반성을 적어주세요. 입력 후 <b>꼭 "저장"</b> 버튼을 눌러주세요.</div>`;
+    let html = `<h3 style="margin:0 0 8px; font-size:14px; font-weight:700; letter-spacing:-0.3px;">📘 학교 내신</h3>`;
 
     for (const c of myEntries) {
       const enabled = c.studentInputEnabledByExamKind || {};
@@ -1040,11 +1042,6 @@
       }
       html += `</div></div>`;  // body + card 닫기
     }
-    html += `
-      <button class="make-note-btn" onclick="saveAllGradeInputs()">
-        💾 저장
-      </button>
-    `;
     wrap.innerHTML = html;
 
     wrap.querySelectorAll('.gi-input:not(.reflection-input)').forEach(el => {

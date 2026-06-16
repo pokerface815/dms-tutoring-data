@@ -241,7 +241,7 @@
   /* 스크롤해도 보이는 상단 바 */
   .page-header-bar {
     display: flex; align-items: center; justify-content: space-between;
-    gap: 8px; padding: 8px 0;
+    gap: 8px; padding: 8px 12px;
     background: var(--bg);
     margin: 0;
   }
@@ -1121,13 +1121,33 @@
       html += `<div style="margin-bottom:12px;">`;
       existingMock.forEach(g => {
         const cutAvailable = g.grade != null;
+        // 삭제 예약 상태 (mockDrafts에 delete 마커가 있는지)
+        const isDeletingThis = cachedMockDrafts.some(m => m.delete === true && m.gradeId === g.id);
+        // 수정 예약 상태 (같은 키로 새 mockDraft가 있는지)
+        const editingDraft = cachedMockDrafts.find(m => !m.delete && !m.sentAt
+          && m.gradeLevel === g.gradeLevel && Number(m.year) === Number(g.year)
+          && Number(m.month) === Number(g.month) && (m.elective || '') === (g.elective || ''));
+
+        const opacity = isDeletingThis ? '0.5' : '1';
+        const bgColor = isDeletingThis ? '#fef0f0' : '#f0f4f0';
+        const borderColor = isDeletingThis ? '#fdd' : '#d8e6d8';
+
         html += `
-          <div style="padding:10px 12px; background:#f0f4f0; border:1px solid #d8e6d8; border-radius:6px; margin-bottom:6px; display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
-            <span style="font-weight:700; min-width:70px; font-size:13px;">${escapeHtml(g.gradeLevel || '')} ${g.year || '?'}.${g.month || '?'}월</span>
-            ${g.elective ? `<span style="font-size:11px; color:var(--text2);">${escapeHtml(g.elective)}</span>` : ''}
-            <span style="font-size:13px; font-weight:700; color:#2e5d2e;">${g.mathScore != null ? g.mathScore + '점' : '-'}</span>
-            ${cutAvailable ? `<span style="display:inline-block; padding:2px 8px; background:${gradeColor(g.grade)}; color:#fff; border-radius:4px; font-size:11px; font-weight:700;">${g.grade}등급</span>` : `<span style="font-size:10.5px; color:#8b6914;">등급컷 대기</span>`}
-            <span style="margin-left:auto; font-size:10.5px; color:var(--text3);">등록됨</span>
+          <div style="padding:10px 12px; background:${bgColor}; border:1px solid ${borderColor}; border-radius:6px; margin-bottom:6px; opacity:${opacity};">
+            <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+              <span style="font-weight:700; min-width:70px; font-size:13px;">${escapeHtml(g.gradeLevel || '')} ${g.year || '?'}.${g.month || '?'}월</span>
+              ${g.elective ? `<span style="font-size:11px; color:var(--text2);">${escapeHtml(g.elective)}</span>` : ''}
+              <span style="font-size:13px; font-weight:700; color:#2e5d2e; ${isDeletingThis ? 'text-decoration:line-through;' : ''}">${g.mathScore != null ? g.mathScore + '점' : '-'}</span>
+              ${cutAvailable ? `<span style="display:inline-block; padding:2px 8px; background:${gradeColor(g.grade)}; color:#fff; border-radius:4px; font-size:11px; font-weight:700;">${g.grade}등급</span>` : `<span style="font-size:10.5px; color:#8b6914;">등급컷 대기</span>`}
+              <span style="margin-left:auto; display:flex; gap:4px;">
+                ${isDeletingThis ? `<button type="button" onclick="cancelMockDelete('${g.id}')" style="padding:3px 10px; background:var(--surface); border:1px solid var(--border); border-radius:5px; font-size:11px; font-weight:600; color:var(--text); cursor:pointer; font-family:inherit;">삭제 취소</button>` : `
+                  <button type="button" onclick="editMockRecord('${g.id}')" style="padding:3px 10px; background:var(--surface); border:1px solid var(--border); border-radius:5px; font-size:11px; font-weight:600; color:var(--text); cursor:pointer; font-family:inherit;">수정</button>
+                  <button type="button" onclick="deleteMockRecord('${g.id}')" style="padding:3px 10px; background:transparent; border:1px solid var(--border); border-radius:5px; font-size:11px; color:#A32D2D; cursor:pointer; font-family:inherit;">삭제</button>
+                `}
+              </span>
+            </div>
+            ${editingDraft ? `<div style="margin-top:6px; padding:6px 8px; background:#fef9e6; border-radius:4px; font-size:11px; color:#8b6914;">✏️ 수정 예약 — 새 점수: <b>${editingDraft.mathScore}점</b> (저장하면 반영)</div>` : ''}
+            ${isDeletingThis ? `<div style="margin-top:6px; padding:6px 8px; background:#fce8e8; border-radius:4px; font-size:11px; color:#A32D2D;">🗑️ 삭제 예약 — 저장하면 삭제됩니다</div>` : ''}
           </div>
         `;
       });
@@ -1236,6 +1256,67 @@
     renderMockExams();
   };
 
+  // 등록된 모의고사 record 수정
+  window.editMockRecord = function(gradeId) {
+    const myGrades = (studentData || {}).myGrades || [];
+    const g = myGrades.find(x => x.id === gradeId);
+    if (!g) return;
+    const newScore = prompt(`${g.gradeLevel || ''} ${g.year}.${g.month}월 모의고사\n현재 점수: ${g.mathScore}점\n\n새 점수를 입력하세요:`, g.mathScore);
+    if (newScore == null) return;  // 취소
+    const n = Number(newScore);
+    if (isNaN(n) || n < 0 || n > 100) { alert('0~100 사이의 숫자를 입력해주세요.'); return; }
+    if (n === Number(g.mathScore)) { alert('점수가 동일합니다.'); return; }
+    // 기존 수정 예약 항목이 있으면 교체
+    cachedMockDrafts = cachedMockDrafts.filter(m => !(!m.delete && !m.sentAt
+      && m.gradeLevel === g.gradeLevel && Number(m.year) === Number(g.year)
+      && Number(m.month) === Number(g.month) && (m.elective || '') === (g.elective || '')));
+    cachedMockDrafts.push({
+      tempId: 'mock_' + Date.now().toString(36),
+      gradeLevel: g.gradeLevel,
+      year: Number(g.year),
+      month: Number(g.month),
+      elective: g.elective || '',
+      mathScore: n,
+      reflection: g.reflection || '',
+    });
+    saveMockDrafts();
+    renderMockExams();
+  };
+
+  // 등록된 모의고사 record 삭제 (예약)
+  window.deleteMockRecord = function(gradeId) {
+    const myGrades = (studentData || {}).myGrades || [];
+    const g = myGrades.find(x => x.id === gradeId);
+    if (!g) return;
+    if (!confirm(`${g.gradeLevel || ''} ${g.year}.${g.month}월 모의고사 (${g.mathScore}점)를 삭제할까요?\n\n저장 버튼을 누르면 반영됩니다.`)) return;
+    // 기존 수정 예약 제거
+    cachedMockDrafts = cachedMockDrafts.filter(m => !(!m.delete && !m.sentAt
+      && m.gradeLevel === g.gradeLevel && Number(m.year) === Number(g.year)
+      && Number(m.month) === Number(g.month) && (m.elective || '') === (g.elective || '')));
+    // 이미 삭제 예약 있으면 스킵
+    if (cachedMockDrafts.some(m => m.delete === true && m.gradeId === gradeId)) {
+      saveMockDrafts(); renderMockExams(); return;
+    }
+    cachedMockDrafts.push({
+      tempId: 'mock_del_' + Date.now().toString(36),
+      delete: true,
+      gradeId: gradeId,
+      gradeLevel: g.gradeLevel,
+      year: Number(g.year),
+      month: Number(g.month),
+      elective: g.elective || '',
+    });
+    saveMockDrafts();
+    renderMockExams();
+  };
+
+  // 삭제 예약 취소
+  window.cancelMockDelete = function(gradeId) {
+    cachedMockDrafts = cachedMockDrafts.filter(m => !(m.delete === true && m.gradeId === gradeId));
+    saveMockDrafts();
+    renderMockExams();
+  };
+
   async function saveAllGradeInputs() {
     const submissions = [];
     // 점수 + 매칭되는 반성
@@ -1283,19 +1364,31 @@
       });
     }
 
-    // 모의고사 draft (전송 안 된 것만)
+    // 모의고사 draft (전송 안 된 것만) — 일반 추가 + 삭제 마커
     const mockSubmissions = [];
     for (const m of cachedMockDrafts) {
       if (m.sentAt) continue;  // 이미 전송된 항목
-      mockSubmissions.push({
-        type: 'mock',
-        gradeLevel: m.gradeLevel,
-        year: Number(m.year),
-        month: Number(m.month),
-        elective: m.elective || '',
-        mathScore: m.mathScore,
-        reflection: m.reflection || '',
-      });
+      if (m.delete === true) {
+        mockSubmissions.push({
+          type: 'mock',
+          delete: true,
+          gradeId: m.gradeId,
+          gradeLevel: m.gradeLevel,
+          year: Number(m.year),
+          month: Number(m.month),
+          elective: m.elective || '',
+        });
+      } else {
+        mockSubmissions.push({
+          type: 'mock',
+          gradeLevel: m.gradeLevel,
+          year: Number(m.year),
+          month: Number(m.month),
+          elective: m.elective || '',
+          mathScore: m.mathScore,
+          reflection: m.reflection || '',
+        });
+      }
     }
 
     const totalCount = submissions.length + mockSubmissions.length;

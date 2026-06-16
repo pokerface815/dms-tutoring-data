@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-16T00:52:55.451Z",
+  "generatedAt": "2026-06-16T01:19:38.143Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -8,7 +8,17 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1781572744234_fu419z",
+      "noteName": "이경주_개념루트_기말 전체 재재오답 6월 16일",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-16",
+      "done": false,
+      "doneAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [
     {
@@ -312,9 +322,9 @@
     }
   ],
   "weekProgress": {
-    "total": 7,
+    "total": 8,
     "done": 3,
-    "percent": 43,
+    "percent": 38,
     "startDate": "2026-06-15",
     "endDate": "2026-06-21"
   },

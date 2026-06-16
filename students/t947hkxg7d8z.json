@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-15T15:21:35.548Z",
+  "generatedAt": "2026-06-16T00:47:34.289Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -462,14 +462,14 @@
       "semester": "1",
       "subject": "미적분2",
       "examKind": "중간",
-      "score": 98,
+      "score": 88,
       "grade": null,
       "rank": null,
       "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-15T15:12:15.283Z",
+      "sourceSubmittedAt": "2026-06-16T00:46:29.726Z",
       "createdAt": "2026-06-15T14:46:16.541Z"
     },
     {

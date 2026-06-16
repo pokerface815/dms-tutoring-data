@@ -3,7 +3,7 @@
     "id": "scut_mq5frbfo",
     "school": "문정여고",
     "grade": "고2",
-    "semester": "1",
+    "semester": "2",
     "examKind": "기말",
     "cuts": [
       80.8,
@@ -35,7 +35,8 @@
     "studentInputEnabledByExamKind": {
       "중간": true,
       "기말": true
-    }
+    },
+    "extraNote": ""
   },
   {
     "id": "scut_mq6bav60",

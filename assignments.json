@@ -2333,5 +2333,21 @@
       }
     ],
     "createdAt": "2026-06-15T15:20:30.575Z"
+  },
+  {
+    "id": "a_1781572744234_fu419z",
+    "noteId": "note_1781572694640_e0kz65",
+    "noteName": "이경주_개념루트_기말 전체 재재오답 6월 16일",
+    "studentId": "s_1778325875686_1uoe4b",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-16",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-16T01:19:04.234Z"
   }
 ]

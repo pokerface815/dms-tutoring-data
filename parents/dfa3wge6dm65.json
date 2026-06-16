@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-16T10:53:24.801Z",
+  "generatedAt": "2026-06-16T11:03:51.291Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -12,6 +12,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-15",
+          "weekday": "월",
+          "className": "월,수,금 중3 5시 수업",
+          "content": "시험 대비 프린트 풀이(학교별 출제범위, 개별 수준 고려)",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        },
         {
           "date": "2026-06-12",
           "weekday": "금",

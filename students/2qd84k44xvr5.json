@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-16T02:09:51.110Z",
+  "generatedAt": "2026-06-16T02:12:17.024Z",
   "student": {
     "name": "송유림",
     "school": "숭일고",
@@ -144,12 +144,31 @@
       "subject": "공통수학1",
       "examKind": "중간",
       "score": 85,
-      "grade": null,
+      "grade": 1,
       "rank": null,
+      "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": false,
+      "sourceSubmittedAt": "2026-06-16T02:11:52.309Z",
       "createdAt": "2026-06-11T02:07:03.206Z"
+    },
+    {
+      "id": "grade_mqg0b0djd8n",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "1",
+      "subject": "공통수학1",
+      "examKind": "기말",
+      "score": null,
+      "grade": 1,
+      "rank": null,
+      "totalStudents": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-06-16T02:11:52.309Z",
+      "createdAt": "2026-06-16T02:12:03.367Z"
     }
   ]
 }

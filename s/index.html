@@ -221,33 +221,40 @@
   .progress-mini-fill { height: 100%; background: var(--accent-light); border-radius: 3px; transition: width 0.3s ease; }
   .progress-mini-fill.task { background: #97aac8; }
 
+  /* 페이지 상단 고정 영역 (header + actionbar) */
+  .sticky-top {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--bg);
+    margin: 0 -16px;
+    padding: 0 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .view-body { padding-top: 4px; }
   .back-link {
     display: inline-block; padding: 7px 14px;
-    color: var(--text); background: var(--surface);
-    border: 1px solid var(--border); border-radius: 8px;
+    color: #1b5e20; background: #c8e6c9;
+    border: 1px solid rgba(46,125,50,0.35); border-radius: 8px;
     text-decoration: none; font-size: 13px; font-weight: 600;
     transition: background 0.12s ease;
   }
-  .back-link:active { background: var(--surface2); }
+  .back-link:active { background: #a5d6a7; }
   /* 스크롤해도 보이는 상단 바 */
   .page-header-bar {
-    position: sticky; top: 0; z-index: 50;
     display: flex; align-items: center; justify-content: space-between;
-    gap: 8px; padding: 8px 4px 8px 4px;
-    background: var(--bg); border-bottom: 1px solid transparent;
-    margin: 0 0 6px;
+    gap: 8px; padding: 8px 0;
+    background: var(--bg);
+    margin: 0;
   }
-  .page-header-bar.scrolled { border-bottom-color: var(--border); }
   .header-btn {
     display: inline-flex; align-items: center; justify-content: center;
     padding: 7px 14px; border-radius: 8px;
     font-family: inherit; font-size: 13px; font-weight: 600;
     text-decoration: none; cursor: pointer;
-    background: var(--surface); color: var(--text);
-    border: 1px solid var(--border);
+    background: #c8e6c9; color: #1b5e20;
+    border: 1px solid rgba(46,125,50,0.35);
     transition: background 0.12s ease;
   }
-  .header-btn:active { background: var(--surface2); }
+  .header-btn:active { background: #a5d6a7; }
   .header-btn.primary { background: #c8e6c9; color: #1b5e20; border-color: rgba(46,125,50,0.35); }
   .header-btn.primary:active { background: #a5d6a7; }
   .back-link:active { opacity: 0.6; }
@@ -396,14 +403,19 @@
       </div>
     `;
 
+    let actionBar = '';
     let body = '';
     if (view === 'learning') {
+      actionBar = `<div class="page-header-bar"><a href="#menu" class="back-link">← 메인으로</a><span></span></div>`;
       body = renderLearningView(data);
     } else if (view === 'video') {
+      actionBar = `<div class="page-header-bar"><a href="#menu" class="back-link">← 메인으로</a><span></span></div>`;
       body = renderVideoView(data);
     } else if (view === 'grades') {
+      actionBar = `<div class="page-header-bar"><a href="#menu" class="back-link">← 메인으로</a><a href="#grades-input" class="header-btn primary">성적 입력 / 반성</a></div>`;
       body = renderGradesView(data);
     } else if (view === 'grades-input') {
+      actionBar = `<div class="page-header-bar"><a href="#grades" class="back-link">← 성적 관리</a><button class="header-btn primary" onclick="saveAllGradeInputs()">저장</button></div>`;
       body = renderGradesInputView(data);
     } else {
       body = renderMainMenu(data);
@@ -417,16 +429,14 @@
       </div>
     `;
 
-    app.innerHTML = headerHtml + body + footerHtml;
+    app.innerHTML = `<div class="sticky-top">${headerHtml}${actionBar}</div><div class="view-body">${body}</div>` + footerHtml;
 
     if (view === 'grades' || view === 'grades-input') {
       loadGradeExams().catch(e => console.warn('시험 정보 로드 실패:', e));
     }
   }
 
-  function backLinkHtml() {
-    return `<div class="page-header-bar"><span></span><a href="#menu" class="back-link">← 메인으로</a></div>`;
-  }
+  function backLinkHtml() { return ''; }  // 이제 sticky-top에서 처리
 
   function renderMainMenu(data) {
     return `
@@ -508,21 +518,13 @@
   }
 
   function renderGradesView(data) {
-    let html = `<div class="page-header-bar">
-      <a href="#grades-input" class="header-btn">성적 입력 / 반성</a>
-      <a href="#menu" class="back-link">← 메인으로</a>
-    </div>`;
-    html += `<h2 class="view-title">성적 관리</h2>`;
+    let html = `<h2 class="view-title">성적 관리</h2>`;
     html += `<div id="gradeChartSection"></div>`;
     return html;
   }
 
   function renderGradesInputView(data) {
-    let html = `<div class="page-header-bar">
-      <button class="header-btn primary" onclick="saveAllGradeInputs()">저장</button>
-      <a href="#grades" class="back-link">← 성적 관리</a>
-    </div>`;
-    html += `<h2 class="view-title">성적 입력 / 반성</h2>`;
+    let html = `<h2 class="view-title">성적 입력 / 반성</h2>`;
     html += `<div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">시험 결과와 반성을 적어주세요. 입력 후 위쪽 <b>"저장"</b> 버튼을 꼭 눌러주세요.</div>`;
     html += `<div id="gradeInputSection"></div>`;
     html += `<div id="mockInputSection" style="margin-top:24px;"></div>`;

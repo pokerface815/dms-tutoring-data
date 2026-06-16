@@ -365,5 +365,75 @@
     "taskBatchId": null,
     "createdAt": "2026-06-16T10:51:37.929Z",
     "updatedAt": "2026-06-16T10:51:37.929Z"
+  },
+  {
+    "id": "lesson_1781607114660_rllcir",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-06-15",
+    "content": "시험 대비 프린트 풀이",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-16T10:51:54.660Z",
+    "updatedAt": "2026-06-16T10:51:54.660Z"
+  },
+  {
+    "id": "lesson_1781607126232_15r29f",
+    "classId": "cls_1780309030966_ingi3o",
+    "date": "2026-06-15",
+    "content": "시험 대비 프린트 풀이",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-16T10:52:06.232Z",
+    "updatedAt": "2026-06-16T10:52:06.232Z"
+  },
+  {
+    "id": "lesson_1781607133678_67toz6",
+    "classId": "cls_1780309030966_ingi3o",
+    "date": "2026-06-12",
+    "content": "주간테스트",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-16T10:52:13.678Z",
+    "updatedAt": "2026-06-16T10:52:13.678Z"
+  },
+  {
+    "id": "lesson_1781607151233_ecxc25",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-06-15",
+    "content": "시험 대비 프린트 풀이",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-16T10:52:31.233Z",
+    "updatedAt": "2026-06-16T10:52:31.233Z"
+  },
+  {
+    "id": "lesson_1781607170962_hlnidz",
+    "classId": "cls_1780910683163_gtovnl",
+    "date": "2026-06-15",
+    "content": "시험 대비 프린트 풀이",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-16T10:52:50.962Z",
+    "updatedAt": "2026-06-16T10:52:50.962Z"
+  },
+  {
+    "id": "lesson_1781607184789_b1rbz0",
+    "classId": "cls_1780311125071_i1638e",
+    "date": "2026-06-12",
+    "content": "주간테스트",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-16T10:53:04.789Z",
+    "updatedAt": "2026-06-16T10:53:04.789Z"
+  },
+  {
+    "id": "lesson_1781607220115_rutju4",
+    "classId": "cls_1780311125071_i1638e",
+    "date": "2026-06-15",
+    "content": "시험 대비 프린트 풀이(학교별 출제범위, 개별 수준 고려)",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-16T10:53:40.115Z",
+    "updatedAt": "2026-06-16T10:53:40.115Z"
   }
 ]

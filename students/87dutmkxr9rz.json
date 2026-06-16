@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-16T14:09:34.068Z",
+  "generatedAt": "2026-06-16T16:07:20.332Z",
   "student": {
     "name": "국아인",
     "school": "중앙여고",
@@ -8,9 +8,7 @@
     "class": "",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1781511394108_frgazt",
       "noteName": "국아인_개념루트_등차수열과 등비수열( ~709번)",
@@ -21,6 +19,8 @@
       "doneAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1781511394108_frgazt",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-16T13:56:13.984Z",
+  "generatedAt": "2026-06-16T14:08:18.797Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -395,10 +395,10 @@
       "gradeLevel": "고2",
       "month": 6,
       "elective": "",
-      "mathScore": 73.1,
+      "mathScore": 73,
       "reflection": "",
       "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-16T13:53:30.735Z",
+      "sourceSubmittedAt": "2026-06-16T13:58:56.649Z",
       "createdAt": "2026-06-09T12:41:20.852Z"
     },
     {

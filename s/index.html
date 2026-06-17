@@ -99,6 +99,7 @@
     .note-card.completed { opacity: 0.7; background: var(--surface2); }
     .note-card.submitted { border-left: 3px solid var(--info); background: #f0f7fc; }
     .note-card.confirmed { border-left: 3px solid var(--success); background: #f3f8f0; }
+    .note-card.missed { border-left: 3px solid #888; background: #f5f3f0; opacity: 0.92; }
     .note-card.task { border-left: 3px solid #7c5cbf; }
     .note-card-title { font-size: 14px; font-weight: 500; line-height: 1.4; margin-bottom: 4px; word-break: keep-all; }
     .note-card-meta { font-size: 11px; color: var(--text3); display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
@@ -111,6 +112,7 @@
     .note-card-status { font-size: 11px; font-weight: 500; padding: 1px 7px; border-radius: 8px; }
     .note-card-status.submitted { background: var(--info); color: white; }
     .note-card-status.confirmed { background: var(--success); color: white; }
+    .note-card-status.missed { background: #888; color: white; }
 
     .teacher-comment {
       margin-top: 10px;
@@ -2452,13 +2454,13 @@
     let inner = recent.map(it => renderNoteCard(it, 'completed', false)).join('');
     if (rest.length > 0) {
       inner += `<div id="completedRest" style="display:none;">${rest.map(it => renderNoteCard(it, 'completed', false)).join('')}</div>`;
-      inner += `<button class="completed-more-btn" id="completedMoreBtn" onclick="toggleCompletedMore()">+ 이전 완료 ${rest.length}개 더 보기</button>`;
+      inner += `<button class="completed-more-btn" id="completedMoreBtn" onclick="toggleCompletedMore()">+ 이전 ${rest.length}개 더 보기</button>`;
     }
     return `
       <details style="margin-top:12px;">
         <summary style="cursor:pointer; list-style:none; user-select:none;">
-          <div style="width:66.67%; max-width:380px; margin:0 auto; padding:10px 14px; background:#e8f5e9; border:0.5px solid rgba(46,125,50,0.25); border-radius:10px; font-size:13px; font-weight:600; color:#2e7d32; text-align:center;">
-            ✓ 최근 완료한 오답노트 ${items.length}건 보기
+          <div style="width:66.67%; max-width:380px; margin:0 auto; padding:10px 14px; background:#f3f1ed; border:0.5px solid rgba(140,95,50,0.25); border-radius:10px; font-size:13px; font-weight:600; color:#6b5238; text-align:center;">
+            최근 완료/마감된 오답노트 ${items.length}건 보기
           </div>
         </summary>
         <div style="margin-top:10px;">${inner}</div>
@@ -2494,17 +2496,19 @@
   // 일반 과제 섹션
   function renderTaskSection(tasks) {
     if (!tasks || tasks.length === 0) return '';
-    // 미확인(제출해야할 + 확인 대기) / 확인됨 분리
+    // 미확인(제출해야할 + 확인 대기) / 확인됨 / 미제출 마감 분리
     const pending = [];
     const confirmed = [];
+    const missed = [];
     for (const t of tasks) {
       const round = t.round || 1;
       const teacherInfo = getTeacherConfirm(t.assignmentId, round);
       const isConfirmed = !!(teacherInfo && teacherInfo.confirmed);
+      const isMissed = !!(teacherInfo && teacherInfo.missed);
       if (isConfirmed) confirmed.push(t);
+      else if (isMissed) missed.push(t);
       else pending.push(t);
     }
-    // 최근 순 정렬: dueDate 내림차순 (없으면 뒤로)
     const sortRecent = (a, b) => {
       const ad = a.dueDate || '';
       const bd = b.dueDate || '';
@@ -2514,21 +2518,24 @@
     };
     pending.sort(sortRecent);
     confirmed.sort(sortRecent);
+    missed.sort(sortRecent);
 
     let html = `<div class="section"><div class="section-title"><span>제출하거나 확인 대기 중인 과제</span><span class="section-count">${pending.length}</span></div>`;
     for (const t of pending) html += renderTaskCard(t);
     if (pending.length === 0) {
       html += `<div style="padding:14px; background:var(--surface2); border-radius:10px; color:var(--text3); font-size:13px; text-align:center;">제출하거나 확인 대기 중인 과제가 없습니다 👍</div>`;
     }
-    if (confirmed.length > 0) {
+    // 최근 완료/마감된 과제 (확인 완료 + 미제출 마감 합쳐서)
+    const recent = [...confirmed, ...missed].sort(sortRecent);
+    if (recent.length > 0) {
       html += `
         <details style="margin-top:12px;">
           <summary style="cursor:pointer; list-style:none; user-select:none;">
-            <div style="width:66.67%; max-width:380px; margin:0 auto; padding:10px 14px; background:#e8f5e9; border:0.5px solid rgba(46,125,50,0.25); border-radius:10px; font-size:13px; font-weight:600; color:#2e7d32; text-align:center;">
-              ✓ 확인 완료된 과제 ${confirmed.length}건 보기
+            <div style="width:66.67%; max-width:380px; margin:0 auto; padding:10px 14px; background:#f3f1ed; border:0.5px solid rgba(140,95,50,0.25); border-radius:10px; font-size:13px; font-weight:600; color:#6b5238; text-align:center;">
+              최근 완료/마감된 과제 ${recent.length}건 보기
             </div>
           </summary>
-          <div style="margin-top:10px;">${confirmed.map(renderTaskCard).join('')}</div>
+          <div style="margin-top:10px;">${recent.map(t => renderTaskCard(t, { _isMissed: !!(getTeacherConfirm(t.assignmentId, t.round||1) || {}).missed })).join('')}</div>
         </details>
       `;
     }
@@ -2536,25 +2543,26 @@
     return html;
   }
 
-  function renderTaskCard(t) {
-    // round는 서버 데이터에서 받음 (일반 과제=1, 반복 과제=날짜 YYYYMMDD)
+  function renderTaskCard(t, opts) {
     const round = t.round || 1;
     const sub = getSubmission(t.assignmentId, round);
     const teacherInfo = getTeacherConfirm(t.assignmentId, round);
     const isSubmitted = sub.photos && sub.photos.length > 0;
     const isConfirmed = !!(teacherInfo && teacherInfo.confirmed);
+    const isMissed = !!(teacherInfo && teacherInfo.missed);
     const teacherComment = (teacherInfo && teacherInfo.comment) || '';
 
     let cardClass = 'task';
     if (isConfirmed) cardClass = 'confirmed';
+    else if (isMissed) cardClass = 'missed';
     else if (isSubmitted) cardClass = 'submitted';
 
     const dueText = t.dueDate ? `${t.isRepeat ? '' : '마감 '}${formatTaskDueDate(t.dueDate)}` : '';
     let statusBadge = '';
-    if (isConfirmed) statusBadge = '<span class="note-card-status confirmed">✓ 확인됨</span>';
+    if (isConfirmed) statusBadge = '<span class="note-card-status confirmed">✓ 제출 완료</span>';
+    else if (isMissed) statusBadge = '<span class="note-card-status missed">✗ 미제출 마감</span>';
     else if (isSubmitted) statusBadge = '<span class="note-card-status submitted">⏳ 확인 대기</span>';
 
-    // 반복 과제 배지: 오늘이면 "오늘 과제", 아니면 날짜 표시
     let repeatBadge = '';
     if (t.isRepeat) {
       if (t.dayOffset === 0) repeatBadge = '<span class="note-card-date" style="color:#7c5cbf; font-weight:600;">🔁 오늘 과제</span>';
@@ -2574,8 +2582,8 @@
     if (teacherComment) {
       html += `<div class="teacher-comment"><div class="teacher-comment-label">📝 선생님 코멘트</div><div class="teacher-comment-body">${escapeHtml(teacherComment)}</div></div>`;
     }
-    // 확인 전이면 업로드 가능
-    if (!isConfirmed) html += renderUploadArea({ assignmentId: t.assignmentId, round: round }, sub);
+    // 확인 전 + 미제출 마감 안 됨이면 업로드 가능
+    if (!isConfirmed && !isMissed) html += renderUploadArea({ assignmentId: t.assignmentId, round: round }, sub);
     else if (isSubmitted) html += renderSubmittedPhotos({ assignmentId: t.assignmentId, round: round }, sub);
     html += '</div>';
     return html;
@@ -2605,17 +2613,26 @@
     const sub = getSubmission(item.assignmentId, item.round);
     const teacherInfo = getTeacherConfirm(item.assignmentId, item.round);
     const isSubmitted = sub.photos && sub.photos.length > 0;
-    // 확인 여부는 선생님 데이터를 우선 (localStorage의 confirmedAt은 더 이상 사용 안 함)
     const isConfirmed = !!(teacherInfo && teacherInfo.confirmed);
+    const isMissed = item.doneType === 'missed' || item.missed === true;
     const teacherComment = (teacherInfo && teacherInfo.comment) || '';
 
     let cardClass = type;
     if (isConfirmed) cardClass = 'confirmed';
+    else if (isMissed) cardClass = 'missed';
     else if (isSubmitted) cardClass = 'submitted';
     const roundClass = type === 'completed' ? 'completed' : (type === 'overdue' ? 'overdue' : (type === 'upcoming' ? 'upcoming' : ''));
-    const dateDisplay = type === 'today' ? '오늘' : type === 'overdue' ? formatOverdueDate(item.plannedDate) : type === 'upcoming' ? formatUpcomingDate(item.plannedDate) : type === 'completed' ? (item.doneAt ? formatCompletedDate(item.doneAt) : '') : '';
+    const dateDisplay = type === 'today' ? '오늘'
+      : type === 'overdue' ? formatOverdueDate(item.plannedDate)
+      : type === 'upcoming' ? formatUpcomingDate(item.plannedDate)
+      : type === 'completed' ? (
+          isMissed ? (item.missedAt ? formatCompletedDate(item.missedAt) : '')
+          : (item.doneAt ? formatCompletedDate(item.doneAt) : '')
+        )
+      : '';
     let statusBadge = '';
-    if (isConfirmed) statusBadge = '<span class="note-card-status confirmed">✓ 확인됨</span>';
+    if (item.doneType === 'submitted' || isConfirmed) statusBadge = '<span class="note-card-status confirmed">✓ 제출 완료</span>';
+    else if (isMissed) statusBadge = '<span class="note-card-status missed">✗ 미제출 마감</span>';
     else if (isSubmitted) statusBadge = '<span class="note-card-status submitted">⏳ 확인 대기</span>';
 
     let html = `
@@ -2627,11 +2644,10 @@
           ${statusBadge}
         </div>
     `;
-    // 선생님 코멘트 표시 (있으면 항상)
     if (teacherComment) {
       html += `<div class="teacher-comment"><div class="teacher-comment-label">📝 선생님 코멘트</div><div class="teacher-comment-body">${escapeHtml(teacherComment)}</div></div>`;
     }
-    if (allowUpload && type !== 'completed' && !isConfirmed) html += renderUploadArea(item, sub);
+    if (allowUpload && type !== 'completed' && !isConfirmed && !isMissed) html += renderUploadArea(item, sub);
     else if (isSubmitted) html += renderSubmittedPhotos(item, sub);
     html += '</div>';
     return html;

@@ -257,7 +257,7 @@
   .effort-today-subj-name { font-weight: 600; color: var(--text); }
   .effort-today-subj-time { color: var(--text2); font-variant-numeric: tabular-nums; }
   .effort-today-subj-bar { height: 4px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
-  .effort-today-subj-bar > div { height: 100%; background: linear-gradient(90deg, oklch(85% 0.18 145), oklch(60% 0.18 145)); border-radius: 3px; }
+  .effort-today-subj-bar > div { height: 100%; background: linear-gradient(90deg, oklch(85% 0.18 125), oklch(60% 0.18 125)); border-radius: 3px; }
 
   /* 기록 카드 */
   .effort-log-card {
@@ -314,9 +314,16 @@
     font-size: 11px; font-weight: 700; cursor: pointer;
     background: transparent; color: var(--text2); border: none; border-radius: 5px;
     transition: all 0.12s ease;
-    white-space: nowrap;
+    white-space: nowrap; position: relative;
   }
   .effort-top-tab.active { background: var(--surface); color: var(--text); box-shadow: 0 1px 2px rgba(0,0,0,0.06); }
+  /* 비활성 탭이 연속될 때 사이에 세로 칸막이 */
+  .effort-top-tab:not(.active) + .effort-top-tab:not(.active)::before {
+    content: '';
+    position: absolute;
+    left: -2px; top: 30%; bottom: 30%;
+    width: 1px; background: currentColor; opacity: 0.45;
+  }
 
   /* 통계 콘텐츠 */
   .effort-stats-content {
@@ -332,8 +339,8 @@
   .effort-day-bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 3px; height: 100%; }
   .effort-day-bar-val { font-size: 9px; color: var(--text2); height: 12px; }
   .effort-day-bar { width: 100%; flex: 1; display: flex; align-items: flex-end; background: var(--surface2); border-radius: 3px; overflow: hidden; }
-  .effort-day-bar-fill { width: 100%; background: linear-gradient(180deg, oklch(85% 0.18 145), oklch(55% 0.18 145)); border-radius: 3px; transition: height 0.3s ease; }
-  .effort-day-bar-fill.today { background: linear-gradient(180deg, oklch(78% 0.20 145), oklch(45% 0.18 145)); }
+  .effort-day-bar-fill { width: 100%; background: linear-gradient(180deg, oklch(85% 0.18 125), oklch(55% 0.18 125)); border-radius: 3px; transition: height 0.3s ease; }
+  .effort-day-bar-fill.today { background: linear-gradient(180deg, oklch(78% 0.20 125), oklch(45% 0.18 125)); }
   .effort-day-bar-label { font-size: 10px; color: var(--text2); text-align: center; line-height: 1.2; }
   .effort-day-bar-label.today { color: var(--accent); font-weight: 700; }
 
@@ -342,11 +349,32 @@
   .effort-cal-head { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; margin-bottom: 3px; }
   .effort-cal-head-cell { text-align: center; font-size: 10px; color: var(--text3); font-weight: 600; padding: 2px 0; }
   .effort-cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
-  .effort-cal-cell { aspect-ratio: 1; border-radius: 4px; background: var(--surface2); padding: 3px; display: flex; flex-direction: column; }
-  .effort-cal-cell.empty { background: transparent; }
+  .effort-cal-cell { aspect-ratio: 1; border-radius: 4px; background: var(--surface2); padding: 3px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.1s ease; }
+  .effort-cal-cell:not(.empty):active { transform: scale(0.95); }
+  .effort-cal-cell.empty { background: transparent; cursor: default; }
   .effort-cal-cell.today { box-shadow: 0 0 0 2px var(--accent); }
+  .effort-cal-cell.selected { box-shadow: 0 0 0 2px oklch(50% 0.18 125); }
   .effort-cal-day { font-size: 10px; color: var(--text2); font-weight: 600; }
   .effort-cal-mins { font-size: 8.5px; color: #fff; font-weight: 700; margin-top: auto; text-align: right; }
+
+  /* 주간 막대 클릭 */
+  .effort-day-bar-col { cursor: pointer; transition: opacity 0.1s ease; padding: 2px; border-radius: 4px; }
+  .effort-day-bar-col:active { opacity: 0.7; }
+  .effort-day-bar-col.selected { background: rgba(180, 220, 100, 0.18); box-shadow: 0 0 0 1.5px oklch(50% 0.18 125); }
+
+  /* 선택된 날짜의 기록 상세 */
+  .effort-day-detail { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--border); }
+  .effort-day-detail-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .effort-day-detail-date { font-size: 13px; font-weight: 700; color: var(--text); }
+  .effort-day-detail-total { font-size: 12px; color: var(--text2); font-variant-numeric: tabular-nums; }
+  .effort-day-detail-close { margin-left: auto; padding: 2px 8px; background: transparent; border: 1px solid var(--border); border-radius: 4px; font-size: 11px; color: var(--text2); cursor: pointer; font-family: inherit; }
+  .effort-day-log { padding: 8px 10px; background: var(--surface2); border-radius: 6px; margin-bottom: 5px; }
+  .effort-day-log-head { display: flex; align-items: baseline; gap: 6px; }
+  .effort-day-log-subj { font-weight: 700; font-size: 12.5px; color: var(--text); }
+  .effort-day-log-time { font-size: 10.5px; color: var(--text2); font-variant-numeric: tabular-nums; margin-left: auto; }
+  .effort-day-log-meta { font-size: 10.5px; color: var(--text3); margin-top: 2px; }
+  .effort-day-log-content { font-size: 11.5px; color: var(--text); margin-top: 4px; line-height: 1.5; }
+  .effort-day-log-reflection { font-size: 11px; color: var(--text2); margin-top: 4px; padding: 4px 6px; background: var(--surface); border-radius: 4px; line-height: 1.5; }
 
   /* 원그래프 + 범례 */
   .effort-pie-wrap { display: flex; gap: 12px; align-items: flex-start; }
@@ -637,7 +665,7 @@
     return `
       <div class="menu-grid">
         <a href="#learning" class="menu-card menu-learning">
-          <div class="menu-label">학습관리</div>
+          <div class="menu-label">학습 관리</div>
           <div class="menu-sub">과제 / 오답노트</div>
         </a>
         <a href="#effort" class="menu-card menu-effort">
@@ -680,7 +708,7 @@
     const weekTaskTotal = weekTasks.length;
     const tpPercent = weekTaskTotal > 0 ? Math.round(weekTaskDone / weekTaskTotal * 100) : 0;
 
-    let html = `<h2 class="view-title">학습관리</h2>`;
+    let html = `<h2 class="view-title">학습 관리</h2>`;
     html += `
       <div class="progress-mini-wrap">
         <div class="pm-section-title">이번 주 학습일정</div>
@@ -1124,67 +1152,19 @@
     wrap.innerHTML = html;
   }
 
-  function renderEffortWeekStats(logs) {
-    // 이번 주 (월~일 또는 일~토? 한국은 보통 월~일)
-    const today = new Date();
-    const dayOfWeek = (today.getDay() + 6) % 7;  // 월=0, 일=6
-    const monday = new Date(today);
-    monday.setDate(today.getDate() - dayOfWeek);
-    monday.setHours(0,0,0,0);
-    const sunday = new Date(monday);
-    sunday.setDate(monday.getDate() + 7);
-
-    const weekLogs = logs.filter(l => {
-      const d = new Date(l.startedAt);
-      return d >= monday && d < sunday;
-    });
-    const totalSec = weekLogs.reduce((a,l) => a + l.seconds, 0);
-
-    // 일별 합계 (월~일)
-    const dayTotals = [0,0,0,0,0,0,0];
-    weekLogs.forEach(l => {
-      const d = new Date(l.startedAt);
-      const idx = (d.getDay() + 6) % 7;
-      dayTotals[idx] += l.seconds;
-    });
-    const maxSec = Math.max(...dayTotals, 1);
-
-    // 과목별 합계
-    const bySubject = {};
-    weekLogs.forEach(l => {
-      bySubject[l.subject] = (bySubject[l.subject] || 0) + l.seconds;
-    });
-
-    let html = `<div class="effort-stats-content">`;
-    html += `<div class="effort-stats-total"><span class="lbl">이번 주 총</span> <span class="val">${fmtDurationShort(totalSec)}</span></div>`;
-
-    // 일별 막대
-    html += `<div class="effort-day-bars">`;
-    const dayNames = ['월','화','수','목','금','토','일'];
-    const todayIdx = (today.getDay() + 6) % 7;
-    dayTotals.forEach((sec, i) => {
-      const h = maxSec > 0 ? (sec / maxSec * 100) : 0;
-      const isToday = i === todayIdx;
-      const date = new Date(monday);
-      date.setDate(monday.getDate() + i);
-      const dateStr = `${date.getDate()}`;
-      html += `
-        <div class="effort-day-bar-col">
-          <div class="effort-day-bar-val">${sec > 0 ? fmtDurationShort(sec) : ''}</div>
-          <div class="effort-day-bar"><div class="effort-day-bar-fill ${isToday?'today':''}" style="height:${h}%;"></div></div>
-          <div class="effort-day-bar-label ${isToday?'today':''}">${dayNames[i]}<br><span style="font-size:9px; color:var(--text3);">${dateStr}</span></div>
-        </div>
-      `;
-    });
-    html += `</div>`;
-
-    // 과목별 원그래프 + 범례
-    if (Object.keys(bySubject).length > 0) {
-      html += renderEffortPieChart(bySubject, totalSec);
+  // 캘린더 선택 날짜
+  let _effortCalSelectedDay = null;  // {year, month, day} or null
+  window.toggleEffortCalDay = function(year, month, day) {
+    if (_effortCalSelectedDay
+      && _effortCalSelectedDay.year === year
+      && _effortCalSelectedDay.month === month
+      && _effortCalSelectedDay.day === day) {
+      _effortCalSelectedDay = null;
+    } else {
+      _effortCalSelectedDay = { year, month, day };
     }
-    html += `</div>`;
-    return html;
-  }
+    renderEffortStats();
+  };
 
   function renderEffortMonthStats(logs) {
     const today = new Date();
@@ -1201,7 +1181,6 @@
     });
     const totalSec = monthLogs.reduce((a,l) => a + l.seconds, 0);
 
-    // 일별 합계
     const dayMap = {};
     monthLogs.forEach(l => {
       const d = new Date(l.startedAt);
@@ -1210,7 +1189,6 @@
     });
     const maxSec = Math.max(...Object.values(dayMap), 1);
 
-    // 과목별 합계
     const bySubject = {};
     monthLogs.forEach(l => {
       bySubject[l.subject] = (bySubject[l.subject] || 0) + l.seconds;
@@ -1228,20 +1206,133 @@
     for (let i = 0; i < firstDayOfWeek; i++) html += `<div class="effort-cal-cell empty"></div>`;
     for (let d = 1; d <= daysInMonth; d++) {
       const sec = dayMap[d] || 0;
-      const intensity = sec > 0 ? Math.min(1, sec / Math.max(maxSec, 3600)) : 0;  // 1시간을 기준으로 농도
+      const intensity = sec > 0 ? Math.min(1, sec / Math.max(maxSec, 3600)) : 0;
       const isToday = today.getDate() === d;
+      const isSelected = _effortCalSelectedDay && _effortCalSelectedDay.year === year
+        && _effortCalSelectedDay.month === month && _effortCalSelectedDay.day === d;
       const minutes = Math.floor(sec / 60);
       const tooltip = sec > 0 ? `${d}일: ${fmtDurationShort(sec)}` : `${d}일`;
-      html += `<div class="effort-cal-cell ${isToday?'today':''}" style="background:oklch(60% ${0.05 + intensity * 0.15} 145 / ${0.25 + intensity * 0.65});" title="${tooltip}">
+      html += `<div class="effort-cal-cell ${isToday?'today':''} ${isSelected?'selected':''}" style="background:oklch(60% ${0.05 + intensity * 0.15} 125 / ${0.25 + intensity * 0.65});" title="${tooltip}" onclick="toggleEffortCalDay(${year}, ${month}, ${d})">
         <div class="effort-cal-day">${d}</div>
         ${minutes > 0 ? `<div class="effort-cal-mins">${minutes}분</div>` : ''}
       </div>`;
     }
     html += `</div></div>`;
 
-    // 과목별 원그래프
+    // 원그래프
     if (Object.keys(bySubject).length > 0) {
       html += renderEffortPieChart(bySubject, totalSec);
+    }
+    // 선택된 날짜의 기록
+    if (_effortCalSelectedDay) {
+      html += renderEffortDayDetail(logs);
+    }
+    html += `</div>`;
+    return html;
+  }
+
+  function renderEffortWeekStats(logs) {
+    const today = new Date();
+    const dayOfWeek = (today.getDay() + 6) % 7;
+    const monday = new Date(today);
+    monday.setDate(today.getDate() - dayOfWeek);
+    monday.setHours(0,0,0,0);
+    const sunday = new Date(monday);
+    sunday.setDate(monday.getDate() + 7);
+
+    const weekLogs = logs.filter(l => {
+      const d = new Date(l.startedAt);
+      return d >= monday && d < sunday;
+    });
+    const totalSec = weekLogs.reduce((a,l) => a + l.seconds, 0);
+
+    const dayTotals = [0,0,0,0,0,0,0];
+    weekLogs.forEach(l => {
+      const d = new Date(l.startedAt);
+      const idx = (d.getDay() + 6) % 7;
+      dayTotals[idx] += l.seconds;
+    });
+    const maxSec = Math.max(...dayTotals, 1);
+
+    const bySubject = {};
+    weekLogs.forEach(l => {
+      bySubject[l.subject] = (bySubject[l.subject] || 0) + l.seconds;
+    });
+
+    let html = `<div class="effort-stats-content">`;
+    html += `<div class="effort-stats-total"><span class="lbl">이번 주 총</span> <span class="val">${fmtDurationShort(totalSec)}</span></div>`;
+
+    // 일별 막대 (클릭 가능)
+    html += `<div class="effort-day-bars">`;
+    const dayNames = ['월','화','수','목','금','토','일'];
+    const todayIdx = (today.getDay() + 6) % 7;
+    dayTotals.forEach((sec, i) => {
+      const h = maxSec > 0 ? (sec / maxSec * 100) : 0;
+      const isToday = i === todayIdx;
+      const date = new Date(monday);
+      date.setDate(monday.getDate() + i);
+      const dateStr = `${date.getDate()}`;
+      const yr = date.getFullYear(), mo = date.getMonth(), dy = date.getDate();
+      const isSelected = _effortCalSelectedDay
+        && _effortCalSelectedDay.year === yr
+        && _effortCalSelectedDay.month === mo
+        && _effortCalSelectedDay.day === dy;
+      html += `
+        <div class="effort-day-bar-col ${isSelected?'selected':''}" onclick="toggleEffortCalDay(${yr}, ${mo}, ${dy})">
+          <div class="effort-day-bar-val">${sec > 0 ? fmtDurationShort(sec) : ''}</div>
+          <div class="effort-day-bar"><div class="effort-day-bar-fill ${isToday?'today':''}" style="height:${h}%;"></div></div>
+          <div class="effort-day-bar-label ${isToday?'today':''}">${dayNames[i]}<br><span style="font-size:9px; color:var(--text3);">${dateStr}</span></div>
+        </div>
+      `;
+    });
+    html += `</div>`;
+
+    if (Object.keys(bySubject).length > 0) {
+      html += renderEffortPieChart(bySubject, totalSec);
+    }
+    if (_effortCalSelectedDay) {
+      html += renderEffortDayDetail(logs);
+    }
+    html += `</div>`;
+    return html;
+  }
+
+  // 선택된 날짜의 공부 기록
+  function renderEffortDayDetail(logs) {
+    const d = _effortCalSelectedDay;
+    if (!d) return '';
+    const targetLogs = logs.filter(l => {
+      const ld = new Date(l.startedAt);
+      return ld.getFullYear() === d.year && ld.getMonth() === d.month && ld.getDate() === d.day;
+    }).sort((a,b) => a.startedAt - b.startedAt);
+    const totalSec = targetLogs.reduce((a,l) => a + l.seconds, 0);
+
+    let html = `
+      <div class="effort-day-detail">
+        <div class="effort-day-detail-head">
+          <span class="effort-day-detail-date">${d.month+1}월 ${d.day}일</span>
+          <span class="effort-day-detail-total">${totalSec > 0 ? fmtDurationShort(totalSec) : '기록 없음'}</span>
+          <button class="effort-day-detail-close" onclick="toggleEffortCalDay(${d.year},${d.month},${d.day})">×</button>
+        </div>
+    `;
+    if (targetLogs.length === 0) {
+      html += `<div style="font-size:12px; color:var(--text3); padding:10px 4px;">이 날에는 공부 기록이 없어요.</div>`;
+    } else {
+      targetLogs.forEach(l => {
+        const start = new Date(l.startedAt);
+        const timeStr = `${start.getHours().toString().padStart(2,'0')}:${start.getMinutes().toString().padStart(2,'0')}`;
+        html += `
+          <div class="effort-day-log">
+            <div class="effort-day-log-head">
+              <span class="effort-day-log-subj">${escapeHtml(l.subject)}</span>
+              <span class="effort-day-log-time">${timeStr} · ${fmtDurationShort(l.seconds)}</span>
+            </div>
+            <div class="effort-day-log-meta">${escapeHtml(l.method || '')}</div>
+            <div class="effort-day-log-content">${escapeHtml(l.content || '')}</div>
+            ${l.reflection ? `<div class="effort-day-log-reflection">📔 ${escapeHtml(l.reflection)}</div>` : ''}
+          </div>
+        `;
+      });
     }
     html += `</div>`;
     return html;
@@ -1250,10 +1341,10 @@
   // 원그래프 + 범례
   function renderEffortPieChart(bySubject, totalSec) {
     const colors = [
-      'oklch(90% 0.16 145)', 'oklch(83% 0.18 145)', 'oklch(76% 0.19 145)',
-      'oklch(69% 0.19 145)', 'oklch(62% 0.18 145)', 'oklch(55% 0.17 145)',
-      'oklch(48% 0.15 145)', 'oklch(41% 0.13 145)', 'oklch(34% 0.11 145)',
-      'oklch(28% 0.09 145)'
+      'oklch(90% 0.16 125)', 'oklch(83% 0.18 125)', 'oklch(76% 0.19 125)',
+      'oklch(69% 0.19 125)', 'oklch(62% 0.18 125)', 'oklch(55% 0.17 125)',
+      'oklch(48% 0.15 125)', 'oklch(41% 0.13 125)', 'oklch(34% 0.11 125)',
+      'oklch(28% 0.09 125)'
     ];
     const sorted = Object.entries(bySubject).sort((a,b) => b[1] - a[1]);
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-17T11:21:00.459Z",
+  "generatedAt": "2026-06-17T14:27:31.142Z",
   "student": {
     "name": "정시우",
     "school": "살레시오고",
@@ -8,17 +8,7 @@
     "class": "",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1781695122444_x7tt07",
-      "noteName": "정시우_자이스토리_H.등차수열과 등비수열( ~72)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-17",
-      "done": false,
-      "doneAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -31,11 +21,21 @@
       "doneAt": null
     }
   ],
-  "completed": [],
+  "completed": [
+    {
+      "assignmentId": "a_1781695122444_x7tt07",
+      "noteName": "정시우_자이스토리_H.등차수열과 등비수열( ~72)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-17",
+      "done": true,
+      "doneAt": "2026-06-17T14:25:23.848Z"
+    }
+  ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-06-15",
     "endDate": "2026-06-21"
   },

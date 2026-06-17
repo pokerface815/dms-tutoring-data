@@ -2377,5 +2377,33 @@
       }
     ],
     "createdAt": "2026-06-16T16:54:26.853Z"
+  },
+  {
+    "id": "a_1781695122444_x7tt07",
+    "noteId": "note_1781695112829_gfjptp",
+    "noteName": "정시우_자이스토리_H.등차수열과 등비수열( ~72)",
+    "studentId": "s_1780825523674_8dwstz",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-17",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-24",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-17T11:18:42.444Z"
   }
 ]

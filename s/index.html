@@ -257,7 +257,7 @@
   .effort-today-subj-name { font-weight: 600; color: var(--text); }
   .effort-today-subj-time { color: var(--text2); font-variant-numeric: tabular-nums; }
   .effort-today-subj-bar { height: 4px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
-  .effort-today-subj-bar > div { height: 100%; background: linear-gradient(90deg, oklch(73.7% 0.021 106.9), oklch(63% 0.021 106.9)); border-radius: 3px; }
+  .effort-today-subj-bar > div { height: 100%; background: linear-gradient(90deg, oklch(85% 0.18 125), oklch(60% 0.18 125)); border-radius: 3px; }
 
   /* 기록 카드 */
   .effort-log-card {
@@ -304,6 +304,20 @@
   }
   .effort-stats-tab.active { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
 
+  /* 상단 탭 (액션바) — 통계 탭과 동일 톤, 가로 배치 */
+  .effort-top-tabs {
+    display: flex; gap: 3px; padding: 3px;
+    background: var(--surface2); border-radius: 7px;
+  }
+  .effort-top-tab {
+    padding: 5px 10px; font-family: inherit;
+    font-size: 11px; font-weight: 700; cursor: pointer;
+    background: transparent; color: var(--text2); border: none; border-radius: 5px;
+    transition: all 0.12s ease;
+    white-space: nowrap;
+  }
+  .effort-top-tab.active { background: var(--surface); color: var(--text); box-shadow: 0 1px 2px rgba(0,0,0,0.06); }
+
   /* 통계 콘텐츠 */
   .effort-stats-content {
     padding: 12px; background: var(--surface);
@@ -318,8 +332,8 @@
   .effort-day-bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 3px; height: 100%; }
   .effort-day-bar-val { font-size: 9px; color: var(--text2); height: 12px; }
   .effort-day-bar { width: 100%; flex: 1; display: flex; align-items: flex-end; background: var(--surface2); border-radius: 3px; overflow: hidden; }
-  .effort-day-bar-fill { width: 100%; background: linear-gradient(180deg, oklch(73.7% 0.021 106.9), oklch(63% 0.021 106.9)); border-radius: 3px; transition: height 0.3s ease; }
-  .effort-day-bar-fill.today { background: linear-gradient(180deg, var(--accent-light), var(--accent)); }
+  .effort-day-bar-fill { width: 100%; background: linear-gradient(180deg, oklch(85% 0.18 125), oklch(55% 0.18 125)); border-radius: 3px; transition: height 0.3s ease; }
+  .effort-day-bar-fill.today { background: linear-gradient(180deg, oklch(78% 0.20 125), oklch(45% 0.18 125)); }
   .effort-day-bar-label { font-size: 10px; color: var(--text2); text-align: center; line-height: 1.2; }
   .effort-day-bar-label.today { color: var(--accent); font-weight: 700; }
 
@@ -573,7 +587,14 @@
       actionBar = `<div class="page-header-bar"><a href="#grades" class="back-link">← 성적 관리</a><button class="header-btn primary" onclick="saveAllGradeInputs()">저장</button></div>`;
       body = renderGradesInputView(data);
     } else if (view === 'effort') {
-      actionBar = `<div class="page-header-bar"><a href="#menu" class="back-link">← 메인으로</a><span></span></div>`;
+      actionBar = `<div class="page-header-bar">
+        <a href="#menu" class="back-link">← 메인으로</a>
+        <div class="effort-top-tabs">
+          <button class="effort-top-tab ${_effortTab==='today'?'active':''}" onclick="switchEffortTab('today')">오늘의 공부</button>
+          <button class="effort-top-tab ${_effortTab==='week'?'active':''}" onclick="switchEffortTab('week')">주간</button>
+          <button class="effort-top-tab ${_effortTab==='month'?'active':''}" onclick="switchEffortTab('month')">월간</button>
+        </div>
+      </div>`;
       body = renderEffortView(data);
     } else {
       body = renderMainMenu(data);
@@ -703,12 +724,41 @@
       <div style="font-size:13px; color:var(--text2); margin:0 0 6px; line-height:1.6;">공부 시작할 때 타이머 켜고, 끝날 때 기록을 남겨주세요.</div>
       <div style="font-size:11.5px; color:var(--text3); margin:0 0 14px; padding:7px 10px; background:var(--surface2); border-radius:6px; line-height:1.5;">💡 측정 중에는 다른 화면을 보거나 페이지를 닫아도 타이머가 그대로 유지돼요.</div>
 
-      <div id="effortTimerSection"></div>
-      <div id="effortTodaySection" style="margin-top:18px;"></div>
-      <div id="effortStreakSection" style="margin-top:14px;"></div>
-      <div id="effortStatsSection" style="margin-top:18px;"></div>
-      <div id="effortLogListSection" style="margin-top:18px;"></div>
+      <div id="effortContentSection"></div>
     `;
+  }
+
+  // 상단 탭 상태
+  let _effortTab = 'today';  // 'today' | 'week' | 'month'
+  window.switchEffortTab = function(tab) {
+    _effortTab = tab;
+    // 액션바 active 상태 갱신
+    document.querySelectorAll('.effort-top-tab').forEach(b => {
+      b.classList.toggle('active', b.textContent.includes(
+        tab === 'today' ? '오늘의 공부' : (tab === 'week' ? '주간' : '월간')
+      ));
+    });
+    renderEffortContent();
+  };
+
+  function renderEffortContent() {
+    const wrap = document.getElementById('effortContentSection');
+    if (!wrap) return;
+    if (_effortTab === 'today') {
+      wrap.innerHTML = `
+        <div id="effortTimerSection"></div>
+        <div id="effortTodaySection" style="margin-top:18px;"></div>
+        <div id="effortStreakSection" style="margin-top:14px;"></div>
+        <div id="effortLogListSection" style="margin-top:18px;"></div>
+      `;
+      renderEffortTimer();
+      renderEffortToday();
+      renderEffortStreak();
+      renderEffortLogList();
+    } else {
+      wrap.innerHTML = `<div id="effortStatsSection"></div>`;
+      renderEffortStats();
+    }
   }
 
   // 타이머 상태 (localStorage 영구 저장 — 화면 바뀌어도 유지)
@@ -736,13 +786,10 @@
   }
 
   function initEffortScreen() {
-    renderEffortTimer();
-    renderEffortToday();
-    renderEffortStreak();
-    renderEffortStats();
-    renderEffortLogList();
+    renderEffortContent();
     if (_effortTimer) clearInterval(_effortTimer);
     _effortTimer = setInterval(() => {
+      if (_effortTab !== 'today') return;
       const s = loadEffortState();
       if (s.status === 'running') renderEffortTimer();
     }, 1000);
@@ -931,11 +978,7 @@
     // 타이머 초기화
     localStorage.removeItem(`effortState__${studentCode}`);
     closeEffortSaveModal();
-    renderEffortTimer();
-    renderEffortToday();
-    renderEffortStreak();
-    renderEffortStats();
-    renderEffortLogList();
+    renderEffortContent();
   };
 
   function renderEffortToday() {
@@ -1024,27 +1067,15 @@
     `;
   }
 
-  // === 주간/월간 통계 ===
-  let _effortStatsTab = 'week';  // 'week' | 'month'
-  window.switchEffortStatsTab = function(tab) {
-    _effortStatsTab = tab;
-    renderEffortStats();
-  };
-
   function renderEffortStats() {
     const wrap = document.getElementById('effortStatsSection');
     if (!wrap) return;
     const logs = loadEffortLogs();
-    if (logs.length === 0) { wrap.innerHTML = ''; return; }
+    if (logs.length === 0) { wrap.innerHTML = `<div style="font-size:12.5px; color:var(--text3); text-align:center; padding:20px 0;">아직 공부 기록이 없어요.<br>"오늘의 공부"에서 첫 기록을 남겨주세요.</div>`; return; }
 
-    let html = `
-      <div class="effort-stats-tabs">
-        <button class="effort-stats-tab ${_effortStatsTab==='week'?'active':''}" onclick="switchEffortStatsTab('week')">주간</button>
-        <button class="effort-stats-tab ${_effortStatsTab==='month'?'active':''}" onclick="switchEffortStatsTab('month')">월간</button>
-      </div>
-    `;
-    if (_effortStatsTab === 'week') html += renderEffortWeekStats(logs);
-    else html += renderEffortMonthStats(logs);
+    let html = '';
+    if (_effortTab === 'week') html += renderEffortWeekStats(logs);
+    else if (_effortTab === 'month') html += renderEffortMonthStats(logs);
     wrap.innerHTML = html;
   }
 
@@ -1156,7 +1187,7 @@
       const isToday = today.getDate() === d;
       const minutes = Math.floor(sec / 60);
       const tooltip = sec > 0 ? `${d}일: ${fmtDurationShort(sec)}` : `${d}일`;
-      html += `<div class="effort-cal-cell ${isToday?'today':''}" style="background:rgba(140, 95, 50, ${intensity * 0.6});" title="${tooltip}">
+      html += `<div class="effort-cal-cell ${isToday?'today':''}" style="background:oklch(60% ${0.05 + intensity * 0.15} 125 / ${0.25 + intensity * 0.65});" title="${tooltip}">
         <div class="effort-cal-day">${d}</div>
         ${minutes > 0 ? `<div class="effort-cal-mins">${minutes}분</div>` : ''}
       </div>`;
@@ -1173,7 +1204,12 @@
 
   // 원그래프 + 범례
   function renderEffortPieChart(bySubject, totalSec) {
-    const colors = ['#8c5f32','#b08555','#d4ad7f','#e0a979','#aa8253','#946d3a','#c69856','#765236','#a37f53','#d8c4a0'];
+    const colors = [
+      'oklch(90% 0.16 125)', 'oklch(83% 0.18 125)', 'oklch(76% 0.19 125)',
+      'oklch(69% 0.19 125)', 'oklch(62% 0.18 125)', 'oklch(55% 0.17 125)',
+      'oklch(48% 0.15 125)', 'oklch(41% 0.13 125)', 'oklch(34% 0.11 125)',
+      'oklch(28% 0.09 125)'
+    ];
     const sorted = Object.entries(bySubject).sort((a,b) => b[1] - a[1]);
 
     const cx = 60, cy = 60, r = 50;
@@ -1263,10 +1299,7 @@
     let logs = loadEffortLogs();
     logs = logs.filter(l => l.id !== id);
     saveEffortLogs(logs);
-    renderEffortToday();
-    renderEffortStreak();
-    renderEffortStats();
-    renderEffortLogList();
+    renderEffortContent();
   };
 
   // ===== 성적 추이 그래프 =====

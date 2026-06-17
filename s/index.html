@@ -257,7 +257,7 @@
   .effort-today-subj-name { font-weight: 600; color: var(--text); }
   .effort-today-subj-time { color: var(--text2); font-variant-numeric: tabular-nums; }
   .effort-today-subj-bar { height: 4px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
-  .effort-today-subj-bar > div { height: 100%; background: linear-gradient(90deg, oklch(85% 0.18 125), oklch(60% 0.18 125)); border-radius: 3px; }
+  .effort-today-subj-bar > div { height: 100%; background: linear-gradient(90deg, oklch(85% 0.18 145), oklch(60% 0.18 145)); border-radius: 3px; }
 
   /* 기록 카드 */
   .effort-log-card {
@@ -332,8 +332,8 @@
   .effort-day-bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 3px; height: 100%; }
   .effort-day-bar-val { font-size: 9px; color: var(--text2); height: 12px; }
   .effort-day-bar { width: 100%; flex: 1; display: flex; align-items: flex-end; background: var(--surface2); border-radius: 3px; overflow: hidden; }
-  .effort-day-bar-fill { width: 100%; background: linear-gradient(180deg, oklch(85% 0.18 125), oklch(55% 0.18 125)); border-radius: 3px; transition: height 0.3s ease; }
-  .effort-day-bar-fill.today { background: linear-gradient(180deg, oklch(78% 0.20 125), oklch(45% 0.18 125)); }
+  .effort-day-bar-fill { width: 100%; background: linear-gradient(180deg, oklch(85% 0.18 145), oklch(55% 0.18 145)); border-radius: 3px; transition: height 0.3s ease; }
+  .effort-day-bar-fill.today { background: linear-gradient(180deg, oklch(78% 0.20 145), oklch(45% 0.18 145)); }
   .effort-day-bar-label { font-size: 10px; color: var(--text2); text-align: center; line-height: 1.2; }
   .effort-day-bar-label.today { color: var(--accent); font-weight: 700; }
 
@@ -575,7 +575,13 @@
     let actionBar = '';
     let body = '';
     if (view === 'learning') {
-      actionBar = `<div class="page-header-bar"><a href="#menu" class="back-link">← 메인으로</a><span></span></div>`;
+      actionBar = `<div class="page-header-bar">
+        <a href="#menu" class="back-link">← 메인으로</a>
+        <div class="effort-top-tabs">
+          <button class="effort-top-tab ${_learningTab==='note'?'active':''}" onclick="switchLearningTab('note')">오답노트</button>
+          <button class="effort-top-tab ${_learningTab==='task'?'active':''}" onclick="switchLearningTab('task')">과제</button>
+        </div>
+      </div>`;
       body = renderLearningView(data);
     } else if (view === 'video') {
       actionBar = `<div class="page-header-bar"><a href="#menu" class="back-link">← 메인으로</a><span></span></div>`;
@@ -584,7 +590,14 @@
       actionBar = `<div class="page-header-bar"><a href="#menu" class="back-link">← 메인으로</a><a href="#grades-input" class="header-btn primary">성적 입력 / 반성</a></div>`;
       body = renderGradesView(data);
     } else if (view === 'grades-input') {
-      actionBar = `<div class="page-header-bar"><a href="#grades" class="back-link">← 성적 관리</a><button class="header-btn primary" onclick="saveAllGradeInputs()">저장</button></div>`;
+      actionBar = `<div class="page-header-bar">
+        <a href="#grades" class="back-link">← 성적 관리</a>
+        <div class="effort-top-tabs">
+          <button class="effort-top-tab ${_gradesInputTab==='naesin'?'active':''}" onclick="switchGradesInputTab('naesin')">학교 내신</button>
+          <button class="effort-top-tab ${_gradesInputTab==='mock'?'active':''}" onclick="switchGradesInputTab('mock')">모의고사</button>
+          <button class="header-btn primary" onclick="saveAllGradeInputs()" style="margin-left:6px;">저장</button>
+        </div>
+      </div>`;
       body = renderGradesInputView(data);
     } else if (view === 'effort') {
       actionBar = `<div class="page-header-bar">
@@ -641,7 +654,19 @@
     `;
   }
 
+  let _learningTab = 'note';  // 'note' | 'task'
+  window.switchLearningTab = function(tab) {
+    _learningTab = tab;
+    document.querySelectorAll('.page-header-bar .effort-top-tab').forEach(b => {
+      b.classList.toggle('active', b.textContent.trim() === (tab === 'note' ? '오답노트' : '과제'));
+    });
+    const wrap = document.getElementById('learningContentSection');
+    if (wrap && _learningData) wrap.innerHTML = renderLearningContent(_learningData);
+  };
+
+  let _learningData = null;
   function renderLearningView(data) {
+    _learningData = data;
     const s = data.student || {};
     const wp = data.weekProgress || { total: 0, done: 0, percent: 0 };
 
@@ -655,8 +680,7 @@
     const weekTaskTotal = weekTasks.length;
     const tpPercent = weekTaskTotal > 0 ? Math.round(weekTaskDone / weekTaskTotal * 100) : 0;
 
-    let html = backLinkHtml();
-    html += `<h2 class="view-title">학습관리</h2>`;
+    let html = `<h2 class="view-title">학습관리</h2>`;
     html += `
       <div class="progress-mini-wrap">
         <div class="pm-section-title">이번 주 학습일정</div>
@@ -679,14 +703,23 @@
     html += (s.showMakeNote ? `<a class="make-note-btn" href="https://pokerface815.github.io/wrong-notes/?name=${encodeURIComponent(s.name || '')}">
       ✏️ 오답노트 만들기
     </a>` : '');
-    html += '<div class="group-label note-group">오답노트</div>';
-    html += renderSection('오늘 풀어야 할 오답노트', data.today || [], 'today', '오늘 풀 오답노트가 없어요. 잠깐 쉬는 날 ☺️', true);
-    if ((data.overdue || []).length > 0) html += renderSection('밀린 오답노트', data.overdue, 'overdue', '', true);
-    if ((data.upcoming || []).length > 0) html += renderSection('이번 주 일정', data.upcoming, 'upcoming', '', false);
-    if ((data.completed || []).length > 0) html += renderCompletedSection(data.completed);
-    if ((data.tasks || []).length > 0) {
-      html += '<div class="group-label task-group">과제</div>';
-      html += renderTaskSection(data.tasks);
+    html += `<div id="learningContentSection">${renderLearningContent(data)}</div>`;
+    return html;
+  }
+
+  function renderLearningContent(data) {
+    let html = '';
+    if (_learningTab === 'note') {
+      html += renderSection('오늘 풀어야 할 오답노트', data.today || [], 'today', '오늘 풀 오답노트가 없어요. 잠깐 쉬는 날 ☺️', true);
+      if ((data.overdue || []).length > 0) html += renderSection('밀린 오답노트', data.overdue, 'overdue', '', true);
+      if ((data.upcoming || []).length > 0) html += renderSection('이번 주 일정', data.upcoming, 'upcoming', '', false);
+      if ((data.completed || []).length > 0) html += renderCompletedSection(data.completed);
+    } else if (_learningTab === 'task') {
+      if ((data.tasks || []).length > 0) {
+        html += renderTaskSection(data.tasks);
+      } else {
+        html += `<div class="empty-view-card"><div style="font-size:13px; color:var(--text2); text-align:center;">아직 등록된 과제가 없어요.</div></div>`;
+      }
     }
     return html;
   }
@@ -709,11 +742,23 @@
     return html;
   }
 
+  let _gradesInputTab = 'naesin';  // 'naesin' | 'mock'
+  window.switchGradesInputTab = function(tab) {
+    _gradesInputTab = tab;
+    document.querySelectorAll('.page-header-bar .effort-top-tab').forEach(b => {
+      b.classList.toggle('active', b.textContent.trim() === (tab === 'naesin' ? '학교 내신' : '모의고사'));
+    });
+    const naesin = document.getElementById('gradeInputSection');
+    const mock = document.getElementById('mockInputSection');
+    if (naesin) naesin.style.display = (tab === 'naesin') ? '' : 'none';
+    if (mock) mock.style.display = (tab === 'mock') ? '' : 'none';
+  };
+
   function renderGradesInputView(data) {
     let html = `<h2 class="view-title">성적 입력 / 반성</h2>`;
     html += `<div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">시험 결과와 반성을 적어주세요. 입력 후 위쪽 <b>"저장"</b> 버튼을 꼭 눌러주세요.</div>`;
-    html += `<div id="gradeInputSection"></div>`;
-    html += `<div id="mockInputSection" style="margin-top:24px;"></div>`;
+    html += `<div id="gradeInputSection" style="display:${_gradesInputTab==='naesin'?'':'none'};"></div>`;
+    html += `<div id="mockInputSection" style="display:${_gradesInputTab==='mock'?'':'none'};"></div>`;
     return html;
   }
 
@@ -1187,7 +1232,7 @@
       const isToday = today.getDate() === d;
       const minutes = Math.floor(sec / 60);
       const tooltip = sec > 0 ? `${d}일: ${fmtDurationShort(sec)}` : `${d}일`;
-      html += `<div class="effort-cal-cell ${isToday?'today':''}" style="background:oklch(60% ${0.05 + intensity * 0.15} 125 / ${0.25 + intensity * 0.65});" title="${tooltip}">
+      html += `<div class="effort-cal-cell ${isToday?'today':''}" style="background:oklch(60% ${0.05 + intensity * 0.15} 145 / ${0.25 + intensity * 0.65});" title="${tooltip}">
         <div class="effort-cal-day">${d}</div>
         ${minutes > 0 ? `<div class="effort-cal-mins">${minutes}분</div>` : ''}
       </div>`;
@@ -1205,10 +1250,10 @@
   // 원그래프 + 범례
   function renderEffortPieChart(bySubject, totalSec) {
     const colors = [
-      'oklch(90% 0.16 125)', 'oklch(83% 0.18 125)', 'oklch(76% 0.19 125)',
-      'oklch(69% 0.19 125)', 'oklch(62% 0.18 125)', 'oklch(55% 0.17 125)',
-      'oklch(48% 0.15 125)', 'oklch(41% 0.13 125)', 'oklch(34% 0.11 125)',
-      'oklch(28% 0.09 125)'
+      'oklch(90% 0.16 145)', 'oklch(83% 0.18 145)', 'oklch(76% 0.19 145)',
+      'oklch(69% 0.19 145)', 'oklch(62% 0.18 145)', 'oklch(55% 0.17 145)',
+      'oklch(48% 0.15 145)', 'oklch(41% 0.13 145)', 'oklch(34% 0.11 145)',
+      'oklch(28% 0.09 145)'
     ];
     const sorted = Object.entries(bySubject).sort((a,b) => b[1] - a[1]);
 

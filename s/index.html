@@ -273,6 +273,18 @@
   .effort-log-content { font-size: 12px; color: var(--text); margin-top: 5px; line-height: 1.5; }
   .effort-log-reflection { font-size: 11.5px; color: var(--text2); margin-top: 5px; padding: 5px 7px; background: var(--surface2); border-radius: 4px; line-height: 1.5; }
 
+  /* 최근 기록 토글 */
+  .effort-loglist-toggle {
+    width: 100%; padding: 10px 14px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    display: flex; align-items: center; justify-content: space-between;
+    cursor: pointer; font-family: inherit;
+    transition: background 0.12s ease;
+  }
+  .effort-loglist-toggle:active { background: var(--surface2); }
+  .effort-loglist-chevron { font-size: 10px; color: var(--text3); transition: transform 0.2s ease; }
+  .effort-loglist-chevron.open { transform: rotate(180deg); }
+
   /* 기록 저장 모달 */
   .effort-modal-backdrop {
     position: fixed; inset: 0; z-index: 200;
@@ -537,15 +549,15 @@
           <div class="menu-label">학습관리</div>
           <div class="menu-sub">과제 / 오답노트</div>
         </a>
+        <a href="#effort" class="menu-card menu-effort">
+          <div class="menu-label">노력의 자취</div>
+          <div class="menu-sub">타이머 + 기록</div>
+        </a>
         <a href="#video" class="menu-card menu-video">
           <div class="menu-label">강의 영상</div>
         </a>
         <a href="#grades" class="menu-card menu-grades">
           <div class="menu-label">성적 관리</div>
-        </a>
-        <a href="#effort" class="menu-card menu-effort">
-          <div class="menu-label">노력의 자취</div>
-          <div class="menu-sub">타이머 + 기록</div>
         </a>
       </div>
     `;
@@ -631,7 +643,8 @@
   function renderEffortView(data) {
     return `
       <h2 class="view-title">노력의 자취</h2>
-      <div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">공부 시작할 때 타이머 켜고, 끝날 때 기록을 남겨주세요.</div>
+      <div style="font-size:13px; color:var(--text2); margin:0 0 6px; line-height:1.6;">공부 시작할 때 타이머 켜고, 끝날 때 기록을 남겨주세요.</div>
+      <div style="font-size:11.5px; color:var(--text3); margin:0 0 14px; padding:7px 10px; background:var(--surface2); border-radius:6px; line-height:1.5;">💡 측정 중에는 다른 화면을 보거나 페이지를 닫아도 타이머가 그대로 유지돼요.</div>
 
       <div id="effortTimerSection"></div>
       <div id="effortTodaySection" style="margin-top:18px;"></div>
@@ -906,31 +919,46 @@
     wrap.innerHTML = html;
   }
 
+  let _effortLogListOpen = false;
+  window.toggleEffortLogList = function() {
+    _effortLogListOpen = !_effortLogListOpen;
+    renderEffortLogList();
+  };
+
   function renderEffortLogList() {
     const wrap = document.getElementById('effortLogListSection');
     if (!wrap) return;
     const logs = loadEffortLogs().slice().sort((a,b) => b.startedAt - a.startedAt);
     if (logs.length === 0) { wrap.innerHTML = ''; return; }
 
-    let html = `<h3 style="margin:0 0 8px; font-size:14px; font-weight:700; letter-spacing:-0.3px;">최근 기록</h3>`;
     const recent = logs.slice(0, 20);
-    recent.forEach(l => {
-      const d = new Date(l.startedAt);
-      const dateStr = `${d.getMonth()+1}/${d.getDate()} ${d.getHours().toString().padStart(2,'0')}:${d.getMinutes().toString().padStart(2,'0')}`;
-      html += `
-        <div class="effort-log-card">
-          <div class="effort-log-head">
-            <span class="effort-log-subject">${escapeHtml(l.subject)}</span>
-            <span class="effort-log-time">${fmtDurationShort(l.seconds)}</span>
-            <button class="effort-log-del" onclick="deleteEffortLog('${l.id}')">×</button>
+    let html = `
+      <button class="effort-loglist-toggle" onclick="toggleEffortLogList()">
+        <span style="font-weight:700; font-size:13px;">최근 기록 ${logs.length}건</span>
+        <span class="effort-loglist-chevron ${_effortLogListOpen ? 'open' : ''}">▼</span>
+      </button>
+    `;
+    if (_effortLogListOpen) {
+      html += `<div style="margin-top:8px;">`;
+      recent.forEach(l => {
+        const d = new Date(l.startedAt);
+        const dateStr = `${d.getMonth()+1}/${d.getDate()} ${d.getHours().toString().padStart(2,'0')}:${d.getMinutes().toString().padStart(2,'0')}`;
+        html += `
+          <div class="effort-log-card">
+            <div class="effort-log-head">
+              <span class="effort-log-subject">${escapeHtml(l.subject)}</span>
+              <span class="effort-log-time">${fmtDurationShort(l.seconds)}</span>
+              <button class="effort-log-del" onclick="deleteEffortLog('${l.id}')">×</button>
+            </div>
+            <div class="effort-log-meta">${dateStr} · ${escapeHtml(l.method || '')}</div>
+            <div class="effort-log-content">${escapeHtml(l.content || '')}</div>
+            ${l.reflection ? `<div class="effort-log-reflection">📔 ${escapeHtml(l.reflection)}</div>` : ''}
           </div>
-          <div class="effort-log-meta">${dateStr} · ${escapeHtml(l.method || '')}</div>
-          <div class="effort-log-content">${escapeHtml(l.content || '')}</div>
-          ${l.reflection ? `<div class="effort-log-reflection">📔 ${escapeHtml(l.reflection)}</div>` : ''}
-        </div>
-      `;
-    });
-    if (logs.length > 20) html += `<div style="text-align:center; font-size:11px; color:var(--text3); margin-top:6px;">최근 20건만 표시</div>`;
+        `;
+      });
+      if (logs.length > 20) html += `<div style="text-align:center; font-size:11px; color:var(--text3); margin-top:6px;">최근 20건만 표시</div>`;
+      html += `</div>`;
+    }
     wrap.innerHTML = html;
   }
 

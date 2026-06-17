@@ -210,6 +210,93 @@
   .menu-learning { border-left: 3px solid var(--accent-light); }
   .menu-video { border-left: 3px solid #97aac8; }
   .menu-grades { border-left: 3px solid #b095d5; }
+  .menu-effort { border-left: 3px solid #e0a979; }
+
+  /* === 노력의 자취 (타이머 + 기록) === */
+  .effort-timer-card {
+    padding: 24px 18px; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 12px;
+    text-align: center;
+  }
+  .effort-timer-status { font-size: 11.5px; font-weight: 600; margin-bottom: 6px; }
+  .effort-timer-display {
+    font-size: 36px; font-weight: 700; letter-spacing: -1px;
+    color: var(--text); margin: 6px 0 14px;
+    font-variant-numeric: tabular-nums;
+  }
+  .effort-timer-display.running { color: #2e7d32; }
+  .effort-timer-display.paused { color: #8b6914; }
+  .effort-timer-buttons { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .effort-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    padding: 9px 18px; border-radius: 8px;
+    font-family: inherit; font-size: 13px; font-weight: 700;
+    cursor: pointer; border: 1px solid transparent;
+    transition: background 0.12s ease;
+  }
+  .effort-btn-primary { background: oklch(73.7% 0.021 106.9); color: #fff; border-color: oklch(63% 0.021 106.9); }
+  .effort-btn-primary:active { background: oklch(63% 0.021 106.9); }
+  .effort-btn-secondary { background: var(--surface2); color: var(--text); border-color: var(--border); }
+  .effort-btn-secondary:active { background: var(--border); }
+  .effort-cancel-btn {
+    margin-top: 10px; padding: 4px 10px;
+    background: transparent; color: var(--text3);
+    border: none; font-size: 11px; cursor: pointer;
+    font-family: inherit; text-decoration: underline;
+  }
+
+  /* 오늘 카드 */
+  .effort-today-card {
+    padding: 14px 16px; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 10px;
+  }
+  .effort-today-label { font-size: 11.5px; color: var(--text3); font-weight: 600; }
+  .effort-today-total { font-size: 22px; font-weight: 700; color: var(--text); margin-top: 2px; letter-spacing: -0.5px; }
+  .effort-today-subjects { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
+  .effort-today-subj-head { display: flex; justify-content: space-between; font-size: 11.5px; margin-bottom: 3px; }
+  .effort-today-subj-name { font-weight: 600; color: var(--text); }
+  .effort-today-subj-time { color: var(--text2); font-variant-numeric: tabular-nums; }
+  .effort-today-subj-bar { height: 4px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
+  .effort-today-subj-bar > div { height: 100%; background: linear-gradient(90deg, oklch(73.7% 0.021 106.9), oklch(63% 0.021 106.9)); border-radius: 3px; }
+
+  /* 기록 카드 */
+  .effort-log-card {
+    padding: 10px 12px; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 8px;
+    margin-bottom: 6px;
+  }
+  .effort-log-head { display: flex; align-items: center; gap: 8px; }
+  .effort-log-subject { font-weight: 700; font-size: 13px; color: var(--text); }
+  .effort-log-time { font-size: 11px; color: var(--text2); font-variant-numeric: tabular-nums; }
+  .effort-log-del { margin-left: auto; padding: 1px 7px; background: transparent; border: 1px solid var(--border); border-radius: 4px; font-size: 11px; color: #A32D2D; cursor: pointer; font-family: inherit; }
+  .effort-log-meta { font-size: 10.5px; color: var(--text3); margin-top: 3px; }
+  .effort-log-content { font-size: 12px; color: var(--text); margin-top: 5px; line-height: 1.5; }
+  .effort-log-reflection { font-size: 11.5px; color: var(--text2); margin-top: 5px; padding: 5px 7px; background: var(--surface2); border-radius: 4px; line-height: 1.5; }
+
+  /* 기록 저장 모달 */
+  .effort-modal-backdrop {
+    position: fixed; inset: 0; z-index: 200;
+    background: rgba(40,35,30,0.55);
+    display: none; align-items: center; justify-content: center;
+    padding: 16px;
+  }
+  .effort-modal-backdrop.active { display: flex; }
+  .effort-modal {
+    width: 100%; max-width: 380px; max-height: 90vh;
+    background: var(--bg); border-radius: 12px;
+    display: flex; flex-direction: column; overflow: hidden;
+  }
+  .effort-modal-head {
+    padding: 14px 16px; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .effort-modal-title { font-size: 14px; font-weight: 700; color: var(--text); }
+  .effort-modal-time { font-size: 14px; font-weight: 700; color: oklch(53% 0.031 107.3); font-variant-numeric: tabular-nums; }
+  .effort-modal-body { padding: 14px 16px; overflow-y: auto; flex: 1; }
+  .effort-modal-foot {
+    padding: 12px 16px; border-top: 1px solid var(--border);
+    display: flex; gap: 8px; justify-content: flex-end;
+  }
 
   /* 미니 진행률 (학습관리 화면) */
   .progress-mini-wrap { display: flex; flex-direction: column; gap: 10px; margin: 10px 0 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
@@ -416,6 +503,9 @@
     } else if (view === 'grades-input') {
       actionBar = `<div class="page-header-bar"><a href="#grades" class="back-link">← 성적 관리</a><button class="header-btn primary" onclick="saveAllGradeInputs()">저장</button></div>`;
       body = renderGradesInputView(data);
+    } else if (view === 'effort') {
+      actionBar = `<div class="page-header-bar"><a href="#menu" class="back-link">← 메인으로</a><span></span></div>`;
+      body = renderEffortView(data);
     } else {
       body = renderMainMenu(data);
     }
@@ -433,6 +523,9 @@
     if (view === 'grades' || view === 'grades-input') {
       loadGradeExams().catch(e => console.warn('시험 정보 로드 실패:', e));
     }
+    if (view === 'effort') {
+      initEffortScreen();
+    }
   }
 
   function backLinkHtml() { return ''; }  // 이제 sticky-top에서 처리
@@ -449,6 +542,10 @@
         </a>
         <a href="#grades" class="menu-card menu-grades">
           <div class="menu-label">성적 관리</div>
+        </a>
+        <a href="#effort" class="menu-card menu-effort">
+          <div class="menu-label">노력의 자취</div>
+          <div class="menu-sub">타이머 + 기록</div>
         </a>
       </div>
     `;
@@ -529,6 +626,322 @@
     html += `<div id="mockInputSection" style="margin-top:24px;"></div>`;
     return html;
   }
+
+  // ===== 노력의 자취 (타이머 + 기록) =====
+  function renderEffortView(data) {
+    return `
+      <h2 class="view-title">노력의 자취</h2>
+      <div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">공부 시작할 때 타이머 켜고, 끝날 때 기록을 남겨주세요.</div>
+
+      <div id="effortTimerSection"></div>
+      <div id="effortTodaySection" style="margin-top:18px;"></div>
+      <div id="effortLogListSection" style="margin-top:18px;"></div>
+    `;
+  }
+
+  // 타이머 상태 (localStorage 영구 저장 — 화면 바뀌어도 유지)
+  let _effortTimer = null;  // setInterval id
+  function loadEffortState() {
+    try { return JSON.parse(localStorage.getItem(`effortState__${studentCode}`) || '{}'); }
+    catch(e) { return {}; }
+  }
+  function saveEffortState(state) {
+    localStorage.setItem(`effortState__${studentCode}`, JSON.stringify(state));
+  }
+  function loadEffortLogs() {
+    try { return JSON.parse(localStorage.getItem(`effortLogs__${studentCode}`) || '[]'); }
+    catch(e) { return []; }
+  }
+  function saveEffortLogs(logs) {
+    localStorage.setItem(`effortLogs__${studentCode}`, JSON.stringify(logs));
+  }
+  function loadEffortSubjects() {
+    try { return JSON.parse(localStorage.getItem(`effortSubjects__${studentCode}`) || '[]'); }
+    catch(e) { return []; }
+  }
+  function saveEffortSubjects(subjects) {
+    localStorage.setItem(`effortSubjects__${studentCode}`, JSON.stringify(subjects));
+  }
+
+  function initEffortScreen() {
+    renderEffortTimer();
+    renderEffortToday();
+    renderEffortLogList();
+    // 타이머 진행 중이면 매초 갱신
+    if (_effortTimer) clearInterval(_effortTimer);
+    _effortTimer = setInterval(() => {
+      const s = loadEffortState();
+      if (s.status === 'running') renderEffortTimer();
+    }, 1000);
+  }
+
+  // 측정된 총 초 계산
+  function getElapsedSeconds(state) {
+    if (!state || !state.startedAt) return 0;
+    let acc = state.accumulatedMs || 0;
+    if (state.status === 'running' && state.runningSince) {
+      acc += Date.now() - state.runningSince;
+    }
+    return Math.floor(acc / 1000);
+  }
+
+  function fmtDuration(sec) {
+    const h = Math.floor(sec / 3600);
+    const m = Math.floor((sec % 3600) / 60);
+    const s = sec % 60;
+    if (h > 0) return `${h}시간 ${m}분 ${s.toString().padStart(2,'0')}초`;
+    if (m > 0) return `${m}분 ${s.toString().padStart(2,'0')}초`;
+    return `${s}초`;
+  }
+  function fmtDurationShort(sec) {
+    const h = Math.floor(sec / 3600);
+    const m = Math.floor((sec % 3600) / 60);
+    if (h > 0) return `${h}시간 ${m}분`;
+    return `${m}분`;
+  }
+
+  function renderEffortTimer() {
+    const wrap = document.getElementById('effortTimerSection');
+    if (!wrap) return;
+    const state = loadEffortState();
+    const elapsed = getElapsedSeconds(state);
+    const status = state.status || 'idle';
+
+    let buttons = '';
+    if (status === 'idle') {
+      buttons = `<button class="effort-btn effort-btn-primary" onclick="startEffortTimer()">▶ 시작</button>`;
+    } else if (status === 'running') {
+      buttons = `
+        <button class="effort-btn effort-btn-secondary" onclick="pauseEffortTimer()">⏸ 일시정지</button>
+        <button class="effort-btn effort-btn-primary" onclick="endEffortTimer()">⏹ 종료</button>
+      `;
+    } else if (status === 'paused') {
+      buttons = `
+        <button class="effort-btn effort-btn-primary" onclick="resumeEffortTimer()">▶ 이어서</button>
+        <button class="effort-btn effort-btn-secondary" onclick="endEffortTimer()">⏹ 종료</button>
+      `;
+    }
+
+    const statusLabel = status === 'running' ? '<span style="color:#2e7d32;">● 측정 중</span>'
+      : status === 'paused' ? '<span style="color:#8b6914;">⏸ 일시정지</span>'
+      : '<span style="color:var(--text3);">대기</span>';
+
+    wrap.innerHTML = `
+      <div class="effort-timer-card">
+        <div class="effort-timer-status">${statusLabel}</div>
+        <div class="effort-timer-display ${status}">${fmtDuration(elapsed)}</div>
+        <div class="effort-timer-buttons">${buttons}</div>
+        ${status !== 'idle' ? `<button class="effort-cancel-btn" onclick="cancelEffortTimer()">취소</button>` : ''}
+      </div>
+    `;
+  }
+
+  window.startEffortTimer = function() {
+    const now = Date.now();
+    saveEffortState({ status: 'running', startedAt: now, runningSince: now, accumulatedMs: 0 });
+    renderEffortTimer();
+  };
+  window.pauseEffortTimer = function() {
+    const s = loadEffortState();
+    if (s.status !== 'running') return;
+    const acc = (s.accumulatedMs || 0) + (Date.now() - s.runningSince);
+    saveEffortState({ ...s, status: 'paused', accumulatedMs: acc, runningSince: null });
+    renderEffortTimer();
+  };
+  window.resumeEffortTimer = function() {
+    const s = loadEffortState();
+    if (s.status !== 'paused') return;
+    saveEffortState({ ...s, status: 'running', runningSince: Date.now() });
+    renderEffortTimer();
+  };
+  window.cancelEffortTimer = function() {
+    if (!confirm('타이머를 취소할까요? 측정한 시간이 기록되지 않습니다.')) return;
+    localStorage.removeItem(`effortState__${studentCode}`);
+    renderEffortTimer();
+  };
+  window.endEffortTimer = function() {
+    const s = loadEffortState();
+    if (!s.startedAt) return;
+    let acc = s.accumulatedMs || 0;
+    if (s.status === 'running' && s.runningSince) acc += Date.now() - s.runningSince;
+    const sec = Math.floor(acc / 1000);
+    if (sec < 30) {
+      if (!confirm('측정한 시간이 30초 미만이에요. 그래도 기록할까요?')) return;
+    }
+    showEffortSaveModal(sec, s.startedAt);
+  };
+
+  function showEffortSaveModal(seconds, startedAt) {
+    const subjects = loadEffortSubjects();
+    let backdrop = document.getElementById('effortSaveModal');
+    if (!backdrop) {
+      backdrop = document.createElement('div');
+      backdrop.id = 'effortSaveModal';
+      backdrop.className = 'effort-modal-backdrop';
+      document.body.appendChild(backdrop);
+    }
+    backdrop.innerHTML = `
+      <div class="effort-modal">
+        <div class="effort-modal-head">
+          <div class="effort-modal-title">공부 기록 남기기</div>
+          <div class="effort-modal-time">${fmtDuration(seconds)}</div>
+        </div>
+        <div class="effort-modal-body">
+          <div>
+            <label class="gi-label">과목</label>
+            <input type="text" class="gi-input" id="effortSubject" list="effortSubjectList" placeholder="예: 수학, 영어, 국어">
+            <datalist id="effortSubjectList">
+              ${subjects.map(s => `<option value="${escapeHtml(s)}"></option>`).join('')}
+            </datalist>
+          </div>
+          <div style="margin-top:10px;">
+            <label class="gi-label">공부 방식</label>
+            <select class="gi-input" id="effortMethod">
+              <option value="문제 풀이">문제 풀이</option>
+              <option value="강의 시청">강의 시청</option>
+              <option value="개념 정리">개념 정리</option>
+              <option value="오답 정리">오답 정리</option>
+              <option value="기타">기타</option>
+            </select>
+          </div>
+          <div style="margin-top:10px;">
+            <label class="gi-label">공부 내용 *</label>
+            <input type="text" class="gi-input" id="effortContent" placeholder="예: 쎈 3단원 응용문제 18~32번">
+          </div>
+          <div style="margin-top:10px;">
+            <label class="gi-label">느낀점 · 반성 (선택)</label>
+            <textarea class="gi-input" id="effortReflection" rows="2" placeholder="예: 23번 어려웠음. 다시 풀어볼 것"></textarea>
+          </div>
+        </div>
+        <div class="effort-modal-foot">
+          <button class="effort-btn effort-btn-secondary" onclick="closeEffortSaveModal()">취소</button>
+          <button class="effort-btn effort-btn-primary" onclick="saveEffortLog(${seconds}, ${startedAt})">저장</button>
+        </div>
+      </div>
+    `;
+    backdrop.classList.add('active');
+    setTimeout(() => document.getElementById('effortSubject')?.focus(), 100);
+  }
+
+  window.closeEffortSaveModal = function() {
+    const el = document.getElementById('effortSaveModal');
+    if (el) el.classList.remove('active');
+  };
+
+  window.saveEffortLog = function(seconds, startedAt) {
+    const subject = (document.getElementById('effortSubject')?.value || '').trim();
+    const method = document.getElementById('effortMethod')?.value || '';
+    const content = (document.getElementById('effortContent')?.value || '').trim();
+    const reflection = (document.getElementById('effortReflection')?.value || '').trim();
+    if (!subject) { alert('과목을 입력해주세요.'); return; }
+    if (!content) { alert('공부 내용을 입력해주세요.'); return; }
+
+    // 과목 자동완성 누적
+    const subjects = loadEffortSubjects();
+    if (!subjects.includes(subject)) {
+      subjects.unshift(subject);
+      saveEffortSubjects(subjects.slice(0, 20));  // 최근 20개만
+    }
+
+    const logs = loadEffortLogs();
+    logs.push({
+      id: 'effort_' + Date.now().toString(36) + Math.random().toString(36).slice(2,5),
+      startedAt: startedAt,
+      endedAt: Date.now(),
+      seconds: seconds,
+      subject, method, content, reflection,
+      sharedWithParent: false,
+      createdAt: new Date().toISOString(),
+    });
+    saveEffortLogs(logs);
+
+    // 타이머 초기화
+    localStorage.removeItem(`effortState__${studentCode}`);
+    closeEffortSaveModal();
+    renderEffortTimer();
+    renderEffortToday();
+    renderEffortLogList();
+  };
+
+  function renderEffortToday() {
+    const wrap = document.getElementById('effortTodaySection');
+    if (!wrap) return;
+    const logs = loadEffortLogs();
+    const today = new Date();
+    const todayStr = today.toISOString().slice(0, 10);
+    const todayLogs = logs.filter(l => new Date(l.startedAt).toISOString().slice(0,10) === todayStr);
+    const totalSec = todayLogs.reduce((a, l) => a + l.seconds, 0);
+
+    // 과목별 합계
+    const bySubject = {};
+    todayLogs.forEach(l => {
+      bySubject[l.subject] = (bySubject[l.subject] || 0) + l.seconds;
+    });
+    const sorted = Object.entries(bySubject).sort((a,b) => b[1] - a[1]);
+
+    let html = `
+      <div class="effort-today-card">
+        <div class="effort-today-label">오늘의 공부</div>
+        <div class="effort-today-total">${fmtDurationShort(totalSec)}</div>
+    `;
+    if (sorted.length > 0) {
+      html += `<div class="effort-today-subjects">`;
+      sorted.forEach(([subj, sec]) => {
+        const pct = totalSec > 0 ? Math.round(sec / totalSec * 100) : 0;
+        html += `
+          <div class="effort-today-subj">
+            <div class="effort-today-subj-head">
+              <span class="effort-today-subj-name">${escapeHtml(subj)}</span>
+              <span class="effort-today-subj-time">${fmtDurationShort(sec)} (${pct}%)</span>
+            </div>
+            <div class="effort-today-subj-bar"><div style="width:${pct}%;"></div></div>
+          </div>
+        `;
+      });
+      html += `</div>`;
+    } else {
+      html += `<div style="font-size:12px; color:var(--text3); margin-top:8px;">아직 오늘 기록이 없어요.</div>`;
+    }
+    html += `</div>`;
+    wrap.innerHTML = html;
+  }
+
+  function renderEffortLogList() {
+    const wrap = document.getElementById('effortLogListSection');
+    if (!wrap) return;
+    const logs = loadEffortLogs().slice().sort((a,b) => b.startedAt - a.startedAt);
+    if (logs.length === 0) { wrap.innerHTML = ''; return; }
+
+    let html = `<h3 style="margin:0 0 8px; font-size:14px; font-weight:700; letter-spacing:-0.3px;">최근 기록</h3>`;
+    const recent = logs.slice(0, 20);
+    recent.forEach(l => {
+      const d = new Date(l.startedAt);
+      const dateStr = `${d.getMonth()+1}/${d.getDate()} ${d.getHours().toString().padStart(2,'0')}:${d.getMinutes().toString().padStart(2,'0')}`;
+      html += `
+        <div class="effort-log-card">
+          <div class="effort-log-head">
+            <span class="effort-log-subject">${escapeHtml(l.subject)}</span>
+            <span class="effort-log-time">${fmtDurationShort(l.seconds)}</span>
+            <button class="effort-log-del" onclick="deleteEffortLog('${l.id}')">×</button>
+          </div>
+          <div class="effort-log-meta">${dateStr} · ${escapeHtml(l.method || '')}</div>
+          <div class="effort-log-content">${escapeHtml(l.content || '')}</div>
+          ${l.reflection ? `<div class="effort-log-reflection">📔 ${escapeHtml(l.reflection)}</div>` : ''}
+        </div>
+      `;
+    });
+    if (logs.length > 20) html += `<div style="text-align:center; font-size:11px; color:var(--text3); margin-top:6px;">최근 20건만 표시</div>`;
+    wrap.innerHTML = html;
+  }
+
+  window.deleteEffortLog = function(id) {
+    if (!confirm('이 기록을 삭제할까요?')) return;
+    let logs = loadEffortLogs();
+    logs = logs.filter(l => l.id !== id);
+    saveEffortLogs(logs);
+    renderEffortToday();
+    renderEffortLogList();
+  };
 
   // ===== 성적 추이 그래프 =====
   function renderGradeChart(myGrades) {

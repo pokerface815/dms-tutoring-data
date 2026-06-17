@@ -1,0 +1,34 @@
+[
+  {
+    "run_at": "2026-06-17T16:00:33.701744+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 2,
+      "failed": 0,
+      "total": 2
+    },
+    "entries": [
+      {
+        "student_id": "s_1777546951753_p3pskl",
+        "student_name": "김채린",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-7708",
+        "text_length": 44,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1780821352355_cv63jr",
+        "student_name": "국아인",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-2257",
+        "text_length": 43,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

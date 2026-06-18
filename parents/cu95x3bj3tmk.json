@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-17T14:26:56.929Z",
+  "generatedAt": "2026-06-18T04:49:33.743Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -70,5 +70,6 @@
       "fileName": "박유솔_6월5일.pdf",
       "comment": "가우스 기호에 대한 기본 개념 추가 설명."
     }
-  ]
+  ],
+  "effortLogs": null
 }

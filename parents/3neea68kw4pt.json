@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-18T04:49:02.023Z",
+  "generatedAt": "2026-06-18T09:22:57.353Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -84,18 +84,37 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-18T04:01:09.429Z",
+    "uploadedAt": "2026-06-18T06:59:59.054Z",
     "summary": {
-      "todaySec": 8659,
-      "weekSec": 8659,
-      "monthSec": 8659,
+      "todaySec": 19191,
+      "weekSec": 19191,
+      "monthSec": 19191,
       "streak": 1,
       "bySubjectMonth": {
         "확통": 8293,
-        "클로드": 366
+        "클로드": 6441,
+        "문제DB": 4457
       }
     },
     "logs": [
+      {
+        "id": "effort_mqj5gxe6gld",
+        "startedAt": 1781761502843,
+        "seconds": 4457,
+        "subject": "문제DB",
+        "method": "기타",
+        "content": "시우 확통 작업",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mqj2qwdimnf",
+        "startedAt": 1781755282253,
+        "seconds": 6075,
+        "subject": "클로드",
+        "method": "기타",
+        "content": "학부모 페이지 연동",
+        "reflection": ""
+      },
       {
         "id": "effort_mqiz2t3zh6i",
         "startedAt": 1781755189342,

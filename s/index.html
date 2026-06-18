@@ -833,8 +833,6 @@
     html += `<div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">시험 결과와 반성을 적어주세요. 입력 후 위쪽 <b>"저장"</b> 버튼을 꼭 눌러주세요.</div>`;
     html += `<div id="gradeInputSection" style="display:${_gradesInputTab==='naesin'?'':'none'};"></div>`;
     html += `<div id="mockInputSection" style="display:${_gradesInputTab==='mock'?'':'none'};"></div>`;
-    // 지난 시험 + 반성 (학교 내신·모의고사 통합, 탭 외부)
-    html += `<div id="gradeHistorySection" style="margin-top:22px;"></div>`;
     return html;
   }
 
@@ -2109,20 +2107,22 @@
     loadLocalDrafts();
     loadMockDrafts();
     const myGrades = (studentData || {}).myGrades || [];
+    console.log('[성적입력] myGrades:', myGrades.length, '건', myGrades);
     // 성적 관리 메인 — 그래프만
     if (document.getElementById('gradeChartSection')) renderGradeChart(myGrades);
-    // 성적 입력/반성 화면 — 입력폼 + 반성 카드
-    if (document.getElementById('gradeHistorySection')) renderGradeHistory(myGrades);
-    // 입력 폼은 school_grade_cuts 필요
+    // 입력 폼 — school_grade_cuts.json 우선 fetch (실패해도 무관)
     if (document.getElementById('gradeInputSection')) {
-      try {
-        if (!cachedSchoolGradeCuts) {
+      if (!cachedSchoolGradeCuts) {
+        try {
           const url = `../school_grade_cuts.json?t=${Date.now()}`;
           const res = await fetch(url, { cache: 'no-store' });
           if (res.ok) cachedSchoolGradeCuts = await res.json();
+        } catch (e) {
+          console.warn('시험 정보 fetch 실패 (가상 카드로 폴백):', e);
         }
-        renderGradeExams();
-      } catch (e) { console.warn('시험 정보 fetch 실패:', e); }
+      }
+      // fetch 성공·실패와 무관하게 무조건 렌더링 (점수만 있어도 가상 카드로 표시)
+      renderGradeExams();
     }
     // 모의고사 입력 섹션
     if (document.getElementById('mockInputSection')) renderMockExams();
@@ -2130,7 +2130,11 @@
 
   function renderGradeExams() {
     const wrap = document.getElementById('gradeInputSection');
+    if (!wrap) { console.warn('[renderGradeExams] gradeInputSection 없음'); return; }
     const s = studentData.student || {};
+    console.log('[renderGradeExams] 시작 — student:', s.name, s.school, s.grade,
+      ' / cachedSchoolGradeCuts:', cachedSchoolGradeCuts ? cachedSchoolGradeCuts.length : 'null',
+      ' / myGrades.naesin:', ((studentData || {}).myGrades || []).filter(g => g.type === 'naesin').length);
     // 학년 매핑
     const ORDER = { '중1': 1, '중2': 2, '중3': 3, '고1': 1, '고2': 2, '고3': 3 };
     const studentType = (s.grade || '').charAt(0); // '중' 또는 '고'
@@ -2153,8 +2157,47 @@
       return Object.values(enabled).some(v => v === true);
     });
 
+    // ===== 가상 entry 보강 =====
+    // 통합본에서 시험 정보 카드 없이 점수만 입력한 경우(myGrades에는 있지만 cachedSchoolGradeCuts에는 없음)에도
+    // 학생 페이지에 시험 카드 토글이 보이도록 (year, semester, subject) 단위로 가상 entry를 만든다.
+    // 학년(gradeLevel)은 학생의 현재 학년과 점수의 year 차이로 추론.
+    {
+      const myGradesAll = (studentData || {}).myGrades || [];
+      const naesinByKey = {};
+      for (const g of myGradesAll) {
+        if (g.type !== 'naesin') continue;
+        if (!g.year || !g.semester || !g.subject) continue;
+        const key = `${g.year}__${g.semester}__${g.subject}`;
+        if (!naesinByKey[key]) {
+          naesinByKey[key] = { year: g.year, semester: g.semester, subject: g.subject, examKinds: new Set() };
+        }
+        if (g.examKind) naesinByKey[key].examKinds.add(g.examKind);
+      }
+      const coveredKeys = new Set(myEntries.map(c => `${c.year}__${c.semester}__${c.subject}`));
+      for (const key in naesinByKey) {
+        if (coveredKeys.has(key)) continue;
+        const info = naesinByKey[key];
+        const yearDiff = currentYear - Number(info.year);
+        const lvl = studentLvl - yearDiff;
+        const inferredLvl = (lvl >= 1 && lvl <= 3 && studentType) ? `${studentType}${lvl}` : '';
+        const enabledMap = { '중간': info.examKinds.has('중간'), '기말': info.examKinds.has('기말') };
+        if (!enabledMap['중간'] && !enabledMap['기말']) continue;
+        myEntries.push({
+          id: `_virtual_${info.year}_${info.semester}_${info.subject}`.replace(/\s+/g, '_'),
+          school: s.school || '',
+          gradeLevel: inferredLvl,
+          year: info.year,
+          semester: info.semester,
+          subject: info.subject,
+          studentInputEnabledByExamKind: enabledMap,
+          _virtual: true,
+        });
+      }
+    }
+
     // 정렬: 학년(낮→높) → 년도 → 학기 → 과목 (교과서 순서 기준)
     const SUBJECT_ORDER = ['공통수학1', '공통수학2', '대수', '미적분1', '확률과 통계', '기하', '미적분2'];
+    console.log('[renderGradeExams] myEntries (가상 보강 후):', myEntries.length, myEntries);
     myEntries.sort((a, b) => {
       const al = ORDER[a.gradeLevel] || 99, bl = ORDER[b.gradeLevel] || 99;
       if (al !== bl) return al - bl;

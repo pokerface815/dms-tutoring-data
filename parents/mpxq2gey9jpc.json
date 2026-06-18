@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-17T14:27:35.133Z",
+  "generatedAt": "2026-06-18T04:49:58.626Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -8,5 +8,6 @@
     "grade": "고2"
   },
   "months": [],
-  "tests": []
+  "tests": [],
+  "effortLogs": null
 }

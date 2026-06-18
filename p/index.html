@@ -204,28 +204,33 @@
   }
   .effort-subj-box-title {
     font-size: 13px; font-weight: 700; color: var(--accent-dark);
-    margin-bottom: 8px; display: flex; align-items: center; gap: 6px;
+    margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
   }
-  .effort-subj-list { display: flex; flex-direction: column; gap: 7px; }
-  .effort-subj-row {
-    display: grid; grid-template-columns: 80px 1fr 80px;
-    gap: 8px; align-items: center; font-size: 12px;
+  .effort-pie-wrap {
+    display: flex; gap: 12px; align-items: center;
   }
-  .effort-subj-name {
-    font-weight: 600; color: var(--text); font-size: 12px;
+  .effort-pie-svg { flex-shrink: 0; }
+  .effort-pie-legend {
+    flex: 1; min-width: 0;
+    display: flex; flex-direction: column; gap: 5px;
+  }
+  .effort-legend-row {
+    display: grid; grid-template-columns: 12px 1fr auto;
+    gap: 7px; align-items: center; font-size: 11.5px;
+  }
+  .effort-legend-color {
+    width: 12px; height: 12px; border-radius: 3px;
+  }
+  .effort-legend-name {
+    color: var(--text); font-weight: 600; font-size: 12px;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
-  .effort-subj-track {
-    height: 7px; background: #ece5d8;
-    border-radius: 4px; overflow: hidden;
+  .effort-legend-val {
+    color: var(--text2); font-size: 11px;
+    font-variant-numeric: tabular-nums; white-space: nowrap;
   }
-  .effort-subj-fill {
-    height: 100%; border-radius: 4px;
-    background: linear-gradient(90deg, var(--accent-light), var(--accent));
-  }
-  .effort-subj-time {
-    text-align: right; font-size: 11px; color: var(--text2);
-    font-variant-numeric: tabular-nums;
+  @media (max-width: 380px) {
+    .effort-pie-wrap { gap: 10px; }
   }
 
   .effort-section-divider {
@@ -532,18 +537,7 @@
       html += `
         <div class="effort-subj-box">
           <div class="effort-subj-box-title">📊 이번 달 과목별 학습</div>
-          <div class="effort-subj-list">
-            ${subjectEntries.map(([subj, sec]) => {
-              const pct = Math.round(sec / monthTotal * 100);
-              return `
-                <div class="effort-subj-row">
-                  <span class="effort-subj-name">${escapeHtml(subj)}</span>
-                  <div class="effort-subj-track"><div class="effort-subj-fill" style="width:${pct}%;"></div></div>
-                  <span class="effort-subj-time">${fmtEffortDuration(sec)} · ${pct}%</span>
-                </div>
-              `;
-            }).join('')}
-          </div>
+          ${renderParentPieChart(subjectEntries, monthTotal)}
         </div>
       `;
     }
@@ -573,6 +567,52 @@
       </div>
     `;
     return html;
+  }
+
+  // 원그래프 + 범례 (학생 페이지와 동일한 라임 톤)
+  function renderParentPieChart(sortedEntries, totalSec) {
+    const colors = [
+      'oklch(90% 0.16 125)', 'oklch(83% 0.18 125)', 'oklch(76% 0.19 125)',
+      'oklch(69% 0.19 125)', 'oklch(62% 0.18 125)', 'oklch(55% 0.17 125)',
+      'oklch(48% 0.15 125)', 'oklch(41% 0.13 125)', 'oklch(34% 0.11 125)',
+      'oklch(28% 0.09 125)'
+    ];
+    const cx = 60, cy = 60, r = 50;
+    let svg = `<svg class="effort-pie-svg" viewBox="0 0 120 120" width="120" height="120">`;
+    let startAngle = -Math.PI / 2;
+    sortedEntries.forEach(([subj, sec], i) => {
+      const pct = sec / totalSec;
+      const endAngle = startAngle + pct * 2 * Math.PI;
+      const x1 = cx + r * Math.cos(startAngle);
+      const y1 = cy + r * Math.sin(startAngle);
+      const x2 = cx + r * Math.cos(endAngle);
+      const y2 = cy + r * Math.sin(endAngle);
+      const largeArc = pct > 0.5 ? 1 : 0;
+      const color = colors[i % colors.length];
+      if (pct >= 0.999) {
+        svg += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${color}"/>`;
+      } else {
+        svg += `<path d="M ${cx} ${cy} L ${x1.toFixed(2)} ${y1.toFixed(2)} A ${r} ${r} 0 ${largeArc} 1 ${x2.toFixed(2)} ${y2.toFixed(2)} Z" fill="${color}"/>`;
+      }
+      startAngle = endAngle;
+    });
+    svg += `</svg>`;
+
+    let legend = `<div class="effort-pie-legend">`;
+    sortedEntries.forEach(([subj, sec], i) => {
+      const pct = Math.round(sec / totalSec * 100);
+      const color = colors[i % colors.length];
+      legend += `
+        <div class="effort-legend-row">
+          <span class="effort-legend-color" style="background:${color};"></span>
+          <span class="effort-legend-name">${escapeHtml(subj)}</span>
+          <span class="effort-legend-val">${fmtEffortDurationShort(sec)} · ${pct}%</span>
+        </div>
+      `;
+    });
+    legend += `</div>`;
+
+    return `<div class="effort-pie-wrap">${svg}${legend}</div>`;
   }
 
   function renderEffortLogItem(l) {

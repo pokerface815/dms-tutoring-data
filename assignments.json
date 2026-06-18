@@ -2405,5 +2405,33 @@
       }
     ],
     "createdAt": "2026-06-17T11:18:42.444Z"
+  },
+  {
+    "id": "a_1781798454400_ppm1hv",
+    "noteId": "note_1781798360831_vlbbu3",
+    "noteName": "김규림_개념루트_수열의 합( ~772번)",
+    "studentId": "s_1777546978791_hsee5a",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-21",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-26",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-18T16:00:54.400Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-17T14:26:30.129Z",
+  "generatedAt": "2026-06-18T09:07:46.306Z",
   "student": {
     "name": "이현승",
     "school": "살레시오고",
@@ -19,7 +19,10 @@
       "round": 4,
       "plannedDate": "2026-06-10",
       "done": true,
-      "doneAt": "2026-06-10T10:41:53.333Z"
+      "doneAt": "2026-06-10T10:41:53.333Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778638358032_1cfx1z",
@@ -28,7 +31,10 @@
       "round": 3,
       "plannedDate": "2026-05-20",
       "done": true,
-      "doneAt": "2026-05-20T11:46:07.969Z"
+      "doneAt": "2026-05-20T11:46:07.969Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778638358032_1cfx1z",
@@ -37,7 +43,10 @@
       "round": 2,
       "plannedDate": "2026-05-14",
       "done": true,
-      "doneAt": "2026-05-14T14:20:48.710Z"
+      "doneAt": "2026-05-14T14:20:48.710Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778638358032_1cfx1z",
@@ -46,7 +55,10 @@
       "round": 1,
       "plannedDate": "2026-05-13",
       "done": true,
-      "doneAt": "2026-05-13T10:27:26.869Z"
+      "doneAt": "2026-05-13T10:27:26.869Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
   "weekProgress": {

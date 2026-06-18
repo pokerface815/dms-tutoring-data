@@ -34,8 +34,9 @@
     background: var(--bg);
     color: var(--text);
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;  /* 모바일 좌우 스크롤 방지 */
   }
-  body { max-width: 680px; margin: 0 auto; min-height: 100vh; }
+  body { max-width: 680px; margin: 0 auto; min-height: 100vh; overflow-x: hidden; }
   .header {
     background: var(--surface);
     padding: 20px;
@@ -206,13 +207,16 @@
     margin-bottom: 8px; display: flex; align-items: center; gap: 6px;
   }
   .effort-subj-list { display: flex; flex-direction: column; gap: 7px; }
-  .effort-subj-row { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+  .effort-subj-row {
+    display: grid; grid-template-columns: 80px 1fr 80px;
+    gap: 8px; align-items: center; font-size: 12px;
+  }
   .effort-subj-name {
-    flex-shrink: 0; min-width: 70px; font-weight: 600;
-    color: var(--text); font-size: 12px;
+    font-weight: 600; color: var(--text); font-size: 12px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
   .effort-subj-track {
-    flex: 1; height: 7px; background: #ece5d8;
+    height: 7px; background: #ece5d8;
     border-radius: 4px; overflow: hidden;
   }
   .effort-subj-fill {
@@ -220,8 +224,8 @@
     background: linear-gradient(90deg, var(--accent-light), var(--accent));
   }
   .effort-subj-time {
-    flex-shrink: 0; min-width: 58px; text-align: right;
-    font-size: 11px; color: var(--text2); font-variant-numeric: tabular-nums;
+    text-align: right; font-size: 11px; color: var(--text2);
+    font-variant-numeric: tabular-nums;
   }
 
   .effort-section-divider {
@@ -517,10 +521,10 @@
         </div>
         <div class="month-body">
           <div class="effort-summary-grid">
-            <div class="effort-summary-stat"><div class="effort-summary-lbl">오늘</div><div class="effort-summary-val">${fmtEffortDuration(todaySec)}</div></div>
-            <div class="effort-summary-stat"><div class="effort-summary-lbl">이번 주</div><div class="effort-summary-val">${fmtEffortDuration(weekSec)}</div></div>
-            <div class="effort-summary-stat"><div class="effort-summary-lbl">이번 달</div><div class="effort-summary-val">${fmtEffortDuration(monthSec)}</div></div>
-            <div class="effort-summary-stat streak"><div class="effort-summary-lbl">연속</div><div class="effort-summary-val">${streak > 0 ? `🔥 ${streak}일` : '-'}</div></div>
+            <div class="effort-summary-stat"><div class="effort-summary-lbl">오늘</div><div class="effort-summary-val">${fmtEffortDurationShort(todaySec)}</div></div>
+            <div class="effort-summary-stat"><div class="effort-summary-lbl">이번 주</div><div class="effort-summary-val">${fmtEffortDurationShort(weekSec)}</div></div>
+            <div class="effort-summary-stat"><div class="effort-summary-lbl">이번 달</div><div class="effort-summary-val">${fmtEffortDurationShort(monthSec)}</div></div>
+            <div class="effort-summary-stat streak"><div class="effort-summary-lbl">연속</div><div class="effort-summary-val">${streak > 0 ? `🔥${streak}일` : '-'}</div></div>
           </div>
     `;
 
@@ -595,6 +599,14 @@
     const m = Math.floor((sec % 3600) / 60);
     if (h > 0) return m > 0 ? `${h}시간 ${m}분` : `${h}시간`;
     return `${m}분`;
+  }
+
+  function fmtEffortDurationShort(sec) {
+    if (!sec || sec <= 0) return '0m';
+    const h = Math.floor(sec / 3600);
+    const m = Math.floor((sec % 3600) / 60);
+    if (h > 0) return m > 0 ? `${h}h ${m}m` : `${h}h`;
+    return `${m}m`;
   }
 
   function renderTestItem(t) {

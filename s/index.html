@@ -833,6 +833,8 @@
     html += `<div style="font-size:13px; color:var(--text2); margin:0 0 14px; line-height:1.6;">시험 결과와 반성을 적어주세요. 입력 후 위쪽 <b>"저장"</b> 버튼을 꼭 눌러주세요.</div>`;
     html += `<div id="gradeInputSection" style="display:${_gradesInputTab==='naesin'?'':'none'};"></div>`;
     html += `<div id="mockInputSection" style="display:${_gradesInputTab==='mock'?'':'none'};"></div>`;
+    // 지난 시험 + 반성 (학교 내신·모의고사 통합, 탭 외부)
+    html += `<div id="gradeHistorySection" style="margin-top:22px;"></div>`;
     return html;
   }
 

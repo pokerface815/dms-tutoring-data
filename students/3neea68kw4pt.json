@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-17T14:26:51.102Z",
+  "generatedAt": "2026-06-18T09:22:55.920Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -220,6 +220,51 @@
       "teacherEdited": false,
       "sourceSubmittedAt": "2026-06-16T17:14:53.606Z",
       "createdAt": "2026-06-16T17:24:16.247Z"
+    },
+    {
+      "id": "grade_mqja076f2tk",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "기하",
+      "examKind": "중간",
+      "score": 89,
+      "grade": null,
+      "rank": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-06-18T09:06:53.654Z"
+    },
+    {
+      "id": "grade_mqja0fk19rt",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "미적분2",
+      "examKind": "중간",
+      "score": 99,
+      "grade": null,
+      "rank": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-06-18T09:07:04.513Z"
+    },
+    {
+      "id": "grade_mqja13nr9t0",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "인공지능수학",
+      "examKind": "중간",
+      "score": 100,
+      "grade": null,
+      "rank": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-06-18T09:07:35.751Z"
     }
   ]
 }

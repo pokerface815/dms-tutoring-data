@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-17T14:26:52.291Z",
+  "generatedAt": "2026-06-18T04:49:02.023Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -81,5 +81,48 @@
       "fileName": "서준우_4월15일.pdf",
       "comment": ""
     }
-  ]
+  ],
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-06-18T04:01:09.429Z",
+    "summary": {
+      "todaySec": 8659,
+      "weekSec": 8659,
+      "monthSec": 8659,
+      "streak": 1,
+      "bySubjectMonth": {
+        "확통": 8293,
+        "클로드": 366
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mqiz2t3zh6i",
+        "startedAt": 1781755189342,
+        "seconds": 61,
+        "subject": "클로드",
+        "method": "기타",
+        "content": "테스트",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mqiyy1zqc91",
+        "startedAt": 1781754708844,
+        "seconds": 305,
+        "subject": "클로드",
+        "method": "기타",
+        "content": "프로그래밍",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mqiq9m38kds",
+        "startedAt": 1781732104085,
+        "seconds": 8293,
+        "subject": "확통",
+        "method": "기타",
+        "content": "6모 28, 29, 30번",
+        "reflection": ""
+      }
+    ]
+  }
 }

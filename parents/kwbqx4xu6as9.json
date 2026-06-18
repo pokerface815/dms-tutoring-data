@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-17T21:08:57.402Z",
+  "generatedAt": "2026-06-18T04:49:29.748Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -81,5 +81,6 @@
       "fileName": "서준우_6월5일.pdf",
       "comment": "최근에 본 테스트 모두 준우가 약한 단원 위주로 출제하고 있어서 오답이 많은 편입니다. 이차부등식 단원은 시험에 대한 예고가 되지 않아서 유독 많이 틀린 것 같습니다."
     }
-  ]
+  ],
+  "effortLogs": null
 }

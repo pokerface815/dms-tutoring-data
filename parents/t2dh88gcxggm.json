@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-17T14:26:54.737Z",
+  "generatedAt": "2026-06-18T04:49:31.388Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -77,5 +77,6 @@
       "fileName": "장승원_6월5일.pdf",
       "comment": "5번 문항을 제외한 2문제는 풀었어야 했던 문제임. 상 수준의 문항은 모두 맞췄음."
     }
-  ]
+  ],
+  "effortLogs": null
 }

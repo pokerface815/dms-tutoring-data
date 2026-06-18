@@ -1,12 +1,27 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-17T14:27:32.472Z",
+  "generatedAt": "2026-06-18T04:49:56.783Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
     "name": "정시우",
     "grade": "고2"
   },
-  "months": [],
-  "tests": []
+  "months": [
+    {
+      "ym": "2026-06",
+      "label": "2026년 6월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 1,
+          "total": 1,
+          "percent": 100
+        }
+      }
+    }
+  ],
+  "tests": [],
+  "effortLogs": null
 }

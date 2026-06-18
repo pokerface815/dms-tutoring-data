@@ -410,6 +410,33 @@
     display: flex; gap: 8px; justify-content: flex-end;
   }
 
+  /* 동기화 상태 표시 (자동 업로드) */
+  .effort-sync-row {
+    display: flex; justify-content: flex-end; margin: 0 0 10px;
+    min-height: 22px;
+  }
+  .effort-sync-indicator {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 10.5px; font-weight: 600;
+    padding: 3px 9px; border-radius: 11px;
+    line-height: 1.4; letter-spacing: -0.1px;
+    border: 1px solid transparent;
+    transition: background 0.18s ease, color 0.18s ease;
+  }
+  .effort-sync-indicator.syncing { background: oklch(95% 0.04 125); color: #5d6b5d; border-color: oklch(88% 0.06 125); }
+  .effort-sync-indicator.success { background: oklch(96% 0.035 125); color: #2e7d32; border-color: oklch(86% 0.07 125); }
+  .effort-sync-indicator.pending { background: #fff7e6; color: #8b6914; border-color: #f0d9a0; }
+  .effort-sync-indicator.error   { background: #fdecec; color: #A32D2D; border-color: #f0bdbd; cursor: pointer; }
+  .effort-sync-dot {
+    display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: currentColor; opacity: 0.85;
+  }
+  .effort-sync-indicator.syncing .effort-sync-dot { animation: effortSyncPulse 1.1s ease-in-out infinite; }
+  @keyframes effortSyncPulse {
+    0%, 100% { opacity: 0.3; transform: scale(0.85); }
+    50% { opacity: 1; transform: scale(1.1); }
+  }
+
   /* 미니 진행률 (학습관리 화면) */
   .progress-mini-wrap { display: flex; flex-direction: column; gap: 10px; margin: 10px 0 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
   .pm-section-title { font-size: 13px; font-weight: 700; color: var(--text); letter-spacing: -0.2px; margin-bottom: 2px; }
@@ -796,7 +823,9 @@
     return `
       <h2 class="view-title">노력의 자취</h2>
       <div style="font-size:13px; color:var(--text2); margin:0 0 6px; line-height:1.6;">공부 시작할 때 타이머 켜고, 끝날 때 기록을 남겨주세요.</div>
-      <div style="font-size:11.5px; color:var(--text3); margin:0 0 14px; padding:7px 10px; background:var(--surface2); border-radius:6px; line-height:1.5;">💡 측정 중에는 다른 화면을 보거나 페이지를 닫아도 타이머가 그대로 유지돼요.</div>
+      <div style="font-size:11.5px; color:var(--text3); margin:0 0 10px; padding:7px 10px; background:var(--surface2); border-radius:6px; line-height:1.5;">💡 측정 중에는 다른 화면을 보거나 페이지를 닫아도 타이머가 그대로 유지돼요.</div>
+
+      <div class="effort-sync-row"><span id="effortSyncIndicator"></span></div>
 
       <div id="effortContentSection"></div>
     `;
@@ -859,8 +888,163 @@
     localStorage.setItem(`effortSubjects__${studentCode}`, JSON.stringify(subjects));
   }
 
+  // ===== 노력의 자취 — Cloudinary 자동 업로드 =====
+  // 학생이 새 기록을 저장/삭제할 때마다 debounce 3초 후 전체 로그를 JSON으로 업로드.
+  // tags: student_${studentCode}, effort_log_submission  (통합본에서 raw/list 로 조회)
+  // 실패 시 pending 플래그를 localStorage 에 남겨두고 화면 진입 시 자동 재시도.
+  let _effortSyncTimer = null;
+  let _effortSyncStatus = 'idle';  // 'idle' | 'syncing' | 'success' | 'pending' | 'error'
+  let _effortSyncInflight = false;
+  let _effortSyncRetryUsed = false;  // 자동 재시도 1회만 (학생 액션이 있을 때 리셋)
+
+  function loadEffortSync() {
+    try { return JSON.parse(localStorage.getItem(`effortSync__${studentCode}`) || '{}'); }
+    catch(e) { return {}; }
+  }
+  function saveEffortSync(s) {
+    try { localStorage.setItem(`effortSync__${studentCode}`, JSON.stringify(s)); } catch(e) {}
+  }
+
+  // 변경 발생 → debounce 후 업로드
+  function markEffortLogsDirty() {
+    const sync = loadEffortSync();
+    saveEffortSync({ ...sync, pending: true, dirtyAt: new Date().toISOString() });
+    _effortSyncStatus = 'pending';
+    _effortSyncRetryUsed = false;  // 새 변경이 있으니 자동 재시도 다시 허용
+    renderEffortSyncIndicator();
+    if (_effortSyncTimer) clearTimeout(_effortSyncTimer);
+    _effortSyncTimer = setTimeout(() => {
+      _effortSyncTimer = null;
+      uploadEffortLogsToCloud();
+    }, 3000);
+  }
+
+  // 즉시 업로드 트리거 (강제) — 화면 진입 시·수동 재시도 클릭 시
+  function flushEffortSyncIfPending() {
+    const sync = loadEffortSync();
+    if (!sync.pending) return;
+    if (_effortSyncInflight) return;
+    if (_effortSyncTimer) { clearTimeout(_effortSyncTimer); _effortSyncTimer = null; }
+    _effortSyncRetryUsed = false;  // 수동 트리거이므로 자동 재시도 1회 재허용
+    uploadEffortLogsToCloud();
+  }
+
+  async function uploadEffortLogsToCloud() {
+    if (_effortSyncInflight) return;
+    if (!studentCode) return;
+    const logs = loadEffortLogs();
+    const studentName = ((studentData || {}).student || {}).name || '';
+
+    _effortSyncInflight = true;
+    _effortSyncStatus = 'syncing';
+    renderEffortSyncIndicator();
+
+    const snapshotCount = logs.length;
+    const payload = {
+      studentCode,
+      studentName,
+      uploadedAt: new Date().toISOString(),
+      logCount: snapshotCount,
+      logs,
+    };
+
+    try {
+      const jsonStr = JSON.stringify(payload, null, 2);
+      const blob = new Blob([jsonStr], { type: 'application/json' });
+      const file = new File([blob], `effort_log_${studentCode}_${Date.now()}.json`, { type: 'application/json' });
+      const formData = new FormData();
+      formData.append('file', file);
+      formData.append('upload_preset', CLOUDINARY_UPLOAD_PRESET);
+      formData.append('tags', `student_${studentCode},effort_log_submission`);
+      formData.append('context', `student_code=${studentCode}|kind=effort_log_submission|log_count=${snapshotCount}`);
+      const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
+      const res = await fetch(url, { method: 'POST', body: formData });
+      const data = await res.json();
+      if (!res.ok || !data.secure_url) {
+        throw new Error((data.error && data.error.message) || `업로드 실패 (${res.status})`);
+      }
+
+      // 업로드 중 새 변경이 들어왔으면 pending 유지 (다음 debounce 트리거가 처리)
+      const cur = loadEffortSync();
+      const stillDirty = cur.dirtyAt && new Date(cur.dirtyAt) > new Date(payload.uploadedAt);
+      saveEffortSync({
+        lastUploadedAt: payload.uploadedAt,
+        lastUploadedCount: snapshotCount,
+        lastSecureUrl: data.secure_url,
+        pending: !!stillDirty,
+        dirtyAt: stillDirty ? cur.dirtyAt : null,
+        lastError: null,
+        lastErrorAt: null,
+      });
+      _effortSyncStatus = stillDirty ? 'pending' : 'success';
+    } catch (e) {
+      console.warn('[노력의자취] 자동 업로드 실패:', e);
+      const cur = loadEffortSync();
+      saveEffortSync({
+        ...cur,
+        pending: true,
+        lastError: e.message || String(e),
+        lastErrorAt: new Date().toISOString(),
+      });
+      _effortSyncStatus = 'error';
+    } finally {
+      _effortSyncInflight = false;
+      renderEffortSyncIndicator();
+      // pending/error 상태면 30초 후 1회만 자동 재시도 (학생이 페이지 머무는 동안 일시적 네트워크 복구 대비)
+      if ((_effortSyncStatus === 'error' || _effortSyncStatus === 'pending') && !_effortSyncRetryUsed) {
+        _effortSyncRetryUsed = true;
+        if (_effortSyncTimer) clearTimeout(_effortSyncTimer);
+        _effortSyncTimer = setTimeout(() => {
+          _effortSyncTimer = null;
+          uploadEffortLogsToCloud();
+        }, 30000);
+      }
+    }
+  }
+
+  function renderEffortSyncIndicator() {
+    const el = document.getElementById('effortSyncIndicator');
+    if (!el) return;
+    const sync = loadEffortSync();
+    const logs = loadEffortLogs();
+
+    // 아직 한 번도 업로드한 적이 없고 기록도 없으면 표시 안 함
+    if (!sync.lastUploadedAt && logs.length === 0 && _effortSyncStatus === 'idle') {
+      el.outerHTML = `<span id="effortSyncIndicator"></span>`; return;
+    }
+
+    let cls, label;
+    if (_effortSyncStatus === 'syncing') {
+      cls = 'syncing'; label = '저장 중…';
+    } else if (_effortSyncStatus === 'error') {
+      cls = 'error'; label = '저장 보류 · 다시 시도';
+    } else if (_effortSyncStatus === 'pending' || sync.pending) {
+      cls = 'pending'; label = '대기 중…';
+    } else if (sync.lastUploadedAt) {
+      const t = new Date(sync.lastUploadedAt);
+      const today = new Date();
+      const sameDay = t.toDateString() === today.toDateString();
+      const hm = `${t.getHours().toString().padStart(2,'0')}:${t.getMinutes().toString().padStart(2,'0')}`;
+      label = sameDay
+        ? `자동 저장됨 · ${hm}`
+        : `자동 저장됨 · ${t.getMonth()+1}/${t.getDate()} ${hm}`;
+      cls = 'success';
+    } else {
+      el.outerHTML = `<span id="effortSyncIndicator"></span>`; return;
+    }
+
+    const onclick = cls === 'error' ? ' onclick="flushEffortSyncIfPending()" title="다시 시도하기"' : '';
+    el.outerHTML = `<span id="effortSyncIndicator" class="effort-sync-indicator ${cls}"${onclick}><span class="effort-sync-dot"></span>${escapeHtml(label)}</span>`;
+  }
+
+  // 외부에서 호출 가능 (수동 재시도용)
+  window.flushEffortSyncIfPending = flushEffortSyncIfPending;
+
   function initEffortScreen() {
     renderEffortContent();
+    renderEffortSyncIndicator();
+    // 화면 진입 시 미동기화 로그가 있으면 자동으로 재시도
+    flushEffortSyncIfPending();
     if (_effortTimer) clearInterval(_effortTimer);
     _effortTimer = setInterval(() => {
       if (_effortTab !== 'today') return;
@@ -1053,6 +1237,9 @@
     localStorage.removeItem(`effortState__${studentCode}`);
     closeEffortSaveModal();
     renderEffortContent();
+    // Cloudinary 자동 업로드 (debounce 3초)
+    markEffortLogsDirty();
+    renderEffortSyncIndicator();
   };
 
   function renderEffortToday() {
@@ -1437,6 +1624,9 @@
     logs = logs.filter(l => l.id !== id);
     saveEffortLogs(logs);
     renderEffortContent();
+    // Cloudinary 자동 업로드 (debounce 3초)
+    markEffortLogsDirty();
+    renderEffortSyncIndicator();
   };
 
   // ===== 성적 추이 그래프 =====

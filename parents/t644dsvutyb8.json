@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-17T21:07:11.313Z",
+  "generatedAt": "2026-06-18T04:49:43.608Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -74,5 +74,6 @@
       "fileName": "고승민_6월5일.pdf",
       "comment": ""
     }
-  ]
+  ],
+  "effortLogs": null
 }

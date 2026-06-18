@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-17T14:27:26.289Z",
+  "generatedAt": "2026-06-18T09:23:43.262Z",
   "student": {
     "name": "백서현",
     "school": "숭일고",
@@ -19,7 +19,10 @@
       "round": 3,
       "plannedDate": "2026-06-13",
       "done": true,
-      "doneAt": "2026-06-13T14:14:23.921Z"
+      "doneAt": "2026-06-13T14:14:23.921Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1780728513742_by5tel",
@@ -28,7 +31,10 @@
       "round": 2,
       "plannedDate": "2026-06-08",
       "done": true,
-      "doneAt": "2026-06-08T08:53:01.466Z"
+      "doneAt": "2026-06-08T08:53:01.466Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1780728513742_by5tel",
@@ -37,7 +43,10 @@
       "round": 1,
       "plannedDate": "2026-06-06",
       "done": true,
-      "doneAt": "2026-06-06T12:01:56.510Z"
+      "doneAt": "2026-06-06T12:01:56.510Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
   "weekProgress": {

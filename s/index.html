@@ -42,8 +42,9 @@
       line-height: 1.5;
       min-height: 100vh;
       -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;  /* 모바일 좌우 스크롤 방지 */
     }
-    .app { max-width: 600px; margin: 0 auto; padding: 0; padding-bottom: 60px; }
+    .app { max-width: 600px; margin: 0 auto; padding: 0; padding-bottom: 60px; overflow-x: hidden; }
 
     .header {
       padding: 24px 20px 16px;
@@ -409,6 +410,23 @@
     padding: 12px 16px; border-top: 1px solid var(--border);
     display: flex; gap: 8px; justify-content: flex-end;
   }
+
+  /* 과목 빠른 선택 칩 (자동완성 대체 UI) */
+  .effort-subject-chips {
+    display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px;
+  }
+  .effort-chip {
+    padding: 4px 10px; font-size: 12px; font-weight: 600;
+    background: var(--surface2); color: var(--text2);
+    border: 1px solid var(--border); border-radius: 12px;
+    cursor: pointer; transition: background 0.12s, border-color 0.12s, color 0.12s;
+    font-family: inherit;
+  }
+  .effort-chip:hover, .effort-chip:active {
+    background: oklch(95% 0.04 125); color: #2e7d32;
+    border-color: oklch(86% 0.07 125);
+  }
+  .effort-chip.recent { background: oklch(96% 0.035 125); color: #2e4f2e; border-color: oklch(86% 0.07 125); }
 
   /* 동기화 상태 표시 (자동 업로드) */
   .effort-sync-row {
@@ -1151,6 +1169,16 @@
 
   function showEffortSaveModal(seconds, startedAt) {
     const subjects = loadEffortSubjects();
+    // 기본 과목 + 최근 사용 과목 (중복 제거, 최대 8개)
+    const defaults = ['수학', '영어', '국어', '과학', '사회'];
+    const merged = [];
+    const seen = new Set();
+    for (const s of subjects.concat(defaults)) {
+      if (!s || seen.has(s)) continue;
+      seen.add(s);
+      merged.push(s);
+      if (merged.length >= 8) break;
+    }
     let backdrop = document.getElementById('effortSaveModal');
     if (!backdrop) {
       backdrop = document.createElement('div');
@@ -1171,6 +1199,12 @@
             <datalist id="effortSubjectList">
               ${subjects.map(s => `<option value="${escapeHtml(s)}"></option>`).join('')}
             </datalist>
+            <div class="effort-subject-chips">
+              ${merged.map((s, i) => {
+                const isRecent = subjects.includes(s);
+                return `<button type="button" class="effort-chip${isRecent ? ' recent' : ''}" onclick="document.getElementById('effortSubject').value=this.textContent;">${escapeHtml(s)}</button>`;
+              }).join('')}
+            </div>
           </div>
           <div style="margin-top:10px;">
             <label class="gi-label">공부 방식</label>
@@ -1400,9 +1434,21 @@
         && _effortCalSelectedDay.month === month && _effortCalSelectedDay.day === d;
       const minutes = Math.floor(sec / 60);
       const tooltip = sec > 0 ? `${d}일: ${fmtDurationShort(sec)}` : `${d}일`;
-      html += `<div class="effort-cal-cell ${isToday?'today':''} ${isSelected?'selected':''}" style="background:oklch(60% ${0.05 + intensity * 0.15} 125 / ${0.25 + intensity * 0.65});" title="${tooltip}" onclick="toggleEffortCalDay(${year}, ${month}, ${d})">
-        <div class="effort-cal-day">${d}</div>
-        ${minutes > 0 ? `<div class="effort-cal-mins">${minutes}분</div>` : ''}
+      // 농도: lightness 92% → 50%, chroma 0.06 → 0.20 (공부량 0 → 최대)
+      let bgStyle;
+      if (sec === 0) {
+        bgStyle = '';  // 빈 날 — surface2 기본색
+      } else {
+        const L = 92 - intensity * 42;
+        const C = 0.06 + intensity * 0.14;
+        bgStyle = `background:oklch(${L}% ${C} 125);`;
+      }
+      // 텍스트 색: 농도가 진할수록 흰색
+      const dayColor = intensity > 0.55 ? '#fff' : 'var(--text2)';
+      const minColor = intensity > 0.55 ? '#fff' : '#2e4f2e';
+      html += `<div class="effort-cal-cell ${isToday?'today':''} ${isSelected?'selected':''}" style="${bgStyle}" title="${tooltip}" onclick="toggleEffortCalDay(${year}, ${month}, ${d})">
+        <div class="effort-cal-day" style="color:${dayColor};">${d}</div>
+        ${minutes > 0 ? `<div class="effort-cal-mins" style="color:${minColor};">${minutes}분</div>` : ''}
       </div>`;
     }
     html += `</div></div>`;

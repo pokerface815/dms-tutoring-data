@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-18T09:24:43.054Z",
+  "generatedAt": "2026-06-18T16:02:37.486Z",
   "student": {
     "name": "정시우",
     "school": "살레시오고",
@@ -8,9 +8,7 @@
     "class": "",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1781695122444_x7tt07",
       "noteName": "정시우_자이스토리_H.등차수열과 등비수열( ~72)",
@@ -23,6 +21,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1781695122444_x7tt07",

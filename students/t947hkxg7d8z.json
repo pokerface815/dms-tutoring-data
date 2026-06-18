@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-18T09:24:08.523Z",
+  "generatedAt": "2026-06-18T16:01:25.869Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -9,6 +9,19 @@
     "showMakeNote": true
   },
   "today": [
+    {
+      "assignmentId": "a_1781628866853_g8jo39",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법(고난도 3,4,5)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-19",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "overdue": [
     {
       "assignmentId": "a_1781536830575_5ol8ni",
       "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
@@ -21,19 +34,7 @@
       "missedAt": null
     }
   ],
-  "overdue": [],
   "upcoming": [
-    {
-      "assignmentId": "a_1781628866853_g8jo39",
-      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법(고난도 3,4,5)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-19",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
     {
       "assignmentId": "a_1780153722620_6lfbh5",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",

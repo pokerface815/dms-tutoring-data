@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-17T14:25:53.746Z",
+  "generatedAt": "2026-06-18T09:07:35.656Z",
   "student": {
     "name": "서연준",
     "school": "살레시오고",
@@ -19,7 +19,10 @@
       "round": 4,
       "plannedDate": "2026-06-13",
       "done": true,
-      "doneAt": "2026-06-13T14:14:19.637Z"
+      "doneAt": "2026-06-13T14:14:19.637Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778397172629_i82xie",
@@ -28,7 +31,10 @@
       "round": 4,
       "plannedDate": "2026-06-07",
       "done": true,
-      "doneAt": "2026-06-07T08:18:33.016Z"
+      "doneAt": "2026-06-07T08:18:33.016Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778915661771_axjpq8",
@@ -37,7 +43,10 @@
       "round": 4,
       "plannedDate": "2026-06-06",
       "done": true,
-      "doneAt": "2026-06-06T12:01:35.561Z"
+      "doneAt": "2026-06-06T12:01:35.561Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1779522836564_0qh9aq",
@@ -46,7 +55,10 @@
       "round": 3,
       "plannedDate": "2026-05-30",
       "done": true,
-      "doneAt": "2026-05-30T13:52:06.788Z"
+      "doneAt": "2026-05-30T13:52:06.788Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1779522836564_0qh9aq",
@@ -55,7 +67,10 @@
       "round": 2,
       "plannedDate": "2026-05-25",
       "done": true,
-      "doneAt": "2026-05-25T16:42:50.468Z"
+      "doneAt": "2026-05-25T16:42:50.468Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1779522836564_0qh9aq",
@@ -64,7 +79,10 @@
       "round": 1,
       "plannedDate": "2026-05-23",
       "done": true,
-      "doneAt": "2026-05-23T12:48:09.299Z"
+      "doneAt": "2026-05-23T12:48:09.299Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778915661771_axjpq8",
@@ -73,7 +91,10 @@
       "round": 3,
       "plannedDate": "2026-05-23",
       "done": true,
-      "doneAt": "2026-05-23T12:48:04.469Z"
+      "doneAt": "2026-05-23T12:48:04.469Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778915661771_axjpq8",
@@ -82,7 +103,10 @@
       "round": 2,
       "plannedDate": "2026-05-18",
       "done": true,
-      "doneAt": "2026-05-18T12:46:26.244Z"
+      "doneAt": "2026-05-18T12:46:26.244Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778397172629_i82xie",
@@ -91,7 +115,10 @@
       "round": 3,
       "plannedDate": "2026-05-17",
       "done": true,
-      "doneAt": "2026-05-17T13:17:10.109Z"
+      "doneAt": "2026-05-17T13:17:10.109Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778915661771_axjpq8",
@@ -100,7 +127,10 @@
       "round": 1,
       "plannedDate": "2026-05-16",
       "done": true,
-      "doneAt": "2026-05-17T08:09:13.755Z"
+      "doneAt": "2026-05-17T08:09:13.755Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778397172629_i82xie",
@@ -109,7 +139,10 @@
       "round": 2,
       "plannedDate": "2026-05-11",
       "done": true,
-      "doneAt": "2026-05-11T12:06:43.113Z"
+      "doneAt": "2026-05-11T12:06:43.113Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778397172629_i82xie",
@@ -118,7 +151,10 @@
       "round": 1,
       "plannedDate": "2026-05-10",
       "done": true,
-      "doneAt": "2026-05-10T08:47:17.235Z"
+      "doneAt": "2026-05-10T08:47:17.235Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
   "weekProgress": {

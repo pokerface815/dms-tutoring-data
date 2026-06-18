@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -174,6 +175,112 @@
     text-align: center; padding: 60px 20px; color: var(--text3);
   }
   .empty-state .icon { font-size: 44px; margin-bottom: 12px; }
+
+  /* ===== 학습 기록 (노력의 자취) ===== */
+  .effort-summary-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 8px; margin: 10px 0 14px;
+  }
+  .effort-summary-stat {
+    padding: 10px 6px; background: var(--surface2);
+    border: 0.5px solid var(--border); border-radius: 10px;
+    text-align: center;
+  }
+  .effort-summary-lbl { font-size: 11px; color: var(--text2); font-weight: 600; line-height: 1.2; }
+  .effort-summary-val {
+    font-size: 16px; font-weight: 700; color: var(--accent-dark);
+    margin-top: 3px; font-variant-numeric: tabular-nums; letter-spacing: -0.3px;
+  }
+  .effort-summary-stat.streak .effort-summary-val { color: #b76e2a; }
+  @media (max-width: 480px) {
+    .effort-summary-val { font-size: 14px; }
+  }
+
+  .effort-subj-box {
+    padding: 12px 14px; background: #fdf6e9;
+    border-radius: 10px; margin-bottom: 14px;
+    border: 0.5px solid var(--border);
+  }
+  .effort-subj-box-title {
+    font-size: 13px; font-weight: 700; color: var(--accent-dark);
+    margin-bottom: 8px; display: flex; align-items: center; gap: 6px;
+  }
+  .effort-subj-list { display: flex; flex-direction: column; gap: 7px; }
+  .effort-subj-row { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+  .effort-subj-name {
+    flex-shrink: 0; min-width: 70px; font-weight: 600;
+    color: var(--text); font-size: 12px;
+  }
+  .effort-subj-track {
+    flex: 1; height: 7px; background: #ece5d8;
+    border-radius: 4px; overflow: hidden;
+  }
+  .effort-subj-fill {
+    height: 100%; border-radius: 4px;
+    background: linear-gradient(90deg, var(--accent-light), var(--accent));
+  }
+  .effort-subj-time {
+    flex-shrink: 0; min-width: 58px; text-align: right;
+    font-size: 11px; color: var(--text2); font-variant-numeric: tabular-nums;
+  }
+
+  .effort-section-divider {
+    font-size: 12px; font-weight: 700; color: var(--text2);
+    margin: 14px 0 8px; padding-bottom: 4px;
+    border-bottom: 0.5px solid var(--border);
+  }
+
+  .effort-day-group { margin-bottom: 14px; }
+  .effort-day-head {
+    font-size: 12.5px; font-weight: 700; color: var(--accent-dark);
+    padding: 4px 0; margin-bottom: 6px;
+    border-bottom: 1px dashed var(--border);
+    display: flex; gap: 8px; align-items: baseline;
+  }
+  .effort-day-head::before { content: "🗓"; }
+  .effort-day-total {
+    margin-left: auto; color: var(--text2); font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .effort-log-item {
+    padding: 10px 12px; margin-bottom: 6px;
+    background: var(--surface2); border-radius: 8px;
+    border: 0.5px solid var(--border);
+    border-left: 3px solid var(--accent-light);
+  }
+  .effort-log-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .effort-log-subj { font-size: 12.5px; font-weight: 700; color: var(--text); }
+  .effort-log-method {
+    font-size: 10.5px; padding: 1px 7px;
+    background: #f3effa; color: #6a4cb1;
+    border-radius: 9px; font-weight: 600;
+  }
+  .effort-log-time {
+    font-size: 11px; color: var(--text3); margin-left: auto;
+    font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
+  .effort-log-content {
+    font-size: 12.5px; color: var(--text); margin-top: 5px;
+    line-height: 1.55; word-break: keep-all;
+  }
+  .effort-log-reflection {
+    margin-top: 6px; padding: 7px 10px;
+    background: #fffdf5; border-radius: 6px;
+    font-size: 12px; line-height: 1.55;
+    border-left: 2px solid var(--accent);
+    color: var(--text2); word-break: keep-all;
+  }
+  .effort-log-reflection-label {
+    color: var(--accent-dark); font-weight: 700;
+    margin-right: 4px; font-size: 11px;
+  }
+
+  .effort-empty-inline {
+    padding: 18px 12px; text-align: center;
+    color: var(--text3); font-size: 12.5px; line-height: 1.6;
+  }
+
   .footer { text-align: center; padding: 24px 20px 40px; font-size: 11px; color: var(--text3); }
   .refresh-btn {
     background: var(--surface); border: 0.5px solid var(--border); color: var(--text2);
@@ -284,6 +391,12 @@
       `;
     }
 
+    // 학습 기록 (노력의 자취) — 부모 공유가 ON이고 데이터가 있을 때만
+    const effort = d.effortLogs;
+    if (effort && effort.enabled) {
+      html += renderEffortSection(effort);
+    }
+
     if (months.length === 0) {
       html += `
         <div class="empty-state">
@@ -365,6 +478,123 @@
       rest.style.display = 'block';
       btn.style.display = 'none';
     }
+  }
+
+  // ===== 학습 기록 (노력의 자취) =====
+  function renderEffortSection(effort) {
+    const summary = effort.summary || {};
+    const logs = (effort.logs || []).slice().sort((a, b) => (b.startedAt || 0) - (a.startedAt || 0));
+
+    const todaySec = summary.todaySec || 0;
+    const weekSec = summary.weekSec || 0;
+    const monthSec = summary.monthSec || 0;
+    const streak = summary.streak || 0;
+
+    const headerSummary = weekSec > 0
+      ? `이번 주 ${fmtEffortDuration(weekSec)}`
+      : (logs.length > 0 ? `최근 ${logs.length}건` : '아직 기록 없음');
+
+    // 이번 달 과목별 분포
+    const bySubject = summary.bySubjectMonth || {};
+    const subjectEntries = Object.entries(bySubject).sort((a, b) => b[1] - a[1]);
+    const monthTotal = subjectEntries.reduce((s, [, v]) => s + v, 0) || 1;
+
+    // 날짜별 그룹
+    const byDay = {};
+    for (const l of logs) {
+      const d = new Date(l.startedAt || 0);
+      const key = `${d.getFullYear()}-${(d.getMonth()+1).toString().padStart(2,'0')}-${d.getDate().toString().padStart(2,'0')}`;
+      if (!byDay[key]) byDay[key] = [];
+      byDay[key].push(l);
+    }
+    const dayKeys = Object.keys(byDay).sort((a, b) => b.localeCompare(a));
+
+    let html = `
+      <div class="month-card">
+        <div class="month-header" onclick="this.parentElement.classList.toggle('open')">
+          <div><span class="month-title">📚 학습 기록</span><span class="month-count">${escapeHtml(headerSummary)}</span></div>
+          <span class="month-arrow">▶</span>
+        </div>
+        <div class="month-body">
+          <div class="effort-summary-grid">
+            <div class="effort-summary-stat"><div class="effort-summary-lbl">오늘</div><div class="effort-summary-val">${fmtEffortDuration(todaySec)}</div></div>
+            <div class="effort-summary-stat"><div class="effort-summary-lbl">이번 주</div><div class="effort-summary-val">${fmtEffortDuration(weekSec)}</div></div>
+            <div class="effort-summary-stat"><div class="effort-summary-lbl">이번 달</div><div class="effort-summary-val">${fmtEffortDuration(monthSec)}</div></div>
+            <div class="effort-summary-stat streak"><div class="effort-summary-lbl">연속</div><div class="effort-summary-val">${streak > 0 ? `🔥 ${streak}일` : '-'}</div></div>
+          </div>
+    `;
+
+    if (subjectEntries.length > 0) {
+      html += `
+        <div class="effort-subj-box">
+          <div class="effort-subj-box-title">📊 이번 달 과목별 학습</div>
+          <div class="effort-subj-list">
+            ${subjectEntries.map(([subj, sec]) => {
+              const pct = Math.round(sec / monthTotal * 100);
+              return `
+                <div class="effort-subj-row">
+                  <span class="effort-subj-name">${escapeHtml(subj)}</span>
+                  <div class="effort-subj-track"><div class="effort-subj-fill" style="width:${pct}%;"></div></div>
+                  <span class="effort-subj-time">${fmtEffortDuration(sec)} · ${pct}%</span>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    if (logs.length === 0) {
+      html += `<div class="effort-empty-inline">아직 학습 기록이 없어요.<br>자녀가 학생 페이지의 <b>노력의 자취</b>에서<br>기록을 시작하면 여기에 나타납니다.</div>`;
+    } else {
+      html += `<div class="effort-section-divider">최근 학습 기록 (최근 30일)</div>`;
+      for (const dk of dayKeys) {
+        const dayLogs = byDay[dk];
+        const dayTotal = dayLogs.reduce((s, l) => s + (l.seconds || 0), 0);
+        const d = new Date(dk + 'T00:00:00');
+        const dayNames = ['일','월','화','수','목','금','토'];
+        const dayLabel = `${d.getMonth()+1}월 ${d.getDate()}일 (${dayNames[d.getDay()]})`;
+        html += `<div class="effort-day-group">
+          <div class="effort-day-head">
+            <span>${dayLabel}</span>
+            <span class="effort-day-total">${fmtEffortDuration(dayTotal)} · ${dayLogs.length}건</span>
+          </div>
+          ${dayLogs.map(renderEffortLogItem).join('')}
+        </div>`;
+      }
+    }
+
+    html += `
+        </div>
+      </div>
+    `;
+    return html;
+  }
+
+  function renderEffortLogItem(l) {
+    const t = new Date(l.startedAt || 0);
+    const timeStr = `${t.getHours().toString().padStart(2,'0')}:${t.getMinutes().toString().padStart(2,'0')}`;
+    const duration = fmtEffortDuration(l.seconds || 0);
+    const hasReflection = !!(l.reflection && l.reflection.trim());
+    return `
+      <div class="effort-log-item">
+        <div class="effort-log-head">
+          <span class="effort-log-subj">${escapeHtml(l.subject || '')}</span>
+          ${l.method ? `<span class="effort-log-method">${escapeHtml(l.method)}</span>` : ''}
+          <span class="effort-log-time">${timeStr} · ${duration}</span>
+        </div>
+        ${l.content ? `<div class="effort-log-content">${escapeHtml(l.content)}</div>` : ''}
+        ${hasReflection ? `<div class="effort-log-reflection"><span class="effort-log-reflection-label">📔 느낀점</span>${escapeHtml(l.reflection)}</div>` : ''}
+      </div>
+    `;
+  }
+
+  function fmtEffortDuration(sec) {
+    if (!sec || sec <= 0) return '0분';
+    const h = Math.floor(sec / 3600);
+    const m = Math.floor((sec % 3600) / 60);
+    if (h > 0) return m > 0 ? `${h}시간 ${m}분` : `${h}시간`;
+    return `${m}분`;
   }
 
   function renderTestItem(t) {

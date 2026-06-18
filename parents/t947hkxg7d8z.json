@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-17T14:25:50.070Z",
+  "generatedAt": "2026-06-18T04:49:10.489Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -128,5 +128,6 @@
       }
     }
   ],
-  "tests": []
+  "tests": [],
+  "effortLogs": null
 }

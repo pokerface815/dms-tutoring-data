@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-17T14:25:46.340Z",
+  "generatedAt": "2026-06-18T09:07:23.170Z",
   "student": {
     "name": "박다윤",
     "school": "경신여고",
@@ -18,7 +18,9 @@
       "round": 4,
       "plannedDate": "2026-06-20",
       "done": false,
-      "doneAt": null
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
     }
   ],
   "completed": [
@@ -29,7 +31,10 @@
       "round": 4,
       "plannedDate": "2026-06-07",
       "done": true,
-      "doneAt": "2026-06-07T08:18:39.241Z"
+      "doneAt": "2026-06-07T08:18:39.241Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1780138916040_3yonbq",
@@ -38,7 +43,10 @@
       "round": 3,
       "plannedDate": "2026-06-06",
       "done": true,
-      "doneAt": "2026-06-06T12:01:53.000Z"
+      "doneAt": "2026-06-06T12:01:53.000Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778325853565_sgfuqf",
@@ -47,7 +55,10 @@
       "round": 4,
       "plannedDate": "2026-06-06",
       "done": true,
-      "doneAt": "2026-06-06T12:01:28.498Z"
+      "doneAt": "2026-06-06T12:01:28.498Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1780138916040_3yonbq",
@@ -56,7 +67,10 @@
       "round": 2,
       "plannedDate": "2026-06-01",
       "done": true,
-      "doneAt": "2026-06-01T09:50:01.895Z"
+      "doneAt": "2026-06-01T09:50:01.895Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1780138916040_3yonbq",
@@ -65,7 +79,10 @@
       "round": 1,
       "plannedDate": "2026-05-30",
       "done": true,
-      "doneAt": "2026-05-30T13:52:21.653Z"
+      "doneAt": "2026-05-30T13:52:21.653Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1779016655790_78wtrl",
@@ -74,7 +91,10 @@
       "round": 3,
       "plannedDate": "2026-05-24",
       "done": true,
-      "doneAt": "2026-05-24T08:33:04.289Z"
+      "doneAt": "2026-05-24T08:33:04.289Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778325853565_sgfuqf",
@@ -83,7 +103,10 @@
       "round": 3,
       "plannedDate": "2026-05-20",
       "done": true,
-      "doneAt": "2026-05-20T11:46:05.621Z"
+      "doneAt": "2026-05-20T11:46:05.621Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1779016655790_78wtrl",
@@ -92,7 +115,10 @@
       "round": 2,
       "plannedDate": "2026-05-19",
       "done": true,
-      "doneAt": "2026-05-19T16:10:34.629Z"
+      "doneAt": "2026-05-19T16:10:34.629Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1779016655790_78wtrl",
@@ -101,7 +127,10 @@
       "round": 1,
       "plannedDate": "2026-05-17",
       "done": true,
-      "doneAt": "2026-05-17T13:17:17.336Z"
+      "doneAt": "2026-05-17T13:17:17.336Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778325853565_sgfuqf",
@@ -110,7 +139,10 @@
       "round": 2,
       "plannedDate": "2026-05-13",
       "done": true,
-      "doneAt": "2026-05-13T10:27:23.400Z"
+      "doneAt": "2026-05-13T10:27:23.400Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1778325853565_sgfuqf",
@@ -119,7 +151,10 @@
       "round": 1,
       "plannedDate": "2026-05-09",
       "done": true,
-      "doneAt": "2026-05-10T00:56:17.143Z"
+      "doneAt": "2026-05-10T00:56:17.143Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
   "weekProgress": {

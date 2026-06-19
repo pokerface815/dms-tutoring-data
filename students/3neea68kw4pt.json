@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-18T16:01:57.960Z",
+  "generatedAt": "2026-06-19T07:39:54.532Z",
   "student": {
     "name": "문대승",
     "school": "창평고",
@@ -150,20 +150,6 @@
       "teacherEdited": false,
       "sourceSubmittedAt": "2026-06-16T07:06:44.643Z",
       "createdAt": "2026-06-16T07:07:59.534Z"
-    },
-    {
-      "id": "grade_mqgw8xzl0lp",
-      "type": "mock",
-      "year": 2024,
-      "grade": null,
-      "gradeLevel": "고1",
-      "month": 3,
-      "elective": "",
-      "mathScore": 97,
-      "reflection": "",
-      "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-16T17:04:22.253Z",
-      "createdAt": "2026-06-16T17:06:14.673Z"
     },
     {
       "id": "grade_mqgw8xzltuc",

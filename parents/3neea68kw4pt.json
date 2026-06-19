@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-18T16:01:59.128Z",
+  "generatedAt": "2026-06-19T07:39:56.171Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -84,19 +84,28 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-18T06:59:59.054Z",
+    "uploadedAt": "2026-06-19T06:21:09.111Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 19191,
-      "monthSec": 19191,
-      "streak": 1,
+      "todaySec": 482,
+      "weekSec": 19673,
+      "monthSec": 19673,
+      "streak": 2,
       "bySubjectMonth": {
         "확통": 8293,
-        "클로드": 6441,
+        "클로드": 6923,
         "문제DB": 4457
       }
     },
     "logs": [
+      {
+        "id": "effort_mqkjiu9j5ar",
+        "startedAt": 1781849555110,
+        "seconds": 482,
+        "subject": "클로드",
+        "method": "기타",
+        "content": "학부모 페이지 조정",
+        "reflection": ""
+      },
       {
         "id": "effort_mqj5gxe6gld",
         "startedAt": 1781761502843,

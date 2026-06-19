@@ -2418,8 +2418,10 @@
       {
         "stage": 1,
         "planned": "2026-06-19",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-19T09:55:40.416Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,

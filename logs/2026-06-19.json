@@ -1,0 +1,44 @@
+[
+  {
+    "run_at": "2026-06-19T16:00:35.486807+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 3,
+      "failed": 0,
+      "total": 3
+    },
+    "entries": [
+      {
+        "student_id": "s_1777546978791_hsee5a",
+        "student_name": "김규림",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-2155",
+        "text_length": 55,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "overdue",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 47,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1780825523674_8dwstz",
+        "student_name": "정시우",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-0577",
+        "text_length": 44,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

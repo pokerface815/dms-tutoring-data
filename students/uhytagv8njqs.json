@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-19T10:39:44.866Z",
+  "generatedAt": "2026-06-19T22:39:43.598Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -8,9 +8,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1780135968357_h4pk5b",
       "noteName": "김규림_개념루트_등차수열과 등비수열( ~709번)",
@@ -21,7 +19,10 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1781798454400_ppm1hv",
       "noteName": "김규림_개념루트_수열의 합( ~772번)",

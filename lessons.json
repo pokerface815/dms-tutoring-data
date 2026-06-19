@@ -435,5 +435,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-16T10:53:40.115Z",
     "updatedAt": "2026-06-16T10:53:40.115Z"
+  },
+  {
+    "id": "lesson_1781864752563_tu8nz7",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-19",
+    "content": "학교 부교재 마무리\n교과서 풀이 시작",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-19T10:25:52.563Z",
+    "updatedAt": "2026-06-19T10:25:52.563Z"
   }
 ]

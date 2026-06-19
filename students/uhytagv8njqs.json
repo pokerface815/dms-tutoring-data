@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-19T07:39:05.410Z",
+  "generatedAt": "2026-06-19T09:55:56.837Z",
   "student": {
     "name": "김규림",
     "school": "중앙여고",
@@ -8,19 +8,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1781798454400_ppm1hv",
-      "noteName": "김규림_개념루트_수열의 합( ~772번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-19",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -47,6 +35,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1781798454400_ppm1hv",
+      "noteName": "김규림_개념루트_수열의 합( ~772번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-19",
+      "done": true,
+      "doneAt": "2026-06-19T09:55:40.416Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1781011994095_h8x2yj",
       "noteName": "김규림_개념루트_사인법칙과 코사인법칙( ~595번)",
@@ -266,8 +266,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 1,
-    "percent": 25,
+    "done": 2,
+    "percent": 50,
     "startDate": "2026-06-15",
     "endDate": "2026-06-21"
   },

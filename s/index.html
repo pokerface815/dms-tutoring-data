@@ -455,6 +455,180 @@
     50% { opacity: 1; transform: scale(1.1); }
   }
 
+  /* ===== 강의 영상 ===== */
+  /* 재생목록 카드 그리드 */
+  .lecture-list-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 12px 14px; margin-bottom: 10px;
+    display: flex; gap: 12px; align-items: stretch;
+    cursor: pointer;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.08s;
+  }
+  .lecture-list-card:hover { border-color: #97aac8; box-shadow: 0 2px 8px rgba(151,170,200,0.18); }
+  .lecture-list-card:active { transform: translateY(1px); }
+  .lecture-list-thumb {
+    width: 110px; min-height: 62px; flex-shrink: 0;
+    border-radius: 7px; object-fit: cover;
+    background: #eef2f8; border: 1px solid var(--border);
+  }
+  .lecture-list-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+  .lecture-list-title {
+    font-size: 14px; font-weight: 700; color: var(--text);
+    line-height: 1.35; letter-spacing: -0.2px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .lecture-list-subj {
+    font-size: 11px; padding: 1px 7px; background: #eef2f8;
+    color: #4d5e7e; border-radius: 9px; font-weight: 600;
+    display: inline-block; margin-top: 1px; width: fit-content;
+  }
+  .lecture-list-meta {
+    font-size: 11.5px; color: var(--text3); margin-top: auto;
+    display: flex; gap: 10px; flex-wrap: wrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .lecture-list-meta b { color: var(--text2); font-weight: 700; }
+  .lecture-list-progress {
+    height: 4px; background: var(--surface2); border-radius: 2px;
+    overflow: hidden; margin-top: 4px;
+  }
+  .lecture-list-progress > div {
+    height: 100%; background: linear-gradient(90deg, #b3c2da, #6f87a9);
+    border-radius: 2px;
+  }
+
+  /* 빈 상태 */
+  .lecture-empty {
+    padding: 50px 20px; text-align: center;
+    background: var(--surface); border: 1px dashed var(--border); border-radius: 12px;
+    color: var(--text3);
+  }
+  .lecture-empty .ico { font-size: 32px; margin-bottom: 8px; }
+  .lecture-empty h3 { font-size: 14px; color: var(--text); margin: 0 0 6px; font-weight: 700; }
+  .lecture-empty p { font-size: 12px; margin: 0; line-height: 1.6; }
+
+  /* 영상 목록 (상세 화면) */
+  .lecture-detail-head {
+    display: flex; gap: 12px; align-items: center;
+    padding: 12px 14px; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .lecture-detail-thumb {
+    width: 80px; height: 45px; flex-shrink: 0;
+    border-radius: 5px; object-fit: cover; background: #eef2f8;
+  }
+  .lecture-detail-title {
+    font-size: 14px; font-weight: 700; color: var(--text);
+    line-height: 1.3; letter-spacing: -0.2px;
+  }
+  .lecture-detail-meta {
+    font-size: 11.5px; color: var(--text3); margin-top: 3px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .lecture-video-list {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; overflow: hidden;
+  }
+  .lecture-video-item {
+    display: flex; gap: 10px; align-items: center;
+    padding: 10px 12px; border-bottom: 1px solid var(--border);
+    cursor: pointer; transition: background 0.12s;
+  }
+  .lecture-video-item:last-child { border-bottom: none; }
+  .lecture-video-item:hover { background: #f7f9fc; }
+  .lecture-video-item.watched { background: oklch(97% 0.025 125 / 0.5); }
+  .lecture-video-item.watching { background: oklch(95% 0.035 125 / 0.5); }
+  .lecture-video-num {
+    flex-shrink: 0; width: 24px; text-align: center;
+    color: var(--text3); font-size: 11px; font-variant-numeric: tabular-nums;
+  }
+  .lecture-video-thumb {
+    width: 64px; height: 36px; flex-shrink: 0;
+    border-radius: 4px; background: #eef2f8;
+    object-fit: cover; border: 1px solid var(--border);
+  }
+  .lecture-video-body { flex: 1; min-width: 0; }
+  .lecture-video-name {
+    font-size: 12.5px; font-weight: 600; color: var(--text);
+    line-height: 1.35;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .lecture-video-info {
+    display: flex; gap: 8px; align-items: center;
+    margin-top: 4px; font-size: 10.5px;
+    color: var(--text3); font-variant-numeric: tabular-nums;
+  }
+  .lecture-video-status {
+    padding: 1px 6px; border-radius: 8px; font-weight: 700; font-size: 10px;
+  }
+  .lecture-video-status.watched { background: oklch(96% 0.04 125); color: #2e7d32; }
+  .lecture-video-status.partial { background: #fff7e6; color: #8b6914; }
+  .lecture-video-prog {
+    height: 3px; background: var(--surface2); border-radius: 2px;
+    overflow: hidden; margin-top: 4px;
+  }
+  .lecture-video-prog > div {
+    height: 100%; background: linear-gradient(90deg, oklch(86% 0.1 125), oklch(60% 0.18 125));
+    border-radius: 2px;
+  }
+  .lecture-video-play {
+    flex-shrink: 0; width: 28px; height: 28px;
+    background: #97aac8; color: #fff;
+    border-radius: 50%; border: none;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; cursor: pointer; font-family: inherit;
+  }
+  .lecture-video-play:hover { background: #6f87a9; }
+
+  /* 영상 플레이어 모달 */
+  .lecture-player-backdrop {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.7); z-index: 200;
+    align-items: center; justify-content: center;
+    padding: 0;
+  }
+  .lecture-player-backdrop.active { display: flex; }
+  .lecture-player-modal {
+    width: 100%; max-width: 600px; max-height: 100vh;
+    background: var(--surface); border-radius: 0;
+    display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .lecture-player-head {
+    padding: 10px 12px; display: flex; align-items: center; gap: 10px;
+    border-bottom: 1px solid var(--border); background: var(--surface);
+  }
+  .lecture-player-title {
+    font-size: 13px; font-weight: 700; color: var(--text);
+    flex: 1; min-width: 0;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .lecture-player-close {
+    background: none; border: none; font-size: 22px; line-height: 1;
+    color: var(--text2); cursor: pointer; padding: 0 4px;
+    font-family: inherit;
+  }
+  .lecture-player-frame {
+    position: relative; width: 100%; aspect-ratio: 16/9;
+    background: #000;
+  }
+  .lecture-player-frame iframe {
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%; border: 0;
+  }
+  .lecture-player-foot {
+    padding: 8px 12px; font-size: 11px; color: var(--text3);
+    background: var(--surface2); display: flex; gap: 10px;
+    align-items: center; flex-wrap: wrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .lecture-player-foot .label { color: var(--text2); font-weight: 700; }
+  @media (min-width: 700px) {
+    .lecture-player-modal { max-height: 92vh; border-radius: 12px; }
+  }
+
   /* 미니 진행률 (학습관리 화면) */
   .progress-mini-wrap { display: flex; flex-direction: column; gap: 10px; margin: 10px 0 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
   .pm-section-title { font-size: 13px; font-weight: 700; color: var(--text); letter-spacing: -0.2px; margin-bottom: 2px; }
@@ -633,7 +807,10 @@
     const app = document.getElementById('app');
     const s = data.student || {};
 
-    const view = ((location.hash || '').replace('#', '') || 'menu');
+    const fullHash = (location.hash || '').replace('#', '');
+    const [baseView, ...detailParts] = fullHash.split('/');
+    const view = baseView || 'menu';
+    const detail = detailParts.join('/');  // 비어있을 수 있음
 
     const headerHtml = `
       <div class="header">
@@ -658,8 +835,13 @@
       </div>`;
       body = renderLearningView(data);
     } else if (view === 'video') {
-      actionBar = `<div class="page-header-bar"><a href="#menu" class="back-link">← 메인으로</a><span></span></div>`;
-      body = renderVideoView(data);
+      if (detail) {
+        actionBar = `<div class="page-header-bar"><a href="#video" class="back-link">← 강의 영상</a><span></span></div>`;
+        body = renderLectureDetailView(data, detail);
+      } else {
+        actionBar = `<div class="page-header-bar"><a href="#menu" class="back-link">← 메인으로</a><span></span></div>`;
+        body = renderVideoView(data);
+      }
     } else if (view === 'grades') {
       actionBar = `<div class="page-header-bar"><a href="#menu" class="back-link">← 메인으로</a><a href="#grades-input" class="header-btn primary">성적 입력 / 반성</a></div>`;
       body = renderGradesView(data);
@@ -702,6 +884,9 @@
     }
     if (view === 'effort') {
       initEffortScreen();
+    }
+    if (view === 'video') {
+      initVideoScreen(detail);
     }
   }
 
@@ -798,17 +983,541 @@
     return html;
   }
 
+  // ============================================================
+  // ===== 강의 영상 (YouTube IFrame Player + 시청 측정) =====
+  // ============================================================
+  // lectures.json 캐시
+  let _lecturesCache = null;
+  let _lecturesFetching = false;
+  // 시청 추적 상태
+  let _ytApiReady = false;
+  let _ytApiLoading = false;
+  let _ytPlayer = null;
+  let _ytPlayerTickTimer = null;
+  let _ytPlayerCurrent = null;  // {lecId, videoId, lectureTitle, videoTitle, durationSec}
+  let _ytLastTickTime = 0;  // 마지막 tick에서의 currentTime
+  // sync 상태
+  let _lectureSyncTimer = null;
+  let _lectureSyncStatus = 'idle';
+  let _lectureSyncInflight = false;
+  let _lectureSyncRetryUsed = false;
+
+  // ===== localStorage 헬퍼 =====
+  function loadLectureWatch() {
+    try { return JSON.parse(localStorage.getItem(`lectureWatch__${studentCode}`) || '{}'); }
+    catch(e) { return {}; }
+  }
+  function saveLectureWatch(data) {
+    try { localStorage.setItem(`lectureWatch__${studentCode}`, JSON.stringify(data)); } catch(e) {}
+  }
+  function loadLectureSync() {
+    try { return JSON.parse(localStorage.getItem(`lectureSync__${studentCode}`) || '{}'); }
+    catch(e) { return {}; }
+  }
+  function saveLectureSync(s) {
+    try { localStorage.setItem(`lectureSync__${studentCode}`, JSON.stringify(s)); } catch(e) {}
+  }
+
+  // ===== lectures.json fetch =====
+  async function fetchLecturesData() {
+    if (_lecturesFetching) return _lecturesCache;
+    _lecturesFetching = true;
+    try {
+      const url = `../lectures.json?t=${Date.now()}`;
+      const res = await fetch(url, { cache: 'no-store' });
+      if (res.ok) {
+        const data = await res.json();
+        if (Array.isArray(data)) {
+          _lecturesCache = data;
+          try { localStorage.setItem(`lecturesCache__${studentCode}`, JSON.stringify(data)); } catch(e) {}
+        }
+      } else if (res.status === 404) {
+        _lecturesCache = [];
+      }
+    } catch (e) {
+      console.warn('[강의영상] lectures.json fetch 실패:', e);
+      // 오프라인 fallback — localStorage 캐시 사용
+      if (!_lecturesCache) {
+        try {
+          const cached = localStorage.getItem(`lecturesCache__${studentCode}`);
+          if (cached) _lecturesCache = JSON.parse(cached);
+        } catch(e2) {}
+      }
+    } finally {
+      _lecturesFetching = false;
+    }
+    return _lecturesCache || [];
+  }
+
+  // ===== 권한 체크 =====
+  // permissions: { type: 'all' | 'classes' | 'students', classIds:[], studentIds:[] }
+  function hasLecturePermission(lec) {
+    const p = lec.permissions || { type: 'all' };
+    if (!p.type || p.type === 'all') return true;
+    if (p.type === 'students') {
+      // studentData.student.id가 매칭되어야 함
+      const sid = (studentData?.student?.id) || '';
+      return Array.isArray(p.studentIds) && p.studentIds.includes(sid);
+    }
+    if (p.type === 'classes') {
+      const myClassIds = (studentData?.student?.classes) || [];
+      if (!Array.isArray(p.classIds) || !Array.isArray(myClassIds)) return false;
+      return p.classIds.some(cid => myClassIds.includes(cid));
+    }
+    return false;
+  }
+
+  // ===== 시간 포맷 =====
+  function fmtLectureDur(sec) {
+    if (!sec || sec <= 0) return '0:00';
+    const h = Math.floor(sec / 3600);
+    const m = Math.floor((sec % 3600) / 60);
+    const s = sec % 60;
+    if (h > 0) return `${h}:${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
+    return `${m}:${s.toString().padStart(2,'0')}`;
+  }
+  function fmtLectureDurLong(sec) {
+    if (!sec || sec <= 0) return '0분';
+    const h = Math.floor(sec / 3600);
+    const m = Math.floor((sec % 3600) / 60);
+    if (h > 0) return `${h}시간 ${m}분`;
+    return `${m}분`;
+  }
+
+  // ===== 메인 메뉴: 강의 영상 (재생목록 카드 그리드) =====
   function renderVideoView(data) {
-    let html = backLinkHtml();
-    html += `<h2 class="view-title">강의 영상</h2>`;
-    html += `
-      <div class="empty-view-card">
-        <div style="font-size:15px; font-weight:600; color:var(--text); margin-bottom:6px;">준비 중입니다</div>
-        <div style="font-size:13px; color:var(--text2); line-height:1.6;">곧 강의 영상을 이곳에서 볼 수 있어요.</div>
-      </div>
-    `;
+    let html = `<h2 class="view-title">강의 영상</h2>`;
+    html += `<div id="lectureListWrap"></div>`;
     return html;
   }
+
+  async function initVideoScreen(detail) {
+    // detail이 있으면 영상 목록 화면, 없으면 재생목록 그리드
+    await fetchLecturesData();
+    if (!detail) {
+      renderLectureListInline();
+    } else {
+      renderLectureDetailInline(detail);
+    }
+    // YouTube IFrame API 미리 로드 (모달 열 때 빨라짐)
+    ensureYouTubeApiLoaded();
+    // 미동기화 시청 기록 있으면 재시도
+    flushLectureSyncIfPending();
+  }
+
+  function renderLectureListInline() {
+    const wrap = document.getElementById('lectureListWrap');
+    if (!wrap) return;
+    const lectures = (_lecturesCache || []).filter(hasLecturePermission);
+    if (lectures.length === 0) {
+      wrap.innerHTML = `
+        <div class="lecture-empty">
+          <div class="ico">🎬</div>
+          <h3>아직 강의 영상이 없어요</h3>
+          <p>선생님이 강의 영상을 등록하면<br>여기에 표시됩니다.</p>
+        </div>
+      `;
+      return;
+    }
+    const watch = loadLectureWatch();
+    let html = '';
+    // 과목별 그룹화
+    const bySubject = {};
+    for (const lec of lectures) {
+      const k = lec.subject || '기타';
+      if (!bySubject[k]) bySubject[k] = [];
+      bySubject[k].push(lec);
+    }
+    const subjects = Object.keys(bySubject).sort((a, b) => a.localeCompare(b, 'ko'));
+    for (const subj of subjects) {
+      html += `<div style="font-size:12.5px; font-weight:700; color:var(--text2); margin:12px 0 6px; padding-left:3px;">${escapeHtml(subj)}</div>`;
+      for (const lec of bySubject[subj]) {
+        const videos = lec.videos || [];
+        const totalSec = videos.reduce((s, v) => s + (v.durationSec || 0), 0);
+        // 진행률: 시청한 영상 수 / 전체 (50%이상 = 시청)
+        let watchedCount = 0;
+        let watchedSecSum = 0;
+        for (const v of videos) {
+          const w = watch[v.videoId];
+          if (w) {
+            watchedSecSum += w.watchedSec || 0;
+            const dur = v.durationSec || 1;
+            if ((w.watchedSec || 0) / dur >= 0.5) watchedCount++;
+          }
+        }
+        const progressPct = videos.length > 0
+          ? Math.round(watchedCount / videos.length * 100)
+          : 0;
+        html += `
+          <a class="lecture-list-card" href="#video/${encodeURIComponent(lec.id)}">
+            ${lec.thumbnailUrl ? `<img class="lecture-list-thumb" src="${escapeHtml(lec.thumbnailUrl)}" alt="" loading="lazy">` : `<div class="lecture-list-thumb" style="display:flex; align-items:center; justify-content:center; font-size:24px;">🎬</div>`}
+            <div class="lecture-list-info">
+              <div class="lecture-list-title">${escapeHtml(lec.title)}</div>
+              <div class="lecture-list-meta">
+                <span>📹 <b>${videos.length}</b>개</span>
+                <span>⏱ <b>${fmtLectureDurLong(totalSec)}</b></span>
+                ${watchedCount > 0 ? `<span>✓ <b>${watchedCount}/${videos.length}</b>완료</span>` : ''}
+              </div>
+              <div class="lecture-list-progress"><div style="width:${progressPct}%;"></div></div>
+            </div>
+          </a>
+        `;
+      }
+    }
+    wrap.innerHTML = html;
+  }
+
+  // ===== 영상 목록 (재생목록 상세) =====
+  function renderLectureDetailView(data, lecId) {
+    return `<h2 class="view-title">강의 영상</h2><div id="lectureDetailWrap"></div>`;
+  }
+
+  function renderLectureDetailInline(lecId) {
+    const wrap = document.getElementById('lectureDetailWrap');
+    if (!wrap) return;
+    const lec = (_lecturesCache || []).find(l => l.id === lecId);
+    if (!lec) {
+      wrap.innerHTML = `<div class="lecture-empty"><div class="ico">⚠</div><h3>재생목록을 찾을 수 없어요</h3><p>다시 시도하거나 새로고침해주세요.</p></div>`;
+      return;
+    }
+    if (!hasLecturePermission(lec)) {
+      wrap.innerHTML = `<div class="lecture-empty"><div class="ico">🔒</div><h3>접근 권한이 없어요</h3><p>선생님께 문의해주세요.</p></div>`;
+      return;
+    }
+    const watch = loadLectureWatch();
+    const videos = (lec.videos || []).slice().sort((a, b) => (a.position || 0) - (b.position || 0));
+    const totalSec = videos.reduce((s, v) => s + (v.durationSec || 0), 0);
+
+    let html = `
+      <div class="lecture-detail-head">
+        ${lec.thumbnailUrl ? `<img class="lecture-detail-thumb" src="${escapeHtml(lec.thumbnailUrl)}" alt="">` : ''}
+        <div style="flex:1; min-width:0;">
+          <div class="lecture-detail-title">${escapeHtml(lec.title)}</div>
+          <div class="lecture-detail-meta">영상 ${videos.length}개 · 총 ${fmtLectureDurLong(totalSec)}${lec.subject ? ' · ' + escapeHtml(lec.subject) : ''}</div>
+        </div>
+      </div>
+    `;
+
+    if (videos.length === 0) {
+      html += `<div class="lecture-empty"><div class="ico">📭</div><h3>영상이 없어요</h3></div>`;
+      wrap.innerHTML = html;
+      return;
+    }
+
+    html += `<div class="lecture-video-list">`;
+    videos.forEach((v, i) => {
+      const w = watch[v.videoId] || {};
+      const dur = v.durationSec || 0;
+      const watched = w.watchedSec || 0;
+      const lastPos = w.lastPosition || 0;
+      const pct = dur > 0 ? Math.min(100, Math.round(watched / dur * 100)) : 0;
+      let statusClass = '', statusLabel = '';
+      if (pct >= 80) { statusClass = 'watched'; statusLabel = '✓ 완료'; }
+      else if (pct > 0) { statusClass = 'partial'; statusLabel = `${pct}%`; }
+      const ytThumb = `https://i.ytimg.com/vi/${encodeURIComponent(v.videoId)}/mqdefault.jpg`;
+      html += `
+        <div class="lecture-video-item ${pct >= 80 ? 'watched' : ''}" onclick="openLecturePlayer('${escapeHtml(lec.id)}', '${escapeHtml(v.videoId)}')">
+          <span class="lecture-video-num">${i+1}</span>
+          <img class="lecture-video-thumb" src="${escapeHtml(ytThumb)}" alt="" loading="lazy">
+          <div class="lecture-video-body">
+            <div class="lecture-video-name">${escapeHtml(v.title)}</div>
+            <div class="lecture-video-info">
+              <span>${fmtLectureDur(dur)}</span>
+              ${statusLabel ? `<span class="lecture-video-status ${statusClass}">${statusLabel}</span>` : ''}
+              ${lastPos > 5 && pct < 80 ? `<span>이어보기 ${fmtLectureDur(lastPos)}</span>` : ''}
+            </div>
+            ${pct > 0 ? `<div class="lecture-video-prog"><div style="width:${pct}%;"></div></div>` : ''}
+          </div>
+          <button class="lecture-video-play" aria-label="재생">▶</button>
+        </div>
+      `;
+    });
+    html += `</div>`;
+    wrap.innerHTML = html;
+  }
+
+  // ===== YouTube IFrame API =====
+  function ensureYouTubeApiLoaded() {
+    if (_ytApiReady || _ytApiLoading) return;
+    if (window.YT && window.YT.Player) { _ytApiReady = true; return; }
+    _ytApiLoading = true;
+    // 글로벌 콜백 등록
+    window.onYouTubeIframeAPIReady = function() {
+      _ytApiReady = true;
+      _ytApiLoading = false;
+      console.log('[YT API] 준비 완료');
+    };
+    const tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    document.head.appendChild(tag);
+  }
+
+  // ===== 플레이어 모달 열기 =====
+  window.openLecturePlayer = function(lecId, videoId) {
+    const lec = (_lecturesCache || []).find(l => l.id === lecId);
+    if (!lec) return;
+    const v = (lec.videos || []).find(vv => vv.videoId === videoId);
+    if (!v) return;
+
+    _ytPlayerCurrent = {
+      lecId, videoId,
+      lectureTitle: lec.title || '',
+      videoTitle: v.title || '',
+      durationSec: v.durationSec || 0,
+    };
+    _ytLastTickTime = 0;
+
+    // 이어보기 위치
+    const watch = loadLectureWatch();
+    const w = watch[videoId] || {};
+    const startSec = (w.lastPosition && w.lastPosition > 5 && (v.durationSec === 0 || w.lastPosition < v.durationSec - 10))
+      ? Math.floor(w.lastPosition)
+      : 0;
+
+    // session count + 1
+    if (!w.sessionCount) w.sessionCount = 0;
+    w.sessionCount += 1;
+    watch[videoId] = w;
+    saveLectureWatch(watch);
+
+    // 모달 DOM
+    let modal = document.getElementById('lecturePlayerModal');
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.id = 'lecturePlayerModal';
+      modal.className = 'lecture-player-backdrop';
+      document.body.appendChild(modal);
+    }
+    modal.innerHTML = `
+      <div class="lecture-player-modal">
+        <div class="lecture-player-head">
+          <div class="lecture-player-title">${escapeHtml(v.title || '')}</div>
+          <button class="lecture-player-close" onclick="closeLecturePlayer()" aria-label="닫기">×</button>
+        </div>
+        <div class="lecture-player-frame"><div id="ytPlayerContainer"></div></div>
+        <div class="lecture-player-foot">
+          <span class="label">시청</span>
+          <span id="lecturePlayerWatched">${fmtLectureDur(w.watchedSec || 0)}</span>
+          <span style="margin-left:auto; color:var(--text3);">${escapeHtml(lec.title || '')}</span>
+        </div>
+      </div>
+    `;
+    modal.classList.add('active');
+
+    // API 준비 후 플레이어 생성
+    const createPlayer = () => {
+      try {
+        _ytPlayer = new YT.Player('ytPlayerContainer', {
+          width: '100%', height: '100%',
+          videoId: videoId,
+          playerVars: {
+            playsinline: 1,
+            rel: 0,
+            modestbranding: 1,
+            start: startSec,
+          },
+          events: {
+            onReady: onYtPlayerReady,
+            onStateChange: onYtPlayerStateChange,
+            onError: (e) => console.warn('[YT Player] 오류:', e.data),
+          },
+        });
+      } catch (e) {
+        console.warn('[YT Player] 생성 실패:', e);
+      }
+    };
+    if (_ytApiReady && window.YT && window.YT.Player) {
+      createPlayer();
+    } else {
+      ensureYouTubeApiLoaded();
+      const wait = setInterval(() => {
+        if (_ytApiReady && window.YT && window.YT.Player) {
+          clearInterval(wait);
+          createPlayer();
+        }
+      }, 200);
+      // 안전 가드 (10초 후 포기)
+      setTimeout(() => clearInterval(wait), 10000);
+    }
+  };
+
+  window.closeLecturePlayer = function() {
+    // 마지막 위치 저장
+    if (_ytPlayer && _ytPlayerCurrent) {
+      try {
+        const cur = _ytPlayer.getCurrentTime();
+        applyLectureTick(cur, true);
+      } catch(e) {}
+    }
+    stopLectureTick();
+    if (_ytPlayer) {
+      try { _ytPlayer.destroy(); } catch(e) {}
+      _ytPlayer = null;
+    }
+    _ytPlayerCurrent = null;
+    const modal = document.getElementById('lecturePlayerModal');
+    if (modal) {
+      modal.classList.remove('active');
+      modal.innerHTML = '';
+    }
+    // 영상 목록 다시 그리기 (진행률 갱신)
+    const fullHash = (location.hash || '').replace('#', '');
+    const detail = fullHash.startsWith('video/') ? fullHash.slice('video/'.length) : '';
+    if (detail) renderLectureDetailInline(detail);
+    else renderLectureListInline();
+  };
+
+  function onYtPlayerReady(e) {
+    // 자동 재생 시도 (브라우저 정책에 따라 muted 후 재생되거나 사용자 탭 필요)
+    try { e.target.playVideo(); } catch(err) {}
+  }
+
+  function onYtPlayerStateChange(e) {
+    const state = e.data;
+    if (state === YT.PlayerState.PLAYING) {
+      _ytLastTickTime = (typeof e.target.getCurrentTime === 'function') ? e.target.getCurrentTime() : 0;
+      startLectureTick();
+    } else if (state === YT.PlayerState.PAUSED || state === YT.PlayerState.BUFFERING) {
+      // 일시 중지: 마지막 위치 저장 + tick 정지
+      stopLectureTick();
+      try { applyLectureTick(e.target.getCurrentTime(), true); } catch(err) {}
+    } else if (state === YT.PlayerState.ENDED) {
+      stopLectureTick();
+      try {
+        const dur = e.target.getDuration() || _ytPlayerCurrent?.durationSec || 0;
+        applyLectureTick(dur, true);
+      } catch(err) {}
+    }
+  }
+
+  function startLectureTick() {
+    if (_ytPlayerTickTimer) return;
+    _ytPlayerTickTimer = setInterval(() => {
+      if (!_ytPlayer || !_ytPlayerCurrent) { stopLectureTick(); return; }
+      try {
+        const cur = _ytPlayer.getCurrentTime();
+        applyLectureTick(cur, false);
+      } catch(e) { stopLectureTick(); }
+    }, 1000);
+  }
+  function stopLectureTick() {
+    if (_ytPlayerTickTimer) { clearInterval(_ytPlayerTickTimer); _ytPlayerTickTimer = null; }
+  }
+
+  // currentTime을 받아 watchedSec / lastPosition 업데이트 + UI 갱신 + 동기화 마킹
+  function applyLectureTick(curTime, forceSync) {
+    if (!_ytPlayerCurrent) return;
+    const { videoId, lecId, videoTitle, lectureTitle, durationSec } = _ytPlayerCurrent;
+    const watch = loadLectureWatch();
+    if (!watch[videoId]) watch[videoId] = { watchedSec: 0, lastPosition: 0, sessionCount: 1, lectureId: lecId, lectureTitle, videoTitle, durationSec };
+    const w = watch[videoId];
+    w.lectureId = lecId;
+    w.lectureTitle = lectureTitle;
+    w.videoTitle = videoTitle;
+    w.durationSec = durationSec || w.durationSec || 0;
+    w.lastPosition = Math.floor(curTime);
+    w.lastWatchedAt = new Date().toISOString();
+    // 직전 tick 시각과 비교 — 정상 재생인 경우 (0~3초 차이)만 누적
+    const delta = curTime - _ytLastTickTime;
+    if (delta > 0 && delta < 3.5) {
+      w.watchedSec = (w.watchedSec || 0) + Math.round(delta);
+    }
+    _ytLastTickTime = curTime;
+    saveLectureWatch(watch);
+
+    // UI 업데이트 (재생 중 표시)
+    const lab = document.getElementById('lecturePlayerWatched');
+    if (lab) lab.textContent = fmtLectureDur(w.watchedSec || 0);
+
+    // Cloudinary 동기화 dirty 마킹
+    markLectureWatchDirty();
+  }
+
+  // ===== Cloudinary 자동 업로드 (학습 기록 패턴과 동일) =====
+  function markLectureWatchDirty() {
+    const sync = loadLectureSync();
+    saveLectureSync({ ...sync, pending: true, dirtyAt: new Date().toISOString() });
+    _lectureSyncStatus = 'pending';
+    _lectureSyncRetryUsed = false;
+    if (_lectureSyncTimer) clearTimeout(_lectureSyncTimer);
+    _lectureSyncTimer = setTimeout(() => {
+      _lectureSyncTimer = null;
+      uploadLectureWatchToCloud();
+    }, 5000);  // 5초 debounce (시청 중에는 자주 변경됨)
+  }
+
+  function flushLectureSyncIfPending() {
+    const sync = loadLectureSync();
+    if (!sync.pending) return;
+    if (_lectureSyncInflight) return;
+    if (_lectureSyncTimer) { clearTimeout(_lectureSyncTimer); _lectureSyncTimer = null; }
+    _lectureSyncRetryUsed = false;
+    uploadLectureWatchToCloud();
+  }
+
+  async function uploadLectureWatchToCloud() {
+    if (_lectureSyncInflight) return;
+    if (!studentCode) return;
+    const watch = loadLectureWatch();
+    if (Object.keys(watch).length === 0) return;
+    const studentName = ((studentData || {}).student || {}).name || '';
+
+    _lectureSyncInflight = true;
+    _lectureSyncStatus = 'syncing';
+
+    const payload = {
+      studentCode,
+      studentName,
+      uploadedAt: new Date().toISOString(),
+      videoCount: Object.keys(watch).length,
+      videos: watch,
+    };
+    try {
+      const jsonStr = JSON.stringify(payload, null, 2);
+      const blob = new Blob([jsonStr], { type: 'application/json' });
+      const file = new File([blob], `lecture_watch_${studentCode}_${Date.now()}.json`, { type: 'application/json' });
+      const formData = new FormData();
+      formData.append('file', file);
+      formData.append('upload_preset', CLOUDINARY_UPLOAD_PRESET);
+      formData.append('tags', `student_${studentCode},lecture_watch_submission`);
+      formData.append('context', `student_code=${studentCode}|kind=lecture_watch_submission|video_count=${payload.videoCount}`);
+      const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
+      const res = await fetch(url, { method: 'POST', body: formData });
+      const data = await res.json();
+      if (!res.ok || !data.secure_url) {
+        throw new Error((data.error && data.error.message) || `업로드 실패 (${res.status})`);
+      }
+      const cur = loadLectureSync();
+      const stillDirty = cur.dirtyAt && new Date(cur.dirtyAt) > new Date(payload.uploadedAt);
+      saveLectureSync({
+        lastUploadedAt: payload.uploadedAt,
+        lastUploadedCount: payload.videoCount,
+        lastSecureUrl: data.secure_url,
+        pending: !!stillDirty,
+        dirtyAt: stillDirty ? cur.dirtyAt : null,
+        lastError: null,
+        lastErrorAt: null,
+      });
+      _lectureSyncStatus = stillDirty ? 'pending' : 'success';
+    } catch (e) {
+      console.warn('[강의영상 시청기록] 업로드 실패:', e);
+      const cur = loadLectureSync();
+      saveLectureSync({ ...cur, pending: true, lastError: e.message || String(e), lastErrorAt: new Date().toISOString() });
+      _lectureSyncStatus = 'error';
+    } finally {
+      _lectureSyncInflight = false;
+      if ((_lectureSyncStatus === 'error' || _lectureSyncStatus === 'pending') && !_lectureSyncRetryUsed) {
+        _lectureSyncRetryUsed = true;
+        if (_lectureSyncTimer) clearTimeout(_lectureSyncTimer);
+        _lectureSyncTimer = setTimeout(() => { _lectureSyncTimer = null; uploadLectureWatchToCloud(); }, 30000);
+      }
+    }
+  }
+
+  // 페이지 이탈 시 마지막 동기화 시도
+  window.addEventListener('beforeunload', () => {
+    flushLectureSyncIfPending();
+  });
 
   function renderGradesView(data) {
     let html = `<h2 class="view-title">성적 관리</h2>`;
@@ -3094,6 +3803,12 @@
 
   // 해시 변경 시 화면 전환
   window.addEventListener('hashchange', () => {
+    // 강의 영상 페이지에서 다른 곳으로 이동하면 플레이어 자동 닫기 (백그라운드 재생 방지)
+    const fullHash = (location.hash || '').replace('#', '');
+    const baseView = fullHash.split('/')[0];
+    if (baseView !== 'video' && _ytPlayer) {
+      try { closeLecturePlayer(); } catch(e) {}
+    }
     if (studentData) renderPage();
   });
 </script>

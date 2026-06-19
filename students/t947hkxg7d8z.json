@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-19T10:39:51.113Z",
+  "generatedAt": "2026-06-19T22:39:50.190Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -8,19 +8,7 @@
     "class": "개별수업",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1781628866853_g8jo39",
-      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법(고난도 3,4,5)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-19",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -47,6 +35,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1781628866853_g8jo39",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법(고난도 3,4,5)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-19",
+      "done": true,
+      "doneAt": "2026-06-19T22:39:17.828Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1781536830575_5ol8ni",
       "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
@@ -394,24 +394,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1778384022946_9m9pgb",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-05-11",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:22.841Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 6,
-    "done": 3,
-    "percent": 50,
+    "done": 4,
+    "percent": 67,
     "startDate": "2026-06-15",
     "endDate": "2026-06-21"
   },

@@ -2362,8 +2362,10 @@
       {
         "stage": 1,
         "planned": "2026-06-19",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-19T22:39:17.828Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,
@@ -2396,8 +2398,10 @@
       {
         "stage": 2,
         "planned": "2026-06-19",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-19T22:39:19.409Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 3,

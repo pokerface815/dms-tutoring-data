@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20T11:32:08.185Z",
+  "generatedAt": "2026-06-20T12:41:35.124Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,15 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-20",
+          "weekday": "토",
+          "className": "조예나 개별",
+          "content": "학교 부교재 예상문제 4회분 분출\n1회 풀이",
+          "task": "",
+          "taskDue": "",
+          "myNote": ""
+        },
         {
           "date": "2026-06-19",
           "weekday": "금",

@@ -486,8 +486,12 @@
     "subject": "공통수학1",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
-    "examInfoByExamKind": {},
+    "notesByExamKind": {
+      "기말": "고차방정식(삼, 사차방정식), 이차부등식, 순열, 조합, 행렬"
+    },
+    "examInfoByExamKind": {
+      "기말": "부교재, 씨뮬 4~9회(23, 24, 25년 6, 9월), 26년 6월 모의고사"
+    },
     "commentsByExamKind": {},
     "teacher": "",
     "textbookPublisher": "",
@@ -496,7 +500,8 @@
       "중간": true,
       "기말": true,
       "최종": true
-    }
+    },
+    "extraNote": ""
   },
   {
     "id": "scut_mq9qjzcmwho",
@@ -561,7 +566,7 @@
     },
     "commentsByExamKind": {},
     "teacher": "",
-    "textbookPublisher": "",
+    "textbookPublisher": "YBM(류)",
     "supplementaryBook": "기출픽",
     "studentInputEnabledByExamKind": {
       "중간": true,

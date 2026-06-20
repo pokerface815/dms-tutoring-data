@@ -465,8 +465,12 @@
     "subject": "공통수학1",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
-    "examInfoByExamKind": {},
+    "notesByExamKind": {
+      "기말": "고차방정식(삼, 사차방정식), 이차부등식, 순열, 조합, 행렬"
+    },
+    "examInfoByExamKind": {
+      "기말": "교과서, 부교재 2권"
+    },
     "commentsByExamKind": {},
     "teacher": "",
     "textbookPublisher": "",
@@ -475,7 +479,8 @@
       "중간": true,
       "기말": true,
       "최종": true
-    }
+    },
+    "extraNote": ""
   },
   {
     "id": "scut_mq9qjhn1xya",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20T11:24:46.390Z",
+  "generatedAt": "2026-06-20T11:31:49.139Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -84,20 +84,30 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-19T13:07:15.147Z",
+    "uploadedAt": "2026-06-20T11:26:55.475Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 29145,
-      "monthSec": 29145,
-      "streak": 2,
+      "todaySec": 24184,
+      "weekSec": 53329,
+      "monthSec": 53329,
+      "streak": 3,
       "bySubjectMonth": {
         "확통": 8293,
         "클로드": 6923,
         "문제DB": 4457,
-        "과외": 9472
+        "과외": 9472,
+        "학원": 24184
       }
     },
     "logs": [
+      {
+        "id": "effort_mqm9vx2smub",
+        "startedAt": 1781930615571,
+        "seconds": 24184,
+        "subject": "학원",
+        "method": "기타",
+        "content": "수압",
+        "reflection": ""
+      },
       {
         "id": "effort_mqky137z9vc",
         "startedAt": 1781864943333,

@@ -1019,6 +1019,26 @@
     try { localStorage.setItem(`lectureSync__${studentCode}`, JSON.stringify(s)); } catch(e) {}
   }
 
+  // 일별 누적 시청 시간 (날짜별/영상별)
+  function loadDailyLectureWatch() {
+    try { return JSON.parse(localStorage.getItem(`lectureDaily__${studentCode}`) || '{}'); }
+    catch(e) { return {}; }
+  }
+  function recordDailyLectureWatch(videoId, deltaSec) {
+    if (!deltaSec || deltaSec <= 0 || !studentCode) return;
+    const today = (() => {
+      const d = new Date();
+      const y = d.getFullYear();
+      const m = (d.getMonth() + 1).toString().padStart(2, '0');
+      const dd = d.getDate().toString().padStart(2, '0');
+      return `${y}-${m}-${dd}`;
+    })();
+    const daily = loadDailyLectureWatch();
+    if (!daily[today]) daily[today] = {};
+    daily[today][videoId] = (daily[today][videoId] || 0) + deltaSec;
+    try { localStorage.setItem(`lectureDaily__${studentCode}`, JSON.stringify(daily)); } catch(e) {}
+  }
+
   // ===== lectures.json fetch =====
   async function fetchLecturesData() {
     if (_lecturesFetching) return _lecturesCache;
@@ -1523,7 +1543,10 @@
     // 직전 tick 시각과 비교 — 정상 재생인 경우 (0~3초 차이)만 누적
     const delta = curTime - _ytLastTickTime;
     if (delta > 0 && delta < 3.5) {
-      w.watchedSec = (w.watchedSec || 0) + Math.round(delta);
+      const deltaInt = Math.round(delta);
+      w.watchedSec = (w.watchedSec || 0) + deltaInt;
+      // 일별 누적 — 요일별 통계용
+      recordDailyLectureWatch(videoId, deltaInt);
     }
     _ytLastTickTime = curTime;
     saveLectureWatch(watch);
@@ -1574,6 +1597,7 @@
       uploadedAt: new Date().toISOString(),
       videoCount: Object.keys(watch).length,
       videos: watch,
+      daily: loadDailyLectureWatch(),  // 요일별 통계용
     };
     try {
       const jsonStr = JSON.stringify(payload, null, 2);

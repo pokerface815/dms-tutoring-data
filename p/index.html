@@ -93,7 +93,7 @@
   .stage-text { flex-shrink: 0; font-size: 11px; color: var(--text2); min-width: 36px; text-align: right; }
   .month-arrow { font-size: 12px; color: var(--text3); transition: transform 0.2s; }
   .month-card.open .month-arrow { transform: rotate(90deg); }
-  .month-body { display: none; padding: 0 18px 8px; }
+  .month-body { display: none; padding: 6px 18px 12px; }
   .month-card.open .month-body { display: block; }
 
   .lesson-item {
@@ -183,9 +183,9 @@
   /* 외부 카드 — 토글 없음, 항상 펼침 */
   .effort-section-card {
     background: var(--surface);
-    border-radius: 14px;
-    margin: 16px 12px;
-    padding: 16px 16px 14px;
+    border-radius: var(--radius);
+    margin-bottom: 10px;
+    padding: 16px 18px 14px;
     box-shadow: 0 1px 4px rgba(139,90,43,0.06);
     border: 0.5px solid var(--border);
   }

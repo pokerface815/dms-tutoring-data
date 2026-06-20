@@ -1024,14 +1024,18 @@
     _lecturesFetching = true;
     try {
       const url = `../lectures.json?t=${Date.now()}`;
+      console.log('[강의영상] fetch 시도:', url);
       const res = await fetch(url, { cache: 'no-store' });
+      console.log('[강의영상] 응답 상태:', res.status, res.ok);
       if (res.ok) {
         const data = await res.json();
+        console.log('[강의영상] 데이터 수신:', Array.isArray(data) ? data.length + '개' : '비배열', data);
         if (Array.isArray(data)) {
           _lecturesCache = data;
           try { localStorage.setItem(`lecturesCache__${studentCode}`, JSON.stringify(data)); } catch(e) {}
         }
       } else if (res.status === 404) {
+        console.warn('[강의영상] lectures.json 404 — 통합본이 아직 push하지 않았거나 경로 다름');
         _lecturesCache = [];
       }
     } catch (e) {
@@ -1107,8 +1111,13 @@
 
   function renderLectureListInline() {
     const wrap = document.getElementById('lectureListWrap');
-    if (!wrap) return;
-    const lectures = (_lecturesCache || []).filter(hasLecturePermission);
+    if (!wrap) { console.warn('[강의영상] lectureListWrap 없음'); return; }
+    const allLectures = _lecturesCache || [];
+    const lectures = allLectures.filter(hasLecturePermission);
+    console.log('[강의영상] 전체:', allLectures.length, '/ 권한 통과:', lectures.length);
+    if (allLectures.length > 0 && lectures.length === 0) {
+      console.log('[강의영상] 권한 막힘 — 첫 항목의 permissions:', allLectures[0].permissions);
+    }
     if (lectures.length === 0) {
       wrap.innerHTML = `
         <div class="lecture-empty">

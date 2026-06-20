@@ -173,6 +173,58 @@
     font-size: 13px; color: var(--text2); cursor: pointer; font-family: inherit;
   }
   .test-more-btn:active { background: #efe9dd; }
+
+  /* ===== 받은 과제 ===== */
+  .asgn-group-label {
+    font-size: 11.5px; font-weight: 700; color: var(--text3);
+    padding: 8px 4px 4px; letter-spacing: 0.3px;
+  }
+  .asgn-group-label:first-child { padding-top: 0; }
+  .asgn-group-overdue { color: #A32D2D; }
+  .asgn-item {
+    display: flex; gap: 10px;
+    padding: 10px 12px; margin-bottom: 8px;
+    background: var(--surface2); border-radius: 10px;
+    border: 0.5px solid var(--border);
+    border-left: 4px solid var(--accent-light);
+  }
+  .asgn-item:last-child { margin-bottom: 0; }
+  .asgn-ongoing { border-left-color: var(--accent); }
+  .asgn-overdue { border-left-color: #A32D2D; background: #fbeeec; }
+  .asgn-done { border-left-color: #84b96d; opacity: 0.85; }
+  .asgn-icon {
+    flex-shrink: 0; width: 22px; height: 22px;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700; color: #fff;
+    margin-top: 1px;
+  }
+  .asgn-icon-ongoing { background: var(--accent); }
+  .asgn-icon-overdue { background: #A32D2D; }
+  .asgn-icon-done { background: #84b96d; }
+  .asgn-body { flex: 1; min-width: 0; }
+  .asgn-title-row {
+    display: flex; gap: 6px; align-items: center; flex-wrap: wrap;
+    margin-bottom: 3px;
+  }
+  .asgn-title { font-size: 13.5px; font-weight: 600; color: var(--text); line-height: 1.4; word-break: break-word; }
+  .asgn-done .asgn-title { color: var(--text2); text-decoration: line-through; text-decoration-color: rgba(0,0,0,0.2); }
+  .asgn-lesson-badge {
+    flex-shrink: 0; font-size: 10px; font-weight: 600;
+    padding: 1px 6px; background: #e8dcc4; color: var(--accent-dark);
+    border-radius: 8px; line-height: 1.4;
+  }
+  .asgn-due {
+    display: inline-block; font-size: 11.5px; color: var(--text3);
+    margin-top: 1px;
+  }
+  .asgn-due-today { color: var(--accent-dark); font-weight: 600; }
+  .asgn-due-overdue { color: #A32D2D; font-weight: 600; }
+  .asgn-due-done { color: var(--text3); }
+  .asgn-content {
+    font-size: 12px; color: var(--text2); margin-top: 5px;
+    line-height: 1.5; word-break: break-word; white-space: pre-wrap;
+  }
+
   .empty-state {
     text-align: center; padding: 60px 20px; color: var(--text3);
   }
@@ -474,6 +526,12 @@
       `;
     }
 
+    // 받은 과제 섹션 (있을 때만) — 아코디언, 기본 닫힘
+    const assignments = d.assignments || [];
+    if (assignments.length > 0) {
+      html += renderAssignmentsSection(assignments);
+    }
+
     if (months.length === 0) {
       html += `
         <div class="empty-state">
@@ -724,6 +782,125 @@
     if (h > 0) return m > 0 ? `${h}h ${m}m` : `${h}h`;
     return `${m}m`;
   }
+
+  function renderAssignmentsSection(assignments) {
+    const todayStr = (() => {
+      const d = new Date();
+      const y = d.getFullYear();
+      const m = (d.getMonth() + 1).toString().padStart(2, '0');
+      const dd = d.getDate().toString().padStart(2, '0');
+      return `${y}-${m}-${dd}`;
+    })();
+
+    // 분류: 진행 중(마감 미래 or 미완료), 완료
+    const ongoing = [];
+    const overdue = [];
+    const done = [];
+    for (const a of assignments) {
+      if (a.isConfirmed) {
+        done.push(a);
+      } else if (!a.dueDate || a.dueDate >= todayStr) {
+        ongoing.push(a);
+      } else {
+        overdue.push(a);
+      }
+    }
+
+    // 진행 중을 마감일 오름차순 (마감일 가까운 것 위로)
+    ongoing.sort((a, b) => (a.dueDate || '9999-12-31').localeCompare(b.dueDate || '9999-12-31'));
+    overdue.sort((a, b) => (b.dueDate || '').localeCompare(a.dueDate || ''));
+    done.sort((a, b) => (b.dueDate || '').localeCompare(a.dueDate || ''));
+
+    const totalActive = ongoing.length + overdue.length;
+    const countLabel = totalActive > 0
+      ? `미완료 ${totalActive}개${done.length > 0 ? ` · 완료 ${done.length}개` : ''}`
+      : `완료 ${done.length}개`;
+
+    let bodyHtml = '';
+    if (ongoing.length > 0) {
+      bodyHtml += `<div class="asgn-group-label">진행 중</div>`;
+      bodyHtml += ongoing.map(a => renderAssignmentItem(a, 'ongoing', todayStr)).join('');
+    }
+    if (overdue.length > 0) {
+      bodyHtml += `<div class="asgn-group-label asgn-group-overdue">미제출 (마감 지남)</div>`;
+      bodyHtml += overdue.map(a => renderAssignmentItem(a, 'overdue', todayStr)).join('');
+    }
+    if (done.length > 0) {
+      const DONE_INITIAL = 5;
+      const doneRecent = done.slice(0, DONE_INITIAL);
+      const doneRest = done.slice(DONE_INITIAL);
+      bodyHtml += `<div class="asgn-group-label">완료</div>`;
+      bodyHtml += `<div id="asgnDoneRecent">${doneRecent.map(a => renderAssignmentItem(a, 'done', todayStr)).join('')}</div>`;
+      if (doneRest.length > 0) {
+        bodyHtml += `<div id="asgnDoneRest" style="display:none;">${doneRest.map(a => renderAssignmentItem(a, 'done', todayStr)).join('')}</div>`;
+        bodyHtml += `<button class="test-more-btn" id="asgnMoreBtn" onclick="toggleAsgnMore()">+ 완료된 과제 ${doneRest.length}개 더 보기</button>`;
+      }
+    }
+
+    return `
+      <div class="month-card${totalActive > 0 ? ' open' : ''}">
+        <div class="month-header" onclick="this.parentElement.classList.toggle('open')">
+          <div><span class="month-title">📋 받은 과제</span><span class="month-count">${countLabel}</span></div>
+          <span class="month-arrow">▶</span>
+        </div>
+        <div class="month-body">${bodyHtml}</div>
+      </div>
+    `;
+  }
+
+  function renderAssignmentItem(a, status, todayStr) {
+    const dueDate = a.dueDate;
+    let dueLabel = '';
+    if (dueDate) {
+      const d = new Date(dueDate + 'T00:00:00');
+      const mmdd = isNaN(d) ? dueDate : `${d.getMonth()+1}/${d.getDate()}`;
+      if (status === 'overdue') {
+        dueLabel = `<span class="asgn-due asgn-due-overdue">⚠ ${mmdd} 마감</span>`;
+      } else if (status === 'done') {
+        dueLabel = `<span class="asgn-due asgn-due-done">${mmdd} 마감</span>`;
+      } else if (dueDate === todayStr) {
+        dueLabel = `<span class="asgn-due asgn-due-today">⏰ 오늘 마감</span>`;
+      } else {
+        // 며칠 남았는지
+        const today = new Date(todayStr + 'T00:00:00');
+        const due = new Date(dueDate + 'T00:00:00');
+        const daysLeft = Math.round((due - today) / 86400000);
+        const daysLabel = daysLeft <= 7 ? ` · D-${daysLeft}` : '';
+        dueLabel = `<span class="asgn-due">${mmdd} 마감${daysLabel}</span>`;
+      }
+    }
+    const iconClass = status === 'done' ? 'asgn-icon-done'
+                    : status === 'overdue' ? 'asgn-icon-overdue'
+                    : 'asgn-icon-ongoing';
+    const icon = status === 'done' ? '✓' : (status === 'overdue' ? '!' : '·');
+    const lessonBadge = a.fromLesson ? `<span class="asgn-lesson-badge">수업 일지</span>` : '';
+    const contentHtml = (a.content && a.content.trim())
+      ? `<div class="asgn-content">${escapeHtml(a.content)}</div>`
+      : '';
+    return `
+      <div class="asgn-item asgn-${status}">
+        <div class="asgn-icon ${iconClass}">${icon}</div>
+        <div class="asgn-body">
+          <div class="asgn-title-row">
+            <div class="asgn-title">${escapeHtml(a.title || '제목 없음')}</div>
+            ${lessonBadge}
+          </div>
+          ${dueLabel}
+          ${contentHtml}
+        </div>
+      </div>
+    `;
+  }
+
+  window.toggleAsgnMore = function() {
+    const rest = document.getElementById('asgnDoneRest');
+    const btn = document.getElementById('asgnMoreBtn');
+    if (!rest) return;
+    if (rest.style.display === 'none') {
+      rest.style.display = 'block';
+      if (btn) btn.style.display = 'none';
+    }
+  };
 
   function renderTestItem(t) {
     const d = new Date((t.date || '') + 'T00:00:00');

@@ -271,7 +271,8 @@
   .effort-log-head { display: flex; align-items: center; gap: 8px; }
   .effort-log-subject { font-weight: 700; font-size: 13px; color: var(--text); }
   .effort-log-time { font-size: 11px; color: var(--text2); font-variant-numeric: tabular-nums; }
-  .effort-log-del { margin-left: auto; padding: 1px 7px; background: transparent; border: 1px solid var(--border); border-radius: 4px; font-size: 11px; color: #A32D2D; cursor: pointer; font-family: inherit; }
+  .effort-log-del { margin-left: 4px; padding: 1px 7px; background: transparent; border: 1px solid var(--border); border-radius: 4px; font-size: 11px; color: #A32D2D; cursor: pointer; font-family: inherit; }
+  .effort-log-edit { margin-left: auto; padding: 1px 8px; background: transparent; border: 1px solid var(--border); border-radius: 4px; font-size: 11px; color: var(--accent-dark); cursor: pointer; font-family: inherit; }
   .effort-log-meta { font-size: 10.5px; color: var(--text3); margin-top: 3px; }
   .effort-log-content { font-size: 12px; color: var(--text); margin-top: 5px; line-height: 1.5; }
   .effort-log-reflection { font-size: 11.5px; color: var(--text2); margin-top: 5px; padding: 5px 7px; background: var(--surface2); border-radius: 4px; line-height: 1.5; }
@@ -2359,7 +2360,8 @@
             <div class="effort-log-head">
               <span class="effort-log-subject">${escapeHtml(l.subject)}</span>
               <span class="effort-log-time">${fmtDurationShort(l.seconds)}</span>
-              <button class="effort-log-del" onclick="deleteEffortLog('${l.id}')">×</button>
+              <button class="effort-log-edit" onclick="openEffortEditModal('${l.id}')" title="수정">✏️</button>
+              <button class="effort-log-del" onclick="deleteEffortLog('${l.id}')" title="삭제">×</button>
             </div>
             <div class="effort-log-meta">${dateStr} · ${escapeHtml(l.method || '')}</div>
             <div class="effort-log-content">${escapeHtml(l.content || '')}</div>
@@ -2378,6 +2380,105 @@
     let logs = loadEffortLogs();
     logs = logs.filter(l => l.id !== id);
     saveEffortLogs(logs);
+    renderEffortContent();
+    // Cloudinary 자동 업로드 (debounce 3초)
+    markEffortLogsDirty();
+    renderEffortSyncIndicator();
+  };
+
+  window.openEffortEditModal = function(id) {
+    const log = loadEffortLogs().find(l => l.id === id);
+    if (!log) { alert('기록을 찾을 수 없습니다.'); return; }
+
+    const subjects = loadEffortSubjects();
+    const defaults = ['수학', '영어', '국어', '과학', '사회'];
+    const merged = [];
+    const seen = new Set();
+    for (const s of subjects.concat(defaults)) {
+      if (!s || seen.has(s)) continue;
+      seen.add(s);
+      merged.push(s);
+      if (merged.length >= 8) break;
+    }
+    let backdrop = document.getElementById('effortSaveModal');
+    if (!backdrop) {
+      backdrop = document.createElement('div');
+      backdrop.id = 'effortSaveModal';
+      backdrop.className = 'effort-modal-backdrop';
+      document.body.appendChild(backdrop);
+    }
+    const methods = ['문제 풀이', '강의 시청', '개념 정리', '오답 정리', '기타'];
+    backdrop.innerHTML = `
+      <div class="effort-modal">
+        <div class="effort-modal-head">
+          <div class="effort-modal-title">공부 기록 수정</div>
+          <div class="effort-modal-time">${fmtDuration(log.seconds)}</div>
+        </div>
+        <div class="effort-modal-body">
+          <div>
+            <label class="gi-label">과목</label>
+            <input type="text" class="gi-input" id="effortSubject" list="effortSubjectList" placeholder="예: 수학, 영어, 국어" value="${escapeHtml(log.subject || '')}">
+            <datalist id="effortSubjectList">
+              ${subjects.map(s => `<option value="${escapeHtml(s)}"></option>`).join('')}
+            </datalist>
+            <div class="effort-subject-chips">
+              ${merged.map((s) => {
+                const isRecent = subjects.includes(s);
+                return `<button type="button" class="effort-chip${isRecent ? ' recent' : ''}" onclick="document.getElementById('effortSubject').value=this.textContent;">${escapeHtml(s)}</button>`;
+              }).join('')}
+            </div>
+          </div>
+          <div style="margin-top:10px;">
+            <label class="gi-label">공부 방식</label>
+            <select class="gi-input" id="effortMethod">
+              ${methods.map(m => `<option value="${escapeHtml(m)}" ${log.method === m ? 'selected' : ''}>${escapeHtml(m)}</option>`).join('')}
+            </select>
+          </div>
+          <div style="margin-top:10px;">
+            <label class="gi-label">공부 내용 *</label>
+            <input type="text" class="gi-input" id="effortContent" placeholder="예: 쎈 3단원 응용문제 18~32번" value="${escapeHtml(log.content || '')}">
+          </div>
+          <div style="margin-top:10px;">
+            <label class="gi-label">느낀점 · 반성 (선택)</label>
+            <textarea class="gi-input" id="effortReflection" rows="2" placeholder="예: 23번 어려웠음. 다시 풀어볼 것">${escapeHtml(log.reflection || '')}</textarea>
+          </div>
+        </div>
+        <div class="effort-modal-foot">
+          <button class="effort-btn effort-btn-secondary" onclick="closeEffortSaveModal()">취소</button>
+          <button class="effort-btn effort-btn-primary" onclick="submitEditEffortLog('${id}')">저장</button>
+        </div>
+      </div>
+    `;
+    backdrop.classList.add('active');
+    setTimeout(() => document.getElementById('effortSubject')?.focus(), 100);
+  };
+
+  window.submitEditEffortLog = function(id) {
+    const subject = (document.getElementById('effortSubject')?.value || '').trim();
+    const method = document.getElementById('effortMethod')?.value || '';
+    const content = (document.getElementById('effortContent')?.value || '').trim();
+    const reflection = (document.getElementById('effortReflection')?.value || '').trim();
+    if (!subject) { alert('과목을 입력해주세요.'); return; }
+    if (!content) { alert('공부 내용을 입력해주세요.'); return; }
+
+    // 과목 자동완성 누적
+    const subjects = loadEffortSubjects();
+    if (!subjects.includes(subject)) {
+      subjects.unshift(subject);
+      saveEffortSubjects(subjects.slice(0, 20));
+    }
+
+    const logs = loadEffortLogs();
+    const idx = logs.findIndex(l => l.id === id);
+    if (idx < 0) { alert('기록을 찾을 수 없습니다.'); return; }
+    logs[idx] = {
+      ...logs[idx],
+      subject, method, content, reflection,
+      updatedAt: new Date().toISOString(),
+    };
+    saveEffortLogs(logs);
+
+    closeEffortSaveModal();
     renderEffortContent();
     // Cloudinary 자동 업로드 (debounce 3초)
     markEffortLogsDirty();

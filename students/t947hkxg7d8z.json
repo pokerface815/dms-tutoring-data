@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T12:41:33.279Z",
+  "generatedAt": "2026-06-20T14:31:07.831Z",
   "student": {
     "name": "조예나",
     "school": "문정여고",
@@ -461,6 +461,14 @@
       "dueDate": "2026-06-15",
       "isRepeat": false,
       "assignedAt": "2026-06-14T01:19:47.259Z"
+    },
+    {
+      "assignmentId": "task_1781965845162_p4an5s",
+      "round": 1,
+      "title": "부교재 예상 문제 1회 오답 다시 풀어보기",
+      "dueDate": "2026-06-22",
+      "isRepeat": false,
+      "assignedAt": "2026-06-20T14:30:45.162Z"
     }
   ],
   "myGrades": [

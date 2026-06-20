@@ -2441,5 +2441,33 @@
       }
     ],
     "createdAt": "2026-06-18T16:00:54.400Z"
+  },
+  {
+    "id": "a_1781927411353_5plk3v",
+    "noteId": "note_1781927393774_m1nkmm",
+    "noteName": "이경주_개념루트_수학적 귀납법(806, 821번)",
+    "studentId": "s_1778325875686_1uoe4b",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-27",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-20T03:50:11.353Z"
   }
 ]

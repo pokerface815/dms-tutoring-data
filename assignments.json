@@ -2517,5 +2517,15 @@
       }
     ],
     "createdAt": "2026-06-20T09:35:34.457Z"
+  },
+  {
+    "id": "task_1781965845162_p4an5s",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "부교재 예상 문제 1회 오답 다시 풀어보기",
+    "dueDate": "2026-06-22",
+    "assignedAt": "2026-06-20T14:30:45.162Z",
+    "batchId": "t_mqmggdyi",
+    "repeat": null
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T02:28:54.885Z",
+  "generatedAt": "2026-06-20T03:50:58.189Z",
   "student": {
     "name": "이경주",
     "school": "국제고",
@@ -36,6 +36,17 @@
       "noteName": "이경주_수매씽 유형_기말 범위 전체",
       "subject": "대수",
       "round": 3,
+      "plannedDate": "2026-06-20",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1781927411353_5plk3v",
+      "noteName": "이경주_개념루트_수학적 귀납법(806, 821번)",
+      "subject": "대수",
+      "round": 1,
       "plannedDate": "2026-06-20",
       "done": false,
       "doneAt": null,
@@ -420,9 +431,9 @@
     }
   ],
   "weekProgress": {
-    "total": 8,
+    "total": 9,
     "done": 4,
-    "percent": 50,
+    "percent": 44,
     "startDate": "2026-06-15",
     "endDate": "2026-06-21"
   },

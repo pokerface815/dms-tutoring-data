@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20T11:31:49.139Z",
+  "generatedAt": "2026-06-20T12:42:15.677Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -84,7 +84,7 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-20T11:26:55.475Z",
+    "uploadedAt": "2026-06-20T11:32:24.849Z",
     "summary": {
       "todaySec": 24184,
       "weekSec": 53329,
@@ -105,7 +105,7 @@
         "seconds": 24184,
         "subject": "학원",
         "method": "기타",
-        "content": "수압",
+        "content": "수업",
         "reflection": ""
       },
       {

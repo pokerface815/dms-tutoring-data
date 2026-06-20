@@ -2469,5 +2469,33 @@
       }
     ],
     "createdAt": "2026-06-20T03:50:11.353Z"
+  },
+  {
+    "id": "a_1781948134457_3xbiql",
+    "noteId": "note_1781948111483_lxiupb",
+    "noteName": "박다윤_마더텅_전체",
+    "studentId": "s_1777547014208_7l30nn",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-27",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-20T09:35:34.457Z"
   }
 ]

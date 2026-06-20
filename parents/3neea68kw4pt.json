@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20T14:31:36.142Z",
+  "generatedAt": "2026-06-20T15:13:55.918Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -59,9 +59,9 @@
         }
       ],
       "completionRate": {
-        "done": 0,
+        "done": 1,
         "total": 1,
-        "percent": 0
+        "percent": 100
       },
       "noteStages": null
     }
@@ -84,21 +84,30 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-20T11:32:24.849Z",
+    "uploadedAt": "2026-06-20T14:32:11.389Z",
     "summary": {
-      "todaySec": 24184,
-      "weekSec": 53329,
-      "monthSec": 53329,
+      "todaySec": 0,
+      "weekSec": 64117,
+      "monthSec": 64117,
       "streak": 3,
       "bySubjectMonth": {
         "확통": 8293,
         "클로드": 6923,
         "문제DB": 4457,
-        "과외": 9472,
+        "과외": 20260,
         "학원": 24184
       }
     },
     "logs": [
+      {
+        "id": "effort_mqmgi668ijq",
+        "startedAt": 1781955125522,
+        "seconds": 10788,
+        "subject": "과외",
+        "method": "문제 풀이",
+        "content": "예상문제 1회",
+        "reflection": ""
+      },
       {
         "id": "effort_mqm9vx2smub",
         "startedAt": 1781930615571,

@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:58.054Z",
+  "generatedAt": "2026-06-21T02:42:08.560Z",
   "student": {
+    "id": "s_1780314459772_wcllxa",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "name": "조아라",
     "school": "",
     "grade": "중3",

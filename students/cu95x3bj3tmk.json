@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:39.397Z",
+  "generatedAt": "2026-06-21T02:41:40.499Z",
   "student": {
+    "id": "s_1780309359751_gjl2s0",
+    "classes": [
+      "cls_1780309335387_ry7cd9"
+    ],
     "name": "박유솔",
     "school": "숭일중",
     "grade": "중3",

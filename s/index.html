@@ -502,8 +502,13 @@
   }
 
   /* 강의 영상 탭바 (강의 목록 / 시청 기록) */
+  .video-header-row {
+    display: flex; align-items: center; gap: 14px;
+    margin-bottom: 16px; flex-wrap: wrap;
+  }
+  .video-title-inline { margin: 0 !important; flex-shrink: 0; }
   .video-tab-bar {
-    display: flex; gap: 6px; margin-bottom: 14px;
+    display: flex; gap: 6px; margin-left: auto;
     padding: 4px; background: var(--surface2); border-radius: 10px;
   }
   .video-tab-bar:empty { display: none; }
@@ -1171,8 +1176,12 @@
 
   // ===== 메인 메뉴: 강의 영상 (재생목록 카드 그리드) =====
   function renderVideoView(data) {
-    let html = `<h2 class="view-title">강의 영상</h2>`;
-    html += `<div id="videoTabBar" class="video-tab-bar"></div>`;
+    let html = `
+      <div class="video-header-row">
+        <h2 class="view-title video-title-inline">강의 영상</h2>
+        <div id="videoTabBar" class="video-tab-bar"></div>
+      </div>
+    `;
     html += `<div id="lectureListWrap"></div>`;
     return html;
   }

@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:51.911Z",
+  "generatedAt": "2026-06-21T02:41:59.449Z",
   "student": {
+    "id": "s_1780314459772_frngyj",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "name": "고승민",
     "school": "",
     "grade": "중3",

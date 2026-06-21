@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:26.619Z",
+  "generatedAt": "2026-06-21T02:41:22.374Z",
   "student": {
+    "id": "s_1779005266373_7iq1b8",
+    "classes": [
+      "cls_1780310061018_vay6zf"
+    ],
     "name": "김시현",
     "school": "국제고",
     "grade": "고2",

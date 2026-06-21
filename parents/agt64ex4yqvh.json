@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T02:59:53.474Z",
+  "generatedAt": "2026-06-21T04:56:34.591Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -19,7 +19,9 @@
           "content": "주간테스트",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-04",
@@ -28,7 +30,9 @@
           "content": "중등, 확통 보충\n예나 수업",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-03",
@@ -37,7 +41,9 @@
           "content": "에버랜드",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-02",
@@ -46,7 +52,9 @@
           "content": "이룸 퇴소\n서울 한강",
           "task": "",
           "taskDue": "",
-          "myNote": "유석 담당"
+          "myNote": "유석 담당",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-01",
@@ -55,7 +63,9 @@
           "content": "중3 수업\n고등 선행\n예나 수업",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         }
       ],
       "completionRate": null,
@@ -63,6 +73,5 @@
     }
   ],
   "tests": [],
-  "effortLogs": null,
-  "assignments": []
+  "effortLogs": null
 }

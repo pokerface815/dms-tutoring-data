@@ -1078,13 +1078,22 @@
   function hasLecturePermission(lec) {
     const p = lec.permissions || { type: 'all' };
     if (!p.type || p.type === 'all') return true;
+
+    const sid = (studentData?.student?.id) || '';
+    const myClassIds = (studentData?.student?.classes) || [];
+
+    // 'restricted' — 반 또는 학생 어느 쪽이든 매칭되면 권한 있음
+    if (p.type === 'restricted') {
+      if (Array.isArray(p.studentIds) && p.studentIds.includes(sid)) return true;
+      if (Array.isArray(p.classIds) && Array.isArray(myClassIds)
+          && p.classIds.some(cid => myClassIds.includes(cid))) return true;
+      return false;
+    }
+    // 레거시: 단일 모드도 호환
     if (p.type === 'students') {
-      // studentData.student.id가 매칭되어야 함
-      const sid = (studentData?.student?.id) || '';
       return Array.isArray(p.studentIds) && p.studentIds.includes(sid);
     }
     if (p.type === 'classes') {
-      const myClassIds = (studentData?.student?.classes) || [];
       if (!Array.isArray(p.classIds) || !Array.isArray(myClassIds)) return false;
       return p.classIds.some(cid => myClassIds.includes(cid));
     }

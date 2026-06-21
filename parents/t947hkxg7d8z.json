@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T02:59:01.762Z",
+  "generatedAt": "2026-06-21T04:55:55.784Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -13,13 +13,32 @@
       "label": "2026년 6월",
       "lessons": [
         {
+          "date": "2026-06-22",
+          "weekday": "월",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "부교재 예상 문제 1회 오답 다시 풀어보기",
+              "dueDate": "2026-06-22",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
+        {
           "date": "2026-06-20",
           "weekday": "토",
           "className": "조예나 개별",
           "content": "학교 부교재 예상문제 4회분 분출\n1회 풀이",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-19",
@@ -28,7 +47,9 @@
           "content": "학교 부교재 마무리\n교과서 풀이 시작",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-15",
@@ -37,7 +58,15 @@
           "content": "부교재 수열의 합과 수학적 귀납법 마무리.\n부교재 끝. \n복습 + 교과서",
           "task": "",
           "taskDue": "",
-          "myNote": "Sn이 포함된 귀납적 정의에서 주의 사항 체크."
+          "myNote": "Sn이 포함된 귀납적 정의에서 주의 사항 체크.",
+          "extraAssignments": [
+            {
+              "title": "부교재 수학적 귀납법 유형완성하기 풀어오기",
+              "dueDate": "2026-06-15",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": true
         },
         {
           "date": "2026-06-13",
@@ -46,7 +75,9 @@
           "content": "오답노트 반복 & 질문",
           "task": "부교재 수학적 귀납법 유형완성하기 풀어오기",
           "taskDue": "2026-06-15",
-          "myNote": "시그마 부분이 약하니, 추가 보충 필요함."
+          "myNote": "시그마 부분이 약하니, 추가 보충 필요함.",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-10",
@@ -55,7 +86,15 @@
           "content": "과제로 나간 오답노트 3개 풀이",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "오답노트 2~3개(4차시에 해당하는) 풀어오기",
+              "dueDate": "2026-06-10",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": true
         },
         {
           "date": "2026-06-08",
@@ -64,7 +103,15 @@
           "content": "부교재 수열의 합 풀이",
           "task": "오답노트 2~3개(4차시에 해당하는) 풀어오기",
           "taskDue": "2026-06-10",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "부교재 120쪽 42번까지 풀어오기",
+              "dueDate": "2026-06-08",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": true
         },
         {
           "date": "2026-06-06",
@@ -73,7 +120,15 @@
           "content": "모의고사 오답(19, 28번) 질문\n부교재 풀이",
           "task": "부교재 120쪽 42번까지 풀어오기",
           "taskDue": "2026-06-08",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "1. 부교재 풀기\n2. 6월 모의고사 17, 19, 20, 27, 28 오답 해오기",
+              "dueDate": "2026-06-06",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": true
         },
         {
           "date": "2026-06-04",
@@ -82,7 +137,9 @@
           "content": "1. 6월 모의고사\n- 73점(1등급컷 80~84점 예상)\n- 2문제(19, 21번) 찍어서 맞춤(-8점)\n- 틀린 문제 : 12, 17, 20, 27, 28, 29, 30번",
           "task": "1. 부교재 풀기\n2. 6월 모의고사 17, 19, 20, 27, 28 오답 해오기",
           "taskDue": "2026-06-06",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-01",
@@ -91,7 +148,9 @@
           "content": "8단원 등차수열과 등비수열 - 서술형 완성하기",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         }
       ],
       "completionRate": {
@@ -147,57 +206,5 @@
     }
   ],
   "tests": [],
-  "effortLogs": null,
-  "assignments": [
-    {
-      "id": "task_1781965845162_p4an5s",
-      "title": "부교재 예상 문제 1회 오답 다시 풀어보기",
-      "content": "",
-      "dueDate": "2026-06-22",
-      "assignedDate": "2026-06-20",
-      "fromLesson": true,
-      "isConfirmed": false,
-      "isRepeat": false
-    },
-    {
-      "id": "task_1781399987259_fergd4",
-      "title": "부교재 수학적 귀납법 유형완성하기 풀어오기",
-      "content": "",
-      "dueDate": "2026-06-15",
-      "assignedDate": "2026-06-14",
-      "fromLesson": true,
-      "isConfirmed": true,
-      "isRepeat": false
-    },
-    {
-      "id": "task_1780919677088_axztl2",
-      "title": "오답노트 2~3개(4차시에 해당하는) 풀어오기",
-      "content": "",
-      "dueDate": "2026-06-10",
-      "assignedDate": "2026-06-08",
-      "fromLesson": true,
-      "isConfirmed": true,
-      "isRepeat": false
-    },
-    {
-      "id": "task_1780750860339_e5zhe0",
-      "title": "부교재 120쪽 42번까지 풀어오기",
-      "content": "",
-      "dueDate": "2026-06-08",
-      "assignedDate": "2026-06-06",
-      "fromLesson": true,
-      "isConfirmed": true,
-      "isRepeat": false
-    },
-    {
-      "id": "task_1780577128102_r7e7xq",
-      "title": "1. 부교재 풀기\n2. 6월 모의고사 17, 19, 20, 27, 28 오답 해오기",
-      "content": "",
-      "dueDate": "2026-06-06",
-      "assignedDate": "2026-06-04",
-      "fromLesson": true,
-      "isConfirmed": true,
-      "isRepeat": false
-    }
-  ]
+  "effortLogs": null
 }

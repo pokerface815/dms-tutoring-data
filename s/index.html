@@ -1612,7 +1612,8 @@
       formData.append('tags', `student_${studentCode},lecture_watch_submission`);
       formData.append('context', `student_code=${studentCode}|kind=lecture_watch_submission|video_count=${payload.videoCount}`);
       const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
-      const res = await fetch(url, { method: 'POST', body: formData });
+      // keepalive: 페이지가 백그라운드/종료되어도 업로드 완료 보장 (페이로드 64KB 이내)
+      const res = await fetch(url, { method: 'POST', body: formData, keepalive: true });
       const data = await res.json();
       if (!res.ok || !data.secure_url) {
         throw new Error((data.error && data.error.message) || `업로드 실패 (${res.status})`);
@@ -1647,6 +1648,22 @@
   // 페이지 이탈 시 마지막 동기화 시도
   window.addEventListener('beforeunload', () => {
     flushLectureSyncIfPending();
+    if (typeof flushEffortSyncIfPending === 'function') flushEffortSyncIfPending();
+  });
+
+  // 모바일: 홈 화면 진입 / 화면 잠금 / 탭 전환 직전에 강제 동기화
+  // visibilitychange는 페이지가 hidden 상태로 가기 직전에 발생함
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      flushLectureSyncIfPending();
+      if (typeof flushEffortSyncIfPending === 'function') flushEffortSyncIfPending();
+    }
+  });
+
+  // pagehide는 모바일 Safari에서 더 안정적 — beforeunload가 안 도는 경우 보강
+  window.addEventListener('pagehide', () => {
+    flushLectureSyncIfPending();
+    if (typeof flushEffortSyncIfPending === 'function') flushEffortSyncIfPending();
   });
 
   function renderGradesView(data) {
@@ -1815,7 +1832,8 @@
       formData.append('tags', `student_${studentCode},effort_log_submission`);
       formData.append('context', `student_code=${studentCode}|kind=effort_log_submission|log_count=${snapshotCount}`);
       const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
-      const res = await fetch(url, { method: 'POST', body: formData });
+      // keepalive: 페이지가 백그라운드/종료되어도 업로드 완료 보장
+      const res = await fetch(url, { method: 'POST', body: formData, keepalive: true });
       const data = await res.json();
       if (!res.ok || !data.secure_url) {
         throw new Error((data.error && data.error.message) || `업로드 실패 (${res.status})`);
@@ -3011,7 +3029,8 @@
       formData.append('tags', `student_${studentCode},reflection_submission`);
       formData.append('context', `student_code=${studentCode}|kind=reflection_submission`);
       const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
-      const res = await fetch(url, { method: 'POST', body: formData });
+      // keepalive: 페이지가 백그라운드/종료되어도 업로드 완료 보장
+      const res = await fetch(url, { method: 'POST', body: formData, keepalive: true });
       const data = await res.json();
       if (!res.ok || !data.secure_url) throw new Error((data.error && data.error.message) || '업로드 실패');
       const now = new Date().toISOString();

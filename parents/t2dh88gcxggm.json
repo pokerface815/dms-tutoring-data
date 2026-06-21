@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20T14:31:38.424Z",
+  "generatedAt": "2026-06-21T02:41:38.979Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -78,5 +78,6 @@
       "comment": "5번 문항을 제외한 2문제는 풀었어야 했던 문제임. 상 수준의 문항은 모두 맞췄음."
     }
   ],
-  "effortLogs": null
+  "effortLogs": null,
+  "assignments": []
 }

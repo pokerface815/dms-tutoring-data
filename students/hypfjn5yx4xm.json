@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-21T05:02:29.304Z",
+  "generatedAt": "2026-06-21T08:42:15.641Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -18,6 +18,17 @@
       "noteName": "이경주_수매씽 유형_수열의 합(2차 오답)",
       "subject": "대수",
       "round": 4,
+      "plannedDate": "2026-06-21",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1782031302470_7xoavo",
+      "noteName": "이경주_개념루트_재오답_6월21일",
+      "subject": "대수",
+      "round": 1,
       "plannedDate": "2026-06-21",
       "done": false,
       "doneAt": null,
@@ -390,9 +401,9 @@
     }
   ],
   "weekProgress": {
-    "total": 9,
+    "total": 10,
     "done": 8,
-    "percent": 89,
+    "percent": 80,
     "startDate": "2026-06-15",
     "endDate": "2026-06-21"
   },

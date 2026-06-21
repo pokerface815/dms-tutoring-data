@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T02:59:30.535Z",
+  "generatedAt": "2026-06-21T04:56:17.334Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -19,7 +19,9 @@
           "content": "시험 대비 프린트 풀이",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-12",
@@ -28,7 +30,9 @@
           "content": "주간테스트",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-10",
@@ -37,7 +41,9 @@
           "content": "대수 - 등차수열의 일반항, 합",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-08",
@@ -46,7 +52,9 @@
           "content": "대수 - 수열의 귀납적 정의, 수학적 귀납법 수업영상으로 마무리\n미적분1 - 도함수의 활용(함수의 그래프 + 함수의 최대,최소)",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-01",
@@ -55,7 +63,9 @@
           "content": "대수 개+유 유형편\n사인, 코사인법칙 질문 및 등차, 등비수열",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         }
       ],
       "completionRate": null,
@@ -78,6 +88,5 @@
       "comment": "5번 문항을 제외한 2문제는 풀었어야 했던 문제임. 상 수준의 문항은 모두 맞췄음."
     }
   ],
-  "effortLogs": null,
-  "assignments": []
+  "effortLogs": null
 }

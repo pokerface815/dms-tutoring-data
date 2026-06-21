@@ -1138,10 +1138,12 @@
 
     const sid = (studentData?.student?.id) || '';
     const myClassIds = (studentData?.student?.classes) || [];
+    const myGrade = (studentData?.student?.grade) || '';
 
-    // 'restricted' — 반 또는 학생 어느 쪽이든 매칭되면 권한 있음
+    // 'restricted' — 학년/반/학생 어느 쪽이든 매칭되면 권한 있음
     if (p.type === 'restricted') {
       if (Array.isArray(p.studentIds) && p.studentIds.includes(sid)) return true;
+      if (myGrade && Array.isArray(p.grades) && p.grades.includes(myGrade)) return true;
       if (Array.isArray(p.classIds) && Array.isArray(myClassIds)
           && p.classIds.some(cid => myClassIds.includes(cid))) return true;
       return false;

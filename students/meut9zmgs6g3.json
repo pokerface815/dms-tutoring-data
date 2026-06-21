@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-21T11:03:58.229Z",
+  "generatedAt": "2026-06-21T17:51:44.515Z",
   "student": {
     "id": "s_1778908285779_1cmzde",
     "classes": [
@@ -102,11 +102,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-06-15",
-    "endDate": "2026-06-21"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-28"
   },
   "teacherConfirms": {},
   "tasks": [],

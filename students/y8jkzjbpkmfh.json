@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:12.273Z",
+  "generatedAt": "2026-06-21T02:41:00.754Z",
   "student": {
+    "id": "s_1778397156600_clkd2u",
+    "classes": [
+      "cls_1780310061018_vay6zf"
+    ],
     "name": "서연준",
     "school": "살레시오고",
     "grade": "고2",

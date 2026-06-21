@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:33.174Z",
+  "generatedAt": "2026-06-21T02:41:31.385Z",
   "student": {
+    "id": "s_1779948611035_qbdt5h",
+    "classes": [
+      "cls_1780309370989_i1lo00"
+    ],
     "name": "서준우",
     "school": "살레시오중",
     "grade": "중2",

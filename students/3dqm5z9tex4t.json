@@ -1,7 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:32:02.153Z",
+  "generatedAt": "2026-06-21T02:42:15.320Z",
   "student": {
+    "id": "s_1780633652940_9hqjzx",
+    "classes": [
+      "cls_1780311125071_i1638e",
+      "cls_1780910683163_gtovnl"
+    ],
     "name": "박은준",
     "school": "살레시오중",
     "grade": "중3",

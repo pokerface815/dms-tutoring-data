@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:05.830Z",
+  "generatedAt": "2026-06-21T02:40:51.452Z",
   "student": {
+    "id": "s_1777547014208_7l30nn",
+    "classes": [
+      "cls_1780310095581_j36rd5"
+    ],
     "name": "박다윤",
     "school": "경신여고",
     "grade": "고2",

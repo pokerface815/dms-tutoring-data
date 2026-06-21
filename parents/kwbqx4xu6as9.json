@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T02:59:26.543Z",
+  "generatedAt": "2026-06-21T04:56:14.218Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -19,7 +19,9 @@
           "content": "시험 대비 프린트 풀이",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-12",
@@ -28,7 +30,9 @@
           "content": "주간테스트",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-10",
@@ -37,7 +41,15 @@
           "content": "교과서 상 문제 변형 프린트\n시험 대비 프린트 분출",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "일품 4장 풀기",
+              "dueDate": "2026-06-10",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": true
         },
         {
           "date": "2026-06-08",
@@ -46,7 +58,26 @@
           "content": "공수1 개+유 유형편 누락부분 채우면서 질문\n다음 시간부터 기말고사 대비 시작",
           "task": "일품 4장 풀기",
           "taskDue": "2026-06-10",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        },
+        {
+          "date": "2026-06-05",
+          "weekday": "금",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "일품 91쪽까지",
+              "dueDate": "2026-06-05",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": false
         },
         {
           "date": "2026-06-01",
@@ -55,13 +86,44 @@
           "content": "일품 연립방정식의 풀이 및 활용\n부족한 부분 보충(채점, 오답, 질문)",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         }
       ],
       "completionRate": {
         "done": 1,
         "total": 2,
         "percent": 50
+      },
+      "noteStages": null
+    },
+    {
+      "ym": "2026-05",
+      "label": "2026년 5월",
+      "lessons": [
+        {
+          "date": "2026-05-31",
+          "weekday": "일",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "일품 10장",
+              "dueDate": "2026-05-31",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": false
+        }
+      ],
+      "completionRate": {
+        "done": 1,
+        "total": 1,
+        "percent": 100
       },
       "noteStages": null
     }
@@ -82,37 +144,5 @@
       "comment": "최근에 본 테스트 모두 준우가 약한 단원 위주로 출제하고 있어서 오답이 많은 편입니다. 이차부등식 단원은 시험에 대한 예고가 되지 않아서 유독 많이 틀린 것 같습니다."
     }
   ],
-  "effortLogs": null,
-  "assignments": [
-    {
-      "id": "task_1780920727933_jhbwrr",
-      "title": "일품 4장 풀기",
-      "content": "",
-      "dueDate": "2026-06-10",
-      "assignedDate": "2026-06-08",
-      "fromLesson": true,
-      "isConfirmed": false,
-      "isRepeat": false
-    },
-    {
-      "id": "task_1780311172383_7hlf90",
-      "title": "일품 91쪽까지",
-      "content": "",
-      "dueDate": "2026-06-05",
-      "assignedDate": "2026-06-01",
-      "fromLesson": true,
-      "isConfirmed": true,
-      "isRepeat": false
-    },
-    {
-      "id": "task_1780044346438_o1f994",
-      "title": "일품 10장",
-      "content": "",
-      "dueDate": "2026-05-31",
-      "assignedDate": "2026-05-29",
-      "fromLesson": true,
-      "isConfirmed": true,
-      "isRepeat": false
-    }
-  ]
+  "effortLogs": null
 }

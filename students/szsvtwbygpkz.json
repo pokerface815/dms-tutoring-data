@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:30.713Z",
+  "generatedAt": "2026-06-21T02:41:28.316Z",
   "student": {
+    "id": "s_1779811264964_kbtli4",
+    "classes": [
+      "cls_1780310061018_vay6zf"
+    ],
     "name": "김한비",
     "school": "전사고",
     "grade": "고2",

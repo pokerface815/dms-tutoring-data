@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:41.366Z",
+  "generatedAt": "2026-06-21T02:41:43.556Z",
   "student": {
+    "id": "s_1780314459772_3emo5z",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "name": "강화진",
     "school": "",
     "grade": "중3",

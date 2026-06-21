@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:45.463Z",
+  "generatedAt": "2026-06-21T02:41:50.230Z",
   "student": {
+    "id": "s_1780314459772_u5kn1l",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "name": "문현빈",
     "school": "",
     "grade": "중3",

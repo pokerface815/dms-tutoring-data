@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:56.009Z",
+  "generatedAt": "2026-06-21T02:42:05.488Z",
   "student": {
+    "id": "s_1780314459772_hl9biz",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "name": "이도겸",
     "school": "",
     "grade": "중3",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-21T11:03:41.296Z",
+  "generatedAt": "2026-06-21T17:51:27.407Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -13,6 +13,19 @@
     "showMakeNote": true
   },
   "today": [
+    {
+      "assignmentId": "a_1780325196252_vl7pxy",
+      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-22",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "overdue": [
     {
       "assignmentId": "a_1780153722620_6lfbh5",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
@@ -36,8 +49,30 @@
       "missedAt": null
     }
   ],
-  "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1781536830575_5ol8ni",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-23",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1781628866853_g8jo39",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법(고난도 3,4,5)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-26",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1781628866853_g8jo39",
@@ -401,11 +436,11 @@
     }
   ],
   "weekProgress": {
-    "total": 6,
-    "done": 4,
-    "percent": 67,
-    "startDate": "2026-06-15",
-    "endDate": "2026-06-21"
+    "total": 3,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-28"
   },
   "teacherConfirms": {
     "a_1779287559980_ge3q7f__3": {

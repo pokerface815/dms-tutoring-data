@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:43.311Z",
+  "generatedAt": "2026-06-21T02:41:46.952Z",
   "student": {
+    "id": "s_1780314459772_slkq6q",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "name": "김소윤",
     "school": "",
     "grade": "중3",

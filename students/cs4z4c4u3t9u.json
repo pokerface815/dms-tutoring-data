@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:28.666Z",
+  "generatedAt": "2026-06-21T02:41:25.382Z",
   "student": {
+    "id": "s_1779628208770_oahez9",
+    "classes": [
+      "cls_1780310061018_vay6zf"
+    ],
     "name": "박현우",
     "school": "살레시오고",
     "grade": "고2",

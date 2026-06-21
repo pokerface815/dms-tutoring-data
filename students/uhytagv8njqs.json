@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-21T10:43:41.699Z",
+  "generatedAt": "2026-06-21T11:03:37.168Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -286,10 +286,10 @@
       "confirmedAt": "2026-06-13T09:01:15.406Z"
     },
     "task_1781436387098_luyf18__1": {
-      "missed": true,
-      "missedAt": "2026-06-20T12:40:19.753Z",
-      "confirmed": false,
-      "confirmedAt": null
+      "missed": false,
+      "missedAt": null,
+      "confirmed": true,
+      "confirmedAt": "2026-06-21T11:03:32.023Z"
     },
     "task_1781447441833_wddliz__1": {
       "confirmed": true,
@@ -328,6 +328,14 @@
       "dueDate": "2026-06-20",
       "isRepeat": false,
       "assignedAt": "2026-06-14T14:30:41.833Z"
+    },
+    {
+      "assignmentId": "task_1782039798855_a47ro1",
+      "round": 1,
+      "title": "쎈 확통 다 푼 다음에 \"오답+C단계\" 다시 풀어오기",
+      "dueDate": "2026-06-27",
+      "isRepeat": false,
+      "assignedAt": "2026-06-21T11:03:18.855Z"
     }
   ],
   "myGrades": []

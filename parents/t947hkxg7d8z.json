@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T05:02:28.282Z",
+  "generatedAt": "2026-06-21T07:53:09.426Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -13,10 +13,10 @@
       "label": "2026년 6월",
       "lessons": [
         {
-          "date": "2026-06-22",
-          "weekday": "월",
-          "className": "",
-          "content": "",
+          "date": "2026-06-20",
+          "weekday": "토",
+          "className": "조예나 개별",
+          "content": "학교 부교재 예상문제 4회분 분출\n1회 풀이",
           "task": "",
           "taskDue": "",
           "myNote": "",
@@ -27,17 +27,6 @@
               "isConfirmed": false
             }
           ],
-          "hasLesson": false
-        },
-        {
-          "date": "2026-06-20",
-          "weekday": "토",
-          "className": "조예나 개별",
-          "content": "학교 부교재 예상문제 4회분 분출\n1회 풀이",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [],
           "hasLesson": true
         },
         {
@@ -59,6 +48,17 @@
           "task": "",
           "taskDue": "",
           "myNote": "Sn이 포함된 귀납적 정의에서 주의 사항 체크.",
+          "extraAssignments": [],
+          "hasLesson": true
+        },
+        {
+          "date": "2026-06-14",
+          "weekday": "일",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
           "extraAssignments": [
             {
               "title": "부교재 수학적 귀납법 유형완성하기 풀어오기",
@@ -66,7 +66,7 @@
               "isConfirmed": true
             }
           ],
-          "hasLesson": true
+          "hasLesson": false
         },
         {
           "date": "2026-06-13",
@@ -87,13 +87,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "오답노트 2~3개(4차시에 해당하는) 풀어오기",
-              "dueDate": "2026-06-10",
-              "isConfirmed": true
-            }
-          ],
+          "extraAssignments": [],
           "hasLesson": true
         },
         {
@@ -104,13 +98,7 @@
           "task": "오답노트 2~3개(4차시에 해당하는) 풀어오기",
           "taskDue": "2026-06-10",
           "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "부교재 120쪽 42번까지 풀어오기",
-              "dueDate": "2026-06-08",
-              "isConfirmed": true
-            }
-          ],
+          "extraAssignments": [],
           "hasLesson": true
         },
         {
@@ -121,13 +109,7 @@
           "task": "부교재 120쪽 42번까지 풀어오기",
           "taskDue": "2026-06-08",
           "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "1. 부교재 풀기\n2. 6월 모의고사 17, 19, 20, 27, 28 오답 해오기",
-              "dueDate": "2026-06-06",
-              "isConfirmed": true
-            }
-          ],
+          "extraAssignments": [],
           "hasLesson": true
         },
         {

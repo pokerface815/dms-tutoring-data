@@ -353,12 +353,13 @@
   .effort-cal-head { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; margin-bottom: 3px; }
   .effort-cal-head-cell { text-align: center; font-size: 10px; color: var(--text3); font-weight: 600; padding: 2px 0; }
   .effort-cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
-  .effort-cal-cell { aspect-ratio: 1; border-radius: 4px; background: var(--surface2); padding: 3px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.1s ease; }
+  .effort-cal-cell { aspect-ratio: 1; border-radius: 4px; background: var(--surface2); padding: 3px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.1s ease; container-type: inline-size; }
   .effort-cal-cell:not(.empty):active { transform: scale(0.95); }
   .effort-cal-cell.empty { background: transparent; cursor: default; }
   .effort-cal-cell.selected { box-shadow: 0 0 0 2px oklch(50% 0.18 125); }
   .effort-cal-day { font-size: 10px; color: var(--text2); font-weight: 600; }
-  .effort-cal-mins { font-size: 8.5px; color: #fff; font-weight: 700; margin-top: auto; text-align: right; }
+  /* 셀 폭에 비례하여 폰트 크기 자동 조정 (좁아도 한 줄 유지) */
+  .effort-cal-mins { font-size: clamp(7px, 17cqi, 9.5px); color: #fff; font-weight: 700; margin-top: auto; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: clip; }
 
   /* 주간 막대 클릭 */
   .effort-day-bar-col { cursor: pointer; transition: opacity 0.1s ease; padding: 2px; border-radius: 4px; }
@@ -2481,7 +2482,10 @@
       const isToday = today.getDate() === d;
       const isSelected = _effortCalSelectedDay && _effortCalSelectedDay.year === year
         && _effortCalSelectedDay.month === month && _effortCalSelectedDay.day === d;
-      const minutes = Math.floor(sec / 60);
+      const totalMin = Math.floor(sec / 60);
+      const hours = Math.floor(totalMin / 60);
+      const mins = totalMin % 60;
+      const timeText = totalMin > 0 ? `${hours}시간 ${mins}분` : '';
       const tooltip = sec > 0 ? `${d}일: ${fmtDurationShort(sec)}` : `${d}일`;
       // 농도: lightness 92% → 50%, chroma 0.06 → 0.20 (공부량 0 → 최대)
       let bgStyle;
@@ -2497,7 +2501,7 @@
       const minColor = intensity > 0.55 ? '#fff' : '#2e4f2e';
       html += `<div class="effort-cal-cell ${isToday?'today':''} ${isSelected?'selected':''}" style="${bgStyle}" title="${tooltip}" onclick="toggleEffortCalDay(${year}, ${month}, ${d})">
         <div class="effort-cal-day" style="color:${dayColor};">${d}</div>
-        ${minutes > 0 ? `<div class="effort-cal-mins" style="color:${minColor};">${minutes}분</div>` : ''}
+        ${timeText ? `<div class="effort-cal-mins" style="color:${minColor};">${timeText}</div>` : ''}
       </div>`;
     }
     html += `</div></div>`;

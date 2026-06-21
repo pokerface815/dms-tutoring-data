@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T04:56:15.752Z",
+  "generatedAt": "2026-06-21T05:02:55.522Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -15,8 +15,8 @@
         {
           "date": "2026-06-24",
           "weekday": "수",
-          "className": "",
-          "content": "",
+          "className": "S",
+          "content": "테스트",
           "task": "",
           "taskDue": "",
           "myNote": "",
@@ -27,7 +27,7 @@
               "isConfirmed": false
             }
           ],
-          "hasLesson": false
+          "hasLesson": true
         },
         {
           "date": "2026-06-06",

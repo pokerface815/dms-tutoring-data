@@ -244,10 +244,10 @@
     "confirmedAt": null
   },
   "uhytagv8njqs__task_1781436387098_luyf18__1": {
-    "missed": true,
-    "missedAt": "2026-06-20T12:40:19.753Z",
-    "confirmed": false,
-    "confirmedAt": null
+    "missed": false,
+    "missedAt": null,
+    "confirmed": true,
+    "confirmedAt": "2026-06-21T11:03:32.023Z"
   },
   "uhytagv8njqs__task_1781447441833_wddliz__1": {
     "confirmed": true,
@@ -256,5 +256,9 @@
   "3neea68kw4pt__task_1780670793023_kh56qh__1": {
     "confirmed": true,
     "confirmedAt": "2026-06-20T15:13:47.727Z"
+  },
+  "3neea68kw4pt__task_1782009623936_vg1gxb__1": {
+    "confirmed": true,
+    "confirmedAt": "2026-06-21T11:03:39.507Z"
   }
 }

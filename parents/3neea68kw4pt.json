@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T05:02:55.522Z",
+  "generatedAt": "2026-06-21T07:53:01.486Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -20,18 +20,12 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "학부모 페이지 테스트",
-              "dueDate": "2026-06-24",
-              "isConfirmed": false
-            }
-          ],
+          "extraAssignments": [],
           "hasLesson": true
         },
         {
-          "date": "2026-06-06",
-          "weekday": "토",
+          "date": "2026-06-21",
+          "weekday": "일",
           "className": "",
           "content": "",
           "task": "",
@@ -39,9 +33,9 @@
           "myNote": "",
           "extraAssignments": [
             {
-              "title": "반복 과제 확인",
-              "dueDate": "2026-06-06",
-              "isConfirmed": true
+              "title": "학부모 페이지 테스트",
+              "dueDate": "2026-06-24",
+              "isConfirmed": false
             }
           ],
           "hasLesson": false
@@ -54,7 +48,13 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
-          "extraAssignments": [],
+          "extraAssignments": [
+            {
+              "title": "반복 과제 확인",
+              "dueDate": "2026-06-06",
+              "isConfirmed": true
+            }
+          ],
           "hasLesson": true
         },
         {
@@ -128,22 +128,31 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-20T15:31:50.343Z",
+    "uploadedAt": "2026-06-21T05:52:32.766Z",
     "summary": {
-      "todaySec": 973,
-      "weekSec": 65090,
-      "monthSec": 65090,
+      "todaySec": 19228,
+      "weekSec": 83345,
+      "monthSec": 83345,
       "streak": 4,
       "bySubjectMonth": {
         "확통": 8293,
         "클로드": 6923,
         "문제DB": 4457,
         "과외": 20260,
-        "학원": 24184,
+        "학원": 42439,
         "미적분Ⅰ": 973
       }
     },
     "logs": [
+      {
+        "id": "effort_mqnddr9dvmz",
+        "startedAt": 1782002880322,
+        "seconds": 18255,
+        "subject": "학원",
+        "method": "문제 풀이",
+        "content": "오전 수업",
+        "reflection": ""
+      },
       {
         "id": "effort_mqmimvpp2uo",
         "startedAt": 1781968993231,

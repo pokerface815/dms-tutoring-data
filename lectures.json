@@ -601,11 +601,12 @@
     ],
     "permissions": {
       "type": "all",
+      "grades": [],
       "classIds": [],
       "studentIds": []
     },
     "createdAt": "2026-06-19T10:28:36.728Z",
-    "updatedAt": "2026-06-21T10:43:23.042Z",
+    "updatedAt": "2026-06-21T18:28:35.634Z",
     "lastSyncedAt": "2026-06-20T07:15:24.988Z",
     "textbook": "개념+유형",
     "memo": ""

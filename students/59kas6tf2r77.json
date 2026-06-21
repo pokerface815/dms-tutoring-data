@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:32:12.904Z",
+  "generatedAt": "2026-06-21T02:42:30.679Z",
   "student": {
+    "id": "s_1780833047673_dy7d3f",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
     "name": "조은별",
     "school": "숭일고",
     "grade": "고2",

@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:16.279Z",
+  "generatedAt": "2026-06-21T02:41:06.733Z",
   "student": {
+    "id": "s_1778404886523_0ag055",
+    "classes": [
+      "cls_1780310095581_j36rd5"
+    ],
     "name": "박다인",
     "school": "국제고",
     "grade": "고2",

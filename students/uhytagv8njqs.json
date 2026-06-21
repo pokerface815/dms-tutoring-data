@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-21T11:03:37.168Z",
+  "generatedAt": "2026-06-21T17:51:06.544Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -12,22 +12,34 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1781798454400_ppm1hv",
       "noteName": "김규림_개념루트_수열의 합( ~772번)",
       "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-21",
+      "round": 3,
+      "plannedDate": "2026-06-26",
       "done": false,
       "doneAt": null,
       "missed": false,
       "missedAt": null
     }
   ],
-  "overdue": [],
-  "upcoming": [],
   "completed": [
+    {
+      "assignmentId": "a_1781798454400_ppm1hv",
+      "noteName": "김규림_개념루트_수열의 합( ~772번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-21",
+      "done": true,
+      "doneAt": "2026-06-21T11:03:54.055Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1780135968357_h4pk5b",
       "noteName": "김규림_개념루트_등차수열과 등비수열( ~709번)",
@@ -270,11 +282,11 @@
     }
   ],
   "weekProgress": {
-    "total": 4,
-    "done": 3,
-    "percent": 75,
-    "startDate": "2026-06-15",
-    "endDate": "2026-06-21"
+    "total": 1,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-28"
   },
   "teacherConfirms": {
     "task_1780833238420_v9xdmb__1": {

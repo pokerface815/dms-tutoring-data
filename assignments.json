@@ -2537,5 +2537,33 @@
     "assignedAt": "2026-06-21T02:40:23.935Z",
     "batchId": "t_mqn6ipvk",
     "repeat": null
+  },
+  {
+    "id": "a_1782031302470_7xoavo",
+    "noteId": "note_1782031289650_ffhosl",
+    "noteName": "이경주_개념루트_재오답_6월21일",
+    "studentId": "s_1778325875686_1uoe4b",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-21",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-28",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-21T08:41:42.470Z"
   }
 ]

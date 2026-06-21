@@ -214,6 +214,74 @@
   .menu-video { border-left: 3px solid #97aac8; }
   .menu-grades { border-left: 3px solid #b095d5; }
   .menu-effort { border-left: 3px solid #e0a979; }
+  .menu-ranking { border-left: 3px solid oklch(70% 0.15 90); }
+
+  /* === 랭킹 페이지 === */
+  .ranking-summary {
+    padding: 12px 14px; margin-bottom: 12px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  }
+  .ranking-summary-head { font-size: 15px; font-weight: 700; color: var(--text); }
+  .ranking-summary-meta { font-size: 11.5px; color: var(--text3); margin-top: 3px; }
+
+  /* 내 순위 카드 (상단 강조) */
+  .ranking-my-card {
+    display: grid; grid-template-columns: auto 1fr auto auto; gap: 12px; align-items: center;
+    padding: 14px 16px; margin-bottom: 14px;
+    background: linear-gradient(135deg, oklch(96% 0.06 125), oklch(94% 0.08 125));
+    border: 1.5px solid oklch(70% 0.15 125);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(180, 220, 100, 0.18);
+  }
+  .ranking-my-label { font-size: 11.5px; color: oklch(40% 0.10 125); font-weight: 700; }
+  .ranking-my-rank { font-size: 28px; font-weight: 800; color: oklch(35% 0.18 125); line-height: 1; }
+  .ranking-my-value { font-size: 13px; font-weight: 700; color: var(--text); font-variant-numeric: tabular-nums; }
+  .ranking-my-percentile { font-size: 11px; color: oklch(45% 0.12 125); font-weight: 600; }
+
+  /* 상위 N명 영역 */
+  .ranking-top-section { margin-bottom: 14px; }
+  .ranking-section-title { font-size: 13px; font-weight: 700; color: var(--text2); margin-bottom: 8px; padding: 0 4px; }
+  .ranking-list { display: flex; flex-direction: column; gap: 4px; }
+  .ranking-row {
+    display: grid; grid-template-columns: 48px 1fr auto; gap: 12px; align-items: center;
+    padding: 10px 14px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  }
+  .ranking-row-rank { font-size: 14px; font-weight: 700; color: var(--text2); text-align: center; }
+  .ranking-row-name { font-size: 13px; color: var(--text2); }
+  .ranking-row-value { font-size: 13px; font-weight: 700; color: var(--text); font-variant-numeric: tabular-nums; }
+  /* 내 행 강조 */
+  .ranking-row-me {
+    background: linear-gradient(135deg, oklch(96% 0.06 125), oklch(94% 0.08 125));
+    border-color: oklch(70% 0.15 125); border-width: 1.5px;
+  }
+  .ranking-row-me .ranking-row-rank { color: oklch(35% 0.18 125); font-weight: 800; }
+  .ranking-row-me .ranking-row-name { color: oklch(35% 0.18 125); font-weight: 700; }
+  .ranking-row-me .ranking-row-value { color: oklch(30% 0.20 125); }
+  .ranking-divider { text-align: center; padding: 6px 0; color: var(--text3); font-size: 14px; }
+  .ranking-cheer {
+    margin-top: 16px; padding: 12px 14px;
+    background: oklch(97% 0.03 90); border: 1px solid oklch(88% 0.06 90); border-radius: 10px;
+    font-size: 12.5px; color: var(--text); text-align: center; line-height: 1.55;
+  }
+
+  /* 노력의 자취 화면 상단 미니 카드 */
+  .ranking-mini-card {
+    display: flex; gap: 10px; align-items: center;
+    padding: 10px 14px; margin-bottom: 12px;
+    background: linear-gradient(135deg, oklch(96% 0.05 125), oklch(94% 0.07 125));
+    border: 1px solid oklch(80% 0.10 125); border-radius: 11px;
+    text-decoration: none; color: inherit; cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.15s;
+  }
+  .ranking-mini-card:hover { box-shadow: 0 2px 8px rgba(180, 220, 100, 0.2); }
+  .ranking-mini-card:active { transform: scale(0.98); }
+  .ranking-mini-emoji { font-size: 22px; flex-shrink: 0; }
+  .ranking-mini-info { flex: 1; min-width: 0; }
+  .ranking-mini-title { font-size: 11.5px; color: oklch(40% 0.10 125); font-weight: 700; }
+  .ranking-mini-meta { font-size: 12px; color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; margin-top: 1px; }
+  .ranking-mini-rank { font-size: 22px; font-weight: 800; color: oklch(35% 0.18 125); line-height: 1; font-variant-numeric: tabular-nums; flex-shrink: 0; }
+  .ranking-mini-arrow { font-size: 18px; color: oklch(45% 0.12 125); flex-shrink: 0; }
 
   /* === 노력의 자취 (타이머 + 기록) === */
   .effort-timer-card {
@@ -932,6 +1000,17 @@
         </div>
       </div>`;
       body = renderEffortView(data);
+    } else if (view === 'ranking') {
+      actionBar = `<div class="page-header-bar">
+        <a href="#menu" class="back-link">← 메인으로</a>
+        <div class="effort-top-tabs">
+          <button class="effort-top-tab ${_rankingTab==='streak'?'active':''}" onclick="switchRankingTab('streak')">🔥 연속</button>
+          <button class="effort-top-tab ${_rankingTab==='week'?'active':''}" onclick="switchRankingTab('week')">📅 이번 주</button>
+          <button class="effort-top-tab ${_rankingTab==='month'?'active':''}" onclick="switchRankingTab('month')">📆 이번 달</button>
+          <button class="effort-top-tab ${_rankingTab==='total'?'active':''}" onclick="switchRankingTab('total')">🏆 누적</button>
+        </div>
+      </div>`;
+      body = renderRankingView(data);
     } else {
       body = renderMainMenu(data);
     }
@@ -955,6 +1034,9 @@
     if (view === 'video') {
       initVideoScreen(detail);
     }
+    if (view === 'ranking') {
+      initRankingScreen();
+    }
   }
 
   function backLinkHtml() { return ''; }  // 이제 sticky-top에서 처리
@@ -975,6 +1057,10 @@
         </a>
         <a href="#grades" class="menu-card menu-grades">
           <div class="menu-label">성적 관리</div>
+        </a>
+        <a href="#ranking" class="menu-card menu-ranking">
+          <div class="menu-label">🏆 랭킹</div>
+          <div class="menu-sub">익명 · 친구들과 비교</div>
         </a>
       </div>
     `;
@@ -1871,6 +1957,212 @@
     return html;
   }
 
+  // ============================================================
+  // ===== 랭킹 시스템 =====
+  // ============================================================
+  let _rankingTab = 'week';   // 'streak' | 'week' | 'month' | 'total'
+  let _rankingData = null;     // fetch한 rankings.json 캐시
+
+  window.switchRankingTab = function(tab) {
+    _rankingTab = tab;
+    document.querySelectorAll('.page-header-bar .effort-top-tab').forEach(b => {
+      const txt = b.textContent.trim();
+      const map = { 'streak': '🔥', 'week': '이번 주', 'month': '이번 달', 'total': '누적' };
+      b.classList.toggle('active', txt.includes(map[tab]));
+    });
+    renderRankingContent();
+  };
+
+  function renderRankingView(data) {
+    return `<div id="rankingContentWrap" style="padding:2px;"></div>`;
+  }
+
+  async function initRankingScreen() {
+    renderRankingContent();  // 일단 로딩 상태 그리기
+    await fetchRankingData();
+    renderRankingContent();  // 받은 데이터로 다시 그리기
+  }
+
+  async function fetchRankingData() {
+    if (_rankingData) return _rankingData;  // 이미 받았으면 재사용
+    try {
+      const url = `../rankings.json?t=${Date.now()}`;
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) {
+        console.warn('[랭킹] rankings.json 받기 실패:', res.status);
+        return null;
+      }
+      _rankingData = await res.json();
+      return _rankingData;
+    } catch (e) {
+      console.warn('[랭킹] 네트워크 오류:', e);
+      return null;
+    }
+  }
+
+  // 4가지 기준의 정렬된 랭킹 리스트
+  function getRankingByKey(key) {
+    if (!_rankingData || !Array.isArray(_rankingData.rankings)) return [];
+    const list = _rankingData.rankings.slice();
+    list.sort((a, b) => (b[key] || 0) - (a[key] || 0));
+    // 순위 부여 (동점 처리: 같은 값이면 같은 순위)
+    let prevVal = null, prevRank = 0;
+    list.forEach((item, i) => {
+      const v = item[key] || 0;
+      if (v === prevVal) item._rank = prevRank;
+      else { item._rank = i + 1; prevRank = i + 1; prevVal = v; }
+    });
+    return list;
+  }
+
+  function getMyRankingEntry(key) {
+    const list = getRankingByKey(key);
+    const myId = studentData?.student?.id;
+    if (!myId) return null;
+    const entry = list.find(it => it.id === myId);
+    if (!entry) return null;
+    return { ...entry, _total: list.length, _list: list };
+  }
+
+  function fmtRankingValue(key, value) {
+    if (key === 'streak') return `${value || 0}일`;
+    const sec = value || 0;
+    const totalMin = Math.floor(sec / 60);
+    const h = Math.floor(totalMin / 60);
+    const m = totalMin % 60;
+    if (h > 0) return `${h}h ${m}m`;
+    return `${m}m`;
+  }
+
+  function renderRankingContent() {
+    const wrap = document.getElementById('rankingContentWrap');
+    if (!wrap) return;
+    if (!_rankingData) {
+      wrap.innerHTML = `<div style="padding:40px 20px; text-align:center; color:var(--text3); font-size:13px;">랭킹 데이터를 받아오는 중...</div>`;
+      return;
+    }
+    if (!Array.isArray(_rankingData.rankings) || _rankingData.rankings.length === 0) {
+      wrap.innerHTML = `<div style="padding:40px 20px; text-align:center; color:var(--text3); font-size:13px;">아직 랭킹 데이터가 없어요.</div>`;
+      return;
+    }
+
+    const tabKey = _rankingTab === 'streak' ? 'streak'
+                 : _rankingTab === 'week' ? 'weekSec'
+                 : _rankingTab === 'month' ? 'monthSec'
+                 : 'totalSec';
+    const tabLabel = _rankingTab === 'streak' ? '연속 일수'
+                   : _rankingTab === 'week' ? '이번 주 공부 시간'
+                   : _rankingTab === 'month' ? '이번 달 공부 시간'
+                   : '전체 누적 공부 시간';
+    const tabEmoji = _rankingTab === 'streak' ? '🔥'
+                   : _rankingTab === 'week' ? '📅'
+                   : _rankingTab === 'month' ? '📆' : '🏆';
+
+    const my = getMyRankingEntry(tabKey);
+    const totalStudents = _rankingData.studentCount || 0;
+    const list = my ? my._list : getRankingByKey(tabKey);
+
+    // 상위 10명 추출
+    const TOP_N = 10;
+    const top = list.slice(0, TOP_N);
+    const myId = studentData?.student?.id;
+    const myInTop = my && my._rank <= TOP_N;
+
+    // 상위 N명 렌더
+    const medalFor = (rank) => rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : '';
+
+    let html = `
+      <div class="ranking-summary">
+        <div class="ranking-summary-head">${tabEmoji} ${tabLabel}</div>
+        <div class="ranking-summary-meta">전체 ${totalStudents}명 참여 중</div>
+      </div>
+    `;
+
+    // 내 순위 카드 (상단)
+    if (my) {
+      const myValue = fmtRankingValue(tabKey, my[tabKey]);
+      const percentile = totalStudents > 0 ? Math.round((my._rank / totalStudents) * 100) : 0;
+      html += `
+        <div class="ranking-my-card">
+          <div class="ranking-my-label">👉 내 순위</div>
+          <div class="ranking-my-rank">${my._rank}<span style="font-size:14px; font-weight:600;">위</span></div>
+          <div class="ranking-my-value">${myValue}</div>
+          <div class="ranking-my-percentile">상위 ${percentile}%</div>
+        </div>
+      `;
+    }
+
+    // 상위 10명
+    html += `<div class="ranking-top-section">`;
+    html += `<div class="ranking-section-title">🏆 상위 ${Math.min(TOP_N, list.length)}명</div>`;
+    html += `<div class="ranking-list">`;
+    for (const item of top) {
+      const isMe = item.id === myId;
+      const medal = medalFor(item._rank);
+      const value = fmtRankingValue(tabKey, item[tabKey]);
+      const valHidden = (item[tabKey] || 0) === 0;
+      html += `
+        <div class="ranking-row ${isMe ? 'ranking-row-me' : ''}">
+          <div class="ranking-row-rank">${medal || item._rank}</div>
+          <div class="ranking-row-name">${isMe ? '나' : '익명'}</div>
+          <div class="ranking-row-value">${valHidden ? '-' : value}</div>
+        </div>
+      `;
+    }
+    html += `</div>`;
+
+    // 내가 TOP_N 밖이면 별도 표시
+    if (my && !myInTop) {
+      const value = fmtRankingValue(tabKey, my[tabKey]);
+      html += `
+        <div class="ranking-divider">⋯</div>
+        <div class="ranking-list">
+          <div class="ranking-row ranking-row-me">
+            <div class="ranking-row-rank">${my._rank}</div>
+            <div class="ranking-row-name">나</div>
+            <div class="ranking-row-value">${value}</div>
+          </div>
+        </div>
+      `;
+    }
+    html += `</div>`;
+
+    // 응원 메시지
+    if (my) {
+      let msg = '';
+      if (my._rank === 1) msg = '🎉 1위! 친구들에게 자랑할 만해요.';
+      else if (my._rank <= 3) msg = '🏆 메달권 진입! 정상까지 얼마 남지 않았어요.';
+      else if (my._rank <= TOP_N) msg = '⭐ 상위권에 있어요. 꾸준히 가요!';
+      else if (my._rank <= totalStudents / 2) msg = '💪 한 단계씩 올라가 봐요.';
+      else msg = '🌱 작은 시작이 큰 차이를 만들어요.';
+      html += `<div class="ranking-cheer">${msg}</div>`;
+    }
+
+    wrap.innerHTML = html;
+  }
+
+  // 노력의 자취 화면 상단의 미니 "내 순위" 카드 (HTML 반환만, 비동기 fetch 불필요)
+  function renderRankingMiniCard() {
+    if (!_rankingData) return '';  // 데이터 없으면 표시 안 함
+    const my = getMyRankingEntry('weekSec');
+    if (!my) return '';
+    const total = _rankingData.studentCount || 0;
+    if (total === 0) return '';
+    const percentile = Math.round((my._rank / total) * 100);
+    const value = fmtRankingValue('weekSec', my.weekSec);
+    return `
+      <a href="#ranking" class="ranking-mini-card">
+        <div class="ranking-mini-emoji">📅</div>
+        <div class="ranking-mini-info">
+          <div class="ranking-mini-title">이번 주 내 순위</div>
+          <div class="ranking-mini-meta">${value} · 상위 ${percentile}%</div>
+        </div>
+        <div class="ranking-mini-rank">${my._rank}<span style="font-size:11px; font-weight:600;">/${total}</span></div>
+        <div class="ranking-mini-arrow">›</div>
+      </a>
+    `;
+  }
+
   let _gradesInputTab = 'naesin';  // 'naesin' | 'mock'
   window.switchGradesInputTab = function(tab) {
     _gradesInputTab = tab;
@@ -1898,10 +2190,19 @@
       <div style="font-size:13px; color:var(--text2); margin:0 0 6px; line-height:1.6;">공부 시작할 때 타이머 켜고, 끝날 때 기록을 남겨주세요.</div>
       <div style="font-size:11.5px; color:var(--text3); margin:0 0 10px; padding:7px 10px; background:var(--surface2); border-radius:6px; line-height:1.5;">💡 측정 중에는 다른 화면을 보거나 페이지를 닫아도 타이머가 그대로 유지돼요.</div>
 
+      <div id="rankingMiniSlot"></div>
+
       <div class="effort-sync-row"><span id="effortSyncIndicator"></span></div>
 
       <div id="effortContentSection"></div>
     `;
+  }
+
+  // 랭킹 미니 카드 비동기 fetch + 삽입
+  async function loadAndShowRankingMiniCard() {
+    await fetchRankingData();
+    const slot = document.getElementById('rankingMiniSlot');
+    if (slot) slot.innerHTML = renderRankingMiniCard();
   }
 
   // 상단 탭 상태
@@ -2119,6 +2420,8 @@
     renderEffortSyncIndicator();
     // 화면 진입 시 미동기화 로그가 있으면 자동으로 재시도
     flushEffortSyncIfPending();
+    // 랭킹 미니 카드 비동기 로드
+    loadAndShowRankingMiniCard();
     if (_effortTimer) clearInterval(_effortTimer);
     _effortTimer = setInterval(() => {
       if (_effortTab !== 'today') return;

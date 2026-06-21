@@ -359,7 +359,13 @@
   .effort-cal-cell.selected { box-shadow: 0 0 0 2px oklch(50% 0.18 125); }
   .effort-cal-day { font-size: 10px; color: var(--text2); font-weight: 600; }
   /* 셀 폭에 비례하여 폰트 크기 자동 조정 (좁아도 한 줄 유지) */
-  .effort-cal-mins { font-size: clamp(7px, 17cqi, 9.5px); color: #fff; font-weight: 700; margin-top: auto; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: clip; }
+  .effort-cal-mins { font-size: clamp(7px, 17cqi, 9.5px); color: var(--text2); font-weight: 700; margin-top: auto; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: clip; }
+  /* 학습한 날 — 흰색 글자 + 그림자로 모든 농도에서 가독성 확보 */
+  .effort-cal-cell.studied .effort-cal-day,
+  .effort-cal-cell.studied .effort-cal-mins {
+    color: #fff;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.35), 0 1px 1.5px rgba(0, 0, 0, 0.3);
+  }
 
   /* 주간 막대 클릭 */
   .effort-day-bar-col { cursor: pointer; transition: opacity 0.1s ease; padding: 2px; border-radius: 4px; }
@@ -2496,12 +2502,9 @@
         const C = 0.06 + intensity * 0.14;
         bgStyle = `background:oklch(${L}% ${C} 125);`;
       }
-      // 텍스트 색: 농도가 진할수록 흰색
-      const dayColor = intensity > 0.55 ? '#fff' : 'var(--text2)';
-      const minColor = intensity > 0.55 ? '#fff' : '#2e4f2e';
-      html += `<div class="effort-cal-cell ${isToday?'today':''} ${isSelected?'selected':''}" style="${bgStyle}" title="${tooltip}" onclick="toggleEffortCalDay(${year}, ${month}, ${d})">
-        <div class="effort-cal-day" style="color:${dayColor};">${d}</div>
-        ${timeText ? `<div class="effort-cal-mins" style="color:${minColor};">${timeText}</div>` : ''}
+      html += `<div class="effort-cal-cell ${sec > 0 ? 'studied' : ''} ${isToday?'today':''} ${isSelected?'selected':''}" style="${bgStyle}" title="${tooltip}" onclick="toggleEffortCalDay(${year}, ${month}, ${d})">
+        <div class="effort-cal-day">${d}</div>
+        ${timeText ? `<div class="effort-cal-mins">${timeText}</div>` : ''}
       </div>`;
     }
     html += `</div></div>`;

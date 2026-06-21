@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:22.422Z",
+  "generatedAt": "2026-06-21T02:41:16.028Z",
   "student": {
+    "id": "s_1778849219765_v88lqq",
+    "classes": [
+      "cls_1780310061018_vay6zf"
+    ],
     "name": "지유진",
     "school": "문정여고",
     "grade": "고2",

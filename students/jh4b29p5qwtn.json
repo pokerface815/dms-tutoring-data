@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:32:08.809Z",
+  "generatedAt": "2026-06-21T02:42:24.538Z",
   "student": {
+    "id": "s_1780825523674_8dwstz",
+    "classes": [
+      "cls_1780310095581_j36rd5"
+    ],
     "name": "정시우",
     "school": "살레시오고",
     "grade": "고2",

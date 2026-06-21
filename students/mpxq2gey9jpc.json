@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:32:10.857Z",
+  "generatedAt": "2026-06-21T02:42:27.608Z",
   "student": {
+    "id": "s_1780825552050_3a3ma5",
+    "classes": [
+      "cls_1780310095581_j36rd5"
+    ],
     "name": "노태원",
     "school": "살레시오고",
     "grade": "고2",

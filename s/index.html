@@ -265,23 +265,23 @@
     font-size: 12.5px; color: var(--text); text-align: center; line-height: 1.55;
   }
 
-  /* 노력의 자취 화면 상단 미니 카드 */
+  /* 노력의 자취 화면 상단 미니 카드 — 다른 박스와 동일한 베이지 톤 */
   .ranking-mini-card {
     display: flex; gap: 10px; align-items: center;
     padding: 10px 14px; margin-bottom: 12px;
-    background: linear-gradient(135deg, oklch(96% 0.05 125), oklch(94% 0.07 125));
-    border: 1px solid oklch(80% 0.10 125); border-radius: 11px;
+    background: var(--surface);
+    border: 1px solid var(--border); border-radius: 11px;
     text-decoration: none; color: inherit; cursor: pointer;
-    transition: transform 0.1s ease, box-shadow 0.15s;
+    transition: transform 0.1s ease, box-shadow 0.15s, border-color 0.15s;
   }
-  .ranking-mini-card:hover { box-shadow: 0 2px 8px rgba(180, 220, 100, 0.2); }
+  .ranking-mini-card:hover { border-color: var(--accent-light); box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
   .ranking-mini-card:active { transform: scale(0.98); }
   .ranking-mini-emoji { font-size: 22px; flex-shrink: 0; }
   .ranking-mini-info { flex: 1; min-width: 0; }
-  .ranking-mini-title { font-size: 11.5px; color: oklch(40% 0.10 125); font-weight: 700; }
-  .ranking-mini-meta { font-size: 12px; color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; margin-top: 1px; }
-  .ranking-mini-rank { font-size: 22px; font-weight: 800; color: oklch(35% 0.18 125); line-height: 1; font-variant-numeric: tabular-nums; flex-shrink: 0; }
-  .ranking-mini-arrow { font-size: 18px; color: oklch(45% 0.12 125); flex-shrink: 0; }
+  .ranking-mini-title { font-size: 11.5px; color: var(--text3); font-weight: 700; }
+  .ranking-mini-meta { font-size: 12px; color: var(--text2); font-weight: 600; font-variant-numeric: tabular-nums; margin-top: 1px; }
+  .ranking-mini-rank { font-size: 22px; font-weight: 800; color: var(--text); line-height: 1; font-variant-numeric: tabular-nums; flex-shrink: 0; }
+  .ranking-mini-arrow { font-size: 18px; color: var(--text3); flex-shrink: 0; }
 
   /* === 노력의 자취 (타이머 + 기록) === */
   .effort-timer-card {
@@ -1051,10 +1051,6 @@
         <a href="#effort" class="menu-card menu-effort">
           <div class="menu-label">노력의 자취</div>
           <div class="menu-sub">타이머 + 기록</div>
-        </a>
-        <a href="#ranking" class="menu-card menu-ranking">
-          <div class="menu-label">🏆 랭킹</div>
-          <div class="menu-sub">익명 · 친구들과 비교</div>
         </a>
         <a href="#video" class="menu-card menu-video">
           <div class="menu-label">강의 영상</div>

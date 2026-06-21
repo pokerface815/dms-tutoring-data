@@ -1,230 +1,5 @@
 [
   {
-    "id": "lec_mqkr9zowwph",
-    "title": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )",
-    "youtubePlaylistId": "PLoYw3JZAX7F3LYjBoQpsI-v-viN6_obk9",
-    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F3LYjBoQpsI-v-viN6_obk9",
-    "subject": "공통수학1",
-    "thumbnailUrl": "https://i.ytimg.com/vi/KChW2PYtl2c/mqdefault.jpg",
-    "videos": [
-      {
-        "videoId": "KChW2PYtl2c",
-        "title": "17~19쪽 곱셈공식의 변형 필수6~8",
-        "position": 0,
-        "durationSec": 2969
-      },
-      {
-        "videoId": "sWO_88oqgvU",
-        "title": "20~23쪽 다항식의 나눗셈 개념 설명 + 필수9,10",
-        "position": 1,
-        "durationSec": 2815
-      },
-      {
-        "videoId": "dCZGTt9Xgvs",
-        "title": "24~25쪽 다항식의 나눗셈 필수11,12",
-        "position": 2,
-        "durationSec": 2354
-      },
-      {
-        "videoId": "1H72EwTODUY",
-        "title": "30~33쪽 항등식, 미정계수법 개념 설명 + 필수1,2",
-        "position": 3,
-        "durationSec": 4693
-      },
-      {
-        "videoId": "R9NmWalsLFU",
-        "title": "34~38쪽 나머지정리와 인수정리",
-        "position": 4,
-        "durationSec": 3824
-      },
-      {
-        "videoId": "Ni-y5n049tw",
-        "title": "39~42쪽 나머지정리, 인수정리 필수예제 7,8,9,10 + 연습문제 15번",
-        "position": 5,
-        "durationSec": 3671
-      },
-      {
-        "videoId": "gqgB8S729Wg",
-        "title": "46~53쪽 인수분해, 복잡한 식의 인수분해",
-        "position": 6,
-        "durationSec": 4511
-      },
-      {
-        "videoId": "BejS6D84XhE",
-        "title": "54~57쪽 한문자 내림차순 정리 후 인수분해, 인수정리를 이용한 인수분해",
-        "position": 7,
-        "durationSec": 4491
-      },
-      {
-        "videoId": "nhPs5He2vz0",
-        "title": "55~60쪽 과제 질의응답",
-        "position": 8,
-        "durationSec": 4164
-      },
-      {
-        "videoId": "TSZXX0ck6Mw",
-        "title": "62~68쪽 복소수의 뜻과 사칙연산",
-        "position": 9,
-        "durationSec": 3864
-      },
-      {
-        "videoId": "_x8xEiOR850",
-        "title": "69~72쪽 i의 거듭제곱",
-        "position": 10,
-        "durationSec": 4000
-      },
-      {
-        "videoId": "LoUhX_HhA3k",
-        "title": "73~82쪽 음수의 제곱근, 이차방정식",
-        "position": 11,
-        "durationSec": 3968
-      },
-      {
-        "videoId": "Lwm2o1aNceI",
-        "title": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
-        "position": 12,
-        "durationSec": 4395
-      },
-      {
-        "videoId": "TE0dmnIF-aU",
-        "title": "95~105쪽 이차방정식과 이차함수의 관계",
-        "position": 13,
-        "durationSec": 4202
-      },
-      {
-        "videoId": "sJH5b7SkTL4",
-        "title": "106~112쪽 이차함수의 최대, 최소",
-        "position": 14,
-        "durationSec": 4137
-      },
-      {
-        "videoId": "iENXvreBGuU",
-        "title": "113~121쪽 삼차방정식과 사차방정식",
-        "position": 15,
-        "durationSec": 4135
-      },
-      {
-        "videoId": "e1HzWUZt0c8",
-        "title": "122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
-        "position": 16,
-        "durationSec": 4174
-      },
-      {
-        "videoId": "aa5XlDPSuus",
-        "title": "128~131쪽 오메가의 성질",
-        "position": 17,
-        "durationSec": 4626
-      },
-      {
-        "videoId": "Vpbwe1ellrc",
-        "title": "135~141쪽 미지수가 2개인 연립이차방정식",
-        "position": 18,
-        "durationSec": 3563
-      },
-      {
-        "videoId": "iwleCBdeEjY",
-        "title": "143~145쪽 부정방정식",
-        "position": 19,
-        "durationSec": 3939
-      },
-      {
-        "videoId": "HC4J2dxRE8A",
-        "title": "150~159쪽 일차부등식, 연립일차부등식",
-        "position": 20,
-        "durationSec": 3211
-      },
-      {
-        "videoId": "Fndr8I_jCAk",
-        "title": "160~167쪽 절댓값 기호를 포함한 일차부등식의 풀이 + 이차부등식",
-        "position": 21,
-        "durationSec": 4455
-      },
-      {
-        "videoId": "WtWbMzSLbw4",
-        "title": "168~172쪽 이차부등식의 해의 조건",
-        "position": 22,
-        "durationSec": 3902
-      },
-      {
-        "videoId": "yyZ-wNIeYNo",
-        "title": "167쪽 질문, 이후로는 시험 대비",
-        "position": 23,
-        "durationSec": 413
-      },
-      {
-        "videoId": "ydH6yIbuHy0",
-        "title": "164~167쪽 이차부등식",
-        "position": 24,
-        "durationSec": 2340
-      },
-      {
-        "videoId": "HRD255HqJQw",
-        "title": "170~174쪽 이차부등식의 해의 조건",
-        "position": 25,
-        "durationSec": 4350
-      },
-      {
-        "videoId": "3PGoJ-kg8Q8",
-        "title": "178~181쪽 연립이차부등식",
-        "position": 26,
-        "durationSec": 3194
-      },
-      {
-        "videoId": "cv5SwV_Ll2I",
-        "title": "182~184쪽 이차방정식의 실근의 부호, 실근의 위치(근의 분리)",
-        "position": 27,
-        "durationSec": 2947
-      },
-      {
-        "videoId": "_8hnksJHR4Y",
-        "title": "188~195쪽 합의 법칙, 곱의 법칙 + 채색하기",
-        "position": 28,
-        "durationSec": 1951
-      },
-      {
-        "videoId": "o7kE9JDPvv0",
-        "title": "196~205쪽 지불 방법, 금액의 수 + 순열",
-        "position": 29,
-        "durationSec": 4078
-      },
-      {
-        "videoId": "km_6ywIkyRU",
-        "title": "206~213쪽 순열 마무리, 조합",
-        "position": 30,
-        "durationSec": 4460
-      },
-      {
-        "videoId": "0ZdN1MUuVl0",
-        "title": "214~224쪽 조합 마무리, 행렬",
-        "position": 31,
-        "durationSec": 3336
-      },
-      {
-        "videoId": "o2EGfkJSvow",
-        "title": "226~238쪽 행렬의 덧셈, 뺄셈과 실수배, 곱셈",
-        "position": 32,
-        "durationSec": 2858
-      },
-      {
-        "videoId": "SADXbKNEfTQ",
-        "title": "239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
-        "position": 33,
-        "durationSec": 2064
-      }
-    ],
-    "permissions": {
-      "type": "all",
-      "grades": [],
-      "classIds": [],
-      "studentIds": []
-    },
-    "createdAt": "2026-06-19T09:58:10.160Z",
-    "updatedAt": "2026-06-21T19:29:55.781Z",
-    "lastSyncedAt": "2026-06-19T09:58:10.160Z",
-    "textbook": "개념+유형",
-    "memo": ""
-  },
-  {
     "id": "lec_mqks8brpdcl",
     "title": "대수 개념+유형 (26년 1월 ~ )_완강",
     "youtubePlaylistId": "PLoYw3JZAX7F0UmbIP4QyvOr1uIg2cnWgS",
@@ -501,6 +276,231 @@
     "createdAt": "2026-06-19T10:28:12.659Z",
     "updatedAt": "2026-06-20T06:30:59.752Z",
     "lastSyncedAt": "2026-06-19T10:28:12.659Z",
+    "textbook": "개념+유형",
+    "memo": ""
+  },
+  {
+    "id": "lec_mqkr9zowwph",
+    "title": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+    "youtubePlaylistId": "PLoYw3JZAX7F3LYjBoQpsI-v-viN6_obk9",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F3LYjBoQpsI-v-viN6_obk9",
+    "subject": "공통수학1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/KChW2PYtl2c/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "KChW2PYtl2c",
+        "title": "17~19쪽 곱셈공식의 변형 필수6~8",
+        "position": 0,
+        "durationSec": 2969
+      },
+      {
+        "videoId": "sWO_88oqgvU",
+        "title": "20~23쪽 다항식의 나눗셈 개념 설명 + 필수9,10",
+        "position": 1,
+        "durationSec": 2815
+      },
+      {
+        "videoId": "dCZGTt9Xgvs",
+        "title": "24~25쪽 다항식의 나눗셈 필수11,12",
+        "position": 2,
+        "durationSec": 2354
+      },
+      {
+        "videoId": "1H72EwTODUY",
+        "title": "30~33쪽 항등식, 미정계수법 개념 설명 + 필수1,2",
+        "position": 3,
+        "durationSec": 4693
+      },
+      {
+        "videoId": "R9NmWalsLFU",
+        "title": "34~38쪽 나머지정리와 인수정리",
+        "position": 4,
+        "durationSec": 3824
+      },
+      {
+        "videoId": "Ni-y5n049tw",
+        "title": "39~42쪽 나머지정리, 인수정리 필수예제 7,8,9,10 + 연습문제 15번",
+        "position": 5,
+        "durationSec": 3671
+      },
+      {
+        "videoId": "gqgB8S729Wg",
+        "title": "46~53쪽 인수분해, 복잡한 식의 인수분해",
+        "position": 6,
+        "durationSec": 4511
+      },
+      {
+        "videoId": "BejS6D84XhE",
+        "title": "54~57쪽 한문자 내림차순 정리 후 인수분해, 인수정리를 이용한 인수분해",
+        "position": 7,
+        "durationSec": 4491
+      },
+      {
+        "videoId": "nhPs5He2vz0",
+        "title": "55~60쪽 과제 질의응답",
+        "position": 8,
+        "durationSec": 4164
+      },
+      {
+        "videoId": "TSZXX0ck6Mw",
+        "title": "62~68쪽 복소수의 뜻과 사칙연산",
+        "position": 9,
+        "durationSec": 3864
+      },
+      {
+        "videoId": "_x8xEiOR850",
+        "title": "69~72쪽 i의 거듭제곱",
+        "position": 10,
+        "durationSec": 4000
+      },
+      {
+        "videoId": "LoUhX_HhA3k",
+        "title": "73~82쪽 음수의 제곱근, 이차방정식",
+        "position": 11,
+        "durationSec": 3968
+      },
+      {
+        "videoId": "Lwm2o1aNceI",
+        "title": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
+        "position": 12,
+        "durationSec": 4395
+      },
+      {
+        "videoId": "TE0dmnIF-aU",
+        "title": "95~105쪽 이차방정식과 이차함수의 관계",
+        "position": 13,
+        "durationSec": 4202
+      },
+      {
+        "videoId": "sJH5b7SkTL4",
+        "title": "106~112쪽 이차함수의 최대, 최소",
+        "position": 14,
+        "durationSec": 4137
+      },
+      {
+        "videoId": "iENXvreBGuU",
+        "title": "113~121쪽 삼차방정식과 사차방정식",
+        "position": 15,
+        "durationSec": 4135
+      },
+      {
+        "videoId": "e1HzWUZt0c8",
+        "title": "122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
+        "position": 16,
+        "durationSec": 4174
+      },
+      {
+        "videoId": "aa5XlDPSuus",
+        "title": "128~131쪽 오메가의 성질",
+        "position": 17,
+        "durationSec": 4626
+      },
+      {
+        "videoId": "Vpbwe1ellrc",
+        "title": "135~141쪽 미지수가 2개인 연립이차방정식",
+        "position": 18,
+        "durationSec": 3563
+      },
+      {
+        "videoId": "iwleCBdeEjY",
+        "title": "143~145쪽 부정방정식",
+        "position": 19,
+        "durationSec": 3939
+      },
+      {
+        "videoId": "HC4J2dxRE8A",
+        "title": "150~159쪽 일차부등식, 연립일차부등식",
+        "position": 20,
+        "durationSec": 3211
+      },
+      {
+        "videoId": "Fndr8I_jCAk",
+        "title": "160~167쪽 절댓값 기호를 포함한 일차부등식의 풀이 + 이차부등식",
+        "position": 21,
+        "durationSec": 4455
+      },
+      {
+        "videoId": "WtWbMzSLbw4",
+        "title": "168~172쪽 이차부등식의 해의 조건",
+        "position": 22,
+        "durationSec": 3902
+      },
+      {
+        "videoId": "yyZ-wNIeYNo",
+        "title": "167쪽 질문, 이후로는 시험 대비",
+        "position": 23,
+        "durationSec": 413
+      },
+      {
+        "videoId": "ydH6yIbuHy0",
+        "title": "164~167쪽 이차부등식",
+        "position": 24,
+        "durationSec": 2340
+      },
+      {
+        "videoId": "HRD255HqJQw",
+        "title": "170~174쪽 이차부등식의 해의 조건",
+        "position": 25,
+        "durationSec": 4350
+      },
+      {
+        "videoId": "3PGoJ-kg8Q8",
+        "title": "178~181쪽 연립이차부등식",
+        "position": 26,
+        "durationSec": 3194
+      },
+      {
+        "videoId": "cv5SwV_Ll2I",
+        "title": "182~184쪽 이차방정식의 실근의 부호, 실근의 위치(근의 분리)",
+        "position": 27,
+        "durationSec": 2947
+      },
+      {
+        "videoId": "_8hnksJHR4Y",
+        "title": "188~195쪽 합의 법칙, 곱의 법칙 + 채색하기",
+        "position": 28,
+        "durationSec": 1951
+      },
+      {
+        "videoId": "o7kE9JDPvv0",
+        "title": "196~205쪽 지불 방법, 금액의 수 + 순열",
+        "position": 29,
+        "durationSec": 4078
+      },
+      {
+        "videoId": "km_6ywIkyRU",
+        "title": "206~213쪽 순열 마무리, 조합",
+        "position": 30,
+        "durationSec": 4460
+      },
+      {
+        "videoId": "0ZdN1MUuVl0",
+        "title": "214~224쪽 조합 마무리, 행렬",
+        "position": 31,
+        "durationSec": 3336
+      },
+      {
+        "videoId": "o2EGfkJSvow",
+        "title": "226~238쪽 행렬의 덧셈, 뺄셈과 실수배, 곱셈",
+        "position": 32,
+        "durationSec": 2858
+      },
+      {
+        "videoId": "SADXbKNEfTQ",
+        "title": "239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
+        "position": 33,
+        "durationSec": 2064
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "grades": [],
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-06-19T09:58:10.160Z",
+    "updatedAt": "2026-06-21T19:31:55.959Z",
+    "lastSyncedAt": "2026-06-21T19:31:55.959Z",
     "textbook": "개념+유형",
     "memo": ""
   },

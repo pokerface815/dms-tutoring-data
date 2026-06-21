@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20T14:32:15.979Z",
+  "generatedAt": "2026-06-21T02:42:35.390Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -9,5 +9,17 @@
   },
   "months": [],
   "tests": [],
-  "effortLogs": null
+  "effortLogs": null,
+  "assignments": [
+    {
+      "id": "task_1780833488960_0g2lyw",
+      "title": "오답노트 만들 문제 보내고, 수요일에 찾아가기",
+      "content": "",
+      "dueDate": "2026-06-09",
+      "assignedDate": "2026-06-07",
+      "fromLesson": true,
+      "isConfirmed": true,
+      "isRepeat": false
+    }
+  ]
 }

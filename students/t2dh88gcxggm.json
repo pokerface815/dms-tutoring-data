@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:37.474Z",
+  "generatedAt": "2026-06-21T02:41:37.532Z",
   "student": {
+    "id": "s_1780309053750_4dw5li",
+    "classes": [
+      "cls_1780309030966_ingi3o"
+    ],
     "name": "장승원",
     "school": "숭일중",
     "grade": "중3",

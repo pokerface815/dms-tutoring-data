@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:32:00.105Z",
+  "generatedAt": "2026-06-21T02:42:12.249Z",
   "student": {
+    "id": "s_1780355782316_yrovp3",
+    "classes": [
+      "cls_1780355764530_wxb5as"
+    ],
     "name": "이세영",
     "school": "전남여고",
     "grade": "고2",

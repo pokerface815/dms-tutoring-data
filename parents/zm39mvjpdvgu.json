@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T05:03:35.557Z",
+  "generatedAt": "2026-06-21T07:53:56.119Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -13,8 +13,8 @@
       "label": "2026년 6월",
       "lessons": [
         {
-          "date": "2026-06-09",
-          "weekday": "화",
+          "date": "2026-06-07",
+          "weekday": "일",
           "className": "",
           "content": "",
           "task": "",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-21T10:44:44.880Z",
+  "generatedAt": "2026-06-21T18:03:24.217Z",
   "student": {
     "id": "s_1780821352355_cv63jr",
     "classes": [
@@ -12,9 +12,33 @@
     "class": "",
     "showMakeNote": true
   },
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1781511394108_frgazt",
+      "noteName": "국아인_개념루트_등차수열과 등비수열( ~709번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-22",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1780821367626_4ynanq",
+      "noteName": "국아인_개념루트_사인법칙과 코사인법칙( ~595번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-28",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1781511394108_frgazt",
@@ -79,10 +103,10 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-06-15",
-    "endDate": "2026-06-21"
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-28"
   },
   "teacherConfirms": {},
   "tasks": [],

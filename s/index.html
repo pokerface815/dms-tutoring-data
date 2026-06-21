@@ -1002,12 +1002,12 @@
       body = renderEffortView(data);
     } else if (view === 'ranking') {
       actionBar = `<div class="page-header-bar">
-        <a href="#menu" class="back-link">← 메인으로</a>
+        <a href="javascript:history.back()" class="back-link">← 이전 화면으로</a>
         <div class="effort-top-tabs">
-          <button class="effort-top-tab ${_rankingTab==='streak'?'active':''}" onclick="switchRankingTab('streak')">🔥 연속</button>
-          <button class="effort-top-tab ${_rankingTab==='week'?'active':''}" onclick="switchRankingTab('week')">📅 이번 주</button>
-          <button class="effort-top-tab ${_rankingTab==='month'?'active':''}" onclick="switchRankingTab('month')">📆 이번 달</button>
-          <button class="effort-top-tab ${_rankingTab==='total'?'active':''}" onclick="switchRankingTab('total')">🏆 누적</button>
+          <button class="effort-top-tab ${_rankingTab==='streak'?'active':''}" onclick="switchRankingTab('streak')">연속</button>
+          <button class="effort-top-tab ${_rankingTab==='week'?'active':''}" onclick="switchRankingTab('week')">이번 주</button>
+          <button class="effort-top-tab ${_rankingTab==='month'?'active':''}" onclick="switchRankingTab('month')">이번 달</button>
+          <button class="effort-top-tab ${_rankingTab==='total'?'active':''}" onclick="switchRankingTab('total')">누적</button>
         </div>
       </div>`;
       body = renderRankingView(data);
@@ -1052,15 +1052,15 @@
           <div class="menu-label">노력의 자취</div>
           <div class="menu-sub">타이머 + 기록</div>
         </a>
+        <a href="#ranking" class="menu-card menu-ranking">
+          <div class="menu-label">🏆 랭킹</div>
+          <div class="menu-sub">익명 · 친구들과 비교</div>
+        </a>
         <a href="#video" class="menu-card menu-video">
           <div class="menu-label">강의 영상</div>
         </a>
         <a href="#grades" class="menu-card menu-grades">
           <div class="menu-label">성적 관리</div>
-        </a>
-        <a href="#ranking" class="menu-card menu-ranking">
-          <div class="menu-label">🏆 랭킹</div>
-          <div class="menu-sub">익명 · 친구들과 비교</div>
         </a>
       </div>
     `;
@@ -1967,8 +1967,8 @@
     _rankingTab = tab;
     document.querySelectorAll('.page-header-bar .effort-top-tab').forEach(b => {
       const txt = b.textContent.trim();
-      const map = { 'streak': '🔥', 'week': '이번 주', 'month': '이번 달', 'total': '누적' };
-      b.classList.toggle('active', txt.includes(map[tab]));
+      const map = { 'streak': '연속', 'week': '이번 주', 'month': '이번 달', 'total': '누적' };
+      b.classList.toggle('active', txt === map[tab]);
     });
     renderRankingContent();
   };
@@ -2054,9 +2054,6 @@
                    : _rankingTab === 'week' ? '이번 주 공부 시간'
                    : _rankingTab === 'month' ? '이번 달 공부 시간'
                    : '전체 누적 공부 시간';
-    const tabEmoji = _rankingTab === 'streak' ? '🔥'
-                   : _rankingTab === 'week' ? '📅'
-                   : _rankingTab === 'month' ? '📆' : '🏆';
 
     const my = getMyRankingEntry(tabKey);
     const totalStudents = _rankingData.studentCount || 0;
@@ -2073,7 +2070,7 @@
 
     let html = `
       <div class="ranking-summary">
-        <div class="ranking-summary-head">${tabEmoji} ${tabLabel}</div>
+        <div class="ranking-summary-head">${tabLabel}</div>
         <div class="ranking-summary-meta">전체 ${totalStudents}명 참여 중</div>
       </div>
     `;
@@ -2152,7 +2149,6 @@
     const value = fmtRankingValue('weekSec', my.weekSec);
     return `
       <a href="#ranking" class="ranking-mini-card">
-        <div class="ranking-mini-emoji">📅</div>
         <div class="ranking-mini-info">
           <div class="ranking-mini-title">이번 주 내 순위</div>
           <div class="ranking-mini-meta">${value} · 상위 ${percentile}%</div>

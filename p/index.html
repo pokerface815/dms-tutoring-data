@@ -453,32 +453,6 @@
         return;
       }
       parentData = await res.json();
-      // === 디버그 로그 ===
-      console.log('[학부모페이지] 받은 데이터:', parentData);
-      console.log('[학부모페이지] generatedAt:', parentData.generatedAt);
-      const _dbgMonths = parentData.months || [];
-      console.log('[학부모페이지] 월 개수:', _dbgMonths.length);
-      let _dbgTotalExtra = 0;
-      let _dbgLessonlessCount = 0;
-      for (const m of _dbgMonths) {
-        const lessons = m.lessons || [];
-        let monthExtra = 0;
-        for (const l of lessons) {
-          if (Array.isArray(l.extraAssignments) && l.extraAssignments.length > 0) {
-            monthExtra += l.extraAssignments.length;
-            _dbgTotalExtra += l.extraAssignments.length;
-          }
-          if (l.hasLesson === false) _dbgLessonlessCount++;
-        }
-        if (monthExtra > 0 || lessons.some(l => l.hasLesson === false)) {
-          console.log(`  · ${m.label}: lessons=${lessons.length}, extraAssignments 총 ${monthExtra}개`, lessons);
-        }
-      }
-      console.log(`[학부모페이지] 총 extraAssignments: ${_dbgTotalExtra}개 / 수업일지 없는 항목: ${_dbgLessonlessCount}개`);
-      if (_dbgTotalExtra === 0 && _dbgLessonlessCount === 0) {
-        console.warn('[학부모페이지] 과제 데이터가 데이터 파일에 없습니다. 통합본의 buildParentPageData가 갱신되지 않았거나, 학생 본인에게 부여된 과제가 없을 수 있습니다.');
-      }
-      // === 디버그 로그 끝 ===
       renderPage();
     } catch (e) {
       console.error(e);

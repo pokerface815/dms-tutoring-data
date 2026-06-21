@@ -1,16 +1,18 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:24.470Z",
+  "generatedAt": "2026-06-21T02:41:19.199Z",
   "student": {
+    "id": "s_1778908285779_1cmzde",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
     "name": "서은영",
     "school": "경신여고",
     "grade": "고2",
     "class": "토,일 2시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1781408618395_mdruwv",
       "noteName": "서은영_마더텅_이산확률분포( ~72번)",
@@ -23,6 +25,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1781408618395_mdruwv",

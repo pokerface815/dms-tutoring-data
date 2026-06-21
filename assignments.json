@@ -2527,5 +2527,15 @@
     "assignedAt": "2026-06-20T14:30:45.162Z",
     "batchId": "t_mqmggdyi",
     "repeat": null
+  },
+  {
+    "id": "task_1782009623936_vg1gxb",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "학부모 페이지 테스트",
+    "dueDate": "2026-06-24",
+    "assignedAt": "2026-06-21T02:40:23.935Z",
+    "batchId": "t_mqn6ipvk",
+    "repeat": null
   }
 ]

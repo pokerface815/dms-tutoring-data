@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-21T11:04:04.271Z",
+  "generatedAt": "2026-06-21T17:51:51.164Z",
   "student": {
     "id": "s_1779811264964_kbtli4",
     "classes": [
@@ -66,11 +66,11 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
-    "done": 1,
-    "percent": 100,
-    "startDate": "2026-06-15",
-    "endDate": "2026-06-21"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-28"
   },
   "teacherConfirms": {
     "task_1780152086917_f8u2ai__20260530": {

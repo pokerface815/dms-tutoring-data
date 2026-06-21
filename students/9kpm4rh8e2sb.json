@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-21T11:03:49.587Z",
+  "generatedAt": "2026-06-21T17:51:36.107Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -14,7 +14,30 @@
   },
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1780741295707_qhu2oh",
+      "noteName": "박다인_수매씽 유형_등비수열( ~1898번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-27",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1780741363676_y0neub",
+      "noteName": "박다인_수매씽 유형_등비수열( ~1916번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-27",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1780132383298_b371c0",
@@ -282,11 +305,11 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
-    "done": 1,
-    "percent": 100,
-    "startDate": "2026-06-15",
-    "endDate": "2026-06-21"
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-28"
   },
   "teacherConfirms": {},
   "tasks": [],

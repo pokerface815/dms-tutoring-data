@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:18.428Z",
+  "generatedAt": "2026-06-21T02:41:09.781Z",
   "student": {
+    "id": "s_1778638262495_alq1jg",
+    "classes": [
+      "cls_1780310095581_j36rd5"
+    ],
     "name": "이현승",
     "school": "살레시오고",
     "grade": "고2",

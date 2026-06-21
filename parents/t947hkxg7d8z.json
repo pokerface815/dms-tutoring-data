@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20T14:31:08.979Z",
+  "generatedAt": "2026-06-21T02:40:56.062Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -147,5 +147,57 @@
     }
   ],
   "tests": [],
-  "effortLogs": null
+  "effortLogs": null,
+  "assignments": [
+    {
+      "id": "task_1781965845162_p4an5s",
+      "title": "부교재 예상 문제 1회 오답 다시 풀어보기",
+      "content": "",
+      "dueDate": "2026-06-22",
+      "assignedDate": "2026-06-20",
+      "fromLesson": true,
+      "isConfirmed": false,
+      "isRepeat": false
+    },
+    {
+      "id": "task_1781399987259_fergd4",
+      "title": "부교재 수학적 귀납법 유형완성하기 풀어오기",
+      "content": "",
+      "dueDate": "2026-06-15",
+      "assignedDate": "2026-06-14",
+      "fromLesson": true,
+      "isConfirmed": true,
+      "isRepeat": false
+    },
+    {
+      "id": "task_1780919677088_axztl2",
+      "title": "오답노트 2~3개(4차시에 해당하는) 풀어오기",
+      "content": "",
+      "dueDate": "2026-06-10",
+      "assignedDate": "2026-06-08",
+      "fromLesson": true,
+      "isConfirmed": true,
+      "isRepeat": false
+    },
+    {
+      "id": "task_1780750860339_e5zhe0",
+      "title": "부교재 120쪽 42번까지 풀어오기",
+      "content": "",
+      "dueDate": "2026-06-08",
+      "assignedDate": "2026-06-06",
+      "fromLesson": true,
+      "isConfirmed": true,
+      "isRepeat": false
+    },
+    {
+      "id": "task_1780577128102_r7e7xq",
+      "title": "1. 부교재 풀기\n2. 6월 모의고사 17, 19, 20, 27, 28 오답 해오기",
+      "content": "",
+      "dueDate": "2026-06-06",
+      "assignedDate": "2026-06-04",
+      "fromLesson": true,
+      "isConfirmed": true,
+      "isRepeat": false
+    }
+  ]
 }

@@ -2565,5 +2565,15 @@
       }
     ],
     "createdAt": "2026-06-21T08:41:42.470Z"
+  },
+  {
+    "id": "task_1782039798855_a47ro1",
+    "type": "task",
+    "studentId": "s_1777546978791_hsee5a",
+    "title": "쎈 확통 다 푼 다음에 \"오답+C단계\" 다시 풀어오기",
+    "dueDate": "2026-06-27",
+    "assignedAt": "2026-06-21T11:03:18.855Z",
+    "batchId": "t_mqnohgzr",
+    "repeat": null
   }
 ]

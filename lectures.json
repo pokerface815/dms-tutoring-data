@@ -164,6 +164,111 @@
     "memo": ""
   },
   {
+    "id": "lec_mqksd52wcz3",
+    "title": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
+    "youtubePlaylistId": "PLoYw3JZAX7F3674KYtFAwxP14HE_RFFFs",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F3674KYtFAwxP14HE_RFFFs",
+    "subject": "확률과 통계",
+    "thumbnailUrl": "https://i.ytimg.com/vi/vOzqYDqoHSU/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "vOzqYDqoHSU",
+        "title": "8~16쪽 중복순열, 같은 것이 있는 순열, 최단거리로 가는 경우의 수",
+        "position": 0,
+        "durationSec": 4971
+      },
+      {
+        "videoId": "SMz7_3LjXmk",
+        "title": "17~22쪽 중복조합",
+        "position": 1,
+        "durationSec": 4589
+      },
+      {
+        "videoId": "_khnHFzlaWw",
+        "title": "26~33쪽 이항정리, 이항계수의 성질",
+        "position": 2,
+        "durationSec": 4850
+      },
+      {
+        "videoId": "Ds33x02pYXE",
+        "title": "34~45쪽 이항계수의 성질 마무리, 확률의 개념과 기본 성질",
+        "position": 3,
+        "durationSec": 3734
+      },
+      {
+        "videoId": "NgQ7FH7nQ3c",
+        "title": "47~51쪽 과제 질의응답 +확률의  덧셈정리",
+        "position": 4,
+        "durationSec": 4742
+      },
+      {
+        "videoId": "L7mDjTDBlmQ",
+        "title": "56~62쪽 조건부확률",
+        "position": 5,
+        "durationSec": 4122
+      },
+      {
+        "videoId": "FfchtFJg51o",
+        "title": "63~67쪽 사건의 독립과 종속",
+        "position": 6,
+        "durationSec": 3873
+      },
+      {
+        "videoId": "f3EVnTLb9ys",
+        "title": "68~79쪽 독립시행의 확률, 이산확률변수와 확률질량함수",
+        "position": 7,
+        "durationSec": 4284
+      },
+      {
+        "videoId": "imvXsFcIxH0",
+        "title": "80~85쪽 이산확률변수의 기댓값과 표준편차",
+        "position": 8,
+        "durationSec": 4449
+      },
+      {
+        "videoId": "oBtsDk36z44",
+        "title": "86~99쪽 이항분포, 연속확률변수",
+        "position": 9,
+        "durationSec": 3629
+      },
+      {
+        "videoId": "R2PAkxMMLVU",
+        "title": "101~108쪽 정규분포",
+        "position": 10,
+        "durationSec": 5354
+      },
+      {
+        "videoId": "TBWT_FCzor0",
+        "title": "109~123쪽 이항분포와 정규분포 사이의 관계, 모평균과 표본평균",
+        "position": 11,
+        "durationSec": 3852
+      },
+      {
+        "videoId": "TFn6ia1_VrE",
+        "title": "124~136쪽 표본비율, 모평균의 추정, 모비율의 추정",
+        "position": 12,
+        "durationSec": 4821
+      },
+      {
+        "videoId": "W_xZ6m5Yj2g",
+        "title": "모평균의 추정 - 신뢰도 구하기(추가 프린트)",
+        "position": 13,
+        "durationSec": 1289
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "grades": [],
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-06-19T10:28:36.728Z",
+    "updatedAt": "2026-06-21T18:28:35.634Z",
+    "lastSyncedAt": "2026-06-20T07:15:24.988Z",
+    "textbook": "개념+유형",
+    "memo": ""
+  },
+  {
     "id": "lec_mqkscmibfht",
     "title": "미적분1 개념+유형 (26년 1,2월)",
     "youtubePlaylistId": "PLoYw3JZAX7F2HVEaqd5A2kExNM3avFTKW",
@@ -501,111 +606,6 @@
     "createdAt": "2026-06-19T09:58:10.160Z",
     "updatedAt": "2026-06-21T19:31:55.959Z",
     "lastSyncedAt": "2026-06-21T19:31:55.959Z",
-    "textbook": "개념+유형",
-    "memo": ""
-  },
-  {
-    "id": "lec_mqksd52wcz3",
-    "title": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
-    "youtubePlaylistId": "PLoYw3JZAX7F3674KYtFAwxP14HE_RFFFs",
-    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F3674KYtFAwxP14HE_RFFFs",
-    "subject": "확률과 통계",
-    "thumbnailUrl": "https://i.ytimg.com/vi/vOzqYDqoHSU/mqdefault.jpg",
-    "videos": [
-      {
-        "videoId": "vOzqYDqoHSU",
-        "title": "8~16쪽 중복순열, 같은 것이 있는 순열, 최단거리로 가는 경우의 수",
-        "position": 0,
-        "durationSec": 4971
-      },
-      {
-        "videoId": "SMz7_3LjXmk",
-        "title": "17~22쪽 중복조합",
-        "position": 1,
-        "durationSec": 4589
-      },
-      {
-        "videoId": "_khnHFzlaWw",
-        "title": "26~33쪽 이항정리, 이항계수의 성질",
-        "position": 2,
-        "durationSec": 4850
-      },
-      {
-        "videoId": "Ds33x02pYXE",
-        "title": "34~45쪽 이항계수의 성질 마무리, 확률의 개념과 기본 성질",
-        "position": 3,
-        "durationSec": 3734
-      },
-      {
-        "videoId": "NgQ7FH7nQ3c",
-        "title": "47~51쪽 과제 질의응답 +확률의  덧셈정리",
-        "position": 4,
-        "durationSec": 4742
-      },
-      {
-        "videoId": "L7mDjTDBlmQ",
-        "title": "56~62쪽 조건부확률",
-        "position": 5,
-        "durationSec": 4122
-      },
-      {
-        "videoId": "FfchtFJg51o",
-        "title": "63~67쪽 사건의 독립과 종속",
-        "position": 6,
-        "durationSec": 3873
-      },
-      {
-        "videoId": "f3EVnTLb9ys",
-        "title": "68~79쪽 독립시행의 확률, 이산확률변수와 확률질량함수",
-        "position": 7,
-        "durationSec": 4284
-      },
-      {
-        "videoId": "imvXsFcIxH0",
-        "title": "80~85쪽 이산확률변수의 기댓값과 표준편차",
-        "position": 8,
-        "durationSec": 4449
-      },
-      {
-        "videoId": "oBtsDk36z44",
-        "title": "86~99쪽 이항분포, 연속확률변수",
-        "position": 9,
-        "durationSec": 3629
-      },
-      {
-        "videoId": "R2PAkxMMLVU",
-        "title": "101~108쪽 정규분포",
-        "position": 10,
-        "durationSec": 5354
-      },
-      {
-        "videoId": "TBWT_FCzor0",
-        "title": "109~123쪽 이항분포와 정규분포 사이의 관계, 모평균과 표본평균",
-        "position": 11,
-        "durationSec": 3852
-      },
-      {
-        "videoId": "TFn6ia1_VrE",
-        "title": "124~136쪽 표본비율, 모평균의 추정, 모비율의 추정",
-        "position": 12,
-        "durationSec": 4821
-      },
-      {
-        "videoId": "W_xZ6m5Yj2g",
-        "title": "모평균의 추정 - 신뢰도 구하기(추가 프린트)",
-        "position": 13,
-        "durationSec": 1289
-      }
-    ],
-    "permissions": {
-      "type": "all",
-      "grades": [],
-      "classIds": [],
-      "studentIds": []
-    },
-    "createdAt": "2026-06-19T10:28:36.728Z",
-    "updatedAt": "2026-06-21T18:28:35.634Z",
-    "lastSyncedAt": "2026-06-20T07:15:24.988Z",
     "textbook": "개념+유형",
     "memo": ""
   }

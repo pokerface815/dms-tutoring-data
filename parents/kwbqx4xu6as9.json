@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T05:02:53.474Z",
+  "generatedAt": "2026-06-21T07:53:27.344Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -42,13 +42,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "일품 4장 풀기",
-              "dueDate": "2026-06-10",
-              "isConfirmed": false
-            }
-          ],
+          "extraAssignments": [],
           "hasLesson": true
         },
         {
@@ -63,10 +57,10 @@
           "hasLesson": true
         },
         {
-          "date": "2026-06-05",
-          "weekday": "금",
-          "className": "",
-          "content": "",
+          "date": "2026-06-01",
+          "weekday": "월",
+          "className": "서준우 개별",
+          "content": "일품 연립방정식의 풀이 및 활용\n부족한 부분 보충(채점, 오답, 질문)",
           "task": "",
           "taskDue": "",
           "myNote": "",
@@ -77,17 +71,6 @@
               "isConfirmed": true
             }
           ],
-          "hasLesson": false
-        },
-        {
-          "date": "2026-06-01",
-          "weekday": "월",
-          "className": "서준우 개별",
-          "content": "일품 연립방정식의 풀이 및 활용\n부족한 부분 보충(채점, 오답, 질문)",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [],
           "hasLesson": true
         }
       ],
@@ -103,8 +86,8 @@
       "label": "2026년 5월",
       "lessons": [
         {
-          "date": "2026-05-31",
-          "weekday": "일",
+          "date": "2026-05-29",
+          "weekday": "금",
           "className": "",
           "content": "",
           "task": "",

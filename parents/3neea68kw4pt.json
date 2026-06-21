@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T10:44:14.673Z",
+  "generatedAt": "2026-06-21T11:04:09.178Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -35,7 +35,7 @@
             {
               "title": "학부모 페이지 테스트",
               "dueDate": "2026-06-24",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false

@@ -1,16 +1,18 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:03.580Z",
+  "generatedAt": "2026-06-21T02:40:48.276Z",
   "student": {
+    "id": "s_1777546978791_hsee5a",
+    "classes": [
+      "cls_1780310095581_j36rd5"
+    ],
     "name": "김규림",
     "school": "중앙여고",
     "grade": "고2",
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1781798454400_ppm1hv",
       "noteName": "김규림_개념루트_수열의 합( ~772번)",
@@ -23,6 +25,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1780135968357_h4pk5b",

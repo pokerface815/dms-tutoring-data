@@ -597,14 +597,12 @@
       }
     ],
     "permissions": {
-      "type": "restricted",
+      "type": "all",
       "classIds": [],
-      "studentIds": [
-        "s_1780190418387_a11waf"
-      ]
+      "studentIds": []
     },
     "createdAt": "2026-06-19T10:28:36.728Z",
-    "updatedAt": "2026-06-21T02:58:36.434Z",
+    "updatedAt": "2026-06-21T10:43:23.042Z",
     "lastSyncedAt": "2026-06-20T07:15:24.988Z",
     "textbook": "개념+유형",
     "memo": ""

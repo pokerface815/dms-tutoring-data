@@ -213,15 +213,13 @@
       }
     ],
     "permissions": {
-      "type": "restricted",
-      "grades": [
-        "중3"
-      ],
+      "type": "all",
+      "grades": [],
       "classIds": [],
       "studentIds": []
     },
     "createdAt": "2026-06-19T09:58:10.160Z",
-    "updatedAt": "2026-06-21T18:01:26.262Z",
+    "updatedAt": "2026-06-21T19:29:55.781Z",
     "lastSyncedAt": "2026-06-19T09:58:10.160Z",
     "textbook": "개념+유형",
     "memo": ""

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T02:59:28.589Z",
+  "generatedAt": "2026-06-21T04:56:15.752Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -13,13 +13,49 @@
       "label": "2026년 6월",
       "lessons": [
         {
+          "date": "2026-06-24",
+          "weekday": "수",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "학부모 페이지 테스트",
+              "dueDate": "2026-06-24",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
+        {
+          "date": "2026-06-06",
+          "weekday": "토",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "반복 과제 확인",
+              "dueDate": "2026-06-06",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": false
+        },
+        {
           "date": "2026-06-05",
           "weekday": "금",
           "className": "S",
           "content": "주간테스트",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-04",
@@ -28,7 +64,9 @@
           "content": "중등, 확통 보충\n예나 수업",
           "task": "",
           "taskDue": "",
-          "myNote": "진도 잘 챙기기"
+          "myNote": "진도 잘 챙기기",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-03",
@@ -37,7 +75,9 @@
           "content": "에버랜드",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-02",
@@ -46,7 +86,9 @@
           "content": "이룸 퇴소\n서울 한강",
           "task": "",
           "taskDue": "",
-          "myNote": "운전"
+          "myNote": "운전",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-01",
@@ -55,7 +97,9 @@
           "content": "중3 수업\n고등 선행\n예나 수업",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         }
       ],
       "completionRate": {
@@ -200,27 +244,5 @@
         "reflection": ""
       }
     ]
-  },
-  "assignments": [
-    {
-      "id": "task_1782009623936_vg1gxb",
-      "title": "학부모 페이지 테스트",
-      "content": "",
-      "dueDate": "2026-06-24",
-      "assignedDate": "2026-06-21",
-      "fromLesson": true,
-      "isConfirmed": false,
-      "isRepeat": false
-    },
-    {
-      "id": "task_1780670793023_kh56qh",
-      "title": "반복 과제 확인",
-      "content": "",
-      "dueDate": "2026-06-06",
-      "assignedDate": "2026-06-05",
-      "fromLesson": true,
-      "isConfirmed": true,
-      "isRepeat": false
-    }
-  ]
+  }
 }

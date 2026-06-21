@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-21T11:04:26.857Z",
+  "generatedAt": "2026-06-21T17:52:12.371Z",
   "student": {
     "id": "s_1780314459772_jsjhe4",
     "classes": [
@@ -20,8 +20,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-15",
-    "endDate": "2026-06-21"
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-28"
   },
   "teacherConfirms": {
     "task_1780314584317_bcrtk9__1": {

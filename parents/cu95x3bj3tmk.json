@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T02:59:32.429Z",
+  "generatedAt": "2026-06-21T04:56:18.924Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -19,7 +19,9 @@
           "content": "시험 대비 프린트 풀이",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-10",
@@ -28,7 +30,9 @@
           "content": "결석 - 주말에 보충 예정",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-08",
@@ -37,7 +41,9 @@
           "content": "공수2\n두 점 사이의 거리 - 연습문제 실력UP 풀이\n내분점 - 수업영상 들은 부분 문제 풀이\n📝 다음 시간부터 시험 대비 시작",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-07",
@@ -46,7 +52,9 @@
           "content": "<수업 보충>\n공수2 - 두 점 사이의 거리 마무리, 내분점 개념",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-06-01",
@@ -55,7 +63,9 @@
           "content": "쎈B 공통수학1\n취약 단원인 복소수 단원 문제 풀이",
           "task": "",
           "taskDue": "",
-          "myNote": ""
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
         }
       ],
       "completionRate": null,
@@ -71,6 +81,5 @@
       "comment": "가우스 기호에 대한 기본 개념 추가 설명."
     }
   ],
-  "effortLogs": null,
-  "assignments": []
+  "effortLogs": null
 }

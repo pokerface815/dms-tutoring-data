@@ -501,6 +501,57 @@
     border-radius: 2px;
   }
 
+  /* 강의 영상 탭바 (강의 목록 / 시청 기록) */
+  .video-tab-bar {
+    display: flex; gap: 6px; margin-bottom: 14px;
+    padding: 4px; background: var(--surface2); border-radius: 10px;
+  }
+  .video-tab-bar:empty { display: none; }
+  .video-tab {
+    flex: 1; padding: 8px 10px;
+    background: transparent; border: 0; border-radius: 7px;
+    font-size: 13px; font-weight: 600; color: var(--text2);
+    cursor: pointer; font-family: inherit;
+    transition: background 0.15s, color 0.15s;
+  }
+  .video-tab.active { background: var(--surface); color: var(--accent-dark); box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+
+  /* 시청 기록 카드 */
+  .hist-item {
+    display: flex; gap: 12px; align-items: center;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 11px;
+    padding: 10px 12px; margin-bottom: 8px;
+    cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .hist-item:hover { border-color: #97aac8; box-shadow: 0 2px 8px rgba(151,170,200,0.18); }
+  .hist-thumb {
+    width: 90px; height: 54px; flex-shrink: 0;
+    border-radius: 6px; object-fit: cover;
+    background: #eef2f8; border: 1px solid var(--border);
+  }
+  .hist-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+  .hist-title {
+    font-size: 13px; font-weight: 700; color: var(--text); line-height: 1.35;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .hist-sub { font-size: 11px; color: var(--text3); }
+  .hist-lecture { font-weight: 500; }
+  .hist-meta { display: flex; gap: 7px; align-items: center; flex-wrap: wrap; font-size: 11px; margin-top: 2px; }
+  .hist-badge { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 8px; }
+  .hist-badge-done { background: #d8efd0; color: #2e7d32; }
+  .hist-badge-resume { background: oklch(94% 0.08 60); color: oklch(40% 0.12 60); }
+  .hist-badge-progress { background: var(--surface2); color: var(--text3); }
+  .hist-time { color: var(--text3); font-variant-numeric: tabular-nums; }
+  .hist-last { color: var(--text3); margin-left: auto; }
+  .hist-progress {
+    height: 4px; background: var(--surface2); border-radius: 2px; overflow: hidden;
+    margin-top: 4px;
+  }
+  .hist-progress > div {
+    height: 100%; background: linear-gradient(90deg, #97aac8, #7a8fb0);
+    border-radius: 2px;
+  }
+
   /* 빈 상태 */
   .lecture-empty {
     padding: 50px 20px; text-align: center;
@@ -1078,6 +1129,7 @@
   function hasLecturePermission(lec) {
     const p = lec.permissions || { type: 'all' };
     if (!p.type || p.type === 'all') return true;
+    if (p.type === 'none') return false;  // 비공개
 
     const sid = (studentData?.student?.id) || '';
     const myClassIds = (studentData?.student?.classes) || [];
@@ -1120,16 +1172,39 @@
   // ===== 메인 메뉴: 강의 영상 (재생목록 카드 그리드) =====
   function renderVideoView(data) {
     let html = `<h2 class="view-title">강의 영상</h2>`;
+    html += `<div id="videoTabBar" class="video-tab-bar"></div>`;
     html += `<div id="lectureListWrap"></div>`;
     return html;
   }
 
+  let _videoTab = 'list';  // 'list' | 'history'
+
+  function renderVideoTabBar(visible) {
+    const bar = document.getElementById('videoTabBar');
+    if (!bar) return;
+    if (!visible) { bar.innerHTML = ''; return; }
+    bar.innerHTML = `
+      <button class="video-tab ${_videoTab === 'list' ? 'active' : ''}" onclick="switchVideoTab('list')">📚 강의 목록</button>
+      <button class="video-tab ${_videoTab === 'history' ? 'active' : ''}" onclick="switchVideoTab('history')">🕒 시청 기록</button>
+    `;
+  }
+
+  window.switchVideoTab = function(tab) {
+    _videoTab = tab;
+    renderVideoTabBar(true);
+    if (tab === 'list') renderLectureListInline();
+    else renderLectureHistoryInline();
+  };
+
   async function initVideoScreen(detail) {
-    // detail이 있으면 영상 목록 화면, 없으면 재생목록 그리드
+    // detail이 있으면 영상 목록 화면 (탭바 숨김), 없으면 탭바 표시
     await fetchLecturesData();
     if (!detail) {
-      renderLectureListInline();
+      renderVideoTabBar(true);
+      if (_videoTab === 'history') renderLectureHistoryInline();
+      else renderLectureListInline();
     } else {
+      renderVideoTabBar(false);
       renderLectureDetailInline(detail);
     }
     // YouTube IFrame API 미리 로드 (모달 열 때 빨라짐)
@@ -1137,6 +1212,103 @@
     // 미동기화 시청 기록 있으면 재시도
     flushLectureSyncIfPending();
   }
+
+  // 시청 기록 렌더 — 최근 시청한 영상부터 평면 목록
+  function renderLectureHistoryInline() {
+    const wrap = document.getElementById('lectureListWrap');
+    if (!wrap) return;
+    const watch = loadLectureWatch();
+    const lectures = (_lecturesCache || []).filter(hasLecturePermission);
+    const lecMap = {};
+    for (const lec of lectures) lecMap[lec.id] = lec;
+
+    // 영상별 entry 만들기 (권한 있는 강의의 영상만)
+    const entries = [];
+    for (const vid in watch) {
+      const w = watch[vid];
+      if (!w || !w.lectureId || !lecMap[w.lectureId]) continue;
+      const lec = lecMap[w.lectureId];
+      const v = (lec.videos || []).find(vv => vv.videoId === vid);
+      if (!v) continue;
+      entries.push({
+        videoId: vid,
+        videoTitle: v.title || w.videoTitle || vid,
+        lectureId: lec.id,
+        lectureTitle: lec.title,
+        lectureSubject: lec.subject || '',
+        thumbnailUrl: lec.thumbnailUrl || '',
+        watchedSec: w.watchedSec || 0,
+        durationSec: v.durationSec || w.durationSec || 0,
+        lastWatchedAt: w.lastWatchedAt || '',
+        lastPosition: w.lastPosition || 0,
+      });
+    }
+    // 마지막 시청 일시 내림차순
+    entries.sort((a, b) => (b.lastWatchedAt || '').localeCompare(a.lastWatchedAt || ''));
+
+    if (entries.length === 0) {
+      wrap.innerHTML = `
+        <div class="lecture-empty">
+          <div class="ico">🕒</div>
+          <h3>시청 기록이 없어요</h3>
+          <p>강의 목록에서 영상을 시청하면<br>여기에 표시됩니다.</p>
+        </div>
+      `;
+      return;
+    }
+
+    // 친화적 시간 포맷
+    const friendlyTime = (iso) => {
+      if (!iso) return '';
+      const ts = new Date(iso).getTime();
+      const diff = Date.now() - ts;
+      const min = diff / 60000, hr = min / 60, day = hr / 24;
+      if (min < 60) return `${Math.max(1, Math.floor(min))}분 전`;
+      if (hr < 24) return `${Math.floor(hr)}시간 전`;
+      if (day < 2) return '어제';
+      if (day < 7) return `${Math.floor(day)}일 전`;
+      return new Date(iso).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' });
+    };
+
+    let html = '';
+    for (const e of entries) {
+      const pct = e.durationSec > 0 ? Math.min(100, Math.round(e.watchedSec / e.durationSec * 100)) : 0;
+      const isDone = pct >= 80;
+      const isResume = e.lastPosition > 5 && (e.durationSec === 0 || e.lastPosition < e.durationSec - 10);
+      const statusBadge = isDone
+        ? `<span class="hist-badge hist-badge-done">완료</span>`
+        : (isResume ? `<span class="hist-badge hist-badge-resume">이어보기</span>` : `<span class="hist-badge hist-badge-progress">진행 중</span>`);
+      html += `
+        <div class="hist-item" onclick="openLecturePlayerById('${e.lectureId}', '${e.videoId}')">
+          ${e.thumbnailUrl
+            ? `<img class="hist-thumb" src="${escapeHtml(e.thumbnailUrl)}" alt="" loading="lazy">`
+            : `<div class="hist-thumb" style="display:flex; align-items:center; justify-content:center; font-size:20px;">🎬</div>`}
+          <div class="hist-info">
+            <div class="hist-title">${escapeHtml(e.videoTitle)}</div>
+            <div class="hist-sub">
+              <span class="hist-lecture">${escapeHtml(e.lectureTitle)}</span>
+            </div>
+            <div class="hist-meta">
+              ${statusBadge}
+              <span class="hist-time">${fmtLectureDur(e.watchedSec)} / ${fmtLectureDurLong(e.durationSec)}</span>
+              <span class="hist-last">${friendlyTime(e.lastWatchedAt)}</span>
+            </div>
+            <div class="hist-progress"><div style="width:${pct}%;"></div></div>
+          </div>
+        </div>
+      `;
+    }
+    wrap.innerHTML = html;
+  }
+
+  // 시청 기록에서 영상 클릭 → 플레이어 열기
+  window.openLecturePlayerById = function(lecId, videoId) {
+    const lec = (_lecturesCache || []).find(l => l.id === lecId);
+    if (!lec) { alert('강의 정보를 찾을 수 없습니다.'); return; }
+    const v = (lec.videos || []).find(vv => vv.videoId === videoId);
+    if (!v) { alert('영상 정보를 찾을 수 없습니다.'); return; }
+    openLecturePlayer(lec, v);
+  };
 
   function renderLectureListInline() {
     const wrap = document.getElementById('lectureListWrap');

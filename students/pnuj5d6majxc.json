@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:32:04.198Z",
+  "generatedAt": "2026-06-21T02:42:18.392Z",
   "student": {
+    "id": "s_1780728495466_3t0ug5",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
     "name": "백서현",
     "school": "숭일고",
     "grade": "고2",

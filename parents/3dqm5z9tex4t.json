@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20T14:32:03.180Z",
+  "generatedAt": "2026-06-21T02:42:16.789Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -102,5 +102,17 @@
       "comment": ""
     }
   ],
-  "effortLogs": null
+  "effortLogs": null,
+  "assignments": [
+    {
+      "id": "task_1780907008277_s2u5ua",
+      "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
+      "content": "",
+      "dueDate": "2026-06-10",
+      "assignedDate": "2026-06-08",
+      "fromLesson": true,
+      "isConfirmed": false,
+      "isRepeat": false
+    }
+  ]
 }

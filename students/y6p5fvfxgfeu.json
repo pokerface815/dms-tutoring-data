@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:31:49.865Z",
+  "generatedAt": "2026-06-21T02:41:56.375Z",
   "student": {
+    "id": "s_1780314459772_mrri1r",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "name": "채수완",
     "school": "",
     "grade": "중3",

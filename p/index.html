@@ -120,6 +120,16 @@
     font-size: 13px; line-height: 1.5;
   }
   .lesson-task-label { color: var(--purple); font-weight: 700; }
+  /* 과제 관리에서 부여한 추가 과제 — 살짝 다른 색조 */
+  .lesson-task-extra {
+    background: #f0eaf7;
+    margin-top: 6px;
+  }
+  /* 그 날 수업 일지가 없고 과제만 있는 항목 — 좌측 보더 다르게 (구분) */
+  .lesson-item-asgn-only {
+    border-left-color: var(--purple);
+    background: #f9f7fc;
+  }
   .lesson-note {
     margin-top: 8px; padding: 10px 12px;
     background: #fdf6e9; border-radius: 8px;
@@ -524,12 +534,6 @@
           </div>
         </div>
       `;
-    }
-
-    // 받은 과제 섹션 (있을 때만) — 아코디언, 기본 닫힘
-    const assignments = d.assignments || [];
-    if (assignments.length > 0) {
-      html += renderAssignmentsSection(assignments);
     }
 
     if (months.length === 0) {
@@ -942,15 +946,28 @@
     const dateObj = new Date((l.date || '') + 'T00:00:00');
     const mmdd = isNaN(dateObj) ? (l.date || '') : `${dateObj.getMonth()+1}/${dateObj.getDate()}`;
     const wd = l.weekday ? ` (${l.weekday})` : '';
+    const hasLesson = l.hasLesson !== false && (l.content || l.task || l.myNote);
 
     let html = `
-      <div class="lesson-item">
-        <div class="lesson-date">${mmdd}${wd}<span class="lesson-class">${escapeHtml(l.className || '')}</span></div>
-        <div class="lesson-content">${escapeHtml(l.content || '')}</div>
+      <div class="lesson-item${!hasLesson ? ' lesson-item-asgn-only' : ''}">
+        <div class="lesson-date">${mmdd}${wd}${l.className ? `<span class="lesson-class">${escapeHtml(l.className)}</span>` : ''}</div>
     `;
+    // 수업 내용 (있을 때만)
+    if (l.content) {
+      html += `<div class="lesson-content">${escapeHtml(l.content)}</div>`;
+    }
+    // 수업 일지 연계 과제 (기존)
     if (l.task) {
       const due = l.taskDue ? ` <span style="color:var(--text3);">(마감 ${escapeHtml(l.taskDue)})</span>` : '';
       html += `<div class="lesson-task"><span class="lesson-task-label">📚 과제</span> ${escapeHtml(l.task)}${due}</div>`;
+    }
+    // 과제 관리에서 부여된 추가 과제들
+    if (Array.isArray(l.extraAssignments) && l.extraAssignments.length > 0) {
+      for (const a of l.extraAssignments) {
+        const due = a.dueDate ? ` <span style="color:var(--text3);">(마감 ${escapeHtml(a.dueDate)})</span>` : '';
+        const doneMark = a.isConfirmed ? `<span style="color:#84b96d; font-weight:700; margin-right:4px;" title="완료">✓</span>` : '';
+        html += `<div class="lesson-task lesson-task-extra">${doneMark}<span class="lesson-task-label">📋 과제</span> ${escapeHtml(a.title || '제목 없음')}${due}</div>`;
+      }
     }
     if (l.myNote) {
       html += `<div class="lesson-note"><span class="lesson-note-label">📝 특이사항</span>${escapeHtml(l.myNote)}</div>`;

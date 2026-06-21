@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21T02:58:57.356Z",
+  "generatedAt": "2026-06-21T04:55:52.711Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,7 +11,52 @@
     {
       "ym": "2026-06",
       "label": "2026년 6월",
-      "lessons": [],
+      "lessons": [
+        {
+          "date": "2026-06-20",
+          "weekday": "토",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "개념루트, 고쟁이 -  수열의 합까지 끝내기",
+              "dueDate": "2026-06-20",
+              "isConfirmed": false
+            },
+            {
+              "title": "쎈 - 정규분포까지 끝내기",
+              "dueDate": "2026-06-20",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": false
+        },
+        {
+          "date": "2026-06-13",
+          "weekday": "토",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "개념루트 사인, 코사인법칙 다시 풀어오기",
+              "dueDate": "2026-06-13",
+              "isConfirmed": true
+            },
+            {
+              "title": "고쟁이 사인, 코사인법칙 스텝2 풀어오기",
+              "dueDate": "2026-06-13",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": false
+        }
+      ],
       "completionRate": {
         "done": 3,
         "total": 4,
@@ -65,47 +110,5 @@
     }
   ],
   "tests": [],
-  "effortLogs": null,
-  "assignments": [
-    {
-      "id": "task_1781436387098_luyf18",
-      "title": "개념루트, 고쟁이 -  수열의 합까지 끝내기",
-      "content": "",
-      "dueDate": "2026-06-20",
-      "assignedDate": "2026-06-14",
-      "fromLesson": true,
-      "isConfirmed": false,
-      "isRepeat": false
-    },
-    {
-      "id": "task_1781447441833_wddliz",
-      "title": "쎈 - 정규분포까지 끝내기",
-      "content": "",
-      "dueDate": "2026-06-20",
-      "assignedDate": "2026-06-14",
-      "fromLesson": true,
-      "isConfirmed": true,
-      "isRepeat": false
-    },
-    {
-      "id": "task_1780833206589_ybwbrw",
-      "title": "개념루트 사인, 코사인법칙 다시 풀어오기",
-      "content": "",
-      "dueDate": "2026-06-13",
-      "assignedDate": "2026-06-07",
-      "fromLesson": true,
-      "isConfirmed": true,
-      "isRepeat": false
-    },
-    {
-      "id": "task_1780833238420_v9xdmb",
-      "title": "고쟁이 사인, 코사인법칙 스텝2 풀어오기",
-      "content": "",
-      "dueDate": "2026-06-13",
-      "assignedDate": "2026-06-07",
-      "fromLesson": true,
-      "isConfirmed": true,
-      "isRepeat": false
-    }
-  ]
+  "effortLogs": null
 }

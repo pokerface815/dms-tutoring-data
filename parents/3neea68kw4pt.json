@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20T15:13:55.918Z",
+  "generatedAt": "2026-06-21T02:41:35.997Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -84,21 +84,40 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-20T14:32:11.389Z",
+    "uploadedAt": "2026-06-20T15:31:50.343Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 64117,
-      "monthSec": 64117,
-      "streak": 3,
+      "todaySec": 973,
+      "weekSec": 65090,
+      "monthSec": 65090,
+      "streak": 4,
       "bySubjectMonth": {
         "확통": 8293,
         "클로드": 6923,
         "문제DB": 4457,
         "과외": 20260,
-        "학원": 24184
+        "학원": 24184,
+        "미적분Ⅰ": 973
       }
     },
     "logs": [
+      {
+        "id": "effort_mqmimvpp2uo",
+        "startedAt": 1781968993231,
+        "seconds": 502,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mqmibsx5nts",
+        "startedAt": 1781968499146,
+        "seconds": 471,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "reflection": ""
+      },
       {
         "id": "effort_mqmgi668ijq",
         "startedAt": 1781955125522,
@@ -181,5 +200,27 @@
         "reflection": ""
       }
     ]
-  }
+  },
+  "assignments": [
+    {
+      "id": "task_1782009623936_vg1gxb",
+      "title": "학부모 페이지 테스트",
+      "content": "",
+      "dueDate": "2026-06-24",
+      "assignedDate": "2026-06-21",
+      "fromLesson": true,
+      "isConfirmed": false,
+      "isRepeat": false
+    },
+    {
+      "id": "task_1780670793023_kh56qh",
+      "title": "반복 과제 확인",
+      "content": "",
+      "dueDate": "2026-06-06",
+      "assignedDate": "2026-06-05",
+      "fromLesson": true,
+      "isConfirmed": true,
+      "isRepeat": false
+    }
+  ]
 }

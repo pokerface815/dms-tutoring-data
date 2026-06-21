@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-21T11:03:56.128Z",
+  "generatedAt": "2026-06-21T17:51:42.563Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -14,7 +14,19 @@
   },
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1780674822191_a4avvt",
+      "noteName": "지유진_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-27",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1780674822191_a4avvt",
@@ -150,11 +162,11 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 1,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-15",
-    "endDate": "2026-06-21"
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-28"
   },
   "teacherConfirms": {},
   "tasks": [],

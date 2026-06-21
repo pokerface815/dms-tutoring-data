@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-20T14:32:06.249Z",
+  "generatedAt": "2026-06-21T02:42:21.464Z",
   "student": {
+    "id": "s_1780821352355_cv63jr",
+    "classes": [
+      "cls_1780310061018_vay6zf"
+    ],
     "name": "국아인",
     "school": "중앙여고",
     "grade": "고2",

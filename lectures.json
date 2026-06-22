@@ -116,6 +116,110 @@
     "lastSyncedAt": "2026-06-22T06:42:13.411Z"
   },
   {
+    "id": "lec_mqoum7ssed7",
+    "title": "2024 1,2월 중3-2 개념원리",
+    "youtubePlaylistId": "PLoYw3JZAX7F0VbNRBYnVCK9TdapPpP5WV",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F0VbNRBYnVCK9TdapPpP5WV",
+    "subject": "중3",
+    "textbook": "개념원리",
+    "memo": "2학기",
+    "thumbnailUrl": "https://i.ytimg.com/vi/7w9fl-NrIoY/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "7w9fl-NrIoY",
+        "title": "01. 삼각비(~p.13)",
+        "position": 0,
+        "durationSec": 3777
+      },
+      {
+        "videoId": "hFqEPCyOznA",
+        "title": "02. 삼각비의 값(~p.20)",
+        "position": 1,
+        "durationSec": 4359
+      },
+      {
+        "videoId": "MUD4xRQMTx0",
+        "title": "03. 임의의 예각의 삼각비의 값(~p.33)",
+        "position": 2,
+        "durationSec": 5336
+      },
+      {
+        "videoId": "nyOGgojNXz8",
+        "title": "04-1. 길이구하기1(p.36~37)",
+        "position": 3,
+        "durationSec": 1607
+      },
+      {
+        "videoId": "wgS5OiMPXNA",
+        "title": "04-2. 길이구하기2(p.40~42)",
+        "position": 4,
+        "durationSec": 2125
+      },
+      {
+        "videoId": "im_eTohOmXY",
+        "title": "05. 넓이구하기(~p.56)",
+        "position": 5,
+        "durationSec": 4639
+      },
+      {
+        "videoId": "H8nUQOFEyVc",
+        "title": "06. 원의 현, 접선(1) (~p.70)",
+        "position": 6,
+        "durationSec": 4388
+      },
+      {
+        "videoId": "cvjpzGx780E",
+        "title": "07. 원과 접선(2), 원주각(~p.87)",
+        "position": 7,
+        "durationSec": 4783
+      },
+      {
+        "videoId": "k4-XF9DbQJc",
+        "title": "08. 본수업 시험지 고난도 풀이",
+        "position": 8,
+        "durationSec": 932
+      },
+      {
+        "videoId": "44cBqn_ikUg",
+        "title": "09. 원과 사각형(p.85~98)",
+        "position": 9,
+        "durationSec": 3762
+      },
+      {
+        "videoId": "qiPoIPGG7Vw",
+        "title": "10. 접선과 현이 이루는 각(p.100~106)",
+        "position": 10,
+        "durationSec": 2010
+      },
+      {
+        "videoId": "T1zAWzL9t1U",
+        "title": "11. 대푯값, 산포도(~p.124)",
+        "position": 11,
+        "durationSec": 4102
+      },
+      {
+        "videoId": "w8qETYqElak",
+        "title": "12. 산포도와  표준편차(~p.127)",
+        "position": 12,
+        "durationSec": 3369
+      },
+      {
+        "videoId": "yuCm0Ffok2A",
+        "title": "13. 산점도(~끝)",
+        "position": 13,
+        "durationSec": 3793
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-06-22T06:42:44.092Z",
+    "updatedAt": "2026-06-22T06:42:44.092Z",
+    "lastSyncedAt": "2026-06-22T06:42:44.092Z"
+  },
+  {
     "id": "lec_mqkr9zowwph",
     "title": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
     "youtubePlaylistId": "PLoYw3JZAX7F3LYjBoQpsI-v-viN6_obk9",

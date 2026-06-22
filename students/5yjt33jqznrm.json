@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "generatedAt": "2026-06-22T16:11:18.661Z",
+  "student": {
+    "id": "s_1782144542719_3gm3op",
+    "classes": [
+      "cls_1780310061018_vay6zf"
+    ],
+    "name": "이수연",
+    "school": "문정여고",
+    "grade": "고2",
+    "class": "",
+    "showMakeNote": true
+  },
+  "today": [
+    {
+      "assignmentId": "a_1782144560416_tnz9ix",
+      "noteName": "이수연_올림포스 유형편_사인,코사인법칙+등차,등비수열",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-23",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1782144560416_tnz9ix",
+      "noteName": "이수연_올림포스 유형편_사인,코사인법칙+등차,등비수열",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-25",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "completed": [],
+  "weekProgress": {
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-28"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

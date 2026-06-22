@@ -533,6 +533,39 @@
 
   /* ===== 강의 영상 ===== */
   /* 재생목록 카드 그리드 */
+  /* 과목별 토글 그룹 */
+  .lecture-subj-group { margin-bottom: 8px; }
+  .lecture-subj-header {
+    width: 100%; padding: 11px 13px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 11px;
+    display: flex; gap: 10px; align-items: center;
+    cursor: pointer; font-family: inherit;
+    transition: background 0.12s, border-color 0.12s;
+    text-align: left;
+  }
+  .lecture-subj-header:hover { background: var(--surface2); border-color: var(--accent-light); }
+  .lecture-subj-arrow {
+    font-size: 10px; color: var(--text3); flex-shrink: 0;
+    transition: transform 0.15s ease;
+  }
+  .lecture-subj-group.open .lecture-subj-arrow { transform: rotate(90deg); }
+  .lecture-subj-name { font-size: 13.5px; font-weight: 700; color: var(--text); flex-shrink: 0; }
+  .lecture-subj-meta {
+    display: flex; gap: 10px; align-items: center;
+    margin-left: auto;
+    font-size: 11.5px; color: var(--text3);
+  }
+  .lecture-subj-meta > span { white-space: nowrap; }
+  .lecture-subj-body {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.25s ease-out;
+  }
+  .lecture-subj-group.open .lecture-subj-body {
+    max-height: 100000px;  /* 충분히 큰 값 */
+    padding: 8px 4px 4px;
+  }
+
   .lecture-list-card {
     background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
     padding: 12px 14px; margin-bottom: 10px;
@@ -1410,6 +1443,27 @@
     openLecturePlayer(lec, v);
   };
 
+  // 과목 순서 (통합본 dashSubjects와 동일)
+  const SUBJECT_ORDER = ['중1', '중2', '중3', '공통수학1', '공통수학2', '대수', '미적분Ⅰ', '미적분Ⅱ', '확률과 통계', '기하', '기타'];
+
+  // 펼쳐진 과목 그룹 상태 (localStorage 저장)
+  const LECTURE_SUBJECT_OPEN_KEY = 'odapNote_lectureSubjectOpen_v1';
+  function loadOpenSubjects() {
+    try { return JSON.parse(localStorage.getItem(LECTURE_SUBJECT_OPEN_KEY) || '[]'); }
+    catch(e) { return []; }
+  }
+  function saveOpenSubjects(arr) {
+    try { localStorage.setItem(LECTURE_SUBJECT_OPEN_KEY, JSON.stringify(arr)); } catch(e) {}
+  }
+
+  window.toggleLectureSubject = function(subj) {
+    const open = new Set(loadOpenSubjects());
+    if (open.has(subj)) open.delete(subj);
+    else open.add(subj);
+    saveOpenSubjects(Array.from(open));
+    renderLectureListInline();
+  };
+
   function renderLectureListInline() {
     const wrap = document.getElementById('lectureListWrap');
     if (!wrap) return;
@@ -1425,49 +1479,86 @@
       return;
     }
     const watch = loadLectureWatch();
-    let html = '';
-    // 과목별 그룹화
+
+    // 과목별 그룹화 (재생목록은 원래 순서 유지 — 통합본에서 드래그로 정한 순서)
     const bySubject = {};
     for (const lec of lectures) {
       const k = lec.subject || '기타';
       if (!bySubject[k]) bySubject[k] = [];
       bySubject[k].push(lec);
     }
-    const subjects = Object.keys(bySubject).sort((a, b) => a.localeCompare(b, 'ko'));
+
+    // 과목 순서: SUBJECT_ORDER 따르되, 그 외는 끝에 알파벳 순으로
+    const knownSubjects = SUBJECT_ORDER.filter(s => bySubject[s]);
+    const otherSubjects = Object.keys(bySubject)
+      .filter(s => !SUBJECT_ORDER.includes(s))
+      .sort((a, b) => a.localeCompare(b, 'ko'));
+    const subjects = [...knownSubjects, ...otherSubjects];
+
+    const openSet = new Set(loadOpenSubjects());
+
+    let html = '';
     for (const subj of subjects) {
-      html += `<div style="font-size:12.5px; font-weight:700; color:var(--text2); margin:12px 0 6px; padding-left:3px;">${escapeHtml(subj)}</div>`;
-      for (const lec of bySubject[subj]) {
+      const lecs = bySubject[subj];
+      const isOpen = openSet.has(subj);
+      // 과목별 통계
+      let totalVideoCount = 0, totalSec = 0, watchedSecSum = 0, totalWatchableSec = 0;
+      for (const lec of lecs) {
         const videos = lec.videos || [];
-        const totalSec = videos.reduce((s, v) => s + (v.durationSec || 0), 0);
-        // 진행률: 시청한 영상 수 / 전체 (50%이상 = 시청)
-        let watchedCount = 0;
-        let watchedSecSum = 0;
+        totalVideoCount += videos.length;
         for (const v of videos) {
+          totalSec += (v.durationSec || 0);
+          totalWatchableSec += (v.durationSec || 0);
           const w = watch[v.videoId];
-          if (w) {
-            watchedSecSum += w.watchedSec || 0;
-            const dur = v.durationSec || 1;
-            if ((w.watchedSec || 0) / dur >= 0.5) watchedCount++;
-          }
+          if (w) watchedSecSum += Math.min(w.watchedSec || 0, v.durationSec || 0);
         }
-        const progressPct = videos.length > 0
-          ? Math.round(watchedCount / videos.length * 100)
-          : 0;
-        html += `
-          <a class="lecture-list-card" href="#video/${encodeURIComponent(lec.id)}">
-            ${lec.thumbnailUrl ? `<img class="lecture-list-thumb" src="${escapeHtml(lec.thumbnailUrl)}" alt="" loading="lazy">` : `<div class="lecture-list-thumb" style="display:flex; align-items:center; justify-content:center; font-size:24px;">🎬</div>`}
-            <div class="lecture-list-info">
-              <div class="lecture-list-title">${escapeHtml(lec.title)}</div>
-              <div class="lecture-list-meta">
-                <span>📹 <b>${videos.length}</b>개</span>
-                <span>⏱ <b>${fmtLectureDurLong(totalSec)}</b></span>
-                ${watchedCount > 0 ? `<span>✓ <b>${watchedCount}/${videos.length}</b>완료</span>` : ''}
-              </div>
-              <div class="lecture-list-progress"><div style="width:${progressPct}%;"></div></div>
-            </div>
-          </a>
-        `;
       }
+      const progressPct = totalWatchableSec > 0 ? Math.round(watchedSecSum / totalWatchableSec * 100) : 0;
+
+      html += `
+        <div class="lecture-subj-group ${isOpen ? 'open' : ''}">
+          <button class="lecture-subj-header" onclick="toggleLectureSubject('${subj.replace(/'/g, "\\'")}')">
+            <span class="lecture-subj-arrow">▶</span>
+            <span class="lecture-subj-name">${escapeHtml(subj)}</span>
+            <span class="lecture-subj-meta">
+              <span>📚 ${lecs.length}개</span>
+              <span>📹 ${totalVideoCount}편</span>
+              ${progressPct > 0 ? `<span>✓ ${progressPct}%</span>` : ''}
+            </span>
+          </button>
+          <div class="lecture-subj-body">
+      `;
+      // body 안의 카드는 펼쳐졌을 때만 렌더 (메모리 절약 + 진입 속도)
+      if (isOpen) {
+        for (const lec of lecs) {
+          const videos = lec.videos || [];
+          const tSec = videos.reduce((s, v) => s + (v.durationSec || 0), 0);
+          let watchedCount = 0;
+          for (const v of videos) {
+            const w = watch[v.videoId];
+            if (w) {
+              const dur = v.durationSec || 1;
+              if ((w.watchedSec || 0) / dur >= 0.5) watchedCount++;
+            }
+          }
+          const lecProgress = videos.length > 0 ? Math.round(watchedCount / videos.length * 100) : 0;
+          html += `
+            <a class="lecture-list-card" href="#video/${encodeURIComponent(lec.id)}">
+              ${lec.thumbnailUrl ? `<img class="lecture-list-thumb" src="${escapeHtml(lec.thumbnailUrl)}" alt="" loading="lazy">` : `<div class="lecture-list-thumb" style="display:flex; align-items:center; justify-content:center; font-size:24px;">🎬</div>`}
+              <div class="lecture-list-info">
+                <div class="lecture-list-title">${escapeHtml(lec.title)}</div>
+                <div class="lecture-list-meta">
+                  <span>📹 <b>${videos.length}</b>개</span>
+                  <span>⏱ <b>${fmtLectureDurLong(tSec)}</b></span>
+                  ${watchedCount > 0 ? `<span>✓ <b>${watchedCount}/${videos.length}</b>완료</span>` : ''}
+                </div>
+                <div class="lecture-list-progress"><div style="width:${lecProgress}%;"></div></div>
+              </div>
+            </a>
+          `;
+        }
+      }
+      html += `</div></div>`;
     }
     wrap.innerHTML = html;
   }

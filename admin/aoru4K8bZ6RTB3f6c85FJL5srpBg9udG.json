@@ -1,0 +1,351 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-22T23:55:57.973Z",
+  "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
+  "studentCount": 38,
+  "baseUrl": "",
+  "students": [
+    {
+      "id": "s_1777538277049_9le2r7",
+      "name": "송유림",
+      "grade": "고2",
+      "school": "숭일고",
+      "className": "토,일 6시",
+      "studentPageCode": "2qd84k44xvr5",
+      "parentPageCode": "2qd84k44xvr5"
+    },
+    {
+      "id": "s_1777546951753_p3pskl",
+      "name": "김채린",
+      "grade": "고2",
+      "school": "숭일고",
+      "className": "토,일 6시",
+      "studentPageCode": "qsepzrq8kdtq",
+      "parentPageCode": "qsepzrq8kdtq"
+    },
+    {
+      "id": "s_1777546978791_hsee5a",
+      "name": "김규림",
+      "grade": "고2",
+      "school": "중앙여고",
+      "className": "토,일 6시",
+      "studentPageCode": "uhytagv8njqs",
+      "parentPageCode": "uhytagv8njqs"
+    },
+    {
+      "id": "s_1777547014208_7l30nn",
+      "name": "박다윤",
+      "grade": "고2",
+      "school": "경신여고",
+      "className": "토,일 6시",
+      "studentPageCode": "86wtsdncpk8h",
+      "parentPageCode": "86wtsdncpk8h"
+    },
+    {
+      "id": "s_1777547047005_uo92w5",
+      "name": "조예나",
+      "grade": "고2",
+      "school": "문정여고",
+      "className": "조예나 개별",
+      "studentPageCode": "t947hkxg7d8z",
+      "parentPageCode": "t947hkxg7d8z"
+    },
+    {
+      "id": "s_1778325875686_1uoe4b",
+      "name": "이경주",
+      "grade": "고2",
+      "school": "국제고",
+      "className": "토,일 4시",
+      "studentPageCode": "hypfjn5yx4xm",
+      "parentPageCode": "hypfjn5yx4xm"
+    },
+    {
+      "id": "s_1778397156600_clkd2u",
+      "name": "서연준",
+      "grade": "고2",
+      "school": "살레시오고",
+      "className": "토,일 4시",
+      "studentPageCode": "y8jkzjbpkmfh",
+      "parentPageCode": "y8jkzjbpkmfh"
+    },
+    {
+      "id": "s_1778402500926_7fxigp",
+      "name": "정찬민",
+      "grade": "고2",
+      "school": "살레시오고",
+      "className": "토,일 6시",
+      "studentPageCode": "tke85bjzms8e",
+      "parentPageCode": "tke85bjzms8e"
+    },
+    {
+      "id": "s_1778404886523_0ag055",
+      "name": "박다인",
+      "grade": "고2",
+      "school": "국제고",
+      "className": "토,일 6시",
+      "studentPageCode": "9kpm4rh8e2sb",
+      "parentPageCode": "9kpm4rh8e2sb"
+    },
+    {
+      "id": "s_1778638262495_alq1jg",
+      "name": "이현승",
+      "grade": "고2",
+      "school": "살레시오고",
+      "className": "토,일 6시",
+      "studentPageCode": "h4257zsksm3h",
+      "parentPageCode": "h4257zsksm3h"
+    },
+    {
+      "id": "s_1778768401651_7hlihp",
+      "name": "김현민",
+      "grade": "고2",
+      "school": "살레시오고",
+      "className": "토,일 6시",
+      "studentPageCode": "n2fz45twhzv4",
+      "parentPageCode": "n2fz45twhzv4"
+    },
+    {
+      "id": "s_1778849219765_v88lqq",
+      "name": "지유진",
+      "grade": "고2",
+      "school": "문정여고",
+      "className": "토,일 4시",
+      "studentPageCode": "w3k9fvx6w5vd",
+      "parentPageCode": "w3k9fvx6w5vd"
+    },
+    {
+      "id": "s_1778908285779_1cmzde",
+      "name": "서은영",
+      "grade": "고2",
+      "school": "경신여고",
+      "className": "토,일 2시",
+      "studentPageCode": "meut9zmgs6g3",
+      "parentPageCode": "meut9zmgs6g3"
+    },
+    {
+      "id": "s_1779005266373_7iq1b8",
+      "name": "김시현",
+      "grade": "고2",
+      "school": "국제고",
+      "className": "토,일 4시",
+      "studentPageCode": "a7xfuxvp5x9c",
+      "parentPageCode": "a7xfuxvp5x9c"
+    },
+    {
+      "id": "s_1779628208770_oahez9",
+      "name": "박현우",
+      "grade": "고2",
+      "school": "살레시오고",
+      "className": "토,일 4시",
+      "studentPageCode": "cs4z4c4u3t9u",
+      "parentPageCode": "cs4z4c4u3t9u"
+    },
+    {
+      "id": "s_1779811264964_kbtli4",
+      "name": "김한비",
+      "grade": "고2",
+      "school": "전사고",
+      "className": "토,일 4시",
+      "studentPageCode": "szsvtwbygpkz",
+      "parentPageCode": "szsvtwbygpkz"
+    },
+    {
+      "id": "s_1779948611035_qbdt5h",
+      "name": "서준우",
+      "grade": "중2",
+      "school": "살레시오중",
+      "className": "서준우 개별",
+      "studentPageCode": "kwbqx4xu6as9",
+      "parentPageCode": "kwbqx4xu6as9"
+    },
+    {
+      "id": "s_1780190418387_a11waf",
+      "name": "문대승",
+      "grade": "고3",
+      "school": "창평고",
+      "className": "S",
+      "studentPageCode": "3neea68kw4pt",
+      "parentPageCode": "3neea68kw4pt"
+    },
+    {
+      "id": "s_1780309053750_4dw5li",
+      "name": "장승원",
+      "grade": "중3",
+      "school": "숭일중",
+      "className": "장승원 개별",
+      "studentPageCode": "t2dh88gcxggm",
+      "parentPageCode": "t2dh88gcxggm"
+    },
+    {
+      "id": "s_1780309359751_gjl2s0",
+      "name": "박유솔",
+      "grade": "중3",
+      "school": "숭일중",
+      "className": "박유솔 개별",
+      "studentPageCode": "cu95x3bj3tmk",
+      "parentPageCode": "cu95x3bj3tmk"
+    },
+    {
+      "id": "s_1780314459772_3emo5z",
+      "name": "강화진",
+      "grade": "중3",
+      "school": "",
+      "className": "월,수,금 중3 5시 수업",
+      "studentPageCode": "rgb8kevqmdtt",
+      "parentPageCode": "rgb8kevqmdtt"
+    },
+    {
+      "id": "s_1780314459772_slkq6q",
+      "name": "김소윤",
+      "grade": "중3",
+      "school": "",
+      "className": "월,수,금 중3 5시 수업",
+      "studentPageCode": "dhm4znbjqs4z",
+      "parentPageCode": "dhm4znbjqs4z"
+    },
+    {
+      "id": "s_1780314459772_u5kn1l",
+      "name": "문현빈",
+      "grade": "중3",
+      "school": "",
+      "className": "월,수,금 중3 5시 수업",
+      "studentPageCode": "vcsyut7aa9yx",
+      "parentPageCode": "vcsyut7aa9yx"
+    },
+    {
+      "id": "s_1780314459772_58a78m",
+      "name": "장경원",
+      "grade": "중3",
+      "school": "",
+      "className": "월,수,금 중3 5시 수업",
+      "studentPageCode": "dfa3wge6dm65",
+      "parentPageCode": "dfa3wge6dm65"
+    },
+    {
+      "id": "s_1780314459772_mrri1r",
+      "name": "채수완",
+      "grade": "중3",
+      "school": "",
+      "className": "월,수,금 중3 5시 수업",
+      "studentPageCode": "y6p5fvfxgfeu",
+      "parentPageCode": "y6p5fvfxgfeu"
+    },
+    {
+      "id": "s_1780314459772_frngyj",
+      "name": "고승민",
+      "grade": "중3",
+      "school": "",
+      "className": "월,수,금 중3 5시 수업",
+      "studentPageCode": "t644dsvutyb8",
+      "parentPageCode": "t644dsvutyb8"
+    },
+    {
+      "id": "s_1780314459772_jsjhe4",
+      "name": "왕예진",
+      "grade": "중3",
+      "school": "",
+      "className": "월,수,금 중3 5시 수업",
+      "studentPageCode": "wmad574kw6zz",
+      "parentPageCode": "wmad574kw6zz"
+    },
+    {
+      "id": "s_1780314459772_hl9biz",
+      "name": "이도겸",
+      "grade": "중3",
+      "school": "",
+      "className": "월,수,금 중3 5시 수업",
+      "studentPageCode": "sujrjyha99fe",
+      "parentPageCode": "sujrjyha99fe"
+    },
+    {
+      "id": "s_1780314459772_wcllxa",
+      "name": "조아라",
+      "grade": "중3",
+      "school": "",
+      "className": "월,수,금 중3 5시 수업",
+      "studentPageCode": "rhu3ug525wup",
+      "parentPageCode": "rhu3ug525wup"
+    },
+    {
+      "id": "s_1780355782316_yrovp3",
+      "name": "이세영",
+      "grade": "고2",
+      "school": "전남여고",
+      "className": "S",
+      "studentPageCode": "agt64ex4yqvh",
+      "parentPageCode": "agt64ex4yqvh"
+    },
+    {
+      "id": "s_1780633652940_9hqjzx",
+      "name": "박은준",
+      "grade": "중3",
+      "school": "살레시오중",
+      "className": "월,수,금 중3 5시 수업, 박은준 개별",
+      "studentPageCode": "3dqm5z9tex4t",
+      "parentPageCode": "3dqm5z9tex4t"
+    },
+    {
+      "id": "s_1780728495466_3t0ug5",
+      "name": "백서현",
+      "grade": "고2",
+      "school": "숭일고",
+      "className": "토,일 2시",
+      "studentPageCode": "pnuj5d6majxc",
+      "parentPageCode": "pnuj5d6majxc"
+    },
+    {
+      "id": "s_1780821352355_cv63jr",
+      "name": "국아인",
+      "grade": "고2",
+      "school": "중앙여고",
+      "className": "토,일 4시",
+      "studentPageCode": "87dutmkxr9rz",
+      "parentPageCode": "87dutmkxr9rz"
+    },
+    {
+      "id": "s_1780825523674_8dwstz",
+      "name": "정시우",
+      "grade": "고2",
+      "school": "살레시오고",
+      "className": "토,일 6시",
+      "studentPageCode": "jh4b29p5qwtn",
+      "parentPageCode": "jh4b29p5qwtn"
+    },
+    {
+      "id": "s_1780825552050_3a3ma5",
+      "name": "노태원",
+      "grade": "고2",
+      "school": "살레시오고",
+      "className": "토,일 6시",
+      "studentPageCode": "mpxq2gey9jpc",
+      "parentPageCode": "mpxq2gey9jpc"
+    },
+    {
+      "id": "s_1780833047673_dy7d3f",
+      "name": "조은별",
+      "grade": "고2",
+      "school": "숭일고",
+      "className": "토,일 2시",
+      "studentPageCode": "59kas6tf2r77",
+      "parentPageCode": "59kas6tf2r77"
+    },
+    {
+      "id": "s_1780833414231_dup17p",
+      "name": "국보민",
+      "grade": "고2",
+      "school": "숭일고",
+      "className": "토,일 2시",
+      "studentPageCode": "zm39mvjpdvgu",
+      "parentPageCode": "zm39mvjpdvgu"
+    },
+    {
+      "id": "s_1782144542719_3gm3op",
+      "name": "이수연",
+      "grade": "고2",
+      "school": "문정여고",
+      "className": "토,일 4시",
+      "studentPageCode": "5yjt33jqznrm",
+      "parentPageCode": "5yjt33jqznrm"
+    }
+  ]
+}

@@ -225,6 +225,122 @@
     "memo": ""
   },
   {
+    "id": "lec_mqoujc2nsde",
+    "title": "공통수학2 개념+유형",
+    "youtubePlaylistId": "PLoYw3JZAX7F2jzdmTy2mclsGYJZzztTy-",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F2jzdmTy2mclsGYJZzztTy-",
+    "subject": "공통수학2",
+    "textbook": "개념+유형",
+    "memo": "",
+    "thumbnailUrl": "https://i.ytimg.com/vi/RHJzwrezWTA/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "RHJzwrezWTA",
+        "title": "8~13쪽 두 점 사이의 거리",
+        "position": 0,
+        "durationSec": 3666
+      },
+      {
+        "videoId": "aCFeIs4SOuc",
+        "title": "14~20쪽 파푸스의 중선정리, 선분의 내분점",
+        "position": 1,
+        "durationSec": 3691
+      },
+      {
+        "videoId": "cfsPaHyPEOo",
+        "title": "21~22쪽 과제 질의응답 + 필수예제2,3",
+        "position": 2,
+        "durationSec": 4669
+      },
+      {
+        "videoId": "AFHKiqluMBA",
+        "title": "23~26쪽 삼각형의 무게중심",
+        "position": 3,
+        "durationSec": 3510
+      },
+      {
+        "videoId": "bDNSxRCdNRY",
+        "title": "30~34쪽 직선의 방정식",
+        "position": 4,
+        "durationSec": 4548
+      },
+      {
+        "videoId": "QR6A3YfFpqM",
+        "title": "35~40쪽 두 직선의 평행과 수직",
+        "position": 5,
+        "durationSec": 3902
+      },
+      {
+        "videoId": "jIjscjI_q2c",
+        "title": "41~48쪽 점과 직선 사이의 거리",
+        "position": 6,
+        "durationSec": 4266
+      },
+      {
+        "videoId": "Ea3QmY3z6_c",
+        "title": "52~57쪽 원의 방정식(1)",
+        "position": 7,
+        "durationSec": 4404
+      },
+      {
+        "videoId": "QyhWoi7qA4s",
+        "title": "58~63쪽 원의 방정식 (2)",
+        "position": 8,
+        "durationSec": 4621
+      },
+      {
+        "videoId": "RS79k-MrZtk",
+        "title": "60~66쪽 개념편, 유형편 과제 질의응답(추가 진도 없음.)",
+        "position": 9,
+        "durationSec": 2992
+      },
+      {
+        "videoId": "AYuLMKDmn9E",
+        "title": "67~75쪽 원과 직선의 위치 관계, 원의 접선의 방정식",
+        "position": 10,
+        "durationSec": 3803
+      },
+      {
+        "videoId": "_s3ybInpBTQ",
+        "title": "76~86쪽 접선의 방정식 마무리, 평행이동",
+        "position": 11,
+        "durationSec": 3481
+      },
+      {
+        "videoId": "osQ4LqYmx9k",
+        "title": "89~94쪽 대칭이동",
+        "position": 12,
+        "durationSec": 3926
+      },
+      {
+        "videoId": "thUXUcQsoDI",
+        "title": "95~107쪽 점과 직선에 대한 대칭이동, 집합",
+        "position": 13,
+        "durationSec": 3739
+      },
+      {
+        "videoId": "iVNWkH7Tbhw",
+        "title": "108~114쪽 집합 사이의 포함관계, 부분집합의 개수",
+        "position": 14,
+        "durationSec": 4859
+      },
+      {
+        "videoId": "H2iaIqdnKt8",
+        "title": "118~123쪽 집합의 연산",
+        "position": 15,
+        "durationSec": 4814
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-06-22T06:40:29.663Z",
+    "updatedAt": "2026-06-22T06:40:29.663Z",
+    "lastSyncedAt": "2026-06-22T06:40:29.663Z"
+  },
+  {
     "id": "lec_mqks8brpdcl",
     "title": "대수 개념+유형 (26년 1월 ~ )_완강",
     "youtubePlaylistId": "PLoYw3JZAX7F0UmbIP4QyvOr1uIg2cnWgS",
@@ -523,6 +639,233 @@
     "lastSyncedAt": "2026-06-22T06:38:06.678Z"
   },
   {
+    "id": "lec_mqouhsb3oa7",
+    "title": "대수 쎈 (26년 1, 2월) _ 6시 수업_완강",
+    "youtubePlaylistId": "PLoYw3JZAX7F1B-v8K3-X2DIBvMf29lY1W",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F1B-v8K3-X2DIBvMf29lY1W",
+    "subject": "대수",
+    "textbook": "쎈",
+    "memo": "",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Fbtk7XNTmQs/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "Fbtk7XNTmQs",
+        "title": "02.로그 195~224번 + C단게 237, 238번 (6시 수업)",
+        "position": 0,
+        "durationSec": 4688
+      },
+      {
+        "videoId": "t7UWBVYoDqQ",
+        "title": "03.지수함수 225~331번 (6시 수업)",
+        "position": 1,
+        "durationSec": 5713
+      },
+      {
+        "videoId": "7BPqzx7aS7g",
+        "title": "03.지수함수 301~357번, C단계 361, 365번 + 04.로그함수 개념 (6시 수업)",
+        "position": 2,
+        "durationSec": 5480
+      },
+      {
+        "videoId": "xn7HXnN0wxE",
+        "title": "04.로그함수 351~462번 (6시 수업)",
+        "position": 3,
+        "durationSec": 5979
+      },
+      {
+        "videoId": "b18Hp6lTC5k",
+        "title": "04.로그함수 427~515번 (6시 수업)",
+        "position": 4,
+        "durationSec": 6223
+      },
+      {
+        "videoId": "RDfxZPMtwwo",
+        "title": "05.삼각함수 개념 + ~유형12 (6시 수업)",
+        "position": 5,
+        "durationSec": 5281
+      },
+      {
+        "videoId": "M4kAL4gO_eU",
+        "title": "05.삼각함수 580~608번, 06.삼각함수의 그래프 개념 설명 + ~682번 (6시 수업)",
+        "position": 6,
+        "durationSec": 5488
+      },
+      {
+        "videoId": "EbD0ocRGcG4",
+        "title": "06.삼각함수의 그래프 629~715번 절댓값을 포함한 그래프, 각변환공식 (6시 수업)",
+        "position": 7,
+        "durationSec": 5418
+      },
+      {
+        "videoId": "Bpq_mYJqbPA",
+        "title": "06.삼각형의 그래프 690~738번 (6시 수업)",
+        "position": 8,
+        "durationSec": 3868
+      },
+      {
+        "videoId": "i6HYD8sYeiE",
+        "title": "06.삼각함수의 그래프 C단계 772, 779, 782번 (6시 수업)",
+        "position": 9,
+        "durationSec": 1039
+      },
+      {
+        "videoId": "68Crw3OldQQ",
+        "title": "07.삼각함수의 활용 805~855번 (6시 수업)",
+        "position": 10,
+        "durationSec": 4014
+      },
+      {
+        "videoId": "vpzVqaM6X88",
+        "title": "07.삼각함수의 활용 810번 ~ 08.등차수열과 등비수열 959번 (6시 수업)",
+        "position": 11,
+        "durationSec": 4660
+      },
+      {
+        "videoId": "1zK7xJrr0u4",
+        "title": "08.등차수열과 등비수열 972~1021번 (6시 수업)",
+        "position": 12,
+        "durationSec": 4410
+      },
+      {
+        "videoId": "77MnmcczWbI",
+        "title": "08.등차수열과 등비수열 C단계 1028, 1036 + 09.수열의합 ~1092번",
+        "position": 13,
+        "durationSec": 3582
+      },
+      {
+        "videoId": "pG9FxSsiZCs",
+        "title": "09.수열의 합 1082 ~ 1127번",
+        "position": 14,
+        "durationSec": 4705
+      },
+      {
+        "videoId": "EBMAXMJj8rw",
+        "title": "09.수열의 합 1098번 ~ 10.수학적 귀납법 1195번",
+        "position": 15,
+        "durationSec": 5760
+      },
+      {
+        "videoId": "uqmAxt_gjRg",
+        "title": "10.수학적 귀납법 1170 ~ 1209번",
+        "position": 16,
+        "durationSec": 3238
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-06-22T06:39:17.391Z",
+    "updatedAt": "2026-06-22T06:39:17.391Z",
+    "lastSyncedAt": "2026-06-22T06:39:17.391Z"
+  },
+  {
+    "id": "lec_mqksd52wcz3",
+    "title": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
+    "youtubePlaylistId": "PLoYw3JZAX7F3674KYtFAwxP14HE_RFFFs",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F3674KYtFAwxP14HE_RFFFs",
+    "subject": "확률과 통계",
+    "thumbnailUrl": "https://i.ytimg.com/vi/vOzqYDqoHSU/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "vOzqYDqoHSU",
+        "title": "8~16쪽 중복순열, 같은 것이 있는 순열, 최단거리로 가는 경우의 수",
+        "position": 0,
+        "durationSec": 4971
+      },
+      {
+        "videoId": "SMz7_3LjXmk",
+        "title": "17~22쪽 중복조합",
+        "position": 1,
+        "durationSec": 4589
+      },
+      {
+        "videoId": "_khnHFzlaWw",
+        "title": "26~33쪽 이항정리, 이항계수의 성질",
+        "position": 2,
+        "durationSec": 4850
+      },
+      {
+        "videoId": "Ds33x02pYXE",
+        "title": "34~45쪽 이항계수의 성질 마무리, 확률의 개념과 기본 성질",
+        "position": 3,
+        "durationSec": 3734
+      },
+      {
+        "videoId": "NgQ7FH7nQ3c",
+        "title": "47~51쪽 과제 질의응답 +확률의  덧셈정리",
+        "position": 4,
+        "durationSec": 4742
+      },
+      {
+        "videoId": "L7mDjTDBlmQ",
+        "title": "56~62쪽 조건부확률",
+        "position": 5,
+        "durationSec": 4122
+      },
+      {
+        "videoId": "FfchtFJg51o",
+        "title": "63~67쪽 사건의 독립과 종속",
+        "position": 6,
+        "durationSec": 3873
+      },
+      {
+        "videoId": "f3EVnTLb9ys",
+        "title": "68~79쪽 독립시행의 확률, 이산확률변수와 확률질량함수",
+        "position": 7,
+        "durationSec": 4284
+      },
+      {
+        "videoId": "imvXsFcIxH0",
+        "title": "80~85쪽 이산확률변수의 기댓값과 표준편차",
+        "position": 8,
+        "durationSec": 4449
+      },
+      {
+        "videoId": "oBtsDk36z44",
+        "title": "86~99쪽 이항분포, 연속확률변수",
+        "position": 9,
+        "durationSec": 3629
+      },
+      {
+        "videoId": "R2PAkxMMLVU",
+        "title": "101~108쪽 정규분포",
+        "position": 10,
+        "durationSec": 5354
+      },
+      {
+        "videoId": "TBWT_FCzor0",
+        "title": "109~123쪽 이항분포와 정규분포 사이의 관계, 모평균과 표본평균",
+        "position": 11,
+        "durationSec": 3852
+      },
+      {
+        "videoId": "TFn6ia1_VrE",
+        "title": "124~136쪽 표본비율, 모평균의 추정, 모비율의 추정",
+        "position": 12,
+        "durationSec": 4821
+      },
+      {
+        "videoId": "W_xZ6m5Yj2g",
+        "title": "모평균의 추정 - 신뢰도 구하기(추가 프린트)",
+        "position": 13,
+        "durationSec": 1289
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "grades": [],
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-06-19T10:28:36.728Z",
+    "updatedAt": "2026-06-21T18:28:35.634Z",
+    "lastSyncedAt": "2026-06-20T07:15:24.988Z",
+    "textbook": "개념+유형",
+    "memo": ""
+  },
+  {
     "id": "lec_mqkscmibfht",
     "title": "미적분1 개념+유형 (26년 1,2월)",
     "youtubePlaylistId": "PLoYw3JZAX7F2HVEaqd5A2kExNM3avFTKW",
@@ -635,111 +978,6 @@
     "createdAt": "2026-06-19T10:28:12.659Z",
     "updatedAt": "2026-06-20T06:30:59.752Z",
     "lastSyncedAt": "2026-06-19T10:28:12.659Z",
-    "textbook": "개념+유형",
-    "memo": ""
-  },
-  {
-    "id": "lec_mqksd52wcz3",
-    "title": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
-    "youtubePlaylistId": "PLoYw3JZAX7F3674KYtFAwxP14HE_RFFFs",
-    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F3674KYtFAwxP14HE_RFFFs",
-    "subject": "확률과 통계",
-    "thumbnailUrl": "https://i.ytimg.com/vi/vOzqYDqoHSU/mqdefault.jpg",
-    "videos": [
-      {
-        "videoId": "vOzqYDqoHSU",
-        "title": "8~16쪽 중복순열, 같은 것이 있는 순열, 최단거리로 가는 경우의 수",
-        "position": 0,
-        "durationSec": 4971
-      },
-      {
-        "videoId": "SMz7_3LjXmk",
-        "title": "17~22쪽 중복조합",
-        "position": 1,
-        "durationSec": 4589
-      },
-      {
-        "videoId": "_khnHFzlaWw",
-        "title": "26~33쪽 이항정리, 이항계수의 성질",
-        "position": 2,
-        "durationSec": 4850
-      },
-      {
-        "videoId": "Ds33x02pYXE",
-        "title": "34~45쪽 이항계수의 성질 마무리, 확률의 개념과 기본 성질",
-        "position": 3,
-        "durationSec": 3734
-      },
-      {
-        "videoId": "NgQ7FH7nQ3c",
-        "title": "47~51쪽 과제 질의응답 +확률의  덧셈정리",
-        "position": 4,
-        "durationSec": 4742
-      },
-      {
-        "videoId": "L7mDjTDBlmQ",
-        "title": "56~62쪽 조건부확률",
-        "position": 5,
-        "durationSec": 4122
-      },
-      {
-        "videoId": "FfchtFJg51o",
-        "title": "63~67쪽 사건의 독립과 종속",
-        "position": 6,
-        "durationSec": 3873
-      },
-      {
-        "videoId": "f3EVnTLb9ys",
-        "title": "68~79쪽 독립시행의 확률, 이산확률변수와 확률질량함수",
-        "position": 7,
-        "durationSec": 4284
-      },
-      {
-        "videoId": "imvXsFcIxH0",
-        "title": "80~85쪽 이산확률변수의 기댓값과 표준편차",
-        "position": 8,
-        "durationSec": 4449
-      },
-      {
-        "videoId": "oBtsDk36z44",
-        "title": "86~99쪽 이항분포, 연속확률변수",
-        "position": 9,
-        "durationSec": 3629
-      },
-      {
-        "videoId": "R2PAkxMMLVU",
-        "title": "101~108쪽 정규분포",
-        "position": 10,
-        "durationSec": 5354
-      },
-      {
-        "videoId": "TBWT_FCzor0",
-        "title": "109~123쪽 이항분포와 정규분포 사이의 관계, 모평균과 표본평균",
-        "position": 11,
-        "durationSec": 3852
-      },
-      {
-        "videoId": "TFn6ia1_VrE",
-        "title": "124~136쪽 표본비율, 모평균의 추정, 모비율의 추정",
-        "position": 12,
-        "durationSec": 4821
-      },
-      {
-        "videoId": "W_xZ6m5Yj2g",
-        "title": "모평균의 추정 - 신뢰도 구하기(추가 프린트)",
-        "position": 13,
-        "durationSec": 1289
-      }
-    ],
-    "permissions": {
-      "type": "all",
-      "grades": [],
-      "classIds": [],
-      "studentIds": []
-    },
-    "createdAt": "2026-06-19T10:28:36.728Z",
-    "updatedAt": "2026-06-21T18:28:35.634Z",
-    "lastSyncedAt": "2026-06-20T07:15:24.988Z",
     "textbook": "개념+유형",
     "memo": ""
   }

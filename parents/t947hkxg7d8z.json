@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-22T16:09:57.383Z",
+  "generatedAt": "2026-06-22T16:18:17.816Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -24,7 +24,7 @@
             {
               "title": "부교재 예상 문제 1회 오답 다시 풀어보기",
               "dueDate": "2026-06-22",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": true
@@ -136,9 +136,9 @@
         }
       ],
       "completionRate": {
-        "done": 4,
+        "done": 5,
         "total": 5,
-        "percent": 80
+        "percent": 100
       },
       "noteStages": {
         "1": {

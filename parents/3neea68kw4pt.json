@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-22T16:18:50.480Z",
+  "generatedAt": "2026-06-22T16:38:56.238Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -128,22 +128,50 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-21T05:52:32.766Z",
+    "uploadedAt": "2026-06-22T16:12:51.434Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 83345,
-      "streak": 0,
+      "weekSec": 20612,
+      "monthSec": 103957,
+      "streak": 5,
       "bySubjectMonth": {
         "확통": 8293,
         "클로드": 6923,
         "문제DB": 4457,
-        "과외": 20260,
-        "학원": 42439,
-        "미적분Ⅰ": 973
+        "과외": 32999,
+        "학원": 50063,
+        "미적분Ⅰ": 973,
+        "대수": 249
       }
     },
     "logs": [
+      {
+        "id": "effort_mqpezc13o52",
+        "startedAt": 1782132022182,
+        "seconds": 12739,
+        "subject": "과외",
+        "method": "문제 풀이",
+        "content": "마무리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mqp7e09ijbm",
+        "startedAt": 1782124384376,
+        "seconds": 7624,
+        "subject": "학원",
+        "method": "문제 풀이",
+        "content": "시험 대비",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mqovm23v81u",
+        "startedAt": 1782111976567,
+        "seconds": 249,
+        "subject": "대수",
+        "method": "강의 시청",
+        "content": "대수 쎈 (26년 1, 2월) _ 6시 수업_완강 — 03.지수함수 301~357번, C단계 361, 365번 + 04.로그함수 개념 (6시 수업)",
+        "reflection": ""
+      },
       {
         "id": "effort_mqnddr9dvmz",
         "startedAt": 1782002880322,

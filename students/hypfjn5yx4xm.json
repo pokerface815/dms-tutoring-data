@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-22T12:50:57.182Z",
+  "generatedAt": "2026-06-22T16:09:58.715Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -12,9 +12,7 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1782031302470_7xoavo",
       "noteName": "이경주_개념루트_재오답_6월21일",
@@ -25,7 +23,10 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1780674000953_zztmxb",
       "noteName": "이경주_수매씽 유형_수학적 귀납법( ~2390번)",

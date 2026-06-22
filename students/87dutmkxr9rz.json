@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-22T06:43:49.689Z",
+  "generatedAt": "2026-06-22T10:47:12.394Z",
   "student": {
     "id": "s_1780821352355_cv63jr",
     "classes": [
@@ -12,19 +12,7 @@
     "class": "",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1781511394108_frgazt",
-      "noteName": "국아인_개념루트_등차수열과 등비수열( ~709번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-22",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -40,6 +28,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1781511394108_frgazt",
+      "noteName": "국아인_개념루트_등차수열과 등비수열( ~709번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-22",
+      "done": true,
+      "doneAt": "2026-06-22T10:45:18.179Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1781511394108_frgazt",
       "noteName": "국아인_개념루트_등차수열과 등비수열( ~709번)",
@@ -103,8 +103,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

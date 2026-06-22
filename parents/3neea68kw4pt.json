@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-22T12:51:28.378Z",
+  "generatedAt": "2026-06-22T16:10:30.372Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -133,7 +133,7 @@
       "todaySec": 0,
       "weekSec": 0,
       "monthSec": 83345,
-      "streak": 4,
+      "streak": 0,
       "bySubjectMonth": {
         "확통": 8293,
         "클로드": 6923,

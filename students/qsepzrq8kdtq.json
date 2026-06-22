@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-22T05:07:09.668Z",
+  "generatedAt": "2026-06-22T05:11:47.743Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -14,7 +14,7 @@
   },
   "today": [
     {
-      "assignmentId": "a_1782104810497_ig8fqy",
+      "assignmentId": "a_1782105074967_33acrc",
       "noteName": "김채린_수학의 바이블 유형 ON 1권_수열의 합( ~996번)",
       "subject": "대수",
       "round": 1,
@@ -28,7 +28,7 @@
   "overdue": [],
   "upcoming": [
     {
-      "assignmentId": "a_1782104810497_ig8fqy",
+      "assignmentId": "a_1782105074967_33acrc",
       "noteName": "김채린_수학의 바이블 유형 ON 1권_수열의 합( ~996번)",
       "subject": "대수",
       "round": 2,

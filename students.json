@@ -956,5 +956,33 @@
     "showMakeNote": true,
     "pageCode": "zm39mvjpdvgu",
     "showNoteStages": true
+  },
+  {
+    "id": "s_1782144542719_3gm3op",
+    "name": "이수연",
+    "school": "문정여고",
+    "grade": "고2",
+    "classes": [
+      "cls_1780310061018_vay6zf"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-4675-0232",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "5yjt33jqznrm"
   }
 ]

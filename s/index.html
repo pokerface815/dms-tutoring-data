@@ -538,24 +538,30 @@
   .lecture-subj-header {
     width: 100%; padding: 11px 13px;
     background: var(--surface); border: 1px solid var(--border); border-radius: 11px;
-    display: flex; gap: 10px; align-items: center;
+    display: grid;
+    grid-template-columns: 12px 1fr auto auto;
+    gap: 12px; align-items: center;
     cursor: pointer; font-family: inherit;
     transition: background 0.12s, border-color 0.12s;
     text-align: left;
   }
   .lecture-subj-header:hover { background: var(--surface2); border-color: var(--accent-light); }
   .lecture-subj-arrow {
-    font-size: 10px; color: var(--text3); flex-shrink: 0;
+    font-size: 10px; color: var(--text3);
     transition: transform 0.15s ease;
   }
   .lecture-subj-group.open .lecture-subj-arrow { transform: rotate(90deg); }
-  .lecture-subj-name { font-size: 13.5px; font-weight: 700; color: var(--text); flex-shrink: 0; }
-  .lecture-subj-meta {
-    display: flex; gap: 10px; align-items: center;
-    margin-left: auto;
+  .lecture-subj-name { font-size: 13.5px; font-weight: 700; color: var(--text); }
+  .lecture-subj-count {
     font-size: 11.5px; color: var(--text3);
+    text-align: right; min-width: 86px;
+    white-space: nowrap;
   }
-  .lecture-subj-meta > span { white-space: nowrap; }
+  .lecture-subj-progress {
+    font-size: 11.5px; color: var(--text3);
+    text-align: right; min-width: 60px;
+    white-space: nowrap;
+  }
   .lecture-subj-body {
     overflow: hidden;
     max-height: 0;
@@ -1520,11 +1526,8 @@
           <button class="lecture-subj-header" onclick="toggleLectureSubject('${subj.replace(/'/g, "\\'")}')">
             <span class="lecture-subj-arrow">▶</span>
             <span class="lecture-subj-name">${escapeHtml(subj)}</span>
-            <span class="lecture-subj-meta">
-              <span>📚 ${lecs.length}개</span>
-              <span>📹 ${totalVideoCount}편</span>
-              ${progressPct > 0 ? `<span>✓ ${progressPct}%</span>` : ''}
-            </span>
+            <span class="lecture-subj-count">재생목록 ${lecs.length}개</span>
+            <span class="lecture-subj-progress">${progressPct > 0 ? `진행 ${progressPct}%` : ''}</span>
           </button>
           <div class="lecture-subj-body">
       `;

@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>관리자 — 생각의 흐름 · 기억의 설계</title>
+<style>
+  :root {
+    --bg: #f7f2e6;
+    --surface: #faf5e9;
+    --surface2: #f0e9d6;
+    --border: #e0d6bc;
+    --text: #3a342a;
+    --text2: #6b5f4a;
+    --text3: #998a6e;
+    --accent: #8b5a2b;
+    --accent-light: #c9a373;
+    --accent-dark: #6b4220;
+    --danger: #A32D2D;
+    --radius: 12px;
+    --shadow: 0 2px 6px rgba(0,0,0,0.04);
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", "Nanum Gothic", sans-serif;
+    font-size: 14px; line-height: 1.55; letter-spacing: -0.1px;
+    min-height: 100vh;
+  }
+  .container { max-width: 720px; margin: 0 auto; padding: 16px 14px 40px; }
+
+  .header {
+    text-align: center; padding: 18px 0 22px;
+  }
+  .header h1 { font-size: 22px; margin: 0 0 4px; font-weight: 700; letter-spacing: -0.4px; }
+  .header p { font-size: 12px; color: var(--text3); margin: 0; }
+
+  .toolbar {
+    display: flex; gap: 8px; margin-bottom: 12px; align-items: center; flex-wrap: wrap;
+  }
+  .input, .select {
+    padding: 8px 12px; font-size: 13.5px; font-family: inherit;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text); outline: none;
+    transition: border-color 0.12s;
+  }
+  .input:focus, .select:focus { border-color: var(--accent); }
+  .input { flex: 1; min-width: 120px; }
+  .select { min-width: 110px; }
+
+  .stats-bar {
+    display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap;
+  }
+  .stats-chip {
+    padding: 5px 11px; font-size: 11.5px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    color: var(--text2); font-weight: 500;
+  }
+  .stats-chip b { color: var(--text); font-weight: 700; }
+
+  .student-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 12px 14px; margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px 12px; align-items: center;
+    box-shadow: var(--shadow);
+  }
+  .student-info { min-width: 0; }
+  .student-name { font-size: 15px; font-weight: 700; color: var(--text); }
+  .student-sub {
+    font-size: 11.5px; color: var(--text3); margin-top: 2px;
+    display: flex; gap: 6px; align-items: center; flex-wrap: wrap;
+  }
+  .student-sub > span { white-space: nowrap; }
+  .student-sub-divider { color: var(--border); }
+
+  .student-actions {
+    display: flex; gap: 6px; align-items: center;
+  }
+  .btn-open {
+    padding: 7px 12px; font-size: 12px; font-weight: 600;
+    background: var(--surface2); border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text2); cursor: pointer; font-family: inherit;
+    text-decoration: none; display: inline-flex; align-items: center; gap: 4px;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+    white-space: nowrap;
+  }
+  .btn-open:hover { background: var(--accent-light); color: #fff; border-color: var(--accent-light); }
+  .btn-open:active { background: var(--accent); color: #fff; }
+  .btn-open.parent { /* 학부모는 약간 다른 톤 */ }
+  .btn-open .icon { font-size: 13px; }
+
+  .empty-state {
+    text-align: center; padding: 60px 20px;
+    color: var(--text3);
+  }
+  .empty-state .icon { font-size: 44px; margin-bottom: 12px; }
+  .empty-state h3 { font-size: 14px; color: var(--text); margin: 0 0 6px; font-weight: 700; }
+  .empty-state p { font-size: 12px; margin: 0; line-height: 1.6; }
+
+  .error-state {
+    text-align: center; padding: 80px 20px;
+    color: var(--danger);
+  }
+  .error-state .icon { font-size: 44px; margin-bottom: 12px; }
+  .error-state h3 { font-size: 14px; color: var(--danger); margin: 0 0 6px; font-weight: 700; }
+  .error-state p { font-size: 12px; margin: 0; line-height: 1.6; color: var(--text2); }
+
+  .loading {
+    text-align: center; padding: 60px 20px; color: var(--text3);
+    font-size: 13px;
+  }
+
+  /* 모바일 — 카드 1열로 자연스럽게 */
+  @media (max-width: 520px) {
+    .student-card {
+      grid-template-columns: 1fr;
+    }
+    .student-actions {
+      justify-content: flex-end;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>생각의 흐름 · 기억의 설계</h1>
+    <p>관리자 · 학생/학부모 페이지 미리보기</p>
+  </div>
+
+  <div id="content">
+    <div class="loading">데이터를 받아오는 중...</div>
+  </div>
+</div>
+
+<script>
+(async function() {
+  const params = new URLSearchParams(window.location.search);
+  const adminCode = params.get('code') || '';
+
+  function showError(title, msg) {
+    document.getElementById('content').innerHTML = `
+      <div class="error-state">
+        <div class="icon">⚠</div>
+        <h3>${title}</h3>
+        <p>${msg}</p>
+      </div>
+    `;
+  }
+
+  if (!adminCode) {
+    showError('접근 코드가 없습니다', 'URL에 관리자 코드가 포함되어야 합니다.');
+    return;
+  }
+
+  // admin/{code}.json fetch
+  let data;
+  try {
+    const url = `../admin/${encodeURIComponent(adminCode)}.json?t=${Date.now()}`;
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) {
+      if (res.status === 404) {
+        showError('잘못된 접근 코드입니다', '관리자 코드를 다시 확인해주세요.');
+      } else {
+        showError('데이터를 불러올 수 없습니다', `오류 ${res.status}`);
+      }
+      return;
+    }
+    data = await res.json();
+  } catch (e) {
+    showError('네트워크 오류', e.message);
+    return;
+  }
+
+  const students = Array.isArray(data.students) ? data.students : [];
+  const baseUrl = data.baseUrl || (window.location.origin + window.location.pathname.replace(/\/a\/.*/, ''));
+
+  // 상태
+  let nameFilter = '';
+  let gradeFilter = '';
+  let sortBy = 'name';  // 'name' | 'grade'
+
+  function escapeHtml(s) {
+    return String(s || '').replace(/[&<>"']/g, c => ({
+      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+    })[c]);
+  }
+
+  function renderToolbar() {
+    const grades = [...new Set(students.map(s => s.grade).filter(Boolean))]
+      .sort((a, b) => a.localeCompare(b, 'ko'));
+    return `
+      <div class="toolbar">
+        <input type="text" class="input" id="nameFilter" placeholder="이름·학년·학교 검색"
+               value="${escapeHtml(nameFilter)}" oninput="window._onNameFilter(this.value)">
+        <select class="select" id="gradeFilter" onchange="window._onGradeFilter(this.value)">
+          <option value="">전체 학년</option>
+          ${grades.map(g => `<option value="${escapeHtml(g)}" ${g === gradeFilter ? 'selected' : ''}>${escapeHtml(g)}</option>`).join('')}
+        </select>
+        <select class="select" id="sortBy" onchange="window._onSortBy(this.value)">
+          <option value="name" ${sortBy === 'name' ? 'selected' : ''}>이름순</option>
+          <option value="grade" ${sortBy === 'grade' ? 'selected' : ''}>학년순</option>
+        </select>
+      </div>
+    `;
+  }
+
+  window._onNameFilter = function(v) { nameFilter = v; render(); restoreFocus(); };
+  window._onGradeFilter = function(v) { gradeFilter = v; render(); };
+  window._onSortBy = function(v) { sortBy = v; render(); };
+
+  function restoreFocus() {
+    const el = document.getElementById('nameFilter');
+    if (el) {
+      el.focus();
+      el.setSelectionRange(el.value.length, el.value.length);
+    }
+  }
+
+  function getFiltered() {
+    const q = nameFilter.trim().toLowerCase();
+    let filtered = students.filter(s => {
+      if (q) {
+        const hay = [s.name, s.grade, s.school].filter(Boolean).join(' ').toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      if (gradeFilter && s.grade !== gradeFilter) return false;
+      return true;
+    });
+    if (sortBy === 'name') {
+      filtered.sort((a, b) => (a.name || '').localeCompare(b.name || '', 'ko'));
+    } else if (sortBy === 'grade') {
+      filtered.sort((a, b) => {
+        const g = (a.grade || '').localeCompare(b.grade || '', 'ko');
+        return g !== 0 ? g : (a.name || '').localeCompare(b.name || '', 'ko');
+      });
+    }
+    return filtered;
+  }
+
+  function render() {
+    const filtered = getFiltered();
+    let html = renderToolbar();
+
+    // 통계 칩
+    html += `
+      <div class="stats-bar">
+        <div class="stats-chip">전체 <b>${students.length}</b>명</div>
+        ${(nameFilter || gradeFilter) ? `<div class="stats-chip">표시 <b>${filtered.length}</b>명</div>` : ''}
+      </div>
+    `;
+
+    if (filtered.length === 0) {
+      html += `
+        <div class="empty-state">
+          <div class="icon">👥</div>
+          <h3>조건에 맞는 학생이 없습니다</h3>
+          <p>검색어나 필터를 다시 확인해주세요.</p>
+        </div>
+      `;
+    } else {
+      for (const s of filtered) {
+        const sub = [s.grade, s.school, s.className].filter(Boolean);
+        const subHtml = sub.length > 0
+          ? sub.map(x => `<span>${escapeHtml(x)}</span>`).join('<span class="student-sub-divider">·</span>')
+          : '<span style="color:var(--text3);">학년·학교 미입력</span>';
+        const studentUrl = s.studentPageCode ? `${baseUrl}/s/?code=${encodeURIComponent(s.studentPageCode)}` : '';
+        const parentUrl = s.parentPageCode ? `${baseUrl}/p/?code=${encodeURIComponent(s.parentPageCode)}` : '';
+        html += `
+          <div class="student-card">
+            <div class="student-info">
+              <div class="student-name">${escapeHtml(s.name || '(이름 없음)')}</div>
+              <div class="student-sub">${subHtml}</div>
+            </div>
+            <div class="student-actions">
+              ${studentUrl ? `<a class="btn-open" href="${studentUrl}" target="_blank" rel="noopener" title="학생 페이지 새 탭으로 열기"><span class="icon">📱</span>학생</a>` : ''}
+              ${parentUrl ? `<a class="btn-open parent" href="${parentUrl}" target="_blank" rel="noopener" title="학부모 페이지 새 탭으로 열기"><span class="icon">👨‍👩‍👧</span>학부모</a>` : ''}
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    document.getElementById('content').innerHTML = html;
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>

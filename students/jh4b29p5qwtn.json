@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-22T10:47:15.934Z",
+  "generatedAt": "2026-06-22T12:52:06.367Z",
   "student": {
     "id": "s_1780825523674_8dwstz",
     "classes": [
@@ -62,5 +62,36 @@
   },
   "teacherConfirms": {},
   "tasks": [],
-  "myGrades": []
+  "myGrades": [
+    {
+      "id": "grade_mqp7r3t87sq",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "중간",
+      "score": 54,
+      "grade": null,
+      "rank": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-06-22T12:50:27.211Z"
+    },
+    {
+      "id": "grade_mqp7rigwxh5",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "확률과 통계",
+      "examKind": "중간",
+      "score": 73,
+      "grade": null,
+      "rank": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-06-22T12:50:46.208Z"
+    }
+  ]
 }

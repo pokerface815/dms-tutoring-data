@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-22T10:45:19.128Z",
+  "generatedAt": "2026-06-22T12:50:52.132Z",
   "student": {
     "id": "s_1777547014208_7l30nn",
     "classes": [
@@ -12,19 +12,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "today": [
-    {
-      "assignmentId": "a_1781948134457_3xbiql",
-      "noteName": "박다윤_마더텅_전체",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-22",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -40,6 +28,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1781948134457_3xbiql",
+      "noteName": "박다윤_마더텅_전체",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-22",
+      "done": true,
+      "doneAt": "2026-06-22T10:45:19.424Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1781948134457_3xbiql",
       "noteName": "박다윤_마더텅_전체",
@@ -199,8 +199,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

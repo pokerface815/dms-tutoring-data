@@ -2090,12 +2090,86 @@
     }
   }
 
-  // 4가지 기준의 정렬된 랭킹 리스트
+  // 본인의 weekSec/monthSec/totalSec/streak을 localStorage에서 직접 계산 (항상 최신)
+  function computeMyOwnStats() {
+    const logs = (function() {
+      try { return JSON.parse(localStorage.getItem(`effortLogs__${studentCode}`) || '[]'); }
+      catch(e) { return []; }
+    })();
+    const now = new Date();
+    const dayOfWeek = (now.getDay() + 6) % 7;  // 월=0
+    const weekStart = new Date(now.getFullYear(), now.getMonth(), now.getDate() - dayOfWeek).getTime();
+    const monthStart = new Date(now.getFullYear(), now.getMonth(), 1).getTime();
+    const dayMs = 86400000;
+
+    let totalSec = 0, weekSec = 0, monthSec = 0;
+    const studiedDays = new Set();
+    for (const l of logs) {
+      const t = l.startedAt || 0;
+      const s = l.seconds || 0;
+      totalSec += s;
+      if (t >= weekStart) weekSec += s;
+      if (t >= monthStart) monthSec += s;
+      if (s > 0 && t > 0) {
+        const d = new Date(t);
+        studiedDays.add(`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`);
+      }
+    }
+
+    // 연속 일수
+    let streak = 0;
+    let cursor = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const todayKey = `${cursor.getFullYear()}-${String(cursor.getMonth()+1).padStart(2,'0')}-${String(cursor.getDate()).padStart(2,'0')}`;
+    if (!studiedDays.has(todayKey)) cursor = new Date(cursor.getTime() - dayMs);
+    while (true) {
+      const k = `${cursor.getFullYear()}-${String(cursor.getMonth()+1).padStart(2,'0')}-${String(cursor.getDate()).padStart(2,'0')}`;
+      if (studiedDays.has(k)) {
+        streak++;
+        cursor = new Date(cursor.getTime() - dayMs);
+      } else break;
+    }
+    return { totalSec, weekSec, monthSec, streak };
+  }
+
+  function getMyRankingEntry(key) {
+    const myId = studentData?.student?.id;
+    if (!myId) return null;
+    const myStats = computeMyOwnStats();
+
+    // rankings.json이 없거나 비어있으면 본인만으로 단독 리스트 생성
+    let baseList = [];
+    if (_rankingData && Array.isArray(_rankingData.rankings)) {
+      baseList = _rankingData.rankings.slice();
+    }
+    // 본인 데이터를 baseList에 덮어쓰기 또는 추가
+    const myIdx = baseList.findIndex(it => it.id === myId);
+    if (myIdx >= 0) {
+      baseList[myIdx] = { ...baseList[myIdx], ...myStats };
+    } else {
+      baseList.push({ id: myId, ...myStats });
+    }
+
+    // 정렬 + 순위 부여
+    baseList.sort((a, b) => (b[key] || 0) - (a[key] || 0));
+    let prevVal = null, prevRank = 0;
+    baseList.forEach((item, i) => {
+      const v = item[key] || 0;
+      if (v === prevVal) item._rank = prevRank;
+      else { item._rank = i + 1; prevRank = i + 1; prevVal = v; }
+    });
+
+    const entry = baseList.find(it => it.id === myId);
+    if (!entry) return null;
+    return { ...entry, _total: baseList.length, _list: baseList };
+  }
+
+  // 4가지 기준의 정렬된 랭킹 리스트 (랭킹 화면용 — 본인 데이터도 동적 계산 반영)
   function getRankingByKey(key) {
+    const my = getMyRankingEntry(key);
+    if (my) return my._list;
     if (!_rankingData || !Array.isArray(_rankingData.rankings)) return [];
     const list = _rankingData.rankings.slice();
     list.sort((a, b) => (b[key] || 0) - (a[key] || 0));
-    // 순위 부여 (동점 처리: 같은 값이면 같은 순위)
     let prevVal = null, prevRank = 0;
     list.forEach((item, i) => {
       const v = item[key] || 0;
@@ -2103,15 +2177,6 @@
       else { item._rank = i + 1; prevRank = i + 1; prevVal = v; }
     });
     return list;
-  }
-
-  function getMyRankingEntry(key) {
-    const list = getRankingByKey(key);
-    const myId = studentData?.student?.id;
-    if (!myId) return null;
-    const entry = list.find(it => it.id === myId);
-    if (!entry) return null;
-    return { ...entry, _total: list.length, _list: list };
   }
 
   function fmtRankingValue(key, value) {
@@ -2228,12 +2293,11 @@
     wrap.innerHTML = html;
   }
 
-  // 노력의 자취 화면 상단의 미니 "내 순위" 카드 (HTML 반환만, 비동기 fetch 불필요)
+  // 노력의 자취 화면 상단의 미니 "내 순위" 카드
   function renderRankingMiniCard() {
-    if (!_rankingData) return '';  // 데이터 없으면 표시 안 함
     const my = getMyRankingEntry('weekSec');
     if (!my) return '';
-    const total = _rankingData.studentCount || 0;
+    const total = my._total || (_rankingData?.studentCount) || 1;
     if (total === 0) return '';
     const percentile = Math.round((my._rank / total) * 100);
     const value = fmtRankingValue('weekSec', my.weekSec);

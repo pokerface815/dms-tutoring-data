@@ -389,6 +389,140 @@
     "memo": ""
   },
   {
+    "id": "lec_mqoug9qucii",
+    "title": "대수 쎈 (26년 1, 2월) _ 4시 수업_완강",
+    "youtubePlaylistId": "PLoYw3JZAX7F2F732CYY-8ySF01v1j12t8",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F2F732CYY-8ySF01v1j12t8",
+    "subject": "대수",
+    "textbook": "쎈",
+    "memo": "",
+    "thumbnailUrl": "https://i.ytimg.com/vi/SDn87Up4qPQ/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "SDn87Up4qPQ",
+        "title": "02.로그 개념 + 161~188번 (4시 수업)",
+        "position": 0,
+        "durationSec": 3771
+      },
+      {
+        "videoId": "FSL9OLvaosA",
+        "title": "02.로그 168~224번 (4시 수업)",
+        "position": 1,
+        "durationSec": 5091
+      },
+      {
+        "videoId": "Hp0RpWelgZU",
+        "title": "03.지수함수 219~317번 (4시 수업)",
+        "position": 2,
+        "durationSec": 5795
+      },
+      {
+        "videoId": "rRxWuYjo_Fs",
+        "title": "03.지수함수 296~357번 (4시 수업)",
+        "position": 3,
+        "durationSec": 5687
+      },
+      {
+        "videoId": "66-IQFK5FNk",
+        "title": "03.지수함수 347~365번,  04.로그함수 개념 + 426~441번 (4시 수업)",
+        "position": 4,
+        "durationSec": 5539
+      },
+      {
+        "videoId": "Aj4CN40PlBM",
+        "title": "04.로그함수 436~502번 (4시 수업)",
+        "position": 5,
+        "durationSec": 5501
+      },
+      {
+        "videoId": "UxjFhwm0uDY",
+        "title": "05.삼각함수 개념 + ~602번 (4시 수업)",
+        "position": 6,
+        "durationSec": 6388
+      },
+      {
+        "videoId": "YHoG4EVmJoc",
+        "title": "05.삼각함수 588~620번, 06.삼각함수의 그래프 개념 설명 + ~678번 (4시 수업)",
+        "position": 7,
+        "durationSec": 6068
+      },
+      {
+        "videoId": "r-K7WeZpP8w",
+        "title": "06.삼각함수의 그래프 608~700번 삼각함수의 주기,최대,최소 + 절댓값 있을 때 그래프 (4시 수업)",
+        "position": 8,
+        "durationSec": 5701
+      },
+      {
+        "videoId": "wdDoJFZqC-4",
+        "title": "05.삼각함수의 그래프 697~738번 + 각변환공식 (4시 수업)",
+        "position": 9,
+        "durationSec": 4784
+      },
+      {
+        "videoId": "IWrypLdWyBc",
+        "title": "05.삼각함수의 그래프 713~749번, 07.삼각함수의 활용 805~855번 + 사인법칙, 코사인법칙, 헤론의 공식 (4시 수업)",
+        "position": 10,
+        "durationSec": 5509
+      },
+      {
+        "videoId": "Z4VvnehaI6s",
+        "title": "07.삼각함수의 활용 756번 ~ 08.등차수열과 등비수열 943번 (4시 수업)",
+        "position": 11,
+        "durationSec": 5219
+      },
+      {
+        "videoId": "XnePpui2nrU",
+        "title": "08.등차수열과 등비수열 931~991번 (4시 수업)",
+        "position": 12,
+        "durationSec": 5637
+      },
+      {
+        "videoId": "59BtPHDWLTg",
+        "title": "08.등차수열과 등비수열 947번 ~ 09.수열의 합 1074번",
+        "position": 13,
+        "durationSec": 5689
+      },
+      {
+        "videoId": "t811FiT6lco",
+        "title": "08.등차수열과 등비수열 1008번 ~ 09.수열의합 1118번",
+        "position": 14,
+        "durationSec": 5121
+      },
+      {
+        "videoId": "xjqw-Z0wfDg",
+        "title": "09.수열의 합 1082번 ~ 10.수학적 귀납법 유형3, 4",
+        "position": 15,
+        "durationSec": 3161
+      },
+      {
+        "videoId": "Rnu3yVuxKh8",
+        "title": "10.수학적 귀납법 유형3, 4 ~ 1188번",
+        "position": 16,
+        "durationSec": 1954
+      },
+      {
+        "videoId": "-m4GXpgg6r8",
+        "title": "09.수열의 합 1127번 ~ 10.수학적 귀납법 1208번",
+        "position": 17,
+        "durationSec": 5097
+      },
+      {
+        "videoId": "fmUmgdn0IrA",
+        "title": "3월 7일 고쟁이 01. 지수, 로그 step2",
+        "position": 18,
+        "durationSec": 1990
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-06-22T06:38:06.678Z",
+    "updatedAt": "2026-06-22T06:38:06.678Z",
+    "lastSyncedAt": "2026-06-22T06:38:06.678Z"
+  },
+  {
     "id": "lec_mqkscmibfht",
     "title": "미적분1 개념+유형 (26년 1,2월)",
     "youtubePlaylistId": "PLoYw3JZAX7F2HVEaqd5A2kExNM3avFTKW",

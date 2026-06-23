@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-22T16:39:29.167Z",
+  "generatedAt": "2026-06-23T00:19:07.266Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -12,6 +12,8 @@
     "class": "개별수업",
     "showMakeNote": true
   },
+  "syncedEffortLogs": null,
+  "syncedLectureWatch": null,
   "today": [
     {
       "assignmentId": "a_1781536830575_5ol8ni",

@@ -5,6 +5,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>관리자 — 생각의 흐름 · 기억의 설계</title>
+
+<!-- 홈 화면 추가 시 아이콘 (iOS / Android) -->
+<link rel="apple-touch-icon" sizes="180x180" href="./icon.png">
+<link rel="apple-touch-icon" sizes="192x192" href="./icon.png">
+<link rel="apple-touch-icon" sizes="512x512" href="./icon.png">
+<link rel="icon" type="image/png" href="./icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="관리자">
+<meta name="theme-color" content="#f7f2e6">
 <style>
   :root {
     --bg: #f7f2e6;
@@ -64,10 +74,24 @@
     background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
     padding: 12px 14px; margin-bottom: 8px;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: auto 1fr auto;
     gap: 8px 12px; align-items: center;
     box-shadow: var(--shadow);
   }
+  .student-card.favorite {
+    background: linear-gradient(to right, oklch(96% 0.05 90), var(--surface));
+    border-color: oklch(80% 0.10 90);
+  }
+  .star-btn {
+    width: 32px; height: 32px;
+    display: flex; align-items: center; justify-content: center;
+    background: transparent; border: none; cursor: pointer; font-family: inherit;
+    color: var(--border); font-size: 22px; line-height: 1;
+    padding: 0; transition: color 0.12s, transform 0.1s;
+  }
+  .star-btn:hover { color: oklch(70% 0.13 85); transform: scale(1.1); }
+  .star-btn:active { transform: scale(0.95); }
+  .star-btn.active { color: oklch(70% 0.16 85); }
   .student-info { min-width: 0; }
   .student-name { font-size: 15px; font-weight: 700; color: var(--text); }
   .student-sub {
@@ -117,9 +141,10 @@
   /* 모바일 — 카드 1열로 자연스럽게 */
   @media (max-width: 520px) {
     .student-card {
-      grid-template-columns: 1fr;
+      grid-template-columns: auto 1fr;
     }
     .student-actions {
+      grid-column: 1 / -1;
       justify-content: flex-end;
     }
   }
@@ -179,6 +204,28 @@
   const students = Array.isArray(data.students) ? data.students : [];
   const baseUrl = data.baseUrl || (window.location.origin + window.location.pathname.replace(/\/a\/.*/, ''));
 
+  // 즐겨찾기 학생 ID (localStorage, 추가한 순서대로)
+  const FAV_KEY = 'admin_favoriteStudents_v1';
+  function loadFavorites() {
+    try { return JSON.parse(localStorage.getItem(FAV_KEY) || '[]'); }
+    catch(e) { return []; }
+  }
+  function saveFavorites(arr) {
+    try { localStorage.setItem(FAV_KEY, JSON.stringify(arr)); } catch(e) {}
+  }
+  let favorites = loadFavorites();  // ["studentId1", "studentId2", ...]
+
+  window._toggleFavorite = function(studentId) {
+    const idx = favorites.indexOf(studentId);
+    if (idx >= 0) {
+      favorites.splice(idx, 1);  // 제거
+    } else {
+      favorites.push(studentId);  // 추가 (뒤에 — 추가 순서 보존)
+    }
+    saveFavorites(favorites);
+    render();
+  };
+
   // 상태
   let nameFilter = '';
   let gradeFilter = '';
@@ -231,6 +278,7 @@
       if (gradeFilter && s.grade !== gradeFilter) return false;
       return true;
     });
+    // 기본 정렬 (이름/학년) 먼저 적용
     if (sortBy === 'name') {
       filtered.sort((a, b) => (a.name || '').localeCompare(b.name || '', 'ko'));
     } else if (sortBy === 'grade') {
@@ -239,7 +287,17 @@
         return g !== 0 ? g : (a.name || '').localeCompare(b.name || '', 'ko');
       });
     }
-    return filtered;
+    // 즐겨찾기 우선 (favorites 배열 순서대로 맨 위)
+    const favSet = new Set(favorites);
+    const favs = [];
+    const rest = [];
+    for (const s of filtered) {
+      if (favSet.has(s.id)) favs.push(s);
+      else rest.push(s);
+    }
+    // favs를 favorites 배열의 순서대로 재정렬 (먼저 추가한 사람이 위)
+    favs.sort((a, b) => favorites.indexOf(a.id) - favorites.indexOf(b.id));
+    return [...favs, ...rest];
   }
 
   function render() {
@@ -270,8 +328,10 @@
           : '<span style="color:var(--text3);">학년·학교 미입력</span>';
         const studentUrl = s.studentPageCode ? `${baseUrl}/s/?code=${encodeURIComponent(s.studentPageCode)}` : '';
         const parentUrl = s.parentPageCode ? `${baseUrl}/p/?code=${encodeURIComponent(s.parentPageCode)}` : '';
+        const isFav = favorites.includes(s.id);
         html += `
-          <div class="student-card">
+          <div class="student-card ${isFav ? 'favorite' : ''}">
+            <button class="star-btn ${isFav ? 'active' : ''}" onclick="_toggleFavorite('${escapeHtml(s.id)}')" title="${isFav ? '즐겨찾기 해제' : '즐겨찾기 추가'}">${isFav ? '★' : '☆'}</button>
             <div class="student-info">
               <div class="student-name">${escapeHtml(s.name || '(이름 없음)')}</div>
               <div class="student-sub">${subHtml}</div>

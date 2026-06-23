@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-22T16:40:08.997Z",
+  "generatedAt": "2026-06-23T00:19:27.131Z",
   "student": {
     "id": "s_1779811264964_kbtli4",
     "classes": [
@@ -12,6 +12,8 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
+  "syncedEffortLogs": null,
+  "syncedLectureWatch": null,
   "today": [],
   "overdue": [],
   "upcoming": [],

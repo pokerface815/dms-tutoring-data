@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-23T00:37:45.185Z",
+  "generatedAt": "2026-06-23T01:02:08.589Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -35,7 +35,7 @@
             {
               "title": "테스트",
               "dueDate": "2026-06-23",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false

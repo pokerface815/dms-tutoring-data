@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-22T16:39:40.119Z",
+  "generatedAt": "2026-06-23T00:19:12.793Z",
   "student": {
     "id": "s_1778402500926_7fxigp",
     "classes": [
@@ -12,6 +12,8 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
+  "syncedEffortLogs": null,
+  "syncedLectureWatch": null,
   "today": [],
   "overdue": [],
   "upcoming": [],

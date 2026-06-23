@@ -1150,7 +1150,7 @@
       </div>
     `;
     html += (s.showMakeNote ? `<a class="make-note-btn" href="https://pokerface815.github.io/wrong-notes/?name=${encodeURIComponent(s.name || '')}">
-      ✏️ 오답노트 만들기
+      오답노트 만들기
     </a>` : '');
     html += `<div id="learningContentSection">${renderLearningContent(data)}</div>`;
     return html;
@@ -2325,9 +2325,6 @@
     const myId = studentData?.student?.id;
     const myInTop = my && my._rank <= TOP_N;
 
-    // 상위 N명 렌더
-    const medalFor = (rank) => rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : '';
-
     let html = `
       <div class="ranking-summary">
         <div class="ranking-summary-head">${tabLabel}</div>
@@ -2341,7 +2338,7 @@
       const percentile = totalStudents > 0 ? Math.round((my._rank / totalStudents) * 100) : 0;
       html += `
         <div class="ranking-my-card">
-          <div class="ranking-my-label">👉 내 순위</div>
+          <div class="ranking-my-label">내 순위</div>
           <div class="ranking-my-rank">${my._rank}<span style="font-size:14px; font-weight:600;">위</span></div>
           <div class="ranking-my-value">${myValue}</div>
           <div class="ranking-my-percentile">상위 ${percentile}%</div>
@@ -2351,16 +2348,15 @@
 
     // 상위 10명
     html += `<div class="ranking-top-section">`;
-    html += `<div class="ranking-section-title">🏆 상위 ${Math.min(TOP_N, list.length)}명</div>`;
+    html += `<div class="ranking-section-title">상위 ${Math.min(TOP_N, list.length)}명</div>`;
     html += `<div class="ranking-list">`;
     for (const item of top) {
       const isMe = item.id === myId;
-      const medal = medalFor(item._rank);
       const value = fmtRankingValue(tabKey, item[tabKey]);
       const valHidden = (item[tabKey] || 0) === 0;
       html += `
         <div class="ranking-row ${isMe ? 'ranking-row-me' : ''}">
-          <div class="ranking-row-rank">${medal || item._rank}</div>
+          <div class="ranking-row-rank">${item._rank}</div>
           <div class="ranking-row-name">${isMe ? '나' : '익명'}</div>
           <div class="ranking-row-value">${valHidden ? '-' : value}</div>
         </div>
@@ -2970,7 +2966,7 @@
       : '시작이 반이에요. 내일도 화이팅!';
     wrap.innerHTML = `
       <div class="effort-streak-card">
-        <div class="effort-streak-num">🔥 ${streak}일 연속</div>
+        <div class="effort-streak-num">${streak}일 연속</div>
         <div class="effort-streak-msg">${msg}</div>
       </div>
     `;
@@ -4514,7 +4510,7 @@
     let html = `<div class="section"><div class="section-title"><span>제출하거나 확인 대기 중인 과제</span><span class="section-count">${pending.length}</span></div>`;
     for (const t of pending) html += renderTaskCard(t);
     if (pending.length === 0) {
-      html += `<div style="padding:14px; background:var(--surface2); border-radius:10px; color:var(--text3); font-size:13px; text-align:center;">제출하거나 확인 대기 중인 과제가 없습니다 👍</div>`;
+      html += `<div style="padding:14px; background:var(--surface2); border-radius:10px; color:var(--text3); font-size:13px; text-align:center;">제출하거나 확인 대기 중인 과제가 없습니다</div>`;
     }
     // 최근 완료/마감된 과제 (확인 완료 + 미제출 마감 합쳐서)
     const recent = [...confirmed, ...missed].sort(sortRecent);
@@ -4660,7 +4656,7 @@
       html += '</div>';
     }
     if (photos.length === 0) {
-      html += `<button class="upload-btn" onclick="selectPhotos('${item.assignmentId}', ${item.round})">📷 다 풀었어요! 사진 올리기</button>`;
+      html += `<button class="upload-btn" onclick="selectPhotos('${item.assignmentId}', ${item.round})">다 풀었어요! 사진 올리기</button>`;
     } else {
       html += `
         <button class="upload-btn secondary" onclick="selectPhotos('${item.assignmentId}', ${item.round})">+ 사진 더 추가</button>

@@ -2661,5 +2661,33 @@
     "assignedAt": "2026-06-23T00:36:21.058Z",
     "batchId": "t_mqpwyw8y",
     "repeat": null
+  },
+  {
+    "id": "a_1782219961580_y8auey",
+    "noteId": "note_1782219932103_6fv7zq",
+    "noteName": "김채린_수학의 바이블 유형 ON_수열의 합( ~1060번)",
+    "studentId": "s_1777546951753_p3pskl",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-25",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-06-28",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-23T13:06:01.580Z"
   }
 ]

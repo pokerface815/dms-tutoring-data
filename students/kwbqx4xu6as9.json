@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-22T16:40:12.371Z",
+  "generatedAt": "2026-06-23T00:19:28.712Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -12,6 +12,8 @@
     "class": "고등선행",
     "showMakeNote": false
   },
+  "syncedEffortLogs": null,
+  "syncedLectureWatch": null,
   "today": [],
   "overdue": [],
   "upcoming": [],

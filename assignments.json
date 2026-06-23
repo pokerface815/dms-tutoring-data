@@ -2647,5 +2647,15 @@
       }
     ],
     "createdAt": "2026-06-22T16:09:20.416Z"
+  },
+  {
+    "id": "task_1782174981058_6nzm9i",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "테스트",
+    "dueDate": "2026-06-23",
+    "assignedAt": "2026-06-23T00:36:21.058Z",
+    "batchId": "t_mqpwyw8y",
+    "repeat": null
   }
 ]

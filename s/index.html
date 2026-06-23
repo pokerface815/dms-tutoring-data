@@ -1428,8 +1428,8 @@
     if (!bar) return;
     if (!visible) { bar.innerHTML = ''; return; }
     bar.innerHTML = `
-      <button class="video-tab ${_videoTab === 'list' ? 'active' : ''}" onclick="switchVideoTab('list')">📚 강의 목록</button>
-      <button class="video-tab ${_videoTab === 'history' ? 'active' : ''}" onclick="switchVideoTab('history')">🕒 시청 기록</button>
+      <button class="video-tab ${_videoTab === 'list' ? 'active' : ''}" onclick="switchVideoTab('list')">강의 목록</button>
+      <button class="video-tab ${_videoTab === 'history' ? 'active' : ''}" onclick="switchVideoTab('history')">시청 기록</button>
     `;
   }
 

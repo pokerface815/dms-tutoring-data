@@ -376,7 +376,6 @@
     border-bottom: 1px dashed var(--border);
     display: flex; gap: 8px; align-items: baseline;
   }
-  .effort-day-head::before { content: "🗓"; }
   .effort-day-total {
     margin-left: auto; color: var(--text2); font-weight: 600;
     font-variant-numeric: tabular-nums;
@@ -575,7 +574,7 @@
           if (rows) {
             stagesBar = `
               <div class="rate-box">
-                <div class="rate-top"><span>📖 이번 달 오답노트 진행</span></div>
+                <div class="rate-top"><span>이번 달 오답노트 진행</span></div>
                 <div class="stage-list">${rows}</div>
                 <div class="rate-sub">회차별로 풀이를 마친 비율 (마감 지난 회차 기준)</div>
               </div>
@@ -970,7 +969,7 @@
       }
     }
     if (l.myNote) {
-      html += `<div class="lesson-note"><span class="lesson-note-label">📝 특이사항</span>${escapeHtml(l.myNote)}</div>`;
+      html += `<div class="lesson-note"><span class="lesson-note-label">특이사항</span>${escapeHtml(l.myNote)}</div>`;
     }
     html += '</div>';
     return html;

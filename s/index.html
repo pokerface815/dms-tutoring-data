@@ -952,6 +952,8 @@
       studentData = await res.json();
       // 디버그: 과제 데이터 확인 (문제 생기면 콘솔에서 볼 수 있음)
       console.log('[학생페이지] tasks:', studentData.tasks, '| 오늘요일:', new Date().getDay());
+      // 다른 기기에서 만든 기록과 머지
+      mergeSyncedData();
       renderPage();
     } catch (e) {
       console.error(e);
@@ -1189,6 +1191,109 @@
   let _lectureSyncStatus = 'idle';
   let _lectureSyncInflight = false;
   let _lectureSyncRetryUsed = false;
+
+  // ===== 동기화 머지 (통합본이 받기로 모은 다른 기기 데이터와 본 기기 localStorage 합치기) =====
+  function mergeSyncedData() {
+    if (!studentData) return;
+
+    // (1) 노력의 자취 logs 머지
+    try {
+      const synced = studentData.syncedEffortLogs;
+      if (Array.isArray(synced) && synced.length > 0) {
+        const local = (function() {
+          try { return JSON.parse(localStorage.getItem(`effortLogs__${studentCode}`) || '[]'); }
+          catch(e) { return []; }
+        })();
+        // id 기준 unique - local 우선 (최신 편집은 본 기기에서 일어났을 수 있음)
+        const seenIds = new Set(local.map(l => l.id).filter(Boolean));
+        let added = 0;
+        for (const l of synced) {
+          if (l.id && !seenIds.has(l.id)) {
+            local.push(l);
+            seenIds.add(l.id);
+            added++;
+          }
+        }
+        if (added > 0) {
+          // 시간순 정렬 (오래된 → 최신)
+          local.sort((a, b) => (a.startedAt || 0) - (b.startedAt || 0));
+          try { localStorage.setItem(`effortLogs__${studentCode}`, JSON.stringify(local)); } catch(e) {}
+          console.log(`[학생페이지] 동기화: 노력의 자취 ${added}건 추가됨`);
+        }
+      }
+    } catch(e) { console.warn('[학생페이지] effort 머지 실패:', e); }
+
+    // (2) 시청 기록 머지
+    try {
+      const synced = studentData.syncedLectureWatch;
+      if (synced && synced.videos) {
+        const local = (function() {
+          try { return JSON.parse(localStorage.getItem(`lectureWatch__${studentCode}`) || '{}'); }
+          catch(e) { return {}; }
+        })();
+        // videos 머지: 같은 videoId면 watchedSec 최대값, lastPosition 더 큰 값, completed OR
+        let changed = false;
+        for (const vid in synced.videos) {
+          const sv = synced.videos[vid];
+          const lv = local[vid];
+          if (!lv) {
+            local[vid] = { ...sv };
+            changed = true;
+          } else {
+            const mergedWatchedSec = Math.max(lv.watchedSec || 0, sv.watchedSec || 0);
+            const mergedLastPos = Math.max(lv.lastPosition || 0, sv.lastPosition || 0);
+            const mergedCompleted = lv.completed || sv.completed;
+            const mergedLastWatched = (lv.lastWatchedAt && sv.lastWatchedAt)
+              ? (lv.lastWatchedAt > sv.lastWatchedAt ? lv.lastWatchedAt : sv.lastWatchedAt)
+              : (lv.lastWatchedAt || sv.lastWatchedAt);
+            if (mergedWatchedSec !== (lv.watchedSec || 0) ||
+                mergedLastPos !== (lv.lastPosition || 0) ||
+                mergedCompleted !== !!lv.completed ||
+                mergedLastWatched !== lv.lastWatchedAt) {
+              local[vid] = {
+                ...lv,
+                watchedSec: mergedWatchedSec,
+                lastPosition: mergedLastPos,
+                completed: mergedCompleted,
+                lastWatchedAt: mergedLastWatched,
+              };
+              changed = true;
+            }
+          }
+        }
+        if (changed) {
+          try { localStorage.setItem(`lectureWatch__${studentCode}`, JSON.stringify(local)); } catch(e) {}
+          console.log('[학생페이지] 동기화: 시청 기록 머지됨');
+        }
+      }
+      // 일별 시청 시간 머지
+      if (synced && synced.daily) {
+        const local = (function() {
+          try { return JSON.parse(localStorage.getItem(`lectureDaily__${studentCode}`) || '{}'); }
+          catch(e) { return {}; }
+        })();
+        let changed = false;
+        for (const date in synced.daily) {
+          if (!local[date]) {
+            local[date] = { ...synced.daily[date] };
+            changed = true;
+          } else {
+            for (const vid in synced.daily[date]) {
+              const sv = synced.daily[date][vid] || 0;
+              const lv = local[date][vid] || 0;
+              if (sv > lv) {
+                local[date][vid] = sv;
+                changed = true;
+              }
+            }
+          }
+        }
+        if (changed) {
+          try { localStorage.setItem(`lectureDaily__${studentCode}`, JSON.stringify(local)); } catch(e) {}
+        }
+      }
+    } catch(e) { console.warn('[학생페이지] watch 머지 실패:', e); }
+  }
 
   // ===== localStorage 헬퍼 =====
   function loadLectureWatch() {

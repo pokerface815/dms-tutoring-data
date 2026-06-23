@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-22T16:40:15.750Z",
+  "generatedAt": "2026-06-23T00:19:30.307Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -11,6 +11,251 @@
     "grade": "고3",
     "class": "",
     "showMakeNote": true
+  },
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mqiq9m38kds",
+      "startedAt": 1781732104085,
+      "endedAt": 1781740460564,
+      "seconds": 8293,
+      "subject": "확통",
+      "method": "기타",
+      "content": "6모 28, 29, 30번",
+      "reflection": "28번 많이 어려움\n29번 쉽고\n30번 풀만 했는데, 못 풂.",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-17T23:54:20.564Z"
+    },
+    {
+      "id": "effort_mqiyy1zqc91",
+      "startedAt": 1781754708844,
+      "endedAt": 1781755037846,
+      "seconds": 305,
+      "subject": "클로드",
+      "method": "기타",
+      "content": "프로그래밍",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-18T03:57:17.846Z"
+    },
+    {
+      "id": "effort_mqiz2t3zh6i",
+      "startedAt": 1781755189342,
+      "endedAt": 1781755259615,
+      "seconds": 61,
+      "subject": "클로드",
+      "method": "기타",
+      "content": "테스트",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-18T04:00:59.615Z"
+    },
+    {
+      "id": "effort_mqj2qwdimnf",
+      "startedAt": 1781755282253,
+      "endedAt": 1781761422438,
+      "seconds": 6075,
+      "subject": "클로드",
+      "method": "기타",
+      "content": "학부모 페이지 연동",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-18T05:43:42.438Z"
+    },
+    {
+      "id": "effort_mqj5gxe6gld",
+      "startedAt": 1781761502843,
+      "endedAt": 1781765996046,
+      "seconds": 4457,
+      "subject": "문제DB",
+      "method": "기타",
+      "content": "시우 확통 작업",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-18T06:59:56.046Z"
+    },
+    {
+      "id": "effort_mqkjiu9j5ar",
+      "startedAt": 1781849555110,
+      "endedAt": 1781850066103,
+      "seconds": 482,
+      "subject": "클로드",
+      "method": "기타",
+      "content": "학부모 페이지 조정",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-19T06:21:06.103Z"
+    },
+    {
+      "id": "effort_mqky137z9vc",
+      "startedAt": 1781864943333,
+      "endedAt": 1781874432143,
+      "seconds": 9472,
+      "subject": "과외",
+      "method": "기타",
+      "content": "부교재 마무리",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-19T13:07:12.143Z"
+    },
+    {
+      "id": "effort_mqm9vx2smub",
+      "startedAt": 1781930615571,
+      "endedAt": 1781954812468,
+      "seconds": 24184,
+      "subject": "학원",
+      "method": "기타",
+      "content": "수업",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-20T11:26:52.468Z",
+      "updatedAt": "2026-06-20T11:32:21.842Z"
+    },
+    {
+      "id": "effort_mqmgi668ijq",
+      "startedAt": 1781955125522,
+      "endedAt": 1781965928384,
+      "seconds": 10788,
+      "subject": "과외",
+      "method": "문제 풀이",
+      "content": "예상문제 1회",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-20T14:32:08.384Z"
+    },
+    {
+      "id": "effort_mqmibsx5nts",
+      "startedAt": 1781968499146,
+      "endedAt": 1781968990505,
+      "seconds": 471,
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-20T15:23:10.505Z"
+    },
+    {
+      "id": "effort_mqmimvpp2uo",
+      "startedAt": 1781968993231,
+      "endedAt": 1781969507341,
+      "seconds": 502,
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-20T15:31:47.341Z"
+    },
+    {
+      "id": "effort_mqnddr9dvmz",
+      "startedAt": 1782002880322,
+      "endedAt": 1782021149761,
+      "seconds": 18255,
+      "subject": "학원",
+      "method": "문제 풀이",
+      "content": "오전 수업",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-21T05:52:29.761Z"
+    },
+    {
+      "id": "effort_mqovm23v81u",
+      "startedAt": 1782111976567,
+      "endedAt": 1782112236331,
+      "seconds": 249,
+      "subject": "대수",
+      "method": "강의 시청",
+      "content": "대수 쎈 (26년 1, 2월) _ 6시 수업_완강 — 03.지수함수 301~357번, C단계 361, 365번 + 04.로그함수 개념 (6시 수업)",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-22T07:10:36.331Z"
+    },
+    {
+      "id": "effort_mqp7e09ijbm",
+      "startedAt": 1782124384376,
+      "endedAt": 1782132016086,
+      "seconds": 7624,
+      "subject": "학원",
+      "method": "문제 풀이",
+      "content": "시험 대비",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-22T12:40:16.086Z"
+    },
+    {
+      "id": "effort_mqpezc13o52",
+      "startedAt": 1782132022182,
+      "endedAt": 1782144768423,
+      "seconds": 12739,
+      "subject": "과외",
+      "method": "문제 풀이",
+      "content": "마무리",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-22T16:12:48.423Z"
+    }
+  ],
+  "syncedLectureWatch": {
+    "videos": {
+      "LtGPFoLjA8s": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqks8brpdcl",
+        "lectureTitle": "대수 개념+유형 (26년 1월 ~ )_완강",
+        "videoTitle": "220~227쪽 수열의 귀납적 정의",
+        "durationSec": 3788,
+        "lastPosition": 360,
+        "lastWatchedAt": "2026-06-20T11:31:59.058Z",
+        "watchedSec": 101
+      },
+      "AJE79srmVL8": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "durationSec": 5620,
+        "lastPosition": 976,
+        "lastWatchedAt": "2026-06-20T15:31:42.713Z",
+        "watchedSec": 973
+      },
+      "L7mDjTDBlmQ": {
+        "sessionCount": 3,
+        "lectureId": "lec_mqksd52wcz3",
+        "lectureTitle": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
+        "videoTitle": "56~62쪽 조건부확률",
+        "durationSec": 4122,
+        "lastPosition": 1072,
+        "lastWatchedAt": "2026-06-20T15:49:51.314Z",
+        "watchedSec": 717
+      },
+      "KChW2PYtl2c": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "17~19쪽 곱셈공식의 변형 필수6~8",
+        "durationSec": 2969,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-06-22T06:37:12.531Z"
+      },
+      "7BPqzx7aS7g": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqouhsb3oa7",
+        "lectureTitle": "대수 쎈 (26년 1, 2월) _ 6시 수업_완강",
+        "videoTitle": "03.지수함수 301~357번, C단계 361, 365번 + 04.로그함수 개념 (6시 수업)",
+        "durationSec": 5480,
+        "lastPosition": 249,
+        "lastWatchedAt": "2026-06-22T07:10:30.425Z",
+        "watchedSec": 249
+      }
+    },
+    "daily": {
+      "2026-06-21": {
+        "AJE79srmVL8": 973,
+        "L7mDjTDBlmQ": 717
+      },
+      "2026-06-22": {
+        "7BPqzx7aS7g": 249
+      }
+    }
   },
   "today": [],
   "overdue": [],

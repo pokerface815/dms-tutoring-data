@@ -111,7 +111,7 @@
     border-bottom: 1px dashed var(--border);
     display: flex; align-items: center; gap: 6px;
   }
-  .lesson-date::before { content: "📅"; font-size: 13px; }
+  .lesson-date { /* 날짜 표시 (이모지 없음) */ }
   .lesson-class { font-size: 11px; color: var(--text3); font-weight: 400; margin-left: auto; }
   .lesson-content { font-size: 14px; line-height: 1.65; white-space: pre-wrap; word-break: keep-all; }
   .lesson-task {
@@ -522,7 +522,7 @@
       html += `
         <div class="month-card">
           <div class="month-header" onclick="this.parentElement.classList.toggle('open')">
-            <div><span class="month-title">📝 테스트 결과</span><span class="month-count">${tests.length}개</span></div>
+            <div><span class="month-title">테스트 결과</span><span class="month-count">${tests.length}개</span></div>
             <span class="month-arrow">▶</span>
           </div>
           <div class="month-body">
@@ -552,7 +552,7 @@
         const rateBadge = rate ? `<span class="month-rate">과제 ${rate.done}/${rate.total} · ${rate.percent}%</span>` : '';
         const rateBar = rate ? `
           <div class="rate-box">
-            <div class="rate-top"><span>📚 이번 달 과제 완료율</span><b>${rate.percent}%</b></div>
+            <div class="rate-top"><span>이번 달 과제 완료율</span><b>${rate.percent}%</b></div>
             <div class="rate-track"><div class="rate-fill" style="width:${rate.percent}%;"></div></div>
             <div class="rate-sub">${rate.done}건 완료 / ${rate.total}건 (마감 지난 과제 기준)</div>
           </div>
@@ -652,21 +652,21 @@
     let html = `
       <div class="effort-section-card">
         <div class="effort-section-head">
-          <span class="effort-section-title">📚 학습 기록</span>
+          <span class="effort-section-title">학습 기록</span>
           <span class="effort-section-summary">${escapeHtml(headerSummary)}</span>
         </div>
         <div class="effort-summary-grid">
           <div class="effort-summary-stat"><div class="effort-summary-lbl">오늘</div><div class="effort-summary-val">${fmtEffortDurationShort(todaySec)}</div></div>
           <div class="effort-summary-stat"><div class="effort-summary-lbl">이번 주</div><div class="effort-summary-val">${fmtEffortDurationShort(weekSec)}</div></div>
           <div class="effort-summary-stat"><div class="effort-summary-lbl">이번 달</div><div class="effort-summary-val">${fmtEffortDurationShort(monthSec)}</div></div>
-          <div class="effort-summary-stat streak"><div class="effort-summary-lbl">연속</div><div class="effort-summary-val">${streak > 0 ? `🔥${streak}일` : '-'}</div></div>
+          <div class="effort-summary-stat streak"><div class="effort-summary-lbl">연속</div><div class="effort-summary-val">${streak > 0 ? `${streak}일` : '-'}</div></div>
         </div>
     `;
 
     if (subjectEntries.length > 0) {
       html += `
         <div class="effort-subj-box">
-          <div class="effort-subj-box-title">📊 이번 달 과목별 학습</div>
+          <div class="effort-subj-box-title">이번 달 과목별 학습</div>
           ${renderParentPieChart(subjectEntries, monthTotal)}
         </div>
       `;
@@ -694,7 +694,7 @@
       html += `
         <div class="effort-logs-toggle">
           <div class="effort-logs-toggle-head" onclick="this.parentElement.classList.toggle('open')">
-            <span class="effort-logs-toggle-title">📋 최근 학습 기록</span>
+            <span class="effort-logs-toggle-title">최근 학습 기록</span>
             <span class="effort-logs-toggle-count">최근 30일 · ${logs.length}건</span>
             <span class="effort-logs-toggle-arrow">▶</span>
           </div>
@@ -844,7 +844,7 @@
     return `
       <div class="month-card${totalActive > 0 ? ' open' : ''}">
         <div class="month-header" onclick="this.parentElement.classList.toggle('open')">
-          <div><span class="month-title">📋 받은 과제</span><span class="month-count">${countLabel}</span></div>
+          <div><span class="month-title">받은 과제</span><span class="month-count">${countLabel}</span></div>
           <span class="month-arrow">▶</span>
         </div>
         <div class="month-body">${bodyHtml}</div>
@@ -920,7 +920,7 @@
           <div class="test-item-info">
             <div class="test-item-title-row">
               <div class="test-item-title">${escapeHtml(t.title)}</div>
-              <span class="test-item-open">📄 결과 보기</span>
+              <span class="test-item-open">결과 보기</span>
             </div>
             <div class="test-item-date">${dateStr}</div>
             ${commentHtml}
@@ -959,14 +959,14 @@
     // 수업 일지 연계 과제 (기존)
     if (l.task) {
       const due = l.taskDue ? ` <span style="color:var(--text3);">(마감 ${escapeHtml(l.taskDue)})</span>` : '';
-      html += `<div class="lesson-task"><span class="lesson-task-label">📚 과제</span> ${escapeHtml(l.task)}${due}</div>`;
+      html += `<div class="lesson-task"><span class="lesson-task-label">과제</span> ${escapeHtml(l.task)}${due}</div>`;
     }
     // 과제 관리에서 부여된 추가 과제들
     if (Array.isArray(l.extraAssignments) && l.extraAssignments.length > 0) {
       for (const a of l.extraAssignments) {
         const due = a.dueDate ? ` <span style="color:var(--text3);">(마감 ${escapeHtml(a.dueDate)})</span>` : '';
         const doneMark = a.isConfirmed ? `<span style="color:#84b96d; font-weight:700; margin-right:4px;" title="완료">✓</span>` : '';
-        html += `<div class="lesson-task lesson-task-extra">${doneMark}<span class="lesson-task-label">📋 과제</span> ${escapeHtml(a.title || '제목 없음')}${due}</div>`;
+        html += `<div class="lesson-task lesson-task-extra">${doneMark}<span class="lesson-task-label">과제</span> ${escapeHtml(a.title || '제목 없음')}${due}</div>`;
       }
     }
     if (l.myNote) {

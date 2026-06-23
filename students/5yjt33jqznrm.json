@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-22T16:41:28.253Z",
+  "generatedAt": "2026-06-23T00:20:04.545Z",
   "student": {
     "id": "s_1782144542719_3gm3op",
     "classes": [
@@ -12,6 +12,8 @@
     "class": "",
     "showMakeNote": true
   },
+  "syncedEffortLogs": null,
+  "syncedLectureWatch": null,
   "today": [
     {
       "assignmentId": "a_1782144560416_tnz9ix",

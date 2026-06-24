@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-24T04:48:22.359Z",
+  "generatedAt": "2026-06-24T13:23:55.459Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -145,34 +145,19 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-24T04:28:08.437Z",
+    "uploadedAt": "2026-06-24T04:51:12.157Z",
     "summary": {
-      "todaySec": 267,
-      "weekSec": 20879,
-      "monthSec": 104224,
+      "todaySec": 186,
+      "weekSec": 435,
+      "monthSec": 1408,
       "streak": 1,
       "bySubjectMonth": {
-        "확통": 8293,
-        "클로드": 6923,
-        "문제DB": 4457,
-        "과외": 32999,
-        "학원": 50063,
         "미적분Ⅰ": 973,
         "대수": 249,
-        "확률과 통계": 186,
-        "테스트": 81
+        "확률과 통계": 186
       }
     },
     "logs": [
-      {
-        "id": "effort_mqrklrg8fps",
-        "startedAt": 1782275043965,
-        "seconds": 81,
-        "subject": "테스트",
-        "method": "기타",
-        "content": "테스트",
-        "reflection": ""
-      },
       {
         "id": "effort_mqrkjhdf0yf",
         "startedAt": 1782274844089,
@@ -183,39 +168,12 @@
         "reflection": ""
       },
       {
-        "id": "effort_mqpezc13o52",
-        "startedAt": 1782132022182,
-        "seconds": 12739,
-        "subject": "과외",
-        "method": "문제 풀이",
-        "content": "마무리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqp7e09ijbm",
-        "startedAt": 1782124384376,
-        "seconds": 7624,
-        "subject": "학원",
-        "method": "문제 풀이",
-        "content": "시험 대비",
-        "reflection": ""
-      },
-      {
         "id": "effort_mqovm23v81u",
         "startedAt": 1782111976567,
         "seconds": 249,
         "subject": "대수",
         "method": "강의 시청",
         "content": "대수 쎈 (26년 1, 2월) _ 6시 수업_완강 — 03.지수함수 301~357번, C단계 361, 365번 + 04.로그함수 개념 (6시 수업)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqnddr9dvmz",
-        "startedAt": 1782002880322,
-        "seconds": 18255,
-        "subject": "학원",
-        "method": "문제 풀이",
-        "content": "오전 수업",
         "reflection": ""
       },
       {
@@ -234,87 +192,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqmgi668ijq",
-        "startedAt": 1781955125522,
-        "seconds": 10788,
-        "subject": "과외",
-        "method": "문제 풀이",
-        "content": "예상문제 1회",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqm9vx2smub",
-        "startedAt": 1781930615571,
-        "seconds": 24184,
-        "subject": "학원",
-        "method": "기타",
-        "content": "수업",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqky137z9vc",
-        "startedAt": 1781864943333,
-        "seconds": 9472,
-        "subject": "과외",
-        "method": "기타",
-        "content": "부교재 마무리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqkjiu9j5ar",
-        "startedAt": 1781849555110,
-        "seconds": 482,
-        "subject": "클로드",
-        "method": "기타",
-        "content": "학부모 페이지 조정",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqj5gxe6gld",
-        "startedAt": 1781761502843,
-        "seconds": 4457,
-        "subject": "문제DB",
-        "method": "기타",
-        "content": "시우 확통 작업",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqj2qwdimnf",
-        "startedAt": 1781755282253,
-        "seconds": 6075,
-        "subject": "클로드",
-        "method": "기타",
-        "content": "학부모 페이지 연동",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqiz2t3zh6i",
-        "startedAt": 1781755189342,
-        "seconds": 61,
-        "subject": "클로드",
-        "method": "기타",
-        "content": "테스트",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqiyy1zqc91",
-        "startedAt": 1781754708844,
-        "seconds": 305,
-        "subject": "클로드",
-        "method": "기타",
-        "content": "프로그래밍",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqiq9m38kds",
-        "startedAt": 1781732104085,
-        "seconds": 8293,
-        "subject": "확통",
-        "method": "기타",
-        "content": "6모 28, 29, 30번",
         "reflection": ""
       }
     ]

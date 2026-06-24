@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-23T13:06:44.247Z",
+  "generatedAt": "2026-06-24T03:56:53.969Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -61,5 +61,28 @@
     }
   ],
   "tests": [],
-  "effortLogs": null
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-06-23T15:30:17.480Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 1614,
+      "streak": 0,
+      "bySubjectMonth": {
+        "수학": 1614
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mqqswg1jm3c",
+        "startedAt": 1781702278162,
+        "seconds": 1614,
+        "subject": "수학",
+        "method": "문제 풀이",
+        "content": "확통마더텅56-74",
+        "reflection": ""
+      }
+    ]
+  }
 }

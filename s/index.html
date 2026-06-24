@@ -1196,6 +1196,30 @@
   function mergeSyncedData() {
     if (!studentData) return;
 
+    // (0) 본 기기 localStorage의 기존 logs에서 startedAt 자동 보정
+    // (이전 버전에서 일시정지 후 며칠 뒤 저장한 비정상 데이터가 있을 경우)
+    try {
+      const local = JSON.parse(localStorage.getItem(`effortLogs__${studentCode}`) || '[]');
+      const TOLERANCE_MS = 12 * 60 * 60 * 1000;
+      let correctedCount = 0;
+      for (let i = 0; i < local.length; i++) {
+        const l = local[i];
+        const startedAt = l.startedAt || 0;
+        const endedAt = l.endedAt || 0;
+        const measuredMs = (l.seconds || 0) * 1000;
+        if (startedAt > 0 && endedAt > 0 && (endedAt - startedAt) > measuredMs + TOLERANCE_MS) {
+          local[i] = { ...l, startedAt: endedAt - measuredMs };
+          correctedCount++;
+        }
+      }
+      if (correctedCount > 0) {
+        localStorage.setItem(`effortLogs__${studentCode}`, JSON.stringify(local));
+        console.log(`[학생페이지] 학습 기록 ${correctedCount}건 날짜 자동 보정`);
+        // 보정된 데이터를 Cloudinary에도 다시 업로드 (다음 통합본 받기에서 반영)
+        if (typeof markEffortLogsDirty === 'function') markEffortLogsDirty();
+      }
+    } catch(e) { console.warn('[학생페이지] startedAt 보정 실패:', e); }
+
     // (1) 노력의 자취 logs 머지
     try {
       // 통합본에서 받아온 다른 기기의 삭제 표시도 본 기기 tombstone에 합치기
@@ -2882,11 +2906,24 @@
       saveEffortSubjects(subjects.slice(0, 20));  // 최근 20개만
     }
 
+    // startedAt 자동 보정: 측정된 시간(seconds)에 비해 startedAt~endedAt 간격이 비정상적으로 크면
+    // (예: 학생이 타이머 켜놓고 며칠 후 저장)
+    // → 실제 학습 끝난 시점(endedAt)에서 측정된 시간만큼 거꾸로 계산
+    const endedAt = Date.now();
+    const measuredMs = (seconds || 0) * 1000;
+    const elapsedMs = endedAt - (startedAt || 0);
+    const TOLERANCE_MS = 12 * 60 * 60 * 1000;  // 12시간 — 그 이상 차이면 보정
+    let finalStartedAt = startedAt;
+    if (elapsedMs > measuredMs + TOLERANCE_MS) {
+      finalStartedAt = endedAt - measuredMs;
+      console.log('[학습기록] startedAt 보정:', new Date(startedAt).toLocaleString(), '→', new Date(finalStartedAt).toLocaleString());
+    }
+
     const logs = loadEffortLogs();
     logs.push({
       id: 'effort_' + Date.now().toString(36) + Math.random().toString(36).slice(2,5),
-      startedAt: startedAt,
-      endedAt: Date.now(),
+      startedAt: finalStartedAt,
+      endedAt,
       seconds: seconds,
       subject, method, content, reflection,
       sharedWithParent: false,

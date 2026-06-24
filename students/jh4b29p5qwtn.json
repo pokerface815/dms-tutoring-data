@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-23T13:08:27.810Z",
+  "generatedAt": "2026-06-24T03:58:35.904Z",
   "student": {
     "id": "s_1780825523674_8dwstz",
     "classes": [
@@ -14,9 +14,7 @@
   },
   "syncedEffortLogs": null,
   "syncedLectureWatch": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1781695122444_x7tt07",
       "noteName": "정시우_자이스토리_H.등차수열과 등비수열( ~72)",
@@ -29,6 +27,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1781695122444_x7tt07",

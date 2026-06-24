@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-24T04:48:27.361Z",
+  "generatedAt": "2026-06-24T13:23:53.871Z",
   "student": {
     "id": "s_1777547014208_7l30nn",
     "classes": [
@@ -15,7 +15,7 @@
   "syncedEffortLogs": [
     {
       "id": "effort_mqqswg1jm3c",
-      "startedAt": 1781702278162,
+      "startedAt": 1782227000455,
       "endedAt": 1782228614455,
       "seconds": 1614,
       "subject": "수학",
@@ -26,6 +26,7 @@
       "createdAt": "2026-06-23T15:30:14.455Z"
     }
   ],
+  "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "today": [],
   "overdue": [],

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-24T13:23:57.059Z",
+  "generatedAt": "2026-06-24T16:03:36.575Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -60,9 +60,35 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-06-24T04:23:58.900Z"
+    },
+    {
+      "id": "effort_mqs5y5i35nd",
+      "startedAt": 1782307928824,
+      "endedAt": 1782310995291,
+      "seconds": 3022,
+      "subject": "과외",
+      "method": "문제 풀이",
+      "content": "대수 및 가영 질문",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-24T14:23:15.291Z"
     }
   ],
-  "syncedEffortDeletedIds": null,
+  "syncedEffortDeletedIds": [
+    "effort_mqiq9m38kds",
+    "effort_mqj2qwdimnf",
+    "effort_mqj5gxe6gld",
+    "effort_mqky137z9vc",
+    "effort_mqm9vx2smub",
+    "effort_mqmgi668ijq",
+    "effort_mqnddr9dvmz",
+    "effort_mqp7e09ijbm",
+    "effort_mqpezc13o52",
+    "effort_mqkjiu9j5ar",
+    "effort_mqiz2t3zh6i",
+    "effort_mqiyy1zqc91",
+    "effort_mqrklrg8fps"
+  ],
   "syncedLectureWatch": {
     "videos": {
       "LtGPFoLjA8s": {

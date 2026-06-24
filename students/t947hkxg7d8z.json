@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-24T13:24:00.587Z",
+  "generatedAt": "2026-06-24T14:35:37.568Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -512,6 +512,14 @@
       "dueDate": "2026-06-22",
       "isRepeat": false,
       "assignedAt": "2026-06-20T14:30:45.162Z"
+    },
+    {
+      "assignmentId": "task_1782311709953_c2se2h",
+      "round": 1,
+      "title": "부교재 예상문제 4회 풀기 + 2,3회 오답 복습",
+      "dueDate": "2026-06-27",
+      "isRepeat": false,
+      "assignedAt": "2026-06-24T14:35:09.953Z"
     }
   ],
   "myGrades": [

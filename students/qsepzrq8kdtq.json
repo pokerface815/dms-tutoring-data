@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-24T04:48:53.031Z",
+  "generatedAt": "2026-06-24T13:24:24.874Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -13,20 +13,9 @@
     "showMakeNote": true
   },
   "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
-  "today": [
-    {
-      "assignmentId": "a_1782105074967_33acrc",
-      "noteName": "김채린_수학의 바이블 유형 ON 1권_수열의 합( ~996번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-24",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -64,6 +53,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1782105074967_33acrc",
+      "noteName": "김채린_수학의 바이블 유형 ON 1권_수열의 합( ~996번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-24",
+      "done": true,
+      "doneAt": "2026-06-24T13:23:45.125Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1782219961580_y8auey",
       "noteName": "김채린_수학의 바이블 유형 ON_수열의 합( ~1060번)",
@@ -259,8 +260,8 @@
   ],
   "weekProgress": {
     "total": 6,
-    "done": 2,
-    "percent": 33,
+    "done": 3,
+    "percent": 50,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

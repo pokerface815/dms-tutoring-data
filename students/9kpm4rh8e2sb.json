@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-23T13:07:00.562Z",
+  "generatedAt": "2026-06-24T03:57:45.948Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -14,9 +14,32 @@
   },
   "syncedEffortLogs": null,
   "syncedLectureWatch": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1782273402526_phufvd",
+      "noteName": "박다인_수매씽 유형_수학적 귀납법( ~2390번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-24",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [
+    {
+      "assignmentId": "a_1782273402526_phufvd",
+      "noteName": "박다인_수매씽 유형_수학적 귀납법( ~2390번)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-26",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
     {
       "assignmentId": "a_1780741295707_qhu2oh",
       "noteName": "박다인_수매씽 유형_등비수열( ~1898번)",
@@ -307,7 +330,7 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
+    "total": 4,
     "done": 0,
     "percent": 0,
     "startDate": "2026-06-22",

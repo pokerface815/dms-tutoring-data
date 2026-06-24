@@ -1,13 +1,27 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-23T13:08:44.429Z",
+  "generatedAt": "2026-06-24T03:58:44.855Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
     "name": "이수연",
     "grade": "고2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-06",
+      "label": "2026년 6월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 1,
+          "total": 1,
+          "percent": 100
+        }
+      }
+    }
+  ],
   "tests": [],
   "effortLogs": null
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-24T14:35:25.539Z",
+  "generatedAt": "2026-06-24T16:02:53.997Z",
   "studentCount": 38,
   "rankings": [
     {
@@ -36,7 +36,7 @@
       "totalSec": 160,
       "weekSec": 160,
       "monthSec": 160,
-      "streak": 1
+      "streak": 0
     },
     {
       "id": "s_1778325875686_1uoe4b",
@@ -124,9 +124,9 @@
     },
     {
       "id": "s_1780190418387_a11waf",
-      "totalSec": 1408,
-      "weekSec": 435,
-      "monthSec": 1408,
+      "totalSec": 4430,
+      "weekSec": 3457,
+      "monthSec": 4430,
       "streak": 1
     },
     {

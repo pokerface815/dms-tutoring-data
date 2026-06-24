@@ -402,9 +402,13 @@
     padding: 12px; background: var(--surface);
     border: 1px solid var(--border); border-radius: 10px;
   }
-  .effort-stats-total { display: flex; align-items: baseline; gap: 6px; margin-bottom: 12px; }
+  .effort-stats-total { display: flex; align-items: baseline; gap: 6px; margin-bottom: 4px; }
   .effort-stats-total .lbl { font-size: 11.5px; color: var(--text3); font-weight: 600; }
   .effort-stats-total .val { font-size: 17px; font-weight: 700; color: var(--text); letter-spacing: -0.3px; }
+  .effort-stats-hint {
+    font-size: 11px; color: var(--text3); margin-bottom: 12px;
+    line-height: 1.3;
+  }
 
   /* 일별 막대 (주간) */
   .effort-day-bars { display: flex; align-items: flex-end; gap: 4px; margin-bottom: 14px; height: 110px; }
@@ -466,18 +470,39 @@
     .day-tl-events { left: 60px; }
   }
   .day-tl-row {
-    position: absolute; left: 0; right: 0;
-    border-bottom: 1px dashed var(--surface2);
+    position: absolute; left: 0; right: 0; height: 0;
   }
   .day-tl-label {
     position: absolute; left: 6px; top: 0;
     font-size: 10.5px; color: var(--text3);
     font-variant-numeric: tabular-nums; line-height: 1;
-    padding-top: 2px;
+    transform: translateY(-50%);  /* 시간 눈금을 라벨 중앙 정렬 */
   }
-  .day-tl-divider {
-    position: absolute; right: 0; left: 0; top: 0;
-    height: 1px; background: transparent;  /* 가로 라인은 row의 border로 처리 */
+  .day-tl-row.active .day-tl-label {
+    color: var(--text2); font-weight: 600; font-size: 11px;
+  }
+  .day-tl-row:not(.active) .day-tl-label {
+    opacity: 0.5;
+  }
+  /* 행마다 가로선 (점선) — 시각적 구분 */
+  .day-tl-row::after {
+    content: ''; position: absolute; left: 20%; right: 0; top: 0;
+    border-top: 1px dashed var(--surface2);
+  }
+  @media (min-width: 480px) {
+    .day-tl-row::after { left: 60px; }
+  }
+  /* 비활성 시간대 배경 (압축 영역 표시) */
+  .day-tl-bg-inactive {
+    position: absolute; left: 0; right: 0;
+    background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 6px,
+      var(--surface2) 6px,
+      var(--surface2) 7px
+    );
+    opacity: 0.5;
   }
   /* 학습 이벤트 막대 (충분히 긴 막대 — 내부에 텍스트) */
   .day-tl-event {
@@ -507,25 +532,6 @@
   .day-tl-event-refl {
     font-size: 10.5px; margin-top: 2px; opacity: 0.85;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  }
-  /* 짧은 막대 (텍스트 옆에 표시) */
-  .day-tl-event-side {
-    position: absolute; left: 8px; right: 6px;
-    display: flex; align-items: center; gap: 6px;
-    font-size: 11px; line-height: 1.3;
-    background: rgba(255,255,255,0.85);
-    padding: 2px 6px; border-radius: 5px;
-    transform: translateY(-2px);
-    z-index: 3;
-    pointer-events: none;
-  }
-  .day-tl-side-dot {
-    width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
-  }
-  .day-tl-side-title { font-weight: 700; color: var(--text); flex-shrink: 0; }
-  .day-tl-side-time { color: var(--text3); font-variant-numeric: tabular-nums; flex-shrink: 0; }
-  .day-tl-side-content {
-    color: var(--text2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
   .effort-day-log { padding: 8px 10px; background: var(--surface2); border-radius: 6px; margin-bottom: 5px; }
   .effort-day-log-head { display: flex; align-items: baseline; gap: 6px; }
@@ -3163,6 +3169,7 @@
 
     let html = `<div class="effort-stats-content">`;
     html += `<div class="effort-stats-total"><span class="lbl">${month+1}월 총</span> <span class="val">${fmtDurationShort(totalSec)}</span></div>`;
+    html += `<div class="effort-stats-hint">날짜를 클릭하면 그날의 학습 기록이 상세히 보입니다.</div>`;
 
     // 캘린더 그리드
     html += `<div class="effort-cal-wrap">`;
@@ -3240,6 +3247,7 @@
 
     let html = `<div class="effort-stats-content">`;
     html += `<div class="effort-stats-total"><span class="lbl">이번 주 총</span> <span class="val">${fmtDurationShort(totalSec)}</span></div>`;
+    html += `<div class="effort-stats-hint">날짜를 클릭하면 그날의 학습 기록이 상세히 보입니다.</div>`;
 
     // 일별 막대 (클릭 가능)
     html += `<div class="effort-day-bars">`;
@@ -3305,7 +3313,7 @@
   }
 
   // 24시간 타임라인 시각화 (선택한 날 하루)
-  // 좌측: 시간 라벨, 우측: 학습 시간대에 막대 + 옆에 내용
+  // 학습 있는 시간대는 확대(50px/시간), 없는 시간대는 압축(12px/시간)
   function renderEffortDayTimeline(targetLogs, d) {
     // 라임 톤 팔레트 (과목별로 일관된 색)
     const PALETTE = [
@@ -3314,75 +3322,123 @@
       'oklch(66% 0.18 110)', 'oklch(72% 0.14 50)', 'oklch(74% 0.16 30)',
       'oklch(68% 0.17 195)',
     ];
-    // 과목별 색상 매핑 (해당 날에 등장한 과목 순서)
     const subjOrder = [];
     for (const l of targetLogs) {
       if (!subjOrder.includes(l.subject)) subjOrder.push(l.subject);
     }
     const colorOf = (subj) => PALETTE[subjOrder.indexOf(subj) % PALETTE.length];
 
-    // 24시간 = 24개 row, 각 row = 30px → 총 720px
-    const HOUR_HEIGHT = 30;
-    const TOTAL_HEIGHT = HOUR_HEIGHT * 24;
+    // (1) 학습 활성 구간 계산 — 각 학습 ±30분 버퍼, 인접 구간 병합
+    const BUFFER_HR = 0.5;
+    const ranges = targetLogs.map(l => {
+      const start = new Date(l.startedAt);
+      const startHr = start.getHours() + start.getMinutes()/60 + start.getSeconds()/3600;
+      const endHr = startHr + (l.seconds || 0) / 3600;
+      return [Math.max(0, startHr - BUFFER_HR), Math.min(24, endHr + BUFFER_HR)];
+    }).sort((a, b) => a[0] - b[0]);
 
-    // 시간 라벨 + 가로선
-    let hoursHtml = '';
-    for (let h = 0; h < 24; h++) {
-      let label;
-      if (h === 0) label = '12 AM';
-      else if (h === 12) label = '12 PM';
-      else if (h < 12) label = `${h} AM`;
-      else label = `${h - 12} PM`;
-      hoursHtml += `
-        <div class="day-tl-row" style="top:${h * HOUR_HEIGHT}px; height:${HOUR_HEIGHT}px;">
-          <div class="day-tl-label">${label}</div>
-          <div class="day-tl-divider"></div>
-        </div>
-      `;
+    const merged = [];
+    for (const r of ranges) {
+      if (merged.length === 0 || merged[merged.length-1][1] < r[0]) {
+        merged.push([r[0], r[1]]);
+      } else {
+        merged[merged.length-1][1] = Math.max(merged[merged.length-1][1], r[1]);
+      }
     }
 
-    // 학습 이벤트 막대
+    // (2) 0~24시간을 활성/비활성 segment로 분할
+    const ACTIVE_PX = 50;     // 활성 시간 1시간 = 50px (확대)
+    const INACTIVE_PX = 12;   // 비활성 시간 1시간 = 12px (압축)
+    const segments = [];
+    let cursor = 0;
+    for (const [s, e] of merged) {
+      if (cursor < s) segments.push({ s: cursor, e: s, active: false });
+      segments.push({ s, e, active: true });
+      cursor = e;
+    }
+    if (cursor < 24) segments.push({ s: cursor, e: 24, active: false });
+
+    // (3) 각 segment 픽셀 위치
+    let cumPx = 0;
+    for (const seg of segments) {
+      seg.startPx = cumPx;
+      seg.pxPerHour = seg.active ? ACTIVE_PX : INACTIVE_PX;
+      seg.height = (seg.e - seg.s) * seg.pxPerHour;
+      cumPx += seg.height;
+    }
+    const TOTAL_HEIGHT = cumPx;
+
+    // (4) 시간 → 픽셀 매핑 함수
+    function hourToPx(hr) {
+      for (const seg of segments) {
+        if (hr >= seg.s && hr <= seg.e) {
+          const ratio = seg.e === seg.s ? 0 : (hr - seg.s) / (seg.e - seg.s);
+          return seg.startPx + ratio * seg.height;
+        }
+      }
+      return cumPx;
+    }
+
+    // (5) 시간 라벨 (12AM 제외, 1AM~11PM)
+    // 비활성 시간대는 라벨이 겹치지 않도록 자동 스킵
+    let hoursHtml = '';
+    let lastShownPx = -100;
+    for (let h = 1; h < 24; h++) {
+      const top = hourToPx(h);
+      const inActive = merged.some(([s, e]) => h >= s && h <= e);
+      // 활성 구간 안이면 항상 표시, 비활성이면 마지막 라벨과 거리 체크
+      if (!inActive && top - lastShownPx < 18) continue;
+
+      let label;
+      if (h === 12) label = '12 PM';
+      else if (h < 12) label = `${h} AM`;
+      else label = `${h - 12} PM`;
+
+      hoursHtml += `
+        <div class="day-tl-row ${inActive ? 'active' : ''}" style="top:${top}px;">
+          <div class="day-tl-label">${label}</div>
+        </div>
+      `;
+      lastShownPx = top;
+    }
+
+    // (6) 활성/비활성 segment 배경 표시 (비활성은 회색 톤으로 구분)
+    let bgHtml = '';
+    for (const seg of segments) {
+      if (!seg.active) {
+        bgHtml += `<div class="day-tl-bg-inactive" style="top:${seg.startPx}px; height:${seg.height}px;"></div>`;
+      }
+    }
+
+    // (7) 학습 이벤트 막대
     let eventsHtml = '';
     for (const l of targetLogs) {
       const start = new Date(l.startedAt);
-      const startHour = start.getHours() + start.getMinutes() / 60 + start.getSeconds() / 3600;
-      const durationHr = (l.seconds || 0) / 3600;
-      const top = startHour * HOUR_HEIGHT;
-      const height = Math.max(durationHr * HOUR_HEIGHT, 18);  // 최소 18px (가독성)
+      const startHr = start.getHours() + start.getMinutes()/60 + start.getSeconds()/3600;
+      const endHr = startHr + (l.seconds || 0) / 3600;
+      const top = hourToPx(startHr);
+      const height = Math.max(hourToPx(endHr) - top, 30);
       const color = colorOf(l.subject);
 
       const timeStr = `${start.getHours().toString().padStart(2,'0')}:${start.getMinutes().toString().padStart(2,'0')}`;
       const endTime = new Date(start.getTime() + l.seconds * 1000);
       const endStr = `${endTime.getHours().toString().padStart(2,'0')}:${endTime.getMinutes().toString().padStart(2,'0')}`;
 
-      // 막대가 너무 짧으면 텍스트 우측에 배치, 충분히 길면 막대 안에
-      const showInside = height >= 36;
-
       eventsHtml += `
         <div class="day-tl-event" style="top:${top}px; height:${height}px; background:${color};">
-          ${showInside ? `
-            <div class="day-tl-event-inner">
-              <div class="day-tl-event-title">${escapeHtml(l.subject)}<span class="day-tl-event-time">${timeStr}–${endStr}</span></div>
-              <div class="day-tl-event-content">${escapeHtml(l.content || '')}</div>
-              ${l.reflection ? `<div class="day-tl-event-refl">📔 ${escapeHtml(l.reflection)}</div>` : ''}
-            </div>
-          ` : ''}
-        </div>
-        ${!showInside ? `
-          <div class="day-tl-event-side" style="top:${top}px;">
-            <span class="day-tl-side-dot" style="background:${color};"></span>
-            <span class="day-tl-side-title">${escapeHtml(l.subject)}</span>
-            <span class="day-tl-side-time">${timeStr} · ${fmtDurationShort(l.seconds)}</span>
-            ${l.content ? `<span class="day-tl-side-content">${escapeHtml(l.content)}</span>` : ''}
+          <div class="day-tl-event-inner">
+            <div class="day-tl-event-title">${escapeHtml(l.subject)}<span class="day-tl-event-time">${timeStr}–${endStr}</span></div>
+            ${l.content ? `<div class="day-tl-event-content">${escapeHtml(l.content)}</div>` : ''}
+            ${l.reflection ? `<div class="day-tl-event-refl">📔 ${escapeHtml(l.reflection)}</div>` : ''}
           </div>
-        ` : ''}
+        </div>
       `;
     }
 
     return `
       <div class="day-tl-wrap" style="height:${TOTAL_HEIGHT}px;">
         <div class="day-tl-hours">${hoursHtml}</div>
-        <div class="day-tl-events">${eventsHtml}</div>
+        <div class="day-tl-events">${bgHtml}${eventsHtml}</div>
       </div>
     `;
   }

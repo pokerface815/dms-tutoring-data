@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-24T04:48:30.476Z",
+  "generatedAt": "2026-06-24T13:24:00.587Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -38,6 +38,7 @@
       "createdAt": "2026-06-23T13:57:08.459Z"
     }
   ],
+  "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "Q0tpK6iwvJc": {
@@ -58,19 +59,7 @@
     }
   },
   "today": [],
-  "overdue": [
-    {
-      "assignmentId": "a_1781536830575_5ol8ni",
-      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-23",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "overdue": [],
   "upcoming": [
     {
       "assignmentId": "a_1781628866853_g8jo39",
@@ -85,6 +74,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1781536830575_5ol8ni",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-23",
+      "done": true,
+      "doneAt": "2026-06-24T12:02:40.664Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1780325196252_vl7pxy",
       "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
@@ -432,24 +433,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1778509842286_m42zba",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-05-12",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:24.238Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 3,
-    "done": 1,
-    "percent": 33,
+    "done": 2,
+    "percent": 67,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

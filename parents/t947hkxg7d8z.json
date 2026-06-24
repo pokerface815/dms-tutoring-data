@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-24T13:23:58.835Z",
+  "generatedAt": "2026-06-24T14:35:38.871Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,23 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-24",
+          "weekday": "수",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "부교재 예상문제 4회 풀기 + 2,3회 오답 복습",
+              "dueDate": "2026-06-27",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
         {
           "date": "2026-06-22",
           "weekday": "월",

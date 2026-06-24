@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-24T13:26:23.097Z",
+  "generatedAt": "2026-06-24T16:04:25.604Z",
   "student": {
     "id": "s_1782144542719_3gm3op",
     "classes": [
@@ -15,9 +15,7 @@
   "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1782144560416_tnz9ix",
       "noteName": "이수연_올림포스 유형편_사인,코사인법칙+등차,등비수열",
@@ -30,6 +28,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1782144560416_tnz9ix",

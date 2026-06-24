@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-23T13:06:48.140Z",
+  "generatedAt": "2026-06-24T03:56:47.763Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -164,8 +164,8 @@
         },
         "3": {
           "done": 3,
-          "total": 3,
-          "percent": 100
+          "total": 4,
+          "percent": 75
         },
         "4": {
           "done": 7,
@@ -199,5 +199,37 @@
     }
   ],
   "tests": [],
-  "effortLogs": null
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-06-23T13:57:11.463Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 160,
+      "monthSec": 160,
+      "streak": 1,
+      "bySubjectMonth": {
+        "대수": 160
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mqqpkpuz2xh",
+        "startedAt": 1782222920226,
+        "seconds": 99,
+        "subject": "대수",
+        "method": "강의 시청",
+        "content": "대수 개념+유형 (26년 1월 ~ )_완강 — 228~233쪽 수학적 귀납법. 교재 끝.",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mqqowytm8k3",
+        "startedAt": 1782221838546,
+        "seconds": 61,
+        "subject": "대수",
+        "method": "기타",
+        "content": "테스트",
+        "reflection": ""
+      }
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-24T04:49:44.591Z",
+  "generatedAt": "2026-06-24T13:25:22.690Z",
   "student": {
     "id": "s_1780314459772_3emo5z",
     "classes": [
@@ -13,6 +13,7 @@
     "showMakeNote": false
   },
   "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "today": [],
   "overdue": [],

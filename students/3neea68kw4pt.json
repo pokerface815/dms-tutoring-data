@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-24T03:56:51.019Z",
+  "generatedAt": "2026-06-24T04:48:24.156Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -193,6 +193,30 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-06-22T16:12:48.423Z"
+    },
+    {
+      "id": "effort_mqrkjhdf0yf",
+      "startedAt": 1782274844089,
+      "endedAt": 1782275038899,
+      "seconds": 186,
+      "subject": "확률과 통계",
+      "method": "강의 시청",
+      "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 56~62쪽 조건부확률",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-24T04:23:58.900Z"
+    },
+    {
+      "id": "effort_mqrklrg8fps",
+      "startedAt": 1782275043965,
+      "endedAt": 1782275145272,
+      "seconds": 81,
+      "subject": "테스트",
+      "method": "기타",
+      "content": "테스트",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-24T04:25:45.272Z"
     }
   ],
   "syncedLectureWatch": {
@@ -218,14 +242,14 @@
         "watchedSec": 973
       },
       "L7mDjTDBlmQ": {
-        "sessionCount": 3,
+        "sessionCount": 4,
         "lectureId": "lec_mqksd52wcz3",
         "lectureTitle": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
         "videoTitle": "56~62쪽 조건부확률",
         "durationSec": 4122,
-        "lastPosition": 1072,
-        "lastWatchedAt": "2026-06-20T15:49:51.314Z",
-        "watchedSec": 717
+        "lastPosition": 1258,
+        "lastWatchedAt": "2026-06-24T04:23:53.305Z",
+        "watchedSec": 903
       },
       "KChW2PYtl2c": {
         "sessionCount": 1,
@@ -234,7 +258,8 @@
         "videoTitle": "17~19쪽 곱셈공식의 변형 필수6~8",
         "durationSec": 2969,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-06-22T06:37:12.531Z"
+        "lastWatchedAt": "2026-06-22T06:37:12.531Z",
+        "watchedSec": 0
       },
       "7BPqzx7aS7g": {
         "sessionCount": 1,
@@ -254,6 +279,9 @@
       },
       "2026-06-22": {
         "7BPqzx7aS7g": 249
+      },
+      "2026-06-24": {
+        "L7mDjTDBlmQ": 186
       }
     }
   },
@@ -528,6 +556,20 @@
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-06-18T09:07:35.751Z"
+    },
+    {
+      "id": "grade_mqrleqmjuf5",
+      "type": "mock",
+      "year": 2026,
+      "grade": null,
+      "gradeLevel": "고3",
+      "month": 3,
+      "elective": "미적분",
+      "mathScore": 96,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-06-24T04:33:59.263Z",
+      "createdAt": "2026-06-24T04:48:17.227Z"
     }
   ]
 }

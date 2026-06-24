@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-24T13:23:55.459Z",
+  "generatedAt": "2026-06-24T16:03:37.819Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -120,8 +120,8 @@
         }
       ],
       "completionRate": {
-        "done": 2,
-        "total": 2,
+        "done": 3,
+        "total": 3,
         "percent": 100
       },
       "noteStages": null
@@ -145,19 +145,29 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-24T04:51:12.157Z",
+    "uploadedAt": "2026-06-24T14:23:18.296Z",
     "summary": {
-      "todaySec": 186,
-      "weekSec": 435,
-      "monthSec": 1408,
+      "todaySec": 0,
+      "weekSec": 3457,
+      "monthSec": 4430,
       "streak": 1,
       "bySubjectMonth": {
         "미적분Ⅰ": 973,
         "대수": 249,
-        "확률과 통계": 186
+        "확률과 통계": 186,
+        "과외": 3022
       }
     },
     "logs": [
+      {
+        "id": "effort_mqs5y5i35nd",
+        "startedAt": 1782307928824,
+        "seconds": 3022,
+        "subject": "과외",
+        "method": "문제 풀이",
+        "content": "대수 및 가영 질문",
+        "reflection": ""
+      },
       {
         "id": "effort_mqrkjhdf0yf",
         "startedAt": 1782274844089,

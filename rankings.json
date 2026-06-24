@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-24T12:03:00.695Z",
+  "generatedAt": "2026-06-24T13:24:02.431Z",
   "studentCount": 38,
   "rankings": [
     {
@@ -27,9 +27,9 @@
     {
       "id": "s_1777547014208_7l30nn",
       "totalSec": 1614,
-      "weekSec": 0,
+      "weekSec": 1614,
       "monthSec": 1614,
-      "streak": 0
+      "streak": 1
     },
     {
       "id": "s_1777547047005_uo92w5",

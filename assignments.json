@@ -2721,5 +2721,15 @@
       }
     ],
     "createdAt": "2026-06-24T03:56:42.526Z"
+  },
+  {
+    "id": "task_1782311709953_c2se2h",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "부교재 예상문제 4회 풀기 + 2,3회 오답 복습",
+    "dueDate": "2026-06-27",
+    "assignedAt": "2026-06-24T14:35:09.953Z",
+    "batchId": "t_mqs6dgxt",
+    "repeat": null
   }
 ]

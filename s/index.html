@@ -1198,27 +1198,43 @@
 
     // (1) 노력의 자취 logs 머지
     try {
+      // 통합본에서 받아온 다른 기기의 삭제 표시도 본 기기 tombstone에 합치기
+      if (Array.isArray(studentData.syncedEffortDeletedIds)) {
+        for (const id of studentData.syncedEffortDeletedIds) {
+          addDeletedEffortLogId(id);
+        }
+      }
+
       const synced = studentData.syncedEffortLogs;
       if (Array.isArray(synced) && synced.length > 0) {
         const local = (function() {
           try { return JSON.parse(localStorage.getItem(`effortLogs__${studentCode}`) || '[]'); }
           catch(e) { return []; }
         })();
-        // id 기준 unique - local 우선 (최신 편집은 본 기기에서 일어났을 수 있음)
+        // tombstone(삭제된 id) — 통합본/다른 기기의 삭제 정보도 포함
+        const deletedSet = new Set(loadDeletedEffortLogIds());
+        // local에서도 tombstone에 있는 항목 제거 (다른 기기에서 삭제한 게 전파됨)
+        const beforeLocalCount = local.length;
+        for (let i = local.length - 1; i >= 0; i--) {
+          if (deletedSet.has(local[i].id)) local.splice(i, 1);
+        }
+        const removedFromLocal = beforeLocalCount - local.length;
+
         const seenIds = new Set(local.map(l => l.id).filter(Boolean));
-        let added = 0;
+        let added = 0, skippedDeleted = 0;
         for (const l of synced) {
-          if (l.id && !seenIds.has(l.id)) {
+          if (!l.id) continue;
+          if (deletedSet.has(l.id)) { skippedDeleted++; continue; }
+          if (!seenIds.has(l.id)) {
             local.push(l);
             seenIds.add(l.id);
             added++;
           }
         }
-        if (added > 0) {
-          // 시간순 정렬 (오래된 → 최신)
+        if (added > 0 || skippedDeleted > 0 || removedFromLocal > 0) {
           local.sort((a, b) => (a.startedAt || 0) - (b.startedAt || 0));
           try { localStorage.setItem(`effortLogs__${studentCode}`, JSON.stringify(local)); } catch(e) {}
-          console.log(`[학생페이지] 동기화: 노력의 자취 ${added}건 추가됨`);
+          console.log(`[학생페이지] 동기화: 노력의 자취 ${added}건 추가, ${skippedDeleted}건 부활 차단, ${removedFromLocal}건 다른 기기 삭제 반영`);
         }
       }
     } catch(e) { console.warn('[학생페이지] effort 머지 실패:', e); }
@@ -2571,6 +2587,7 @@
       uploadedAt: new Date().toISOString(),
       logCount: snapshotCount,
       logs,
+      deletedIds: loadDeletedEffortLogIds(),  // 통합본이 받아서 cache에서도 제거
     };
 
     try {
@@ -3280,11 +3297,28 @@
     let logs = loadEffortLogs();
     logs = logs.filter(l => l.id !== id);
     saveEffortLogs(logs);
+    // 삭제 id를 tombstone에 추가 (다른 기기에서 받아온 syncedEffortLogs에 의해 부활하지 않도록)
+    addDeletedEffortLogId(id);
     renderEffortContent();
     // Cloudinary 자동 업로드 (debounce 3초)
     markEffortLogsDirty();
     renderEffortSyncIndicator();
   };
+
+  // 삭제된 학습 기록 id 목록 (tombstone)
+  function loadDeletedEffortLogIds() {
+    try {
+      const arr = JSON.parse(localStorage.getItem(`effortLogsDeleted__${studentCode}`) || '[]');
+      return Array.isArray(arr) ? arr : [];
+    } catch(e) { return []; }
+  }
+  function addDeletedEffortLogId(id) {
+    if (!id) return;
+    const arr = loadDeletedEffortLogIds();
+    if (arr.includes(id)) return;
+    arr.push(id);
+    try { localStorage.setItem(`effortLogsDeleted__${studentCode}`, JSON.stringify(arr)); } catch(e) {}
+  }
 
   window.openEffortEditModal = function(id) {
     const log = loadEffortLogs().find(l => l.id === id);

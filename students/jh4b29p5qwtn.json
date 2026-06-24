@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-24T04:50:25.961Z",
+  "generatedAt": "2026-06-24T13:26:09.500Z",
   "student": {
     "id": "s_1780825523674_8dwstz",
     "classes": [
@@ -13,23 +13,24 @@
     "showMakeNote": true
   },
   "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1781695122444_x7tt07",
       "noteName": "정시우_자이스토리_H.등차수열과 등비수열( ~72)",
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-06-24",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-06-24T13:23:44.444Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1781695122444_x7tt07",
       "noteName": "정시우_자이스토리_H.등차수열과 등비수열( ~72)",
@@ -57,8 +58,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-23T13:07:32.990Z",
+  "generatedAt": "2026-06-24T03:56:50.004Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -120,8 +120,8 @@
         }
       ],
       "completionRate": {
-        "done": 1,
-        "total": 1,
+        "done": 2,
+        "total": 2,
         "percent": 100
       },
       "noteStages": null
@@ -150,7 +150,7 @@
       "todaySec": 0,
       "weekSec": 20612,
       "monthSec": 103957,
-      "streak": 5,
+      "streak": 0,
       "bySubjectMonth": {
         "확통": 8293,
         "클로드": 6923,

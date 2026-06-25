@@ -547,13 +547,11 @@
   .day-tl-row:not(.active) .day-tl-label {
     opacity: 0.5;
   }
-  /* 이벤트 영역(우측)에 시간별 가로 구분선 — 옅은 실선 */
-  .day-tl-row::after {
-    content: ''; position: absolute; left: 14%; right: 0; top: 0;
+  /* 가로 구분선 — events 영역 안에만 그림 (라벨 영역과 분리) */
+  .day-tl-gridline {
+    position: absolute; left: 0; right: 0;
     border-top: 1px solid var(--surface2);
-  }
-  @media (min-width: 480px) {
-    .day-tl-row::after { left: 42px; }
+    pointer-events: none;
   }
   /* 비활성 시간대 배경 (사선 패턴) — 사용자 요청으로 숨김 */
   .day-tl-bg-inactive {
@@ -3514,7 +3512,9 @@
 
     // (5) 시간 라벨 (12AM 제외, 1AM~11PM)
     // 비활성 시간대는 라벨이 겹치지 않도록 자동 스킵
+    // 가로 구분선은 events 영역에 별도로 그림 (라벨 영역과 겹치지 않게)
     let hoursHtml = '';
+    let gridLinesHtml = '';
     let lastShownPx = -100;
     for (let h = 1; h < 24; h++) {
       const top = hourToPx(h);
@@ -3532,6 +3532,7 @@
           <div class="day-tl-label">${label}</div>
         </div>
       `;
+      gridLinesHtml += `<div class="day-tl-gridline" style="top:${top}px;"></div>`;
       lastShownPx = top;
     }
 
@@ -3574,7 +3575,7 @@
     return `
       <div class="day-tl-wrap" style="height:${TOTAL_HEIGHT}px;">
         <div class="day-tl-hours">${hoursHtml}</div>
-        <div class="day-tl-events">${bgHtml}${eventsHtml}</div>
+        <div class="day-tl-events">${gridLinesHtml}${bgHtml}${eventsHtml}</div>
       </div>
     `;
   }

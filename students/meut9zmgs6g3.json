@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T01:30:05.913Z",
+  "generatedAt": "2026-06-25T05:33:50.448Z",
   "student": {
     "id": "s_1778908285779_1cmzde",
     "classes": [
@@ -15,6 +15,7 @@
   "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
   "upcoming": [],

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T01:29:30.923Z",
+  "generatedAt": "2026-06-25T05:33:13.803Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -15,6 +15,7 @@
   "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
   "today": [
     {
       "assignmentId": "a_1782219961580_y8auey",

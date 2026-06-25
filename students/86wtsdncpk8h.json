@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T01:29:37.327Z",
+  "generatedAt": "2026-06-25T05:33:20.136Z",
   "student": {
     "id": "s_1777547014208_7l30nn",
     "classes": [
@@ -28,6 +28,7 @@
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
   "upcoming": [

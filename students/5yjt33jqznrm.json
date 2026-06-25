@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T05:35:15.237Z",
+  "generatedAt": "2026-06-25T07:37:28.528Z",
   "student": {
     "id": "s_1782144542719_3gm3op",
     "classes": [
@@ -16,22 +16,22 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1782144560416_tnz9ix",
       "noteName": "이수연_올림포스 유형편_사인,코사인법칙+등차,등비수열",
       "subject": "대수",
       "round": 2,
       "plannedDate": "2026-06-25",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-06-25T07:35:38.582Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1782144560416_tnz9ix",
       "noteName": "이수연_올림포스 유형편_사인,코사인법칙+등차,등비수열",
@@ -47,8 +47,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T05:33:59.983Z",
+  "generatedAt": "2026-06-25T07:36:36.714Z",
   "student": {
     "id": "s_1779811264964_kbtli4",
     "classes": [
@@ -16,22 +16,22 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1782365567791_58c2h3",
       "noteName": "김한비_유형 해결의 법칙_수학적 귀납법( ~1474번)",
       "subject": "대수",
       "round": 1,
       "plannedDate": "2026-06-25",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-06-25T07:35:43.522Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1780061919737_cwqd4a",
       "noteName": "김한비_유형 해결의 법칙_등차등비수열( ~1226번)",
@@ -83,8 +83,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

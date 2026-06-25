@@ -1791,7 +1791,7 @@
     if (!lec) { alert('강의 정보를 찾을 수 없습니다.'); return; }
     const v = (lec.videos || []).find(vv => vv.videoId === videoId);
     if (!v) { alert('영상 정보를 찾을 수 없습니다.'); return; }
-    openLecturePlayer(lec, v);
+    openLecturePlayer(lec.id, v.videoId);
   };
 
   // 과목 순서 (통합본 dashSubjects와 동일)

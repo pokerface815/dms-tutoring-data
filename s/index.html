@@ -224,6 +224,68 @@
   .ranking-summary-head { font-size: 15px; font-weight: 700; color: var(--text); }
   .ranking-summary-meta { font-size: 11.5px; color: var(--text3); margin-top: 3px; }
 
+  /* 별명 설정 카드 (접힘/펼침) */
+  .ranking-profile-card {
+    margin-bottom: 12px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    overflow: hidden;
+  }
+  .ranking-profile-summary {
+    list-style: none;
+    padding: 10px 14px;
+    display: flex; align-items: center; justify-content: space-between;
+    cursor: pointer;
+    font-size: 12.5px;
+  }
+  .ranking-profile-summary::-webkit-details-marker { display: none; }
+  .ranking-profile-current { color: var(--text2); }
+  .ranking-profile-arrow {
+    font-size: 11px; color: var(--text3);
+    transition: transform 0.15s;
+  }
+  .ranking-profile-card[open] .ranking-profile-arrow {
+    transform: rotate(180deg);
+  }
+  .ranking-profile-body {
+    padding: 4px 14px 12px;
+    border-top: 1px dashed var(--border);
+  }
+  .ranking-profile-field {
+    display: flex; align-items: center; gap: 8px; margin: 10px 0 8px;
+  }
+  .ranking-profile-lbl {
+    font-size: 12px; color: var(--text2); font-weight: 600; flex-shrink: 0;
+    width: 40px;
+  }
+  .ranking-profile-input {
+    flex: 1; padding: 7px 10px;
+    border: 1px solid var(--border); border-radius: 6px;
+    background: var(--surface); color: var(--text);
+    font-size: 13px; font-family: inherit;
+    min-width: 0;
+  }
+  .ranking-profile-input:focus {
+    outline: none; border-color: oklch(60% 0.16 145);
+  }
+  .ranking-profile-toggle {
+    display: flex; align-items: center; gap: 6px; margin: 8px 0 6px;
+    font-size: 12.5px; color: var(--text2); cursor: pointer;
+  }
+  .ranking-profile-toggle input[type="checkbox"] {
+    width: 16px; height: 16px;
+    accent-color: oklch(50% 0.15 145);
+  }
+  .ranking-profile-hint {
+    font-size: 11px; color: var(--text3); line-height: 1.4;
+    margin-top: 4px;
+  }
+  .ranking-nick-warn {
+    display: block; margin: 4px 0 6px;
+    font-size: 11px; color: oklch(50% 0.18 30); font-weight: 600;
+    padding: 5px 8px; background: oklch(95% 0.05 50);
+    border-radius: 5px;
+  }
+
   /* 내 순위 카드 (상단 강조) */
   .ranking-my-card {
     display: grid; grid-template-columns: auto 1fr auto auto; gap: 12px; align-items: center;
@@ -473,9 +535,10 @@
     position: absolute; left: 0; right: 0; height: 0;
   }
   .day-tl-label {
-    position: absolute; left: 6px; top: 0;
+    position: absolute; right: 8px; top: 0;
     font-size: 10.5px; color: var(--text3);
     font-variant-numeric: tabular-nums; line-height: 1;
+    text-align: right; white-space: nowrap;
     transform: translateY(-50%);  /* 시간 눈금을 라벨 중앙 정렬 */
   }
   .day-tl-row.active .day-tl-label {
@@ -484,10 +547,10 @@
   .day-tl-row:not(.active) .day-tl-label {
     opacity: 0.5;
   }
-  /* 행마다 가로선 (점선) — 시각적 구분 */
+  /* 이벤트 영역(우측)에 시간별 가로 구분선 — 옅은 실선 */
   .day-tl-row::after {
     content: ''; position: absolute; left: 20%; right: 0; top: 0;
-    border-top: 1px dashed var(--surface2);
+    border-top: 1px solid var(--surface2);
   }
   @media (min-width: 480px) {
     .day-tl-row::after { left: 60px; }
@@ -517,12 +580,18 @@
   }
   .day-tl-event-title {
     font-size: 12px; font-weight: 700;
-    display: flex; justify-content: space-between; gap: 6px;
+    display: flex; justify-content: space-between; align-items: baseline; gap: 8px;
     line-height: 1.2;
   }
+  .day-tl-event-subj {
+    flex-shrink: 0;
+  }
   .day-tl-event-time {
-    font-size: 10px; font-weight: 500; opacity: 0.75;
+    font-size: 11px; font-weight: 500; opacity: 0.85;
     font-variant-numeric: tabular-nums;
+    text-align: right;
+    flex: 1; min-width: 0;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
   .day-tl-event-content {
     font-size: 11px; margin-top: 2px;
@@ -2459,6 +2528,37 @@
       </div>
     `;
 
+    // 별명 설정 카드 (펼침/접힘)
+    const profile = loadRankingProfile();
+    const hasNickname = !!profile.nickname;
+    const isPublic = !!profile.publicNickname;
+    const displayState = hasNickname && isPublic
+      ? `<span style="color:oklch(50% 0.15 145); font-weight:700;">"${escapeHtml(profile.nickname)}"</span>로 공개`
+      : `<span style="color:var(--text2); font-weight:600;">익명</span>으로 참여`;
+    html += `
+      <details class="ranking-profile-card" ${!hasNickname ? 'open' : ''}>
+        <summary class="ranking-profile-summary">
+          <span class="ranking-profile-current" id="rankingProfileCurrent">랭킹에 ${displayState}</span>
+          <span class="ranking-profile-arrow">▾</span>
+        </summary>
+        <div class="ranking-profile-body">
+          <label class="ranking-profile-field">
+            <span class="ranking-profile-lbl">별명</span>
+            <input id="rankingNicknameInput" type="text" maxlength="20" value="${escapeHtml(profile.nickname)}"
+              placeholder="20자 이내" class="ranking-profile-input" oninput="updateRankingNickname()">
+          </label>
+          <div id="rankingNicknameWarn"></div>
+          <label class="ranking-profile-toggle">
+            <input id="rankingPublicToggle" type="checkbox" ${isPublic ? 'checked' : ''} onchange="updateRankingNickname()">
+            <span>이 별명을 랭킹에 공개</span>
+          </label>
+          <div class="ranking-profile-hint">
+            공개를 끄거나 별명이 비어 있으면 <b>"익명"</b>으로 표시됩니다. 선생님은 항상 누구인지 확인할 수 있어요.
+          </div>
+        </div>
+      </details>
+    `;
+
     // 내 순위 카드 (상단)
     if (my) {
       const myValue = fmtRankingValue(tabKey, my[tabKey]);
@@ -2481,10 +2581,14 @@
       const isMe = item.id === myId;
       const value = fmtRankingValue(tabKey, item[tabKey]);
       const valHidden = (item[tabKey] || 0) === 0;
+      // 본인은 항상 "나", 다른 학생은 publicNickname true + nickname 있으면 별명, 아니면 "익명"
+      const displayName = isMe
+        ? '나'
+        : (item.publicNickname && item.nickname ? item.nickname : '익명');
       html += `
         <div class="ranking-row ${isMe ? 'ranking-row-me' : ''}">
           <div class="ranking-row-rank">${item._rank}</div>
-          <div class="ranking-row-name">${isMe ? '나' : '익명'}</div>
+          <div class="ranking-row-name">${escapeHtml(displayName)}</div>
           <div class="ranking-row-value">${valHidden ? '-' : value}</div>
         </div>
       `;
@@ -2692,6 +2796,7 @@
     renderEffortSyncIndicator();
 
     const snapshotCount = logs.length;
+    const rankingProfile = loadRankingProfile();
     const payload = {
       studentCode,
       studentName,
@@ -2699,6 +2804,8 @@
       logCount: snapshotCount,
       logs,
       deletedIds: loadDeletedEffortLogIds(),  // 통합본이 받아서 cache에서도 제거
+      nickname: rankingProfile.nickname,
+      publicNickname: rankingProfile.publicNickname,
     };
 
     try {
@@ -2832,6 +2939,24 @@
     const m = Math.floor((sec % 3600) / 60);
     if (h > 0) return `${h}시간 ${m}분`;
     return `${m}분`;
+  }
+
+  // 시간 막대 헤더용 짧은 형식 (예: "1h 50m")
+  function fmtDurationCompact(sec) {
+    const h = Math.floor(sec / 3600);
+    const m = Math.floor((sec % 3600) / 60);
+    if (h > 0 && m > 0) return `${h}h ${m}m`;
+    if (h > 0) return `${h}h`;
+    return `${m}m`;
+  }
+
+  // 12시간제 (예: "11:30 AM", "1:20 PM")
+  function fmtTime12(date) {
+    const h = date.getHours();
+    const m = date.getMinutes();
+    const ampm = h < 12 ? 'AM' : 'PM';
+    const h12 = h === 0 ? 12 : (h > 12 ? h - 12 : h);
+    return `${h12}:${String(m).padStart(2,'0')} ${ampm}`;
   }
 
   function renderEffortTimer() {
@@ -3420,14 +3545,17 @@
       const height = Math.max(hourToPx(endHr) - top, 30);
       const color = colorOf(l.subject);
 
-      const timeStr = `${start.getHours().toString().padStart(2,'0')}:${start.getMinutes().toString().padStart(2,'0')}`;
       const endTime = new Date(start.getTime() + l.seconds * 1000);
-      const endStr = `${endTime.getHours().toString().padStart(2,'0')}:${endTime.getMinutes().toString().padStart(2,'0')}`;
+      const durationStr = fmtDurationCompact(l.seconds);
+      const timeRangeStr = `${fmtTime12(start)} – ${fmtTime12(endTime)}`;
 
       eventsHtml += `
         <div class="day-tl-event" style="top:${top}px; height:${height}px; background:${color};">
           <div class="day-tl-event-inner">
-            <div class="day-tl-event-title">${escapeHtml(l.subject)}<span class="day-tl-event-time">${timeStr}–${endStr}</span></div>
+            <div class="day-tl-event-title">
+              <span class="day-tl-event-subj">${escapeHtml(l.subject)}</span>
+              <span class="day-tl-event-time">${durationStr} (${timeRangeStr})</span>
+            </div>
             ${l.content ? `<div class="day-tl-event-content">${escapeHtml(l.content)}</div>` : ''}
             ${l.reflection ? `<div class="day-tl-event-refl">📔 ${escapeHtml(l.reflection)}</div>` : ''}
           </div>
@@ -3563,6 +3691,66 @@
     arr.push(id);
     try { localStorage.setItem(`effortLogsDeleted__${studentCode}`, JSON.stringify(arr)); } catch(e) {}
   }
+
+  // 랭킹 별명/공개 여부 (학생이 직접 설정)
+  function loadRankingProfile() {
+    try {
+      const obj = JSON.parse(localStorage.getItem(`rankingProfile__${studentCode}`) || '{}');
+      return {
+        nickname: typeof obj.nickname === 'string' ? obj.nickname : '',
+        publicNickname: !!obj.publicNickname,
+      };
+    } catch(e) { return { nickname: '', publicNickname: false }; }
+  }
+  function saveRankingProfile(profile) {
+    try {
+      localStorage.setItem(`rankingProfile__${studentCode}`, JSON.stringify({
+        nickname: (profile.nickname || '').trim().slice(0, 20),
+        publicNickname: !!profile.publicNickname,
+      }));
+    } catch(e) {}
+  }
+  window.updateRankingNickname = function() {
+    const input = document.getElementById('rankingNicknameInput');
+    const toggle = document.getElementById('rankingPublicToggle');
+    const warnEl = document.getElementById('rankingNicknameWarn');
+    if (!input) return;
+    const profile = {
+      nickname: input.value.trim().slice(0, 20),
+      publicNickname: toggle ? toggle.checked : false,
+    };
+    saveRankingProfile(profile);
+
+    // 별명 중복 체크 (다른 학생이 같은 별명을 공개 중이면 경고)
+    // _rankingData에는 공개된 별명만 포함되므로 충돌 가능성만 검사 가능
+    if (warnEl) {
+      let duplicateInfo = '';
+      const myId = studentData?.student?.id;
+      if (profile.nickname && _rankingData && Array.isArray(_rankingData.rankings)) {
+        const nickLower = profile.nickname.toLowerCase();
+        const others = _rankingData.rankings.filter(r =>
+          r.id !== myId && r.publicNickname && r.nickname &&
+          r.nickname.trim().toLowerCase() === nickLower
+        );
+        if (others.length > 0) {
+          duplicateInfo = `<span class="ranking-nick-warn">⚠ 다른 학생이 이미 같은 별명을 사용 중이에요. 다른 별명을 추천해요.</span>`;
+        }
+      }
+      warnEl.innerHTML = duplicateInfo;
+    }
+
+    // Cloudinary 재업로드 큐에 추가 (별명/공개 여부도 반영되도록)
+    if (typeof markEffortLogsDirty === 'function') markEffortLogsDirty();
+    // 현재 상태 텍스트만 갱신 (전체 재렌더는 input focus 잃을 수 있음)
+    const currentLabel = document.getElementById('rankingProfileCurrent');
+    if (currentLabel) {
+      const hasNickname = !!profile.nickname;
+      const isPublic = !!profile.publicNickname;
+      currentLabel.innerHTML = hasNickname && isPublic
+        ? `랭킹에 <span style="color:oklch(50% 0.15 145); font-weight:700;">"${escapeHtml(profile.nickname)}"</span>로 공개`
+        : `랭킹에 <span style="color:var(--text2); font-weight:600;">익명</span>으로 참여`;
+    }
+  };
 
   window.openEffortEditModal = function(id) {
     const log = loadEffortLogs().find(l => l.id === id);

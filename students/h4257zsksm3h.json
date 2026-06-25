@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T16:47:31.438Z",
+  "generatedAt": "2026-06-25T17:21:06.239Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -16,30 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1782403414744_gfs5ie",
-      "noteName": "이현승_개념루트_전체",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-26",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
-      "assignmentId": "a_1782403702902_w22008",
-      "noteName": "이현승_자이스토리_수열의 합( ~I161번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-26",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -66,6 +43,30 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1782403702902_w22008",
+      "noteName": "이현승_자이스토리_수열의 합( ~I161번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-26",
+      "done": true,
+      "doneAt": "2026-06-25T17:20:07.181Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1782403414744_gfs5ie",
+      "noteName": "이현승_개념루트_전체",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-26",
+      "done": true,
+      "doneAt": "2026-06-25T17:20:06.258Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1778638358032_1cfx1z",
       "noteName": "이현승_자이스토리_삼각함수의 그래프( ~F115)",
@@ -117,8 +118,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 0,
-    "percent": 0,
+    "done": 2,
+    "percent": 50,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

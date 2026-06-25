@@ -2889,5 +2889,27 @@
       }
     ],
     "createdAt": "2026-06-25T16:16:51.051Z"
+  },
+  {
+    "id": "a_1782406005680_55wn8m",
+    "noteId": "note_1782405999488_joi1t2",
+    "noteName": "정찬민_개념루트_전체",
+    "studentId": "s_1778402500926_7fxigp",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-28",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-25T16:46:45.680Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-25T16:47:08.701Z",
+  "generatedAt": "2026-06-25T17:20:31.340Z",
   "studentCount": 38,
   "rankings": [
     {
@@ -203,12 +203,12 @@
     },
     {
       "id": "s_1780314459772_u5kn1l",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "totalSec": 2275,
+      "weekSec": 2275,
+      "monthSec": 2275,
+      "streak": 1,
+      "nickname": "타이거즈",
+      "publicNickname": true
     },
     {
       "id": "s_1780314459772_58a78m",

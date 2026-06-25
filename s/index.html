@@ -783,12 +783,37 @@
 
   /* 시청 기록 카드 */
   .hist-item {
-    display: flex; gap: 12px; align-items: center;
+    display: flex; align-items: stretch;
     background: var(--surface); border: 1px solid var(--border); border-radius: 11px;
-    padding: 10px 12px; margin-bottom: 8px;
-    cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s;
+    margin-bottom: 8px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    position: relative;
   }
   .hist-item:hover { border-color: #97aac8; box-shadow: 0 2px 8px rgba(151,170,200,0.18); }
+  .hist-clickable {
+    flex: 1; min-width: 0;
+    display: flex; gap: 12px; align-items: center;
+    padding: 10px 8px 10px 12px;
+    cursor: pointer;
+  }
+  /* 시청 기록 삭제 버튼 (오른쪽 상단) */
+  .hist-del-btn {
+    position: absolute; top: 6px; right: 6px;
+    width: 26px; height: 26px;
+    display: flex; align-items: center; justify-content: center;
+    background: transparent; border: none; cursor: pointer;
+    color: var(--text3); font-size: 18px; line-height: 1;
+    border-radius: 50%; font-family: inherit;
+    transition: background 0.12s, color 0.12s;
+    padding: 0;
+  }
+  .hist-del-btn:hover {
+    background: oklch(94% 0.05 25);
+    color: oklch(50% 0.18 25);
+  }
+  .hist-del-btn:active {
+    background: oklch(88% 0.08 25);
+  }
   .hist-thumb {
     width: 90px; height: 54px; flex-shrink: 0;
     border-radius: 6px; object-fit: cover;
@@ -1709,27 +1734,56 @@
         ? `<span class="hist-badge hist-badge-done">완료</span>`
         : (isResume ? `<span class="hist-badge hist-badge-resume">이어보기</span>` : `<span class="hist-badge hist-badge-progress">진행 중</span>`);
       html += `
-        <div class="hist-item" onclick="openLecturePlayerById('${e.lectureId}', '${e.videoId}')">
-          ${e.thumbnailUrl
-            ? `<img class="hist-thumb" src="${escapeHtml(e.thumbnailUrl)}" alt="" loading="lazy">`
-            : `<div class="hist-thumb" style="display:flex; align-items:center; justify-content:center; font-size:20px;">🎬</div>`}
-          <div class="hist-info">
-            <div class="hist-title">${escapeHtml(e.videoTitle)}</div>
-            <div class="hist-sub">
-              <span class="hist-lecture">${escapeHtml(e.lectureTitle)}</span>
+        <div class="hist-item">
+          <div class="hist-clickable" onclick="openLecturePlayerById('${e.lectureId}', '${e.videoId}')">
+            ${e.thumbnailUrl
+              ? `<img class="hist-thumb" src="${escapeHtml(e.thumbnailUrl)}" alt="" loading="lazy">`
+              : `<div class="hist-thumb" style="display:flex; align-items:center; justify-content:center; font-size:20px;">🎬</div>`}
+            <div class="hist-info">
+              <div class="hist-title">${escapeHtml(e.videoTitle)}</div>
+              <div class="hist-sub">
+                <span class="hist-lecture">${escapeHtml(e.lectureTitle)}</span>
+              </div>
+              <div class="hist-meta">
+                ${statusBadge}
+                <span class="hist-time">${fmtLectureDur(e.watchedSec)} / ${fmtLectureDurLong(e.durationSec)}</span>
+                <span class="hist-last">${friendlyTime(e.lastWatchedAt)}</span>
+              </div>
+              <div class="hist-progress"><div style="width:${pct}%;"></div></div>
             </div>
-            <div class="hist-meta">
-              ${statusBadge}
-              <span class="hist-time">${fmtLectureDur(e.watchedSec)} / ${fmtLectureDurLong(e.durationSec)}</span>
-              <span class="hist-last">${friendlyTime(e.lastWatchedAt)}</span>
-            </div>
-            <div class="hist-progress"><div style="width:${pct}%;"></div></div>
           </div>
+          <button class="hist-del-btn" onclick="event.stopPropagation(); deleteLectureWatchEntry('${e.videoId}')" title="시청 기록 삭제">×</button>
         </div>
       `;
     }
     wrap.innerHTML = html;
   }
+
+  // 시청 기록 1건 삭제 (해당 영상의 watch 데이터 제거)
+  window.deleteLectureWatchEntry = function(videoId) {
+    if (!confirm('이 시청 기록을 삭제할까요?')) return;
+    const watch = loadLectureWatch();
+    if (watch[videoId]) {
+      delete watch[videoId];
+      saveLectureWatch(watch);
+    }
+    // 일별 시청도 같이 정리 (이 videoId에 해당하는 일별 데이터)
+    try {
+      const daily = JSON.parse(localStorage.getItem(`lectureDaily__${studentCode}`) || '{}');
+      let changed = false;
+      for (const date in daily) {
+        if (daily[date] && daily[date][videoId]) {
+          delete daily[date][videoId];
+          if (Object.keys(daily[date]).length === 0) delete daily[date];
+          changed = true;
+        }
+      }
+      if (changed) localStorage.setItem(`lectureDaily__${studentCode}`, JSON.stringify(daily));
+    } catch(e) {}
+    // 동기화: 다음 자동 업로드 시 반영되도록 dirty 마킹
+    if (typeof markLectureWatchDirty === 'function') markLectureWatchDirty();
+    renderLectureHistoryInline();
+  };
 
   // 시청 기록에서 영상 클릭 → 플레이어 열기
   window.openLecturePlayerById = function(lecId, videoId) {
@@ -1989,6 +2043,7 @@
     // 이번 세션 시작 시점의 누적 시청 시간 기록 (닫을 때 차이로 이번 세션 시청량 계산)
     _ytPlayerCurrent.sessionStartWatchedSec = w.watchedSec || 0;
     _ytPlayerCurrent.sessionStartedAt = Date.now();
+    _ytPlayerCurrent.startSec = startSec;  // onReady에서 명시적 seekTo 위해
 
     // session count + 1
     if (!w.sessionCount) w.sessionCount = 0;
@@ -2182,6 +2237,13 @@
   }
 
   function onYtPlayerReady(e) {
+    // 이어보기: 명시적 seekTo (playerVars.start만으로는 일부 환경에서 작동 안 함)
+    try {
+      const startSec = _ytPlayerCurrent?.startSec || 0;
+      if (startSec > 0) {
+        e.target.seekTo(startSec, true);
+      }
+    } catch(err) { console.warn('[YT Player] seekTo 실패:', err); }
     // 자동 재생 시도 (브라우저 정책에 따라 muted 후 재생되거나 사용자 탭 필요)
     try { e.target.playVideo(); } catch(err) {}
   }

@@ -2812,8 +2812,10 @@
       {
         "stage": 1,
         "planned": "2026-06-26",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-25T17:20:06.258Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,
@@ -2834,8 +2836,10 @@
       {
         "stage": 1,
         "planned": "2026-06-26",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-25T17:20:07.181Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,
@@ -2847,28 +2851,6 @@
     "createdAt": "2026-06-25T16:08:22.902Z"
   },
   {
-    "id": "a_1782404111071_p1i818",
-    "noteId": "note_1782404086150_uocsxe",
-    "noteName": "정찬민_개념루트_수열의 합 ( ~772번)",
-    "studentId": "s_1778402500926_7fxigp",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-06-26",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-06-28",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-06-25T16:15:11.071Z"
-  },
-  {
     "id": "a_1782404211051_e7t41g",
     "noteId": "note_1782404201257_4yv8vs",
     "noteName": "정찬민_자이스토리_수열의 합( ~I148번)",
@@ -2878,8 +2860,10 @@
       {
         "stage": 1,
         "planned": "2026-06-26",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-25T17:20:08.074Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,
@@ -2900,8 +2884,10 @@
       {
         "stage": 1,
         "planned": "2026-06-26",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-25T17:20:09.006Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-25T16:15:28.791Z",
+  "generatedAt": "2026-06-25T16:22:48.851Z",
   "studentCount": 38,
   "rankings": [
     {
@@ -131,12 +131,12 @@
     },
     {
       "id": "s_1779628208770_oahez9",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "totalSec": 4030,
+      "weekSec": 4030,
+      "monthSec": 4030,
+      "streak": 1,
+      "nickname": "NCT WISH",
+      "publicNickname": true
     },
     {
       "id": "s_1779811264964_kbtli4",
@@ -230,12 +230,12 @@
     },
     {
       "id": "s_1780314459772_frngyj",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "totalSec": 4742,
+      "weekSec": 4742,
+      "monthSec": 4742,
+      "streak": 1,
+      "nickname": "살레시안",
+      "publicNickname": true
     },
     {
       "id": "s_1780314459772_jsjhe4",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T07:36:12.010Z",
+  "generatedAt": "2026-06-25T12:58:14.098Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -16,7 +16,19 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1782392259014_cocd12",
+      "noteName": "김규림_개념루트_전체 오답_6월25일",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-25",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [
     {
@@ -25,6 +37,17 @@
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-06-26",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1782392259014_cocd12",
+      "noteName": "김규림_개념루트_전체 오답_6월25일",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-27",
       "done": false,
       "doneAt": null,
       "missed": false,
@@ -286,7 +309,7 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
+    "total": 3,
     "done": 0,
     "percent": 0,
     "startDate": "2026-06-22",

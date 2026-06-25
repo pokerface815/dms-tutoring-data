@@ -2777,5 +2777,27 @@
       }
     ],
     "createdAt": "2026-06-25T05:32:47.791Z"
+  },
+  {
+    "id": "a_1782392259014_cocd12",
+    "noteId": "note_1782392239272_4woby6",
+    "noteName": "김규림_개념루트_전체 오답_6월25일",
+    "studentId": "s_1777546978791_hsee5a",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-25",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-27",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-25T12:57:39.014Z"
   }
 ]

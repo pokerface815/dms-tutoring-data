@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T12:58:14.098Z",
+  "generatedAt": "2026-06-25T15:56:03.691Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -18,6 +18,19 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [
     {
+      "assignmentId": "a_1781798454400_ppm1hv",
+      "noteName": "김규림_개념루트_수열의 합( ~772번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-26",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "overdue": [
+    {
       "assignmentId": "a_1782392259014_cocd12",
       "noteName": "김규림_개념루트_전체 오답_6월25일",
       "subject": "대수",
@@ -29,19 +42,7 @@
       "missedAt": null
     }
   ],
-  "overdue": [],
   "upcoming": [
-    {
-      "assignmentId": "a_1781798454400_ppm1hv",
-      "noteName": "김규림_개념루트_수열의 합( ~772번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-26",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
     {
       "assignmentId": "a_1782392259014_cocd12",
       "noteName": "김규림_개념루트_전체 오답_6월25일",

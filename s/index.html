@@ -1436,15 +1436,34 @@
 
     // (2) 시청 기록 머지
     try {
+      // 통합본에서 받아온 다른 기기의 시청 기록 삭제도 본 기기 tombstone에 합치기
+      if (Array.isArray(studentData.syncedLectureDeletedVideoIds)) {
+        for (const vid of studentData.syncedLectureDeletedVideoIds) {
+          addDeletedLectureWatchId(vid);
+        }
+      }
+      const lectureDeletedSet = new Set(loadDeletedLectureWatchIds());
+
       const synced = studentData.syncedLectureWatch;
       if (synced && synced.videos) {
         const local = (function() {
           try { return JSON.parse(localStorage.getItem(`lectureWatch__${studentCode}`) || '{}'); }
           catch(e) { return {}; }
         })();
+        // local에서도 tombstone에 있는 항목 제거 (다른 기기에서 삭제한 게 전파됨)
+        let removedFromLocal = 0;
+        for (const vid of Object.keys(local)) {
+          if (lectureDeletedSet.has(vid)) {
+            delete local[vid];
+            removedFromLocal++;
+          }
+        }
         // videos 머지: 같은 videoId면 watchedSec 최대값, lastPosition 더 큰 값, completed OR
-        let changed = false;
+        // 단 tombstone에 있는 videoId는 부활 차단
+        let changed = removedFromLocal > 0;
+        let skippedDeleted = 0;
         for (const vid in synced.videos) {
+          if (lectureDeletedSet.has(vid)) { skippedDeleted++; continue; }
           const sv = synced.videos[vid];
           const lv = local[vid];
           if (!lv) {
@@ -1474,7 +1493,7 @@
         }
         if (changed) {
           try { localStorage.setItem(`lectureWatch__${studentCode}`, JSON.stringify(local)); } catch(e) {}
-          console.log('[학생페이지] 동기화: 시청 기록 머지됨');
+          console.log(`[학생페이지] 동기화: 시청 기록 머지 (${skippedDeleted}건 부활 차단, ${removedFromLocal}건 다른 기기 삭제 반영)`);
         }
       }
       // 일별 시청 시간 머지
@@ -1767,6 +1786,8 @@
       delete watch[videoId];
       saveLectureWatch(watch);
     }
+    // tombstone에 추가 (다른 기기에서 받아온 데이터로 부활 차단)
+    addDeletedLectureWatchId(videoId);
     // 일별 시청도 같이 정리 (이 videoId에 해당하는 일별 데이터)
     try {
       const daily = JSON.parse(localStorage.getItem(`lectureDaily__${studentCode}`) || '{}');
@@ -2351,6 +2372,7 @@
       videoCount: Object.keys(watch).length,
       videos: watch,
       daily: loadDailyLectureWatch(),  // 요일별 통계용
+      deletedVideoIds: loadDeletedLectureWatchIds(),  // 통합본이 받아서 cache에서도 제거
     };
     try {
       const jsonStr = JSON.stringify(payload, null, 2);
@@ -3783,6 +3805,21 @@
     if (arr.includes(id)) return;
     arr.push(id);
     try { localStorage.setItem(`effortLogsDeleted__${studentCode}`, JSON.stringify(arr)); } catch(e) {}
+  }
+
+  // 삭제된 시청 기록 videoId 목록 (tombstone)
+  function loadDeletedLectureWatchIds() {
+    try {
+      const arr = JSON.parse(localStorage.getItem(`lectureWatchDeleted__${studentCode}`) || '[]');
+      return Array.isArray(arr) ? arr : [];
+    } catch(e) { return []; }
+  }
+  function addDeletedLectureWatchId(videoId) {
+    if (!videoId) return;
+    const arr = loadDeletedLectureWatchIds();
+    if (arr.includes(videoId)) return;
+    arr.push(videoId);
+    try { localStorage.setItem(`lectureWatchDeleted__${studentCode}`, JSON.stringify(arr)); } catch(e) {}
   }
 
   // 랭킹 별명/공개 여부 (학생이 직접 설정)

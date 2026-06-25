@@ -2845,28 +2845,6 @@
     "createdAt": "2026-06-25T15:56:11.080Z"
   },
   {
-    "id": "a_1782403336373_t9fuwt",
-    "noteId": "note_1782403324850_gl16mm",
-    "noteName": "이현승_자이스토리_전체",
-    "studentId": "s_1778638262495_alq1jg",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-06-26",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-06-28",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-06-25T16:02:16.373Z"
-  },
-  {
     "id": "a_1782403414744_gfs5ie",
     "noteId": "note_1782403408667_4vip7z",
     "noteName": "이현승_개념루트_전체",
@@ -2909,5 +2887,27 @@
       }
     ],
     "createdAt": "2026-06-25T16:08:22.902Z"
+  },
+  {
+    "id": "a_1782404111071_p1i818",
+    "noteId": "note_1782404086150_uocsxe",
+    "noteName": "정찬민_개념루트_수열의 합 ( ~772번)",
+    "studentId": "s_1778402500926_7fxigp",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-28",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-25T16:15:11.071Z"
   }
 ]

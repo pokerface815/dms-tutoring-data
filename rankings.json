@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-25T01:29:24.368Z",
+  "generatedAt": "2026-06-25T05:33:07.492Z",
   "studentCount": 38,
   "rankings": [
     {
@@ -41,10 +41,10 @@
     },
     {
       "id": "s_1777547047005_uo92w5",
-      "totalSec": 160,
-      "weekSec": 160,
-      "monthSec": 160,
-      "streak": 0,
+      "totalSec": 243,
+      "weekSec": 243,
+      "monthSec": 243,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -158,12 +158,12 @@
     },
     {
       "id": "s_1780190418387_a11waf",
-      "totalSec": 4430,
-      "weekSec": 3457,
-      "monthSec": 4430,
-      "streak": 1,
-      "nickname": "",
-      "publicNickname": false
+      "totalSec": 4543,
+      "weekSec": 3570,
+      "monthSec": 4543,
+      "streak": 2,
+      "nickname": "Moon",
+      "publicNickname": true
     },
     {
       "id": "s_1780309053750_4dw5li",

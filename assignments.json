@@ -2788,8 +2788,10 @@
       {
         "stage": 1,
         "planned": "2026-06-25",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-25T16:22:34.037Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,
@@ -2799,50 +2801,6 @@
       }
     ],
     "createdAt": "2026-06-25T12:57:39.014Z"
-  },
-  {
-    "id": "a_1782402879479_ecdniy",
-    "noteId": "note_1782402844127_1woein",
-    "noteName": "정찬민_자이스토리_전체",
-    "studentId": "s_1778402500926_7fxigp",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-06-26",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-06-28",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-06-25T15:54:39.479Z"
-  },
-  {
-    "id": "a_1782402971080_p63wny",
-    "noteId": "note_1782402963802_3lu2az",
-    "noteName": "정찬민_개념루트_전체",
-    "studentId": "s_1778402500926_7fxigp",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-06-26",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-06-28",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-06-25T15:56:11.080Z"
   },
   {
     "id": "a_1782403414744_gfs5ie",
@@ -2909,5 +2867,27 @@
       }
     ],
     "createdAt": "2026-06-25T16:15:11.071Z"
+  },
+  {
+    "id": "a_1782404211051_e7t41g",
+    "noteId": "note_1782404201257_4yv8vs",
+    "noteName": "정찬민_자이스토리_수열의 합( ~I148번)",
+    "studentId": "s_1778402500926_7fxigp",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-06-28",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-25T16:16:51.051Z"
   }
 ]

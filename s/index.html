@@ -520,16 +520,16 @@
     overflow: hidden;
   }
   .day-tl-hours {
-    position: absolute; left: 0; top: 0; width: 20%; min-width: 56px; height: 100%;
+    position: absolute; left: 0; top: 0; width: 14%; min-width: 42px; height: 100%;
     border-right: 1px solid var(--border);
   }
   .day-tl-events {
-    position: absolute; left: 20%; right: 0; top: 0; height: 100%;
+    position: absolute; left: 14%; right: 0; top: 0; height: 100%;
     min-width: 0;
   }
   @media (min-width: 480px) {
-    .day-tl-hours { width: 60px; }
-    .day-tl-events { left: 60px; }
+    .day-tl-hours { width: 42px; }
+    .day-tl-events { left: 42px; }
   }
   .day-tl-row {
     position: absolute; left: 0; right: 0; height: 0;
@@ -549,23 +549,15 @@
   }
   /* 이벤트 영역(우측)에 시간별 가로 구분선 — 옅은 실선 */
   .day-tl-row::after {
-    content: ''; position: absolute; left: 20%; right: 0; top: 0;
+    content: ''; position: absolute; left: 14%; right: 0; top: 0;
     border-top: 1px solid var(--surface2);
   }
   @media (min-width: 480px) {
-    .day-tl-row::after { left: 60px; }
+    .day-tl-row::after { left: 42px; }
   }
-  /* 비활성 시간대 배경 (압축 영역 표시) */
+  /* 비활성 시간대 배경 (사선 패턴) — 사용자 요청으로 숨김 */
   .day-tl-bg-inactive {
-    position: absolute; left: 0; right: 0;
-    background: repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 6px,
-      var(--surface2) 6px,
-      var(--surface2) 7px
-    );
-    opacity: 0.5;
+    display: none;
   }
   /* 학습 이벤트 막대 (충분히 긴 막대 — 내부에 텍스트) */
   .day-tl-event {
@@ -2959,6 +2951,22 @@
     return `${h12}:${String(m).padStart(2,'0')} ${ampm}`;
   }
 
+  // 시간 범위 12시간제 (시작/끝 AM/PM 같으면 끝에만 표시)
+  // 예: "10:30 – 11:50 AM", "11:30 AM – 1:20 PM"
+  function fmtTimeRange12(start, end) {
+    const sh = start.getHours(), sm = start.getMinutes();
+    const eh = end.getHours(),   em = end.getMinutes();
+    const sAmPm = sh < 12 ? 'AM' : 'PM';
+    const eAmPm = eh < 12 ? 'AM' : 'PM';
+    const sH12 = sh === 0 ? 12 : (sh > 12 ? sh - 12 : sh);
+    const eH12 = eh === 0 ? 12 : (eh > 12 ? eh - 12 : eh);
+    const sBase = `${sH12}:${String(sm).padStart(2,'0')}`;
+    const eBase = `${eH12}:${String(em).padStart(2,'0')}`;
+    return sAmPm === eAmPm
+      ? `${sBase} – ${eBase} ${eAmPm}`
+      : `${sBase} ${sAmPm} – ${eBase} ${eAmPm}`;
+  }
+
   function renderEffortTimer() {
     const wrap = document.getElementById('effortTimerSection');
     if (!wrap) return;
@@ -3546,8 +3554,8 @@
       const color = colorOf(l.subject);
 
       const endTime = new Date(start.getTime() + l.seconds * 1000);
-      const durationStr = fmtDurationCompact(l.seconds);
-      const timeRangeStr = `${fmtTime12(start)} – ${fmtTime12(endTime)}`;
+      const durationStr = fmtDurationShort(l.seconds);  // "1시간 30분"
+      const timeRangeStr = fmtTimeRange12(start, endTime);  // AM/PM 같으면 끝에만
 
       eventsHtml += `
         <div class="day-tl-event" style="top:${top}px; height:${height}px; background:${color};">

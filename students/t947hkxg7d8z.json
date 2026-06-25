@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T12:58:21.116Z",
+  "generatedAt": "2026-06-25T15:56:08.114Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -84,9 +84,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1781628866853_g8jo39",
       "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법(고난도 3,4,5)",
@@ -99,6 +97,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1781536830575_5ol8ni",

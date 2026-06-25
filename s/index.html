@@ -1800,17 +1800,39 @@
       const isOpen = openSet.has(subj);
       // 과목별 통계
       let totalVideoCount = 0, totalSec = 0, watchedSecSum = 0, totalWatchableSec = 0;
+      let totalWatchedCount = 0;  // 50% 이상 시청한 영상 수 (durationSec 누락 폴백용)
+      let totalVideosWithDuration = 0;
+      let hasAnyWatched = false;
       for (const lec of lecs) {
         const videos = lec.videos || [];
         totalVideoCount += videos.length;
         for (const v of videos) {
-          totalSec += (v.durationSec || 0);
-          totalWatchableSec += (v.durationSec || 0);
+          const dur = v.durationSec || 0;
+          totalSec += dur;
+          totalWatchableSec += dur;
+          if (dur > 0) totalVideosWithDuration++;
           const w = watch[v.videoId];
-          if (w) watchedSecSum += Math.min(w.watchedSec || 0, v.durationSec || 0);
+          if (w && (w.watchedSec || 0) > 0) {
+            hasAnyWatched = true;
+            watchedSecSum += Math.min(w.watchedSec || 0, dur || w.watchedSec || 0);
+            // durationSec 누락 시 폴백: w.durationSec 사용
+            if (dur === 0 && w.durationSec > 0) {
+              const ratio = (w.watchedSec || 0) / w.durationSec;
+              if (ratio >= 0.5) totalWatchedCount++;
+            } else if (dur > 0) {
+              const ratio = (w.watchedSec || 0) / dur;
+              if (ratio >= 0.5) totalWatchedCount++;
+            }
+          }
         }
       }
-      const progressPct = totalWatchableSec > 0 ? Math.round(watchedSecSum / totalWatchableSec * 100) : 0;
+      // 진행률 계산 — durationSec 기반이 우선, 누락 시 영상 수 비율로 폴백
+      let progressPct = 0;
+      if (totalWatchableSec > 0) {
+        progressPct = Math.round(watchedSecSum / totalWatchableSec * 100);
+      } else if (totalVideoCount > 0 && totalWatchedCount > 0) {
+        progressPct = Math.round(totalWatchedCount / totalVideoCount * 100);
+      }
 
       html += `
         <div class="lecture-subj-group ${isOpen ? 'open' : ''}">
@@ -1818,7 +1840,7 @@
             <span class="lecture-subj-arrow">▶</span>
             <span class="lecture-subj-name">${escapeHtml(subj)}</span>
             <span class="lecture-subj-count">재생목록 ${lecs.length}개</span>
-            <span class="lecture-subj-progress">${progressPct > 0 ? `진행 ${progressPct}%` : ''}</span>
+            <span class="lecture-subj-progress">${hasAnyWatched ? `진행 ${progressPct}%` : ''}</span>
           </button>
           <div class="lecture-subj-body">
       `;

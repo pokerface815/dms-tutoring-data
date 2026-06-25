@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T01:29:43.569Z",
+  "generatedAt": "2026-06-25T05:33:27.204Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -15,19 +15,8 @@
   "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
-  "today": [
-    {
-      "assignmentId": "a_1782350940213_mjtp3g",
-      "noteName": "이경주_수매씽 유형_재오답_6월25일",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-25",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -87,6 +76,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1782350940213_mjtp3g",
+      "noteName": "이경주_수매씽 유형_재오답_6월25일",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-25",
+      "done": true,
+      "doneAt": "2026-06-25T01:29:50.242Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1782031302470_7xoavo",
       "noteName": "이경주_개념루트_재오답_6월21일",
@@ -434,24 +435,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1780075403993_90or5b",
-      "noteName": "이경주_수매씽 유형_수열의 합( ~2199번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-05-30",
-      "done": true,
-      "doneAt": "2026-05-30T13:52:16.260Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 8,
-    "done": 2,
-    "percent": 25,
+    "done": 3,
+    "percent": 38,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

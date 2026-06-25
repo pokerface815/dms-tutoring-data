@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T12:58:30.655Z",
+  "generatedAt": "2026-06-25T15:56:15.366Z",
   "student": {
     "id": "s_1778402500926_7fxigp",
     "classes": [
@@ -16,9 +16,55 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1782402879479_ecdniy",
+      "noteName": "정찬민_자이스토리_전체",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-26",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1782402971080_p63wny",
+      "noteName": "정찬민_개념루트_전체",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-26",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1782402879479_ecdniy",
+      "noteName": "정찬민_자이스토리_전체",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-28",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1782402971080_p63wny",
+      "noteName": "정찬민_개념루트_전체",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-28",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1779614518153_8fgga4",
@@ -214,7 +260,7 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 4,
     "done": 0,
     "percent": 0,
     "startDate": "2026-06-22",

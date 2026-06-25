@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T05:34:07.342Z",
+  "generatedAt": "2026-06-25T07:35:50.021Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -159,7 +159,9 @@
       }
     }
   },
-  "syncedLectureDeletedVideoIds": null,
+  "syncedLectureDeletedVideoIds": [
+    "AJE79srmVL8"
+  ],
   "today": [],
   "overdue": [],
   "upcoming": [],

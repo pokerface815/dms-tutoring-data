@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T16:15:55.863Z",
+  "generatedAt": "2026-06-25T16:23:08.243Z",
   "student": {
     "id": "s_1778402500926_7fxigp",
     "classes": [
@@ -18,8 +18,8 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [
     {
-      "assignmentId": "a_1782402879479_ecdniy",
-      "noteName": "정찬민_자이스토리_전체",
+      "assignmentId": "a_1782404111071_p1i818",
+      "noteName": "정찬민_개념루트_수열의 합 ( ~772번)",
       "subject": "대수",
       "round": 1,
       "plannedDate": "2026-06-26",
@@ -29,8 +29,8 @@
       "missedAt": null
     },
     {
-      "assignmentId": "a_1782404111071_p1i818",
-      "noteName": "정찬민_개념루트_수열의 합 ( ~772번)",
+      "assignmentId": "a_1782404211051_e7t41g",
+      "noteName": "정찬민_자이스토리_수열의 합( ~I148번)",
       "subject": "대수",
       "round": 1,
       "plannedDate": "2026-06-26",
@@ -43,8 +43,8 @@
   "overdue": [],
   "upcoming": [
     {
-      "assignmentId": "a_1782402879479_ecdniy",
-      "noteName": "정찬민_자이스토리_전체",
+      "assignmentId": "a_1782404111071_p1i818",
+      "noteName": "정찬민_개념루트_수열의 합 ( ~772번)",
       "subject": "대수",
       "round": 2,
       "plannedDate": "2026-06-28",
@@ -54,8 +54,8 @@
       "missedAt": null
     },
     {
-      "assignmentId": "a_1782404111071_p1i818",
-      "noteName": "정찬민_개념루트_수열의 합 ( ~772번)",
+      "assignmentId": "a_1782404211051_e7t41g",
+      "noteName": "정찬민_자이스토리_수열의 합( ~I148번)",
       "subject": "대수",
       "round": 2,
       "plannedDate": "2026-06-28",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T16:15:44.974Z",
+  "generatedAt": "2026-06-25T16:22:55.748Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -29,19 +29,7 @@
       "missedAt": null
     }
   ],
-  "overdue": [
-    {
-      "assignmentId": "a_1782392259014_cocd12",
-      "noteName": "김규림_개념루트_전체 오답_6월25일",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-25",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "overdue": [],
   "upcoming": [
     {
       "assignmentId": "a_1782392259014_cocd12",
@@ -56,6 +44,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1782392259014_cocd12",
+      "noteName": "김규림_개념루트_전체 오답_6월25일",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-25",
+      "done": true,
+      "doneAt": "2026-06-25T16:22:34.037Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1781798454400_ppm1hv",
       "noteName": "김규림_개념루트_수열의 합( ~772번)",
@@ -311,8 +311,8 @@
   ],
   "weekProgress": {
     "total": 3,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 33,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

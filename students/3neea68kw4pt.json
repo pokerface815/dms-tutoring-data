@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T01:30:22.529Z",
+  "generatedAt": "2026-06-25T05:34:07.342Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -72,6 +72,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-06-24T14:23:15.291Z"
+    },
+    {
+      "id": "effort_mqsw2ji9v5h",
+      "startedAt": 1782354749509,
+      "endedAt": 1782354870081,
+      "seconds": 113,
+      "subject": "확률과 통계",
+      "method": "강의 시청",
+      "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 56~62쪽 조건부확률",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-25T02:34:30.081Z"
     }
   ],
   "syncedEffortDeletedIds": [
@@ -92,34 +104,24 @@
   "syncedLectureWatch": {
     "videos": {
       "LtGPFoLjA8s": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqks8brpdcl",
         "lectureTitle": "대수 개념+유형 (26년 1월 ~ )_완강",
         "videoTitle": "220~227쪽 수열의 귀납적 정의",
         "durationSec": 3788,
         "lastPosition": 360,
-        "lastWatchedAt": "2026-06-20T11:31:59.058Z",
+        "lastWatchedAt": "2026-06-25T02:32:07.965Z",
         "watchedSec": 101
       },
-      "AJE79srmVL8": {
-        "sessionCount": 2,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-        "durationSec": 5620,
-        "lastPosition": 976,
-        "lastWatchedAt": "2026-06-20T15:31:42.713Z",
-        "watchedSec": 973
-      },
       "L7mDjTDBlmQ": {
-        "sessionCount": 4,
+        "sessionCount": 5,
         "lectureId": "lec_mqksd52wcz3",
         "lectureTitle": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
         "videoTitle": "56~62쪽 조건부확률",
         "durationSec": 4122,
-        "lastPosition": 1258,
-        "lastWatchedAt": "2026-06-24T04:23:53.305Z",
-        "watchedSec": 903
+        "lastPosition": 1370,
+        "lastWatchedAt": "2026-06-25T02:34:27.715Z",
+        "watchedSec": 1016
       },
       "KChW2PYtl2c": {
         "sessionCount": 1,
@@ -144,7 +146,6 @@
     },
     "daily": {
       "2026-06-21": {
-        "AJE79srmVL8": 973,
         "L7mDjTDBlmQ": 717
       },
       "2026-06-22": {
@@ -152,9 +153,13 @@
       },
       "2026-06-24": {
         "L7mDjTDBlmQ": 186
+      },
+      "2026-06-25": {
+        "L7mDjTDBlmQ": 113
       }
     }
   },
+  "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
   "upcoming": [],

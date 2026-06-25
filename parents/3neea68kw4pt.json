@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-25T01:30:24.273Z",
+  "generatedAt": "2026-06-25T05:34:09.081Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -145,20 +145,29 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-24T14:23:18.296Z",
+    "uploadedAt": "2026-06-25T02:34:33.086Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 3457,
-      "monthSec": 4430,
-      "streak": 1,
+      "todaySec": 113,
+      "weekSec": 3570,
+      "monthSec": 4543,
+      "streak": 2,
       "bySubjectMonth": {
         "미적분Ⅰ": 973,
         "대수": 249,
-        "확률과 통계": 186,
+        "확률과 통계": 299,
         "과외": 3022
       }
     },
     "logs": [
+      {
+        "id": "effort_mqsw2ji9v5h",
+        "startedAt": 1782354749509,
+        "seconds": 113,
+        "subject": "확률과 통계",
+        "method": "강의 시청",
+        "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 56~62쪽 조건부확률",
+        "reflection": ""
+      },
       {
         "id": "effort_mqs5y5i35nd",
         "startedAt": 1782307928824,

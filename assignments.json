@@ -2742,8 +2742,10 @@
       {
         "stage": 1,
         "planned": "2026-06-25",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-25T01:29:50.242Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,
@@ -2753,5 +2755,21 @@
       }
     ],
     "createdAt": "2026-06-25T01:29:00.213Z"
+  },
+  {
+    "id": "a_1782365567791_58c2h3",
+    "noteId": "note_1782365554241_fkv81z",
+    "noteName": "김한비_유형 해결의 법칙_수학적 귀납법( ~1474번)",
+    "studentId": "s_1779811264964_kbtli4",
+    "subject": "대수",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-25",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-25T05:32:47.791Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T15:56:33.722Z",
+  "generatedAt": "2026-06-25T16:03:46.210Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -16,9 +16,55 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1782403336373_t9fuwt",
+      "noteName": "이현승_자이스토리_전체",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-26",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1782403414744_gfs5ie",
+      "noteName": "이현승_개념루트_전체",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-26",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1782403336373_t9fuwt",
+      "noteName": "이현승_자이스토리_전체",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-28",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1782403414744_gfs5ie",
+      "noteName": "이현승_개념루트_전체",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-28",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1778638358032_1cfx1z",
@@ -70,7 +116,7 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 4,
     "done": 0,
     "percent": 0,
     "startDate": "2026-06-22",

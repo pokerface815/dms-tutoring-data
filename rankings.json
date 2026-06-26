@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-26T14:33:28.283Z",
+  "generatedAt": "2026-06-26T16:11:25.996Z",
   "studentCount": 38,
   "rankings": [
     {
@@ -44,7 +44,7 @@
       "totalSec": 243,
       "weekSec": 243,
       "monthSec": 243,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -134,7 +134,7 @@
       "totalSec": 4030,
       "weekSec": 4030,
       "monthSec": 4030,
-      "streak": 1,
+      "streak": 0,
       "nickname": "NCT WISH",
       "publicNickname": true
     },
@@ -161,7 +161,7 @@
       "totalSec": 4543,
       "weekSec": 3570,
       "monthSec": 4543,
-      "streak": 2,
+      "streak": 0,
       "nickname": "다 덤벼!!",
       "publicNickname": true
     },
@@ -233,7 +233,7 @@
       "totalSec": 4742,
       "weekSec": 4742,
       "monthSec": 4742,
-      "streak": 1,
+      "streak": 0,
       "nickname": "살레시안",
       "publicNickname": true
     },

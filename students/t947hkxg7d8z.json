@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-26T10:04:01.499Z",
+  "generatedAt": "2026-06-26T10:06:26.771Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -496,6 +496,18 @@
     "task_1781965845162_p4an5s__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-22T16:17:48.877Z"
+    },
+    "a_1781628866853_g8jo39__3": {
+      "comment": "오~ 사진으로 제출도 하고^^",
+      "commentAt": "2026-06-26T10:04:47.394Z",
+      "confirmed": true,
+      "confirmedAt": "2026-06-26T10:04:47.395Z"
+    },
+    "task_1782311709953_c2se2h__1": {
+      "comment": "오~ 이것도?! ㅋㅋ\n세모가 아닌 문제는 모르는건가? 그리고 2, 3회 복습은 이제 할거지?\n암튼 고생했어~",
+      "commentAt": "2026-06-26T10:06:07.996Z",
+      "confirmed": true,
+      "confirmedAt": "2026-06-26T10:06:07.996Z"
     }
   },
   "tasks": [

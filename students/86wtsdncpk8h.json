@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-26T14:33:26.642Z",
+  "generatedAt": "2026-06-26T16:11:40.124Z",
   "student": {
     "id": "s_1777547014208_7l30nn",
     "classes": [
@@ -29,9 +29,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1781948134457_3xbiql",
       "noteName": "박다윤_마더텅_전체",
@@ -44,6 +42,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1781948134457_3xbiql",

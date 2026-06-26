@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-25T17:20:31.340Z",
+  "generatedAt": "2026-06-26T10:04:05.042Z",
   "studentCount": 38,
   "rankings": [
     {
@@ -95,12 +95,12 @@
     },
     {
       "id": "s_1778768401651_7hlihp",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "totalSec": 2826,
+      "weekSec": 2826,
+      "monthSec": 2826,
+      "streak": 1,
+      "nickname": "경도",
+      "publicNickname": true
     },
     {
       "id": "s_1778849219765_v88lqq",
@@ -311,12 +311,12 @@
     },
     {
       "id": "s_1780825552050_3a3ma5",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "totalSec": 635,
+      "weekSec": 635,
+      "monthSec": 635,
+      "streak": 1,
+      "nickname": "메타몽",
+      "publicNickname": true
     },
     {
       "id": "s_1780833047673_dy7d3f",

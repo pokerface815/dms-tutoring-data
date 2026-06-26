@@ -221,6 +221,26 @@
     padding: 12px 14px; margin-bottom: 12px;
     background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
   }
+  .ranking-summary-top {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  }
+  .ranking-refresh-btn {
+    width: 32px; height: 32px;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--surface2); border: 1px solid var(--border); border-radius: 50%;
+    cursor: pointer; font-family: inherit;
+    color: var(--text2); font-size: 16px; font-weight: 700;
+    line-height: 1; padding: 0;
+    transition: background 0.12s, color 0.12s, transform 0.3s;
+    flex-shrink: 0;
+  }
+  .ranking-refresh-btn:hover { background: oklch(86% 0.10 145); color: oklch(35% 0.12 145); }
+  .ranking-refresh-btn:disabled { cursor: wait; opacity: 0.6; }
+  .ranking-refresh-btn.refreshing { animation: ranking-spin 0.8s linear infinite; }
+  @keyframes ranking-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
   .ranking-summary-head { font-size: 15px; font-weight: 700; color: var(--text); }
   .ranking-summary-meta { font-size: 11.5px; color: var(--text3); margin-top: 3px; }
 
@@ -2449,6 +2469,9 @@
   // ============================================================
   let _rankingTab = 'week';   // 'streak' | 'week' | 'month' | 'total'
   let _rankingData = null;     // fetch한 rankings.json 캐시
+  let _rankingFetchedAt = 0;   // 마지막 fetch 시각 (ms)
+  const RANKING_CACHE_TTL_MS = 3 * 60 * 1000;  // 3분
+  let _rankingRefreshing = false;
 
   window.switchRankingTab = function(tab) {
     _rankingTab = tab;
@@ -2470,8 +2493,12 @@
     renderRankingContent();  // 받은 데이터로 다시 그리기
   }
 
-  async function fetchRankingData() {
-    if (_rankingData) return _rankingData;  // 이미 받았으면 재사용
+  async function fetchRankingData(force = false) {
+    // 캐시 재사용 조건: 강제가 아니고, 데이터 있고, 받은지 3분 이내
+    const now = Date.now();
+    if (!force && _rankingData && (now - _rankingFetchedAt) < RANKING_CACHE_TTL_MS) {
+      return _rankingData;
+    }
     try {
       const url = `../rankings.json?t=${Date.now()}`;
       const res = await fetch(url, { cache: 'no-store' });
@@ -2480,12 +2507,28 @@
         return null;
       }
       _rankingData = await res.json();
+      _rankingFetchedAt = Date.now();
       return _rankingData;
     } catch (e) {
       console.warn('[랭킹] 네트워크 오류:', e);
       return null;
     }
   }
+
+  // 수동 새로고침 (사용자가 버튼 클릭)
+  window.refreshRankingData = async function() {
+    if (_rankingRefreshing) return;
+    _rankingRefreshing = true;
+    const btn = document.getElementById('rankingRefreshBtn');
+    if (btn) { btn.disabled = true; btn.classList.add('refreshing'); }
+    try {
+      await fetchRankingData(true);  // force
+      if (typeof renderRankingContent === 'function') renderRankingContent();
+    } finally {
+      _rankingRefreshing = false;
+      if (btn) { btn.disabled = false; btn.classList.remove('refreshing'); }
+    }
+  };
 
   // 본인의 weekSec/monthSec/totalSec/streak을 localStorage에서 직접 계산 (항상 최신)
   function computeMyOwnStats() {
@@ -2617,10 +2660,25 @@
     const myId = studentData?.student?.id;
     const myInTop = my && my._rank <= TOP_N;
 
+    // 마지막 갱신 시각 (상대 시간)
+    let fetchedAgo = '';
+    if (_rankingFetchedAt > 0) {
+      const diffMs = Date.now() - _rankingFetchedAt;
+      const diffMin = Math.floor(diffMs / 60000);
+      if (diffMin < 1) fetchedAgo = '방금';
+      else if (diffMin < 60) fetchedAgo = `${diffMin}분 전`;
+      else fetchedAgo = `${Math.floor(diffMin / 60)}시간 전`;
+    }
+
     let html = `
       <div class="ranking-summary">
-        <div class="ranking-summary-head">${tabLabel}</div>
-        <div class="ranking-summary-meta">전체 ${totalStudents}명 참여 중</div>
+        <div class="ranking-summary-top">
+          <div>
+            <div class="ranking-summary-head">${tabLabel}</div>
+            <div class="ranking-summary-meta">전체 ${totalStudents}명 참여 중${fetchedAgo ? ` · ${fetchedAgo} 갱신` : ''}</div>
+          </div>
+          <button class="ranking-refresh-btn" id="rankingRefreshBtn" onclick="refreshRankingData()" title="최신 랭킹 받아오기">↻</button>
+        </div>
       </div>
     `;
 

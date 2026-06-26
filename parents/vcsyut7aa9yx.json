@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-25T17:21:51.468Z",
+  "generatedAt": "2026-06-26T10:04:06.100Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -85,5 +85,28 @@
       "comment": ""
     }
   ],
-  "effortLogs": null
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-06-25T17:03:02.512Z",
+    "summary": {
+      "todaySec": 2275,
+      "weekSec": 2275,
+      "monthSec": 2275,
+      "streak": 1,
+      "bySubjectMonth": {
+        "수학": 2275
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mqtr35ynic7",
+        "startedAt": 1782404680456,
+        "seconds": 2275,
+        "subject": "수학",
+        "method": "문제 풀이",
+        "content": "프린트",
+        "reflection": ""
+      }
+    ]
+  }
 }

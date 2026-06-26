@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-26T10:04:00.439Z",
+  "generatedAt": "2026-06-26T10:06:25.647Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -35,7 +35,7 @@
             {
               "title": "부교재 예상문제 4회 풀기 + 2,3회 오답 복습",
               "dueDate": "2026-06-27",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false

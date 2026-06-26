@@ -2915,18 +2915,25 @@
     try { localStorage.setItem(`effortSync__${studentCode}`, JSON.stringify(s)); } catch(e) {}
   }
 
-  // 변경 발생 → debounce 후 업로드
-  function markEffortLogsDirty() {
+  // 변경 발생 → debounce 후 업로드 (immediate=true면 즉시 시작)
+  function markEffortLogsDirty(opts) {
+    const immediate = !!(opts && opts.immediate);
     const sync = loadEffortSync();
     saveEffortSync({ ...sync, pending: true, dirtyAt: new Date().toISOString() });
     _effortSyncStatus = 'pending';
     _effortSyncRetryUsed = false;  // 새 변경이 있으니 자동 재시도 다시 허용
     renderEffortSyncIndicator();
-    if (_effortSyncTimer) clearTimeout(_effortSyncTimer);
-    _effortSyncTimer = setTimeout(() => {
-      _effortSyncTimer = null;
+    if (_effortSyncTimer) { clearTimeout(_effortSyncTimer); _effortSyncTimer = null; }
+    if (immediate) {
+      // 학생이 명시적으로 저장한 액션 — 즉시 업로드 시작
       uploadEffortLogsToCloud();
-    }, 3000);
+    } else {
+      // 자동 변경(보정 등) — 1초 debounce
+      _effortSyncTimer = setTimeout(() => {
+        _effortSyncTimer = null;
+        uploadEffortLogsToCloud();
+      }, 1000);
+    }
   }
 
   // 즉시 업로드 트리거 (강제) — 화면 진입 시·수동 재시도 클릭 시
@@ -3317,8 +3324,8 @@
     localStorage.removeItem(`effortState__${studentCode}`);
     closeEffortSaveModal();
     renderEffortContent();
-    // Cloudinary 자동 업로드 (debounce 3초)
-    markEffortLogsDirty();
+    // Cloudinary 즉시 업로드 (사용자 명시적 저장)
+    markEffortLogsDirty({ immediate: true });
     renderEffortSyncIndicator();
   };
 
@@ -3845,8 +3852,8 @@
     // 삭제 id를 tombstone에 추가 (다른 기기에서 받아온 syncedEffortLogs에 의해 부활하지 않도록)
     addDeletedEffortLogId(id);
     renderEffortContent();
-    // Cloudinary 자동 업로드 (debounce 3초)
-    markEffortLogsDirty();
+    // Cloudinary 즉시 업로드 (사용자 명시적 삭제)
+    markEffortLogsDirty({ immediate: true });
     renderEffortSyncIndicator();
   };
 
@@ -4034,8 +4041,8 @@
 
     closeEffortSaveModal();
     renderEffortContent();
-    // Cloudinary 자동 업로드 (debounce 3초)
-    markEffortLogsDirty();
+    // Cloudinary 즉시 업로드 (사용자 명시적 수정)
+    markEffortLogsDirty({ immediate: true });
     renderEffortSyncIndicator();
   };
 

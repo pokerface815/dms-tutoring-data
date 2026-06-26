@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-26T10:12:14.327Z",
+  "generatedAt": "2026-06-26T14:33:20.867Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -13,21 +13,10 @@
       "label": "2026년 6월",
       "lessons": [
         {
-          "date": "2026-06-25",
-          "weekday": "목",
-          "className": "조예나 개별",
-          "content": "학교 부교재 예상문제 3회 풀이\n오답노트 1회분 풀이",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [],
-          "hasLesson": true
-        },
-        {
           "date": "2026-06-24",
           "weekday": "수",
-          "className": "",
-          "content": "",
+          "className": "조예나 개별",
+          "content": "학교 부교재 예상문제 3회 풀이\n오답노트 1회분 풀이",
           "task": "",
           "taskDue": "",
           "myNote": "",
@@ -38,7 +27,7 @@
               "isConfirmed": true
             }
           ],
-          "hasLesson": false
+          "hasLesson": true
         },
         {
           "date": "2026-06-22",

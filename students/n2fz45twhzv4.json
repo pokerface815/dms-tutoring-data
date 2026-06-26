@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-25T17:21:09.513Z",
+  "generatedAt": "2026-06-26T10:03:51.396Z",
   "student": {
     "id": "s_1778768401651_7hlihp",
     "classes": [
@@ -12,7 +12,20 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mqtsdmalr71",
+      "startedAt": 1782407807803,
+      "endedAt": 1782409134621,
+      "seconds": 1317,
+      "subject": "수학",
+      "method": "문제 풀이",
+      "content": "개념루트",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-25T17:38:54.621Z"
+    }
+  ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,

@@ -921,5 +921,30 @@
       "중간": true,
       "기말": true
     }
+  },
+  {
+    "id": "scut_mqv4ojzirpt",
+    "school": "인성고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "1",
+    "subject": "대수",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "기말": "삼각함수의 그래프, 삼각함수의 활용, 수열"
+    },
+    "examInfoByExamKind": {
+      "기말": "교과서, 수업 프린트, 5개년 4점 기출문항"
+    },
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

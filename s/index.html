@@ -2783,13 +2783,18 @@
     html += `<div class="ranking-top-section">`;
     html += `<div class="ranking-section-title">상위 ${Math.min(TOP_N, list.length)}명</div>`;
     html += `<div class="ranking-list">`;
+    // 본인의 별명 (랭킹 설정에 저장된 값) — 본인 위치 표시용
+    const myProfile = loadRankingProfile();
+    const myNickname = (myProfile && myProfile.nickname) ? myProfile.nickname : '';
+
     for (const item of top) {
       const isMe = item.id === myId;
       const value = fmtRankingValue(tabKey, item[tabKey]);
       const valHidden = (item[tabKey] || 0) === 0;
-      // 본인은 항상 "나", 다른 학생은 publicNickname true + nickname 있으면 별명, 아니면 "익명"
+      // 본인은 자기 별명 (공개/비공개 무관), 별명 미설정이면 "나"
+      // 다른 학생은 publicNickname true + nickname 있으면 별명, 아니면 "익명"
       const displayName = isMe
-        ? '나'
+        ? (myNickname || '나')
         : (item.publicNickname && item.nickname ? item.nickname : '익명');
       html += `
         <div class="ranking-row ${isMe ? 'ranking-row-me' : ''}">
@@ -2809,7 +2814,7 @@
         <div class="ranking-list">
           <div class="ranking-row ranking-row-me">
             <div class="ranking-row-rank">${my._rank}</div>
-            <div class="ranking-row-name">나</div>
+            <div class="ranking-row-name">${escapeHtml(myNickname || '나')}</div>
             <div class="ranking-row-value">${value}</div>
           </div>
         </div>

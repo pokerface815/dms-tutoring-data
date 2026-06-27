@@ -1121,25 +1121,25 @@
   const CLOUDINARY_UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`;
 
   // ===== 과목별 동적 색상 매핑 =====
-  // Material Design 200, 인접 hue 차이가 최대가 되도록 정렬 (구분력 최대)
-  // 첫 5~7개는 매우 다른 색조, 그 뒤도 충분히 구분 가능
+  // Material Design 200, 무지개 hue 순서대로 부드럽게 이어짐
+  // Yellow에서 시작 → 초록 → 청록 → 파랑 → 보라 → 핑크 → 빨강 → 주황 → 황금색
   const SUBJECT_COLOR_PALETTE = [
-    '#FFF59D',  // Yellow 200    (hue ~95)
-    '#90CAF9',  // Blue 200      (~235)
-    '#F48FB1',  // Pink 200      (~340)
-    '#A5D6A7',  // Green 200     (~150)
-    '#FFCC80',  // Orange 200    (~70)
-    '#B39DDB',  // Deep Purple 200 (~290)
-    '#80DEEA',  // Cyan 200      (~195)
-    '#EF9A9A',  // Red 200       (~25)
-    '#E6EE9C',  // Lime 200      (~115)
-    '#9FA8DA',  // Indigo 200    (~265)
-    '#FFE082',  // Amber 200     (~80)
-    '#80CBC4',  // Teal 200      (~180)
-    '#CE93D8',  // Purple 200    (~310)
-    '#81D4FA',  // Light Blue 200 (~215)
+    '#FFF59D',  // Yellow 200      (hue ~95)
+    '#E6EE9C',  // Lime 200        (~115)
     '#C5E1A5',  // Light Green 200 (~130)
+    '#A5D6A7',  // Green 200       (~150)
+    '#80CBC4',  // Teal 200        (~180)
+    '#80DEEA',  // Cyan 200        (~195)
+    '#81D4FA',  // Light Blue 200  (~215)
+    '#90CAF9',  // Blue 200        (~235)
+    '#9FA8DA',  // Indigo 200      (~265)
+    '#B39DDB',  // Deep Purple 200 (~290)
+    '#CE93D8',  // Purple 200      (~310)
+    '#F48FB1',  // Pink 200        (~340)
+    '#EF9A9A',  // Red 200         (~25)
     '#FFAB91',  // Deep Orange 200 (~40)
+    '#FFCC80',  // Orange 200      (~70)
+    '#FFE082',  // Amber 200       (~80)
   ];
 
   // 학생별 과목 → 색 매핑 (동적). 첫 학습 시점 순서대로 색 부여 → 한 번 부여된 색은 유지

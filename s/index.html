@@ -1120,43 +1120,54 @@
   const CLOUDINARY_UPLOAD_PRESET = 'student_submissions';
   const CLOUDINARY_UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`;
 
-  // ===== 과목별 고정 색상 팔레트 =====
-  // Tailwind CSS 300번 — 같은 hue, 부드러운 톤
-  // 같은 과목 = 같은 색 (원그래프 + 24시간 타임라인 등 모든 화면에서 일관성)
+  // ===== 과목별 동적 색상 매핑 =====
+  // Material Design 200, 인접 hue 차이가 최대가 되도록 정렬 (구분력 최대)
+  // 첫 5~7개는 매우 다른 색조, 그 뒤도 충분히 구분 가능
   const SUBJECT_COLOR_PALETTE = [
-    'oklch(80.8% 0.114 19.571)',   // red-300
-    'oklch(83.7% 0.128 66.29)',    // orange-300
-    'oklch(87.9% 0.169 91.605)',   // amber-300
-    'oklch(90.5% 0.182 98.111)',   // yellow-300
-    'oklch(87.1% 0.15 154.449)',   // green-300
-    'oklch(84.5% 0.143 164.978)',  // emerald-300
-    'oklch(85.5% 0.138 181.071)',  // teal-300
-    'oklch(86.5% 0.127 207.078)',  // cyan-300
-    'oklch(82.8% 0.111 230.318)',  // sky-300
-    'oklch(80.9% 0.105 251.813)',  // blue-300
-    'oklch(78.5% 0.115 274.713)',  // indigo-300
-    'oklch(81.1% 0.111 293.571)',  // violet-300
-    'oklch(82.7% 0.119 306.383)',  // purple-300
-    'oklch(83.3% 0.145 321.434)',  // fuchsia-300
-    'oklch(82.3% 0.12 346.018)',   // pink-300
-    'oklch(81% 0.117 11.638)',     // rose-300
+    '#FFF59D',  // Yellow 200    (hue ~95)
+    '#90CAF9',  // Blue 200      (~235)
+    '#F48FB1',  // Pink 200      (~340)
+    '#A5D6A7',  // Green 200     (~150)
+    '#FFCC80',  // Orange 200    (~70)
+    '#B39DDB',  // Deep Purple 200 (~290)
+    '#80DEEA',  // Cyan 200      (~195)
+    '#EF9A9A',  // Red 200       (~25)
+    '#E6EE9C',  // Lime 200      (~115)
+    '#9FA8DA',  // Indigo 200    (~265)
+    '#FFE082',  // Amber 200     (~80)
+    '#80CBC4',  // Teal 200      (~180)
+    '#CE93D8',  // Purple 200    (~310)
+    '#81D4FA',  // Light Blue 200 (~215)
+    '#C5E1A5',  // Light Green 200 (~130)
+    '#FFAB91',  // Deep Orange 200 (~40)
   ];
-  // 등록된 과목 순서 (이 순서대로 팔레트 인덱스 부여)
-  const SUBJECT_FIXED_ORDER = ['중1', '중2', '중3', '공통수학1', '공통수학2', '대수', '미적분Ⅰ', '미적분Ⅱ', '확률과 통계', '기하', '기타'];
-  // 과목 이름 → 색상 (전역에서 사용)
+
+  // 학생별 과목 → 색 매핑 (동적). 첫 학습 시점 순서대로 색 부여 → 한 번 부여된 색은 유지
+  let _subjectColorMap = {};
+  function rebuildSubjectColorMap(logs) {
+    const firstSeen = {};
+    for (const l of (logs || [])) {
+      const s = (l && l.subject) ? l.subject : '';
+      if (!s) continue;
+      const t = l.createdAt || l.startedAt || '';
+      if (!(s in firstSeen) || t < firstSeen[s]) firstSeen[s] = t;
+    }
+    const sorted = Object.keys(firstSeen).sort((a, b) =>
+      (firstSeen[a] || '').localeCompare(firstSeen[b] || '')
+    );
+    _subjectColorMap = {};
+    sorted.forEach((s, i) => {
+      _subjectColorMap[s] = SUBJECT_COLOR_PALETTE[i % SUBJECT_COLOR_PALETTE.length];
+    });
+  }
+  // 과목 이름 → 색상. 매핑에 없으면 다음 빈 슬롯 부여 (예외 케이스용)
   function getSubjectColor(subject) {
     const s = String(subject || '');
-    const idx = SUBJECT_FIXED_ORDER.indexOf(s);
-    if (idx >= 0) return SUBJECT_COLOR_PALETTE[idx % SUBJECT_COLOR_PALETTE.length];
-    // 등록 외 과목(예: 학생이 직접 입력한 과목명)은 이름 해시로 일관된 색
-    let h = 0;
-    for (let i = 0; i < s.length; i++) h = ((h << 5) - h + s.charCodeAt(i)) | 0;
-    // 외 과목은 SUBJECT_FIXED_ORDER 이후 슬롯(11번 인덱스부터)에 매핑하여 등록 과목과 충돌 최소화
-    const remainingSlots = SUBJECT_COLOR_PALETTE.length - SUBJECT_FIXED_ORDER.length;
-    if (remainingSlots > 0) {
-      return SUBJECT_COLOR_PALETTE[SUBJECT_FIXED_ORDER.length + (Math.abs(h) % remainingSlots)];
-    }
-    return SUBJECT_COLOR_PALETTE[Math.abs(h) % SUBJECT_COLOR_PALETTE.length];
+    if (_subjectColorMap[s]) return _subjectColorMap[s];
+    const usedCount = Object.keys(_subjectColorMap).length;
+    const color = SUBJECT_COLOR_PALETTE[usedCount % SUBJECT_COLOR_PALETTE.length];
+    _subjectColorMap[s] = color;
+    return color;
   }
 
   let studentCode = '';
@@ -1184,6 +1195,8 @@
       console.log('[학생페이지] tasks:', studentData.tasks, '| 오늘요일:', new Date().getDay());
       // 다른 기기에서 만든 기록과 머지
       mergeSyncedData();
+      // 과목 색 매핑 초기화 (logs 변경 후 한 번)
+      try { rebuildSubjectColorMap(loadEffortLogs()); } catch(e) {}
       renderPage();
     } catch (e) {
       console.error(e);
@@ -2928,6 +2941,7 @@
   }
   function saveEffortLogs(logs) {
     localStorage.setItem(`effortLogs__${studentCode}`, JSON.stringify(logs));
+    rebuildSubjectColorMap(logs);  // 과목 색 매핑 동기화 (새 과목이 추가됐을 수 있음)
   }
   function loadEffortSubjects() {
     try { return JSON.parse(localStorage.getItem(`effortSubjects__${studentCode}`) || '[]'); }
@@ -3102,6 +3116,7 @@
   window.flushEffortSyncIfPending = flushEffortSyncIfPending;
 
   function initEffortScreen() {
+    rebuildSubjectColorMap(loadEffortLogs());
     renderEffortContent();
     renderEffortSyncIndicator();
     // 화면 진입 시 미동기화 로그가 있으면 자동으로 재시도

@@ -434,38 +434,38 @@
 </div>
 
 <script>
-  // ===== 과목별 고정 색상 팔레트 (학생 페이지와 동일) =====
-  // Tailwind CSS 300번
+  // ===== 과목별 동적 색상 매핑 (학생 페이지와 동일 방식) =====
+  // Material Design 200, 인접 hue 차이가 최대가 되도록 정렬 (구분력 최대)
   const SUBJECT_COLOR_PALETTE = [
-    'oklch(80.8% 0.114 19.571)',   // red-300
-    'oklch(83.7% 0.128 66.29)',    // orange-300
-    'oklch(87.9% 0.169 91.605)',   // amber-300
-    'oklch(90.5% 0.182 98.111)',   // yellow-300
-    'oklch(87.1% 0.15 154.449)',   // green-300
-    'oklch(84.5% 0.143 164.978)',  // emerald-300
-    'oklch(85.5% 0.138 181.071)',  // teal-300
-    'oklch(86.5% 0.127 207.078)',  // cyan-300
-    'oklch(82.8% 0.111 230.318)',  // sky-300
-    'oklch(80.9% 0.105 251.813)',  // blue-300
-    'oklch(78.5% 0.115 274.713)',  // indigo-300
-    'oklch(81.1% 0.111 293.571)',  // violet-300
-    'oklch(82.7% 0.119 306.383)',  // purple-300
-    'oklch(83.3% 0.145 321.434)',  // fuchsia-300
-    'oklch(82.3% 0.12 346.018)',   // pink-300
-    'oklch(81% 0.117 11.638)',     // rose-300
+    '#FFF59D', '#90CAF9', '#F48FB1', '#A5D6A7',
+    '#FFCC80', '#B39DDB', '#80DEEA', '#EF9A9A',
+    '#E6EE9C', '#9FA8DA', '#FFE082', '#80CBC4',
+    '#CE93D8', '#81D4FA', '#C5E1A5', '#FFAB91',
   ];
-  const SUBJECT_FIXED_ORDER = ['중1', '중2', '중3', '공통수학1', '공통수학2', '대수', '미적분Ⅰ', '미적분Ⅱ', '확률과 통계', '기하', '기타'];
+  let _subjectColorMap = {};
+  function rebuildSubjectColorMap(logs) {
+    const firstSeen = {};
+    for (const l of (logs || [])) {
+      const s = (l && l.subject) ? l.subject : '';
+      if (!s) continue;
+      const t = l.createdAt || l.startedAt || '';
+      if (!(s in firstSeen) || t < firstSeen[s]) firstSeen[s] = t;
+    }
+    const sorted = Object.keys(firstSeen).sort((a, b) =>
+      (firstSeen[a] || '').localeCompare(firstSeen[b] || '')
+    );
+    _subjectColorMap = {};
+    sorted.forEach((s, i) => {
+      _subjectColorMap[s] = SUBJECT_COLOR_PALETTE[i % SUBJECT_COLOR_PALETTE.length];
+    });
+  }
   function getSubjectColor(subject) {
     const s = String(subject || '');
-    const idx = SUBJECT_FIXED_ORDER.indexOf(s);
-    if (idx >= 0) return SUBJECT_COLOR_PALETTE[idx % SUBJECT_COLOR_PALETTE.length];
-    let h = 0;
-    for (let i = 0; i < s.length; i++) h = ((h << 5) - h + s.charCodeAt(i)) | 0;
-    const remainingSlots = SUBJECT_COLOR_PALETTE.length - SUBJECT_FIXED_ORDER.length;
-    if (remainingSlots > 0) {
-      return SUBJECT_COLOR_PALETTE[SUBJECT_FIXED_ORDER.length + (Math.abs(h) % remainingSlots)];
-    }
-    return SUBJECT_COLOR_PALETTE[Math.abs(h) % SUBJECT_COLOR_PALETTE.length];
+    if (_subjectColorMap[s]) return _subjectColorMap[s];
+    const usedCount = Object.keys(_subjectColorMap).length;
+    const color = SUBJECT_COLOR_PALETTE[usedCount % SUBJECT_COLOR_PALETTE.length];
+    _subjectColorMap[s] = color;
+    return color;
   }
 
   let parentCode = '';
@@ -486,6 +486,8 @@
         return;
       }
       parentData = await res.json();
+      // 과목 색 매핑 초기화 (학생의 학습 기록 기준)
+      try { rebuildSubjectColorMap((parentData && parentData.effortLogs) || []); } catch(e) {}
       renderPage();
     } catch (e) {
       console.error(e);

@@ -706,13 +706,19 @@
     return html;
   }
 
-  // 원그래프 + 범례 (학생 페이지와 동일한 라임 톤)
+  // 원그래프 + 범례 (과목별 파스텔 다양색)
   function renderParentPieChart(sortedEntries, totalSec) {
     const colors = [
-      'oklch(90% 0.16 125)', 'oklch(83% 0.18 125)', 'oklch(76% 0.19 125)',
-      'oklch(69% 0.19 125)', 'oklch(62% 0.18 125)', 'oklch(55% 0.17 125)',
-      'oklch(48% 0.15 125)', 'oklch(41% 0.13 125)', 'oklch(34% 0.11 125)',
-      'oklch(28% 0.09 125)'
+      'oklch(85% 0.10 145)',  // 민트 그린
+      'oklch(85% 0.11 240)',  // 파스텔 블루
+      'oklch(85% 0.12 30)',   // 살구/피치
+      'oklch(85% 0.11 320)',  // 파스텔 핑크
+      'oklch(88% 0.12 95)',   // 파스텔 옐로우
+      'oklch(85% 0.11 195)',  // 파스텔 청록
+      'oklch(85% 0.12 350)',  // 파스텔 로즈
+      'oklch(85% 0.10 275)',  // 파스텔 라벤더
+      'oklch(85% 0.12 60)',   // 파스텔 오렌지
+      'oklch(85% 0.10 165)',  // 파스텔 세이지
     ];
     const cx = 60, cy = 60, r = 50;
     let svg = `<svg class="effort-pie-svg" viewBox="0 0 120 120" width="120" height="120">`;

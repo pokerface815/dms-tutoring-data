@@ -485,5 +485,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-24T16:04:36.811Z",
     "updatedAt": "2026-06-26T14:32:57.849Z"
+  },
+  {
+    "id": "lesson_1782565666011_noronw",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-27",
+    "content": "학교 부교재 예상문제 2, 3회 오답 다시 풀이\n교과서 풀이",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-27T13:07:46.011Z",
+    "updatedAt": "2026-06-27T13:07:46.011Z"
   }
 ]

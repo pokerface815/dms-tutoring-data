@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-27T12:42:23.437Z",
+  "generatedAt": "2026-06-27T13:08:10.089Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,17 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-27",
+          "weekday": "토",
+          "className": "조예나 개별",
+          "content": "학교 부교재 예상문제 2, 3회 오답 다시 풀이\n교과서 풀이",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-06-24",
           "weekday": "수",

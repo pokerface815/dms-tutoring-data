@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-26T16:11:25.996Z",
+  "generatedAt": "2026-06-27T08:59:23.139Z",
   "studentCount": 38,
   "rankings": [
     {
@@ -32,10 +32,10 @@
     },
     {
       "id": "s_1777547014208_7l30nn",
-      "totalSec": 1614,
-      "weekSec": 1614,
-      "monthSec": 1614,
-      "streak": 0,
+      "totalSec": 7241,
+      "weekSec": 7241,
+      "monthSec": 7241,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -239,12 +239,12 @@
     },
     {
       "id": "s_1780314459772_jsjhe4",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "totalSec": 1090,
+      "weekSec": 1090,
+      "monthSec": 1090,
+      "streak": 1,
+      "nickname": "Q.E.D",
+      "publicNickname": true
     },
     {
       "id": "s_1780314459772_hl9biz",

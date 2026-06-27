@@ -1120,6 +1120,44 @@
   const CLOUDINARY_UPLOAD_PRESET = 'student_submissions';
   const CLOUDINARY_UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`;
 
+  // ===== 과목별 고정 색상 팔레트 =====
+  // 같은 과목 = 같은 색 (원그래프 + 24시간 타임라인 등 모든 화면에서 일관성)
+  const SUBJECT_COLOR_PALETTE = [
+    'oklch(63.7% 0.237 25.331)',   // 빨강
+    'oklch(70.5% 0.213 47.604)',   // 주황
+    'oklch(76.9% 0.188 70.08)',    // 황주황
+    'oklch(79.5% 0.184 86.047)',   // 노랑
+    'oklch(72.3% 0.219 149.579)',  // 연두
+    'oklch(69.6% 0.17 162.48)',    // 녹색
+    'oklch(70.4% 0.14 182.503)',   // 청록
+    'oklch(71.5% 0.143 215.221)',  // 옅은 파랑
+    'oklch(68.5% 0.169 237.323)',  // 파랑
+    'oklch(62.3% 0.214 259.815)',  // 진한 파랑
+    'oklch(58.5% 0.233 277.117)',  // 보라색 파랑
+    'oklch(60.6% 0.25 292.717)',   // 보라
+    'oklch(62.7% 0.265 303.9)',    // 자주
+    'oklch(66.7% 0.295 322.15)',   // 분홍 자주
+    'oklch(65.6% 0.241 354.308)',  // 핑크
+    'oklch(64.5% 0.246 16.439)',   // 빨강-핑크
+  ];
+  // 등록된 과목 순서 (이 순서대로 팔레트 인덱스 부여)
+  const SUBJECT_FIXED_ORDER = ['중1', '중2', '중3', '공통수학1', '공통수학2', '대수', '미적분Ⅰ', '미적분Ⅱ', '확률과 통계', '기하', '기타'];
+  // 과목 이름 → 색상 (전역에서 사용)
+  function getSubjectColor(subject) {
+    const s = String(subject || '');
+    const idx = SUBJECT_FIXED_ORDER.indexOf(s);
+    if (idx >= 0) return SUBJECT_COLOR_PALETTE[idx % SUBJECT_COLOR_PALETTE.length];
+    // 등록 외 과목(예: 학생이 직접 입력한 과목명)은 이름 해시로 일관된 색
+    let h = 0;
+    for (let i = 0; i < s.length; i++) h = ((h << 5) - h + s.charCodeAt(i)) | 0;
+    // 외 과목은 SUBJECT_FIXED_ORDER 이후 슬롯(11번 인덱스부터)에 매핑하여 등록 과목과 충돌 최소화
+    const remainingSlots = SUBJECT_COLOR_PALETTE.length - SUBJECT_FIXED_ORDER.length;
+    if (remainingSlots > 0) {
+      return SUBJECT_COLOR_PALETTE[SUBJECT_FIXED_ORDER.length + (Math.abs(h) % remainingSlots)];
+    }
+    return SUBJECT_COLOR_PALETTE[Math.abs(h) % SUBJECT_COLOR_PALETTE.length];
+  }
+
   let studentCode = '';
   let studentData = null;
   let submissions = {};
@@ -3618,17 +3656,11 @@
   // 학습 있는 시간대는 확대(50px/시간), 없는 시간대는 압축(12px/시간)
   function renderEffortDayTimeline(targetLogs, d) {
     // 라임 톤 팔레트 (과목별로 일관된 색)
-    const PALETTE = [
-      'oklch(72% 0.19 125)', 'oklch(78% 0.16 145)', 'oklch(68% 0.15 100)',
-      'oklch(74% 0.17 165)', 'oklch(70% 0.16 85)', 'oklch(76% 0.15 185)',
-      'oklch(66% 0.18 110)', 'oklch(72% 0.14 50)', 'oklch(74% 0.16 30)',
-      'oklch(68% 0.17 195)',
-    ];
     const subjOrder = [];
     for (const l of targetLogs) {
       if (!subjOrder.includes(l.subject)) subjOrder.push(l.subject);
     }
-    const colorOf = (subj) => PALETTE[subjOrder.indexOf(subj) % PALETTE.length];
+    const colorOf = (subj) => getSubjectColor(subj);
 
     // (1) 학습 활성 구간 계산 — 각 학습 ±30분 버퍼, 인접 구간 병합
     const BUFFER_HR = 0.5;
@@ -3751,21 +3783,8 @@
     `;
   }
 
-  // 원그래프 + 범례
+  // 원그래프 + 범례 (과목별 고정 색)
   function renderEffortPieChart(bySubject, totalSec) {
-    // 파스텔 다양색 — 각 과목을 서로 다른 hue로 구분
-    const colors = [
-      'oklch(85% 0.10 145)',  // 민트 그린
-      'oklch(85% 0.11 240)',  // 파스텔 블루
-      'oklch(85% 0.12 30)',   // 살구/피치
-      'oklch(85% 0.11 320)',  // 파스텔 핑크
-      'oklch(88% 0.12 95)',   // 파스텔 옐로우
-      'oklch(85% 0.11 195)',  // 파스텔 청록
-      'oklch(85% 0.12 350)',  // 파스텔 로즈
-      'oklch(85% 0.10 275)',  // 파스텔 라벤더
-      'oklch(85% 0.12 60)',   // 파스텔 오렌지
-      'oklch(85% 0.10 165)',  // 파스텔 세이지
-    ];
     const sorted = Object.entries(bySubject).sort((a,b) => b[1] - a[1]);
 
     const cx = 60, cy = 60, r = 50;
@@ -3780,7 +3799,7 @@
       const x2 = cx + r * Math.cos(endAngle);
       const y2 = cy + r * Math.sin(endAngle);
       const largeArc = pct > 0.5 ? 1 : 0;
-      const color = colors[i % colors.length];
+      const color = getSubjectColor(subj);
       if (pct >= 0.999) {
         // 100%일 때 — 원 전체
         html += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${color}"/>`;
@@ -3794,7 +3813,7 @@
     html += `<div class="effort-pie-legend">`;
     sorted.forEach(([subj, sec], i) => {
       const pct = Math.round(sec / totalSec * 100);
-      const color = colors[i % colors.length];
+      const color = getSubjectColor(subj);
       html += `
         <div class="effort-legend-row">
           <span class="effort-legend-color" style="background:${color};"></span>

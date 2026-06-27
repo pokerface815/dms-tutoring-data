@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-26T16:11:41.761Z",
+  "generatedAt": "2026-06-27T08:59:37.504Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -63,17 +63,37 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-24T12:06:48.933Z",
+    "uploadedAt": "2026-06-27T06:46:39.994Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 1614,
-      "monthSec": 1614,
-      "streak": 0,
+      "todaySec": 5627,
+      "weekSec": 7241,
+      "monthSec": 7241,
+      "streak": 1,
       "bySubjectMonth": {
-        "수학": 1614
+        "수학": 1614,
+        "영어": 4175,
+        "국어": 1452
       }
     },
     "logs": [
+      {
+        "id": "effort_mqvzyj5dp8a",
+        "startedAt": 1782541008534,
+        "seconds": 1452,
+        "subject": "국어",
+        "method": "문제 풀이",
+        "content": "자습서",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mqvtt05vq6c",
+        "startedAt": 1782528270682,
+        "seconds": 4175,
+        "subject": "영어",
+        "method": "문제 풀이",
+        "content": "모의고사공부",
+        "reflection": ""
+      },
       {
         "id": "effort_mqqswg1jm3c",
         "startedAt": 1782227000455,

@@ -3753,11 +3753,18 @@
 
   // 원그래프 + 범례
   function renderEffortPieChart(bySubject, totalSec) {
+    // 파스텔 다양색 — 각 과목을 서로 다른 hue로 구분
     const colors = [
-      'oklch(90% 0.16 125)', 'oklch(83% 0.18 125)', 'oklch(76% 0.19 125)',
-      'oklch(69% 0.19 125)', 'oklch(62% 0.18 125)', 'oklch(55% 0.17 125)',
-      'oklch(48% 0.15 125)', 'oklch(41% 0.13 125)', 'oklch(34% 0.11 125)',
-      'oklch(28% 0.09 125)'
+      'oklch(85% 0.10 145)',  // 민트 그린
+      'oklch(85% 0.11 240)',  // 파스텔 블루
+      'oklch(85% 0.12 30)',   // 살구/피치
+      'oklch(85% 0.11 320)',  // 파스텔 핑크
+      'oklch(88% 0.12 95)',   // 파스텔 옐로우
+      'oklch(85% 0.11 195)',  // 파스텔 청록
+      'oklch(85% 0.12 350)',  // 파스텔 로즈
+      'oklch(85% 0.10 275)',  // 파스텔 라벤더
+      'oklch(85% 0.12 60)',   // 파스텔 오렌지
+      'oklch(85% 0.10 165)',  // 파스텔 세이지
     ];
     const sorted = Object.entries(bySubject).sort((a,b) => b[1] - a[1]);
 

@@ -435,12 +435,12 @@
 
 <script>
   // ===== 과목별 동적 색상 매핑 (학생 페이지와 동일 방식) =====
-  // Material Design 200, 인접 hue 차이가 최대가 되도록 정렬 (구분력 최대)
+  // Material Design 200, 무지개 hue 순서대로 부드럽게 이어짐
   const SUBJECT_COLOR_PALETTE = [
-    '#FFF59D', '#90CAF9', '#F48FB1', '#A5D6A7',
-    '#FFCC80', '#B39DDB', '#80DEEA', '#EF9A9A',
-    '#E6EE9C', '#9FA8DA', '#FFE082', '#80CBC4',
-    '#CE93D8', '#81D4FA', '#C5E1A5', '#FFAB91',
+    '#FFF59D', '#E6EE9C', '#C5E1A5', '#A5D6A7',
+    '#80CBC4', '#80DEEA', '#81D4FA', '#90CAF9',
+    '#9FA8DA', '#B39DDB', '#CE93D8', '#F48FB1',
+    '#EF9A9A', '#FFAB91', '#FFCC80', '#FFE082',
   ];
   let _subjectColorMap = {};
   function rebuildSubjectColorMap(logs) {

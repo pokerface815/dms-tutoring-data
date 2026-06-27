@@ -159,9 +159,22 @@
           "name": "경신여고 대수 기말 참고사항.jpeg",
           "type": "image",
           "uploadedAt": "2026-06-14T10:22:31.985Z"
+        },
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1782556385/u2gd5fiqrpmpca51thh7.jpg",
+          "name": "경신 대수1.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-06-27T10:33:05.995Z"
+        },
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1782556386/h1rnly4fap8d9vzw8puf.jpg",
+          "name": "경신 대수2.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-06-27T10:33:07.531Z"
         }
       ]
-    }
+    },
+    "extraNote": ""
   },
   {
     "id": "scut_mq7eybtrjdb",
@@ -188,6 +201,16 @@
       "중간": true,
       "기말": true,
       "최종": true
+    },
+    "pdfsByExamKind": {
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1782556403/fmegweucblcng491yuul.jpg",
+          "name": "경신 확통.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-06-27T10:33:24.020Z"
+        }
+      ]
     }
   },
   {

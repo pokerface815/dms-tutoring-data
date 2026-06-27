@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-26T16:11:40.124Z",
+  "generatedAt": "2026-06-27T08:59:36.106Z",
   "student": {
     "id": "s_1777547014208_7l30nn",
     "classes": [
@@ -24,27 +24,51 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-06-23T15:30:14.455Z"
+    },
+    {
+      "id": "effort_mqvtt05vq6c",
+      "startedAt": 1782528270682,
+      "endedAt": 1782532464403,
+      "seconds": 4175,
+      "subject": "영어",
+      "method": "문제 풀이",
+      "content": "모의고사공부",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-27T03:54:24.403Z"
+    },
+    {
+      "id": "effort_mqvzyj5dp8a",
+      "startedAt": 1782541008534,
+      "endedAt": 1782542799985,
+      "seconds": 1452,
+      "subject": "국어",
+      "method": "문제 풀이",
+      "content": "자습서",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-27T06:46:39.985Z"
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1781948134457_3xbiql",
       "noteName": "박다윤_마더텅_전체",
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-06-27",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-06-27T08:59:02.401Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1781948134457_3xbiql",
       "noteName": "박다윤_마더텅_전체",
@@ -216,8 +240,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

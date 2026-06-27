@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-26T16:11:47.727Z",
+  "generatedAt": "2026-06-27T08:59:42.249Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -16,52 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1780674000953_zztmxb",
-      "noteName": "이경주_수매씽 유형_수학적 귀납법( ~2390번)",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-27",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
-      "assignmentId": "a_1780739488448_kksi0o",
-      "noteName": "이경주_수매씽 유형_재오답(1260~2139번)",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-27",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
-      "assignmentId": "a_1781927411353_5plk3v",
-      "noteName": "이경주_개념루트_수학적 귀납법(806, 821번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-27",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
-      "assignmentId": "a_1782350940213_mjtp3g",
-      "noteName": "이경주_수매씽 유형_재오답_6월25일",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-27",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -77,6 +32,54 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1782350940213_mjtp3g",
+      "noteName": "이경주_수매씽 유형_재오답_6월25일",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-27",
+      "done": true,
+      "doneAt": "2026-06-27T08:59:03.068Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1781927411353_5plk3v",
+      "noteName": "이경주_개념루트_수학적 귀납법(806, 821번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-27",
+      "done": true,
+      "doneAt": "2026-06-27T08:59:01.609Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1780739488448_kksi0o",
+      "noteName": "이경주_수매씽 유형_재오답(1260~2139번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-27",
+      "done": true,
+      "doneAt": "2026-06-27T08:58:58.676Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1780674000953_zztmxb",
+      "noteName": "이경주_수매씽 유형_수학적 귀납법( ~2390번)",
+      "subject": "대수",
+      "round": 4,
+      "plannedDate": "2026-06-27",
+      "done": true,
+      "doneAt": "2026-06-27T08:58:54.494Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1782350940213_mjtp3g",
       "noteName": "이경주_수매씽 유형_재오답_6월25일",
@@ -388,60 +391,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1780218025861_mor5ad",
-      "noteName": "이경주_수매씽 유형_수열의 합(2차 오답)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-02",
-      "done": true,
-      "doneAt": "2026-06-03T11:23:45.399Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1780075403993_90or5b",
-      "noteName": "이경주_수매씽 유형_수열의 합( ~2199번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-01",
-      "done": true,
-      "doneAt": "2026-06-01T09:49:58.462Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1780218025861_mor5ad",
-      "noteName": "이경주_수매씽 유형_수열의 합(2차 오답)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-05-31",
-      "done": true,
-      "doneAt": "2026-05-31T09:54:31.589Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1779611210724_3z5dhl",
-      "noteName": "이경주_수매씽 유형_등비수열( ~1993번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-05-31",
-      "done": true,
-      "doneAt": "2026-05-31T08:14:49.976Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 8,
-    "done": 3,
-    "percent": 38,
+    "done": 7,
+    "percent": 88,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

@@ -622,7 +622,9 @@
 
   /* 버블 차트 + 범례 */
   .effort-pie-wrap {
-    display: flex; gap: 16px;
+    display: flex;
+    column-gap: 16px;
+    row-gap: 4px;  /* wrap된 세로 배치일 때 차트와 범례 사이 간격 */
     align-items: center; justify-content: center;
     flex-wrap: wrap;
   }
@@ -636,17 +638,17 @@
   }
   .effort-legend-row {
     display: flex; align-items: center; gap: 8px;
-    padding: 0 100px 0 6px;  /* 오른쪽 100px 여백 — 시간이 오른쪽 끝까지 가지 않게 */
+    padding: 0 100px 0 6px;  /* 데스크탑: 오른쪽 100px 여백 */
     font-size: 11.5px;
   }
   .effort-legend-color { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
   .effort-legend-name { flex: 1; color: var(--text); font-weight: 600; }
   .effort-legend-val { color: var(--text2); font-variant-numeric: tabular-nums; font-size: 11px; flex-shrink: 0; }
-  /* 좁은 화면: 차트가 위, 범례가 아래 — 사이 여백 더 줄임 */
-  @media (max-width: 440px) {
-    .effort-pie-wrap { flex-direction: column; gap: 3px; }
+  /* 좁은 화면(차트가 wrap되는 폭): 범례 좌우 50px씩 여백 */
+  @media (max-width: 720px) {
+    .effort-pie-wrap { flex-direction: column; row-gap: 4px; column-gap: 0; }
     .effort-pie-legend { width: 100%; flex: none; }
-    .effort-legend-row { padding-right: 60px; }  /* 모바일에서는 약간 줄임 */
+    .effort-legend-row { padding: 0 50px; }
   }
   /* 버블 SVG 안의 라벨 */
   .bubble-l { font-size: 13px; font-weight: 700; fill: var(--text); pointer-events: none; }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T17:12:00.520Z",
+  "generatedAt": "2026-06-28T17:15:53.059Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -61,6 +61,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-06-28T12:19:15.611Z"
+    },
+    {
+      "id": "effort_mqy0zh0bbcm",
+      "startedAt": 1782662223066,
+      "endedAt": 1782665455835,
+      "seconds": 3218,
+      "subject": "기하",
+      "method": "개념 정리",
+      "content": "개념원리",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-28T16:50:55.835Z"
     }
   ],
   "syncedEffortDeletedIds": [

@@ -337,11 +337,11 @@
     margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
   }
   .effort-pie-wrap {
-    display: flex; gap: 12px; align-items: center;
+    display: flex; gap: 14px; align-items: center; flex-wrap: wrap;
   }
   .effort-pie-svg { flex-shrink: 0; }
   .effort-pie-legend {
-    flex: 1; min-width: 0;
+    flex: 1; min-width: 140px;
     display: flex; flex-direction: column; gap: 5px;
   }
   .effort-legend-row {
@@ -349,7 +349,7 @@
     gap: 7px; align-items: center; font-size: 11.5px;
   }
   .effort-legend-color {
-    width: 12px; height: 12px; border-radius: 3px;
+    width: 12px; height: 12px; border-radius: 50%;
   }
   .effort-legend-name {
     color: var(--text); font-weight: 600; font-size: 12px;
@@ -359,6 +359,11 @@
     color: var(--text2); font-size: 11px;
     font-variant-numeric: tabular-nums; white-space: nowrap;
   }
+  /* 버블 SVG 안의 라벨 */
+  .bubble-l { font-size: 12px; font-weight: 700; fill: var(--text); pointer-events: none; }
+  .bubble-m { font-size: 11px; font-weight: 600; fill: var(--text); pointer-events: none; }
+  .bubble-s { font-size: 10px; fill: var(--text2); pointer-events: none; }
+  .bubble-xs { font-size: 9.5px; fill: var(--text); pointer-events: none; }
   @media (max-width: 380px) {
     .effort-pie-wrap { gap: 10px; }
   }
@@ -427,6 +432,8 @@
   .last-updated { display: block; margin-top: 8px; }
   .loading { text-align: center; padding: 80px 20px; color: var(--text3); }
 </style>
+<!-- d3-hierarchy (버블 차트 packing 알고리즘) -->
+<script src="https://cdn.jsdelivr.net/npm/d3-hierarchy@3/dist/d3-hierarchy.min.js"></script>
 </head>
 <body>
 <div id="app">
@@ -742,31 +749,52 @@
     return html;
   }
 
-  // 원그래프 + 범례 (과목별 고정 색)
+  // 버블 차트 + 범례 (d3-hierarchy packing)
   function renderParentPieChart(sortedEntries, totalSec) {
-    const cx = 60, cy = 60, r = 50;
-    let svg = `<svg class="effort-pie-svg" viewBox="0 0 120 120" width="120" height="120">`;
-    let startAngle = -Math.PI / 2;
-    sortedEntries.forEach(([subj, sec], i) => {
-      const pct = sec / totalSec;
-      const endAngle = startAngle + pct * 2 * Math.PI;
-      const x1 = cx + r * Math.cos(startAngle);
-      const y1 = cy + r * Math.sin(startAngle);
-      const x2 = cx + r * Math.cos(endAngle);
-      const y2 = cy + r * Math.sin(endAngle);
-      const largeArc = pct > 0.5 ? 1 : 0;
-      const color = getSubjectColor(subj);
-      if (pct >= 0.999) {
-        svg += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${color}"/>`;
-      } else {
-        svg += `<path d="M ${cx} ${cy} L ${x1.toFixed(2)} ${y1.toFixed(2)} A ${r} ${r} 0 ${largeArc} 1 ${x2.toFixed(2)} ${y2.toFixed(2)} Z" fill="${color}"/>`;
+    const valid = sortedEntries.filter(([s, sec]) => sec > 0);
+    if (valid.length === 0) return '';
+
+    const size = 200;
+    let svg = `<svg class="effort-pie-svg" viewBox="0 0 ${size} ${size}" width="${size}" height="${size}">`;
+
+    if (typeof d3 !== 'undefined' && d3.hierarchy && d3.pack) {
+      const data = { children: valid.map(([subject, seconds]) => ({ subject, seconds })) };
+      const root = d3.hierarchy(data).sum(d => d.seconds);
+      d3.pack().size([size, size]).padding(3)(root);
+      const nodes = root.children || [];
+      for (const n of nodes) {
+        const color = getSubjectColor(n.data.subject);
+        svg += `<circle cx="${n.x.toFixed(2)}" cy="${n.y.toFixed(2)}" r="${n.r.toFixed(2)}" fill="${color}"/>`;
+        const subj = n.data.subject;
+        const timeText = fmtEffortDurationShort(n.data.seconds);
+        if (n.r >= 32) {
+          svg += `<text x="${n.x.toFixed(2)}" y="${(n.y - 5).toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-l">${escapeHtml(subj)}</text>`;
+          svg += `<text x="${n.x.toFixed(2)}" y="${(n.y + 9).toFixed(2)}" text-anchor="middle" class="bubble-s">${escapeHtml(timeText)}</text>`;
+        } else if (n.r >= 20) {
+          svg += `<text x="${n.x.toFixed(2)}" y="${n.y.toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-m">${escapeHtml(subj)}</text>`;
+        } else if (n.r >= 14) {
+          const short = subj.length > 4 ? subj.slice(0, 3) + '…' : subj;
+          svg += `<text x="${n.x.toFixed(2)}" y="${n.y.toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-xs">${escapeHtml(short)}</text>`;
+        }
       }
-      startAngle = endAngle;
-    });
+    } else {
+      // d3 미로드 폴백
+      const cols = Math.ceil(Math.sqrt(valid.length));
+      const cellSize = size / cols;
+      valid.forEach(([subject, seconds], i) => {
+        const col = i % cols;
+        const row = Math.floor(i / cols);
+        const cx2 = col * cellSize + cellSize / 2;
+        const cy2 = row * cellSize + cellSize / 2;
+        const maxR = cellSize / 2 - 4;
+        const r2 = maxR * Math.sqrt(seconds / valid[0][1]);
+        svg += `<circle cx="${cx2}" cy="${cy2}" r="${r2}" fill="${getSubjectColor(subject)}"/>`;
+      });
+    }
     svg += `</svg>`;
 
     let legend = `<div class="effort-pie-legend">`;
-    sortedEntries.forEach(([subj, sec], i) => {
+    valid.forEach(([subj, sec]) => {
       const pct = Math.round(sec / totalSec * 100);
       const color = getSubjectColor(subj);
       legend += `

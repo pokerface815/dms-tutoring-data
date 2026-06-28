@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T17:15:16.503Z",
+  "generatedAt": "2026-06-28T18:59:37.325Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 38,
+  "studentCount": 37,
   "baseUrl": "",
   "students": [
     {
@@ -130,15 +130,6 @@
       "className": "토,일 4시",
       "studentPageCode": "a7xfuxvp5x9c",
       "parentPageCode": "a7xfuxvp5x9c"
-    },
-    {
-      "id": "s_1779628208770_oahez9",
-      "name": "박현우",
-      "grade": "고2",
-      "school": "살레시오고",
-      "className": "토,일 4시",
-      "studentPageCode": "cs4z4c4u3t9u",
-      "parentPageCode": "cs4z4c4u3t9u"
     },
     {
       "id": "s_1779811264964_kbtli4",

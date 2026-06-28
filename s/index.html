@@ -3840,8 +3840,9 @@
     if (sorted.length === 0) return '';
 
     const size = 300;
-    let html = `<div class="effort-pie-wrap">`;
-    html += `<svg viewBox="0 0 ${size} ${size}" width="${size}" height="${size}" class="effort-bubble-svg">`;
+    let svgContent = '';
+    let viewBox = `0 0 ${size} ${size}`;
+    let displayH = size;
 
     // d3-hierarchy의 pack()으로 버블 위치/크기 자동 계산
     if (typeof d3 !== 'undefined' && d3.hierarchy && d3.pack) {
@@ -3850,28 +3851,42 @@
       d3.pack().size([size, size]).padding(3)(root);
       const nodes = root.children || [];
 
+      // 실제 원들의 bounding box 계산 → 빈 영역 잘라내기
+      if (nodes.length > 0) {
+        let minX = size, minY = size, maxX = 0, maxY = 0;
+        for (const n of nodes) {
+          if (n.x - n.r < minX) minX = n.x - n.r;
+          if (n.y - n.r < minY) minY = n.y - n.r;
+          if (n.x + n.r > maxX) maxX = n.x + n.r;
+          if (n.y + n.r > maxY) maxY = n.y + n.r;
+        }
+        const pad = 4;
+        const vbX = Math.max(0, minX - pad);
+        const vbY = Math.max(0, minY - pad);
+        const vbW = Math.min(size, maxX + pad - vbX);
+        const vbH = Math.min(size, maxY + pad - vbY);
+        viewBox = `${vbX.toFixed(2)} ${vbY.toFixed(2)} ${vbW.toFixed(2)} ${vbH.toFixed(2)}`;
+        // SVG 표시 높이를 비율에 맞춰 줄임 (가로 size 유지)
+        displayH = Math.round(size * vbH / vbW);
+      }
+
       for (const n of nodes) {
         const color = getSubjectColor(n.data.subject);
-        html += `<circle cx="${n.x.toFixed(2)}" cy="${n.y.toFixed(2)}" r="${n.r.toFixed(2)}" fill="${color}"/>`;
-        // 라벨: 원 크기에 따라 표시 정도 다르게
+        svgContent += `<circle cx="${n.x.toFixed(2)}" cy="${n.y.toFixed(2)}" r="${n.r.toFixed(2)}" fill="${color}"/>`;
         const subj = n.data.subject;
         const timeText = fmtDurationShort(n.data.seconds);
         if (n.r >= 32) {
-          // 큰 원: 과목명 + 시간 (줄간격 여유)
-          html += `<text x="${n.x.toFixed(2)}" y="${(n.y - 8).toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-l">${escapeHtml(subj)}</text>`;
-          html += `<text x="${n.x.toFixed(2)}" y="${(n.y + 12).toFixed(2)}" text-anchor="middle" class="bubble-s">${escapeHtml(timeText)}</text>`;
+          svgContent += `<text x="${n.x.toFixed(2)}" y="${(n.y - 8).toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-l">${escapeHtml(subj)}</text>`;
+          svgContent += `<text x="${n.x.toFixed(2)}" y="${(n.y + 12).toFixed(2)}" text-anchor="middle" class="bubble-s">${escapeHtml(timeText)}</text>`;
         } else if (n.r >= 20) {
-          // 중간 원: 과목명만
-          html += `<text x="${n.x.toFixed(2)}" y="${n.y.toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-m">${escapeHtml(subj)}</text>`;
+          svgContent += `<text x="${n.x.toFixed(2)}" y="${n.y.toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-m">${escapeHtml(subj)}</text>`;
         } else if (n.r >= 14) {
-          // 작은 원: 짧은 과목명
           const short = subj.length > 4 ? subj.slice(0, 3) + '…' : subj;
-          html += `<text x="${n.x.toFixed(2)}" y="${n.y.toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-xs">${escapeHtml(short)}</text>`;
+          svgContent += `<text x="${n.x.toFixed(2)}" y="${n.y.toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-xs">${escapeHtml(short)}</text>`;
         }
-        // 더 작은 원은 라벨 없음 (범례에서 매칭)
       }
     } else {
-      // d3 미로드 폴백: 간단 격자 배치
+      // d3 미로드 폴백
       const cols = Math.ceil(Math.sqrt(sorted.length));
       const cellSize = size / cols;
       sorted.forEach(([subject, seconds], i) => {
@@ -3881,11 +3896,12 @@
         const cy = row * cellSize + cellSize / 2;
         const maxR = cellSize / 2 - 4;
         const r = maxR * Math.sqrt(seconds / sorted[0][1]);
-        html += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${getSubjectColor(subject)}"/>`;
+        svgContent += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${getSubjectColor(subject)}"/>`;
       });
     }
 
-    html += `</svg>`;
+    let html = `<div class="effort-pie-wrap">`;
+    html += `<svg viewBox="${viewBox}" width="${size}" height="${displayH}" class="effort-bubble-svg">${svgContent}</svg>`;
     // 범례
     html += `<div class="effort-pie-legend">`;
     sorted.forEach(([subj, sec]) => {

@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T10:54:20.703Z",
+  "generatedAt": "2026-06-28T17:12:30.621Z",
   "studentCount": 38,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
       "totalSec": 3657,
-      "weekSec": 3657,
+      "weekSec": 0,
       "monthSec": 3657,
       "streak": 1,
       "nickname": "파송송계란탁",
@@ -32,9 +32,9 @@
     },
     {
       "id": "s_1777547014208_7l30nn",
-      "totalSec": 17598,
-      "weekSec": 17598,
-      "monthSec": 17598,
+      "totalSec": 25351,
+      "weekSec": 0,
+      "monthSec": 25351,
       "streak": 2,
       "nickname": "두다다다다다ㅏ다쿵",
       "publicNickname": true
@@ -42,7 +42,7 @@
     {
       "id": "s_1777547047005_uo92w5",
       "totalSec": 243,
-      "weekSec": 243,
+      "weekSec": 0,
       "monthSec": 243,
       "streak": 0,
       "nickname": "",
@@ -96,7 +96,7 @@
     {
       "id": "s_1778768401651_7hlihp",
       "totalSec": 2826,
-      "weekSec": 2826,
+      "weekSec": 0,
       "monthSec": 2826,
       "streak": 0,
       "nickname": "경도를 기다리며",
@@ -132,7 +132,7 @@
     {
       "id": "s_1779628208770_oahez9",
       "totalSec": 4030,
-      "weekSec": 4030,
+      "weekSec": 0,
       "monthSec": 4030,
       "streak": 0,
       "nickname": "NCT WISH",
@@ -158,9 +158,9 @@
     },
     {
       "id": "s_1780190418387_a11waf",
-      "totalSec": 2567,
-      "weekSec": 2567,
-      "monthSec": 2567,
+      "totalSec": 3240,
+      "weekSec": 0,
+      "monthSec": 3240,
       "streak": 1,
       "nickname": "리학성",
       "publicNickname": true
@@ -204,7 +204,7 @@
     {
       "id": "s_1780314459772_u5kn1l",
       "totalSec": 2275,
-      "weekSec": 2275,
+      "weekSec": 0,
       "monthSec": 2275,
       "streak": 0,
       "nickname": "타이거즈",
@@ -231,7 +231,7 @@
     {
       "id": "s_1780314459772_frngyj",
       "totalSec": 4742,
-      "weekSec": 4742,
+      "weekSec": 0,
       "monthSec": 4742,
       "streak": 0,
       "nickname": "살레시안",
@@ -240,9 +240,9 @@
     {
       "id": "s_1780314459772_jsjhe4",
       "totalSec": 1090,
-      "weekSec": 1090,
+      "weekSec": 0,
       "monthSec": 1090,
-      "streak": 1,
+      "streak": 0,
       "nickname": "Q.E.D",
       "publicNickname": true
     },
@@ -312,7 +312,7 @@
     {
       "id": "s_1780825552050_3a3ma5",
       "totalSec": 635,
-      "weekSec": 635,
+      "weekSec": 0,
       "monthSec": 635,
       "streak": 0,
       "nickname": "메타몽",

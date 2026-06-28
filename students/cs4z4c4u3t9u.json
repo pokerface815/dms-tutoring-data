@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T10:54:52.276Z",
+  "generatedAt": "2026-06-28T17:12:22.632Z",
   "student": {
     "id": "s_1779628208770_oahez9",
     "classes": [
@@ -86,8 +86,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-22",
-    "endDate": "2026-06-28"
+    "startDate": "2026-06-29",
+    "endDate": "2026-07-05"
   },
   "teacherConfirms": {
     "a_1779628229457_kpp0ll__2": {

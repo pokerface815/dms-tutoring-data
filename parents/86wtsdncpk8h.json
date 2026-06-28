@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T17:12:05.674Z",
+  "generatedAt": "2026-06-28T17:15:25.006Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -63,29 +63,19 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-28T15:12:28.633Z",
+    "uploadedAt": "2026-06-28T17:12:01.441Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
-      "monthSec": 25351,
+      "monthSec": 17598,
       "streak": 2,
       "bySubjectMonth": {
         "수학": 1614,
         "영어": 4175,
-        "국어": 11809,
-        "영어, 수학": 7753
+        "국어": 11809
       }
     },
     "logs": [
-      {
-        "id": "effort_mqxxguz7bin",
-        "startedAt": 1782648810895,
-        "seconds": 7753,
-        "subject": "영어, 수학",
-        "method": "문제 풀이",
-        "content": "영어 부교재 수학 복습 3회",
-        "reflection": ""
-      },
       {
         "id": "effort_mqx828ewf12",
         "startedAt": 1782611889020,

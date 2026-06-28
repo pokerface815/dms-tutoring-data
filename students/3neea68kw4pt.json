@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T10:54:58.280Z",
+  "generatedAt": "2026-06-28T17:12:00.520Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -25,6 +25,42 @@
       "sharedWithParent": false,
       "createdAt": "2026-06-28T02:05:38.924Z",
       "updatedAt": "2026-06-28T02:57:08.970Z"
+    },
+    {
+      "id": "effort_mqxox7q667f",
+      "startedAt": 1782644969081,
+      "endedAt": 1782645195101,
+      "seconds": 217,
+      "subject": "확률과 통계",
+      "method": "문제 풀이",
+      "content": "퇴근",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-28T11:13:15.103Z"
+    },
+    {
+      "id": "effort_mqxp2dqjbiy",
+      "startedAt": 1782645197835,
+      "endedAt": 1782645436171,
+      "seconds": 227,
+      "subject": "미적분Ⅰ",
+      "method": "문제 풀이",
+      "content": "테스트",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-28T11:17:16.171Z"
+    },
+    {
+      "id": "effort_mqxra3ob30h",
+      "startedAt": 1782648907429,
+      "endedAt": 1782649155611,
+      "seconds": 229,
+      "subject": "공통수학1",
+      "method": "문제 풀이",
+      "content": "테스트",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-28T12:19:15.611Z"
     }
   ],
   "syncedEffortDeletedIds": [
@@ -117,8 +153,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-22",
-    "endDate": "2026-06-28"
+    "startDate": "2026-06-29",
+    "endDate": "2026-07-05"
   },
   "teacherConfirms": {
     "task_1780499298479_b3ko7f__1": {

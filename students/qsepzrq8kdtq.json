@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-27T13:08:28.519Z",
+  "generatedAt": "2026-06-28T07:45:12.637Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -18,20 +18,20 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1782219961580_y8auey",
       "noteName": "김채린_수학의 바이블 유형 ON_수열의 합( ~1060번)",
       "subject": "대수",
       "round": 3,
       "plannedDate": "2026-06-28",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-06-28T07:44:15.935Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1780732118879_lx4ea0",
       "noteName": "김채린_수학의 바이블 유형ON 1권_삼각함수의 활용( ~788번)",
@@ -263,8 +263,8 @@
   ],
   "weekProgress": {
     "total": 6,
-    "done": 5,
-    "percent": 83,
+    "done": 6,
+    "percent": 100,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

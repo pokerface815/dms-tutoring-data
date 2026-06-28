@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-27T13:08:02.023Z",
+  "generatedAt": "2026-06-28T07:44:26.714Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -14,76 +14,17 @@
   },
   "syncedEffortLogs": [
     {
-      "id": "effort_mqmibsx5nts",
-      "startedAt": 1781968499146,
-      "endedAt": 1781968990505,
-      "seconds": 471,
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-20T15:23:10.505Z"
-    },
-    {
-      "id": "effort_mqmimvpp2uo",
-      "startedAt": 1781968993231,
-      "endedAt": 1781969507341,
-      "seconds": 502,
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-20T15:31:47.341Z"
-    },
-    {
-      "id": "effort_mqovm23v81u",
-      "startedAt": 1782111976567,
-      "endedAt": 1782112236331,
-      "seconds": 249,
+      "id": "effort_mqx5czqjrkj",
+      "startedAt": 1782607985686,
+      "endedAt": 1782612338923,
+      "seconds": 2567,
       "subject": "대수",
-      "method": "강의 시청",
-      "content": "대수 쎈 (26년 1, 2월) _ 6시 수업_완강 — 03.지수함수 301~357번, C단계 361, 365번 + 04.로그함수 개념 (6시 수업)",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-22T07:10:36.331Z"
-    },
-    {
-      "id": "effort_mqrkjhdf0yf",
-      "startedAt": 1782274844089,
-      "endedAt": 1782275038899,
-      "seconds": 186,
-      "subject": "확률과 통계",
-      "method": "강의 시청",
-      "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 56~62쪽 조건부확률",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-24T04:23:58.900Z"
-    },
-    {
-      "id": "effort_mqs5y5i35nd",
-      "startedAt": 1782307928824,
-      "endedAt": 1782310995291,
-      "seconds": 3022,
-      "subject": "과외",
       "method": "문제 풀이",
-      "content": "대수 및 가영 질문",
+      "content": "자이",
       "reflection": "",
       "sharedWithParent": false,
-      "createdAt": "2026-06-24T14:23:15.291Z"
-    },
-    {
-      "id": "effort_mqsw2ji9v5h",
-      "startedAt": 1782354749509,
-      "endedAt": 1782354870081,
-      "seconds": 113,
-      "subject": "확률과 통계",
-      "method": "강의 시청",
-      "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 56~62쪽 조건부확률",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-25T02:34:30.081Z"
+      "createdAt": "2026-06-28T02:05:38.924Z",
+      "updatedAt": "2026-06-28T02:57:08.970Z"
     }
   ],
   "syncedEffortDeletedIds": [
@@ -99,7 +40,13 @@
     "effort_mqkjiu9j5ar",
     "effort_mqiz2t3zh6i",
     "effort_mqiyy1zqc91",
-    "effort_mqrklrg8fps"
+    "effort_mqrklrg8fps",
+    "effort_mqsw2ji9v5h",
+    "effort_mqs5y5i35nd",
+    "effort_mqrkjhdf0yf",
+    "effort_mqovm23v81u",
+    "effort_mqmimvpp2uo",
+    "effort_mqmibsx5nts"
   ],
   "syncedLectureWatch": {
     "videos": {

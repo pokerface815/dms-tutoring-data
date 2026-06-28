@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T10:55:08.347Z",
+  "generatedAt": "2026-06-28T17:12:19.490Z",
   "student": {
     "id": "s_1780314459772_u5kn1l",
     "classes": [
@@ -37,8 +37,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-22",
-    "endDate": "2026-06-28"
+    "startDate": "2026-06-29",
+    "endDate": "2026-07-05"
   },
   "teacherConfirms": {
     "task_1780314584317_shnpdd__1": {

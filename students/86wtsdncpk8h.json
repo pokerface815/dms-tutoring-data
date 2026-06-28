@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-27T13:07:52.784Z",
+  "generatedAt": "2026-06-28T07:44:29.743Z",
   "student": {
     "id": "s_1777547014208_7l30nn",
     "classes": [
@@ -48,6 +48,30 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-06-27T06:46:39.985Z"
+    },
+    {
+      "id": "effort_mqwit8cccrk",
+      "startedAt": 1782568790221,
+      "endedAt": 1782574465404,
+      "seconds": 5654,
+      "subject": "국어",
+      "method": "문제 풀이",
+      "content": "22.3, 24.6 모의고사",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-27T15:34:25.404Z"
+    },
+    {
+      "id": "effort_mqx828ewf12",
+      "startedAt": 1782611889020,
+      "endedAt": 1782616875800,
+      "seconds": 4703,
+      "subject": "국어",
+      "method": "문제 풀이",
+      "content": "25.6,26,6 모의고사",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-28T03:21:15.802Z"
     }
   ],
   "syncedEffortDeletedIds": null,

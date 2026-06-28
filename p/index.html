@@ -347,11 +347,12 @@
     display: flex; flex-direction: column; gap: 5px;
   }
   .effort-legend-row {
-    display: grid; grid-template-columns: 12px 1fr auto;
-    gap: 7px; align-items: center; font-size: 11.5px;
+    display: flex; align-items: center; gap: 8px;
+    padding: 0 6px;
+    font-size: 11.5px;
   }
   .effort-legend-color {
-    width: 12px; height: 12px; border-radius: 50%;
+    width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0;
   }
   .effort-legend-name {
     color: var(--text); font-weight: 600; font-size: 12px;
@@ -367,7 +368,7 @@
   .bubble-s { font-size: 11px; fill: var(--text2); pointer-events: none; }
   .bubble-xs { font-size: 10px; fill: var(--text); pointer-events: none; }
   @media (max-width: 440px) {
-    .effort-pie-wrap { flex-direction: column; gap: 12px; }
+    .effort-pie-wrap { flex-direction: column; gap: 6px; }
     .effort-pie-legend { width: 100%; flex: none; }
   }
 
@@ -771,8 +772,8 @@
         const subj = n.data.subject;
         const timeText = fmtEffortDurationShort(n.data.seconds);
         if (n.r >= 32) {
-          svg += `<text x="${n.x.toFixed(2)}" y="${(n.y - 5).toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-l">${escapeHtml(subj)}</text>`;
-          svg += `<text x="${n.x.toFixed(2)}" y="${(n.y + 9).toFixed(2)}" text-anchor="middle" class="bubble-s">${escapeHtml(timeText)}</text>`;
+          svg += `<text x="${n.x.toFixed(2)}" y="${(n.y - 8).toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-l">${escapeHtml(subj)}</text>`;
+          svg += `<text x="${n.x.toFixed(2)}" y="${(n.y + 12).toFixed(2)}" text-anchor="middle" class="bubble-s">${escapeHtml(timeText)}</text>`;
         } else if (n.r >= 20) {
           svg += `<text x="${n.x.toFixed(2)}" y="${n.y.toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-m">${escapeHtml(subj)}</text>`;
         } else if (n.r >= 14) {

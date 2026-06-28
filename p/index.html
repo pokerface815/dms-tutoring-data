@@ -351,7 +351,7 @@
   }
   .effort-legend-row {
     display: flex; align-items: center; gap: 8px;
-    padding: 0 100px 0 6px;
+    padding: 0 25px;
     font-size: 11.5px;
   }
   .effort-legend-color {
@@ -374,7 +374,7 @@
   @media (max-width: 720px) {
     .effort-pie-wrap { flex-direction: column; row-gap: 4px; column-gap: 0; }
     .effort-pie-legend { width: 100%; flex: none; }
-    .effort-legend-row { padding: 0 50px; }
+    .effort-legend-row { padding: 0 25px; }
   }
 
   .effort-section-divider {
@@ -764,26 +764,47 @@
     if (valid.length === 0) return '';
 
     const size = 300;
-    let svg = `<svg class="effort-pie-svg" viewBox="0 0 ${size} ${size}" width="${size}" height="${size}">`;
+    let svgContent = '';
+    let viewBox = `0 0 ${size} ${size}`;
+    let displayH = size;
 
     if (typeof d3 !== 'undefined' && d3.hierarchy && d3.pack) {
       const data = { children: valid.map(([subject, seconds]) => ({ subject, seconds })) };
       const root = d3.hierarchy(data).sum(d => d.seconds);
       d3.pack().size([size, size]).padding(3)(root);
       const nodes = root.children || [];
+
+      // 실제 원들의 bounding box 계산 → 빈 영역 잘라내기
+      if (nodes.length > 0) {
+        let minX = size, minY = size, maxX = 0, maxY = 0;
+        for (const n of nodes) {
+          if (n.x - n.r < minX) minX = n.x - n.r;
+          if (n.y - n.r < minY) minY = n.y - n.r;
+          if (n.x + n.r > maxX) maxX = n.x + n.r;
+          if (n.y + n.r > maxY) maxY = n.y + n.r;
+        }
+        const pad = 4;
+        const vbX = Math.max(0, minX - pad);
+        const vbY = Math.max(0, minY - pad);
+        const vbW = Math.min(size, maxX + pad - vbX);
+        const vbH = Math.min(size, maxY + pad - vbY);
+        viewBox = `${vbX.toFixed(2)} ${vbY.toFixed(2)} ${vbW.toFixed(2)} ${vbH.toFixed(2)}`;
+        displayH = Math.round(size * vbH / vbW);
+      }
+
       for (const n of nodes) {
         const color = getSubjectColor(n.data.subject);
-        svg += `<circle cx="${n.x.toFixed(2)}" cy="${n.y.toFixed(2)}" r="${n.r.toFixed(2)}" fill="${color}"/>`;
+        svgContent += `<circle cx="${n.x.toFixed(2)}" cy="${n.y.toFixed(2)}" r="${n.r.toFixed(2)}" fill="${color}"/>`;
         const subj = n.data.subject;
         const timeText = fmtEffortDurationShort(n.data.seconds);
         if (n.r >= 32) {
-          svg += `<text x="${n.x.toFixed(2)}" y="${(n.y - 8).toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-l">${escapeHtml(subj)}</text>`;
-          svg += `<text x="${n.x.toFixed(2)}" y="${(n.y + 12).toFixed(2)}" text-anchor="middle" class="bubble-s">${escapeHtml(timeText)}</text>`;
+          svgContent += `<text x="${n.x.toFixed(2)}" y="${(n.y - 8).toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-l">${escapeHtml(subj)}</text>`;
+          svgContent += `<text x="${n.x.toFixed(2)}" y="${(n.y + 12).toFixed(2)}" text-anchor="middle" class="bubble-s">${escapeHtml(timeText)}</text>`;
         } else if (n.r >= 20) {
-          svg += `<text x="${n.x.toFixed(2)}" y="${n.y.toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-m">${escapeHtml(subj)}</text>`;
+          svgContent += `<text x="${n.x.toFixed(2)}" y="${n.y.toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-m">${escapeHtml(subj)}</text>`;
         } else if (n.r >= 14) {
           const short = subj.length > 4 ? subj.slice(0, 3) + '…' : subj;
-          svg += `<text x="${n.x.toFixed(2)}" y="${n.y.toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-xs">${escapeHtml(short)}</text>`;
+          svgContent += `<text x="${n.x.toFixed(2)}" y="${n.y.toFixed(2)}" text-anchor="middle" dominant-baseline="middle" class="bubble-xs">${escapeHtml(short)}</text>`;
         }
       }
     } else {
@@ -797,10 +818,10 @@
         const cy2 = row * cellSize + cellSize / 2;
         const maxR = cellSize / 2 - 4;
         const r2 = maxR * Math.sqrt(seconds / valid[0][1]);
-        svg += `<circle cx="${cx2}" cy="${cy2}" r="${r2}" fill="${getSubjectColor(subject)}"/>`;
+        svgContent += `<circle cx="${cx2}" cy="${cy2}" r="${r2}" fill="${getSubjectColor(subject)}"/>`;
       });
     }
-    svg += `</svg>`;
+    const svg = `<svg class="effort-pie-svg" viewBox="${viewBox}" width="${size}" height="${displayH}">${svgContent}</svg>`;
 
     let legend = `<div class="effort-pie-legend">`;
     valid.forEach(([subj, sec]) => {

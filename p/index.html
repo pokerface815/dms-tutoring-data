@@ -338,7 +338,9 @@
     margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
   }
   .effort-pie-wrap {
-    display: flex; gap: 16px;
+    display: flex;
+    column-gap: 16px;
+    row-gap: 4px;
     align-items: center; justify-content: center;
     flex-wrap: wrap;
   }
@@ -369,10 +371,10 @@
   .bubble-m { font-size: 12px; font-weight: 600; fill: var(--text); pointer-events: none; }
   .bubble-s { font-size: 11px; fill: var(--text2); pointer-events: none; }
   .bubble-xs { font-size: 10px; fill: var(--text); pointer-events: none; }
-  @media (max-width: 440px) {
-    .effort-pie-wrap { flex-direction: column; gap: 3px; }
+  @media (max-width: 720px) {
+    .effort-pie-wrap { flex-direction: column; row-gap: 4px; column-gap: 0; }
     .effort-pie-legend { width: 100%; flex: none; }
-    .effort-legend-row { padding-right: 60px; }
+    .effort-legend-row { padding: 0 50px; }
   }
 
   .effort-section-divider {
@@ -808,7 +810,7 @@
         <div class="effort-legend-row">
           <span class="effort-legend-color" style="background:${color};"></span>
           <span class="effort-legend-name">${escapeHtml(subj)}</span>
-          <span class="effort-legend-val">${fmtEffortDurationShort(sec)} · ${pct}%</span>
+          <span class="effort-legend-val">${fmtEffortDurationShort(sec)}(${pct}%)</span>
         </div>
       `;
     });

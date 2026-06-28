@@ -406,35 +406,6 @@
     "showNoteStages": true
   },
   {
-    "id": "s_1779628208770_oahez9",
-    "name": "박현우",
-    "school": "살레시오고",
-    "grade": "고2",
-    "class": "토,일 4시",
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-9967-7009",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "cs4z4c4u3t9u",
-    "classes": [
-      "cls_1780310061018_vay6zf"
-    ],
-    "showMakeNote": true,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true
-  },
-  {
     "id": "s_1779811264964_kbtli4",
     "name": "김한비",
     "school": "전사고",

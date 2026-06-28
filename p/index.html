@@ -337,11 +337,13 @@
     margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
   }
   .effort-pie-wrap {
-    display: flex; gap: 14px; align-items: center; flex-wrap: wrap;
+    display: flex; gap: 16px;
+    align-items: center; justify-content: center;
+    flex-wrap: wrap;
   }
-  .effort-pie-svg { flex-shrink: 0; }
+  .effort-pie-svg { flex-shrink: 0; max-width: 100%; height: auto; display: block; }
   .effort-pie-legend {
-    flex: 1; min-width: 140px;
+    flex: 0 1 220px; min-width: 160px;
     display: flex; flex-direction: column; gap: 5px;
   }
   .effort-legend-row {
@@ -360,12 +362,13 @@
     font-variant-numeric: tabular-nums; white-space: nowrap;
   }
   /* 버블 SVG 안의 라벨 */
-  .bubble-l { font-size: 12px; font-weight: 700; fill: var(--text); pointer-events: none; }
-  .bubble-m { font-size: 11px; font-weight: 600; fill: var(--text); pointer-events: none; }
-  .bubble-s { font-size: 10px; fill: var(--text2); pointer-events: none; }
-  .bubble-xs { font-size: 9.5px; fill: var(--text); pointer-events: none; }
-  @media (max-width: 380px) {
-    .effort-pie-wrap { gap: 10px; }
+  .bubble-l { font-size: 13px; font-weight: 700; fill: var(--text); pointer-events: none; }
+  .bubble-m { font-size: 12px; font-weight: 600; fill: var(--text); pointer-events: none; }
+  .bubble-s { font-size: 11px; fill: var(--text2); pointer-events: none; }
+  .bubble-xs { font-size: 10px; fill: var(--text); pointer-events: none; }
+  @media (max-width: 440px) {
+    .effort-pie-wrap { flex-direction: column; gap: 12px; }
+    .effort-pie-legend { width: 100%; flex: none; }
   }
 
   .effort-section-divider {
@@ -754,7 +757,7 @@
     const valid = sortedEntries.filter(([s, sec]) => sec > 0);
     if (valid.length === 0) return '';
 
-    const size = 200;
+    const size = 300;
     let svg = `<svg class="effort-pie-svg" viewBox="0 0 ${size} ${size}" width="${size}" height="${size}">`;
 
     if (typeof d3 !== 'undefined' && d3.hierarchy && d3.pack) {
@@ -837,11 +840,11 @@
   }
 
   function fmtEffortDurationShort(sec) {
-    if (!sec || sec <= 0) return '0m';
+    if (!sec || sec <= 0) return '0분';
     const h = Math.floor(sec / 3600);
     const m = Math.floor((sec % 3600) / 60);
-    if (h > 0) return m > 0 ? `${h}h ${m}m` : `${h}h`;
-    return `${m}m`;
+    if (h > 0) return m > 0 ? `${h}시간 ${m}분` : `${h}시간`;
+    return `${m}분`;
   }
 
   function renderAssignmentsSection(assignments) {

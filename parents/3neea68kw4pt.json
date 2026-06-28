@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T17:11:58.989Z",
+  "generatedAt": "2026-06-28T17:15:54.288Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -145,20 +145,30 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-28T16:07:19.141Z",
+    "uploadedAt": "2026-06-28T16:50:55.839Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 3240,
-      "streak": 1,
+      "todaySec": 3218,
+      "weekSec": 3218,
+      "monthSec": 6458,
+      "streak": 2,
       "bySubjectMonth": {
         "대수": 2567,
         "확률과 통계": 217,
         "미적분Ⅰ": 227,
-        "공통수학1": 229
+        "공통수학1": 229,
+        "기하": 3218
       }
     },
     "logs": [
+      {
+        "id": "effort_mqy0zh0bbcm",
+        "startedAt": 1782662223066,
+        "seconds": 3218,
+        "subject": "기하",
+        "method": "개념 정리",
+        "content": "개념원리",
+        "reflection": ""
+      },
       {
         "id": "effort_mqxra3ob30h",
         "startedAt": 1782648907429,

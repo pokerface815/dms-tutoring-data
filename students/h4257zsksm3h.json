@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-27T13:08:43.520Z",
+  "generatedAt": "2026-06-28T07:45:31.476Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -18,31 +18,32 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [
-    {
-      "assignmentId": "a_1782403414744_gfs5ie",
-      "noteName": "이현승_개념루트_전체",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-28",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1782403702902_w22008",
       "noteName": "이현승_자이스토리_수열의 합( ~I161번)",
       "subject": "대수",
       "round": 2,
       "plannedDate": "2026-06-28",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-06-28T07:44:18.600Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1782403414744_gfs5ie",
+      "noteName": "이현승_개념루트_전체",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-28",
+      "done": true,
+      "doneAt": "2026-06-28T07:44:17.642Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1782403702902_w22008",
       "noteName": "이현승_자이스토리_수열의 합( ~I161번)",
@@ -118,8 +119,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 2,
-    "percent": 50,
+    "done": 4,
+    "percent": 100,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

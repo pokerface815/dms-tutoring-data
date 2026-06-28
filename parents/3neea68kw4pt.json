@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T10:54:59.504Z",
+  "generatedAt": "2026-06-28T17:11:58.989Z",
   "showCompletionRate": true,
-  "showNoteStages": false,
+  "showNoteStages": true,
   "student": {
     "name": "문대승",
     "grade": "고3"
@@ -145,17 +145,47 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-28T02:57:08.977Z",
+    "uploadedAt": "2026-06-28T16:07:19.141Z",
     "summary": {
-      "todaySec": 2567,
-      "weekSec": 2567,
-      "monthSec": 2567,
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 3240,
       "streak": 1,
       "bySubjectMonth": {
-        "대수": 2567
+        "대수": 2567,
+        "확률과 통계": 217,
+        "미적분Ⅰ": 227,
+        "공통수학1": 229
       }
     },
     "logs": [
+      {
+        "id": "effort_mqxra3ob30h",
+        "startedAt": 1782648907429,
+        "seconds": 229,
+        "subject": "공통수학1",
+        "method": "문제 풀이",
+        "content": "테스트",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mqxp2dqjbiy",
+        "startedAt": 1782645197835,
+        "seconds": 227,
+        "subject": "미적분Ⅰ",
+        "method": "문제 풀이",
+        "content": "테스트",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mqxox7q667f",
+        "startedAt": 1782644969081,
+        "seconds": 217,
+        "subject": "확률과 통계",
+        "method": "문제 풀이",
+        "content": "퇴근",
+        "reflection": ""
+      },
       {
         "id": "effort_mqx5czqjrkj",
         "startedAt": 1782607985686,

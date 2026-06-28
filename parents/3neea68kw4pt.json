@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-27T13:08:00.925Z",
+  "generatedAt": "2026-06-28T07:44:25.147Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -145,72 +145,24 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-26T06:22:14.889Z",
+    "uploadedAt": "2026-06-28T02:57:08.977Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 3570,
-      "monthSec": 4543,
-      "streak": 0,
+      "todaySec": 2567,
+      "weekSec": 2567,
+      "monthSec": 2567,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 973,
-        "대수": 249,
-        "확률과 통계": 299,
-        "과외": 3022
+        "대수": 2567
       }
     },
     "logs": [
       {
-        "id": "effort_mqsw2ji9v5h",
-        "startedAt": 1782354749509,
-        "seconds": 113,
-        "subject": "확률과 통계",
-        "method": "강의 시청",
-        "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 56~62쪽 조건부확률",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqs5y5i35nd",
-        "startedAt": 1782307928824,
-        "seconds": 3022,
-        "subject": "과외",
-        "method": "문제 풀이",
-        "content": "대수 및 가영 질문",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqrkjhdf0yf",
-        "startedAt": 1782274844089,
-        "seconds": 186,
-        "subject": "확률과 통계",
-        "method": "강의 시청",
-        "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 56~62쪽 조건부확률",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqovm23v81u",
-        "startedAt": 1782111976567,
-        "seconds": 249,
+        "id": "effort_mqx5czqjrkj",
+        "startedAt": 1782607985686,
+        "seconds": 2567,
         "subject": "대수",
-        "method": "강의 시청",
-        "content": "대수 쎈 (26년 1, 2월) _ 6시 수업_완강 — 03.지수함수 301~357번, C단계 361, 365번 + 04.로그함수 개념 (6시 수업)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqmimvpp2uo",
-        "startedAt": 1781968993231,
-        "seconds": 502,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqmibsx5nts",
-        "startedAt": 1781968499146,
-        "seconds": 471,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "method": "문제 풀이",
+        "content": "자이",
         "reflection": ""
       }
     ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-27T13:09:22.158Z",
+  "generatedAt": "2026-06-28T07:46:24.422Z",
   "student": {
     "id": "s_1780821352355_cv63jr",
     "classes": [
@@ -18,20 +18,20 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1780821367626_4ynanq",
       "noteName": "국아인_개념루트_사인법칙과 코사인법칙( ~595번)",
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-28",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-06-28T07:44:14.250Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1781511394108_frgazt",
       "noteName": "국아인_개념루트_등차수열과 등비수열( ~709번)",
@@ -107,8 +107,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-06-22",
     "endDate": "2026-06-28"
   },

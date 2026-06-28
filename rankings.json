@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T17:12:30.621Z",
+  "generatedAt": "2026-06-28T17:15:15.478Z",
   "studentCount": 38,
   "rankings": [
     {
@@ -32,12 +32,12 @@
     },
     {
       "id": "s_1777547014208_7l30nn",
-      "totalSec": 25351,
+      "totalSec": 17598,
       "weekSec": 0,
-      "monthSec": 25351,
+      "monthSec": 17598,
       "streak": 2,
-      "nickname": "두다다다다다ㅏ다쿵",
-      "publicNickname": true
+      "nickname": "",
+      "publicNickname": false
     },
     {
       "id": "s_1777547047005_uo92w5",
@@ -158,11 +158,11 @@
     },
     {
       "id": "s_1780190418387_a11waf",
-      "totalSec": 3240,
-      "weekSec": 0,
-      "monthSec": 3240,
-      "streak": 1,
-      "nickname": "리학성",
+      "totalSec": 6458,
+      "weekSec": 3218,
+      "monthSec": 6458,
+      "streak": 2,
+      "nickname": "두다다쿵 거기 서라!!",
       "publicNickname": true
     },
     {

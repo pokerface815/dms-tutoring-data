@@ -340,7 +340,7 @@
   .effort-pie-wrap {
     display: flex;
     column-gap: 16px;
-    row-gap: 4px;
+    row-gap: 20px;
     align-items: center; justify-content: center;
     flex-wrap: wrap;
   }
@@ -372,7 +372,7 @@
   .bubble-s { font-size: 11px; fill: var(--text2); pointer-events: none; }
   .bubble-xs { font-size: 10px; fill: var(--text); pointer-events: none; }
   @media (max-width: 720px) {
-    .effort-pie-wrap { flex-direction: column; row-gap: 4px; column-gap: 0; }
+    .effort-pie-wrap { flex-direction: column; row-gap: 20px; column-gap: 0; }
     .effort-pie-legend { width: 100%; flex: none; }
     .effort-legend-row { padding: 0 25px; }
   }
@@ -783,7 +783,7 @@
           if (n.x + n.r > maxX) maxX = n.x + n.r;
           if (n.y + n.r > maxY) maxY = n.y + n.r;
         }
-        const pad = 4;
+        const pad = 12;
         const vbX = Math.max(0, minX - pad);
         const vbY = Math.max(0, minY - pad);
         const vbW = Math.min(size, maxX + pad - vbX);

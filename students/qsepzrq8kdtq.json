@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T10:54:25.206Z",
+  "generatedAt": "2026-06-28T17:12:47.752Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -16,7 +16,19 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1782105074967_33acrc",
+      "noteName": "김채린_수학의 바이블 유형 ON 1권_수열의 합( ~996번)",
+      "subject": "대수",
+      "round": 3,
+      "plannedDate": "2026-06-29",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [],
   "completed": [
@@ -262,11 +274,11 @@
     }
   ],
   "weekProgress": {
-    "total": 6,
-    "done": 6,
-    "percent": 100,
-    "startDate": "2026-06-22",
-    "endDate": "2026-06-28"
+    "total": 1,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-29",
+    "endDate": "2026-07-05"
   },
   "teacherConfirms": {},
   "tasks": [],

@@ -631,21 +631,22 @@
     display: block;
   }
   .effort-pie-legend {
-    flex: 0 1 220px; min-width: 160px;
+    flex: 0 1 320px; min-width: 240px;
     display: flex; flex-direction: column; gap: 4px;
   }
   .effort-legend-row {
-    display: flex; align-items: center; gap: 7px;
-    padding: 0 6px;  /* 좌우 여백으로 양 끝에 공간 확보, 가운데는 자연스럽게 붙임 */
+    display: flex; align-items: center; gap: 8px;
+    padding: 0 100px 0 6px;  /* 오른쪽 100px 여백 — 시간이 오른쪽 끝까지 가지 않게 */
     font-size: 11.5px;
   }
   .effort-legend-color { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
-  .effort-legend-name { color: var(--text); font-weight: 600; }
-  .effort-legend-val { color: var(--text2); font-variant-numeric: tabular-nums; font-size: 11px; }
-  /* 좁은 화면: 차트가 위, 범례가 아래 — 사이 여백 줄임 */
+  .effort-legend-name { flex: 1; color: var(--text); font-weight: 600; }
+  .effort-legend-val { color: var(--text2); font-variant-numeric: tabular-nums; font-size: 11px; flex-shrink: 0; }
+  /* 좁은 화면: 차트가 위, 범례가 아래 — 사이 여백 더 줄임 */
   @media (max-width: 440px) {
-    .effort-pie-wrap { flex-direction: column; gap: 6px; }
+    .effort-pie-wrap { flex-direction: column; gap: 3px; }
     .effort-pie-legend { width: 100%; flex: none; }
+    .effort-legend-row { padding-right: 60px; }  /* 모바일에서는 약간 줄임 */
   }
   /* 버블 SVG 안의 라벨 */
   .bubble-l { font-size: 13px; font-weight: 700; fill: var(--text); pointer-events: none; }

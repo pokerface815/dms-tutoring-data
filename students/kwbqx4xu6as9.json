@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T10:54:56.334Z",
+  "generatedAt": "2026-06-28T17:13:23.047Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -24,8 +24,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-22",
-    "endDate": "2026-06-28"
+    "startDate": "2026-06-29",
+    "endDate": "2026-07-05"
   },
   "teacherConfirms": {
     "task_1779949209580_wpk6og__1": {

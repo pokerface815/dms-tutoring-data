@@ -621,17 +621,30 @@
   .effort-day-log-reflection { font-size: 11px; color: var(--text2); margin-top: 4px; padding: 4px 6px; background: var(--surface); border-radius: 4px; line-height: 1.5; }
 
   /* 버블 차트 + 범례 */
-  .effort-pie-wrap { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
-  .effort-pie-legend { flex: 1; min-width: 140px; display: flex; flex-direction: column; gap: 4px; }
+  .effort-pie-wrap {
+    display: flex; gap: 16px;
+    align-items: center; justify-content: center;
+    flex-wrap: wrap;
+  }
+  .effort-bubble-svg {
+    flex-shrink: 0; max-width: 100%; height: auto;
+    display: block;
+  }
+  .effort-pie-legend { flex: 0 1 220px; min-width: 160px; display: flex; flex-direction: column; gap: 4px; }
   .effort-legend-row { display: flex; align-items: center; gap: 6px; font-size: 11.5px; }
   .effort-legend-color { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
   .effort-legend-name { flex: 1; color: var(--text); font-weight: 600; }
   .effort-legend-val { color: var(--text2); font-variant-numeric: tabular-nums; font-size: 11px; }
+  /* 좁은 화면: 차트가 위, 범례가 아래 */
+  @media (max-width: 440px) {
+    .effort-pie-wrap { flex-direction: column; gap: 12px; }
+    .effort-pie-legend { width: 100%; flex: none; }
+  }
   /* 버블 SVG 안의 라벨 */
-  .bubble-l { font-size: 12px; font-weight: 700; fill: var(--text); pointer-events: none; }
-  .bubble-m { font-size: 11px; font-weight: 600; fill: var(--text); pointer-events: none; }
-  .bubble-s { font-size: 10px; fill: var(--text2); pointer-events: none; }
-  .bubble-xs { font-size: 9.5px; fill: var(--text); pointer-events: none; }
+  .bubble-l { font-size: 13px; font-weight: 700; fill: var(--text); pointer-events: none; }
+  .bubble-m { font-size: 12px; font-weight: 600; fill: var(--text); pointer-events: none; }
+  .bubble-s { font-size: 11px; fill: var(--text2); pointer-events: none; }
+  .bubble-xs { font-size: 10px; fill: var(--text); pointer-events: none; }
 
   /* 기록 저장 모달 */
   .effort-modal-backdrop {
@@ -3816,9 +3829,9 @@
     const sorted = Object.entries(bySubject).filter(([s, sec]) => sec > 0).sort((a,b) => b[1] - a[1]);
     if (sorted.length === 0) return '';
 
-    const size = 200;
+    const size = 300;
     let html = `<div class="effort-pie-wrap">`;
-    html += `<svg viewBox="0 0 ${size} ${size}" width="${size}" height="${size}" style="flex-shrink:0;">`;
+    html += `<svg viewBox="0 0 ${size} ${size}" width="${size}" height="${size}" class="effort-bubble-svg">`;
 
     // d3-hierarchy의 pack()으로 버블 위치/크기 자동 계산
     if (typeof d3 !== 'undefined' && d3.hierarchy && d3.pack) {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T18:59:09.784Z",
+  "generatedAt": "2026-06-29T16:31:33.370Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -68,7 +68,7 @@
       "todaySec": 0,
       "weekSec": 0,
       "monthSec": 17598,
-      "streak": 2,
+      "streak": 0,
       "bySubjectMonth": {
         "수학": 1614,
         "영어": 4175,

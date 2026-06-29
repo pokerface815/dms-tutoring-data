@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T18:59:24.365Z",
+  "generatedAt": "2026-06-29T16:31:53.802Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,17 @@
       "ym": "2026-06",
       "label": "2026년 6월",
       "lessons": [
+        {
+          "date": "2026-06-29",
+          "weekday": "월",
+          "className": "조예나 개별",
+          "content": "교과서 마무리",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-06-27",
           "weekday": "토",
@@ -196,8 +207,8 @@
           "percent": 100
         },
         "4": {
-          "done": 7,
-          "total": 7,
+          "done": 8,
+          "total": 8,
           "percent": 100
         }
       }
@@ -227,47 +238,5 @@
     }
   ],
   "tests": [],
-  "effortLogs": {
-    "enabled": true,
-    "uploadedAt": "2026-06-25T01:56:00.950Z",
-    "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 243,
-      "streak": 0,
-      "bySubjectMonth": {
-        "대수": 160,
-        "미적분Ⅰ": 83
-      }
-    },
-    "logs": [
-      {
-        "id": "effort_mqsuozgb1mo",
-        "startedAt": 1782352458983,
-        "seconds": 83,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqqpkpuz2xh",
-        "startedAt": 1782222920226,
-        "seconds": 99,
-        "subject": "대수",
-        "method": "강의 시청",
-        "content": "대수 개념+유형 (26년 1월 ~ )_완강 — 228~233쪽 수학적 귀납법. 교재 끝.",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqqowytm8k3",
-        "startedAt": 1782221838546,
-        "seconds": 61,
-        "subject": "대수",
-        "method": "기타",
-        "content": "테스트",
-        "reflection": ""
-      }
-    ]
-  }
+  "effortLogs": null
 }

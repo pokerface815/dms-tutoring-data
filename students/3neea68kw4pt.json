@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T18:59:08.614Z",
+  "generatedAt": "2026-06-29T16:31:28.572Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -27,42 +27,6 @@
       "updatedAt": "2026-06-28T02:57:08.970Z"
     },
     {
-      "id": "effort_mqxox7q667f",
-      "startedAt": 1782644969081,
-      "endedAt": 1782645195101,
-      "seconds": 217,
-      "subject": "확률과 통계",
-      "method": "문제 풀이",
-      "content": "퇴근",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-28T11:13:15.103Z"
-    },
-    {
-      "id": "effort_mqxp2dqjbiy",
-      "startedAt": 1782645197835,
-      "endedAt": 1782645436171,
-      "seconds": 227,
-      "subject": "미적분Ⅰ",
-      "method": "문제 풀이",
-      "content": "테스트",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-28T11:17:16.171Z"
-    },
-    {
-      "id": "effort_mqxra3ob30h",
-      "startedAt": 1782648907429,
-      "endedAt": 1782649155611,
-      "seconds": 229,
-      "subject": "공통수학1",
-      "method": "문제 풀이",
-      "content": "테스트",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-28T12:19:15.611Z"
-    },
-    {
       "id": "effort_mqy0zh0bbcm",
       "startedAt": 1782662223066,
       "endedAt": 1782665455835,
@@ -73,6 +37,30 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-06-28T16:50:55.835Z"
+    },
+    {
+      "id": "effort_mqyn8harkwg",
+      "startedAt": 1782700863667,
+      "endedAt": 1782702827667,
+      "seconds": 1953,
+      "subject": "기하",
+      "method": "개념 정리",
+      "content": "개념원리",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-29T03:13:47.667Z"
+    },
+    {
+      "id": "effort_mqz8bjycamp",
+      "startedAt": 1782728727534,
+      "endedAt": 1782738243012,
+      "seconds": 2726,
+      "subject": "공통수학1",
+      "method": "문제 풀이",
+      "content": "테스트",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-29T13:04:03.012Z"
     }
   ],
   "syncedEffortDeletedIds": [
@@ -94,7 +82,10 @@
     "effort_mqrkjhdf0yf",
     "effort_mqovm23v81u",
     "effort_mqmimvpp2uo",
-    "effort_mqmibsx5nts"
+    "effort_mqmibsx5nts",
+    "effort_mqxra3ob30h",
+    "effort_mqxp2dqjbiy",
+    "effort_mqxox7q667f"
   ],
   "syncedLectureWatch": {
     "videos": {

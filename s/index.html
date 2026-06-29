@@ -1318,10 +1318,10 @@
       actionBar = `<div class="page-header-bar">
         <a href="javascript:history.back()" class="back-link">← 이전 화면으로</a>
         <div class="effort-top-tabs">
-          <button class="effort-top-tab ${_rankingTab==='streak'?'active':''}" onclick="switchRankingTab('streak')">연속</button>
           <button class="effort-top-tab ${_rankingTab==='week'?'active':''}" onclick="switchRankingTab('week')">이번 주</button>
           <button class="effort-top-tab ${_rankingTab==='month'?'active':''}" onclick="switchRankingTab('month')">이번 달</button>
           <button class="effort-top-tab ${_rankingTab==='total'?'active':''}" onclick="switchRankingTab('total')">누적</button>
+          <button class="effort-top-tab ${_rankingTab==='streak'?'active':''}" onclick="switchRankingTab('streak')">연속</button>
         </div>
       </div>`;
       body = renderRankingView(data);
@@ -2798,13 +2798,11 @@
     // 내 순위 카드 (상단)
     if (my) {
       const myValue = fmtRankingValue(tabKey, my[tabKey]);
-      const percentile = totalStudents > 0 ? Math.round((my._rank / totalStudents) * 100) : 0;
       html += `
         <div class="ranking-my-card">
           <div class="ranking-my-label">내 순위</div>
           <div class="ranking-my-rank">${my._rank}<span style="font-size:14px; font-weight:600;">위</span></div>
           <div class="ranking-my-value">${myValue}</div>
-          <div class="ranking-my-percentile">상위 ${percentile}%</div>
         </div>
       `;
     }
@@ -2872,13 +2870,12 @@
     if (!my) return '';
     const total = my._total || (_rankingData?.studentCount) || 1;
     if (total === 0) return '';
-    const percentile = Math.round((my._rank / total) * 100);
     const value = fmtRankingValue('weekSec', my.weekSec);
     return `
       <a href="#ranking" class="ranking-mini-card">
         <div class="ranking-mini-info">
           <div class="ranking-mini-title">이번 주 내 순위</div>
-          <div class="ranking-mini-meta">${value} · 상위 ${percentile}%</div>
+          <div class="ranking-mini-meta">${value}</div>
         </div>
         <div class="ranking-mini-rank">${my._rank}<span style="font-size:11px; font-weight:600;">/${total}</span></div>
         <div class="ranking-mini-arrow">›</div>

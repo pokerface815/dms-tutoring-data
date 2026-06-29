@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T18:59:26.706Z",
+  "generatedAt": "2026-06-29T16:31:57.143Z",
   "studentCount": 37,
   "rankings": [
     {
@@ -8,7 +8,7 @@
       "totalSec": 3657,
       "weekSec": 0,
       "monthSec": 3657,
-      "streak": 1,
+      "streak": 0,
       "nickname": "파송송계란탁",
       "publicNickname": true
     },
@@ -35,15 +35,15 @@
       "totalSec": 17598,
       "weekSec": 0,
       "monthSec": 17598,
-      "streak": 2,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1777547047005_uo92w5",
-      "totalSec": 243,
+      "totalSec": 0,
       "weekSec": 0,
-      "monthSec": 243,
+      "monthSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -95,11 +95,11 @@
     },
     {
       "id": "s_1778768401651_7hlihp",
-      "totalSec": 2826,
-      "weekSec": 0,
-      "monthSec": 2826,
-      "streak": 0,
-      "nickname": "경도를 기다리며",
+      "totalSec": 2857,
+      "weekSec": 31,
+      "monthSec": 2857,
+      "streak": 1,
+      "nickname": "HK2",
       "publicNickname": true
     },
     {
@@ -149,12 +149,12 @@
     },
     {
       "id": "s_1780190418387_a11waf",
-      "totalSec": 6458,
-      "weekSec": 3218,
-      "monthSec": 6458,
+      "totalSec": 10464,
+      "weekSec": 7897,
+      "monthSec": 10464,
       "streak": 2,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "리학성",
+      "publicNickname": true
     },
     {
       "id": "s_1780309053750_4dw5li",

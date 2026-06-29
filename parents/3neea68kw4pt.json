@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T18:59:07.616Z",
+  "generatedAt": "2026-06-29T16:31:26.959Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -145,21 +145,37 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-28T18:36:25.399Z",
+    "uploadedAt": "2026-06-29T13:04:03.016Z",
     "summary": {
-      "todaySec": 3218,
-      "weekSec": 3218,
-      "monthSec": 6458,
+      "todaySec": 0,
+      "weekSec": 7897,
+      "monthSec": 10464,
       "streak": 2,
       "bySubjectMonth": {
         "대수": 2567,
-        "확률과 통계": 217,
-        "미적분Ⅰ": 227,
-        "공통수학1": 229,
-        "기하": 3218
+        "기하": 5171,
+        "공통수학1": 2726
       }
     },
     "logs": [
+      {
+        "id": "effort_mqz8bjycamp",
+        "startedAt": 1782728727534,
+        "seconds": 2726,
+        "subject": "공통수학1",
+        "method": "문제 풀이",
+        "content": "테스트",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mqyn8harkwg",
+        "startedAt": 1782700863667,
+        "seconds": 1953,
+        "subject": "기하",
+        "method": "개념 정리",
+        "content": "개념원리",
+        "reflection": ""
+      },
       {
         "id": "effort_mqy0zh0bbcm",
         "startedAt": 1782662223066,
@@ -167,33 +183,6 @@
         "subject": "기하",
         "method": "개념 정리",
         "content": "개념원리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqxra3ob30h",
-        "startedAt": 1782648907429,
-        "seconds": 229,
-        "subject": "공통수학1",
-        "method": "문제 풀이",
-        "content": "테스트",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqxp2dqjbiy",
-        "startedAt": 1782645197835,
-        "seconds": 227,
-        "subject": "미적분Ⅰ",
-        "method": "문제 풀이",
-        "content": "테스트",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqxox7q667f",
-        "startedAt": 1782644969081,
-        "seconds": 217,
-        "subject": "확률과 통계",
-        "method": "문제 풀이",
-        "content": "퇴근",
         "reflection": ""
       },
       {

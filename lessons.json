@@ -495,5 +495,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-27T13:07:46.011Z",
     "updatedAt": "2026-06-27T13:07:46.011Z"
+  },
+  {
+    "id": "lesson_1782750681828_tvgk47",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-29",
+    "content": "교과서 마무리",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-29T16:31:21.828Z",
+    "updatedAt": "2026-06-29T16:31:21.828Z"
   }
 ]

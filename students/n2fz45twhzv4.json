@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T18:59:17.302Z",
+  "generatedAt": "2026-06-29T16:31:31.844Z",
   "student": {
     "id": "s_1778768401651_7hlihp",
     "classes": [
@@ -36,6 +36,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-06-26T03:11:22.895Z"
+    },
+    {
+      "id": "effort_mqyrj0qru31",
+      "startedAt": 1782710000359,
+      "endedAt": 1782710037891,
+      "seconds": 31,
+      "subject": "수학",
+      "method": "문제 풀이",
+      "content": "테트",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-29T05:13:57.891Z"
     }
   ],
   "syncedEffortDeletedIds": null,

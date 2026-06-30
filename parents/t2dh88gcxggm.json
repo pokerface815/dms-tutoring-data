@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T06:54:15.625Z",
+  "generatedAt": "2026-06-30T09:57:48.643Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -88,5 +88,21 @@
       "comment": "5번 문항을 제외한 2문제는 풀었어야 했던 문제임. 상 수준의 문항은 모두 맞췄음."
     }
   ],
-  "effortLogs": null
+  "effortLogs": null,
+  "academyEvents": [
+    {
+      "id": "ae_1782813386726_a9zpp",
+      "type": "closed",
+      "date": "2026-06-29",
+      "endDate": "2026-07-05",
+      "title": "여름 방항",
+      "content": "",
+      "target": {
+        "kind": "all"
+      },
+      "images": [],
+      "createdAt": "2026-06-30T09:56:26.725Z",
+      "updatedAt": "2026-06-30T09:56:26.725Z"
+    }
+  ]
 }

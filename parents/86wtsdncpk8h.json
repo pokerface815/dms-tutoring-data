@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T10:03:14.683Z",
+  "generatedAt": "2026-06-30T10:09:51.889Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -129,7 +129,7 @@
       "type": "closed",
       "date": "2026-06-29",
       "endDate": "2026-07-05",
-      "title": "여름 방항",
+      "title": "여름 방항2",
       "content": "",
       "target": {
         "kind": "all"
@@ -138,7 +138,7 @@
         "https://res.cloudinary.com/dyjtnb4he/image/upload/v1782813764/xjahmkaix2gdjcfalf4g.jpg"
       ],
       "createdAt": "2026-06-30T09:56:26.725Z",
-      "updatedAt": "2026-06-30T10:02:47.450Z"
+      "updatedAt": "2026-06-30T10:09:26.203Z"
     }
   ]
 }

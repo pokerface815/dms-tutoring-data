@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-30T02:36:56.529Z",
+  "generatedAt": "2026-06-30T02:38:37.800Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -52,21 +52,21 @@
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1780924991578_sd6w86",
       "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~36번)",
       "subject": "대수",
       "round": 4,
       "plannedDate": "2026-06-29",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-06-30T02:37:41.341Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1781628866853_g8jo39",
       "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법(고난도 3,4,5)",
@@ -414,24 +414,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1778509842286_m42zba",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~36번)",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-08",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:24.666Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-06-29",
     "endDate": "2026-07-05"
   },

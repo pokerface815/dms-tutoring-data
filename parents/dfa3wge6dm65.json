@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T06:54:26.553Z",
+  "generatedAt": "2026-06-30T09:58:05.641Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -85,5 +85,21 @@
       "comment": ""
     }
   ],
-  "effortLogs": null
+  "effortLogs": null,
+  "academyEvents": [
+    {
+      "id": "ae_1782813386726_a9zpp",
+      "type": "closed",
+      "date": "2026-06-29",
+      "endDate": "2026-07-05",
+      "title": "여름 방항",
+      "content": "",
+      "target": {
+        "kind": "all"
+      },
+      "images": [],
+      "createdAt": "2026-06-30T09:56:26.725Z",
+      "updatedAt": "2026-06-30T09:56:26.725Z"
+    }
+  ]
 }

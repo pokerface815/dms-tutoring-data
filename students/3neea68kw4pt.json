@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-30T02:39:02.570Z",
+  "generatedAt": "2026-06-30T06:54:12.343Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -148,38 +148,39 @@
   "syncedLectureDeletedVideoIds": [
     "AJE79srmVL8"
   ],
-  "today": [
-    {
-      "assignmentId": "a_1782787093023_n52cm3",
-      "noteName": "박다윤_마더텅_최고난도",
-      "subject": "기하",
-      "round": 1,
-      "plannedDate": "2026-06-30",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
-  "upcoming": [
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1782787093023_n52cm3",
       "noteName": "박다윤_마더텅_최고난도",
       "subject": "기하",
       "round": 2,
       "plannedDate": "2026-07-02",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-06-30T06:53:16.183Z",
       "missed": false,
-      "missedAt": null
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1782787093023_n52cm3",
+      "noteName": "박다윤_마더텅_최고난도",
+      "subject": "기하",
+      "round": 1,
+      "plannedDate": "2026-06-30",
+      "done": true,
+      "doneAt": "2026-06-30T06:53:13.355Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
-  "completed": [],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-06-29",
     "endDate": "2026-07-05"
   },
@@ -255,6 +256,10 @@
     "task_1782174981058_6nzm9i__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-23T01:01:39.445Z"
+    },
+    "task_1782787120020_658o2v__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-30T06:53:19.409Z"
     }
   },
   "tasks": [

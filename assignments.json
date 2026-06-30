@@ -2920,14 +2920,18 @@
       {
         "stage": 1,
         "planned": "2026-06-30",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-30T06:53:13.355Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,
         "planned": "2026-07-02",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-30T06:53:16.183Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 3,
@@ -2943,5 +2947,15 @@
       }
     ],
     "createdAt": "2026-06-30T02:38:13.023Z"
+  },
+  {
+    "id": "task_1782787120020_658o2v",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "테스트",
+    "dueDate": "2026-07-01",
+    "assignedAt": "2026-06-30T02:38:40.020Z",
+    "batchId": "t_mr01f5p0",
+    "repeat": null
   }
 ]

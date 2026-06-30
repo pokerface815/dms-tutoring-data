@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T09:56:54.448Z",
+  "generatedAt": "2026-06-30T10:03:09.628Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -73,9 +73,11 @@
       "target": {
         "kind": "all"
       },
-      "images": [],
+      "images": [
+        "https://res.cloudinary.com/dyjtnb4he/image/upload/v1782813764/xjahmkaix2gdjcfalf4g.jpg"
+      ],
       "createdAt": "2026-06-30T09:56:26.725Z",
-      "updatedAt": "2026-06-30T09:56:26.725Z"
+      "updatedAt": "2026-06-30T10:02:47.450Z"
     }
   ]
 }

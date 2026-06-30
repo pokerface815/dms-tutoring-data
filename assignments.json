@@ -2083,8 +2083,10 @@
       {
         "stage": 4,
         "planned": "2026-06-29",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-06-30T02:37:41.341Z",
+        "missed": false,
+        "missedAt": null
       }
     ],
     "createdAt": "2026-06-08T13:23:11.578Z"
@@ -2907,5 +2909,39 @@
       }
     ],
     "createdAt": "2026-06-25T16:46:45.680Z"
+  },
+  {
+    "id": "a_1782787093023_n52cm3",
+    "noteId": "note_1782743868754_vw3ajq",
+    "noteName": "박다윤_마더텅_최고난도",
+    "studentId": "s_1780190418387_a11waf",
+    "subject": "기하",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-06-30",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-07-02",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-07-07",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-07-21",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-06-30T02:38:13.023Z"
   }
 ]

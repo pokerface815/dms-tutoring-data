@@ -81,7 +81,7 @@
   .rate-fill { height: 100%; background: var(--purple); border-radius: 4px; transition: width 0.3s; }
   .rate-sub { font-size: 11px; color: var(--text3); margin-top: 6px; }
   /* 회차별 오답노트 진행률 */
-  .stage-list { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
+  .stage-list { display: flex; flex-direction: column; gap: 6px; margin-top: 8px; }
   .stage-row { display: flex; align-items: center; gap: 8px; font-size: 12px; }
   .stage-label {
     flex-shrink: 0; width: 28px; text-align: center;
@@ -91,10 +91,94 @@
   .stage-track { flex: 1; height: 7px; background: #e3d9f3; border-radius: 4px; overflow: hidden; }
   .stage-fill { height: 100%; background: var(--purple); border-radius: 4px; transition: width 0.3s; }
   .stage-text { flex-shrink: 0; font-size: 11px; color: var(--text2); min-width: 36px; text-align: right; }
+  /* 회차별 보기 토글 (details/summary) */
+  .stage-toggle {
+    margin-top: 10px;
+    border-top: 1px dashed var(--border);
+    padding-top: 8px;
+  }
+  .stage-toggle summary {
+    font-size: 12px;
+    color: var(--text2);
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    padding: 2px 0;
+    user-select: none;
+  }
+  .stage-toggle summary::-webkit-details-marker { display: none; }
+  .stage-toggle summary::before {
+    content: '▶';
+    font-size: 9px;
+    margin-right: 4px;
+    transition: transform 0.2s;
+    display: inline-block;
+  }
+  .stage-toggle[open] summary::before { transform: rotate(90deg); }
+
   .month-arrow { font-size: 12px; color: var(--text3); transition: transform 0.2s; }
   .month-card.open .month-arrow { transform: rotate(90deg); }
   .month-body { display: none; padding: 6px 18px 12px; }
   .month-card.open .month-body { display: block; }
+
+  /* 수업 캘린더 */
+  .lesson-cal {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .lesson-cal-row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    margin-bottom: 4px;
+  }
+  .lesson-cal-row:last-child { margin-bottom: 0; }
+  .lesson-cal-head {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+  }
+  .lesson-cal-wd {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text3);
+    padding: 2px 0;
+  }
+  .lesson-cal-day {
+    text-align: center;
+    font-size: 12.5px;
+    padding: 8px 2px;
+    border-radius: 6px;
+    color: var(--text2);
+    min-height: 34px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .lesson-cal-day.empty { color: transparent; }
+  .lesson-cal-day.has-lesson {
+    background: #eef5e2;
+    color: #2d4014;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #c3d8a4;
+  }
+  .lesson-cal-day.has-lesson:hover {
+    background: #d8e7be;
+  }
+  .lesson-cal-day.selected {
+    background: #84b96d;
+    color: #fff;
+    border-color: #5e8c4a;
+  }
+  .lesson-cal-hint {
+    font-size: 11px; color: var(--text3); text-align: center;
+    margin-top: 8px; margin-bottom: 4px;
+  }
+  .lesson-detail { margin-top: 6px; }
+  .lesson-detail:empty { display: none; }
 
   .lesson-item {
     padding: 14px;
@@ -608,13 +692,16 @@
             <div class="rate-sub">${rate.done}건 완료 / ${rate.total}건 (마감 지난 과제 기준)</div>
           </div>
         ` : '';
-        // 회차별 오답노트 진행률
+        // 오답노트 — 전체 완료율 + 회차별 토글
         const stages = m.noteStages;
         let stagesBar = '';
         if (stages) {
+          let totalDone = 0, totalAll = 0;
           const rows = [1,2,3,4].map(st => {
             const s = stages[st];
             if (!s || s.total === 0) return '';
+            totalDone += s.done;
+            totalAll += s.total;
             return `
               <div class="stage-row">
                 <span class="stage-label">${st}차</span>
@@ -624,15 +711,22 @@
             `;
           }).filter(Boolean).join('');
           if (rows) {
+            const overallPct = totalAll > 0 ? Math.round(totalDone / totalAll * 100) : 0;
             stagesBar = `
               <div class="rate-box">
-                <div class="rate-top"><span>이번 달 오답노트 진행</span></div>
-                <div class="stage-list">${rows}</div>
-                <div class="rate-sub">회차별로 풀이를 마친 비율 (마감 지난 회차 기준)</div>
+                <div class="rate-top"><span>이번 달 오답노트 완료율</span><b>${overallPct}%</b></div>
+                <div class="rate-track"><div class="rate-fill" style="width:${overallPct}%;"></div></div>
+                <div class="rate-sub">${totalDone}건 완료 / ${totalAll}건 (마감 지난 회차 기준)</div>
+                <details class="stage-toggle">
+                  <summary>회차별로 보기</summary>
+                  <div class="stage-list">${rows}</div>
+                </details>
               </div>
             `;
           }
         }
+        // 수업일지 — 캘린더 + 클릭으로 상세 펼침
+        const lessonsCalendar = renderMonthCalendar(m, idx);
         html += `
           <div class="month-card${openClass}">
             <div class="month-header" onclick="this.parentElement.classList.toggle('open')">
@@ -642,7 +736,7 @@
             <div class="month-body">
               ${rateBar}
               ${stagesBar}
-              ${m.lessons.map(renderLesson).join('')}
+              ${lessonsCalendar}
             </div>
           </div>
         `;
@@ -1062,6 +1156,91 @@
     html += '</div>';
     return html;
   }
+
+  // 월별 수업 캘린더 — 수업 있는 날 표시 + 클릭 시 해당 일지 펼침
+  function renderMonthCalendar(m, monthIdx) {
+    if (!m || !Array.isArray(m.lessons) || m.lessons.length === 0) {
+      return `<div style="font-size:13px; color:var(--text3); text-align:center; padding:14px;">아직 수업 기록이 없습니다.</div>`;
+    }
+    // m.label "2026년 6월" 형식에서 년/월 파싱
+    const match = (m.label || '').match(/(\d+)[년\.]+\s*(\d+)/);
+    if (!match) {
+      // 파싱 실패 시 폴백: 모든 일지를 그대로 표시 (기존 동작)
+      return m.lessons.map(renderLesson).join('');
+    }
+    const year = parseInt(match[1], 10);
+    const month = parseInt(match[2], 10);
+    const firstDay = new Date(year, month - 1, 1);
+    const lastDay = new Date(year, month, 0);
+    const daysInMonth = lastDay.getDate();
+    const firstWeekday = firstDay.getDay();  // 0=일
+
+    // 수업 있는 날 매핑: YYYY-MM-DD → lesson
+    const lessonByDate = {};
+    for (const l of m.lessons) {
+      if (l.date) lessonByDate[l.date] = l;
+    }
+
+    const pad2 = n => String(n).padStart(2, '0');
+    const monthPad = pad2(month);
+
+    let html = `<div class="lesson-cal" id="lesson-cal-${monthIdx}">`;
+    // 요일 헤더 (일~토)
+    html += `<div class="lesson-cal-row lesson-cal-head">`;
+    ['일','월','화','수','목','금','토'].forEach(w => {
+      html += `<div class="lesson-cal-wd">${w}</div>`;
+    });
+    html += `</div>`;
+
+    // 격자 (한 주 단위로 행 시작/종료)
+    let row = `<div class="lesson-cal-row">`;
+    for (let i = 0; i < firstWeekday; i++) row += `<div class="lesson-cal-day empty"></div>`;
+    let weekday = firstWeekday;
+    for (let d = 1; d <= daysInMonth; d++) {
+      const dateStr = `${year}-${monthPad}-${pad2(d)}`;
+      const lesson = lessonByDate[dateStr];
+      if (lesson) {
+        row += `<div class="lesson-cal-day has-lesson" data-date="${dateStr}" onclick="showMonthLesson(${monthIdx}, '${dateStr}')">${d}</div>`;
+      } else {
+        row += `<div class="lesson-cal-day">${d}</div>`;
+      }
+      weekday++;
+      if (weekday === 7 && d < daysInMonth) {
+        row += `</div>`;
+        html += row;
+        row = `<div class="lesson-cal-row">`;
+        weekday = 0;
+      }
+    }
+    // 마지막 주 끝까지 빈 칸
+    while (weekday < 7) {
+      row += `<div class="lesson-cal-day empty"></div>`;
+      weekday++;
+    }
+    row += `</div>`;
+    html += row;
+    html += `</div>`;
+    html += `<div class="lesson-cal-hint">날짜를 클릭하면 그날의 수업 일지가 표시됩니다.</div>`;
+    html += `<div class="lesson-detail" id="lesson-detail-${monthIdx}"></div>`;
+    return html;
+  }
+
+  // 캘린더 날짜 클릭 → 해당 일지를 캘린더 아래에 표시
+  window.showMonthLesson = function(monthIdx, dateStr) {
+    const m = (parentData && Array.isArray(parentData.months)) ? parentData.months[monthIdx] : null;
+    if (!m) return;
+    const lesson = (m.lessons || []).find(l => l.date === dateStr);
+    const container = document.getElementById('lesson-detail-' + monthIdx);
+    if (!container || !lesson) return;
+    container.innerHTML = renderLesson(lesson);
+    // 선택된 날짜 하이라이트
+    const cal = document.getElementById('lesson-cal-' + monthIdx);
+    if (cal) {
+      cal.querySelectorAll('.lesson-cal-day.selected').forEach(d => d.classList.remove('selected'));
+      const sel = cal.querySelector(`[data-date="${dateStr}"]`);
+      if (sel) sel.classList.add('selected');
+    }
+  };
 </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T06:54:11.319Z",
+  "generatedAt": "2026-06-30T09:57:41.984Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -127,5 +127,21 @@
       "comment": "최근에 본 테스트 모두 준우가 약한 단원 위주로 출제하고 있어서 오답이 많은 편입니다. 이차부등식 단원은 시험에 대한 예고가 되지 않아서 유독 많이 틀린 것 같습니다."
     }
   ],
-  "effortLogs": null
+  "effortLogs": null,
+  "academyEvents": [
+    {
+      "id": "ae_1782813386726_a9zpp",
+      "type": "closed",
+      "date": "2026-06-29",
+      "endDate": "2026-07-05",
+      "title": "여름 방항",
+      "content": "",
+      "target": {
+        "kind": "all"
+      },
+      "images": [],
+      "createdAt": "2026-06-30T09:56:26.725Z",
+      "updatedAt": "2026-06-30T09:56:26.725Z"
+    }
+  ]
 }

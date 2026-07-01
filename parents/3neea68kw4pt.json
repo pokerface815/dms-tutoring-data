@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T10:03:46.324Z",
+  "generatedAt": "2026-07-01T07:28:11.089Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -141,7 +141,13 @@
         "total": 3,
         "percent": 100
       },
-      "noteStages": null
+      "noteStages": {
+        "1": {
+          "done": 1,
+          "total": 1,
+          "percent": 100
+        }
+      }
     }
   ],
   "tests": [
@@ -166,13 +172,9 @@
     "summary": {
       "todaySec": 0,
       "weekSec": 7897,
-      "monthSec": 10464,
-      "streak": 2,
-      "bySubjectMonth": {
-        "대수": 2567,
-        "기하": 5171,
-        "공통수학1": 2726
-      }
+      "monthSec": 0,
+      "streak": 0,
+      "bySubjectMonth": {}
     },
     "logs": [
       {
@@ -213,22 +215,5 @@
       }
     ]
   },
-  "academyEvents": [
-    {
-      "id": "ae_1782813386726_a9zpp",
-      "type": "closed",
-      "date": "2026-06-29",
-      "endDate": "2026-07-05",
-      "title": "여름 방항",
-      "content": "",
-      "target": {
-        "kind": "all"
-      },
-      "images": [
-        "https://res.cloudinary.com/dyjtnb4he/image/upload/v1782813764/xjahmkaix2gdjcfalf4g.jpg"
-      ],
-      "createdAt": "2026-06-30T09:56:26.725Z",
-      "updatedAt": "2026-06-30T10:02:47.450Z"
-    }
-  ]
+  "academyEvents": []
 }

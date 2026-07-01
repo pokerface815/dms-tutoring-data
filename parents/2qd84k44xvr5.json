@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T11:07:51.078Z",
+  "generatedAt": "2026-07-01T05:21:03.250Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -52,11 +52,9 @@
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
-      "monthSec": 3657,
+      "monthSec": 0,
       "streak": 0,
-      "bySubjectMonth": {
-        "수학": 3657
-      }
+      "bySubjectMonth": {}
     },
     "logs": [
       {

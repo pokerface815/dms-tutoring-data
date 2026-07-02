@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T07:28:11.089Z",
+  "generatedAt": "2026-07-02T03:39:46.341Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -168,15 +168,26 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-06-29T13:04:03.016Z",
+    "uploadedAt": "2026-07-01T08:35:25.325Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 7897,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "weekSec": 9725,
+      "monthSec": 1828,
+      "streak": 1,
+      "bySubjectMonth": {
+        "대수": 1828
+      }
     },
     "logs": [
+      {
+        "id": "effort_mr1tlssqwem",
+        "startedAt": 1782891186358,
+        "seconds": 1828,
+        "subject": "대수",
+        "method": "문제 풀이",
+        "content": "인성고 프린트",
+        "reflection": ""
+      },
       {
         "id": "effort_mqz8bjycamp",
         "startedAt": 1782728727534,

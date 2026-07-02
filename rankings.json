@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T11:07:46.842Z",
+  "generatedAt": "2026-07-02T03:40:14.873Z",
   "studentCount": 37,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
       "totalSec": 3657,
       "weekSec": 0,
-      "monthSec": 3657,
+      "monthSec": 0,
       "streak": 0,
       "nickname": "파송송계란탁",
       "publicNickname": true
@@ -34,7 +34,7 @@
       "id": "s_1777547014208_7l30nn",
       "totalSec": 17598,
       "weekSec": 0,
-      "monthSec": 17598,
+      "monthSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -97,8 +97,8 @@
       "id": "s_1778768401651_7hlihp",
       "totalSec": 2857,
       "weekSec": 31,
-      "monthSec": 2857,
-      "streak": 1,
+      "monthSec": 0,
+      "streak": 0,
       "nickname": "HK2",
       "publicNickname": true
     },
@@ -149,10 +149,10 @@
     },
     {
       "id": "s_1780190418387_a11waf",
-      "totalSec": 10464,
-      "weekSec": 7897,
-      "monthSec": 10464,
-      "streak": 2,
+      "totalSec": 12292,
+      "weekSec": 9725,
+      "monthSec": 1828,
+      "streak": 1,
       "nickname": "리학성",
       "publicNickname": true
     },
@@ -196,7 +196,7 @@
       "id": "s_1780314459772_u5kn1l",
       "totalSec": 2275,
       "weekSec": 0,
-      "monthSec": 2275,
+      "monthSec": 0,
       "streak": 0,
       "nickname": "타이거즈",
       "publicNickname": true
@@ -223,7 +223,7 @@
       "id": "s_1780314459772_frngyj",
       "totalSec": 4742,
       "weekSec": 0,
-      "monthSec": 4742,
+      "monthSec": 0,
       "streak": 0,
       "nickname": "살레시안",
       "publicNickname": true
@@ -232,7 +232,7 @@
       "id": "s_1780314459772_jsjhe4",
       "totalSec": 1090,
       "weekSec": 0,
-      "monthSec": 1090,
+      "monthSec": 0,
       "streak": 0,
       "nickname": "Q.E.D",
       "publicNickname": true
@@ -304,7 +304,7 @@
       "id": "s_1780825552050_3a3ma5",
       "totalSec": 635,
       "weekSec": 0,
-      "monthSec": 635,
+      "monthSec": 0,
       "streak": 0,
       "nickname": "메타몽",
       "publicNickname": true

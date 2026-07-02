@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-01T07:27:21.412Z",
+  "generatedAt": "2026-07-02T13:46:00.594Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -290,12 +290,14 @@
       "semester": "1",
       "subject": "대수",
       "examKind": "중간",
-      "score": 54,
+      "score": 55,
       "grade": 2,
       "rank": null,
+      "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-01T16:28:49.439Z",
       "createdAt": "2026-06-10T13:50:07.489Z"
     }
   ]

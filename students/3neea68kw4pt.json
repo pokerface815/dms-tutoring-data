@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-01T07:28:09.325Z",
+  "generatedAt": "2026-07-02T03:39:48.045Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -61,6 +61,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-06-29T13:04:03.012Z"
+    },
+    {
+      "id": "effort_mr1tlssqwem",
+      "startedAt": 1782891186358,
+      "endedAt": 1782894925322,
+      "seconds": 1828,
+      "subject": "대수",
+      "method": "문제 풀이",
+      "content": "인성고 프린트",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-01T08:35:25.322Z"
     }
   ],
   "syncedEffortDeletedIds": [

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-03T18:31:33.458Z",
+  "generatedAt": "2026-07-03T20:35:45.288Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -162,17 +162,26 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-01T08:35:25.325Z",
+    "uploadedAt": "2026-07-03T19:32:13.808Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 9725,
-      "monthSec": 1828,
-      "streak": 0,
+      "todaySec": 7023,
+      "weekSec": 16748,
+      "monthSec": 8851,
+      "streak": 1,
       "bySubjectMonth": {
-        "대수": 1828
+        "대수": 8851
       }
     },
     "logs": [
+      {
+        "id": "effort_mr5by5ws7ek",
+        "startedAt": 1783100103226,
+        "seconds": 7023,
+        "subject": "대수",
+        "method": "문제 풀이",
+        "content": "타이핑",
+        "reflection": ""
+      },
       {
         "id": "effort_mr1tlssqwem",
         "startedAt": 1782891186358,

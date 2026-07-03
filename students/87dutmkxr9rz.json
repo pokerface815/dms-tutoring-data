@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-03T04:45:18.435Z",
+  "generatedAt": "2026-07-03T05:44:45.310Z",
   "student": {
     "id": "s_1780821352355_cv63jr",
     "classes": [
@@ -16,33 +16,9 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1783053668774_og0e35",
-      "noteName": "서연준_개념루트_수업시간",
-      "subject": "확률과 통계",
-      "round": 1,
-      "plannedDate": "2026-07-03",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
-  "upcoming": [
-    {
-      "assignmentId": "a_1783053668774_og0e35",
-      "noteName": "서연준_개념루트_수업시간",
-      "subject": "확률과 통계",
-      "round": 2,
-      "plannedDate": "2026-07-05",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1780821367626_4ynanq",
@@ -130,7 +106,7 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
+    "total": 0,
     "done": 0,
     "percent": 0,
     "startDate": "2026-06-29",

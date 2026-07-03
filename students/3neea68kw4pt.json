@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-03T17:08:59.482Z",
+  "generatedAt": "2026-07-03T18:31:32.159Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -163,36 +163,11 @@
   "today": [],
   "overdue": [],
   "upcoming": [],
-  "completed": [
-    {
-      "assignmentId": "a_1782787093023_n52cm3",
-      "noteName": "박다윤_마더텅_최고난도",
-      "subject": "기하",
-      "round": 2,
-      "plannedDate": "2026-07-02",
-      "done": true,
-      "doneAt": "2026-06-30T06:53:16.183Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1782787093023_n52cm3",
-      "noteName": "박다윤_마더텅_최고난도",
-      "subject": "기하",
-      "round": 1,
-      "plannedDate": "2026-06-30",
-      "done": true,
-      "doneAt": "2026-06-30T06:53:13.355Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    }
-  ],
+  "completed": [],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
+    "total": 0,
+    "done": 0,
+    "percent": 0,
     "startDate": "2026-06-29",
     "endDate": "2026-07-05"
   },

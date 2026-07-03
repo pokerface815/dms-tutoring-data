@@ -623,6 +623,16 @@
       "중간": true,
       "기말": true,
       "최종": true
+    },
+    "pdfsByExamKind": {
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1783062083/wibmpyf784utgtznvxqs.jpg",
+          "name": "2026 고2-1 기말 확통 살레시오고.jpg",
+          "type": "image",
+          "uploadedAt": "2026-07-03T07:01:25.680Z"
+        }
+      ]
     }
   },
   {

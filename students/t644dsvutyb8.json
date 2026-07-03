@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-03T04:44:56.382Z",
+  "generatedAt": "2026-07-03T05:44:30.301Z",
   "student": {
     "id": "s_1780314459772_frngyj",
     "classes": [
@@ -29,24 +29,12 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1783053654764_saroo3",
-      "noteName": "서연준_개념루트_수업시간",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-07-03",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [],
   "completed": [],
   "weekProgress": {
-    "total": 1,
+    "total": 0,
     "done": 0,
     "percent": 0,
     "startDate": "2026-06-29",

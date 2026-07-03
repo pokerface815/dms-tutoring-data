@@ -432,7 +432,9 @@
     "examInfoByExamKind": {
       "기말": "교과서, 부교재"
     },
-    "commentsByExamKind": {},
+    "commentsByExamKind": {
+      "기말": "17번 - 09년 11월 고2 기출, 21번 - 쎈 - 수학적 귀납법 C단계"
+    },
     "teacher": "최진영",
     "textbookPublisher": "",
     "supplementaryBook": "개념루트",

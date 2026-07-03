@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-03T18:31:32.159Z",
+  "generatedAt": "2026-07-03T20:35:46.434Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -73,6 +73,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-07-01T08:35:25.322Z"
+    },
+    {
+      "id": "effort_mr5by5ws7ek",
+      "startedAt": 1783100103226,
+      "endedAt": 1783107133804,
+      "seconds": 7023,
+      "subject": "대수",
+      "method": "문제 풀이",
+      "content": "타이핑",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-03T19:32:13.804Z"
     }
   ],
   "syncedEffortDeletedIds": [

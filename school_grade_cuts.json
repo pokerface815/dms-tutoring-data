@@ -426,8 +426,12 @@
     "subject": "대수",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
-    "examInfoByExamKind": {},
+    "notesByExamKind": {
+      "기말": "삼각함수의 그래프, 삼각함수의 활용(사인법칙, 코사인법칙), 수열"
+    },
+    "examInfoByExamKind": {
+      "기말": "교과서, 부교재"
+    },
     "commentsByExamKind": {},
     "teacher": "최진영",
     "textbookPublisher": "",
@@ -436,7 +440,8 @@
       "최종": true,
       "기말": true,
       "중간": true
-    }
+    },
+    "extraNote": ""
   },
   {
     "id": "scut_mq9q9caefjm",

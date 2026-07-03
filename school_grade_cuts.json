@@ -613,7 +613,9 @@
     "subject": "확률과 통계",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
+    "notesByExamKind": {
+      "기말": "통계 전체"
+    },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
     "teacher": "",
@@ -639,7 +641,8 @@
           "uploadedAt": "2026-07-03T07:06:35.687Z"
         }
       ]
-    }
+    },
+    "extraNote": ""
   },
   {
     "id": "scut_mq9rf5fji6o",

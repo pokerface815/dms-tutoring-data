@@ -2911,44 +2911,6 @@
     "createdAt": "2026-06-25T16:46:45.680Z"
   },
   {
-    "id": "a_1782787093023_n52cm3",
-    "noteId": "note_1782743868754_vw3ajq",
-    "noteName": "박다윤_마더텅_최고난도",
-    "studentId": "s_1780190418387_a11waf",
-    "subject": "기하",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-06-30",
-        "actualDone": true,
-        "doneAt": "2026-06-30T06:53:13.355Z",
-        "missed": false,
-        "missedAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-07-02",
-        "actualDone": true,
-        "doneAt": "2026-06-30T06:53:16.183Z",
-        "missed": false,
-        "missedAt": null
-      },
-      {
-        "stage": 3,
-        "planned": "2026-07-07",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 4,
-        "planned": "2026-07-21",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-06-30T02:38:13.023Z"
-  },
-  {
     "id": "task_1782787120020_658o2v",
     "type": "task",
     "studentId": "s_1780190418387_a11waf",

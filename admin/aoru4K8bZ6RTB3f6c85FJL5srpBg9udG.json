@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-04T04:18:45.704Z",
+  "generatedAt": "2026-07-04T04:58:13.885Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 37,
+  "studentCount": 38,
   "baseUrl": "",
   "students": [
     {
@@ -337,6 +337,15 @@
       "className": "토,일 4시",
       "studentPageCode": "5yjt33jqznrm",
       "parentPageCode": "5yjt33jqznrm"
+    },
+    {
+      "id": "s_1783141077746_ni5332",
+      "name": "손아현",
+      "grade": "고2",
+      "school": "전사고",
+      "className": "토,일 2시",
+      "studentPageCode": "sh6vd3qrcfab",
+      "parentPageCode": "sh6vd3qrcfab"
     }
   ]
 }

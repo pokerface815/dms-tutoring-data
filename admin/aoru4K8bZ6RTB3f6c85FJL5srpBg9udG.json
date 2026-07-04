@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-04T04:58:13.885Z",
+  "generatedAt": "2026-07-04T06:05:05.304Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 38,
+  "studentCount": 39,
   "baseUrl": "",
   "students": [
     {
@@ -346,6 +346,15 @@
       "className": "토,일 2시",
       "studentPageCode": "sh6vd3qrcfab",
       "parentPageCode": "sh6vd3qrcfab"
+    },
+    {
+      "id": "s_1783145087770_b6wsph",
+      "name": "송린우",
+      "grade": "고2",
+      "school": "경신여고",
+      "className": "토,일 2시",
+      "studentPageCode": "pj9fc48qgnyt",
+      "parentPageCode": "pj9fc48qgnyt"
     }
   ]
 }

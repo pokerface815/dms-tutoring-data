@@ -984,5 +984,33 @@
     "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "sh6vd3qrcfab"
+  },
+  {
+    "id": "s_1783145087770_b6wsph",
+    "name": "송린우",
+    "school": "경신여고",
+    "grade": "고2",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-4221-2189",
+    "parentPhone": "010-4602-7578",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "pj9fc48qgnyt"
   }
 ]

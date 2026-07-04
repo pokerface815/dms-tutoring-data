@@ -1,0 +1,21 @@
+{
+  "id": "ann_mq3lka6fhwn1",
+  "sentAt": "2026-07-04T13:59:53.528364+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "노태원",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "정시우",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 2,
+  "failCount": 0
+}

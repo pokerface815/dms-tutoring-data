@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-04T04:59:32.947Z",
+  "student": {
+    "id": "s_1783141077746_ni5332",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
+    "name": "손아현",
+    "school": "전사고",
+    "grade": "고2",
+    "class": "",
+    "showMakeNote": true
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-29",
+    "endDate": "2026-07-05"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

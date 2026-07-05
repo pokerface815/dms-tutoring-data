@@ -1012,33 +1012,5 @@
     "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "pj9fc48qgnyt"
-  },
-  {
-    "id": "s_1783216611349_dk3iac",
-    "name": "ㅁㄴㅇㄹㅁㄴㄹㅇ",
-    "school": "창평고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780355764530_wxb5as"
-    ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": false,
-    "showMakeNote": false,
-    "pageCode": "mzqjpp8xay5v"
   }
 ]

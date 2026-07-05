@@ -405,9 +405,15 @@
     "subject": "대수",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
-    "examInfoByExamKind": {},
-    "commentsByExamKind": {},
+    "notesByExamKind": {
+      "기말": "삼각함수의 그래프, 삼각함수의 활용(사인법칙, 코사인법칙, 넓이), 수열(등차수열, 등비수열, 수열의 합, 수학적 귀납법)"
+    },
+    "examInfoByExamKind": {
+      "기말": "부교재"
+    },
+    "commentsByExamKind": {
+      "기말": "모든 문항 객관식"
+    },
     "teacher": "고민우",
     "textbookPublisher": "",
     "supplementaryBook": "개념루트, 자이스토리",
@@ -415,7 +421,8 @@
       "중간": true,
       "기말": true,
       "최종": true
-    }
+    },
+    "extraNote": ""
   },
   {
     "id": "scut_mq9q8obtrpu",

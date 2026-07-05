@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-05T02:21:12.536Z",
+  "generatedAt": "2026-07-05T02:29:49.934Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 39,
+  "studentCount": 40,
   "baseUrl": "",
   "students": [
     {
@@ -355,6 +355,15 @@
       "className": "토,일 2시",
       "studentPageCode": "pj9fc48qgnyt",
       "parentPageCode": "pj9fc48qgnyt"
+    },
+    {
+      "id": "s_1783218582519_jebpco",
+      "name": "문ㅁㄴㅇㄹ",
+      "grade": "고2",
+      "school": "창평고",
+      "className": "S",
+      "studentPageCode": "v2jjxg7vd7rg",
+      "parentPageCode": "v2jjxg7vd7rg"
     }
   ]
 }

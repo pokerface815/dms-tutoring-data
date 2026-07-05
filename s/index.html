@@ -5112,8 +5112,9 @@
 
     return `
       <details style="background:var(--surface2); border:1px solid var(--border); border-radius:8px; padding:10px 12px; margin-bottom:14px;" ${isOpenByDefault ? 'open' : ''}>
-        <summary style="cursor:pointer; font-size:13px; font-weight:700; color:var(--text); user-select:none;">
-          🃏 시험 정보 카드가 없어서 입력 못했나요? (선생님께 요청 보내기)${totalCount > 0 ? ` <span style="font-size:11px; color:var(--accent); font-weight:600;">${totalCount}건</span>` : ''}
+        <summary style="cursor:pointer; font-size:13px; font-weight:700; color:var(--text); user-select:none; line-height:1.5;">
+          시험 정보 카드가 없어서 입력 못 했나요?<br>
+          선생님께 요청 보내기${totalCount > 0 ? ` <span style="font-size:11px; color:var(--accent); font-weight:600;">${totalCount}건</span>` : ''}
         </summary>
         <div style="margin-top:10px;">
           ${inner}

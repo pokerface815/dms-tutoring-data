@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -4654,6 +4655,7 @@
   // ===== 내 성적 입력 =====
   let cachedSchoolGradeCuts = null;
   let cachedLocalDrafts = {};  // { entryId__examKind: {score, grade, rank, percent, savedAt} }
+  let cachedCutsDrafts = {};   // { entryId__examKind: {cuts:[c1,c2,c3,c4], savedAt, sentAt} } — 학생이 아는 등급컷 (선택 입력)
 
   function loadLocalDrafts() {
     try {
@@ -4664,9 +4666,19 @@
   function saveLocalDrafts() {
     try { localStorage.setItem('mySchoolGradeDrafts__' + studentCode, JSON.stringify(cachedLocalDrafts)); } catch (e) {}
   }
+  function loadCutsDrafts() {
+    try {
+      const raw = localStorage.getItem('myGradeCutsDrafts__' + studentCode);
+      if (raw) cachedCutsDrafts = JSON.parse(raw) || {};
+    } catch (e) { cachedCutsDrafts = {}; }
+  }
+  function saveCutsDrafts() {
+    try { localStorage.setItem('myGradeCutsDrafts__' + studentCode, JSON.stringify(cachedCutsDrafts)); } catch (e) {}
+  }
 
   async function loadGradeExams() {
     loadLocalDrafts();
+    loadCutsDrafts();
     loadMockDrafts();
     const myGrades = (studentData || {}).myGrades || [];
     // 성적 관리 메인 — 그래프만
@@ -4857,6 +4869,35 @@
           `;
         }
 
+        // 학생이 아는 등급컷 입력 (선택) — 고등학생만
+        const cutsDraft = cachedCutsDrafts[draftKey] || {};
+        const cutsArr = Array.isArray(cutsDraft.cuts) ? cutsDraft.cuts : [null, null, null, null];
+        const teacherCuts = (c.cutsByExamKind || {})[ek] || null;  // 통합본에 등록된 등급컷 (있으면 참고용)
+        const hasCutsDraft = cutsArr.some(v => v != null && v !== '');
+        const cutsSectionOpen = hasCutsDraft;  // 이미 입력한 값이 있으면 자동으로 펼침
+        const cutsSection = !isMid ? `
+            <details style="margin-top:10px; background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:8px 10px;" ${cutsSectionOpen ? 'open' : ''}>
+              <summary style="cursor:pointer; font-size:12px; font-weight:600; color:var(--text2); user-select:none;">📊 이 시험의 등급컷을 알아요 (선택)</summary>
+              <div style="display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap:6px; margin-top:8px;">
+                ${[0,1,2,3].map(i => `
+                  <div>
+                    <label class="gi-label" style="font-size:10.5px;">${i+1}등급컷</label>
+                    <input type="number" min="0" max="100" class="gi-input cuts-input"
+                      data-cuts-key="${draftKey}" data-cuts-idx="${i}"
+                      value="${cutsArr[i] ?? ''}"
+                      placeholder="${teacherCuts && teacherCuts[i] != null ? teacherCuts[i] : '?'}"
+                      style="padding:5px 6px; font-size:12px;">
+                  </div>
+                `).join('')}
+              </div>
+              <div style="font-size:10.5px; color:var(--text3); margin-top:6px; line-height:1.5;">
+                ${teacherCuts ? `선생님 등록: <b>${teacherCuts.map(v => v ?? '?').join(' / ')}</b><br>` : ''}
+                선생님이 확인 후 반영합니다. 모르는 등급은 비워두세요.
+                ${cutsDraft.sentAt ? `<br><span style="color:var(--success); font-weight:600;">✓ ${formatRelativeTime(new Date(cutsDraft.sentAt))} 전송됨</span>` : ''}
+              </div>
+            </details>
+          ` : '';
+
         html += `
           <div style="margin-top:12px; padding:12px; background:var(--surface2); border-radius:8px;">
             <div style="font-weight:600; color:#5a3a9e; margin-bottom:8px; font-size:13.5px;">${ek}</div>
@@ -4867,6 +4908,7 @@
               <label class="gi-label">반성 · 다짐</label>
               <textarea class="gi-input reflection-input" data-reflection-key="${reflectionDraftKey}" rows="3" placeholder="예: 계산 실수 많았음. 다음엔 검산 두 번 하자!">${escapeHtml(currentReflection)}</textarea>
             </div>
+            ${cutsSection}
             ${(d.sentAt && !hasScore) ? `<div style="font-size:11px; color:var(--success); margin-top:6px; font-weight:600;">✓ ${formatRelativeTime(new Date(d.sentAt))} 저장됨</div>` : ((d.savedAt && !hasScore) ? `<div style="font-size:11px; color:var(--text3); margin-top:6px;">임시저장됨 (아직 저장 안 함)</div>` : '')}
           </div>
         `;
@@ -4875,13 +4917,29 @@
     }
     wrap.innerHTML = html;
 
-    wrap.querySelectorAll('.gi-input:not(.reflection-input)').forEach(el => {
+    wrap.querySelectorAll('.gi-input:not(.reflection-input):not(.cuts-input)').forEach(el => {
       el.addEventListener('input', () => {
         const k = el.dataset.key;
         const f = el.dataset.field;
         if (!cachedLocalDrafts[k]) cachedLocalDrafts[k] = {};
         cachedLocalDrafts[k][f] = el.value;
         saveLocalDrafts();
+      });
+    });
+    wrap.querySelectorAll('.cuts-input').forEach(el => {
+      el.addEventListener('input', () => {
+        const k = el.dataset.cutsKey;
+        const idx = parseInt(el.dataset.cutsIdx, 10);
+        if (!cachedCutsDrafts[k]) cachedCutsDrafts[k] = { cuts: [null, null, null, null] };
+        if (!Array.isArray(cachedCutsDrafts[k].cuts) || cachedCutsDrafts[k].cuts.length < 4) {
+          cachedCutsDrafts[k].cuts = [null, null, null, null];
+        }
+        const v = el.value.trim();
+        cachedCutsDrafts[k].cuts[idx] = (v === '') ? null : Number(v);
+        cachedCutsDrafts[k].savedAt = new Date().toISOString();
+        // 입력값이 바뀌면 sentAt 무효화 (재전송 필요)
+        if (cachedCutsDrafts[k].sentAt) delete cachedCutsDrafts[k].sentAt;
+        saveCutsDrafts();
       });
     });
     wrap.querySelectorAll('.reflection-input').forEach(el => {
@@ -5199,6 +5257,36 @@
       });
     }
 
+    // 학생이 아는 등급컷 부착 — 기존 submissions에 매칭되면 붙이고, 없으면 신규 추가
+    for (const cutsKey in cachedCutsDrafts) {
+      const cd = cachedCutsDrafts[cutsKey];
+      if (!cd || !Array.isArray(cd.cuts)) continue;
+      const hasAnyCut = cd.cuts.some(v => v != null && v !== '');
+      if (!hasAnyCut) continue;         // 빈 값만 있으면 스킵
+      if (cd.sentAt) continue;          // 이미 전송된 등급컷 스킵
+      const km = cutsKey.match(/^(.+)__(중간|기말)$/);
+      if (!km) continue;
+      const entryId = km[1], examKind = km[2];
+      const cutsArr = cd.cuts.map(v => (v == null || v === '') ? null : Number(v));
+      const existing = submissions.find(s => s.entryId === entryId && s.examKind === examKind);
+      if (existing) {
+        existing.cuts = cutsArr;
+      } else {
+        // 등급컷만 입력한 경우 — 성적/반성 없이 등급컷만 제출
+        const entry = (cachedSchoolGradeCuts || []).find(c => c.id === entryId);
+        if (!entry) continue;
+        submissions.push({
+          entryId, examKind,
+          school: entry.school, gradeLevel: entry.gradeLevel,
+          year: entry.year, semester: entry.semester, subject: entry.subject,
+          score: null, grade: null, rank: null, totalStudents: null,
+          reflection: '',
+          cuts: cutsArr,
+          cutsOnly: true,
+        });
+      }
+    }
+
     // 모의고사 draft (전송 안 된 것만) — 일반 추가 + 삭제 마커
     const mockSubmissions = [];
     for (const m of cachedMockDrafts) {
@@ -5266,12 +5354,20 @@
       for (const rk in cachedReflectionDrafts) {
         if (cachedReflectionDrafts[rk] && cachedReflectionDrafts[rk].text) cachedReflectionDrafts[rk].sentAt = now;
       }
+      // 등급컷 draft에 sentAt 마킹 (실제 값이 있는 경우만)
+      for (const k in cachedCutsDrafts) {
+        const cd = cachedCutsDrafts[k];
+        if (cd && Array.isArray(cd.cuts) && cd.cuts.some(v => v != null && v !== '')) {
+          cd.sentAt = now;
+        }
+      }
       // 모의고사 draft에 sentAt 마킹
       for (const m of cachedMockDrafts) {
         if (!m.sentAt) m.sentAt = now;
       }
       saveLocalDrafts();
       saveReflectionDrafts();
+      saveCutsDrafts();
       saveMockDrafts();
       editingExams.clear();
       renderGradeExams();

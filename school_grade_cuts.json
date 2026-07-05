@@ -1032,6 +1032,10 @@
       "중간": true,
       "기말": true
     },
-    "createdAt": "2026-07-05T07:29:02.538Z"
+    "createdAt": "2026-07-05T07:29:02.538Z",
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "extraNote": ""
   }
 ]

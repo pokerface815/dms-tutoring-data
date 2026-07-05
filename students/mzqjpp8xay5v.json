@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-05T01:59:22.791Z",
+  "student": {
+    "id": "s_1783216611349_dk3iac",
+    "classes": [
+      "cls_1780355764530_wxb5as"
+    ],
+    "name": "ㅁㄴㅇㄹㅁㄴㄹㅇ",
+    "school": "창평고",
+    "grade": "고2",
+    "class": "",
+    "showMakeNote": false
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-06-29",
+    "endDate": "2026-07-05"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

@@ -1012,33 +1012,5 @@
     "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "pj9fc48qgnyt"
-  },
-  {
-    "id": "s_1783215206253_n02xmo",
-    "name": "문대승2",
-    "school": "창평고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780355764530_wxb5as"
-    ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-9327-7661",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
-    "pageCode": "afjszbpucnsz"
   }
 ]

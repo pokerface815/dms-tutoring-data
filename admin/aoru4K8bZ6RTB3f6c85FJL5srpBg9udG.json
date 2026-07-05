@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-05T01:53:56.252Z",
+  "generatedAt": "2026-07-05T01:56:38.565Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 40,
+  "studentCount": 39,
   "baseUrl": "",
   "students": [
     {
@@ -355,15 +355,6 @@
       "className": "토,일 2시",
       "studentPageCode": "pj9fc48qgnyt",
       "parentPageCode": "pj9fc48qgnyt"
-    },
-    {
-      "id": "s_1783215206253_n02xmo",
-      "name": "문대승2",
-      "grade": "고2",
-      "school": "창평고",
-      "className": "S",
-      "studentPageCode": "afjszbpucnsz",
-      "parentPageCode": "afjszbpucnsz"
     }
   ]
 }

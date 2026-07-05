@@ -505,5 +505,15 @@
     "taskBatchId": null,
     "createdAt": "2026-06-29T16:31:21.828Z",
     "updatedAt": "2026-06-29T16:31:21.828Z"
+  },
+  {
+    "id": "lesson_1783229289019_jskbws",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-01",
+    "content": "시험 직전 대비",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-05T05:28:09.019Z",
+    "updatedAt": "2026-07-05T05:28:09.019Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-05T02:21:31.531Z",
+  "generatedAt": "2026-07-05T02:51:32.362Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -408,5 +408,91 @@
     }
   },
   "tasks": [],
-  "myGrades": []
+  "myGrades": [
+    {
+      "id": "grade_mr772u0r2nx",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "1",
+      "subject": "공통수학1",
+      "examKind": "중간",
+      "score": 83.1,
+      "grade": 1,
+      "rank": 19,
+      "totalStudents": 226,
+      "percent": 8.4,
+      "reflection": "서술형 칸 헷갈림. ",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-05T02:46:17.255Z",
+      "createdAt": "2026-07-05T02:51:25.947Z"
+    },
+    {
+      "id": "grade_mr772u0shwe",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "1",
+      "subject": "공통수학1",
+      "examKind": "기말",
+      "score": 86.6,
+      "grade": 1,
+      "rank": 1,
+      "totalStudents": 225,
+      "percent": 0.4,
+      "reflection": "객관식보다 서술형에 조금더 신경써야함.",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-05T02:46:17.255Z",
+      "createdAt": "2026-07-05T02:51:25.948Z"
+    },
+    {
+      "id": "grade_mr772u0st6n",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "2",
+      "subject": "공통수학2",
+      "examKind": "중간",
+      "score": 78.7,
+      "grade": 1,
+      "rank": 7,
+      "totalStudents": 224,
+      "percent": 3.1,
+      "reflection": "계산실수",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-05T02:46:17.255Z",
+      "createdAt": "2026-07-05T02:51:25.948Z"
+    },
+    {
+      "id": "grade_mr772u0susc",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "2",
+      "subject": "공통수학2",
+      "examKind": "기말",
+      "score": 86.9,
+      "grade": 1,
+      "rank": 7,
+      "totalStudents": 221,
+      "percent": 3.2,
+      "reflection": "계산실수",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-05T02:46:17.255Z",
+      "createdAt": "2026-07-05T02:51:25.948Z"
+    },
+    {
+      "id": "grade_mr772u0s274",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "중간",
+      "score": 55.8,
+      "grade": 2,
+      "rank": 51,
+      "totalStudents": 219,
+      "percent": 23.3,
+      "reflection": "자만하지말자. 계산 똑바로 하고 시험 볼때 집중 잘하자",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-05T02:46:17.255Z",
+      "createdAt": "2026-07-05T02:51:25.948Z"
+    }
+  ]
 }

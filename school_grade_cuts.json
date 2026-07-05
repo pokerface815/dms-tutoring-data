@@ -450,7 +450,17 @@
       "기말": true,
       "중간": true
     },
-    "extraNote": ""
+    "extraNote": "",
+    "pdfsByExamKind": {
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1783262846/xvusldjnbggiewiqpf2a.pdf",
+          "name": "2026 고2-1 기말 대수 중앙여고_출력.pdf",
+          "type": "pdf",
+          "uploadedAt": "2026-07-05T14:47:27.479Z"
+        }
+      ]
+    }
   },
   {
     "id": "scut_mq9q9caefjm",

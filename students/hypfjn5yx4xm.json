@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-05T02:51:32.362Z",
+  "generatedAt": "2026-07-05T07:29:07.696Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -23,10 +23,25 @@
         "videoTitle": "108~110쪽 삼차함수와 사차함수의 그래프",
         "durationSec": 4935,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-05T01:49:05.191Z"
+        "lastWatchedAt": "2026-07-05T01:49:05.191Z",
+        "watchedSec": 0
+      },
+      "MUY1NAZSfLw": {
+        "sessionCount": 3,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "durationSec": 4799,
+        "lastPosition": 31,
+        "lastWatchedAt": "2026-07-05T07:24:57.014Z",
+        "watchedSec": 22
       }
     },
-    "daily": {}
+    "daily": {
+      "2026-07-05": {
+        "MUY1NAZSfLw": 22
+      }
+    }
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],

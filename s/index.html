@@ -4656,6 +4656,7 @@
   let cachedSchoolGradeCuts = null;
   let cachedLocalDrafts = {};  // { entryId__examKind: {score, grade, rank, percent, savedAt} }
   let cachedCutsDrafts = {};   // { entryId__examKind: {cuts:[c1,c2,c3,c4], savedAt, sentAt} } — 학생이 아는 등급컷 (선택 입력)
+  let cachedCardRequests = []; // [{tempId, school, gradeLevel, year, semester, subject, examKinds:['중간','기말'], memo, savedAt, sentAt}] — 시험 정보 카드 생성 요청
 
   function loadLocalDrafts() {
     try {
@@ -4675,10 +4676,21 @@
   function saveCutsDrafts() {
     try { localStorage.setItem('myGradeCutsDrafts__' + studentCode, JSON.stringify(cachedCutsDrafts)); } catch (e) {}
   }
+  function loadCardRequests() {
+    try {
+      const raw = localStorage.getItem('myCardRequests__' + studentCode);
+      if (raw) cachedCardRequests = JSON.parse(raw) || [];
+      if (!Array.isArray(cachedCardRequests)) cachedCardRequests = [];
+    } catch (e) { cachedCardRequests = []; }
+  }
+  function saveCardRequests() {
+    try { localStorage.setItem('myCardRequests__' + studentCode, JSON.stringify(cachedCardRequests)); } catch (e) {}
+  }
 
   async function loadGradeExams() {
     loadLocalDrafts();
     loadCutsDrafts();
+    loadCardRequests();
     loadMockDrafts();
     const myGrades = (studentData || {}).myGrades || [];
     // 성적 관리 메인 — 그래프만
@@ -4777,12 +4789,38 @@
       return 0;
     });
 
-    if (myEntries.length === 0) { wrap.innerHTML = ''; return; }
+    // 자동 정리: 이미 통합본에 카드 만들어진 요청은 목록에서 제거
+    if (Array.isArray(cachedCardRequests) && cachedCardRequests.length > 0 && cachedSchoolGradeCuts) {
+      const before = cachedCardRequests.length;
+      cachedCardRequests = cachedCardRequests.filter(req => {
+        // 매칭되는 카드가 있으면 요청 완료된 것 — 목록에서 제거
+        const matched = cachedSchoolGradeCuts.find(c =>
+          (c.school || '') === (req.school || '')
+          && (c.gradeLevel || '') === (req.gradeLevel || '')
+          && Number(c.year) === Number(req.year)
+          && String(c.semester || '') === String(req.semester || '')
+          && (c.subject || '').trim() === (req.subject || '').trim()
+        );
+        return !matched;
+      });
+      if (cachedCardRequests.length !== before) saveCardRequests();
+    }
 
     loadReflectionDrafts();
     const myGrades = (studentData || {}).myGrades || [];
 
-    let html = `<h3 style="margin:0 0 8px; font-size:14px; font-weight:700; letter-spacing:-0.3px;">📘 학교 내신</h3>`;
+    let html = '';
+
+    // ===== 시험 정보 카드 요청 섹션 (항상 표시) =====
+    html += renderCardRequestSection();
+
+    if (myEntries.length === 0) {
+      wrap.innerHTML = html;
+      attachCardRequestHandlers(wrap);
+      return;
+    }
+
+    html += `<h3 style="margin:14px 0 8px; font-size:14px; font-weight:700; letter-spacing:-0.3px;">📘 학교 내신</h3>`;
 
     for (const c of myEntries) {
       const enabled = c.studentInputEnabledByExamKind || {};
@@ -4950,7 +4988,264 @@
         saveReflectionDrafts();
       });
     });
+    attachCardRequestHandlers(wrap);
   }
+
+  // ===== 시험 정보 카드 요청 UI =====
+  // 학생이 "선생님, 이 시험 카드가 없어요" 라고 요청 보내는 섹션
+  let _newCardReqDraft = null;  // 신규 요청 폼의 임시 상태
+
+  function renderCardRequestSection() {
+    const s = studentData.student || {};
+    const currentYear = new Date().getFullYear();
+    const pendingReqs = cachedCardRequests.filter(r => !r.sentAt);
+    const sentReqs = cachedCardRequests.filter(r => r.sentAt);
+    const totalCount = cachedCardRequests.length;
+    const isOpenByDefault = totalCount > 0 || _newCardReqDraft != null;
+
+    let inner = '';
+
+    // 기존 요청 리스트
+    if (cachedCardRequests.length > 0) {
+      inner += `<div style="margin-bottom:10px;">`;
+      for (const req of cachedCardRequests) {
+        const examKindsStr = (req.examKinds || []).join(' · ') || '중간·기말';
+        const sentBadge = req.sentAt
+          ? `<span style="color:var(--success); font-weight:600; font-size:10.5px;">✓ ${formatRelativeTime(new Date(req.sentAt))} 전송됨</span>`
+          : `<span style="color:var(--text3); font-size:10.5px;">아직 안 보냄</span>`;
+        inner += `
+          <div style="padding:8px 10px; background:var(--surface); border:1px solid var(--border); border-radius:6px; margin-bottom:6px;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+              <div style="flex:1; min-width:0;">
+                <div style="font-size:12.5px; font-weight:600; color:var(--text);">
+                  ${escapeHtml(req.school || '')} · ${escapeHtml(req.gradeLevel || '')}
+                </div>
+                <div style="font-size:12px; color:var(--text2); margin-top:2px;">
+                  ${req.year || '?'}-${req.semester || '?'}학기 · ${escapeHtml(req.subject || '')}
+                </div>
+                <div style="font-size:11.5px; color:#5a3a9e; margin-top:2px;">📝 ${escapeHtml(examKindsStr)}</div>
+                ${req.memo ? `<div style="font-size:11px; color:var(--text3); margin-top:2px;">💬 ${escapeHtml(req.memo)}</div>` : ''}
+                <div style="margin-top:4px;">${sentBadge}</div>
+              </div>
+              <div style="display:flex; gap:4px; flex-shrink:0;">
+                ${req.sentAt ? '' : `<button type="button" onclick="editCardRequest('${req.tempId}')" style="padding:3px 8px; background:var(--surface2); border:1px solid var(--border); border-radius:4px; font-size:11px; cursor:pointer; font-family:inherit;">편집</button>`}
+                <button type="button" onclick="deleteCardRequest('${req.tempId}')" style="padding:3px 8px; background:var(--surface2); border:1px solid var(--border); border-radius:4px; font-size:11px; color:#a54; cursor:pointer; font-family:inherit;">삭제</button>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+      inner += `</div>`;
+    }
+
+    // 신규 요청 폼 (열려있을 때만)
+    if (_newCardReqDraft != null) {
+      const d = _newCardReqDraft;
+      const isEdit = !!d._editId;
+      inner += `
+        <div style="padding:10px 12px; background:#eef4fa; border:1px solid #cddbe8; border-radius:6px; margin-bottom:6px;">
+          <div style="font-size:12.5px; font-weight:700; color:#1c4e7a; margin-bottom:8px;">
+            ${isEdit ? '✏️ 요청 편집' : '➕ 새 시험 카드 요청'}
+          </div>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-bottom:8px;">
+            <div>
+              <label class="gi-label" style="font-size:10.5px;">학교</label>
+              <input type="text" class="gi-input req-input" data-req-field="school" value="${escapeHtml(d.school || s.school || '')}" style="padding:5px 8px; font-size:12px;">
+            </div>
+            <div>
+              <label class="gi-label" style="font-size:10.5px;">학년</label>
+              <select class="gi-input req-input" data-req-field="gradeLevel" style="padding:5px 8px; font-size:12px;">
+                ${['중1','중2','중3','고1','고2','고3'].map(g => `<option value="${g}" ${(d.gradeLevel || s.grade) === g ? 'selected' : ''}>${g}</option>`).join('')}
+              </select>
+            </div>
+            <div>
+              <label class="gi-label" style="font-size:10.5px;">년도</label>
+              <input type="number" class="gi-input req-input" data-req-field="year" min="2020" max="2030" value="${d.year || currentYear}" style="padding:5px 8px; font-size:12px;">
+            </div>
+            <div>
+              <label class="gi-label" style="font-size:10.5px;">학기</label>
+              <select class="gi-input req-input" data-req-field="semester" style="padding:5px 8px; font-size:12px;">
+                <option value="1" ${String(d.semester) === '1' ? 'selected' : ''}>1학기</option>
+                <option value="2" ${String(d.semester) === '2' ? 'selected' : ''}>2학기</option>
+              </select>
+            </div>
+            <div style="grid-column: 1 / -1;">
+              <label class="gi-label" style="font-size:10.5px;">과목</label>
+              <input type="text" class="gi-input req-input" data-req-field="subject" value="${escapeHtml(d.subject || '')}" placeholder="예: 공통수학1, 대수, 미적분1" style="padding:5px 8px; font-size:12px;">
+            </div>
+            <div style="grid-column: 1 / -1;">
+              <label class="gi-label" style="font-size:10.5px;">시험 종류</label>
+              <div style="display:flex; gap:12px; margin-top:2px;">
+                <label style="display:flex; align-items:center; gap:4px; font-size:12px; cursor:pointer;">
+                  <input type="checkbox" class="req-examkind" data-examkind="중간" ${(d.examKinds || ['중간','기말']).includes('중간') ? 'checked' : ''}> 중간
+                </label>
+                <label style="display:flex; align-items:center; gap:4px; font-size:12px; cursor:pointer;">
+                  <input type="checkbox" class="req-examkind" data-examkind="기말" ${(d.examKinds || ['중간','기말']).includes('기말') ? 'checked' : ''}> 기말
+                </label>
+              </div>
+            </div>
+            <div style="grid-column: 1 / -1;">
+              <label class="gi-label" style="font-size:10.5px;">선생님께 메모 (선택)</label>
+              <input type="text" class="gi-input req-input" data-req-field="memo" value="${escapeHtml(d.memo || '')}" placeholder="예: 대수 시험 봤어요" style="padding:5px 8px; font-size:12px;">
+            </div>
+          </div>
+          <div style="display:flex; gap:6px; justify-content:flex-end;">
+            <button type="button" onclick="cancelNewCardRequest()" style="padding:5px 12px; background:var(--surface); border:1px solid var(--border); border-radius:5px; font-size:12px; cursor:pointer; font-family:inherit;">취소</button>
+            <button type="button" onclick="commitNewCardRequest()" style="padding:5px 12px; background:var(--accent); color:#fff; border:none; border-radius:5px; font-size:12px; font-weight:600; cursor:pointer; font-family:inherit;">${isEdit ? '수정 완료' : '요청 추가'}</button>
+          </div>
+        </div>
+      `;
+    } else {
+      inner += `
+        <button type="button" onclick="openNewCardRequest()" style="width:100%; padding:8px; background:var(--surface); border:1px dashed var(--border); border-radius:6px; font-size:12.5px; color:var(--text2); cursor:pointer; font-family:inherit;">
+          ➕ 새 시험 카드 요청 추가
+        </button>
+      `;
+    }
+
+    inner += `
+      <div style="font-size:10.5px; color:var(--text3); margin-top:8px; line-height:1.5;">
+        요청을 추가하고 하단의 <b>저장</b> 버튼을 누르면 선생님께 전송됩니다.<br>
+        선생님이 시험 정보 카드를 만들면 이 목록에서 자동으로 사라져요.
+      </div>
+    `;
+
+    return `
+      <details style="background:var(--surface2); border:1px solid var(--border); border-radius:8px; padding:10px 12px; margin-bottom:14px;" ${isOpenByDefault ? 'open' : ''}>
+        <summary style="cursor:pointer; font-size:13px; font-weight:700; color:var(--text); user-select:none;">
+          🃏 시험 정보 카드가 없어서 입력 못했나요? (선생님께 요청 보내기)${totalCount > 0 ? ` <span style="font-size:11px; color:var(--accent); font-weight:600;">${totalCount}건</span>` : ''}
+        </summary>
+        <div style="margin-top:10px;">
+          ${inner}
+        </div>
+      </details>
+    `;
+  }
+
+  function attachCardRequestHandlers(wrap) {
+    // 신규 폼의 input들 (있으면)
+    wrap.querySelectorAll('.req-input').forEach(el => {
+      el.addEventListener('input', () => {
+        if (!_newCardReqDraft) return;
+        _newCardReqDraft[el.dataset.reqField] = el.value;
+      });
+      el.addEventListener('change', () => {
+        if (!_newCardReqDraft) return;
+        _newCardReqDraft[el.dataset.reqField] = el.value;
+      });
+    });
+    wrap.querySelectorAll('.req-examkind').forEach(el => {
+      el.addEventListener('change', () => {
+        if (!_newCardReqDraft) return;
+        const ek = el.dataset.examkind;
+        const list = _newCardReqDraft.examKinds || [];
+        if (el.checked) {
+          if (!list.includes(ek)) list.push(ek);
+        } else {
+          const i = list.indexOf(ek);
+          if (i >= 0) list.splice(i, 1);
+        }
+        _newCardReqDraft.examKinds = list;
+      });
+    });
+  }
+
+  window.openNewCardRequest = function() {
+    const s = studentData.student || {};
+    _newCardReqDraft = {
+      school: s.school || '',
+      gradeLevel: s.grade || '',
+      year: new Date().getFullYear(),
+      semester: '1',
+      subject: '',
+      examKinds: ['중간', '기말'],
+      memo: '',
+    };
+    renderGradeExams();
+  };
+
+  window.cancelNewCardRequest = function() {
+    _newCardReqDraft = null;
+    renderGradeExams();
+  };
+
+  window.commitNewCardRequest = function() {
+    if (!_newCardReqDraft) return;
+    const d = _newCardReqDraft;
+    // 유효성 검사
+    if (!d.school || !d.school.trim()) { alert('학교를 입력해주세요.'); return; }
+    if (!d.gradeLevel) { alert('학년을 선택해주세요.'); return; }
+    if (!d.year) { alert('년도를 입력해주세요.'); return; }
+    if (!d.semester) { alert('학기를 선택해주세요.'); return; }
+    if (!d.subject || !d.subject.trim()) { alert('과목을 입력해주세요.'); return; }
+    if (!d.examKinds || d.examKinds.length === 0) { alert('중간·기말 중 하나 이상 선택해주세요.'); return; }
+    // 중복 검사 (같은 학교/학년/년/학기/과목)
+    const dup = cachedCardRequests.find(r =>
+      r.tempId !== d._editId
+      && (r.school || '').trim() === d.school.trim()
+      && (r.gradeLevel || '') === d.gradeLevel
+      && Number(r.year) === Number(d.year)
+      && String(r.semester || '') === String(d.semester)
+      && (r.subject || '').trim() === d.subject.trim()
+    );
+    if (dup) { alert('이미 같은 시험에 대한 요청이 있어요.'); return; }
+    if (d._editId) {
+      const idx = cachedCardRequests.findIndex(r => r.tempId === d._editId);
+      if (idx >= 0) {
+        // 편집: 값 갱신, sentAt 무효화
+        cachedCardRequests[idx] = {
+          ...cachedCardRequests[idx],
+          school: d.school.trim(),
+          gradeLevel: d.gradeLevel,
+          year: Number(d.year),
+          semester: String(d.semester),
+          subject: d.subject.trim(),
+          examKinds: [...d.examKinds],
+          memo: (d.memo || '').trim(),
+          savedAt: new Date().toISOString(),
+        };
+        delete cachedCardRequests[idx].sentAt;
+      }
+    } else {
+      cachedCardRequests.push({
+        tempId: 'req_' + Date.now().toString(36) + Math.random().toString(36).slice(2,5),
+        school: d.school.trim(),
+        gradeLevel: d.gradeLevel,
+        year: Number(d.year),
+        semester: String(d.semester),
+        subject: d.subject.trim(),
+        examKinds: [...d.examKinds],
+        memo: (d.memo || '').trim(),
+        savedAt: new Date().toISOString(),
+      });
+    }
+    saveCardRequests();
+    _newCardReqDraft = null;
+    renderGradeExams();
+  };
+
+  window.editCardRequest = function(tempId) {
+    const req = cachedCardRequests.find(r => r.tempId === tempId);
+    if (!req) return;
+    _newCardReqDraft = {
+      _editId: tempId,
+      school: req.school,
+      gradeLevel: req.gradeLevel,
+      year: req.year,
+      semester: req.semester,
+      subject: req.subject,
+      examKinds: [...(req.examKinds || [])],
+      memo: req.memo || '',
+    };
+    renderGradeExams();
+  };
+
+  window.deleteCardRequest = function(tempId) {
+    if (!confirm('이 요청을 삭제할까요?')) return;
+    cachedCardRequests = cachedCardRequests.filter(r => r.tempId !== tempId);
+    saveCardRequests();
+    renderGradeExams();
+  };
 
   // 모의고사 신규 추가 폼 열림 상태
   let _mockFormOpen = false;
@@ -5314,12 +5609,16 @@
       }
     }
 
-    const totalCount = submissions.length + mockSubmissions.length;
+    const unsentCardReqs = cachedCardRequests.filter(r => !r.sentAt);
+    const totalCount = submissions.length + mockSubmissions.length + unsentCardReqs.length;
     if (totalCount === 0) {
       alert('입력된 내용이 없습니다.');
       return;
     }
-    if (!confirm(`${totalCount}건의 성적/반성을 저장할까요?`)) return;
+    const confirmMsg = unsentCardReqs.length > 0
+      ? `${totalCount}건 저장할까요?\n(성적/반성 ${submissions.length + mockSubmissions.length}건 + 시험 카드 요청 ${unsentCardReqs.length}건)`
+      : `${totalCount}건의 성적/반성을 저장할까요?`;
+    if (!confirm(confirmMsg)) return;
 
     const payload = {
       studentCode,
@@ -5329,6 +5628,16 @@
       submittedAt: new Date().toISOString(),
       submissions,
       mockSubmissions,
+      cardRequests: cachedCardRequests.filter(r => !r.sentAt).map(r => ({
+        tempId: r.tempId,
+        school: r.school,
+        gradeLevel: r.gradeLevel,
+        year: r.year,
+        semester: r.semester,
+        subject: r.subject,
+        examKinds: r.examKinds || [],
+        memo: r.memo || '',
+      })),
     };
 
     try {
@@ -5361,6 +5670,10 @@
           cd.sentAt = now;
         }
       }
+      // 카드 요청에 sentAt 마킹 (아직 안 보낸 것만)
+      for (const req of cachedCardRequests) {
+        if (!req.sentAt) req.sentAt = now;
+      }
       // 모의고사 draft에 sentAt 마킹
       for (const m of cachedMockDrafts) {
         if (!m.sentAt) m.sentAt = now;
@@ -5368,6 +5681,7 @@
       saveLocalDrafts();
       saveReflectionDrafts();
       saveCutsDrafts();
+      saveCardRequests();
       saveMockDrafts();
       editingExams.clear();
       renderGradeExams();

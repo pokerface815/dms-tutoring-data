@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-05T02:21:29.889Z",
+  "generatedAt": "2026-07-05T05:28:15.928Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -8,6 +8,25 @@
     "grade": "고2"
   },
   "months": [
+    {
+      "ym": "2026-07",
+      "label": "2026년 7월",
+      "lessons": [
+        {
+          "date": "2026-07-01",
+          "weekday": "수",
+          "className": "조예나 개별",
+          "content": "시험 직전 대비",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        }
+      ],
+      "completionRate": null,
+      "noteStages": null
+    },
     {
       "ym": "2026-06",
       "label": "2026년 6월",

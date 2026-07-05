@@ -1014,5 +1014,24 @@
         }
       ]
     }
+  },
+  {
+    "id": "sgc_mr7gzubu4sj",
+    "school": "창평고",
+    "gradeLevel": "고3",
+    "year": 2026,
+    "semester": "1",
+    "subject": "현대대수학",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "pdfsByExamKind": {},
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    },
+    "createdAt": "2026-07-05T07:29:02.538Z"
   }
 ]

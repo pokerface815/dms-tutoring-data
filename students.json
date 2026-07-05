@@ -1034,7 +1034,7 @@
     "studentPhone": "010-9327-7661",
     "parentPhone": "",
     "notifyStudent": true,
-    "notifyParent": true,
+    "notifyParent": false,
     "showCompletionRate": true,
     "showTestResults": true,
     "showNoteStages": true,

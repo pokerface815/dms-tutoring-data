@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-06T04:48:45.555Z",
+  "generatedAt": "2026-07-06T13:33:25.254Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -162,17 +162,27 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-03T19:32:13.808Z",
+    "uploadedAt": "2026-07-06T12:36:33.214Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 8851,
-      "streak": 0,
+      "todaySec": 3850,
+      "weekSec": 3850,
+      "monthSec": 12701,
+      "streak": 1,
       "bySubjectMonth": {
-        "대수": 8851
+        "대수": 8851,
+        "확률과 통계": 3850
       }
     },
     "logs": [
+      {
+        "id": "effort_mr97f5mj44z",
+        "startedAt": 1783332582271,
+        "seconds": 3850,
+        "subject": "확률과 통계",
+        "method": "문제 풀이",
+        "content": "테스트",
+        "reflection": ""
+      },
       {
         "id": "effort_mr5by5ws7ek",
         "startedAt": 1783100103226,

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-05T02:22:09.688Z",
+  "generatedAt": "2026-07-06T04:48:45.555Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -165,9 +165,9 @@
     "uploadedAt": "2026-07-03T19:32:13.808Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 16748,
+      "weekSec": 0,
       "monthSec": 8851,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "대수": 8851
       }

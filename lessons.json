@@ -515,5 +515,15 @@
     "taskBatchId": null,
     "createdAt": "2026-07-05T05:28:09.019Z",
     "updatedAt": "2026-07-05T05:28:09.019Z"
+  },
+  {
+    "id": "lesson_1783332505768_jmmks0",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-07-06",
+    "content": "조합 개념",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-06T10:08:25.768Z",
+    "updatedAt": "2026-07-06T10:08:25.768Z"
   }
 ]

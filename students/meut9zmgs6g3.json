@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-05T02:21:55.049Z",
+  "generatedAt": "2026-07-06T04:48:37.673Z",
   "student": {
     "id": "s_1778908285779_1cmzde",
     "classes": [
@@ -109,8 +109,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-29",
-    "endDate": "2026-07-05"
+    "startDate": "2026-07-06",
+    "endDate": "2026-07-12"
   },
   "teacherConfirms": {},
   "tasks": [],

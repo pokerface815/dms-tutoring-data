@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-06T04:49:22.679Z",
+  "generatedAt": "2026-07-06T13:33:28.857Z",
   "studentCount": 38,
   "rankings": [
     {
@@ -149,10 +149,10 @@
     },
     {
       "id": "s_1780190418387_a11waf",
-      "totalSec": 19315,
-      "weekSec": 0,
-      "monthSec": 8851,
-      "streak": 0,
+      "totalSec": 23165,
+      "weekSec": 3850,
+      "monthSec": 12701,
+      "streak": 1,
       "nickname": "리학성",
       "publicNickname": true
     },

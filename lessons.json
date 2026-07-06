@@ -535,5 +535,15 @@
     "taskBatchId": null,
     "createdAt": "2026-07-06T10:08:46.990Z",
     "updatedAt": "2026-07-06T10:08:46.990Z"
+  },
+  {
+    "id": "lesson_1783332535928_2snfu5",
+    "classId": "cls_1780910683163_gtovnl",
+    "date": "2026-07-06",
+    "content": "삼각비",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-06T10:08:55.928Z",
+    "updatedAt": "2026-07-06T10:08:55.928Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-06T04:48:42.193Z",
+  "generatedAt": "2026-07-06T13:33:32.120Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -14,7 +14,25 @@
   },
   "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "0ZdN1MUuVl0": {
+        "sessionCount": 3,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "214~224쪽 조합 마무리, 행렬",
+        "durationSec": 3336,
+        "lastPosition": 3196,
+        "lastWatchedAt": "2026-07-06T10:20:13.084Z",
+        "watchedSec": 573
+      }
+    },
+    "daily": {
+      "2026-07-06": {
+        "0ZdN1MUuVl0": 573
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

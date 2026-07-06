@@ -2341,88 +2341,56 @@
     if (detail) renderLectureDetailInline(detail);
     else renderLectureListInline();
 
-    // 노력의 자취 기록 제안 (60초 이상 시청한 경우)
+    // 60초 이상 시청 시 학습 기록에 자동 저장 (나중에 수정 가능)
     if (sessionInfo && sessionInfo.sessionSec >= 60) {
-      // 모달 갱신 직후 떠야 자연스럽게 보임
-      setTimeout(() => offerEffortLogFromVideo(sessionInfo), 200);
+      autoRecordEffortLog(sessionInfo);
     }
   };
 
-  // 영상 시청 후 노력의 자취에 기록 제안 모달
-  function offerEffortLogFromVideo(info) {
+  // 영상 시청을 학습 기록(노력의 자취)에 자동 저장 + 수정 가능한 알림 표시
+  function autoRecordEffortLog(info) {
     const lec = (_lecturesCache || []).find(l => l.id === info.lecId);
-    const defaultSubject = (lec && lec.subject) || '수학';
-    const defaultContent = `${info.lectureTitle ? info.lectureTitle + ' — ' : ''}${info.videoTitle || ''}`.trim();
+    const subject = (lec && lec.subject) || '수학';
+    const content = `${info.lectureTitle ? info.lectureTitle + ' — ' : ''}${info.videoTitle || ''}`.trim() || '강의 시청';
 
     const subjects = loadEffortSubjects();
-    const defaults = ['수학', '영어', '국어', '과학', '사회'];
-    const merged = [];
-    const seen = new Set();
-    for (const s of [defaultSubject].concat(subjects).concat(defaults)) {
-      if (!s || seen.has(s)) continue;
-      seen.add(s);
-      merged.push(s);
-      if (merged.length >= 8) break;
+    if (!subjects.includes(subject)) {
+      subjects.unshift(subject);
+      saveEffortSubjects(subjects.slice(0, 20));
     }
 
-    let backdrop = document.getElementById('effortSaveModal');
-    if (!backdrop) {
-      backdrop = document.createElement('div');
-      backdrop.id = 'effortSaveModal';
-      backdrop.className = 'effort-modal-backdrop';
-      document.body.appendChild(backdrop);
-    }
-    backdrop.innerHTML = `
-      <div class="effort-modal">
-        <div class="effort-modal-head">
-          <div class="effort-modal-title">강의 시청 기록</div>
-          <div class="effort-modal-time">${fmtDuration(info.sessionSec)}</div>
-        </div>
-        <div class="effort-modal-body">
-          <div style="font-size:11.5px; color:var(--text2); background:var(--surface2); padding:7px 10px; border-radius:6px; margin-bottom:10px; line-height:1.5;">
-            방금 본 강의를 <b>노력의 자취</b>에 기록할까요?<br>
-            <span style="color:var(--text3);">필요한 항목을 수정한 뒤 저장하세요.</span>
-          </div>
-          <div>
-            <label class="gi-label">과목</label>
-            <input type="text" class="gi-input" id="effortSubject" list="effortSubjectList" placeholder="예: 수학" value="${escapeHtml(defaultSubject)}">
-            <datalist id="effortSubjectList">
-              ${subjects.map(s => `<option value="${escapeHtml(s)}"></option>`).join('')}
-            </datalist>
-            <div class="effort-subject-chips">
-              ${merged.map((s) => {
-                const isRecent = subjects.includes(s);
-                return `<button type="button" class="effort-chip${isRecent ? ' recent' : ''}" onclick="document.getElementById('effortSubject').value=this.textContent;">${escapeHtml(s)}</button>`;
-              }).join('')}
-            </div>
-          </div>
-          <div style="margin-top:10px;">
-            <label class="gi-label">공부 방식</label>
-            <select class="gi-input" id="effortMethod">
-              <option value="강의 시청" selected>강의 시청</option>
-              <option value="문제 풀이">문제 풀이</option>
-              <option value="개념 정리">개념 정리</option>
-              <option value="오답 정리">오답 정리</option>
-              <option value="기타">기타</option>
-            </select>
-          </div>
-          <div style="margin-top:10px;">
-            <label class="gi-label">공부 내용 *</label>
-            <input type="text" class="gi-input" id="effortContent" placeholder="강의 제목 또는 단원" value="${escapeHtml(defaultContent)}">
-          </div>
-          <div style="margin-top:10px;">
-            <label class="gi-label">느낀점 · 반성 (선택)</label>
-            <textarea class="gi-input" id="effortReflection" rows="2" placeholder="예: 인수정리 부분 헷갈렸음. 다시 들을 것"></textarea>
-          </div>
-        </div>
-        <div class="effort-modal-foot">
-          <button class="effort-btn effort-btn-secondary" onclick="closeEffortSaveModal()">건너뛰기</button>
-          <button class="effort-btn effort-btn-primary" onclick="saveEffortLog(${info.sessionSec}, ${info.sessionStartedAt})">기록하기</button>
-        </div>
-      </div>
-    `;
-    backdrop.classList.add('active');
-    setTimeout(() => document.getElementById('effortSubject')?.focus(), 100);
+    const newId = 'effort_' + Date.now().toString(36) + Math.random().toString(36).slice(2,5);
+    const logs = loadEffortLogs();
+    logs.push({
+      id: newId,
+      subject,
+      method: '강의 시청',
+      content,
+      reflection: '',
+      seconds: info.sessionSec,
+      startedAt: info.sessionStartedAt || Date.now(),
+      createdAt: new Date().toISOString(),
+      autoRecorded: true,
+    });
+    saveEffortLogs(logs);
+    renderEffortContent();
+    markEffortLogsDirty({ immediate: true });
+    renderEffortSyncIndicator();
+    showEffortAutoToast(fmtDuration(info.sessionSec), subject, newId);
+  }
+
+  // 자동 기록 알림 (수정 링크 포함)
+  function showEffortAutoToast(durationText, subject, logId) {
+    const existing = document.querySelector('.effort-auto-toast');
+    if (existing) existing.remove();
+    const t = document.createElement('div');
+    t.className = 'toast effort-auto-toast';
+    t.style.display = 'flex';
+    t.style.alignItems = 'center';
+    t.style.gap = '10px';
+    t.innerHTML = `<span>학습 기록에 자동 저장됨 · ${escapeHtml(subject)} ${durationText}</span><button type="button" onclick="openEffortEditModal('${logId}'); document.querySelector('.effort-auto-toast')?.remove();" style="background:rgba(255,255,255,0.2); border:none; color:#fff; padding:4px 10px; border-radius:14px; font-size:12px; cursor:pointer; flex-shrink:0;">수정</button>`;
+    document.body.appendChild(t);
+    setTimeout(() => t.remove(), 5000);
   }
 
   function onYtPlayerReady(e) {

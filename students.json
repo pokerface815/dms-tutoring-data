@@ -486,26 +486,6 @@
     "showNoteStages": true
   },
   {
-    "id": "s_1780309053750_4dw5li",
-    "name": "장승원",
-    "school": "숭일중",
-    "grade": "중3",
-    "classes": [],
-    "memo": "",
-    "days": [
-      "월",
-      "수",
-      "금"
-    ],
-    "studentPhone": "010-4430-0079",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "pageCode": "t2dh88gcxggm"
-  },
-  {
     "id": "s_1780309359751_gjl2s0",
     "name": "박유솔",
     "school": "숭일중",

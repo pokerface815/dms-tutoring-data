@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-05T02:30:40.295Z",
+  "generatedAt": "2026-07-06T04:48:13.151Z",
   "studentCount": 39,
   "rankings": [
     {
@@ -96,7 +96,7 @@
     {
       "id": "s_1778768401651_7hlihp",
       "totalSec": 2857,
-      "weekSec": 31,
+      "weekSec": 0,
       "monthSec": 0,
       "streak": 0,
       "nickname": "HK2",
@@ -150,9 +150,9 @@
     {
       "id": "s_1780190418387_a11waf",
       "totalSec": 19315,
-      "weekSec": 16748,
+      "weekSec": 0,
       "monthSec": 8851,
-      "streak": 1,
+      "streak": 0,
       "nickname": "리학성",
       "publicNickname": true
     },

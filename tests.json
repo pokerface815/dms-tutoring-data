@@ -149,21 +149,5 @@
       }
     },
     "createdAt": "2026-06-10T10:09:58.924Z"
-  },
-  {
-    "id": "test_1781086218538_f0o9m0",
-    "title": "지수, 로그, 삼각함수 전체",
-    "date": "2026-06-12",
-    "classId": "cls_1780309030966_ingi3o",
-    "results": {
-      "s_1780309053750_4dw5li": {
-        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781525485/eiwo3o81dmfmw2jxicjq.pdf",
-        "fileName": "장승원_6월12일.pdf",
-        "uploadedAt": "2026-06-15T12:11:26.316Z",
-        "comment": "시험 범위가 너무 많기도 했고, 시험 중에 조금 졸아서 틀린 문제 있었음.",
-        "commentUpdatedAt": "2026-06-15T12:14:16.020Z"
-      }
-    },
-    "createdAt": "2026-06-10T10:10:18.538Z"
   }
 ]

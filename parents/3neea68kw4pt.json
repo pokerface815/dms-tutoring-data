@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-06T13:33:25.254Z",
+  "generatedAt": "2026-07-06T17:17:58.135Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -164,7 +164,7 @@
     "enabled": true,
     "uploadedAt": "2026-07-06T12:36:33.214Z",
     "summary": {
-      "todaySec": 3850,
+      "todaySec": 0,
       "weekSec": 3850,
       "monthSec": 12701,
       "streak": 1,

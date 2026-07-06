@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-06T04:48:13.151Z",
-  "studentCount": 39,
+  "generatedAt": "2026-07-06T04:49:22.679Z",
+  "studentCount": 38,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -155,15 +155,6 @@
       "streak": 0,
       "nickname": "리학성",
       "publicNickname": true
-    },
-    {
-      "id": "s_1780309053750_4dw5li",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
     },
     {
       "id": "s_1780309359751_gjl2s0",

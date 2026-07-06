@@ -28,6 +28,7 @@
     --accent: #2f4f6b;
     --accent-light: #5578a0;
     --accent-dark: #223a51;
+    --danger: #b3403a;
     --purple: #6a4cb1;
     --radius: 12px;
   }
@@ -310,7 +311,7 @@
     padding: 8px 4px 4px; letter-spacing: 0.3px;
   }
   .asgn-group-label:first-child { padding-top: 0; }
-  .asgn-group-overdue { color: #A32D2D; }
+  .asgn-group-overdue { color: var(--danger); }
   .asgn-item {
     display: flex; gap: 10px;
     padding: 10px 12px; margin-bottom: 8px;
@@ -320,7 +321,7 @@
   }
   .asgn-item:last-child { margin-bottom: 0; }
   .asgn-ongoing { border-left-color: var(--accent); }
-  .asgn-overdue { border-left-color: #A32D2D; background: #fbeeec; }
+  .asgn-overdue { border-left-color: var(--danger); background: #fbeeec; }
   .asgn-done { border-left-color: #84b96d; opacity: 0.85; }
   .asgn-icon {
     flex-shrink: 0; width: 22px; height: 22px;
@@ -329,7 +330,7 @@
     margin-top: 1px;
   }
   .asgn-icon-ongoing { background: var(--accent); }
-  .asgn-icon-overdue { background: #A32D2D; }
+  .asgn-icon-overdue { background: var(--danger); }
   .asgn-icon-done { background: #84b96d; }
   .asgn-body { flex: 1; min-width: 0; }
   .asgn-title-row {
@@ -348,7 +349,7 @@
     margin-top: 1px;
   }
   .asgn-due-today { color: var(--accent-dark); font-weight: 600; }
-  .asgn-due-overdue { color: #A32D2D; font-weight: 600; }
+  .asgn-due-overdue { color: var(--danger); font-weight: 600; }
   .asgn-due-done { color: var(--text3); }
   .asgn-content {
     font-size: 12px; color: var(--text2); margin-top: 5px;
@@ -573,10 +574,10 @@
   // ===== 과목별 동적 색상 매핑 (학생 페이지와 동일 방식) =====
   // Material Design 200, 무지개 hue 순서대로 부드럽게 이어짐
   const SUBJECT_COLOR_PALETTE = [
-    '#FFF59D', '#E6EE9C', '#C5E1A5', '#A5D6A7',
-    '#80CBC4', '#80DEEA', '#81D4FA', '#90CAF9',
-    '#9FA8DA', '#B39DDB', '#CE93D8', '#F48FB1',
-    '#EF9A9A', '#FFAB91', '#FFCC80', '#FFE082',
+    '#D3C48C', '#C2CA92', '#B4CE9B', '#A2D2AB',
+    '#8DD5C6', '#88D4D3', '#8AD1E3', '#94CDEE',
+    '#ACC4F6', '#C3BCF2', '#D3B7E9', '#E6B2D4',
+    '#F1B2AC', '#EFB4A0', '#E4BC8F', '#DEBF8D',
   ];
   let _subjectColorMap = {};
   function rebuildSubjectColorMap(logs) {
@@ -643,7 +644,6 @@
         <div class="header-tagline">잊지 않게 만드는 수학 학습</div>
       </div>
       <div class="empty-state">
-        <div class="icon">⚠️</div>
         <h3 style="margin-bottom:8px;">${title}</h3>
         <p style="font-size:13px; line-height:1.6;">${msg}</p>
       </div>
@@ -710,7 +710,6 @@
     if (months.length === 0) {
       html += `
         <div class="empty-state">
-          <div class="icon">📘</div>
           <h3 style="margin-bottom:8px;">아직 등록된 수업 내용이 없습니다</h3>
           <p style="font-size:13px;">수업이 진행되면 이곳에 안내됩니다.</p>
         </div>
@@ -782,7 +781,7 @@
     const updatedTime = d.generatedAt ? new Date(d.generatedAt) : null;
     html += `
         <div class="footer">
-          <button class="refresh-btn" onclick="location.reload()">🔄 새로고침</button>
+          <button class="refresh-btn" onclick="location.reload()">새로고침</button>
           ${updatedTime ? `<span class="last-updated">마지막 업데이트: ${formatRelativeTime(updatedTime)}</span>` : ''}
         </div>
       </div>
@@ -983,7 +982,7 @@
           <span class="effort-log-time">${timeStr} · ${duration}</span>
         </div>
         ${l.content ? `<div class="effort-log-content">${escapeHtml(l.content)}</div>` : ''}
-        ${hasReflection ? `<div class="effort-log-reflection"><span class="effort-log-reflection-label">📔 느낀점</span>${escapeHtml(l.reflection)}</div>` : ''}
+        ${hasReflection ? `<div class="effort-log-reflection"><span class="effort-log-reflection-label">느낀점</span>${escapeHtml(l.reflection)}</div>` : ''}
       </div>
     `;
   }
@@ -1129,7 +1128,7 @@
     const hasPdf = !!t.pdfUrl;
     const hasComment = !!(t.comment && t.comment.trim());
     const commentHtml = hasComment
-      ? `<div class="test-item-comment">💬 ${escapeHtml(t.comment)}</div>`
+      ? `<div class="test-item-comment">${escapeHtml(t.comment)}</div>`
       : '';
     if (hasPdf) {
       return `
@@ -1297,7 +1296,7 @@
   // 학원 일정 카드 렌더
   function renderAcademyEventCard(ev) {
     const isClosed = ev.type === 'closed';
-    const typeLabel = isClosed ? '🛌 휴원' : '🎉 행사';
+    const typeLabel = isClosed ? '휴원' : '행사';
     const typeBg = isClosed ? '#fee2e2' : '#ede9fe';
     const typeColor = isClosed ? '#991b1b' : '#5b3fa8';
     const dateRange = ev.endDate && ev.endDate !== ev.date

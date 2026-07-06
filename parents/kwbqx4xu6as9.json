@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-05T02:22:06.448Z",
+  "generatedAt": "2026-07-06T10:08:32.737Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -8,6 +8,25 @@
     "grade": "중2"
   },
   "months": [
+    {
+      "ym": "2026-07",
+      "label": "2026년 7월",
+      "lessons": [
+        {
+          "date": "2026-07-06",
+          "weekday": "월",
+          "className": "서준우 개별",
+          "content": "조합 개념",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        }
+      ],
+      "completionRate": null,
+      "noteStages": null
+    },
     {
       "ym": "2026-06",
       "label": "2026년 6월",

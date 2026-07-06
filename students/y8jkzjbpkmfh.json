@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-06T04:48:26.520Z",
+  "generatedAt": "2026-07-06T13:33:30.470Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -174,5 +174,40 @@
   },
   "teacherConfirms": {},
   "tasks": [],
-  "myGrades": []
+  "myGrades": [
+    {
+      "id": "grade_mr99g6ereke",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "중간",
+      "score": 69,
+      "grade": 1,
+      "rank": 18,
+      "totalStudents": 214,
+      "percent": 8.4,
+      "reflection": "마킹 실수 ",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-06T12:56:20.889Z",
+      "createdAt": "2026-07-06T13:33:20.115Z"
+    },
+    {
+      "id": "grade_mr99g6er09c",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "기말",
+      "score": 80,
+      "grade": 1,
+      "rank": 21,
+      "totalStudents": 215,
+      "percent": 9.8,
+      "reflection": "1번 틀림",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-06T12:56:20.889Z",
+      "createdAt": "2026-07-06T13:33:20.115Z"
+    }
+  ]
 }

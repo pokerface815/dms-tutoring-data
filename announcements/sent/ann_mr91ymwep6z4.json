@@ -1,0 +1,16 @@
+{
+  "id": "ann_mr91ymwep6z4",
+  "sentAt": "2026-07-06T19:03:56.665007+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "서준우",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

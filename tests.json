@@ -87,22 +87,6 @@
     "createdAt": "2026-06-05T04:26:37.652Z"
   },
   {
-    "id": "test_1780633806565_mtiq15",
-    "title": "미분계수 ~ 접선의 방정식",
-    "date": "2026-06-05",
-    "classId": "cls_1780309030966_ingi3o",
-    "results": {
-      "s_1780309053750_4dw5li": {
-        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1780658526/t7uu0tvnowqkymgzrlb2.pdf",
-        "fileName": "장승원_6월5일.pdf",
-        "uploadedAt": "2026-06-05T11:22:06.576Z",
-        "comment": "5번 문항을 제외한 2문제는 풀었어야 했던 문제임. 상 수준의 문항은 모두 맞췄음.",
-        "commentUpdatedAt": "2026-06-05T11:25:40.382Z"
-      }
-    },
-    "createdAt": "2026-06-05T04:30:06.565Z"
-  },
-  {
     "id": "test_1780633867883_uj3imm",
     "title": "고차방정식 ~ 이차부등식",
     "date": "2026-06-05",

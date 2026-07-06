@@ -1161,6 +1161,23 @@
   .grade-card[data-collapsed="false"] .grade-card-chevron { transform: rotate(180deg); }
   .grade-card-body { padding: 0 14px 14px; }
   .grade-card[data-collapsed="true"] .grade-card-body { display: none; }
+  /* 시험 정보 카드 요청 섹션의 토글 화살표를 오른쪽으로 */
+  .card-req-summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+  .card-req-summary::-webkit-details-marker { display: none; }
+  .card-req-summary::after {
+    content: "▼";
+    font-size: 11px;
+    color: var(--text3);
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+  }
+  details[open] > .card-req-summary::after { transform: rotate(180deg); }
   </style>
   <!-- d3-hierarchy (버블 차트 packing 알고리즘) -->
   <script src="https://cdn.jsdelivr.net/npm/d3-hierarchy@3/dist/d3-hierarchy.min.js"></script>
@@ -5112,9 +5129,11 @@
 
     return `
       <details style="background:var(--surface2); border:1px solid var(--border); border-radius:8px; padding:10px 12px; margin-bottom:14px;" ${isOpenByDefault ? 'open' : ''}>
-        <summary style="cursor:pointer; font-size:13px; font-weight:700; color:var(--text); user-select:none; line-height:1.5;">
-          시험 정보 카드가 없어서 입력 못 했나요?<br>
-          선생님께 요청 보내기${totalCount > 0 ? ` <span style="font-size:11px; color:var(--accent); font-weight:600;">${totalCount}건</span>` : ''}
+        <summary class="card-req-summary" style="cursor:pointer; font-size:13px; font-weight:700; color:var(--text); user-select:none; line-height:1.5;">
+          <span>
+            시험 정보 카드가 없어서 입력 못 했나요?<br>
+            선생님께 요청 보내기${totalCount > 0 ? ` <span style="font-size:11px; color:var(--accent); font-weight:600;">${totalCount}건</span>` : ''}
+          </span>
         </summary>
         <div style="margin-top:10px;">
           ${inner}

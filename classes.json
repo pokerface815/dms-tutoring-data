@@ -1,21 +1,11 @@
 [
   {
-    "id": "cls_1780309030966_ingi3o",
-    "name": "장승원 개별",
-    "memo": "월 - 대수, 수 - 미적분1",
-    "order": 4,
-    "createdAt": "2026-06-01T10:17:10.967Z",
-    "slot": 8,
-    "showInParent": true,
-    "lessonSlot": 8
-  },
-  {
     "id": "cls_1780309335387_ry7cd9",
     "name": "박유솔 개별",
     "memo": "월 - 공수2 개념, 수 - 공수1 문풀",
     "order": 5,
     "createdAt": "2026-06-01T10:22:15.387Z",
-    "slot": 11,
+    "slot": 8,
     "showInParent": true,
     "lessonSlot": 11
   },
@@ -95,7 +85,7 @@
     "showInParent": true,
     "order": 13,
     "createdAt": "2026-06-08T09:24:43.163Z",
-    "slot": 14,
+    "slot": 11,
     "lessonSlot": 14
   }
 ]

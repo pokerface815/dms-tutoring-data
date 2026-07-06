@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-05T02:30:41.299Z",
+  "generatedAt": "2026-07-06T04:48:14.886Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
   "studentCount": 39,
   "baseUrl": "",
@@ -163,7 +163,7 @@
       "name": "장승원",
       "grade": "중3",
       "school": "숭일중",
-      "className": "장승원 개별",
+      "className": "",
       "studentPageCode": "t2dh88gcxggm",
       "parentPageCode": "t2dh88gcxggm"
     },

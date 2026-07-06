@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-05T02:22:01.535Z",
+  "generatedAt": "2026-07-06T04:48:40.650Z",
   "student": {
     "id": "s_1779811264964_kbtli4",
     "classes": [
@@ -85,8 +85,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-06-29",
-    "endDate": "2026-07-05"
+    "startDate": "2026-07-06",
+    "endDate": "2026-07-12"
   },
   "teacherConfirms": {
     "task_1780152086917_f8u2ai__20260530": {

@@ -19,21 +19,21 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
     :root {
-      --bg: #fefcf8;
+      --bg: #f5f7f9;
       --surface: #ffffff;
-      --surface2: #f9f6ef;
-      --border: #e6dfd0;
-      --text: #2a2a2a;
-      --text2: #5a5a5a;
-      --text3: #999;
-      --accent: #8b5a2b;
-      --accent-light: #c69856;
-      --accent-dark: #6b4520;
-      --danger: #c0392b;
-      --warning: #e8a23e;
-      --success: #5d8a4a;
-      --info: #3498db;
-      --radius: 12px;
+      --surface2: #eef1f4;
+      --border: #dfe5ea;
+      --text: #1c2530;
+      --text2: #4d5a65;
+      --text3: #8b98a5;
+      --accent: #2f4f6b;
+      --accent-light: #5578a0;
+      --accent-dark: #223a51;
+      --danger: #b3403a;
+      --warning: #a9772a;
+      --success: #2e7d32;
+      --info: #2f6fb0;
+      --radius: 10px;
     }
     html, body {
       font-family: 'Noto Sans KR', sans-serif;
@@ -55,8 +55,8 @@
       top: 0;
       z-index: 10;
     }
-    .header-brand { font-family: 'Gowun Batang', serif; font-size: 22px; font-weight: 700; color: var(--accent); letter-spacing: -0.5px; text-align: center; }
-    .header-tagline { font-family: 'Gowun Batang', serif; font-size: 11px; color: var(--text3); text-align: center; margin-top: 2px; }
+    .header-brand { font-family: 'Noto Sans KR', sans-serif; font-size: 20px; font-weight: 700; color: var(--accent); letter-spacing: -0.3px; text-align: center; }
+    .header-tagline { font-family: 'Noto Sans KR', sans-serif; font-size: 11px; color: var(--text3); text-align: center; margin-top: 2px; }
     .student-info { display: flex; justify-content: space-between; align-items: baseline; margin-top: 16px; padding-top: 14px; border-top: 0.5px solid var(--border); }
     .student-name { font-size: 18px; font-weight: 600; }
     .student-meta { font-size: 12px; color: var(--text3); }
@@ -138,8 +138,8 @@
     }
 
     .upload-area { margin-top: 12px; padding-top: 12px; border-top: 0.5px dashed var(--border); }
-    .upload-btn { width: 66.67%; max-width: 380px; margin: 8px auto; display: flex; align-items: center; justify-content: center; gap: 6px; padding: 11px 14px; background: #e8dcc4; color: #5a4a2f; border: 0.5px solid rgba(120,90,60,0.25); border-radius: 10px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: inherit; }
-    .upload-btn:active { background: #d9c9aa; }
+    .upload-btn { width: 66.67%; max-width: 380px; margin: 8px auto; display: flex; align-items: center; justify-content: center; gap: 6px; padding: 11px 14px; background: #dfe6ec; color: #223a51; border: 0.5px solid rgba(47,79,107,0.25); border-radius: 10px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: inherit; }
+    .upload-btn:active { background: #c9d5df; }
     .upload-btn:active { background: var(--accent-dark); }
     .upload-btn:disabled { background: var(--text3); cursor: not-allowed; }
     .upload-btn.secondary { background: var(--surface); color: var(--accent); border: 1px solid var(--accent-light); }
@@ -1113,12 +1113,12 @@
   .grades-action-btn {
     display: flex; align-items: center; justify-content: center; gap: 6px;
     width: 66.67%; max-width: 380px; margin: 18px auto;
-    padding: 13px; background: #e8dcc4; color: #5a4a2f;
-    border: 0.5px solid rgba(120,90,60,0.25); border-radius: 10px;
+    padding: 13px; background: #dfe6ec; color: #223a51;
+    border: 0.5px solid rgba(47,79,107,0.25); border-radius: 10px;
     font-size: 14px; font-weight: 600; text-decoration: none; letter-spacing: -0.2px;
     transition: background 0.12s ease;
   }
-  .grades-action-btn:active { background: #d9c9aa; }
+  .grades-action-btn:active { background: #c9d5df; }
   /* 성적 추이 그래프 */
   .grade-chart-card {
     background: var(--surface); border: 1px solid var(--border);

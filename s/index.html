@@ -378,7 +378,7 @@
     color: var(--text); margin: 6px 0 14px;
     font-variant-numeric: tabular-nums;
   }
-  .effort-timer-display.running { color: #2e7d32; }
+  .effort-timer-display.running { color: var(--success); }
   .effort-timer-display.paused { color: #8b6914; }
   .effort-timer-buttons { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
   .effort-btn {
@@ -422,7 +422,7 @@
   .effort-log-head { display: flex; align-items: center; gap: 8px; }
   .effort-log-subject { font-weight: 700; font-size: 13px; color: var(--text); }
   .effort-log-time { font-size: 11px; color: var(--text2); font-variant-numeric: tabular-nums; }
-  .effort-log-del { margin-left: 4px; padding: 1px 7px; background: transparent; border: 1px solid var(--border); border-radius: 4px; font-size: 11px; color: #A32D2D; cursor: pointer; font-family: inherit; }
+  .effort-log-del { margin-left: 4px; padding: 1px 7px; background: transparent; border: 1px solid var(--border); border-radius: 4px; font-size: 11px; color: var(--danger); cursor: pointer; font-family: inherit; }
   .effort-log-edit { margin-left: auto; padding: 1px 8px; background: transparent; border: 1px solid var(--border); border-radius: 4px; font-size: 11px; color: var(--accent-dark); cursor: pointer; font-family: inherit; }
   .effort-log-meta { font-size: 10.5px; color: var(--text3); margin-top: 3px; }
   .effort-log-content { font-size: 12px; color: var(--text); margin-top: 5px; line-height: 1.5; }
@@ -485,7 +485,7 @@
     display: inline-block;
     margin-left: 5px;
     padding: 1px 6px;
-    background: #ef4444;
+    background: var(--danger);
     color: #fff;
     font-size: 10px;
     font-weight: 700;
@@ -728,7 +728,7 @@
     font-family: inherit;
   }
   .effort-chip:hover, .effort-chip:active {
-    background: oklch(95% 0.04 125); color: #2e7d32;
+    background: oklch(95% 0.04 125); color: var(--success);
     border-color: oklch(86% 0.07 125);
   }
   .effort-chip.recent { background: oklch(96% 0.035 125); color: #2e4f2e; border-color: oklch(86% 0.07 125); }
@@ -747,9 +747,9 @@
     transition: background 0.18s ease, color 0.18s ease;
   }
   .effort-sync-indicator.syncing { background: oklch(95% 0.04 125); color: #5d6b5d; border-color: oklch(88% 0.06 125); }
-  .effort-sync-indicator.success { background: oklch(96% 0.035 125); color: #2e7d32; border-color: oklch(86% 0.07 125); }
+  .effort-sync-indicator.success { background: oklch(96% 0.035 125); color: var(--success); border-color: oklch(86% 0.07 125); }
   .effort-sync-indicator.pending { background: #fff7e6; color: #8b6914; border-color: #f0d9a0; }
-  .effort-sync-indicator.error   { background: #fdecec; color: #A32D2D; border-color: #f0bdbd; cursor: pointer; }
+  .effort-sync-indicator.error   { background: #fdecec; color: var(--danger); border-color: #f0bdbd; cursor: pointer; }
   .effort-sync-dot {
     display: inline-block; width: 6px; height: 6px; border-radius: 50%;
     background: currentColor; opacity: 0.85;
@@ -891,11 +891,11 @@
     padding: 0;
   }
   .hist-del-btn:hover {
-    background: oklch(94% 0.05 25);
-    color: oklch(50% 0.18 25);
+    background: rgba(179,64,58,0.12);
+    color: var(--danger);
   }
   .hist-del-btn:active {
-    background: oklch(88% 0.08 25);
+    background: rgba(179,64,58,0.22);
   }
   .hist-thumb {
     width: 90px; height: 54px; flex-shrink: 0;
@@ -911,7 +911,7 @@
   .hist-lecture { font-weight: 500; }
   .hist-meta { display: flex; gap: 7px; align-items: center; flex-wrap: wrap; font-size: 11px; margin-top: 2px; }
   .hist-badge { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 8px; }
-  .hist-badge-done { background: #d8efd0; color: #2e7d32; }
+  .hist-badge-done { background: #d8efd0; color: var(--success); }
   .hist-badge-resume { background: oklch(94% 0.08 60); color: oklch(40% 0.12 60); }
   .hist-badge-progress { background: var(--surface2); color: var(--text3); }
   .hist-time { color: var(--text3); font-variant-numeric: tabular-nums; }
@@ -991,7 +991,7 @@
   .lecture-video-status {
     padding: 1px 6px; border-radius: 8px; font-weight: 700; font-size: 10px;
   }
-  .lecture-video-status.watched { background: oklch(96% 0.04 125); color: #2e7d32; }
+  .lecture-video-status.watched { background: oklch(96% 0.04 125); color: var(--success); }
   .lecture-video-status.partial { background: #fff7e6; color: #8b6914; }
   .lecture-video-prog {
     height: 3px; background: var(--surface2); border-radius: 2px;
@@ -1154,7 +1154,7 @@
   .grade-card-title { font-weight: 700; font-size: 14px; color: var(--text); letter-spacing: -0.2px; }
   .grade-card-meta { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
   .grade-card-status { font-size: 10.5px; padding: 2px 7px; border-radius: 4px; font-weight: 600; }
-  .grade-card-status.filled { background: #e6f3df; color: #2e5d2e; }
+  .grade-card-status.filled { background: #d8efd0; color: var(--success); }
   .grade-card-status.partial { background: #fef3d7; color: #8b6914; }
   .grade-card-status.empty { background: #eee; color: var(--text3); }
   .grade-card-chevron { font-size: 10px; color: var(--text3); transition: transform 0.2s ease; }
@@ -1206,22 +1206,22 @@
   // Material Design 200, 무지개 hue 순서대로 부드럽게 이어짐
   // Yellow에서 시작 → 초록 → 청록 → 파랑 → 보라 → 핑크 → 빨강 → 주황 → 황금색
   const SUBJECT_COLOR_PALETTE = [
-    '#FFF59D',  // Yellow 200      (hue ~95)
-    '#E6EE9C',  // Lime 200        (~115)
-    '#C5E1A5',  // Light Green 200 (~130)
-    '#A5D6A7',  // Green 200       (~150)
-    '#80CBC4',  // Teal 200        (~180)
-    '#80DEEA',  // Cyan 200        (~195)
-    '#81D4FA',  // Light Blue 200  (~215)
-    '#90CAF9',  // Blue 200        (~235)
-    '#9FA8DA',  // Indigo 200      (~265)
-    '#B39DDB',  // Deep Purple 200 (~290)
-    '#CE93D8',  // Purple 200      (~310)
-    '#F48FB1',  // Pink 200        (~340)
-    '#EF9A9A',  // Red 200         (~25)
-    '#FFAB91',  // Deep Orange 200 (~40)
-    '#FFCC80',  // Orange 200      (~70)
-    '#FFE082',  // Amber 200       (~80)
+    '#D3C48C',  // Yellow      (hue ~95, muted)
+    '#C2CA92',  // Lime        (~115, muted)
+    '#B4CE9B',  // Light Green (~130, muted)
+    '#A2D2AB',  // Green       (~150, muted)
+    '#8DD5C6',  // Teal        (~180, muted)
+    '#88D4D3',  // Cyan        (~195, muted)
+    '#8AD1E3',  // Light Blue  (~215, muted)
+    '#94CDEE',  // Blue        (~235, muted)
+    '#ACC4F6',  // Indigo      (~265, muted)
+    '#C3BCF2',  // Deep Purple (~290, muted)
+    '#D3B7E9',  // Purple      (~310, muted)
+    '#E6B2D4',  // Pink        (~340, muted)
+    '#F1B2AC',  // Red         (~25, muted)
+    '#EFB4A0',  // Deep Orange (~40, muted)
+    '#E4BC8F',  // Orange      (~70, muted)
+    '#DEBF8D',  // Amber       (~80, muted)
   ];
 
   // 학생별 과목 → 색 매핑 (동적). 첫 학습 시점 순서대로 색 부여 → 한 번 부여된 색은 유지
@@ -1395,7 +1395,7 @@
     const updatedTime = data.generatedAt ? new Date(data.generatedAt) : null;
     const footerHtml = `
       <div class="footer">
-        <button class="refresh-btn" onclick="location.reload()">🔄 새로고침</button>
+        <button class="refresh-btn" onclick="location.reload()">새로고침</button>
         ${updatedTime ? `<span class="last-updated">마지막 업데이트: ${formatRelativeTime(updatedTime)}</span>` : ''}
       </div>
     `;
@@ -1500,7 +1500,7 @@
   function renderLearningContent(data) {
     let html = '';
     if (_learningTab === 'note') {
-      html += renderSection('오늘 풀어야 할 오답노트', data.today || [], 'today', '오늘 풀 오답노트가 없어요. 잠깐 쉬는 날 ☺️', true);
+      html += renderSection('오늘 풀어야 할 오답노트', data.today || [], 'today', '오늘 풀 오답노트가 없어요. 잠깐 쉬는 날', true);
       if ((data.overdue || []).length > 0) html += renderSection('밀린 오답노트', data.overdue, 'overdue', '', true);
       if ((data.upcoming || []).length > 0) html += renderSection('이번 주 일정', data.upcoming, 'upcoming', '', false);
       if ((data.completed || []).length > 0) html += renderCompletedSection(data.completed);
@@ -1893,7 +1893,6 @@
     if (entries.length === 0) {
       wrap.innerHTML = `
         <div class="lecture-empty">
-          <div class="ico">🕒</div>
           <h3>시청 기록이 없어요</h3>
           <p>강의 목록에서 영상을 시청하면<br>여기에 표시됩니다.</p>
         </div>
@@ -1927,7 +1926,7 @@
           <div class="hist-clickable" onclick="openLecturePlayerById('${e.lectureId}', '${e.videoId}')">
             ${e.thumbnailUrl
               ? `<img class="hist-thumb" src="${escapeHtml(e.thumbnailUrl)}" alt="" loading="lazy">`
-              : `<div class="hist-thumb" style="display:flex; align-items:center; justify-content:center; font-size:20px;">🎬</div>`}
+              : `<div class="hist-thumb" style="display:flex; align-items:center; justify-content:center; color:var(--text3);"><svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="9" height="9" rx="1.5"/><path d="M12 7.3l3.5-2v7.4l-3.5-2z" stroke-linejoin="round"/></svg></div>`}
             <div class="hist-info">
               <div class="hist-title">${escapeHtml(e.videoTitle)}</div>
               <div class="hist-sub">
@@ -2013,7 +2012,6 @@
     if (lectures.length === 0) {
       wrap.innerHTML = `
         <div class="lecture-empty">
-          <div class="ico">🎬</div>
           <h3>아직 강의 영상이 없어요</h3>
           <p>선생님이 강의 영상을 등록하면<br>여기에 표시됩니다.</p>
         </div>
@@ -2105,11 +2103,11 @@
           const lecProgress = videos.length > 0 ? Math.round(watchedCount / videos.length * 100) : 0;
           html += `
             <a class="lecture-list-card" href="#video/${encodeURIComponent(lec.id)}">
-              ${lec.thumbnailUrl ? `<img class="lecture-list-thumb" src="${escapeHtml(lec.thumbnailUrl)}" alt="" loading="lazy">` : `<div class="lecture-list-thumb" style="display:flex; align-items:center; justify-content:center; font-size:24px;">🎬</div>`}
+              ${lec.thumbnailUrl ? `<img class="lecture-list-thumb" src="${escapeHtml(lec.thumbnailUrl)}" alt="" loading="lazy">` : `<div class="lecture-list-thumb" style="display:flex; align-items:center; justify-content:center; color:var(--text3);"><svg width="22" height="22" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="9" height="9" rx="1.5"/><path d="M12 7.3l3.5-2v7.4l-3.5-2z" stroke-linejoin="round"/></svg></div>`}
               <div class="lecture-list-info">
                 <div class="lecture-list-title">${escapeHtml(lec.title)}</div>
                 <div class="lecture-list-meta">
-                  <span>📹 <b>${videos.length}</b>개</span>
+                  <span><b>${videos.length}</b>개</span>
                   <span>⏱ <b>${fmtLectureDurLong(tSec)}</b></span>
                   ${watchedCount > 0 ? `<span>✓ <b>${watchedCount}/${videos.length}</b>완료</span>` : ''}
                 </div>
@@ -2134,11 +2132,11 @@
     if (!wrap) return;
     const lec = (_lecturesCache || []).find(l => l.id === lecId);
     if (!lec) {
-      wrap.innerHTML = `<div class="lecture-empty"><div class="ico">⚠</div><h3>재생목록을 찾을 수 없어요</h3><p>다시 시도하거나 새로고침해주세요.</p></div>`;
+      wrap.innerHTML = `<div class="lecture-empty"><h3>재생목록을 찾을 수 없어요</h3><p>다시 시도하거나 새로고침해주세요.</p></div>`;
       return;
     }
     if (!hasLecturePermission(lec)) {
-      wrap.innerHTML = `<div class="lecture-empty"><div class="ico">🔒</div><h3>접근 권한이 없어요</h3><p>선생님께 문의해주세요.</p></div>`;
+      wrap.innerHTML = `<div class="lecture-empty"><h3>접근 권한이 없어요</h3><p>선생님께 문의해주세요.</p></div>`;
       return;
     }
     const watch = loadLectureWatch();
@@ -2156,7 +2154,7 @@
     `;
 
     if (videos.length === 0) {
-      html += `<div class="lecture-empty"><div class="ico">📭</div><h3>영상이 없어요</h3></div>`;
+      html += `<div class="lecture-empty"><h3>영상이 없어요</h3></div>`;
       wrap.innerHTML = html;
       return;
     }
@@ -2837,7 +2835,7 @@
     const hasNickname = !!profile.nickname;
     const isPublic = !!profile.publicNickname;
     const displayState = hasNickname && isPublic
-      ? `<span style="color:oklch(50% 0.15 145); font-weight:700;">"${escapeHtml(profile.nickname)}"</span>로 공개`
+      ? `<span style="color:var(--success); font-weight:700;">"${escapeHtml(profile.nickname)}"</span>로 공개`
       : `<span style="color:var(--text2); font-weight:600;">익명</span>으로 참여`;
     html += `
       <details class="ranking-profile-card" ${!hasNickname ? 'open' : ''}>
@@ -2921,11 +2919,11 @@
     // 응원 메시지
     if (my) {
       let msg = '';
-      if (my._rank === 1) msg = '🎉 1위! 친구들에게 자랑할 만해요.';
-      else if (my._rank <= 3) msg = '🏆 메달권 진입! 정상까지 얼마 남지 않았어요.';
-      else if (my._rank <= TOP_N) msg = '⭐ 상위권에 있어요. 꾸준히 가요!';
-      else if (my._rank <= totalStudents / 2) msg = '💪 한 단계씩 올라가 봐요.';
-      else msg = '🌱 작은 시작이 큰 차이를 만들어요.';
+      if (my._rank === 1) msg = '1위! 친구들에게 자랑할 만해요.';
+      else if (my._rank <= 3) msg = '메달권 진입! 정상까지 얼마 남지 않았어요.';
+      else if (my._rank <= TOP_N) msg = '상위권에 있어요. 꾸준히 가요!';
+      else if (my._rank <= totalStudents / 2) msg = '한 단계씩 올라가 봐요.';
+      else msg = '작은 시작이 큰 차이를 만들어요.';
       html += `<div class="ranking-cheer">${msg}</div>`;
     }
 
@@ -2976,7 +2974,7 @@
     return `
       <h2 class="view-title">노력의 자취</h2>
       <div style="font-size:13px; color:var(--text2); margin:0 0 6px; line-height:1.6;">공부 시작할 때 타이머 켜고, 끝날 때 기록을 남겨주세요.</div>
-      <div style="font-size:11.5px; color:var(--text3); margin:0 0 10px; padding:7px 10px; background:var(--surface2); border-radius:6px; line-height:1.5;">💡 측정 중에는 다른 화면을 보거나 페이지를 닫아도 타이머가 그대로 유지돼요.</div>
+      <div style="font-size:11.5px; color:var(--text3); margin:0 0 10px; padding:7px 10px; background:var(--surface2); border-radius:6px; line-height:1.5;">측정 중에는 다른 화면을 보거나 페이지를 닫아도 타이머가 그대로 유지돼요.</div>
 
       <div id="rankingMiniSlot"></div>
 
@@ -3312,7 +3310,7 @@
       `;
     }
 
-    const statusLabel = status === 'running' ? '<span style="color:#2e7d32;">● 측정 중</span>'
+    const statusLabel = status === 'running' ? '<span style="color:var(--success);">● 측정 중</span>'
       : status === 'paused' ? '<span style="color:#8b6914;">⏸ 일시정지</span>'
       : '<span style="color:var(--text3);">대기</span>';
 
@@ -3558,7 +3556,7 @@
     if (logs.length === 0) { wrap.innerHTML = ''; return; }
     const streak = calcStreak(logs);
     if (streak === 0) { wrap.innerHTML = ''; return; }
-    const msg = streak >= 7 ? '대단해요! 꾸준함이 자산이에요 ✨'
+    const msg = streak >= 7 ? '대단해요! 꾸준함이 자산이에요'
       : streak >= 3 ? '꾸준히 잘하고 있어요!'
       : '시작이 반이에요. 내일도 화이팅!';
     wrap.innerHTML = `
@@ -3910,7 +3908,7 @@
               <span class="day-tl-event-time">${durationStr} (${timeRangeStr})</span>
             </div>
             ${l.content ? `<div class="day-tl-event-content">${escapeHtml(l.content)}</div>` : ''}
-            ${l.reflection ? `<div class="day-tl-event-refl">📔 ${escapeHtml(l.reflection)}</div>` : ''}
+            ${l.reflection ? `<div class="day-tl-event-refl">${escapeHtml(l.reflection)}</div>` : ''}
           </div>
         </div>
       `;
@@ -4037,12 +4035,12 @@
             <div class="effort-log-head">
               <span class="effort-log-subject">${escapeHtml(l.subject)}</span>
               <span class="effort-log-time">${fmtDurationShort(l.seconds)}</span>
-              <button class="effort-log-edit" onclick="openEffortEditModal('${l.id}')" title="수정">✏️</button>
+              <button class="effort-log-edit" onclick="openEffortEditModal('${l.id}')" title="수정"><svg width="13" height="13" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><path d="M3 15l.8-3.3L11.2 4.3l2.5 2.5L6.3 14.2z"/><line x1="9.8" y1="5.7" x2="12.3" y2="8.2"/></svg></button>
               <button class="effort-log-del" onclick="deleteEffortLog('${l.id}')" title="삭제">×</button>
             </div>
             <div class="effort-log-meta">${dateStr} · ${escapeHtml(l.method || '')}</div>
             <div class="effort-log-content">${escapeHtml(l.content || '')}</div>
-            ${l.reflection ? `<div class="effort-log-reflection">📔 ${escapeHtml(l.reflection)}</div>` : ''}
+            ${l.reflection ? `<div class="effort-log-reflection">${escapeHtml(l.reflection)}</div>` : ''}
           </div>
         `;
       });
@@ -4471,7 +4469,7 @@
 
   function gradeColor(g) {
     if (g == null) return '#999';
-    const colors = {1:'#2ecc71', 2:'#27ae60', 3:'#3498db', 4:'#5d8a4a', 5:'#e8a23e', 6:'#e67e22', 7:'#d35400', 8:'#c0392b', 9:'#922b21'};
+    const colors = {1:'#2ecc71', 2:'#27ae60', 3:'#3498db', 4:'#2f6fb0', 5:'#e8a23e', 6:'#e67e22', 7:'#d35400', 8:'#c0392b', 9:'#922b21'};
     return colors[g] || '#999';
   }
 
@@ -4544,8 +4542,8 @@
     // localStorage에서 임시 저장된 반성 가져오기
     loadReflectionDrafts();
 
-    let html = `<div class="group-label" style="background:#fef8e8; border-left:4px solid #e8b423; color:#7a5520;">📔 지난 시험 + 반성</div>`;
-    html += `<div style="font-size:12px; color:var(--text2); margin:0 0 10px 4px; line-height:1.5;">시험을 돌아보며 다음을 다지는 시간 ✍️</div>`;
+    let html = `<div class="group-label" style="background:#fef8e8; border-left:4px solid #e8b423; color:#7a5520;">지난 시험 + 반성</div>`;
+    html += `<div style="font-size:12px; color:var(--text2); margin:0 0 10px 4px; line-height:1.5;">시험을 돌아보며 다음을 다지는 시간</div>`;
     for (const g of items) {
       const isMock = g.type === 'mock';
       const title = isMock
@@ -4570,17 +4568,17 @@
             </div>
           </div>
           <div style="margin-top:8px;">
-            <label class="gi-label">✍️ 이번 시험 반성 · 다음 다짐</label>
+            <label class="gi-label">이번 시험 반성 · 다음 다짐</label>
             <textarea class="gi-input reflection-input" data-grade-id="${g.id}" rows="3" placeholder="예: 계산 실수 많았음. 다음엔 검산 두 번 하자!">${escapeHtml(currentReflection)}</textarea>
             ${isSent && !isDirty ? `<div style="font-size:11px; color:var(--success); margin-top:4px; font-weight:600;">✓ ${formatRelativeTime(new Date(cachedReflectionDrafts[draftKey].sentAt))} 전송됨</div>` : ''}
-            ${isDirty ? `<div style="font-size:11px; color:#e8a23e; margin-top:4px;">📝 수정됨 — 아래 저장 버튼으로 전송</div>` : ''}
+            ${isDirty ? `<div style="font-size:11px; color:#e8a23e; margin-top:4px;">수정됨 — 아래 저장 버튼으로 전송</div>` : ''}
           </div>
         </div>
       `;
     }
     html += `
       <button class="make-note-btn" style="background:#7c5cbf; margin:4px 0 20px;" onclick="saveAllReflections()">
-        💾 반성/다짐 저장 (선생님께 전송)
+        반성/다짐 저장 (선생님께 전송)
       </button>
     `;
     wrap.innerHTML = html;
@@ -4837,7 +4835,7 @@
       return;
     }
 
-    html += `<h3 style="margin:14px 0 8px; font-size:14px; font-weight:700; letter-spacing:-0.3px;">📘 학교 내신</h3>`;
+    html += `<h3 style="margin:14px 0 8px; font-size:14px; font-weight:700; letter-spacing:-0.3px;">학교 내신</h3>`;
 
     for (const c of myEntries) {
       const enabled = c.studentInputEnabledByExamKind || {};
@@ -4870,7 +4868,7 @@
         <span class="grade-card-meta">${scoreSummary}<span class="grade-card-chevron">▼</span></span>
       </button>`;
       html += `<div class="grade-card-body">`;
-      if (c.extraNote) html += `<div style="font-size:11.5px; color:var(--text2); margin-bottom:8px; padding:6px 8px; background:var(--surface2); border-radius:5px; line-height:1.5;">💡 ${escapeHtml(c.extraNote)}</div>`;
+      if (c.extraNote) html += `<div style="font-size:11.5px; color:var(--text2); margin-bottom:8px; padding:6px 8px; background:var(--surface2); border-radius:5px; line-height:1.5;">${escapeHtml(c.extraNote)}</div>`;
 
       for (const ek of examKinds) {
         const draftKey = `${c.id}__${ek}`;
@@ -4932,7 +4930,7 @@
         const cutsSectionOpen = hasCutsDraft;  // 이미 입력한 값이 있으면 자동으로 펼침
         const cutsSection = !isMid ? `
             <details style="margin-top:10px; background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:8px 10px;" ${cutsSectionOpen ? 'open' : ''}>
-              <summary style="cursor:pointer; font-size:12px; font-weight:600; color:var(--text2); user-select:none;">📊 이 시험의 등급컷을 알아요 (선택)</summary>
+              <summary style="cursor:pointer; font-size:12px; font-weight:600; color:var(--text2); user-select:none;">이 시험의 등급컷을 알아요 (선택)</summary>
               <div style="display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap:6px; margin-top:8px;">
                 ${[0,1,2,3].map(i => `
                   <div>
@@ -5040,13 +5038,13 @@
                 <div style="font-size:12px; color:var(--text2); margin-top:2px;">
                   ${req.year || '?'}-${req.semester || '?'}학기 · ${escapeHtml(req.subject || '')}
                 </div>
-                <div style="font-size:11.5px; color:#5a3a9e; margin-top:2px;">📝 ${escapeHtml(examKindsStr)}</div>
-                ${req.memo ? `<div style="font-size:11px; color:var(--text3); margin-top:2px;">💬 ${escapeHtml(req.memo)}</div>` : ''}
+                <div style="font-size:11.5px; color:#5a3a9e; margin-top:2px;">${escapeHtml(examKindsStr)}</div>
+                ${req.memo ? `<div style="font-size:11px; color:var(--text3); margin-top:2px;">${escapeHtml(req.memo)}</div>` : ''}
                 <div style="margin-top:4px;">${sentBadge}</div>
               </div>
               <div style="display:flex; gap:4px; flex-shrink:0;">
                 ${req.sentAt ? '' : `<button type="button" onclick="editCardRequest('${req.tempId}')" style="padding:3px 8px; background:var(--surface2); border:1px solid var(--border); border-radius:4px; font-size:11px; cursor:pointer; font-family:inherit;">편집</button>`}
-                <button type="button" onclick="deleteCardRequest('${req.tempId}')" style="padding:3px 8px; background:var(--surface2); border:1px solid var(--border); border-radius:4px; font-size:11px; color:#a54; cursor:pointer; font-family:inherit;">삭제</button>
+                <button type="button" onclick="deleteCardRequest('${req.tempId}')" style="padding:3px 8px; background:var(--surface2); border:1px solid var(--border); border-radius:4px; font-size:11px; color:var(--danger); cursor:pointer; font-family:inherit;">삭제</button>
               </div>
             </div>
           </div>
@@ -5062,7 +5060,7 @@
       inner += `
         <div style="padding:10px 12px; background:#eef4fa; border:1px solid #cddbe8; border-radius:6px; margin-bottom:6px;">
           <div style="font-size:12.5px; font-weight:700; color:#1c4e7a; margin-bottom:8px;">
-            ${isEdit ? '✏️ 요청 편집' : '➕ 새 시험 카드 요청'}
+            ${isEdit ? '요청 편집' : '새 시험 카드 요청'}
           </div>
           <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-bottom:8px;">
             <div>
@@ -5115,7 +5113,7 @@
     } else {
       inner += `
         <button type="button" onclick="openNewCardRequest()" style="width:100%; padding:8px; background:var(--surface); border:1px dashed var(--border); border-radius:6px; font-size:12.5px; color:var(--text2); cursor:pointer; font-family:inherit;">
-          ➕ 새 시험 카드 요청 추가
+          새 시험 카드 요청 추가
         </button>
       `;
     }
@@ -5318,7 +5316,7 @@
     if (studentLvl >= 3) gradeLvlOptions.push('고3');
 
     let html = `
-      <h3 style="margin:24px 0 8px; font-size:14px; font-weight:700; letter-spacing:-0.3px;">📗 모의고사</h3>
+      <h3 style="margin:24px 0 8px; font-size:14px; font-weight:700; letter-spacing:-0.3px;">모의고사</h3>
       <div style="font-size:12px; color:var(--text2); margin-bottom:12px; line-height:1.6;">학교 시험과 별도로 본 모의고사 점수를 적어주세요.</div>
     `;
 
@@ -5348,12 +5346,12 @@
               <span style="margin-left:auto; display:flex; gap:4px;">
                 ${isDeletingThis ? `<button type="button" onclick="cancelMockDelete('${g.id}')" style="padding:3px 10px; background:var(--surface); border:1px solid var(--border); border-radius:5px; font-size:11px; font-weight:600; color:var(--text); cursor:pointer; font-family:inherit;">삭제 취소</button>` : `
                   <button type="button" onclick="editMockRecord('${g.id}')" style="padding:3px 10px; background:var(--surface); border:1px solid var(--border); border-radius:5px; font-size:11px; font-weight:600; color:var(--text); cursor:pointer; font-family:inherit;">수정</button>
-                  <button type="button" onclick="deleteMockRecord('${g.id}')" style="padding:3px 10px; background:transparent; border:1px solid var(--border); border-radius:5px; font-size:11px; color:#A32D2D; cursor:pointer; font-family:inherit;">삭제</button>
+                  <button type="button" onclick="deleteMockRecord('${g.id}')" style="padding:3px 10px; background:transparent; border:1px solid var(--border); border-radius:5px; font-size:11px; color:var(--danger); cursor:pointer; font-family:inherit;">삭제</button>
                 `}
               </span>
             </div>
-            ${editingDraft ? `<div style="margin-top:6px; padding:6px 8px; background:#fef9e6; border-radius:4px; font-size:11px; color:#8b6914;">✏️ 수정 예약 — 새 점수: <b>${editingDraft.mathScore}점</b> (저장하면 반영)</div>` : ''}
-            ${isDeletingThis ? `<div style="margin-top:6px; padding:6px 8px; background:#fce8e8; border-radius:4px; font-size:11px; color:#A32D2D;">🗑️ 삭제 예약 — 저장하면 삭제됩니다</div>` : ''}
+            ${editingDraft ? `<div style="margin-top:6px; padding:6px 8px; background:#fef9e6; border-radius:4px; font-size:11px; color:#8b6914;">수정 예약 — 새 점수: <b>${editingDraft.mathScore}점</b> (저장하면 반영)</div>` : ''}
+            ${isDeletingThis ? `<div style="margin-top:6px; padding:6px 8px; background:#fce8e8; border-radius:4px; font-size:11px; color:var(--danger);">삭제 예약 — 저장하면 삭제됩니다</div>` : ''}
           </div>
         `;
       });
@@ -5372,7 +5370,7 @@
               <span style="font-size:13px; font-weight:600; color:var(--text);">${m.mathScore != null ? m.mathScore + '점' : '-'}</span>
               <button type="button" onclick="removeMockDraft(${idx})" style="margin-left:auto; padding:2px 8px; background:transparent; border:1px solid var(--border); border-radius:4px; font-size:11px; color:var(--text2); cursor:pointer; font-family:inherit;">×</button>
             </div>
-            ${m.reflection ? `<div style="font-size:11.5px; color:var(--text2); padding:6px 8px; background:var(--surface); border-radius:4px;">📔 ${escapeHtml(m.reflection)}</div>` : ''}
+            ${m.reflection ? `<div style="font-size:11.5px; color:var(--text2); padding:6px 8px; background:var(--surface); border-radius:4px;">${escapeHtml(m.reflection)}</div>` : ''}
             <div style="font-size:10.5px; color:var(--text3); margin-top:4px;">${m.sentAt ? '✓ 저장됨' : '임시저장 — 위쪽 "저장" 버튼 누르기'}</div>
           </div>
         `;
@@ -5833,8 +5831,8 @@
 
     let repeatBadge = '';
     if (t.isRepeat) {
-      if (t.dayOffset === 0) repeatBadge = '<span class="note-card-date" style="color:#7c5cbf; font-weight:600;">🔁 오늘 과제</span>';
-      else repeatBadge = '<span class="note-card-date" style="color:#7c5cbf;">🔁 반복</span>';
+      if (t.dayOffset === 0) repeatBadge = '<span class="note-card-date" style="color:#7c5cbf; font-weight:600;">오늘 과제</span>';
+      else repeatBadge = '<span class="note-card-date" style="color:#7c5cbf;">반복</span>';
     }
 
     let html = `
@@ -5848,7 +5846,7 @@
         </div>
     `;
     if (teacherComment) {
-      html += `<div class="teacher-comment"><div class="teacher-comment-label">📝 선생님 코멘트</div><div class="teacher-comment-body">${escapeHtml(teacherComment)}</div></div>`;
+      html += `<div class="teacher-comment"><div class="teacher-comment-label">선생님 코멘트</div><div class="teacher-comment-body">${escapeHtml(teacherComment)}</div></div>`;
     }
     // 확인 전 + 미제출 마감 안 됨이면 업로드 가능
     if (!isConfirmed && !isMissed) html += renderUploadArea({ assignmentId: t.assignmentId, round: round }, sub);
@@ -5913,7 +5911,7 @@
         </div>
     `;
     if (teacherComment) {
-      html += `<div class="teacher-comment"><div class="teacher-comment-label">📝 선생님 코멘트</div><div class="teacher-comment-body">${escapeHtml(teacherComment)}</div></div>`;
+      html += `<div class="teacher-comment"><div class="teacher-comment-label">선생님 코멘트</div><div class="teacher-comment-body">${escapeHtml(teacherComment)}</div></div>`;
     }
     if (allowUpload && type !== 'completed' && !isConfirmed && !isMissed) html += renderUploadArea(item, sub);
     else if (isSubmitted) html += renderSubmittedPhotos(item, sub);
@@ -5966,7 +5964,6 @@
         <div class="header-tagline">잊지 않게 만드는 수학 학습</div>
       </div>
       <div class="error-state">
-        <div class="error-icon">😕</div>
         <div class="error-title">${escapeHtml(title)}</div>
         <div class="error-text">${text}</div>
       </div>
@@ -5992,7 +5989,7 @@
   async function uploadPhotos(assignmentId, round, files) {
     const sub = getSubmission(assignmentId, round);
     const photos = sub.photos || [];
-    showToast(`📤 ${files.length}장 업로드 중...`);
+    showToast(`${files.length}장 업로드 중...`);
 
     const tempIds = [];
     for (const _ of files) {
@@ -6026,9 +6023,9 @@
       renderPage();
     }
 
-    if (successCount === files.length) showToast(`✅ ${successCount}장 업로드 완료`);
+    if (successCount === files.length) showToast(`${successCount}장 업로드 완료`);
     else if (successCount > 0) showToast(`⚠️ ${successCount}/${files.length}장만 성공 (일부 실패)`);
-    else showToast('❌ 업로드 실패. 인터넷 확인 후 다시 시도해주세요.', 4000);
+    else showToast('업로드 실패. 인터넷 확인 후 다시 시도해주세요.', 4000);
   }
 
   async function uploadToCloudinary(file, assignmentId, round) {

@@ -2315,21 +2315,9 @@
       _ytPlayer = null;
     }
 
-    // 이번 세션에서 시청한 시간 계산 → 60초 이상이면 노력의 자취 기록 제안
-    const sessionInfo = _ytPlayerCurrent ? (() => {
-      const watch = loadLectureWatch();
-      const wv = watch[_ytPlayerCurrent.videoId] || {};
-      const sessionSec = (wv.watchedSec || 0) - (_ytPlayerCurrent.sessionStartWatchedSec || 0);
-      return {
-        sessionSec,
-        sessionStartedAt: _ytPlayerCurrent.sessionStartedAt || Date.now(),
-        lecId: _ytPlayerCurrent.lecId,
-        lectureTitle: _ytPlayerCurrent.lectureTitle,
-        videoTitle: _ytPlayerCurrent.videoTitle,
-      };
-    })() : null;
+    // 이번 세션에서 시청한 시간 계산 → 60초 이상이면 노력의 자취에 자동 기록
+    tryAutoRecordCurrentSession();
 
-    _ytPlayerCurrent = null;
     const modal = document.getElementById('lecturePlayerModal');
     if (modal) {
       modal.classList.remove('active');
@@ -2341,11 +2329,31 @@
     if (detail) renderLectureDetailInline(detail);
     else renderLectureListInline();
 
-    // 60초 이상 시청 시 학습 기록에 자동 저장 (나중에 수정 가능)
-    if (sessionInfo && sessionInfo.sessionSec >= 60) {
-      autoRecordEffortLog(sessionInfo);
-    }
+    _ytPlayerCurrent = null;
   };
+
+  // 현재 재생 세션의 시청 시간을 계산해 60초 이상이면 노력의 자취에 자동 기록.
+  // 닫기(X) 버튼뿐 아니라 앱 전환/화면 숨김 시점에도 호출되어, 학생이 그냥
+  // 홈으로 나가거나 다른 화면으로 넘어가도 기록이 누락되지 않게 한다.
+  // 같은 세션을 두 번 기록하지 않도록 _ytPlayerCurrent.sessionRecorded로 가드.
+  function tryAutoRecordCurrentSession() {
+    if (!_ytPlayerCurrent || _ytPlayerCurrent.sessionRecorded) return;
+    const watch = loadLectureWatch();
+    const wv = watch[_ytPlayerCurrent.videoId] || {};
+    const sessionSec = (wv.watchedSec || 0) - (_ytPlayerCurrent.sessionStartWatchedSec || 0);
+    if (sessionSec >= 60) {
+      autoRecordEffortLog({
+        sessionSec,
+        sessionStartedAt: _ytPlayerCurrent.sessionStartedAt || Date.now(),
+        lecId: _ytPlayerCurrent.lecId,
+        lectureTitle: _ytPlayerCurrent.lectureTitle,
+        videoTitle: _ytPlayerCurrent.videoTitle,
+      });
+      // 이 세션 분량은 기록 완료 — 다음 체크 시점부턴 그 이후 증가분만 다시 셀 수 있도록 기준점 갱신
+      _ytPlayerCurrent.sessionStartWatchedSec = wv.watchedSec || 0;
+      _ytPlayerCurrent.sessionRecorded = true;
+    }
+  }
 
   // 영상 시청을 학습 기록(노력의 자취)에 자동 저장 + 수정 가능한 알림 표시
   function autoRecordEffortLog(info) {
@@ -2565,6 +2573,14 @@
     if (document.hidden) {
       flushLectureSyncIfPending();
       if (typeof flushEffortSyncIfPending === 'function') flushEffortSyncIfPending();
+      // 강의 재생 중 앱을 전환/백그라운드로 보내도 학습 기록이 누락되지 않도록 즉시 기록 시도
+      try {
+        if (_ytPlayer && _ytPlayerCurrent) {
+          const cur = _ytPlayer.getCurrentTime();
+          applyLectureTick(cur, true);
+        }
+        tryAutoRecordCurrentSession();
+      } catch(e) {}
     }
   });
 
@@ -2572,6 +2588,13 @@
   window.addEventListener('pagehide', () => {
     flushLectureSyncIfPending();
     if (typeof flushEffortSyncIfPending === 'function') flushEffortSyncIfPending();
+    try {
+      if (_ytPlayer && _ytPlayerCurrent) {
+        const cur = _ytPlayer.getCurrentTime();
+        applyLectureTick(cur, true);
+      }
+      tryAutoRecordCurrentSession();
+    } catch(e) {}
   });
 
   function renderGradesView(data) {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-06T04:48:24.782Z",
+  "generatedAt": "2026-07-07T12:01:38.925Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -508,6 +508,21 @@
       "teacherEdited": false,
       "sourceSubmittedAt": "2026-07-05T02:46:17.255Z",
       "createdAt": "2026-07-05T02:51:25.948Z"
+    },
+    {
+      "id": "grade_mralm0d1phn",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "기말",
+      "score": 79,
+      "grade": 1,
+      "rank": "3",
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-07-07T12:01:33.781Z"
     }
   ]
 }

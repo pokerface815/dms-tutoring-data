@@ -62,6 +62,12 @@
         47.5,
         null,
         null
+      ],
+      "기말": [
+        70,
+        null,
+        null,
+        null
       ]
     },
     "averagesByExamKind": {},
@@ -76,7 +82,8 @@
       "중간": true,
       "기말": true,
       "최종": true
-    }
+    },
+    "extraNote": ""
   },
   {
     "id": "scut_mq7eq649g22",

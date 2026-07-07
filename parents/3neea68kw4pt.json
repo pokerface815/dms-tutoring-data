@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T09:38:22.948Z",
+  "generatedAt": "2026-07-07T14:46:29.518Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -162,19 +162,39 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-07T01:06:06.136Z",
+    "uploadedAt": "2026-07-07T12:48:25.125Z",
     "summary": {
-      "todaySec": 1876,
-      "weekSec": 5726,
-      "monthSec": 14577,
+      "todaySec": 2796,
+      "weekSec": 6646,
+      "monthSec": 15497,
       "streak": 2,
       "bySubjectMonth": {
         "대수": 8851,
         "확률과 통계": 4154,
-        "미적분Ⅰ": 1572
+        "미적분Ⅰ": 1572,
+        "독서": 505,
+        "필사": 415
       }
     },
     "logs": [
+      {
+        "id": "effort_mrana9luwc4",
+        "startedAt": 1783428074534,
+        "seconds": 415,
+        "subject": "필사",
+        "method": "기타",
+        "content": "데미안",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mramyagd5ab",
+        "startedAt": 1783427404163,
+        "seconds": 505,
+        "subject": "독서",
+        "method": "기타",
+        "content": "아비투스",
+        "reflection": ""
+      },
       {
         "id": "effort_mr9y72yfc1z",
         "startedAt": 1783384851649,

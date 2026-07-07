@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T15:03:09.836Z",
+  "generatedAt": "2026-07-07T15:31:46.082Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -162,21 +162,31 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-07T12:48:25.125Z",
+    "uploadedAt": "2026-07-07T15:27:18.343Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 6646,
-      "monthSec": 15497,
+      "weekSec": 7138,
+      "monthSec": 15989,
       "streak": 2,
       "bySubjectMonth": {
         "대수": 8851,
         "확률과 통계": 4154,
         "미적분Ⅰ": 1572,
         "독서": 505,
-        "필사": 415
+        "필사": 415,
+        "기하": 492
       }
     },
     "logs": [
+      {
+        "id": "effort_mrasylhgp5q",
+        "startedAt": 1783432831243,
+        "seconds": 492,
+        "subject": "기하",
+        "method": "개념 정리",
+        "content": "벡터",
+        "reflection": ""
+      },
       {
         "id": "effort_mrana9luwc4",
         "startedAt": 1783428074534,

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-07T07:43:23.428Z",
+  "generatedAt": "2026-07-07T14:46:31.335Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -130,6 +130,30 @@
       "startedAt": 1783384851649,
       "createdAt": "2026-07-07T01:06:06.135Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mramyagd5ab",
+      "startedAt": 1783427404163,
+      "endedAt": 1783427946349,
+      "seconds": 505,
+      "subject": "독서",
+      "method": "기타",
+      "content": "아비투스",
+      "reflection": "6분독서 화이팅!!",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-07T12:39:06.349Z"
+    },
+    {
+      "id": "effort_mrana9luwc4",
+      "startedAt": 1783428074534,
+      "endedAt": 1783428505122,
+      "seconds": 415,
+      "subject": "필사",
+      "method": "기타",
+      "content": "데미안",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-07T12:48:25.122Z"
     }
   ],
   "syncedEffortDeletedIds": [
@@ -154,7 +178,8 @@
     "effort_mqmibsx5nts",
     "effort_mqxra3ob30h",
     "effort_mqxp2dqjbiy",
-    "effort_mqxox7q667f"
+    "effort_mqxox7q667f",
+    "effort_mram9zoql75"
   ],
   "syncedLectureWatch": {
     "videos": {

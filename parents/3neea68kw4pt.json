@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-06T17:57:43.763Z",
+  "generatedAt": "2026-07-07T07:43:21.706Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -162,18 +162,46 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-06T17:43:51.706Z",
+    "uploadedAt": "2026-07-07T01:06:06.136Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 3850,
-      "monthSec": 12701,
-      "streak": 1,
+      "todaySec": 1876,
+      "weekSec": 5726,
+      "monthSec": 14577,
+      "streak": 2,
       "bySubjectMonth": {
         "대수": 8851,
-        "확률과 통계": 3850
+        "확률과 통계": 4154,
+        "미적분Ⅰ": 1572
       }
     },
     "logs": [
+      {
+        "id": "effort_mr9y72yfc1z",
+        "startedAt": 1783384851649,
+        "seconds": 1506,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mr9x9w6ktw2",
+        "startedAt": 1783384748042,
+        "seconds": 66,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mr9x5oaqw1x",
+        "startedAt": 1783384310376,
+        "seconds": 304,
+        "subject": "확률과 통계",
+        "method": "강의 시청",
+        "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 56~62쪽 조건부확률",
+        "reflection": ""
+      },
       {
         "id": "effort_mr97f5mj44z",
         "startedAt": 1783332582271,

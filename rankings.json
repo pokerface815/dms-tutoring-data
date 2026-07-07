@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T14:46:39.599Z",
+  "generatedAt": "2026-07-07T15:31:52.097Z",
   "studentCount": 38,
   "rankings": [
     {
@@ -149,9 +149,9 @@
     },
     {
       "id": "s_1780190418387_a11waf",
-      "totalSec": 25961,
-      "weekSec": 6646,
-      "monthSec": 15497,
+      "totalSec": 26453,
+      "weekSec": 7138,
+      "monthSec": 15989,
       "streak": 2,
       "nickname": "",
       "publicNickname": false

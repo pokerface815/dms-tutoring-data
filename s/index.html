@@ -1155,7 +1155,7 @@
   .grade-card-meta { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
   .grade-card-status { font-size: 10.5px; padding: 2px 7px; border-radius: 4px; font-weight: 600; }
   .grade-card-status.filled { background: #d8efd0; color: var(--success); }
-  .grade-card-status.partial { background: #fef3d7; color: #8b6914; }
+  .grade-card-status.partial { background: oklch(93% 0.05 75); color: var(--warning); }
   .grade-card-status.empty { background: #eee; color: var(--text3); }
   .grade-card-chevron { font-size: 10px; color: var(--text3); transition: transform 0.2s ease; }
   .grade-card[data-collapsed="false"] .grade-card-chevron { transform: rotate(180deg); }
@@ -4247,7 +4247,7 @@
       </div>`;
     }
     if (hasPending) {
-      html += `<div style="margin-top:8px; padding:8px 10px; background:#fff7e6; border:1px solid #f0d9a0; border-radius:6px; font-size:11.5px; color:#8b6914; line-height:1.5;">⏳ 옅은 색 점선 막대는 <b>선생님 확인 대기 중</b>인 점수예요.</div>`;
+      html += `<div style="margin-top:8px; padding:8px 10px; background:oklch(95% 0.04 75); border:1px solid oklch(85% 0.06 75); border-radius:6px; font-size:11.5px; color:var(--warning); line-height:1.5;">옅은 색 점선 막대는 <b>선생님 확인 대기 중</b>인 점수예요.</div>`;
     }
     wrap.innerHTML = html;
   }
@@ -5310,7 +5310,7 @@
               <span style="font-weight:700; min-width:70px; font-size:13px;">${escapeHtml(g.gradeLevel || '')} ${g.year || '?'}.${g.month || '?'}월</span>
               ${g.elective ? `<span style="font-size:11px; color:var(--text2);">${escapeHtml(g.elective)}</span>` : ''}
               <span style="font-size:13px; font-weight:700; color:#2e5d2e; ${isDeletingThis ? 'text-decoration:line-through;' : ''}">${g.mathScore != null ? g.mathScore + '점' : '-'}</span>
-              ${cutAvailable ? `<span style="display:inline-block; padding:2px 8px; background:${gradeColor(g.grade)}; color:#fff; border-radius:4px; font-size:11px; font-weight:700;">${g.grade}등급</span>` : `<span style="font-size:10.5px; color:#8b6914;">등급컷 대기</span>`}
+              ${cutAvailable ? `<span style="display:inline-block; padding:2px 8px; background:${gradeColor(g.grade)}; color:#fff; border-radius:4px; font-size:11px; font-weight:700;">${g.grade}등급</span>` : `<span style="font-size:10.5px; color:var(--warning);">등급컷 대기</span>`}
               <span style="margin-left:auto; display:flex; gap:4px;">
                 ${isDeletingThis ? `<button type="button" onclick="cancelMockDelete('${g.id}')" style="padding:3px 10px; background:var(--surface); border:1px solid var(--border); border-radius:5px; font-size:11px; font-weight:600; color:var(--text); cursor:pointer; font-family:inherit;">삭제 취소</button>` : `
                   <button type="button" onclick="editMockRecord('${g.id}')" style="padding:3px 10px; background:var(--surface); border:1px solid var(--border); border-radius:5px; font-size:11px; font-weight:600; color:var(--text); cursor:pointer; font-family:inherit;">수정</button>
@@ -5318,7 +5318,7 @@
                 `}
               </span>
             </div>
-            ${editingDraft ? `<div style="margin-top:6px; padding:6px 8px; background:#fef9e6; border-radius:4px; font-size:11px; color:#8b6914;">수정 예약 — 새 점수: <b>${editingDraft.mathScore}점</b> (저장하면 반영)</div>` : ''}
+            ${editingDraft ? `<div style="margin-top:6px; padding:6px 8px; background:oklch(95% 0.04 75); border-radius:4px; font-size:11px; color:var(--warning);">수정 예약 — 새 점수: <b>${editingDraft.mathScore}점</b> (저장하면 반영)</div>` : ''}
             ${isDeletingThis ? `<div style="margin-top:6px; padding:6px 8px; background:#fce8e8; border-radius:4px; font-size:11px; color:var(--danger);">삭제 예약 — 저장하면 삭제됩니다</div>` : ''}
           </div>
         `;
@@ -5795,7 +5795,7 @@
     let statusBadge = '';
     if (isConfirmed) statusBadge = '<span class="note-card-status confirmed">✓ 제출 완료</span>';
     else if (isMissed) statusBadge = '<span class="note-card-status missed">✗ 미제출 마감</span>';
-    else if (isSubmitted) statusBadge = '<span class="note-card-status submitted">⏳ 확인 대기</span>';
+    else if (isSubmitted) statusBadge = '<span class="note-card-status submitted">확인 대기</span>';
 
     let repeatBadge = '';
     if (t.isRepeat) {
@@ -5867,7 +5867,7 @@
     let statusBadge = '';
     if (item.doneType === 'submitted' || isConfirmed) statusBadge = '<span class="note-card-status confirmed">✓ 제출 완료</span>';
     else if (isMissed) statusBadge = '<span class="note-card-status missed">✗ 미제출 마감</span>';
-    else if (isSubmitted) statusBadge = '<span class="note-card-status submitted">⏳ 확인 대기</span>';
+    else if (isSubmitted) statusBadge = '<span class="note-card-status submitted">확인 대기</span>';
 
     let html = `
       <div class="note-card ${cardClass}">
@@ -5907,7 +5907,7 @@
     } else {
       html += `
         <button class="upload-btn secondary" onclick="selectPhotos('${item.assignmentId}', ${item.round})">+ 사진 더 추가</button>
-        <div class="submit-status info">⏳ ${photos.filter(p => !p.uploading).length}장 제출 완료. 선생님 확인 전엔 추가/삭제 가능합니다.</div>
+        <div class="submit-status info">${photos.filter(p => !p.uploading).length}장 제출 완료. 선생님 확인 전엔 추가/삭제 가능합니다.</div>
       `;
     }
     html += '</div>';
@@ -5992,7 +5992,7 @@
     }
 
     if (successCount === files.length) showToast(`${successCount}장 업로드 완료`);
-    else if (successCount > 0) showToast(`⚠️ ${successCount}/${files.length}장만 성공 (일부 실패)`);
+    else if (successCount > 0) showToast(`${successCount}/${files.length}장만 성공 (일부 실패)`);
     else showToast('업로드 실패. 인터넷 확인 후 다시 시도해주세요.', 4000);
   }
 

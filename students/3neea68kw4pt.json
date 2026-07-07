@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-07T14:46:31.335Z",
+  "generatedAt": "2026-07-07T15:31:48.099Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -154,6 +154,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-07-07T12:48:25.122Z"
+    },
+    {
+      "id": "effort_mrasylhgp5q",
+      "startedAt": 1783432831243,
+      "endedAt": 1783438038340,
+      "seconds": 492,
+      "subject": "기하",
+      "method": "개념 정리",
+      "content": "벡터",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-07T15:27:18.340Z"
     }
   ],
   "syncedEffortDeletedIds": [

@@ -555,5 +555,15 @@
     "taskBatchId": null,
     "createdAt": "2026-07-08T09:44:37.034Z",
     "updatedAt": "2026-07-08T09:44:37.034Z"
+  },
+  {
+    "id": "lesson_1783505353254_caf3kt",
+    "classId": "cls_1780910683163_gtovnl",
+    "date": "2026-07-08",
+    "content": "삼각비의 정의",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-08T10:09:13.254Z",
+    "updatedAt": "2026-07-08T10:09:13.254Z"
   }
 ]

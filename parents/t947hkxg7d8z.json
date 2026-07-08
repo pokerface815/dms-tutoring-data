@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T09:38:09.002Z",
+  "generatedAt": "2026-07-08T12:17:16.904Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,17 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-08",
+          "weekday": "수",
+          "className": "조예나 개별",
+          "content": "기말고사 반성",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-01",
           "weekday": "수",

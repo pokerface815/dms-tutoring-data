@@ -595,5 +595,15 @@
     "taskBatchId": null,
     "createdAt": "2026-07-08T10:24:55.231Z",
     "updatedAt": "2026-07-08T10:24:55.231Z"
+  },
+  {
+    "id": "lesson_1783513030551_guhpzz",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-08",
+    "content": "기말고사 반성",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-08T12:17:10.551Z",
+    "updatedAt": "2026-07-08T12:17:10.551Z"
   }
 ]

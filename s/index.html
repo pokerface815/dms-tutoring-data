@@ -1127,6 +1127,46 @@
   .grade-chart-title { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
   .chart-empty { padding: 16px; text-align: center; color: var(--text3); font-size: 12px; }
   .chart-axis-label { font-size: 10px; color: var(--text3); text-align: right; margin-top: 4px; }
+  /* 성적 그래프 막대 클릭 인터랙션 */
+  .grade-bar-clickable { cursor: pointer; transition: opacity 0.12s ease; }
+  .grade-bar-clickable:hover { opacity: 1 !important; }
+  .grade-bar-clickable[data-selected="true"] { stroke: var(--text); stroke-width: 1.8; opacity: 1 !important; }
+  /* 등급컷 정보 패널 (막대 클릭 시 그래프 아래 표시) */
+  .cut-info-panel {
+    margin-top: 10px; padding: 10px 12px;
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 6px;
+    animation: cipFadeIn 0.18s ease;
+  }
+  @keyframes cipFadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .cip-header { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
+  .cip-title { font-size: 12px; font-weight: 700; color: var(--text); letter-spacing: -0.1px; }
+  .cip-cuts { display: flex; gap: 5px; margin-bottom: 8px; flex-wrap: wrap; }
+  .cip-cut {
+    flex: 1 1 0; min-width: 52px; text-align: center;
+    padding: 5px 4px 6px;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 4px;
+    display: flex; flex-direction: column; gap: 2px;
+    transition: border-color 0.12s ease, background 0.12s ease;
+  }
+  .cip-cut span { font-size: 10px; color: var(--text3); font-weight: 600; }
+  .cip-cut b { font-size: 13px; color: var(--text); font-weight: 700; }
+  .cip-footer {
+    display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+    font-size: 11.5px; color: var(--text2);
+    padding-top: 8px; border-top: 1px solid var(--border);
+  }
+  .cip-footer b { color: var(--text); font-weight: 700; }
+  .cip-my-score b { color: var(--accent-dark); }
+  .cip-grade-badge {
+    margin-left: auto;
+    padding: 2px 8px; border-radius: 4px;
+    font-size: 11px; font-weight: 700; color: #fff;
+  }
   /* 지난 시험 카드 */
   .history-card {
     background: var(--surface); border: 1px solid var(--border);
@@ -4261,12 +4301,14 @@
       html += `<div class="grade-chart-card">
         <div class="grade-chart-title">학교 내신</div>
         ${renderNaesinBarChart(naesin)}
+        <div class="cut-info-panel" id="cutInfoPanel__naesin" style="display:none;"></div>
       </div>`;
     }
     if (mock.length >= 1) {
       html += `<div class="grade-chart-card">
         <div class="grade-chart-title">모의고사</div>
         ${renderMockBarChart(mock)}
+        <div class="cut-info-panel" id="cutInfoPanel__mock" style="display:none;"></div>
       </div>`;
     }
     if (hasPending) {
@@ -4342,7 +4384,7 @@
         });
       }
     }
-    return renderSlotChart(slots, 5);
+    return renderSlotChart(slots, 5, 'naesin');
   }
 
   // 모의고사 그래프 — 최소 10슬롯, 시간순 채움
@@ -4365,11 +4407,12 @@
         slots.push({ topLabel: '', groupLabel: '', grade: null });
       }
     }
-    return renderSlotChart(slots, 9);
+    return renderSlotChart(slots, 9, 'mock');
   }
 
   // 공통 슬롯 막대 그래프
-  function renderSlotChart(slots, maxGradeLevels) {
+  // chartKey: 'naesin' | 'mock' — 클릭 시 등급컷 패널을 찾아 채우기 위한 식별자
+  function renderSlotChart(slots, maxGradeLevels, chartKey) {
     if (slots.length === 0) return '';
     const n = slots.length;
     // 10슬롯이 모바일 한 화면에 맞도록 — n*28, 최소 320
@@ -4385,6 +4428,12 @@
 
     const slotCx = slots.map((_, i) => padL + i * (barWAvail + barGap) + barWAvail / 2);
 
+    // 등급컷 패널 클릭용 슬롯 캐시 (해당 chart의 슬롯 배열을 인덱스로 조회)
+    if (chartKey) {
+      if (!window._gradeChartSlotsCache) window._gradeChartSlotsCache = {};
+      window._gradeChartSlotsCache[chartKey] = slots;
+    }
+
     let bars = '';
     let topLabels = '';
     slots.forEach((slot, i) => {
@@ -4392,17 +4441,22 @@
       const x = cx - barW / 2;
       const g = slot.grade;
       const v = g ? (g.score ?? g.mathScore) : null;
+      // 점수 있는 실제 막대만 클릭 가능. pending·빈 슬롯은 무반응.
+      const clickable = chartKey && v != null && !(g && g.pending);
+      const rectId = clickable ? `id="gradeBar_${chartKey}_${i}"` : '';
+      const rectCls = clickable ? 'class="grade-bar-clickable"' : '';
+      const rectClick = clickable ? `onclick="showGradeCutoffPanel('${chartKey}', ${i})"` : '';
       if (v != null) {
         const h = (Number(v) / yMax) * innerH;
         const y = padT + innerH - h;
         if (g.pending) {
-          // 확인 대기 — 옅은 회색 + 점선 outline
+          // 확인 대기 — 옅은 회색 + 점선 outline (클릭 무반응)
           bars += `<rect x="${x}" y="${y}" width="${barW}" height="${h}" fill="#e0e0e0" stroke="#999" stroke-width="1" stroke-dasharray="3 2" rx="3" ry="3" opacity="0.85"/>`;
           bars += `<text x="${cx}" y="${y - 5}" text-anchor="middle" font-size="10" fill="#777" font-weight="700" font-style="italic">${v}</text>`;
         } else {
           const color = gradeColor(g.grade);
-          bars += `<rect x="${x}" y="${y}" width="${barW}" height="${h}" fill="${color}" rx="3" ry="3" opacity="0.88"/>`;
-          bars += `<text x="${cx}" y="${y - 5}" text-anchor="middle" font-size="10" fill="#333" font-weight="700">${v}</text>`;
+          bars += `<rect ${rectId} ${rectCls} x="${x}" y="${y}" width="${barW}" height="${h}" fill="${color}" rx="3" ry="3" opacity="0.88" ${rectClick}/>`;
+          bars += `<text x="${cx}" y="${y - 5}" text-anchor="middle" font-size="10" fill="#333" font-weight="700" pointer-events="none">${v}</text>`;
         }
       } else {
         bars += `<rect x="${x}" y="${padT + innerH - 5}" width="${barW}" height="5" fill="#eee" rx="2" ry="2"/>`;
@@ -4462,6 +4516,115 @@
     if (g == null) return '#999';
     const colors = {1:'#2ecc71', 2:'#27ae60', 3:'#3498db', 4:'#2f6fb0', 5:'#e8a23e', 6:'#e67e22', 7:'#d35400', 8:'#c0392b', 9:'#922b21'};
     return colors[g] || '#999';
+  }
+
+  // ===== 등급컷 정보 패널 =====
+  // 막대 클릭 시 그래프 아래에 해당 시험의 등급컷·평균·내 점수·등급을 표시.
+  // 같은 막대 다시 클릭 → 패널 닫힘 (토글). 다른 막대 → 그 막대 정보로 교체.
+  // pending·빈 슬롯은 renderSlotChart에서 이미 클릭 비활성화됨.
+  window._selectedGradeBar = { chartKey: null, slotIdx: -1 };
+  window.showGradeCutoffPanel = function(chartKey, slotIdx) {
+    const panel = document.getElementById(`cutInfoPanel__${chartKey}`);
+    if (!panel) return;
+    const slots = (window._gradeChartSlotsCache || {})[chartKey] || [];
+    const slot = slots[slotIdx];
+    if (!slot || !slot.grade) return;
+
+    // 토글: 이미 선택된 막대 다시 클릭 → 닫기
+    const sel = window._selectedGradeBar;
+    if (sel.chartKey === chartKey && sel.slotIdx === slotIdx) {
+      closeGradeCutoffPanel(chartKey);
+      return;
+    }
+    // 다른 chart 선택 상태였으면 그쪽도 닫아두기 (동시에 하나만 열림)
+    if (sel.chartKey && sel.chartKey !== chartKey) {
+      closeGradeCutoffPanel(sel.chartKey, true);
+    } else if (sel.chartKey === chartKey) {
+      // 같은 chart의 다른 막대 → 이전 하이라이트 제거
+      const prevRect = document.getElementById(`gradeBar_${sel.chartKey}_${sel.slotIdx}`);
+      if (prevRect) prevRect.removeAttribute('data-selected');
+    }
+
+    const info = getCutsForGradeRecord(slot.grade);
+    // 컷·평균 둘 다 없으면 패널 안 띄움
+    if (!info || (!info.cuts?.some(c => c != null) && info.avg == null)) {
+      // 표시할 게 아무것도 없음 — 그냥 닫아둠 (사용자에게 조용히)
+      closeGradeCutoffPanel(chartKey);
+      return;
+    }
+
+    panel.innerHTML = renderCutInfoPanelHTML(slot.grade, info);
+    panel.style.display = '';
+    // 선택 상태 저장 + 현재 막대 outline
+    window._selectedGradeBar = { chartKey, slotIdx };
+    const rect = document.getElementById(`gradeBar_${chartKey}_${slotIdx}`);
+    if (rect) rect.setAttribute('data-selected', 'true');
+  };
+
+  window.closeGradeCutoffPanel = function(chartKey, keepStateForOther) {
+    const panel = document.getElementById(`cutInfoPanel__${chartKey}`);
+    if (panel) { panel.style.display = 'none'; panel.innerHTML = ''; }
+    const sel = window._selectedGradeBar;
+    if (sel.chartKey === chartKey) {
+      const prevRect = document.getElementById(`gradeBar_${chartKey}_${sel.slotIdx}`);
+      if (prevRect) prevRect.removeAttribute('data-selected');
+      if (!keepStateForOther) window._selectedGradeBar = { chartKey: null, slotIdx: -1 };
+    }
+  };
+
+  function renderCutInfoPanelHTML(g, info) {
+    const isMock = g.type === 'mock';
+    // 헤더: 내신 → "2026학년도 1학기 · 수학 · 중간고사", 모의 → "고2 · 2026년 3월 (미적분)"
+    let header;
+    if (isMock) {
+      const parts = [];
+      if (g.gradeLevel) parts.push(escapeHtml(g.gradeLevel));
+      if (g.year && g.month) parts.push(`${g.year}년 ${g.month}월`);
+      let head = parts.join(' · ') + ' 모의고사';
+      if (g.elective && g.elective !== '미선택') head += ` <span style="color:var(--text3); font-weight:600;">(${escapeHtml(g.elective)})</span>`;
+      header = head;
+    } else {
+      const parts = [];
+      if (g.year) parts.push(`${g.year}학년도`);
+      if (g.semester) parts.push(`${g.semester}학기`);
+      if (g.subject) parts.push(escapeHtml(g.subject));
+      if (g.examKind) parts.push(`${escapeHtml(g.examKind)}고사`);
+      header = parts.join(' · ');
+    }
+
+    // 컷 chip들 (null인 컷은 렌더 안 함)
+    const cuts = info.cuts || [];
+    const cutChips = cuts.map((c, i) => {
+      if (c == null) return '';
+      const grade = i + 1;
+      const isMine = Number(g.grade) === grade;
+      const bgColor = isMine ? gradeColor(grade) : '';
+      const style = isMine ? `style="border-color:${bgColor}; background:${bgColor}; color:#fff;"` : '';
+      return `<div class="cip-cut" ${style}><span>${grade}등급</span><b>${c}</b></div>`;
+    }).filter(Boolean).join('');
+    const cutsBlock = cutChips ? `<div class="cip-cuts">${cutChips}</div>` : '';
+
+    // 푸터: 평균 · 내 점수 · 등급 배지
+    const footerParts = [];
+    if (info.avg != null) footerParts.push(`시험 평균 <b>${info.avg}</b>점`);
+    const myScore = g.score ?? g.mathScore;
+    if (myScore != null) footerParts.push(`<span class="cip-my-score">내 점수 <b>${myScore}</b>점</span>`);
+    let footerBadge = '';
+    if (g.grade != null) {
+      const bg = gradeColor(g.grade);
+      footerBadge = `<span class="cip-grade-badge" style="background:${bg};">${g.grade}등급</span>`;
+    }
+    const footerBlock = (footerParts.length || footerBadge)
+      ? `<div class="cip-footer">${footerParts.join(' · ')}${footerBadge}</div>`
+      : '';
+
+    return `
+      <div class="cip-header">
+        <span class="cip-title">${header}</span>
+      </div>
+      ${cutsBlock}
+      ${footerBlock}
+    `;
   }
 
   // 성적 카드 토글
@@ -4660,6 +4823,7 @@
 
   // ===== 내 성적 입력 =====
   let cachedSchoolGradeCuts = null;
+  let cachedMockCuts = null;   // [{id, gradeLevel, year, month, elective, cuts:[c1,c2,c3,c4]}] — 통합본이 push한 모의고사 등급컷
   let cachedLocalDrafts = {};  // { entryId__examKind: {score, grade, rank, percent, savedAt} }
   let cachedCutsDrafts = {};   // { entryId__examKind: {cuts:[c1,c2,c3,c4], savedAt, sentAt} } — 학생이 아는 등급컷 (선택 입력)
   let cachedCardRequests = []; // [{tempId, school, gradeLevel, year, semester, subject, examKinds:['중간','기말'], memo, savedAt, sentAt}] — 시험 정보 카드 생성 요청
@@ -4699,24 +4863,85 @@
     loadCardRequests();
     loadMockDrafts();
     const myGrades = (studentData || {}).myGrades || [];
+    // 등급컷 파일 두 개 동시 fetch (그래프 막대 클릭 시 패널 뜨는 용도 + 입력 폼 용도).
+    // 실패해도 무관 — 각 소비 지점에서 null-safe 처리.
+    await ensureCutsFilesLoaded();
     // 성적 관리 메인 — 그래프만
     if (document.getElementById('gradeChartSection')) renderGradeChart(myGrades);
-    // 입력 폼 — school_grade_cuts.json 우선 fetch (실패해도 무관)
-    if (document.getElementById('gradeInputSection')) {
-      if (!cachedSchoolGradeCuts) {
-        try {
-          const url = `../school_grade_cuts.json?t=${Date.now()}`;
-          const res = await fetch(url, { cache: 'no-store' });
-          if (res.ok) cachedSchoolGradeCuts = await res.json();
-        } catch (e) {
-          console.warn('시험 정보 fetch 실패 (가상 카드로 폴백):', e);
-        }
-      }
-      // fetch 성공·실패와 무관하게 무조건 렌더링 (점수만 있어도 가상 카드로 표시)
-      renderGradeExams();
-    }
+    if (document.getElementById('gradeInputSection')) renderGradeExams();
     // 모의고사 입력 섹션
     if (document.getElementById('mockInputSection')) renderMockExams();
+  }
+
+  // school_grade_cuts.json / mock_cuts.json 병렬 로드
+  async function ensureCutsFilesLoaded() {
+    const jobs = [];
+    if (!cachedSchoolGradeCuts) {
+      jobs.push(fetch(`../school_grade_cuts.json?t=${Date.now()}`, { cache: 'no-store' })
+        .then(r => r.ok ? r.json() : null)
+        .then(d => { if (Array.isArray(d)) cachedSchoolGradeCuts = d; })
+        .catch(e => console.warn('시험 정보 fetch 실패 (가상 카드로 폴백):', e))
+      );
+    }
+    if (!cachedMockCuts) {
+      jobs.push(fetch(`../mock_cuts.json?t=${Date.now()}`, { cache: 'no-store' })
+        .then(r => r.ok ? r.json() : null)
+        .then(d => { if (Array.isArray(d)) cachedMockCuts = d; })
+        .catch(e => console.warn('모의고사 등급컷 fetch 실패:', e))
+      );
+    }
+    if (jobs.length) await Promise.all(jobs);
+  }
+
+  // ===== 등급컷 조회 헬퍼 =====
+  // 성적 레코드(g)로부터 해당 시험의 등급컷/평균 정보를 뽑아 반환.
+  // 없으면 null. 4개 컷 중 일부만 있는 것도 그대로 반환 (표시 측에서 채운 것만 렌더).
+  function getCutsForGradeRecord(g) {
+    if (!g) return null;
+    if (g.type === 'naesin') {
+      const entries = cachedSchoolGradeCuts || [];
+      const entry = entries.find(c =>
+        Number(c.year) === Number(g.year)
+        && String(c.semester || '').trim() === String(g.semester || '').trim()
+        && (c.subject || '').trim() === (g.subject || '').trim()
+      );
+      if (!entry) return null;
+      // 신규 구조 우선, 없으면 옛 구조(entry.examKind/entry.cuts/entry.average) 폴백
+      let cuts = null, avg = null;
+      if (entry.cutsByExamKind && entry.cutsByExamKind[g.examKind]) cuts = entry.cutsByExamKind[g.examKind];
+      else if (entry.examKind === g.examKind && Array.isArray(entry.cuts)) cuts = entry.cuts;
+      if (entry.averagesByExamKind && entry.averagesByExamKind[g.examKind] != null) avg = entry.averagesByExamKind[g.examKind];
+      else if (entry.examKind === g.examKind && entry.average != null) avg = entry.average;
+      if (!Array.isArray(cuts) && avg == null) return null;
+      return { cuts: Array.isArray(cuts) ? cuts : [null, null, null, null], avg };
+    }
+    if (g.type === 'mock') {
+      const entries = cachedMockCuts || [];
+      const normElective = (s) => (s == null ? '' : String(s).trim());
+      const target = normElective(g.elective);
+      let entry = null;
+      if (g.gradeLevel === '고1') {
+        entry = entries.find(c =>
+          c.gradeLevel === g.gradeLevel && Number(c.year) === Number(g.year) && Number(c.month) === Number(g.month)
+        );
+      } else {
+        entry = entries.find(c =>
+          c.gradeLevel === g.gradeLevel && Number(c.year) === Number(g.year) && Number(c.month) === Number(g.month)
+          && normElective(c.elective) === target
+        );
+        // 옛 데이터 fallback: elective 정보 없음
+        if (!entry && !target) {
+          entry = entries.find(c =>
+            c.gradeLevel === g.gradeLevel && Number(c.year) === Number(g.year) && Number(c.month) === Number(g.month)
+            && !c.elective
+          );
+        }
+      }
+      if (!entry || !Array.isArray(entry.cuts)) return null;
+      // 모의고사는 평균은 저장하지 않음
+      return { cuts: entry.cuts, avg: null };
+    }
+    return null;
   }
 
   function renderGradeExams() {

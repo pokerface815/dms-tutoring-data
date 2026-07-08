@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-08T10:17:15.275Z",
+  "student": {
+    "id": "s_1783505825104_ci241f",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
+    "name": "정찬영",
+    "school": "인성고",
+    "grade": "고2",
+    "class": "",
+    "showMakeNote": true
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-07-06",
+    "endDate": "2026-07-12"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ann_mrbg42vzeufy",
+  "sentAt": "2026-07-08T11:15:53.942654+09:00",
+  "target": "student",
+  "message": "단톡방에 방학 및 2학기 수업 관련 설문 올려두었습니다.\n최대한 빨리 해주세요^^\n문대승t",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "국보민",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "국아인",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "김시현",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "김채린",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "김한비",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "김현민",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "노태원",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "박다윤",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "박다인",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "백서현",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "서연준",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "이수연",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "이현승",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "정시우",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "정찬민",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "조은별",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "이지수",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 17,
+  "failCount": 0
+}

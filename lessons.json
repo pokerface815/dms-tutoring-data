@@ -565,5 +565,15 @@
     "taskBatchId": null,
     "createdAt": "2026-07-08T10:09:13.254Z",
     "updatedAt": "2026-07-08T10:09:13.254Z"
+  },
+  {
+    "id": "lesson_1783505411049_3jfkw3",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-07-08",
+    "content": "공수1 - 쎈 B 10쪽 다항식의 연산",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-08T10:10:11.049Z",
+    "updatedAt": "2026-07-08T10:10:11.049Z"
   }
 ]

@@ -1125,6 +1125,7 @@
     border-radius: 8px; padding: 12px; margin-bottom: 10px;
   }
   .grade-chart-title { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+  .grade-chart-hint { font-size: 11px; color: var(--text3); line-height: 1.3; margin: -4px 0 10px; padding-left: 2px; }
   .chart-empty { padding: 16px; text-align: center; color: var(--text3); font-size: 12px; }
   .chart-axis-label { font-size: 10px; color: var(--text3); text-align: right; margin-top: 4px; }
   /* 성적 그래프 막대 클릭 인터랙션 */
@@ -4297,7 +4298,7 @@
     if (naesin.length === 0 && mock.length === 0) { wrap.innerHTML = ''; return; }
 
     const hasPending = merged.some(g => g.pending);
-    let html = '';
+    let html = '<div class="grade-chart-hint">막대를 누르면 등급컷과 시험 평균이 보여요.</div>';
     if (naesin.length >= 1) {
       html += `<div class="grade-chart-card">
         <div class="grade-chart-title">학교 내신</div>

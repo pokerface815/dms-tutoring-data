@@ -990,5 +990,33 @@
     "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "pj9fc48qgnyt"
+  },
+  {
+    "id": "s_1783476674835_bt1qix",
+    "name": "이지수",
+    "school": "문정여고",
+    "grade": "고2",
+    "classes": [
+      "cls_1780310061018_vay6zf"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-3082-2716",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": false,
+    "showMakeNote": false,
+    "pageCode": "vk5cmg9pumy3"
   }
 ]

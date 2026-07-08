@@ -83,7 +83,23 @@
       "기말": true,
       "최종": true
     },
-    "extraNote": ""
+    "extraNote": "",
+    "pdfsByExamKind": {
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1783522449/a6ajh30ngmcdhll8erve.jpg",
+          "name": "문정 대수 기말 객관식답.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-07-08T14:54:10.610Z"
+        },
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1783522452/ktcenya8kmplpwr07zyr.jpg",
+          "name": "문정 대수 기말 서술형답.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-07-08T14:54:12.581Z"
+        }
+      ]
+    }
   },
   {
     "id": "scut_mq7eq649g22",

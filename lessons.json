@@ -545,5 +545,15 @@
     "taskBatchId": null,
     "createdAt": "2026-07-06T10:08:55.928Z",
     "updatedAt": "2026-07-06T10:08:55.928Z"
+  },
+  {
+    "id": "lesson_1783503877035_dutjly",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-07-08",
+    "content": "공수1 - 행렬만 하면 마무리\n일품(중2 1학기) 마무리 되었음.\n쎈(중3 2학기) - 원주각까지는 되어 있음.",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-08T09:44:37.034Z",
+    "updatedAt": "2026-07-08T09:44:37.034Z"
   }
 ]

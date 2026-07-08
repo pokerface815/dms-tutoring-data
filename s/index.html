@@ -1155,6 +1155,7 @@
   }
   .cip-cut span { font-size: 10px; color: var(--text3); font-weight: 600; }
   .cip-cut b { font-size: 13px; color: var(--text); font-weight: 700; }
+  .cip-cut-empty b { color: var(--text3); font-weight: 500; }
   .cip-footer {
     display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
     font-size: 11.5px; color: var(--text2);
@@ -4592,17 +4593,20 @@
       header = parts.join(' · ');
     }
 
-    // 컷 chip들 (null인 컷은 렌더 안 함)
-    const cuts = info.cuts || [];
-    const cutChips = cuts.map((c, i) => {
-      if (c == null) return '';
+    // 컷 chip 4칸 고정 (없는 컷도 자리 유지) — 내신·모의고사 모두 4등급컷까지 표시
+    // 색 하이라이트 없음, 빈 컷은 대시(—)로 표시.
+    const cuts = info.cuts || [null, null, null, null];
+    let cutChips = '';
+    for (let i = 0; i < 4; i++) {
+      const c = cuts[i];
       const grade = i + 1;
-      const isMine = Number(g.grade) === grade;
-      const bgColor = isMine ? gradeColor(grade) : '';
-      const style = isMine ? `style="border-color:${bgColor}; background:${bgColor}; color:#fff;"` : '';
-      return `<div class="cip-cut" ${style}><span>${grade}등급</span><b>${c}</b></div>`;
-    }).filter(Boolean).join('');
-    const cutsBlock = cutChips ? `<div class="cip-cuts">${cutChips}</div>` : '';
+      if (c == null) {
+        cutChips += `<div class="cip-cut cip-cut-empty"><span>${grade}등급</span><b>—</b></div>`;
+      } else {
+        cutChips += `<div class="cip-cut"><span>${grade}등급</span><b>${c}</b></div>`;
+      }
+    }
+    const cutsBlock = `<div class="cip-cuts">${cutChips}</div>`;
 
     // 푸터: 평균 · 내 점수 · 등급 배지
     const footerParts = [];

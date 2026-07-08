@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T02:11:25.489Z",
+  "generatedAt": "2026-07-08T10:17:13.259Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 39,
+  "studentCount": 40,
   "baseUrl": "",
   "students": [
     {
@@ -355,6 +355,15 @@
       "className": "토,일 4시",
       "studentPageCode": "vk5cmg9pumy3",
       "parentPageCode": "vk5cmg9pumy3"
+    },
+    {
+      "id": "s_1783505825104_ci241f",
+      "name": "정찬영",
+      "grade": "고2",
+      "school": "인성고",
+      "className": "토,일 2시",
+      "studentPageCode": "3jf965xekz3a",
+      "parentPageCode": "3jf965xekz3a"
     }
   ]
 }

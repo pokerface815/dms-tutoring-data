@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-08T02:11:27.992Z",
+  "student": {
+    "id": "s_1783476674835_bt1qix",
+    "classes": [
+      "cls_1780310061018_vay6zf"
+    ],
+    "name": "이지수",
+    "school": "문정여고",
+    "grade": "고2",
+    "class": "",
+    "showMakeNote": false
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-07-06",
+    "endDate": "2026-07-12"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

@@ -585,5 +585,15 @@
     "taskBatchId": null,
     "createdAt": "2026-07-08T10:12:28.275Z",
     "updatedAt": "2026-07-08T10:12:28.275Z"
+  },
+  {
+    "id": "lesson_1783506295231_mndvzy",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-07-10",
+    "content": "주간테스트(공수2 - 두 점사이의 거리, 무게중심)",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-08T10:24:55.231Z",
+    "updatedAt": "2026-07-08T10:24:55.231Z"
   }
 ]

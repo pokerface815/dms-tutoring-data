@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T10:10:44.248Z",
+  "generatedAt": "2026-07-08T10:25:01.708Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -12,6 +12,17 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-10",
+          "weekday": "금",
+          "className": "박유솔 개별",
+          "content": "주간테스트(공수2 - 두 점사이의 거리, 무게중심)",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-08",
           "weekday": "수",

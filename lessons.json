@@ -575,5 +575,15 @@
     "taskBatchId": null,
     "createdAt": "2026-07-08T10:10:11.049Z",
     "updatedAt": "2026-07-08T10:10:37.450Z"
+  },
+  {
+    "id": "lesson_1783505548275_yc29cg",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-07-10",
+    "content": "주간테스트(공수1 경우의 수)",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-08T10:12:28.275Z",
+    "updatedAt": "2026-07-08T10:12:28.275Z"
   }
 ]

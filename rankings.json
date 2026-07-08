@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T02:11:22.597Z",
+  "generatedAt": "2026-07-08T09:10:37.553Z",
   "studentCount": 39,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
-      "totalSec": 3657,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "파송송계란탁",
-      "publicNickname": true
+      "totalSec": 3884,
+      "weekSec": 227,
+      "monthSec": 227,
+      "streak": 1,
+      "nickname": "",
+      "publicNickname": false
     },
     {
       "id": "s_1777546951753_p3pskl",

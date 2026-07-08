@@ -1018,5 +1018,33 @@
     "showNoteStages": false,
     "showMakeNote": false,
     "pageCode": "vk5cmg9pumy3"
+  },
+  {
+    "id": "s_1783505825104_ci241f",
+    "name": "정찬영",
+    "school": "인성고",
+    "grade": "고2",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-6660-1487",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "3jf965xekz3a"
   }
 ]

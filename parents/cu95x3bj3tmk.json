@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T10:09:31.830Z",
+  "generatedAt": "2026-07-08T10:10:17.459Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -12,6 +12,17 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-08",
+          "weekday": "수",
+          "className": "박유솔 개별",
+          "content": "공수1 - 쎈 B 10쪽 다항식의 연산",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-06",
           "weekday": "월",

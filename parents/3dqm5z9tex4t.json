@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T09:38:36.481Z",
+  "generatedAt": "2026-07-08T10:09:19.673Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -12,6 +12,17 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-08",
+          "weekday": "수",
+          "className": "박은준 개별",
+          "content": "삼각비의 정의",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-06",
           "weekday": "월",

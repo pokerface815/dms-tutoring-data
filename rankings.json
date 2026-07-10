@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T12:17:18.626Z",
+  "generatedAt": "2026-07-10T12:33:08.900Z",
   "studentCount": 40,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
-      "totalSec": 3884,
-      "weekSec": 227,
-      "monthSec": 227,
-      "streak": 1,
+      "totalSec": 5474,
+      "weekSec": 1817,
+      "monthSec": 1817,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },
@@ -80,7 +80,7 @@
       "totalSec": 180,
       "weekSec": 180,
       "monthSec": 180,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -143,16 +143,16 @@
       "totalSec": 68,
       "weekSec": 68,
       "monthSec": 68,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1780190418387_a11waf",
-      "totalSec": 29347,
-      "weekSec": 10032,
-      "monthSec": 18883,
-      "streak": 3,
+      "totalSec": 33357,
+      "weekSec": 14042,
+      "monthSec": 22893,
+      "streak": 4,
       "nickname": "",
       "publicNickname": false
     },
@@ -329,10 +329,10 @@
     },
     {
       "id": "s_1783141077746_ni5332",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "totalSec": 341,
+      "weekSec": 341,
+      "monthSec": 341,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -356,10 +356,10 @@
     },
     {
       "id": "s_1783505825104_ci241f",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "totalSec": 466,
+      "weekSec": 466,
+      "monthSec": 466,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     }

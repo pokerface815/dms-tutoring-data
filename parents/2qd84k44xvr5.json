@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T09:10:34.137Z",
+  "generatedAt": "2026-07-10T12:33:12.582Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-08T05:44:08.943Z",
+    "uploadedAt": "2026-07-09T05:56:44.193Z",
     "summary": {
-      "todaySec": 227,
-      "weekSec": 227,
-      "monthSec": 227,
-      "streak": 1,
+      "todaySec": 0,
+      "weekSec": 1817,
+      "monthSec": 1817,
+      "streak": 2,
       "bySubjectMonth": {
-        "미적분Ⅰ": 227
+        "미적분Ⅰ": 1817
       }
     },
     "logs": [
+      {
+        "id": "effort_mrd3gjkw9ld",
+        "startedAt": 1783575819336,
+        "seconds": 1481,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrcspyv74hq",
+        "startedAt": 1783558493972,
+        "seconds": 109,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "reflection": ""
+      },
       {
         "id": "effort_mrbnki5q7n9",
         "startedAt": 1783489223523,

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-08T02:11:21.444Z",
+  "generatedAt": "2026-07-10T12:33:24.652Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -178,6 +178,30 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-07-07T16:22:25.895Z"
+    },
+    {
+      "id": "effort_mrcf9vhzjqo",
+      "startedAt": 1783532332750,
+      "endedAt": 1783535982263,
+      "seconds": 3634,
+      "subject": "기하",
+      "method": "개념 정리",
+      "content": "벡터 진행 중",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-08T18:39:42.263Z"
+    },
+    {
+      "id": "effort_mrdhgmkgme3",
+      "startedAt": 1783599730590,
+      "endedAt": 1783600122688,
+      "seconds": 376,
+      "subject": "독서",
+      "method": "기타",
+      "content": "6분독서 아비투스",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-09T12:28:42.688Z"
     }
   ],
   "syncedEffortDeletedIds": [

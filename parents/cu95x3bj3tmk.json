@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T10:25:01.708Z",
+  "generatedAt": "2026-07-10T12:33:35.950Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -114,6 +114,13 @@
     }
   ],
   "tests": [
+    {
+      "title": "공수2 - 두 점 사이의 거리, 삼각형의 무게중심",
+      "date": "2026-07-10",
+      "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1783686781/du4kxphqpvx7s2bujlds.pdf",
+      "fileName": "7월10일 박유솔.pdf",
+      "comment": ""
+    },
     {
       "title": "복소수 ~ 이차부등식",
       "date": "2026-06-05",

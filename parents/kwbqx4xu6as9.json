@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T10:12:34.723Z",
+  "generatedAt": "2026-07-10T12:33:19.271Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -154,6 +154,13 @@
   ],
   "tests": [
     {
+      "title": "공수1 경우의 수",
+      "date": "2026-07-10",
+      "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1783686776/jlokshdatqs5rfyucaw2.pdf",
+      "fileName": "7월10일 서준우.pdf",
+      "comment": ""
+    },
+    {
       "title": "일차, 이차부등식",
       "date": "2026-06-12",
       "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1781525482/oe1fus9zokulkwuk3yrf.pdf",
@@ -168,7 +175,30 @@
       "comment": "최근에 본 테스트 모두 준우가 약한 단원 위주로 출제하고 있어서 오답이 많은 편입니다. 이차부등식 단원은 시험에 대한 예고가 되지 않아서 유독 많이 틀린 것 같습니다."
     }
   ],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-07-08T10:50:41.927Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 68,
+      "monthSec": 68,
+      "streak": 0,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 68
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mrbyiq9yssq",
+        "startedAt": 1783507769255,
+        "seconds": 68,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

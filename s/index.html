@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -1567,6 +1568,7 @@
   let _ytApiLoading = false;
   let _ytPlayer = null;
   let _ytPlayerTickTimer = null;
+  let _ytPlayerCheckpointTimer = null;  // 1분마다 시청/학습 기록을 서버에 체크포인트 업로드
   let _ytPlayerCurrent = null;  // {lecId, videoId, lectureTitle, videoTitle, durationSec}
   let _ytLastTickTime = 0;  // 마지막 tick에서의 currentTime
   // sync 상태
@@ -2352,13 +2354,14 @@
       } catch(e) {}
     }
     stopLectureTick();
+    stopCheckpointTimer();
     if (_ytPlayer) {
       try { _ytPlayer.destroy(); } catch(e) {}
       _ytPlayer = null;
     }
 
-    // 이번 세션에서 시청한 시간 계산 → 60초 이상이면 노력의 자취에 자동 기록
-    tryAutoRecordCurrentSession();
+    // 이번 세션에서 시청한 시간 계산 → 60초 이상이면 노력의 자취에 최종 기록/갱신
+    checkpointCurrentSession({ immediate: true });
 
     const modal = document.getElementById('lecturePlayerModal');
     if (modal) {
@@ -2374,59 +2377,74 @@
     _ytPlayerCurrent = null;
   };
 
-  // 현재 재생 세션의 시청 시간을 계산해 60초 이상이면 노력의 자취에 자동 기록.
-  // 닫기(X) 버튼뿐 아니라 앱 전환/화면 숨김 시점에도 호출되어, 학생이 그냥
-  // 홈으로 나가거나 다른 화면으로 넘어가도 기록이 누락되지 않게 한다.
-  // 같은 세션을 두 번 기록하지 않도록 _ytPlayerCurrent.sessionRecorded로 가드.
-  function tryAutoRecordCurrentSession() {
-    if (!_ytPlayerCurrent || _ytPlayerCurrent.sessionRecorded) return;
+  // 현재 재생 세션의 시청 시간을 노력의 자취(학습 기록)에 반영.
+  // 세션당 로그를 "하나" 만들고, 이후에는 같은 로그의 seconds만 갱신한다(체크포인트).
+  //  - 1분마다 / 일시정지 / 종료 / 닫기 / 앱전환·화면잠금 시점에 호출되어,
+  //    학생이 X를 누르지 않고 홈으로 나가거나 기기가 꺼져도 마지막 체크포인트까지는 남는다.
+  //  - opts.immediate: 즉시 서버 업로드 트리거
+  //  - opts.noUpload: 로컬 저장만 (업로드는 호출부에서 sendBeacon 등으로 별도 처리)
+  function checkpointCurrentSession(opts) {
+    opts = opts || {};
+    if (!_ytPlayerCurrent) return;
     const watch = loadLectureWatch();
     const wv = watch[_ytPlayerCurrent.videoId] || {};
     const sessionSec = (wv.watchedSec || 0) - (_ytPlayerCurrent.sessionStartWatchedSec || 0);
-    if (sessionSec >= 60) {
-      autoRecordEffortLog({
-        sessionSec,
-        sessionStartedAt: _ytPlayerCurrent.sessionStartedAt || Date.now(),
-        lecId: _ytPlayerCurrent.lecId,
-        lectureTitle: _ytPlayerCurrent.lectureTitle,
-        videoTitle: _ytPlayerCurrent.videoTitle,
-      });
-      // 이 세션 분량은 기록 완료 — 다음 체크 시점부턴 그 이후 증가분만 다시 셀 수 있도록 기준점 갱신
-      _ytPlayerCurrent.sessionStartWatchedSec = wv.watchedSec || 0;
-      _ytPlayerCurrent.sessionRecorded = true;
-    }
-  }
+    if (sessionSec < 60) return;  // 최소 1분 이상 시청해야 학습 기록 생성
 
-  // 영상 시청을 학습 기록(노력의 자취)에 자동 저장 + 수정 가능한 알림 표시
-  function autoRecordEffortLog(info) {
-    const lec = (_lecturesCache || []).find(l => l.id === info.lecId);
-    const subject = (lec && lec.subject) || '수학';
-    const content = `${info.lectureTitle ? info.lectureTitle + ' — ' : ''}${info.videoTitle || ''}`.trim() || '강의 시청';
-
-    const subjects = loadEffortSubjects();
-    if (!subjects.includes(subject)) {
-      subjects.unshift(subject);
-      saveEffortSubjects(subjects.slice(0, 20));
-    }
-
-    const newId = 'effort_' + Date.now().toString(36) + Math.random().toString(36).slice(2,5);
     const logs = loadEffortLogs();
-    logs.push({
-      id: newId,
-      subject,
-      method: '강의 시청',
-      content,
-      reflection: '',
-      seconds: info.sessionSec,
-      startedAt: info.sessionStartedAt || Date.now(),
-      createdAt: new Date().toISOString(),
-      autoRecorded: true,
-    });
-    saveEffortLogs(logs);
-    renderEffortContent();
-    markEffortLogsDirty({ immediate: true });
+    let changed = false;
+
+    if (!_ytPlayerCurrent.effortLogId) {
+      // 이 세션의 학습 기록 최초 생성
+      const lec = (_lecturesCache || []).find(l => l.id === _ytPlayerCurrent.lecId);
+      const subject = (lec && lec.subject) || '수학';
+      const content = `${_ytPlayerCurrent.lectureTitle ? _ytPlayerCurrent.lectureTitle + ' — ' : ''}${_ytPlayerCurrent.videoTitle || ''}`.trim() || '강의 시청';
+
+      const subjects = loadEffortSubjects();
+      if (!subjects.includes(subject)) {
+        subjects.unshift(subject);
+        saveEffortSubjects(subjects.slice(0, 20));
+      }
+
+      const newId = 'effort_' + Date.now().toString(36) + Math.random().toString(36).slice(2,5);
+      _ytPlayerCurrent.effortLogId = newId;
+      logs.push({
+        id: newId,
+        subject,
+        method: '강의 시청',
+        content,
+        reflection: '',
+        seconds: sessionSec,
+        startedAt: _ytPlayerCurrent.sessionStartedAt || Date.now(),
+        createdAt: new Date().toISOString(),
+        autoRecorded: true,
+      });
+      saveEffortLogs(logs);
+      changed = true;
+      if (!opts.noUpload) {
+        renderEffortContent();
+        showEffortAutoToast(fmtDuration(sessionSec), subject, newId);
+      }
+    } else {
+      // 기존 세션 로그의 시청 시간만 갱신 (체크포인트)
+      const log = logs.find(l => l.id === _ytPlayerCurrent.effortLogId);
+      if (!log) {
+        // 로그가 사라졌으면(삭제 등) 다음 체크포인트에서 새로 만들도록 리셋
+        _ytPlayerCurrent.effortLogId = null;
+        return;
+      }
+      if ((log.seconds || 0) !== sessionSec) {
+        log.seconds = sessionSec;
+        saveEffortLogs(logs);
+        changed = true;
+        if (!opts.noUpload) renderEffortContent();
+      }
+    }
+
+    if (opts.noUpload) return;              // 업로드는 호출부(sendBeacon)에서 처리
+    if (!changed && !opts.immediate) return; // 변화 없고 최종도 아니면 업로드 생략
+    markEffortLogsDirty({ immediate: !!opts.immediate });
     renderEffortSyncIndicator();
-    showEffortAutoToast(fmtDuration(info.sessionSec), subject, newId);
   }
 
   // 자동 기록 알림 (수정 링크 포함)
@@ -2460,16 +2478,23 @@
     if (state === YT.PlayerState.PLAYING) {
       _ytLastTickTime = (typeof e.target.getCurrentTime === 'function') ? e.target.getCurrentTime() : 0;
       startLectureTick();
+      startCheckpointTimer();
     } else if (state === YT.PlayerState.PAUSED || state === YT.PlayerState.BUFFERING) {
-      // 일시 중지: 마지막 위치 저장 + tick 정지
+      // 일시 중지: 마지막 위치 저장 + tick/체크포인트 정지 + 즉시 업로드
       stopLectureTick();
+      stopCheckpointTimer();
       try { applyLectureTick(e.target.getCurrentTime(), true); } catch(err) {}
+      flushLectureSyncIfPending();
+      checkpointCurrentSession({ immediate: true });
     } else if (state === YT.PlayerState.ENDED) {
       stopLectureTick();
+      stopCheckpointTimer();
       try {
         const dur = e.target.getDuration() || _ytPlayerCurrent?.durationSec || 0;
         applyLectureTick(dur, true);
       } catch(err) {}
+      flushLectureSyncIfPending();
+      checkpointCurrentSession({ immediate: true });
     }
   }
 
@@ -2485,6 +2510,25 @@
   }
   function stopLectureTick() {
     if (_ytPlayerTickTimer) { clearInterval(_ytPlayerTickTimer); _ytPlayerTickTimer = null; }
+  }
+
+  // 1분마다 시청 시간과 학습 기록을 서버에 체크포인트로 올린다.
+  // 강의 시청 기록이 안정적인 원리(재생 중 미리미리 업로드)를 학습 기록에도 동일 적용 —
+  // 기기가 갑자기 꺼져도 마지막 체크포인트(최대 1분 전)까지는 서버에 남는다.
+  function startCheckpointTimer() {
+    if (_ytPlayerCheckpointTimer) return;
+    _ytPlayerCheckpointTimer = setInterval(() => {
+      if (!_ytPlayer || !_ytPlayerCurrent) { stopCheckpointTimer(); return; }
+      try {
+        const cur = _ytPlayer.getCurrentTime();
+        applyLectureTick(cur, true);   // watchedSec 갱신 + 업로드 마킹
+      } catch(e) {}
+      flushLectureSyncIfPending();               // 시청 기록 업로드 (페이지 살아있는 동안 정상 fetch)
+      checkpointCurrentSession({ immediate: true }); // 학습 기록 체크포인트 (생성/갱신 + 업로드)
+    }, 60000);  // 1분
+  }
+  function stopCheckpointTimer() {
+    if (_ytPlayerCheckpointTimer) { clearInterval(_ytPlayerCheckpointTimer); _ytPlayerCheckpointTimer = null; }
   }
 
   // currentTime을 받아 watchedSec / lastPosition 업데이트 + UI 갱신 + 동기화 마킹
@@ -2529,7 +2573,7 @@
     _lectureSyncTimer = setTimeout(() => {
       _lectureSyncTimer = null;
       uploadLectureWatchToCloud();
-    }, 5000);  // 5초 debounce (시청 중에는 자주 변경됨)
+    }, 60000);  // 1분 debounce — 재생 중 업로드는 체크포인트 타이머가 담당(무료 한도 절약)
   }
 
   function flushLectureSyncIfPending() {
@@ -2561,7 +2605,7 @@
       deletedVideoIds: loadDeletedLectureWatchIds(),  // 통합본이 받아서 cache에서도 제거
     };
     try {
-      const jsonStr = JSON.stringify(payload, null, 2);
+      const jsonStr = JSON.stringify(payload);  // 들여쓰기 제거로 전송 크기 축소 (keepalive 64KB 한도 대비)
       const blob = new Blob([jsonStr], { type: 'application/json' });
       const file = new File([blob], `lecture_watch_${studentCode}_${Date.now()}.json`, { type: 'application/json' });
       const formData = new FormData();
@@ -2603,41 +2647,90 @@
     }
   }
 
-  // 페이지 이탈 시 마지막 동기화 시도
-  window.addEventListener('beforeunload', () => {
-    flushLectureSyncIfPending();
-    if (typeof flushEffortSyncIfPending === 'function') flushEffortSyncIfPending();
-  });
+  // ===== 이탈 시점 최종 업로드 (sendBeacon) =====
+  // fetch(keepalive)는 페이지 종료 순간 큰 페이로드를 조용히 버릴 수 있어,
+  // 이탈(홈 이동·앱 전환·화면 잠금·탭 종료)에는 sendBeacon을 우선 사용한다.
+  // 실패하더라도 재생 중 1분 체크포인트로 이미 서버에 올라가 있으므로 항목 자체는 남는다.
+  function beaconUploadWatch() {
+    try {
+      if (!navigator.sendBeacon || !studentCode) return false;
+      const watch = loadLectureWatch();
+      if (Object.keys(watch).length === 0) return false;
+      const studentName = ((studentData || {}).student || {}).name || '';
+      const payload = {
+        studentCode, studentName,
+        uploadedAt: new Date().toISOString(),
+        videoCount: Object.keys(watch).length,
+        videos: watch,
+        daily: loadDailyLectureWatch(),
+        deletedVideoIds: loadDeletedLectureWatchIds(),
+      };
+      const file = new File([JSON.stringify(payload)], `lecture_watch_${studentCode}_${Date.now()}.json`, { type: 'application/json' });
+      const fd = new FormData();
+      fd.append('file', file);
+      fd.append('upload_preset', CLOUDINARY_UPLOAD_PRESET);
+      fd.append('tags', `student_${studentCode},lecture_watch_submission`);
+      fd.append('context', `student_code=${studentCode}|kind=lecture_watch_submission|video_count=${payload.videoCount}`);
+      const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
+      const ok = navigator.sendBeacon(url, fd);
+      if (ok) { try { const cur = loadLectureSync(); saveLectureSync({ ...cur, pending: false, dirtyAt: null, lastUploadedAt: payload.uploadedAt }); } catch(e) {} }
+      return ok;
+    } catch(e) { return false; }
+  }
 
-  // 모바일: 홈 화면 진입 / 화면 잠금 / 탭 전환 직전에 강제 동기화
-  // visibilitychange는 페이지가 hidden 상태로 가기 직전에 발생함
+  function beaconUploadEffort() {
+    try {
+      if (!navigator.sendBeacon || !studentCode) return false;
+      const logs = loadEffortLogs();
+      const studentName = ((studentData || {}).student || {}).name || '';
+      const rankingProfile = loadRankingProfile();
+      const payload = {
+        studentCode, studentName,
+        uploadedAt: new Date().toISOString(),
+        logCount: logs.length,
+        logs,
+        deletedIds: loadDeletedEffortLogIds(),
+        nickname: rankingProfile.nickname,
+        publicNickname: rankingProfile.publicNickname,
+      };
+      const file = new File([JSON.stringify(payload)], `effort_log_${studentCode}_${Date.now()}.json`, { type: 'application/json' });
+      const fd = new FormData();
+      fd.append('file', file);
+      fd.append('upload_preset', CLOUDINARY_UPLOAD_PRESET);
+      fd.append('tags', `student_${studentCode},effort_log_submission`);
+      fd.append('context', `student_code=${studentCode}|kind=effort_log_submission|log_count=${logs.length}`);
+      const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
+      const ok = navigator.sendBeacon(url, fd);
+      if (ok) { try { const cur = loadEffortSync(); saveEffortSync({ ...cur, pending: false, dirtyAt: null, lastUploadedAt: payload.uploadedAt }); } catch(e) {} }
+      return ok;
+    } catch(e) { return false; }
+  }
+
+  // 이탈 시 공통 처리: 재생 중이면 마지막 시청분을 로컬 학습기록에 반영 후,
+  // sendBeacon 으로 최종 업로드 (실패 시 기존 fetch flush 로 폴백)
+  function runExitSyncBestEffort() {
+    try {
+      if (_ytPlayer && _ytPlayerCurrent) {
+        try { applyLectureTick(_ytPlayer.getCurrentTime(), true); } catch(e) {}
+        checkpointCurrentSession({ immediate: true, noUpload: true });  // 로컬 학습기록만 갱신
+      }
+    } catch(e) {}
+    const wOk = beaconUploadWatch();
+    const eOk = beaconUploadEffort();
+    if (!wOk) flushLectureSyncIfPending();
+    if (!eOk && typeof flushEffortSyncIfPending === 'function') flushEffortSyncIfPending();
+  }
+
+  // 페이지 이탈 시 최종 동기화
+  window.addEventListener('beforeunload', runExitSyncBestEffort);
+
+  // 모바일: 홈 화면 진입 / 화면 잠금 / 탭 전환 직전 (hidden 되기 직전 발생)
   document.addEventListener('visibilitychange', () => {
-    if (document.hidden) {
-      flushLectureSyncIfPending();
-      if (typeof flushEffortSyncIfPending === 'function') flushEffortSyncIfPending();
-      // 강의 재생 중 앱을 전환/백그라운드로 보내도 학습 기록이 누락되지 않도록 즉시 기록 시도
-      try {
-        if (_ytPlayer && _ytPlayerCurrent) {
-          const cur = _ytPlayer.getCurrentTime();
-          applyLectureTick(cur, true);
-        }
-        tryAutoRecordCurrentSession();
-      } catch(e) {}
-    }
+    if (document.hidden) runExitSyncBestEffort();
   });
 
   // pagehide는 모바일 Safari에서 더 안정적 — beforeunload가 안 도는 경우 보강
-  window.addEventListener('pagehide', () => {
-    flushLectureSyncIfPending();
-    if (typeof flushEffortSyncIfPending === 'function') flushEffortSyncIfPending();
-    try {
-      if (_ytPlayer && _ytPlayerCurrent) {
-        const cur = _ytPlayer.getCurrentTime();
-        applyLectureTick(cur, true);
-      }
-      tryAutoRecordCurrentSession();
-    } catch(e) {}
-  });
+  window.addEventListener('pagehide', runExitSyncBestEffort);
 
   function renderGradesView(data) {
     let html = `<h2 class="view-title">성적 관리</h2>`;
@@ -3154,7 +3247,7 @@
     };
 
     try {
-      const jsonStr = JSON.stringify(payload, null, 2);
+      const jsonStr = JSON.stringify(payload);  // 들여쓰기 제거로 전송 크기 축소 (keepalive 64KB 한도 대비)
       const blob = new Blob([jsonStr], { type: 'application/json' });
       const file = new File([blob], `effort_log_${studentCode}_${Date.now()}.json`, { type: 'application/json' });
       const formData = new FormData();

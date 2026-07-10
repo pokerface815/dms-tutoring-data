@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T02:11:19.957Z",
+  "generatedAt": "2026-07-10T12:33:33.841Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -162,22 +162,40 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-07T16:22:25.903Z",
+    "uploadedAt": "2026-07-09T12:28:42.693Z",
     "summary": {
-      "todaySec": 2894,
-      "weekSec": 10032,
-      "monthSec": 18883,
-      "streak": 3,
+      "todaySec": 0,
+      "weekSec": 14042,
+      "monthSec": 22893,
+      "streak": 4,
       "bySubjectMonth": {
         "대수": 8851,
         "확률과 통계": 4154,
         "미적분Ⅰ": 1572,
-        "독서": 505,
+        "독서": 881,
         "필사": 415,
-        "기하": 3386
+        "기하": 7020
       }
     },
     "logs": [
+      {
+        "id": "effort_mrdhgmkgme3",
+        "startedAt": 1783599730590,
+        "seconds": 376,
+        "subject": "독서",
+        "method": "기타",
+        "content": "6분독서 아비투스",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrcf9vhzjqo",
+        "startedAt": 1783532332750,
+        "seconds": 3634,
+        "subject": "기하",
+        "method": "개념 정리",
+        "content": "벡터 진행 중",
+        "reflection": ""
+      },
       {
         "id": "effort_mrauxhlzvwh",
         "startedAt": 1783438432777,

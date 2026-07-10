@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T10:17:17.023Z",
+  "generatedAt": "2026-07-10T12:33:42.856Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -9,7 +9,30 @@
   },
   "months": [],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-07-09T14:41:10.167Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 466,
+      "monthSec": 466,
+      "streak": 1,
+      "bySubjectMonth": {
+        "사회": 466
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mrdm6yvm7a9",
+        "startedAt": 1783607589737,
+        "seconds": 466,
+        "subject": "사회",
+        "method": "문제 풀이",
+        "content": "지리",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

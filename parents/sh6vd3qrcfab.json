@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T09:38:45.578Z",
+  "generatedAt": "2026-07-10T12:33:39.191Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -9,7 +9,30 @@
   },
   "months": [],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-07-09T10:32:33.978Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 341,
+      "monthSec": 341,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 341
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mrddb9h5vwh",
+        "startedAt": 1783592403475,
+        "seconds": 341,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-06T17:17:59.771Z",
+  "generatedAt": "2026-07-10T12:33:37.640Z",
   "student": {
     "id": "s_1783141077746_ni5332",
     "classes": [
@@ -12,19 +12,31 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrddb9h5vwh",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+      "reflection": "",
+      "seconds": 341,
+      "startedAt": 1783592403475,
+      "createdAt": "2026-07-09T10:32:33.977Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "MUY1NAZSfLw": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
         "durationSec": 4799,
-        "lastPosition": 20,
-        "lastWatchedAt": "2026-07-04T11:59:00.884Z",
-        "watchedSec": 27
+        "lastPosition": 4798,
+        "lastWatchedAt": "2026-07-09T11:47:17.512Z",
+        "watchedSec": 4464
       },
       "AJE79srmVL8": {
         "sessionCount": 1,
@@ -35,6 +47,16 @@
         "lastPosition": 22,
         "lastWatchedAt": "2026-07-06T16:02:09.444Z",
         "watchedSec": 22
+      },
+      "vOzqYDqoHSU": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqksd52wcz3",
+        "lectureTitle": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
+        "videoTitle": "8~16쪽 중복순열, 같은 것이 있는 순열, 최단거리로 가는 경우의 수",
+        "durationSec": 4971,
+        "lastPosition": 25,
+        "lastWatchedAt": "2026-07-10T07:15:56.626Z",
+        "watchedSec": 26
       }
     },
     "daily": {
@@ -43,6 +65,10 @@
       },
       "2026-07-07": {
         "AJE79srmVL8": 22
+      },
+      "2026-07-09": {
+        "vOzqYDqoHSU": 26,
+        "MUY1NAZSfLw": 4437
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-08T10:17:15.275Z",
+  "generatedAt": "2026-07-10T12:33:40.974Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -12,7 +12,20 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrdm6yvm7a9",
+      "startedAt": 1783607589737,
+      "endedAt": 1783608070162,
+      "seconds": 466,
+      "subject": "사회",
+      "method": "문제 풀이",
+      "content": "지리",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-09T14:41:10.162Z"
+    }
+  ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,

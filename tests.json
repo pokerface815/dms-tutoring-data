@@ -139,7 +139,13 @@
     "title": "공수1 경우의 수",
     "date": "2026-07-10",
     "classId": "cls_1780309370989_i1lo00",
-    "results": {},
+    "results": {
+      "s_1779948611035_qbdt5h": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1783686776/jlokshdatqs5rfyucaw2.pdf",
+        "fileName": "7월10일 서준우.pdf",
+        "uploadedAt": "2026-07-10T12:32:57.339Z"
+      }
+    },
     "createdAt": "2026-07-08T10:12:47.804Z"
   },
   {
@@ -147,7 +153,13 @@
     "title": "공수2 - 두 점 사이의 거리, 삼각형의 무게중심",
     "date": "2026-07-10",
     "classId": "cls_1780309335387_ry7cd9",
-    "results": {},
+    "results": {
+      "s_1780309359751_gjl2s0": {
+        "pdfUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1783686781/du4kxphqpvx7s2bujlds.pdf",
+        "fileName": "7월10일 박유솔.pdf",
+        "uploadedAt": "2026-07-10T12:33:01.552Z"
+      }
+    },
     "createdAt": "2026-07-08T10:25:35.589Z"
   }
 ]

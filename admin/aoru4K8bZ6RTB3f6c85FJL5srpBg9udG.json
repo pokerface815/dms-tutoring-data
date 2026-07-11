@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T02:08:22.835Z",
+  "generatedAt": "2026-07-11T02:16:36.338Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 43,
+  "studentCount": 44,
   "baseUrl": "",
   "students": [
     {
@@ -391,6 +391,15 @@
       "className": "토,일 11시",
       "studentPageCode": "grpsp8y3wcjn",
       "parentPageCode": "grpsp8y3wcjn"
+    },
+    {
+      "id": "s_1783736188808_37ty47",
+      "name": "박현진",
+      "grade": "고1",
+      "school": "동신여고",
+      "className": "토,일 11시",
+      "studentPageCode": "9wu5jzr666q2",
+      "parentPageCode": "9wu5jzr666q2"
     }
   ]
 }

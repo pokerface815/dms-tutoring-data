@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T02:07:03.540Z",
+  "generatedAt": "2026-07-11T02:07:50.625Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 41,
+  "studentCount": 42,
   "baseUrl": "",
   "students": [
     {
@@ -373,6 +373,15 @@
       "className": "토,일 11시",
       "studentPageCode": "6u3nac2y9tbh",
       "parentPageCode": "6u3nac2y9tbh"
+    },
+    {
+      "id": "s_1783735663261_629qgf",
+      "name": "이지우",
+      "grade": "고1",
+      "school": "동신여고",
+      "className": "토,일 11시",
+      "studentPageCode": "vdbwb8yub4xy",
+      "parentPageCode": "vdbwb8yub4xy"
     }
   ]
 }

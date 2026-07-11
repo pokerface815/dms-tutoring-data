@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T08:52:30.198Z",
+  "generatedAt": "2026-07-11T08:52:50.988Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 47,
+  "studentCount": 46,
   "baseUrl": "",
   "students": [
     {
@@ -265,15 +265,6 @@
       "className": "토,일 2시",
       "studentPageCode": "pnuj5d6majxc",
       "parentPageCode": "pnuj5d6majxc"
-    },
-    {
-      "id": "s_1780821352355_cv63jr",
-      "name": "국아인",
-      "grade": "고2",
-      "school": "중앙여고",
-      "className": "토,일 4시",
-      "studentPageCode": "87dutmkxr9rz",
-      "parentPageCode": "87dutmkxr9rz"
     },
     {
       "id": "s_1780825523674_8dwstz",

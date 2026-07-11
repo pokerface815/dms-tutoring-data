@@ -1186,5 +1186,33 @@
     "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "5t3q9pua6ndz"
+  },
+  {
+    "id": "s_1783741597296_84n8hm",
+    "name": "조준영",
+    "school": "살레시오고",
+    "grade": "고1",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-4161-2481",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "k2yku3ebkked"
   }
 ]

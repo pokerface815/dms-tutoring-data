@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-06T04:48:37.673Z",
+  "generatedAt": "2026-07-11T06:09:41.731Z",
   "student": {
     "id": "s_1778908285779_1cmzde",
     "classes": [
@@ -12,9 +12,39 @@
     "class": "토,일 2시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrfx57mlunm",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+      "reflection": "",
+      "seconds": 2599,
+      "startedAt": 1783747299998,
+      "createdAt": "2026-07-11T05:23:16.318Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "MUY1NAZSfLw": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "durationSec": 4799,
+        "lastPosition": 3010,
+        "lastWatchedAt": "2026-07-11T06:08:04.763Z",
+        "watchedSec": 2599
+      }
+    },
+    "daily": {
+      "2026-07-11": {
+        "MUY1NAZSfLw": 2599
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

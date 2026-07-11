@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-08T12:17:15.772Z",
+  "generatedAt": "2026-07-11T03:45:58.781Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -14,6 +14,17 @@
   },
   "syncedEffortLogs": [
     {
+      "id": "effort_mrbpdx7c856",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 226~238쪽 행렬의 덧셈, 뺄셈과 실수배, 곱셈",
+      "reflection": "",
+      "seconds": 2011,
+      "startedAt": 1783490448548,
+      "createdAt": "2026-07-08T06:35:01.080Z",
+      "autoRecorded": true
+    },
+    {
       "id": "effort_mrbyiq9yssq",
       "subject": "미적분Ⅰ",
       "method": "강의 시청",
@@ -22,6 +33,39 @@
       "seconds": 68,
       "startedAt": 1783507769255,
       "createdAt": "2026-07-08T10:50:41.926Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrfn56i8cme",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
+      "reflection": "",
+      "seconds": 215,
+      "startedAt": 1783730537173,
+      "createdAt": "2026-07-11T00:43:18.704Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrfnahyv08q",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
+      "reflection": "",
+      "seconds": 821,
+      "startedAt": 1783730784543,
+      "createdAt": "2026-07-11T00:47:26.839Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrfnsic1hb0",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
+      "reflection": "",
+      "seconds": 392,
+      "startedAt": 1783731616499,
+      "createdAt": "2026-07-11T01:01:27.121Z",
       "autoRecorded": true
     }
   ],
@@ -38,15 +82,25 @@
         "lastWatchedAt": "2026-07-06T10:21:13.535Z",
         "watchedSec": 573
       },
-      "SADXbKNEfTQ": {
+      "o2EGfkJSvow": {
         "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "226~238쪽 행렬의 덧셈, 뺄셈과 실수배, 곱셈",
+        "durationSec": 2858,
+        "lastPosition": 2384,
+        "lastWatchedAt": "2026-07-08T06:35:01.082Z",
+        "watchedSec": 2011
+      },
+      "SADXbKNEfTQ": {
+        "sessionCount": 4,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
         "durationSec": 2064,
-        "lastPosition": 3,
-        "lastWatchedAt": "2026-07-08T10:49:02.612Z",
-        "watchedSec": 3
+        "lastPosition": 1405,
+        "lastWatchedAt": "2026-07-11T01:06:27.120Z",
+        "watchedSec": 1408
       },
       "MUY1NAZSfLw": {
         "sessionCount": 1,
@@ -64,8 +118,12 @@
         "0ZdN1MUuVl0": 573
       },
       "2026-07-08": {
+        "o2EGfkJSvow": 2011,
         "SADXbKNEfTQ": 3,
         "MUY1NAZSfLw": 68
+      },
+      "2026-07-11": {
+        "SADXbKNEfTQ": 1405
       }
     }
   },

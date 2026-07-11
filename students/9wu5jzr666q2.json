@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-11T02:16:37.487Z",
+  "student": {
+    "id": "s_1783736188808_37ty47",
+    "classes": [
+      "cls_1783735589810_tlwac7"
+    ],
+    "name": "박현진",
+    "school": "동신여고",
+    "grade": "고1",
+    "class": "",
+    "showMakeNote": true
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-07-06",
+    "endDate": "2026-07-12"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

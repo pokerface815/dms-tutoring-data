@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T02:07:50.625Z",
+  "generatedAt": "2026-07-11T02:08:22.835Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 42,
+  "studentCount": 43,
   "baseUrl": "",
   "students": [
     {
@@ -382,6 +382,15 @@
       "className": "토,일 11시",
       "studentPageCode": "vdbwb8yub4xy",
       "parentPageCode": "vdbwb8yub4xy"
+    },
+    {
+      "id": "s_1783735695213_xbid51",
+      "name": "정호연",
+      "grade": "고1",
+      "school": "동신고",
+      "className": "토,일 11시",
+      "studentPageCode": "grpsp8y3wcjn",
+      "parentPageCode": "grpsp8y3wcjn"
     }
   ]
 }

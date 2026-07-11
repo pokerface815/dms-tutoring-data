@@ -1,0 +1,16 @@
+{
+  "id": "ann_mrfwuh5fo3wl",
+  "sentAt": "2026-07-11T14:15:10.348626+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "서은영",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

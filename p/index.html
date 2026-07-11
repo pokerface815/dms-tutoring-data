@@ -1,6 +1,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -624,6 +625,11 @@
         return;
       }
       parentData = await res.json();
+      // 삭제(차단)된 학생 — 접속 차단 안내
+      if (parentData && parentData.disabled) {
+        renderError('이용이 중단된 페이지입니다', '이 페이지는 더 이상 이용할 수 없습니다.<br>문의사항은 선생님께 연락해주세요.');
+        return;
+      }
       // 과목 색 매핑 초기화 (학생의 학습 기록 기준)
       try { rebuildSubjectColorMap((parentData && parentData.effortLogs) || []); } catch(e) {}
       renderPage();

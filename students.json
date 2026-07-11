@@ -1214,5 +1214,33 @@
     "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "k2yku3ebkked"
+  },
+  {
+    "id": "s_1783741639936_epkpt5",
+    "name": "송시욱",
+    "school": "살레시오고",
+    "grade": "고1",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-5074-0945",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "msbmdr3h36yz"
   }
 ]

@@ -1226,5 +1226,31 @@
     "createdAt": "2026-07-11T10:27:00.525Z",
     "updatedAt": "2026-07-11T10:27:00.525Z",
     "lastSyncedAt": "2026-07-11T10:27:00.525Z"
+  },
+  {
+    "id": "lec_mrg80i3ervi",
+    "title": "11시 공통수학2",
+    "youtubePlaylistId": "PLPteQnqlQ7-0",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLPteQnqlQ7-0",
+    "subject": "공통수학2",
+    "textbook": "개념+유형",
+    "memo": "",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EL1XeqIzYKg/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "EL1XeqIzYKg",
+        "title": "1",
+        "position": 0,
+        "durationSec": 3295
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-07-11T10:27:32.378Z",
+    "updatedAt": "2026-07-11T10:27:32.378Z",
+    "lastSyncedAt": "2026-07-11T10:27:32.378Z"
   }
 ]

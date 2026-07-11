@@ -1200,5 +1200,31 @@
     "lastSyncedAt": "2026-06-20T07:15:24.988Z",
     "textbook": "개념+유형",
     "memo": ""
+  },
+  {
+    "id": "lec_mrg7ztilap8",
+    "title": "12시 30분 공통수학2",
+    "youtubePlaylistId": "PLAL0DCgV4bcY",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLAL0DCgV4bcY",
+    "subject": "공통수학2",
+    "textbook": "26년 7월 ~ 12시 30분 수업",
+    "memo": "",
+    "thumbnailUrl": "https://i.ytimg.com/vi/A7CrbLfr5VY/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "A7CrbLfr5VY",
+        "title": "2",
+        "position": 0,
+        "durationSec": 2912
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-07-11T10:27:00.525Z",
+    "updatedAt": "2026-07-11T10:27:00.525Z",
+    "lastSyncedAt": "2026-07-11T10:27:00.525Z"
   }
 ]

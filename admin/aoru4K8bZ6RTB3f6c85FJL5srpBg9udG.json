@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T08:52:50.988Z",
+  "generatedAt": "2026-07-11T08:53:29.677Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
   "studentCount": 46,
   "baseUrl": "",
@@ -334,7 +334,7 @@
       "name": "이지수",
       "grade": "고2",
       "school": "문정여고",
-      "className": "토,일 4시",
+      "className": "토,일 2시",
       "studentPageCode": "vk5cmg9pumy3",
       "parentPageCode": "vk5cmg9pumy3"
     },

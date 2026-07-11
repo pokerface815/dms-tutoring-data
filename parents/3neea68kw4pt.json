@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-10T12:33:33.841Z",
+  "generatedAt": "2026-07-11T02:06:53.673Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -162,14 +162,14 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-09T12:28:42.693Z",
+    "uploadedAt": "2026-07-10T14:53:14.028Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 14042,
-      "monthSec": 22893,
-      "streak": 4,
+      "weekSec": 14200,
+      "monthSec": 23051,
+      "streak": 5,
       "bySubjectMonth": {
-        "대수": 8851,
+        "대수": 9009,
         "확률과 통계": 4154,
         "미적분Ⅰ": 1572,
         "독서": 881,
@@ -178,6 +178,15 @@
       }
     },
     "logs": [
+      {
+        "id": "effort_mreyzaxip5k",
+        "startedAt": 1783689948630,
+        "seconds": 158,
+        "subject": "대수",
+        "method": "강의 시청",
+        "content": "대수 개념+유형 (26년 1월 ~ )_완강 — 8~12쪽 거듭제곱과 거듭제곱근",
+        "reflection": ""
+      },
       {
         "id": "effort_mrdhgmkgme3",
         "startedAt": 1783599730590,

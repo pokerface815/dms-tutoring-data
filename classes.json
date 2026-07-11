@@ -101,15 +101,5 @@
     "memo": "",
     "order": 15,
     "createdAt": "2026-07-11T03:44:46.590Z"
-  },
-  {
-    "id": "cls_1783750172933_zy3ucf",
-    "name": "테스트",
-    "memo": "",
-    "showInParent": true,
-    "order": 16,
-    "createdAt": "2026-07-11T06:09:32.933Z",
-    "archived": true,
-    "endedAt": 1783750181725
   }
 ]

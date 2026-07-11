@@ -1,0 +1,31 @@
+{
+  "id": "ann_mrfqjytp0q0x",
+  "sentAt": "2026-07-11T11:19:03.031547+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "박현진",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "원지율",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "이지우",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "정호연",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 4,
+  "failCount": 0
+}

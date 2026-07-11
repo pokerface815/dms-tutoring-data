@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-11T03:47:28.647Z",
+  "student": {
+    "id": "s_1783741639936_epkpt5",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
+    "name": "송시욱",
+    "school": "살레시오고",
+    "grade": "고1",
+    "class": "",
+    "showMakeNote": true
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-07-06",
+    "endDate": "2026-07-12"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

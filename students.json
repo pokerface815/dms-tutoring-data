@@ -1242,5 +1242,33 @@
     "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "msbmdr3h36yz"
+  },
+  {
+    "id": "s_1783741677433_iezolt",
+    "name": "박소이",
+    "school": "동신여고",
+    "grade": "고1",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-8061-1318",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": false,
+    "showMakeNote": true,
+    "pageCode": "6rx8qu5mtmy7"
   }
 ]

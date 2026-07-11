@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-11T06:09:45.199Z",
+  "generatedAt": "2026-07-11T08:52:19.552Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -319,7 +319,8 @@
         "videoTitle": "52~59쪽 평균변화율과 미분계수",
         "durationSec": 4899,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-11T05:20:41.589Z"
+        "lastWatchedAt": "2026-07-11T05:20:41.589Z",
+        "watchedSec": 0
       }
     },
     "daily": {

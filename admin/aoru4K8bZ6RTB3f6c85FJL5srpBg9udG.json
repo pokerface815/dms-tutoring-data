@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T03:46:03.960Z",
+  "generatedAt": "2026-07-11T03:46:45.227Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 45,
+  "studentCount": 46,
   "baseUrl": "",
   "students": [
     {
@@ -409,6 +409,15 @@
       "className": "토,일 12시 30분",
       "studentPageCode": "5t3q9pua6ndz",
       "parentPageCode": "5t3q9pua6ndz"
+    },
+    {
+      "id": "s_1783741597296_84n8hm",
+      "name": "조준영",
+      "grade": "고1",
+      "school": "살레시오고",
+      "className": "토,일 12시 30분",
+      "studentPageCode": "k2yku3ebkked",
+      "parentPageCode": "k2yku3ebkked"
     }
   ]
 }

@@ -739,34 +739,6 @@
     "showNoteStages": true
   },
   {
-    "id": "s_1780821352355_cv63jr",
-    "name": "국아인",
-    "school": "중앙여고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780310061018_vay6zf"
-    ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-2616-2257",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showMakeNote": true,
-    "pageCode": "87dutmkxr9rz",
-    "showNoteStages": true
-  },
-  {
     "id": "s_1780825523674_8dwstz",
     "name": "정시우",
     "school": "살레시오고",

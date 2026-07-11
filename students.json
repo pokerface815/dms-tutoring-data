@@ -1046,5 +1046,33 @@
     "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "3jf965xekz3a"
+  },
+  {
+    "id": "s_1783735608548_k885g4",
+    "name": "원지율",
+    "school": "고려고",
+    "grade": "고1",
+    "classes": [
+      "cls_1783735589810_tlwac7"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-8603-3794",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "6u3nac2y9tbh"
   }
 ]

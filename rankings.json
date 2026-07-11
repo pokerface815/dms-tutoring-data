@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T02:16:35.231Z",
-  "studentCount": 44,
+  "generatedAt": "2026-07-11T03:46:00.510Z",
+  "studentCount": 45,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -140,10 +140,10 @@
     },
     {
       "id": "s_1779948611035_qbdt5h",
-      "totalSec": 68,
-      "weekSec": 68,
-      "monthSec": 68,
-      "streak": 0,
+      "totalSec": 3507,
+      "weekSec": 3507,
+      "monthSec": 3507,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -392,6 +392,15 @@
     },
     {
       "id": "s_1783736188808_37ty47",
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
+      "id": "s_1783741551628_vw0d5m",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,

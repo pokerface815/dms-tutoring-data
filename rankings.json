@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T06:09:46.967Z",
-  "studentCount": 48,
+  "generatedAt": "2026-07-11T08:52:21.407Z",
+  "studentCount": 47,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -59,10 +59,10 @@
     },
     {
       "id": "s_1778397156600_clkd2u",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "totalSec": 2978,
+      "weekSec": 2978,
+      "monthSec": 2978,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -113,24 +113,15 @@
     },
     {
       "id": "s_1778908285779_1cmzde",
-      "totalSec": 2599,
-      "weekSec": 2599,
-      "monthSec": 2599,
+      "totalSec": 3134,
+      "weekSec": 3134,
+      "monthSec": 3134,
       "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1779005266373_7iq1b8",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1779811264964_kbtli4",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,

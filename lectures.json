@@ -1207,7 +1207,7 @@
     "youtubePlaylistId": "PLAL0DCgV4bcY",
     "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLAL0DCgV4bcY",
     "subject": "공통수학2",
-    "textbook": "26년 7월 ~ 12시 30분 수업",
+    "textbook": "개념+유형",
     "memo": "",
     "thumbnailUrl": "https://i.ytimg.com/vi/A7CrbLfr5VY/mqdefault.jpg",
     "videos": [
@@ -1224,7 +1224,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-07-11T10:27:00.525Z",
+    "updatedAt": "2026-07-11T10:27:54.914Z",
     "lastSyncedAt": "2026-07-11T10:27:00.525Z"
   },
   {

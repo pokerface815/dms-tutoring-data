@@ -1158,5 +1158,33 @@
     "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "9wu5jzr666q2"
+  },
+  {
+    "id": "s_1783741551628_vw0d5m",
+    "name": "박하윤",
+    "school": "국제고",
+    "grade": "고1",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-6862-2612",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "5t3q9pua6ndz"
   }
 ]

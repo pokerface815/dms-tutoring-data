@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T03:47:26.207Z",
-  "studentCount": 47,
+  "generatedAt": "2026-07-11T03:48:03.795Z",
+  "studentCount": 48,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -419,6 +419,15 @@
     },
     {
       "id": "s_1783741639936_epkpt5",
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
+      "id": "s_1783741677433_iezolt",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,

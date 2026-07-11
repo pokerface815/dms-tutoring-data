@@ -406,35 +406,6 @@
     "showNoteStages": true
   },
   {
-    "id": "s_1779811264964_kbtli4",
-    "name": "김한비",
-    "school": "전사고",
-    "grade": "고2",
-    "class": "토,일 4시",
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-4100-7390",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "szsvtwbygpkz",
-    "classes": [
-      "cls_1780310061018_vay6zf"
-    ],
-    "showMakeNote": true,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true
-  },
-  {
     "id": "s_1779948611035_qbdt5h",
     "name": "서준우",
     "school": "살레시오중",

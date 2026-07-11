@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T03:48:03.795Z",
+  "generatedAt": "2026-07-11T06:09:46.967Z",
   "studentCount": 48,
   "rankings": [
     {
@@ -113,10 +113,10 @@
     },
     {
       "id": "s_1778908285779_1cmzde",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "totalSec": 2599,
+      "weekSec": 2599,
+      "monthSec": 2599,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

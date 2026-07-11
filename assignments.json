@@ -1166,42 +1166,6 @@
     "repeat": null
   },
   {
-    "id": "a_1780061919737_cwqd4a",
-    "noteId": "note_1780061891759_rs5elj",
-    "noteName": "김한비_유형 해결의 법칙_등차등비수열( ~1226번)",
-    "studentId": "s_1779811264964_kbtli4",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-05-30",
-        "actualDone": true,
-        "doneAt": "2026-05-30T13:52:14.027Z"
-      },
-      {
-        "stage": 2,
-        "planned": "2026-06-01",
-        "actualDone": true,
-        "doneAt": "2026-06-01T09:49:57.563Z"
-      },
-      {
-        "stage": 3,
-        "planned": "2026-06-06",
-        "actualDone": true,
-        "doneAt": "2026-06-06T12:01:45.861Z"
-      },
-      {
-        "stage": 4,
-        "planned": "2026-06-20",
-        "actualDone": true,
-        "doneAt": "2026-06-20T11:31:36.577Z",
-        "missed": false,
-        "missedAt": null
-      }
-    ],
-    "createdAt": "2026-05-29T13:38:39.737Z"
-  },
-  {
     "id": "a_1780075403993_90or5b",
     "noteId": "note_1780075393630_4hm4dg",
     "noteName": "이경주_수매씽 유형_수열의 합( ~2199번)",
@@ -2761,24 +2725,6 @@
       }
     ],
     "createdAt": "2026-06-25T01:29:00.213Z"
-  },
-  {
-    "id": "a_1782365567791_58c2h3",
-    "noteId": "note_1782365554241_fkv81z",
-    "noteName": "김한비_유형 해결의 법칙_수학적 귀납법( ~1474번)",
-    "studentId": "s_1779811264964_kbtli4",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-06-25",
-        "actualDone": true,
-        "doneAt": "2026-06-25T07:35:43.522Z",
-        "missed": false,
-        "missedAt": null
-      }
-    ],
-    "createdAt": "2026-06-25T05:32:47.791Z"
   },
   {
     "id": "a_1782392259014_cocd12",

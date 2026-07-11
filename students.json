@@ -1074,5 +1074,33 @@
     "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "6u3nac2y9tbh"
+  },
+  {
+    "id": "s_1783735663261_629qgf",
+    "name": "이지우",
+    "school": "동신여고",
+    "grade": "고1",
+    "classes": [
+      "cls_1783735589810_tlwac7"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-6206-4917",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "vdbwb8yub4xy"
   }
 ]

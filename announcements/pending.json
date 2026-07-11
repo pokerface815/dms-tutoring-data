@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "ann_mrftqz7zqq8t",
+    "createdAt": "2026-07-11T03:48:13.391Z",
+    "target": "student",
+    "message": "(페이지 링크 발송)",
+    "recipients": [
+      {
+        "name": "박소이",
+        "type": "student",
+        "phone": "010-8061-1318",
+        "message": "박소이 학생 전용 학습 페이지입니다.\n\nhttps://pokerface815.github.io/dms-tutoring-data/s/?code=6rx8qu5mtmy7\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
+      },
+      {
+        "name": "박하윤",
+        "type": "student",
+        "phone": "010-6862-2612",
+        "message": "박하윤 학생 전용 학습 페이지입니다.\n\nhttps://pokerface815.github.io/dms-tutoring-data/s/?code=5t3q9pua6ndz\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
+      },
+      {
+        "name": "송시욱",
+        "type": "student",
+        "phone": "010-5074-0945",
+        "message": "송시욱 학생 전용 학습 페이지입니다.\n\nhttps://pokerface815.github.io/dms-tutoring-data/s/?code=msbmdr3h36yz\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
+      },
+      {
+        "name": "조준영",
+        "type": "student",
+        "phone": "010-4161-2481",
+        "message": "조준영 학생 전용 학습 페이지입니다.\n\nhttps://pokerface815.github.io/dms-tutoring-data/s/?code=k2yku3ebkked\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
+      }
+    ],
+    "status": "pending"
+  }
+]

@@ -1130,5 +1130,33 @@
     "showNoteStages": false,
     "showMakeNote": true,
     "pageCode": "grpsp8y3wcjn"
+  },
+  {
+    "id": "s_1783736188808_37ty47",
+    "name": "박현진",
+    "school": "동신여고",
+    "grade": "고1",
+    "classes": [
+      "cls_1783735589810_tlwac7"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-9147-4709",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "9wu5jzr666q2"
   }
 ]

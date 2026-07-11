@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T03:46:45.227Z",
+  "generatedAt": "2026-07-11T03:47:27.398Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 46,
+  "studentCount": 47,
   "baseUrl": "",
   "students": [
     {
@@ -418,6 +418,15 @@
       "className": "토,일 12시 30분",
       "studentPageCode": "k2yku3ebkked",
       "parentPageCode": "k2yku3ebkked"
+    },
+    {
+      "id": "s_1783741639936_epkpt5",
+      "name": "송시욱",
+      "grade": "고1",
+      "school": "살레시오고",
+      "className": "토,일 12시 30분",
+      "studentPageCode": "msbmdr3h36yz",
+      "parentPageCode": "msbmdr3h36yz"
     }
   ]
 }

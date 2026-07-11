@@ -1316,6 +1316,11 @@
         return;
       }
       studentData = await res.json();
+      // 삭제(차단)된 학생 — 접속 차단 안내
+      if (studentData && studentData.disabled) {
+        renderError('이용이 중단된 페이지입니다', '이 학생 페이지는 더 이상 이용할 수 없습니다.<br>문의사항은 선생님께 연락해주세요.');
+        return;
+      }
       // 디버그: 과제 데이터 확인 (문제 생기면 콘솔에서 볼 수 있음)
       console.log('[학생페이지] tasks:', studentData.tasks, '| 오늘요일:', new Date().getDay());
       // 다른 기기에서 만든 기록과 머지

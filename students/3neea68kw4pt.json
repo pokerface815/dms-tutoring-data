@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-11T02:06:54.971Z",
+  "generatedAt": "2026-07-11T06:09:45.199Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -293,13 +293,13 @@
         "watchedSec": 0
       },
       "MUY1NAZSfLw": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
         "durationSec": 4799,
         "lastPosition": 1578,
-        "lastWatchedAt": "2026-07-07T01:06:05.890Z",
+        "lastWatchedAt": "2026-07-11T05:19:01.322Z",
         "watchedSec": 1572
       },
       "FNL671dXsGI": {
@@ -311,6 +311,15 @@
         "lastPosition": 158,
         "lastWatchedAt": "2026-07-10T13:28:56.031Z",
         "watchedSec": 158
+      },
+      "KuzIK3RkqvM": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "52~59쪽 평균변화율과 미분계수",
+        "durationSec": 4899,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-11T05:20:41.589Z"
       }
     },
     "daily": {

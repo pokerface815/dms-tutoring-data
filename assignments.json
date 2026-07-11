@@ -1812,42 +1812,6 @@
     "fromLesson": "lesson_1780750860339_6kskr1"
   },
   {
-    "id": "a_1780821367626_4ynanq",
-    "noteId": "note_1780821297475_u6x9j1",
-    "noteName": "국아인_개념루트_사인법칙과 코사인법칙( ~595번)",
-    "studentId": "s_1780821352355_cv63jr",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-06-07",
-        "actualDone": true,
-        "doneAt": "2026-06-07T09:16:15.571Z"
-      },
-      {
-        "stage": 2,
-        "planned": "2026-06-09",
-        "actualDone": true,
-        "doneAt": "2026-06-09T08:56:19.444Z"
-      },
-      {
-        "stage": 3,
-        "planned": "2026-06-14",
-        "actualDone": true,
-        "doneAt": "2026-06-14T07:06:22.237Z"
-      },
-      {
-        "stage": 4,
-        "planned": "2026-06-28",
-        "actualDone": true,
-        "doneAt": "2026-06-28T07:44:14.250Z",
-        "missed": false,
-        "missedAt": null
-      }
-    ],
-    "createdAt": "2026-06-07T08:36:07.626Z"
-  },
-  {
     "id": "task_1780833168065_o2irmx",
     "type": "task",
     "studentId": "s_1780833047673_dy7d3f",
@@ -2233,36 +2197,6 @@
     "assignedAt": "2026-06-14T14:30:41.833Z",
     "batchId": "t_mqdvt7e1",
     "repeat": null
-  },
-  {
-    "id": "a_1781511394108_frgazt",
-    "noteId": "note_1781511384380_rd2x7e",
-    "noteName": "국아인_개념루트_등차수열과 등비수열( ~709번)",
-    "studentId": "s_1780821352355_cv63jr",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-06-15",
-        "actualDone": true,
-        "doneAt": "2026-06-15T08:19:42.044Z"
-      },
-      {
-        "stage": 2,
-        "planned": "2026-06-17",
-        "actualDone": true,
-        "doneAt": "2026-06-17T14:25:23.163Z"
-      },
-      {
-        "stage": 3,
-        "planned": "2026-06-22",
-        "actualDone": true,
-        "doneAt": "2026-06-23T01:01:43.873Z",
-        "missed": false,
-        "missedAt": null
-      }
-    ],
-    "createdAt": "2026-06-15T08:16:34.108Z"
   },
   {
     "id": "a_1781528977125_g9nvng",

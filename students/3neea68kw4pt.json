@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-10T12:33:24.652Z",
+  "generatedAt": "2026-07-11T02:06:54.971Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -202,6 +202,17 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-07-09T12:28:42.688Z"
+    },
+    {
+      "id": "effort_mreyzaxip5k",
+      "subject": "대수",
+      "method": "강의 시청",
+      "content": "대수 개념+유형 (26년 1월 ~ )_완강 — 8~12쪽 거듭제곱과 거듭제곱근",
+      "reflection": "",
+      "seconds": 158,
+      "startedAt": 1783689948630,
+      "createdAt": "2026-07-10T13:26:53.718Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": [
@@ -290,6 +301,16 @@
         "lastPosition": 1578,
         "lastWatchedAt": "2026-07-07T01:06:05.890Z",
         "watchedSec": 1572
+      },
+      "FNL671dXsGI": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqks8brpdcl",
+        "lectureTitle": "대수 개념+유형 (26년 1월 ~ )_완강",
+        "videoTitle": "8~12쪽 거듭제곱과 거듭제곱근",
+        "durationSec": 2646,
+        "lastPosition": 158,
+        "lastWatchedAt": "2026-07-10T13:28:56.031Z",
+        "watchedSec": 158
       }
     },
     "daily": {
@@ -309,6 +330,9 @@
       "2026-07-07": {
         "L7mDjTDBlmQ": 304,
         "MUY1NAZSfLw": 1572
+      },
+      "2026-07-10": {
+        "FNL671dXsGI": 158
       }
     }
   },

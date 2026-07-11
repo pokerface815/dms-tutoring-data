@@ -1,0 +1,31 @@
+{
+  "id": "ann_mrftqz7zqq8t",
+  "sentAt": "2026-07-11T12:48:29.998008+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "박소이",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "박하윤",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "송시욱",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "조준영",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 4,
+  "failCount": 0
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T03:48:04.886Z",
+  "generatedAt": "2026-07-11T06:09:52.288Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
   "studentCount": 48,
   "baseUrl": "",
@@ -181,7 +181,7 @@
       "name": "김소윤",
       "grade": "중3",
       "school": "",
-      "className": "월,수,금 중3 5시 수업",
+      "className": "월,수,금 중3 5시 수업, 테스트",
       "studentPageCode": "dhm4znbjqs4z",
       "parentPageCode": "dhm4znbjqs4z"
     },

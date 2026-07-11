@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T06:09:58.610Z",
+  "generatedAt": "2026-07-11T08:52:30.198Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 48,
+  "studentCount": 47,
   "baseUrl": "",
   "students": [
     {
@@ -130,15 +130,6 @@
       "className": "토,일 4시",
       "studentPageCode": "a7xfuxvp5x9c",
       "parentPageCode": "a7xfuxvp5x9c"
-    },
-    {
-      "id": "s_1779811264964_kbtli4",
-      "name": "김한비",
-      "grade": "고2",
-      "school": "전사고",
-      "className": "토,일 4시",
-      "studentPageCode": "szsvtwbygpkz",
-      "parentPageCode": "szsvtwbygpkz"
     },
     {
       "id": "s_1779948611035_qbdt5h",

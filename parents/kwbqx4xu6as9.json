@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-10T12:33:19.271Z",
+  "generatedAt": "2026-07-11T03:45:57.789Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -177,17 +177,45 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-08T10:50:41.927Z",
+    "uploadedAt": "2026-07-11T01:06:50.248Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 68,
-      "monthSec": 68,
-      "streak": 0,
+      "todaySec": 1428,
+      "weekSec": 3507,
+      "monthSec": 3507,
+      "streak": 1,
       "bySubjectMonth": {
+        "공통수학1": 3439,
         "미적분Ⅰ": 68
       }
     },
     "logs": [
+      {
+        "id": "effort_mrfnsic1hb0",
+        "startedAt": 1783731616499,
+        "seconds": 392,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrfnahyv08q",
+        "startedAt": 1783730784543,
+        "seconds": 821,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrfn56i8cme",
+        "startedAt": 1783730537173,
+        "seconds": 215,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
+        "reflection": ""
+      },
       {
         "id": "effort_mrbyiq9yssq",
         "startedAt": 1783507769255,
@@ -195,6 +223,15 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrbpdx7c856",
+        "startedAt": 1783490448548,
+        "seconds": 2011,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 226~238쪽 행렬의 덧셈, 뺄셈과 실수배, 곱셈",
         "reflection": ""
       }
     ]

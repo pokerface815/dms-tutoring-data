@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-12T12:52:48.531Z",
+  "student": {
+    "id": "s_1783860759938_uz9ij2",
+    "classes": [],
+    "name": "문대승4",
+    "school": "",
+    "grade": "중1",
+    "class": "",
+    "showMakeNote": false
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-07-06",
+    "endDate": "2026-07-12"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

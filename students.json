@@ -711,34 +711,6 @@
     "pageCode": "3dqm5z9tex4t"
   },
   {
-    "id": "s_1780728495466_3t0ug5",
-    "name": "백서현",
-    "school": "숭일고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780310019938_5xpe6o"
-    ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-7327-3830",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showMakeNote": true,
-    "pageCode": "pnuj5d6majxc",
-    "showNoteStages": true
-  },
-  {
     "id": "s_1780825523674_8dwstz",
     "name": "정시우",
     "school": "살레시오고",

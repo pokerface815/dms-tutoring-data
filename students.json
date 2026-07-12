@@ -1224,24 +1224,5 @@
     "showNoteStages": true,
     "showMakeNote": false,
     "pageCode": "wnz5zhutjnyt"
-  },
-  {
-    "id": "s_1783860759938_uz9ij2",
-    "name": "문대승4",
-    "school": "",
-    "grade": "중1",
-    "classes": [],
-    "memo": "",
-    "days": [],
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": false,
-    "showMakeNote": false,
-    "pageCode": "7a5n3vw7a7n4",
-    "classHistory": []
   }
 ]

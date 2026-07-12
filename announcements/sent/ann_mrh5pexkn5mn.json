@@ -1,0 +1,16 @@
+{
+  "id": "ann_mrh5pexkn5mn",
+  "sentAt": "2026-07-12T11:10:56.678217+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "김도윤",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

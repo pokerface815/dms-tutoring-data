@@ -1,0 +1,26 @@
+{
+  "id": "ann_mrhc6jxav7uj",
+  "sentAt": "2026-07-12T14:12:17.787581+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "국보민",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "조은별",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "이지수",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 3,
+  "failCount": 0
+}

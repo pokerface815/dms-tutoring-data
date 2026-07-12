@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": "ann_mrhc6jxav7uj",
+    "createdAt": "2026-07-12T05:11:59.327Z",
+    "target": "student",
+    "message": "(페이지 링크 발송)",
+    "recipients": [
+      {
+        "name": "국보민",
+        "type": "student",
+        "phone": "010-2736-3721",
+        "message": "국보민 학생 전용 학습 페이지입니다.\n\nhttps://pokerface815.github.io/dms-tutoring-data/s/?code=zm39mvjpdvgu\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
+      },
+      {
+        "name": "조은별",
+        "type": "student",
+        "phone": "010-3714-3625",
+        "message": "조은별 학생 전용 학습 페이지입니다.\n\nhttps://pokerface815.github.io/dms-tutoring-data/s/?code=59kas6tf2r77\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
+      },
+      {
+        "name": "이지수",
+        "type": "student",
+        "phone": "010-3082-2716",
+        "message": "이지수 학생 전용 학습 페이지입니다.\n\nhttps://pokerface815.github.io/dms-tutoring-data/s/?code=vk5cmg9pumy3\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
+      }
+    ],
+    "status": "pending"
+  }
+]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-06T04:48:36.114Z",
+  "generatedAt": "2026-07-12T12:43:55.499Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "문정여고",
     "grade": "고2",
     "class": "토,일 4시",
-    "showMakeNote": true
+    "showMakeNote": false
   },
   "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,

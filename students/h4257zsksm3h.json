@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-06T04:48:31.519Z",
+  "generatedAt": "2026-07-12T12:42:46.632Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -10,9 +10,9 @@
     "school": "살레시오고",
     "grade": "고2",
     "class": "토,일 6시",
-    "showMakeNote": true
+    "showMakeNote": false
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,

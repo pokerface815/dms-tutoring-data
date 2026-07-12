@@ -1213,5 +1213,33 @@
     "showNoteStages": false,
     "showMakeNote": true,
     "pageCode": "6rx8qu5mtmy7"
+  },
+  {
+    "id": "s_1783822161933_05uu7m",
+    "name": "김도윤",
+    "school": "고려고",
+    "grade": "고1",
+    "classes": [
+      "cls_1783735589810_tlwac7"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-2647-4345",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "wnz5zhutjnyt"
   }
 ]

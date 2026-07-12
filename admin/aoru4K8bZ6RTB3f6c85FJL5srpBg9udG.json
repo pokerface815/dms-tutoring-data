@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-12T12:52:47.451Z",
+  "generatedAt": "2026-07-12T12:53:57.071Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 47,
+  "studentCount": 46,
   "baseUrl": "",
   "students": [
     {
@@ -418,15 +418,6 @@
       "className": "토,일 11시",
       "studentPageCode": "wnz5zhutjnyt",
       "parentPageCode": "wnz5zhutjnyt"
-    },
-    {
-      "id": "s_1783860759938_uz9ij2",
-      "name": "문대승4",
-      "grade": "중1",
-      "school": "",
-      "className": "",
-      "studentPageCode": "7a5n3vw7a7n4",
-      "parentPageCode": "7a5n3vw7a7n4"
     }
   ]
 }

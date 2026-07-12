@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-11T08:52:19.552Z",
+  "generatedAt": "2026-07-12T12:42:42.464Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "창평고",
     "grade": "고3",
     "class": "",
-    "showMakeNote": true
+    "showMakeNote": false
   },
   "syncedEffortLogs": [
     {

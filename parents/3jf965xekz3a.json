@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T02:06:56.191Z",
+  "generatedAt": "2026-07-12T12:43:21.474Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,7 +11,7 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-09T14:41:10.167Z",
+    "uploadedAt": "2026-07-12T12:32:57.949Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 466,

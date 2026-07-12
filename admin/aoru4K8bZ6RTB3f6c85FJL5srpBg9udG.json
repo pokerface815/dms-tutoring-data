@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-12T02:09:41.126Z",
+  "generatedAt": "2026-07-12T06:51:13.857Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 47,
+  "studentCount": 46,
   "baseUrl": "",
   "students": [
     {
@@ -256,15 +256,6 @@
       "className": "월,수,금 중3 5시 수업, 박은준 개별",
       "studentPageCode": "3dqm5z9tex4t",
       "parentPageCode": "3dqm5z9tex4t"
-    },
-    {
-      "id": "s_1780728495466_3t0ug5",
-      "name": "백서현",
-      "grade": "고2",
-      "school": "숭일고",
-      "className": "토,일 2시",
-      "studentPageCode": "pnuj5d6majxc",
-      "parentPageCode": "pnuj5d6majxc"
     },
     {
       "id": "s_1780825523674_8dwstz",

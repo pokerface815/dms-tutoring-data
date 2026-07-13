@@ -612,11 +612,12 @@
     "id": "lesson_1783939483857_a32bxc",
     "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-11",
-    "content": "미적분1 수업 시작\n ~ 함수의 극한의 성질",
+    "content": "미적분1 수업 시작\n ~ 23쪽  함수의 극한의 성질",
     "studentNotes": [],
-    "taskBatchId": null,
+    "taskBatchId": "t_mrjlbauq",
     "createdAt": "2026-07-13T10:44:43.857Z",
-    "updatedAt": "2026-07-13T10:44:43.857Z"
+    "updatedAt": "2026-07-13T19:03:09.746Z",
+    "important": false
   },
   {
     "id": "lesson_1783939508472_vzka4c",

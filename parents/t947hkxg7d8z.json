@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T18:37:00.092Z",
+  "generatedAt": "2026-07-13T18:46:09.565Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -237,7 +237,7 @@
           "task": "1. 부교재 풀기\n2. 6월 모의고사 17, 19, 20, 27, 28 오답 해오기",
           "taskDue": "2026-06-06",
           "myNote": "",
-          "important": false,
+          "important": true,
           "extraAssignments": [],
           "hasLesson": true
         },

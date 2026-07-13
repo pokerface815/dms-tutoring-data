@@ -27,7 +27,7 @@
     "order": 7,
     "createdAt": "2026-06-01T10:33:39.938Z",
     "slot": 1,
-    "lessonSlot": 1
+    "lessonSlot": 7
   },
   {
     "id": "cls_1780310061018_vay6zf",
@@ -37,7 +37,7 @@
     "order": 8,
     "createdAt": "2026-06-01T10:34:21.018Z",
     "slot": 4,
-    "lessonSlot": 4
+    "lessonSlot": 10
   },
   {
     "id": "cls_1780310095581_j36rd5",
@@ -47,7 +47,7 @@
     "order": 9,
     "createdAt": "2026-06-01T10:34:55.581Z",
     "slot": 7,
-    "lessonSlot": 7
+    "lessonSlot": 13
   },
   {
     "id": "cls_1780310883451_eliu81",
@@ -93,20 +93,23 @@
     "name": "토,일 11시",
     "memo": "",
     "order": 14,
-    "createdAt": "2026-07-11T02:06:29.810Z"
+    "createdAt": "2026-07-11T02:06:29.810Z",
+    "lessonSlot": 1
   },
   {
     "id": "cls_1783741486590_iyer5b",
     "name": "토,일 12시 30분",
     "memo": "",
     "order": 15,
-    "createdAt": "2026-07-11T03:44:46.590Z"
+    "createdAt": "2026-07-11T03:44:46.590Z",
+    "lessonSlot": 4
   },
   {
     "id": "cls_1783936035043_cn165h",
     "name": "박은유 개별",
     "memo": "",
     "order": 16,
-    "createdAt": "2026-07-13T09:47:15.043Z"
+    "createdAt": "2026-07-13T09:47:15.043Z",
+    "lessonSlot": 14
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T09:47:48.182Z",
+  "generatedAt": "2026-07-13T15:45:58.842Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -12,9 +12,81 @@
     "class": "",
     "showMakeNote": false
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrj7i9f4oal",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 73~82쪽 음수의 제곱근, 이차방정식",
+      "reflection": "",
+      "seconds": 102,
+      "startedAt": 1783946085127,
+      "createdAt": "2026-07-13T12:36:39.856Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrj7pz11p6m",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 73~82쪽 음수의 제곱근, 이차방정식",
+      "reflection": "",
+      "seconds": 133,
+      "startedAt": 1783946490442,
+      "createdAt": "2026-07-13T12:42:39.637Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrj7vj1ufbg",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 62~68쪽 복소수의 뜻과 사칙연산",
+      "reflection": "",
+      "seconds": 985,
+      "startedAt": 1783946751494,
+      "createdAt": "2026-07-13T12:46:58.866Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "LoUhX_HhA3k": {
+        "sessionCount": 3,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "73~82쪽 음수의 제곱근, 이차방정식",
+        "durationSec": 3968,
+        "lastPosition": 71,
+        "lastWatchedAt": "2026-07-13T12:45:01.727Z",
+        "watchedSec": 260
+      },
+      "TSZXX0ck6Mw": {
+        "sessionCount": 4,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "62~68쪽 복소수의 뜻과 사칙연산",
+        "durationSec": 3864,
+        "lastPosition": 3751,
+        "lastWatchedAt": "2026-07-13T13:43:11.381Z",
+        "watchedSec": 1029
+      },
+      "Fndr8I_jCAk": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "160~167쪽 절댓값 기호를 포함한 일차부등식의 풀이 + 이차부등식",
+        "durationSec": 4455,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-13T12:34:35.960Z"
+      }
+    },
+    "daily": {
+      "2026-07-13": {
+        "LoUhX_HhA3k": 260,
+        "TSZXX0ck6Mw": 1029
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

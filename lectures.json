@@ -1213,13 +1213,13 @@
     "videos": [
       {
         "videoId": "A7CrbLfr5VY",
-        "title": "2",
+        "title": "8~12쪽 두 점 사이의 거리",
         "position": 0,
         "durationSec": 2912
       },
       {
         "videoId": "2auObqsjN-s",
-        "title": "22",
+        "title": "13~23쪽 선분의 내분점",
         "position": 1,
         "durationSec": 4456
       }
@@ -1230,8 +1230,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-07-13T05:26:10.934Z",
-    "lastSyncedAt": "2026-07-13T05:26:10.934Z"
+    "updatedAt": "2026-07-13T18:56:16.094Z",
+    "lastSyncedAt": "2026-07-13T18:56:16.094Z"
   },
   {
     "id": "lec_mrg80i3ervi",
@@ -1245,13 +1245,13 @@
     "videos": [
       {
         "videoId": "EL1XeqIzYKg",
-        "title": "1",
+        "title": "8~12쪽 두 점 사이의 거리",
         "position": 0,
         "durationSec": 3295
       },
       {
         "videoId": "7nbTNA-0qrk",
-        "title": "11",
+        "title": "13~21쪽 선분의 내분점",
         "position": 1,
         "durationSec": 3389
       }
@@ -1262,8 +1262,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-07-13T05:26:11.629Z",
-    "lastSyncedAt": "2026-07-13T05:26:11.629Z"
+    "updatedAt": "2026-07-13T18:56:18.871Z",
+    "lastSyncedAt": "2026-07-13T18:56:18.871Z"
   },
   {
     "id": "lec_mririwvdtb6",

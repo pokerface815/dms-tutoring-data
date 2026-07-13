@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T19:03:18.852Z",
+  "generatedAt": "2026-07-13T19:04:12.312Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -521,6 +521,14 @@
       "dueDate": "2026-07-13",
       "isRepeat": false,
       "assignedAt": "2026-07-13T19:03:09.746Z"
+    },
+    {
+      "assignmentId": "task_1783969444376_dhswue",
+      "round": 1,
+      "title": "교재 30쪽까지 풀어오기 (연습문제 포함)",
+      "dueDate": "2026-07-15",
+      "isRepeat": false,
+      "assignedAt": "2026-07-13T19:04:04.376Z"
     }
   ],
   "myGrades": [

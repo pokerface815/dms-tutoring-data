@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T19:04:13.547Z",
+  "generatedAt": "2026-07-13T19:04:57.877Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -23,9 +23,9 @@
           "important": false,
           "extraAssignments": [
             {
-              "title": "진도부분까지 문제 풀기(오답+채점)",
+              "title": "교재 23쪽까지 문제 풀기(오답+채점)",
               "dueDate": "2026-07-13",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": true
@@ -35,7 +35,7 @@
           "weekday": "토",
           "className": "조예나 개별",
           "content": "미적분1 수업 시작\n ~ 23쪽  함수의 극한의 성질",
-          "task": "진도부분까지 문제 풀기(오답+채점)",
+          "task": "교재 23쪽까지 문제 풀기(오답+채점)",
           "taskDue": "2026-07-13",
           "myNote": "",
           "important": false,
@@ -68,9 +68,9 @@
         }
       ],
       "completionRate": {
-        "done": 0,
+        "done": 1,
         "total": 1,
-        "percent": 0
+        "percent": 100
       },
       "noteStages": null
     },

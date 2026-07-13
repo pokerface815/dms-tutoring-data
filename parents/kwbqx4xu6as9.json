@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T05:09:47.559Z",
+  "generatedAt": "2026-07-13T10:45:15.437Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -12,6 +12,17 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-13",
+          "weekday": "월",
+          "className": "서준우 개별",
+          "content": "공수1 행렬 마무리.\nRPM 시작",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-10",
           "weekday": "금",

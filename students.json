@@ -220,7 +220,7 @@
     ],
     "studentPhone": "010-4894-3873",
     "parentPhone": "",
-    "notifyStudent": false,
+    "notifyStudent": true,
     "notifyParent": false,
     "pageCode": "tke85bjzms8e",
     "classes": [
@@ -229,7 +229,14 @@
     "showMakeNote": false,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showNoteStages": true,
+    "classHistory": [
+      {
+        "classId": "cls_1780310095581_j36rd5",
+        "from": "",
+        "to": null
+      }
+    ]
   },
   {
     "id": "s_1778404886523_0ag055",

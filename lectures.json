@@ -1252,5 +1252,31 @@
     "createdAt": "2026-07-11T10:27:32.378Z",
     "updatedAt": "2026-07-11T10:28:12.915Z",
     "lastSyncedAt": "2026-07-11T10:28:12.915Z"
+  },
+  {
+    "id": "lec_mririwvdtb6",
+    "title": "미적분1 개념 (26년 7월~ )",
+    "youtubePlaylistId": "PLT0Q0D7G5BoQ",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLT0Q0D7G5BoQ",
+    "subject": "미적분Ⅰ",
+    "textbook": "개념+유형",
+    "memo": "",
+    "thumbnailUrl": "https://i.ytimg.com/vi/-AeZPJJq6M0/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "-AeZPJJq6M0",
+        "title": "33",
+        "position": 0,
+        "durationSec": 3182
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-07-13T05:09:16.393Z",
+    "updatedAt": "2026-07-13T05:09:16.393Z",
+    "lastSyncedAt": "2026-07-13T05:09:16.393Z"
   }
 ]

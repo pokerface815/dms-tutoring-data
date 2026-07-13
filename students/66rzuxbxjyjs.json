@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-13T09:47:48.182Z",
+  "student": {
+    "id": "s_1783936051988_psto4h",
+    "classes": [
+      "cls_1783936035043_cn165h"
+    ],
+    "name": "박은유",
+    "school": "중앙중",
+    "grade": "중3",
+    "class": "",
+    "showMakeNote": false
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-07-13",
+    "endDate": "2026-07-19"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

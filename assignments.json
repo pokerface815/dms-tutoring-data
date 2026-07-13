@@ -2774,5 +2774,16 @@
     "batchId": "t_mrjlbauq",
     "repeat": null,
     "fromLesson": "lesson_1783939483857_a32bxc"
+  },
+  {
+    "id": "task_1783969444376_dhswue",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "교재 30쪽까지 풀어오기 (연습문제 포함)",
+    "dueDate": "2026-07-15",
+    "assignedAt": "2026-07-13T19:04:04.376Z",
+    "batchId": "t_mrjlch08",
+    "repeat": null,
+    "fromLesson": "lesson_1783967080336_xn6ltt"
   }
 ]

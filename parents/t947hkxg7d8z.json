@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T12:24:54.840Z",
+  "generatedAt": "2026-07-13T10:44:55.946Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,17 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-11",
+          "weekday": "토",
+          "className": "조예나 개별",
+          "content": "미적분1 수업 시작\n ~ 함수의 극한의 성질",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-08",
           "weekday": "수",

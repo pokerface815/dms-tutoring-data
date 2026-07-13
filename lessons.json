@@ -625,5 +625,15 @@
     "taskBatchId": null,
     "createdAt": "2026-07-13T10:45:08.472Z",
     "updatedAt": "2026-07-13T10:45:08.472Z"
+  },
+  {
+    "id": "lesson_1783939549834_wcsngd",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-07-13",
+    "content": "공수2 삼각형의 무게중심",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-13T10:45:49.834Z",
+    "updatedAt": "2026-07-13T10:45:49.834Z"
   }
 ]

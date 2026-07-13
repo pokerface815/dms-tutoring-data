@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T18:24:17.007Z",
+  "generatedAt": "2026-07-13T18:24:46.793Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,17 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-13",
+          "weekday": "월",
+          "className": "조예나 개별",
+          "content": "기말고사 재시험 문항 대비 복습\n함수의 극한(부정형)",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-11",
           "weekday": "토",

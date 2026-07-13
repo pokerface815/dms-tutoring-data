@@ -139,10 +139,17 @@
     "classes": [
       "cls_1780310883451_eliu81"
     ],
-    "showMakeNote": false,
+    "showMakeNote": true,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showNoteStages": true,
+    "classHistory": [
+      {
+        "classId": "cls_1780310883451_eliu81",
+        "from": "",
+        "to": null
+      }
+    ]
   },
   {
     "id": "s_1778325875686_1uoe4b",

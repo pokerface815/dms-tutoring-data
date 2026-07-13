@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T10:45:15.437Z",
+  "generatedAt": "2026-07-13T18:37:03.677Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -20,6 +20,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -31,6 +32,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -42,6 +44,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -53,6 +56,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         }
@@ -72,6 +76,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -83,6 +88,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -94,6 +100,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -105,6 +112,7 @@
           "task": "일품 4장 풀기",
           "taskDue": "2026-06-10",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -116,6 +124,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [
             {
               "title": "일품 91쪽까지",

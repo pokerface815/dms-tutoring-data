@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T18:24:46.793Z",
+  "generatedAt": "2026-07-13T18:37:00.092Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -20,6 +20,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -31,6 +32,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -42,6 +44,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": true,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -53,6 +56,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         }
@@ -72,6 +76,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -83,6 +88,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -94,6 +100,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [
             {
               "title": "부교재 예상문제 4회 풀기 + 2,3회 오답 복습",
@@ -111,6 +118,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -122,6 +130,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [
             {
               "title": "부교재 예상 문제 1회 오답 다시 풀어보기",
@@ -139,6 +148,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -150,6 +160,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "Sn이 포함된 귀납적 정의에서 주의 사항 체크.",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -178,6 +189,7 @@
           "task": "부교재 수학적 귀납법 유형완성하기 풀어오기",
           "taskDue": "2026-06-15",
           "myNote": "시그마 부분이 약하니, 추가 보충 필요함.",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -189,6 +201,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -200,6 +213,7 @@
           "task": "오답노트 2~3개(4차시에 해당하는) 풀어오기",
           "taskDue": "2026-06-10",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -211,6 +225,7 @@
           "task": "부교재 120쪽 42번까지 풀어오기",
           "taskDue": "2026-06-08",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -222,6 +237,7 @@
           "task": "1. 부교재 풀기\n2. 6월 모의고사 17, 19, 20, 27, 28 오답 해오기",
           "taskDue": "2026-06-06",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -233,6 +249,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         }

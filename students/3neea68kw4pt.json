@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T05:09:26.131Z",
+  "generatedAt": "2026-07-13T15:45:56.992Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -321,6 +321,25 @@
         "lastPosition": 0,
         "lastWatchedAt": "2026-07-11T05:20:41.589Z",
         "watchedSec": 0
+      },
+      "e1HzWUZt0c8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
+        "durationSec": 4174,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-13T10:51:03.797Z"
+      },
+      "bDNSxRCdNRY": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
+        "videoTitle": "30~34쪽 직선의 방정식",
+        "durationSec": 4548,
+        "lastPosition": 719,
+        "lastWatchedAt": "2026-07-13T10:52:52.479Z",
+        "watchedSec": 2
       }
     },
     "daily": {
@@ -343,6 +362,9 @@
       },
       "2026-07-10": {
         "FNL671dXsGI": 158
+      },
+      "2026-07-13": {
+        "bDNSxRCdNRY": 2
       }
     }
   },

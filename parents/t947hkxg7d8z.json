@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T19:04:57.877Z",
+  "generatedAt": "2026-07-13T19:17:09.248Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -21,13 +21,7 @@
           "taskDue": "2026-07-15",
           "myNote": "",
           "important": false,
-          "extraAssignments": [
-            {
-              "title": "교재 23쪽까지 문제 풀기(오답+채점)",
-              "dueDate": "2026-07-13",
-              "isConfirmed": true
-            }
-          ],
+          "extraAssignments": [],
           "hasLesson": true
         },
         {
@@ -173,23 +167,6 @@
           "important": false,
           "extraAssignments": [],
           "hasLesson": true
-        },
-        {
-          "date": "2026-06-14",
-          "weekday": "일",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "부교재 수학적 귀납법 유형완성하기 풀어오기",
-              "dueDate": "2026-06-15",
-              "isConfirmed": true
-            }
-          ],
-          "hasLesson": false
         },
         {
           "date": "2026-06-13",

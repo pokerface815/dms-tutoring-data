@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T18:46:09.565Z",
+  "generatedAt": "2026-07-13T19:03:19.989Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -21,16 +21,22 @@
           "taskDue": "",
           "myNote": "",
           "important": false,
-          "extraAssignments": [],
+          "extraAssignments": [
+            {
+              "title": "진도부분까지 문제 풀기(오답+채점)",
+              "dueDate": "2026-07-13",
+              "isConfirmed": false
+            }
+          ],
           "hasLesson": true
         },
         {
           "date": "2026-07-11",
           "weekday": "토",
           "className": "조예나 개별",
-          "content": "미적분1 수업 시작\n ~ 함수의 극한의 성질",
-          "task": "",
-          "taskDue": "",
+          "content": "미적분1 수업 시작\n ~ 23쪽  함수의 극한의 성질",
+          "task": "진도부분까지 문제 풀기(오답+채점)",
+          "taskDue": "2026-07-13",
           "myNote": "",
           "important": false,
           "extraAssignments": [],
@@ -61,7 +67,11 @@
           "hasLesson": true
         }
       ],
-      "completionRate": null,
+      "completionRate": {
+        "done": 0,
+        "total": 1,
+        "percent": 0
+      },
       "noteStages": null
     },
     {

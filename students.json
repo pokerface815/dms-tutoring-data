@@ -733,7 +733,20 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "showMakeNote": false,
-    "pageCode": "3dqm5z9tex4t"
+    "pageCode": "3dqm5z9tex4t",
+    "showNoteStages": false,
+    "classHistory": [
+      {
+        "classId": "cls_1780311125071_i1638e",
+        "from": "",
+        "to": null
+      },
+      {
+        "classId": "cls_1780910683163_gtovnl",
+        "from": "",
+        "to": null
+      }
+    ]
   },
   {
     "id": "s_1780825523674_8dwstz",

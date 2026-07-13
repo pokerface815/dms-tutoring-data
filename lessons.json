@@ -645,5 +645,15 @@
     "taskBatchId": null,
     "createdAt": "2026-07-13T10:46:25.233Z",
     "updatedAt": "2026-07-13T10:46:25.233Z"
+  },
+  {
+    "id": "lesson_1783967080336_xn6ltt",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-13",
+    "content": "기말고사 재시험 문항 대비 복습\n함수의 극한(부정형)",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-13T18:24:40.336Z",
+    "updatedAt": "2026-07-13T18:24:40.336Z"
   }
 ]

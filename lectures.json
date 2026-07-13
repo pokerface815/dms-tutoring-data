@@ -112,8 +112,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-22T06:42:13.411Z",
-    "updatedAt": "2026-07-13T05:12:17.056Z",
-    "lastSyncedAt": "2026-07-13T05:12:17.056Z"
+    "updatedAt": "2026-07-13T05:26:03.657Z",
+    "lastSyncedAt": "2026-07-13T05:26:03.657Z"
   },
   {
     "id": "lec_mqoum7ssed7",
@@ -216,8 +216,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-22T06:42:44.092Z",
-    "updatedAt": "2026-07-13T05:12:19.342Z",
-    "lastSyncedAt": "2026-07-13T05:12:19.342Z"
+    "updatedAt": "2026-07-13T05:26:04.458Z",
+    "lastSyncedAt": "2026-07-13T05:26:04.458Z"
   },
   {
     "id": "lec_mqkr9zowwph",
@@ -439,8 +439,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-19T09:58:10.160Z",
-    "updatedAt": "2026-07-13T05:12:23.085Z",
-    "lastSyncedAt": "2026-07-13T05:12:23.085Z",
+    "updatedAt": "2026-07-13T05:26:05.317Z",
+    "lastSyncedAt": "2026-07-13T05:26:05.317Z",
     "textbook": "개념+유형",
     "memo": ""
   },
@@ -557,8 +557,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-22T06:40:29.663Z",
-    "updatedAt": "2026-07-13T05:12:02.347Z",
-    "lastSyncedAt": "2026-07-13T05:12:02.347Z"
+    "updatedAt": "2026-07-13T05:26:06.116Z",
+    "lastSyncedAt": "2026-07-13T05:26:06.116Z"
   },
   {
     "id": "lec_mqks8brpdcl",
@@ -719,8 +719,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-19T10:24:52.117Z",
-    "updatedAt": "2026-06-20T06:31:01.868Z",
-    "lastSyncedAt": "2026-06-19T10:24:52.117Z",
+    "updatedAt": "2026-07-13T05:26:06.988Z",
+    "lastSyncedAt": "2026-07-13T05:26:06.988Z",
     "textbook": "개념+유형",
     "memo": ""
   },
@@ -855,8 +855,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-22T06:38:06.678Z",
-    "updatedAt": "2026-06-22T06:38:06.678Z",
-    "lastSyncedAt": "2026-06-22T06:38:06.678Z"
+    "updatedAt": "2026-07-13T05:26:07.903Z",
+    "lastSyncedAt": "2026-07-13T05:26:07.903Z"
   },
   {
     "id": "lec_mqouhsb3oa7",
@@ -977,8 +977,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-22T06:39:17.391Z",
-    "updatedAt": "2026-06-22T06:39:17.391Z",
-    "lastSyncedAt": "2026-06-22T06:39:17.391Z"
+    "updatedAt": "2026-07-13T05:26:08.678Z",
+    "lastSyncedAt": "2026-07-13T05:26:08.678Z"
   },
   {
     "id": "lec_mqkscmibfht",
@@ -1091,8 +1091,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-19T10:28:12.659Z",
-    "updatedAt": "2026-06-20T06:30:59.752Z",
-    "lastSyncedAt": "2026-06-19T10:28:12.659Z",
+    "updatedAt": "2026-07-13T05:26:09.472Z",
+    "lastSyncedAt": "2026-07-13T05:26:09.472Z",
     "textbook": "개념+유형",
     "memo": ""
   },
@@ -1196,8 +1196,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-19T10:28:36.728Z",
-    "updatedAt": "2026-06-21T18:28:35.634Z",
-    "lastSyncedAt": "2026-06-20T07:15:24.988Z",
+    "updatedAt": "2026-07-13T05:26:10.261Z",
+    "lastSyncedAt": "2026-07-13T05:26:10.261Z",
     "textbook": "개념+유형",
     "memo": ""
   },
@@ -1230,8 +1230,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-07-13T05:12:05.604Z",
-    "lastSyncedAt": "2026-07-13T05:12:05.604Z"
+    "updatedAt": "2026-07-13T05:26:10.934Z",
+    "lastSyncedAt": "2026-07-13T05:26:10.934Z"
   },
   {
     "id": "lec_mrg80i3ervi",
@@ -1262,12 +1262,12 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-07-13T05:12:09.779Z",
-    "lastSyncedAt": "2026-07-13T05:12:09.779Z"
+    "updatedAt": "2026-07-13T05:26:11.629Z",
+    "lastSyncedAt": "2026-07-13T05:26:11.629Z"
   },
   {
     "id": "lec_mririwvdtb6",
-    "title": "미적분1 개념 (26년 7월~ )",
+    "title": "미적분1 개념 (26년 7월 ~ )",
     "youtubePlaylistId": "PLT0Q0D7G5BoQ",
     "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLT0Q0D7G5BoQ",
     "subject": "미적분Ⅰ",
@@ -1288,7 +1288,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-07-13T05:09:16.393Z",
-    "lastSyncedAt": "2026-07-13T05:09:16.393Z"
+    "updatedAt": "2026-07-13T05:26:12.273Z",
+    "lastSyncedAt": "2026-07-13T05:26:12.273Z"
   }
 ]

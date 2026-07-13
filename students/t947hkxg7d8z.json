@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T19:04:12.312Z",
+  "generatedAt": "2026-07-13T19:04:56.750Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -463,6 +463,10 @@
       "commentAt": "2026-06-26T10:06:07.996Z",
       "confirmed": true,
       "confirmedAt": "2026-06-26T10:06:07.996Z"
+    },
+    "task_1783969389746_89m60n__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-07-13T19:04:17.613Z"
     }
   },
   "tasks": [
@@ -517,7 +521,7 @@
     {
       "assignmentId": "task_1783969389746_89m60n",
       "round": 1,
-      "title": "진도부분까지 문제 풀기(오답+채점)",
+      "title": "교재 23쪽까지 문제 풀기(오답+채점)",
       "dueDate": "2026-07-13",
       "isRepeat": false,
       "assignedAt": "2026-07-13T19:03:09.746Z"

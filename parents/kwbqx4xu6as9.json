@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-12T02:09:34.276Z",
+  "generatedAt": "2026-07-13T05:09:47.559Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -180,9 +180,9 @@
     "uploadedAt": "2026-07-11T01:06:50.248Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 3507,
+      "weekSec": 0,
       "monthSec": 3507,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "공통수학1": 3439,
         "미적분Ⅰ": 68

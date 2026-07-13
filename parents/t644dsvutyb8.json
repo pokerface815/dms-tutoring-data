@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T09:38:30.787Z",
+  "generatedAt": "2026-07-13T18:37:21.697Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -20,6 +20,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -31,6 +32,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -42,6 +44,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -53,6 +56,7 @@
           "task": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
           "taskDue": "2026-06-10",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -64,6 +68,7 @@
           "task": "프린트 101쪽까지 마무리 해오기",
           "taskDue": "2026-06-05",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         }

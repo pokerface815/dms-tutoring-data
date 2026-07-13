@@ -615,5 +615,15 @@
     "taskBatchId": null,
     "createdAt": "2026-07-13T10:44:43.857Z",
     "updatedAt": "2026-07-13T10:44:43.857Z"
+  },
+  {
+    "id": "lesson_1783939508472_vzka4c",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-07-13",
+    "content": "공수1 행렬 마무리.\nRPM 시작",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-13T10:45:08.472Z",
+    "updatedAt": "2026-07-13T10:45:08.472Z"
   }
 ]

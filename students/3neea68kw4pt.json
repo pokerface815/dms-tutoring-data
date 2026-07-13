@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T15:45:56.992Z",
+  "generatedAt": "2026-07-13T18:36:57.929Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -329,7 +329,8 @@
         "videoTitle": "122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
         "durationSec": 4174,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-13T10:51:03.797Z"
+        "lastWatchedAt": "2026-07-13T10:51:03.797Z",
+        "watchedSec": 0
       },
       "bDNSxRCdNRY": {
         "sessionCount": 1,
@@ -338,7 +339,7 @@
         "videoTitle": "30~34쪽 직선의 방정식",
         "durationSec": 4548,
         "lastPosition": 719,
-        "lastWatchedAt": "2026-07-13T10:52:52.479Z",
+        "lastWatchedAt": "2026-07-13T10:54:04.090Z",
         "watchedSec": 2
       }
     },

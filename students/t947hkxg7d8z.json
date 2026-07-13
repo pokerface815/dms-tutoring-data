@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T18:42:46.764Z",
+  "generatedAt": "2026-07-13T19:03:18.852Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -513,6 +513,14 @@
       "dueDate": "2026-06-27",
       "isRepeat": false,
       "assignedAt": "2026-06-24T14:35:09.953Z"
+    },
+    {
+      "assignmentId": "task_1783969389746_89m60n",
+      "round": 1,
+      "title": "진도부분까지 문제 풀기(오답+채점)",
+      "dueDate": "2026-07-13",
+      "isRepeat": false,
+      "assignedAt": "2026-07-13T19:03:09.746Z"
     }
   ],
   "myGrades": [

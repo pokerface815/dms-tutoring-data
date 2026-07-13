@@ -1224,5 +1224,40 @@
     "showNoteStages": true,
     "showMakeNote": false,
     "pageCode": "wnz5zhutjnyt"
+  },
+  {
+    "id": "s_1783936051988_psto4h",
+    "name": "박은유",
+    "school": "중앙중",
+    "grade": "중3",
+    "classes": [
+      "cls_1783936035043_cn165h"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-7406-9692",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": false,
+    "pageCode": "66rzuxbxjyjs",
+    "classHistory": [
+      {
+        "classId": "cls_1783936035043_cn165h",
+        "from": "2026-07-13",
+        "to": null
+      }
+    ]
   }
 ]

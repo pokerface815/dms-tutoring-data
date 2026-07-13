@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T09:47:40.852Z",
+  "generatedAt": "2026-07-13T15:46:03.123Z",
   "studentCount": 47,
   "rankings": [
     {
@@ -149,10 +149,10 @@
     },
     {
       "id": "s_1780309359751_gjl2s0",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "totalSec": 135,
+      "weekSec": 135,
+      "monthSec": 135,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -419,10 +419,10 @@
     },
     {
       "id": "s_1783936051988_psto4h",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "totalSec": 1220,
+      "weekSec": 1220,
+      "monthSec": 1220,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     }

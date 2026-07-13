@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T15:46:03.123Z",
+  "generatedAt": "2026-07-13T18:37:07.216Z",
   "studentCount": 47,
   "rankings": [
     {
@@ -144,8 +144,8 @@
       "weekSec": 0,
       "monthSec": 23051,
       "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "문대승",
+      "publicNickname": true
     },
     {
       "id": "s_1780309359751_gjl2s0",

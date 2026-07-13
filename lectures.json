@@ -446,7 +446,7 @@
   },
   {
     "id": "lec_mqoujc2nsde",
-    "title": "공통수학2 개념+유형",
+    "title": "공통수학2 개념+유형 (26년 1, 2월)",
     "youtubePlaylistId": "PLoYw3JZAX7F2jzdmTy2mclsGYJZzztTy-",
     "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F2jzdmTy2mclsGYJZzztTy-",
     "subject": "공통수학2",
@@ -557,8 +557,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-22T06:40:29.663Z",
-    "updatedAt": "2026-06-22T06:40:29.663Z",
-    "lastSyncedAt": "2026-06-22T06:40:29.663Z"
+    "updatedAt": "2026-07-13T05:12:02.347Z",
+    "lastSyncedAt": "2026-07-13T05:12:02.347Z"
   },
   {
     "id": "lec_mqks8brpdcl",
@@ -1203,7 +1203,7 @@
   },
   {
     "id": "lec_mrg7ztilap8",
-    "title": "12시 30분 공통수학2",
+    "title": "12시 30분 공통수학2 (26년 7월 ~ )",
     "youtubePlaylistId": "PLAL0DCgV4bcY",
     "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLAL0DCgV4bcY",
     "subject": "공통수학2",
@@ -1216,6 +1216,12 @@
         "title": "2",
         "position": 0,
         "durationSec": 2912
+      },
+      {
+        "videoId": "2auObqsjN-s",
+        "title": "22",
+        "position": 1,
+        "durationSec": 4456
       }
     ],
     "permissions": {
@@ -1224,12 +1230,12 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-07-11T10:28:07.221Z",
-    "lastSyncedAt": "2026-07-11T10:28:07.221Z"
+    "updatedAt": "2026-07-13T05:12:05.604Z",
+    "lastSyncedAt": "2026-07-13T05:12:05.604Z"
   },
   {
     "id": "lec_mrg80i3ervi",
-    "title": "11시 공통수학2",
+    "title": "11시 공통수학2 (26년 7월 ~ )",
     "youtubePlaylistId": "PLPteQnqlQ7-0",
     "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLPteQnqlQ7-0",
     "subject": "공통수학2",
@@ -1242,6 +1248,12 @@
         "title": "1",
         "position": 0,
         "durationSec": 3295
+      },
+      {
+        "videoId": "7nbTNA-0qrk",
+        "title": "11",
+        "position": 1,
+        "durationSec": 3389
       }
     ],
     "permissions": {
@@ -1250,8 +1262,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-07-11T10:28:12.915Z",
-    "lastSyncedAt": "2026-07-11T10:28:12.915Z"
+    "updatedAt": "2026-07-13T05:12:09.779Z",
+    "lastSyncedAt": "2026-07-13T05:12:09.779Z"
   },
   {
     "id": "lec_mririwvdtb6",

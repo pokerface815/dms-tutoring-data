@@ -2763,5 +2763,16 @@
     "assignedAt": "2026-06-30T02:38:40.020Z",
     "batchId": "t_mr01f5p0",
     "repeat": null
+  },
+  {
+    "id": "task_1783969389746_89m60n",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "진도부분까지 문제 풀기(오답+채점)",
+    "dueDate": "2026-07-13",
+    "assignedAt": "2026-07-13T19:03:09.746Z",
+    "batchId": "t_mrjlbauq",
+    "repeat": null,
+    "fromLesson": "lesson_1783939483857_a32bxc"
   }
 ]

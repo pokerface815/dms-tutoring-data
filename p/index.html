@@ -1171,9 +1171,10 @@
     const wd = l.weekday ? ` (${l.weekday})` : '';
     const hasLesson = l.hasLesson !== false && (l.content || l.task || l.myNote);
 
+    const importantBadge = l.important ? `<span style="margin-left:6px; color:#f5a623; font-weight:700; font-size:12px;">★ 중요</span>` : '';
     let html = `
       <div class="lesson-item${!hasLesson ? ' lesson-item-asgn-only' : ''}">
-        <div class="lesson-date">${mmdd}${wd}${l.className ? `<span class="lesson-class">${escapeHtml(l.className)}</span>` : ''}</div>
+        <div class="lesson-date">${mmdd}${wd}${l.className ? `<span class="lesson-class">${escapeHtml(l.className)}</span>` : ''}${importantBadge}</div>
     `;
     // 수업 내용 (있을 때만)
     if (l.content) {
@@ -1269,6 +1270,13 @@
       if (hasEvent) classes.push('has-event');
 
       let cellInner = `${d}`;
+      let cellStyle = '';
+      // 중요 표시된 수업일지가 있는 날 → 별(★) 강조
+      if (lesson && lesson.important) {
+        classes.push('has-important');
+        cellStyle = ' style="position:relative;"';
+        cellInner += `<span title="중요 수업" style="position:absolute; top:0; right:2px; color:#f5a623; font-size:11px; line-height:1; text-shadow:0 0 1px rgba(0,0,0,0.2);">★</span>`;
+      }
       let dotsHtml = '';
       if (hasClosed) dotsHtml += `<span class="cal-dot dot-closed"></span>`;
       if (hasEvent) dotsHtml += `<span class="cal-dot dot-event"></span>`;
@@ -1279,7 +1287,7 @@
         onclick = `onclick="showMonthLesson(${monthIdx}, '${dateStr}')"`;
       }
 
-      row += `<div class="${classes.join(' ')}" data-date="${dateStr}" ${onclick}>${cellInner}</div>`;
+      row += `<div class="${classes.join(' ')}"${cellStyle} data-date="${dateStr}" ${onclick}>${cellInner}</div>`;
       weekday++;
       if (weekday === 7 && d < daysInMonth) {
         row += `</div>`;
@@ -1329,9 +1337,17 @@
   window.showMonthLesson = function(monthIdx, dateStr) {
     const m = (parentData && Array.isArray(parentData.months)) ? parentData.months[monthIdx] : null;
     if (!m) return;
-    const lesson = (m.lessons || []).find(l => l.date === dateStr);
     const container = document.getElementById('lesson-detail-' + monthIdx);
     if (!container) return;
+    const cal0 = document.getElementById('lesson-cal-' + monthIdx);
+    // 같은 날짜를 다시 클릭하면 닫기 (토글)
+    if (container.dataset.shownDate === dateStr) {
+      container.innerHTML = '';
+      container.dataset.shownDate = '';
+      if (cal0) cal0.querySelectorAll('.lesson-cal-day.selected').forEach(d => d.classList.remove('selected'));
+      return;
+    }
+    const lesson = (m.lessons || []).find(l => l.date === dateStr);
 
     // 그날에 해당하는 학원 일정 (시작~종료 범위 포함)
     const academyEvents = (parentData && Array.isArray(parentData.academyEvents)) ? parentData.academyEvents : [];
@@ -1346,6 +1362,7 @@
     if (lesson) html += renderLesson(lesson);
     if (!html) html = `<div style="text-align:center; padding:14px; color:var(--text3); font-size:13px;">선택한 날짜에 내용이 없습니다.</div>`;
     container.innerHTML = html;
+    container.dataset.shownDate = dateStr;
 
     // 선택된 날짜 하이라이트
     const cal = document.getElementById('lesson-cal-' + monthIdx);

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T09:38:35.239Z",
+  "generatedAt": "2026-07-13T18:37:27.125Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -20,6 +20,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -31,6 +32,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -42,6 +44,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -53,6 +56,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -64,6 +68,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "유석 담당",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         },
@@ -75,6 +80,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         }

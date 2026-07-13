@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T10:46:31.629Z",
+  "generatedAt": "2026-07-13T18:37:30.792Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -20,6 +20,7 @@
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [],
           "hasLesson": true
         }

@@ -604,7 +604,8 @@
     "studentNotes": [],
     "taskBatchId": null,
     "createdAt": "2026-07-08T12:17:10.551Z",
-    "updatedAt": "2026-07-13T18:24:10.008Z"
+    "updatedAt": "2026-07-13T18:36:52.785Z",
+    "important": true
   },
   {
     "id": "lesson_1783939483857_a32bxc",

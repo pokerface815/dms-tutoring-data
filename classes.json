@@ -26,7 +26,7 @@
     "showInParent": true,
     "order": 7,
     "createdAt": "2026-06-01T10:33:39.938Z",
-    "slot": 1,
+    "slot": 7,
     "lessonSlot": 7
   },
   {
@@ -36,7 +36,7 @@
     "showInParent": true,
     "order": 8,
     "createdAt": "2026-06-01T10:34:21.018Z",
-    "slot": 4,
+    "slot": 10,
     "lessonSlot": 10
   },
   {
@@ -46,7 +46,7 @@
     "showInParent": true,
     "order": 9,
     "createdAt": "2026-06-01T10:34:55.581Z",
-    "slot": 7,
+    "slot": 13,
     "lessonSlot": 13
   },
   {
@@ -94,7 +94,8 @@
     "memo": "",
     "order": 14,
     "createdAt": "2026-07-11T02:06:29.810Z",
-    "lessonSlot": 1
+    "lessonSlot": 1,
+    "slot": 1
   },
   {
     "id": "cls_1783741486590_iyer5b",
@@ -102,7 +103,8 @@
     "memo": "",
     "order": 15,
     "createdAt": "2026-07-11T03:44:46.590Z",
-    "lessonSlot": 4
+    "lessonSlot": 4,
+    "slot": 4
   },
   {
     "id": "cls_1783936035043_cn165h",
@@ -110,6 +112,7 @@
     "memo": "",
     "order": 16,
     "createdAt": "2026-07-13T09:47:15.043Z",
-    "lessonSlot": 14
+    "lessonSlot": 14,
+    "slot": 14
   }
 ]

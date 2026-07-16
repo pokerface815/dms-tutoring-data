@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-14T02:19:49.635Z",
+  "generatedAt": "2026-07-16T01:48:05.102Z",
   "student": {
     "id": "s_1783145087770_b6wsph",
     "classes": [
@@ -23,7 +23,8 @@
         "videoTitle": "8~14쪽 함수의 수렴과 발산, 우극한과 좌극한",
         "durationSec": 3182,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-14T00:09:36.400Z"
+        "lastWatchedAt": "2026-07-14T00:09:36.400Z",
+        "watchedSec": 0
       }
     },
     "daily": {}

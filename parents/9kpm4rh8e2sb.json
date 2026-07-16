@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T15:46:01.505Z",
+  "generatedAt": "2026-07-16T01:47:58.050Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -63,17 +63,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-13T11:50:15.035Z",
+    "uploadedAt": "2026-07-14T12:42:18.010Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 180,
+      "weekSec": 4216,
+      "monthSec": 4396,
       "streak": 0,
       "bySubjectMonth": {
-        "미적분Ⅰ": 180
+        "미적분Ⅰ": 4396
       }
     },
     "logs": [
+      {
+        "id": "effort_mrkn59halqw",
+        "startedAt": 1784032848699,
+        "seconds": 75,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrkkz4wi4cv",
+        "startedAt": 1784029190682,
+        "seconds": 4141,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "reflection": ""
+      },
       {
         "id": "effort_mralwoac381",
         "startedAt": 1783426006842,

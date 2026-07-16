@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T18:37:11.044Z",
+  "generatedAt": "2026-07-16T01:47:49.685Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -149,7 +149,39 @@
       "comment": "가우스 기호에 대한 기본 개념 추가 설명."
     }
   ],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-07-13T09:13:24.618Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 135,
+      "monthSec": 135,
+      "streak": 0,
+      "bySubjectMonth": {
+        "공통수학2": 135
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mriwh5ozmcp",
+        "startedAt": 1783927526664,
+        "seconds": 75,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형 (26년 1, 2월) — 30~34쪽 직선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mriwavrb68w",
+        "startedAt": 1783927178704,
+        "seconds": 60,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형 (26년 1, 2월) — 30~34쪽 직선의 방정식",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

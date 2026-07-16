@@ -659,5 +659,16 @@
     "createdAt": "2026-07-13T18:24:40.336Z",
     "updatedAt": "2026-07-13T19:17:02.108Z",
     "important": false
+  },
+  {
+    "id": "lesson_1784166614960_b3betk",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-15",
+    "content": "~35쪽 연습문제 풀이\n함수의 극한의 응용(미정계수의 결정, 함수의 극한의 대소 관계)",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-07-16T01:50:14.960Z",
+    "updatedAt": "2026-07-16T01:50:14.960Z"
   }
 ]

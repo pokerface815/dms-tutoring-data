@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T05:10:39.449Z",
+  "generatedAt": "2026-07-16T11:25:10.324Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -12,7 +12,7 @@
     "class": "토,일 6시",
     "showMakeNote": false
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
@@ -382,5 +382,74 @@
       "assignedAt": "2026-06-21T11:03:18.855Z"
     }
   ],
-  "myGrades": []
+  "myGrades": [
+    {
+      "id": "grade_mrnf9mca8th",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "중간",
+      "score": 96,
+      "grade": 1,
+      "rank": 3,
+      "totalStudents": 199,
+      "percent": 1.5,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-16T09:33:46.736Z",
+      "createdAt": "2026-07-16T11:24:58.330Z"
+    },
+    {
+      "id": "grade_mrnf9mcab23",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "기말",
+      "score": 81,
+      "grade": 1,
+      "rank": 16,
+      "totalStudents": 199,
+      "percent": 8,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-16T09:33:46.736Z",
+      "createdAt": "2026-07-16T11:24:58.330Z"
+    },
+    {
+      "id": "grade_mrnf9mcafz0",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "확률과 통계",
+      "examKind": "중간",
+      "score": 72,
+      "grade": 1,
+      "rank": 17,
+      "totalStudents": 199,
+      "percent": 8.5,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-16T09:33:46.736Z",
+      "createdAt": "2026-07-16T11:24:58.330Z"
+    },
+    {
+      "id": "grade_mrnf9mca7k2",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "확률과 통계",
+      "examKind": "기말",
+      "score": 82,
+      "grade": 1,
+      "rank": 11,
+      "totalStudents": 199,
+      "percent": 5.5,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-16T09:33:46.736Z",
+      "createdAt": "2026-07-16T11:24:58.330Z"
+    }
+  ]
 }

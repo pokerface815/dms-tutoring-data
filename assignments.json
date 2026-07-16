@@ -2785,5 +2785,16 @@
     "batchId": "t_mrjlch08",
     "repeat": null,
     "fromLesson": "lesson_1783967080336_xn6ltt"
+  },
+  {
+    "id": "task_1784166651614_xz4uow",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "교재 38쪽까지 풀어오기\n추가 프린트 풀어오기",
+    "dueDate": "2026-07-18",
+    "assignedAt": "2026-07-16T01:50:51.614Z",
+    "batchId": "t_mrmurb32",
+    "repeat": null,
+    "fromLesson": "lesson_1784166614960_b3betk"
   }
 ]

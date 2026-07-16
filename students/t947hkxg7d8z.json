@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-16T01:48:03.542Z",
+  "generatedAt": "2026-07-16T01:51:00.495Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -537,6 +537,14 @@
       "dueDate": "2026-07-15",
       "isRepeat": false,
       "assignedAt": "2026-07-13T19:04:04.376Z"
+    },
+    {
+      "assignmentId": "task_1784166651614_xz4uow",
+      "round": 1,
+      "title": "교재 38쪽까지 풀어오기\n추가 프린트 풀어오기",
+      "dueDate": "2026-07-18",
+      "isRepeat": false,
+      "assignedAt": "2026-07-16T01:50:51.614Z"
     }
   ],
   "myGrades": [

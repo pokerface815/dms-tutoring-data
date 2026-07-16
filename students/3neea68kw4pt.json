@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T18:36:57.929Z",
+  "generatedAt": "2026-07-16T01:47:56.501Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -204,15 +204,40 @@
       "createdAt": "2026-07-09T12:28:42.688Z"
     },
     {
-      "id": "effort_mreyzaxip5k",
+      "id": "effort_mrk3fwkih3j",
+      "startedAt": 1783995298440,
+      "endedAt": 1783999837602,
+      "seconds": 4524,
       "subject": "대수",
-      "method": "강의 시청",
-      "content": "대수 개념+유형 (26년 1월 ~ )_완강 — 8~12쪽 거듭제곱과 거듭제곱근",
+      "method": "문제 풀이",
+      "content": "찬영 학교 프린트",
       "reflection": "",
-      "seconds": 158,
-      "startedAt": 1783689948630,
-      "createdAt": "2026-07-10T13:26:53.718Z",
-      "autoRecorded": true
+      "sharedWithParent": false,
+      "createdAt": "2026-07-14T03:30:37.602Z"
+    },
+    {
+      "id": "effort_mrkdygdldhi",
+      "startedAt": 1784012334022,
+      "endedAt": 1784017499241,
+      "seconds": 5159,
+      "subject": "대수",
+      "method": "문제 풀이",
+      "content": "정찬영",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-14T08:24:59.241Z"
+    },
+    {
+      "id": "effort_mrksee1ckxy",
+      "startedAt": 1784037608085,
+      "endedAt": 1784041757325,
+      "seconds": 3946,
+      "subject": "미적분Ⅰ",
+      "method": "문제 풀이",
+      "content": "쎈B",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-14T15:09:17.328Z"
     }
   ],
   "syncedEffortDeletedIds": [
@@ -238,7 +263,9 @@
     "effort_mqxra3ob30h",
     "effort_mqxp2dqjbiy",
     "effort_mqxox7q667f",
-    "effort_mram9zoql75"
+    "effort_mram9zoql75",
+    "effort_mrjzry0fwxj",
+    "effort_mreyzaxip5k"
   ],
   "syncedLectureWatch": {
     "videos": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-16T01:48:05.102Z",
+  "generatedAt": "2026-07-16T11:25:05.679Z",
   "student": {
     "id": "s_1783145087770_b6wsph",
     "classes": [
@@ -17,13 +17,13 @@
   "syncedLectureWatch": {
     "videos": {
       "-AeZPJJq6M0": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "미적분1 개념 (26년 7월 ~ )",
         "videoTitle": "8~14쪽 함수의 수렴과 발산, 우극한과 좌극한",
         "durationSec": 3182,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-14T00:09:36.400Z",
+        "lastWatchedAt": "2026-07-16T07:55:23.085Z",
         "watchedSec": 0
       }
     },

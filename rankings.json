@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-16T01:48:08.166Z",
+  "generatedAt": "2026-07-16T11:25:09.033Z",
   "studentCount": 47,
   "rankings": [
     {
@@ -77,10 +77,10 @@
     },
     {
       "id": "s_1778404886523_0ag055",
-      "totalSec": 4396,
-      "weekSec": 4216,
-      "monthSec": 4396,
-      "streak": 0,
+      "totalSec": 9508,
+      "weekSec": 9328,
+      "monthSec": 9508,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -410,10 +410,10 @@
     },
     {
       "id": "s_1783822161933_05uu7m",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "totalSec": 81,
+      "weekSec": 81,
+      "monthSec": 81,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

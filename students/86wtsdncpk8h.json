@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T05:10:05.097Z",
+  "generatedAt": "2026-07-17T10:09:13.901Z",
   "student": {
     "id": "s_1777547014208_7l30nn",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "경신여고",
     "grade": "고2",
     "class": "토,일 6시",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {

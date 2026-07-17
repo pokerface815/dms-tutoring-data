@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-16T01:48:11.433Z",
+  "generatedAt": "2026-07-17T10:09:47.485Z",
   "student": {
     "id": "s_1783141077746_ni5332",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "전사고",
     "grade": "고2",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {

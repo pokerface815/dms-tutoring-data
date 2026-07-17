@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-16T11:25:10.324Z",
+  "generatedAt": "2026-07-17T10:09:11.785Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "중앙여고",
     "grade": "고2",
     "class": "토,일 6시",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [],
   "syncedEffortDeletedIds": null,

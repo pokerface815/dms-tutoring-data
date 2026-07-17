@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T05:10:10.673Z",
+  "generatedAt": "2026-07-17T10:09:41.344Z",
   "student": {
     "id": "s_1780825552050_3a3ma5",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "살레시오고",
     "grade": "고2",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {

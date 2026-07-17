@@ -872,7 +872,14 @@
     "showTestResults": true,
     "showMakeNote": true,
     "pageCode": "zm39mvjpdvgu",
-    "showNoteStages": true
+    "showNoteStages": true,
+    "classHistory": [
+      {
+        "classId": "cls_1780310019938_5xpe6o",
+        "from": "",
+        "to": null
+      }
+    ]
   },
   {
     "id": "s_1782144542719_3gm3op",

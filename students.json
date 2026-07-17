@@ -388,7 +388,14 @@
     "showMakeNote": true,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showNoteStages": true,
+    "classHistory": [
+      {
+        "classId": "cls_1780310019938_5xpe6o",
+        "from": "",
+        "to": null
+      }
+    ]
   },
   {
     "id": "s_1779005266373_7iq1b8",

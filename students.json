@@ -475,8 +475,15 @@
     "showCompletionRate": true,
     "pageCode": "3neea68kw4pt",
     "showTestResults": true,
-    "showMakeNote": false,
-    "showNoteStages": true
+    "showMakeNote": true,
+    "showNoteStages": true,
+    "classHistory": [
+      {
+        "classId": "cls_1780355764530_wxb5as",
+        "from": "",
+        "to": null
+      }
+    ]
   },
   {
     "id": "s_1780309359751_gjl2s0",

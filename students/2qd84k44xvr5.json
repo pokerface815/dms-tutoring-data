@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T05:09:58.800Z",
+  "generatedAt": "2026-07-17T10:09:07.660Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "숭일고",
     "grade": "고2",
     "class": "토,일 6시",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-18T05:04:45.132Z",
+  "generatedAt": "2026-07-18T06:58:55.791Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 48,
+  "studentCount": 49,
   "baseUrl": "",
   "students": [
     {
@@ -436,6 +436,15 @@
       "className": "토,일 2시",
       "studentPageCode": "sq5xt85f9qx8",
       "parentPageCode": "sq5xt85f9qx8"
+    },
+    {
+      "id": "s_1784357925964_vuz436",
+      "name": "위재완",
+      "grade": "고2",
+      "school": "고려고",
+      "className": "토,일 4시",
+      "studentPageCode": "j38mr5a444tm",
+      "parentPageCode": "j38mr5a444tm"
     }
   ]
 }

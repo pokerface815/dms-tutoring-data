@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-18T06:58:55.791Z",
+  "generatedAt": "2026-07-18T09:17:16.587Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 49,
+  "studentCount": 50,
   "baseUrl": "",
   "students": [
     {
@@ -445,6 +445,15 @@
       "className": "토,일 4시",
       "studentPageCode": "j38mr5a444tm",
       "parentPageCode": "j38mr5a444tm"
+    },
+    {
+      "id": "s_1784366227996_b7yw4o",
+      "name": "김주원",
+      "grade": "고2",
+      "school": "고려고",
+      "className": "토,일 6시",
+      "studentPageCode": "bxjqbb5n4ndg",
+      "parentPageCode": "bxjqbb5n4ndg"
     }
   ]
 }

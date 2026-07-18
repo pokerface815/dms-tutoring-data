@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-18T09:17:20.071Z",
+  "generatedAt": "2026-07-18T11:27:39.065Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -45,6 +45,17 @@
       "startedAt": 1783946751494,
       "createdAt": "2026-07-13T12:46:58.866Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mrq6apuaotm",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 69~72쪽 i의 거듭제곱",
+      "reflection": "",
+      "seconds": 470,
+      "startedAt": 1784349653892,
+      "createdAt": "2026-07-18T09:37:11.506Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -86,9 +97,9 @@
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "69~72쪽 i의 거듭제곱",
         "durationSec": 4000,
-        "lastPosition": 55,
-        "lastWatchedAt": "2026-07-18T07:16:15.244Z",
-        "watchedSec": 46
+        "lastPosition": 2124,
+        "lastWatchedAt": "2026-07-18T10:31:21.381Z",
+        "watchedSec": 470
       }
     },
     "daily": {
@@ -98,7 +109,7 @@
       },
       "2026-07-18": {
         "TSZXX0ck6Mw": 2,
-        "_x8xEiOR850": 46
+        "_x8xEiOR850": 470
       }
     }
   },

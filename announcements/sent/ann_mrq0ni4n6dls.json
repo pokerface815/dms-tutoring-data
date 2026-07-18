@@ -1,0 +1,16 @@
+{
+  "id": "ann_mrq0ni4n6dls",
+  "sentAt": "2026-07-18T15:59:24.829258+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "위재완",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

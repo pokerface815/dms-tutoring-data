@@ -1345,5 +1345,40 @@
         "to": null
       }
     ]
+  },
+  {
+    "id": "s_1784357925964_vuz436",
+    "name": "위재완",
+    "school": "고려고",
+    "grade": "고2",
+    "classes": [
+      "cls_1780310061018_vay6zf"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-5354-1353",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": false,
+    "showMakeNote": false,
+    "pageCode": "j38mr5a444tm",
+    "classHistory": [
+      {
+        "classId": "cls_1780310061018_vay6zf",
+        "from": "2026-07-18",
+        "to": null
+      }
+    ]
   }
 ]

@@ -1719,5 +1719,24 @@
     "createdAt": "2026-07-18T11:00:10.837Z",
     "updatedAt": "2026-07-18T11:00:10.837Z",
     "lastSyncedAt": "2026-07-18T11:00:10.837Z"
+  },
+  {
+    "id": "lec_mrq9a1wrhru",
+    "title": "6시 수업 - 미적분1 쎈B 문풀",
+    "youtubePlaylistId": "PLESX2mhW-jwM",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLESX2mhW-jwM",
+    "subject": "미적분Ⅰ",
+    "textbook": "쎈B",
+    "memo": "",
+    "thumbnailUrl": "https://i.ytimg.com/img/no_thumbnail.jpg",
+    "videos": [],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-07-18T11:00:39.338Z",
+    "updatedAt": "2026-07-18T11:00:39.338Z",
+    "lastSyncedAt": "2026-07-18T11:00:39.338Z"
   }
 ]

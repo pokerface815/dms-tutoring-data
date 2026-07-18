@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-18T11:00:21.146Z",
+  "student": {
+    "id": "s_1784366227996_b7yw4o",
+    "classes": [
+      "cls_1780310095581_j36rd5"
+    ],
+    "name": "김주원",
+    "school": "고려고",
+    "grade": "고2",
+    "class": "",
+    "showMakeNote": false
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-07-13",
+    "endDate": "2026-07-19"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

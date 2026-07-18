@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-16T01:51:00.495Z",
+  "generatedAt": "2026-07-18T11:43:20.901Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -545,6 +545,14 @@
       "dueDate": "2026-07-18",
       "isRepeat": false,
       "assignedAt": "2026-07-16T01:50:51.614Z"
+    },
+    {
+      "assignmentId": "task_1784374992921_k1txp5",
+      "round": 1,
+      "title": "미완료된 연습문제 풀어오기",
+      "dueDate": "2026-07-20",
+      "isRepeat": false,
+      "assignedAt": "2026-07-18T11:43:12.921Z"
     }
   ],
   "myGrades": [

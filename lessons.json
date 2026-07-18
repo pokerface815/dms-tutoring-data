@@ -681,5 +681,16 @@
     "taskBatchId": null,
     "createdAt": "2026-07-18T08:48:29.852Z",
     "updatedAt": "2026-07-18T08:48:29.852Z"
+  },
+  {
+    "id": "lesson_1784374992921_igfxrk",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-18",
+    "content": "추가 프린트 문제 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_mrqass9l",
+    "createdAt": "2026-07-18T11:43:12.921Z",
+    "updatedAt": "2026-07-18T11:43:12.921Z"
   }
 ]

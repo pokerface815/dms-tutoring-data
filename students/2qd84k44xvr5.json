@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-17T10:09:07.660Z",
+  "generatedAt": "2026-07-18T03:39:53.322Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -57,6 +57,28 @@
       "startedAt": 1783575819336,
       "createdAt": "2026-07-09T05:56:44.192Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mrp6ssacz1g",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+      "reflection": "",
+      "seconds": 2454,
+      "startedAt": 1784307733491,
+      "createdAt": "2026-07-17T17:03:28.308Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrp7piqmh19",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+      "reflection": "",
+      "seconds": 2582,
+      "startedAt": 1784309268413,
+      "createdAt": "2026-07-17T17:28:55.582Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -71,6 +93,26 @@
         "lastPosition": 4700,
         "lastWatchedAt": "2026-07-09T06:14:16.542Z",
         "watchedSec": 4821
+      },
+      "AJE79srmVL8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "durationSec": 5620,
+        "lastPosition": 5538,
+        "lastWatchedAt": "2026-07-17T17:27:46.624Z",
+        "watchedSec": 2454
+      },
+      "Fqe7TRl46mA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+        "durationSec": 5351,
+        "lastPosition": 2704,
+        "lastWatchedAt": "2026-07-17T17:51:31.342Z",
+        "watchedSec": 2582
       }
     },
     "daily": {
@@ -79,6 +121,10 @@
       },
       "2026-07-09": {
         "MUY1NAZSfLw": 4538
+      },
+      "2026-07-18": {
+        "AJE79srmVL8": 2454,
+        "Fqe7TRl46mA": 2582
       }
     }
   },

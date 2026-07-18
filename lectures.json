@@ -1230,8 +1230,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-07-18T11:03:06.312Z",
-    "lastSyncedAt": "2026-07-18T11:03:06.312Z"
+    "updatedAt": "2026-07-18T11:29:22.296Z",
+    "lastSyncedAt": "2026-07-18T11:29:22.296Z"
   },
   {
     "id": "lec_mrg80i3ervi",
@@ -1254,6 +1254,12 @@
         "title": "8~12쪽 두 점 사이의 거리",
         "position": 1,
         "durationSec": 3295
+      },
+      {
+        "videoId": "Vj86FW6VlNY",
+        "title": "1",
+        "position": 2,
+        "durationSec": 3038
       }
     ],
     "permissions": {
@@ -1262,8 +1268,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-07-18T11:03:07.026Z",
-    "lastSyncedAt": "2026-07-18T11:03:07.026Z"
+    "updatedAt": "2026-07-18T11:29:23.642Z",
+    "lastSyncedAt": "2026-07-18T11:29:23.642Z"
   },
   {
     "id": "lec_mririwvdtb6",
@@ -1288,8 +1294,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-07-18T11:03:07.673Z",
-    "lastSyncedAt": "2026-07-18T11:03:07.673Z"
+    "updatedAt": "2026-07-18T11:29:18.011Z",
+    "lastSyncedAt": "2026-07-18T11:29:18.011Z"
   },
   {
     "id": "lec_mrq3tljmrxh",
@@ -1703,7 +1709,7 @@
   },
   {
     "id": "lec_mrq99fx1qmz",
-    "title": "4시 수업 - 미적분1 쎈B 문풀",
+    "title": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
     "youtubePlaylistId": "PLZwVaFHq6wPE",
     "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLZwVaFHq6wPE",
     "subject": "미적분Ⅰ",
@@ -1717,12 +1723,12 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-07-18T11:03:09.656Z",
-    "lastSyncedAt": "2026-07-18T11:03:09.656Z"
+    "updatedAt": "2026-07-18T11:29:11.119Z",
+    "lastSyncedAt": "2026-07-18T11:29:11.119Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
-    "title": "6시 수업 - 미적분1 쎈B 문풀",
+    "title": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
     "youtubePlaylistId": "PLESX2mhW-jwM",
     "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLESX2mhW-jwM",
     "subject": "미적분Ⅰ",
@@ -1736,7 +1742,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-07-18T11:03:10.155Z",
-    "lastSyncedAt": "2026-07-18T11:03:10.155Z"
+    "updatedAt": "2026-07-18T11:29:15.465Z",
+    "lastSyncedAt": "2026-07-18T11:29:15.465Z"
   }
 ]

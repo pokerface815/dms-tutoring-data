@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-18T09:17:14.959Z",
+  "generatedAt": "2026-07-18T11:27:47.570Z",
   "studentCount": 50,
   "rankings": [
     {
@@ -10,8 +10,8 @@
       "weekSec": 5036,
       "monthSec": 6853,
       "streak": 1,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "파송송계란탁",
+      "publicNickname": true
     },
     {
       "id": "s_1777546951753_p3pskl",
@@ -36,12 +36,12 @@
     {
       "id": "s_1777547014208_7l30nn",
       "name": "박다윤",
-      "totalSec": 17598,
+      "totalSec": 25351,
       "weekSec": 0,
       "monthSec": 0,
       "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "두다다다다다ㅏ다쿵",
+      "publicNickname": true
     },
     {
       "id": "s_1777547047005_uo92w5",
@@ -296,12 +296,12 @@
     {
       "id": "s_1780825552050_3a3ma5",
       "name": "노태원",
-      "totalSec": 635,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "메타몽",
-      "publicNickname": true
+      "totalSec": 1876,
+      "weekSec": 1241,
+      "monthSec": 1241,
+      "streak": 1,
+      "nickname": "",
+      "publicNickname": false
     },
     {
       "id": "s_1780833047673_dy7d3f",
@@ -466,10 +466,10 @@
     {
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
-      "totalSec": 1220,
-      "weekSec": 1220,
-      "monthSec": 1220,
-      "streak": 0,
+      "totalSec": 1690,
+      "weekSec": 1690,
+      "monthSec": 1690,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

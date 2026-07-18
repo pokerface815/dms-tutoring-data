@@ -1,6 +1,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -2967,7 +2968,7 @@
     const isPublic = !!profile.publicNickname;
     const displayState = hasNickname && isPublic
       ? `<span style="color:var(--success); font-weight:700;">"${escapeHtml(profile.nickname)}"</span>로 공개`
-      : `<span style="color:var(--text2); font-weight:600;">익명</span>으로 참여`;
+      : `<span style="color:var(--text2); font-weight:600;">실명</span>으로 참여`;
     html += `
       <details class="ranking-profile-card" ${!hasNickname ? 'open' : ''}>
         <summary class="ranking-profile-summary">
@@ -2986,7 +2987,7 @@
             <span>이 별명을 랭킹에 공개</span>
           </label>
           <div class="ranking-profile-hint">
-            공개를 끄거나 별명이 비어 있으면 <b>"익명"</b>으로 표시됩니다.
+            기본은 <b>실명</b>으로 표시됩니다. 실명을 감추고 싶으면 별명을 입력하고 <b>"공개"</b>를 켜세요. (별명이 비었거나 공개를 끄면 실명으로 표시)
           </div>
         </div>
       </details>
@@ -3016,11 +3017,11 @@
       const isMe = item.id === myId;
       const value = fmtRankingValue(tabKey, item[tabKey]);
       const valHidden = (item[tabKey] || 0) === 0;
-      // 본인은 자기 별명 (공개/비공개 무관), 별명 미설정이면 "나"
-      // 다른 학생은 publicNickname true + nickname 있으면 별명, 아니면 "익명"
+      // 본인은 자기 별명 (공개/비공개 무관), 없으면 실명, 그것도 없으면 "나"
+      // 다른 학생은 별명을 공개했으면 별명, 아니면 실명 (기본값 = 실명)
       const displayName = isMe
-        ? (myNickname || '나')
-        : (item.publicNickname && item.nickname ? item.nickname : '익명');
+        ? (myNickname || item.name || '나')
+        : (item.publicNickname && item.nickname ? item.nickname : (item.name || '익명'));
       html += `
         <div class="ranking-row ${isMe ? 'ranking-row-me' : ''}">
           <div class="ranking-row-rank">${item._rank}</div>
@@ -4280,7 +4281,7 @@
       const isPublic = !!profile.publicNickname;
       currentLabel.innerHTML = hasNickname && isPublic
         ? `랭킹에 <span style="color:oklch(50% 0.15 145); font-weight:700;">"${escapeHtml(profile.nickname)}"</span>로 공개`
-        : `랭킹에 <span style="color:var(--text2); font-weight:600;">익명</span>으로 참여`;
+        : `랭킹에 <span style="color:var(--text2); font-weight:600;">실명</span>으로 참여`;
     }
   };
 

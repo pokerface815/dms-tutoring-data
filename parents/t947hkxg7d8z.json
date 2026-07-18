@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-16T01:51:01.635Z",
+  "generatedAt": "2026-07-18T11:43:19.225Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-18",
+          "weekday": "토",
+          "className": "조예나 개별",
+          "content": "추가 프린트 문제 풀이",
+          "task": "미완료된 연습문제 풀어오기",
+          "taskDue": "2026-07-20",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-15",
           "weekday": "수",

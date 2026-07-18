@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T15:45:58.842Z",
+  "generatedAt": "2026-07-18T05:04:38.933Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -61,14 +61,14 @@
         "watchedSec": 260
       },
       "TSZXX0ck6Mw": {
-        "sessionCount": 4,
+        "sessionCount": 5,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "62~68쪽 복소수의 뜻과 사칙연산",
         "durationSec": 3864,
-        "lastPosition": 3751,
-        "lastWatchedAt": "2026-07-13T13:43:11.381Z",
-        "watchedSec": 1029
+        "lastPosition": 3752,
+        "lastWatchedAt": "2026-07-18T04:40:52.478Z",
+        "watchedSec": 1031
       },
       "Fndr8I_jCAk": {
         "sessionCount": 1,
@@ -77,13 +77,28 @@
         "videoTitle": "160~167쪽 절댓값 기호를 포함한 일차부등식의 풀이 + 이차부등식",
         "durationSec": 4455,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-13T12:34:35.960Z"
+        "lastWatchedAt": "2026-07-13T12:34:35.960Z",
+        "watchedSec": 0
+      },
+      "_x8xEiOR850": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "69~72쪽 i의 거듭제곱",
+        "durationSec": 4000,
+        "lastPosition": 55,
+        "lastWatchedAt": "2026-07-18T04:50:41.209Z",
+        "watchedSec": 46
       }
     },
     "daily": {
       "2026-07-13": {
         "LoUhX_HhA3k": 260,
         "TSZXX0ck6Mw": 1029
+      },
+      "2026-07-18": {
+        "TSZXX0ck6Mw": 2,
+        "_x8xEiOR850": 46
       }
     }
   },

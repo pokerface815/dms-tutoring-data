@@ -1,19 +1,21 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-17T10:09:05.861Z",
+  "generatedAt": "2026-07-18T03:40:03.063Z",
   "studentCount": 47,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
-      "totalSec": 5474,
-      "weekSec": 0,
-      "monthSec": 1817,
-      "streak": 0,
+      "name": "송유림",
+      "totalSec": 10510,
+      "weekSec": 5036,
+      "monthSec": 6853,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1777546951753_p3pskl",
+      "name": "김채린",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -23,6 +25,7 @@
     },
     {
       "id": "s_1777546978791_hsee5a",
+      "name": "김규림",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -32,6 +35,7 @@
     },
     {
       "id": "s_1777547014208_7l30nn",
+      "name": "박다윤",
       "totalSec": 17598,
       "weekSec": 0,
       "monthSec": 0,
@@ -41,6 +45,7 @@
     },
     {
       "id": "s_1777547047005_uo92w5",
+      "name": "조예나",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -50,6 +55,7 @@
     },
     {
       "id": "s_1778325875686_1uoe4b",
+      "name": "이경주",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -59,6 +65,7 @@
     },
     {
       "id": "s_1778397156600_clkd2u",
+      "name": "서연준",
       "totalSec": 6264,
       "weekSec": 3286,
       "monthSec": 6264,
@@ -68,6 +75,7 @@
     },
     {
       "id": "s_1778402500926_7fxigp",
+      "name": "정찬민",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -77,15 +85,17 @@
     },
     {
       "id": "s_1778404886523_0ag055",
+      "name": "박다인",
       "totalSec": 9508,
       "weekSec": 9328,
       "monthSec": 9508,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1778638262495_alq1jg",
+      "name": "이현승",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -95,6 +105,7 @@
     },
     {
       "id": "s_1778768401651_7hlihp",
+      "name": "김현민",
       "totalSec": 2857,
       "weekSec": 0,
       "monthSec": 0,
@@ -104,6 +115,7 @@
     },
     {
       "id": "s_1778849219765_v88lqq",
+      "name": "지유진",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -113,6 +125,7 @@
     },
     {
       "id": "s_1778908285779_1cmzde",
+      "name": "서은영",
       "totalSec": 3134,
       "weekSec": 0,
       "monthSec": 3134,
@@ -122,6 +135,7 @@
     },
     {
       "id": "s_1779005266373_7iq1b8",
+      "name": "김시현",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -131,6 +145,7 @@
     },
     {
       "id": "s_1779948611035_qbdt5h",
+      "name": "서준우",
       "totalSec": 3507,
       "weekSec": 0,
       "monthSec": 3507,
@@ -140,6 +155,7 @@
     },
     {
       "id": "s_1780190418387_a11waf",
+      "name": "문대승",
       "totalSec": 46986,
       "weekSec": 13629,
       "monthSec": 36522,
@@ -149,6 +165,7 @@
     },
     {
       "id": "s_1780309359751_gjl2s0",
+      "name": "박유솔",
       "totalSec": 135,
       "weekSec": 135,
       "monthSec": 135,
@@ -158,6 +175,7 @@
     },
     {
       "id": "s_1780314459772_3emo5z",
+      "name": "강화진",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -167,6 +185,7 @@
     },
     {
       "id": "s_1780314459772_slkq6q",
+      "name": "김소윤",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -176,6 +195,7 @@
     },
     {
       "id": "s_1780314459772_u5kn1l",
+      "name": "문현빈",
       "totalSec": 2275,
       "weekSec": 0,
       "monthSec": 0,
@@ -185,6 +205,7 @@
     },
     {
       "id": "s_1780314459772_58a78m",
+      "name": "장경원",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -194,6 +215,7 @@
     },
     {
       "id": "s_1780314459772_mrri1r",
+      "name": "채수완",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -203,6 +225,7 @@
     },
     {
       "id": "s_1780314459772_frngyj",
+      "name": "고승민",
       "totalSec": 4742,
       "weekSec": 0,
       "monthSec": 0,
@@ -212,6 +235,7 @@
     },
     {
       "id": "s_1780314459772_jsjhe4",
+      "name": "왕예진",
       "totalSec": 1090,
       "weekSec": 0,
       "monthSec": 0,
@@ -221,6 +245,7 @@
     },
     {
       "id": "s_1780314459772_hl9biz",
+      "name": "이도겸",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -230,6 +255,7 @@
     },
     {
       "id": "s_1780314459772_wcllxa",
+      "name": "조아라",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -239,6 +265,7 @@
     },
     {
       "id": "s_1780355782316_yrovp3",
+      "name": "이세영",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -248,6 +275,7 @@
     },
     {
       "id": "s_1780633652940_9hqjzx",
+      "name": "박은준",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -257,6 +285,7 @@
     },
     {
       "id": "s_1780825523674_8dwstz",
+      "name": "정시우",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -266,6 +295,7 @@
     },
     {
       "id": "s_1780825552050_3a3ma5",
+      "name": "노태원",
       "totalSec": 635,
       "weekSec": 0,
       "monthSec": 0,
@@ -275,6 +305,7 @@
     },
     {
       "id": "s_1780833047673_dy7d3f",
+      "name": "조은별",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -284,6 +315,7 @@
     },
     {
       "id": "s_1780833414231_dup17p",
+      "name": "국보민",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -293,6 +325,7 @@
     },
     {
       "id": "s_1782144542719_3gm3op",
+      "name": "이수연",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -302,15 +335,17 @@
     },
     {
       "id": "s_1783141077746_ni5332",
-      "totalSec": 341,
-      "weekSec": 0,
-      "monthSec": 341,
-      "streak": 0,
+      "name": "손아현",
+      "totalSec": 1992,
+      "weekSec": 1651,
+      "monthSec": 1992,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1783145087770_b6wsph",
+      "name": "송린우",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -320,6 +355,7 @@
     },
     {
       "id": "s_1783476674835_bt1qix",
+      "name": "이지수",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -329,6 +365,7 @@
     },
     {
       "id": "s_1783505825104_ci241f",
+      "name": "정찬영",
       "totalSec": 466,
       "weekSec": 0,
       "monthSec": 466,
@@ -338,6 +375,7 @@
     },
     {
       "id": "s_1783735608548_k885g4",
+      "name": "원지율",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -347,6 +385,7 @@
     },
     {
       "id": "s_1783735663261_629qgf",
+      "name": "이지우",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -356,6 +395,7 @@
     },
     {
       "id": "s_1783735695213_xbid51",
+      "name": "정호연",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -365,15 +405,17 @@
     },
     {
       "id": "s_1783736188808_37ty47",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "name": "박현진",
+      "totalSec": 3324,
+      "weekSec": 3324,
+      "monthSec": 3324,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1783741551628_vw0d5m",
+      "name": "박하윤",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -383,6 +425,7 @@
     },
     {
       "id": "s_1783741597296_84n8hm",
+      "name": "조준영",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -392,6 +435,7 @@
     },
     {
       "id": "s_1783741639936_epkpt5",
+      "name": "송시욱",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -401,24 +445,27 @@
     },
     {
       "id": "s_1783741677433_iezolt",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1783822161933_05uu7m",
-      "totalSec": 81,
-      "weekSec": 81,
-      "monthSec": 81,
+      "name": "박소이",
+      "totalSec": 1982,
+      "weekSec": 1982,
+      "monthSec": 1982,
       "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
     {
+      "id": "s_1783822161933_05uu7m",
+      "name": "김도윤",
+      "totalSec": 81,
+      "weekSec": 81,
+      "monthSec": 81,
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
       "id": "s_1783936051988_psto4h",
+      "name": "박은유",
       "totalSec": 1220,
       "weekSec": 1220,
       "monthSec": 1220,

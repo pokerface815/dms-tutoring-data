@@ -1209,19 +1209,25 @@
     "subject": "공통수학2",
     "textbook": "개념+유형",
     "memo": "",
-    "thumbnailUrl": "https://i.ytimg.com/vi/A7CrbLfr5VY/mqdefault.jpg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/2auObqsjN-s/mqdefault.jpg",
     "videos": [
-      {
-        "videoId": "A7CrbLfr5VY",
-        "title": "8~12쪽 두 점 사이의 거리",
-        "position": 0,
-        "durationSec": 2912
-      },
       {
         "videoId": "2auObqsjN-s",
         "title": "13~23쪽 선분의 내분점",
-        "position": 1,
+        "position": 0,
         "durationSec": 4456
+      },
+      {
+        "videoId": "A7CrbLfr5VY",
+        "title": "8~12쪽 두 점 사이의 거리",
+        "position": 1,
+        "durationSec": 2912
+      },
+      {
+        "videoId": "tsLcsUgBKZ0",
+        "title": "2",
+        "position": 2,
+        "durationSec": 3571
       }
     ],
     "permissions": {
@@ -1230,8 +1236,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-07-18T11:29:22.296Z",
-    "lastSyncedAt": "2026-07-18T11:29:22.296Z"
+    "updatedAt": "2026-07-18T11:53:20.632Z",
+    "lastSyncedAt": "2026-07-18T11:53:20.632Z"
   },
   {
     "id": "lec_mrg80i3ervi",
@@ -1268,8 +1274,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-07-18T11:29:23.642Z",
-    "lastSyncedAt": "2026-07-18T11:29:23.642Z"
+    "updatedAt": "2026-07-18T11:53:27.057Z",
+    "lastSyncedAt": "2026-07-18T11:53:27.057Z"
   },
   {
     "id": "lec_mririwvdtb6",

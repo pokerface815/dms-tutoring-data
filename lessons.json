@@ -670,5 +670,16 @@
     "taskBatchId": "t_mrmurb32",
     "createdAt": "2026-07-16T01:50:14.960Z",
     "updatedAt": "2026-07-16T01:50:51.614Z"
+  },
+  {
+    "id": "lesson_1784364509852_oflso3",
+    "classId": "cls_1783936035043_cn165h",
+    "date": "2026-07-16",
+    "content": "중3-2 테스트",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-07-18T08:48:29.852Z",
+    "updatedAt": "2026-07-18T08:48:29.852Z"
   }
 ]

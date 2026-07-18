@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T05:09:45.144Z",
+  "generatedAt": "2026-07-18T03:39:56.601Z",
   "student": {
     "id": "s_1783736188808_37ty47",
     "classes": [
@@ -12,9 +12,50 @@
     "class": "",
     "showMakeNote": false
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrp4hhlwflg",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "11시 공통수학2 (26년 7월 ~ ) — 13~21쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 2338,
+      "startedAt": 1784303712594,
+      "createdAt": "2026-07-17T15:58:42.020Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrp5xtovr6n",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "11시 공통수학2 (26년 7월 ~ ) — 13~21쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 986,
+      "startedAt": 1784306241581,
+      "createdAt": "2026-07-17T16:39:23.791Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "7nbTNA-0qrk": {
+        "sessionCount": 2,
+        "lectureId": "lec_mrg80i3ervi",
+        "lectureTitle": "11시 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "13~21쪽 선분의 내분점",
+        "durationSec": 3389,
+        "lastPosition": 3388,
+        "lastWatchedAt": "2026-07-17T17:03:14.045Z",
+        "watchedSec": 3324
+      }
+    },
+    "daily": {
+      "2026-07-18": {
+        "7nbTNA-0qrk": 3324
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

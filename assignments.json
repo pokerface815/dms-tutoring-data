@@ -2796,5 +2796,16 @@
     "batchId": "t_mrmurb32",
     "repeat": null,
     "fromLesson": "lesson_1784166614960_b3betk"
+  },
+  {
+    "id": "task_1784374992921_k1txp5",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "미완료된 연습문제 풀어오기",
+    "dueDate": "2026-07-20",
+    "assignedAt": "2026-07-18T11:43:12.921Z",
+    "batchId": "t_mrqass9l",
+    "repeat": null,
+    "fromLesson": "lesson_1784374992921_igfxrk"
   }
 ]

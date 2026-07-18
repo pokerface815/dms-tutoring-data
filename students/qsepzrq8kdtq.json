@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-17T10:09:09.739Z",
+  "generatedAt": "2026-07-18T11:27:40.022Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -12,7 +12,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,

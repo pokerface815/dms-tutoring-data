@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-18T08:48:36.892Z",
-  "studentCount": 49,
+  "generatedAt": "2026-07-18T09:17:14.959Z",
+  "studentCount": 50,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -486,6 +486,16 @@
     {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
+      "id": "s_1784366227996_b7yw4o",
+      "name": "김주원",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,

@@ -1380,5 +1380,40 @@
         "to": null
       }
     ]
+  },
+  {
+    "id": "s_1784366227996_b7yw4o",
+    "name": "김주원",
+    "school": "고려고",
+    "grade": "고2",
+    "classes": [
+      "cls_1780310095581_j36rd5"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-8610-6275",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": false,
+    "pageCode": "bxjqbb5n4ndg",
+    "classHistory": [
+      {
+        "classId": "cls_1780310095581_j36rd5",
+        "from": "2026-07-18",
+        "to": null
+      }
+    ]
   }
 ]

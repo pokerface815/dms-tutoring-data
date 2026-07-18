@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-18T11:43:20.901Z",
+  "generatedAt": "2026-07-18T11:43:42.826Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -471,6 +471,12 @@
     "task_1783969444376_dhswue__1": {
       "confirmed": true,
       "confirmedAt": "2026-07-16T01:47:42.903Z"
+    },
+    "task_1784166651614_xz4uow__1": {
+      "missed": true,
+      "missedAt": "2026-07-18T11:43:36.180Z",
+      "confirmed": false,
+      "confirmedAt": null
     }
   },
   "tasks": [

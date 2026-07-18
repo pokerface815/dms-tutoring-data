@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-13T05:09:44.125Z",
+  "generatedAt": "2026-07-18T03:39:47.283Z",
   "student": {
     "id": "s_1783741677433_iezolt",
     "classes": [
@@ -12,9 +12,50 @@
     "class": "",
     "showMakeNote": false
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrprflo6rly",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 1982,
+      "startedAt": 1784342403090,
+      "createdAt": "2026-07-18T02:41:05.142Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "A7CrbLfr5VY": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "8~12쪽 두 점 사이의 거리",
+        "durationSec": 2912,
+        "lastPosition": 55,
+        "lastWatchedAt": "2026-07-18T02:40:00.640Z",
+        "watchedSec": 56
+      },
+      "2auObqsjN-s": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "13~23쪽 선분의 내분점",
+        "durationSec": 4456,
+        "lastPosition": 2755,
+        "lastWatchedAt": "2026-07-18T03:10:57.510Z",
+        "watchedSec": 1982
+      }
+    },
+    "daily": {
+      "2026-07-18": {
+        "A7CrbLfr5VY": 56,
+        "2auObqsjN-s": 1982
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

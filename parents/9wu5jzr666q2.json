@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T02:16:38.967Z",
+  "generatedAt": "2026-07-18T03:39:55.067Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -9,7 +9,39 @@
   },
   "months": [],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-07-17T17:03:14.048Z",
+    "summary": {
+      "todaySec": 3324,
+      "weekSec": 3324,
+      "monthSec": 3324,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학2": 3324
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mrp5xtovr6n",
+        "startedAt": 1784306241581,
+        "seconds": 986,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "11시 공통수학2 (26년 7월 ~ ) — 13~21쪽 선분의 내분점",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrp4hhlwflg",
+        "startedAt": 1784303712594,
+        "seconds": 2338,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "11시 공통수학2 (26년 7월 ~ ) — 13~21쪽 선분의 내분점",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-18T05:04:37.031Z",
+  "generatedAt": "2026-07-18T09:17:21.706Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-16",
+          "weekday": "목",
+          "className": "박은유 개별",
+          "content": "중3-2 테스트",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-13",
           "weekday": "월",
@@ -32,7 +44,7 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-18T04:50:41.219Z",
+    "uploadedAt": "2026-07-18T07:16:15.259Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 1220,

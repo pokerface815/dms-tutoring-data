@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-18T11:00:18.134Z",
+  "generatedAt": "2026-07-18T11:27:38.072Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -44,17 +44,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-18T07:16:15.259Z",
+    "uploadedAt": "2026-07-18T10:31:21.388Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 1220,
-      "monthSec": 1220,
-      "streak": 0,
+      "todaySec": 470,
+      "weekSec": 1690,
+      "monthSec": 1690,
+      "streak": 1,
       "bySubjectMonth": {
-        "공통수학1": 1220
+        "공통수학1": 1690
       }
     },
     "logs": [
+      {
+        "id": "effort_mrq6apuaotm",
+        "startedAt": 1784349653892,
+        "seconds": 470,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 69~72쪽 i의 거듭제곱",
+        "reflection": ""
+      },
       {
         "id": "effort_mrj7vj1ufbg",
         "startedAt": 1783946751494,

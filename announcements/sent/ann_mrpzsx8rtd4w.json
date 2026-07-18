@@ -1,0 +1,16 @@
+{
+  "id": "ann_mrpzsx8rtd4w",
+  "sentAt": "2026-07-18T15:35:41.425854+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "손예서",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

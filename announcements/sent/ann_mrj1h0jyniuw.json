@@ -1,0 +1,16 @@
+{
+  "id": "ann_mrj1h0jyniuw",
+  "sentAt": "2026-07-18T15:35:40.333935+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "박은유",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

@@ -816,7 +816,14 @@
     "showTestResults": true,
     "showMakeNote": true,
     "pageCode": "mpxq2gey9jpc",
-    "showNoteStages": true
+    "showNoteStages": true,
+    "classHistory": [
+      {
+        "classId": "cls_1780310095581_j36rd5",
+        "from": "",
+        "to": null
+      }
+    ]
   },
   {
     "id": "s_1780833047673_dy7d3f",

@@ -1176,6 +1176,12 @@
         "title": "8~14쪽 함수의 수렴과 발산, 우극한과 좌극한",
         "position": 0,
         "durationSec": 3182
+      },
+      {
+        "videoId": "4oCcIG5bOxY",
+        "title": "3",
+        "position": 1,
+        "durationSec": 5173
       }
     ],
     "permissions": {
@@ -1184,8 +1190,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-07-18T11:54:51.795Z",
-    "lastSyncedAt": "2026-07-18T11:54:37.864Z"
+    "updatedAt": "2026-07-18T14:43:48.088Z",
+    "lastSyncedAt": "2026-07-18T14:43:48.088Z"
   },
   {
     "id": "lec_mrq3tljmrxh",
@@ -1605,16 +1611,23 @@
     "subject": "미적분Ⅰ",
     "textbook": "쎈B",
     "memo": "",
-    "thumbnailUrl": "https://i.ytimg.com/img/no_thumbnail.jpg",
-    "videos": [],
+    "thumbnailUrl": "https://i.ytimg.com/vi/CKqE0FRKe3E/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "CKqE0FRKe3E",
+        "title": "4",
+        "position": 0,
+        "durationSec": 3590
+      }
+    ],
     "permissions": {
       "type": "all",
       "classIds": [],
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-07-18T11:29:11.119Z",
-    "lastSyncedAt": "2026-07-18T11:29:11.119Z"
+    "updatedAt": "2026-07-18T14:43:51.469Z",
+    "lastSyncedAt": "2026-07-18T14:43:51.469Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1624,16 +1637,23 @@
     "subject": "미적분Ⅰ",
     "textbook": "쎈B",
     "memo": "",
-    "thumbnailUrl": "https://i.ytimg.com/img/no_thumbnail.jpg",
-    "videos": [],
+    "thumbnailUrl": "https://i.ytimg.com/vi/ELcNM4V5h4E/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "ELcNM4V5h4E",
+        "title": "5",
+        "position": 0,
+        "durationSec": 2768
+      }
+    ],
     "permissions": {
       "type": "all",
       "classIds": [],
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-07-18T11:29:15.465Z",
-    "lastSyncedAt": "2026-07-18T11:29:15.465Z"
+    "updatedAt": "2026-07-18T14:43:54.788Z",
+    "lastSyncedAt": "2026-07-18T14:43:54.788Z"
   },
   {
     "id": "lec_mqkscmibfht",

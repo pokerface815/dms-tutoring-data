@@ -1310,5 +1310,40 @@
         "to": null
       }
     ]
+  },
+  {
+    "id": "s_1784351071584_hs9hej",
+    "name": "손예서",
+    "school": "동신여고",
+    "grade": "고2",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-3181-7848",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "sq5xt85f9qx8",
+    "classHistory": [
+      {
+        "classId": "cls_1780310019938_5xpe6o",
+        "from": "2026-07-18",
+        "to": null
+      }
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-17T10:09:13.901Z",
+  "generatedAt": "2026-07-18T11:27:36.373Z",
   "student": {
     "id": "s_1777547014208_7l30nn",
     "classes": [
@@ -72,6 +72,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-06-28T03:21:15.802Z"
+    },
+    {
+      "id": "effort_mqxxguz7bin",
+      "startedAt": 1782648810895,
+      "endedAt": 1782659548627,
+      "seconds": 7753,
+      "subject": "영어, 수학",
+      "method": "문제 풀이",
+      "content": "영어 부교재 수학 복습 3회",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-28T15:12:28.628Z"
     }
   ],
   "syncedEffortDeletedIds": null,

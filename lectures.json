@@ -981,122 +981,6 @@
     "lastSyncedAt": "2026-07-18T11:03:04.029Z"
   },
   {
-    "id": "lec_mqkscmibfht",
-    "title": "미적분1 개념+유형 (26년 1,2월)",
-    "youtubePlaylistId": "PLoYw3JZAX7F2HVEaqd5A2kExNM3avFTKW",
-    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F2HVEaqd5A2kExNM3avFTKW",
-    "subject": "미적분Ⅰ",
-    "thumbnailUrl": "https://i.ytimg.com/vi/MUY1NAZSfLw/mqdefault.jpg",
-    "videos": [
-      {
-        "videoId": "MUY1NAZSfLw",
-        "title": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-        "position": 0,
-        "durationSec": 4799
-      },
-      {
-        "videoId": "AJE79srmVL8",
-        "title": "19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-        "position": 1,
-        "durationSec": 5620
-      },
-      {
-        "videoId": "Fqe7TRl46mA",
-        "title": "25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
-        "position": 2,
-        "durationSec": 5351
-      },
-      {
-        "videoId": "WhKzMT5MG0A",
-        "title": "31~39쪽 지난 과제 질의응답, 함수의 연속",
-        "position": 3,
-        "durationSec": 4809
-      },
-      {
-        "videoId": "JlBX5IRj9d8",
-        "title": "40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
-        "position": 4,
-        "durationSec": 3456
-      },
-      {
-        "videoId": "7pfVUyQLMjs",
-        "title": "47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
-        "position": 5,
-        "durationSec": 5213
-      },
-      {
-        "videoId": "KuzIK3RkqvM",
-        "title": "52~59쪽 평균변화율과 미분계수",
-        "position": 6,
-        "durationSec": 4899
-      },
-      {
-        "videoId": "okVxIoEMccc",
-        "title": "60~67쪽 미분가능성과 연속성, 도함수",
-        "position": 7,
-        "durationSec": 5321
-      },
-      {
-        "videoId": "pJC_OdUw6QE",
-        "title": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
-        "position": 8,
-        "durationSec": 4227
-      },
-      {
-        "videoId": "EgHfNAsg_mk",
-        "title": "82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
-        "position": 9,
-        "durationSec": 4814
-      },
-      {
-        "videoId": "lWOw-Kjk3mk",
-        "title": "86~96쪽 평균값 정리, 함수의 증가와 감소",
-        "position": 10,
-        "durationSec": 5070
-      },
-      {
-        "videoId": "m9wVSEc3BX8",
-        "title": "97~107쪽 함수의 극대와 극소, 함수의 그래프",
-        "position": 11,
-        "durationSec": 4149
-      },
-      {
-        "videoId": "wKbSmCx25Cs",
-        "title": "108~110쪽 삼차함수와 사차함수의 그래프",
-        "position": 12,
-        "durationSec": 4935
-      },
-      {
-        "videoId": "megu-Gxod_Q",
-        "title": "118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
-        "position": 13,
-        "durationSec": 4900
-      },
-      {
-        "videoId": "ugyX19AJiaA",
-        "title": "124~134쪽 부등식에의 활용, 속도와 가속도",
-        "position": 14,
-        "durationSec": 4757
-      },
-      {
-        "videoId": "1NBwUeuJ4II",
-        "title": "135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
-        "position": 15,
-        "durationSec": 6826
-      }
-    ],
-    "permissions": {
-      "type": "all",
-      "classIds": [],
-      "studentIds": []
-    },
-    "createdAt": "2026-06-19T10:28:12.659Z",
-    "updatedAt": "2026-07-18T11:03:04.868Z",
-    "lastSyncedAt": "2026-07-18T11:03:04.868Z",
-    "textbook": "개념+유형",
-    "memo": ""
-  },
-  {
     "id": "lec_mqksd52wcz3",
     "title": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
     "youtubePlaylistId": "PLoYw3JZAX7F3674KYtFAwxP14HE_RFFFs",
@@ -1750,5 +1634,121 @@
     "createdAt": "2026-07-18T11:00:39.338Z",
     "updatedAt": "2026-07-18T11:29:15.465Z",
     "lastSyncedAt": "2026-07-18T11:29:15.465Z"
+  },
+  {
+    "id": "lec_mqkscmibfht",
+    "title": "미적분1 개념+유형 (26년 1,2월)",
+    "youtubePlaylistId": "PLoYw3JZAX7F2HVEaqd5A2kExNM3avFTKW",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F2HVEaqd5A2kExNM3avFTKW",
+    "subject": "미적분Ⅰ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/MUY1NAZSfLw/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "MUY1NAZSfLw",
+        "title": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "position": 0,
+        "durationSec": 4799
+      },
+      {
+        "videoId": "AJE79srmVL8",
+        "title": "19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "position": 1,
+        "durationSec": 5620
+      },
+      {
+        "videoId": "Fqe7TRl46mA",
+        "title": "25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+        "position": 2,
+        "durationSec": 5351
+      },
+      {
+        "videoId": "WhKzMT5MG0A",
+        "title": "31~39쪽 지난 과제 질의응답, 함수의 연속",
+        "position": 3,
+        "durationSec": 4809
+      },
+      {
+        "videoId": "JlBX5IRj9d8",
+        "title": "40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+        "position": 4,
+        "durationSec": 3456
+      },
+      {
+        "videoId": "7pfVUyQLMjs",
+        "title": "47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+        "position": 5,
+        "durationSec": 5213
+      },
+      {
+        "videoId": "KuzIK3RkqvM",
+        "title": "52~59쪽 평균변화율과 미분계수",
+        "position": 6,
+        "durationSec": 4899
+      },
+      {
+        "videoId": "okVxIoEMccc",
+        "title": "60~67쪽 미분가능성과 연속성, 도함수",
+        "position": 7,
+        "durationSec": 5321
+      },
+      {
+        "videoId": "pJC_OdUw6QE",
+        "title": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "position": 8,
+        "durationSec": 4227
+      },
+      {
+        "videoId": "EgHfNAsg_mk",
+        "title": "82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "position": 9,
+        "durationSec": 4814
+      },
+      {
+        "videoId": "lWOw-Kjk3mk",
+        "title": "86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "position": 10,
+        "durationSec": 5070
+      },
+      {
+        "videoId": "m9wVSEc3BX8",
+        "title": "97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "position": 11,
+        "durationSec": 4149
+      },
+      {
+        "videoId": "wKbSmCx25Cs",
+        "title": "108~110쪽 삼차함수와 사차함수의 그래프",
+        "position": 12,
+        "durationSec": 4935
+      },
+      {
+        "videoId": "megu-Gxod_Q",
+        "title": "118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+        "position": 13,
+        "durationSec": 4900
+      },
+      {
+        "videoId": "ugyX19AJiaA",
+        "title": "124~134쪽 부등식에의 활용, 속도와 가속도",
+        "position": 14,
+        "durationSec": 4757
+      },
+      {
+        "videoId": "1NBwUeuJ4II",
+        "title": "135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
+        "position": 15,
+        "durationSec": 6826
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-06-19T10:28:12.659Z",
+    "updatedAt": "2026-07-18T11:03:04.868Z",
+    "lastSyncedAt": "2026-07-18T11:03:04.868Z",
+    "textbook": "개념+유형",
+    "memo": ""
   }
 ]

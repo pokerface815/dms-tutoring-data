@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-17T10:09:11.785Z",
+  "generatedAt": "2026-07-19T13:38:09.818Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -12,9 +12,39 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrrgniuqt1x",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
+      "reflection": "",
+      "seconds": 1039,
+      "startedAt": 1784445159244,
+      "createdAt": "2026-07-19T07:14:51.314Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "WhKzMT5MG0A": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "31~39쪽 지난 과제 질의응답, 함수의 연속",
+        "durationSec": 4809,
+        "lastPosition": 4312,
+        "lastWatchedAt": "2026-07-19T07:38:00.521Z",
+        "watchedSec": 1039
+      }
+    },
+    "daily": {
+      "2026-07-19": {
+        "WhKzMT5MG0A": 1039
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

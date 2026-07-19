@@ -1,0 +1,16 @@
+{
+  "id": "ann_mrrcao4dhqhj",
+  "sentAt": "2026-07-19T14:13:10.409628+09:00",
+  "target": "student",
+  "message": "https://youtu.be/MUY1NAZSfLw",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "조해인",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

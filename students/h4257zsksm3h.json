@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-17T10:09:26.121Z",
+  "generatedAt": "2026-07-19T15:49:32.248Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -121,8 +121,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-13",
-    "endDate": "2026-07-19"
+    "startDate": "2026-07-20",
+    "endDate": "2026-07-26"
   },
   "teacherConfirms": {},
   "tasks": [],

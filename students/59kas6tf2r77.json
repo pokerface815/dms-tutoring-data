@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-17T10:09:42.822Z",
+  "generatedAt": "2026-07-19T05:09:05.286Z",
   "student": {
     "id": "s_1780833047673_dy7d3f",
     "classes": [
@@ -14,7 +14,36 @@
   },
   "syncedEffortLogs": [],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "AJE79srmVL8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "durationSec": 5620,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-19T02:14:18.665Z",
+        "watchedSec": 1
+      },
+      "4oCcIG5bOxY": {
+        "sessionCount": 3,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "3",
+        "durationSec": 5173,
+        "lastPosition": 53,
+        "lastWatchedAt": "2026-07-19T03:04:04.354Z",
+        "watchedSec": 43
+      }
+    },
+    "daily": {
+      "2026-07-19": {
+        "AJE79srmVL8": 1,
+        "4oCcIG5bOxY": 43
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

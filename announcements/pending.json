@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "ann_mrrcao4dhqhj",
+    "createdAt": "2026-07-19T05:12:53.149Z",
+    "target": "student",
+    "message": "https://youtu.be/MUY1NAZSfLw",
+    "recipients": [
+      {
+        "name": "조해인",
+        "type": "student",
+        "phone": "010-4652-9734",
+        "message": "https://youtu.be/MUY1NAZSfLw"
+      }
+    ],
+    "status": "pending"
+  }
+]

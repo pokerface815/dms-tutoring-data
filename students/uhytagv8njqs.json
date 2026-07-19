@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T13:38:09.818Z",
+  "generatedAt": "2026-07-19T15:49:20.037Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -343,8 +343,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-13",
-    "endDate": "2026-07-19"
+    "startDate": "2026-07-20",
+    "endDate": "2026-07-26"
   },
   "teacherConfirms": {
     "task_1780833238420_v9xdmb__1": {

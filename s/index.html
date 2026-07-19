@@ -2598,6 +2598,18 @@
     if (Object.keys(watch).length === 0) return;
     const studentName = ((studentData || {}).student || {}).name || '';
 
+    // 내용 서명 — 직전 업로드와 동일하면 재업로드 생략 (무변경 동기화 핑 방지)
+    const contentSig = JSON.stringify({
+      videos: watch,
+      deletedVideoIds: loadDeletedLectureWatchIds(),
+    });
+    const _prevSync = loadLectureSync();
+    if (_prevSync.lastUploadedSig === contentSig) {
+      if (_prevSync.pending) saveLectureSync({ ..._prevSync, pending: false, dirtyAt: null });
+      _lectureSyncStatus = _prevSync.lastUploadedAt ? 'success' : 'idle';
+      return;
+    }
+
     _lectureSyncInflight = true;
     _lectureSyncStatus = 'syncing';
 
@@ -2631,6 +2643,7 @@
       saveLectureSync({
         lastUploadedAt: payload.uploadedAt,
         lastUploadedCount: payload.videoCount,
+        lastUploadedSig: contentSig,   // 다음 무변경 업로드 생략용
         lastSecureUrl: data.secure_url,
         pending: !!stillDirty,
         dirtyAt: stillDirty ? cur.dirtyAt : null,
@@ -2662,6 +2675,10 @@
       if (!navigator.sendBeacon || !studentCode) return false;
       const watch = loadLectureWatch();
       if (Object.keys(watch).length === 0) return false;
+      // 변경 없으면 전송 안 함 (접속만 하고 나가는 경우 무의미한 업로드 방지)
+      const contentSig = JSON.stringify({ videos: watch, deletedVideoIds: loadDeletedLectureWatchIds() });
+      const _prev = loadLectureSync();
+      if (_prev.lastUploadedSig === contentSig) return false;
       const studentName = ((studentData || {}).student || {}).name || '';
       const payload = {
         studentCode, studentName,
@@ -2679,7 +2696,7 @@
       fd.append('context', `student_code=${studentCode}|kind=lecture_watch_submission|video_count=${payload.videoCount}`);
       const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
       const ok = navigator.sendBeacon(url, fd);
-      if (ok) { try { const cur = loadLectureSync(); saveLectureSync({ ...cur, pending: false, dirtyAt: null, lastUploadedAt: payload.uploadedAt }); } catch(e) {} }
+      if (ok) { try { const cur = loadLectureSync(); saveLectureSync({ ...cur, pending: false, dirtyAt: null, lastUploadedAt: payload.uploadedAt, lastUploadedSig: contentSig }); } catch(e) {} }
       return ok;
     } catch(e) { return false; }
   }
@@ -2690,6 +2707,15 @@
       const logs = loadEffortLogs();
       const studentName = ((studentData || {}).student || {}).name || '';
       const rankingProfile = loadRankingProfile();
+      // 변경 없으면 전송 안 함 (접속만 하고 나가는 경우 무의미한 업로드 방지)
+      const contentSig = JSON.stringify({
+        logs,
+        deletedIds: loadDeletedEffortLogIds(),
+        nickname: rankingProfile.nickname || '',
+        publicNickname: !!rankingProfile.publicNickname,
+      });
+      const _prev = loadEffortSync();
+      if (_prev.lastUploadedSig === contentSig) return false;
       const payload = {
         studentCode, studentName,
         uploadedAt: new Date().toISOString(),
@@ -2707,7 +2733,7 @@
       fd.append('context', `student_code=${studentCode}|kind=effort_log_submission|log_count=${logs.length}`);
       const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/auto/upload`;
       const ok = navigator.sendBeacon(url, fd);
-      if (ok) { try { const cur = loadEffortSync(); saveEffortSync({ ...cur, pending: false, dirtyAt: null, lastUploadedAt: payload.uploadedAt }); } catch(e) {} }
+      if (ok) { try { const cur = loadEffortSync(); saveEffortSync({ ...cur, pending: false, dirtyAt: null, lastUploadedAt: payload.uploadedAt, lastUploadedSig: contentSig }); } catch(e) {} }
       return ok;
     } catch(e) { return false; }
   }
@@ -3234,13 +3260,28 @@
     if (!studentCode) return;
     const logs = loadEffortLogs();
     const studentName = ((studentData || {}).student || {}).name || '';
+    const rankingProfile = loadRankingProfile();
+
+    // 내용 서명 — 직전 업로드와 동일하면 재업로드 생략 (접속만/무변경 동기화 핑 방지)
+    const contentSig = JSON.stringify({
+      logs,
+      deletedIds: loadDeletedEffortLogIds(),
+      nickname: rankingProfile.nickname || '',
+      publicNickname: !!rankingProfile.publicNickname,
+    });
+    const _prevSync = loadEffortSync();
+    if (_prevSync.lastUploadedSig === contentSig) {
+      if (_prevSync.pending) saveEffortSync({ ..._prevSync, pending: false, dirtyAt: null });
+      _effortSyncStatus = _prevSync.lastUploadedAt ? 'success' : 'idle';
+      renderEffortSyncIndicator();
+      return;
+    }
 
     _effortSyncInflight = true;
     _effortSyncStatus = 'syncing';
     renderEffortSyncIndicator();
 
     const snapshotCount = logs.length;
-    const rankingProfile = loadRankingProfile();
     const payload = {
       studentCode,
       studentName,
@@ -3275,6 +3316,7 @@
       saveEffortSync({
         lastUploadedAt: payload.uploadedAt,
         lastUploadedCount: snapshotCount,
+        lastUploadedSig: contentSig,   // 다음 무변경 업로드 생략용
         lastSecureUrl: data.secure_url,
         pending: !!stillDirty,
         dirtyAt: stillDirty ? cur.dirtyAt : null,

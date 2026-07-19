@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-18T03:39:50.250Z",
+  "generatedAt": "2026-07-19T15:50:12.668Z",
   "student": {
     "id": "s_1783141077746_ni5332",
     "classes": [
@@ -101,8 +101,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-13",
-    "endDate": "2026-07-19"
+    "startDate": "2026-07-20",
+    "endDate": "2026-07-26"
   },
   "teacherConfirms": {},
   "tasks": [],

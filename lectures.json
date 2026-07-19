@@ -1096,25 +1096,31 @@
     "subject": "공통수학2",
     "textbook": "개념+유형",
     "memo": "",
-    "thumbnailUrl": "https://i.ytimg.com/vi/7nbTNA-0qrk/mqdefault.jpg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EL1XeqIzYKg/mqdefault.jpg",
     "videos": [
-      {
-        "videoId": "7nbTNA-0qrk",
-        "title": "13~21쪽 선분의 내분점",
-        "position": 0,
-        "durationSec": 3389
-      },
       {
         "videoId": "EL1XeqIzYKg",
         "title": "8~12쪽 두 점 사이의 거리",
-        "position": 1,
+        "position": 0,
         "durationSec": 3295
       },
       {
+        "videoId": "7nbTNA-0qrk",
+        "title": "13~21쪽 선분의 내분점",
+        "position": 1,
+        "durationSec": 3389
+      },
+      {
         "videoId": "Vj86FW6VlNY",
-        "title": "1",
+        "title": "22~26쪽 삼각형의 내각의 이등분선, 삼각형의 무게중심",
         "position": 2,
         "durationSec": 3038
+      },
+      {
+        "videoId": "KQVcgmO7-lM",
+        "title": "27~33쪽 직선의 방정식",
+        "position": 3,
+        "durationSec": 4060
       }
     ],
     "permissions": {
@@ -1123,8 +1129,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-07-18T14:43:33.498Z",
-    "lastSyncedAt": "2026-07-18T14:43:33.498Z"
+    "updatedAt": "2026-07-19T15:49:00.378Z",
+    "lastSyncedAt": "2026-07-19T15:49:00.378Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1134,25 +1140,31 @@
     "subject": "공통수학2",
     "textbook": "개념+유형",
     "memo": "",
-    "thumbnailUrl": "https://i.ytimg.com/vi/2auObqsjN-s/mqdefault.jpg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/A7CrbLfr5VY/mqdefault.jpg",
     "videos": [
-      {
-        "videoId": "2auObqsjN-s",
-        "title": "13~23쪽 선분의 내분점",
-        "position": 0,
-        "durationSec": 4456
-      },
       {
         "videoId": "A7CrbLfr5VY",
         "title": "8~12쪽 두 점 사이의 거리",
-        "position": 1,
+        "position": 0,
         "durationSec": 2912
       },
       {
+        "videoId": "2auObqsjN-s",
+        "title": "13~23쪽 선분의 내분점",
+        "position": 1,
+        "durationSec": 4456
+      },
+      {
         "videoId": "tsLcsUgBKZ0",
-        "title": "2",
+        "title": "24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
         "position": 2,
         "durationSec": 3571
+      },
+      {
+        "videoId": "JH_MD-p63IA",
+        "title": "28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+        "position": 3,
+        "durationSec": 4183
       }
     ],
     "permissions": {
@@ -1161,8 +1173,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-07-18T14:43:35.978Z",
-    "lastSyncedAt": "2026-07-18T14:43:35.978Z"
+    "updatedAt": "2026-07-19T15:49:02.984Z",
+    "lastSyncedAt": "2026-07-19T15:49:02.984Z"
   },
   {
     "id": "lec_mririwvdtb6",
@@ -1176,15 +1188,21 @@
     "videos": [
       {
         "videoId": "-AeZPJJq6M0",
-        "title": "8~14쪽 함수의 수렴과 발산, 우극한과 좌극한",
+        "title": "8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
         "position": 0,
         "durationSec": 3182
       },
       {
         "videoId": "4oCcIG5bOxY",
-        "title": "3",
+        "title": "18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
         "position": 1,
         "durationSec": 5173
+      },
+      {
+        "videoId": "35fLmSRhScA",
+        "title": "30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
+        "position": 2,
+        "durationSec": 4754
       }
     ],
     "permissions": {
@@ -1193,8 +1211,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-07-18T14:43:48.088Z",
-    "lastSyncedAt": "2026-07-18T14:43:48.088Z"
+    "updatedAt": "2026-07-19T15:49:07.743Z",
+    "lastSyncedAt": "2026-07-19T15:49:07.743Z"
   },
   {
     "id": "lec_mrq99fx1qmz",

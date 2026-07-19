@@ -212,11 +212,12 @@
     ],
     "permissions": {
       "type": "all",
+      "grades": [],
       "classIds": [],
       "studentIds": []
     },
     "createdAt": "2026-06-22T06:42:44.092Z",
-    "updatedAt": "2026-07-18T11:02:59.810Z",
+    "updatedAt": "2026-07-19T00:45:17.833Z",
     "lastSyncedAt": "2026-07-18T11:02:59.810Z"
   },
   {

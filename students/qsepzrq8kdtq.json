@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T00:37:44.256Z",
+  "generatedAt": "2026-07-19T15:49:17.484Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -329,8 +329,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-13",
-    "endDate": "2026-07-19"
+    "startDate": "2026-07-20",
+    "endDate": "2026-07-26"
   },
   "teacherConfirms": {},
   "tasks": [],

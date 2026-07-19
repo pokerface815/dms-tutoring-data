@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T05:09:14.826Z",
+  "generatedAt": "2026-07-19T13:38:08.574Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -26,10 +26,10 @@
     {
       "id": "s_1777546978791_hsee5a",
       "name": "김규림",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "totalSec": 1039,
+      "weekSec": 1039,
+      "monthSec": 1039,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -86,10 +86,10 @@
     {
       "id": "s_1778404886523_0ag055",
       "name": "박다인",
-      "totalSec": 9508,
-      "weekSec": 9328,
-      "monthSec": 9508,
-      "streak": 0,
+      "totalSec": 11265,
+      "weekSec": 11085,
+      "monthSec": 11265,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -296,10 +296,10 @@
     {
       "id": "s_1780825552050_3a3ma5",
       "name": "노태원",
-      "totalSec": 1876,
-      "weekSec": 1241,
-      "monthSec": 1241,
-      "streak": 1,
+      "totalSec": 1950,
+      "weekSec": 1315,
+      "monthSec": 1315,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },
@@ -466,10 +466,10 @@
     {
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
-      "totalSec": 2782,
-      "weekSec": 2782,
-      "monthSec": 2782,
-      "streak": 1,
+      "totalSec": 3898,
+      "weekSec": 3898,
+      "monthSec": 3898,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },
@@ -506,10 +506,10 @@
     {
       "id": "s_1784437736068_jgkmca",
       "name": "조해인",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "totalSec": 4374,
+      "weekSec": 4374,
+      "monthSec": 4374,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     }

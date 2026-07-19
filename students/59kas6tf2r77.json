@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T05:09:05.286Z",
+  "generatedAt": "2026-07-19T15:50:07.853Z",
   "student": {
     "id": "s_1780833047673_dy7d3f",
     "classes": [
@@ -53,8 +53,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-13",
-    "endDate": "2026-07-19"
+    "startDate": "2026-07-20",
+    "endDate": "2026-07-26"
   },
   "teacherConfirms": {
     "task_1780833168065_o2irmx__1": {

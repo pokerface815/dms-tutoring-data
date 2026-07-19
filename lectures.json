@@ -1226,9 +1226,15 @@
     "videos": [
       {
         "videoId": "CKqE0FRKe3E",
-        "title": "4",
+        "title": "6~16쪽 01.함수의 극한",
         "position": 0,
         "durationSec": 3590
+      },
+      {
+        "videoId": "zTU6KH33XE0",
+        "title": "17~28쪽 02.함수의 연속",
+        "position": 1,
+        "durationSec": 5500
       }
     ],
     "permissions": {
@@ -1237,8 +1243,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-07-18T14:43:51.469Z",
-    "lastSyncedAt": "2026-07-18T14:43:51.469Z"
+    "updatedAt": "2026-07-19T15:49:14.603Z",
+    "lastSyncedAt": "2026-07-19T15:49:14.603Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1252,9 +1258,15 @@
     "videos": [
       {
         "videoId": "ELcNM4V5h4E",
-        "title": "5",
+        "title": "6~17쪽 01.함수의극한",
         "position": 0,
         "durationSec": 2768
+      },
+      {
+        "videoId": "QD8EWtLQpMU",
+        "title": "17~28쪽 02.함수의 연속",
+        "position": 1,
+        "durationSec": 3878
       }
     ],
     "permissions": {
@@ -1263,8 +1275,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-07-18T14:43:54.788Z",
-    "lastSyncedAt": "2026-07-18T14:43:54.788Z"
+    "updatedAt": "2026-07-19T15:49:20.344Z",
+    "lastSyncedAt": "2026-07-19T15:49:20.344Z"
   },
   {
     "id": "lec_mqkscmibfht",

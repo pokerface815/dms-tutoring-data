@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T00:37:53.910Z",
+  "generatedAt": "2026-07-19T05:09:08.206Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -79,6 +79,39 @@
       "startedAt": 1784309268413,
       "createdAt": "2026-07-17T17:28:55.582Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mrr6361zxyc",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
+      "reflection": "",
+      "seconds": 1697,
+      "startedAt": 1784393970232,
+      "createdAt": "2026-07-19T02:19:05.447Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrr6qex74f0",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+      "reflection": "",
+      "seconds": 655,
+      "startedAt": 1784428531631,
+      "createdAt": "2026-07-19T02:37:10.027Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrr70jcr8pc",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+      "reflection": "",
+      "seconds": 785,
+      "startedAt": 1784428975789,
+      "createdAt": "2026-07-19T02:45:02.331Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -115,14 +148,34 @@
         "watchedSec": 2582
       },
       "WhKzMT5MG0A": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "31~39쪽 지난 과제 질의응답, 함수의 연속",
         "durationSec": 4809,
-        "lastPosition": 3403,
-        "lastWatchedAt": "2026-07-18T17:00:09.533Z",
-        "watchedSec": 28
+        "lastPosition": 4691,
+        "lastWatchedAt": "2026-07-19T02:35:30.732Z",
+        "watchedSec": 1697
+      },
+      "JlBX5IRj9d8": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+        "durationSec": 3456,
+        "lastPosition": 3366,
+        "lastWatchedAt": "2026-07-19T02:42:54.268Z",
+        "watchedSec": 663
+      },
+      "7pfVUyQLMjs": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+        "durationSec": 5213,
+        "lastPosition": 4535,
+        "lastWatchedAt": "2026-07-19T02:51:34.453Z",
+        "watchedSec": 785
       }
     },
     "daily": {
@@ -137,7 +190,9 @@
         "Fqe7TRl46mA": 2582
       },
       "2026-07-19": {
-        "WhKzMT5MG0A": 28
+        "WhKzMT5MG0A": 1697,
+        "JlBX5IRj9d8": 663,
+        "7pfVUyQLMjs": 785
       }
     }
   },

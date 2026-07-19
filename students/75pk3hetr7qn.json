@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T05:09:20.249Z",
+  "generatedAt": "2026-07-19T13:37:52.069Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -12,9 +12,61 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrrcnco936c",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 8~14쪽 함수의 수렴과 발산, 우극한과 좌극한",
+      "reflection": "",
+      "seconds": 2534,
+      "startedAt": 1784438505102,
+      "createdAt": "2026-07-19T05:22:44.841Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrrej75igtz",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 3",
+      "reflection": "",
+      "seconds": 1840,
+      "startedAt": 1784441068556,
+      "createdAt": "2026-07-19T06:15:30.294Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "-AeZPJJq6M0": {
+        "sessionCount": 2,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "8~14쪽 함수의 수렴과 발산, 우극한과 좌극한",
+        "durationSec": 3182,
+        "lastPosition": 3181,
+        "lastWatchedAt": "2026-07-19T06:04:26.793Z",
+        "watchedSec": 2534
+      },
+      "4oCcIG5bOxY": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "3",
+        "durationSec": 5173,
+        "lastPosition": 1832,
+        "lastWatchedAt": "2026-07-19T06:47:28.406Z",
+        "watchedSec": 1840
+      }
+    },
+    "daily": {
+      "2026-07-19": {
+        "-AeZPJJq6M0": 2534,
+        "4oCcIG5bOxY": 1840
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

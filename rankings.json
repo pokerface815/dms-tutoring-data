@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-18T11:27:47.570Z",
+  "generatedAt": "2026-07-19T00:37:59.914Z",
   "studentCount": 50,
   "rankings": [
     {
@@ -10,18 +10,18 @@
       "weekSec": 5036,
       "monthSec": 6853,
       "streak": 1,
-      "nickname": "파송송계란탁",
-      "publicNickname": true
+      "nickname": "",
+      "publicNickname": false
     },
     {
       "id": "s_1777546951753_p3pskl",
       "name": "김채린",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "totalSec": 1076,
+      "weekSec": 1076,
+      "monthSec": 1076,
+      "streak": 1,
+      "nickname": "오레오잉",
+      "publicNickname": true
     },
     {
       "id": "s_1777546978791_hsee5a",
@@ -339,7 +339,7 @@
       "totalSec": 1992,
       "weekSec": 1651,
       "monthSec": 1992,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T05:09:03.053Z",
+  "generatedAt": "2026-07-19T13:37:54.153Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -52,9 +52,20 @@
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 69~72쪽 i의 거듭제곱",
       "reflection": "",
-      "seconds": 1562,
+      "seconds": 1729,
       "startedAt": 1784349653892,
       "createdAt": "2026-07-18T09:37:11.506Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrr9yvd3qpe",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 73~82쪽 음수의 제곱근, 이차방정식",
+      "reflection": "",
+      "seconds": 949,
+      "startedAt": 1784433978905,
+      "createdAt": "2026-07-19T04:07:43.431Z",
       "autoRecorded": true
     }
   ],
@@ -62,14 +73,14 @@
   "syncedLectureWatch": {
     "videos": {
       "LoUhX_HhA3k": {
-        "sessionCount": 3,
+        "sessionCount": 5,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "73~82쪽 음수의 제곱근, 이차방정식",
         "durationSec": 3968,
-        "lastPosition": 71,
-        "lastWatchedAt": "2026-07-13T12:45:01.727Z",
-        "watchedSec": 260
+        "lastPosition": 3924,
+        "lastWatchedAt": "2026-07-19T12:04:54.945Z",
+        "watchedSec": 1212
       },
       "TSZXX0ck6Mw": {
         "sessionCount": 5,
@@ -97,9 +108,9 @@
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "69~72쪽 i의 거듭제곱",
         "durationSec": 4000,
-        "lastPosition": 3471,
-        "lastWatchedAt": "2026-07-19T03:38:56.512Z",
-        "watchedSec": 1562
+        "lastPosition": 3999,
+        "lastWatchedAt": "2026-07-19T03:48:38.243Z",
+        "watchedSec": 1729
       }
     },
     "daily": {
@@ -112,7 +123,8 @@
         "_x8xEiOR850": 470
       },
       "2026-07-19": {
-        "_x8xEiOR850": 1092
+        "_x8xEiOR850": 1259,
+        "LoUhX_HhA3k": 952
       }
     }
   },

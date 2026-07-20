@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T15:50:39.033Z",
+  "generatedAt": "2026-07-20T15:15:55.874Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -44,12 +44,12 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-19T12:04:54.953Z",
+    "uploadedAt": "2026-07-20T13:15:53.478Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
       "monthSec": 3898,
-      "streak": 2,
+      "streak": 0,
       "bySubjectMonth": {
         "공통수학1": 3898
       }

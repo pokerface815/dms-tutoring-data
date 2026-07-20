@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T05:09:21.776Z",
+  "generatedAt": "2026-07-20T11:13:50.151Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -9,7 +9,39 @@
   },
   "months": [],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-07-19T14:34:13.518Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 4374,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 4374
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mrrej75igtz",
+        "startedAt": 1784441068556,
+        "seconds": 1840,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 3",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrrcnco936c",
+        "startedAt": 1784438505102,
+        "seconds": 2534,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 8~14쪽 함수의 수렴과 발산, 우극한과 좌극한",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

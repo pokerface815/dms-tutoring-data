@@ -692,5 +692,16 @@
     "taskBatchId": "t_mrqass9l",
     "createdAt": "2026-07-18T11:43:12.921Z",
     "updatedAt": "2026-07-18T11:43:12.921Z"
+  },
+  {
+    "id": "lesson_1784560545784_jj3buj",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-20",
+    "content": "~ 47쪽 함수의 연속",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_mrtd9trs",
+    "createdAt": "2026-07-20T15:15:45.784Z",
+    "updatedAt": "2026-07-20T15:15:45.784Z"
   }
 ]

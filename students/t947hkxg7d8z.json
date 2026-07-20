@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:49:22.697Z",
+  "generatedAt": "2026-07-20T15:16:08.978Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -477,6 +477,10 @@
       "missedAt": "2026-07-18T11:43:36.180Z",
       "confirmed": false,
       "confirmedAt": null
+    },
+    "task_1784374992921_k1txp5__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-07-20T11:14:35.815Z"
     }
   },
   "tasks": [
@@ -559,6 +563,14 @@
       "dueDate": "2026-07-20",
       "isRepeat": false,
       "assignedAt": "2026-07-18T11:43:12.921Z"
+    },
+    {
+      "assignmentId": "task_1784560545784_a6sa33",
+      "round": 1,
+      "title": "50쪽 연습문제까지 풀어오기",
+      "dueDate": "2026-07-22",
+      "isRepeat": false,
+      "assignedAt": "2026-07-20T15:15:45.784Z"
     }
   ],
   "myGrades": [

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T00:37:45.868Z",
+  "generatedAt": "2026-07-20T15:16:06.221Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-20",
+          "weekday": "월",
+          "className": "조예나 개별",
+          "content": "~ 47쪽 함수의 연속",
+          "task": "50쪽 연습문제까지 풀어오기",
+          "taskDue": "2026-07-22",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-18",
           "weekday": "토",
@@ -86,9 +98,9 @@
         }
       ],
       "completionRate": {
-        "done": 2,
-        "total": 3,
-        "percent": 67
+        "done": 3,
+        "total": 4,
+        "percent": 75
       },
       "noteStages": null
     },

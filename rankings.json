@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T11:13:57.568Z",
+  "generatedAt": "2026-07-20T15:16:10.601Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -9,7 +9,7 @@
       "totalSec": 13647,
       "weekSec": 0,
       "monthSec": 9990,
-      "streak": 2,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -19,7 +19,7 @@
       "totalSec": 1076,
       "weekSec": 0,
       "monthSec": 1076,
-      "streak": 1,
+      "streak": 0,
       "nickname": "오레오잉",
       "publicNickname": true
     },
@@ -29,7 +29,7 @@
       "totalSec": 1039,
       "weekSec": 0,
       "monthSec": 1039,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -66,10 +66,10 @@
     {
       "id": "s_1778397156600_clkd2u",
       "name": "서연준",
-      "totalSec": 6264,
-      "weekSec": 0,
-      "monthSec": 6264,
-      "streak": 0,
+      "totalSec": 8593,
+      "weekSec": 2329,
+      "monthSec": 8593,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -79,7 +79,7 @@
       "totalSec": 698,
       "weekSec": 0,
       "monthSec": 698,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -89,7 +89,7 @@
       "totalSec": 11265,
       "weekSec": 0,
       "monthSec": 11265,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -299,7 +299,7 @@
       "totalSec": 1950,
       "weekSec": 0,
       "monthSec": 1315,
-      "streak": 2,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -469,7 +469,7 @@
       "totalSec": 3898,
       "weekSec": 0,
       "monthSec": 3898,
-      "streak": 2,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -509,7 +509,7 @@
       "totalSec": 4374,
       "weekSec": 0,
       "monthSec": 4374,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     }

@@ -2807,5 +2807,16 @@
     "batchId": "t_mrqass9l",
     "repeat": null,
     "fromLesson": "lesson_1784374992921_igfxrk"
+  },
+  {
+    "id": "task_1784560545784_a6sa33",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "50쪽 연습문제까지 풀어오기",
+    "dueDate": "2026-07-22",
+    "assignedAt": "2026-07-20T15:15:45.784Z",
+    "batchId": "t_mrtd9trs",
+    "repeat": null,
+    "fromLesson": "lesson_1784560545784_jj3buj"
   }
 ]

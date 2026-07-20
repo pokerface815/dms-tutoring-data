@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T09:38:06.908Z",
+  "generatedAt": "2026-07-20T11:13:51.312Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -127,7 +127,30 @@
     }
   ],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-07-19T07:32:18.748Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 1039,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 1039
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mrrgniuqt1x",
+        "startedAt": 1784445159244,
+        "seconds": 1039,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T15:49:27.605Z",
+  "generatedAt": "2026-07-20T15:16:11.892Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-16T01:19:14.158Z",
+    "uploadedAt": "2026-07-20T15:04:32.828Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 6264,
-      "streak": 0,
+      "weekSec": 2329,
+      "monthSec": 8593,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 6264
+        "미적분Ⅰ": 8593
       }
     },
     "logs": [
+      {
+        "id": "effort_mrtbwn9hs8s",
+        "startedAt": 1784558126633,
+        "seconds": 1663,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrtaxiubels",
+        "startedAt": 1784556543502,
+        "seconds": 666,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+        "reflection": ""
+      },
       {
         "id": "effort_mrlw1diqq1f",
         "startedAt": 1784108197409,

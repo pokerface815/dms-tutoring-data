@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:50:41.028Z",
+  "generatedAt": "2026-07-20T11:13:56.530Z",
   "student": {
     "id": "s_1784357925964_vuz436",
     "classes": [
@@ -12,7 +12,20 @@
     "class": "",
     "showMakeNote": false
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrsyzp8ubih",
+      "startedAt": 1784534273566,
+      "endedAt": 1784536558734,
+      "seconds": 2230,
+      "subject": "수학",
+      "method": "문제 풀이",
+      "content": "개념플러스유형 기하 타원 학습",
+      "reflection": "개념 확실히하고 문제풀이 하기",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-20T08:35:58.734Z"
+    }
+  ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,

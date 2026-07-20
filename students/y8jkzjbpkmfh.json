@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:49:25.939Z",
+  "generatedAt": "2026-07-20T15:16:13.170Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -78,6 +78,28 @@
       "startedAt": 1784108197409,
       "createdAt": "2026-07-15T09:38:54.770Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mrtaxiubels",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+      "reflection": "",
+      "seconds": 666,
+      "startedAt": 1784556543502,
+      "createdAt": "2026-07-20T14:10:12.515Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrtbwn9hs8s",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+      "reflection": "",
+      "seconds": 1663,
+      "startedAt": 1784558126633,
+      "createdAt": "2026-07-20T14:37:31.205Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -102,6 +124,16 @@
         "lastPosition": 5521,
         "lastWatchedAt": "2026-07-16T01:19:14.146Z",
         "watchedSec": 2938
+      },
+      "Fqe7TRl46mA": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+        "durationSec": 5351,
+        "lastPosition": 3659,
+        "lastWatchedAt": "2026-07-20T15:04:32.821Z",
+        "watchedSec": 2329
       }
     },
     "daily": {
@@ -114,6 +146,12 @@
       },
       "2026-07-15": {
         "AJE79srmVL8": 2822
+      },
+      "2026-07-20": {
+        "Fqe7TRl46mA": 2059
+      },
+      "2026-07-21": {
+        "Fqe7TRl46mA": 270
       }
     }
   },

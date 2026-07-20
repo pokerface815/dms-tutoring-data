@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T15:49:14.320Z",
+  "generatedAt": "2026-07-20T11:13:57.568Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -486,10 +486,10 @@
     {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "totalSec": 2230,
+      "weekSec": 2230,
+      "monthSec": 2230,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

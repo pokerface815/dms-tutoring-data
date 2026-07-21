@@ -2776,7 +2776,7 @@
   let _rankingTab = 'week';   // 'streak' | 'week' | 'month' | 'total'
   let _rankingData = null;     // fetch한 rankings.json 캐시
   let _rankingFetchedAt = 0;   // 마지막 fetch 시각 (ms)
-  const RANKING_CACHE_TTL_MS = 3 * 60 * 1000;  // 3분
+  const RANKING_CACHE_TTL_MS = 30 * 1000;  // 30초 (별명 등 갱신을 더 빠르게 반영)
   let _rankingRefreshing = false;
 
   window.switchRankingTab = function(tab) {
@@ -2795,7 +2795,7 @@
 
   async function initRankingScreen() {
     renderRankingContent();  // 일단 로딩 상태 그리기
-    await fetchRankingData();
+    await fetchRankingData(true);  // 화면 열 때마다 강제로 최신 rankings.json 받아오기
     renderRankingContent();  // 받은 데이터로 다시 그리기
   }
 

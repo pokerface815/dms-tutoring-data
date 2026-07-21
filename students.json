@@ -207,7 +207,8 @@
     "showMakeNote": true,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showNoteStages": true,
+    "flagged": true
   },
   {
     "id": "s_1778402500926_7fxigp",
@@ -823,7 +824,8 @@
         "from": "",
         "to": null
       }
-    ]
+    ],
+    "flagged": true
   },
   {
     "id": "s_1780833047673_dy7d3f",
@@ -1386,7 +1388,8 @@
         "from": "2026-07-18",
         "to": null
       }
-    ]
+    ],
+    "flagged": true
   },
   {
     "id": "s_1784366227996_b7yw4o",

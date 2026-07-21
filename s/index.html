@@ -2996,7 +2996,7 @@
       ? `<span style="color:var(--success); font-weight:700;">"${escapeHtml(profile.nickname)}"</span>로 공개`
       : `<span style="color:var(--text2); font-weight:600;">실명</span>으로 참여`;
     html += `
-      <details class="ranking-profile-card" ${!hasNickname ? 'open' : ''}>
+      <details class="ranking-profile-card">
         <summary class="ranking-profile-summary">
           <span class="ranking-profile-current" id="rankingProfileCurrent">랭킹에 ${displayState}</span>
           <span class="ranking-profile-arrow">▾</span>

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T15:49:42.562Z",
+  "generatedAt": "2026-07-22T11:16:26.146Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -168,22 +168,58 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-19T07:08:55.386Z",
+    "uploadedAt": "2026-07-22T02:13:24.746Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 36522,
-      "streak": 0,
+      "todaySec": 3558,
+      "weekSec": 7368,
+      "monthSec": 43890,
+      "streak": 2,
       "bySubjectMonth": {
         "대수": 18534,
         "확률과 통계": 4154,
         "미적분Ⅰ": 5518,
         "독서": 881,
         "필사": 415,
-        "기하": 7020
+        "기하": 14388
       }
     },
     "logs": [
+      {
+        "id": "effort_mrvg7f5tito",
+        "startedAt": 1784683669908,
+        "seconds": 1937,
+        "subject": "기하",
+        "method": "문제 풀이",
+        "content": "개쁠 타원",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrvego773w8",
+        "startedAt": 1784682983413,
+        "seconds": 476,
+        "subject": "기하",
+        "method": "문제 풀이",
+        "content": "타원",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrvdncv5d1h",
+        "startedAt": 1784680916268,
+        "seconds": 1145,
+        "subject": "기하",
+        "method": "문제 풀이",
+        "content": "개쁠 타원",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrulzx6okuq",
+        "startedAt": 1784631825807,
+        "seconds": 3810,
+        "subject": "기하",
+        "method": "문제 풀이",
+        "content": "개+유 포물선의 방정식",
+        "reflection": ""
+      },
       {
         "id": "effort_mrksee1ckxy",
         "startedAt": 1784037608085,

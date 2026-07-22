@@ -381,6 +381,10 @@
   .tt-dial-wrap.settable svg { cursor: grab; }
   .tt-dial-wrap.settable svg:active { cursor: grabbing; }
   .tt-hint { text-align: center; font-size: 11.5px; color: var(--accent, #2f4f6b); font-weight: 600; margin-top: 2px; min-height: 15px; }
+  .tt-presets { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; align-items: center; margin: 8px 0 2px; }
+  .tt-chip { font: inherit; font-size: 13px; font-weight: 700; padding: 7px 12px; border-radius: 20px; border: 1px solid var(--border2, #c7d0d8); background: var(--surface, #fff); color: var(--text2, #4d5a65); cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .tt-chip.active { background: #e5563e; color: #fff; border-color: #e5563e; }
+  .tt-step { width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--border2, #c7d0d8); background: var(--surface, #fff); color: var(--text2, #4d5a65); font-size: 20px; font-weight: 700; line-height: 1; cursor: pointer; -webkit-tap-highlight-color: transparent; }
   .tt-remain { font-size: 13px; color: var(--text2); margin: 2px 0 12px; font-variant-numeric: tabular-nums; }
   .tt-remain b { color: #e5563e; font-weight: 700; }
   .tt-remain.over b { color: var(--warning); }
@@ -3500,37 +3504,18 @@
   let _ttAudio=null;
   function ttEnsureAudio(){ if(!_ttAudio){ try{ _ttAudio=new (window.AudioContext||window.webkitAudioContext)(); }catch(e){} } if(_ttAudio && _ttAudio.state==='suspended') _ttAudio.resume(); }
   function ttChime(){ if(!_ttAudio) return; const now=_ttAudio.currentTime; [880,1174.66,1567.98].forEach((f,i)=>{ const o=_ttAudio.createOscillator(),g=_ttAudio.createGain(); o.type='sine'; o.frequency.value=f; o.connect(g); g.connect(_ttAudio.destination); const t=now+i*0.16; g.gain.setValueAtTime(0,t); g.gain.linearRampToValueAtTime(0.25,t+0.02); g.gain.exponentialRampToValueAtTime(0.001,t+0.35); o.start(t); o.stop(t+0.36); }); }
-  function ttMinFromEvent(svg, e){
-    const rect=svg.getBoundingClientRect();
-    const cx=rect.left+rect.width/2, cy=rect.top+rect.height/2;
-    const cxp=(e.touches?e.touches[0].clientX:e.clientX)-cx;
-    const cyp=(e.touches?e.touches[0].clientY:e.clientY)-cy;
-    let ang=Math.atan2(cxp,-cyp); if(ang<0) ang+=2*Math.PI;
-    let min=Math.round(ang/(2*Math.PI)*60); if(min===0) min=60;
-    return Math.max(1,Math.min(60,min));
-  }
-  function ttSetTargetMin(min){
+  window.ttSetTargetMin = function(min){
     const s=loadEffortState();
     if(s.status==='running') return;   // 측정 중엔 변경 불가
     const t=Math.max(60, Math.min(60*60, Math.round(min)*60));
     saveEffortState({ ...s, targetSec: t });
     renderEffortTimer();
-  }
-  let _ttDrag=false, _ttWinBound=false;
-  function ttBindWindowOnce(){
-    if(_ttWinBound) return; _ttWinBound=true;
-    const move=(e)=>{ if(!_ttDrag) return; const w=document.querySelector('.tt-dial-wrap.settable'); if(!w){_ttDrag=false;return;} ttSetTargetMin(ttMinFromEvent(w.querySelector('svg'), e)); e.preventDefault(); };
-    const up=()=>{ _ttDrag=false; };
-    window.addEventListener('mousemove',move); window.addEventListener('mouseup',up);
-    window.addEventListener('touchmove',move,{passive:false}); window.addEventListener('touchend',up);
-  }
-  function ttAttachDial(){
-    ttBindWindowOnce();
-    const wrap=document.querySelector('.tt-dial-wrap.settable'); if(!wrap) return;
-    const svg=wrap.querySelector('svg');
-    const down=(e)=>{ _ttDrag=true; ttSetTargetMin(ttMinFromEvent(svg,e)); e.preventDefault(); };
-    svg.addEventListener('mousedown',down); svg.addEventListener('touchstart',down,{passive:false});
-  }
+  };
+  window.ttStepTarget = function(delta){
+    const s=loadEffortState();
+    if(s.status==='running') return;
+    window.ttSetTargetMin(ttTargetSec(s)/60 + delta);
+  };
 
   function renderEffortTimer() {
     const wrap = document.getElementById('effortTimerSection');
@@ -3573,7 +3558,7 @@
     wrap.innerHTML = `
       <div class="effort-timer-card">
         <div class="effort-timer-status">${statusLabel}</div>
-        <div class="tt-dial-wrap ${settable ? 'settable' : ''}">
+        <div class="tt-dial-wrap">
           <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
             <circle cx="150" cy="150" r="132" fill="#fbf5e6" stroke="#dfe5ea" stroke-width="1.5"/>
             <path d="${ttWedgePath(remMin)}" fill="${wedgeFill}"/>
@@ -3581,8 +3566,15 @@
             <circle cx="150" cy="150" r="16" fill="#f3ead2" stroke="#d9cba6" stroke-width="1.5"/>
             <rect x="147" y="150" width="6" height="13" rx="3" fill="#cdbd93"/>
           </svg>
-          <div class="tt-hint">${settable ? '시계에서 원하는 공부 시간만큼 드래그하세요' : '측정 중…'}</div>
         </div>
+        ${settable ? `
+          <div class="tt-presets">
+            <button class="tt-step" onclick="ttStepTarget(-5)" aria-label="5분 줄이기">−</button>
+            ${[10,20,25,30,40,50,60].map(m=>`<button class="tt-chip ${Math.round(target/60)===m?'active':''}" onclick="ttSetTargetMin(${m})">${m}</button>`).join('')}
+            <button class="tt-step" onclick="ttStepTarget(5)" aria-label="5분 늘리기">＋</button>
+          </div>
+          <div class="tt-hint">공부 시간(분)을 선택하세요</div>
+        ` : `<div class="tt-hint">측정 중…</div>`}
         <div class="effort-timer-display ${status}">${fmtDuration(elapsed)}</div>
         <div class="tt-remain ${over?'over':''}">${over ? '초과 시간 <b>+'+ttFmt(-remain)+'</b>' : '남은 시간 <b>'+ttFmt(remain)+'</b>'} · 목표 ${ttFmt(target)}</div>
         <div class="effort-timer-buttons">${buttons}</div>
@@ -3590,7 +3582,6 @@
         ${status !== 'idle' ? `<button class="effort-cancel-btn" onclick="cancelEffortTimer()">취소</button>` : ''}
       </div>
     `;
-    if (settable) ttAttachDial();
   }
 
   window.startEffortTimer = function() {

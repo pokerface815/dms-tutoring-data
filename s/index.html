@@ -384,7 +384,10 @@
   .tt-presets { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; align-items: center; margin: 8px 0 2px; }
   .tt-chip { font: inherit; font-size: 13px; font-weight: 700; padding: 7px 12px; border-radius: 20px; border: 1px solid var(--border2, #c7d0d8); background: var(--surface, #fff); color: var(--text2, #4d5a65); cursor: pointer; -webkit-tap-highlight-color: transparent; }
   .tt-chip.active { background: #e5563e; color: #fff; border-color: #e5563e; }
-  .tt-step { width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--border2, #c7d0d8); background: var(--surface, #fff); color: var(--text2, #4d5a65); font-size: 20px; font-weight: 700; line-height: 1; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .tt-step { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--border2, #c7d0d8); background: var(--surface, #fff); color: var(--text2, #4d5a65); font-size: 22px; font-weight: 700; line-height: 1; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .tt-target-min { min-width: 70px; text-align: center; font-size: 26px; font-weight: 800; color: var(--text, #1c2530); font-variant-numeric: tabular-nums; }
+  .tt-target-unit { font-size: 14px; font-weight: 600; color: var(--text3, #8b98a5); margin-left: 2px; }
+  .tt-reset { background: var(--surface2, #eef1f4); color: var(--text3, #8b98a5); font-weight: 600; }
   .tt-remain { font-size: 13px; color: var(--text2); margin: 2px 0 12px; font-variant-numeric: tabular-nums; }
   .tt-remain b { color: #e5563e; font-weight: 700; }
   .tt-remain.over b { color: var(--warning); }
@@ -3569,11 +3572,17 @@
         </div>
         ${settable ? `
           <div class="tt-presets">
-            <button class="tt-step" onclick="ttStepTarget(-5)" aria-label="5분 줄이기">−</button>
-            ${[10,20,25,30,40,50,60].map(m=>`<button class="tt-chip ${Math.round(target/60)===m?'active':''}" onclick="ttSetTargetMin(${m})">${m}</button>`).join('')}
-            <button class="tt-step" onclick="ttStepTarget(5)" aria-label="5분 늘리기">＋</button>
+            <button class="tt-step" onclick="ttStepTarget(-1)" aria-label="1분 줄이기">−</button>
+            <span class="tt-target-min">${Math.round(target/60)}<span class="tt-target-unit">분</span></span>
+            <button class="tt-step" onclick="ttStepTarget(1)" aria-label="1분 늘리기">＋</button>
           </div>
-          <div class="tt-hint">공부 시간(분)을 선택하세요</div>
+          <div class="tt-presets">
+            <button class="tt-chip" onclick="ttStepTarget(5)">+5</button>
+            <button class="tt-chip" onclick="ttStepTarget(10)">+10</button>
+            <button class="tt-chip" onclick="ttStepTarget(20)">+20</button>
+            <button class="tt-chip tt-reset" onclick="ttSetTargetMin(1)">처음부터</button>
+          </div>
+          <div class="tt-hint">공부 시간을 정하세요</div>
         ` : `<div class="tt-hint">측정 중…</div>`}
         <div class="effort-timer-display ${status}">${fmtDuration(elapsed)}</div>
         <div class="tt-remain ${over?'over':''}">${over ? '초과 시간 <b>+'+ttFmt(-remain)+'</b>' : '남은 시간 <b>'+ttFmt(remain)+'</b>'} · 목표 ${ttFmt(target)}</div>

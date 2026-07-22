@@ -2635,7 +2635,6 @@
 
     const payload = {
       studentCode,
-      studentName,
       uploadedAt: new Date().toISOString(),
       videoCount: Object.keys(watch).length,
       videos: watch,
@@ -2701,7 +2700,7 @@
       if (_prev.lastUploadedSig === contentSig) return false;
       const studentName = ((studentData || {}).student || {}).name || '';
       const payload = {
-        studentCode, studentName,
+        studentCode,
         uploadedAt: new Date().toISOString(),
         videoCount: Object.keys(watch).length,
         videos: watch,
@@ -2737,7 +2736,7 @@
       const _prev = loadEffortSync();
       if (_prev.lastUploadedSig === contentSig) return false;
       const payload = {
-        studentCode, studentName,
+        studentCode,
         uploadedAt: new Date().toISOString(),
         logCount: logs.length,
         logs,
@@ -3304,7 +3303,6 @@
     const snapshotCount = logs.length;
     const payload = {
       studentCode,
-      studentName,
       uploadedAt: new Date().toISOString(),
       logCount: snapshotCount,
       logs,

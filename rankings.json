@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T00:20:02.576Z",
+  "generatedAt": "2026-07-22T11:16:40.998Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -69,7 +69,7 @@
       "totalSec": 9188,
       "weekSec": 2924,
       "monthSec": 9188,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -86,10 +86,10 @@
     {
       "id": "s_1778404886523_0ag055",
       "name": "박다인",
-      "totalSec": 11265,
-      "weekSec": 0,
-      "monthSec": 11265,
-      "streak": 0,
+      "totalSec": 17129,
+      "weekSec": 5864,
+      "monthSec": 17129,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -156,20 +156,20 @@
     {
       "id": "s_1780190418387_a11waf",
       "name": "문대승",
-      "totalSec": 46986,
-      "weekSec": 0,
-      "monthSec": 36522,
-      "streak": 0,
+      "totalSec": 54354,
+      "weekSec": 7368,
+      "monthSec": 43890,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1780309359751_gjl2s0",
       "name": "박유솔",
-      "totalSec": 135,
-      "weekSec": 0,
-      "monthSec": 135,
-      "streak": 0,
+      "totalSec": 3361,
+      "weekSec": 3226,
+      "monthSec": 3361,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -296,9 +296,9 @@
     {
       "id": "s_1780825552050_3a3ma5",
       "name": "노태원",
-      "totalSec": 1950,
+      "totalSec": 635,
       "weekSec": 0,
-      "monthSec": 1315,
+      "monthSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -336,10 +336,10 @@
     {
       "id": "s_1783141077746_ni5332",
       "name": "손아현",
-      "totalSec": 1992,
-      "weekSec": 0,
-      "monthSec": 1992,
-      "streak": 0,
+      "totalSec": 4272,
+      "weekSec": 2280,
+      "monthSec": 4272,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -466,10 +466,10 @@
     {
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
-      "totalSec": 3898,
-      "weekSec": 0,
-      "monthSec": 3898,
-      "streak": 0,
+      "totalSec": 4142,
+      "weekSec": 244,
+      "monthSec": 4142,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -486,9 +486,9 @@
     {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
-      "totalSec": 2230,
-      "weekSec": 2230,
-      "monthSec": 2230,
+      "totalSec": 2388,
+      "weekSec": 2388,
+      "monthSec": 2388,
       "streak": 1,
       "nickname": "",
       "publicNickname": false

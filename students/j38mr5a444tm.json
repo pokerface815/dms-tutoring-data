@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-20T11:13:56.530Z",
+  "generatedAt": "2026-07-22T11:16:15.398Z",
   "student": {
     "id": "s_1784357925964_vuz436",
     "classes": [
@@ -24,10 +24,94 @@
       "reflection": "개념 확실히하고 문제풀이 하기",
       "sharedWithParent": false,
       "createdAt": "2026-07-20T08:35:58.734Z"
+    },
+    {
+      "id": "effort_mrvsz86lqu1",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
+      "reflection": "",
+      "seconds": 158,
+      "startedAt": 1784707768164,
+      "createdAt": "2026-07-22T08:10:57.453Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "zTU6KH33XE0": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq99fx1qmz",
+        "lectureTitle": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "17~28쪽 02.함수의 연속",
+        "durationSec": 5500,
+        "lastPosition": 4280,
+        "lastWatchedAt": "2026-07-22T07:05:53.140Z",
+        "watchedSec": 13
+      },
+      "QD8EWtLQpMU": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq9a1wrhru",
+        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "17~28쪽 02.함수의 연속",
+        "durationSec": 3878,
+        "lastPosition": 3,
+        "lastWatchedAt": "2026-07-22T07:07:40.648Z",
+        "watchedSec": 3
+      },
+      "KuzIK3RkqvM": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "52~59쪽 평균변화율과 미분계수",
+        "durationSec": 4899,
+        "lastPosition": 4718,
+        "lastWatchedAt": "2026-07-22T08:13:09.917Z",
+        "watchedSec": 7
+      },
+      "35fLmSRhScA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
+        "durationSec": 4754,
+        "lastPosition": 2294,
+        "lastWatchedAt": "2026-07-22T08:09:11.535Z",
+        "watchedSec": 13
+      },
+      "1NBwUeuJ4II": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
+        "durationSec": 6826,
+        "lastPosition": 3531,
+        "lastWatchedAt": "2026-07-22T08:12:49.785Z",
+        "watchedSec": 158
+      },
+      "okVxIoEMccc": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "60~67쪽 미분가능성과 연속성, 도함수",
+        "durationSec": 5321,
+        "lastPosition": 660,
+        "lastWatchedAt": "2026-07-22T08:13:59.831Z",
+        "watchedSec": 23
+      }
+    },
+    "daily": {
+      "2026-07-22": {
+        "zTU6KH33XE0": 13,
+        "QD8EWtLQpMU": 3,
+        "KuzIK3RkqvM": 7,
+        "35fLmSRhScA": 13,
+        "1NBwUeuJ4II": 158,
+        "okVxIoEMccc": 23
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

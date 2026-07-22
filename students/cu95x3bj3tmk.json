@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:49:43.549Z",
+  "generatedAt": "2026-07-22T11:16:18.726Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -34,6 +34,28 @@
       "startedAt": 1783927526664,
       "createdAt": "2026-07-13T07:27:52.595Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mrvpustbewv",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "공통수학2 개념+유형 (26년 1, 2월) — 35~40쪽 두 직선의 평행과 수직",
+      "reflection": "",
+      "seconds": 2569,
+      "startedAt": 1784702490507,
+      "createdAt": "2026-07-22T06:43:32.063Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrvsfu2gmhp",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
+      "reflection": "",
+      "seconds": 657,
+      "startedAt": 1784706891563,
+      "createdAt": "2026-07-22T07:55:52.696Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -48,11 +70,35 @@
         "lastPosition": 164,
         "lastWatchedAt": "2026-07-13T07:27:52.599Z",
         "watchedSec": 163
+      },
+      "QR6A3YfFpqM": {
+        "sessionCount": 7,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
+        "videoTitle": "35~40쪽 두 직선의 평행과 수직",
+        "durationSec": 3902,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-22T07:37:26.217Z",
+        "watchedSec": 2589
+      },
+      "jIjscjI_q2c": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
+        "videoTitle": "41~48쪽 점과 직선 사이의 거리",
+        "durationSec": 4266,
+        "lastPosition": 1355,
+        "lastWatchedAt": "2026-07-22T10:58:47.535Z",
+        "watchedSec": 657
       }
     },
     "daily": {
       "2026-07-13": {
         "bDNSxRCdNRY": 163
+      },
+      "2026-07-22": {
+        "QR6A3YfFpqM": 2589,
+        "jIjscjI_q2c": 657
       }
     }
   },

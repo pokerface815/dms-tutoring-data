@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:50:38.062Z",
+  "generatedAt": "2026-07-22T11:16:31.880Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -67,11 +67,32 @@
       "startedAt": 1784433978905,
       "createdAt": "2026-07-19T04:07:43.431Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mrup2ocu0d2",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
+      "reflection": "",
+      "seconds": 244,
+      "startedAt": 1784640770329,
+      "createdAt": "2026-07-21T13:33:53.742Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
+      "Lwm2o1aNceI": {
+        "watchedSec": 269,
+        "lastPosition": 2558,
+        "sessionCount": 2,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
+        "durationSec": 4395,
+        "lastWatchedAt": "2026-07-21T13:38:30.278Z"
+      },
       "LoUhX_HhA3k": {
         "sessionCount": 5,
         "lectureId": "lec_mqkr9zowwph",
@@ -114,6 +135,9 @@
       }
     },
     "daily": {
+      "2026-07-21": {
+        "Lwm2o1aNceI": 269
+      },
       "2026-07-13": {
         "LoUhX_HhA3k": 260,
         "TSZXX0ck6Mw": 1029

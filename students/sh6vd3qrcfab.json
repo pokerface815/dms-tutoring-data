@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:50:12.668Z",
+  "generatedAt": "2026-07-22T11:16:12.137Z",
   "student": {
     "id": "s_1783141077746_ni5332",
     "classes": [
@@ -33,6 +33,17 @@
       "seconds": 1651,
       "startedAt": 1784298974804,
       "createdAt": "2026-07-17T15:21:05.033Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrvy6k91dvb",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
+      "reflection": "",
+      "seconds": 2280,
+      "startedAt": 1784716534973,
+      "createdAt": "2026-07-22T10:36:37.765Z",
       "autoRecorded": true
     }
   ],
@@ -68,6 +79,16 @@
         "lastPosition": 25,
         "lastWatchedAt": "2026-07-10T07:15:56.626Z",
         "watchedSec": 26
+      },
+      "35fLmSRhScA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
+        "durationSec": 4754,
+        "lastPosition": 2289,
+        "lastWatchedAt": "2026-07-22T11:15:43.416Z",
+        "watchedSec": 2280
       }
     },
     "daily": {
@@ -89,6 +110,9 @@
       },
       "2026-07-18": {
         "AJE79srmVL8": 1603
+      },
+      "2026-07-22": {
+        "35fLmSRhScA": 2280
       }
     }
   },

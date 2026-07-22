@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:49:40.945Z",
+  "generatedAt": "2026-07-22T11:16:27.931Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -238,6 +238,54 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-07-14T15:09:17.328Z"
+    },
+    {
+      "id": "effort_mrulzx6okuq",
+      "startedAt": 1784631825807,
+      "endedAt": 1784635666368,
+      "seconds": 3810,
+      "subject": "기하",
+      "method": "문제 풀이",
+      "content": "개+유 포물선의 방정식",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-21T12:07:46.368Z"
+    },
+    {
+      "id": "effort_mrvdncv5d1h",
+      "startedAt": 1784680916268,
+      "endedAt": 1784682109409,
+      "seconds": 1145,
+      "subject": "기하",
+      "method": "문제 풀이",
+      "content": "개쁠 타원",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-22T01:01:49.409Z"
+    },
+    {
+      "id": "effort_mrvego773w8",
+      "startedAt": 1784682983413,
+      "endedAt": 1784683477123,
+      "seconds": 476,
+      "subject": "기하",
+      "method": "문제 풀이",
+      "content": "타원",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-22T01:24:37.123Z"
+    },
+    {
+      "id": "effort_mrvg7f5tito",
+      "startedAt": 1784683669908,
+      "endedAt": 1784686404736,
+      "seconds": 1937,
+      "subject": "기하",
+      "method": "문제 풀이",
+      "content": "개쁠 타원",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-22T02:13:24.737Z"
     }
   ],
   "syncedEffortDeletedIds": [

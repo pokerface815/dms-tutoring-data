@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T15:49:45.018Z",
+  "generatedAt": "2026-07-22T11:16:17.159Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -151,17 +151,35 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-13T09:13:24.618Z",
+    "uploadedAt": "2026-07-22T08:01:59.810Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 135,
-      "streak": 0,
+      "todaySec": 3226,
+      "weekSec": 3226,
+      "monthSec": 3361,
+      "streak": 1,
       "bySubjectMonth": {
-        "공통수학2": 135
+        "공통수학2": 3361
       }
     },
     "logs": [
+      {
+        "id": "effort_mrvsfu2gmhp",
+        "startedAt": 1784706891563,
+        "seconds": 657,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrvpustbewv",
+        "startedAt": 1784702490507,
+        "seconds": 2569,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형 (26년 1, 2월) — 35~40쪽 두 직선의 평행과 수직",
+        "reflection": ""
+      },
       {
         "id": "effort_mriwh5ozmcp",
         "startedAt": 1783927526664,

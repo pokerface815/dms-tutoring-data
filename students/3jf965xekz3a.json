@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:50:18.811Z",
+  "generatedAt": "2026-07-23T06:07:26.811Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -27,7 +27,20 @@
     }
   ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "-AeZPJJq6M0": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
+        "durationSec": 3182,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-23T04:56:26.918Z"
+      }
+    },
+    "daily": {}
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
@@ -41,6 +54,15 @@
     "endDate": "2026-07-26"
   },
   "teacherConfirms": {},
-  "tasks": [],
+  "tasks": [
+    {
+      "assignmentId": "task_1784786830937_2hurv7",
+      "round": 1,
+      "title": "공부한 내용 인증하기",
+      "dueDate": "2026-07-24",
+      "isRepeat": false,
+      "assignedAt": "2026-07-23T06:07:10.937Z"
+    }
+  ],
   "myGrades": []
 }

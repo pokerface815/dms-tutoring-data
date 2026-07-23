@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:50:28.081Z",
+  "generatedAt": "2026-07-23T06:07:31.456Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -14,7 +14,20 @@
   },
   "syncedEffortLogs": [],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "RHJzwrezWTA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
+        "videoTitle": "8~13쪽 두 점 사이의 거리",
+        "durationSec": 3666,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-22T12:29:43.099Z"
+      }
+    },
+    "daily": {}
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

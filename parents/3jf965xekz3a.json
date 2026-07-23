@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T06:13:53.236Z",
+  "generatedAt": "2026-07-23T08:08:07.981Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -23,7 +23,7 @@
           "extraAssignments": [
             {
               "title": "공부한 내용 인증하기",
-              "dueDate": "2026-07-24",
+              "dueDate": "2026-07-23",
               "isConfirmed": false
             }
           ],

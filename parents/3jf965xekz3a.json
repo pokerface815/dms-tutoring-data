@@ -1,17 +1,43 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T13:37:56.712Z",
+  "generatedAt": "2026-07-23T06:07:25.195Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
     "name": "정찬영",
     "grade": "고2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-07",
+      "label": "2026년 7월",
+      "lessons": [
+        {
+          "date": "2026-07-23",
+          "weekday": "목",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "공부한 내용 인증하기",
+              "dueDate": "2026-07-24",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        }
+      ],
+      "completionRate": null,
+      "noteStages": null
+    }
+  ],
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-19T03:54:36.955Z",
+    "uploadedAt": "2026-07-23T04:52:19.969Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,

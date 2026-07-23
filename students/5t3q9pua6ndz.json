@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-23T06:07:31.456Z",
+  "generatedAt": "2026-07-23T13:53:12.874Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -12,7 +12,41 @@
     "class": "",
     "showMakeNote": false
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrx8fhmom2v",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
+      "reflection": "",
+      "seconds": 160,
+      "startedAt": 1784794165448,
+      "createdAt": "2026-07-23T08:11:16.608Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrx8jvaqa6l",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+      "reflection": "",
+      "seconds": 151,
+      "startedAt": 1784794384411,
+      "createdAt": "2026-07-23T08:14:40.946Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrx8olli2di",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+      "reflection": "",
+      "seconds": 1671,
+      "startedAt": 1784794620798,
+      "createdAt": "2026-07-23T08:18:21.654Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
@@ -23,10 +57,36 @@
         "videoTitle": "8~13쪽 두 점 사이의 거리",
         "durationSec": 3666,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-22T12:29:43.099Z"
+        "lastWatchedAt": "2026-07-22T12:29:43.099Z",
+        "watchedSec": 0
+      },
+      "tsLcsUgBKZ0": {
+        "sessionCount": 3,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
+        "durationSec": 3571,
+        "lastPosition": 2479,
+        "lastWatchedAt": "2026-07-23T08:13:02.945Z",
+        "watchedSec": 169
+      },
+      "JH_MD-p63IA": {
+        "sessionCount": 2,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+        "durationSec": 4183,
+        "lastPosition": 4182,
+        "lastWatchedAt": "2026-07-23T08:49:34.735Z",
+        "watchedSec": 1822
       }
     },
-    "daily": {}
+    "daily": {
+      "2026-07-23": {
+        "tsLcsUgBKZ0": 169,
+        "JH_MD-p63IA": 1822
+      }
+    }
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],

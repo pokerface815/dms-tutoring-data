@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-21T00:20:04.313Z",
+  "generatedAt": "2026-07-23T06:13:56.681Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -100,6 +100,28 @@
       "startedAt": 1784558126633,
       "createdAt": "2026-07-20T14:37:31.205Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mrx3bp5i7f4",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
+      "reflection": "",
+      "seconds": 1147,
+      "startedAt": 1784785562715,
+      "createdAt": "2026-07-23T05:48:21.654Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrx417t00lr",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+      "reflection": "",
+      "seconds": 275,
+      "startedAt": 1784786773299,
+      "createdAt": "2026-07-23T06:08:12.228Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -142,7 +164,28 @@
         "videoTitle": "60~67쪽 미분가능성과 연속성, 도함수",
         "durationSec": 5321,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-20T15:15:28.020Z"
+        "lastWatchedAt": "2026-07-20T15:15:28.020Z",
+        "watchedSec": 0
+      },
+      "WhKzMT5MG0A": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "31~39쪽 지난 과제 질의응답, 함수의 연속",
+        "durationSec": 4809,
+        "lastPosition": 4668,
+        "lastWatchedAt": "2026-07-23T06:06:10.513Z",
+        "watchedSec": 1147
+      },
+      "JlBX5IRj9d8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+        "durationSec": 3456,
+        "lastPosition": 2006,
+        "lastWatchedAt": "2026-07-23T06:11:12.229Z",
+        "watchedSec": 275
       }
     },
     "daily": {
@@ -161,6 +204,10 @@
       },
       "2026-07-21": {
         "Fqe7TRl46mA": 865
+      },
+      "2026-07-23": {
+        "WhKzMT5MG0A": 1147,
+        "JlBX5IRj9d8": 275
       }
     }
   },

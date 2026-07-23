@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-23T06:13:54.418Z",
+  "generatedAt": "2026-07-23T08:08:06.887Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -108,7 +108,7 @@
       "assignmentId": "task_1784786830937_2hurv7",
       "round": 1,
       "title": "공부한 내용 인증하기",
-      "dueDate": "2026-07-24",
+      "dueDate": "2026-07-23",
       "isRepeat": false,
       "assignedAt": "2026-07-23T06:07:10.937Z"
     }

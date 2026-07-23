@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-22T11:16:27.931Z",
+  "generatedAt": "2026-07-23T13:53:22.974Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -286,6 +286,42 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-07-22T02:13:24.737Z"
+    },
+    {
+      "id": "effort_mrx4bcyqx97",
+      "startedAt": 1784784328877,
+      "endedAt": 1784787365474,
+      "seconds": 3010,
+      "subject": "기하",
+      "method": "문제 풀이",
+      "content": "개쁠 쌍곡선",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-23T06:16:05.474Z"
+    },
+    {
+      "id": "effort_mrx64sekn2w",
+      "startedAt": 1784787373542,
+      "endedAt": 1784790418124,
+      "seconds": 3033,
+      "subject": "기하",
+      "method": "문제 풀이",
+      "content": "개쁠 쌍곡선",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-23T07:06:58.125Z"
+    },
+    {
+      "id": "effort_mrxicv32ld9",
+      "startedAt": 1784803857580,
+      "endedAt": 1784810950238,
+      "seconds": 4349,
+      "subject": "기하",
+      "method": "문제 풀이",
+      "content": "쎈",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-23T12:49:10.238Z"
     }
   ],
   "syncedEffortDeletedIds": [

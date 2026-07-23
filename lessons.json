@@ -703,5 +703,16 @@
     "taskBatchId": "t_mrtd9trs",
     "createdAt": "2026-07-20T15:15:45.784Z",
     "updatedAt": "2026-07-20T15:15:45.784Z"
+  },
+  {
+    "id": "lesson_1784787228102_tfdcoa",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-22",
+    "content": "~ 63쪽 평균변화율과 미분계수",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_mrx48eyu",
+    "createdAt": "2026-07-23T06:13:48.102Z",
+    "updatedAt": "2026-07-23T06:13:48.102Z"
   }
 ]

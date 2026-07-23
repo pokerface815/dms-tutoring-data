@@ -2818,5 +2818,15 @@
     "batchId": "t_mrtd9trs",
     "repeat": null,
     "fromLesson": "lesson_1784560545784_jj3buj"
+  },
+  {
+    "id": "task_1784786830937_2hurv7",
+    "type": "task",
+    "studentId": "s_1783505825104_ci241f",
+    "title": "공부한 내용 인증하기",
+    "dueDate": "2026-07-24",
+    "assignedAt": "2026-07-23T06:07:10.937Z",
+    "batchId": "t_mrx3zwih",
+    "repeat": null
   }
 ]

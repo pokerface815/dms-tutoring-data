@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T06:07:25.195Z",
+  "generatedAt": "2026-07-23T06:13:53.236Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -37,17 +37,45 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-23T04:52:19.969Z",
+    "uploadedAt": "2026-07-23T06:11:50.126Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 466,
-      "streak": 0,
+      "todaySec": 3819,
+      "weekSec": 3819,
+      "monthSec": 4285,
+      "streak": 1,
       "bySubjectMonth": {
-        "사회": 466
+        "사회": 466,
+        "미적분Ⅰ": 3819
       }
     },
     "logs": [
+      {
+        "id": "effort_mrx3pbkn39p",
+        "startedAt": 1784786275645,
+        "seconds": 700,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrx35mvjwv8",
+        "startedAt": 1784785357178,
+        "seconds": 697,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrx1i94fujq",
+        "startedAt": 1784782585911,
+        "seconds": 2422,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
+        "reflection": ""
+      },
       {
         "id": "effort_mrdm6yvm7a9",
         "startedAt": 1783607589737,

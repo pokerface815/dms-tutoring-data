@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-23T06:13:56.681Z",
+  "generatedAt": "2026-07-23T13:53:20.414Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -118,9 +118,31 @@
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
       "reflection": "",
-      "seconds": 275,
+      "seconds": 1674,
       "startedAt": 1784786773299,
       "createdAt": "2026-07-23T06:08:12.228Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrx59xaid35",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+      "reflection": "",
+      "seconds": 1034,
+      "startedAt": 1784788895882,
+      "createdAt": "2026-07-23T06:42:58.122Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrx5w7bm7ao",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+      "reflection": "",
+      "seconds": 476,
+      "startedAt": 1784789954554,
+      "createdAt": "2026-07-23T07:00:17.554Z",
       "autoRecorded": true
     }
   ],
@@ -178,14 +200,24 @@
         "watchedSec": 1147
       },
       "JlBX5IRj9d8": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
         "durationSec": 3456,
-        "lastPosition": 2006,
-        "lastWatchedAt": "2026-07-23T06:11:12.229Z",
-        "watchedSec": 275
+        "lastPosition": 3415,
+        "lastWatchedAt": "2026-07-23T06:59:12.663Z",
+        "watchedSec": 2708
+      },
+      "7pfVUyQLMjs": {
+        "sessionCount": 3,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+        "durationSec": 5213,
+        "lastPosition": 1824,
+        "lastWatchedAt": "2026-07-23T07:19:19.479Z",
+        "watchedSec": 478
       }
     },
     "daily": {
@@ -207,7 +239,8 @@
       },
       "2026-07-23": {
         "WhKzMT5MG0A": 1147,
-        "JlBX5IRj9d8": 275
+        "JlBX5IRj9d8": 2708,
+        "7pfVUyQLMjs": 478
       }
     }
   },

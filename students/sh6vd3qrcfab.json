@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-22T11:16:12.137Z",
+  "generatedAt": "2026-07-23T06:07:17.705Z",
   "student": {
     "id": "s_1783141077746_ni5332",
     "classes": [
@@ -41,7 +41,7 @@
       "method": "강의 시청",
       "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
       "reflection": "",
-      "seconds": 2280,
+      "seconds": 4651,
       "startedAt": 1784716534973,
       "createdAt": "2026-07-22T10:36:37.765Z",
       "autoRecorded": true
@@ -86,9 +86,9 @@
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
         "durationSec": 4754,
-        "lastPosition": 2289,
-        "lastWatchedAt": "2026-07-22T11:15:43.416Z",
-        "watchedSec": 2280
+        "lastPosition": 4669,
+        "lastWatchedAt": "2026-07-22T11:55:26.957Z",
+        "watchedSec": 4651
       }
     },
     "daily": {
@@ -112,7 +112,7 @@
         "AJE79srmVL8": 1603
       },
       "2026-07-22": {
-        "35fLmSRhScA": 2280
+        "35fLmSRhScA": 4651
       }
     }
   },

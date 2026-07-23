@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-11T03:46:06.630Z",
+  "generatedAt": "2026-07-23T13:53:32.497Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -9,7 +9,48 @@
   },
   "months": [],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-07-23T08:49:32.250Z",
+    "summary": {
+      "todaySec": 1982,
+      "weekSec": 1982,
+      "monthSec": 1982,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학2": 1982
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mrx8olli2di",
+        "startedAt": 1784794620798,
+        "seconds": 1671,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrx8jvaqa6l",
+        "startedAt": 1784794384411,
+        "seconds": 151,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrx8fhmom2v",
+        "startedAt": 1784794165448,
+        "seconds": 160,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

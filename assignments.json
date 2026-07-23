@@ -2828,5 +2828,16 @@
     "assignedAt": "2026-07-23T06:07:10.937Z",
     "batchId": "t_mrx3zwih",
     "repeat": null
+  },
+  {
+    "id": "task_1784787228102_vrfd5r",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "63쪽까지 풀어오기",
+    "dueDate": "2026-07-25",
+    "assignedAt": "2026-07-23T06:13:48.102Z",
+    "batchId": "t_mrx48eyu",
+    "repeat": null,
+    "fromLesson": "lesson_1784787228102_tfdcoa"
   }
 ]

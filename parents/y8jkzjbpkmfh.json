@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T06:13:55.637Z",
+  "generatedAt": "2026-07-23T13:53:19.287Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,21 +48,39 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-23T06:11:12.234Z",
+    "uploadedAt": "2026-07-23T07:09:43.187Z",
     "summary": {
-      "todaySec": 1422,
-      "weekSec": 4346,
-      "monthSec": 10610,
+      "todaySec": 4331,
+      "weekSec": 7255,
+      "monthSec": 13519,
       "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 10610
+        "미적분Ⅰ": 13519
       }
     },
     "logs": [
       {
+        "id": "effort_mrx5w7bm7ao",
+        "startedAt": 1784789954554,
+        "seconds": 476,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrx59xaid35",
+        "startedAt": 1784788895882,
+        "seconds": 1034,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+        "reflection": ""
+      },
+      {
         "id": "effort_mrx417t00lr",
         "startedAt": 1784786773299,
-        "seconds": 275,
+        "seconds": 1674,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",

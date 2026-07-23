@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:49:17.484Z",
+  "generatedAt": "2026-07-23T08:08:26.426Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -333,7 +333,16 @@
     "endDate": "2026-07-26"
   },
   "teacherConfirms": {},
-  "tasks": [],
+  "tasks": [
+    {
+      "assignmentId": "task_1784794099894_94ldcq",
+      "round": 1,
+      "title": "공부 인증하기",
+      "dueDate": "2026-07-23",
+      "isRepeat": false,
+      "assignedAt": "2026-07-23T08:08:19.894Z"
+    }
+  ],
   "myGrades": [
     {
       "id": "grade_mq84lmdesa4",

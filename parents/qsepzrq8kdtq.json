@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T15:16:04.930Z",
+  "generatedAt": "2026-07-23T08:08:28.407Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -8,6 +8,31 @@
     "grade": "고2"
   },
   "months": [
+    {
+      "ym": "2026-07",
+      "label": "2026년 7월",
+      "lessons": [
+        {
+          "date": "2026-07-23",
+          "weekday": "목",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "공부 인증하기",
+              "dueDate": "2026-07-23",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        }
+      ],
+      "completionRate": null,
+      "noteStages": null
+    },
     {
       "ym": "2026-06",
       "label": "2026년 6월",

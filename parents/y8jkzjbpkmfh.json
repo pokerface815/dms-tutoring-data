@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-22T11:16:36.795Z",
+  "generatedAt": "2026-07-23T06:13:55.637Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-20T15:15:13.337Z",
+    "uploadedAt": "2026-07-23T06:11:12.234Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 2924,
-      "monthSec": 9188,
-      "streak": 0,
+      "todaySec": 1422,
+      "weekSec": 4346,
+      "monthSec": 10610,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 9188
+        "미적분Ⅰ": 10610
       }
     },
     "logs": [
+      {
+        "id": "effort_mrx417t00lr",
+        "startedAt": 1784786773299,
+        "seconds": 275,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrx3bp5i7f4",
+        "startedAt": 1784785562715,
+        "seconds": 1147,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
+        "reflection": ""
+      },
       {
         "id": "effort_mrtbwn9hs8s",
         "startedAt": 1784558126633,

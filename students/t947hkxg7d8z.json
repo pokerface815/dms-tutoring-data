@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-22T11:16:38.898Z",
+  "generatedAt": "2026-07-23T06:14:03.910Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -575,6 +575,14 @@
       "dueDate": "2026-07-22",
       "isRepeat": false,
       "assignedAt": "2026-07-20T15:15:45.784Z"
+    },
+    {
+      "assignmentId": "task_1784787228102_vrfd5r",
+      "round": 1,
+      "title": "63쪽까지 풀어오기",
+      "dueDate": "2026-07-25",
+      "isRepeat": false,
+      "assignedAt": "2026-07-23T06:13:48.102Z"
     }
   ],
   "myGrades": [

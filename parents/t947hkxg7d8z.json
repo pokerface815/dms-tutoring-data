@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T06:07:28.373Z",
+  "generatedAt": "2026-07-23T06:14:05.158Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-22",
+          "weekday": "수",
+          "className": "조예나 개별",
+          "content": "~ 63쪽 평균변화율과 미분계수",
+          "task": "63쪽까지 풀어오기",
+          "taskDue": "2026-07-25",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-20",
           "weekday": "월",

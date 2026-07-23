@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-23T08:08:06.887Z",
+  "generatedAt": "2026-07-23T13:53:18.110Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -53,7 +53,7 @@
       "method": "강의 시청",
       "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
       "reflection": "",
-      "seconds": 700,
+      "seconds": 4913,
       "startedAt": 1784786275645,
       "createdAt": "2026-07-23T05:58:57.239Z",
       "autoRecorded": true
@@ -78,15 +78,15 @@
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
         "durationSec": 5173,
-        "lastPosition": 703,
-        "lastWatchedAt": "2026-07-23T06:11:50.122Z",
-        "watchedSec": 700
+        "lastPosition": 4995,
+        "lastWatchedAt": "2026-07-23T09:06:57.155Z",
+        "watchedSec": 4913
       }
     },
     "daily": {
       "2026-07-23": {
         "-AeZPJJq6M0": 3119,
-        "4oCcIG5bOxY": 700
+        "4oCcIG5bOxY": 4913
       }
     }
   },

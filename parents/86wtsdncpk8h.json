@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-18T11:27:34.882Z",
+  "generatedAt": "2026-07-24T01:11:58.442Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -63,7 +63,7 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-18T10:32:35.141Z",
+    "uploadedAt": "2026-07-23T17:14:37.050Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
@@ -115,15 +115,6 @@
         "subject": "영어",
         "method": "문제 풀이",
         "content": "모의고사공부",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqqswg1jm3c",
-        "startedAt": 1782227000455,
-        "seconds": 1614,
-        "subject": "수학",
-        "method": "문제 풀이",
-        "content": "확통마더텅56-74",
         "reflection": ""
       }
     ]

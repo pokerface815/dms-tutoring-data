@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:49:29.143Z",
+  "generatedAt": "2026-07-24T05:03:57.715Z",
   "student": {
     "id": "s_1778402500926_7fxigp",
     "classes": [
@@ -46,9 +46,33 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1784869417425_mbvf7e",
+      "noteName": "정찬민_개념루트_함수의 극한(~54번)",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-07-24",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1784869417425_mbvf7e",
+      "noteName": "정찬민_개념루트_함수의 극한(~54번)",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-07-26",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1782406005680_55wn8m",
@@ -292,7 +316,7 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 2,
     "done": 0,
     "percent": 0,
     "startDate": "2026-07-20",

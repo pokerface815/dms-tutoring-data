@@ -1597,6 +1597,7 @@
   let _ytPlayerCheckpointTimer = null;  // 1분마다 시청/학습 기록을 서버에 체크포인트 업로드
   let _ytPlayerCurrent = null;  // {lecId, videoId, lectureTitle, videoTitle, durationSec}
   let _ytLastTickTime = 0;  // 마지막 tick에서의 currentTime
+  let _ytLastTickWall = 0;  // 마지막 tick의 실제 시각(ms) — 배속/백그라운드 보정용
   // sync 상태
   let _lectureSyncTimer = null;
   let _lectureSyncStatus = 'idle';
@@ -2503,6 +2504,7 @@
     const state = e.data;
     if (state === YT.PlayerState.PLAYING) {
       _ytLastTickTime = (typeof e.target.getCurrentTime === 'function') ? e.target.getCurrentTime() : 0;
+      _ytLastTickWall = Date.now();
       startLectureTick();
       startCheckpointTimer();
     } else if (state === YT.PlayerState.PAUSED || state === YT.PlayerState.BUFFERING) {
@@ -2570,15 +2572,25 @@
     w.durationSec = durationSec || w.durationSec || 0;
     w.lastPosition = Math.floor(curTime);
     w.lastWatchedAt = new Date().toISOString();
-    // 직전 tick 시각과 비교 — 정상 재생인 경우 (0~3초 차이)만 누적
-    const delta = curTime - _ytLastTickTime;
-    if (delta > 0 && delta < 3.5) {
-      const deltaInt = Math.round(delta);
-      w.watchedSec = (w.watchedSec || 0) + deltaInt;
+    // 재생 위치 진행량(playDelta)을 누적하되, 되감기/건너뛰기(seek)는 배제.
+    // 판정 기준: 실제 경과시간(wallDelta) × 배속(rate) + 지터 여유.
+    //  - 배속 시청: 1초 tick에 재생이 2~3초 진행돼도 정상으로 인정 (기존 고정 3.5초 컷 문제 해결)
+    //  - 백그라운드로 tick이 밀려 wallDelta가 커진 경우도 그만큼 정상 누적
+    //  - 앞으로 크게 건너뛰면 playDelta ≫ 허용치 → 배제
+    const now = Date.now();
+    const wallDelta = _ytLastTickWall ? (now - _ytLastTickWall) / 1000 : 1;
+    let rate = 1;
+    try { if (_ytPlayer && _ytPlayer.getPlaybackRate) rate = _ytPlayer.getPlaybackRate() || 1; } catch(e) {}
+    const playDelta = curTime - _ytLastTickTime;
+    const maxPlausible = wallDelta * rate + 2;  // 2초 지터 허용
+    if (playDelta > 0 && playDelta <= maxPlausible) {
+      const inc = Math.round(playDelta);
+      w.watchedSec = (w.watchedSec || 0) + inc;
       // 일별 누적 — 요일별 통계용
-      recordDailyLectureWatch(videoId, deltaInt);
+      recordDailyLectureWatch(videoId, inc);
     }
     _ytLastTickTime = curTime;
+    _ytLastTickWall = now;
     saveLectureWatch(watch);
 
     // UI 업데이트 (재생 중 표시)

@@ -2849,5 +2849,39 @@
     "assignedAt": "2026-07-23T08:08:19.894Z",
     "batchId": "t_mrx8bp9y",
     "repeat": null
+  },
+  {
+    "id": "a_1784869417425_mbvf7e",
+    "noteId": "note_1784869406835_64qviu",
+    "noteName": "정찬민_개념루트_함수의 극한(~54번)",
+    "studentId": "s_1778402500926_7fxigp",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-07-24",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-07-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-07-31",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-08-14",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-07-24T05:03:37.425Z"
   }
 ]

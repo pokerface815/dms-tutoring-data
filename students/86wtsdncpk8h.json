@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:49:21.175Z",
+  "generatedAt": "2026-07-24T01:12:00.160Z",
   "student": {
     "id": "s_1777547014208_7l30nn",
     "classes": [
@@ -283,5 +283,40 @@
   },
   "teacherConfirms": {},
   "tasks": [],
-  "myGrades": []
+  "myGrades": [
+    {
+      "id": "grade_mry8vp03zos",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "1",
+      "subject": "공통수학1",
+      "examKind": "중간",
+      "score": 86,
+      "grade": 1,
+      "rank": 9,
+      "totalStudents": 211,
+      "percent": 4.3,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-23T17:19:47.279Z",
+      "createdAt": "2026-07-24T01:11:38.836Z"
+    },
+    {
+      "id": "grade_mry8vp04k3j",
+      "type": "naesin",
+      "year": 2025,
+      "semester": "1",
+      "subject": "공통수학1",
+      "examKind": "기말",
+      "score": 92,
+      "grade": 1,
+      "rank": 9,
+      "totalStudents": 211,
+      "percent": 4.3,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-23T17:19:47.279Z",
+      "createdAt": "2026-07-24T01:11:38.836Z"
+    }
+  ]
 }

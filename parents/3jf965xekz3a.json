@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T13:53:16.648Z",
+  "generatedAt": "2026-07-24T01:11:51.760Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -30,7 +30,11 @@
           "hasLesson": false
         }
       ],
-      "completionRate": null,
+      "completionRate": {
+        "done": 0,
+        "total": 1,
+        "percent": 0
+      },
       "noteStages": null
     }
   ],
@@ -39,7 +43,7 @@
     "enabled": true,
     "uploadedAt": "2026-07-23T07:26:24.030Z",
     "summary": {
-      "todaySec": 8032,
+      "todaySec": 0,
       "weekSec": 8032,
       "monthSec": 8498,
       "streak": 1,

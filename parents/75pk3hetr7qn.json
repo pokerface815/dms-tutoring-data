@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T13:53:27.689Z",
+  "generatedAt": "2026-07-24T01:11:44.567Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,21 +11,21 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-23T13:36:06.094Z",
+    "uploadedAt": "2026-07-23T14:01:09.139Z",
     "summary": {
-      "todaySec": 2791,
-      "weekSec": 2791,
-      "monthSec": 7165,
+      "todaySec": 0,
+      "weekSec": 4672,
+      "monthSec": 9046,
       "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 7165
+        "미적분Ⅰ": 9046
       }
     },
     "logs": [
       {
         "id": "effort_mrxjr535qek",
         "startedAt": 1784813230968,
-        "seconds": 525,
+        "seconds": 2406,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",

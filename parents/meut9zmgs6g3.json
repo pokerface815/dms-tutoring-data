@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T05:10:29.621Z",
+  "generatedAt": "2026-07-25T05:09:26.898Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -63,17 +63,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-11T06:17:23.822Z",
+    "uploadedAt": "2026-07-25T04:20:30.952Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 3134,
-      "streak": 0,
+      "todaySec": 414,
+      "weekSec": 414,
+      "monthSec": 3548,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 3134
+        "미적분Ⅰ": 3548
       }
     },
     "logs": [
+      {
+        "id": "effort_mrzuy5x5ymx",
+        "startedAt": 1784952959574,
+        "seconds": 246,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrzuraedkp8",
+        "startedAt": 1784952600667,
+        "seconds": 168,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
+        "reflection": ""
+      },
       {
         "id": "effort_mrfx57mlunm",
         "startedAt": 1783747299998,

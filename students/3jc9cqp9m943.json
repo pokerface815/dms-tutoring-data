@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-25T05:09:23.798Z",
+  "generatedAt": "2026-07-25T08:18:17.728Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -12,9 +12,61 @@
     "class": "",
     "showMakeNote": false
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrzxaevybyy",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+      "reflection": "",
+      "seconds": 1358,
+      "startedAt": 1784956601567,
+      "createdAt": "2026-07-25T05:22:42.526Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrzzdoz9836",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+      "reflection": "",
+      "seconds": 969,
+      "startedAt": 1784960370508,
+      "createdAt": "2026-07-25T06:21:14.806Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "JH_MD-p63IA": {
+        "sessionCount": 3,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+        "durationSec": 4183,
+        "lastPosition": 4169,
+        "lastWatchedAt": "2026-07-25T05:46:41.149Z",
+        "watchedSec": 1384
+      },
+      "A7CrbLfr5VY": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "8~12쪽 두 점 사이의 거리",
+        "durationSec": 2912,
+        "lastPosition": 507,
+        "lastWatchedAt": "2026-07-25T07:10:00.621Z",
+        "watchedSec": 969
+      }
+    },
+    "daily": {
+      "2026-07-25": {
+        "JH_MD-p63IA": 1384,
+        "A7CrbLfr5VY": 969
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

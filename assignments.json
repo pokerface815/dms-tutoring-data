@@ -2885,5 +2885,16 @@
       }
     ],
     "createdAt": "2026-07-24T05:03:37.425Z"
+  },
+  {
+    "id": "task_1784983604781_s6alsw",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "79쪽까지 풀어오기",
+    "dueDate": "2026-07-27",
+    "assignedAt": "2026-07-25T12:46:44.781Z",
+    "batchId": "t_ms0d5g6l",
+    "repeat": null,
+    "fromLesson": "lesson_1784983604781_kb22xc"
   }
 ]

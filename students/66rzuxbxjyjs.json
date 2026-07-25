@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-24T05:03:43.862Z",
+  "generatedAt": "2026-07-25T04:51:16.473Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -96,9 +96,31 @@
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
       "reflection": "",
-      "seconds": 380,
+      "seconds": 577,
       "startedAt": 1784867565475,
       "createdAt": "2026-07-24T04:34:31.060Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrygr4ib8n0",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 95~105쪽 이차방정식과 이차함수의 관계",
+      "reflection": "",
+      "seconds": 106,
+      "startedAt": 1784868601267,
+      "createdAt": "2026-07-24T04:52:02.579Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrygyst0cit",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 95~105쪽 이차방정식과 이차함수의 관계",
+      "reflection": "",
+      "seconds": 1053,
+      "startedAt": 1784869007141,
+      "createdAt": "2026-07-24T04:58:00.660Z",
       "autoRecorded": true
     }
   ],
@@ -146,24 +168,24 @@
         "watchedSec": 1729
       },
       "Lwm2o1aNceI": {
-        "watchedSec": 649,
-        "lastPosition": 2741,
+        "watchedSec": 846,
+        "lastPosition": 3463,
         "sessionCount": 3,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
         "durationSec": 4395,
-        "lastWatchedAt": "2026-07-24T04:42:35.712Z"
+        "lastWatchedAt": "2026-07-24T04:49:47.644Z"
       },
       "TE0dmnIF-aU": {
-        "sessionCount": 3,
+        "sessionCount": 6,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "95~105쪽 이차방정식과 이차함수의 관계",
         "durationSec": 4202,
-        "lastPosition": 212,
-        "lastWatchedAt": "2026-07-24T04:32:41.682Z",
-        "watchedSec": 160
+        "lastPosition": 4201,
+        "lastWatchedAt": "2026-07-24T06:31:50.553Z",
+        "watchedSec": 1325
       },
       "sJH5b7SkTL4": {
         "sessionCount": 1,
@@ -195,8 +217,8 @@
         "TE0dmnIF-aU": 8
       },
       "2026-07-24": {
-        "TE0dmnIF-aU": 152,
-        "Lwm2o1aNceI": 380
+        "TE0dmnIF-aU": 1317,
+        "Lwm2o1aNceI": 577
       }
     }
   },

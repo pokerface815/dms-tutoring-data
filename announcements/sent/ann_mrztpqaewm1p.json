@@ -1,0 +1,16 @@
+{
+  "id": "ann_mrztpqaewm1p",
+  "sentAt": "2026-07-25T12:42:53.311262+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "남옥빈",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T05:03:44.877Z",
-  "studentCount": 51,
+  "generatedAt": "2026-07-25T04:51:41.291Z",
+  "studentCount": 52,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -69,7 +69,7 @@
       "totalSec": 13519,
       "weekSec": 7255,
       "monthSec": 13519,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -159,7 +159,7 @@
       "totalSec": 64746,
       "weekSec": 17760,
       "monthSec": 54282,
-      "streak": 3,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -369,7 +369,7 @@
       "totalSec": 8498,
       "weekSec": 8032,
       "monthSec": 8498,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -419,7 +419,7 @@
       "totalSec": 1982,
       "weekSec": 1982,
       "monthSec": 1982,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -466,9 +466,9 @@
     {
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
-      "totalSec": 4660,
-      "weekSec": 762,
-      "monthSec": 4660,
+      "totalSec": 6016,
+      "weekSec": 2118,
+      "monthSec": 6016,
       "streak": 1,
       "nickname": "",
       "publicNickname": false
@@ -486,10 +486,10 @@
     {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
-      "totalSec": 9834,
-      "weekSec": 9834,
-      "monthSec": 9834,
-      "streak": 2,
+      "totalSec": 13406,
+      "weekSec": 13406,
+      "monthSec": 13406,
+      "streak": 3,
       "nickname": "",
       "publicNickname": false
     },
@@ -509,7 +509,17 @@
       "totalSec": 9046,
       "weekSec": 4672,
       "monthSec": 9046,
-      "streak": 1,
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
+      "id": "s_1784950950171_2ycwdo",
+      "name": "남옥빈",
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     }

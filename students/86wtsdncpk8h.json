@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-24T01:12:00.160Z",
+  "generatedAt": "2026-07-25T10:50:26.775Z",
   "student": {
     "id": "s_1777547014208_7l30nn",
     "classes": [
@@ -317,6 +317,74 @@
       "teacherEdited": false,
       "sourceSubmittedAt": "2026-07-23T17:19:47.279Z",
       "createdAt": "2026-07-24T01:11:38.836Z"
+    },
+    {
+      "id": "grade_ms08yab75of",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "중간",
+      "score": 76,
+      "grade": 1,
+      "rank": 21,
+      "totalStudents": 204,
+      "percent": 10.3,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-23T17:18:06.002Z",
+      "createdAt": "2026-07-25T10:49:12.115Z"
+    },
+    {
+      "id": "grade_ms08yab7d91",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "기말",
+      "score": 100,
+      "grade": 1,
+      "rank": 1,
+      "totalStudents": 203,
+      "percent": 0.5,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-23T17:18:06.002Z",
+      "createdAt": "2026-07-25T10:49:12.115Z"
+    },
+    {
+      "id": "grade_ms08yab718s",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "확률과 통계",
+      "examKind": "기말",
+      "score": 95,
+      "grade": null,
+      "rank": 6,
+      "totalStudents": 194,
+      "percent": 3.1,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-23T17:18:06.002Z",
+      "createdAt": "2026-07-25T10:49:12.115Z"
+    },
+    {
+      "id": "grade_ms08yab7snl",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "확률과 통계",
+      "examKind": "중간",
+      "score": 92,
+      "grade": 1,
+      "rank": 4,
+      "totalStudents": 196,
+      "percent": 2,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-07-23T17:18:06.002Z",
+      "createdAt": "2026-07-25T10:49:12.115Z"
     }
   ]
 }

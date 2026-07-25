@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T04:51:47.877Z",
+  "generatedAt": "2026-07-25T10:50:38.550Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -9,7 +9,39 @@
   },
   "months": [],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-07-25T06:54:27.003Z",
+    "summary": {
+      "todaySec": 2327,
+      "weekSec": 2327,
+      "monthSec": 2327,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학2": 2327
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mrzzdoz9836",
+        "startedAt": 1784960370508,
+        "seconds": 969,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrzxaevybyy",
+        "startedAt": 1784956601567,
+        "seconds": 1358,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

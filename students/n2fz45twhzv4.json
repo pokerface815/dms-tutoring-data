@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:49:33.655Z",
+  "generatedAt": "2026-07-25T10:50:30.484Z",
   "student": {
     "id": "s_1778768401651_7hlihp",
     "classes": [
@@ -115,5 +115,23 @@
   },
   "teacherConfirms": {},
   "tasks": [],
-  "myGrades": []
+  "myGrades": [
+    {
+      "id": "grade_ms08zkzl669",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "대수",
+      "examKind": "기말",
+      "score": 98,
+      "grade": 1,
+      "rank": null,
+      "totalStudents": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-06-15T02:48:23.762Z",
+      "createdAt": "2026-07-25T10:50:12.609Z"
+    }
+  ]
 }

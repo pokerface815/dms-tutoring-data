@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T15:16:03.190Z",
+  "generatedAt": "2026-07-25T04:51:20.737Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -8,6 +8,19 @@
     "grade": "고2"
   },
   "months": [
+    {
+      "ym": "2026-07",
+      "label": "2026년 7월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 0,
+          "total": 1,
+          "percent": 0
+        }
+      }
+    },
     {
       "ym": "2026-06",
       "label": "2026년 6월",
@@ -58,7 +71,7 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-19T01:55:00.245Z",
+    "uploadedAt": "2026-07-24T04:51:19.098Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,

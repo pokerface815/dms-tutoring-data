@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T01:11:53.740Z",
+  "generatedAt": "2026-07-25T10:50:35.174Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,17 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-22T11:55:24.813Z",
+    "uploadedAt": "2026-07-25T09:13:41.631Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 4651,
-      "monthSec": 6643,
-      "streak": 0,
+      "todaySec": 187,
+      "weekSec": 4838,
+      "monthSec": 6830,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 6643
+        "미적분Ⅰ": 6830
       }
     },
     "logs": [
+      {
+        "id": "effort_ms05awgztrm",
+        "startedAt": 1784970314635,
+        "seconds": 187,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
+        "reflection": ""
+      },
       {
         "id": "effort_mrvy6k91dvb",
         "startedAt": 1784716534973,

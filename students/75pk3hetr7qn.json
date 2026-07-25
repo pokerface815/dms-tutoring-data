@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-24T01:11:45.876Z",
+  "generatedAt": "2026-07-25T05:09:25.882Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -55,6 +55,17 @@
       "seconds": 2406,
       "startedAt": 1784813230968,
       "createdAt": "2026-07-23T13:28:16.001Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrzt99si4o3",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
+      "reflection": "",
+      "seconds": 4100,
+      "startedAt": 1784949966705,
+      "createdAt": "2026-07-25T03:29:50.802Z",
       "autoRecorded": true
     }
   ],

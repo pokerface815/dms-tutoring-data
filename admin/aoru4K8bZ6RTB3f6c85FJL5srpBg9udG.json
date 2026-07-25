@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T05:09:18.445Z",
+  "generatedAt": "2026-07-25T04:51:44.397Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 51,
+  "studentCount": 52,
   "baseUrl": "",
   "students": [
     {
@@ -463,6 +463,15 @@
       "className": "토,일 2시",
       "studentPageCode": "75pk3hetr7qn",
       "parentPageCode": "75pk3hetr7qn"
+    },
+    {
+      "id": "s_1784950950171_2ycwdo",
+      "name": "남옥빈",
+      "grade": "고1",
+      "school": "살레시오고",
+      "className": "토,일 12시 30분",
+      "studentPageCode": "3jc9cqp9m943",
+      "parentPageCode": "3jc9cqp9m943"
     }
   ]
 }

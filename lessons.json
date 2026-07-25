@@ -714,5 +714,16 @@
     "taskBatchId": "t_mrx48eyu",
     "createdAt": "2026-07-23T06:13:48.102Z",
     "updatedAt": "2026-07-23T06:13:48.102Z"
+  },
+  {
+    "id": "lesson_1784983604781_kb22xc",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-25",
+    "content": "~79쪽 미분가능성과 연속, 도함수",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_ms0d5g6l",
+    "createdAt": "2026-07-25T12:46:44.781Z",
+    "updatedAt": "2026-07-25T12:46:44.781Z"
   }
 ]

@@ -154,7 +154,14 @@
     "year": 2026,
     "semester": "1",
     "subject": "대수",
-    "cutsByExamKind": {},
+    "cutsByExamKind": {
+      "중간": [
+        76.1,
+        null,
+        null,
+        null
+      ]
+    },
     "averagesByExamKind": {},
     "notesByExamKind": {
       "중간": "지수함수, 로그함수, 삼각함수의 정의, 삼각함수의 그래프",

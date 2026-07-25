@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-25T11:05:08.980Z",
+  "generatedAt": "2026-07-25T12:46:56.736Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -485,6 +485,10 @@
     "task_1784560545784_a6sa33__1": {
       "confirmed": true,
       "confirmedAt": "2026-07-22T11:16:03.489Z"
+    },
+    "task_1784787228102_vrfd5r__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-07-25T12:46:50.839Z"
     }
   },
   "tasks": [
@@ -583,6 +587,14 @@
       "dueDate": "2026-07-25",
       "isRepeat": false,
       "assignedAt": "2026-07-23T06:13:48.102Z"
+    },
+    {
+      "assignmentId": "task_1784983604781_s6alsw",
+      "round": 1,
+      "title": "79쪽까지 풀어오기",
+      "dueDate": "2026-07-27",
+      "isRepeat": false,
+      "assignedAt": "2026-07-25T12:46:44.781Z"
     }
   ],
   "myGrades": [

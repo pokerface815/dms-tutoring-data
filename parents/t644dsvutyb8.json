@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-13T18:37:21.697Z",
+  "generatedAt": "2026-07-25T10:50:31.935Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -100,17 +100,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_mqtezlop4n9",
-        "startedAt": 1782381894263,
-        "seconds": 4742,
-        "subject": "수학",
-        "method": "문제 풀이",
-        "content": "프린트",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

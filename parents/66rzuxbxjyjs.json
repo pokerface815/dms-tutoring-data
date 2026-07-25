@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T05:03:42.559Z",
+  "generatedAt": "2026-07-25T03:42:38.686Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -44,21 +44,39 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-24T04:42:31.962Z",
+    "uploadedAt": "2026-07-24T06:31:47.517Z",
     "summary": {
-      "todaySec": 518,
-      "weekSec": 762,
-      "monthSec": 4660,
+      "todaySec": 0,
+      "weekSec": 2118,
+      "monthSec": 6016,
       "streak": 1,
       "bySubjectMonth": {
-        "공통수학1": 4660
+        "공통수학1": 6016
       }
     },
     "logs": [
       {
+        "id": "effort_mrygyst0cit",
+        "startedAt": 1784869007141,
+        "seconds": 1053,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 95~105쪽 이차방정식과 이차함수의 관계",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrygr4ib8n0",
+        "startedAt": 1784868601267,
+        "seconds": 106,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 95~105쪽 이차방정식과 이차함수의 관계",
+        "reflection": ""
+      },
+      {
         "id": "effort_mryg4l5gnqi",
         "startedAt": 1784867565475,
-        "seconds": 380,
+        "seconds": 577,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 84~94쪽 이차방정식의 판별식, 근과 계수의 관계",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T04:51:41.291Z",
+  "generatedAt": "2026-07-25T05:09:36.825Z",
   "studentCount": 52,
   "rankings": [
     {
@@ -66,10 +66,10 @@
     {
       "id": "s_1778397156600_clkd2u",
       "name": "서연준",
-      "totalSec": 13519,
-      "weekSec": 7255,
-      "monthSec": 13519,
-      "streak": 0,
+      "totalSec": 14122,
+      "weekSec": 7858,
+      "monthSec": 14122,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -126,10 +126,10 @@
     {
       "id": "s_1778908285779_1cmzde",
       "name": "서은영",
-      "totalSec": 3134,
-      "weekSec": 0,
-      "monthSec": 3134,
-      "streak": 0,
+      "totalSec": 3548,
+      "weekSec": 414,
+      "monthSec": 3548,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -506,10 +506,10 @@
     {
       "id": "s_1784437736068_jgkmca",
       "name": "조해인",
-      "totalSec": 9046,
-      "weekSec": 4672,
-      "monthSec": 9046,
-      "streak": 0,
+      "totalSec": 13146,
+      "weekSec": 8772,
+      "monthSec": 13146,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

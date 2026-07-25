@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-23T13:53:20.414Z",
+  "generatedAt": "2026-07-25T05:09:32.268Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -144,6 +144,28 @@
       "startedAt": 1784789954554,
       "createdAt": "2026-07-23T07:00:17.554Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mrzo7bw5yje",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+      "reflection": "",
+      "seconds": 474,
+      "startedAt": 1784941139776,
+      "createdAt": "2026-07-25T01:08:22.133Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrzoucflwm5",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+      "reflection": "",
+      "seconds": 129,
+      "startedAt": 1784942712932,
+      "createdAt": "2026-07-25T01:26:15.921Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -210,14 +232,24 @@
         "watchedSec": 2708
       },
       "7pfVUyQLMjs": {
-        "sessionCount": 3,
+        "sessionCount": 6,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
         "durationSec": 5213,
-        "lastPosition": 1824,
-        "lastWatchedAt": "2026-07-23T07:19:19.479Z",
-        "watchedSec": 478
+        "lastPosition": 4625,
+        "lastWatchedAt": "2026-07-25T01:27:27.114Z",
+        "watchedSec": 1094
+      },
+      "KuzIK3RkqvM": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "52~59쪽 평균변화율과 미분계수",
+        "durationSec": 4899,
+        "lastPosition": 105,
+        "lastWatchedAt": "2026-07-25T00:49:47.434Z",
+        "watchedSec": 12
       }
     },
     "daily": {
@@ -241,6 +273,10 @@
         "WhKzMT5MG0A": 1147,
         "JlBX5IRj9d8": 2708,
         "7pfVUyQLMjs": 478
+      },
+      "2026-07-25": {
+        "KuzIK3RkqvM": 12,
+        "7pfVUyQLMjs": 616
       }
     }
   },

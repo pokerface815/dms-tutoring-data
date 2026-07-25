@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-23T06:14:03.910Z",
+  "generatedAt": "2026-07-25T10:50:28.798Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -600,7 +600,7 @@
       "percent": null,
       "reflection": "",
       "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-16T12:21:18.367Z",
+      "sourceSubmittedAt": "2026-06-16T01:58:23.803Z",
       "createdAt": "2026-06-09T07:21:05.397Z"
     },
     {
@@ -661,6 +661,40 @@
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-07-08T02:24:07.383Z"
+    },
+    {
+      "id": "grade_ms08zg0b36n",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "미적분2",
+      "examKind": "중간",
+      "score": null,
+      "grade": null,
+      "rank": null,
+      "totalStudents": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-06-16T01:25:23.992Z",
+      "createdAt": "2026-07-25T10:50:06.155Z"
+    },
+    {
+      "id": "grade_ms08zg0by2o",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "1",
+      "subject": "기하",
+      "examKind": "중간",
+      "score": null,
+      "grade": null,
+      "rank": null,
+      "totalStudents": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": false,
+      "sourceSubmittedAt": "2026-06-16T01:25:23.992Z",
+      "createdAt": "2026-07-25T10:50:06.155Z"
     }
   ]
 }

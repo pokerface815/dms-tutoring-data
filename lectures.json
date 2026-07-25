@@ -1240,19 +1240,25 @@
     "subject": "미적분Ⅰ",
     "textbook": "쎈B",
     "memo": "",
-    "thumbnailUrl": "https://i.ytimg.com/vi/CKqE0FRKe3E/mqdefault.jpg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/zTU6KH33XE0/mqdefault.jpg",
     "videos": [
-      {
-        "videoId": "CKqE0FRKe3E",
-        "title": "6~16쪽 01.함수의 극한",
-        "position": 0,
-        "durationSec": 3590
-      },
       {
         "videoId": "zTU6KH33XE0",
         "title": "17~28쪽 02.함수의 연속",
-        "position": 1,
+        "position": 0,
         "durationSec": 5500
+      },
+      {
+        "videoId": "CKqE0FRKe3E",
+        "title": "6~16쪽 01.함수의 극한",
+        "position": 1,
+        "durationSec": 3590
+      },
+      {
+        "videoId": "k6AFw2p_59k",
+        "title": "4",
+        "position": 2,
+        "durationSec": 3146
       }
     ],
     "permissions": {
@@ -1261,8 +1267,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-07-19T15:49:14.603Z",
-    "lastSyncedAt": "2026-07-19T15:49:14.603Z"
+    "updatedAt": "2026-07-25T14:06:55.203Z",
+    "lastSyncedAt": "2026-07-25T14:06:55.203Z"
   },
   {
     "id": "lec_mrq9a1wrhru",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T06:14:05.158Z",
+  "generatedAt": "2026-07-25T12:46:58.242Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-25",
+          "weekday": "토",
+          "className": "조예나 개별",
+          "content": "~79쪽 미분가능성과 연속, 도함수",
+          "task": "79쪽까지 풀어오기",
+          "taskDue": "2026-07-27",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-22",
           "weekday": "수",

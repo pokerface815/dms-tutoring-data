@@ -1121,6 +1121,12 @@
         "title": "27~33쪽 직선의 방정식",
         "position": 3,
         "durationSec": 4060
+      },
+      {
+        "videoId": "RPAkWzqtvew",
+        "title": "1",
+        "position": 4,
+        "durationSec": 3760
       }
     ],
     "permissions": {
@@ -1129,8 +1135,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-07-19T15:49:00.378Z",
-    "lastSyncedAt": "2026-07-19T15:49:00.378Z"
+    "updatedAt": "2026-07-25T14:06:41.013Z",
+    "lastSyncedAt": "2026-07-25T14:06:41.013Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1165,6 +1171,12 @@
         "title": "28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
         "position": 3,
         "durationSec": 4183
+      },
+      {
+        "videoId": "TCuJxUzKNSo",
+        "title": "2",
+        "position": 4,
+        "durationSec": 3743
       }
     ],
     "permissions": {
@@ -1173,8 +1185,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-07-19T15:49:02.984Z",
-    "lastSyncedAt": "2026-07-19T15:49:02.984Z"
+    "updatedAt": "2026-07-25T14:06:44.489Z",
+    "lastSyncedAt": "2026-07-25T14:06:44.489Z"
   },
   {
     "id": "lec_mririwvdtb6",
@@ -1184,13 +1196,13 @@
     "subject": "미적분Ⅰ",
     "textbook": "개념루트",
     "memo": "",
-    "thumbnailUrl": "https://i.ytimg.com/vi/-AeZPJJq6M0/mqdefault.jpg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/35fLmSRhScA/mqdefault.jpg",
     "videos": [
       {
-        "videoId": "-AeZPJJq6M0",
-        "title": "8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
+        "videoId": "35fLmSRhScA",
+        "title": "30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
         "position": 0,
-        "durationSec": 3182
+        "durationSec": 4754
       },
       {
         "videoId": "4oCcIG5bOxY",
@@ -1199,10 +1211,16 @@
         "durationSec": 5173
       },
       {
-        "videoId": "35fLmSRhScA",
-        "title": "30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
+        "videoId": "-AeZPJJq6M0",
+        "title": "8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
         "position": 2,
-        "durationSec": 4754
+        "durationSec": 3182
+      },
+      {
+        "videoId": "druHHRnA4jk",
+        "title": "3",
+        "position": 3,
+        "durationSec": 5637
       }
     ],
     "permissions": {
@@ -1211,8 +1229,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-07-19T15:49:07.743Z",
-    "lastSyncedAt": "2026-07-19T15:49:07.743Z"
+    "updatedAt": "2026-07-25T14:06:52.591Z",
+    "lastSyncedAt": "2026-07-25T14:06:52.591Z"
   },
   {
     "id": "lec_mrq99fx1qmz",

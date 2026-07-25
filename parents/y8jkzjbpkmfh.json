@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T04:51:38.655Z",
+  "generatedAt": "2026-07-25T05:09:31.283Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-23T07:09:43.187Z",
+    "uploadedAt": "2026-07-25T01:27:24.779Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 7255,
-      "monthSec": 13519,
-      "streak": 0,
+      "todaySec": 603,
+      "weekSec": 7858,
+      "monthSec": 14122,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 13519
+        "미적분Ⅰ": 14122
       }
     },
     "logs": [
+      {
+        "id": "effort_mrzoucflwm5",
+        "startedAt": 1784942712932,
+        "seconds": 129,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrzo7bw5yje",
+        "startedAt": 1784941139776,
+        "seconds": 474,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+        "reflection": ""
+      },
       {
         "id": "effort_mrx5w7bm7ao",
         "startedAt": 1784789954554,

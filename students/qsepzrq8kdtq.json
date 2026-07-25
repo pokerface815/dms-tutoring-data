@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-23T13:53:15.500Z",
+  "generatedAt": "2026-07-25T10:50:23.466Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -50,16 +50,6 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
-      "ELcNM4V5h4E": {
-        "sessionCount": 1,
-        "lectureId": "lec_mrq9a1wrhru",
-        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
-        "videoTitle": "5",
-        "durationSec": 2768,
-        "lastPosition": 2581,
-        "lastWatchedAt": "2026-07-18T17:18:00.103Z",
-        "watchedSec": 268
-      },
       "JlBX5IRj9d8": {
         "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
@@ -79,13 +69,36 @@
         "lastPosition": 4462,
         "lastWatchedAt": "2026-07-18T19:02:24.486Z",
         "watchedSec": 511
+      },
+      "ELcNM4V5h4E": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq9a1wrhru",
+        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "5",
+        "durationSec": 2768,
+        "lastPosition": 2581,
+        "lastWatchedAt": "2026-07-18T17:18:00.103Z",
+        "watchedSec": 268
+      },
+      "pJC_OdUw6QE": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "durationSec": 4227,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-25T08:34:55.812Z",
+        "watchedSec": 2
       }
     },
     "daily": {
       "2026-07-19": {
-        "ELcNM4V5h4E": 268,
         "JlBX5IRj9d8": 565,
-        "7pfVUyQLMjs": 511
+        "7pfVUyQLMjs": 511,
+        "ELcNM4V5h4E": 268
+      },
+      "2026-07-25": {
+        "pJC_OdUw6QE": 2
       }
     }
   },

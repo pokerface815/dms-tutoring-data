@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:50:34.781Z",
+  "generatedAt": "2026-07-25T05:09:35.162Z",
   "student": {
     "id": "s_1783822161933_05uu7m",
     "classes": [
@@ -37,11 +37,24 @@
         "lastPosition": 1077,
         "lastWatchedAt": "2026-07-16T08:37:20.468Z",
         "watchedSec": 81
+      },
+      "7nbTNA-0qrk": {
+        "sessionCount": 2,
+        "lectureId": "lec_mrg80i3ervi",
+        "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "13~21쪽 선분의 내분점",
+        "durationSec": 3389,
+        "lastPosition": 2271,
+        "lastWatchedAt": "2026-07-25T01:01:53.714Z",
+        "watchedSec": 72
       }
     },
     "daily": {
       "2026-07-16": {
         "MUY1NAZSfLw": 81
+      },
+      "2026-07-25": {
+        "7nbTNA-0qrk": 72
       }
     }
   },

@@ -1462,5 +1462,40 @@
         "to": null
       }
     ]
+  },
+  {
+    "id": "s_1784950950171_2ycwdo",
+    "name": "남옥빈",
+    "school": "살레시오고",
+    "grade": "고1",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-5960-9641",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": false,
+    "pageCode": "3jc9cqp9m943",
+    "classHistory": [
+      {
+        "classId": "cls_1783741486590_iyer5b",
+        "from": "2026-07-25",
+        "to": null
+      }
+    ]
   }
 ]

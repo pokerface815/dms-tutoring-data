@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-25T04:51:16.473Z",
+  "generatedAt": "2026-07-25T10:50:17.721Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -122,6 +122,28 @@
       "startedAt": 1784869007141,
       "createdAt": "2026-07-24T04:58:00.660Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms04hfl3mkt",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",
+      "reflection": "",
+      "seconds": 664,
+      "startedAt": 1784968967753,
+      "createdAt": "2026-07-25T08:44:07.335Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms05cge8ugx",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",
+      "reflection": "",
+      "seconds": 739,
+      "startedAt": 1784970334064,
+      "createdAt": "2026-07-25T09:08:14.720Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -188,13 +210,14 @@
         "watchedSec": 1325
       },
       "sJH5b7SkTL4": {
-        "sessionCount": 1,
+        "sessionCount": 3,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "106~112쪽 이차함수의 최대, 최소",
         "durationSec": 4137,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-07-24T04:05:40.105Z"
+        "lastPosition": 1917,
+        "lastWatchedAt": "2026-07-25T10:38:09.991Z",
+        "watchedSec": 1403
       }
     },
     "daily": {
@@ -219,6 +242,9 @@
       "2026-07-24": {
         "TE0dmnIF-aU": 1317,
         "Lwm2o1aNceI": 577
+      },
+      "2026-07-25": {
+        "sJH5b7SkTL4": 1403
       }
     }
   },

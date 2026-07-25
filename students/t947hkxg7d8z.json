@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-25T10:50:28.798Z",
+  "generatedAt": "2026-07-25T11:04:51.652Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -661,40 +661,6 @@
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-07-08T02:24:07.383Z"
-    },
-    {
-      "id": "grade_ms08zg0b36n",
-      "type": "naesin",
-      "year": 2026,
-      "semester": "1",
-      "subject": "미적분2",
-      "examKind": "중간",
-      "score": null,
-      "grade": null,
-      "rank": null,
-      "totalStudents": null,
-      "percent": null,
-      "reflection": "",
-      "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-16T01:25:23.992Z",
-      "createdAt": "2026-07-25T10:50:06.155Z"
-    },
-    {
-      "id": "grade_ms08zg0by2o",
-      "type": "naesin",
-      "year": 2026,
-      "semester": "1",
-      "subject": "기하",
-      "examKind": "중간",
-      "score": null,
-      "grade": null,
-      "rank": null,
-      "totalStudents": null,
-      "percent": null,
-      "reflection": "",
-      "teacherEdited": false,
-      "sourceSubmittedAt": "2026-06-16T01:25:23.992Z",
-      "createdAt": "2026-07-25T10:50:06.155Z"
     }
   ]
 }

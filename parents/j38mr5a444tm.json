@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T01:11:48.457Z",
+  "generatedAt": "2026-07-25T03:42:35.337Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -11,18 +11,36 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-23T12:23:32.146Z",
+    "uploadedAt": "2026-07-24T12:51:25.831Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 9834,
-      "monthSec": 9834,
-      "streak": 2,
+      "weekSec": 13406,
+      "monthSec": 13406,
+      "streak": 3,
       "bySubjectMonth": {
-        "수학": 2230,
-        "미적분Ⅰ": 7604
+        "수학": 5289,
+        "미적분Ⅰ": 8117
       }
     },
     "logs": [
+      {
+        "id": "effort_mryxvmdd5zn",
+        "startedAt": 1784894338087,
+        "seconds": 3059,
+        "subject": "수학",
+        "method": "문제 풀이",
+        "content": "개념 플러스 유형 기하 1단원 연습문제 풀이",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mryhgjs1sid",
+        "startedAt": 1784869796121,
+        "seconds": 513,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "reflection": ""
+      },
       {
         "id": "effort_mrxg2c8afld",
         "startedAt": 1784807055625,

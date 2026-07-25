@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T08:18:20.962Z",
+  "generatedAt": "2026-07-25T10:50:21.647Z",
   "studentCount": 52,
   "rankings": [
     {
@@ -20,8 +20,8 @@
       "weekSec": 0,
       "monthSec": 1344,
       "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "오레오잉",
+      "publicNickname": true
     },
     {
       "id": "s_1777546978791_hsee5a",
@@ -336,10 +336,10 @@
     {
       "id": "s_1783141077746_ni5332",
       "name": "손아현",
-      "totalSec": 6643,
-      "weekSec": 4651,
-      "monthSec": 6643,
-      "streak": 0,
+      "totalSec": 6830,
+      "weekSec": 4838,
+      "monthSec": 6830,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -466,10 +466,10 @@
     {
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
-      "totalSec": 6016,
-      "weekSec": 2118,
-      "monthSec": 6016,
-      "streak": 1,
+      "totalSec": 7419,
+      "weekSec": 3521,
+      "monthSec": 7419,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },

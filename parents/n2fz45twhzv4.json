@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T09:38:16.063Z",
+  "generatedAt": "2026-07-26T03:20:23.252Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -64,24 +64,6 @@
         "subject": "수학",
         "method": "문제 풀이",
         "content": "테트",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqucttlbcq7",
-        "startedAt": 1782441966585,
-        "seconds": 1509,
-        "subject": "수학",
-        "method": "문제 풀이",
-        "content": "개념루트",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqtsdmalr71",
-        "startedAt": 1782407807803,
-        "seconds": 1317,
-        "subject": "수학",
-        "method": "문제 풀이",
-        "content": "개념루트",
         "reflection": ""
       }
     ]

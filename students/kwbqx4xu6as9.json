@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:49:39.480Z",
+  "generatedAt": "2026-07-26T03:19:45.672Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -67,6 +67,17 @@
       "startedAt": 1783731616499,
       "createdAt": "2026-07-11T01:01:27.121Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms11ut1fq7t",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
+      "reflection": "",
+      "seconds": 619,
+      "startedAt": 1785025027490,
+      "createdAt": "2026-07-26T00:18:18.627Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -93,14 +104,14 @@
         "watchedSec": 2011
       },
       "SADXbKNEfTQ": {
-        "sessionCount": 4,
+        "sessionCount": 5,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
         "durationSec": 2064,
-        "lastPosition": 1428,
-        "lastWatchedAt": "2026-07-11T01:06:50.248Z",
-        "watchedSec": 1431
+        "lastPosition": 2047,
+        "lastWatchedAt": "2026-07-26T00:27:29.064Z",
+        "watchedSec": 2050
       },
       "MUY1NAZSfLw": {
         "sessionCount": 1,
@@ -118,9 +129,9 @@
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "24~25쪽 다항식의 나눗셈 필수11,12",
         "durationSec": 2354,
-        "lastPosition": 657,
-        "lastWatchedAt": "2026-07-16T23:56:36.926Z",
-        "watchedSec": 54
+        "lastPosition": 663,
+        "lastWatchedAt": "2026-07-16T23:56:43.847Z",
+        "watchedSec": 59
       }
     },
     "daily": {
@@ -136,7 +147,10 @@
         "SADXbKNEfTQ": 1428
       },
       "2026-07-17": {
-        "dCZGTt9Xgvs": 54
+        "dCZGTt9Xgvs": 59
+      },
+      "2026-07-26": {
+        "SADXbKNEfTQ": 619
       }
     }
   },

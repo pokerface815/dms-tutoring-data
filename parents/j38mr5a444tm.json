@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T03:42:35.337Z",
+  "generatedAt": "2026-07-26T03:19:39.300Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -11,18 +11,36 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-24T12:51:25.831Z",
+    "uploadedAt": "2026-07-26T00:55:10.157Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 13406,
-      "monthSec": 13406,
-      "streak": 3,
+      "todaySec": 4211,
+      "weekSec": 17617,
+      "monthSec": 17617,
+      "streak": 1,
       "bySubjectMonth": {
         "수학": 5289,
-        "미적분Ⅰ": 8117
+        "미적분Ⅰ": 12328
       }
     },
     "logs": [
+      {
+        "id": "effort_ms127p1wi0u",
+        "startedAt": 1785025631510,
+        "seconds": 3023,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms11qvqfm97",
+        "startedAt": 1785024836365,
+        "seconds": 1188,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "reflection": ""
+      },
       {
         "id": "effort_mryxvmdd5zn",
         "startedAt": 1784894338087,

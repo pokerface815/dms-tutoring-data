@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T04:51:44.397Z",
+  "generatedAt": "2026-07-26T03:20:20.181Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 52,
+  "studentCount": 53,
   "baseUrl": "",
   "students": [
     {
@@ -472,6 +472,15 @@
       "className": "토,일 12시 30분",
       "studentPageCode": "3jc9cqp9m943",
       "parentPageCode": "3jc9cqp9m943"
+    },
+    {
+      "id": "s_1785035974019_bc13fy",
+      "name": "조한결",
+      "grade": "고1",
+      "school": "살레시오고",
+      "className": "토,일 12시 30분",
+      "studentPageCode": "naan7bk6dx9e",
+      "parentPageCode": "naan7bk6dx9e"
     }
   ]
 }

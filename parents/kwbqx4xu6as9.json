@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-14T02:19:51.415Z",
+  "generatedAt": "2026-07-26T03:19:43.214Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -197,18 +197,27 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-13T19:25:03.096Z",
+    "uploadedAt": "2026-07-26T00:27:29.060Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 3507,
-      "streak": 0,
+      "todaySec": 619,
+      "weekSec": 619,
+      "monthSec": 4126,
+      "streak": 1,
       "bySubjectMonth": {
-        "공통수학1": 3439,
+        "공통수학1": 4058,
         "미적분Ⅰ": 68
       }
     },
     "logs": [
+      {
+        "id": "effort_ms11ut1fq7t",
+        "startedAt": 1785025027490,
+        "seconds": 619,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
+        "reflection": ""
+      },
       {
         "id": "effort_mrfnsic1hb0",
         "startedAt": 1783731616499,

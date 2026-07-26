@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T14:06:53.011Z",
-  "studentCount": 52,
+  "generatedAt": "2026-07-26T03:20:16.703Z",
+  "studentCount": 53,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -146,10 +146,10 @@
     {
       "id": "s_1779948611035_qbdt5h",
       "name": "서준우",
-      "totalSec": 3507,
-      "weekSec": 0,
-      "monthSec": 3507,
-      "streak": 0,
+      "totalSec": 4126,
+      "weekSec": 619,
+      "monthSec": 4126,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -486,10 +486,10 @@
     {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
-      "totalSec": 13406,
-      "weekSec": 13406,
-      "monthSec": 13406,
-      "streak": 3,
+      "totalSec": 17617,
+      "weekSec": 17617,
+      "monthSec": 17617,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -520,6 +520,16 @@
       "weekSec": 2327,
       "monthSec": 2327,
       "streak": 1,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
+      "id": "s_1785035974019_bc13fy",
+      "name": "조한결",
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     }

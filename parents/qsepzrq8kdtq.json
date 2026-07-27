@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T10:50:25.183Z",
+  "generatedAt": "2026-07-27T01:08:23.917Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -92,17 +92,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-25T08:34:22.497Z",
+    "uploadedAt": "2026-07-26T16:30:44.568Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 1344,
-      "streak": 0,
+      "todaySec": 2120,
+      "weekSec": 2120,
+      "monthSec": 6682,
+      "streak": 2,
       "bySubjectMonth": {
-        "미적분Ⅰ": 1344
+        "미적분Ⅰ": 6682
       }
     },
     "logs": [
+      {
+        "id": "effort_ms1zg5xrmkr",
+        "startedAt": 1785081431223,
+        "seconds": 2120,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms1v4h494bo",
+        "startedAt": 1785074115533,
+        "seconds": 3218,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "reflection": ""
+      },
       {
         "id": "effort_mrqqd6u30j5",
         "startedAt": 1784401045489,

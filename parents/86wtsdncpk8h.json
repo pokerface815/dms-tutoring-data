@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T06:03:20.543Z",
+  "generatedAt": "2026-07-27T10:57:37.984Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -97,15 +97,6 @@
         "subject": "국어",
         "method": "문제 풀이",
         "content": "22.3, 24.6 모의고사",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqvzyj5dp8a",
-        "startedAt": 1782541008534,
-        "seconds": 1452,
-        "subject": "국어",
-        "method": "문제 풀이",
-        "content": "자습서",
         "reflection": ""
       }
     ]

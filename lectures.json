@@ -1124,9 +1124,15 @@
       },
       {
         "videoId": "RPAkWzqtvew",
-        "title": "1",
+        "title": "34~37쪽 연습문제 질문(28쪽) + 정점을 지나는 직선, 두 직선의 평행과 수직",
         "position": 4,
         "durationSec": 3760
+      },
+      {
+        "videoId": "uRtN6_fkwD8",
+        "title": "36~41쪽 정점을 지나는 직선 추가 설명 + 두 직선의 평행과 수직",
+        "position": 5,
+        "durationSec": 4260
       }
     ],
     "permissions": {
@@ -1135,8 +1141,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-07-25T14:06:41.013Z",
-    "lastSyncedAt": "2026-07-25T14:06:41.013Z"
+    "updatedAt": "2026-07-27T02:09:45.183Z",
+    "lastSyncedAt": "2026-07-27T02:09:45.183Z"
   },
   {
     "id": "lec_mrg7ztilap8",

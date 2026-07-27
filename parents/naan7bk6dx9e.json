@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T03:20:28.065Z",
+  "generatedAt": "2026-07-27T19:59:06.019Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -9,7 +9,39 @@
   },
   "months": [],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-07-27T10:21:38.249Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 4059,
+      "monthSec": 4059,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학2": 4059
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_ms2zs8lg98h",
+        "startedAt": 1785141865175,
+        "seconds": 2345,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 33~35쪽 정점을 지나는 직선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms2xrfaj2l1",
+        "startedAt": 1785139050112,
+        "seconds": 1714,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

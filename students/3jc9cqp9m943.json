@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:08:06.689Z",
+  "generatedAt": "2026-07-27T10:57:30.506Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -56,6 +56,28 @@
       "startedAt": 1785041880861,
       "createdAt": "2026-07-26T04:59:50.858Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms2u2g8pdxb",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+      "reflection": "",
+      "seconds": 85,
+      "startedAt": 1785132856997,
+      "createdAt": "2026-07-27T06:15:50.713Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms2zfti9qbl",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 135~141쪽 미지수가 2개인 연립이차방정식",
+      "reflection": "",
+      "seconds": 1461,
+      "startedAt": 1785141850757,
+      "createdAt": "2026-07-27T08:46:12.513Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -72,14 +94,14 @@
         "watchedSec": 1384
       },
       "A7CrbLfr5VY": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "8~12쪽 두 점 사이의 거리",
         "durationSec": 2912,
         "lastPosition": 2549,
-        "lastWatchedAt": "2026-07-26T05:59:38.385Z",
-        "watchedSec": 3501
+        "lastWatchedAt": "2026-07-27T06:15:54.388Z",
+        "watchedSec": 3586
       },
       "aa5XlDPSuus": {
         "sessionCount": 1,
@@ -90,6 +112,35 @@
         "lastPosition": 2956,
         "lastWatchedAt": "2026-07-26T04:57:38.298Z",
         "watchedSec": 447
+      },
+      "2auObqsjN-s": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "13~23쪽 선분의 내분점",
+        "durationSec": 4456,
+        "lastPosition": 34,
+        "lastWatchedAt": "2026-07-27T08:43:30.287Z",
+        "watchedSec": 35
+      },
+      "Vpbwe1ellrc": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "135~141쪽 미지수가 2개인 연립이차방정식",
+        "durationSec": 3563,
+        "lastPosition": 2604,
+        "lastWatchedAt": "2026-07-27T09:22:30.303Z",
+        "watchedSec": 1461
+      },
+      "HC4J2dxRE8A": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "150~159쪽 일차부등식, 연립일차부등식",
+        "durationSec": 3211,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-27T08:44:09.436Z"
       }
     },
     "daily": {
@@ -100,6 +151,11 @@
       "2026-07-26": {
         "aa5XlDPSuus": 447,
         "A7CrbLfr5VY": 2532
+      },
+      "2026-07-27": {
+        "A7CrbLfr5VY": 85,
+        "2auObqsjN-s": 35,
+        "Vpbwe1ellrc": 1461
       }
     }
   },

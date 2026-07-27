@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-26T03:19:41.268Z",
+  "generatedAt": "2026-07-27T01:08:15.983Z",
   "student": {
     "id": "s_1784357925964_vuz436",
     "classes": [
@@ -113,6 +113,17 @@
       "startedAt": 1785025631510,
       "createdAt": "2026-07-26T00:28:19.988Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms15qqenu2l",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+      "reflection": "",
+      "seconds": 1192,
+      "startedAt": 1785031227724,
+      "createdAt": "2026-07-26T02:07:07.055Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -206,6 +217,19 @@
         "lastPosition": 4762,
         "lastWatchedAt": "2026-07-26T00:55:13.211Z",
         "watchedSec": 3023
+      },
+      "JlBX5IRj9d8": {
+        "sessionCount": 1
+      },
+      "lWOw-Kjk3mk": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "durationSec": 5070,
+        "lastPosition": 2921,
+        "lastWatchedAt": "2026-07-26T02:17:44.078Z",
+        "watchedSec": 1192
       }
     },
     "daily": {
@@ -227,7 +251,8 @@
       },
       "2026-07-26": {
         "pJC_OdUw6QE": 1188,
-        "EgHfNAsg_mk": 3023
+        "EgHfNAsg_mk": 3023,
+        "lWOw-Kjk3mk": 1192
       }
     }
   },
@@ -240,8 +265,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {},
   "tasks": [],

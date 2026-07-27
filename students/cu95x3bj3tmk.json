@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:09:14.888Z",
+  "generatedAt": "2026-07-27T10:57:28.209Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -56,6 +56,17 @@
       "startedAt": 1784706891563,
       "createdAt": "2026-07-22T07:55:52.696Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms2u9a7qx04",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
+      "reflection": "",
+      "seconds": 1991,
+      "startedAt": 1785133199782,
+      "createdAt": "2026-07-27T06:21:09.494Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -82,14 +93,23 @@
         "watchedSec": 2589
       },
       "jIjscjI_q2c": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mqoujc2nsde",
         "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
         "videoTitle": "41~48쪽 점과 직선 사이의 거리",
         "durationSec": 4266,
-        "lastPosition": 1355,
-        "lastWatchedAt": "2026-07-22T10:58:47.535Z",
-        "watchedSec": 657
+        "lastPosition": 4265,
+        "lastWatchedAt": "2026-07-27T07:20:56.744Z",
+        "watchedSec": 2648
+      },
+      "Ea3QmY3z6_c": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
+        "videoTitle": "52~57쪽 원의 방정식(1)",
+        "durationSec": 4404,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-27T06:19:59.179Z"
       }
     },
     "daily": {
@@ -99,6 +119,9 @@
       "2026-07-22": {
         "QR6A3YfFpqM": 2589,
         "jIjscjI_q2c": 657
+      },
+      "2026-07-27": {
+        "jIjscjI_q2c": 1991
       }
     }
   },

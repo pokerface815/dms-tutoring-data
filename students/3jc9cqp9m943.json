@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T10:57:30.506Z",
+  "generatedAt": "2026-07-27T11:55:42.548Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -74,9 +74,20 @@
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 135~141쪽 미지수가 2개인 연립이차방정식",
       "reflection": "",
-      "seconds": 1461,
+      "seconds": 2133,
       "startedAt": 1785141850757,
       "createdAt": "2026-07-27T08:46:12.513Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms31pqzsb5h",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
+      "reflection": "",
+      "seconds": 642,
+      "startedAt": 1785145657641,
+      "createdAt": "2026-07-27T09:49:55.048Z",
       "autoRecorded": true
     }
   ],
@@ -129,9 +140,9 @@
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "135~141쪽 미지수가 2개인 연립이차방정식",
         "durationSec": 3563,
-        "lastPosition": 2604,
-        "lastWatchedAt": "2026-07-27T09:22:30.303Z",
-        "watchedSec": 1461
+        "lastPosition": 3562,
+        "lastWatchedAt": "2026-07-27T09:47:35.247Z",
+        "watchedSec": 2133
       },
       "HC4J2dxRE8A": {
         "sessionCount": 1,
@@ -141,6 +152,16 @@
         "durationSec": 3211,
         "lastPosition": 0,
         "lastWatchedAt": "2026-07-27T08:44:09.436Z"
+      },
+      "iwleCBdeEjY": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "143~145쪽 부정방정식",
+        "durationSec": 3939,
+        "lastPosition": 1652,
+        "lastWatchedAt": "2026-07-27T10:51:49.689Z",
+        "watchedSec": 642
       }
     },
     "daily": {
@@ -155,7 +176,8 @@
       "2026-07-27": {
         "A7CrbLfr5VY": 85,
         "2auObqsjN-s": 35,
-        "Vpbwe1ellrc": 1461
+        "Vpbwe1ellrc": 2133,
+        "iwleCBdeEjY": 642
       }
     }
   },

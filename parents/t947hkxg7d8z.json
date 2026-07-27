@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T15:03:00.532Z",
+  "generatedAt": "2026-07-27T19:58:58.723Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-27",
+          "weekday": "월",
+          "className": "조예나 개별",
+          "content": "~95쪽 \n도함수 마무리\n도함수의 활용(1) 접선의 방정식",
+          "task": "95쪽까지 풀어오기",
+          "taskDue": "2026-07-29",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-25",
           "weekday": "토",

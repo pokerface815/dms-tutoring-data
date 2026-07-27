@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:50:09.289Z",
+  "generatedAt": "2026-07-27T01:08:33.748Z",
   "student": {
     "id": "s_1780833414231_dup17p",
     "classes": [
@@ -42,8 +42,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {
     "task_1780833488960_0g2lyw__1": {

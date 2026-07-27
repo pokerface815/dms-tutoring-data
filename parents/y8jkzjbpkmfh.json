@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T15:03:02.379Z",
+  "generatedAt": "2026-07-27T19:59:04.074Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-26T12:53:07.221Z",
+    "uploadedAt": "2026-07-27T16:12:03.620Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 16186,
-      "streak": 0,
+      "todaySec": 1103,
+      "weekSec": 1103,
+      "monthSec": 17289,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 16186
+        "미적분Ⅰ": 17289
       }
     },
     "logs": [
+      {
+        "id": "effort_ms3dqdgknck",
+        "startedAt": 1785165878760,
+        "seconds": 1103,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
+        "reflection": ""
+      },
       {
         "id": "effort_ms1rebjulpz",
         "startedAt": 1785067937823,

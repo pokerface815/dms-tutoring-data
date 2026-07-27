@@ -1180,9 +1180,15 @@
       },
       {
         "videoId": "TCuJxUzKNSo",
-        "title": "2",
+        "title": "33~35쪽 정점을 지나는 직선의 방정식",
         "position": 4,
         "durationSec": 3743
+      },
+      {
+        "videoId": "r2Yofj6CofI",
+        "title": "36~41쪽 정점을 지나는 직선 질문(유형편 13쪽) + 두  직선의 평행과 수직",
+        "position": 5,
+        "durationSec": 4235
       }
     ],
     "permissions": {
@@ -1191,8 +1197,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-07-25T14:06:44.489Z",
-    "lastSyncedAt": "2026-07-25T14:06:44.489Z"
+    "updatedAt": "2026-07-27T02:09:51.027Z",
+    "lastSyncedAt": "2026-07-27T02:09:51.027Z"
   },
   {
     "id": "lec_mririwvdtb6",

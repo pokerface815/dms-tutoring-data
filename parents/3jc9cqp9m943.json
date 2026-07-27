@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T01:08:05.499Z",
+  "generatedAt": "2026-07-27T10:57:29.376Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,18 +11,36 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-26T05:59:38.407Z",
+    "uploadedAt": "2026-07-27T09:22:30.309Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 5306,
-      "streak": 2,
+      "todaySec": 1546,
+      "weekSec": 1546,
+      "monthSec": 6852,
+      "streak": 3,
       "bySubjectMonth": {
-        "공통수학2": 4859,
-        "공통수학1": 447
+        "공통수학2": 4944,
+        "공통수학1": 1908
       }
     },
     "logs": [
+      {
+        "id": "effort_ms2zfti9qbl",
+        "startedAt": 1785141850757,
+        "seconds": 1461,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 135~141쪽 미지수가 2개인 연립이차방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms2u2g8pdxb",
+        "startedAt": 1785132856997,
+        "seconds": 85,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+        "reflection": ""
+      },
       {
         "id": "effort_ms1bwv62b7k",
         "startedAt": 1785041880861,

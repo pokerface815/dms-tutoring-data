@@ -725,5 +725,27 @@
     "taskBatchId": "t_ms0d5g6l",
     "createdAt": "2026-07-25T12:46:44.781Z",
     "updatedAt": "2026-07-25T12:46:44.781Z"
+  },
+  {
+    "id": "lesson_1785132186030_ctnqcz",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-07-22",
+    "content": "가족여행",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-07-27T06:03:06.030Z",
+    "updatedAt": "2026-07-27T06:03:06.030Z"
+  },
+  {
+    "id": "lesson_1785132191509_ddikuu",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-07-24",
+    "content": "가족여행",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-07-27T06:03:11.509Z",
+    "updatedAt": "2026-07-27T06:03:11.509Z"
   }
 ]

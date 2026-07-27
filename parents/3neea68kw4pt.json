@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T06:03:14.588Z",
+  "generatedAt": "2026-07-27T15:03:09.692Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -168,11 +168,11 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-27T02:19:57.367Z",
+    "uploadedAt": "2026-07-27T13:56:11.052Z",
     "summary": {
-      "todaySec": 1340,
-      "weekSec": 1340,
-      "monthSec": 55622,
+      "todaySec": 0,
+      "weekSec": 6302,
+      "monthSec": 60584,
       "streak": 1,
       "bySubjectMonth": {
         "대수": 18534,
@@ -180,10 +180,19 @@
         "미적분Ⅰ": 6858,
         "독서": 881,
         "필사": 415,
-        "기하": 24780
+        "기하": 29742
       }
     },
     "logs": [
+      {
+        "id": "effort_ms3aig8891p",
+        "startedAt": 1785154611399,
+        "seconds": 4962,
+        "subject": "기하",
+        "method": "문제 풀이",
+        "content": "공간도형",
+        "reflection": ""
+      },
       {
         "id": "effort_ms2ln3g43e4",
         "startedAt": 1785117457337,

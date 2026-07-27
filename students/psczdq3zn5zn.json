@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-27T12:39:01.772Z",
+  "student": {
+    "id": "s_1785155932586_9cmims",
+    "classes": [
+      "cls_1783735589810_tlwac7"
+    ],
+    "name": "이지호",
+    "school": "국제고",
+    "grade": "고1",
+    "class": "",
+    "showMakeNote": false
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

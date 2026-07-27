@@ -747,5 +747,16 @@
     "taskBatchId": null,
     "createdAt": "2026-07-27T06:03:11.509Z",
     "updatedAt": "2026-07-27T06:03:11.509Z"
+  },
+  {
+    "id": "lesson_1785149841925_k311fq",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-07-27",
+    "content": "RPM\n경우의 수 - 순열 오답\n행렬\n다항식의 계산",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-07-27T10:57:21.925Z",
+    "updatedAt": "2026-07-27T10:57:21.925Z"
   }
 ]

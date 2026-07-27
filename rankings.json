@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T10:57:39.047Z",
+  "generatedAt": "2026-07-27T11:55:44.765Z",
   "studentCount": 53,
   "rankings": [
     {
@@ -516,9 +516,9 @@
     {
       "id": "s_1784950950171_2ycwdo",
       "name": "남옥빈",
-      "totalSec": 6852,
-      "weekSec": 1546,
-      "monthSec": 6852,
+      "totalSec": 8166,
+      "weekSec": 2860,
+      "monthSec": 8166,
       "streak": 3,
       "nickname": "",
       "publicNickname": false
@@ -526,9 +526,9 @@
     {
       "id": "s_1785035974019_bc13fy",
       "name": "조한결",
-      "totalSec": 3085,
-      "weekSec": 3085,
-      "monthSec": 3085,
+      "totalSec": 4059,
+      "weekSec": 4059,
+      "monthSec": 4059,
       "streak": 1,
       "nickname": "",
       "publicNickname": false

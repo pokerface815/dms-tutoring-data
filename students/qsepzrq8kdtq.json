@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-25T10:50:23.466Z",
+  "generatedAt": "2026-07-27T01:08:25.044Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -45,6 +45,28 @@
       "startedAt": 1784401045489,
       "createdAt": "2026-07-18T18:58:59.163Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms1v4h494bo",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+      "reflection": "",
+      "seconds": 3218,
+      "startedAt": 1785074115533,
+      "createdAt": "2026-07-26T13:57:38.601Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms1zg5xrmkr",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+      "reflection": "",
+      "seconds": 2120,
+      "startedAt": 1785081431223,
+      "createdAt": "2026-07-26T15:58:42.447Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -87,8 +109,28 @@
         "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
         "durationSec": 4227,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-25T08:34:55.812Z",
+        "lastWatchedAt": "2026-07-26T13:54:54.505Z",
         "watchedSec": 2
+      },
+      "EgHfNAsg_mk": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "durationSec": 4814,
+        "lastPosition": 4753,
+        "lastWatchedAt": "2026-07-26T14:24:08.098Z",
+        "watchedSec": 3218
+      },
+      "lWOw-Kjk3mk": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "durationSec": 5070,
+        "lastPosition": 3732,
+        "lastWatchedAt": "2026-07-26T16:30:50.564Z",
+        "watchedSec": 2120
       }
     },
     "daily": {
@@ -99,6 +141,12 @@
       },
       "2026-07-25": {
         "pJC_OdUw6QE": 2
+      },
+      "2026-07-26": {
+        "EgHfNAsg_mk": 3218
+      },
+      "2026-07-27": {
+        "lWOw-Kjk3mk": 2120
       }
     }
   },
@@ -364,8 +412,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {
     "task_1784794099894_94ldcq__1": {

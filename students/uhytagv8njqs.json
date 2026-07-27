@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-20T11:13:54.995Z",
+  "generatedAt": "2026-07-27T01:08:58.529Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -23,6 +23,17 @@
       "startedAt": 1784445159244,
       "createdAt": "2026-07-19T07:14:51.314Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms1gptsiaaw",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+      "reflection": "",
+      "seconds": 702,
+      "startedAt": 1785049952835,
+      "createdAt": "2026-07-26T07:14:20.562Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -37,11 +48,24 @@
         "lastPosition": 4313,
         "lastWatchedAt": "2026-07-19T23:35:39.755Z",
         "watchedSec": 1039
+      },
+      "KuzIK3RkqvM": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "52~59쪽 평균변화율과 미분계수",
+        "durationSec": 4899,
+        "lastPosition": 4700,
+        "lastWatchedAt": "2026-07-26T07:25:59.411Z",
+        "watchedSec": 702
       }
     },
     "daily": {
       "2026-07-19": {
         "WhKzMT5MG0A": 1039
+      },
+      "2026-07-26": {
+        "KuzIK3RkqvM": 702
       }
     }
   },
@@ -343,8 +367,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {
     "task_1780833238420_v9xdmb__1": {

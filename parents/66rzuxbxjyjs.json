@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T06:03:17.081Z",
+  "generatedAt": "2026-07-27T10:57:31.605Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -44,21 +44,21 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-27T05:47:12.990Z",
+    "uploadedAt": "2026-07-27T08:55:47.365Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
-      "monthSec": 9757,
+      "monthSec": 9758,
       "streak": 0,
       "bySubjectMonth": {
-        "공통수학1": 9757
+        "공통수학1": 9758
       }
     },
     "logs": [
       {
         "id": "effort_ms0cvtrtfss",
         "startedAt": 1784983155043,
-        "seconds": 2324,
+        "seconds": 2325,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",

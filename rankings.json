@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T12:38:59.239Z",
+  "generatedAt": "2026-07-27T15:02:53.468Z",
   "studentCount": 54,
   "rankings": [
     {
@@ -9,6 +9,7 @@
       "totalSec": 13647,
       "weekSec": 0,
       "monthSec": 9990,
+      "recent3mSec": 13647,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -19,6 +20,7 @@
       "totalSec": 6682,
       "weekSec": 2120,
       "monthSec": 6682,
+      "recent3mSec": 6682,
       "streak": 2,
       "nickname": "오레오잉",
       "publicNickname": true
@@ -29,7 +31,8 @@
       "totalSec": 1741,
       "weekSec": 0,
       "monthSec": 1741,
-      "streak": 1,
+      "recent3mSec": 1741,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -39,6 +42,7 @@
       "totalSec": 25351,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 25351,
       "streak": 0,
       "nickname": "두다다다다다ㅏ다쿵",
       "publicNickname": true
@@ -49,6 +53,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -59,6 +64,7 @@
       "totalSec": 129,
       "weekSec": 129,
       "monthSec": 129,
+      "recent3mSec": 129,
       "streak": 1,
       "nickname": "",
       "publicNickname": false
@@ -69,7 +75,8 @@
       "totalSec": 16186,
       "weekSec": 0,
       "monthSec": 16186,
-      "streak": 2,
+      "recent3mSec": 16186,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -79,6 +86,7 @@
       "totalSec": 698,
       "weekSec": 0,
       "monthSec": 698,
+      "recent3mSec": 698,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -89,7 +97,8 @@
       "totalSec": 19692,
       "weekSec": 0,
       "monthSec": 19692,
-      "streak": 1,
+      "recent3mSec": 19692,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -99,6 +108,7 @@
       "totalSec": 2730,
       "weekSec": 2730,
       "monthSec": 2730,
+      "recent3mSec": 2730,
       "streak": 1,
       "nickname": "",
       "publicNickname": false
@@ -109,6 +119,7 @@
       "totalSec": 2857,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 2857,
       "streak": 0,
       "nickname": "HK2",
       "publicNickname": true
@@ -119,6 +130,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -129,6 +141,7 @@
       "totalSec": 3548,
       "weekSec": 0,
       "monthSec": 3548,
+      "recent3mSec": 3548,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -139,6 +152,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -149,16 +163,18 @@
       "totalSec": 4126,
       "weekSec": 0,
       "monthSec": 4126,
-      "streak": 1,
+      "recent3mSec": 4126,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1780190418387_a11waf",
       "name": "문대승",
-      "totalSec": 66086,
-      "weekSec": 1340,
-      "monthSec": 55622,
+      "totalSec": 71048,
+      "weekSec": 6302,
+      "monthSec": 60584,
+      "recent3mSec": 71048,
       "streak": 1,
       "nickname": "",
       "publicNickname": false
@@ -169,6 +185,7 @@
       "totalSec": 5352,
       "weekSec": 1991,
       "monthSec": 5352,
+      "recent3mSec": 5352,
       "streak": 1,
       "nickname": "",
       "publicNickname": false
@@ -179,6 +196,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -189,6 +207,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -199,6 +218,7 @@
       "totalSec": 2275,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 2275,
       "streak": 0,
       "nickname": "타이거즈",
       "publicNickname": true
@@ -209,6 +229,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -219,6 +240,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -229,6 +251,7 @@
       "totalSec": 4742,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 4742,
       "streak": 0,
       "nickname": "살레시안",
       "publicNickname": true
@@ -239,6 +262,7 @@
       "totalSec": 1090,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 1090,
       "streak": 0,
       "nickname": "Q.E.D",
       "publicNickname": true
@@ -249,6 +273,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -259,6 +284,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -269,6 +295,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -279,6 +306,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -289,6 +317,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -299,6 +328,7 @@
       "totalSec": 635,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 635,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -309,6 +339,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -319,6 +350,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -329,6 +361,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -339,6 +372,7 @@
       "totalSec": 6830,
       "weekSec": 0,
       "monthSec": 6830,
+      "recent3mSec": 6830,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -349,6 +383,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -359,6 +394,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -369,6 +405,7 @@
       "totalSec": 8498,
       "weekSec": 0,
       "monthSec": 8498,
+      "recent3mSec": 8498,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -379,6 +416,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -389,6 +427,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -399,6 +438,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -409,6 +449,7 @@
       "totalSec": 3324,
       "weekSec": 0,
       "monthSec": 3324,
+      "recent3mSec": 3324,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -419,6 +460,7 @@
       "totalSec": 1982,
       "weekSec": 0,
       "monthSec": 1982,
+      "recent3mSec": 1982,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -429,6 +471,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -439,6 +482,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -449,6 +493,7 @@
       "totalSec": 1982,
       "weekSec": 0,
       "monthSec": 1982,
+      "recent3mSec": 1982,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -459,6 +504,7 @@
       "totalSec": 81,
       "weekSec": 0,
       "monthSec": 81,
+      "recent3mSec": 81,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -469,6 +515,7 @@
       "totalSec": 9758,
       "weekSec": 0,
       "monthSec": 9758,
+      "recent3mSec": 9758,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -479,7 +526,8 @@
       "totalSec": 86,
       "weekSec": 0,
       "monthSec": 86,
-      "streak": 1,
+      "recent3mSec": 86,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -489,7 +537,8 @@
       "totalSec": 18809,
       "weekSec": 0,
       "monthSec": 18809,
-      "streak": 1,
+      "recent3mSec": 18809,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -499,6 +548,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -509,6 +559,7 @@
       "totalSec": 13146,
       "weekSec": 0,
       "monthSec": 13146,
+      "recent3mSec": 13146,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -519,6 +570,7 @@
       "totalSec": 8166,
       "weekSec": 2860,
       "monthSec": 8166,
+      "recent3mSec": 8166,
       "streak": 3,
       "nickname": "",
       "publicNickname": false
@@ -529,6 +581,7 @@
       "totalSec": 4059,
       "weekSec": 4059,
       "monthSec": 4059,
+      "recent3mSec": 4059,
       "streak": 1,
       "nickname": "",
       "publicNickname": false
@@ -539,6 +592,7 @@
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

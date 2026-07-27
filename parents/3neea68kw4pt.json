@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T01:08:40.671Z",
+  "generatedAt": "2026-07-27T06:03:14.588Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -168,22 +168,31 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-23T12:49:10.242Z",
+    "uploadedAt": "2026-07-27T02:19:57.367Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 54282,
-      "streak": 0,
+      "todaySec": 1340,
+      "weekSec": 1340,
+      "monthSec": 55622,
+      "streak": 1,
       "bySubjectMonth": {
         "대수": 18534,
         "확률과 통계": 4154,
-        "미적분Ⅰ": 5518,
+        "미적분Ⅰ": 6858,
         "독서": 881,
         "필사": 415,
         "기하": 24780
       }
     },
     "logs": [
+      {
+        "id": "effort_ms2ln3g43e4",
+        "startedAt": 1785117457337,
+        "seconds": 1340,
+        "subject": "미적분Ⅰ",
+        "method": "문제 풀이",
+        "content": "쎈B",
+        "reflection": ""
+      },
       {
         "id": "effort_mrxicv32ld9",
         "startedAt": 1784803857580,

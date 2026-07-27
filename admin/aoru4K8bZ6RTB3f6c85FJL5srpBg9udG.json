@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T20:00:26.822Z",
+  "generatedAt": "2026-07-27T20:24:46.639Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 51,
+  "studentCount": 50,
   "baseUrl": "",
   "students": [
     {
@@ -229,15 +229,6 @@
       "className": "월,수,금 중3 5시 수업",
       "studentPageCode": "rhu3ug525wup",
       "parentPageCode": "rhu3ug525wup"
-    },
-    {
-      "id": "s_1780355782316_yrovp3",
-      "name": "이세영",
-      "grade": "고2",
-      "school": "전남여고",
-      "className": "S",
-      "studentPageCode": "agt64ex4yqvh",
-      "parentPageCode": "agt64ex4yqvh"
     },
     {
       "id": "s_1780633652940_9hqjzx",

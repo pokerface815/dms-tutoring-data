@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T10:57:37.984Z",
+  "generatedAt": "2026-07-27T15:02:58.711Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -88,15 +88,6 @@
         "subject": "국어",
         "method": "문제 풀이",
         "content": "25.6,26,6 모의고사",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqwit8cccrk",
-        "startedAt": 1782568790221,
-        "seconds": 5654,
-        "subject": "국어",
-        "method": "문제 풀이",
-        "content": "22.3, 24.6 모의고사",
         "reflection": ""
       }
     ]

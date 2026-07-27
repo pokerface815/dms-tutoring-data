@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T03:20:07.587Z",
+  "generatedAt": "2026-07-27T01:08:29.037Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-25T01:27:24.779Z",
+    "uploadedAt": "2026-07-26T12:53:07.221Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 7858,
-      "monthSec": 14122,
-      "streak": 1,
+      "weekSec": 0,
+      "monthSec": 16186,
+      "streak": 2,
       "bySubjectMonth": {
-        "미적분Ⅰ": 14122
+        "미적분Ⅰ": 16186
       }
     },
     "logs": [
+      {
+        "id": "effort_ms1rebjulpz",
+        "startedAt": 1785067937823,
+        "seconds": 1829,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms1qu8wydrz",
+        "startedAt": 1785066111242,
+        "seconds": 235,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+        "reflection": ""
+      },
       {
         "id": "effort_mrzoucflwm5",
         "startedAt": 1784942712932,

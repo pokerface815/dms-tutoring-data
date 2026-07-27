@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-22T11:16:22.088Z",
+  "generatedAt": "2026-07-27T01:08:54.896Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -78,6 +78,28 @@
       "startedAt": 1784689208179,
       "createdAt": "2026-07-22T03:01:11.086Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms1inpw0m97",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
+      "reflection": "",
+      "seconds": 1072,
+      "startedAt": 1785053224487,
+      "createdAt": "2026-07-26T08:08:41.424Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms1jaibui2q",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
+      "reflection": "",
+      "seconds": 1491,
+      "startedAt": 1785054323324,
+      "createdAt": "2026-07-26T08:26:24.714Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -144,13 +166,14 @@
         "watchedSec": 5864
       },
       "okVxIoEMccc": {
-        "sessionCount": 1,
+        "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "60~67쪽 미분가능성과 연속성, 도함수",
         "durationSec": 5321,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-07-22T06:30:53.902Z"
+        "lastPosition": 4773,
+        "lastWatchedAt": "2026-07-26T08:39:59.332Z",
+        "watchedSec": 2563
       }
     },
     "daily": {
@@ -169,6 +192,9 @@
       "2026-07-22": {
         "JlBX5IRj9d8": 9,
         "KuzIK3RkqvM": 5864
+      },
+      "2026-07-26": {
+        "okVxIoEMccc": 2563
       }
     }
   },
@@ -494,8 +520,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {},
   "tasks": [],

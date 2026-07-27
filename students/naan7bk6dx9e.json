@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T10:57:33.934Z",
+  "generatedAt": "2026-07-27T11:55:43.709Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -30,7 +30,7 @@
       "method": "강의 시청",
       "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 33~35쪽 정점을 지나는 직선의 방정식",
       "reflection": "",
-      "seconds": 1371,
+      "seconds": 2345,
       "startedAt": 1785141865175,
       "createdAt": "2026-07-27T08:55:51.940Z",
       "autoRecorded": true
@@ -75,9 +75,9 @@
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "33~35쪽 정점을 지나는 직선의 방정식",
         "durationSec": 3743,
-        "lastPosition": 1007,
-        "lastWatchedAt": "2026-07-27T09:22:46.649Z",
-        "watchedSec": 1371
+        "lastPosition": 1751,
+        "lastWatchedAt": "2026-07-27T10:39:55.288Z",
+        "watchedSec": 2345
       }
     },
     "daily": {
@@ -85,7 +85,7 @@
         "A7CrbLfr5VY": 1,
         "JH_MD-p63IA": 1714,
         "r2Yofj6CofI": 28,
-        "TCuJxUzKNSo": 1371
+        "TCuJxUzKNSo": 2345
       }
     }
   },

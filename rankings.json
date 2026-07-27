@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T19:58:54.629Z",
-  "studentCount": 54,
+  "generatedAt": "2026-07-27T20:00:24.585Z",
+  "studentCount": 51,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -235,17 +235,6 @@
       "publicNickname": false
     },
     {
-      "id": "s_1780314459772_mrri1r",
-      "name": "채수완",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
       "id": "s_1780314459772_frngyj",
       "name": "고승민",
       "totalSec": 4742,
@@ -356,17 +345,6 @@
       "publicNickname": false
     },
     {
-      "id": "s_1782144542719_3gm3op",
-      "name": "이수연",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
       "id": "s_1783141077746_ni5332",
       "name": "손아현",
       "totalSec": 6830,
@@ -461,17 +439,6 @@
       "weekSec": 0,
       "monthSec": 1982,
       "recent3mSec": 1982,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1783741597296_84n8hm",
-      "name": "조준영",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

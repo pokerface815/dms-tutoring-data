@@ -679,34 +679,6 @@
     "showMakeNote": false
   },
   {
-    "id": "s_1780355782316_yrovp3",
-    "name": "이세영",
-    "school": "전남여고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780355764530_wxb5as"
-    ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-2609-7315",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "pageCode": "agt64ex4yqvh",
-    "showMakeNote": true,
-    "showNoteStages": true
-  },
-  {
     "id": "s_1780633652940_9hqjzx",
     "name": "박은준",
     "school": "살레시오중",

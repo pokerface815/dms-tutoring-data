@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T19:59:30.602Z",
+  "generatedAt": "2026-07-27T20:00:26.822Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 54,
+  "studentCount": 51,
   "baseUrl": "",
   "students": [
     {
@@ -195,15 +195,6 @@
       "parentPageCode": "dfa3wge6dm65"
     },
     {
-      "id": "s_1780314459772_mrri1r",
-      "name": "채수완",
-      "grade": "중3",
-      "school": "",
-      "className": "월,수,금 중3 5시 수업",
-      "studentPageCode": "y6p5fvfxgfeu",
-      "parentPageCode": "y6p5fvfxgfeu"
-    },
-    {
       "id": "s_1780314459772_frngyj",
       "name": "고승민",
       "grade": "중3",
@@ -294,15 +285,6 @@
       "parentPageCode": "zm39mvjpdvgu"
     },
     {
-      "id": "s_1782144542719_3gm3op",
-      "name": "이수연",
-      "grade": "고2",
-      "school": "문정여고",
-      "className": "토,일 4시",
-      "studentPageCode": "5yjt33jqznrm",
-      "parentPageCode": "5yjt33jqznrm"
-    },
-    {
       "id": "s_1783141077746_ni5332",
       "name": "손아현",
       "grade": "고2",
@@ -382,15 +364,6 @@
       "className": "토,일 12시 30분",
       "studentPageCode": "5t3q9pua6ndz",
       "parentPageCode": "5t3q9pua6ndz"
-    },
-    {
-      "id": "s_1783741597296_84n8hm",
-      "name": "조준영",
-      "grade": "고1",
-      "school": "살레시오고",
-      "className": "토,일 12시 30분",
-      "studentPageCode": "k2yku3ebkked",
-      "parentPageCode": "k2yku3ebkked"
     },
     {
       "id": "s_1783741639936_epkpt5",

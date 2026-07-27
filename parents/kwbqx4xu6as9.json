@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T06:03:19.395Z",
+  "generatedAt": "2026-07-27T10:57:36.865Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-27",
+          "weekday": "월",
+          "className": "서준우 개별",
+          "content": "RPM\n경우의 수 - 순열 오답\n행렬\n다항식의 계산",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-24",
           "weekday": "금",

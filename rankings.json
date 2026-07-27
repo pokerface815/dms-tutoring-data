@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T01:08:52.084Z",
+  "generatedAt": "2026-07-27T06:03:22.167Z",
   "studentCount": 53,
   "rankings": [
     {
@@ -56,10 +56,10 @@
     {
       "id": "s_1778325875686_1uoe4b",
       "name": "이경주",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
+      "totalSec": 129,
+      "weekSec": 129,
+      "monthSec": 129,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -156,10 +156,10 @@
     {
       "id": "s_1780190418387_a11waf",
       "name": "문대승",
-      "totalSec": 64746,
-      "weekSec": 0,
-      "monthSec": 54282,
-      "streak": 0,
+      "totalSec": 66086,
+      "weekSec": 1340,
+      "monthSec": 55622,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

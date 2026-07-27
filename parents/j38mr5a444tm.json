@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T01:08:14.955Z",
+  "generatedAt": "2026-07-27T15:03:15.096Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -16,7 +16,7 @@
       "todaySec": 0,
       "weekSec": 0,
       "monthSec": 18809,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "수학": 5289,
         "미적분Ⅰ": 13520

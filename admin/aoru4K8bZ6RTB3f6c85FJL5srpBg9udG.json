@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T12:39:00.453Z",
+  "generatedAt": "2026-07-27T19:59:30.602Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
   "studentCount": 54,
   "baseUrl": "",
@@ -253,7 +253,7 @@
       "name": "박은준",
       "grade": "중3",
       "school": "살레시오중",
-      "className": "월,수,금 중3 5시 수업, 박은준 개별",
+      "className": "월,수,금 중3 5시 수업",
       "studentPageCode": "3dqm5z9tex4t",
       "parentPageCode": "3dqm5z9tex4t"
     },

@@ -86,7 +86,9 @@
     "order": 13,
     "createdAt": "2026-06-08T09:24:43.163Z",
     "slot": 11,
-    "lessonSlot": 11
+    "lessonSlot": 11,
+    "archived": true,
+    "endedAt": 1785183848038
   },
   {
     "id": "cls_1783735589810_tlwac7",
@@ -113,6 +115,6 @@
     "order": 16,
     "createdAt": "2026-07-13T09:47:15.043Z",
     "lessonSlot": 14,
-    "slot": 14
+    "slot": 11
   }
 ]

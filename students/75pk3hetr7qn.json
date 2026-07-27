@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-25T05:09:38.496Z",
+  "generatedAt": "2026-07-27T01:08:09.352Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -83,10 +83,10 @@
         "watchedSec": 2534
       },
       "4oCcIG5bOxY": {
-        "sessionCount": 3,
+        "sessionCount": 1,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
+        "videoTitle": "3",
         "durationSec": 5173,
         "lastPosition": 5172,
         "lastWatchedAt": "2026-07-23T14:01:13.258Z",
@@ -125,8 +125,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {},
   "tasks": [],

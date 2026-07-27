@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T03:19:39.300Z",
+  "generatedAt": "2026-07-27T01:08:14.955Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -11,18 +11,27 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-26T00:55:10.157Z",
+    "uploadedAt": "2026-07-26T02:17:42.573Z",
     "summary": {
-      "todaySec": 4211,
-      "weekSec": 17617,
-      "monthSec": 17617,
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 18809,
       "streak": 1,
       "bySubjectMonth": {
         "수학": 5289,
-        "미적분Ⅰ": 12328
+        "미적분Ⅰ": 13520
       }
     },
     "logs": [
+      {
+        "id": "effort_ms15qqenu2l",
+        "startedAt": 1785031227724,
+        "seconds": 1192,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
       {
         "id": "effort_ms127p1wi0u",
         "startedAt": 1785025631510,

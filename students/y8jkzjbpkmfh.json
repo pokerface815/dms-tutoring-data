@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-25T05:09:32.268Z",
+  "generatedAt": "2026-07-27T01:08:30.123Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -166,6 +166,28 @@
       "startedAt": 1784942712932,
       "createdAt": "2026-07-25T01:26:15.921Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms1qu8wydrz",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+      "reflection": "",
+      "seconds": 235,
+      "startedAt": 1785066111242,
+      "createdAt": "2026-07-26T11:57:42.946Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms1rebjulpz",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+      "reflection": "",
+      "seconds": 1829,
+      "startedAt": 1785067937823,
+      "createdAt": "2026-07-26T12:13:19.482Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -202,14 +224,14 @@
         "watchedSec": 2924
       },
       "okVxIoEMccc": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "60~67쪽 미분가능성과 연속성, 도함수",
         "durationSec": 5321,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-07-20T15:15:28.020Z",
-        "watchedSec": 0
+        "lastPosition": 3,
+        "lastWatchedAt": "2026-07-26T12:56:34.738Z",
+        "watchedSec": 3
       },
       "WhKzMT5MG0A": {
         "sessionCount": 1,
@@ -242,14 +264,14 @@
         "watchedSec": 1094
       },
       "KuzIK3RkqvM": {
-        "sessionCount": 1,
+        "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "52~59쪽 평균변화율과 미분계수",
         "durationSec": 4899,
-        "lastPosition": 105,
-        "lastWatchedAt": "2026-07-25T00:49:47.434Z",
-        "watchedSec": 12
+        "lastPosition": 4474,
+        "lastWatchedAt": "2026-07-26T12:53:07.957Z",
+        "watchedSec": 2076
       }
     },
     "daily": {
@@ -277,6 +299,10 @@
       "2026-07-25": {
         "KuzIK3RkqvM": 12,
         "7pfVUyQLMjs": 616
+      },
+      "2026-07-26": {
+        "KuzIK3RkqvM": 2064,
+        "okVxIoEMccc": 3
       }
     }
   },
@@ -434,8 +460,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {},
   "tasks": [],

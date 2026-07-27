@@ -758,5 +758,16 @@
     "taskBatchId": null,
     "createdAt": "2026-07-27T10:57:21.925Z",
     "updatedAt": "2026-07-27T10:57:21.925Z"
+  },
+  {
+    "id": "lesson_1785182324771_wp4hfx",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-27",
+    "content": "~95쪽 \n도함수 마무리\n도함수의 활용(1) 접선의 방정식",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_ms3ngpib",
+    "createdAt": "2026-07-27T19:58:44.770Z",
+    "updatedAt": "2026-07-27T19:58:44.770Z"
   }
 ]

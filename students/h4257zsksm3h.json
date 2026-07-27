@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-19T15:49:32.248Z",
+  "generatedAt": "2026-07-27T01:09:02.179Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -12,9 +12,39 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_ms2hcvcgfhv",
+      "subject": "확률과 통계",
+      "method": "강의 시청",
+      "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 8~16쪽 중복순열, 같은 것이 있는 순열, 최단거리로 가는 경우의 수",
+      "reflection": "",
+      "seconds": 2730,
+      "startedAt": 1785111539458,
+      "createdAt": "2026-07-27T00:20:01.840Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "vOzqYDqoHSU": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqksd52wcz3",
+        "lectureTitle": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
+        "videoTitle": "8~16쪽 중복순열, 같은 것이 있는 순열, 최단거리로 가는 경우의 수",
+        "durationSec": 4971,
+        "lastPosition": 4970,
+        "lastWatchedAt": "2026-07-27T00:57:45.234Z",
+        "watchedSec": 2730
+      }
+    },
+    "daily": {
+      "2026-07-27": {
+        "vOzqYDqoHSU": 2730
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
@@ -121,8 +151,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {},
   "tasks": [],

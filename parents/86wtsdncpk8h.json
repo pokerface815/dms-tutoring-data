@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T01:11:58.442Z",
+  "generatedAt": "2026-07-27T06:03:20.543Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -106,15 +106,6 @@
         "subject": "국어",
         "method": "문제 풀이",
         "content": "자습서",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqvtt05vq6c",
-        "startedAt": 1782528270682,
-        "seconds": 4175,
-        "subject": "영어",
-        "method": "문제 풀이",
-        "content": "모의고사공부",
         "reflection": ""
       }
     ]

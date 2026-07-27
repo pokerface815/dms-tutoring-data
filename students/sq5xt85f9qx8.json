@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-20T15:15:51.345Z",
+  "generatedAt": "2026-07-27T01:08:11.995Z",
   "student": {
     "id": "s_1784351071584_hs9hej",
     "classes": [
@@ -12,7 +12,19 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_ms180jkd26j",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 3",
+      "reflection": "",
+      "seconds": 86,
+      "startedAt": 1785035331917,
+      "createdAt": "2026-07-26T03:10:43.981Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
@@ -25,11 +37,24 @@
         "lastPosition": 64,
         "lastWatchedAt": "2026-07-19T09:30:47.880Z",
         "watchedSec": 13
+      },
+      "druHHRnA4jk": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "3",
+        "durationSec": 5637,
+        "lastPosition": 481,
+        "lastWatchedAt": "2026-07-26T03:10:46.645Z",
+        "watchedSec": 86
       }
     },
     "daily": {
       "2026-07-19": {
         "-AeZPJJq6M0": 13
+      },
+      "2026-07-26": {
+        "druHHRnA4jk": 86
       }
     }
   },
@@ -42,8 +67,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {},
   "tasks": [],

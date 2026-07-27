@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T10:57:29.376Z",
+  "generatedAt": "2026-07-27T11:55:41.435Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,22 +11,31 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-27T09:22:30.309Z",
+    "uploadedAt": "2026-07-27T10:29:37.334Z",
     "summary": {
-      "todaySec": 1546,
-      "weekSec": 1546,
-      "monthSec": 6852,
+      "todaySec": 2860,
+      "weekSec": 2860,
+      "monthSec": 8166,
       "streak": 3,
       "bySubjectMonth": {
         "공통수학2": 4944,
-        "공통수학1": 1908
+        "공통수학1": 3222
       }
     },
     "logs": [
       {
+        "id": "effort_ms31pqzsb5h",
+        "startedAt": 1785145657641,
+        "seconds": 642,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
+        "reflection": ""
+      },
+      {
         "id": "effort_ms2zfti9qbl",
         "startedAt": 1785141850757,
-        "seconds": 1461,
+        "seconds": 2133,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 135~141쪽 미지수가 2개인 연립이차방정식",

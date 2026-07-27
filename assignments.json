@@ -2898,5 +2898,16 @@
     "batchId": "t_ms0d5g6l",
     "repeat": null,
     "fromLesson": "lesson_1784983604781_kb22xc"
+  },
+  {
+    "id": "task_1785182324771_0dqjal",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "95쪽까지 풀어오기",
+    "dueDate": "2026-07-29",
+    "assignedAt": "2026-07-27T19:58:44.770Z",
+    "batchId": "t_ms3ngpib",
+    "repeat": null,
+    "fromLesson": "lesson_1785182324771_wp4hfx"
   }
 ]

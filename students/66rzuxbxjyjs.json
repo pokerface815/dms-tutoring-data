@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:08:20.320Z",
+  "generatedAt": "2026-07-27T06:03:18.164Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -160,8 +160,18 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
+      "Lwm2o1aNceI": {
+        "watchedSec": 846,
+        "lastPosition": 3463,
+        "sessionCount": 2,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
+        "durationSec": 4395,
+        "lastWatchedAt": "2026-07-24T04:49:47.644Z"
+      },
       "LoUhX_HhA3k": {
-        "sessionCount": 6,
+        "sessionCount": 5,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "73~82쪽 음수의 제곱근, 이차방정식",
@@ -200,18 +210,8 @@
         "lastWatchedAt": "2026-07-19T03:48:38.243Z",
         "watchedSec": 1729
       },
-      "Lwm2o1aNceI": {
-        "watchedSec": 846,
-        "lastPosition": 3463,
-        "sessionCount": 3,
-        "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
-        "videoTitle": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
-        "durationSec": 4395,
-        "lastWatchedAt": "2026-07-24T04:49:47.644Z"
-      },
       "TE0dmnIF-aU": {
-        "sessionCount": 6,
+        "sessionCount": 1,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "95~105쪽 이차방정식과 이차함수의 관계",
@@ -221,17 +221,20 @@
         "watchedSec": 1325
       },
       "sJH5b7SkTL4": {
-        "sessionCount": 4,
+        "sessionCount": 5,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "106~112쪽 이차함수의 최대, 최소",
         "durationSec": 4137,
         "lastPosition": 2253,
-        "lastWatchedAt": "2026-07-26T23:42:03.714Z",
+        "lastWatchedAt": "2026-07-27T05:47:10.337Z",
         "watchedSec": 3741
       }
     },
     "daily": {
+      "2026-07-21": {
+        "Lwm2o1aNceI": 269
+      },
       "2026-07-13": {
         "LoUhX_HhA3k": 260,
         "TSZXX0ck6Mw": 1029
@@ -243,9 +246,6 @@
       "2026-07-19": {
         "_x8xEiOR850": 1259,
         "LoUhX_HhA3k": 952
-      },
-      "2026-07-21": {
-        "Lwm2o1aNceI": 269
       },
       "2026-07-23": {
         "TE0dmnIF-aU": 8

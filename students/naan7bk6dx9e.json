@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:08:10.915Z",
+  "generatedAt": "2026-07-27T10:57:33.934Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -12,21 +12,82 @@
     "class": "",
     "showMakeNote": false
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_ms2xrfaj2l1",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+      "reflection": "",
+      "seconds": 1714,
+      "startedAt": 1785139050112,
+      "createdAt": "2026-07-27T07:59:14.731Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms2zs8lg98h",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 33~35쪽 정점을 지나는 직선의 방정식",
+      "reflection": "",
+      "seconds": 1371,
+      "startedAt": 1785141865175,
+      "createdAt": "2026-07-27T08:55:51.940Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "JH_MD-p63IA": {
-        "sessionCount": 2,
+        "sessionCount": 5,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
         "durationSec": 4183,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-26T03:41:10.273Z"
+        "lastWatchedAt": "2026-07-27T08:43:39.541Z",
+        "watchedSec": 1714
+      },
+      "A7CrbLfr5VY": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "8~12쪽 두 점 사이의 거리",
+        "durationSec": 2912,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-27T07:55:57.534Z",
+        "watchedSec": 1
+      },
+      "r2Yofj6CofI": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "36~41쪽 정점을 지나는 직선 질문(유형편 13쪽) + 두  직선의 평행과 수직",
+        "durationSec": 4235,
+        "lastPosition": 119,
+        "lastWatchedAt": "2026-07-27T08:44:24.092Z",
+        "watchedSec": 28
+      },
+      "TCuJxUzKNSo": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "33~35쪽 정점을 지나는 직선의 방정식",
+        "durationSec": 3743,
+        "lastPosition": 1007,
+        "lastWatchedAt": "2026-07-27T09:22:46.649Z",
+        "watchedSec": 1371
       }
     },
-    "daily": {}
+    "daily": {
+      "2026-07-27": {
+        "A7CrbLfr5VY": 1,
+        "JH_MD-p63IA": 1714,
+        "r2Yofj6CofI": 28,
+        "TCuJxUzKNSo": 1371
+      }
+    }
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],

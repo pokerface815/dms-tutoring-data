@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-26T03:20:26.444Z",
+  "generatedAt": "2026-07-27T01:08:10.915Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -12,9 +12,22 @@
     "class": "",
     "showMakeNote": false
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "JH_MD-p63IA": {
+        "sessionCount": 2,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+        "durationSec": 4183,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-26T03:41:10.273Z"
+      }
+    },
+    "daily": {}
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
@@ -24,8 +37,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {},
   "tasks": [],

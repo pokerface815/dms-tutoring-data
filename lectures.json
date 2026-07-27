@@ -1208,13 +1208,13 @@
     "subject": "미적분Ⅰ",
     "textbook": "개념루트",
     "memo": "",
-    "thumbnailUrl": "https://i.ytimg.com/vi/35fLmSRhScA/mqdefault.jpg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/-AeZPJJq6M0/mqdefault.jpg",
     "videos": [
       {
-        "videoId": "35fLmSRhScA",
-        "title": "30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
+        "videoId": "-AeZPJJq6M0",
+        "title": "8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
         "position": 0,
-        "durationSec": 4754
+        "durationSec": 3182
       },
       {
         "videoId": "4oCcIG5bOxY",
@@ -1223,16 +1223,22 @@
         "durationSec": 5173
       },
       {
-        "videoId": "-AeZPJJq6M0",
-        "title": "8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
+        "videoId": "35fLmSRhScA",
+        "title": "30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
         "position": 2,
-        "durationSec": 3182
+        "durationSec": 4754
       },
       {
         "videoId": "druHHRnA4jk",
-        "title": "3",
+        "title": "38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
         "position": 3,
         "durationSec": 5637
+      },
+      {
+        "videoId": "8xpg5fhoXoo",
+        "title": "54~66쪽 81번 풀이 + 연속함수의 성질 + 최대 최소의 정리, 사잇값 정리(실근의 존재성)",
+        "position": 4,
+        "durationSec": 5967
       }
     ],
     "permissions": {
@@ -1241,8 +1247,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-07-25T14:06:52.591Z",
-    "lastSyncedAt": "2026-07-25T14:06:52.591Z"
+    "updatedAt": "2026-07-27T02:10:13.235Z",
+    "lastSyncedAt": "2026-07-27T02:10:13.235Z"
   },
   {
     "id": "lec_mrq99fx1qmz",
@@ -1252,25 +1258,31 @@
     "subject": "미적분Ⅰ",
     "textbook": "쎈B",
     "memo": "",
-    "thumbnailUrl": "https://i.ytimg.com/vi/zTU6KH33XE0/mqdefault.jpg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/CKqE0FRKe3E/mqdefault.jpg",
     "videos": [
-      {
-        "videoId": "zTU6KH33XE0",
-        "title": "17~28쪽 02.함수의 연속",
-        "position": 0,
-        "durationSec": 5500
-      },
       {
         "videoId": "CKqE0FRKe3E",
         "title": "6~16쪽 01.함수의 극한",
-        "position": 1,
+        "position": 0,
         "durationSec": 3590
       },
       {
+        "videoId": "zTU6KH33XE0",
+        "title": "17~28쪽 02.함수의 연속",
+        "position": 1,
+        "durationSec": 5500
+      },
+      {
         "videoId": "k6AFw2p_59k",
-        "title": "4",
+        "title": "21~34쪽 02.함수의 연속 14번 ~ 03.미분계수와 도함수 24번",
         "position": 2,
         "durationSec": 3146
+      },
+      {
+        "videoId": "Rwl3S2aA19M",
+        "title": "36~43쪽 03.미분계수와 도함수 34~77번",
+        "position": 3,
+        "durationSec": 2294
       }
     ],
     "permissions": {
@@ -1279,8 +1291,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-07-25T14:06:55.203Z",
-    "lastSyncedAt": "2026-07-25T14:06:55.203Z"
+    "updatedAt": "2026-07-27T02:10:16.915Z",
+    "lastSyncedAt": "2026-07-27T02:10:16.915Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1290,25 +1302,31 @@
     "subject": "미적분Ⅰ",
     "textbook": "쎈B",
     "memo": "",
-    "thumbnailUrl": "https://i.ytimg.com/vi/QD8EWtLQpMU/mqdefault.jpg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ELcNM4V5h4E/mqdefault.jpg",
     "videos": [
-      {
-        "videoId": "QD8EWtLQpMU",
-        "title": "17~28쪽 02.함수의 연속",
-        "position": 0,
-        "durationSec": 3878
-      },
       {
         "videoId": "ELcNM4V5h4E",
         "title": "6~17쪽 01.함수의극한",
-        "position": 1,
+        "position": 0,
         "durationSec": 2768
       },
       {
+        "videoId": "QD8EWtLQpMU",
+        "title": "17~28쪽 02.함수의 연속",
+        "position": 1,
+        "durationSec": 3878
+      },
+      {
         "videoId": "RKuLIjXCpLE",
-        "title": "5",
+        "title": "23~35쪽 02.함수의 연속 24번 ~ 03.미분계수와 도함수 29번",
         "position": 2,
         "durationSec": 1913
+      },
+      {
+        "videoId": "RJFHmeXhz3I",
+        "title": "34~43쪽 03.미분계수와 도함수 34~77번",
+        "position": 3,
+        "durationSec": 2348
       }
     ],
     "permissions": {
@@ -1317,8 +1335,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-07-25T14:06:58.678Z",
-    "lastSyncedAt": "2026-07-25T14:06:58.678Z"
+    "updatedAt": "2026-07-27T02:10:19.367Z",
+    "lastSyncedAt": "2026-07-27T02:10:19.367Z"
   },
   {
     "id": "lec_mqkscmibfht",

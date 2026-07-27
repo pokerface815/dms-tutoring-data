@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-25T08:18:17.728Z",
+  "generatedAt": "2026-07-27T01:08:06.689Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -34,6 +34,28 @@
       "startedAt": 1784960370508,
       "createdAt": "2026-07-25T06:21:14.806Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms185doznwh",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+      "reflection": "",
+      "seconds": 447,
+      "startedAt": 1785035531726,
+      "createdAt": "2026-07-26T03:14:29.651Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms1bwv62b7k",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+      "reflection": "",
+      "seconds": 2532,
+      "startedAt": 1785041880861,
+      "createdAt": "2026-07-26T04:59:50.858Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -50,20 +72,34 @@
         "watchedSec": 1384
       },
       "A7CrbLfr5VY": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "8~12쪽 두 점 사이의 거리",
         "durationSec": 2912,
-        "lastPosition": 507,
-        "lastWatchedAt": "2026-07-25T07:10:00.621Z",
-        "watchedSec": 969
+        "lastPosition": 2549,
+        "lastWatchedAt": "2026-07-26T05:59:38.385Z",
+        "watchedSec": 3501
+      },
+      "aa5XlDPSuus": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "128~131쪽 오메가의 성질",
+        "durationSec": 4626,
+        "lastPosition": 2956,
+        "lastWatchedAt": "2026-07-26T04:57:38.298Z",
+        "watchedSec": 447
       }
     },
     "daily": {
       "2026-07-25": {
         "JH_MD-p63IA": 1384,
         "A7CrbLfr5VY": 969
+      },
+      "2026-07-26": {
+        "aa5XlDPSuus": 447,
+        "A7CrbLfr5VY": 2532
       }
     }
   },
@@ -76,8 +112,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {},
   "tasks": [],

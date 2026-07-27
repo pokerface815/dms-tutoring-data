@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T01:09:16.724Z",
+  "generatedAt": "2026-07-27T10:57:27.072Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -151,17 +151,26 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-22T08:01:59.810Z",
+    "uploadedAt": "2026-07-27T07:20:53.986Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 3361,
-      "streak": 0,
+      "todaySec": 1991,
+      "weekSec": 1991,
+      "monthSec": 5352,
+      "streak": 1,
       "bySubjectMonth": {
-        "공통수학2": 3361
+        "공통수학2": 5352
       }
     },
     "logs": [
+      {
+        "id": "effort_ms2u9a7qx04",
+        "startedAt": 1785133199782,
+        "seconds": 1991,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
+        "reflection": ""
+      },
       {
         "id": "effort_mrvsfu2gmhp",
         "startedAt": 1784706891563,

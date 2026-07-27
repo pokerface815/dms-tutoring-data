@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:08:42.480Z",
+  "generatedAt": "2026-07-27T06:03:15.760Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -322,6 +322,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-07-23T12:49:10.238Z"
+    },
+    {
+      "id": "effort_ms2ln3g43e4",
+      "startedAt": 1785117457337,
+      "endedAt": 1785118797337,
+      "seconds": 1340,
+      "subject": "미적분Ⅰ",
+      "method": "문제 풀이",
+      "content": "쎈B",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-27T02:19:57.364Z"
     }
   ],
   "syncedEffortDeletedIds": [

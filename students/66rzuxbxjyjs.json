@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T06:03:18.164Z",
+  "generatedAt": "2026-07-27T10:57:32.690Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -151,7 +151,7 @@
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",
       "reflection": "",
-      "seconds": 2324,
+      "seconds": 2325,
       "startedAt": 1784983155043,
       "createdAt": "2026-07-25T12:39:15.833Z",
       "autoRecorded": true
@@ -160,18 +160,8 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
-      "Lwm2o1aNceI": {
-        "watchedSec": 846,
-        "lastPosition": 3463,
-        "sessionCount": 2,
-        "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
-        "videoTitle": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
-        "durationSec": 4395,
-        "lastWatchedAt": "2026-07-24T04:49:47.644Z"
-      },
       "LoUhX_HhA3k": {
-        "sessionCount": 5,
+        "sessionCount": 6,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "73~82쪽 음수의 제곱근, 이차방정식",
@@ -210,8 +200,18 @@
         "lastWatchedAt": "2026-07-19T03:48:38.243Z",
         "watchedSec": 1729
       },
+      "Lwm2o1aNceI": {
+        "watchedSec": 846,
+        "lastPosition": 3463,
+        "sessionCount": 3,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
+        "durationSec": 4395,
+        "lastWatchedAt": "2026-07-24T04:49:47.644Z"
+      },
       "TE0dmnIF-aU": {
-        "sessionCount": 1,
+        "sessionCount": 6,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "95~105쪽 이차방정식과 이차함수의 관계",
@@ -221,20 +221,17 @@
         "watchedSec": 1325
       },
       "sJH5b7SkTL4": {
-        "sessionCount": 5,
+        "sessionCount": 4,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "106~112쪽 이차함수의 최대, 최소",
         "durationSec": 4137,
-        "lastPosition": 2253,
-        "lastWatchedAt": "2026-07-27T05:47:10.337Z",
-        "watchedSec": 3741
+        "lastPosition": 2255,
+        "lastWatchedAt": "2026-07-27T08:55:47.973Z",
+        "watchedSec": 3742
       }
     },
     "daily": {
-      "2026-07-21": {
-        "Lwm2o1aNceI": 269
-      },
       "2026-07-13": {
         "LoUhX_HhA3k": 260,
         "TSZXX0ck6Mw": 1029
@@ -247,6 +244,9 @@
         "_x8xEiOR850": 1259,
         "LoUhX_HhA3k": 952
       },
+      "2026-07-21": {
+        "Lwm2o1aNceI": 269
+      },
       "2026-07-23": {
         "TE0dmnIF-aU": 8
       },
@@ -258,7 +258,7 @@
         "sJH5b7SkTL4": 3380
       },
       "2026-07-27": {
-        "sJH5b7SkTL4": 361
+        "sJH5b7SkTL4": 362
       }
     }
   },

@@ -1436,17 +1436,6 @@
     "fromLesson": "lesson_1780314584317_0av73m"
   },
   {
-    "id": "task_1780314584317_7gk7l4",
-    "type": "task",
-    "studentId": "s_1780314459772_mrri1r",
-    "title": "프린트 101쪽까지 마무리 해오기",
-    "dueDate": "2026-06-05",
-    "assignedAt": "2026-06-01T11:49:44.317Z",
-    "batchId": "t_mpv5c4xp",
-    "repeat": null,
-    "fromLesson": "lesson_1780314584317_0av73m"
-  },
-  {
     "id": "task_1780314584317_ao58ty",
     "type": "task",
     "studentId": "s_1780314459772_frngyj",
@@ -1852,17 +1841,6 @@
     "id": "task_1780907008277_hqho9m",
     "type": "task",
     "studentId": "s_1780314459772_58a78m",
-    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
-    "dueDate": "2026-06-10",
-    "assignedAt": "2026-06-08T08:23:28.277Z",
-    "batchId": "t_mq4y1u6t",
-    "repeat": null,
-    "fromLesson": "lesson_1780907008277_7dgplb"
-  },
-  {
-    "id": "task_1780907008277_mn5lx2",
-    "type": "task",
-    "studentId": "s_1780314459772_mrri1r",
     "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
     "dueDate": "2026-06-10",
     "assignedAt": "2026-06-08T08:23:28.277Z",
@@ -2491,32 +2469,6 @@
       }
     ],
     "createdAt": "2026-06-22T05:11:14.967Z"
-  },
-  {
-    "id": "a_1782144560416_tnz9ix",
-    "noteId": "note_1782144470375_laavx9",
-    "noteName": "이수연_올림포스 유형편_사인,코사인법칙+등차,등비수열",
-    "studentId": "s_1782144542719_3gm3op",
-    "subject": "대수",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-06-23",
-        "actualDone": true,
-        "doneAt": "2026-06-23T01:24:57.435Z",
-        "missed": false,
-        "missedAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-06-25",
-        "actualDone": true,
-        "doneAt": "2026-06-25T07:35:38.582Z",
-        "missed": false,
-        "missedAt": null
-      }
-    ],
-    "createdAt": "2026-06-22T16:09:20.416Z"
   },
   {
     "id": "task_1782174981058_6nzm9i",

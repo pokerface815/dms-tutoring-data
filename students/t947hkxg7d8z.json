@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-25T12:46:56.736Z",
+  "generatedAt": "2026-07-27T01:09:07.646Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -420,8 +420,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26"
+    "startDate": "2026-07-27",
+    "endDate": "2026-08-02"
   },
   "teacherConfirms": {
     "a_1779287559980_ge3q7f__3": {

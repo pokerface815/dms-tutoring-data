@@ -595,27 +595,6 @@
     "showMakeNote": false
   },
   {
-    "id": "s_1780314459772_mrri1r",
-    "name": "채수완",
-    "school": "",
-    "grade": "중3",
-    "classes": [
-      "cls_1780311125071_i1638e"
-    ],
-    "days": [
-      "월",
-      "수",
-      "금"
-    ],
-    "memo": "",
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
-    "pageCode": "y6p5fvfxgfeu",
-    "showMakeNote": false
-  },
-  {
     "id": "s_1780314459772_frngyj",
     "name": "고승민",
     "school": "",
@@ -898,34 +877,6 @@
     ]
   },
   {
-    "id": "s_1782144542719_3gm3op",
-    "name": "이수연",
-    "school": "문정여고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780310061018_vay6zf"
-    ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-4675-0232",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
-    "pageCode": "5yjt33jqznrm"
-  },
-  {
     "id": "s_1783141077746_ni5332",
     "name": "손아현",
     "school": "전사고",
@@ -1176,34 +1127,6 @@
     "showNoteStages": true,
     "showMakeNote": false,
     "pageCode": "5t3q9pua6ndz"
-  },
-  {
-    "id": "s_1783741597296_84n8hm",
-    "name": "조준영",
-    "school": "살레시오고",
-    "grade": "고1",
-    "classes": [
-      "cls_1783741486590_iyer5b"
-    ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-4161-2481",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": false,
-    "pageCode": "k2yku3ebkked"
   },
   {
     "id": "s_1783741639936_epkpt5",

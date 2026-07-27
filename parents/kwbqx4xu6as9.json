@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T10:57:36.865Z",
+  "generatedAt": "2026-07-27T15:03:07.519Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -238,7 +238,7 @@
       "todaySec": 0,
       "weekSec": 0,
       "monthSec": 4126,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "공통수학1": 4058,
         "미적분Ⅰ": 68

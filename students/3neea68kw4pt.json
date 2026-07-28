@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T14:10:01.035Z",
+  "generatedAt": "2026-07-28T02:39:45.842Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -346,6 +346,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-07-27T13:56:11.048Z"
+    },
+    {
+      "id": "effort_ms3ppoi1g0f",
+      "startedAt": 1785182568166,
+      "endedAt": 1785186102601,
+      "seconds": 3525,
+      "subject": "기하",
+      "method": "문제 풀이",
+      "content": "삼수선 정리",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-27T21:01:42.601Z"
     }
   ],
   "syncedEffortDeletedIds": [

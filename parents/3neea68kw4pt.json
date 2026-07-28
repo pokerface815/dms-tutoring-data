@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T15:03:09.692Z",
+  "generatedAt": "2026-07-28T02:39:43.915Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -168,22 +168,31 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-27T13:56:11.052Z",
+    "uploadedAt": "2026-07-27T21:01:42.606Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 6302,
-      "monthSec": 60584,
-      "streak": 1,
+      "todaySec": 3525,
+      "weekSec": 9827,
+      "monthSec": 64109,
+      "streak": 2,
       "bySubjectMonth": {
         "대수": 18534,
         "확률과 통계": 4154,
         "미적분Ⅰ": 6858,
         "독서": 881,
         "필사": 415,
-        "기하": 29742
+        "기하": 33267
       }
     },
     "logs": [
+      {
+        "id": "effort_ms3ppoi1g0f",
+        "startedAt": 1785182568166,
+        "seconds": 3525,
+        "subject": "기하",
+        "method": "문제 풀이",
+        "content": "삼수선 정리",
+        "reflection": ""
+      },
       {
         "id": "effort_ms3aig8891p",
         "startedAt": 1785154611399,
@@ -425,15 +434,6 @@
         "subject": "기하",
         "method": "개념 정리",
         "content": "개념원리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqx5czqjrkj",
-        "startedAt": 1782607985686,
-        "seconds": 2567,
-        "subject": "대수",
-        "method": "문제 풀이",
-        "content": "자이",
         "reflection": ""
       }
     ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T15:02:58.711Z",
+  "generatedAt": "2026-07-28T02:39:50.373Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -79,15 +79,6 @@
         "subject": "영어, 수학",
         "method": "문제 풀이",
         "content": "영어 부교재 수학 복습 3회",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqx828ewf12",
-        "startedAt": 1782611889020,
-        "seconds": 4703,
-        "subject": "국어",
-        "method": "문제 풀이",
-        "content": "25.6,26,6 모의고사",
         "reflection": ""
       }
     ]

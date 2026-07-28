@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T20:24:44.356Z",
+  "generatedAt": "2026-07-28T02:39:48.176Z",
   "studentCount": 50,
   "rankings": [
     {
@@ -171,11 +171,11 @@
     {
       "id": "s_1780190418387_a11waf",
       "name": "문대승",
-      "totalSec": 71048,
-      "weekSec": 6302,
-      "monthSec": 60584,
-      "recent3mSec": 71048,
-      "streak": 1,
+      "totalSec": 74573,
+      "weekSec": 9827,
+      "monthSec": 64109,
+      "recent3mSec": 74573,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },

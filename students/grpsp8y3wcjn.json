@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:09:46.838Z",
+  "generatedAt": "2026-07-29T11:20:03.122Z",
   "student": {
     "id": "s_1783735695213_xbid51",
     "classes": [
@@ -12,9 +12,39 @@
     "class": "",
     "showMakeNote": false
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [
+    {
+      "id": "effort_ms5sspy9wnk",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 41~48쪽 점과 직선 사이의 거리",
+      "reflection": "",
+      "seconds": 2898,
+      "startedAt": 1785311993771,
+      "createdAt": "2026-07-29T08:03:35.649Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "jIjscjI_q2c": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
+        "videoTitle": "41~48쪽 점과 직선 사이의 거리",
+        "durationSec": 4266,
+        "lastPosition": 4265,
+        "lastWatchedAt": "2026-07-29T08:53:51.248Z",
+        "watchedSec": 2898
+      }
+    },
+    "daily": {
+      "2026-07-29": {
+        "jIjscjI_q2c": 2898
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

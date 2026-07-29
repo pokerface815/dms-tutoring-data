@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:51:01.790Z",
+  "generatedAt": "2026-07-29T06:51:05.864Z",
   "studentCount": 50,
   "rankings": [
     {
@@ -380,10 +380,10 @@
     {
       "id": "s_1783735608548_k885g4",
       "name": "원지율",
-      "totalSec": 923,
-      "weekSec": 923,
-      "monthSec": 923,
-      "recent3mSec": 923,
+      "totalSec": 1840,
+      "weekSec": 1840,
+      "monthSec": 1840,
+      "recent3mSec": 1840,
       "streak": 1,
       "nickname": "",
       "publicNickname": false

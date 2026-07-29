@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T05:55:47.110Z",
+  "generatedAt": "2026-07-29T11:20:07.218Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -416,15 +416,6 @@
         "subject": "대수",
         "method": "문제 풀이",
         "content": "인성고 프린트",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqz8bjycamp",
-        "startedAt": 1782728727534,
-        "seconds": 2726,
-        "subject": "공통수학1",
-        "method": "문제 풀이",
-        "content": "테스트",
         "reflection": ""
       }
     ]

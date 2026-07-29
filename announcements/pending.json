@@ -1,17 +1,1 @@
-[
-  {
-    "id": "ann_ms5oknnbnn9a",
-    "createdAt": "2026-07-29T06:05:20.951Z",
-    "target": "student",
-    "message": "(페이지 링크 발송)",
-    "recipients": [
-      {
-        "name": "이지호",
-        "type": "student",
-        "phone": "010-3523-9432",
-        "message": "이지호 학생 전용 학습 페이지입니다.\n\nhttps://pokerface815.github.io/dms-tutoring-data/s/?code=psczdq3zn5zn\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
-      }
-    ],
-    "status": "pending"
-  }
-]
+[]

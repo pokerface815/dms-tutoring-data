@@ -1,0 +1,16 @@
+{
+  "id": "ann_ms5oknnbnn9a",
+  "sentAt": "2026-07-29T15:05:36.016198+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "이지호",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

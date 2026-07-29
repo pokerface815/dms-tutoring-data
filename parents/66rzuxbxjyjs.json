@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T10:57:31.605Z",
+  "generatedAt": "2026-07-29T05:55:33.487Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -44,17 +44,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-27T08:55:47.365Z",
+    "uploadedAt": "2026-07-29T03:44:57.069Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 9758,
-      "streak": 0,
+      "todaySec": 903,
+      "weekSec": 903,
+      "monthSec": 10661,
+      "streak": 1,
       "bySubjectMonth": {
-        "공통수학1": 9758
+        "공통수학1": 10661
       }
     },
     "logs": [
+      {
+        "id": "effort_ms5gzzaevv5",
+        "startedAt": 1785292027849,
+        "seconds": 903,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 113~121쪽 삼차방정식과 사차방정식",
+        "reflection": ""
+      },
       {
         "id": "effort_ms0cvtrtfss",
         "startedAt": 1784983155043,

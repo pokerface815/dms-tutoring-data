@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:09:48.407Z",
+  "generatedAt": "2026-07-29T11:20:01.484Z",
   "student": {
     "id": "s_1783736188808_37ty47",
     "classes": [
@@ -34,13 +34,24 @@
       "startedAt": 1784306241581,
       "createdAt": "2026-07-17T16:39:23.791Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms5vn90o3mz",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "11시 수업 - 공통수학2 (26년 7월 ~ ) — 36~41쪽 정점을 지나는 직선 추가 설명 + 두 직선의 평행과 수직",
+      "reflection": "",
+      "seconds": 3728,
+      "startedAt": 1785316907997,
+      "createdAt": "2026-07-29T09:23:19.272Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "7nbTNA-0qrk": {
-        "sessionCount": 2,
+        "sessionCount": 1,
         "lectureId": "lec_mrg80i3ervi",
         "lectureTitle": "11시 공통수학2 (26년 7월 ~ )",
         "videoTitle": "13~21쪽 선분의 내분점",
@@ -48,11 +59,27 @@
         "lastPosition": 3388,
         "lastWatchedAt": "2026-07-17T17:03:14.045Z",
         "watchedSec": 3324
+      },
+      "uRtN6_fkwD8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg80i3ervi",
+        "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "36~41쪽 정점을 지나는 직선 추가 설명 + 두 직선의 평행과 수직",
+        "durationSec": 4260,
+        "lastPosition": 4235,
+        "lastWatchedAt": "2026-07-29T10:26:56.649Z",
+        "watchedSec": 3728
       }
     },
     "daily": {
+      "2026-07-17": {
+        "7nbTNA-0qrk": 13
+      },
       "2026-07-18": {
         "7nbTNA-0qrk": 3324
+      },
+      "2026-07-29": {
+        "uRtN6_fkwD8": 3728
       }
     }
   },

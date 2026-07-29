@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T06:51:04.794Z",
+  "generatedAt": "2026-07-29T06:51:07.540Z",
   "student": {
     "id": "s_1783735608548_k885g4",
     "classes": [
@@ -45,14 +45,14 @@
         "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
         "videoTitle": "41~48쪽 점과 직선 사이의 거리",
         "durationSec": 4266,
-        "lastPosition": 2120,
-        "lastWatchedAt": "2026-07-29T06:35:33.603Z",
-        "watchedSec": 923
+        "lastPosition": 3017,
+        "lastWatchedAt": "2026-07-29T06:50:53.403Z",
+        "watchedSec": 1840
       }
     },
     "daily": {
       "2026-07-29": {
-        "jIjscjI_q2c": 923
+        "jIjscjI_q2c": 1840
       }
     }
   },

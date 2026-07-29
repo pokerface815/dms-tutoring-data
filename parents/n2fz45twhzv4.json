@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T03:20:23.252Z",
+  "generatedAt": "2026-07-29T05:56:11.054Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -56,17 +56,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_mqyrj0qru31",
-        "startedAt": 1782710000359,
-        "seconds": 31,
-        "subject": "수학",
-        "method": "문제 풀이",
-        "content": "테트",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

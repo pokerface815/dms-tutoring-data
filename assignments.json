@@ -2861,5 +2861,16 @@
     "batchId": "t_ms3ngpib",
     "repeat": null,
     "fromLesson": "lesson_1785182324771_wp4hfx"
+  },
+  {
+    "id": "task_1785366867466_62h6oe",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "102쪽까지 풀어오기",
+    "dueDate": "2026-08-02",
+    "assignedAt": "2026-07-29T23:14:27.466Z",
+    "batchId": "t_ms6pc3ka",
+    "repeat": null,
+    "fromLesson": "lesson_1785366867466_2tlrdi"
   }
 ]

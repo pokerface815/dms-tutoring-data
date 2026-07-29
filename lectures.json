@@ -447,7 +447,7 @@
   },
   {
     "id": "lec_mqoujc2nsde",
-    "title": "공통수학2 개념+유형 (26년 1, 2월)",
+    "title": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
     "youtubePlaylistId": "PLoYw3JZAX7F2jzdmTy2mclsGYJZzztTy-",
     "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F2jzdmTy2mclsGYJZzztTy-",
     "subject": "공통수학2",
@@ -558,8 +558,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-22T06:40:29.663Z",
-    "updatedAt": "2026-07-18T11:03:01.451Z",
-    "lastSyncedAt": "2026-07-18T11:03:01.451Z"
+    "updatedAt": "2026-07-29T06:32:21.415Z",
+    "lastSyncedAt": "2026-07-29T06:32:21.415Z"
   },
   {
     "id": "lec_mqks8brpdcl",
@@ -1863,5 +1863,205 @@
     "createdAt": "2026-07-27T15:02:44.952Z",
     "updatedAt": "2026-07-27T15:02:53.149Z",
     "lastSyncedAt": "2026-07-27T15:02:53.149Z"
+  },
+  {
+    "id": "lec_ms5pj8rig4h",
+    "title": "개념+유형_공통수학2( ~ 합성함수)_24년 하반기 수업",
+    "youtubePlaylistId": "PLoYw3JZAX7F3w-6QPmdM5l_gSiCxjUMAG",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F3w-6QPmdM5l_gSiCxjUMAG",
+    "subject": "공통수학2",
+    "textbook": "개념+유형",
+    "memo": "",
+    "thumbnailUrl": "https://i.ytimg.com/vi/CCiADAqZ3iw/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "CCiADAqZ3iw",
+        "title": "02. 선분의 내분점",
+        "position": 0,
+        "durationSec": 4048
+      },
+      {
+        "videoId": "4uqVjzd4CXc",
+        "title": "03. 삼각형의 무게중심",
+        "position": 1,
+        "durationSec": 2569
+      },
+      {
+        "videoId": "DfIRtxsdCzk",
+        "title": "04. 직선의 방정식",
+        "position": 2,
+        "durationSec": 4342
+      },
+      {
+        "videoId": "rCmVZRrH118",
+        "title": "05. 두 직선의 위치관계",
+        "position": 3,
+        "durationSec": 4823
+      },
+      {
+        "videoId": "5P4PGAKiWIk",
+        "title": "06. 점과 직선 사이의 거리",
+        "position": 4,
+        "durationSec": 4530
+      },
+      {
+        "videoId": "-c2KyBQt3YQ",
+        "title": "07. 과제 질문 + 원의방정식 조금",
+        "position": 5,
+        "durationSec": 3651
+      },
+      {
+        "videoId": "lRqM1WYVW4c",
+        "title": "08. x축, y축에 접하는 원",
+        "position": 6,
+        "durationSec": 2628
+      },
+      {
+        "videoId": "XQQewaSq0QQ",
+        "title": "09. 두 원의 교점을 지나는 도형의 방정식",
+        "position": 7,
+        "durationSec": 4809
+      },
+      {
+        "videoId": "1E-MCV4qMMQ",
+        "title": "10. 원과 직선의 위치관계",
+        "position": 8,
+        "durationSec": 4593
+      },
+      {
+        "videoId": "fb32N0PN0yw",
+        "title": "11. 원에서 접선의 방정식",
+        "position": 9,
+        "durationSec": 4126
+      },
+      {
+        "videoId": "HYbzwTvipbM",
+        "title": "12. 과제 질의응답",
+        "position": 10,
+        "durationSec": 3949
+      },
+      {
+        "videoId": "7i_4ypmLIOE",
+        "title": "13. 평행이동",
+        "position": 11,
+        "durationSec": 2016
+      },
+      {
+        "videoId": "-s116NbvSbk",
+        "title": "14. 대칭이동",
+        "position": 12,
+        "durationSec": 3075
+      },
+      {
+        "videoId": "qKPUCcxiEZs",
+        "title": "15. 점,직선에 대한 대칭이동",
+        "position": 13,
+        "durationSec": 2799
+      },
+      {
+        "videoId": "mSK9lpiIB7A",
+        "title": "16. 집합, 부분집합",
+        "position": 14,
+        "durationSec": 3599
+      },
+      {
+        "videoId": "it5jYo10nbI",
+        "title": "17. 부분집합의 개수",
+        "position": 15,
+        "durationSec": 3432
+      },
+      {
+        "videoId": "GTH3thJo0Nk",
+        "title": "18. 집합의 연산",
+        "position": 16,
+        "durationSec": 4442
+      },
+      {
+        "videoId": "KvPxhp1TV4M",
+        "title": "19. 집합의 연산법칙",
+        "position": 17,
+        "durationSec": 4477
+      },
+      {
+        "videoId": "pYPV5BoJ5wY",
+        "title": "20. 집합의 연산법칙,배수의 집합",
+        "position": 18,
+        "durationSec": 4133
+      },
+      {
+        "videoId": "Z42shBZujo8",
+        "title": "21. 유한집합의 원소의 개수",
+        "position": 19,
+        "durationSec": 2466
+      },
+      {
+        "videoId": "jIpwtf4tEck",
+        "title": "22. 명제",
+        "position": 20,
+        "durationSec": 5157
+      },
+      {
+        "videoId": "gcLtKgbx6Xo",
+        "title": "23. 모든, 어떤 + 조건p",
+        "position": 21,
+        "durationSec": 2443
+      },
+      {
+        "videoId": "2lHfBxgTyq4",
+        "title": "24. 명제의 역, 대우",
+        "position": 22,
+        "durationSec": 4566
+      },
+      {
+        "videoId": "RMagOXxUoPg",
+        "title": "25. 명제의 증명",
+        "position": 23,
+        "durationSec": 3627
+      },
+      {
+        "videoId": "oWkjgYpRUxU",
+        "title": "26. 산술평균과 기하평균의 관계",
+        "position": 24,
+        "durationSec": 4896
+      },
+      {
+        "videoId": "gLnBI8RWwa0",
+        "title": "27. 코시 슈바르츠 부등식",
+        "position": 25,
+        "durationSec": 2848
+      },
+      {
+        "videoId": "Z3nHmhOkyco",
+        "title": "28. 함수",
+        "position": 26,
+        "durationSec": 1368
+      },
+      {
+        "videoId": "PqIZP9AYgTg",
+        "title": "29. 여러가지 함수",
+        "position": 27,
+        "durationSec": 3912
+      },
+      {
+        "videoId": "0PfuEK4N4Rg",
+        "title": "30. 합성함수",
+        "position": 28,
+        "durationSec": 4302
+      },
+      {
+        "videoId": "-LiRmpWU34Q",
+        "title": "31. 역함수",
+        "position": 29,
+        "durationSec": 4177
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-07-29T06:32:14.622Z",
+    "updatedAt": "2026-07-29T06:32:14.622Z",
+    "lastSyncedAt": "2026-07-29T06:32:14.622Z"
   }
 ]

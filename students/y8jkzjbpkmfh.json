@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T06:32:23.635Z",
+  "generatedAt": "2026-07-29T22:47:07.519Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -243,6 +243,17 @@
       "startedAt": 1785305622257,
       "createdAt": "2026-07-29T06:15:31.593Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms60423xg5d",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+      "reflection": "",
+      "seconds": 837,
+      "startedAt": 1785324397358,
+      "createdAt": "2026-07-29T11:28:21.933Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -329,24 +340,44 @@
         "watchedSec": 2971
       },
       "pJC_OdUw6QE": {
-        "sessionCount": 1,
+        "sessionCount": 4,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
         "durationSec": 4227,
-        "lastPosition": 3460,
-        "lastWatchedAt": "2026-07-28T06:56:44.487Z",
-        "watchedSec": 5
+        "lastPosition": 3764,
+        "lastWatchedAt": "2026-07-29T12:29:01.097Z",
+        "watchedSec": 869
       },
       "Rwl3S2aA19M": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mrq99fx1qmz",
         "lectureTitle": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
         "videoTitle": "36~43쪽 03.미분계수와 도함수 34~77번",
         "durationSec": 2294,
         "lastPosition": 2293,
-        "lastWatchedAt": "2026-07-29T06:22:02.122Z",
-        "watchedSec": 291
+        "lastWatchedAt": "2026-07-29T12:10:04.550Z",
+        "watchedSec": 299
+      },
+      "RJFHmeXhz3I": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq9a1wrhru",
+        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "34~43쪽 03.미분계수와 도함수 34~77번",
+        "durationSec": 2348,
+        "lastPosition": 1440,
+        "lastWatchedAt": "2026-07-29T12:10:27.098Z",
+        "watchedSec": 4
+      },
+      "EgHfNAsg_mk": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "durationSec": 4814,
+        "lastPosition": 919,
+        "lastWatchedAt": "2026-07-29T12:28:15.893Z",
+        "watchedSec": 4
       }
     },
     "daily": {
@@ -385,7 +416,10 @@
         "KuzIK3RkqvM": 895
       },
       "2026-07-29": {
-        "Rwl3S2aA19M": 291
+        "Rwl3S2aA19M": 299,
+        "pJC_OdUw6QE": 864,
+        "RJFHmeXhz3I": 4,
+        "EgHfNAsg_mk": 4
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:51:05.864Z",
+  "generatedAt": "2026-07-29T11:20:08.431Z",
   "studentCount": 50,
   "rankings": [
     {
@@ -380,10 +380,10 @@
     {
       "id": "s_1783735608548_k885g4",
       "name": "원지율",
-      "totalSec": 1840,
-      "weekSec": 1840,
-      "monthSec": 1840,
-      "recent3mSec": 1840,
+      "totalSec": 3028,
+      "weekSec": 3028,
+      "monthSec": 3028,
+      "recent3mSec": 3028,
       "streak": 1,
       "nickname": "",
       "publicNickname": false
@@ -402,22 +402,22 @@
     {
       "id": "s_1783735695213_xbid51",
       "name": "정호연",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
+      "totalSec": 2898,
+      "weekSec": 2898,
+      "monthSec": 2898,
+      "recent3mSec": 2898,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1783736188808_37ty47",
       "name": "박현진",
-      "totalSec": 3324,
-      "weekSec": 0,
-      "monthSec": 3324,
-      "recent3mSec": 3324,
-      "streak": 0,
+      "totalSec": 7052,
+      "weekSec": 3728,
+      "monthSec": 7052,
+      "recent3mSec": 7052,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

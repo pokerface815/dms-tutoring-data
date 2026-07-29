@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T05:55:52.283Z",
+  "generatedAt": "2026-07-29T22:47:04.961Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -111,6 +111,28 @@
       "startedAt": 1785221628239,
       "createdAt": "2026-07-28T06:54:59.434Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms60zscs739",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 23~35쪽 02.함수의 연속 24번 ~ 03.미분계수와 도함수 29번",
+      "reflection": "",
+      "seconds": 1663,
+      "startedAt": 1785325918235,
+      "createdAt": "2026-07-29T11:53:02.284Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms64yxnkqs6",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+      "reflection": "",
+      "seconds": 287,
+      "startedAt": 1785332553884,
+      "createdAt": "2026-07-29T13:44:20.960Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -185,6 +207,26 @@
         "lastPosition": 4812,
         "lastWatchedAt": "2026-07-26T08:40:02.982Z",
         "watchedSec": 2563
+      },
+      "RKuLIjXCpLE": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq9a1wrhru",
+        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "23~35쪽 02.함수의 연속 24번 ~ 03.미분계수와 도함수 29번",
+        "durationSec": 1913,
+        "lastPosition": 1912,
+        "lastWatchedAt": "2026-07-29T12:15:46.825Z",
+        "watchedSec": 1663
+      },
+      "pJC_OdUw6QE": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "durationSec": 4227,
+        "lastPosition": 3557,
+        "lastWatchedAt": "2026-07-29T13:48:06.142Z",
+        "watchedSec": 287
       }
     },
     "daily": {
@@ -209,6 +251,10 @@
       },
       "2026-07-28": {
         "JlBX5IRj9d8": 708
+      },
+      "2026-07-29": {
+        "RKuLIjXCpLE": 1663,
+        "pJC_OdUw6QE": 287
       }
     }
   },

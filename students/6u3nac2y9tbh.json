@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T06:50:59.650Z",
+  "generatedAt": "2026-07-29T06:51:04.794Z",
   "student": {
     "id": "s_1783735608548_k885g4",
     "classes": [
@@ -30,7 +30,7 @@
       "method": "강의 시청",
       "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
       "reflection": "",
-      "seconds": 790,
+      "seconds": 1707,
       "startedAt": 1785306089849,
       "createdAt": "2026-07-29T06:23:33.612Z",
       "autoRecorded": true

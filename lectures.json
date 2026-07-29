@@ -2248,55 +2248,19 @@
     "subject": "중3",
     "textbook": "쎈B",
     "memo": "",
-    "thumbnailUrl": "https://i.ytimg.com/vi/VWbrNfVbPSo/mqdefault.jpg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Lx02siqcaLE/mqdefault.jpg",
     "videos": [
-      {
-        "videoId": "VWbrNfVbPSo",
-        "title": "23~27쪽 삼각형의 변의 길이",
-        "position": 0,
-        "durationSec": 3709
-      },
       {
         "videoId": "Lx02siqcaLE",
         "title": "16~21쪽 특수한 각의 삼각비, 삼각비의 대소 관계, 삼각비의 표",
-        "position": 1,
+        "position": 0,
         "durationSec": 4332
       },
       {
-        "videoId": "79sYyULquEc",
-        "title": "Deleted video",
-        "position": 2,
-        "durationSec": 0
-      },
-      {
-        "videoId": "ofMld-tGjdw",
-        "title": "Deleted video",
-        "position": 3,
-        "durationSec": 0
-      },
-      {
-        "videoId": "XAgEnq8x4nA",
-        "title": "Deleted video",
-        "position": 4,
-        "durationSec": 0
-      },
-      {
-        "videoId": "anWKOV918kY",
-        "title": "Deleted video",
-        "position": 5,
-        "durationSec": 0
-      },
-      {
-        "videoId": "NTP4rzWVz0o",
-        "title": "Deleted video",
-        "position": 6,
-        "durationSec": 0
-      },
-      {
-        "videoId": "2pxOjA_MKx4",
-        "title": "Deleted video",
-        "position": 7,
-        "durationSec": 0
+        "videoId": "VWbrNfVbPSo",
+        "title": "23~27쪽 삼각형의 변의 길이",
+        "position": 1,
+        "durationSec": 3709
       }
     ],
     "permissions": {
@@ -2305,7 +2269,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-29T22:56:32.707Z",
-    "updatedAt": "2026-07-29T22:56:42.829Z",
-    "lastSyncedAt": "2026-07-29T22:56:42.829Z"
+    "updatedAt": "2026-07-29T23:12:22.932Z",
+    "lastSyncedAt": "2026-07-29T23:12:22.932Z"
   }
 ]

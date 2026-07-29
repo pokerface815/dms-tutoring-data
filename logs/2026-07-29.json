@@ -1,0 +1,24 @@
+[
+  {
+    "run_at": "2026-07-29T16:00:37.147770+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 1,
+      "failed": 0,
+      "total": 1
+    },
+    "entries": [
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 24,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

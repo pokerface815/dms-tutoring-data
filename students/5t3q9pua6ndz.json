@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:08:46.512Z",
+  "generatedAt": "2026-07-29T05:56:05.869Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -45,6 +45,28 @@
       "startedAt": 1784794620798,
       "createdAt": "2026-07-23T08:18:21.654Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms5jn8uw9y0",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
+      "reflection": "",
+      "seconds": 2712,
+      "startedAt": 1785296738344,
+      "createdAt": "2026-07-29T03:47:23.672Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms5lyzejhdj",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "공통수학2 개념+유형 (26년 1, 2월) — 52~57쪽 원의 방정식(1)",
+      "reflection": "",
+      "seconds": 2512,
+      "startedAt": 1785300634790,
+      "createdAt": "2026-07-29T04:52:30.523Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -79,12 +101,48 @@
         "lastPosition": 4182,
         "lastWatchedAt": "2026-07-23T08:49:34.735Z",
         "watchedSec": 1822
+      },
+      "jIjscjI_q2c": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
+        "videoTitle": "41~48쪽 점과 직선 사이의 거리",
+        "durationSec": 4266,
+        "lastPosition": 4213,
+        "lastWatchedAt": "2026-07-29T04:50:28.775Z",
+        "watchedSec": 2720
+      },
+      "Ea3QmY3z6_c": {
+        "sessionCount": 3,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
+        "videoTitle": "52~57쪽 원의 방정식(1)",
+        "durationSec": 4404,
+        "lastPosition": 3921,
+        "lastWatchedAt": "2026-07-29T05:43:04.967Z",
+        "watchedSec": 2517
+      },
+      "AYuLMKDmn9E": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
+        "videoTitle": "67~75쪽 원과 직선의 위치 관계, 원의 접선의 방정식",
+        "durationSec": 3803,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-29T05:43:08.016Z"
       }
     },
     "daily": {
       "2026-07-23": {
         "tsLcsUgBKZ0": 169,
         "JH_MD-p63IA": 1822
+      },
+      "2026-07-28": {
+        "jIjscjI_q2c": 8
+      },
+      "2026-07-29": {
+        "jIjscjI_q2c": 2712,
+        "Ea3QmY3z6_c": 2517
       }
     }
   },

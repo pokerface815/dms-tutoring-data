@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T10:57:32.690Z",
+  "generatedAt": "2026-07-29T05:55:35.050Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -155,6 +155,17 @@
       "startedAt": 1784983155043,
       "createdAt": "2026-07-25T12:39:15.833Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms5gzzaevv5",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 113~121쪽 삼차방정식과 사차방정식",
+      "reflection": "",
+      "seconds": 903,
+      "startedAt": 1785292027849,
+      "createdAt": "2026-07-29T02:33:18.950Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -221,14 +232,24 @@
         "watchedSec": 1325
       },
       "sJH5b7SkTL4": {
-        "sessionCount": 4,
+        "sessionCount": 5,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "106~112쪽 이차함수의 최대, 최소",
         "durationSec": 4137,
-        "lastPosition": 2255,
-        "lastWatchedAt": "2026-07-27T08:55:47.973Z",
-        "watchedSec": 3742
+        "lastPosition": 3502,
+        "lastWatchedAt": "2026-07-29T02:27:06.434Z",
+        "watchedSec": 3750
+      },
+      "iENXvreBGuU": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "113~121쪽 삼차방정식과 사차방정식",
+        "durationSec": 4135,
+        "lastPosition": 4129,
+        "lastWatchedAt": "2026-07-29T03:44:57.019Z",
+        "watchedSec": 903
       }
     },
     "daily": {
@@ -259,6 +280,10 @@
       },
       "2026-07-27": {
         "sJH5b7SkTL4": 362
+      },
+      "2026-07-29": {
+        "sJH5b7SkTL4": 8,
+        "iENXvreBGuU": 903
       }
     }
   },

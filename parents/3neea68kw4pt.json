@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-28T02:39:43.915Z",
+  "generatedAt": "2026-07-29T05:55:47.110Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -168,11 +168,11 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-27T21:01:42.606Z",
+    "uploadedAt": "2026-07-28T10:54:54.192Z",
     "summary": {
-      "todaySec": 3525,
-      "weekSec": 9827,
-      "monthSec": 64109,
+      "todaySec": 0,
+      "weekSec": 18797,
+      "monthSec": 73079,
       "streak": 2,
       "bySubjectMonth": {
         "대수": 18534,
@@ -180,10 +180,19 @@
         "미적분Ⅰ": 6858,
         "독서": 881,
         "필사": 415,
-        "기하": 33267
+        "기하": 42237
       }
     },
     "logs": [
+      {
+        "id": "effort_ms4jh698q1m",
+        "startedAt": 1785227109286,
+        "seconds": 8970,
+        "subject": "기하",
+        "method": "문제 풀이",
+        "content": "공간도형과 공간좌표",
+        "reflection": ""
+      },
       {
         "id": "effort_ms3ppoi1g0f",
         "startedAt": 1785182568166,
@@ -416,24 +425,6 @@
         "subject": "공통수학1",
         "method": "문제 풀이",
         "content": "테스트",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqyn8harkwg",
-        "startedAt": 1782700863667,
-        "seconds": 1953,
-        "subject": "기하",
-        "method": "개념 정리",
-        "content": "개념원리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mqy0zh0bbcm",
-        "startedAt": 1782662223066,
-        "seconds": 3218,
-        "subject": "기하",
-        "method": "개념 정리",
-        "content": "개념원리",
         "reflection": ""
       }
     ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T05:55:41.759Z",
+  "generatedAt": "2026-07-29T06:32:23.635Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -232,6 +232,17 @@
       "startedAt": 1785239228959,
       "createdAt": "2026-07-28T11:49:52.056Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms5oxqtltjt",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 36~43쪽 03.미분계수와 도함수 34~77번",
+      "reflection": "",
+      "seconds": 291,
+      "startedAt": 1785305622257,
+      "createdAt": "2026-07-29T06:15:31.593Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -326,6 +337,16 @@
         "lastPosition": 3460,
         "lastWatchedAt": "2026-07-28T06:56:44.487Z",
         "watchedSec": 5
+      },
+      "Rwl3S2aA19M": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq99fx1qmz",
+        "lectureTitle": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "36~43쪽 03.미분계수와 도함수 34~77번",
+        "durationSec": 2294,
+        "lastPosition": 2293,
+        "lastWatchedAt": "2026-07-29T06:22:02.122Z",
+        "watchedSec": 291
       }
     },
     "daily": {
@@ -362,6 +383,9 @@
         "okVxIoEMccc": 3906,
         "pJC_OdUw6QE": 5,
         "KuzIK3RkqvM": 895
+      },
+      "2026-07-29": {
+        "Rwl3S2aA19M": 291
       }
     }
   },

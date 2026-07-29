@@ -780,5 +780,16 @@
     "taskBatchId": null,
     "createdAt": "2026-07-29T05:55:24.526Z",
     "updatedAt": "2026-07-29T05:55:24.526Z"
+  },
+  {
+    "id": "lesson_1785307854557_1p0ci1",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-07-29",
+    "content": "쎈B 공수2 ~ 25쪽 조립제법",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-07-29T06:50:54.557Z",
+    "updatedAt": "2026-07-29T06:50:54.557Z"
   }
 ]

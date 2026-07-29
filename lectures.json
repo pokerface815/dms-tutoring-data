@@ -2239,5 +2239,73 @@
     "createdAt": "2026-07-29T22:46:58.060Z",
     "updatedAt": "2026-07-29T22:47:20.863Z",
     "lastSyncedAt": "2026-07-29T22:46:58.060Z"
+  },
+  {
+    "id": "lec_ms6op29vnfs",
+    "title": "쎈B 중3-2 (26년 7월 ~ )",
+    "youtubePlaylistId": "PLWGIDxJ8i9K0",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLWGIDxJ8i9K0",
+    "subject": "중3",
+    "textbook": "쎈B",
+    "memo": "",
+    "thumbnailUrl": "https://i.ytimg.com/vi/VWbrNfVbPSo/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "VWbrNfVbPSo",
+        "title": "23~27쪽 삼각형의 변의 길이",
+        "position": 0,
+        "durationSec": 3709
+      },
+      {
+        "videoId": "Lx02siqcaLE",
+        "title": "16~21쪽 특수한 각의 삼각비, 삼각비의 대소 관계, 삼각비의 표",
+        "position": 1,
+        "durationSec": 4332
+      },
+      {
+        "videoId": "79sYyULquEc",
+        "title": "Deleted video",
+        "position": 2,
+        "durationSec": 0
+      },
+      {
+        "videoId": "ofMld-tGjdw",
+        "title": "Deleted video",
+        "position": 3,
+        "durationSec": 0
+      },
+      {
+        "videoId": "XAgEnq8x4nA",
+        "title": "Deleted video",
+        "position": 4,
+        "durationSec": 0
+      },
+      {
+        "videoId": "anWKOV918kY",
+        "title": "Deleted video",
+        "position": 5,
+        "durationSec": 0
+      },
+      {
+        "videoId": "NTP4rzWVz0o",
+        "title": "Deleted video",
+        "position": 6,
+        "durationSec": 0
+      },
+      {
+        "videoId": "2pxOjA_MKx4",
+        "title": "Deleted video",
+        "position": 7,
+        "durationSec": 0
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-07-29T22:56:32.707Z",
+    "updatedAt": "2026-07-29T22:56:32.707Z",
+    "lastSyncedAt": "2026-07-29T22:56:32.707Z"
   }
 ]

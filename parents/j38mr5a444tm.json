@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T15:03:15.096Z",
+  "generatedAt": "2026-07-29T05:55:29.649Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -11,18 +11,81 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-26T02:17:42.573Z",
+    "uploadedAt": "2026-07-29T02:56:44.080Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 18809,
-      "streak": 0,
+      "todaySec": 9051,
+      "weekSec": 15537,
+      "monthSec": 34346,
+      "streak": 2,
       "bySubjectMonth": {
         "수학": 5289,
-        "미적분Ⅰ": 13520
+        "미적분Ⅰ": 29057
       }
     },
     "logs": [
+      {
+        "id": "effort_ms5hro5ul90",
+        "startedAt": 1785293590342,
+        "seconds": 315,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms5ev05tza8",
+        "startedAt": 1785288751380,
+        "seconds": 4492,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms5eh01d6bu",
+        "startedAt": 1785288150591,
+        "seconds": 4244,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms4cv3gqzgf",
+        "startedAt": 1785224906779,
+        "seconds": 1072,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms4abr94zqk",
+        "startedAt": 1785220653173,
+        "seconds": 1513,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms48syt5z74",
+        "startedAt": 1785218103355,
+        "seconds": 1420,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms46hwma1lh",
+        "startedAt": 1785214249865,
+        "seconds": 2481,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
       {
         "id": "effort_ms15qqenu2l",
         "startedAt": 1785031227724,

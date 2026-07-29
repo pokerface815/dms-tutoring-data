@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T01:08:44.299Z",
+  "generatedAt": "2026-07-29T05:56:04.335Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,17 +11,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-23T08:49:32.250Z",
+    "uploadedAt": "2026-07-29T05:42:31.545Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 1982,
-      "streak": 0,
+      "todaySec": 5224,
+      "weekSec": 5224,
+      "monthSec": 7206,
+      "streak": 1,
       "bySubjectMonth": {
-        "공통수학2": 1982
+        "공통수학2": 7206
       }
     },
     "logs": [
+      {
+        "id": "effort_ms5lyzejhdj",
+        "startedAt": 1785300634790,
+        "seconds": 2512,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형 (26년 1, 2월) — 52~57쪽 원의 방정식(1)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms5jn8uw9y0",
+        "startedAt": 1785296738344,
+        "seconds": 2712,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
+        "reflection": ""
+      },
       {
         "id": "effort_mrx8olli2di",
         "startedAt": 1784794620798,

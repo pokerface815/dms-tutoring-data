@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:08:54.896Z",
+  "generatedAt": "2026-07-29T05:55:52.283Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -100,6 +100,17 @@
       "startedAt": 1785054323324,
       "createdAt": "2026-07-26T08:26:24.714Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms4awn6yfuh",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+      "reflection": "",
+      "seconds": 708,
+      "startedAt": 1785221628239,
+      "createdAt": "2026-07-28T06:54:59.434Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -146,14 +157,14 @@
         "watchedSec": 1757
       },
       "JlBX5IRj9d8": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
         "durationSec": 3456,
-        "lastPosition": 2200,
-        "lastWatchedAt": "2026-07-22T03:00:04.029Z",
-        "watchedSec": 9
+        "lastPosition": 3319,
+        "lastWatchedAt": "2026-07-28T07:00:36.403Z",
+        "watchedSec": 717
       },
       "KuzIK3RkqvM": {
         "sessionCount": 1,
@@ -171,8 +182,8 @@
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "60~67쪽 미분가능성과 연속성, 도함수",
         "durationSec": 5321,
-        "lastPosition": 4773,
-        "lastWatchedAt": "2026-07-26T08:39:59.332Z",
+        "lastPosition": 4812,
+        "lastWatchedAt": "2026-07-26T08:40:02.982Z",
         "watchedSec": 2563
       }
     },
@@ -195,6 +206,9 @@
       },
       "2026-07-26": {
         "okVxIoEMccc": 2563
+      },
+      "2026-07-28": {
+        "JlBX5IRj9d8": 708
       }
     }
   },

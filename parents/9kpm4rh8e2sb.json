@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T05:55:50.790Z",
+  "generatedAt": "2026-07-29T22:47:03.200Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -63,17 +63,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-29T05:20:56.385Z",
+    "uploadedAt": "2026-07-29T13:48:05.495Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 708,
-      "monthSec": 20400,
-      "streak": 1,
+      "weekSec": 2658,
+      "monthSec": 22350,
+      "streak": 2,
       "bySubjectMonth": {
-        "미적분Ⅰ": 20400
+        "미적분Ⅰ": 22350
       }
     },
     "logs": [
+      {
+        "id": "effort_ms64yxnkqs6",
+        "startedAt": 1785332553884,
+        "seconds": 287,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms60zscs739",
+        "startedAt": 1785325918235,
+        "seconds": 1663,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 23~35쪽 02.함수의 연속 24번 ~ 03.미분계수와 도함수 29번",
+        "reflection": ""
+      },
       {
         "id": "effort_ms4awn6yfuh",
         "startedAt": 1785221628239,

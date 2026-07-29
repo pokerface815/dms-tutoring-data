@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T10:57:35.529Z",
+  "generatedAt": "2026-07-29T05:55:31.326Z",
   "student": {
     "id": "s_1784357925964_vuz436",
     "classes": [
@@ -124,6 +124,83 @@
       "startedAt": 1785031227724,
       "createdAt": "2026-07-26T02:07:07.055Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms46hwma1lh",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+      "reflection": "",
+      "seconds": 2481,
+      "startedAt": 1785214249865,
+      "createdAt": "2026-07-28T04:51:33.346Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms48syt5z74",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+      "reflection": "",
+      "seconds": 1420,
+      "startedAt": 1785218103355,
+      "createdAt": "2026-07-28T05:56:08.633Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms4abr94zqk",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+      "reflection": "",
+      "seconds": 1513,
+      "startedAt": 1785220653173,
+      "createdAt": "2026-07-28T06:38:44.920Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms4cv3gqzgf",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+      "reflection": "",
+      "seconds": 1072,
+      "startedAt": 1785224906779,
+      "createdAt": "2026-07-28T07:49:46.442Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms5eh01d6bu",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+      "reflection": "",
+      "seconds": 4244,
+      "startedAt": 1785288150591,
+      "createdAt": "2026-07-29T01:22:34.225Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms5ev05tza8",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+      "reflection": "",
+      "seconds": 4492,
+      "startedAt": 1785288751380,
+      "createdAt": "2026-07-29T01:33:27.569Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms5hro5ul90",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+      "reflection": "",
+      "seconds": 315,
+      "startedAt": 1785293590342,
+      "createdAt": "2026-07-29T02:54:50.898Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -200,13 +277,13 @@
         "watchedSec": 4230
       },
       "7pfVUyQLMjs": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
         "durationSec": 5213,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-26T00:26:58.922Z",
+        "lastWatchedAt": "2026-07-28T05:44:45.195Z",
         "watchedSec": 0
       },
       "EgHfNAsg_mk": {
@@ -225,14 +302,54 @@
         "lastPosition": 0
       },
       "lWOw-Kjk3mk": {
-        "sessionCount": 1,
+        "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "86~96쪽 평균값 정리, 함수의 증가와 감소",
         "durationSec": 5070,
-        "lastPosition": 2921,
-        "lastWatchedAt": "2026-07-26T02:17:44.078Z",
-        "watchedSec": 1192
+        "lastPosition": 5069,
+        "lastWatchedAt": "2026-07-28T05:29:21.808Z",
+        "watchedSec": 3673
+      },
+      "k6AFw2p_59k": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq99fx1qmz",
+        "lectureTitle": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "21~34쪽 02.함수의 연속 14번 ~ 03.미분계수와 도함수 24번",
+        "durationSec": 3146,
+        "lastPosition": 524,
+        "lastWatchedAt": "2026-07-28T05:32:52.819Z",
+        "watchedSec": 41
+      },
+      "m9wVSEc3BX8": {
+        "sessionCount": 5,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "durationSec": 4149,
+        "lastPosition": 4148,
+        "lastWatchedAt": "2026-07-29T01:26:48.443Z",
+        "watchedSec": 8249
+      },
+      "wKbSmCx25Cs": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "108~110쪽 삼차함수와 사차함수의 그래프",
+        "durationSec": 4935,
+        "lastPosition": 4892,
+        "lastWatchedAt": "2026-07-29T02:52:51.844Z",
+        "watchedSec": 4492
+      },
+      "megu-Gxod_Q": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+        "durationSec": 4900,
+        "lastPosition": 959,
+        "lastWatchedAt": "2026-07-29T02:56:57.148Z",
+        "watchedSec": 315
       }
     },
     "daily": {
@@ -256,10 +373,22 @@
         "pJC_OdUw6QE": 1188,
         "EgHfNAsg_mk": 3023,
         "lWOw-Kjk3mk": 1192
+      },
+      "2026-07-28": {
+        "lWOw-Kjk3mk": 2481,
+        "k6AFw2p_59k": 41,
+        "m9wVSEc3BX8": 4005
+      },
+      "2026-07-29": {
+        "m9wVSEc3BX8": 4244,
+        "wKbSmCx25Cs": 4492,
+        "megu-Gxod_Q": 315
       }
     }
   },
-  "syncedLectureDeletedVideoIds": null,
+  "syncedLectureDeletedVideoIds": [
+    "oDpVD39KZTw"
+  ],
   "today": [],
   "overdue": [],
   "upcoming": [],

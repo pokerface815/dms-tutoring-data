@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-28T02:39:48.176Z",
+  "generatedAt": "2026-07-29T05:56:02.660Z",
   "studentCount": 50,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
       "name": "송유림",
-      "totalSec": 13647,
-      "weekSec": 0,
-      "monthSec": 9990,
-      "recent3mSec": 13647,
-      "streak": 0,
+      "totalSec": 14268,
+      "weekSec": 621,
+      "monthSec": 10611,
+      "recent3mSec": 14268,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -21,7 +21,7 @@
       "weekSec": 2120,
       "monthSec": 6682,
       "recent3mSec": 6682,
-      "streak": 2,
+      "streak": 0,
       "nickname": "오레오잉",
       "publicNickname": true
     },
@@ -50,10 +50,10 @@
     {
       "id": "s_1777547047005_uo92w5",
       "name": "조예나",
-      "totalSec": 0,
+      "totalSec": 243,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 243,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -65,17 +65,17 @@
       "weekSec": 129,
       "monthSec": 129,
       "recent3mSec": 129,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1778397156600_clkd2u",
       "name": "서연준",
-      "totalSec": 17289,
-      "weekSec": 1103,
-      "monthSec": 17289,
-      "recent3mSec": 17289,
+      "totalSec": 20981,
+      "weekSec": 4795,
+      "monthSec": 20981,
+      "recent3mSec": 20981,
       "streak": 1,
       "nickname": "",
       "publicNickname": false
@@ -94,11 +94,11 @@
     {
       "id": "s_1778404886523_0ag055",
       "name": "박다인",
-      "totalSec": 19692,
-      "weekSec": 0,
-      "monthSec": 19692,
-      "recent3mSec": 19692,
-      "streak": 0,
+      "totalSec": 20400,
+      "weekSec": 708,
+      "monthSec": 20400,
+      "recent3mSec": 20400,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -109,7 +109,7 @@
       "weekSec": 2730,
       "monthSec": 2730,
       "recent3mSec": 2730,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -171,10 +171,10 @@
     {
       "id": "s_1780190418387_a11waf",
       "name": "문대승",
-      "totalSec": 74573,
-      "weekSec": 9827,
-      "monthSec": 64109,
-      "recent3mSec": 74573,
+      "totalSec": 83543,
+      "weekSec": 18797,
+      "monthSec": 73079,
+      "recent3mSec": 83543,
       "streak": 2,
       "nickname": "",
       "publicNickname": false
@@ -186,7 +186,7 @@
       "weekSec": 1991,
       "monthSec": 5352,
       "recent3mSec": 5352,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -424,11 +424,11 @@
     {
       "id": "s_1783741551628_vw0d5m",
       "name": "박하윤",
-      "totalSec": 1982,
-      "weekSec": 0,
-      "monthSec": 1982,
-      "recent3mSec": 1982,
-      "streak": 0,
+      "totalSec": 7206,
+      "weekSec": 5224,
+      "monthSec": 7206,
+      "recent3mSec": 7206,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -468,11 +468,11 @@
     {
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
-      "totalSec": 9758,
-      "weekSec": 0,
-      "monthSec": 9758,
-      "recent3mSec": 9758,
-      "streak": 0,
+      "totalSec": 10661,
+      "weekSec": 903,
+      "monthSec": 10661,
+      "recent3mSec": 10661,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -490,11 +490,11 @@
     {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
-      "totalSec": 18809,
-      "weekSec": 0,
-      "monthSec": 18809,
-      "recent3mSec": 18809,
-      "streak": 0,
+      "totalSec": 34346,
+      "weekSec": 15537,
+      "monthSec": 34346,
+      "recent3mSec": 34346,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },
@@ -527,7 +527,7 @@
       "weekSec": 2860,
       "monthSec": 8166,
       "recent3mSec": 8166,
-      "streak": 3,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -538,7 +538,7 @@
       "weekSec": 4059,
       "monthSec": 4059,
       "recent3mSec": 4059,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },

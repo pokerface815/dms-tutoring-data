@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-28T02:39:45.842Z",
+  "generatedAt": "2026-07-29T05:55:48.881Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -358,6 +358,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-07-27T21:01:42.601Z"
+    },
+    {
+      "id": "effort_ms4jh698q1m",
+      "startedAt": 1785227109286,
+      "endedAt": 1785236094187,
+      "seconds": 8970,
+      "subject": "기하",
+      "method": "문제 풀이",
+      "content": "공간도형과 공간좌표",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-07-28T10:54:54.188Z"
     }
   ],
   "syncedEffortDeletedIds": [

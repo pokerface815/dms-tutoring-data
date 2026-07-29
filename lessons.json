@@ -769,5 +769,16 @@
     "taskBatchId": "t_ms3ngpib",
     "createdAt": "2026-07-27T19:58:44.770Z",
     "updatedAt": "2026-07-27T19:58:44.770Z"
+  },
+  {
+    "id": "lesson_1785304524526_8srq0g",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-28",
+    "content": "진도부분 문제 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-07-29T05:55:24.526Z",
+    "updatedAt": "2026-07-29T05:55:24.526Z"
   }
 ]

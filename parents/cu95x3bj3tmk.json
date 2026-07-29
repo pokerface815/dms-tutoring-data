@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:32:24.950Z",
+  "generatedAt": "2026-07-29T06:51:00.765Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-29",
+          "weekday": "수",
+          "className": "박유솔 개별",
+          "content": "쎈B 공수2 ~ 25쪽 조립제법",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-13",
           "weekday": "월",

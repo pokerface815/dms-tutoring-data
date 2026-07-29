@@ -2063,5 +2063,181 @@
     "createdAt": "2026-07-29T06:32:14.622Z",
     "updatedAt": "2026-07-29T06:36:15.152Z",
     "lastSyncedAt": "2026-07-29T06:36:15.152Z"
+  },
+  {
+    "id": "lec_ms6ocqvgtdh",
+    "title": "중3-1 라이트쎈",
+    "youtubePlaylistId": "PLoYw3JZAX7F2KxLt6C4eJCDM0jVr-WLb3",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLoYw3JZAX7F2KxLt6C4eJCDM0jVr-WLb3",
+    "subject": "중3",
+    "textbook": "쎈B",
+    "memo": "",
+    "thumbnailUrl": "https://i.ytimg.com/vi/i0ui70h7YzE/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "i0ui70h7YzE",
+        "title": "12~15쪽 제곱근, 제곱근의 표현, 제곱근의 성질",
+        "position": 0,
+        "durationSec": 2915
+      },
+      {
+        "videoId": "MSmWMlomGfQ",
+        "title": "15~18쪽 유형8~12 제곱근의 성질, 대소관계",
+        "position": 1,
+        "durationSec": 2697
+      },
+      {
+        "videoId": "_V-ldpyU0is",
+        "title": "25~28쪽 제곱근표, 무리수를 수직선 위에 나타내기, 실수의 대소 관계",
+        "position": 2,
+        "durationSec": 3676
+      },
+      {
+        "videoId": "ClM20lNRozU",
+        "title": "32~38쪽 제곱근의 곱셈과 나눗셈, 분모의 유리화",
+        "position": 3,
+        "durationSec": 3934
+      },
+      {
+        "videoId": "6w-yeDLg9yI",
+        "title": "40~42쪽 제곱근의 곱셈,나눗셈의 도형에서의 활용",
+        "position": 4,
+        "durationSec": 3251
+      },
+      {
+        "videoId": "pw82LtlimDw",
+        "title": "46~52쪽 제곱근의 덧셈과 뺄셈, 근호를 포함한 식의 계산",
+        "position": 5,
+        "durationSec": 2687
+      },
+      {
+        "videoId": "8qVdqTN3wV0",
+        "title": "53~59쪽 실수의 대소 관계, 곱셈공식",
+        "position": 6,
+        "durationSec": 2584
+      },
+      {
+        "videoId": "xKjQYuZf45E",
+        "title": "62~67쪽 곱셈공식",
+        "position": 7,
+        "durationSec": 3160
+      },
+      {
+        "videoId": "Uefbyb_3rtM",
+        "title": "67~70쪽 곱셈공식의 활용 - 도형의 넓이, 수의 계산, 분모의 유리화",
+        "position": 8,
+        "durationSec": 3174
+      },
+      {
+        "videoId": "UQ1OQ9UMPLY",
+        "title": "71~72쪽 곱셈공식의 변형",
+        "position": 9,
+        "durationSec": 3730
+      },
+      {
+        "videoId": "jUHLjxQH0iI",
+        "title": "76~83쪽 인수분해",
+        "position": 10,
+        "durationSec": 4144
+      },
+      {
+        "videoId": "GGlw3JduaD8",
+        "title": "84~86쪽 인수분해(종합)",
+        "position": 11,
+        "durationSec": 2767
+      },
+      {
+        "videoId": "e7vDfdBrhTY",
+        "title": "87~91쪽 여러 가지 식의 인수분해",
+        "position": 12,
+        "durationSec": 3037
+      },
+      {
+        "videoId": "1UlUBUTW7fc",
+        "title": "96~107쪽 이차방정식, 인순분해를 통한 풀이",
+        "position": 13,
+        "durationSec": 2095
+      },
+      {
+        "videoId": "uq_0Nn8DmEw",
+        "title": "107~110쪽 제곱근에 의한 풀이, 완전제곱식에 의한 풀이, 근의 공식",
+        "position": 14,
+        "durationSec": 4256
+      },
+      {
+        "videoId": "nLnG_wfgx8k",
+        "title": "107~113쪽 과제 질의응답",
+        "position": 15,
+        "durationSec": 775
+      },
+      {
+        "videoId": "U1E_QGXJjBI",
+        "title": "107~117쪽 만점 도전 문제 + 이차방정식의 근의 개수, 이차방정식 구하기",
+        "position": 16,
+        "durationSec": 1827
+      },
+      {
+        "videoId": "fODsR0CYEVQ",
+        "title": "117~121쪽 이차방정식의 활용",
+        "position": 17,
+        "durationSec": 1042
+      },
+      {
+        "videoId": "NBZ4u8HEe5k",
+        "title": "126~133쪽 이차함수, 이차함수의 기본형",
+        "position": 18,
+        "durationSec": 3788
+      },
+      {
+        "videoId": "8zvmSgVmReQ",
+        "title": "133~136쪽 이차함수의 기본형에서 평행이동",
+        "position": 19,
+        "durationSec": 4404
+      },
+      {
+        "videoId": "FsrPTm7gRmE",
+        "title": "136~137쪽 이차함수의 표준형 마무리",
+        "position": 20,
+        "durationSec": 2650
+      },
+      {
+        "videoId": "5MWuPtvqxqo",
+        "title": "142쪽 이차함수의 일반형을 표준형으로의 변형",
+        "position": 21,
+        "durationSec": 2914
+      },
+      {
+        "videoId": "mbPPlUSCv1c",
+        "title": "146~147쪽 이차함수의 일반형의 그래프",
+        "position": 22,
+        "durationSec": 801
+      },
+      {
+        "videoId": "xc3kRwSvPd0",
+        "title": "147~150쪽 이차함수의 일반형의 그래프",
+        "position": 23,
+        "durationSec": 3007
+      },
+      {
+        "videoId": "kt8JkRFTyBg",
+        "title": "151~153쪽 이차함수 일반형에서 그래프 개형, 이차함수 식 구하기",
+        "position": 24,
+        "durationSec": 3664
+      },
+      {
+        "videoId": "EptR3pzKjLA",
+        "title": "~ 156쪽 교재 마무리, 만점 도전 문제 풀이",
+        "position": 25,
+        "durationSec": 2336
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-07-29T22:46:58.060Z",
+    "updatedAt": "2026-07-29T22:46:58.060Z",
+    "lastSyncedAt": "2026-07-29T22:46:58.060Z"
   }
 ]

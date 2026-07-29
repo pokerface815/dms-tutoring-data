@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T19:59:04.074Z",
+  "generatedAt": "2026-07-29T05:55:40.222Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,44 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-27T16:12:03.620Z",
+    "uploadedAt": "2026-07-28T12:46:00.188Z",
     "summary": {
-      "todaySec": 1103,
-      "weekSec": 1103,
-      "monthSec": 17289,
+      "todaySec": 0,
+      "weekSec": 4795,
+      "monthSec": 20981,
       "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 17289
+        "미적분Ⅰ": 20981
       }
     },
     "logs": [
+      {
+        "id": "effort_ms4lfuwo693",
+        "startedAt": 1785239228959,
+        "seconds": 2797,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms4erodxyd6",
+        "startedAt": 1785228096873,
+        "seconds": 208,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms4dlfinypb",
+        "startedAt": 1785226103086,
+        "seconds": 687,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+        "reflection": ""
+      },
       {
         "id": "effort_ms3dqdgknck",
         "startedAt": 1785165878760,

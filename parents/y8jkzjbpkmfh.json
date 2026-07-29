@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T05:55:40.222Z",
+  "generatedAt": "2026-07-29T06:32:22.286Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-28T12:46:00.188Z",
+    "uploadedAt": "2026-07-29T06:22:01.013Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 4795,
-      "monthSec": 20981,
-      "streak": 1,
+      "todaySec": 291,
+      "weekSec": 5086,
+      "monthSec": 21272,
+      "streak": 2,
       "bySubjectMonth": {
-        "미적분Ⅰ": 20981
+        "미적분Ⅰ": 21272
       }
     },
     "logs": [
+      {
+        "id": "effort_ms5oxqtltjt",
+        "startedAt": 1785305622257,
+        "seconds": 291,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 36~43쪽 03.미분계수와 도함수 34~77번",
+        "reflection": ""
+      },
       {
         "id": "effort_ms4lfuwo693",
         "startedAt": 1785239228959,

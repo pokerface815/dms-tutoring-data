@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T22:47:14.096Z",
+  "generatedAt": "2026-07-29T23:14:36.880Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-07",
       "label": "2026년 7월",
       "lessons": [
+        {
+          "date": "2026-07-29",
+          "weekday": "수",
+          "className": "조예나 개별",
+          "content": "~99쪽 롤의 정리, 평균값 정리",
+          "task": "102쪽까지 풀어오기",
+          "taskDue": "2026-08-02",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-07-28",
           "weekday": "화",

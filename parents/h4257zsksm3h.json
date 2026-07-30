@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T05:55:59.504Z",
+  "generatedAt": "2026-07-30T13:13:26.975Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -58,17 +58,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-27T00:57:42.108Z",
+    "uploadedAt": "2026-07-30T06:20:46.889Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 2730,
-      "monthSec": 2730,
-      "streak": 0,
+      "todaySec": 2801,
+      "weekSec": 5531,
+      "monthSec": 5531,
+      "streak": 1,
       "bySubjectMonth": {
-        "확률과 통계": 2730
+        "확률과 통계": 5531
       }
     },
     "logs": [
+      {
+        "id": "effort_ms74kcrtb5u",
+        "startedAt": 1785392364737,
+        "seconds": 88,
+        "subject": "확률과 통계",
+        "method": "강의 시청",
+        "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 17~22쪽 중복조합",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms736yuq9es",
+        "startedAt": 1785390020249,
+        "seconds": 2713,
+        "subject": "확률과 통계",
+        "method": "강의 시청",
+        "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 17~22쪽 중복조합",
+        "reflection": ""
+      },
       {
         "id": "effort_ms2hcvcgfhv",
         "startedAt": 1785111539458,

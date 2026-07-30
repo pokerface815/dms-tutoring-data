@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:09:02.179Z",
+  "generatedAt": "2026-07-30T13:13:25.141Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -23,6 +23,28 @@
       "startedAt": 1785111539458,
       "createdAt": "2026-07-27T00:20:01.840Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms736yuq9es",
+      "subject": "확률과 통계",
+      "method": "강의 시청",
+      "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 17~22쪽 중복조합",
+      "reflection": "",
+      "seconds": 2713,
+      "startedAt": 1785390020249,
+      "createdAt": "2026-07-30T05:42:22.706Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms74kcrtb5u",
+      "subject": "확률과 통계",
+      "method": "강의 시청",
+      "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 17~22쪽 중복조합",
+      "reflection": "",
+      "seconds": 88,
+      "startedAt": 1785392364737,
+      "createdAt": "2026-07-30T06:20:46.889Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -37,11 +59,24 @@
         "lastPosition": 4970,
         "lastWatchedAt": "2026-07-27T00:57:45.234Z",
         "watchedSec": 2730
+      },
+      "SMz7_3LjXmk": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqksd52wcz3",
+        "lectureTitle": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
+        "videoTitle": "17~22쪽 중복조합",
+        "durationSec": 4589,
+        "lastPosition": 4588,
+        "lastWatchedAt": "2026-07-30T06:20:47.830Z",
+        "watchedSec": 2801
       }
     },
     "daily": {
       "2026-07-27": {
         "vOzqYDqoHSU": 2730
+      },
+      "2026-07-30": {
+        "SMz7_3LjXmk": 2801
       }
     }
   },

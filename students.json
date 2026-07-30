@@ -208,7 +208,7 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "showNoteStages": true,
-    "flagged": true
+    "flagged": false
   },
   {
     "id": "s_1778402500926_7fxigp",
@@ -508,7 +508,7 @@
     "showTestResults": true,
     "pageCode": "cu95x3bj3tmk",
     "showMakeNote": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "id": "s_1780314459772_3emo5z",
@@ -776,7 +776,7 @@
         "to": null
       }
     ],
-    "flagged": true
+    "flagged": false
   },
   {
     "id": "s_1780833047673_dy7d3f",
@@ -1214,7 +1214,7 @@
         "to": null
       }
     ],
-    "flagged": true
+    "flagged": false
   },
   {
     "id": "s_1784351071584_hs9hej",
@@ -1285,7 +1285,7 @@
         "to": null
       }
     ],
-    "flagged": true
+    "flagged": false
   },
   {
     "id": "s_1784366227996_b7yw4o",

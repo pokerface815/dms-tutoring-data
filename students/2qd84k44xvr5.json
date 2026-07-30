@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T05:55:38.628Z",
+  "generatedAt": "2026-07-30T13:13:10.482Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -119,9 +119,42 @@
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
       "reflection": "",
-      "seconds": 621,
+      "seconds": 622,
       "startedAt": 1785289694071,
       "createdAt": "2026-07-29T01:50:36.911Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms739i2yujg",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+      "reflection": "",
+      "seconds": 4448,
+      "startedAt": 1785390161370,
+      "createdAt": "2026-07-30T05:44:20.938Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms75cof3ybj",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
+      "reflection": "",
+      "seconds": 3484,
+      "startedAt": 1785393625130,
+      "createdAt": "2026-07-30T06:42:48.351Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms777214pls",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+      "reflection": "",
+      "seconds": 548,
+      "startedAt": 1785396773449,
+      "createdAt": "2026-07-30T07:34:25.288Z",
       "autoRecorded": true
     }
   ],
@@ -165,7 +198,7 @@
         "videoTitle": "31~39쪽 지난 과제 질의응답, 함수의 연속",
         "durationSec": 4809,
         "lastPosition": 3816,
-        "lastWatchedAt": "2026-07-29T01:58:33.584Z",
+        "lastWatchedAt": "2026-07-29T01:58:33.637Z",
         "watchedSec": 2319
       },
       "JlBX5IRj9d8": {
@@ -187,6 +220,36 @@
         "lastPosition": 4535,
         "lastWatchedAt": "2026-07-19T02:51:34.453Z",
         "watchedSec": 785
+      },
+      "KuzIK3RkqvM": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "52~59쪽 평균변화율과 미분계수",
+        "durationSec": 4899,
+        "lastPosition": 4871,
+        "lastWatchedAt": "2026-07-30T06:26:25.895Z",
+        "watchedSec": 4448
+      },
+      "okVxIoEMccc": {
+        "sessionCount": 3,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "60~67쪽 미분가능성과 연속성, 도함수",
+        "durationSec": 5321,
+        "lastPosition": 5298,
+        "lastWatchedAt": "2026-07-30T07:32:47.532Z",
+        "watchedSec": 3493
+      },
+      "pJC_OdUw6QE": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "durationSec": 4227,
+        "lastPosition": 2931,
+        "lastWatchedAt": "2026-07-30T07:38:30.982Z",
+        "watchedSec": 548
       }
     },
     "daily": {
@@ -207,6 +270,11 @@
       },
       "2026-07-29": {
         "WhKzMT5MG0A": 622
+      },
+      "2026-07-30": {
+        "KuzIK3RkqvM": 4448,
+        "okVxIoEMccc": 3493,
+        "pJC_OdUw6QE": 548
       }
     }
   },

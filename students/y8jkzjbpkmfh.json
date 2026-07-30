@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T22:47:07.519Z",
+  "generatedAt": "2026-07-30T13:13:20.958Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -254,6 +254,39 @@
       "startedAt": 1785324397358,
       "createdAt": "2026-07-29T11:28:21.933Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms72drqxxwb",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+      "reflection": "",
+      "seconds": 460,
+      "startedAt": 1785388637966,
+      "createdAt": "2026-07-30T05:19:40.473Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms72ox7xel6",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+      "reflection": "",
+      "seconds": 1157,
+      "startedAt": 1785389191855,
+      "createdAt": "2026-07-30T05:28:20.781Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms73wro007j",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+      "reflection": "",
+      "seconds": 1327,
+      "startedAt": 1785391284209,
+      "createdAt": "2026-07-30T06:02:26.448Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -340,14 +373,14 @@
         "watchedSec": 2971
       },
       "pJC_OdUw6QE": {
-        "sessionCount": 4,
+        "sessionCount": 5,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
         "durationSec": 4227,
-        "lastPosition": 3764,
-        "lastWatchedAt": "2026-07-29T12:29:01.097Z",
-        "watchedSec": 869
+        "lastPosition": 4226,
+        "lastWatchedAt": "2026-07-30T05:26:28.855Z",
+        "watchedSec": 1329
       },
       "Rwl3S2aA19M": {
         "sessionCount": 2,
@@ -370,14 +403,14 @@
         "watchedSec": 4
       },
       "EgHfNAsg_mk": {
-        "sessionCount": 1,
+        "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
         "durationSec": 4814,
-        "lastPosition": 919,
-        "lastWatchedAt": "2026-07-29T12:28:15.893Z",
-        "watchedSec": 4
+        "lastPosition": 4275,
+        "lastWatchedAt": "2026-07-30T06:24:25.543Z",
+        "watchedSec": 2488
       }
     },
     "daily": {
@@ -420,6 +453,10 @@
         "pJC_OdUw6QE": 864,
         "RJFHmeXhz3I": 4,
         "EgHfNAsg_mk": 4
+      },
+      "2026-07-30": {
+        "pJC_OdUw6QE": 460,
+        "EgHfNAsg_mk": 2484
       }
     }
   },

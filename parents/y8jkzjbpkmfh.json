@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T22:47:06.222Z",
+  "generatedAt": "2026-07-30T13:13:23.297Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,44 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-29T11:46:23.807Z",
+    "uploadedAt": "2026-07-30T06:24:22.721Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 5923,
-      "monthSec": 22109,
-      "streak": 2,
+      "todaySec": 2944,
+      "weekSec": 8867,
+      "monthSec": 25053,
+      "streak": 3,
       "bySubjectMonth": {
-        "미적분Ⅰ": 22109
+        "미적분Ⅰ": 25053
       }
     },
     "logs": [
+      {
+        "id": "effort_ms73wro007j",
+        "startedAt": 1785391284209,
+        "seconds": 1327,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms72ox7xel6",
+        "startedAt": 1785389191855,
+        "seconds": 1157,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms72drqxxwb",
+        "startedAt": 1785388637966,
+        "seconds": 460,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "reflection": ""
+      },
       {
         "id": "effort_ms60423xg5d",
         "startedAt": 1785324397358,

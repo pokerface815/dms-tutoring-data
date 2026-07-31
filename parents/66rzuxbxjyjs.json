@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T22:47:11.001Z",
+  "generatedAt": "2026-07-31T07:26:59.455Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -49,7 +49,7 @@
       "todaySec": 0,
       "weekSec": 903,
       "monthSec": 10661,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "공통수학1": 10661
       }

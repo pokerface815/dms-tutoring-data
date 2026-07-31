@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T22:47:03.200Z",
+  "generatedAt": "2026-07-31T07:26:52.493Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -68,7 +68,7 @@
       "todaySec": 0,
       "weekSec": 2658,
       "monthSec": 22350,
-      "streak": 2,
+      "streak": 0,
       "bySubjectMonth": {
         "미적분Ⅰ": 22350
       }

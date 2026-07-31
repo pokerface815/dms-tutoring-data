@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-30T13:13:26.975Z",
+  "generatedAt": "2026-07-31T07:26:45.857Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -58,17 +58,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-30T06:20:46.889Z",
+    "uploadedAt": "2026-07-31T00:05:27.696Z",
     "summary": {
-      "todaySec": 2801,
-      "weekSec": 5531,
-      "monthSec": 5531,
-      "streak": 1,
+      "todaySec": 3207,
+      "weekSec": 8738,
+      "monthSec": 8738,
+      "streak": 2,
       "bySubjectMonth": {
-        "확률과 통계": 5531
+        "확률과 통계": 8738
       }
     },
     "logs": [
+      {
+        "id": "effort_ms858sds11i",
+        "startedAt": 1785454010911,
+        "seconds": 3207,
+        "subject": "확률과 통계",
+        "method": "강의 시청",
+        "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 26~33쪽 이항정리, 이항계수의 성질",
+        "reflection": ""
+      },
       {
         "id": "effort_ms74kcrtb5u",
         "startedAt": 1785392364737,

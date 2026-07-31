@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-30T13:13:25.141Z",
+  "generatedAt": "2026-07-31T07:26:46.992Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -45,6 +45,17 @@
       "startedAt": 1785392364737,
       "createdAt": "2026-07-30T06:20:46.889Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_ms858sds11i",
+      "subject": "확률과 통계",
+      "method": "강의 시청",
+      "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 26~33쪽 이항정리, 이항계수의 성질",
+      "reflection": "",
+      "seconds": 3207,
+      "startedAt": 1785454010911,
+      "createdAt": "2026-07-30T23:27:33.040Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -69,6 +80,16 @@
         "lastPosition": 4588,
         "lastWatchedAt": "2026-07-30T06:20:47.830Z",
         "watchedSec": 2801
+      },
+      "_khnHFzlaWw": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqksd52wcz3",
+        "lectureTitle": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강",
+        "videoTitle": "26~33쪽 이항정리, 이항계수의 성질",
+        "durationSec": 4850,
+        "lastPosition": 4849,
+        "lastWatchedAt": "2026-07-31T00:05:29.212Z",
+        "watchedSec": 3207
       }
     },
     "daily": {
@@ -77,6 +98,9 @@
       },
       "2026-07-30": {
         "SMz7_3LjXmk": 2801
+      },
+      "2026-07-31": {
+        "_khnHFzlaWw": 3207
       }
     }
   },

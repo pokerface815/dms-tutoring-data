@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-30T13:13:14.184Z",
+  "generatedAt": "2026-07-31T07:26:51.301Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -86,7 +86,7 @@
         "videoTitle": "60~67쪽 미분가능성과 연속성, 도함수",
         "durationSec": 5321,
         "lastPosition": 2701,
-        "lastWatchedAt": "2026-07-30T06:14:35.729Z",
+        "lastWatchedAt": "2026-07-30T06:14:35.736Z",
         "watchedSec": 271
       },
       "JlBX5IRj9d8": {
@@ -96,7 +96,17 @@
         "videoTitle": "40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
         "durationSec": 3456,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-30T05:10:25.440Z"
+        "lastWatchedAt": "2026-07-30T05:10:25.440Z",
+        "watchedSec": 0
+      },
+      "pJC_OdUw6QE": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "durationSec": 4227,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-30T16:58:43.902Z"
       }
     },
     "daily": {

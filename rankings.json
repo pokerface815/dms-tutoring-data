@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-30T13:13:03.728Z",
+  "generatedAt": "2026-07-31T07:27:02.760Z",
   "studentCount": 50,
   "rankings": [
     {
@@ -98,18 +98,18 @@
       "weekSec": 2658,
       "monthSec": 22350,
       "recent3mSec": 22350,
-      "streak": 2,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1778638262495_alq1jg",
       "name": "이현승",
-      "totalSec": 5531,
-      "weekSec": 5531,
-      "monthSec": 5531,
-      "recent3mSec": 5531,
-      "streak": 1,
+      "totalSec": 8738,
+      "weekSec": 8738,
+      "monthSec": 8738,
+      "recent3mSec": 8738,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },
@@ -384,7 +384,7 @@
       "weekSec": 3028,
       "monthSec": 3028,
       "recent3mSec": 3028,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -406,7 +406,7 @@
       "weekSec": 2898,
       "monthSec": 2898,
       "recent3mSec": 2898,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -417,7 +417,7 @@
       "weekSec": 3728,
       "monthSec": 7052,
       "recent3mSec": 7052,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -428,7 +428,7 @@
       "weekSec": 5224,
       "monthSec": 7206,
       "recent3mSec": 7206,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -472,7 +472,7 @@
       "weekSec": 903,
       "monthSec": 10661,
       "recent3mSec": 10661,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -494,7 +494,7 @@
       "weekSec": 15537,
       "monthSec": 34346,
       "recent3mSec": 34346,
-      "streak": 2,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },

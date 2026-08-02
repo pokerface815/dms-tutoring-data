@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T23:14:36.880Z",
+  "generatedAt": "2026-08-02T12:15:32.322Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -8,6 +8,26 @@
     "grade": "고2"
   },
   "months": [
+    {
+      "ym": "2026-08",
+      "label": "2026년 8월",
+      "lessons": [
+        {
+          "date": "2026-08-02",
+          "weekday": "일",
+          "className": "조예나 개별",
+          "content": "~ 114쪽\n함수의 증가와 감소, 극대와 극소",
+          "task": "117쪽까지 풀어오기",
+          "taskDue": "2026-08-08",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        }
+      ],
+      "completionRate": null,
+      "noteStages": null
+    },
     {
       "ym": "2026-07",
       "label": "2026년 7월",

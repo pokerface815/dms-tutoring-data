@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T01:08:48.939Z",
+  "generatedAt": "2026-08-02T10:18:40.124Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -45,12 +45,9 @@
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
-      "monthSec": 8498,
+      "monthSec": 0,
       "streak": 0,
-      "bySubjectMonth": {
-        "사회": 466,
-        "미적분Ⅰ": 8032
-      }
+      "bySubjectMonth": {}
     },
     "logs": [
       {

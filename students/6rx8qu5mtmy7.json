@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:09:51.853Z",
+  "generatedAt": "2026-08-02T10:18:44.616Z",
   "student": {
     "id": "s_1783741677433_iezolt",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "동신여고",
     "grade": "고1",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {
@@ -47,6 +47,15 @@
         "lastPosition": 2755,
         "lastWatchedAt": "2026-07-19T09:11:41.566Z",
         "watchedSec": 1982
+      },
+      "r2Yofj6CofI": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "36~41쪽 정점을 지나는 직선 질문(유형편 13쪽) + 두  직선의 평행과 수직",
+        "durationSec": 4235,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-08-02T02:36:09.144Z"
       }
     },
     "daily": {

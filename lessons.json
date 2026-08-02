@@ -802,5 +802,16 @@
     "taskBatchId": "t_ms6pc3ka",
     "createdAt": "2026-07-29T23:14:27.466Z",
     "updatedAt": "2026-07-29T23:14:27.466Z"
+  },
+  {
+    "id": "lesson_1785672922720_njiea1",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-02",
+    "content": "~ 114쪽\n함수의 증가와 감소, 극대와 극소",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_msbrjxb4",
+    "createdAt": "2026-08-02T12:15:22.720Z",
+    "updatedAt": "2026-08-02T12:15:22.720Z"
   }
 ]

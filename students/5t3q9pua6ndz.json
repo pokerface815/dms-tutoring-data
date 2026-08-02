@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T05:56:05.869Z",
+  "generatedAt": "2026-08-02T05:12:21.516Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "국제고",
     "grade": "고1",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {

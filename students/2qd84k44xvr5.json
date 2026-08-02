@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-30T13:13:10.482Z",
+  "generatedAt": "2026-08-02T05:12:07.820Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -156,6 +156,39 @@
       "startedAt": 1785396773449,
       "createdAt": "2026-07-30T07:34:25.288Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msaenfem8eb",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+      "reflection": "",
+      "seconds": 681,
+      "startedAt": 1785590697446,
+      "createdAt": "2026-08-01T13:26:24.958Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msaewlxoh2r",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+      "reflection": "",
+      "seconds": 1932,
+      "startedAt": 1785591135922,
+      "createdAt": "2026-08-01T13:33:33.324Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msafk4r40yb",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+      "reflection": "",
+      "seconds": 1590,
+      "startedAt": 1785592191452,
+      "createdAt": "2026-08-01T13:51:50.800Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -242,14 +275,34 @@
         "watchedSec": 3493
       },
       "pJC_OdUw6QE": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
         "durationSec": 4227,
-        "lastPosition": 2931,
-        "lastWatchedAt": "2026-07-30T07:38:30.982Z",
-        "watchedSec": 548
+        "lastPosition": 4226,
+        "lastWatchedAt": "2026-08-01T13:32:14.478Z",
+        "watchedSec": 1229
+      },
+      "EgHfNAsg_mk": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "durationSec": 4814,
+        "lastPosition": 4677,
+        "lastWatchedAt": "2026-08-01T13:49:49.734Z",
+        "watchedSec": 1932
+      },
+      "lWOw-Kjk3mk": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "durationSec": 5070,
+        "lastPosition": 3553,
+        "lastWatchedAt": "2026-08-01T14:07:18.378Z",
+        "watchedSec": 1590
       }
     },
     "daily": {
@@ -275,6 +328,11 @@
         "KuzIK3RkqvM": 4448,
         "okVxIoEMccc": 3493,
         "pJC_OdUw6QE": 548
+      },
+      "2026-08-01": {
+        "pJC_OdUw6QE": 681,
+        "EgHfNAsg_mk": 1932,
+        "lWOw-Kjk3mk": 1590
       }
     }
   },

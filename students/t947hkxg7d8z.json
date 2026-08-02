@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-02T11:03:08.883Z",
+  "generatedAt": "2026-08-02T12:15:31.099Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -666,6 +666,14 @@
       "dueDate": "2026-08-02",
       "isRepeat": false,
       "assignedAt": "2026-07-29T23:14:27.466Z"
+    },
+    {
+      "assignmentId": "task_1785672922720_yyno9y",
+      "round": 1,
+      "title": "117쪽까지 풀어오기",
+      "dueDate": "2026-08-08",
+      "isRepeat": false,
+      "assignedAt": "2026-08-02T12:15:22.720Z"
     }
   ],
   "myGrades": [

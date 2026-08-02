@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:08:22.791Z",
+  "generatedAt": "2026-08-02T10:18:26.701Z",
   "student": {
     "id": "s_1783141077746_ni5332",
     "classes": [
@@ -56,6 +56,17 @@
       "startedAt": 1784970314635,
       "createdAt": "2026-07-25T09:07:02.243Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msa8i8efpkp",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 54~66쪽 81번 풀이 + 연속함수의 성질 + 최대 최소의 정리, 사잇값 정리(실근의 존재성)",
+      "reflection": "",
+      "seconds": 1760,
+      "startedAt": 1785580401547,
+      "createdAt": "2026-08-01T10:34:24.903Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -98,8 +109,18 @@
         "videoTitle": "30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
         "durationSec": 4754,
         "lastPosition": 302,
-        "lastWatchedAt": "2026-07-25T09:14:15.028Z",
+        "lastWatchedAt": "2026-07-25T09:22:23.253Z",
         "watchedSec": 4838
+      },
+      "8xpg5fhoXoo": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "54~66쪽 81번 풀이 + 연속함수의 성질 + 최대 최소의 정리, 사잇값 정리(실근의 존재성)",
+        "durationSec": 5967,
+        "lastPosition": 1765,
+        "lastWatchedAt": "2026-08-01T11:04:54.492Z",
+        "watchedSec": 1760
       }
     },
     "daily": {
@@ -127,6 +148,9 @@
       },
       "2026-07-25": {
         "35fLmSRhScA": 187
+      },
+      "2026-08-01": {
+        "8xpg5fhoXoo": 1760
       }
     }
   },

@@ -1075,5 +1075,26 @@
       "중간": true,
       "기말": true
     }
+  },
+  {
+    "id": "scut_msbndwrb37u",
+    "school": "국제고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "2",
+    "subject": "미적분1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념+유형, 올림포스 기출",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

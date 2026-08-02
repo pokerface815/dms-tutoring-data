@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:08:32.008Z",
+  "generatedAt": "2026-08-02T10:18:48.308Z",
   "student": {
     "id": "s_1783822161933_05uu7m",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "고려고",
     "grade": "고1",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {
@@ -39,14 +39,44 @@
         "watchedSec": 81
       },
       "7nbTNA-0qrk": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mrg80i3ervi",
         "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "13~21쪽 선분의 내분점",
         "durationSec": 3389,
-        "lastPosition": 2271,
-        "lastWatchedAt": "2026-07-25T01:01:53.714Z",
-        "watchedSec": 72
+        "lastPosition": 2552,
+        "lastWatchedAt": "2026-07-31T08:04:38.898Z",
+        "watchedSec": 87
+      },
+      "KQVcgmO7-lM": {
+        "sessionCount": 2,
+        "lectureId": "lec_mrg80i3ervi",
+        "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "27~33쪽 직선의 방정식",
+        "durationSec": 4060,
+        "lastPosition": 16,
+        "lastWatchedAt": "2026-07-31T08:06:25.634Z",
+        "watchedSec": 33
+      },
+      "RPAkWzqtvew": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg80i3ervi",
+        "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "34~37쪽 연습문제 질문(28쪽) + 정점을 지나는 직선, 두 직선의 평행과 수직",
+        "durationSec": 3760,
+        "lastPosition": 2742,
+        "lastWatchedAt": "2026-07-31T08:05:28.762Z",
+        "watchedSec": 1
+      },
+      "uRtN6_fkwD8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg80i3ervi",
+        "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "36~41쪽 정점을 지나는 직선 추가 설명 + 두 직선의 평행과 수직",
+        "durationSec": 4260,
+        "lastPosition": 2643,
+        "lastWatchedAt": "2026-07-31T08:06:02.716Z",
+        "watchedSec": 19
       }
     },
     "daily": {
@@ -55,6 +85,12 @@
       },
       "2026-07-25": {
         "7nbTNA-0qrk": 72
+      },
+      "2026-07-31": {
+        "7nbTNA-0qrk": 15,
+        "KQVcgmO7-lM": 33,
+        "RPAkWzqtvew": 1,
+        "uRtN6_fkwD8": 19
       }
     }
   },

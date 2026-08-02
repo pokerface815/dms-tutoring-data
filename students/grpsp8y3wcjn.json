@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T11:20:03.122Z",
+  "generatedAt": "2026-08-02T05:12:14.709Z",
   "student": {
     "id": "s_1783735695213_xbid51",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "동신고",
     "grade": "고1",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {

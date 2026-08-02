@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T22:47:15.382Z",
+  "generatedAt": "2026-08-02T05:12:26.742Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -172,16 +172,9 @@
     "summary": {
       "todaySec": 0,
       "weekSec": 18797,
-      "monthSec": 73079,
+      "monthSec": 0,
       "streak": 0,
-      "bySubjectMonth": {
-        "대수": 18534,
-        "확률과 통계": 4154,
-        "미적분Ⅰ": 6858,
-        "독서": 881,
-        "필사": 415,
-        "기하": 42237
-      }
+      "bySubjectMonth": {}
     },
     "logs": [
       {
@@ -407,15 +400,6 @@
         "subject": "대수",
         "method": "문제 풀이",
         "content": "타이핑",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mr1tlssqwem",
-        "startedAt": 1782891186358,
-        "seconds": 1828,
-        "subject": "대수",
-        "method": "문제 풀이",
-        "content": "인성고 프린트",
         "reflection": ""
       }
     ]

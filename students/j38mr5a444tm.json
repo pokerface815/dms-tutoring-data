@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T05:55:31.326Z",
+  "generatedAt": "2026-08-02T05:12:25.203Z",
   "student": {
     "id": "s_1784357925964_vuz436",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "고려고",
     "grade": "고2",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {

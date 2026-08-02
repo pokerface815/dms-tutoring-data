@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T01:08:36.863Z",
+  "generatedAt": "2026-08-02T10:18:35.266Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -20,6 +20,11 @@
           "percent": 100
         },
         "2": {
+          "done": 1,
+          "total": 1,
+          "percent": 100
+        },
+        "3": {
           "done": 1,
           "total": 1,
           "percent": 100
@@ -80,11 +85,9 @@
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
-      "monthSec": 698,
+      "monthSec": 0,
       "streak": 0,
-      "bySubjectMonth": {
-        "미적분Ⅰ": 698
-      }
+      "bySubjectMonth": {}
     },
     "logs": [
       {

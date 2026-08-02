@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T11:20:01.484Z",
+  "generatedAt": "2026-08-02T05:12:12.128Z",
   "student": {
     "id": "s_1783736188808_37ty47",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "동신여고",
     "grade": "고1",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {

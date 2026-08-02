@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-31T07:26:45.857Z",
+  "generatedAt": "2026-08-02T05:12:05.905Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -60,13 +60,11 @@
     "enabled": true,
     "uploadedAt": "2026-07-31T00:05:27.696Z",
     "summary": {
-      "todaySec": 3207,
+      "todaySec": 0,
       "weekSec": 8738,
-      "monthSec": 8738,
-      "streak": 2,
-      "bySubjectMonth": {
-        "확률과 통계": 8738
-      }
+      "monthSec": 0,
+      "streak": 0,
+      "bySubjectMonth": {}
     },
     "logs": [
       {

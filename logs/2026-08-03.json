@@ -1,0 +1,13 @@
+[
+  {
+    "run_at": "2026-08-03T16:00:36.897756+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 0,
+      "failed": 0,
+      "total": 0
+    },
+    "entries": []
+  }
+]

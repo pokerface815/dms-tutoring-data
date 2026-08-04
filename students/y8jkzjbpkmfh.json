@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-02T05:12:01.179Z",
+  "generatedAt": "2026-08-04T08:33:04.875Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -309,6 +309,28 @@
       "startedAt": 1785486249389,
       "createdAt": "2026-07-31T08:25:20.752Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mse6in1ntn3",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+      "reflection": "",
+      "seconds": 919,
+      "startedAt": 1785818927140,
+      "createdAt": "2026-08-04T04:49:49.355Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mse7myrpy5v",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+      "reflection": "",
+      "seconds": 779,
+      "startedAt": 1785820795497,
+      "createdAt": "2026-08-04T05:21:10.789Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -425,14 +447,24 @@
         "watchedSec": 4
       },
       "EgHfNAsg_mk": {
-        "sessionCount": 5,
+        "sessionCount": 6,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
         "durationSec": 4814,
-        "lastPosition": 3853,
-        "lastWatchedAt": "2026-07-31T08:57:10.190Z",
-        "watchedSec": 3292
+        "lastPosition": 4603,
+        "lastWatchedAt": "2026-08-04T05:19:54.144Z",
+        "watchedSec": 3307
+      },
+      "lWOw-Kjk3mk": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "durationSec": 5070,
+        "lastPosition": 3151,
+        "lastWatchedAt": "2026-08-04T05:50:29.230Z",
+        "watchedSec": 1698
       }
     },
     "daily": {
@@ -482,6 +514,10 @@
       },
       "2026-07-31": {
         "EgHfNAsg_mk": 804
+      },
+      "2026-08-04": {
+        "lWOw-Kjk3mk": 1698,
+        "EgHfNAsg_mk": 15
       }
     }
   },
@@ -639,8 +675,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-27",
-    "endDate": "2026-08-02"
+    "startDate": "2026-08-03",
+    "endDate": "2026-08-09"
   },
   "teacherConfirms": {},
   "tasks": [],

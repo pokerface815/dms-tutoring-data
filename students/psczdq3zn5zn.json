@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-02T05:11:58.394Z",
+  "generatedAt": "2026-08-04T08:33:01.292Z",
   "student": {
     "id": "s_1785155932586_9cmims",
     "classes": [
@@ -16,20 +16,23 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
-      "RPAkWzqtvew": {
+      "Vj86FW6VlNY": {
         "sessionCount": 1,
         "lectureId": "lec_mrg80i3ervi",
         "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
-        "videoTitle": "34~37쪽 연습문제 질문(28쪽) + 정점을 지나는 직선, 두 직선의 평행과 수직",
-        "durationSec": 3760,
-        "lastPosition": 2,
-        "lastWatchedAt": "2026-08-01T06:46:10.836Z",
-        "watchedSec": 3
+        "videoTitle": "22~26쪽 삼각형의 내각의 이등분선, 삼각형의 무게중심",
+        "durationSec": 3038,
+        "lastPosition": 27,
+        "lastWatchedAt": "2026-08-02T17:49:56.271Z",
+        "watchedSec": 23
       }
     },
     "daily": {
-      "2026-08-01": {
-        "RPAkWzqtvew": 3
+      "2026-07-31": {
+        "Vj86FW6VlNY": 20
+      },
+      "2026-08-03": {
+        "Vj86FW6VlNY": 3
       }
     }
   },
@@ -42,8 +45,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-27",
-    "endDate": "2026-08-02"
+    "startDate": "2026-08-03",
+    "endDate": "2026-08-09"
   },
   "teacherConfirms": {},
   "tasks": [],

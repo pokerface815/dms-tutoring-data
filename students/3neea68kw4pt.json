@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T05:55:48.881Z",
+  "generatedAt": "2026-08-04T08:33:46.042Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -370,6 +370,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-07-28T10:54:54.188Z"
+    },
+    {
+      "id": "effort_mse81y7l3np",
+      "startedAt": 1785821167486,
+      "endedAt": 1785821569905,
+      "seconds": 391,
+      "subject": "독서",
+      "method": "기타",
+      "content": "아비투스",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-08-04T05:32:49.905Z"
     }
   ],
   "syncedEffortDeletedIds": [
@@ -539,8 +551,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-27",
-    "endDate": "2026-08-02"
+    "startDate": "2026-08-03",
+    "endDate": "2026-08-09"
   },
   "teacherConfirms": {
     "task_1780499298479_b3ko7f__1": {

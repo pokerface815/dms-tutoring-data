@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-02T10:18:57.522Z",
+  "generatedAt": "2026-08-04T08:32:50.562Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,15 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-27T10:29:37.334Z",
+    "uploadedAt": "2026-08-04T02:44:54.707Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 2860,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "todaySec": 559,
+      "weekSec": 559,
+      "monthSec": 559,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학2": 559
+      }
     },
     "logs": [
+      {
+        "id": "effort_msdvkgviu0n",
+        "startedAt": 1785800517320,
+        "seconds": 559,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+        "reflection": ""
+      },
       {
         "id": "effort_ms31pqzsb5h",
         "startedAt": 1785145657641,

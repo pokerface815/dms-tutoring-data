@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-02T05:12:25.203Z",
+  "generatedAt": "2026-08-04T08:33:40.980Z",
   "student": {
     "id": "s_1784357925964_vuz436",
     "classes": [
@@ -342,14 +342,14 @@
         "watchedSec": 4492
       },
       "megu-Gxod_Q": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
         "durationSec": 4900,
-        "lastPosition": 959,
-        "lastWatchedAt": "2026-07-29T02:56:57.148Z",
-        "watchedSec": 315
+        "lastPosition": 961,
+        "lastWatchedAt": "2026-08-04T06:15:33.770Z",
+        "watchedSec": 317
       }
     },
     "daily": {
@@ -383,6 +383,9 @@
         "m9wVSEc3BX8": 4244,
         "wKbSmCx25Cs": 4492,
         "megu-Gxod_Q": 315
+      },
+      "2026-08-04": {
+        "megu-Gxod_Q": 2
       }
     }
   },
@@ -397,8 +400,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-27",
-    "endDate": "2026-08-02"
+    "startDate": "2026-08-03",
+    "endDate": "2026-08-09"
   },
   "teacherConfirms": {},
   "tasks": [],

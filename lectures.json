@@ -1133,6 +1133,12 @@
         "title": "36~41쪽 정점을 지나는 직선 추가 설명 + 두 직선의 평행과 수직",
         "position": 5,
         "durationSec": 4260
+      },
+      {
+        "videoId": "4Ug5EcsKyFA",
+        "title": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
+        "position": 6,
+        "durationSec": 4290
       }
     ],
     "permissions": {
@@ -1141,8 +1147,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-07-27T02:09:45.183Z",
-    "lastSyncedAt": "2026-07-27T02:09:45.183Z"
+    "updatedAt": "2026-08-04T08:37:09.347Z",
+    "lastSyncedAt": "2026-08-04T08:37:09.347Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1189,6 +1195,12 @@
         "title": "36~41쪽 정점을 지나는 직선 질문(유형편 13쪽) + 두  직선의 평행과 수직",
         "position": 5,
         "durationSec": 4235
+      },
+      {
+        "videoId": "4Ug5EcsKyFA",
+        "title": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
+        "position": 6,
+        "durationSec": 4290
       }
     ],
     "permissions": {
@@ -1197,8 +1209,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-07-27T02:09:51.027Z",
-    "lastSyncedAt": "2026-07-27T02:09:51.027Z"
+    "updatedAt": "2026-08-04T08:37:12.318Z",
+    "lastSyncedAt": "2026-08-04T08:37:12.318Z"
   },
   {
     "id": "lec_mririwvdtb6",

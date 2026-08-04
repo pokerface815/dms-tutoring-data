@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T01:08:11.995Z",
+  "generatedAt": "2026-08-04T08:34:35.782Z",
   "student": {
     "id": "s_1784351071584_hs9hej",
     "classes": [
@@ -67,8 +67,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-27",
-    "endDate": "2026-08-02"
+    "startDate": "2026-08-03",
+    "endDate": "2026-08-09"
   },
   "teacherConfirms": {},
   "tasks": [],

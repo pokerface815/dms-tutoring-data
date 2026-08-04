@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-02T10:18:43.166Z",
+  "generatedAt": "2026-08-04T08:34:32.608Z",
   "student": {
     "id": "s_1783741639936_epkpt5",
     "classes": [
@@ -24,8 +24,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-27",
-    "endDate": "2026-08-02"
+    "startDate": "2026-08-03",
+    "endDate": "2026-08-09"
   },
   "teacherConfirms": {},
   "tasks": [],

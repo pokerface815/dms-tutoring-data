@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-29T05:55:35.050Z",
+  "generatedAt": "2026-08-04T08:33:37.253Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -250,6 +250,25 @@
         "lastPosition": 4129,
         "lastWatchedAt": "2026-07-29T03:44:57.019Z",
         "watchedSec": 903
+      },
+      "e1HzWUZt0c8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
+        "durationSec": 4174,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-08-03T01:09:14.815Z"
+      },
+      "aa5XlDPSuus": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "128~131쪽 오메가의 성질",
+        "durationSec": 4626,
+        "lastPosition": 1,
+        "lastWatchedAt": "2026-08-03T01:09:25.426Z",
+        "watchedSec": 2
       }
     },
     "daily": {
@@ -284,6 +303,9 @@
       "2026-07-29": {
         "sJH5b7SkTL4": 8,
         "iENXvreBGuU": 903
+      },
+      "2026-08-03": {
+        "aa5XlDPSuus": 2
       }
     }
   },
@@ -296,8 +318,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-27",
-    "endDate": "2026-08-02"
+    "startDate": "2026-08-03",
+    "endDate": "2026-08-09"
   },
   "teacherConfirms": {},
   "tasks": [],

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-02T10:18:55.988Z",
+  "generatedAt": "2026-08-04T08:32:51.638Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -89,30 +89,41 @@
       "startedAt": 1785145657641,
       "createdAt": "2026-07-27T09:49:55.048Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msdvkgviu0n",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 559,
+      "startedAt": 1785800517320,
+      "createdAt": "2026-08-03T23:43:18.894Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "JH_MD-p63IA": {
-        "sessionCount": 3,
+        "sessionCount": 5,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
         "durationSec": 4183,
         "lastPosition": 4169,
-        "lastWatchedAt": "2026-07-25T05:46:41.149Z",
-        "watchedSec": 1384
+        "lastWatchedAt": "2026-08-02T23:56:00.396Z",
+        "watchedSec": 1407
       },
       "A7CrbLfr5VY": {
-        "sessionCount": 3,
+        "sessionCount": 5,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "8~12쪽 두 점 사이의 거리",
         "durationSec": 2912,
-        "lastPosition": 2549,
-        "lastWatchedAt": "2026-07-27T06:15:54.388Z",
-        "watchedSec": 3586
+        "lastPosition": 2900,
+        "lastWatchedAt": "2026-08-03T02:33:47.266Z",
+        "watchedSec": 3705
       },
       "aa5XlDPSuus": {
         "sessionCount": 1,
@@ -125,14 +136,14 @@
         "watchedSec": 447
       },
       "2auObqsjN-s": {
-        "sessionCount": 1,
+        "sessionCount": 6,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "13~23쪽 선분의 내분점",
         "durationSec": 4456,
-        "lastPosition": 34,
-        "lastWatchedAt": "2026-07-27T08:43:30.287Z",
-        "watchedSec": 35
+        "lastPosition": 3007,
+        "lastWatchedAt": "2026-08-04T08:31:20.741Z",
+        "watchedSec": 2810
       },
       "Vpbwe1ellrc": {
         "sessionCount": 2,
@@ -151,7 +162,8 @@
         "videoTitle": "150~159쪽 일차부등식, 연립일차부등식",
         "durationSec": 3211,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-27T08:44:09.436Z"
+        "lastWatchedAt": "2026-07-27T08:44:09.436Z",
+        "watchedSec": 0
       },
       "iwleCBdeEjY": {
         "sessionCount": 1,
@@ -162,6 +174,26 @@
         "lastPosition": 1652,
         "lastWatchedAt": "2026-07-27T10:51:49.689Z",
         "watchedSec": 642
+      },
+      "r2Yofj6CofI": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "36~41쪽 정점을 지나는 직선 질문(유형편 13쪽) + 두  직선의 평행과 수직",
+        "durationSec": 4235,
+        "lastPosition": 128,
+        "lastWatchedAt": "2026-08-02T23:54:48.977Z",
+        "watchedSec": 27
+      },
+      "tsLcsUgBKZ0": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
+        "durationSec": 3571,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-08-02T23:55:09.048Z",
+        "watchedSec": 0
       }
     },
     "daily": {
@@ -178,6 +210,15 @@
         "2auObqsjN-s": 35,
         "Vpbwe1ellrc": 2133,
         "iwleCBdeEjY": 642
+      },
+      "2026-08-03": {
+        "r2Yofj6CofI": 27,
+        "JH_MD-p63IA": 23,
+        "2auObqsjN-s": 2306,
+        "A7CrbLfr5VY": 119
+      },
+      "2026-08-04": {
+        "2auObqsjN-s": 469
       }
     }
   },
@@ -190,8 +231,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-07-27",
-    "endDate": "2026-08-02"
+    "startDate": "2026-08-03",
+    "endDate": "2026-08-09"
   },
   "teacherConfirms": {},
   "tasks": [],

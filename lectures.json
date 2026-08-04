@@ -1251,6 +1251,12 @@
         "title": "54~66쪽 81번 풀이 + 연속함수의 성질 + 최대 최소의 정리, 사잇값 정리(실근의 존재성)",
         "position": 4,
         "durationSec": 5967
+      },
+      {
+        "videoId": "OIDvXwg6tkg",
+        "title": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
+        "position": 5,
+        "durationSec": 5879
       }
     ],
     "permissions": {
@@ -1259,8 +1265,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-07-27T02:10:13.235Z",
-    "lastSyncedAt": "2026-07-27T02:10:13.235Z"
+    "updatedAt": "2026-08-04T08:37:21.081Z",
+    "lastSyncedAt": "2026-08-04T08:37:21.081Z"
   },
   {
     "id": "lec_mrq99fx1qmz",

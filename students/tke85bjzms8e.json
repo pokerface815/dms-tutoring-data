@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-31T07:27:05.830Z",
+  "generatedAt": "2026-08-04T08:33:53.208Z",
   "student": {
     "id": "s_1778402500926_7fxigp",
     "classes": [
@@ -328,11 +328,11 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
-    "done": 1,
-    "percent": 100,
-    "startDate": "2026-07-27",
-    "endDate": "2026-08-02"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-08-03",
+    "endDate": "2026-08-09"
   },
   "teacherConfirms": {},
   "tasks": [],

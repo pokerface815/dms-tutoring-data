@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-02T05:12:26.742Z",
+  "generatedAt": "2026-08-04T08:33:44.096Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -168,15 +168,26 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-28T10:54:54.192Z",
+    "uploadedAt": "2026-08-04T05:32:49.910Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 18797,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "todaySec": 391,
+      "weekSec": 391,
+      "monthSec": 391,
+      "streak": 1,
+      "bySubjectMonth": {
+        "독서": 391
+      }
     },
     "logs": [
+      {
+        "id": "effort_mse81y7l3np",
+        "startedAt": 1785821167486,
+        "seconds": 391,
+        "subject": "독서",
+        "method": "기타",
+        "content": "아비투스",
+        "reflection": ""
+      },
       {
         "id": "effort_ms4jh698q1m",
         "startedAt": 1785227109286,
@@ -391,15 +402,6 @@
         "subject": "확률과 통계",
         "method": "문제 풀이",
         "content": "테스트",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mr5by5ws7ek",
-        "startedAt": 1783100103226,
-        "seconds": 7023,
-        "subject": "대수",
-        "method": "문제 풀이",
-        "content": "타이핑",
         "reflection": ""
       }
     ]

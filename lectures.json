@@ -1301,6 +1301,12 @@
         "title": "36~43쪽 03.미분계수와 도함수 34~77번",
         "position": 3,
         "durationSec": 2294
+      },
+      {
+        "videoId": "gEP4Te9K2G8",
+        "title": "44~57쪽 04.도함수의 활용(1)",
+        "position": 4,
+        "durationSec": 3418
       }
     ],
     "permissions": {
@@ -1309,8 +1315,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-07-27T02:10:16.915Z",
-    "lastSyncedAt": "2026-07-27T02:10:16.915Z"
+    "updatedAt": "2026-08-04T08:37:25.623Z",
+    "lastSyncedAt": "2026-08-04T08:37:25.623Z"
   },
   {
     "id": "lec_mrq9a1wrhru",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-04T08:33:42.863Z",
+  "generatedAt": "2026-08-06T14:00:48.881Z",
   "studentCount": 50,
   "rankings": [
     {
@@ -76,18 +76,18 @@
       "weekSec": 1698,
       "monthSec": 1698,
       "recent3mSec": 27555,
-      "streak": 1,
-      "nickname": "😎",
-      "publicNickname": true
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
     },
     {
       "id": "s_1778402500926_7fxigp",
       "name": "정찬민",
-      "totalSec": 698,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 698,
-      "streak": 0,
+      "totalSec": 4355,
+      "weekSec": 3657,
+      "monthSec": 3657,
+      "recent3mSec": 4355,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -175,7 +175,7 @@
       "weekSec": 391,
       "monthSec": 391,
       "recent3mSec": 83934,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -479,10 +479,10 @@
     {
       "id": "s_1784351071584_hs9hej",
       "name": "손예서",
-      "totalSec": 86,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 86,
+      "totalSec": 1603,
+      "weekSec": 1517,
+      "monthSec": 1517,
+      "recent3mSec": 1603,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -490,11 +490,11 @@
     {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
-      "totalSec": 34346,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 34346,
-      "streak": 0,
+      "totalSec": 40825,
+      "weekSec": 6479,
+      "monthSec": 6479,
+      "recent3mSec": 40825,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -527,7 +527,7 @@
       "weekSec": 559,
       "monthSec": 559,
       "recent3mSec": 8725,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },

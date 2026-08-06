@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-02T10:18:51.381Z",
+  "generatedAt": "2026-08-06T14:00:38.834Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,15 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-26T03:10:43.982Z",
+    "uploadedAt": "2026-08-04T10:22:52.403Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
+      "weekSec": 1517,
+      "monthSec": 1517,
       "streak": 0,
-      "bySubjectMonth": {}
+      "bySubjectMonth": {
+        "미적분Ⅰ": 1517
+      }
     },
     "logs": [
+      {
+        "id": "effort_msehjku6slp",
+        "startedAt": 1785837441355,
+        "seconds": 1517,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
+        "reflection": ""
+      },
       {
         "id": "effort_ms180jkd26j",
         "startedAt": 1785035331917,

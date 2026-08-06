@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:33:40.980Z",
+  "generatedAt": "2026-08-06T14:00:55.317Z",
   "student": {
     "id": "s_1784357925964_vuz436",
     "classes": [
@@ -201,6 +201,50 @@
       "startedAt": 1785293590342,
       "createdAt": "2026-07-29T02:54:50.898Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msh1lj5y30n",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+      "reflection": "",
+      "seconds": 2615,
+      "startedAt": 1785992022364,
+      "createdAt": "2026-08-06T04:55:24.742Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msh3w1spe8h",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
+      "reflection": "",
+      "seconds": 532,
+      "startedAt": 1785995819194,
+      "createdAt": "2026-08-06T05:59:34.681Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msh5sayry7c",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
+      "reflection": "",
+      "seconds": 2056,
+      "startedAt": 1785999094947,
+      "createdAt": "2026-08-06T06:52:39.171Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msh8n2xd420",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
+      "reflection": "",
+      "seconds": 1276,
+      "startedAt": 1786003729600,
+      "createdAt": "2026-08-06T08:12:34.321Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -247,14 +291,14 @@
         "watchedSec": 13
       },
       "1NBwUeuJ4II": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
         "durationSec": 6826,
-        "lastPosition": 3531,
-        "lastWatchedAt": "2026-07-22T08:12:49.785Z",
-        "watchedSec": 158
+        "lastPosition": 3438,
+        "lastWatchedAt": "2026-08-06T08:37:13.985Z",
+        "watchedSec": 1434
       },
       "okVxIoEMccc": {
         "sessionCount": 3,
@@ -342,14 +386,24 @@
         "watchedSec": 4492
       },
       "megu-Gxod_Q": {
-        "sessionCount": 3,
+        "sessionCount": 4,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
         "durationSec": 4900,
-        "lastPosition": 961,
-        "lastWatchedAt": "2026-08-04T06:15:33.770Z",
-        "watchedSec": 317
+        "lastPosition": 4885,
+        "lastWatchedAt": "2026-08-06T05:34:56.221Z",
+        "watchedSec": 2932
+      },
+      "ugyX19AJiaA": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "124~134쪽 부등식에의 활용, 속도와 가속도",
+        "durationSec": 4757,
+        "lastPosition": 4746,
+        "lastWatchedAt": "2026-08-06T08:08:35.534Z",
+        "watchedSec": 2588
       }
     },
     "daily": {
@@ -386,6 +440,11 @@
       },
       "2026-08-04": {
         "megu-Gxod_Q": 2
+      },
+      "2026-08-06": {
+        "megu-Gxod_Q": 2615,
+        "ugyX19AJiaA": 2588,
+        "1NBwUeuJ4II": 1276
       }
     }
   },

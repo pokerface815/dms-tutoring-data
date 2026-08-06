@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-04T08:33:44.096Z",
+  "generatedAt": "2026-08-06T14:00:45.172Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -170,10 +170,10 @@
     "enabled": true,
     "uploadedAt": "2026-08-04T05:32:49.910Z",
     "summary": {
-      "todaySec": 391,
+      "todaySec": 0,
       "weekSec": 391,
       "monthSec": 391,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "독서": 391
       }
@@ -339,69 +339,6 @@
         "subject": "기하",
         "method": "개념 정리",
         "content": "개념원리, 백터",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrasylhgp5q",
-        "startedAt": 1783432831243,
-        "seconds": 492,
-        "subject": "기하",
-        "method": "개념 정리",
-        "content": "벡터",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrana9luwc4",
-        "startedAt": 1783428074534,
-        "seconds": 415,
-        "subject": "필사",
-        "method": "기타",
-        "content": "데미안",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mramyagd5ab",
-        "startedAt": 1783427404163,
-        "seconds": 505,
-        "subject": "독서",
-        "method": "기타",
-        "content": "아비투스",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mr9y72yfc1z",
-        "startedAt": 1783384851649,
-        "seconds": 1506,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mr9x9w6ktw2",
-        "startedAt": 1783384748042,
-        "seconds": 66,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mr9x5oaqw1x",
-        "startedAt": 1783384310376,
-        "seconds": 304,
-        "subject": "확률과 통계",
-        "method": "강의 시청",
-        "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 56~62쪽 조건부확률",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mr97f5mj44z",
-        "startedAt": 1783332582271,
-        "seconds": 3850,
-        "subject": "확률과 통계",
-        "method": "문제 풀이",
-        "content": "테스트",
         "reflection": ""
       }
     ]

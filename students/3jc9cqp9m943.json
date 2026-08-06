@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:32:51.638Z",
+  "generatedAt": "2026-08-06T14:00:37.484Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -146,14 +146,14 @@
         "watchedSec": 2810
       },
       "Vpbwe1ellrc": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "135~141쪽 미지수가 2개인 연립이차방정식",
         "durationSec": 3563,
-        "lastPosition": 3562,
-        "lastWatchedAt": "2026-07-27T09:47:35.247Z",
-        "watchedSec": 2133
+        "lastPosition": 1367,
+        "lastWatchedAt": "2026-08-06T11:29:16.127Z",
+        "watchedSec": 2149
       },
       "HC4J2dxRE8A": {
         "sessionCount": 1,
@@ -219,6 +219,9 @@
       },
       "2026-08-04": {
         "2auObqsjN-s": 469
+      },
+      "2026-08-06": {
+        "Vpbwe1ellrc": 16
       }
     }
   },

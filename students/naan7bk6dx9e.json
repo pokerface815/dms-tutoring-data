@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:34:40.207Z",
+  "generatedAt": "2026-08-06T14:00:52.663Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -40,13 +40,13 @@
   "syncedLectureWatch": {
     "videos": {
       "JH_MD-p63IA": {
-        "sessionCount": 5,
+        "sessionCount": 6,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
         "durationSec": 4183,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-27T08:43:39.541Z",
+        "lastWatchedAt": "2026-08-05T12:51:49.010Z",
         "watchedSec": 1714
       },
       "A7CrbLfr5VY": {

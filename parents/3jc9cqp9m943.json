@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-04T08:32:50.562Z",
+  "generatedAt": "2026-08-06T14:00:41.394Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,12 +11,12 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-04T02:44:54.707Z",
+    "uploadedAt": "2026-08-06T10:03:38.963Z",
     "summary": {
-      "todaySec": 559,
+      "todaySec": 0,
       "weekSec": 559,
       "monthSec": 559,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "공통수학2": 559
       }

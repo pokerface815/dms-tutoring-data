@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:32:53.818Z",
+  "generatedAt": "2026-08-07T14:25:09.620Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -144,6 +144,17 @@
       "startedAt": 1785656298284,
       "createdAt": "2026-08-02T07:40:20.964Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msj13vxsvqu",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+      "reflection": "",
+      "seconds": 205,
+      "startedAt": 1786112120950,
+      "createdAt": "2026-08-07T14:17:13.840Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -245,9 +256,19 @@
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "86~96쪽 평균값 정리, 함수의 증가와 감소",
         "durationSec": 5070,
-        "lastPosition": 3075,
-        "lastWatchedAt": "2026-08-02T07:42:03.235Z",
+        "lastPosition": 3214,
+        "lastWatchedAt": "2026-08-02T07:42:10.229Z",
         "watchedSec": 172
+      },
+      "m9wVSEc3BX8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "durationSec": 4149,
+        "lastPosition": 2178,
+        "lastWatchedAt": "2026-08-07T14:17:53.456Z",
+        "watchedSec": 205
       }
     },
     "daily": {
@@ -279,6 +300,9 @@
       },
       "2026-08-02": {
         "lWOw-Kjk3mk": 172
+      },
+      "2026-08-07": {
+        "m9wVSEc3BX8": 205
       }
     }
   },

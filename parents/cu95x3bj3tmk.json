@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T14:25:30.357Z",
+  "generatedAt": "2026-08-07T15:05:00.388Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -90,6 +90,11 @@
             {
               "title": "공수2 강의 영상 보기(제출일 8/16(일))",
               "dueDate": "2026-08-16",
+              "isConfirmed": false
+            },
+            {
+              "title": "공수2 강의 영상 보기(제출일 8/22(토))",
+              "dueDate": "2026-08-22",
               "isConfirmed": false
             }
           ],

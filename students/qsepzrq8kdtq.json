@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:33:08.360Z",
+  "generatedAt": "2026-08-07T05:23:38.995Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -78,6 +78,17 @@
       "startedAt": 1785483098188,
       "createdAt": "2026-07-31T07:32:49.911Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msi9snyjruj",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 44~57쪽 04.도함수의 활용(1)",
+      "reflection": "",
+      "seconds": 2838,
+      "startedAt": 1786066302668,
+      "createdAt": "2026-08-07T01:32:40.651Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -142,6 +153,16 @@
         "lastPosition": 3482,
         "lastWatchedAt": "2026-07-31T07:34:30.113Z",
         "watchedSec": 2312
+      },
+      "LHEuFScEdjw": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq9a1wrhru",
+        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "44~57쪽 04.도함수의 활용(1)",
+        "durationSec": 2048,
+        "lastPosition": 1434,
+        "lastWatchedAt": "2026-08-07T03:09:29.842Z",
+        "watchedSec": 2838
       }
     },
     "daily": {
@@ -161,6 +182,9 @@
       },
       "2026-07-31": {
         "lWOw-Kjk3mk": 192
+      },
+      "2026-08-07": {
+        "LHEuFScEdjw": 2838
       }
     }
   },

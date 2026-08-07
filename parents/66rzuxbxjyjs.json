@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T14:25:19.269Z",
+  "generatedAt": "2026-08-07T14:49:25.000Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -24,7 +24,7 @@
             {
               "title": "라이트쎈 공수1 매일 2장씩(제출일 8/7(금))",
               "dueDate": "2026-08-07",
-              "isConfirmed": false
+              "isConfirmed": true
             },
             {
               "title": "라이트쎈 공수1 매일 2장씩(제출일 8/8(토))",

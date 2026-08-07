@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T05:25:51.686Z",
+  "generatedAt": "2026-08-07T14:47:17.694Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -111,6 +111,17 @@
       "startedAt": 1786075093735,
       "createdAt": "2026-08-07T03:59:10.733Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msj1k4rb8wm",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+      "reflection": "",
+      "seconds": 1713,
+      "startedAt": 1786112738793,
+      "createdAt": "2026-08-07T14:29:51.767Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -193,17 +204,18 @@
         "videoTitle": "124~134쪽 부등식에의 활용, 속도와 가속도",
         "durationSec": 4757,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-08-07T03:35:14.457Z"
+        "lastWatchedAt": "2026-08-07T03:35:14.457Z",
+        "watchedSec": 0
       },
       "m9wVSEc3BX8": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "97~107쪽 함수의 극대와 극소, 함수의 그래프",
         "durationSec": 4149,
-        "lastPosition": 1579,
-        "lastWatchedAt": "2026-08-07T04:11:42.176Z",
-        "watchedSec": 823
+        "lastPosition": 3087,
+        "lastWatchedAt": "2026-08-07T14:46:02.729Z",
+        "watchedSec": 2536
       }
     },
     "daily": {
@@ -227,7 +239,7 @@
       "2026-08-07": {
         "LHEuFScEdjw": 2838,
         "lWOw-Kjk3mk": 1728,
-        "m9wVSEc3BX8": 823
+        "m9wVSEc3BX8": 2536
       }
     }
   },

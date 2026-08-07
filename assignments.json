@@ -3534,5 +3534,38 @@
     "batchId": "tplbatch_tpl_msiq0iwcysuc_2026-08-15",
     "templateId": "tpl_msiq0iwcysuc",
     "repeat": null
+  },
+  {
+    "id": "task_1786093639630_gwqxny",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "테스트",
+    "dueDate": "2026-08-07",
+    "assignedAt": "2026-08-07T09:07:19.630Z",
+    "batchId": "tplbatch_tpl_msiq0iwcysuc_2026-08-07",
+    "templateId": "tpl_msiq0iwcysuc",
+    "repeat": null
+  },
+  {
+    "id": "task_1786093639630_6joq9k",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "테스트",
+    "dueDate": "2026-08-08",
+    "assignedAt": "2026-08-07T09:07:19.630Z",
+    "batchId": "tplbatch_tpl_msiq0iwcysuc_2026-08-08",
+    "templateId": "tpl_msiq0iwcysuc",
+    "repeat": null
+  },
+  {
+    "id": "task_1786093639630_wz7qp5",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "테스트",
+    "dueDate": "2026-08-09",
+    "assignedAt": "2026-08-07T09:07:19.630Z",
+    "batchId": "tplbatch_tpl_msiq0iwcysuc_2026-08-09",
+    "templateId": "tpl_msiq0iwcysuc",
+    "repeat": null
   }
 ]

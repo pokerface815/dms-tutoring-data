@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-04T08:32:55.082Z",
+  "generatedAt": "2026-08-07T05:23:42.274Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,44 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-01T14:04:32.887Z",
+    "uploadedAt": "2026-08-06T15:24:44.843Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 4203,
-      "streak": 0,
+      "todaySec": 2280,
+      "weekSec": 4139,
+      "monthSec": 8342,
+      "streak": 2,
       "bySubjectMonth": {
-        "미적분Ⅰ": 4203
+        "미적분Ⅰ": 8342
       }
     },
     "logs": [
+      {
+        "id": "effort_msho2skaiac",
+        "startedAt": 1786029827687,
+        "seconds": 65,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mshndho7htg",
+        "startedAt": 1786028600816,
+        "seconds": 2215,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mshms4fe0xe",
+        "startedAt": 1786027637095,
+        "seconds": 1859,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
       {
         "id": "effort_msafk4r40yb",
         "startedAt": 1785592191452,

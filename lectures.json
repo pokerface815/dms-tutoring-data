@@ -2263,13 +2263,13 @@
       }
     ],
     "permissions": {
-      "type": "none",
+      "type": "all",
       "grades": [],
       "classIds": [],
       "studentIds": []
     },
     "createdAt": "2026-07-29T22:46:58.060Z",
-    "updatedAt": "2026-08-07T09:51:53.070Z",
+    "updatedAt": "2026-08-07T09:51:59.146Z",
     "lastSyncedAt": "2026-07-30T13:17:20.115Z"
   },
   {

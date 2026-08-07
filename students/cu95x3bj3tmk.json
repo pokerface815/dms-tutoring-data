@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T06:29:18.627Z",
+  "generatedAt": "2026-08-07T07:18:08.090Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -109,7 +109,8 @@
         "videoTitle": "52~57쪽 원의 방정식(1)",
         "durationSec": 4404,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-27T06:19:59.179Z"
+        "lastWatchedAt": "2026-07-27T06:19:59.179Z",
+        "watchedSec": 0
       }
     },
     "daily": {

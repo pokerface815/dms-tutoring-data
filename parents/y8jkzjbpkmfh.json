@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-06T14:00:42.624Z",
+  "generatedAt": "2026-08-07T07:18:00.612Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-06T10:02:14.958Z",
+    "uploadedAt": "2026-08-07T07:06:08.426Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 1698,
-      "monthSec": 1698,
-      "streak": 0,
+      "todaySec": 385,
+      "weekSec": 3003,
+      "monthSec": 3003,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 1698
+        "미적분Ⅰ": 3003
       }
     },
     "logs": [
+      {
+        "id": "effort_msilidbup2y",
+        "startedAt": 1786085942740,
+        "seconds": 385,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msfts0hn59f",
+        "startedAt": 1785918437103,
+        "seconds": 920,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
       {
         "id": "effort_mse7myrpy5v",
         "startedAt": 1785820795497,

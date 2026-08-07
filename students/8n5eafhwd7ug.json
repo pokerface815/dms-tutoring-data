@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T14:25:28.866Z",
+  "generatedAt": "2026-08-07T15:05:11.734Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -143,6 +143,14 @@
       "dueDate": "2026-08-21",
       "isRepeat": false,
       "assignedAt": "2026-08-07T06:13:14.758Z"
+    },
+    {
+      "assignmentId": "task_1786115074362_gvsg5t",
+      "round": 1,
+      "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/22(토))",
+      "dueDate": "2026-08-22",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T15:04:34.362Z"
     }
   ],
   "myGrades": []

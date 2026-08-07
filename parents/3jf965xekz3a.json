@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-02T10:18:40.124Z",
+  "generatedAt": "2026-08-07T14:47:58.852Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -24,16 +24,16 @@
             {
               "title": "공부한 내용 인증하기",
               "dueDate": "2026-07-23",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
         }
       ],
       "completionRate": {
-        "done": 0,
+        "done": 1,
         "total": 1,
-        "percent": 0
+        "percent": 100
       },
       "noteStages": null
     }

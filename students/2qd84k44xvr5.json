@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:32:56.626Z",
+  "generatedAt": "2026-08-07T05:23:43.378Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -189,6 +189,39 @@
       "startedAt": 1785592191452,
       "createdAt": "2026-08-01T13:51:50.800Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mshms4fe0xe",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+      "reflection": "",
+      "seconds": 1859,
+      "startedAt": 1786027637095,
+      "createdAt": "2026-08-06T14:48:24.170Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mshndho7htg",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+      "reflection": "",
+      "seconds": 2215,
+      "startedAt": 1786028600816,
+      "createdAt": "2026-08-06T15:05:01.111Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msho2skaiac",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+      "reflection": "",
+      "seconds": 65,
+      "startedAt": 1786029827687,
+      "createdAt": "2026-08-06T15:24:41.626Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -295,14 +328,34 @@
         "watchedSec": 1932
       },
       "lWOw-Kjk3mk": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "86~96쪽 평균값 정리, 함수의 증가와 감소",
         "durationSec": 5070,
-        "lastPosition": 3553,
-        "lastWatchedAt": "2026-08-01T14:07:18.378Z",
-        "watchedSec": 1590
+        "lastPosition": 5067,
+        "lastWatchedAt": "2026-08-06T15:03:18.029Z",
+        "watchedSec": 3449
+      },
+      "m9wVSEc3BX8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "durationSec": 4149,
+        "lastPosition": 4084,
+        "lastWatchedAt": "2026-08-06T15:23:43.752Z",
+        "watchedSec": 2215
+      },
+      "wKbSmCx25Cs": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "108~110쪽 삼차함수와 사차함수의 그래프",
+        "durationSec": 4935,
+        "lastPosition": 1432,
+        "lastWatchedAt": "2026-08-06T15:24:45.517Z",
+        "watchedSec": 65
       }
     },
     "daily": {
@@ -333,6 +386,14 @@
         "pJC_OdUw6QE": 681,
         "EgHfNAsg_mk": 1932,
         "lWOw-Kjk3mk": 1590
+      },
+      "2026-08-06": {
+        "lWOw-Kjk3mk": 1469
+      },
+      "2026-08-07": {
+        "lWOw-Kjk3mk": 390,
+        "m9wVSEc3BX8": 2215,
+        "wKbSmCx25Cs": 65
       }
     }
   },

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T06:22:36.015Z",
+  "generatedAt": "2026-08-07T06:26:18.500Z",
   "showCompletionRate": true,
-  "showNoteStages": false,
+  "showNoteStages": true,
   "student": {
     "name": "박유솔",
     "grade": "중3"

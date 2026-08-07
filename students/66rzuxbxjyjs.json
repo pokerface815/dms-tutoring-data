@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T14:25:20.862Z",
+  "generatedAt": "2026-08-07T14:49:23.109Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -321,7 +321,14 @@
     "startDate": "2026-08-03",
     "endDate": "2026-08-09"
   },
-  "teacherConfirms": {},
+  "teacherConfirms": {
+    "task_1786084600710_00nbcx__1": {
+      "comment": "고생했어요^^",
+      "commentAt": "2026-08-07T14:49:16.970Z",
+      "confirmed": true,
+      "confirmedAt": "2026-08-07T14:49:16.970Z"
+    }
+  },
   "tasks": [
     {
       "assignmentId": "task_1786084600710_00nbcx",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T07:32:39.490Z",
+  "generatedAt": "2026-08-07T09:06:58.204Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -12,7 +12,184 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mrzxaevybyy",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+      "reflection": "",
+      "seconds": 1358,
+      "startedAt": 1784956601567,
+      "createdAt": "2026-07-25T05:22:42.526Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mrzzdoz9836",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+      "reflection": "",
+      "seconds": 969,
+      "startedAt": 1784960370508,
+      "createdAt": "2026-07-25T06:21:14.806Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms185doznwh",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+      "reflection": "",
+      "seconds": 447,
+      "startedAt": 1785035531726,
+      "createdAt": "2026-07-26T03:14:29.651Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms1bwv62b7k",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+      "reflection": "",
+      "seconds": 2532,
+      "startedAt": 1785041880861,
+      "createdAt": "2026-07-26T04:59:50.858Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms2u2g8pdxb",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+      "reflection": "",
+      "seconds": 85,
+      "startedAt": 1785132856997,
+      "createdAt": "2026-07-27T06:15:50.713Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms2zfti9qbl",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 135~141쪽 미지수가 2개인 연립이차방정식",
+      "reflection": "",
+      "seconds": 2133,
+      "startedAt": 1785141850757,
+      "createdAt": "2026-07-27T08:46:12.513Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms31pqzsb5h",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
+      "reflection": "",
+      "seconds": 642,
+      "startedAt": 1785145657641,
+      "createdAt": "2026-07-27T09:49:55.048Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mscgmcsa503",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 80,
+      "startedAt": 1785714963773,
+      "createdAt": "2026-08-02T23:57:06.490Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mscgqq1nvr9",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+      "reflection": "",
+      "seconds": 107,
+      "startedAt": 1785715166174,
+      "createdAt": "2026-08-03T00:00:30.299Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mscm972lzhe",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 483,
+      "startedAt": 1785724428522,
+      "createdAt": "2026-08-03T02:34:50.253Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msd4wnw57xp",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 1743,
+      "startedAt": 1785755749280,
+      "createdAt": "2026-08-03T11:16:58.229Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msdtfym33r2",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 469,
+      "startedAt": 1785796963613,
+      "createdAt": "2026-08-03T22:43:49.371Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msdvkgviu0n",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 559,
+      "startedAt": 1785800517320,
+      "createdAt": "2026-08-03T23:43:18.894Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mseezgb3s9c",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 713,
+      "startedAt": 1785833148734,
+      "createdAt": "2026-08-04T08:46:50.703Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msint7vva4r",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 316,
+      "startedAt": 1786089823173,
+      "createdAt": "2026-08-07T08:05:01.099Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msiope65lap",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+      "reflection": "",
+      "seconds": 234,
+      "startedAt": 1786091316500,
+      "createdAt": "2026-08-07T08:30:02.237Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
@@ -47,14 +224,14 @@
         "watchedSec": 447
       },
       "2auObqsjN-s": {
-        "sessionCount": 8,
+        "sessionCount": 10,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "13~23쪽 선분의 내분점",
         "durationSec": 4456,
-        "lastPosition": 4455,
-        "lastWatchedAt": "2026-08-04T09:02:49.910Z",
-        "watchedSec": 3568
+        "lastPosition": 661,
+        "lastWatchedAt": "2026-08-07T08:42:53.691Z",
+        "watchedSec": 4118
       },
       "Vpbwe1ellrc": {
         "sessionCount": 2,
@@ -146,7 +323,8 @@
         "Vpbwe1ellrc": 16
       },
       "2026-08-07": {
-        "4Ug5EcsKyFA": 12
+        "4Ug5EcsKyFA": 12,
+        "2auObqsjN-s": 550
       }
     }
   },

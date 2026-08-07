@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T14:47:19.651Z",
+  "generatedAt": "2026-08-07T15:04:41.854Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -17,11 +17,11 @@
     {
       "id": "s_1777546951753_p3pskl",
       "name": "김채린",
-      "totalSec": 13976,
-      "weekSec": 7102,
-      "monthSec": 7102,
-      "recent3mSec": 13976,
-      "streak": 1,
+      "totalSec": 15460,
+      "weekSec": 8586,
+      "monthSec": 8586,
+      "recent3mSec": 15460,
+      "streak": 2,
       "nickname": "오레오잉",
       "publicNickname": true
     },
@@ -340,7 +340,7 @@
       "weekSec": 5517,
       "monthSec": 7277,
       "recent3mSec": 14107,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -494,7 +494,7 @@
       "weekSec": 6479,
       "monthSec": 6479,
       "recent3mSec": 40825,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },

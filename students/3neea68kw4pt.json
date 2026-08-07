@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T09:06:54.484Z",
+  "generatedAt": "2026-08-07T09:07:03.856Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -664,30 +664,6 @@
       "dueDate": "2026-07-01",
       "isRepeat": false,
       "assignedAt": "2026-06-30T02:38:40.020Z"
-    },
-    {
-      "assignmentId": "task_1786093601197_200eyw",
-      "round": 1,
-      "title": "테스트",
-      "dueDate": "2026-08-07",
-      "isRepeat": false,
-      "assignedAt": "2026-08-07T09:06:41.197Z"
-    },
-    {
-      "assignmentId": "task_1786093601197_4sqy1b",
-      "round": 1,
-      "title": "테스트",
-      "dueDate": "2026-08-08",
-      "isRepeat": false,
-      "assignedAt": "2026-08-07T09:06:41.197Z"
-    },
-    {
-      "assignmentId": "task_1786093601197_jz03wb",
-      "round": 1,
-      "title": "테스트",
-      "dueDate": "2026-08-09",
-      "isRepeat": false,
-      "assignedAt": "2026-08-07T09:06:41.197Z"
     },
     {
       "assignmentId": "task_1786093601197_1mcc7a",

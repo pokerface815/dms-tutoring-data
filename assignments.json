@@ -2885,5 +2885,148 @@
     "batchId": "t_msbrjxb4",
     "repeat": null,
     "fromLesson": "lesson_1785672922720_njiea1"
+  },
+  {
+    "id": "task_1786080212309_pybx7j",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-07",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-07",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_mkbxln",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-08",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-08",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_srr1qx",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-10",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-10",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_7cduv9",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-11",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-11",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_gfsbfn",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-12",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-12",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_2unu0a",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-13",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-13",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_78avzc",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-14",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-14",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_wjh278",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-15",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-15",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_j3ewg8",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-17",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-17",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_i7uwr1",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-18",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-18",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_smmsyi",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-19",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-19",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_ueq55d",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-20",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-20",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786080212309_h4j9te",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩",
+    "dueDate": "2026-08-21",
+    "assignedAt": "2026-08-07T05:23:32.309Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-21",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
   }
 ]

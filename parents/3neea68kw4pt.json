@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-06T14:00:45.172Z",
+  "generatedAt": "2026-08-07T05:23:46.633Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -330,15 +330,6 @@
         "subject": "기하",
         "method": "개념 정리",
         "content": "벡터 진행 중",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrauxhlzvwh",
-        "startedAt": 1783438432777,
-        "seconds": 2894,
-        "subject": "기하",
-        "method": "개념 정리",
-        "content": "개념원리, 백터",
         "reflection": ""
       }
     ]

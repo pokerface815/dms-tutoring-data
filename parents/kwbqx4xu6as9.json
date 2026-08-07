@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T05:28:47.802Z",
+  "generatedAt": "2026-08-07T05:51:21.687Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -25,7 +25,7 @@
             {
               "title": "RPM 공통수학1 매일 2장씩",
               "dueDate": "2026-08-07",
-              "isConfirmed": true
+              "isConfirmed": false
             },
             {
               "title": "RPM 공통수학1 매일 2장씩",

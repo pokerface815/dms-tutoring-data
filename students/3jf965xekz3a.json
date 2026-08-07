@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T15:06:35.681Z",
+  "generatedAt": "2026-08-07T15:06:55.027Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -102,14 +102,7 @@
     "startDate": "2026-08-03",
     "endDate": "2026-08-09"
   },
-  "teacherConfirms": {
-    "task_1784786830937_2hurv7__1": {
-      "missed": false,
-      "missedAt": null,
-      "confirmed": true,
-      "confirmedAt": "2026-08-07T15:06:28.410Z"
-    }
-  },
+  "teacherConfirms": {},
   "tasks": [
     {
       "assignmentId": "task_1784786830937_2hurv7",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T09:07:29.099Z",
+  "generatedAt": "2026-08-07T14:25:11.974Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -86,7 +86,7 @@
           "important": false,
           "extraAssignments": [
             {
-              "title": "반복 과제 확인",
+              "title": "반복 과제 확인(제출일 6/6(토))",
               "dueDate": "2026-06-06",
               "isConfirmed": true
             }
@@ -168,17 +168,27 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-04T05:32:49.910Z",
+    "uploadedAt": "2026-08-07T13:48:32.780Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 391,
-      "monthSec": 391,
-      "streak": 0,
+      "todaySec": 3695,
+      "weekSec": 4086,
+      "monthSec": 4086,
+      "streak": 1,
       "bySubjectMonth": {
-        "독서": 391
+        "독서": 391,
+        "미적분Ⅰ": 3695
       }
     },
     "logs": [
+      {
+        "id": "effort_msj02zyhbaa",
+        "startedAt": 1786106817754,
+        "seconds": 3695,
+        "subject": "미적분Ⅰ",
+        "method": "문제 풀이",
+        "content": "쎈B",
+        "reflection": ""
+      },
       {
         "id": "effort_mse81y7l3np",
         "startedAt": 1785821167486,

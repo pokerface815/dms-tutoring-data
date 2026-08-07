@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:34:05.805Z",
+  "generatedAt": "2026-08-07T14:47:23.224Z",
   "student": {
     "id": "s_1780314459772_slkq6q",
     "classes": [
@@ -33,10 +33,10 @@
       "confirmedAt": "2026-06-06T12:02:35.084Z"
     },
     "task_1780907008277_n4ky01__1": {
-      "missed": true,
-      "missedAt": "2026-06-17T21:06:43.099Z",
-      "confirmed": false,
-      "confirmedAt": null
+      "missed": false,
+      "missedAt": null,
+      "confirmed": true,
+      "confirmedAt": "2026-08-07T14:47:03.859Z"
     }
   },
   "tasks": [

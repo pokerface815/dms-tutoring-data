@@ -6279,8 +6279,13 @@
     confirmed.sort(sortRecent);
     missed.sort(sortRecent);
 
+    // 같은 이름의 과제가 2개 이상이면(주로 반복 과제) 제목 뒤에 날짜를 붙여 구분
+    const titleCount = {};
+    for (const t of tasks) { const k = t.title || '과제'; titleCount[k] = (titleCount[k] || 0) + 1; }
+    const dupTitle = (t) => (titleCount[t.title || '과제'] || 0) > 1;
+
     let html = `<div class="section"><div class="section-title"><span>제출하거나 확인 대기 중인 과제</span><span class="section-count">${pending.length}</span></div>`;
-    for (const t of pending) html += renderTaskCard(t);
+    for (const t of pending) html += renderTaskCard(t, { forceDate: dupTitle(t) });
     if (pending.length === 0) {
       html += `<div style="padding:14px; background:var(--surface2); border-radius:10px; color:var(--text3); font-size:13px; text-align:center;">제출하거나 확인 대기 중인 과제가 없습니다</div>`;
     }
@@ -6294,7 +6299,7 @@
               최근 완료/마감된 과제 ${recent.length}건 보기
             </div>
           </summary>
-          <div style="margin-top:10px;">${recent.map(t => renderTaskCard(t, { _isMissed: !!(getTeacherConfirm(t.assignmentId, t.round||1) || {}).missed })).join('')}</div>
+          <div style="margin-top:10px;">${recent.map(t => renderTaskCard(t, { _isMissed: !!(getTeacherConfirm(t.assignmentId, t.round||1) || {}).missed, forceDate: dupTitle(t) })).join('')}</div>
         </details>
       `;
     }
@@ -6338,7 +6343,8 @@
     }
 
     // 반복 과제는 이름이 같아 헷갈리므로 제목 뒤에 제출(마감) 날짜를 붙여 구분
-    const titleDate = (t.isRepeat && t.dueDate) ? fmtTaskTitleDate(t.dueDate) : '';
+    const showTitleDate = t.dueDate && ((opts && opts.forceDate) || t.isRepeat);
+    const titleDate = showTitleDate ? fmtTaskTitleDate(t.dueDate) : '';
     let html = `
       <div class="note-card ${cardClass}">
         <div class="note-card-title">${escapeHtml(t.title || '과제')}${titleDate ? ` <span style="color:#7c5cbf; font-weight:600;">(${titleDate})</span>` : ''}</div>

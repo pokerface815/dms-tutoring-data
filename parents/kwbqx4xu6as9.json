@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T05:25:46.318Z",
+  "generatedAt": "2026-08-07T05:28:47.802Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -15,11 +15,12 @@
         {
           "date": "2026-08-07",
           "weekday": "금",
-          "className": "",
-          "content": "",
+          "className": "서준우 개별",
+          "content": "교재 검사\n1. 풀어진 곳 - 순열(오답 체크 + 질문)",
           "task": "",
           "taskDue": "",
           "myNote": "",
+          "important": false,
           "extraAssignments": [
             {
               "title": "RPM 공통수학1 매일 2장씩",
@@ -87,7 +88,7 @@
               "isConfirmed": false
             }
           ],
-          "hasLesson": false
+          "hasLesson": true
         }
       ],
       "completionRate": null,

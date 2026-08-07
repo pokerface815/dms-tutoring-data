@@ -449,7 +449,15 @@
     ],
     "showCompletionRate": true,
     "showTestResults": true,
-    "showMakeNote": false
+    "showMakeNote": false,
+    "showNoteStages": true,
+    "classHistory": [
+      {
+        "classId": "cls_1780309370989_i1lo00",
+        "from": "",
+        "to": null
+      }
+    ]
   },
   {
     "id": "s_1780190418387_a11waf",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T06:19:16.934Z",
+  "generatedAt": "2026-08-07T06:19:43.327Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -8,6 +8,26 @@
     "grade": "중3"
   },
   "months": [
+    {
+      "ym": "2026-08",
+      "label": "2026년 8월",
+      "lessons": [
+        {
+          "date": "2026-08-07",
+          "weekday": "금",
+          "className": "박유솔 개별",
+          "content": "쎈 공수2\n ~ 27쪽",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        }
+      ],
+      "completionRate": null,
+      "noteStages": null
+    },
     {
       "ym": "2026-07",
       "label": "2026년 7월",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T09:06:58.204Z",
+  "generatedAt": "2026-08-07T14:25:17.708Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -168,6 +168,17 @@
       "autoRecorded": true
     },
     {
+      "id": "effort_msfea04xbct",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
+      "reflection": "",
+      "seconds": 1422,
+      "startedAt": 1785892185477,
+      "createdAt": "2026-08-05T01:14:49.521Z",
+      "autoRecorded": true
+    },
+    {
       "id": "effort_msint7vva4r",
       "subject": "공통수학2",
       "method": "강의 시청",
@@ -187,6 +198,17 @@
       "seconds": 234,
       "startedAt": 1786091316500,
       "createdAt": "2026-08-07T08:30:02.237Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msiweh4b4gr",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 36~41쪽 정점을 지나는 직선 질문(유형편 13쪽) + 두  직선의 평행과 수직",
+      "reflection": "",
+      "seconds": 1950,
+      "startedAt": 1786103531012,
+      "createdAt": "2026-08-07T12:05:29.771Z",
       "autoRecorded": true
     }
   ],
@@ -224,17 +246,17 @@
         "watchedSec": 447
       },
       "2auObqsjN-s": {
-        "sessionCount": 10,
+        "sessionCount": 7,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "13~23쪽 선분의 내분점",
         "durationSec": 4456,
-        "lastPosition": 661,
+        "lastPosition": 4366,
         "lastWatchedAt": "2026-08-07T08:42:53.691Z",
         "watchedSec": 4118
       },
       "Vpbwe1ellrc": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "135~141쪽 미지수가 2개인 연립이차방정식",
@@ -264,34 +286,44 @@
         "watchedSec": 642
       },
       "r2Yofj6CofI": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "36~41쪽 정점을 지나는 직선 질문(유형편 13쪽) + 두  직선의 평행과 수직",
         "durationSec": 4235,
-        "lastPosition": 128,
-        "lastWatchedAt": "2026-08-02T23:54:48.977Z",
-        "watchedSec": 27
+        "lastPosition": 3568,
+        "lastWatchedAt": "2026-08-07T13:31:21.737Z",
+        "watchedSec": 1977
       },
       "tsLcsUgBKZ0": {
-        "sessionCount": 3,
+        "sessionCount": 4,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
         "durationSec": 3571,
-        "lastPosition": 2,
-        "lastWatchedAt": "2026-08-04T09:03:26.422Z",
-        "watchedSec": 6
+        "lastPosition": 2826,
+        "lastWatchedAt": "2026-08-05T09:56:09.895Z",
+        "watchedSec": 1437
+      },
+      "4uqVjzd4CXc": {
+        "sessionCount": 1,
+        "lectureId": "lec_ms5pj8rig4h",
+        "lectureTitle": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업",
+        "videoTitle": "03. 삼각형의 무게중심",
+        "durationSec": 2569,
+        "lastPosition": 254,
+        "lastWatchedAt": "2026-08-05T01:06:53.155Z",
+        "watchedSec": 14
       },
       "4Ug5EcsKyFA": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
         "durationSec": 4290,
-        "lastPosition": 12,
-        "lastWatchedAt": "2026-08-07T07:25:08.511Z",
-        "watchedSec": 12
+        "lastPosition": 52,
+        "lastWatchedAt": "2026-08-07T11:52:09.167Z",
+        "watchedSec": 22
       }
     },
     "daily": {
@@ -319,12 +351,18 @@
         "2auObqsjN-s": 1227,
         "tsLcsUgBKZ0": 6
       },
+      "2026-08-05": {
+        "tsLcsUgBKZ0": 1437,
+        "4uqVjzd4CXc": 14,
+        "2auObqsjN-s": 23
+      },
       "2026-08-06": {
         "Vpbwe1ellrc": 16
       },
       "2026-08-07": {
-        "4Ug5EcsKyFA": 12,
-        "2auObqsjN-s": 550
+        "4Ug5EcsKyFA": 22,
+        "2auObqsjN-s": 550,
+        "r2Yofj6CofI": 1950
       }
     }
   },

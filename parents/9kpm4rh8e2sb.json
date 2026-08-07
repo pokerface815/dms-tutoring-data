@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-06T14:00:46.565Z",
+  "generatedAt": "2026-08-07T14:25:07.877Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -63,17 +63,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-02T07:42:01.241Z",
+    "uploadedAt": "2026-08-07T14:17:53.457Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 172,
-      "streak": 0,
+      "todaySec": 205,
+      "weekSec": 205,
+      "monthSec": 377,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 172
+        "미적분Ⅰ": 377
       }
     },
     "logs": [
+      {
+        "id": "effort_msj13vxsvqu",
+        "startedAt": 1786112120950,
+        "seconds": 205,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "reflection": ""
+      },
       {
         "id": "effort_msbhq8h0ctq",
         "startedAt": 1785656298284,

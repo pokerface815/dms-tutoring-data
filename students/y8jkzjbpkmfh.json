@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-06T14:00:43.953Z",
+  "generatedAt": "2026-08-07T07:18:02.454Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -331,13 +331,35 @@
       "startedAt": 1785820795497,
       "createdAt": "2026-08-04T05:21:10.789Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msfts0hn59f",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+      "reflection": "",
+      "seconds": 920,
+      "startedAt": 1785918437103,
+      "createdAt": "2026-08-05T08:28:44.027Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msilidbup2y",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+      "reflection": "",
+      "seconds": 385,
+      "startedAt": 1786085942740,
+      "createdAt": "2026-08-07T07:00:35.706Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "MUY1NAZSfLw": {
-        "sessionCount": 3,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
@@ -457,14 +479,14 @@
         "watchedSec": 3307
       },
       "lWOw-Kjk3mk": {
-        "sessionCount": 2,
+        "sessionCount": 4,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "86~96쪽 평균값 정리, 함수의 증가와 감소",
         "durationSec": 5070,
-        "lastPosition": 3151,
-        "lastWatchedAt": "2026-08-04T05:50:29.230Z",
-        "watchedSec": 1698
+        "lastPosition": 5055,
+        "lastWatchedAt": "2026-08-07T07:09:55.451Z",
+        "watchedSec": 3003
       }
     },
     "daily": {
@@ -518,6 +540,12 @@
       "2026-08-04": {
         "lWOw-Kjk3mk": 1698,
         "EgHfNAsg_mk": 15
+      },
+      "2026-08-05": {
+        "lWOw-Kjk3mk": 920
+      },
+      "2026-08-07": {
+        "lWOw-Kjk3mk": 385
       }
     }
   },

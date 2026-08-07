@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T05:51:18.130Z",
+  "generatedAt": "2026-08-07T09:06:59.695Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -9,7 +9,165 @@
   },
   "months": [],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-08-07T08:32:59.583Z",
+    "summary": {
+      "todaySec": 550,
+      "weekSec": 4704,
+      "monthSec": 4704,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학2": 4704
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_msiope65lap",
+        "startedAt": 1786091316500,
+        "seconds": 234,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msint7vva4r",
+        "startedAt": 1786089823173,
+        "seconds": 316,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mseezgb3s9c",
+        "startedAt": 1785833148734,
+        "seconds": 713,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msdvkgviu0n",
+        "startedAt": 1785800517320,
+        "seconds": 559,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msdtfym33r2",
+        "startedAt": 1785796963613,
+        "seconds": 469,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msd4wnw57xp",
+        "startedAt": 1785755749280,
+        "seconds": 1743,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mscm972lzhe",
+        "startedAt": 1785724428522,
+        "seconds": 483,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mscgqq1nvr9",
+        "startedAt": 1785715166174,
+        "seconds": 107,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mscgmcsa503",
+        "startedAt": 1785714963773,
+        "seconds": 80,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms31pqzsb5h",
+        "startedAt": 1785145657641,
+        "seconds": 642,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms2zfti9qbl",
+        "startedAt": 1785141850757,
+        "seconds": 2133,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 135~141쪽 미지수가 2개인 연립이차방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms2u2g8pdxb",
+        "startedAt": 1785132856997,
+        "seconds": 85,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms1bwv62b7k",
+        "startedAt": 1785041880861,
+        "seconds": 2532,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms185doznwh",
+        "startedAt": 1785035531726,
+        "seconds": 447,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrzzdoz9836",
+        "startedAt": 1784960370508,
+        "seconds": 969,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrzxaevybyy",
+        "startedAt": 1784956601567,
+        "seconds": 1358,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T07:18:09.726Z",
+  "generatedAt": "2026-08-07T14:25:33.786Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -23,67 +23,67 @@
           "important": false,
           "extraAssignments": [
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/7(금))",
               "dueDate": "2026-08-07",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/8(토))",
               "dueDate": "2026-08-08",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/10(월))",
               "dueDate": "2026-08-10",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/11(화))",
               "dueDate": "2026-08-11",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/12(수))",
               "dueDate": "2026-08-12",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/13(목))",
               "dueDate": "2026-08-13",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/14(금))",
               "dueDate": "2026-08-14",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/15(토))",
               "dueDate": "2026-08-15",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/17(월))",
               "dueDate": "2026-08-17",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/18(화))",
               "dueDate": "2026-08-18",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/19(수))",
               "dueDate": "2026-08-19",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/20(목))",
               "dueDate": "2026-08-20",
               "isConfirmed": false
             },
             {
-              "title": "RPM 공통수학1 매일 2장씩",
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/21(금))",
               "dueDate": "2026-08-21",
               "isConfirmed": false
             }
@@ -362,15 +362,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrbyiq9yssq",
-        "startedAt": 1783507769255,
-        "seconds": 68,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
         "reflection": ""
       }
     ]

@@ -508,7 +508,15 @@
     "showTestResults": true,
     "pageCode": "cu95x3bj3tmk",
     "showMakeNote": false,
-    "flagged": false
+    "flagged": false,
+    "showNoteStages": true,
+    "classHistory": [
+      {
+        "classId": "cls_1780309335387_ry7cd9",
+        "from": "",
+        "to": null
+      }
+    ]
   },
   {
     "id": "s_1780314459772_3emo5z",

@@ -813,5 +813,16 @@
     "taskBatchId": "t_msbrjxb4",
     "createdAt": "2026-08-02T12:15:22.720Z",
     "updatedAt": "2026-08-02T12:15:22.720Z"
+  },
+  {
+    "id": "lesson_1786080520408_340b2l",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-08-07",
+    "content": "교재 검사\n1. 풀어진 곳 - 순열(오답 체크 + 질문)",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-08-07T05:28:40.408Z",
+    "updatedAt": "2026-08-07T05:28:40.408Z"
   }
 ]

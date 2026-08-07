@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T07:18:42.097Z",
+  "generatedAt": "2026-08-07T14:25:19.269Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -22,67 +22,67 @@
           "myNote": "",
           "extraAssignments": [
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/7(금))",
               "dueDate": "2026-08-07",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/8(토))",
               "dueDate": "2026-08-08",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/10(월))",
               "dueDate": "2026-08-10",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/11(화))",
               "dueDate": "2026-08-11",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/12(수))",
               "dueDate": "2026-08-12",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/13(목))",
               "dueDate": "2026-08-13",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/14(금))",
               "dueDate": "2026-08-14",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/15(토))",
               "dueDate": "2026-08-15",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/17(월))",
               "dueDate": "2026-08-17",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/18(화))",
               "dueDate": "2026-08-18",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/19(수))",
               "dueDate": "2026-08-19",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/20(목))",
               "dueDate": "2026-08-20",
               "isConfirmed": false
             },
             {
-              "title": "라이트쎈 공수1 매일 2장씩",
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/21(금))",
               "dueDate": "2026-08-21",
               "isConfirmed": false
             }
@@ -129,7 +129,7 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-29T03:44:57.069Z",
+    "uploadedAt": "2026-08-07T11:15:37.490Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
@@ -150,7 +150,7 @@
       {
         "id": "effort_ms0cvtrtfss",
         "startedAt": 1784983155043,
-        "seconds": 2325,
+        "seconds": 2324,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",

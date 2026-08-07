@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-08-07T06:07:37.399Z",
+  "student": {
+    "id": "s_1786082844440_z9486d",
+    "classes": [
+      "cls_1786082821970_09kcz5"
+    ],
+    "name": "남경원",
+    "school": "살레시오중",
+    "grade": "중3",
+    "class": "",
+    "showMakeNote": false
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-08-03",
+    "endDate": "2026-08-09"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

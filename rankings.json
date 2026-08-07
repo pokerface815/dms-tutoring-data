@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T09:06:49.132Z",
+  "generatedAt": "2026-08-07T14:25:37.280Z",
   "studentCount": 51,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
       "name": "송유림",
-      "totalSec": 31091,
-      "weekSec": 4139,
-      "monthSec": 8342,
-      "recent3mSec": 31091,
+      "totalSec": 33376,
+      "weekSec": 6424,
+      "monthSec": 10627,
+      "recent3mSec": 33376,
       "streak": 2,
       "nickname": "",
       "publicNickname": false
@@ -94,11 +94,11 @@
     {
       "id": "s_1778404886523_0ag055",
       "name": "박다인",
-      "totalSec": 22522,
-      "weekSec": 0,
-      "monthSec": 172,
-      "recent3mSec": 22522,
-      "streak": 0,
+      "totalSec": 22727,
+      "weekSec": 205,
+      "monthSec": 377,
+      "recent3mSec": 22727,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -171,11 +171,11 @@
     {
       "id": "s_1780190418387_a11waf",
       "name": "문대승",
-      "totalSec": 83934,
-      "weekSec": 391,
-      "monthSec": 391,
-      "recent3mSec": 83934,
-      "streak": 0,
+      "totalSec": 87629,
+      "weekSec": 4086,
+      "monthSec": 4086,
+      "recent3mSec": 87629,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -468,10 +468,10 @@
     {
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
-      "totalSec": 10661,
+      "totalSec": 10660,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 10661,
+      "recent3mSec": 10660,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -523,10 +523,10 @@
     {
       "id": "s_1784950950171_2ycwdo",
       "name": "남옥빈",
-      "totalSec": 12870,
-      "weekSec": 4704,
-      "monthSec": 4704,
-      "recent3mSec": 12870,
+      "totalSec": 16242,
+      "weekSec": 8076,
+      "monthSec": 8076,
+      "recent3mSec": 16242,
       "streak": 1,
       "nickname": "",
       "publicNickname": false

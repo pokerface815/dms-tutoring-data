@@ -3270,5 +3270,49 @@
     "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-21",
     "templateId": "tpl_msik5bhq57rt",
     "repeat": null
+  },
+  {
+    "id": "task_1786084151694_hangm0",
+    "type": "task",
+    "studentId": "s_1780309359751_gjl2s0",
+    "title": "공수2 강의 영상 보기",
+    "dueDate": "2026-08-08",
+    "assignedAt": "2026-08-07T06:29:11.694Z",
+    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-08-08",
+    "templateId": "tpl_msikdzm6sssq",
+    "repeat": null
+  },
+  {
+    "id": "task_1786084151694_goxe85",
+    "type": "task",
+    "studentId": "s_1780309359751_gjl2s0",
+    "title": "공수2 강의 영상 보기",
+    "dueDate": "2026-08-09",
+    "assignedAt": "2026-08-07T06:29:11.694Z",
+    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-08-09",
+    "templateId": "tpl_msikdzm6sssq",
+    "repeat": null
+  },
+  {
+    "id": "task_1786084151694_l0nysc",
+    "type": "task",
+    "studentId": "s_1780309359751_gjl2s0",
+    "title": "공수2 강의 영상 보기",
+    "dueDate": "2026-08-15",
+    "assignedAt": "2026-08-07T06:29:11.694Z",
+    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-08-15",
+    "templateId": "tpl_msikdzm6sssq",
+    "repeat": null
+  },
+  {
+    "id": "task_1786084151694_bovfxx",
+    "type": "task",
+    "studentId": "s_1780309359751_gjl2s0",
+    "title": "공수2 강의 영상 보기",
+    "dueDate": "2026-08-16",
+    "assignedAt": "2026-08-07T06:29:11.694Z",
+    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-08-16",
+    "templateId": "tpl_msikdzm6sssq",
+    "repeat": null
   }
 ]

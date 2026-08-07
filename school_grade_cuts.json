@@ -1096,5 +1096,26 @@
       "중간": true,
       "기말": true
     }
+  },
+  {
+    "id": "scut_msim9vjksk6",
+    "school": "동신여고",
+    "gradeLevel": "고1",
+    "year": 2026,
+    "semester": "2",
+    "subject": "공통수학2",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "수학의 왕도",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

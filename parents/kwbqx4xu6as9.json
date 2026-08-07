@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T14:51:42.961Z",
+  "generatedAt": "2026-08-07T15:04:54.677Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -86,12 +86,21 @@
               "title": "RPM 공통수학1 매일 2장씩(제출일 8/21(금))",
               "dueDate": "2026-08-21",
               "isConfirmed": false
+            },
+            {
+              "title": "RPM 공통수학1 매일 2장씩(제출일 8/22(토))",
+              "dueDate": "2026-08-22",
+              "isConfirmed": false
             }
           ],
           "hasLesson": true
         }
       ],
-      "completionRate": null,
+      "completionRate": {
+        "done": 0,
+        "total": 1,
+        "percent": 0
+      },
       "noteStages": null
     },
     {

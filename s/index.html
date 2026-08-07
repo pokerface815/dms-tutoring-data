@@ -6294,6 +6294,15 @@
     return html;
   }
 
+  // 제목용 짧은 날짜: M/D(요일)
+  function fmtTaskTitleDate(dateStr) {
+    try {
+      const d = new Date(dateStr + (dateStr.length <= 10 ? 'T00:00:00' : ''));
+      if (isNaN(d.getTime())) return '';
+      const days = ['일','월','화','수','목','금','토'];
+      return `${d.getMonth()+1}/${d.getDate()}(${days[d.getDay()]})`;
+    } catch(e) { return ''; }
+  }
   function renderTaskCard(t, opts) {
     const round = t.round || 1;
     const sub = getSubmission(t.assignmentId, round);
@@ -6320,9 +6329,11 @@
       else repeatBadge = '<span class="note-card-date" style="color:#7c5cbf;">반복</span>';
     }
 
+    // 반복 과제는 이름이 같아 헷갈리므로 제목 뒤에 제출(마감) 날짜를 붙여 구분
+    const titleDate = (t.isRepeat && t.dueDate) ? fmtTaskTitleDate(t.dueDate) : '';
     let html = `
       <div class="note-card ${cardClass}">
-        <div class="note-card-title">${escapeHtml(t.title || '과제')}</div>
+        <div class="note-card-title">${escapeHtml(t.title || '과제')}${titleDate ? ` <span style="color:#7c5cbf; font-weight:600;">(${titleDate})</span>` : ''}</div>
         <div class="note-card-meta">
           <span class="note-card-round task">과제</span>
           ${repeatBadge}

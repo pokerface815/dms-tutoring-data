@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-04T08:33:06.672Z",
+  "generatedAt": "2026-08-07T05:23:37.849Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -92,15 +92,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-31T07:33:28.517Z",
+    "uploadedAt": "2026-08-07T03:02:39.174Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "todaySec": 2838,
+      "weekSec": 2838,
+      "monthSec": 2838,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 2838
+      }
     },
     "logs": [
+      {
+        "id": "effort_msi9snyjruj",
+        "startedAt": 1786066302668,
+        "seconds": 2838,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 44~57쪽 04.도함수의 활용(1)",
+        "reflection": ""
+      },
       {
         "id": "effort_ms8mkv3r278",
         "startedAt": 1785483098188,

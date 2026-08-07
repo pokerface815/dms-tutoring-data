@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T06:26:18.500Z",
+  "generatedAt": "2026-08-07T06:29:19.656Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -70,6 +70,26 @@
             {
               "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
               "dueDate": "2026-08-21",
+              "isConfirmed": false
+            },
+            {
+              "title": "공수2 강의 영상 보기",
+              "dueDate": "2026-08-08",
+              "isConfirmed": false
+            },
+            {
+              "title": "공수2 강의 영상 보기",
+              "dueDate": "2026-08-09",
+              "isConfirmed": false
+            },
+            {
+              "title": "공수2 강의 영상 보기",
+              "dueDate": "2026-08-15",
+              "isConfirmed": false
+            },
+            {
+              "title": "공수2 강의 영상 보기",
+              "dueDate": "2026-08-16",
               "isConfirmed": false
             }
           ],

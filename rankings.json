@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T05:25:53.640Z",
+  "generatedAt": "2026-08-07T05:51:26.822Z",
   "studentCount": 50,
   "rankings": [
     {
@@ -523,10 +523,10 @@
     {
       "id": "s_1784950950171_2ycwdo",
       "name": "남옥빈",
-      "totalSec": 8725,
-      "weekSec": 559,
-      "monthSec": 559,
-      "recent3mSec": 8725,
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

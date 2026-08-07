@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T06:22:34.336Z",
+  "generatedAt": "2026-08-07T06:29:18.627Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -140,6 +140,22 @@
   "teacherConfirms": {},
   "tasks": [
     {
+      "assignmentId": "task_1786084151694_hangm0",
+      "round": 1,
+      "title": "공수2 강의 영상 보기",
+      "dueDate": "2026-08-08",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:29:11.694Z"
+    },
+    {
+      "assignmentId": "task_1786084151694_goxe85",
+      "round": 1,
+      "title": "공수2 강의 영상 보기",
+      "dueDate": "2026-08-09",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:29:11.694Z"
+    },
+    {
       "assignmentId": "task_1786083747183_wk9hd5",
       "round": 1,
       "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
@@ -178,6 +194,22 @@
       "dueDate": "2026-08-14",
       "isRepeat": false,
       "assignedAt": "2026-08-07T06:22:27.183Z"
+    },
+    {
+      "assignmentId": "task_1786084151694_l0nysc",
+      "round": 1,
+      "title": "공수2 강의 영상 보기",
+      "dueDate": "2026-08-15",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:29:11.694Z"
+    },
+    {
+      "assignmentId": "task_1786084151694_bovfxx",
+      "round": 1,
+      "title": "공수2 강의 영상 보기",
+      "dueDate": "2026-08-16",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:29:11.694Z"
     },
     {
       "assignmentId": "task_1786083747183_i0ilyi",

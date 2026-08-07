@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T09:07:32.349Z",
+  "generatedAt": "2026-08-07T14:25:13.813Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -382,6 +382,18 @@
       "reflection": "",
       "sharedWithParent": false,
       "createdAt": "2026-08-04T05:32:49.905Z"
+    },
+    {
+      "id": "effort_msj02zyhbaa",
+      "startedAt": 1786106817754,
+      "endedAt": 1786110512754,
+      "seconds": 3695,
+      "subject": "미적분Ⅰ",
+      "method": "문제 풀이",
+      "content": "쎈B",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-08-07T13:48:32.777Z"
     }
   ],
   "syncedEffortDeletedIds": [
@@ -636,7 +648,7 @@
     {
       "assignmentId": "task_1780670793023_kh56qh",
       "round": 1,
-      "title": "반복 과제 확인",
+      "title": "반복 과제 확인(제출일 6/6(토))",
       "dueDate": "2026-06-06",
       "isRepeat": false,
       "assignedAt": "2026-06-05T14:46:33.023Z"

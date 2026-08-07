@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T05:23:50.668Z",
+  "generatedAt": "2026-08-07T05:25:48.104Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -93,18 +93,8 @@
         "lastWatchedAt": "2026-07-06T10:21:13.535Z",
         "watchedSec": 573
       },
-      "o2EGfkJSvow": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
-        "videoTitle": "226~238쪽 행렬의 덧셈, 뺄셈과 실수배, 곱셈",
-        "durationSec": 2858,
-        "lastPosition": 2384,
-        "lastWatchedAt": "2026-07-08T06:35:01.082Z",
-        "watchedSec": 2011
-      },
       "SADXbKNEfTQ": {
-        "sessionCount": 5,
+        "sessionCount": 1,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
@@ -123,6 +113,16 @@
         "lastWatchedAt": "2026-07-08T10:50:41.717Z",
         "watchedSec": 68
       },
+      "o2EGfkJSvow": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "226~238쪽 행렬의 덧셈, 뺄셈과 실수배, 곱셈",
+        "durationSec": 2858,
+        "lastPosition": 2384,
+        "lastWatchedAt": "2026-07-08T06:35:01.082Z",
+        "watchedSec": 2011
+      },
       "dCZGTt9Xgvs": {
         "sessionCount": 1,
         "lectureId": "lec_mqkr9zowwph",
@@ -139,9 +139,9 @@
         "0ZdN1MUuVl0": 573
       },
       "2026-07-08": {
-        "o2EGfkJSvow": 2011,
         "SADXbKNEfTQ": 3,
-        "MUY1NAZSfLw": 68
+        "MUY1NAZSfLw": 68,
+        "o2EGfkJSvow": 2011
       },
       "2026-07-11": {
         "SADXbKNEfTQ": 1428
@@ -194,6 +194,10 @@
       "missedAt": "2026-06-17T21:07:04.917Z",
       "confirmed": false,
       "confirmedAt": null
+    },
+    "task_1786080212309_pybx7j__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-08-07T05:25:41.312Z"
     }
   },
   "tasks": [

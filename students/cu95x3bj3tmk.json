@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:33:30.375Z",
+  "generatedAt": "2026-08-07T06:22:34.336Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -138,6 +138,87 @@
     "endDate": "2026-08-09"
   },
   "teacherConfirms": {},
-  "tasks": [],
+  "tasks": [
+    {
+      "assignmentId": "task_1786083747183_wk9hd5",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
+      "dueDate": "2026-08-10",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:22:27.183Z"
+    },
+    {
+      "assignmentId": "task_1786083747183_uq339a",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
+      "dueDate": "2026-08-11",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:22:27.183Z"
+    },
+    {
+      "assignmentId": "task_1786083747183_27n6xw",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
+      "dueDate": "2026-08-12",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:22:27.183Z"
+    },
+    {
+      "assignmentId": "task_1786083747183_0qybmu",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
+      "dueDate": "2026-08-13",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:22:27.183Z"
+    },
+    {
+      "assignmentId": "task_1786083747183_bs5mhv",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
+      "dueDate": "2026-08-14",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:22:27.183Z"
+    },
+    {
+      "assignmentId": "task_1786083747183_i0ilyi",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
+      "dueDate": "2026-08-17",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:22:27.183Z"
+    },
+    {
+      "assignmentId": "task_1786083747183_oy0gn5",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
+      "dueDate": "2026-08-18",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:22:27.183Z"
+    },
+    {
+      "assignmentId": "task_1786083747183_6c7s2a",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
+      "dueDate": "2026-08-19",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:22:27.183Z"
+    },
+    {
+      "assignmentId": "task_1786083747183_fz38ib",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
+      "dueDate": "2026-08-20",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:22:27.183Z"
+    },
+    {
+      "assignmentId": "task_1786083747183_wv7atc",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)",
+      "dueDate": "2026-08-21",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:22:27.183Z"
+    }
+  ],
   "myGrades": []
 }

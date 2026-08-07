@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T06:07:36.284Z",
+  "generatedAt": "2026-08-07T06:26:30.321Z",
   "showCompletionRate": true,
-  "showNoteStages": false,
+  "showNoteStages": true,
   "student": {
     "name": "서준우",
     "grade": "중2"

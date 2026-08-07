@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T09:06:59.695Z",
+  "generatedAt": "2026-08-07T14:25:15.984Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,17 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-07T08:32:59.583Z",
+    "uploadedAt": "2026-08-07T12:35:22.376Z",
     "summary": {
-      "todaySec": 550,
-      "weekSec": 4704,
-      "monthSec": 4704,
+      "todaySec": 2500,
+      "weekSec": 8076,
+      "monthSec": 8076,
       "streak": 1,
       "bySubjectMonth": {
-        "공통수학2": 4704
+        "공통수학2": 8076
       }
     },
     "logs": [
+      {
+        "id": "effort_msiweh4b4gr",
+        "startedAt": 1786103531012,
+        "seconds": 1950,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 36~41쪽 정점을 지나는 직선 질문(유형편 13쪽) + 두  직선의 평행과 수직",
+        "reflection": ""
+      },
       {
         "id": "effort_msiope65lap",
         "startedAt": 1786091316500,
@@ -38,6 +47,15 @@
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msfea04xbct",
+        "startedAt": 1785892185477,
+        "seconds": 1422,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
         "reflection": ""
       },
       {

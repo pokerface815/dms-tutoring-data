@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T05:51:19.950Z",
+  "generatedAt": "2026-08-07T07:32:39.490Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -47,22 +47,22 @@
         "watchedSec": 447
       },
       "2auObqsjN-s": {
-        "sessionCount": 6,
+        "sessionCount": 8,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "13~23쪽 선분의 내분점",
         "durationSec": 4456,
-        "lastPosition": 3007,
-        "lastWatchedAt": "2026-08-04T08:31:20.741Z",
-        "watchedSec": 2810
+        "lastPosition": 4455,
+        "lastWatchedAt": "2026-08-04T09:02:49.910Z",
+        "watchedSec": 3568
       },
       "Vpbwe1ellrc": {
-        "sessionCount": 3,
+        "sessionCount": 2,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "135~141쪽 미지수가 2개인 연립이차방정식",
         "durationSec": 3563,
-        "lastPosition": 1367,
+        "lastPosition": 3562,
         "lastWatchedAt": "2026-08-06T11:29:16.127Z",
         "watchedSec": 2149
       },
@@ -97,14 +97,24 @@
         "watchedSec": 27
       },
       "tsLcsUgBKZ0": {
-        "sessionCount": 1,
+        "sessionCount": 3,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
         "durationSec": 3571,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-08-02T23:55:09.048Z",
-        "watchedSec": 0
+        "lastPosition": 2,
+        "lastWatchedAt": "2026-08-04T09:03:26.422Z",
+        "watchedSec": 6
+      },
+      "4Ug5EcsKyFA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
+        "durationSec": 4290,
+        "lastPosition": 12,
+        "lastWatchedAt": "2026-08-07T07:25:08.511Z",
+        "watchedSec": 12
       }
     },
     "daily": {
@@ -129,10 +139,14 @@
         "A7CrbLfr5VY": 119
       },
       "2026-08-04": {
-        "2auObqsjN-s": 469
+        "2auObqsjN-s": 1227,
+        "tsLcsUgBKZ0": 6
       },
       "2026-08-06": {
         "Vpbwe1ellrc": 16
+      },
+      "2026-08-07": {
+        "4Ug5EcsKyFA": 12
       }
     }
   },

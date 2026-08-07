@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:33:37.253Z",
+  "generatedAt": "2026-08-07T06:36:48.529Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -322,6 +322,111 @@
     "endDate": "2026-08-09"
   },
   "teacherConfirms": {},
-  "tasks": [],
+  "tasks": [
+    {
+      "assignmentId": "task_1786084600710_00nbcx",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-07",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_39xriz",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-08",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_5hbp99",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-10",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_myiym5",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-11",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_lgtubs",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-12",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_f0q80g",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-13",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_4mnn31",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-14",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_waieug",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-15",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_61wkwc",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-17",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_yw33li",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-18",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_ymlplx",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-19",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_83qfcl",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-20",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    },
+    {
+      "assignmentId": "task_1786084600711_kpw2d2",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩",
+      "dueDate": "2026-08-21",
+      "isRepeat": false,
+      "assignedAt": "2026-08-07T06:36:40.711Z"
+    }
+  ],
   "myGrades": []
 }

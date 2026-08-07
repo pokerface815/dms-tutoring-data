@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T20:24:46.639Z",
+  "generatedAt": "2026-08-07T06:07:34.443Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 50,
+  "studentCount": 51,
   "baseUrl": "",
   "students": [
     {
@@ -454,6 +454,15 @@
       "className": "토,일 11시",
       "studentPageCode": "psczdq3zn5zn",
       "parentPageCode": "psczdq3zn5zn"
+    },
+    {
+      "id": "s_1786082844440_z9486d",
+      "name": "남경원",
+      "grade": "중3",
+      "school": "살레시오중",
+      "className": "남경원 개별",
+      "studentPageCode": "8n5eafhwd7ug",
+      "parentPageCode": "8n5eafhwd7ug"
     }
   ]
 }

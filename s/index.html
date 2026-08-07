@@ -6267,7 +6267,15 @@
       if (ad && !bd) return -1;
       return bd.localeCompare(ad);
     };
-    pending.sort(sortRecent);
+    // 제출 대기 과제: 마감이 가까운 순(오름차순). 마감일 없는 건 맨 뒤.
+    const sortDueAsc = (a, b) => {
+      const ad = a.dueDate || '';
+      const bd = b.dueDate || '';
+      if (!ad && bd) return 1;
+      if (ad && !bd) return -1;
+      return ad.localeCompare(bd);
+    };
+    pending.sort(sortDueAsc);
     confirmed.sort(sortRecent);
     missed.sort(sortRecent);
 

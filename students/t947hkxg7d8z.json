@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:33:51.879Z",
+  "generatedAt": "2026-08-07T14:47:52.201Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -510,10 +510,10 @@
       "confirmedAt": "2026-07-16T01:47:42.903Z"
     },
     "task_1784166651614_xz4uow__1": {
-      "missed": true,
-      "missedAt": "2026-07-18T11:43:36.180Z",
-      "confirmed": false,
-      "confirmedAt": null
+      "missed": false,
+      "missedAt": null,
+      "confirmed": true,
+      "confirmedAt": "2026-08-07T14:47:32.549Z"
     },
     "task_1784374992921_k1txp5__1": {
       "confirmed": true,

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T13:56:31.275Z",
+  "generatedAt": "2026-08-07T13:58:30.453Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -31,8 +31,8 @@
     "task_1786083194758_2f29t7__1": {
       "comment": "왜 3페이지냐?ㅋㅋ",
       "commentAt": "2026-08-07T13:56:24.473Z",
-      "confirmed": true,
-      "confirmedAt": "2026-08-07T13:56:24.474Z"
+      "confirmed": false,
+      "confirmedAt": null
     }
   },
   "tasks": [

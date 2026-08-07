@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:34:29.559Z",
+  "generatedAt": "2026-08-07T14:47:56.914Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -104,10 +104,10 @@
   },
   "teacherConfirms": {
     "task_1784786830937_2hurv7__1": {
-      "missed": true,
-      "missedAt": "2026-07-25T05:09:16.427Z",
-      "confirmed": false,
-      "confirmedAt": null
+      "missed": false,
+      "missedAt": null,
+      "confirmed": true,
+      "confirmedAt": "2026-08-07T14:47:44.567Z"
     }
   },
   "tasks": [

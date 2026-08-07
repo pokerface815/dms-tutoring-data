@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-04T08:32:58.527Z",
+  "generatedAt": "2026-08-07T05:23:40.183Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,17 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-01T11:04:51.683Z",
+    "uploadedAt": "2026-08-06T15:44:51.952Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 1760,
-      "streak": 0,
+      "weekSec": 5517,
+      "monthSec": 7277,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 1760
+        "미적분Ⅰ": 7277
       }
     },
     "logs": [
+      {
+        "id": "effort_mshlj91r857",
+        "startedAt": 1786025546870,
+        "seconds": 5517,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
+        "reflection": ""
+      },
       {
         "id": "effort_msa8i8efpkp",
         "startedAt": 1785580401547,

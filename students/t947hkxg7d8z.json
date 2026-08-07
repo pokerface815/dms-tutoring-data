@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T14:47:52.201Z",
+  "generatedAt": "2026-08-07T14:57:00.833Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -541,7 +541,7 @@
     },
     "task_1785366867466_62h6oe__1": {
       "missed": true,
-      "missedAt": "2026-08-02T11:03:02.193Z",
+      "missedAt": "2026-08-07T14:56:54.794Z",
       "confirmed": false,
       "confirmedAt": null
     }

@@ -1,0 +1,16 @@
+{
+  "id": "ann_msijp3wv6aqz",
+  "sentAt": "2026-08-07T15:10:04.295467+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "남경원",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

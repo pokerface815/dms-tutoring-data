@@ -327,12 +327,6 @@
     "confirmed": false,
     "confirmedAt": null
   },
-  "t947hkxg7d8z__task_1785366867466_62h6oe__1": {
-    "missed": true,
-    "missedAt": "2026-08-02T11:03:02.193Z",
-    "confirmed": false,
-    "confirmedAt": null
-  },
   "8n5eafhwd7ug__task_1786083194758_2f29t7__1": {
     "comment": "오늘 날짜에 맞춰서 다시 제출해주세요^^\n그리고 왜 3페이지냐?ㅋㅋ",
     "commentAt": "2026-08-07T14:00:31.392Z",
@@ -358,6 +352,12 @@
   "kwbqx4xu6as9__task_1780920727933_jhbwrr__1": {
     "missed": true,
     "missedAt": "2026-08-07T14:51:35.422Z",
+    "confirmed": false,
+    "confirmedAt": null
+  },
+  "t947hkxg7d8z__task_1785366867466_62h6oe__1": {
+    "missed": true,
+    "missedAt": "2026-08-07T14:56:54.794Z",
     "confirmed": false,
     "confirmedAt": null
   }

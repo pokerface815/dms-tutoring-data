@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:32:59.786Z",
+  "generatedAt": "2026-08-07T05:23:41.258Z",
   "student": {
     "id": "s_1783141077746_ni5332",
     "classes": [
@@ -67,6 +67,17 @@
       "startedAt": 1785580401547,
       "createdAt": "2026-08-01T10:34:24.903Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mshlj91r857",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
+      "reflection": "",
+      "seconds": 5517,
+      "startedAt": 1786025546870,
+      "createdAt": "2026-08-06T14:13:30.639Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -121,6 +132,16 @@
         "lastPosition": 1765,
         "lastWatchedAt": "2026-08-01T11:04:54.492Z",
         "watchedSec": 1760
+      },
+      "OIDvXwg6tkg": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
+        "durationSec": 5879,
+        "lastPosition": 5774,
+        "lastWatchedAt": "2026-08-06T15:44:56.126Z",
+        "watchedSec": 5517
       }
     },
     "daily": {
@@ -151,6 +172,12 @@
       },
       "2026-08-01": {
         "8xpg5fhoXoo": 1760
+      },
+      "2026-08-06": {
+        "OIDvXwg6tkg": 2835
+      },
+      "2026-08-07": {
+        "OIDvXwg6tkg": 2682
       }
     }
   },

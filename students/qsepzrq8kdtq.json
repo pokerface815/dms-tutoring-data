@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T05:23:38.995Z",
+  "generatedAt": "2026-08-07T05:25:51.686Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -89,6 +89,28 @@
       "startedAt": 1786066302668,
       "createdAt": "2026-08-07T01:32:40.651Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msiec0j2r1a",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+      "reflection": "",
+      "seconds": 1728,
+      "startedAt": 1786073744356,
+      "createdAt": "2026-08-07T03:39:41.870Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msif12fhac5",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+      "reflection": "",
+      "seconds": 823,
+      "startedAt": 1786075093735,
+      "createdAt": "2026-08-07T03:59:10.733Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -145,14 +167,14 @@
         "watchedSec": 3218
       },
       "lWOw-Kjk3mk": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "86~96쪽 평균값 정리, 함수의 증가와 감소",
         "durationSec": 5070,
-        "lastPosition": 3482,
-        "lastWatchedAt": "2026-07-31T07:34:30.113Z",
-        "watchedSec": 2312
+        "lastPosition": 5069,
+        "lastWatchedAt": "2026-08-07T03:58:06.017Z",
+        "watchedSec": 4040
       },
       "LHEuFScEdjw": {
         "sessionCount": 1,
@@ -163,6 +185,25 @@
         "lastPosition": 1434,
         "lastWatchedAt": "2026-08-07T03:09:29.842Z",
         "watchedSec": 2838
+      },
+      "ugyX19AJiaA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "124~134쪽 부등식에의 활용, 속도와 가속도",
+        "durationSec": 4757,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-08-07T03:35:14.457Z"
+      },
+      "m9wVSEc3BX8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "durationSec": 4149,
+        "lastPosition": 1579,
+        "lastWatchedAt": "2026-08-07T04:11:42.176Z",
+        "watchedSec": 823
       }
     },
     "daily": {
@@ -184,7 +225,9 @@
         "lWOw-Kjk3mk": 192
       },
       "2026-08-07": {
-        "LHEuFScEdjw": 2838
+        "LHEuFScEdjw": 2838,
+        "lWOw-Kjk3mk": 1728,
+        "m9wVSEc3BX8": 823
       }
     }
   },

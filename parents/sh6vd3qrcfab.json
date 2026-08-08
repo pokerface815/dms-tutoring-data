@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T15:05:02.384Z",
+  "generatedAt": "2026-08-08T11:29:07.985Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -65,15 +65,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrddb9h5vwh",
-        "startedAt": 1783592403475,
-        "seconds": 341,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
         "reflection": ""
       }
     ]

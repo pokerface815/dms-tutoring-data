@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-06T14:00:52.663Z",
+  "generatedAt": "2026-08-08T08:12:59.341Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -78,6 +78,16 @@
         "lastPosition": 1751,
         "lastWatchedAt": "2026-07-27T10:39:55.288Z",
         "watchedSec": 2345
+      },
+      "4Ug5EcsKyFA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
+        "durationSec": 4290,
+        "lastPosition": 3598,
+        "lastWatchedAt": "2026-08-08T02:26:28.818Z",
+        "watchedSec": 12
       }
     },
     "daily": {
@@ -86,6 +96,9 @@
         "JH_MD-p63IA": 1714,
         "r2Yofj6CofI": 28,
         "TCuJxUzKNSo": 2345
+      },
+      "2026-08-08": {
+        "4Ug5EcsKyFA": 12
       }
     }
   },

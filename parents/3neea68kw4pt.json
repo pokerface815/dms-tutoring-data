@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-08T08:12:41.712Z",
+  "generatedAt": "2026-08-08T11:29:02.926Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -76,6 +76,23 @@
           "hasLesson": false
         },
         {
+          "date": "2026-06-06",
+          "weekday": "토",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "반복 과제 확인(제출일 6/6(토))",
+              "dueDate": "2026-06-06",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": false
+        },
+        {
           "date": "2026-06-05",
           "weekday": "금",
           "className": "S",
@@ -84,13 +101,7 @@
           "taskDue": "",
           "myNote": "",
           "important": false,
-          "extraAssignments": [
-            {
-              "title": "반복 과제 확인(제출일 6/6(토))",
-              "dueDate": "2026-06-06",
-              "isConfirmed": true
-            }
-          ],
+          "extraAssignments": [],
           "hasLesson": true
         },
         {

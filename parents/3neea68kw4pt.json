@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T15:04:56.642Z",
+  "generatedAt": "2026-08-08T08:12:41.712Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -331,15 +331,6 @@
         "subject": "독서",
         "method": "기타",
         "content": "6분독서 아비투스",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrcf9vhzjqo",
-        "startedAt": 1783532332750,
-        "seconds": 3634,
-        "subject": "기하",
-        "method": "개념 정리",
-        "content": "벡터 진행 중",
         "reflection": ""
       }
     ]

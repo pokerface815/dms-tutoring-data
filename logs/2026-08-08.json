@@ -1,0 +1,54 @@
+[
+  {
+    "run_at": "2026-08-08T16:00:45.936129+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 4,
+      "failed": 0,
+      "total": 4
+    },
+    "entries": [
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 25,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1779948611035_qbdt5h",
+        "student_name": "서준우",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-4189",
+        "text_length": 42,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1780309359751_gjl2s0",
+        "student_name": "박유솔",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-2198",
+        "text_length": 65,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1783936051988_psto4h",
+        "student_name": "박은유",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-9692",
+        "text_length": 41,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

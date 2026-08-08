@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-08T08:12:51.471Z",
+  "generatedAt": "2026-08-08T11:29:09.418Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -11,8 +11,8 @@
       "monthSec": 10627,
       "recent3mSec": 33376,
       "streak": 2,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "파송송계란탁",
+      "publicNickname": true
     },
     {
       "id": "s_1777546951753_p3pskl",
@@ -22,8 +22,8 @@
       "monthSec": 12523,
       "recent3mSec": 19397,
       "streak": 2,
-      "nickname": "오레오잉",
-      "publicNickname": true
+      "nickname": "",
+      "publicNickname": false
     },
     {
       "id": "s_1777546978791_hsee5a",
@@ -77,8 +77,8 @@
       "monthSec": 5227,
       "recent3mSec": 31084,
       "streak": 1,
-      "nickname": "😎",
-      "publicNickname": true
+      "nickname": "",
+      "publicNickname": false
     },
     {
       "id": "s_1778402500926_7fxigp",

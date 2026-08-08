@@ -2,6 +2,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -201,6 +202,13 @@
   .cal-dot { width: 5px; height: 5px; border-radius: 50%; }
   .dot-closed { background: #ef4444; }
   .dot-event { background: #7c5cbf; }
+  .dot-lesson { background: #84b96d; }
+  .dot-task { background: #f59e0b; }
+  .lesson-cal-day.has-task { background: #fff3e6; color: #9a5b16; font-weight: 700; border: 1px solid #f5c893; cursor: pointer; }
+  .lesson-cal-day.has-task:hover { background: #ffe9cf; }
+  .lesson-cal-legend { display:flex; flex-wrap:wrap; gap:8px 14px; justify-content:center; margin-top:8px; font-size:11.5px; color:var(--text2); }
+  .lesson-cal-legend span { display:inline-flex; align-items:center; gap:5px; }
+  .lesson-cal-legend i { width:11px; height:11px; border-radius:3px; display:inline-block; flex:none; }
 
   /* 학원 일정 카드 (학부모) */
   .academy-event-card {
@@ -772,7 +780,7 @@
         html += `
           <div class="month-card${openClass}">
             <div class="month-header" onclick="this.parentElement.classList.toggle('open')">
-              <div><span class="month-title">${escapeHtml(m.label)}</span><span class="month-count">수업 ${m.lessons.length}회</span>${rateBadge}</div>
+              <div><span class="month-title">${escapeHtml(m.label)}</span><span class="month-count">수업 ${m.lessons.filter(x => x.hasLesson !== false).length}회</span>${rateBadge}</div>
               <span class="month-arrow">▶</span>
             </div>
             <div class="month-body">
@@ -1217,10 +1225,15 @@
     const daysInMonth = lastDay.getDate();
     const firstWeekday = firstDay.getDay();
 
-    // 수업 있는 날 매핑
+    // 수업 있는 날 매핑 + 유형 분류(수업일지 / 과제)
     const lessonByDate = {};
+    const realLessonDates = new Set();
+    const taskDates = new Set();
     for (const l of (m.lessons || [])) {
-      if (l.date) lessonByDate[l.date] = l;
+      if (!l.date) continue;
+      if (!lessonByDate[l.date] || l.hasLesson !== false) lessonByDate[l.date] = l;  // 실제 수업일지 우선
+      if (l.hasLesson !== false) realLessonDates.add(l.date);
+      if ((l.task && String(l.task).trim()) || (Array.isArray(l.extraAssignments) && l.extraAssignments.length > 0)) taskDates.add(l.date);
     }
 
     // 학원 일정 매핑 (시작~종료 범위)
@@ -1259,15 +1272,17 @@
       const hasClosed = evs.some(e => e.type === 'closed');
       const hasEvent = evs.some(e => e.type === 'event');
 
-      let cls = 'lesson-cal-day';
+      const hasLessonDay = realLessonDates.has(dateStr);
+      const hasTaskDay = taskDates.has(dateStr);
       const classes = ['lesson-cal-day'];
       let onclick = '';
-      if (lesson) {
-        classes.push('has-lesson');
-        onclick = `onclick="showMonthLesson(${monthIdx}, '${dateStr}')"`;
-      }
+      if (hasLessonDay) classes.push('has-lesson');
+      else if (hasTaskDay) classes.push('has-task');   // 과제만 있는 날
       if (hasClosed) classes.push('has-closed');
       if (hasEvent) classes.push('has-event');
+      if (hasLessonDay || hasTaskDay || hasClosed || hasEvent) {
+        onclick = `onclick="showMonthLesson(${monthIdx}, '${dateStr}')"`;
+      }
 
       let cellInner = `${d}`;
       let cellStyle = '';
@@ -1278,14 +1293,10 @@
         cellInner += `<span title="중요 수업" style="position:absolute; top:0; right:2px; color:#f5a623; font-size:11px; line-height:1; text-shadow:0 0 1px rgba(0,0,0,0.2);">★</span>`;
       }
       let dotsHtml = '';
-      if (hasClosed) dotsHtml += `<span class="cal-dot dot-closed"></span>`;
-      if (hasEvent) dotsHtml += `<span class="cal-dot dot-event"></span>`;
+      if (hasLessonDay && hasTaskDay) dotsHtml += `<span class="cal-dot dot-task" title="과제"></span>`;  // 수업+과제 둘 다인 날 과제 점 표시
+      if (hasEvent) dotsHtml += `<span class="cal-dot dot-event" title="학원 일정"></span>`;
+      if (hasClosed) dotsHtml += `<span class="cal-dot dot-closed" title="휴원"></span>`;
       if (dotsHtml) cellInner += `<div class="cal-dots">${dotsHtml}</div>`;
-
-      // 일지가 없고 학원 일정만 있어도 클릭 가능
-      if (!lesson && (hasClosed || hasEvent)) {
-        onclick = `onclick="showMonthLesson(${monthIdx}, '${dateStr}')"`;
-      }
 
       row += `<div class="${classes.join(' ')}"${cellStyle} data-date="${dateStr}" ${onclick}>${cellInner}</div>`;
       weekday++;
@@ -1303,6 +1314,7 @@
     row += `</div>`;
     html += row;
     html += `</div>`;
+    html += `<div class="lesson-cal-legend"><span><i style="background:#84b96d;"></i>수업일지</span><span><i style="background:#f59e0b;"></i>과제</span><span><i style="background:#7c5cbf;"></i>학원 일정</span><span><i style="background:#ef4444;"></i>휴원</span></div>`;
     html += `<div class="lesson-cal-hint">날짜를 클릭하면 그날의 수업 일지가 표시됩니다.</div>`;
     html += `<div class="lesson-detail" id="lesson-detail-${monthIdx}"></div>`;
     return html;

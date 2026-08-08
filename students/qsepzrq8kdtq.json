@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-08T08:12:39.993Z",
+  "generatedAt": "2026-08-08T11:28:54.073Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -160,6 +160,16 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
+      "ELcNM4V5h4E": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq9a1wrhru",
+        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "5",
+        "durationSec": 2768,
+        "lastPosition": 2581,
+        "lastWatchedAt": "2026-07-18T17:18:00.103Z",
+        "watchedSec": 268
+      },
       "JlBX5IRj9d8": {
         "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
@@ -179,16 +189,6 @@
         "lastPosition": 4462,
         "lastWatchedAt": "2026-07-18T19:02:24.486Z",
         "watchedSec": 511
-      },
-      "ELcNM4V5h4E": {
-        "sessionCount": 1,
-        "lectureId": "lec_mrq9a1wrhru",
-        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
-        "videoTitle": "5",
-        "durationSec": 2768,
-        "lastPosition": 2581,
-        "lastWatchedAt": "2026-07-18T17:18:00.103Z",
-        "watchedSec": 268
       },
       "pJC_OdUw6QE": {
         "sessionCount": 1,
@@ -273,9 +273,9 @@
     },
     "daily": {
       "2026-07-19": {
+        "ELcNM4V5h4E": 268,
         "JlBX5IRj9d8": 565,
-        "7pfVUyQLMjs": 511,
-        "ELcNM4V5h4E": 268
+        "7pfVUyQLMjs": 511
       },
       "2026-07-25": {
         "pJC_OdUw6QE": 2

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T14:57:00.833Z",
+  "generatedAt": "2026-08-08T08:12:54.835Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -12,44 +12,7 @@
     "class": "개별수업",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [
-    {
-      "id": "effort_mqqowytm8k3",
-      "startedAt": 1782221838546,
-      "endedAt": 1782221920330,
-      "seconds": 61,
-      "subject": "대수",
-      "method": "기타",
-      "content": "테스트",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-23T13:38:40.330Z"
-    },
-    {
-      "id": "effort_mqqpkpuz2xh",
-      "startedAt": 1782222920226,
-      "endedAt": 1782223028459,
-      "seconds": 99,
-      "subject": "대수",
-      "method": "강의 시청",
-      "content": "대수 개념+유형 (26년 1월 ~ )_완강 — 228~233쪽 수학적 귀납법. 교재 끝.",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-23T13:57:08.459Z"
-    },
-    {
-      "id": "effort_mqsuozgb1mo",
-      "startedAt": 1782352458983,
-      "endedAt": 1782352557947,
-      "seconds": 83,
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-25T01:55:57.947Z"
-    }
-  ],
+  "syncedEffortLogs": [],
   "syncedEffortDeletedIds": [
     "effort_mqqowytm8k3",
     "effort_mqqpkpuz2xh",

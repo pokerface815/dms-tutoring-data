@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T15:05:04.085Z",
+  "generatedAt": "2026-08-08T08:12:48.287Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -52,7 +52,7 @@
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 69~72쪽 i의 거듭제곱",
       "reflection": "",
-      "seconds": 1729,
+      "seconds": 470,
       "startedAt": 1784349653892,
       "createdAt": "2026-07-18T09:37:11.506Z",
       "autoRecorded": true
@@ -171,18 +171,8 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
-      "Lwm2o1aNceI": {
-        "watchedSec": 846,
-        "lastPosition": 3463,
-        "sessionCount": 2,
-        "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
-        "videoTitle": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
-        "durationSec": 4395,
-        "lastWatchedAt": "2026-07-24T04:49:47.644Z"
-      },
       "LoUhX_HhA3k": {
-        "sessionCount": 5,
+        "sessionCount": 3,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "73~82쪽 음수의 제곱근, 이차방정식",
@@ -221,6 +211,16 @@
         "lastWatchedAt": "2026-07-19T03:48:38.243Z",
         "watchedSec": 1729
       },
+      "Lwm2o1aNceI": {
+        "watchedSec": 846,
+        "lastPosition": 3463,
+        "sessionCount": 2,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
+        "durationSec": 4395,
+        "lastWatchedAt": "2026-07-24T04:49:47.644Z"
+      },
       "TE0dmnIF-aU": {
         "sessionCount": 1,
         "lectureId": "lec_mqkr9zowwph",
@@ -258,7 +258,8 @@
         "videoTitle": "122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
         "durationSec": 4174,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-08-03T01:09:14.815Z"
+        "lastWatchedAt": "2026-08-03T01:09:14.815Z",
+        "watchedSec": 0
       },
       "aa5XlDPSuus": {
         "sessionCount": 1,
@@ -272,9 +273,6 @@
       }
     },
     "daily": {
-      "2026-07-21": {
-        "Lwm2o1aNceI": 269
-      },
       "2026-07-13": {
         "LoUhX_HhA3k": 260,
         "TSZXX0ck6Mw": 1029
@@ -282,6 +280,9 @@
       "2026-07-18": {
         "TSZXX0ck6Mw": 2,
         "_x8xEiOR850": 470
+      },
+      "2026-07-21": {
+        "Lwm2o1aNceI": 269
       },
       "2026-07-19": {
         "_x8xEiOR850": 1259,
@@ -327,6 +328,12 @@
       "commentAt": "2026-08-07T14:49:16.970Z",
       "confirmed": true,
       "confirmedAt": "2026-08-07T14:49:16.970Z"
+    },
+    "task_1786084600711_39xriz__1": {
+      "comment": "오~ 진작 이렇게 할걸ㅋㅋ 일요일은 과제 없으니 월요일 수업 때 질문하면 될듯\n월요일 과제는 학원 수업 전에 해도 되고, 끝나고 해도 됨.",
+      "commentAt": "2026-08-08T08:12:33.373Z",
+      "confirmed": true,
+      "confirmedAt": "2026-08-08T08:12:33.374Z"
     }
   },
   "tasks": [

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T15:04:47.847Z",
+  "generatedAt": "2026-08-08T08:12:38.380Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -92,21 +92,39 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-07T15:03:57.028Z",
+    "uploadedAt": "2026-08-08T04:30:58.990Z",
     "summary": {
-      "todaySec": 121,
-      "weekSec": 8586,
-      "monthSec": 8586,
+      "todaySec": 4058,
+      "weekSec": 12523,
+      "monthSec": 12523,
       "streak": 2,
       "bySubjectMonth": {
-        "미적분Ⅰ": 8586
+        "미적분Ⅰ": 12523
       }
     },
     "logs": [
       {
+        "id": "effort_msjumu6gyjq",
+        "startedAt": 1786161739456,
+        "seconds": 983,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msjtehkk4l5",
+        "startedAt": 1786159681158,
+        "seconds": 2212,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+        "reflection": ""
+      },
+      {
         "id": "effort_msj2qolc0u6",
         "startedAt": 1786114885403,
-        "seconds": 121,
+        "seconds": 863,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",

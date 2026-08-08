@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T15:04:46.047Z",
+  "generatedAt": "2026-08-08T08:12:39.993Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -129,9 +129,31 @@
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
       "reflection": "",
-      "seconds": 121,
+      "seconds": 863,
       "startedAt": 1786114885403,
       "createdAt": "2026-08-07T15:02:57.024Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msjtehkk4l5",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+      "reflection": "",
+      "seconds": 2212,
+      "startedAt": 1786159681158,
+      "createdAt": "2026-08-08T03:29:17.684Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msjumu6gyjq",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+      "reflection": "",
+      "seconds": 983,
+      "startedAt": 1786161739456,
+      "createdAt": "2026-08-08T04:03:46.888Z",
       "autoRecorded": true
     }
   ],
@@ -224,9 +246,29 @@
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "97~107쪽 함수의 극대와 극소, 함수의 그래프",
         "durationSec": 4149,
-        "lastPosition": 3473,
-        "lastWatchedAt": "2026-08-07T15:03:57.025Z",
-        "watchedSec": 4020
+        "lastPosition": 4105,
+        "lastWatchedAt": "2026-08-07T15:12:19.592Z",
+        "watchedSec": 4762
+      },
+      "wKbSmCx25Cs": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "108~110쪽 삼차함수와 사차함수의 그래프",
+        "durationSec": 4935,
+        "lastPosition": 4880,
+        "lastWatchedAt": "2026-08-08T04:30:58.988Z",
+        "watchedSec": 3195
+      },
+      "megu-Gxod_Q": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+        "durationSec": 4900,
+        "lastPosition": 2391,
+        "lastWatchedAt": "2026-08-08T07:56:39.919Z",
+        "watchedSec": 4
       }
     },
     "daily": {
@@ -253,7 +295,9 @@
         "m9wVSEc3BX8": 3899
       },
       "2026-08-08": {
-        "m9wVSEc3BX8": 121
+        "m9wVSEc3BX8": 863,
+        "wKbSmCx25Cs": 3195,
+        "megu-Gxod_Q": 4
       }
     }
   },

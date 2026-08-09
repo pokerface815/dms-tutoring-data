@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-08T11:29:09.418Z",
+  "generatedAt": "2026-08-09T00:38:37.024Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -10,7 +10,7 @@
       "weekSec": 6424,
       "monthSec": 10627,
       "recent3mSec": 33376,
-      "streak": 2,
+      "streak": 0,
       "nickname": "파송송계란탁",
       "publicNickname": true
     },
@@ -76,7 +76,7 @@
       "weekSec": 5227,
       "monthSec": 5227,
       "recent3mSec": 31084,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -98,7 +98,7 @@
       "weekSec": 205,
       "monthSec": 377,
       "recent3mSec": 22727,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -175,7 +175,7 @@
       "weekSec": 4086,
       "monthSec": 4086,
       "recent3mSec": 87629,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -446,11 +446,11 @@
     {
       "id": "s_1783741677433_iezolt",
       "name": "박소이",
-      "totalSec": 1982,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 1982,
-      "streak": 0,
+      "totalSec": 2912,
+      "weekSec": 930,
+      "monthSec": 930,
+      "recent3mSec": 2912,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

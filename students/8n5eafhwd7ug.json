@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-07T15:05:11.734Z",
+  "generatedAt": "2026-08-09T16:30:06.527Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -24,8 +24,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-03",
-    "endDate": "2026-08-09"
+    "startDate": "2026-08-10",
+    "endDate": "2026-08-16"
   },
   "teacherConfirms": {
     "task_1786083194758_2f29t7__1": {
@@ -151,6 +151,14 @@
       "dueDate": "2026-08-22",
       "isRepeat": false,
       "assignedAt": "2026-08-07T15:04:34.362Z"
+    },
+    {
+      "assignmentId": "task_1786292888329_ipqtfh",
+      "round": 1,
+      "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/24(월))",
+      "dueDate": "2026-08-24",
+      "isRepeat": false,
+      "assignedAt": "2026-08-09T16:28:08.329Z"
     }
   ],
   "myGrades": []

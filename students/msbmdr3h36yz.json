@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:34:32.608Z",
+  "generatedAt": "2026-08-09T07:12:50.226Z",
   "student": {
     "id": "s_1783741639936_epkpt5",
     "classes": [
@@ -12,9 +12,39 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_msl86jp2rwm",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 2",
+      "reflection": "",
+      "seconds": 2516,
+      "startedAt": 1786244971543,
+      "createdAt": "2026-08-09T03:10:47.606Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "i166lCcZL1I": {
+        "sessionCount": 2,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "2",
+        "durationSec": 3867,
+        "lastPosition": 2736,
+        "lastWatchedAt": "2026-08-09T03:39:24.457Z",
+        "watchedSec": 2516
+      }
+    },
+    "daily": {
+      "2026-08-09": {
+        "i166lCcZL1I": 2516
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

@@ -1140,6 +1140,12 @@
         "title": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
         "position": 6,
         "durationSec": 4290
+      },
+      {
+        "videoId": "S3ZTVxsu508",
+        "title": "1",
+        "position": 7,
+        "durationSec": 4350
       }
     ],
     "permissions": {
@@ -1148,8 +1154,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-08-04T08:37:09.347Z",
-    "lastSyncedAt": "2026-08-04T08:37:09.347Z"
+    "updatedAt": "2026-08-09T00:38:09.950Z",
+    "lastSyncedAt": "2026-08-09T00:38:09.950Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1202,6 +1208,12 @@
         "title": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
         "position": 6,
         "durationSec": 4290
+      },
+      {
+        "videoId": "i166lCcZL1I",
+        "title": "2",
+        "position": 7,
+        "durationSec": 3867
       }
     ],
     "permissions": {
@@ -1210,8 +1222,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-08-04T08:37:12.318Z",
-    "lastSyncedAt": "2026-08-04T08:37:12.318Z"
+    "updatedAt": "2026-08-09T00:38:29.967Z",
+    "lastSyncedAt": "2026-08-09T00:38:29.967Z"
   },
   {
     "id": "lec_mririwvdtb6",
@@ -1258,6 +1270,12 @@
         "title": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
         "position": 5,
         "durationSec": 5879
+      },
+      {
+        "videoId": "Owo2_OgWPto",
+        "title": "3",
+        "position": 6,
+        "durationSec": 6101
       }
     ],
     "permissions": {
@@ -1266,8 +1284,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-08-04T08:37:21.081Z",
-    "lastSyncedAt": "2026-08-04T08:37:21.081Z"
+    "updatedAt": "2026-08-09T00:38:38.860Z",
+    "lastSyncedAt": "2026-08-09T00:38:38.860Z"
   },
   {
     "id": "lec_mrq99fx1qmz",

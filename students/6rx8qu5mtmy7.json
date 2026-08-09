@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:34:33.659Z",
+  "generatedAt": "2026-08-09T00:38:16.699Z",
   "student": {
     "id": "s_1783741677433_iezolt",
     "classes": [
@@ -22,6 +22,17 @@
       "seconds": 1982,
       "startedAt": 1784342403090,
       "createdAt": "2026-07-18T02:41:05.142Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mskmmipdhqk",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
+      "reflection": "",
+      "seconds": 930,
+      "startedAt": 1786208766414,
+      "createdAt": "2026-08-08T17:07:21.265Z",
       "autoRecorded": true
     }
   ],
@@ -55,13 +66,27 @@
         "videoTitle": "36~41쪽 정점을 지나는 직선 질문(유형편 13쪽) + 두  직선의 평행과 수직",
         "durationSec": 4235,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-08-02T02:36:09.144Z"
+        "lastWatchedAt": "2026-08-02T02:36:09.980Z",
+        "watchedSec": 0
+      },
+      "4Ug5EcsKyFA": {
+        "sessionCount": 3,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
+        "durationSec": 4290,
+        "lastPosition": 1451,
+        "lastWatchedAt": "2026-08-08T17:35:36.397Z",
+        "watchedSec": 121
       }
     },
     "daily": {
       "2026-07-18": {
         "A7CrbLfr5VY": 56,
         "2auObqsjN-s": 1982
+      },
+      "2026-08-09": {
+        "4Ug5EcsKyFA": 121
       }
     }
   },

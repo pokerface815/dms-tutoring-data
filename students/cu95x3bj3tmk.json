@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T08:56:15.269Z",
+  "generatedAt": "2026-08-09T13:48:18.476Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -67,6 +67,28 @@
       "startedAt": 1785133199782,
       "createdAt": "2026-07-27T06:21:09.494Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mslnbg2aptd",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 52~57쪽 원의 방정식(1)",
+      "reflection": "",
+      "seconds": 1689,
+      "startedAt": 1786270308311,
+      "createdAt": "2026-08-09T10:14:30.418Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mslpsqlmspx",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 58~63쪽 원의 방정식 (2)",
+      "reflection": "",
+      "seconds": 315,
+      "startedAt": 1786274509967,
+      "createdAt": "2026-08-09T11:23:56.458Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -103,14 +125,24 @@
         "watchedSec": 2648
       },
       "Ea3QmY3z6_c": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
+        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
         "videoTitle": "52~57쪽 원의 방정식(1)",
         "durationSec": 4404,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-07-27T06:19:59.179Z",
-        "watchedSec": 0
+        "lastPosition": 4403,
+        "lastWatchedAt": "2026-08-09T11:21:09.240Z",
+        "watchedSec": 1689
+      },
+      "QyhWoi7qA4s": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
+        "videoTitle": "58~63쪽 원의 방정식 (2)",
+        "durationSec": 4621,
+        "lastPosition": 1185,
+        "lastWatchedAt": "2026-08-09T11:33:56.192Z",
+        "watchedSec": 315
       }
     },
     "daily": {
@@ -123,6 +155,10 @@
       },
       "2026-07-27": {
         "jIjscjI_q2c": 1991
+      },
+      "2026-08-09": {
+        "Ea3QmY3z6_c": 1689,
+        "QyhWoi7qA4s": 315
       }
     }
   },
@@ -142,6 +178,10 @@
     "task_1786084151694_hangm0__1": {
       "confirmed": true,
       "confirmedAt": "2026-08-08T14:46:40.204Z"
+    },
+    "task_1786084151694_goxe85__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-08-09T13:48:10.646Z"
     }
   },
   "tasks": [

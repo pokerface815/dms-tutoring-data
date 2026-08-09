@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-09T08:56:16.709Z",
+  "generatedAt": "2026-08-09T13:48:17.287Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -262,7 +262,7 @@
             {
               "title": "공수2 강의 영상 보기(제출일 8/9(일))",
               "dueDate": "2026-08-09",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -459,15 +459,35 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-07T06:27:56.219Z",
+    "uploadedAt": "2026-08-09T11:27:21.997Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "todaySec": 2004,
+      "weekSec": 2004,
+      "monthSec": 2004,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학2": 2004
+      }
     },
     "logs": [
+      {
+        "id": "effort_mslpsqlmspx",
+        "startedAt": 1786274509967,
+        "seconds": 315,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 58~63쪽 원의 방정식 (2)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mslnbg2aptd",
+        "startedAt": 1786270308311,
+        "seconds": 1689,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 52~57쪽 원의 방정식(1)",
+        "reflection": ""
+      },
       {
         "id": "effort_ms2u9a7qx04",
         "startedAt": 1785133199782,

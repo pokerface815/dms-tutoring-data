@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:34:38.494Z",
+  "generatedAt": "2026-08-09T07:12:54.311Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -67,6 +67,17 @@
       "startedAt": 1784949966705,
       "createdAt": "2026-07-25T03:29:50.802Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msl603gmph0",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
+      "reflection": "",
+      "seconds": 587,
+      "startedAt": 1786241299788,
+      "createdAt": "2026-08-09T02:09:47.399Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -101,6 +112,35 @@
         "lastPosition": 4741,
         "lastWatchedAt": "2026-07-25T04:30:06.530Z",
         "watchedSec": 4100
+      },
+      "8xpg5fhoXoo": {
+        "sessionCount": 2,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "54~66쪽 81번 풀이 + 연속함수의 성질 + 최대 최소의 정리, 사잇값 정리(실근의 존재성)",
+        "durationSec": 5967,
+        "lastPosition": 1,
+        "lastWatchedAt": "2026-08-09T02:08:18.444Z",
+        "watchedSec": 1
+      },
+      "OIDvXwg6tkg": {
+        "sessionCount": 3,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
+        "durationSec": 5879,
+        "lastPosition": 640,
+        "lastWatchedAt": "2026-08-09T02:25:10.794Z",
+        "watchedSec": 607
+      },
+      "Owo2_OgWPto": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "3",
+        "durationSec": 6101,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-08-09T02:07:47.671Z"
       }
     },
     "daily": {
@@ -113,6 +153,10 @@
       },
       "2026-07-25": {
         "35fLmSRhScA": 4100
+      },
+      "2026-08-09": {
+        "OIDvXwg6tkg": 607,
+        "8xpg5fhoXoo": 1
       }
     }
   },

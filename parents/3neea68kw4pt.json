@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-08T11:29:02.926Z",
+  "generatedAt": "2026-08-09T00:38:30.744Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -184,7 +184,7 @@
       "todaySec": 0,
       "weekSec": 4086,
       "monthSec": 4086,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "독서": 391,
         "미적분Ⅰ": 3695
@@ -333,15 +333,6 @@
         "subject": "대수",
         "method": "문제 풀이",
         "content": "찬영 학교 프린트",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrdhgmkgme3",
-        "startedAt": 1783599730590,
-        "seconds": 376,
-        "subject": "독서",
-        "method": "기타",
-        "content": "6분독서 아비투스",
         "reflection": ""
       }
     ]

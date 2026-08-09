@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T15:06:56.177Z",
+  "generatedAt": "2026-08-09T00:38:43.649Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -75,15 +75,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrdm6yvm7a9",
-        "startedAt": 1783607589737,
-        "seconds": 466,
-        "subject": "사회",
-        "method": "문제 풀이",
-        "content": "지리",
         "reflection": ""
       }
     ]

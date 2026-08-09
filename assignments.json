@@ -3512,5 +3512,16 @@
     "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-22",
     "templateId": "tpl_msiknm2uyylh",
     "repeat": null
+  },
+  {
+    "id": "task_1786265760643_dwxzvi",
+    "type": "task",
+    "studentId": "s_1780309359751_gjl2s0",
+    "title": "공수2 강의 영상 보기(제출일 8/23(일))",
+    "dueDate": "2026-08-23",
+    "assignedAt": "2026-08-09T08:56:00.643Z",
+    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-08-23",
+    "templateId": "tpl_msikdzm6sssq",
+    "repeat": null
   }
 ]

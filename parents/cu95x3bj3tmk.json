@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-09T13:48:17.287Z",
+  "generatedAt": "2026-08-09T16:28:59.393Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,23 @@
       "ym": "2026-08",
       "label": "2026년 8월",
       "lessons": [
+        {
+          "date": "2026-08-24",
+          "weekday": "월",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/24(월))",
+              "dueDate": "2026-08-24",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
         {
           "date": "2026-08-23",
           "weekday": "일",
@@ -298,8 +315,8 @@
         }
       ],
       "completionRate": {
-        "done": 1,
-        "total": 1,
+        "done": 2,
+        "total": 2,
         "percent": 100
       },
       "noteStages": null
@@ -461,8 +478,8 @@
     "enabled": true,
     "uploadedAt": "2026-08-09T11:27:21.997Z",
     "summary": {
-      "todaySec": 2004,
-      "weekSec": 2004,
+      "todaySec": 0,
+      "weekSec": 0,
       "monthSec": 2004,
       "streak": 1,
       "bySubjectMonth": {

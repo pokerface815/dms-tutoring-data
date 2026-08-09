@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-09T00:38:21.201Z",
+  "generatedAt": "2026-08-09T08:56:13.320Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-08T10:52:16.316Z",
+    "uploadedAt": "2026-08-09T05:45:32.991Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 5227,
-      "monthSec": 5227,
-      "streak": 0,
+      "todaySec": 218,
+      "weekSec": 5445,
+      "monthSec": 5445,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 5227
+        "미적분Ⅰ": 5445
       }
     },
     "logs": [
+      {
+        "id": "effort_msld6nx09bh",
+        "startedAt": 1786253361125,
+        "seconds": 218,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+        "reflection": ""
+      },
       {
         "id": "effort_msiod09rzki",
         "startedAt": 1786089383670,

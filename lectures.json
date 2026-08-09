@@ -1143,13 +1143,13 @@
       },
       {
         "videoId": "S3ZTVxsu508",
-        "title": "1",
+        "title": "52~60쪽 원의 방정식 (1)표준형, (2)일반형",
         "position": 7,
         "durationSec": 4350
       },
       {
         "videoId": "1UNug3kZ1ag",
-        "title": "11",
+        "title": "61~63쪽 세 점을 지나는 원의 방정식, 두 원의 교점을 지나는 원의 방정식",
         "position": 8,
         "durationSec": 4684
       }
@@ -1160,8 +1160,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-08-09T13:49:50.637Z",
-    "lastSyncedAt": "2026-08-09T13:49:50.637Z"
+    "updatedAt": "2026-08-09T17:16:22.327Z",
+    "lastSyncedAt": "2026-08-09T17:16:22.327Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1217,13 +1217,13 @@
       },
       {
         "videoId": "i166lCcZL1I",
-        "title": "2",
+        "title": "52~57쪽 연습문제 질문(50쪽) + 원의 방정식 (1)표준형",
         "position": 7,
         "durationSec": 3867
       },
       {
         "videoId": "tWQb7KOlYrg",
-        "title": "22",
+        "title": "58~63쪽 원의 방정식 (2)일반형 + 연습문제 17번(66쪽)",
         "position": 8,
         "durationSec": 4389
       }
@@ -1234,8 +1234,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-08-09T13:49:54.318Z",
-    "lastSyncedAt": "2026-08-09T13:49:54.318Z"
+    "updatedAt": "2026-08-09T17:16:26.407Z",
+    "lastSyncedAt": "2026-08-09T17:16:26.407Z"
   },
   {
     "id": "lec_mririwvdtb6",
@@ -1285,13 +1285,13 @@
       },
       {
         "videoId": "Owo2_OgWPto",
-        "title": "3",
+        "title": "82~99쪽 미분가능성과 연속성, 도함수(+다항함수의 도함수), 곱의 미분법",
         "position": 6,
         "durationSec": 6101
       },
       {
         "videoId": "vmMXmgNPh5w",
-        "title": "33",
+        "title": "100~121쪽 173번 질문 + 미분계수 마무리 + 도함수의 활용(1) - 접선의 방정식",
         "position": 7,
         "durationSec": 5949
       }
@@ -1302,8 +1302,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-08-09T13:50:01.558Z",
-    "lastSyncedAt": "2026-08-09T13:50:01.558Z"
+    "updatedAt": "2026-08-09T17:16:31.248Z",
+    "lastSyncedAt": "2026-08-09T17:16:31.248Z"
   },
   {
     "id": "lec_mrq99fx1qmz",
@@ -1347,13 +1347,13 @@
       },
       {
         "videoId": "Ttl39pa5hXE",
-        "title": "4",
+        "title": "58~70쪽 05.도함수의 활용(2) + 삼,사차함수의 그래프의 개형, 비율관계",
         "position": 5,
         "durationSec": 3082
       },
       {
         "videoId": "IBooGNnvyKc",
-        "title": "44",
+        "title": "70~73쪽 05.도함수의 활용(2)",
         "position": 6,
         "durationSec": 441
       }
@@ -1364,8 +1364,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-08-09T13:50:05.039Z",
-    "lastSyncedAt": "2026-08-09T13:50:05.039Z"
+    "updatedAt": "2026-08-09T17:16:35.398Z",
+    "lastSyncedAt": "2026-08-09T17:16:35.398Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1409,13 +1409,13 @@
       },
       {
         "videoId": "A8lMwMDgTDU",
-        "title": "5",
+        "title": "58~71쪽 05.도함수의 활용(2) + 삼,사차함수의 그래프의 개형, 비율관계",
         "position": 5,
         "durationSec": 3902
       },
       {
         "videoId": "gDxnak3-Zxg",
-        "title": "55",
+        "title": "72~73쪽 05.도함수의 활용(2)",
         "position": 6,
         "durationSec": 402
       }
@@ -1426,8 +1426,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-08-09T13:50:08.745Z",
-    "lastSyncedAt": "2026-08-09T13:50:08.745Z"
+    "updatedAt": "2026-08-09T17:16:37.868Z",
+    "lastSyncedAt": "2026-08-09T17:16:37.868Z"
   },
   {
     "id": "lec_mqkscmibfht",

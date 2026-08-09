@@ -1288,6 +1288,12 @@
         "title": "3",
         "position": 6,
         "durationSec": 6101
+      },
+      {
+        "videoId": "vmMXmgNPh5w",
+        "title": "33",
+        "position": 7,
+        "durationSec": 5949
       }
     ],
     "permissions": {
@@ -1296,8 +1302,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-08-09T00:38:38.860Z",
-    "lastSyncedAt": "2026-08-09T00:38:38.860Z"
+    "updatedAt": "2026-08-09T13:50:01.558Z",
+    "lastSyncedAt": "2026-08-09T13:50:01.558Z"
   },
   {
     "id": "lec_mrq99fx1qmz",

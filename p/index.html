@@ -183,10 +183,10 @@
   }
   .lesson-cal-day.has-closed.has-lesson { background: linear-gradient(135deg, #eef5e2 50%, #fee2e2 50%); }
   .lesson-cal-day.has-event:not(.has-closed) {
-    background: #ede9fe;
-    color: #4c1d95;
+    background: #fff3e6;
+    color: #9a5b16;
     font-weight: 700;
-    border: 1px solid #c4b5fd;
+    border: 1px solid #f5c893;
     cursor: pointer;
   }
   .lesson-cal-day.selected {
@@ -201,11 +201,11 @@
   .lesson-cal-day { position: relative; }
   .cal-dot { width: 5px; height: 5px; border-radius: 50%; }
   .dot-closed { background: #ef4444; }
-  .dot-event { background: #7c5cbf; }
+  .dot-event { background: #f59e0b; }      /* 학원 일정 = 주황 */
   .dot-lesson { background: #84b96d; }
-  .dot-task { background: #f59e0b; }
-  .lesson-cal-day.has-task { background: #fff3e6; color: #9a5b16; font-weight: 700; border: 1px solid #f5c893; cursor: pointer; }
-  .lesson-cal-day.has-task:hover { background: #ffe9cf; }
+  .dot-task { background: #7c5cbf; }        /* 과제 = 보라 (점으로만 표시) */
+  .lesson-cal-day.has-task { cursor: pointer; }
+  .lesson-cal-day.has-task:hover { background: #f4f1fb; }
   .lesson-cal-legend { display:flex; flex-wrap:wrap; gap:8px 14px; justify-content:center; margin-top:8px; font-size:11.5px; color:var(--text2); }
   .lesson-cal-legend span { display:inline-flex; align-items:center; gap:5px; }
   .lesson-cal-legend i { width:11px; height:11px; border-radius:3px; display:inline-block; flex:none; }
@@ -1293,7 +1293,7 @@
         cellInner += `<span title="중요 수업" style="position:absolute; top:0; right:2px; color:#f5a623; font-size:11px; line-height:1; text-shadow:0 0 1px rgba(0,0,0,0.2);">★</span>`;
       }
       let dotsHtml = '';
-      if (hasLessonDay && hasTaskDay) dotsHtml += `<span class="cal-dot dot-task" title="과제"></span>`;  // 수업+과제 둘 다인 날 과제 점 표시
+      if (hasTaskDay) dotsHtml += `<span class="cal-dot dot-task" title="과제"></span>`;  // 과제는 항상 점(보라)으로 표시
       if (hasEvent) dotsHtml += `<span class="cal-dot dot-event" title="학원 일정"></span>`;
       if (hasClosed) dotsHtml += `<span class="cal-dot dot-closed" title="휴원"></span>`;
       if (dotsHtml) cellInner += `<div class="cal-dots">${dotsHtml}</div>`;
@@ -1314,7 +1314,7 @@
     row += `</div>`;
     html += row;
     html += `</div>`;
-    html += `<div class="lesson-cal-legend"><span><i style="background:#84b96d;"></i>수업일지</span><span><i style="background:#f59e0b;"></i>과제</span><span><i style="background:#7c5cbf;"></i>학원 일정</span><span><i style="background:#ef4444;"></i>휴원</span></div>`;
+    html += `<div class="lesson-cal-legend"><span><i style="background:#84b96d;"></i>수업일지</span><span><i style="background:#7c5cbf; border-radius:50%;"></i>과제</span><span><i style="background:#f59e0b;"></i>학원 일정</span><span><i style="background:#ef4444;"></i>휴원</span></div>`;
     html += `<div class="lesson-cal-hint">날짜를 클릭하면 그날의 수업 일지가 표시됩니다.</div>`;
     html += `<div class="lesson-detail" id="lesson-detail-${monthIdx}"></div>`;
     return html;

@@ -1326,6 +1326,12 @@
         "title": "44~57쪽 04.도함수의 활용(1)",
         "position": 4,
         "durationSec": 3418
+      },
+      {
+        "videoId": "Ttl39pa5hXE",
+        "title": "4",
+        "position": 5,
+        "durationSec": 3082
       }
     ],
     "permissions": {
@@ -1334,8 +1340,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-08-04T08:37:25.623Z",
-    "lastSyncedAt": "2026-08-04T08:37:25.623Z"
+    "updatedAt": "2026-08-09T00:38:41.418Z",
+    "lastSyncedAt": "2026-08-09T00:38:41.418Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1376,6 +1382,12 @@
         "title": "44~57쪽 04.도함수의 활용(1)",
         "position": 4,
         "durationSec": 2048
+      },
+      {
+        "videoId": "A8lMwMDgTDU",
+        "title": "5",
+        "position": 5,
+        "durationSec": 3902
       }
     ],
     "permissions": {
@@ -1384,8 +1396,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-08-04T08:37:33.307Z",
-    "lastSyncedAt": "2026-08-04T08:37:33.307Z"
+    "updatedAt": "2026-08-09T00:38:44.306Z",
+    "lastSyncedAt": "2026-08-09T00:38:44.306Z"
   },
   {
     "id": "lec_mqkscmibfht",

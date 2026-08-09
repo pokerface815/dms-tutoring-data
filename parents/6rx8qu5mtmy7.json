@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-02T10:18:46.277Z",
+  "generatedAt": "2026-08-09T00:38:15.094Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -11,15 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-19T09:12:26.603Z",
+    "uploadedAt": "2026-08-08T17:22:00.646Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "todaySec": 930,
+      "weekSec": 930,
+      "monthSec": 930,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학2": 930
+      }
     },
     "logs": [
+      {
+        "id": "effort_mskmmipdhqk",
+        "startedAt": 1786208766414,
+        "seconds": 930,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
+        "reflection": ""
+      },
       {
         "id": "effort_mrprflo6rly",
         "startedAt": 1784342403090,

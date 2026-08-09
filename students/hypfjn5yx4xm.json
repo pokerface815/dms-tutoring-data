@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T08:33:15.423Z",
+  "generatedAt": "2026-08-09T00:38:42.009Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -106,7 +106,8 @@
         "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
         "durationSec": 4227,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-30T16:58:43.902Z"
+        "lastWatchedAt": "2026-07-30T16:58:43.902Z",
+        "watchedSec": 0
       }
     },
     "daily": {

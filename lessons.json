@@ -846,5 +846,16 @@
     "taskBatchId": "t_msmjquux",
     "createdAt": "2026-08-10T01:22:17.144Z",
     "updatedAt": "2026-08-10T01:22:17.144Z"
+  },
+  {
+    "id": "lesson_1786354621586_25wgc0",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-08-10",
+    "content": "공수2 원의 접선의 방정식",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-08-10T09:37:01.586Z",
+    "updatedAt": "2026-08-10T09:37:01.586Z"
   }
 ]

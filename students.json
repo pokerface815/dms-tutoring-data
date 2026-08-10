@@ -1508,5 +1508,40 @@
         "to": null
       }
     ]
+  },
+  {
+    "id": "s_1786359648617_00qsgi",
+    "name": "이나윤",
+    "school": "국제고",
+    "grade": "고1",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-2360-4150",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "25jvaxw5nnr2",
+    "classHistory": [
+      {
+        "classId": "cls_1783741486590_iyer5b",
+        "from": "2026-08-10",
+        "to": null
+      }
+    ]
   }
 ]

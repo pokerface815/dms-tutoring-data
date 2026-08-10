@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-10T01:22:26.400Z",
+  "generatedAt": "2026-08-10T14:57:06.482Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -513,6 +513,10 @@
       "missedAt": "2026-08-08T11:28:43.747Z",
       "confirmed": false,
       "confirmedAt": null
+    },
+    "task_1786324937145_8aed6f__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-08-10T12:31:03.504Z"
     }
   },
   "tasks": [
@@ -651,6 +655,14 @@
       "dueDate": "2026-08-10",
       "isRepeat": false,
       "assignedAt": "2026-08-10T01:22:17.144Z"
+    },
+    {
+      "assignmentId": "task_1786366504426_k92cdj",
+      "round": 1,
+      "title": "139쪽까지 교재 풀어오기.\n추가로 학교 부교재도 풀기",
+      "dueDate": "2026-08-12",
+      "isRepeat": false,
+      "assignedAt": "2026-08-10T12:55:04.426Z"
     }
   ],
   "myGrades": [

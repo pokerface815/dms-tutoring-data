@@ -2359,6 +2359,12 @@
         "title": "27~34쪽 삼각형의 높이, 넓이 + 사각형의 넓이",
         "position": 2,
         "durationSec": 3781
+      },
+      {
+        "videoId": "ouu9eZPx_nI",
+        "title": "36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
+        "position": 3,
+        "durationSec": 2747
       }
     ],
     "permissions": {
@@ -2367,7 +2373,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-29T22:56:32.707Z",
-    "updatedAt": "2026-08-07T09:53:17.855Z",
-    "lastSyncedAt": "2026-08-07T09:53:17.855Z"
+    "updatedAt": "2026-08-10T11:25:49.989Z",
+    "lastSyncedAt": "2026-08-10T11:25:49.989Z"
   }
 ]

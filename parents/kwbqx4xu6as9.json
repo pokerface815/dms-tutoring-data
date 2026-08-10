@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-09T16:28:52.825Z",
+  "generatedAt": "2026-08-10T01:22:29.935Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -514,33 +514,6 @@
         "id": "effort_ms11ut1fq7t",
         "startedAt": 1785025027490,
         "seconds": 619,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrfnsic1hb0",
-        "startedAt": 1783731616499,
-        "seconds": 392,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrfnahyv08q",
-        "startedAt": 1783730784543,
-        "seconds": 821,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrfn56i8cme",
-        "startedAt": 1783730537173,
-        "seconds": 215,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 239~245쪽 행렬의 곱셈에 대한 성질, 단위행렬 + 케일리-해밀턴 정리",

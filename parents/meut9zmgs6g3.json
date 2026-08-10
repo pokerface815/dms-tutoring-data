@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-09T16:28:48.204Z",
+  "generatedAt": "2026-08-10T09:37:13.010Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -99,15 +99,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrfx57mlunm",
-        "startedAt": 1783747299998,
-        "seconds": 3134,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
         "reflection": ""
       }
     ]

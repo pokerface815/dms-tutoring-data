@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-10T09:37:07.049Z",
+  "generatedAt": "2026-08-10T11:05:06.540Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,23 +12,6 @@
       "ym": "2026-08",
       "label": "2026년 8월",
       "lessons": [
-        {
-          "date": "2026-08-24",
-          "weekday": "월",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/24(월))",
-              "dueDate": "2026-08-24",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
         {
           "date": "2026-08-23",
           "weekday": "일",
@@ -64,23 +47,6 @@
           "hasLesson": false
         },
         {
-          "date": "2026-08-21",
-          "weekday": "금",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/21(금))",
-              "dueDate": "2026-08-21",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
           "date": "2026-08-20",
           "weekday": "목",
           "className": "",
@@ -98,23 +64,6 @@
           "hasLesson": false
         },
         {
-          "date": "2026-08-19",
-          "weekday": "수",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/19(수))",
-              "dueDate": "2026-08-19",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
           "date": "2026-08-18",
           "weekday": "화",
           "className": "",
@@ -126,23 +75,6 @@
             {
               "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/18(화))",
               "dueDate": "2026-08-18",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
-          "date": "2026-08-17",
-          "weekday": "월",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/17(월))",
-              "dueDate": "2026-08-17",
               "isConfirmed": false
             }
           ],
@@ -183,23 +115,6 @@
           "hasLesson": false
         },
         {
-          "date": "2026-08-14",
-          "weekday": "금",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/14(금))",
-              "dueDate": "2026-08-14",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
           "date": "2026-08-13",
           "weekday": "목",
           "className": "",
@@ -211,23 +126,6 @@
             {
               "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/13(목))",
               "dueDate": "2026-08-13",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
-          "date": "2026-08-12",
-          "weekday": "수",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/12(수))",
-              "dueDate": "2026-08-12",
               "isConfirmed": false
             }
           ],
@@ -259,13 +157,7 @@
           "taskDue": "",
           "myNote": "",
           "important": false,
-          "extraAssignments": [
-            {
-              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/10(월))",
-              "dueDate": "2026-08-10",
-              "isConfirmed": false
-            }
-          ],
+          "extraAssignments": [],
           "hasLesson": true
         },
         {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-09T16:28:16.178Z",
+  "generatedAt": "2026-08-10T09:37:14.584Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -182,11 +182,11 @@
     {
       "id": "s_1780309359751_gjl2s0",
       "name": "박유솔",
-      "totalSec": 7356,
-      "weekSec": 0,
-      "monthSec": 2004,
-      "recent3mSec": 7356,
-      "streak": 1,
+      "totalSec": 9173,
+      "weekSec": 1817,
+      "monthSec": 3821,
+      "recent3mSec": 9173,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },

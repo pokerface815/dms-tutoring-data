@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T16:28:28.287Z",
+  "generatedAt": "2026-08-10T01:22:26.400Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -643,6 +643,14 @@
       "dueDate": "2026-08-08",
       "isRepeat": false,
       "assignedAt": "2026-08-02T12:15:22.720Z"
+    },
+    {
+      "assignmentId": "task_1786324937145_8aed6f",
+      "round": 1,
+      "title": "124쪽까지 풀어오기",
+      "dueDate": "2026-08-10",
+      "isRepeat": false,
+      "assignedAt": "2026-08-10T01:22:17.144Z"
     }
   ],
   "myGrades": [

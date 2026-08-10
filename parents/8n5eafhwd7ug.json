@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-09T16:30:08.010Z",
+  "generatedAt": "2026-08-10T11:05:36.237Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -13,23 +13,6 @@
       "label": "2026년 8월",
       "lessons": [
         {
-          "date": "2026-08-24",
-          "weekday": "월",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/24(월))",
-              "dueDate": "2026-08-24",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
           "date": "2026-08-22",
           "weekday": "토",
           "className": "",
@@ -41,23 +24,6 @@
             {
               "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/22(토))",
               "dueDate": "2026-08-22",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
-          "date": "2026-08-21",
-          "weekday": "금",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/21(금))",
-              "dueDate": "2026-08-21",
               "isConfirmed": false
             }
           ],
@@ -81,23 +47,6 @@
           "hasLesson": false
         },
         {
-          "date": "2026-08-19",
-          "weekday": "수",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/19(수))",
-              "dueDate": "2026-08-19",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
           "date": "2026-08-18",
           "weekday": "화",
           "className": "",
@@ -109,23 +58,6 @@
             {
               "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/18(화))",
               "dueDate": "2026-08-18",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
-          "date": "2026-08-17",
-          "weekday": "월",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/17(월))",
-              "dueDate": "2026-08-17",
               "isConfirmed": false
             }
           ],
@@ -149,23 +81,6 @@
           "hasLesson": false
         },
         {
-          "date": "2026-08-14",
-          "weekday": "금",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/14(금))",
-              "dueDate": "2026-08-14",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
           "date": "2026-08-13",
           "weekday": "목",
           "className": "",
@@ -183,23 +98,6 @@
           "hasLesson": false
         },
         {
-          "date": "2026-08-12",
-          "weekday": "수",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/12(수))",
-              "dueDate": "2026-08-12",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
           "date": "2026-08-11",
           "weekday": "화",
           "className": "",
@@ -211,23 +109,6 @@
             {
               "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/11(화))",
               "dueDate": "2026-08-11",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
-          "date": "2026-08-10",
-          "weekday": "월",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/10(월))",
-              "dueDate": "2026-08-10",
               "isConfirmed": false
             }
           ],

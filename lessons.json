@@ -835,5 +835,16 @@
     "taskBatchId": null,
     "createdAt": "2026-08-07T06:19:37.107Z",
     "updatedAt": "2026-08-07T06:19:49.615Z"
+  },
+  {
+    "id": "lesson_1786324937145_hw0dfx",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-08",
+    "content": "~124쪽 함수의 그래프\n삼차, 사차함수의 그래프의 개형 및 비율관계",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_msmjquux",
+    "createdAt": "2026-08-10T01:22:17.144Z",
+    "updatedAt": "2026-08-10T01:22:17.144Z"
   }
 ]

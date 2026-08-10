@@ -2909,17 +2909,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786080212309_srr1qx",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 공통수학1 매일 2장씩(제출일 8/10(월))",
-    "dueDate": "2026-08-10",
-    "assignedAt": "2026-08-07T05:23:32.309Z",
-    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-10",
-    "templateId": "tpl_msii1jytso0e",
-    "repeat": null
-  },
-  {
     "id": "task_1786080212309_7cduv9",
     "type": "task",
     "studentId": "s_1779948611035_qbdt5h",
@@ -2927,17 +2916,6 @@
     "dueDate": "2026-08-11",
     "assignedAt": "2026-08-07T05:23:32.309Z",
     "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-11",
-    "templateId": "tpl_msii1jytso0e",
-    "repeat": null
-  },
-  {
-    "id": "task_1786080212309_gfsbfn",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 공통수학1 매일 2장씩(제출일 8/12(수))",
-    "dueDate": "2026-08-12",
-    "assignedAt": "2026-08-07T05:23:32.309Z",
-    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-12",
     "templateId": "tpl_msii1jytso0e",
     "repeat": null
   },
@@ -2953,17 +2931,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786080212309_78avzc",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 공통수학1 매일 2장씩(제출일 8/14(금))",
-    "dueDate": "2026-08-14",
-    "assignedAt": "2026-08-07T05:23:32.309Z",
-    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-14",
-    "templateId": "tpl_msii1jytso0e",
-    "repeat": null
-  },
-  {
     "id": "task_1786080212309_wjh278",
     "type": "task",
     "studentId": "s_1779948611035_qbdt5h",
@@ -2971,17 +2938,6 @@
     "dueDate": "2026-08-15",
     "assignedAt": "2026-08-07T05:23:32.309Z",
     "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-15",
-    "templateId": "tpl_msii1jytso0e",
-    "repeat": null
-  },
-  {
-    "id": "task_1786080212309_j3ewg8",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 공통수학1 매일 2장씩(제출일 8/17(월))",
-    "dueDate": "2026-08-17",
-    "assignedAt": "2026-08-07T05:23:32.309Z",
-    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-17",
     "templateId": "tpl_msii1jytso0e",
     "repeat": null
   },
@@ -2997,17 +2953,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786080212309_smmsyi",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 공통수학1 매일 2장씩(제출일 8/19(수))",
-    "dueDate": "2026-08-19",
-    "assignedAt": "2026-08-07T05:23:32.309Z",
-    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-19",
-    "templateId": "tpl_msii1jytso0e",
-    "repeat": null
-  },
-  {
     "id": "task_1786080212309_ueq55d",
     "type": "task",
     "studentId": "s_1779948611035_qbdt5h",
@@ -3015,17 +2960,6 @@
     "dueDate": "2026-08-20",
     "assignedAt": "2026-08-07T05:23:32.309Z",
     "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-20",
-    "templateId": "tpl_msii1jytso0e",
-    "repeat": null
-  },
-  {
-    "id": "task_1786080212309_h4j9te",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 공통수학1 매일 2장씩(제출일 8/21(금))",
-    "dueDate": "2026-08-21",
-    "assignedAt": "2026-08-07T05:23:32.309Z",
-    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-21",
     "templateId": "tpl_msii1jytso0e",
     "repeat": null
   },
@@ -3390,17 +3324,6 @@
     "assignedAt": "2026-08-09T08:56:00.643Z",
     "batchId": "tplbatch_tpl_msikdzm6sssq_2026-08-23",
     "templateId": "tpl_msikdzm6sssq",
-    "repeat": null
-  },
-  {
-    "id": "task_1786292888329_84yl46",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 공통수학1 매일 2장씩(제출일 8/24(월))",
-    "dueDate": "2026-08-24",
-    "assignedAt": "2026-08-09T16:28:08.329Z",
-    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-24",
-    "templateId": "tpl_msii1jytso0e",
     "repeat": null
   },
   {

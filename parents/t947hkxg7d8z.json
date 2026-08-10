@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-10T01:22:28.193Z",
+  "generatedAt": "2026-08-10T14:57:04.392Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-08",
       "label": "2026년 8월",
       "lessons": [
+        {
+          "date": "2026-08-10",
+          "weekday": "월",
+          "className": "조예나 개별",
+          "content": "~139쪽 함수의 최대, 최소 + 방정식에의 활용",
+          "task": "139쪽까지 교재 풀어오기.\n추가로 학교 부교재도 풀기",
+          "taskDue": "2026-08-12",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-08-08",
           "weekday": "토",

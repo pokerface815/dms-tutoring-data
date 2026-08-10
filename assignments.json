@@ -3567,5 +3567,16 @@
     "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-24",
     "templateId": "tpl_msiknm2uyylh",
     "repeat": null
+  },
+  {
+    "id": "task_1786324937145_8aed6f",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "124쪽까지 풀어오기",
+    "dueDate": "2026-08-10",
+    "assignedAt": "2026-08-10T01:22:17.144Z",
+    "batchId": "t_msmjquux",
+    "repeat": null,
+    "fromLesson": "lesson_1786324937145_hw0dfx"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-09T00:38:27.591Z",
+  "generatedAt": "2026-08-10T01:22:28.193Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-08",
       "label": "2026년 8월",
       "lessons": [
+        {
+          "date": "2026-08-08",
+          "weekday": "토",
+          "className": "조예나 개별",
+          "content": "~124쪽 함수의 그래프\n삼차, 사차함수의 그래프의 개형 및 비율관계",
+          "task": "124쪽까지 풀어오기",
+          "taskDue": "2026-08-10",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-08-02",
           "weekday": "일",

@@ -3338,17 +3338,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786084600711_5hbp99",
-    "type": "task",
-    "studentId": "s_1783936051988_psto4h",
-    "title": "라이트쎈 공수1 매일 2장씩(제출일 8/10(월))",
-    "dueDate": "2026-08-10",
-    "assignedAt": "2026-08-07T06:36:40.711Z",
-    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-10",
-    "templateId": "tpl_msiknm2uyylh",
-    "repeat": null
-  },
-  {
     "id": "task_1786084600711_myiym5",
     "type": "task",
     "studentId": "s_1783936051988_psto4h",
@@ -3356,17 +3345,6 @@
     "dueDate": "2026-08-11",
     "assignedAt": "2026-08-07T06:36:40.711Z",
     "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-11",
-    "templateId": "tpl_msiknm2uyylh",
-    "repeat": null
-  },
-  {
-    "id": "task_1786084600711_lgtubs",
-    "type": "task",
-    "studentId": "s_1783936051988_psto4h",
-    "title": "라이트쎈 공수1 매일 2장씩(제출일 8/12(수))",
-    "dueDate": "2026-08-12",
-    "assignedAt": "2026-08-07T06:36:40.711Z",
-    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-12",
     "templateId": "tpl_msiknm2uyylh",
     "repeat": null
   },
@@ -3382,17 +3360,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786084600711_4mnn31",
-    "type": "task",
-    "studentId": "s_1783936051988_psto4h",
-    "title": "라이트쎈 공수1 매일 2장씩(제출일 8/14(금))",
-    "dueDate": "2026-08-14",
-    "assignedAt": "2026-08-07T06:36:40.711Z",
-    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-14",
-    "templateId": "tpl_msiknm2uyylh",
-    "repeat": null
-  },
-  {
     "id": "task_1786084600711_waieug",
     "type": "task",
     "studentId": "s_1783936051988_psto4h",
@@ -3400,17 +3367,6 @@
     "dueDate": "2026-08-15",
     "assignedAt": "2026-08-07T06:36:40.711Z",
     "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-15",
-    "templateId": "tpl_msiknm2uyylh",
-    "repeat": null
-  },
-  {
-    "id": "task_1786084600711_61wkwc",
-    "type": "task",
-    "studentId": "s_1783936051988_psto4h",
-    "title": "라이트쎈 공수1 매일 2장씩(제출일 8/17(월))",
-    "dueDate": "2026-08-17",
-    "assignedAt": "2026-08-07T06:36:40.711Z",
-    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-17",
     "templateId": "tpl_msiknm2uyylh",
     "repeat": null
   },
@@ -3426,17 +3382,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786084600711_ymlplx",
-    "type": "task",
-    "studentId": "s_1783936051988_psto4h",
-    "title": "라이트쎈 공수1 매일 2장씩(제출일 8/19(수))",
-    "dueDate": "2026-08-19",
-    "assignedAt": "2026-08-07T06:36:40.711Z",
-    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-19",
-    "templateId": "tpl_msiknm2uyylh",
-    "repeat": null
-  },
-  {
     "id": "task_1786084600711_83qfcl",
     "type": "task",
     "studentId": "s_1783936051988_psto4h",
@@ -3444,17 +3389,6 @@
     "dueDate": "2026-08-20",
     "assignedAt": "2026-08-07T06:36:40.711Z",
     "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-20",
-    "templateId": "tpl_msiknm2uyylh",
-    "repeat": null
-  },
-  {
-    "id": "task_1786084600711_kpw2d2",
-    "type": "task",
-    "studentId": "s_1783936051988_psto4h",
-    "title": "라이트쎈 공수1 매일 2장씩(제출일 8/21(금))",
-    "dueDate": "2026-08-21",
-    "assignedAt": "2026-08-07T06:36:40.711Z",
-    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-21",
     "templateId": "tpl_msiknm2uyylh",
     "repeat": null
   },
@@ -3555,17 +3489,6 @@
     "assignedAt": "2026-08-09T16:28:08.329Z",
     "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-24",
     "templateId": "tpl_msik5bhq57rt",
-    "repeat": null
-  },
-  {
-    "id": "task_1786292888329_73gzki",
-    "type": "task",
-    "studentId": "s_1783936051988_psto4h",
-    "title": "라이트쎈 공수1 매일 2장씩(제출일 8/24(월))",
-    "dueDate": "2026-08-24",
-    "assignedAt": "2026-08-09T16:28:08.329Z",
-    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-24",
-    "templateId": "tpl_msiknm2uyylh",
     "repeat": null
   },
   {

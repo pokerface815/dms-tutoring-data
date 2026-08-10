@@ -2975,17 +2975,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786083194758_ydhe26",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/10(월))",
-    "dueDate": "2026-08-10",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-10",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
     "id": "task_1786083194758_m1cf0h",
     "type": "task",
     "studentId": "s_1786082844440_z9486d",
@@ -2993,17 +2982,6 @@
     "dueDate": "2026-08-11",
     "assignedAt": "2026-08-07T06:13:14.758Z",
     "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-11",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1786083194758_oa1ehp",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/12(수))",
-    "dueDate": "2026-08-12",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-12",
     "templateId": "tpl_msijth8l1w9f",
     "repeat": null
   },
@@ -3019,17 +2997,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786083194758_0czlic",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/14(금))",
-    "dueDate": "2026-08-14",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-14",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
     "id": "task_1786083194758_ixy9sh",
     "type": "task",
     "studentId": "s_1786082844440_z9486d",
@@ -3037,17 +3004,6 @@
     "dueDate": "2026-08-15",
     "assignedAt": "2026-08-07T06:13:14.758Z",
     "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-15",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1786083194758_vxkvnk",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/17(월))",
-    "dueDate": "2026-08-17",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-17",
     "templateId": "tpl_msijth8l1w9f",
     "repeat": null
   },
@@ -3063,17 +3019,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786083194758_4qpsr3",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/19(수))",
-    "dueDate": "2026-08-19",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-19",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
     "id": "task_1786083194758_b5r7gp",
     "type": "task",
     "studentId": "s_1786082844440_z9486d",
@@ -3081,17 +3026,6 @@
     "dueDate": "2026-08-20",
     "assignedAt": "2026-08-07T06:13:14.758Z",
     "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-20",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1786083194758_zi8tw7",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/21(금))",
-    "dueDate": "2026-08-21",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-21",
     "templateId": "tpl_msijth8l1w9f",
     "repeat": null
   },
@@ -3324,17 +3258,6 @@
     "assignedAt": "2026-08-09T08:56:00.643Z",
     "batchId": "tplbatch_tpl_msikdzm6sssq_2026-08-23",
     "templateId": "tpl_msikdzm6sssq",
-    "repeat": null
-  },
-  {
-    "id": "task_1786292888329_ipqtfh",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/24(월))",
-    "dueDate": "2026-08-24",
-    "assignedAt": "2026-08-09T16:28:08.329Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-24",
-    "templateId": "tpl_msijth8l1w9f",
     "repeat": null
   },
   {

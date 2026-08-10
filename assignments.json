@@ -3162,17 +3162,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786083747183_wk9hd5",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/10(월))",
-    "dueDate": "2026-08-10",
-    "assignedAt": "2026-08-07T06:22:27.183Z",
-    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-10",
-    "templateId": "tpl_msik5bhq57rt",
-    "repeat": null
-  },
-  {
     "id": "task_1786083747183_uq339a",
     "type": "task",
     "studentId": "s_1780309359751_gjl2s0",
@@ -3180,17 +3169,6 @@
     "dueDate": "2026-08-11",
     "assignedAt": "2026-08-07T06:22:27.183Z",
     "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-11",
-    "templateId": "tpl_msik5bhq57rt",
-    "repeat": null
-  },
-  {
-    "id": "task_1786083747183_27n6xw",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/12(수))",
-    "dueDate": "2026-08-12",
-    "assignedAt": "2026-08-07T06:22:27.183Z",
-    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-12",
     "templateId": "tpl_msik5bhq57rt",
     "repeat": null
   },
@@ -3206,28 +3184,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786083747183_bs5mhv",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/14(금))",
-    "dueDate": "2026-08-14",
-    "assignedAt": "2026-08-07T06:22:27.183Z",
-    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-14",
-    "templateId": "tpl_msik5bhq57rt",
-    "repeat": null
-  },
-  {
-    "id": "task_1786083747183_i0ilyi",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/17(월))",
-    "dueDate": "2026-08-17",
-    "assignedAt": "2026-08-07T06:22:27.183Z",
-    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-17",
-    "templateId": "tpl_msik5bhq57rt",
-    "repeat": null
-  },
-  {
     "id": "task_1786083747183_oy0gn5",
     "type": "task",
     "studentId": "s_1780309359751_gjl2s0",
@@ -3239,17 +3195,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786083747183_6c7s2a",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/19(수))",
-    "dueDate": "2026-08-19",
-    "assignedAt": "2026-08-07T06:22:27.183Z",
-    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-19",
-    "templateId": "tpl_msik5bhq57rt",
-    "repeat": null
-  },
-  {
     "id": "task_1786083747183_fz38ib",
     "type": "task",
     "studentId": "s_1780309359751_gjl2s0",
@@ -3257,17 +3202,6 @@
     "dueDate": "2026-08-20",
     "assignedAt": "2026-08-07T06:22:27.183Z",
     "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-20",
-    "templateId": "tpl_msik5bhq57rt",
-    "repeat": null
-  },
-  {
-    "id": "task_1786083747183_wv7atc",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/21(금))",
-    "dueDate": "2026-08-21",
-    "assignedAt": "2026-08-07T06:22:27.183Z",
-    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-21",
     "templateId": "tpl_msik5bhq57rt",
     "repeat": null
   },
@@ -3478,17 +3412,6 @@
     "assignedAt": "2026-08-09T16:28:08.329Z",
     "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-24",
     "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1786292888329_q4m61g",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/24(월))",
-    "dueDate": "2026-08-24",
-    "assignedAt": "2026-08-09T16:28:08.329Z",
-    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-24",
-    "templateId": "tpl_msik5bhq57rt",
     "repeat": null
   },
   {

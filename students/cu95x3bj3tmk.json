@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T16:28:57.759Z",
+  "generatedAt": "2026-08-10T09:37:09.081Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -89,6 +89,28 @@
       "startedAt": 1786274509967,
       "createdAt": "2026-08-09T11:23:56.458Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msmxmnpxrvl",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 67~75쪽 원과 직선의 위치 관계, 원의 접선의 방정식",
+      "reflection": "",
+      "seconds": 652,
+      "startedAt": 1786348164137,
+      "createdAt": "2026-08-10T07:50:55.893Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msmzf6qzdmc",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 67~75쪽 원과 직선의 위치 관계, 원의 접선의 방정식",
+      "reflection": "",
+      "seconds": 1165,
+      "startedAt": 1786351203620,
+      "createdAt": "2026-08-10T08:41:06.539Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -125,9 +147,9 @@
         "watchedSec": 2648
       },
       "Ea3QmY3z6_c": {
-        "sessionCount": 2,
+        "sessionCount": 1,
         "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
+        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
         "videoTitle": "52~57쪽 원의 방정식(1)",
         "durationSec": 4404,
         "lastPosition": 4403,
@@ -143,6 +165,16 @@
         "lastPosition": 1185,
         "lastWatchedAt": "2026-08-09T11:33:56.192Z",
         "watchedSec": 315
+      },
+      "AYuLMKDmn9E": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
+        "videoTitle": "67~75쪽 원과 직선의 위치 관계, 원의 접선의 방정식",
+        "durationSec": 3803,
+        "lastPosition": 2575,
+        "lastWatchedAt": "2026-08-10T09:14:56.305Z",
+        "watchedSec": 1817
       }
     },
     "daily": {
@@ -159,6 +191,9 @@
       "2026-08-09": {
         "Ea3QmY3z6_c": 1689,
         "QyhWoi7qA4s": 315
+      },
+      "2026-08-10": {
+        "AYuLMKDmn9E": 1817
       }
     }
   },

@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-08-10T11:01:02.220Z",
+  "student": {
+    "id": "s_1786359648617_00qsgi",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
+    "name": "이나윤",
+    "school": "국제고",
+    "grade": "고1",
+    "class": "",
+    "showMakeNote": true
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-08-10",
+    "endDate": "2026-08-16"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

@@ -1159,5 +1159,26 @@
       "중간": true,
       "기말": true
     }
+  },
+  {
+    "id": "scut_msmoad19nlz",
+    "school": "숭일고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "2",
+    "subject": "기하",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {},
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "올림포스",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

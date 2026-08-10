@@ -857,5 +857,16 @@
     "taskBatchId": null,
     "createdAt": "2026-08-10T09:37:01.586Z",
     "updatedAt": "2026-08-10T09:37:01.586Z"
+  },
+  {
+    "id": "lesson_1786366504426_9l3brm",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-10",
+    "content": "~139쪽 함수의 최대, 최소 + 방정식에의 활용",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_msn8hsdm",
+    "createdAt": "2026-08-10T12:55:04.426Z",
+    "updatedAt": "2026-08-10T12:55:04.426Z"
   }
 ]

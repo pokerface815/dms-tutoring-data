@@ -3281,5 +3281,49 @@
     "batchId": "t_msn8hsdm",
     "repeat": null,
     "fromLesson": "lesson_1786366504426_9l3brm"
+  },
+  {
+    "id": "task_1786424522088_8ir0be",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩(제출일 8/25(화))",
+    "dueDate": "2026-08-25",
+    "assignedAt": "2026-08-11T05:02:02.088Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-25",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786424522089_sl2c1m",
+    "type": "task",
+    "studentId": "s_1786082844440_z9486d",
+    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/25(화))",
+    "dueDate": "2026-08-25",
+    "assignedAt": "2026-08-11T05:02:02.089Z",
+    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-25",
+    "templateId": "tpl_msijth8l1w9f",
+    "repeat": null
+  },
+  {
+    "id": "task_1786424522089_7opvm9",
+    "type": "task",
+    "studentId": "s_1780309359751_gjl2s0",
+    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/25(화))",
+    "dueDate": "2026-08-25",
+    "assignedAt": "2026-08-11T05:02:02.089Z",
+    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-08-25",
+    "templateId": "tpl_msik5bhq57rt",
+    "repeat": null
+  },
+  {
+    "id": "task_1786424522089_qt5lo2",
+    "type": "task",
+    "studentId": "s_1783936051988_psto4h",
+    "title": "라이트쎈 공수1 매일 2장씩(제출일 8/25(화))",
+    "dueDate": "2026-08-25",
+    "assignedAt": "2026-08-11T05:02:02.089Z",
+    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-25",
+    "templateId": "tpl_msiknm2uyylh",
+    "repeat": null
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-10T11:05:06.540Z",
+  "generatedAt": "2026-08-11T05:02:23.244Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,23 @@
       "ym": "2026-08",
       "label": "2026년 8월",
       "lessons": [
+        {
+          "date": "2026-08-25",
+          "weekday": "화",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/25(화))",
+              "dueDate": "2026-08-25",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
         {
           "date": "2026-08-23",
           "weekday": "일",
@@ -369,17 +386,26 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-10T09:07:01.419Z",
+    "uploadedAt": "2026-08-10T15:10:11.735Z",
     "summary": {
-      "todaySec": 1817,
-      "weekSec": 1817,
-      "monthSec": 3821,
-      "streak": 2,
+      "todaySec": 199,
+      "weekSec": 2016,
+      "monthSec": 4020,
+      "streak": 3,
       "bySubjectMonth": {
-        "공통수학2": 3821
+        "공통수학2": 4020
       }
     },
     "logs": [
+      {
+        "id": "effort_msnd6mg5txq",
+        "startedAt": 1786374304121,
+        "seconds": 199,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 67~75쪽 원과 직선의 위치 관계, 원의 접선의 방정식",
+        "reflection": ""
+      },
       {
         "id": "effort_msmzf6qzdmc",
         "startedAt": 1786351203620,

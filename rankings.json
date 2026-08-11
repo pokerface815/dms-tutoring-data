@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-10T14:57:08.377Z",
+  "generatedAt": "2026-08-11T05:02:10.174Z",
   "studentCount": 52,
   "rankings": [
     {
@@ -76,7 +76,7 @@
       "weekSec": 0,
       "monthSec": 5445,
       "recent3mSec": 31302,
-      "streak": 1,
+      "streak": 0,
       "nickname": "😎",
       "publicNickname": true
     },
@@ -182,11 +182,11 @@
     {
       "id": "s_1780309359751_gjl2s0",
       "name": "박유솔",
-      "totalSec": 9173,
-      "weekSec": 1817,
-      "monthSec": 3821,
-      "recent3mSec": 9173,
-      "streak": 2,
+      "totalSec": 9372,
+      "weekSec": 2016,
+      "monthSec": 4020,
+      "recent3mSec": 9372,
+      "streak": 3,
       "nickname": "",
       "publicNickname": false
     },
@@ -439,7 +439,7 @@
       "weekSec": 0,
       "monthSec": 2516,
       "recent3mSec": 2516,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -450,7 +450,7 @@
       "weekSec": 0,
       "monthSec": 3691,
       "recent3mSec": 5673,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -516,7 +516,7 @@
       "weekSec": 0,
       "monthSec": 587,
       "recent3mSec": 13733,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -527,7 +527,7 @@
       "weekSec": 0,
       "monthSec": 11071,
       "recent3mSec": 19237,
-      "streak": 3,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },

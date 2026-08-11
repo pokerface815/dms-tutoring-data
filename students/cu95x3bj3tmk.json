@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-10T11:05:04.810Z",
+  "generatedAt": "2026-08-11T05:02:21.534Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -111,6 +111,17 @@
       "startedAt": 1786351203620,
       "createdAt": "2026-08-10T08:41:06.539Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msnd6mg5txq",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 67~75쪽 원과 직선의 위치 관계, 원의 접선의 방정식",
+      "reflection": "",
+      "seconds": 199,
+      "startedAt": 1786374304121,
+      "createdAt": "2026-08-10T15:06:21.605Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -167,14 +178,14 @@
         "watchedSec": 315
       },
       "AYuLMKDmn9E": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mqoujc2nsde",
         "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
         "videoTitle": "67~75쪽 원과 직선의 위치 관계, 원의 접선의 방정식",
         "durationSec": 3803,
-        "lastPosition": 2575,
-        "lastWatchedAt": "2026-08-10T09:14:56.305Z",
-        "watchedSec": 1817
+        "lastPosition": 2875,
+        "lastWatchedAt": "2026-08-10T15:13:59.287Z",
+        "watchedSec": 2016
       }
     },
     "daily": {
@@ -194,6 +205,9 @@
       },
       "2026-08-10": {
         "AYuLMKDmn9E": 1817
+      },
+      "2026-08-11": {
+        "AYuLMKDmn9E": 199
       }
     }
   },
@@ -299,6 +313,14 @@
       "dueDate": "2026-08-23",
       "isRepeat": false,
       "assignedAt": "2026-08-09T08:56:00.643Z"
+    },
+    {
+      "assignmentId": "task_1786424522089_7opvm9",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/25(화))",
+      "dueDate": "2026-08-25",
+      "isRepeat": false,
+      "assignedAt": "2026-08-11T05:02:02.089Z"
     }
   ],
   "myGrades": []

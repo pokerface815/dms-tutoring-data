@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-10T14:57:02.388Z",
+  "generatedAt": "2026-08-12T09:46:47.775Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -171,6 +171,16 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
+      "ELcNM4V5h4E": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq9a1wrhru",
+        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "5",
+        "durationSec": 2768,
+        "lastPosition": 2581,
+        "lastWatchedAt": "2026-07-18T17:18:00.103Z",
+        "watchedSec": 268
+      },
       "JlBX5IRj9d8": {
         "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
@@ -190,16 +200,6 @@
         "lastPosition": 4462,
         "lastWatchedAt": "2026-07-18T19:02:24.486Z",
         "watchedSec": 511
-      },
-      "ELcNM4V5h4E": {
-        "sessionCount": 1,
-        "lectureId": "lec_mrq9a1wrhru",
-        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
-        "videoTitle": "5",
-        "durationSec": 2768,
-        "lastPosition": 2581,
-        "lastWatchedAt": "2026-07-18T17:18:00.103Z",
-        "watchedSec": 268
       },
       "pJC_OdUw6QE": {
         "sessionCount": 1,
@@ -262,7 +262,7 @@
         "watchedSec": 4762
       },
       "wKbSmCx25Cs": {
-        "sessionCount": 3,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "108~110쪽 삼차함수와 사차함수의 그래프",
@@ -272,7 +272,7 @@
         "watchedSec": 3196
       },
       "megu-Gxod_Q": {
-        "sessionCount": 2,
+        "sessionCount": 1,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
@@ -284,9 +284,9 @@
     },
     "daily": {
       "2026-07-19": {
+        "ELcNM4V5h4E": 268,
         "JlBX5IRj9d8": 565,
-        "7pfVUyQLMjs": 511,
-        "ELcNM4V5h4E": 268
+        "7pfVUyQLMjs": 511
       },
       "2026-07-25": {
         "pJC_OdUw6QE": 2

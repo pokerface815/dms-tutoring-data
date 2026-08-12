@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T09:46:52.491Z",
+  "generatedAt": "2026-08-12T12:58:35.800Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -315,33 +315,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 69~72쪽 i의 거듭제곱",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrj7vj1ufbg",
-        "startedAt": 1783946751494,
-        "seconds": 985,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 62~68쪽 복소수의 뜻과 사칙연산",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrj7pz11p6m",
-        "startedAt": 1783946490442,
-        "seconds": 133,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 73~82쪽 음수의 제곱근, 이차방정식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrj7i9f4oal",
-        "startedAt": 1783946085127,
-        "seconds": 102,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 73~82쪽 음수의 제곱근, 이차방정식",
         "reflection": ""
       }
     ]

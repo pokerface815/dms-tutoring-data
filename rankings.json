@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T09:46:54.850Z",
+  "generatedAt": "2026-08-12T17:34:40.248Z",
   "studentCount": 52,
   "rankings": [
     {
@@ -175,7 +175,7 @@
       "weekSec": 4410,
       "monthSec": 8496,
       "recent3mSec": 92039,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -186,7 +186,7 @@
       "weekSec": 2016,
       "monthSec": 4020,
       "recent3mSec": 9372,
-      "streak": 3,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },

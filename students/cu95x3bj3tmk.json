@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-11T05:02:21.534Z",
+  "generatedAt": "2026-08-12T09:49:13.766Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -178,7 +178,7 @@
         "watchedSec": 315
       },
       "AYuLMKDmn9E": {
-        "sessionCount": 3,
+        "sessionCount": 2,
         "lectureId": "lec_mqoujc2nsde",
         "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
         "videoTitle": "67~75쪽 원과 직선의 위치 관계, 원의 접선의 방정식",

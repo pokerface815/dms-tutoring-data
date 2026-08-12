@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-11T05:02:23.244Z",
+  "generatedAt": "2026-08-12T09:46:51.155Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -149,6 +149,18 @@
           "hasLesson": false
         },
         {
+          "date": "2026-08-12",
+          "weekday": "수",
+          "className": "박유솔 개별",
+          "content": "쎈 ~38쪽 켤레복소수",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
+        {
           "date": "2026-08-11",
           "weekday": "화",
           "className": "",
@@ -226,8 +238,8 @@
       ],
       "completionRate": {
         "done": 2,
-        "total": 2,
-        "percent": 100
+        "total": 3,
+        "percent": 67
       },
       "noteStages": null
     },
@@ -388,7 +400,7 @@
     "enabled": true,
     "uploadedAt": "2026-08-10T15:10:11.735Z",
     "summary": {
-      "todaySec": 199,
+      "todaySec": 0,
       "weekSec": 2016,
       "monthSec": 4020,
       "streak": 3,
@@ -467,24 +479,6 @@
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "공통수학2 개념+유형 (26년 1, 2월) — 35~40쪽 두 직선의 평행과 수직",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mriwh5ozmcp",
-        "startedAt": 1783927526664,
-        "seconds": 75,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "공통수학2 개념+유형 (26년 1, 2월) — 30~34쪽 직선의 방정식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mriwavrb68w",
-        "startedAt": 1783927178704,
-        "seconds": 60,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "공통수학2 개념+유형 (26년 1, 2월) — 30~34쪽 직선의 방정식",
         "reflection": ""
       }
     ]

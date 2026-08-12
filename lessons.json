@@ -868,5 +868,16 @@
     "taskBatchId": "t_msn8hsdm",
     "createdAt": "2026-08-10T12:55:04.426Z",
     "updatedAt": "2026-08-10T12:55:04.426Z"
+  },
+  {
+    "id": "lesson_1786528001157_80b442",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-08-12",
+    "content": "쎈 ~38쪽 켤레복소수",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-08-12T09:46:41.157Z",
+    "updatedAt": "2026-08-12T09:46:48.896Z"
   }
 ]

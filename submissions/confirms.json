@@ -420,5 +420,11 @@
   "cu95x3bj3tmk__task_1786083747183_uq339a__1": {
     "confirmed": true,
     "confirmedAt": "2026-08-12T09:49:15.026Z"
+  },
+  "8n5eafhwd7ug__task_1786083194758_vz5ie3__1": {
+    "comment": "학원 수업 있는 날은 그 이후로부터 2장 풀어서 올려주세요~",
+    "commentAt": "2026-08-12T10:10:05.536Z",
+    "confirmed": false,
+    "confirmedAt": null
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T09:49:11.340Z",
+  "generatedAt": "2026-08-12T10:09:20.652Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -172,7 +172,7 @@
             {
               "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 8/11(화))",
               "dueDate": "2026-08-11",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -237,9 +237,9 @@
         }
       ],
       "completionRate": {
-        "done": 2,
+        "done": 3,
         "total": 3,
-        "percent": 67
+        "percent": 100
       },
       "noteStages": null
     },

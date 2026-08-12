@@ -2365,6 +2365,12 @@
         "title": "36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
         "position": 3,
         "durationSec": 2747
+      },
+      {
+        "videoId": "Q-yzoV1QA2s",
+        "title": "40~45쪽 원의 중심에서 현까지의 거리와 현의 길이 + 원의 접선의 성질",
+        "position": 4,
+        "durationSec": 3330
       }
     ],
     "permissions": {
@@ -2373,7 +2379,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-29T22:56:32.707Z",
-    "updatedAt": "2026-08-10T11:25:49.989Z",
-    "lastSyncedAt": "2026-08-10T11:25:49.989Z"
+    "updatedAt": "2026-08-12T11:39:01.586Z",
+    "lastSyncedAt": "2026-08-12T11:39:01.586Z"
   }
 ]

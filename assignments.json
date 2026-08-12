@@ -3325,5 +3325,16 @@
     "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-25",
     "templateId": "tpl_msiknm2uyylh",
     "repeat": null
+  },
+  {
+    "id": "task_1786539510615_g73cep",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "수업 중 질문한 문제들 다시 풀어보기 + 학교 부교재 풀어오기",
+    "dueDate": "2026-08-14",
+    "assignedAt": "2026-08-12T12:58:30.615Z",
+    "batchId": "t_msq3hwt3",
+    "repeat": null,
+    "fromLesson": "lesson_1786539510615_4jff8r"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-11T14:53:32.854Z",
+  "generatedAt": "2026-08-12T09:46:46.282Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -92,12 +92,12 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-10T12:38:17.240Z",
+    "uploadedAt": "2026-08-11T16:17:49.578Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 1343,
       "monthSec": 13866,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "미적분Ⅰ": 13866
       }

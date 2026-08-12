@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-11T13:32:44.135Z",
+  "generatedAt": "2026-08-12T09:46:54.850Z",
   "studentCount": 52,
   "rankings": [
     {
@@ -21,9 +21,9 @@
       "weekSec": 1343,
       "monthSec": 13866,
       "recent3mSec": 20740,
-      "streak": 1,
-      "nickname": "오레오잉",
-      "publicNickname": true
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
     },
     {
       "id": "s_1777546978791_hsee5a",

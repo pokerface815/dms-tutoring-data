@@ -879,5 +879,16 @@
     "taskBatchId": null,
     "createdAt": "2026-08-12T09:46:41.157Z",
     "updatedAt": "2026-08-12T09:46:48.896Z"
+  },
+  {
+    "id": "lesson_1786529351544_8sk07c",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-08-12",
+    "content": "~19쪽 곱셈공식, 변형",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-08-12T10:09:11.544Z",
+    "updatedAt": "2026-08-12T10:09:11.544Z"
   }
 ]

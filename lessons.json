@@ -890,5 +890,16 @@
     "taskBatchId": null,
     "createdAt": "2026-08-12T10:09:11.544Z",
     "updatedAt": "2026-08-12T10:09:11.544Z"
+  },
+  {
+    "id": "lesson_1786539510615_4jff8r",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-12",
+    "content": "과제에서 질의응답 + 추가 설명",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_msq3hwt3",
+    "createdAt": "2026-08-12T12:58:30.615Z",
+    "updatedAt": "2026-08-12T12:58:30.615Z"
   }
 ]

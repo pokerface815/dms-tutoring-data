@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-12T17:34:56.968Z",
+  "generatedAt": "2026-08-14T15:02:54.098Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -49,10 +49,10 @@
       "confirmedAt": "2026-08-11T13:32:34.217Z"
     },
     "task_1786083194758_vz5ie3__1": {
-      "comment": "학원 수업 있는 날은 그 이후로부터 2장 풀어서 올려주세요~",
-      "commentAt": "2026-08-12T11:35:41.110Z",
-      "confirmed": false,
-      "confirmedAt": null
+      "comment": "굿~~",
+      "commentAt": "2026-08-14T15:02:44.541Z",
+      "confirmed": true,
+      "confirmedAt": "2026-08-14T15:02:44.542Z"
     }
   },
   "tasks": [

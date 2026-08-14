@@ -901,5 +901,16 @@
     "taskBatchId": "t_msq3hwt3",
     "createdAt": "2026-08-12T12:58:30.615Z",
     "updatedAt": "2026-08-12T12:58:30.615Z"
+  },
+  {
+    "id": "lesson_1786704663348_ybrk19",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-14",
+    "content": "~150쪽 도함수의 활용(3)\n- 부등식에의 활용\n- 속도와 가속도",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_mssttph0",
+    "createdAt": "2026-08-14T10:51:03.348Z",
+    "updatedAt": "2026-08-14T10:51:03.348Z"
   }
 ]

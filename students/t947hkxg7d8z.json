@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-12T12:58:38.330Z",
+  "generatedAt": "2026-08-14T10:51:13.079Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -675,6 +675,14 @@
       "dueDate": "2026-08-14",
       "isRepeat": false,
       "assignedAt": "2026-08-12T12:58:30.615Z"
+    },
+    {
+      "assignmentId": "task_1786704663348_ih9woj",
+      "round": 1,
+      "title": "152쪽까지 풀어서 오기, 25년 9월 모의고사 4점짜리 풀기",
+      "dueDate": "2026-08-19",
+      "isRepeat": false,
+      "assignedAt": "2026-08-14T10:51:03.348Z"
     }
   ],
   "myGrades": [

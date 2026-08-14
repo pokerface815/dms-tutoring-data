@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-12T17:34:53.429Z",
+  "generatedAt": "2026-08-14T07:13:18.780Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -340,6 +340,12 @@
       "commentAt": "2026-08-11T14:53:39.718Z",
       "confirmed": true,
       "confirmedAt": "2026-08-11T14:53:39.718Z"
+    },
+    "task_1786084600711_f0q80g__1": {
+      "comment": "앞으로는 당일에 다 못 하면 다음 날에\n전날 과제를 올려도 됨.\n과제 이름에 과제일 있으니깐 원래 제출 날짜에 맞춰서 올려주기만 하면 돼^^",
+      "commentAt": "2026-08-14T07:12:57.655Z",
+      "confirmed": true,
+      "confirmedAt": "2026-08-14T07:12:57.656Z"
     }
   },
   "tasks": [

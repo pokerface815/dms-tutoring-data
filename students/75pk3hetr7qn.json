@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-14T07:13:15.526Z",
+  "generatedAt": "2026-08-14T15:02:51.390Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -94,10 +94,10 @@
         "watchedSec": 2534
       },
       "4oCcIG5bOxY": {
-        "sessionCount": 1,
+        "sessionCount": 3,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "3",
+        "videoTitle": "18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
         "durationSec": 5173,
         "lastPosition": 5172,
         "lastWatchedAt": "2026-07-23T14:01:13.258Z",
@@ -124,17 +124,17 @@
         "watchedSec": 1
       },
       "OIDvXwg6tkg": {
-        "sessionCount": 3,
+        "sessionCount": 5,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
         "durationSec": 5879,
-        "lastPosition": 640,
-        "lastWatchedAt": "2026-08-09T02:25:10.794Z",
-        "watchedSec": 607
+        "lastPosition": 649,
+        "lastWatchedAt": "2026-08-14T08:56:59.094Z",
+        "watchedSec": 616
       },
       "Owo2_OgWPto": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "3",
@@ -158,6 +158,9 @@
       "2026-08-09": {
         "OIDvXwg6tkg": 607,
         "8xpg5fhoXoo": 1
+      },
+      "2026-08-14": {
+        "OIDvXwg6tkg": 9
       }
     }
   },

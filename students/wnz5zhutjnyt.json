@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T16:29:44.497Z",
+  "generatedAt": "2026-08-14T07:13:10.193Z",
   "student": {
     "id": "s_1783822161933_05uu7m",
     "classes": [
@@ -59,24 +59,84 @@
         "watchedSec": 33
       },
       "RPAkWzqtvew": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mrg80i3ervi",
         "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "34~37쪽 연습문제 질문(28쪽) + 정점을 지나는 직선, 두 직선의 평행과 수직",
         "durationSec": 3760,
-        "lastPosition": 2742,
-        "lastWatchedAt": "2026-07-31T08:05:28.762Z",
-        "watchedSec": 1
+        "lastPosition": 56,
+        "lastWatchedAt": "2026-08-12T14:26:41.252Z",
+        "watchedSec": 2
       },
       "uRtN6_fkwD8": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mrg80i3ervi",
         "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "36~41쪽 정점을 지나는 직선 추가 설명 + 두 직선의 평행과 수직",
         "durationSec": 4260,
-        "lastPosition": 2643,
-        "lastWatchedAt": "2026-07-31T08:06:02.716Z",
-        "watchedSec": 19
+        "lastPosition": 2164,
+        "lastWatchedAt": "2026-08-12T14:26:33.784Z",
+        "watchedSec": 30
+      },
+      "tWQb7KOlYrg": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "58~63쪽 원의 방정식 (2)일반형 + 연습문제 17번(66쪽)",
+        "durationSec": 4389,
+        "lastPosition": 4388,
+        "lastWatchedAt": "2026-08-12T14:22:31.040Z",
+        "watchedSec": 22
+      },
+      "i166lCcZL1I": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "52~57쪽 연습문제 질문(50쪽) + 원의 방정식 (1)표준형",
+        "durationSec": 3867,
+        "lastPosition": 3866,
+        "lastWatchedAt": "2026-08-12T14:23:26.027Z",
+        "watchedSec": 18
+      },
+      "A7CrbLfr5VY": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "8~12쪽 두 점 사이의 거리",
+        "durationSec": 2912,
+        "lastPosition": 2179,
+        "lastWatchedAt": "2026-08-12T14:24:01.344Z",
+        "watchedSec": 16
+      },
+      "1UNug3kZ1ag": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg80i3ervi",
+        "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "61~63쪽 세 점을 지나는 원의 방정식, 두 원의 교점을 지나는 원의 방정식",
+        "durationSec": 4684,
+        "lastPosition": 4683,
+        "lastWatchedAt": "2026-08-12T14:24:53.284Z",
+        "watchedSec": 13
+      },
+      "S3ZTVxsu508": {
+        "sessionCount": 2,
+        "lectureId": "lec_mrg80i3ervi",
+        "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "52~60쪽 원의 방정식 (1)표준형, (2)일반형",
+        "durationSec": 4350,
+        "lastPosition": 3928,
+        "lastWatchedAt": "2026-08-12T14:26:09.346Z",
+        "watchedSec": 18
+      },
+      "4Ug5EcsKyFA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg80i3ervi",
+        "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
+        "durationSec": 4290,
+        "lastPosition": 3836,
+        "lastWatchedAt": "2026-08-12T14:25:54.423Z",
+        "watchedSec": 3
       }
     },
     "daily": {
@@ -91,6 +151,16 @@
         "KQVcgmO7-lM": 33,
         "RPAkWzqtvew": 1,
         "uRtN6_fkwD8": 19
+      },
+      "2026-08-12": {
+        "tWQb7KOlYrg": 22,
+        "i166lCcZL1I": 18,
+        "A7CrbLfr5VY": 16,
+        "1UNug3kZ1ag": 13,
+        "S3ZTVxsu508": 18,
+        "4Ug5EcsKyFA": 3,
+        "uRtN6_fkwD8": 11,
+        "RPAkWzqtvew": 1
       }
     }
   },

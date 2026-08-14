@@ -3380,5 +3380,16 @@
     "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-27",
     "templateId": "tpl_msiknm2uyylh",
     "repeat": null
+  },
+  {
+    "id": "task_1786704663348_ih9woj",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "152쪽까지 풀어서 오기, 25년 9월 모의고사 4점짜리 풀기",
+    "dueDate": "2026-08-19",
+    "assignedAt": "2026-08-14T10:51:03.348Z",
+    "batchId": "t_mssttph0",
+    "repeat": null,
+    "fromLesson": "lesson_1786704663348_ybrk19"
   }
 ]

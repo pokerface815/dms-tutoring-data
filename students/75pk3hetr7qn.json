@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T16:29:57.039Z",
+  "generatedAt": "2026-08-14T07:13:15.526Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -140,7 +140,8 @@
         "videoTitle": "3",
         "durationSec": 6101,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-08-09T02:07:47.671Z"
+        "lastWatchedAt": "2026-08-09T02:07:47.671Z",
+        "watchedSec": 0
       }
     },
     "daily": {

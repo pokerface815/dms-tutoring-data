@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T16:28:35.443Z",
+  "generatedAt": "2026-08-14T07:13:24.128Z",
   "student": {
     "id": "s_1778402500926_7fxigp",
     "classes": [
@@ -73,9 +73,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1784869417425_mbvf7e",
       "noteName": "정찬민_개념루트_함수의 극한(~54번)",
@@ -88,6 +86,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1784869417425_mbvf7e",

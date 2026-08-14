@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T17:34:47.784Z",
+  "generatedAt": "2026-08-14T07:13:13.779Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -315,33 +315,6 @@
         "subject": "기하",
         "method": "문제 풀이",
         "content": "개+유 포물선의 방정식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrksee1ckxy",
-        "startedAt": 1784037608085,
-        "seconds": 3946,
-        "subject": "미적분Ⅰ",
-        "method": "문제 풀이",
-        "content": "쎈B",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrkdygdldhi",
-        "startedAt": 1784012334022,
-        "seconds": 5159,
-        "subject": "대수",
-        "method": "문제 풀이",
-        "content": "정찬영",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrk3fwkih3j",
-        "startedAt": 1783995298440,
-        "seconds": 4524,
-        "subject": "대수",
-        "method": "문제 풀이",
-        "content": "찬영 학교 프린트",
         "reflection": ""
       }
     ]

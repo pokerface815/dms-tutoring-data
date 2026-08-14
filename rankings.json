@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T17:34:40.248Z",
+  "generatedAt": "2026-08-14T07:13:26.081Z",
   "studentCount": 52,
   "rankings": [
     {
@@ -72,13 +72,13 @@
     {
       "id": "s_1778397156600_clkd2u",
       "name": "서연준",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "totalSec": 34490,
+      "weekSec": 3188,
+      "monthSec": 8633,
+      "recent3mSec": 34490,
+      "streak": 1,
+      "nickname": "😎",
+      "publicNickname": true
     },
     {
       "id": "s_1778402500926_7fxigp",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T17:34:41.845Z",
+  "generatedAt": "2026-08-14T10:51:15.059Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-08",
       "label": "2026년 8월",
       "lessons": [
+        {
+          "date": "2026-08-14",
+          "weekday": "금",
+          "className": "조예나 개별",
+          "content": "~150쪽 도함수의 활용(3)\n- 부등식에의 활용\n- 속도와 가속도",
+          "task": "152쪽까지 풀어서 오기, 25년 9월 모의고사 4점짜리 풀기",
+          "taskDue": "2026-08-19",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-08-12",
           "weekday": "수",

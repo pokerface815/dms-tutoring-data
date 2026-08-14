@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-11T14:53:37.458Z",
+  "generatedAt": "2026-08-14T07:13:02.662Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -46,7 +46,291 @@
     }
   ],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-08-13T14:27:48.110Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 3188,
+      "monthSec": 8633,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 8633
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_msrljfcoq4r",
+        "startedAt": 1786630204481,
+        "seconds": 1015,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msrk6qfixx2",
+        "startedAt": 1786627891807,
+        "seconds": 2173,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msld6nx09bh",
+        "startedAt": 1786253361125,
+        "seconds": 218,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msiod09rzki",
+        "startedAt": 1786089383670,
+        "seconds": 2224,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msilidbup2y",
+        "startedAt": 1786085942740,
+        "seconds": 385,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msfts0hn59f",
+        "startedAt": 1785918437103,
+        "seconds": 920,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mse7myrpy5v",
+        "startedAt": 1785820795497,
+        "seconds": 779,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mse6in1ntn3",
+        "startedAt": 1785818927140,
+        "seconds": 919,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms8ogeb4jtk",
+        "startedAt": 1785486249389,
+        "seconds": 719,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms8nca1y6g7",
+        "startedAt": 1785484380053,
+        "seconds": 85,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms73wro007j",
+        "startedAt": 1785391284209,
+        "seconds": 1327,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms72ox7xel6",
+        "startedAt": 1785389191855,
+        "seconds": 1157,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms72drqxxwb",
+        "startedAt": 1785388637966,
+        "seconds": 460,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms60423xg5d",
+        "startedAt": 1785324397358,
+        "seconds": 837,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms5oxqtltjt",
+        "startedAt": 1785305622257,
+        "seconds": 291,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 36~43쪽 03.미분계수와 도함수 34~77번",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms4lfuwo693",
+        "startedAt": 1785239228959,
+        "seconds": 2797,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms4erodxyd6",
+        "startedAt": 1785228096873,
+        "seconds": 208,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms4dlfinypb",
+        "startedAt": 1785226103086,
+        "seconds": 687,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms3dqdgknck",
+        "startedAt": 1785165878760,
+        "seconds": 1103,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms1rebjulpz",
+        "startedAt": 1785067937823,
+        "seconds": 1829,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_ms1qu8wydrz",
+        "startedAt": 1785066111242,
+        "seconds": 235,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrzoucflwm5",
+        "startedAt": 1784942712932,
+        "seconds": 129,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrzo7bw5yje",
+        "startedAt": 1784941139776,
+        "seconds": 474,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrx5w7bm7ao",
+        "startedAt": 1784789954554,
+        "seconds": 476,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrx59xaid35",
+        "startedAt": 1784788895882,
+        "seconds": 1034,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrx417t00lr",
+        "startedAt": 1784786773299,
+        "seconds": 1674,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrx3bp5i7f4",
+        "startedAt": 1784785562715,
+        "seconds": 1147,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrtbwn9hs8s",
+        "startedAt": 1784558126633,
+        "seconds": 2258,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrtaxiubels",
+        "startedAt": 1784556543502,
+        "seconds": 666,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mrlw1diqq1f",
+        "startedAt": 1784108197409,
+        "seconds": 2465,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

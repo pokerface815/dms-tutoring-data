@@ -1,0 +1,34 @@
+[
+  {
+    "run_at": "2026-08-16T16:00:34.604465+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 2,
+      "failed": 0,
+      "total": 2
+    },
+    "entries": [
+      {
+        "student_id": "s_1778402500926_7fxigp",
+        "student_name": "정찬민",
+        "category": "overdue",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-3873",
+        "text_length": 36,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1780309359751_gjl2s0",
+        "student_name": "박유솔",
+        "category": "task",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-2198",
+        "text_length": 39,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

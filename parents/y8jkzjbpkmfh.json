@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-14T15:02:52.574Z",
+  "generatedAt": "2026-08-16T11:22:58.829Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,17 +48,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-13T14:27:48.110Z",
+    "uploadedAt": "2026-08-15T11:48:18.363Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 3188,
-      "monthSec": 8633,
-      "streak": 0,
+      "weekSec": 3702,
+      "monthSec": 9147,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 8633
+        "미적분Ⅰ": 9147
       }
     },
     "logs": [
+      {
+        "id": "effort_msuazgzu3xt",
+        "startedAt": 1786793874530,
+        "seconds": 514,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
+        "reflection": ""
+      },
       {
         "id": "effort_msrljfcoq4r",
         "startedAt": 1786630204481,

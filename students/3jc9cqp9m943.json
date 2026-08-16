@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T16:30:00.065Z",
+  "generatedAt": "2026-08-16T11:22:50.499Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -290,7 +290,7 @@
         "watchedSec": 447
       },
       "2auObqsjN-s": {
-        "sessionCount": 10,
+        "sessionCount": 7,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "13~23쪽 선분의 내분점",
@@ -325,12 +325,12 @@
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "143~145쪽 부정방정식",
         "durationSec": 3939,
-        "lastPosition": 1498,
-        "lastWatchedAt": "2026-08-09T06:02:15.266Z",
-        "watchedSec": 958
+        "lastPosition": 1655,
+        "lastWatchedAt": "2026-08-16T03:17:05.975Z",
+        "watchedSec": 961
       },
       "r2Yofj6CofI": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "36~41쪽 정점을 지나는 직선 질문(유형편 13쪽) + 두  직선의 평행과 수직",
@@ -340,7 +340,7 @@
         "watchedSec": 1977
       },
       "tsLcsUgBKZ0": {
-        "sessionCount": 3,
+        "sessionCount": 4,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
@@ -348,16 +348,6 @@
         "lastPosition": 2826,
         "lastWatchedAt": "2026-08-05T09:56:09.895Z",
         "watchedSec": 1437
-      },
-      "4Ug5EcsKyFA": {
-        "sessionCount": 1,
-        "lectureId": "lec_mrg7ztilap8",
-        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
-        "videoTitle": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
-        "durationSec": 4290,
-        "lastPosition": 4289,
-        "lastWatchedAt": "2026-08-08T00:33:32.850Z",
-        "watchedSec": 2584
       },
       "4uqVjzd4CXc": {
         "sessionCount": 1,
@@ -368,6 +358,16 @@
         "lastPosition": 254,
         "lastWatchedAt": "2026-08-05T01:06:53.155Z",
         "watchedSec": 14
+      },
+      "4Ug5EcsKyFA": {
+        "sessionCount": 3,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
+        "durationSec": 4290,
+        "lastPosition": 4289,
+        "lastWatchedAt": "2026-08-08T00:33:32.850Z",
+        "watchedSec": 2584
       }
     },
     "daily": {
@@ -395,6 +395,11 @@
         "2auObqsjN-s": 1227,
         "tsLcsUgBKZ0": 6
       },
+      "2026-08-05": {
+        "tsLcsUgBKZ0": 1437,
+        "4uqVjzd4CXc": 14,
+        "2auObqsjN-s": 23
+      },
       "2026-08-06": {
         "Vpbwe1ellrc": 16
       },
@@ -403,17 +408,15 @@
         "2auObqsjN-s": 550,
         "r2Yofj6CofI": 1950
       },
-      "2026-08-05": {
-        "tsLcsUgBKZ0": 1437,
-        "4uqVjzd4CXc": 14,
-        "2auObqsjN-s": 23
-      },
       "2026-08-08": {
         "4Ug5EcsKyFA": 2562
       },
       "2026-08-09": {
         "Vpbwe1ellrc": 117,
         "iwleCBdeEjY": 316
+      },
+      "2026-08-16": {
+        "iwleCBdeEjY": 3
       }
     }
   },

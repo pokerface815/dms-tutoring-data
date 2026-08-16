@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-14T07:13:17.182Z",
+  "generatedAt": "2026-08-16T11:22:38.877Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,23 @@
       "ym": "2026-08",
       "label": "2026년 8월",
       "lessons": [
+        {
+          "date": "2026-08-29",
+          "weekday": "토",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 8/29(토))",
+              "dueDate": "2026-08-29",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
         {
           "date": "2026-08-27",
           "weekday": "목",
@@ -185,8 +202,8 @@
       ],
       "completionRate": {
         "done": 4,
-        "total": 4,
-        "percent": 100
+        "total": 5,
+        "percent": 80
       },
       "noteStages": null
     },
@@ -226,15 +243,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-07T22:58:13.443Z",
+    "uploadedAt": "2026-08-15T12:37:46.606Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "weekSec": 341,
+      "monthSec": 341,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학1": 341
+      }
     },
     "logs": [
+      {
+        "id": "effort_msucxodhpng",
+        "startedAt": 1786796683955,
+        "seconds": 341,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
+        "reflection": ""
+      },
       {
         "id": "effort_ms5gzzaevv5",
         "startedAt": 1785292027849,
@@ -247,7 +275,7 @@
       {
         "id": "effort_ms0cvtrtfss",
         "startedAt": 1784983155043,
-        "seconds": 2324,
+        "seconds": 2325,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",
@@ -328,7 +356,7 @@
       {
         "id": "effort_mrq6apuaotm",
         "startedAt": 1784349653892,
-        "seconds": 470,
+        "seconds": 1729,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 69~72쪽 i의 거듭제곱",

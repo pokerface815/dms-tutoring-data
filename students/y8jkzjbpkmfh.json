@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-14T07:13:04.670Z",
+  "generatedAt": "2026-08-16T11:23:00.583Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -397,6 +397,17 @@
       "startedAt": 1786630204481,
       "createdAt": "2026-08-13T14:11:20.568Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msuazgzu3xt",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
+      "reflection": "",
+      "seconds": 514,
+      "startedAt": 1786793874530,
+      "createdAt": "2026-08-15T11:39:11.946Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -563,14 +574,14 @@
         "watchedSec": 2175
       },
       "ugyX19AJiaA": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "124~134쪽 부등식에의 활용, 속도와 가속도",
         "durationSec": 4757,
-        "lastPosition": 2081,
-        "lastWatchedAt": "2026-08-13T14:27:50.657Z",
-        "watchedSec": 1015
+        "lastPosition": 2597,
+        "lastWatchedAt": "2026-08-15T11:48:18.355Z",
+        "watchedSec": 1529
       }
     },
     "daily": {
@@ -638,6 +649,9 @@
       "2026-08-13": {
         "megu-Gxod_Q": 2175,
         "ugyX19AJiaA": 1015
+      },
+      "2026-08-15": {
+        "ugyX19AJiaA": 514
       }
     }
   },

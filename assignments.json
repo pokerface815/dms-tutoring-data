@@ -2836,8 +2836,10 @@
       {
         "stage": 4,
         "planned": "2026-08-14",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-08-16T11:22:15.331Z",
+        "missed": false,
+        "missedAt": null
       }
     ],
     "createdAt": "2026-07-24T05:03:37.425Z"
@@ -3391,5 +3393,60 @@
     "batchId": "t_mssttph0",
     "repeat": null,
     "fromLesson": "lesson_1786704663348_ybrk19"
+  },
+  {
+    "id": "task_1786879331314_02gqhx",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 공통수학1 매일 2장씩(제출일 8/29(토))",
+    "dueDate": "2026-08-29",
+    "assignedAt": "2026-08-16T11:22:11.314Z",
+    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-29",
+    "templateId": "tpl_msii1jytso0e",
+    "repeat": null
+  },
+  {
+    "id": "task_1786879331314_n00h3c",
+    "type": "task",
+    "studentId": "s_1786082844440_z9486d",
+    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/29(토))",
+    "dueDate": "2026-08-29",
+    "assignedAt": "2026-08-16T11:22:11.314Z",
+    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-29",
+    "templateId": "tpl_msijth8l1w9f",
+    "repeat": null
+  },
+  {
+    "id": "task_1786879331314_4kf6it",
+    "type": "task",
+    "studentId": "s_1780309359751_gjl2s0",
+    "title": "공수2 강의 영상 보기(제출일 8/29(토))",
+    "dueDate": "2026-08-29",
+    "assignedAt": "2026-08-16T11:22:11.314Z",
+    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-08-29",
+    "templateId": "tpl_msikdzm6sssq",
+    "repeat": null
+  },
+  {
+    "id": "task_1786879331314_f7a6hz",
+    "type": "task",
+    "studentId": "s_1780309359751_gjl2s0",
+    "title": "공수2 강의 영상 보기(제출일 8/30(일))",
+    "dueDate": "2026-08-30",
+    "assignedAt": "2026-08-16T11:22:11.314Z",
+    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-08-30",
+    "templateId": "tpl_msikdzm6sssq",
+    "repeat": null
+  },
+  {
+    "id": "task_1786879331314_7jr5oa",
+    "type": "task",
+    "studentId": "s_1783936051988_psto4h",
+    "title": "라이트쎈 공수1 매일 2장씩(제출일 8/29(토))",
+    "dueDate": "2026-08-29",
+    "assignedAt": "2026-08-16T11:22:11.314Z",
+    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-29",
+    "templateId": "tpl_msiknm2uyylh",
+    "repeat": null
   }
 ]

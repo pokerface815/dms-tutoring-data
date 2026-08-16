@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-16T11:22:37.026Z",
+  "generatedAt": "2026-08-16T11:22:57.643Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -183,7 +183,7 @@
   "syncedLectureWatch": {
     "videos": {
       "LoUhX_HhA3k": {
-        "sessionCount": 3,
+        "sessionCount": 6,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "73~82쪽 음수의 제곱근, 이차방정식",
@@ -225,7 +225,7 @@
       "Lwm2o1aNceI": {
         "watchedSec": 846,
         "lastPosition": 3463,
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
@@ -233,7 +233,7 @@
         "lastWatchedAt": "2026-07-24T04:49:47.644Z"
       },
       "TE0dmnIF-aU": {
-        "sessionCount": 1,
+        "sessionCount": 6,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "95~105쪽 이차방정식과 이차함수의 관계",
@@ -243,7 +243,7 @@
         "watchedSec": 1325
       },
       "sJH5b7SkTL4": {
-        "sessionCount": 6,
+        "sessionCount": 5,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "106~112쪽 이차함수의 최대, 최소",
@@ -263,14 +263,14 @@
         "watchedSec": 903
       },
       "e1HzWUZt0c8": {
-        "sessionCount": 1,
+        "sessionCount": 3,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
         "durationSec": 4174,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-08-03T01:09:14.815Z",
-        "watchedSec": 0
+        "lastPosition": 1288,
+        "lastWatchedAt": "2026-08-15T13:09:26.622Z",
+        "watchedSec": 349
       },
       "aa5XlDPSuus": {
         "sessionCount": 1,
@@ -292,12 +292,12 @@
         "TSZXX0ck6Mw": 2,
         "_x8xEiOR850": 470
       },
-      "2026-07-21": {
-        "Lwm2o1aNceI": 269
-      },
       "2026-07-19": {
         "_x8xEiOR850": 1259,
         "LoUhX_HhA3k": 952
+      },
+      "2026-07-21": {
+        "Lwm2o1aNceI": 269
       },
       "2026-07-23": {
         "TE0dmnIF-aU": 8
@@ -318,6 +318,9 @@
       },
       "2026-08-03": {
         "aa5XlDPSuus": 2
+      },
+      "2026-08-15": {
+        "e1HzWUZt0c8": 349
       }
     }
   },

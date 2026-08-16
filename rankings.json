@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T11:23:02.381Z",
-  "studentCount": 52,
+  "generatedAt": "2026-08-16T11:25:14.377Z",
+  "studentCount": 51,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -329,17 +329,6 @@
       "weekSec": 0,
       "monthSec": 0,
       "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1783141077746_ni5332",
-      "name": "손아현",
-      "totalSec": 14107,
-      "weekSec": 0,
-      "monthSec": 7277,
-      "recent3mSec": 14107,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-16T11:22:54.041Z",
+  "generatedAt": "2026-08-16T14:37:20.167Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -94,6 +94,12 @@
       "commentAt": "2026-08-14T15:02:44.541Z",
       "confirmed": true,
       "confirmedAt": "2026-08-14T15:02:44.542Z"
+    },
+    "task_1786083194758_ixy9sh__1": {
+      "missed": true,
+      "missedAt": "2026-08-16T14:37:12.174Z",
+      "confirmed": false,
+      "confirmedAt": null
     }
   },
   "tasks": [

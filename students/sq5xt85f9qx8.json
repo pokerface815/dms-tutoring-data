@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T16:29:49.379Z",
+  "generatedAt": "2026-08-16T11:22:40.824Z",
   "student": {
     "id": "s_1784351071584_hs9hej",
     "classes": [
@@ -40,24 +40,27 @@
   "syncedLectureWatch": {
     "videos": {
       "-AeZPJJq6M0": {
-        "sessionCount": 2,
+        "sessionCount": 1,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
+        "videoTitle": "8~14쪽 함수의 수렴과 발산, 우극한과 좌극한",
         "durationSec": 3182,
         "lastPosition": 1587,
         "lastWatchedAt": "2026-08-04T10:22:54.236Z",
         "watchedSec": 1530
       },
       "druHHRnA4jk": {
-        "sessionCount": 2,
+        "sessionCount": 1,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
+        "videoTitle": "3",
         "durationSec": 5637,
         "lastPosition": 481,
         "lastWatchedAt": "2026-08-04T10:23:16.792Z",
         "watchedSec": 86
+      },
+      "OIDvXwg6tkg": {
+        "sessionCount": 1
       }
     },
     "daily": {

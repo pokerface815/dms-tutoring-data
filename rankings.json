@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-14T15:03:01.835Z",
+  "generatedAt": "2026-08-16T11:23:02.381Z",
   "studentCount": 52,
   "rankings": [
     {
@@ -72,11 +72,11 @@
     {
       "id": "s_1778397156600_clkd2u",
       "name": "서연준",
-      "totalSec": 34490,
-      "weekSec": 3188,
-      "monthSec": 8633,
-      "recent3mSec": 34490,
-      "streak": 0,
+      "totalSec": 35004,
+      "weekSec": 3702,
+      "monthSec": 9147,
+      "recent3mSec": 35004,
+      "streak": 1,
       "nickname": "😎",
       "publicNickname": true
     },
@@ -468,11 +468,11 @@
     {
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
-      "totalSec": 9401,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 9401,
-      "streak": 0,
+      "totalSec": 11002,
+      "weekSec": 341,
+      "monthSec": 341,
+      "recent3mSec": 11002,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -490,11 +490,11 @@
     {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
-      "totalSec": 40825,
-      "weekSec": 0,
-      "monthSec": 6479,
-      "recent3mSec": 40825,
-      "streak": 0,
+      "totalSec": 40956,
+      "weekSec": 131,
+      "monthSec": 6610,
+      "recent3mSec": 40956,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -512,11 +512,11 @@
     {
       "id": "s_1784437736068_jgkmca",
       "name": "조해인",
-      "totalSec": 13733,
-      "weekSec": 0,
-      "monthSec": 587,
-      "recent3mSec": 13733,
-      "streak": 0,
+      "totalSec": 17000,
+      "weekSec": 3267,
+      "monthSec": 3854,
+      "recent3mSec": 17000,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -556,11 +556,11 @@
     {
       "id": "s_1786082844440_z9486d",
       "name": "남경원",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
+      "totalSec": 455,
+      "weekSec": 455,
+      "monthSec": 455,
+      "recent3mSec": 455,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

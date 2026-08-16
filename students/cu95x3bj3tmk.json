@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-12T17:34:49.944Z",
+  "generatedAt": "2026-08-16T11:22:31.990Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -333,6 +333,22 @@
       "dueDate": "2026-08-27",
       "isRepeat": false,
       "assignedAt": "2026-08-12T17:34:32.731Z"
+    },
+    {
+      "assignmentId": "task_1786879331314_4kf6it",
+      "round": 1,
+      "title": "공수2 강의 영상 보기(제출일 8/29(토))",
+      "dueDate": "2026-08-29",
+      "isRepeat": false,
+      "assignedAt": "2026-08-16T11:22:11.314Z"
+    },
+    {
+      "assignmentId": "task_1786879331314_f7a6hz",
+      "round": 1,
+      "title": "공수2 강의 영상 보기(제출일 8/30(일))",
+      "dueDate": "2026-08-30",
+      "isRepeat": false,
+      "assignedAt": "2026-08-16T11:22:11.314Z"
     }
   ],
   "myGrades": []

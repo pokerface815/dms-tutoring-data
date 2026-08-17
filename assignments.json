@@ -3448,5 +3448,39 @@
     "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-29",
     "templateId": "tpl_msiknm2uyylh",
     "repeat": null
+  },
+  {
+    "id": "a_1786926779621_iyqwa8",
+    "noteId": "note_1786926767754_swpwag",
+    "noteName": "김채린_개념루트_미분계수와 도함수(~173번)",
+    "studentId": "s_1777546951753_p3pskl",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-08-17",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-08-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-08-24",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-07",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-08-17T00:32:59.621Z"
   }
 ]

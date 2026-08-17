@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T11:22:33.875Z",
+  "generatedAt": "2026-08-17T00:33:50.415Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -289,8 +289,8 @@
       ],
       "completionRate": {
         "done": 3,
-        "total": 5,
-        "percent": 60
+        "total": 6,
+        "percent": 50
       },
       "noteStages": null
     },
@@ -452,7 +452,7 @@
     "uploadedAt": "2026-08-12T09:34:13.122Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 2016,
+      "weekSec": 0,
       "monthSec": 4020,
       "streak": 0,
       "bySubjectMonth": {

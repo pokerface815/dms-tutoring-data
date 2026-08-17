@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T00:34:37.002Z",
+  "generatedAt": "2026-08-17T08:18:03.200Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -351,15 +351,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 73~82쪽 음수의 제곱근, 이차방정식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrq6apuaotm",
-        "startedAt": 1784349653892,
-        "seconds": 1729,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 69~72쪽 i의 거듭제곱",
         "reflection": ""
       }
     ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-17T00:33:12.934Z",
+  "generatedAt": "2026-08-17T08:18:01.776Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -353,19 +353,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1786926779621_iyqwa8",
-      "noteName": "김채린_개념루트_미분계수와 도함수(~173번)",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-08-17",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -381,6 +369,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1786926779621_iyqwa8",
+      "noteName": "김채린_개념루트_미분계수와 도함수(~173번)",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-08-17",
+      "done": true,
+      "doneAt": "2026-08-17T08:17:55.216Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1782105074967_33acrc",
       "noteName": "김채린_수학의 바이블 유형 ON 1권_수열의 합( ~996번)",
@@ -636,8 +636,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-08-17",
     "endDate": "2026-08-23"
   },

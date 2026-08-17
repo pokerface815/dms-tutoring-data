@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T12:02:38.322Z",
+  "generatedAt": "2026-08-17T00:33:14.881Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -92,21 +92,30 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-16T12:01:43.937Z",
+    "uploadedAt": "2026-08-16T13:39:17.205Z",
     "summary": {
-      "todaySec": 140,
-      "weekSec": 1483,
-      "monthSec": 14006,
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 17543,
       "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 14006
+        "미적분Ⅰ": 17543
       }
     },
     "logs": [
       {
+        "id": "effort_msvuaxxzr9u",
+        "startedAt": 1786886792927,
+        "seconds": 727,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
+        "reflection": ""
+      },
+      {
         "id": "effort_msvr8av1f3q",
         "startedAt": 1786881595753,
-        "seconds": 140,
+        "seconds": 2950,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T16:29:23.969Z",
+  "generatedAt": "2026-08-17T00:34:14.641Z",
   "student": {
     "id": "s_1783145087770_b6wsph",
     "classes": [
@@ -38,8 +38,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-10",
-    "endDate": "2026-08-16"
+    "startDate": "2026-08-17",
+    "endDate": "2026-08-23"
   },
   "teacherConfirms": {},
   "tasks": [],

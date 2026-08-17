@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-11T14:53:31.375Z",
+  "generatedAt": "2026-08-17T00:33:11.324Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -183,24 +183,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrp7piqmh19",
-        "startedAt": 1784309268413,
-        "seconds": 2582,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrp6ssacz1g",
-        "startedAt": 1784307733491,
-        "seconds": 2454,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
         "reflection": ""
       }
     ]

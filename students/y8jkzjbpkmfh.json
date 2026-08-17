@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-16T11:23:00.583Z",
+  "generatedAt": "2026-08-17T00:33:28.298Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -809,8 +809,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-10",
-    "endDate": "2026-08-16"
+    "startDate": "2026-08-17",
+    "endDate": "2026-08-23"
   },
   "teacherConfirms": {},
   "tasks": [],

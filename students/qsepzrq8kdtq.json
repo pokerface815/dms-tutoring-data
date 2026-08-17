@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-16T12:02:40.111Z",
+  "generatedAt": "2026-08-17T00:33:12.934Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -173,9 +173,20 @@
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
       "reflection": "",
-      "seconds": 140,
+      "seconds": 2950,
       "startedAt": 1786881595753,
       "createdAt": "2026-08-16T12:01:43.933Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msvuaxxzr9u",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
+      "reflection": "",
+      "seconds": 727,
+      "startedAt": 1786886792927,
+      "createdAt": "2026-08-16T13:27:46.007Z",
       "autoRecorded": true
     }
   ],
@@ -258,9 +269,9 @@
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "124~134쪽 부등식에의 활용, 속도와 가속도",
         "durationSec": 4757,
-        "lastPosition": 2654,
-        "lastWatchedAt": "2026-08-16T12:02:21.370Z",
-        "watchedSec": 236
+        "lastPosition": 54,
+        "lastWatchedAt": "2026-08-16T13:26:28.651Z",
+        "watchedSec": 2972
       },
       "m9wVSEc3BX8": {
         "sessionCount": 3,
@@ -291,6 +302,16 @@
         "lastPosition": 4825,
         "lastWatchedAt": "2026-08-10T12:38:19.949Z",
         "watchedSec": 1347
+      },
+      "1NBwUeuJ4II": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
+        "durationSec": 6826,
+        "lastPosition": 2815,
+        "lastWatchedAt": "2026-08-16T13:39:19.187Z",
+        "watchedSec": 727
       }
     },
     "daily": {
@@ -326,14 +347,39 @@
         "megu-Gxod_Q": 1343
       },
       "2026-08-16": {
-        "ugyX19AJiaA": 236
+        "ugyX19AJiaA": 2972,
+        "1NBwUeuJ4II": 727
       }
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1786926779621_iyqwa8",
+      "noteName": "김채린_개념루트_미분계수와 도함수(~173번)",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-08-17",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1786926779621_iyqwa8",
+      "noteName": "김채린_개념루트_미분계수와 도함수(~173번)",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-08-19",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1782105074967_33acrc",
@@ -589,11 +635,11 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 2,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-10",
-    "endDate": "2026-08-16"
+    "startDate": "2026-08-17",
+    "endDate": "2026-08-23"
   },
   "teacherConfirms": {
     "task_1784794099894_94ldcq__1": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-11T14:53:15.073Z",
+  "generatedAt": "2026-08-17T08:18:04.364Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -38,15 +38,6 @@
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrprflo6rly",
-        "startedAt": 1784342403090,
-        "seconds": 1982,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
         "reflection": ""
       }
     ]

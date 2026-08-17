@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T16:28:18.126Z",
+  "generatedAt": "2026-08-17T00:33:09.350Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -248,16 +248,6 @@
         "lastWatchedAt": "2026-07-09T06:14:16.542Z",
         "watchedSec": 4821
       },
-      "Fqe7TRl46mA": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
-        "durationSec": 5351,
-        "lastPosition": 2704,
-        "lastWatchedAt": "2026-07-17T17:51:31.342Z",
-        "watchedSec": 2582
-      },
       "AJE79srmVL8": {
         "sessionCount": 1,
         "lectureId": "lec_mqkscmibfht",
@@ -267,6 +257,16 @@
         "lastPosition": 5538,
         "lastWatchedAt": "2026-07-17T17:27:46.624Z",
         "watchedSec": 2454
+      },
+      "Fqe7TRl46mA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+        "durationSec": 5351,
+        "lastPosition": 2704,
+        "lastWatchedAt": "2026-07-17T17:51:31.342Z",
+        "watchedSec": 2582
       },
       "WhKzMT5MG0A": {
         "sessionCount": 3,
@@ -369,13 +369,13 @@
         "watchedSec": 2350
       },
       "megu-Gxod_Q": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
         "durationSec": 4900,
         "lastPosition": 3664,
-        "lastWatchedAt": "2026-08-07T11:00:58.767Z",
+        "lastWatchedAt": "2026-08-16T13:10:11.819Z",
         "watchedSec": 11
       }
     },
@@ -525,8 +525,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-10",
-    "endDate": "2026-08-16"
+    "startDate": "2026-08-17",
+    "endDate": "2026-08-23"
   },
   "teacherConfirms": {},
   "tasks": [],

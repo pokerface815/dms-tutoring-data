@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-17T00:33:48.886Z",
+  "generatedAt": "2026-08-18T02:35:12.518Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -355,6 +355,14 @@
       "dueDate": "2026-08-30",
       "isRepeat": false,
       "assignedAt": "2026-08-16T11:22:11.314Z"
+    },
+    {
+      "assignmentId": "task_1787020493907_z7j0o4",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/1(화))",
+      "dueDate": "2026-09-01",
+      "isRepeat": false,
+      "assignedAt": "2026-08-18T02:34:53.907Z"
     }
   ],
   "myGrades": []

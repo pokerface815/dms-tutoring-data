@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T00:34:47.553Z",
+  "generatedAt": "2026-08-18T02:35:25.759Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,17 +11,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-15T07:09:29.555Z",
+    "uploadedAt": "2026-08-17T05:54:26.806Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 3854,
-      "streak": 0,
+      "weekSec": 2465,
+      "monthSec": 6319,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 3854
+        "미적분Ⅰ": 6319
       }
     },
     "logs": [
+      {
+        "id": "effort_msws3xi0rn6",
+        "startedAt": 1786943584047,
+        "seconds": 2266,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 82~99쪽 미분가능성과 연속성, 도함수(+다항함수의 도함수), 곱의 미분법",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msws1tltvct",
+        "startedAt": 1786943455933,
+        "seconds": 199,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 82~99쪽 미분가능성과 연속성, 도함수(+다항함수의 도함수), 곱의 미분법",
+        "reflection": ""
+      },
       {
         "id": "effort_msu0qv0irmg",
         "startedAt": 1786776686029,

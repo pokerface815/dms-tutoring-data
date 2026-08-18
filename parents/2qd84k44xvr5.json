@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T02:35:03.723Z",
+  "generatedAt": "2026-08-18T09:15:05.884Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -156,24 +156,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrr70jcr8pc",
-        "startedAt": 1784428975789,
-        "seconds": 785,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrr6qex74f0",
-        "startedAt": 1784428531631,
-        "seconds": 655,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
         "reflection": ""
       }
     ]

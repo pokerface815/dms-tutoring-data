@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T11:22:42.366Z",
+  "generatedAt": "2026-08-18T02:35:20.774Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,17 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-15T14:12:15.638Z",
+    "uploadedAt": "2026-08-17T05:59:38.920Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 1517,
-      "streak": 0,
+      "weekSec": 2331,
+      "monthSec": 3848,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 1517
+        "미적분Ⅰ": 3848
       }
     },
     "logs": [
+      {
+        "id": "effort_msws17u5lp5",
+        "startedAt": 1786943403289,
+        "seconds": 2331,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
+        "reflection": ""
+      },
       {
         "id": "effort_msehjku6slp",
         "startedAt": 1785837441355,

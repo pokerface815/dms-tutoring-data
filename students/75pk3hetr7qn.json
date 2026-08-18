@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-17T00:34:45.610Z",
+  "generatedAt": "2026-08-18T02:35:24.286Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -100,6 +100,28 @@
       "startedAt": 1786776686029,
       "createdAt": "2026-08-15T06:52:34.050Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msws1tltvct",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 82~99쪽 미분가능성과 연속성, 도함수(+다항함수의 도함수), 곱의 미분법",
+      "reflection": "",
+      "seconds": 199,
+      "startedAt": 1786943455933,
+      "createdAt": "2026-08-17T05:12:27.425Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_msws3xi0rn6",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 82~99쪽 미분가능성과 연속성, 도함수(+다항함수의 도함수), 곱의 미분법",
+      "reflection": "",
+      "seconds": 2266,
+      "startedAt": 1786943584047,
+      "createdAt": "2026-08-17T05:14:05.784Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -146,24 +168,24 @@
         "watchedSec": 1
       },
       "OIDvXwg6tkg": {
-        "sessionCount": 7,
+        "sessionCount": 8,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
         "durationSec": 5879,
-        "lastPosition": 5878,
-        "lastWatchedAt": "2026-08-15T07:09:44.758Z",
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-08-17T05:10:54.843Z",
         "watchedSec": 3883
       },
       "Owo2_OgWPto": {
-        "sessionCount": 2,
+        "sessionCount": 4,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "3",
+        "videoTitle": "82~99쪽 미분가능성과 연속성, 도함수(+다항함수의 도함수), 곱의 미분법",
         "durationSec": 6101,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-08-09T02:07:47.671Z",
-        "watchedSec": 0
+        "lastPosition": 3237,
+        "lastWatchedAt": "2026-08-17T06:47:29.767Z",
+        "watchedSec": 2465
       }
     },
     "daily": {
@@ -186,6 +208,9 @@
       },
       "2026-08-15": {
         "OIDvXwg6tkg": 3267
+      },
+      "2026-08-17": {
+        "Owo2_OgWPto": 2465
       }
     }
   },

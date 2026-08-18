@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T02:35:01.788Z",
+  "generatedAt": "2026-08-18T09:15:09.249Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -457,10 +457,10 @@
     {
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
-      "totalSec": 11002,
+      "totalSec": 9742,
       "weekSec": 0,
       "monthSec": 341,
-      "recent3mSec": 11002,
+      "recent3mSec": 9742,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -545,11 +545,11 @@
     {
       "id": "s_1786082844440_z9486d",
       "name": "남경원",
-      "totalSec": 455,
-      "weekSec": 0,
-      "monthSec": 455,
-      "recent3mSec": 455,
-      "streak": 0,
+      "totalSec": 930,
+      "weekSec": 413,
+      "monthSec": 930,
+      "recent3mSec": 930,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

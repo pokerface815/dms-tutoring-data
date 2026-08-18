@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T02:35:17.580Z",
+  "generatedAt": "2026-08-18T09:15:00.163Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -134,7 +134,7 @@
             {
               "title": "라이트쎈 공수1 매일 2장씩(제출일 8/18(화))",
               "dueDate": "2026-08-18",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -268,7 +268,7 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-15T12:37:46.606Z",
+    "uploadedAt": "2026-08-18T07:42:54.278Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
@@ -300,7 +300,7 @@
       {
         "id": "effort_ms0cvtrtfss",
         "startedAt": 1784983155043,
-        "seconds": 2325,
+        "seconds": 2324,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",
@@ -367,15 +367,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrr9yvd3qpe",
-        "startedAt": 1784433978905,
-        "seconds": 949,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 73~82쪽 음수의 제곱근, 이차방정식",
         "reflection": ""
       }
     ]

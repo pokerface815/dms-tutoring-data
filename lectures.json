@@ -1152,6 +1152,12 @@
         "title": "61~63쪽 세 점을 지나는 원의 방정식, 두 원의 교점을 지나는 원의 방정식",
         "position": 8,
         "durationSec": 4684
+      },
+      {
+        "videoId": "kldz7U32DcI",
+        "title": "67~71쪽 연습문제 질문(66쪽) + 원과 직선의 위치관계",
+        "position": 9,
+        "durationSec": 4133
       }
     ],
     "permissions": {
@@ -1160,8 +1166,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-08-09T17:16:22.327Z",
-    "lastSyncedAt": "2026-08-09T17:16:22.327Z"
+    "updatedAt": "2026-08-18T09:23:39.141Z",
+    "lastSyncedAt": "2026-08-18T09:23:39.141Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1226,6 +1232,12 @@
         "title": "58~63쪽 원의 방정식 (2)일반형 + 연습문제 17번(66쪽)",
         "position": 8,
         "durationSec": 4389
+      },
+      {
+        "videoId": "kldz7U32DcI",
+        "title": "67~71쪽 연습문제 질문(66쪽) + 원과 직선의 위치관계",
+        "position": 9,
+        "durationSec": 4133
       }
     ],
     "permissions": {
@@ -1234,8 +1246,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-08-09T17:16:26.407Z",
-    "lastSyncedAt": "2026-08-09T17:16:26.407Z"
+    "updatedAt": "2026-08-18T09:23:42.639Z",
+    "lastSyncedAt": "2026-08-18T09:23:42.639Z"
   },
   {
     "id": "lec_mririwvdtb6",
@@ -1294,6 +1306,12 @@
         "title": "100~121쪽 173번 질문 + 미분계수 마무리 + 도함수의 활용(1) - 접선의 방정식",
         "position": 7,
         "durationSec": 5949
+      },
+      {
+        "videoId": "HxJ3gc3rJ-Q",
+        "title": "122~143쪽 과제 질문(219번) + 롤의 정리, 평균값정리 + 함수의 증가와 감소, 극대와 감소",
+        "position": 8,
+        "durationSec": 7049
       }
     ],
     "permissions": {
@@ -1302,8 +1320,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-08-09T17:16:31.248Z",
-    "lastSyncedAt": "2026-08-09T17:16:31.248Z"
+    "updatedAt": "2026-08-18T09:23:47.425Z",
+    "lastSyncedAt": "2026-08-18T09:23:47.425Z"
   },
   {
     "id": "lec_mrq99fx1qmz",
@@ -1356,6 +1374,12 @@
         "title": "70~73쪽 05.도함수의 활용(2)",
         "position": 6,
         "durationSec": 441
+      },
+      {
+        "videoId": "LOYOXfZo2aI",
+        "title": "74~87쪽 도함수의 활용(3)",
+        "position": 7,
+        "durationSec": 3111
       }
     ],
     "permissions": {
@@ -1364,8 +1388,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-08-09T17:16:35.398Z",
-    "lastSyncedAt": "2026-08-09T17:16:35.398Z"
+    "updatedAt": "2026-08-18T09:23:51.297Z",
+    "lastSyncedAt": "2026-08-18T09:23:51.297Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1418,6 +1442,12 @@
         "title": "72~73쪽 05.도함수의 활용(2)",
         "position": 6,
         "durationSec": 402
+      },
+      {
+        "videoId": "LOYOXfZo2aI",
+        "title": "74~87쪽 도함수의 활용(3)",
+        "position": 7,
+        "durationSec": 3111
       }
     ],
     "permissions": {
@@ -1426,8 +1456,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-08-09T17:16:37.868Z",
-    "lastSyncedAt": "2026-08-09T17:16:37.868Z"
+    "updatedAt": "2026-08-18T09:23:54.316Z",
+    "lastSyncedAt": "2026-08-18T09:23:54.316Z"
   },
   {
     "id": "lec_mqkscmibfht",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-17T00:34:38.932Z",
+  "generatedAt": "2026-08-18T02:35:19.321Z",
   "student": {
     "id": "s_1784351071584_hs9hej",
     "classes": [
@@ -34,6 +34,17 @@
       "startedAt": 1785837441355,
       "createdAt": "2026-08-04T09:58:28.926Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msws17u5lp5",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
+      "reflection": "",
+      "seconds": 2331,
+      "startedAt": 1786943403289,
+      "createdAt": "2026-08-17T05:11:59.213Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -50,17 +61,19 @@
         "watchedSec": 1530
       },
       "druHHRnA4jk": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "3",
+        "videoTitle": "38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
         "durationSec": 5637,
-        "lastPosition": 481,
-        "lastWatchedAt": "2026-08-04T10:23:16.792Z",
-        "watchedSec": 86
+        "lastPosition": 2693,
+        "lastWatchedAt": "2026-08-17T05:59:47.077Z",
+        "watchedSec": 2417
       },
       "OIDvXwg6tkg": {
-        "sessionCount": 1
+        "sessionCount": 1,
+        "watchedSec": 0,
+        "lastPosition": 0
       }
     },
     "daily": {
@@ -72,6 +85,9 @@
       },
       "2026-08-04": {
         "-AeZPJJq6M0": 1517
+      },
+      "2026-08-17": {
+        "druHHRnA4jk": 2331
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T00:33:14.881Z",
+  "generatedAt": "2026-08-18T02:35:05.194Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -8,6 +8,19 @@
     "grade": "고2"
   },
   "months": [
+    {
+      "ym": "2026-08",
+      "label": "2026년 8월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 1,
+          "total": 1,
+          "percent": 100
+        }
+      }
+    },
     {
       "ym": "2026-07",
       "label": "2026년 7월",
@@ -97,7 +110,7 @@
       "todaySec": 0,
       "weekSec": 0,
       "monthSec": 17543,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "미적분Ⅰ": 17543
       }
@@ -218,33 +231,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrqqd6u30j5",
-        "startedAt": 1784401045489,
-        "seconds": 511,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrqq6defz79",
-        "startedAt": 1784400683514,
-        "seconds": 565,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrqmnkjepgo",
-        "startedAt": 1784394775738,
-        "seconds": 268,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 5",
         "reflection": ""
       }
     ]

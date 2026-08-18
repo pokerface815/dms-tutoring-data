@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-18T02:35:27.374Z",
+  "generatedAt": "2026-08-18T09:14:58.249Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -13,6 +13,17 @@
     "showMakeNote": false
   },
   "syncedEffortLogs": [
+    {
+      "id": "effort_msv9qqje01v",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "쎈B 중3-2 (26년 7월 ~ ) — 36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
+      "reflection": "",
+      "seconds": 62,
+      "startedAt": 1786852242899,
+      "createdAt": "2026-08-16T03:52:10.970Z",
+      "autoRecorded": true
+    },
     {
       "id": "effort_msv9wcz53ai",
       "subject": "중3",
@@ -34,20 +45,31 @@
       "startedAt": 1786852699129,
       "createdAt": "2026-08-16T04:01:28.757Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msyf4mhcwlm",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "쎈B 중3-2 (26년 7월 ~ ) — 36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
+      "reflection": "",
+      "seconds": 413,
+      "startedAt": 1787042580594,
+      "createdAt": "2026-08-18T08:46:15.505Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "ouu9eZPx_nI": {
-        "sessionCount": 2,
+        "sessionCount": 5,
         "lectureId": "lec_ms6op29vnfs",
         "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
         "videoTitle": "36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
         "durationSec": 2747,
-        "lastPosition": 2324,
-        "lastWatchedAt": "2026-08-17T11:01:37.548Z",
-        "watchedSec": 491
+        "lastPosition": 2327,
+        "lastWatchedAt": "2026-08-18T08:53:34.866Z",
+        "watchedSec": 908
       }
     },
     "daily": {
@@ -56,6 +78,9 @@
       },
       "2026-08-17": {
         "ouu9eZPx_nI": 36
+      },
+      "2026-08-18": {
+        "ouu9eZPx_nI": 417
       }
     }
   },

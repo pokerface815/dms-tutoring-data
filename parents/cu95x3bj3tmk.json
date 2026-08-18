@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T00:33:50.415Z",
+  "generatedAt": "2026-08-18T02:35:14.011Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -8,6 +8,31 @@
     "grade": "중3"
   },
   "months": [
+    {
+      "ym": "2026-09",
+      "label": "2026년 9월",
+      "lessons": [
+        {
+          "date": "2026-09-01",
+          "weekday": "화",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/1(화))",
+              "dueDate": "2026-09-01",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        }
+      ],
+      "completionRate": null,
+      "noteStages": null
+    },
     {
       "ym": "2026-08",
       "label": "2026년 8월",

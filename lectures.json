@@ -214,13 +214,15 @@
       }
     ],
     "permissions": {
-      "type": "none",
+      "type": "restricted",
       "grades": [],
       "classIds": [],
-      "studentIds": []
+      "studentIds": [
+        "s_1787133495327_6gsbhy"
+      ]
     },
     "createdAt": "2026-06-22T06:42:44.092Z",
-    "updatedAt": "2026-08-07T09:51:48.714Z",
+    "updatedAt": "2026-08-19T09:59:39.653Z",
     "lastSyncedAt": "2026-07-18T11:02:59.810Z"
   },
   {

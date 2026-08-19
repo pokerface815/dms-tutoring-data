@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-19T12:02:35.674Z",
+  "generatedAt": "2026-08-19T12:17:51.772Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -73,7 +73,7 @@
   "syncedLectureWatch": {
     "videos": {
       "ouu9eZPx_nI": {
-        "sessionCount": 4,
+        "sessionCount": 5,
         "lectureId": "lec_ms6op29vnfs",
         "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
         "videoTitle": "36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
@@ -153,7 +153,7 @@
     },
     "task_1786083194758_jq35aq__1": {
       "comment": "내일 과제를 미리 한거야? 그런데 왜 2페이지 밖에 안 되냐?",
-      "commentAt": "2026-08-17T08:18:30.433Z",
+      "commentAt": "2026-08-19T12:17:44.240Z",
       "confirmed": false,
       "confirmedAt": null,
       "missed": false,

@@ -923,5 +923,16 @@
     "taskBatchId": null,
     "createdAt": "2026-08-19T09:46:31.365Z",
     "updatedAt": "2026-08-19T09:46:31.365Z"
+  },
+  {
+    "id": "lesson_1787132891608_no8gig",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-08-19",
+    "content": "쎈B ~55쪽 이차방정식",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-08-19T09:48:11.608Z",
+    "updatedAt": "2026-08-19T09:48:11.608Z"
   }
 ]

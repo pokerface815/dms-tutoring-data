@@ -1515,5 +1515,36 @@
         "to": null
       }
     ]
+  },
+  {
+    "id": "s_1787133495327_6gsbhy",
+    "name": "신다은",
+    "school": "양산중",
+    "grade": "중3",
+    "classes": [
+      "cls_1787133475648_yvri1s"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "studentPhone": "010-2460-6354",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": false,
+    "showMakeNote": false,
+    "pageCode": "tg3capbhfdzf",
+    "classHistory": [
+      {
+        "classId": "cls_1787133475648_yvri1s",
+        "from": "2026-08-19",
+        "to": null
+      }
+    ]
   }
 ]

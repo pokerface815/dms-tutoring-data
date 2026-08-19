@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-08-19T09:58:28.683Z",
+  "student": {
+    "id": "s_1787133495327_6gsbhy",
+    "classes": [
+      "cls_1787133475648_yvri1s"
+    ],
+    "name": "신다은",
+    "school": "양산중",
+    "grade": "중3",
+    "class": "",
+    "showMakeNote": false
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-08-17",
+    "endDate": "2026-08-23"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

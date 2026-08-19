@@ -3528,5 +3528,16 @@
     "batchId": "tplbatch_tpl_msiknm2uyylh_2026-09-01",
     "templateId": "tpl_msiknm2uyylh",
     "repeat": null
+  },
+  {
+    "id": "task_1787144385403_x3r9er",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "1단원 다 끝내오기 + 2단원도 풀 수 있는만큼 풀어오기",
+    "dueDate": "2026-08-22",
+    "assignedAt": "2026-08-19T12:59:45.403Z",
+    "batchId": "t_mt03mh6j",
+    "repeat": null,
+    "fromLesson": "lesson_1787144385403_0ullqj"
   }
 ]

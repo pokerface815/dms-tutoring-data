@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T11:25:15.859Z",
+  "generatedAt": "2026-08-19T09:58:26.695Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 51,
+  "studentCount": 52,
   "baseUrl": "",
   "students": [
     {
@@ -463,6 +463,15 @@
       "className": "토,일 12시 30분",
       "studentPageCode": "25jvaxw5nnr2",
       "parentPageCode": "25jvaxw5nnr2"
+    },
+    {
+      "id": "s_1787133495327_6gsbhy",
+      "name": "신다은",
+      "grade": "중3",
+      "school": "양산중",
+      "className": "신다은 개별",
+      "studentPageCode": "tg3capbhfdzf",
+      "parentPageCode": "tg3capbhfdzf"
     }
   ]
 }

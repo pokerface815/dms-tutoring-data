@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-17T00:34:23.287Z",
+  "generatedAt": "2026-08-19T12:17:44.736Z",
   "student": {
     "id": "s_1783735695213_xbid51",
     "classes": [
@@ -23,6 +23,17 @@
       "startedAt": 1785311993771,
       "createdAt": "2026-07-29T08:03:35.649Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mt0082lbsgi",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "11시 수업 - 공통수학2 (26년 7월 ~ ) — 67~71쪽 연습문제 질문(66쪽) + 원과 직선의 위치관계",
+      "reflection": "",
+      "seconds": 3113,
+      "startedAt": 1787138546275,
+      "createdAt": "2026-08-19T11:24:34.463Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -37,11 +48,24 @@
         "lastPosition": 4265,
         "lastWatchedAt": "2026-07-29T08:53:51.248Z",
         "watchedSec": 2898
+      },
+      "kldz7U32DcI": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg80i3ervi",
+        "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "67~71쪽 연습문제 질문(66쪽) + 원과 직선의 위치관계",
+        "durationSec": 4133,
+        "lastPosition": 3556,
+        "lastWatchedAt": "2026-08-19T12:16:40.916Z",
+        "watchedSec": 3172
       }
     },
     "daily": {
       "2026-07-29": {
         "jIjscjI_q2c": 2898
+      },
+      "2026-08-19": {
+        "kldz7U32DcI": 3172
       }
     }
   },

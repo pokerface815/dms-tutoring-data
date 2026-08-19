@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T09:15:09.249Z",
+  "generatedAt": "2026-08-19T09:46:38.324Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -472,7 +472,7 @@
       "weekSec": 2331,
       "monthSec": 3848,
       "recent3mSec": 3934,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -505,7 +505,7 @@
       "weekSec": 2465,
       "monthSec": 6319,
       "recent3mSec": 19465,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -545,10 +545,10 @@
     {
       "id": "s_1786082844440_z9486d",
       "name": "남경원",
-      "totalSec": 930,
-      "weekSec": 413,
-      "monthSec": 930,
-      "recent3mSec": 930,
+      "totalSec": 4120,
+      "weekSec": 3603,
+      "monthSec": 4120,
+      "recent3mSec": 4120,
       "streak": 1,
       "nickname": "",
       "publicNickname": false

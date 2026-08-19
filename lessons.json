@@ -912,5 +912,16 @@
     "taskBatchId": "t_mssttph0",
     "createdAt": "2026-08-14T10:51:03.348Z",
     "updatedAt": "2026-08-14T10:51:03.348Z"
+  },
+  {
+    "id": "lesson_1787132791365_pee77d",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-08-19",
+    "content": "17~19쪽 시험에 꼭 나오는 문제 풀면서 질문\n22쪽까지 풀어져 있음",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-08-19T09:46:31.365Z",
+    "updatedAt": "2026-08-19T09:46:31.365Z"
   }
 ]

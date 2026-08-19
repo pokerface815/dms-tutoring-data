@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T02:35:22.599Z",
+  "generatedAt": "2026-08-19T09:46:51.021Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -209,15 +209,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrsyzp8ubih",
-        "startedAt": 1784534273566,
-        "seconds": 2230,
-        "subject": "수학",
-        "method": "문제 풀이",
-        "content": "개념플러스유형 기하 타원 학습",
         "reflection": ""
       }
     ]

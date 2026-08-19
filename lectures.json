@@ -2405,6 +2405,12 @@
         "title": "40~45쪽 원의 중심에서 현까지의 거리와 현의 길이 + 원의 접선의 성질",
         "position": 4,
         "durationSec": 3330
+      },
+      {
+        "videoId": "AIZEPOlYqh8",
+        "title": "45~50쪽 원의 접선의 성질, 삼각형의 내접원, 원에 외접하는 사각형",
+        "position": 5,
+        "durationSec": 3824
       }
     ],
     "permissions": {
@@ -2413,7 +2419,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-29T22:56:32.707Z",
-    "updatedAt": "2026-08-12T11:39:01.586Z",
-    "lastSyncedAt": "2026-08-12T11:39:01.586Z"
+    "updatedAt": "2026-08-19T12:33:33.227Z",
+    "lastSyncedAt": "2026-08-19T12:33:33.227Z"
   }
 ]

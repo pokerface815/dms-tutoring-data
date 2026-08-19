@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-19T12:17:53.647Z",
+  "generatedAt": "2026-08-19T12:59:56.883Z",
   "studentCount": 52,
   "rankings": [
     {
@@ -391,10 +391,10 @@
     {
       "id": "s_1783735695213_xbid51",
       "name": "정호연",
-      "totalSec": 6011,
-      "weekSec": 3113,
-      "monthSec": 3113,
-      "recent3mSec": 6011,
+      "totalSec": 6672,
+      "weekSec": 3774,
+      "monthSec": 3774,
+      "recent3mSec": 6672,
       "streak": 1,
       "nickname": "",
       "publicNickname": false

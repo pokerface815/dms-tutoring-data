@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-19T09:58:28.683Z",
+  "generatedAt": "2026-08-19T12:17:50.136Z",
   "student": {
     "id": "s_1787133495327_6gsbhy",
     "classes": [
@@ -12,9 +12,39 @@
     "class": "",
     "showMakeNote": false
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mszxnv0iqdo",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-1 개념원리 — 10. 이차방정식의 활용 마무리, 이차함수(p.152~169)",
+      "reflection": "",
+      "seconds": 1534,
+      "startedAt": 1787134248864,
+      "createdAt": "2026-08-19T10:12:52.291Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "XfLmm2Bv5DU": {
+        "sessionCount": 3,
+        "lectureId": "lec_mqoulk4jd0e",
+        "lectureTitle": "2024 1,2월 중3-1 개념원리",
+        "videoTitle": "10. 이차방정식의 활용 마무리, 이차함수(p.152~169)",
+        "durationSec": 4720,
+        "lastPosition": 3971,
+        "lastWatchedAt": "2026-08-19T10:58:21.562Z",
+        "watchedSec": 1580
+      }
+    },
+    "daily": {
+      "2026-08-19": {
+        "XfLmm2Bv5DU": 1580
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

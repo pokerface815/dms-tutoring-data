@@ -475,7 +475,9 @@
     "comment": "내일 과제를 미리 한거야? 그런데 왜 2페이지 밖에 안 되냐?",
     "commentAt": "2026-08-17T08:18:30.433Z",
     "confirmed": false,
-    "confirmedAt": null
+    "confirmedAt": null,
+    "missed": true,
+    "missedAt": "2026-08-19T09:33:47.976Z"
   },
   "cu95x3bj3tmk__task_1786084151694_bovfxx__1": {
     "missed": true,
@@ -494,5 +496,15 @@
     "commentAt": "2026-08-18T09:14:53.241Z",
     "confirmed": true,
     "confirmedAt": "2026-08-18T09:14:53.242Z"
+  },
+  "cu95x3bj3tmk__task_1786083747183_oy0gn5__1": {
+    "confirmed": true,
+    "confirmedAt": "2026-08-19T09:33:49.972Z"
+  },
+  "kwbqx4xu6as9__task_1786080212309_i7uwr1__1": {
+    "missed": true,
+    "missedAt": "2026-08-19T09:33:52.822Z",
+    "confirmed": false,
+    "confirmedAt": null
   }
 }

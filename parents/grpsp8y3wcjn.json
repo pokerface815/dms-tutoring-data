@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-19T12:17:42.866Z",
+  "generatedAt": "2026-08-19T12:59:51.098Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -11,21 +11,21 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-19T12:15:40.916Z",
+    "uploadedAt": "2026-08-19T12:27:24.268Z",
     "summary": {
-      "todaySec": 3113,
-      "weekSec": 3113,
-      "monthSec": 3113,
+      "todaySec": 3774,
+      "weekSec": 3774,
+      "monthSec": 3774,
       "streak": 1,
       "bySubjectMonth": {
-        "공통수학2": 3113
+        "공통수학2": 3774
       }
     },
     "logs": [
       {
         "id": "effort_mt0082lbsgi",
         "startedAt": 1787138546275,
-        "seconds": 3113,
+        "seconds": 3774,
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "11시 수업 - 공통수학2 (26년 7월 ~ ) — 67~71쪽 연습문제 질문(66쪽) + 원과 직선의 위치관계",

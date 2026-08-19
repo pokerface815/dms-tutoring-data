@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-18T09:14:58.249Z",
+  "generatedAt": "2026-08-19T09:33:59.739Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -56,20 +56,41 @@
       "startedAt": 1787042580594,
       "createdAt": "2026-08-18T08:46:15.505Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_msymrde3e17",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "쎈B 중3-2 (26년 7월 ~ ) — 40~45쪽 원의 중심에서 현까지의 거리와 현의 길이 + 원의 접선의 성질",
+      "reflection": "",
+      "seconds": 3190,
+      "startedAt": 1787055422343,
+      "createdAt": "2026-08-18T12:19:54.123Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "ouu9eZPx_nI": {
-        "sessionCount": 5,
+        "sessionCount": 4,
         "lectureId": "lec_ms6op29vnfs",
         "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
         "videoTitle": "36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
         "durationSec": 2747,
-        "lastPosition": 2327,
-        "lastWatchedAt": "2026-08-18T08:53:34.866Z",
-        "watchedSec": 908
+        "lastPosition": 2497,
+        "lastWatchedAt": "2026-08-18T12:17:00.717Z",
+        "watchedSec": 925
+      },
+      "Q-yzoV1QA2s": {
+        "sessionCount": 1,
+        "lectureId": "lec_ms6op29vnfs",
+        "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
+        "videoTitle": "40~45쪽 원의 중심에서 현까지의 거리와 현의 길이 + 원의 접선의 성질",
+        "durationSec": 3330,
+        "lastPosition": 3329,
+        "lastWatchedAt": "2026-08-18T13:20:56.695Z",
+        "watchedSec": 3190
       }
     },
     "daily": {
@@ -80,7 +101,8 @@
         "ouu9eZPx_nI": 36
       },
       "2026-08-18": {
-        "ouu9eZPx_nI": 417
+        "ouu9eZPx_nI": 434,
+        "Q-yzoV1QA2s": 3190
       }
     }
   },
@@ -133,7 +155,9 @@
       "comment": "내일 과제를 미리 한거야? 그런데 왜 2페이지 밖에 안 되냐?",
       "commentAt": "2026-08-17T08:18:30.433Z",
       "confirmed": false,
-      "confirmedAt": null
+      "confirmedAt": null,
+      "missed": true,
+      "missedAt": "2026-08-19T09:33:47.976Z"
     }
   },
   "tasks": [

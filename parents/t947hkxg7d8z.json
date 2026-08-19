@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-14T15:02:55.807Z",
+  "generatedAt": "2026-08-19T12:59:53.309Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-08",
       "label": "2026년 8월",
       "lessons": [
+        {
+          "date": "2026-08-19",
+          "weekday": "수",
+          "className": "조예나 개별",
+          "content": "학교부교재 ~21쪽 고난도 문항\n개념원리, 모의고사 질문\n부교재 풀어온 부분까지 질문 + 고난도 문항 풀이",
+          "task": "1단원 다 끝내오기 + 2단원도 풀 수 있는만큼 풀어오기",
+          "taskDue": "2026-08-22",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-08-14",
           "weekday": "금",

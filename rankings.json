@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-19T09:58:25.517Z",
+  "generatedAt": "2026-08-19T12:17:53.647Z",
   "studentCount": 52,
   "rankings": [
     {
@@ -391,11 +391,11 @@
     {
       "id": "s_1783735695213_xbid51",
       "name": "정호연",
-      "totalSec": 2898,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 2898,
-      "streak": 0,
+      "totalSec": 6011,
+      "weekSec": 3113,
+      "monthSec": 3113,
+      "recent3mSec": 6011,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -468,11 +468,11 @@
     {
       "id": "s_1784351071584_hs9hej",
       "name": "손예서",
-      "totalSec": 3934,
-      "weekSec": 2331,
-      "monthSec": 3848,
-      "recent3mSec": 3934,
-      "streak": 0,
+      "totalSec": 4775,
+      "weekSec": 3172,
+      "monthSec": 4689,
+      "recent3mSec": 4775,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -567,11 +567,11 @@
     {
       "id": "s_1787133495327_6gsbhy",
       "name": "신다은",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
+      "totalSec": 1534,
+      "weekSec": 1534,
+      "monthSec": 1534,
+      "recent3mSec": 1534,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     }

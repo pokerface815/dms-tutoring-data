@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-19T09:46:47.151Z",
+  "generatedAt": "2026-08-20T00:31:42.652Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,23 @@
       "ym": "2026-09",
       "label": "2026년 9월",
       "lessons": [
+        {
+          "date": "2026-09-03",
+          "weekday": "목",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "라이트쎈 공수1 매일 2장씩(제출일 9/3(목))",
+              "dueDate": "2026-09-03",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
         {
           "date": "2026-09-01",
           "weekday": "화",

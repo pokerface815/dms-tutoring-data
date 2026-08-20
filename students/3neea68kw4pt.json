@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-20T05:25:46.341Z",
+  "generatedAt": "2026-08-20T06:51:49.379Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -536,6 +536,15 @@
         "lastPosition": 719,
         "lastWatchedAt": "2026-07-13T10:54:04.090Z",
         "watchedSec": 2
+      },
+      "35fLmSRhScA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
+        "durationSec": 4754,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-08-20T05:23:27.176Z"
       }
     },
     "daily": {
@@ -567,36 +576,12 @@
   "syncedLectureDeletedVideoIds": [
     "AJE79srmVL8"
   ],
-  "today": [
-    {
-      "assignmentId": "a_1787203538383_45luwg",
-      "noteName": "올림포스 기출_03~05",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-08-20",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
-  "upcoming": [
-    {
-      "assignmentId": "a_1787203538383_45luwg",
-      "noteName": "올림포스 기출_03~05",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-08-22",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "upcoming": [],
   "completed": [],
   "weekProgress": {
-    "total": 2,
+    "total": 0,
     "done": 0,
     "percent": 0,
     "startDate": "2026-08-17",

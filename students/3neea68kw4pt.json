@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-17T00:33:45.194Z",
+  "generatedAt": "2026-08-20T05:25:46.341Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -567,12 +567,36 @@
   "syncedLectureDeletedVideoIds": [
     "AJE79srmVL8"
   ],
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1787203538383_45luwg",
+      "noteName": "올림포스 기출_03~05",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-08-20",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1787203538383_45luwg",
+      "noteName": "올림포스 기출_03~05",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-08-22",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [],
   "weekProgress": {
-    "total": 0,
+    "total": 2,
     "done": 0,
     "percent": 0,
     "startDate": "2026-08-17",

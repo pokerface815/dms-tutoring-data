@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-18T09:15:01.970Z",
+  "generatedAt": "2026-08-20T00:31:40.797Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -470,6 +470,14 @@
       "dueDate": "2026-09-01",
       "isRepeat": false,
       "assignedAt": "2026-08-18T02:34:53.907Z"
+    },
+    {
+      "assignmentId": "task_1787185872351_7azlz5",
+      "round": 1,
+      "title": "라이트쎈 공수1 매일 2장씩(제출일 9/3(목))",
+      "dueDate": "2026-09-03",
+      "isRepeat": false,
+      "assignedAt": "2026-08-20T00:31:12.351Z"
     }
   ],
   "myGrades": []

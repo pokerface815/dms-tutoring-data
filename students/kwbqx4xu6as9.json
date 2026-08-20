@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-19T09:34:03.222Z",
+  "generatedAt": "2026-08-20T00:31:31.363Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -350,6 +350,14 @@
       "dueDate": "2026-09-01",
       "isRepeat": false,
       "assignedAt": "2026-08-18T02:34:53.907Z"
+    },
+    {
+      "assignmentId": "task_1787185872351_lnj435",
+      "round": 1,
+      "title": "RPM 공통수학1 매일 2장씩(제출일 9/3(목))",
+      "dueDate": "2026-09-03",
+      "isRepeat": false,
+      "assignedAt": "2026-08-20T00:31:12.351Z"
     }
   ],
   "myGrades": []

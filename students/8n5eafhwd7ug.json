@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-20T00:31:45.977Z",
+  "generatedAt": "2026-08-20T05:22:43.608Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -153,7 +153,7 @@
     },
     "task_1786083194758_jq35aq__1": {
       "comment": "내일 과제를 미리 한거야? 그런데 왜 2페이지 밖에 안 되냐?",
-      "commentAt": "2026-08-19T12:17:44.240Z",
+      "commentAt": "2026-08-20T05:22:35.973Z",
       "confirmed": false,
       "confirmedAt": null,
       "missed": false,

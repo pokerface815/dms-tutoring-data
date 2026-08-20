@@ -474,8 +474,8 @@
   "8n5eafhwd7ug__task_1786083194758_jq35aq__1": {
     "comment": "내일 과제를 미리 한거야? 그런데 왜 2페이지 밖에 안 되냐?",
     "commentAt": "2026-08-20T09:43:10.318Z",
-    "confirmed": false,
-    "confirmedAt": null,
+    "confirmed": true,
+    "confirmedAt": "2026-08-20T14:35:04.577Z",
     "missed": false,
     "missedAt": null
   },
@@ -516,5 +516,11 @@
     "commentAt": "2026-08-20T14:34:20.991Z",
     "confirmed": true,
     "confirmedAt": "2026-08-20T14:34:20.994Z"
+  },
+  "8n5eafhwd7ug__task_1786083194758_b5r7gp__1": {
+    "comment": "오~ 굿 샷!!",
+    "commentAt": "2026-08-20T14:35:00.939Z",
+    "confirmed": true,
+    "confirmedAt": "2026-08-20T14:35:00.940Z"
   }
 }

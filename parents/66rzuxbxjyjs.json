@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-20T00:31:42.652Z",
+  "generatedAt": "2026-08-20T14:34:31.620Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -134,7 +134,7 @@
             {
               "title": "라이트쎈 공수1 매일 2장씩(제출일 8/20(목))",
               "dueDate": "2026-08-20",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -375,15 +375,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 95~105쪽 이차방정식과 이차함수의 관계",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrup2ocu0d2",
-        "startedAt": 1784640770329,
-        "seconds": 244,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
         "reflection": ""
       }
     ]

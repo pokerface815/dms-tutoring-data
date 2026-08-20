@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-19T09:46:40.066Z",
+  "generatedAt": "2026-08-20T00:31:24.290Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -353,7 +353,8 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [
     {
       "assignmentId": "a_1786926779621_iyqwa8",
       "noteName": "김채린_개념루트_미분계수와 도함수(~173번)",
@@ -366,7 +367,6 @@
       "missedAt": null
     }
   ],
-  "overdue": [],
   "upcoming": [],
   "completed": [
     {

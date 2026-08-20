@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-20T00:31:40.797Z",
+  "generatedAt": "2026-08-20T14:34:29.004Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -372,6 +372,12 @@
       "commentAt": "2026-08-18T09:14:53.241Z",
       "confirmed": true,
       "confirmedAt": "2026-08-18T09:14:53.242Z"
+    },
+    "task_1786084600711_83qfcl__1": {
+      "comment": "잘 했어요^^",
+      "commentAt": "2026-08-20T14:34:20.991Z",
+      "confirmed": true,
+      "confirmedAt": "2026-08-20T14:34:20.994Z"
     }
   },
   "tasks": [

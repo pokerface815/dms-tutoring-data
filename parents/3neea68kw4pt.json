@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T00:33:47.241Z",
+  "generatedAt": "2026-08-21T14:10:31.596Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -279,42 +279,6 @@
         "subject": "기하",
         "method": "문제 풀이",
         "content": "개쁠 쌍곡선",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrvg7f5tito",
-        "startedAt": 1784683669908,
-        "seconds": 1937,
-        "subject": "기하",
-        "method": "문제 풀이",
-        "content": "개쁠 타원",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrvego773w8",
-        "startedAt": 1784682983413,
-        "seconds": 476,
-        "subject": "기하",
-        "method": "문제 풀이",
-        "content": "타원",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrvdncv5d1h",
-        "startedAt": 1784680916268,
-        "seconds": 1145,
-        "subject": "기하",
-        "method": "문제 풀이",
-        "content": "개쁠 타원",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrulzx6okuq",
-        "startedAt": 1784631825807,
-        "seconds": 3810,
-        "subject": "기하",
-        "method": "문제 풀이",
-        "content": "개+유 포물선의 방정식",
         "reflection": ""
       }
     ]

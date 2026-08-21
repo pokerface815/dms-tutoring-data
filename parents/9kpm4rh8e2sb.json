@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T09:15:07.508Z",
+  "generatedAt": "2026-08-21T14:10:25.991Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -135,15 +135,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrvhwuumidk",
-        "startedAt": 1784689208179,
-        "seconds": 5864,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
         "reflection": ""
       }
     ]

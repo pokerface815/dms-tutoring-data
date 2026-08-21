@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-20T00:31:26.109Z",
+  "generatedAt": "2026-08-21T14:10:24.068Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -20,9 +20,9 @@
           "percent": 100
         },
         "2": {
-          "done": 0,
+          "done": 1,
           "total": 1,
-          "percent": 0
+          "percent": 100
         }
       }
     },

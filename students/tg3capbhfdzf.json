@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-19T12:17:50.136Z",
+  "generatedAt": "2026-08-21T14:10:44.888Z",
   "student": {
     "id": "s_1787133495327_6gsbhy",
     "classes": [
@@ -23,6 +23,28 @@
       "startedAt": 1787134248864,
       "createdAt": "2026-08-19T10:12:52.291Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mt206rucjn6",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-1 개념원리 — 12. 이차함수의 그래프(~p.193)",
+      "reflection": "",
+      "seconds": 79,
+      "startedAt": 1787259482592,
+      "createdAt": "2026-08-20T20:59:06.228Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mt209jqrl0o",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-1 개념원리 — 11. 이차함수 그래프 평행이동(p.170~179)",
+      "reflection": "",
+      "seconds": 2124,
+      "startedAt": 1787259569128,
+      "createdAt": "2026-08-20T21:01:15.699Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -37,11 +59,35 @@
         "lastPosition": 3971,
         "lastWatchedAt": "2026-08-19T10:58:21.562Z",
         "watchedSec": 1580
+      },
+      "rD2lw_UDlmA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqoulk4jd0e",
+        "lectureTitle": "2024 1,2월 중3-1 개념원리",
+        "videoTitle": "12. 이차함수의 그래프(~p.193)",
+        "durationSec": 4896,
+        "lastPosition": 79,
+        "lastWatchedAt": "2026-08-20T20:59:26.865Z",
+        "watchedSec": 79
+      },
+      "bwkJ3KoOsTM": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqoulk4jd0e",
+        "lectureTitle": "2024 1,2월 중3-1 개념원리",
+        "videoTitle": "11. 이차함수 그래프 평행이동(p.170~179)",
+        "durationSec": 2682,
+        "lastPosition": 2642,
+        "lastWatchedAt": "2026-08-20T21:35:09.862Z",
+        "watchedSec": 2124
       }
     },
     "daily": {
       "2026-08-19": {
         "XfLmm2Bv5DU": 1580
+      },
+      "2026-08-21": {
+        "rD2lw_UDlmA": 79,
+        "bwkJ3KoOsTM": 2124
       }
     }
   },

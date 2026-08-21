@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-20T00:31:22.686Z",
+  "generatedAt": "2026-08-21T14:10:20.433Z",
   "studentCount": 52,
   "rankings": [
     {
@@ -395,7 +395,7 @@
       "weekSec": 3774,
       "monthSec": 3774,
       "recent3mSec": 6672,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -472,7 +472,7 @@
       "weekSec": 3172,
       "monthSec": 4689,
       "recent3mSec": 4775,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -567,10 +567,10 @@
     {
       "id": "s_1787133495327_6gsbhy",
       "name": "신다은",
-      "totalSec": 1534,
-      "weekSec": 1534,
-      "monthSec": 1534,
-      "recent3mSec": 1534,
+      "totalSec": 3737,
+      "weekSec": 3737,
+      "monthSec": 3737,
+      "recent3mSec": 3737,
       "streak": 1,
       "nickname": "",
       "publicNickname": false

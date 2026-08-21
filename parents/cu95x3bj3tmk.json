@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-20T00:31:36.818Z",
+  "generatedAt": "2026-08-21T14:10:33.537Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -343,8 +343,8 @@
       ],
       "completionRate": {
         "done": 4,
-        "total": 7,
-        "percent": 57
+        "total": 8,
+        "percent": 50
       },
       "noteStages": null
     },
@@ -566,24 +566,6 @@
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrvsfu2gmhp",
-        "startedAt": 1784706891563,
-        "seconds": 657,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrvpustbewv",
-        "startedAt": 1784702490507,
-        "seconds": 2569,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "공통수학2 개념+유형 (26년 1, 2월) — 35~40쪽 두 직선의 평행과 수직",
         "reflection": ""
       }
     ]

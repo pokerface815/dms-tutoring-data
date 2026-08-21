@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-21T16:00:47.333Z",
+  "generatedAt": "2026-08-21T16:01:13.959Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -420,22 +420,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1787328040228_s2ftfb",
       "noteName": "송유림_개념루트_전체",
       "subject": "미적분Ⅰ",
       "round": 1,
       "plannedDate": "2026-08-22",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-08-21T16:01:07.034Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1779281960451_f7td1x",
       "noteName": "송유림_종합 오답노트 (2개 합본 · 2026-05-20)",
@@ -535,8 +535,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-08-17",
     "endDate": "2026-08-23"
   },

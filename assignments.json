@@ -3607,8 +3607,10 @@
       {
         "stage": 1,
         "planned": "2026-08-22",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-08-21T16:01:07.034Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,

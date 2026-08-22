@@ -3668,5 +3668,39 @@
       }
     ],
     "createdAt": "2026-08-22T07:27:28.855Z"
+  },
+  {
+    "id": "a_1787400471109_psbqsx",
+    "noteId": "note_1787400457916_n3zayg",
+    "noteName": "조예나_올림포스 유형평_01.함수의 극한",
+    "studentId": "s_1777547047005_uo92w5",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-08-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-08-24",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-08-29",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-12",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-08-22T12:07:51.109Z"
   }
 ]

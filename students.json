@@ -1416,41 +1416,6 @@
     ]
   },
   {
-    "id": "s_1785155932586_9cmims",
-    "name": "이지호",
-    "school": "국제고",
-    "grade": "고1",
-    "classes": [
-      "cls_1783735589810_tlwac7"
-    ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-3523-9432",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
-    "pageCode": "psczdq3zn5zn",
-    "classHistory": [
-      {
-        "classId": "cls_1783735589810_tlwac7",
-        "from": "2026-07-27",
-        "to": null
-      }
-    ]
-  },
-  {
     "id": "s_1786082844440_z9486d",
     "name": "남경원",
     "school": "살레시오중",

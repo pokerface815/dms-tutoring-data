@@ -1162,6 +1162,12 @@
         "title": "67~71쪽 연습문제 질문(66쪽) + 원과 직선의 위치관계",
         "position": 9,
         "durationSec": 4133
+      },
+      {
+        "videoId": "z7KaxKJfoFU",
+        "title": "1",
+        "position": 10,
+        "durationSec": 4471
       }
     ],
     "permissions": {
@@ -1170,8 +1176,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-08-18T09:23:39.141Z",
-    "lastSyncedAt": "2026-08-18T09:23:39.141Z"
+    "updatedAt": "2026-08-22T15:26:25.503Z",
+    "lastSyncedAt": "2026-08-22T15:26:25.503Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1242,6 +1248,12 @@
         "title": "67~71쪽 연습문제 질문(66쪽) + 원과 직선의 위치관계",
         "position": 9,
         "durationSec": 4133
+      },
+      {
+        "videoId": "7OOH7WN1haM",
+        "title": "2",
+        "position": 10,
+        "durationSec": 4558
       }
     ],
     "permissions": {
@@ -1250,8 +1262,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-08-18T09:23:42.639Z",
-    "lastSyncedAt": "2026-08-18T09:23:42.639Z"
+    "updatedAt": "2026-08-22T15:26:28.254Z",
+    "lastSyncedAt": "2026-08-22T15:26:28.254Z"
   },
   {
     "id": "lec_mririwvdtb6",

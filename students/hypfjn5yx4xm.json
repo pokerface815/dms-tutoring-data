@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-22T07:27:36.508Z",
+  "generatedAt": "2026-08-22T11:14:04.243Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -133,22 +133,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1787383648855_t3lvvs",
       "noteName": "이경주_올림포스 기출문제집_01.함수의 극한",
       "subject": "미적분Ⅰ",
       "round": 1,
       "plannedDate": "2026-08-22",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-08-22T11:13:54.804Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1782031302470_7xoavo",
       "noteName": "이경주_개념루트_재오답_6월21일",
@@ -496,24 +496,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1780674000953_zztmxb",
-      "noteName": "이경주_수매씽 유형_수학적 귀납법( ~2390번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-06",
-      "done": true,
-      "doneAt": "2026-06-06T12:01:54.228Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-08-17",
     "endDate": "2026-08-23"
   },

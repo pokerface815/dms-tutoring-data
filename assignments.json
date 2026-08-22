@@ -3632,5 +3632,39 @@
       }
     ],
     "createdAt": "2026-08-21T16:00:40.228Z"
+  },
+  {
+    "id": "a_1787383648855_t3lvvs",
+    "noteId": "note_1787383636323_f1ac33",
+    "noteName": "이경주_올림포스 기출문제집_01.함수의 극한",
+    "studentId": "s_1778325875686_1uoe4b",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-08-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-08-24",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-08-29",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-12",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-08-22T07:27:28.855Z"
   }
 ]

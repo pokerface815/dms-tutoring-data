@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T15:26:46.056Z",
+  "generatedAt": "2026-08-22T16:08:56.528Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,23 @@
       "ym": "2026-09",
       "label": "2026년 9월",
       "lessons": [
+        {
+          "date": "2026-09-06",
+          "weekday": "일",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "공수2 강의 영상 보기(제출일 9/6(일))",
+              "dueDate": "2026-09-06",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
         {
           "date": "2026-09-05",
           "weekday": "토",

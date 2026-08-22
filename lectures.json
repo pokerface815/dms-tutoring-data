@@ -1328,6 +1328,12 @@
         "title": "122~143쪽 과제 질문(219번) + 롤의 정리, 평균값정리 + 함수의 증가와 감소, 극대와 감소",
         "position": 8,
         "durationSec": 7049
+      },
+      {
+        "videoId": "2uO24hSkCak",
+        "title": "3",
+        "position": 9,
+        "durationSec": 6016
       }
     ],
     "permissions": {
@@ -1336,8 +1342,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-08-18T09:23:47.425Z",
-    "lastSyncedAt": "2026-08-18T09:23:47.425Z"
+    "updatedAt": "2026-08-22T15:26:36.078Z",
+    "lastSyncedAt": "2026-08-22T15:26:36.078Z"
   },
   {
     "id": "lec_mrq99fx1qmz",

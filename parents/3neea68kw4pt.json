@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-21T14:10:31.596Z",
+  "generatedAt": "2026-08-22T07:27:42.864Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -261,24 +261,6 @@
         "subject": "기하",
         "method": "문제 풀이",
         "content": "쎈",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrx64sekn2w",
-        "startedAt": 1784787373542,
-        "seconds": 3033,
-        "subject": "기하",
-        "method": "문제 풀이",
-        "content": "개쁠 쌍곡선",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrx4bcyqx97",
-        "startedAt": 1784784328877,
-        "seconds": 3010,
-        "subject": "기하",
-        "method": "문제 풀이",
-        "content": "개쁠 쌍곡선",
         "reflection": ""
       }
     ]

@@ -3704,5 +3704,16 @@
       }
     ],
     "createdAt": "2026-08-22T12:07:51.109Z"
+  },
+  {
+    "id": "task_1787414924615_bcgfst",
+    "type": "task",
+    "studentId": "s_1780309359751_gjl2s0",
+    "title": "공수2 강의 영상 보기(제출일 9/6(일))",
+    "dueDate": "2026-09-06",
+    "assignedAt": "2026-08-22T16:08:44.615Z",
+    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-09-06",
+    "templateId": "tpl_msikdzm6sssq",
+    "repeat": null
   }
 ]

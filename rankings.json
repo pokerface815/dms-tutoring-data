@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T03:31:10.393Z",
+  "generatedAt": "2026-08-22T03:35:36.332Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -501,11 +501,11 @@
     {
       "id": "s_1784437736068_jgkmca",
       "name": "조해인",
-      "totalSec": 19465,
-      "weekSec": 2465,
-      "monthSec": 6319,
-      "recent3mSec": 19465,
-      "streak": 0,
+      "totalSec": 23022,
+      "weekSec": 6022,
+      "monthSec": 9876,
+      "recent3mSec": 23022,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

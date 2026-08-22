@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T03:35:36.332Z",
+  "generatedAt": "2026-08-22T11:14:02.385Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -468,11 +468,11 @@
     {
       "id": "s_1784351071584_hs9hej",
       "name": "손예서",
-      "totalSec": 4775,
-      "weekSec": 3172,
-      "monthSec": 4689,
-      "recent3mSec": 4775,
-      "streak": 0,
+      "totalSec": 7519,
+      "weekSec": 5916,
+      "monthSec": 7433,
+      "recent3mSec": 7519,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

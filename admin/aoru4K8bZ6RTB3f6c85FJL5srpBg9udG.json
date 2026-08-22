@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-19T09:58:26.695Z",
+  "generatedAt": "2026-08-22T03:31:12.233Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 52,
+  "studentCount": 51,
   "baseUrl": "",
   "students": [
     {
@@ -436,15 +436,6 @@
       "className": "토,일 12시 30분",
       "studentPageCode": "naan7bk6dx9e",
       "parentPageCode": "naan7bk6dx9e"
-    },
-    {
-      "id": "s_1785155932586_9cmims",
-      "name": "이지호",
-      "grade": "고1",
-      "school": "국제고",
-      "className": "토,일 11시",
-      "studentPageCode": "psczdq3zn5zn",
-      "parentPageCode": "psczdq3zn5zn"
     },
     {
       "id": "s_1786082844440_z9486d",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-21T14:10:38.861Z",
+  "generatedAt": "2026-08-22T11:14:11.188Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,17 +11,44 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-19T10:58:00.237Z",
+    "uploadedAt": "2026-08-22T06:26:46.961Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 3172,
-      "monthSec": 4689,
-      "streak": 0,
+      "todaySec": 2744,
+      "weekSec": 5916,
+      "monthSec": 7433,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 4689
+        "미적분Ⅰ": 7433
       }
     },
     "logs": [
+      {
+        "id": "effort_mt3ybgqoln0",
+        "startedAt": 1787377272117,
+        "seconds": 1156,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 54~66쪽 81번 풀이 + 연속함수의 성질 + 최대 최소의 정리, 사잇값 정리(실근의 존재성)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mt3xdvw3o7j",
+        "startedAt": 1787375664728,
+        "seconds": 1116,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mt3wobtuy1q",
+        "startedAt": 1787374515929,
+        "seconds": 472,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 54~66쪽 81번 풀이 + 연속함수의 성질 + 최대 최소의 정리, 사잇값 정리(실근의 존재성)",
+        "reflection": ""
+      },
       {
         "id": "effort_mszyt67dgbk",
         "startedAt": 1787136204285,

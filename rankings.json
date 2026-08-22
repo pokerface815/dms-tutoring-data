@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-21T14:10:20.433Z",
-  "studentCount": 52,
+  "generatedAt": "2026-08-22T03:31:10.393Z",
+  "studentCount": 51,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -527,17 +527,6 @@
       "weekSec": 0,
       "monthSec": 0,
       "recent3mSec": 4059,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1785155932586_9cmims",
-      "name": "이지호",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

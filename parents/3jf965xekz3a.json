@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-11T14:53:04.042Z",
+  "generatedAt": "2026-08-22T07:27:44.431Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -49,35 +49,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_mrx3pbkn39p",
-        "startedAt": 1784786275645,
-        "seconds": 4913,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrx35mvjwv8",
-        "startedAt": 1784785357178,
-        "seconds": 697,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrx1i94fujq",
-        "startedAt": 1784782585911,
-        "seconds": 2422,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

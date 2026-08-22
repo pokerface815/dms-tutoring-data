@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-19T12:17:48.458Z",
+  "generatedAt": "2026-08-22T11:14:09.608Z",
   "student": {
     "id": "s_1784351071584_hs9hej",
     "classes": [
@@ -56,35 +56,78 @@
       "startedAt": 1787136204285,
       "createdAt": "2026-08-19T10:44:59.689Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mt3wobtuy1q",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 54~66쪽 81번 풀이 + 연속함수의 성질 + 최대 최소의 정리, 사잇값 정리(실근의 존재성)",
+      "reflection": "",
+      "seconds": 472,
+      "startedAt": 1787374515929,
+      "createdAt": "2026-08-22T04:56:19.170Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mt3xdvw3o7j",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
+      "reflection": "",
+      "seconds": 1116,
+      "startedAt": 1787375664728,
+      "createdAt": "2026-08-22T05:16:11.571Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mt3ybgqoln0",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 54~66쪽 81번 풀이 + 연속함수의 성질 + 최대 최소의 정리, 사잇값 정리(실근의 존재성)",
+      "reflection": "",
+      "seconds": 1156,
+      "startedAt": 1787377272117,
+      "createdAt": "2026-08-22T05:42:18.241Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "-AeZPJJq6M0": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "8~14쪽 함수의 수렴과 발산, 우극한과 좌극한",
+        "videoTitle": "8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
         "durationSec": 3182,
         "lastPosition": 1587,
         "lastWatchedAt": "2026-08-04T10:22:54.236Z",
         "watchedSec": 1530
       },
       "druHHRnA4jk": {
-        "sessionCount": 5,
+        "sessionCount": 3,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
         "durationSec": 5637,
-        "lastPosition": 4784,
-        "lastWatchedAt": "2026-08-19T10:58:00.287Z",
-        "watchedSec": 3258
+        "lastPosition": 5636,
+        "lastWatchedAt": "2026-08-22T05:41:10.749Z",
+        "watchedSec": 4374
       },
       "OIDvXwg6tkg": {
         "sessionCount": 1,
         "watchedSec": 0,
         "lastPosition": 0
+      },
+      "8xpg5fhoXoo": {
+        "sessionCount": 2,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "54~66쪽 81번 풀이 + 연속함수의 성질 + 최대 최소의 정리, 사잇값 정리(실근의 존재성)",
+        "durationSec": 5967,
+        "lastPosition": 2073,
+        "lastWatchedAt": "2026-08-22T06:26:48.584Z",
+        "watchedSec": 1628
       }
     },
     "daily": {
@@ -102,6 +145,10 @@
       },
       "2026-08-19": {
         "druHHRnA4jk": 841
+      },
+      "2026-08-22": {
+        "8xpg5fhoXoo": 1628,
+        "druHHRnA4jk": 1116
       }
     }
   },

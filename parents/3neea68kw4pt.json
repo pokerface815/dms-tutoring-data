@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T07:27:42.864Z",
+  "generatedAt": "2026-08-22T11:14:06.185Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -252,15 +252,6 @@
         "subject": "미적분Ⅰ",
         "method": "문제 풀이",
         "content": "쎈B",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrxicv32ld9",
-        "startedAt": 1784803857580,
-        "seconds": 4349,
-        "subject": "기하",
-        "method": "문제 풀이",
-        "content": "쎈",
         "reflection": ""
       }
     ]

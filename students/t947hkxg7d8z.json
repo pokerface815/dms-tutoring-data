@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-22T15:26:39.733Z",
+  "generatedAt": "2026-08-22T15:28:18.355Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -52,19 +52,7 @@
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [
-    {
-      "assignmentId": "a_1787400471109_psbqsx",
-      "noteName": "조예나_올림포스 유형평_01.함수의 극한",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-08-22",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "overdue": [],
   "upcoming": [],
   "completed": [
     {

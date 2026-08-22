@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-20T14:34:29.004Z",
+  "generatedAt": "2026-08-22T15:28:35.029Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -378,6 +378,12 @@
       "commentAt": "2026-08-20T14:34:20.991Z",
       "confirmed": true,
       "confirmedAt": "2026-08-20T14:34:20.994Z"
+    },
+    "task_1786115074362_ignrtv__1": {
+      "missed": true,
+      "missedAt": "2026-08-22T15:28:26.432Z",
+      "confirmed": false,
+      "confirmedAt": null
     }
   },
   "tasks": [

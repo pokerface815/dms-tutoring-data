@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T11:14:14.673Z",
+  "generatedAt": "2026-08-22T12:08:00.065Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -173,24 +173,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrxg2c8afld",
-        "startedAt": 1784807055625,
-        "seconds": 2529,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrxf327qegg",
-        "startedAt": 1784805362639,
-        "seconds": 2721,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
         "reflection": ""
       }
     ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-19T09:46:52.657Z",
+  "generatedAt": "2026-08-22T03:35:31.048Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,17 +11,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-17T05:54:26.806Z",
+    "uploadedAt": "2026-08-22T02:09:24.047Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 2465,
-      "monthSec": 6319,
-      "streak": 0,
+      "todaySec": 3557,
+      "weekSec": 6022,
+      "monthSec": 9876,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 6319
+        "미적분Ⅰ": 9876
       }
     },
     "logs": [
+      {
+        "id": "effort_mt3qdibd8e0",
+        "startedAt": 1787363933314,
+        "seconds": 1213,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 100~121쪽 173번 질문 + 미분계수 마무리 + 도함수의 활용(1) - 접선의 방정식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mt3podvzxs2",
+        "startedAt": 1787362703299,
+        "seconds": 2344,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 82~99쪽 미분가능성과 연속성, 도함수(+다항함수의 도함수), 곱의 미분법",
+        "reflection": ""
+      },
       {
         "id": "effort_msws3xi0rn6",
         "startedAt": 1786943584047,

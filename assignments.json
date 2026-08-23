@@ -3715,5 +3715,16 @@
     "batchId": "tplbatch_tpl_msikdzm6sssq_2026-09-06",
     "templateId": "tpl_msikdzm6sssq",
     "repeat": null
+  },
+  {
+    "id": "task_1787450230421_ere8pn",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "오답노트 풀이 + 2단원 마무리하기",
+    "dueDate": "2026-08-24",
+    "assignedAt": "2026-08-23T01:57:10.421Z",
+    "batchId": "t_mt55psph",
+    "repeat": null,
+    "fromLesson": "lesson_1787450230421_rzoxzj"
   }
 ]

@@ -945,5 +945,16 @@
     "taskBatchId": "t_mt03mh6j",
     "createdAt": "2026-08-19T12:59:45.403Z",
     "updatedAt": "2026-08-19T12:59:45.403Z"
+  },
+  {
+    "id": "lesson_1787450230421_rzoxzj",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-22",
+    "content": "학교 부교재 1단원 마무리.\n2단원 ~40번까지 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_mt55psph",
+    "createdAt": "2026-08-23T01:57:10.421Z",
+    "updatedAt": "2026-08-23T01:57:10.421Z"
   }
 ]

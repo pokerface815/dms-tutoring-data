@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T15:26:36.855Z",
+  "generatedAt": "2026-08-23T04:57:15.337Z",
   "studentCount": 51,
   "rankings": [
     {
@@ -138,11 +138,11 @@
     {
       "id": "s_1778908285779_1cmzde",
       "name": "서은영",
-      "totalSec": 5245,
-      "weekSec": 0,
-      "monthSec": 1697,
-      "recent3mSec": 5245,
-      "streak": 0,
+      "totalSec": 8744,
+      "weekSec": 3499,
+      "monthSec": 5196,
+      "recent3mSec": 8744,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

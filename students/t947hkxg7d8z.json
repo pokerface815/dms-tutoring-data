@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-22T16:09:00.466Z",
+  "generatedAt": "2026-08-23T01:57:19.689Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -705,6 +705,14 @@
       "dueDate": "2026-08-22",
       "isRepeat": false,
       "assignedAt": "2026-08-19T12:59:45.403Z"
+    },
+    {
+      "assignmentId": "task_1787450230421_ere8pn",
+      "round": 1,
+      "title": "오답노트 풀이 + 2단원 마무리하기",
+      "dueDate": "2026-08-24",
+      "isRepeat": false,
+      "assignedAt": "2026-08-23T01:57:10.421Z"
     }
   ],
   "myGrades": [

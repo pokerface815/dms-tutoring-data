@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T16:09:01.544Z",
+  "generatedAt": "2026-08-23T01:57:20.838Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-08",
       "label": "2026년 8월",
       "lessons": [
+        {
+          "date": "2026-08-22",
+          "weekday": "토",
+          "className": "조예나 개별",
+          "content": "학교 부교재 1단원 마무리.\n2단원 ~40번까지 풀이",
+          "task": "오답노트 풀이 + 2단원 마무리하기",
+          "taskDue": "2026-08-24",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-08-19",
           "weekday": "수",

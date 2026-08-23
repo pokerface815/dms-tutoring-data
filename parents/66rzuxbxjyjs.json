@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T15:26:47.752Z",
+  "generatedAt": "2026-08-23T04:57:13.574Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -339,42 +339,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrygyst0cit",
-        "startedAt": 1784869007141,
-        "seconds": 1053,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 95~105쪽 이차방정식과 이차함수의 관계",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrygr4ib8n0",
-        "startedAt": 1784868601267,
-        "seconds": 106,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 95~105쪽 이차방정식과 이차함수의 관계",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mryg4l5gnqi",
-        "startedAt": 1784867565475,
-        "seconds": 577,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mryfpe7ltb8",
-        "startedAt": 1784866510929,
-        "seconds": 138,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 95~105쪽 이차방정식과 이차함수의 관계",
         "reflection": ""
       }
     ]

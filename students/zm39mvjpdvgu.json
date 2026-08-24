@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T02:55:16.482Z",
+  "generatedAt": "2026-08-24T11:28:01.388Z",
   "student": {
     "id": "s_1780833414231_dup17p",
     "classes": [
@@ -25,6 +25,15 @@
         "lastPosition": 18,
         "lastWatchedAt": "2026-07-12T05:15:33.421Z",
         "watchedSec": 19
+      },
+      "GNgvRzCn-Dc": {
+        "sessionCount": 1,
+        "lectureId": "lec_ms3cw1y06x4",
+        "lectureTitle": "(2022개정) 기하",
+        "videoTitle": "기하-1-4 포물선과 직선의 위치 관계",
+        "durationSec": 530,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-08-23T05:10:47.419Z"
       }
     },
     "daily": {

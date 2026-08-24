@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T11:22:52.256Z",
+  "generatedAt": "2026-08-24T11:25:18.752Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -201,24 +201,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrzzdoz9836",
-        "startedAt": 1784960370508,
-        "seconds": 969,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrzxaevybyy",
-        "startedAt": 1784956601567,
-        "seconds": 1358,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
         "reflection": ""
       }
     ]

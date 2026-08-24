@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T02:54:18.660Z",
-  "studentCount": 51,
+  "generatedAt": "2026-08-24T11:25:24.693Z",
+  "studentCount": 52,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -334,6 +334,17 @@
       "publicNickname": false
     },
     {
+      "id": "s_1783141077746_ni5332",
+      "name": "손아현",
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "recent3mSec": 0,
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
       "id": "s_1783145087770_b6wsph",
       "name": "송린우",
       "totalSec": 0,
@@ -479,11 +490,11 @@
     {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
-      "totalSec": 40956,
-      "weekSec": 0,
-      "monthSec": 6610,
-      "recent3mSec": 40956,
-      "streak": 0,
+      "totalSec": 41612,
+      "weekSec": 656,
+      "monthSec": 7266,
+      "recent3mSec": 41612,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -532,6 +543,17 @@
       "publicNickname": false
     },
     {
+      "id": "s_1785155932586_9cmims",
+      "name": "이지호",
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "recent3mSec": 0,
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
       "id": "s_1786082844440_z9486d",
       "name": "남경원",
       "totalSec": 4120,
@@ -549,17 +571,6 @@
       "weekSec": 0,
       "monthSec": 0,
       "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1787133495327_6gsbhy",
-      "name": "신다은",
-      "totalSec": 3737,
-      "weekSec": 0,
-      "monthSec": 3737,
-      "recent3mSec": 3737,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

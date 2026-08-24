@@ -1152,6 +1152,30 @@
         "title": "61~63쪽 세 점을 지나는 원의 방정식, 두 원의 교점을 지나는 원의 방정식",
         "position": 8,
         "durationSec": 4684
+      },
+      {
+        "videoId": "kldz7U32DcI",
+        "title": "67~71쪽 연습문제 질문(66쪽) + 원과 직선의 위치관계",
+        "position": 9,
+        "durationSec": 4133
+      },
+      {
+        "videoId": "z7KaxKJfoFU",
+        "title": "72~86쪽 원의 접선의 방정식 + 평행이동",
+        "position": 10,
+        "durationSec": 4471
+      },
+      {
+        "videoId": "NopZT7E63Dg",
+        "title": "89~90쪽 대칭이동 개념 설명",
+        "position": 11,
+        "durationSec": 1065
+      },
+      {
+        "videoId": "hU9NhJANwBw",
+        "title": "85~96쪽 평행이동 + 대칭이동",
+        "position": 12,
+        "durationSec": 4333
       }
     ],
     "permissions": {
@@ -1160,8 +1184,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-08-09T17:16:22.327Z",
-    "lastSyncedAt": "2026-08-09T17:16:22.327Z"
+    "updatedAt": "2026-08-24T12:48:46.230Z",
+    "lastSyncedAt": "2026-08-24T12:48:46.230Z"
   },
   {
     "id": "lec_mrg7ztilap8",

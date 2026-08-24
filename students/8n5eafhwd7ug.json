@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T11:25:12.816Z",
+  "generatedAt": "2026-08-24T17:31:26.068Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -260,6 +260,14 @@
       "assignedAt": "2026-08-24T08:57:34.526Z"
     },
     {
+      "assignmentId": "task_1786879331314_n00h3c",
+      "round": 1,
+      "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/29(토))",
+      "dueDate": "2026-08-29",
+      "isRepeat": false,
+      "assignedAt": "2026-08-16T11:22:11.314Z"
+    },
+    {
       "assignmentId": "task_1787561854526_vbk9pu",
       "round": 1,
       "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/1(화))",
@@ -268,12 +276,28 @@
       "assignedAt": "2026-08-24T08:57:34.526Z"
     },
     {
+      "assignmentId": "task_1787020493907_mo2rud",
+      "round": 1,
+      "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/1(화))",
+      "dueDate": "2026-09-01",
+      "isRepeat": false,
+      "assignedAt": "2026-08-18T02:34:53.907Z"
+    },
+    {
       "assignmentId": "task_1787561854526_fo8qmb",
       "round": 1,
       "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/3(목))",
       "dueDate": "2026-09-03",
       "isRepeat": false,
       "assignedAt": "2026-08-24T08:57:34.526Z"
+    },
+    {
+      "assignmentId": "task_1787185872351_dixhx5",
+      "round": 1,
+      "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/3(목))",
+      "dueDate": "2026-09-03",
+      "isRepeat": false,
+      "assignedAt": "2026-08-20T00:31:12.351Z"
     }
   ],
   "myGrades": []

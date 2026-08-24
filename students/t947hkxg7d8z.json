@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T11:27:49.999Z",
+  "generatedAt": "2026-08-24T12:45:54.160Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,9 +51,45 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [],
+  "today": [
+    {
+      "assignmentId": "a_1787575545328_x5saa0",
+      "noteName": "조예나_올림포스 유형편_01.함수의 극한",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-08-24",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "overdue": [
+    {
+      "assignmentId": "a_1787575545328_x5saa0",
+      "noteName": "조예나_올림포스 유형편_01.함수의 극한",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-08-22",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "upcoming": [
+    {
+      "assignmentId": "a_1787575545328_x5saa0",
+      "noteName": "조예나_올림포스 유형편_01.함수의 극한",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-08-29",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1780924991578_sd6w86",
@@ -417,7 +453,7 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 2,
     "done": 0,
     "percent": 0,
     "startDate": "2026-08-24",

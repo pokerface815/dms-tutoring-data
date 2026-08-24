@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T11:25:03.186Z",
+  "generatedAt": "2026-08-24T12:45:57.764Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -312,15 +312,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 113~121쪽 삼차방정식과 사차방정식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms0cvtrtfss",
-        "startedAt": 1784983155043,
-        "seconds": 2324,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",
         "reflection": ""
       }
     ]

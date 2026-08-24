@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T12:50:13.775Z",
+  "generatedAt": "2026-08-24T17:31:01.109Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -64,9 +64,32 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
+    },
+    {
+      "assignmentId": "a_1787400471109_psbqsx",
+      "noteName": "조예나_올림포스 유형평_01.함수의 극한",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-08-29",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1787400471109_psbqsx",
+      "noteName": "조예나_올림포스 유형평_01.함수의 극한",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-08-24",
+      "done": true,
+      "doneAt": "2026-08-24T17:30:51.159Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1787575545328_x5saa0",
       "noteName": "조예나_올림포스 유형편_01.함수의 극한",
@@ -87,6 +110,18 @@
       "plannedDate": "2026-08-22",
       "done": true,
       "doneAt": "2026-08-24T12:50:01.851Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1787400471109_psbqsx",
+      "noteName": "조예나_올림포스 유형평_01.함수의 극한",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-08-22",
+      "done": true,
+      "doneAt": "2026-08-22T16:09:00.224Z",
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
@@ -402,35 +437,11 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1779115376279_zzxgy1",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-08",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:25.905Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1779115376279_zzxgy1",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-05-25",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:25.530Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 1,
+    "total": 4,
+    "done": 2,
     "percent": 50,
     "startDate": "2026-08-24",
     "endDate": "2026-08-30"
@@ -701,6 +712,30 @@
       "dueDate": "2026-08-14",
       "isRepeat": false,
       "assignedAt": "2026-08-12T12:58:30.615Z"
+    },
+    {
+      "assignmentId": "task_1786704663348_ih9woj",
+      "round": 1,
+      "title": "152쪽까지 풀어서 오기, 25년 9월 모의고사 4점짜리 풀기",
+      "dueDate": "2026-08-19",
+      "isRepeat": false,
+      "assignedAt": "2026-08-14T10:51:03.348Z"
+    },
+    {
+      "assignmentId": "task_1787144385403_x3r9er",
+      "round": 1,
+      "title": "1단원 다 끝내오기 + 2단원도 풀 수 있는만큼 풀어오기",
+      "dueDate": "2026-08-22",
+      "isRepeat": false,
+      "assignedAt": "2026-08-19T12:59:45.403Z"
+    },
+    {
+      "assignmentId": "task_1787450230421_ere8pn",
+      "round": 1,
+      "title": "오답노트 풀이 + 2단원 마무리하기",
+      "dueDate": "2026-08-24",
+      "isRepeat": false,
+      "assignedAt": "2026-08-23T01:57:10.421Z"
     }
   ],
   "myGrades": [

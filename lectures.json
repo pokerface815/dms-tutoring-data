@@ -1428,7 +1428,15 @@
         "title": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
         "position": 8,
         "durationSec": 6868,
-        "materials": []
+        "materials": [
+          {
+            "name": "올림포스 기출_01.함수의 극한_8월21,22일_compressed.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1787576356/po87idgw3jga2x4vbn47.pdf",
+            "publicId": "po87idgw3jga2x4vbn47",
+            "resourceType": "image",
+            "uploadedAt": "2026-08-24T12:59:17.777Z"
+          }
+        ]
       }
     ],
     "permissions": {
@@ -1437,7 +1445,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-08-24T12:59:11.869Z",
+    "updatedAt": "2026-08-24T12:59:17.777Z",
     "lastSyncedAt": "2026-08-24T12:49:04.712Z"
   },
   {

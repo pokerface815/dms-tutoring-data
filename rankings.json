@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T11:25:24.693Z",
-  "studentCount": 52,
+  "generatedAt": "2026-08-24T11:27:42.520Z",
+  "studentCount": 53,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -567,6 +567,17 @@
     {
       "id": "s_1786359648617_00qsgi",
       "name": "이나윤",
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "recent3mSec": 0,
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
+      "id": "s_1787570844823_nbqosc",
+      "name": "신다은",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,

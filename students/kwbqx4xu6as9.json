@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T11:24:45.370Z",
+  "generatedAt": "2026-08-24T17:31:09.397Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -352,6 +352,14 @@
       "assignedAt": "2026-08-24T08:57:34.525Z"
     },
     {
+      "assignmentId": "task_1786879331314_02gqhx",
+      "round": 1,
+      "title": "RPM 공통수학1 매일 2장씩(제출일 8/29(토))",
+      "dueDate": "2026-08-29",
+      "isRepeat": false,
+      "assignedAt": "2026-08-16T11:22:11.314Z"
+    },
+    {
       "assignmentId": "task_1787561854525_3n2yr1",
       "round": 1,
       "title": "RPM 공통수학1 매일 2장씩(제출일 9/1(화))",
@@ -360,12 +368,28 @@
       "assignedAt": "2026-08-24T08:57:34.525Z"
     },
     {
+      "assignmentId": "task_1787020493907_j7gxkc",
+      "round": 1,
+      "title": "RPM 공통수학1 매일 2장씩(제출일 9/1(화))",
+      "dueDate": "2026-09-01",
+      "isRepeat": false,
+      "assignedAt": "2026-08-18T02:34:53.907Z"
+    },
+    {
       "assignmentId": "task_1787561854526_8yudw9",
       "round": 1,
       "title": "RPM 공통수학1 매일 2장씩(제출일 9/3(목))",
       "dueDate": "2026-09-03",
       "isRepeat": false,
       "assignedAt": "2026-08-24T08:57:34.526Z"
+    },
+    {
+      "assignmentId": "task_1787185872351_lnj435",
+      "round": 1,
+      "title": "RPM 공통수학1 매일 2장씩(제출일 9/3(목))",
+      "dueDate": "2026-09-03",
+      "isRepeat": false,
+      "assignedAt": "2026-08-20T00:31:12.351Z"
     }
   ],
   "myGrades": []

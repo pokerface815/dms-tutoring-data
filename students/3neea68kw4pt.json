@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T02:54:50.381Z",
+  "generatedAt": "2026-08-24T17:31:13.235Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -544,7 +544,8 @@
         "videoTitle": "30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
         "durationSec": 4754,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-08-20T05:23:27.176Z"
+        "lastWatchedAt": "2026-08-20T05:23:27.176Z",
+        "watchedSec": 0
       }
     },
     "daily": {

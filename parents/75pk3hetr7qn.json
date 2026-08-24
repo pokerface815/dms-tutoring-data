@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T02:55:49.506Z",
+  "generatedAt": "2026-08-24T11:25:10.915Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -83,15 +83,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mrzt99si4o3",
-        "startedAt": 1784949966705,
-        "seconds": 4100,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 30~37쪽 함수의 극한(부정형), 함수의 극한의 활용",
         "reflection": ""
       }
     ]

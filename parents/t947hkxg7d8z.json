@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T12:50:10.075Z",
+  "generatedAt": "2026-08-24T17:31:02.760Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,57 @@
       "ym": "2026-08",
       "label": "2026년 8월",
       "lessons": [
+        {
+          "date": "2026-08-23",
+          "weekday": "일",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "오답노트 풀이 + 2단원 마무리하기",
+              "dueDate": "2026-08-24",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
+        {
+          "date": "2026-08-19",
+          "weekday": "수",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "1단원 다 끝내오기 + 2단원도 풀 수 있는만큼 풀어오기",
+              "dueDate": "2026-08-22",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
+        {
+          "date": "2026-08-14",
+          "weekday": "금",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "152쪽까지 풀어서 오기, 25년 9월 모의고사 4점짜리 풀기",
+              "dueDate": "2026-08-19",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": false
+        },
         {
           "date": "2026-08-12",
           "weekday": "수",
@@ -62,14 +113,19 @@
         }
       ],
       "completionRate": {
-        "done": 3,
-        "total": 5,
-        "percent": 60
+        "done": 4,
+        "total": 8,
+        "percent": 50
       },
       "noteStages": {
         "1": {
-          "done": 1,
-          "total": 1,
+          "done": 2,
+          "total": 2,
+          "percent": 100
+        },
+        "2": {
+          "done": 2,
+          "total": 2,
           "percent": 100
         }
       }

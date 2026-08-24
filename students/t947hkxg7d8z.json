@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T17:31:33.442Z",
+  "generatedAt": "2026-08-24T17:43:00.981Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -740,6 +740,14 @@
       "dueDate": "2026-08-24",
       "isRepeat": false,
       "assignedAt": "2026-08-23T01:57:10.421Z"
+    },
+    {
+      "assignmentId": "task_1787593371146_xsnvum",
+      "round": 1,
+      "title": "함수의 연속 고난도 문항 마무리 + 3단원 풀이 시작",
+      "dueDate": "2026-08-26",
+      "isRepeat": false,
+      "assignedAt": "2026-08-24T17:42:51.146Z"
     }
   ],
   "myGrades": [

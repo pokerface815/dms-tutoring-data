@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T03:31:12.233Z",
+  "generatedAt": "2026-08-24T11:27:43.950Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 51,
+  "studentCount": 53,
   "baseUrl": "",
   "students": [
     {
@@ -276,6 +276,15 @@
       "parentPageCode": "zm39mvjpdvgu"
     },
     {
+      "id": "s_1783141077746_ni5332",
+      "name": "손아현",
+      "grade": "고2",
+      "school": "전사고",
+      "className": "토,일 2시",
+      "studentPageCode": "sh6vd3qrcfab",
+      "parentPageCode": "sh6vd3qrcfab"
+    },
+    {
       "id": "s_1783145087770_b6wsph",
       "name": "송린우",
       "grade": "고2",
@@ -438,6 +447,15 @@
       "parentPageCode": "naan7bk6dx9e"
     },
     {
+      "id": "s_1785155932586_9cmims",
+      "name": "이지호",
+      "grade": "고1",
+      "school": "국제고",
+      "className": "토,일 11시",
+      "studentPageCode": "psczdq3zn5zn",
+      "parentPageCode": "psczdq3zn5zn"
+    },
+    {
       "id": "s_1786082844440_z9486d",
       "name": "남경원",
       "grade": "중3",
@@ -456,13 +474,13 @@
       "parentPageCode": "25jvaxw5nnr2"
     },
     {
-      "id": "s_1787133495327_6gsbhy",
+      "id": "s_1787570844823_nbqosc",
       "name": "신다은",
       "grade": "중3",
       "school": "양산중",
       "className": "신다은 개별",
-      "studentPageCode": "tg3capbhfdzf",
-      "parentPageCode": "tg3capbhfdzf"
+      "studentPageCode": "juhk8ym7ujt3",
+      "parentPageCode": "juhk8ym7ujt3"
     }
   ]
 }

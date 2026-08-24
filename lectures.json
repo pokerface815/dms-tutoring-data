@@ -107,15 +107,13 @@
       }
     ],
     "permissions": {
-      "type": "restricted",
+      "type": "none",
       "grades": [],
       "classIds": [],
-      "studentIds": [
-        "s_1787133495327_6gsbhy"
-      ]
+      "studentIds": []
     },
     "createdAt": "2026-06-22T06:42:13.411Z",
-    "updatedAt": "2026-08-19T09:59:23.773Z",
+    "updatedAt": "2026-08-07T09:51:43.040Z",
     "lastSyncedAt": "2026-07-18T11:02:59.022Z"
   },
   {
@@ -214,15 +212,13 @@
       }
     ],
     "permissions": {
-      "type": "restricted",
+      "type": "none",
       "grades": [],
       "classIds": [],
-      "studentIds": [
-        "s_1787133495327_6gsbhy"
-      ]
+      "studentIds": []
     },
     "createdAt": "2026-06-22T06:42:44.092Z",
-    "updatedAt": "2026-08-19T09:59:39.653Z",
+    "updatedAt": "2026-08-07T09:51:48.714Z",
     "lastSyncedAt": "2026-07-18T11:02:59.810Z"
   },
   {
@@ -1156,30 +1152,6 @@
         "title": "61~63쪽 세 점을 지나는 원의 방정식, 두 원의 교점을 지나는 원의 방정식",
         "position": 8,
         "durationSec": 4684
-      },
-      {
-        "videoId": "kldz7U32DcI",
-        "title": "67~71쪽 연습문제 질문(66쪽) + 원과 직선의 위치관계",
-        "position": 9,
-        "durationSec": 4133
-      },
-      {
-        "videoId": "z7KaxKJfoFU",
-        "title": "72~86쪽 원의 접선의 방정식 + 평행이동",
-        "position": 10,
-        "durationSec": 4471
-      },
-      {
-        "videoId": "NopZT7E63Dg",
-        "title": "89~90쪽 대칭이동 개념 설명",
-        "position": 11,
-        "durationSec": 1065
-      },
-      {
-        "videoId": "hU9NhJANwBw",
-        "title": "85~96쪽 평행이동 + 대칭이동",
-        "position": 12,
-        "durationSec": 4333
       }
     ],
     "permissions": {
@@ -1188,8 +1160,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-08-24T02:54:06.033Z",
-    "lastSyncedAt": "2026-08-24T02:54:06.033Z"
+    "updatedAt": "2026-08-09T17:16:22.327Z",
+    "lastSyncedAt": "2026-08-09T17:16:22.327Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1254,24 +1226,6 @@
         "title": "58~63쪽 원의 방정식 (2)일반형 + 연습문제 17번(66쪽)",
         "position": 8,
         "durationSec": 4389
-      },
-      {
-        "videoId": "kldz7U32DcI",
-        "title": "67~71쪽 연습문제 질문(66쪽) + 원과 직선의 위치관계",
-        "position": 9,
-        "durationSec": 4133
-      },
-      {
-        "videoId": "7OOH7WN1haM",
-        "title": "72~84쪽 질문(유형편 25쪽 38번) + 원의 접선의 방정식 + 평행이동",
-        "position": 10,
-        "durationSec": 4558
-      },
-      {
-        "videoId": "hU9NhJANwBw",
-        "title": "85~96쪽 평행이동 + 대칭이동",
-        "position": 11,
-        "durationSec": 4333
       }
     ],
     "permissions": {
@@ -1280,8 +1234,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-08-24T02:54:10.560Z",
-    "lastSyncedAt": "2026-08-24T02:54:10.560Z"
+    "updatedAt": "2026-08-09T17:16:26.407Z",
+    "lastSyncedAt": "2026-08-09T17:16:26.407Z"
   },
   {
     "id": "lec_mririwvdtb6",
@@ -1340,24 +1294,6 @@
         "title": "100~121쪽 173번 질문 + 미분계수 마무리 + 도함수의 활용(1) - 접선의 방정식",
         "position": 7,
         "durationSec": 5949
-      },
-      {
-        "videoId": "HxJ3gc3rJ-Q",
-        "title": "122~143쪽 과제 질문(219번) + 롤의 정리, 평균값정리 + 함수의 증가와 감소, 극대와 감소",
-        "position": 8,
-        "durationSec": 7049
-      },
-      {
-        "videoId": "2uO24hSkCak",
-        "title": "147~157쪽 질문(278번)+ 함수의 그래프(삼,사차함수의 그래프의 개형 및 특징)",
-        "position": 9,
-        "durationSec": 6016
-      },
-      {
-        "videoId": "7TPbWeVSe2s",
-        "title": "158~177쪽 삼,사차함수의 비율관계 + 함수의최댓값과 최솟값 + 방정식에의 활용",
-        "position": 10,
-        "durationSec": 5794
       }
     ],
     "permissions": {
@@ -1366,8 +1302,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-08-24T02:54:34.465Z",
-    "lastSyncedAt": "2026-08-24T02:54:34.465Z"
+    "updatedAt": "2026-08-09T17:16:31.248Z",
+    "lastSyncedAt": "2026-08-09T17:16:31.248Z"
   },
   {
     "id": "lec_mrq99fx1qmz",
@@ -1420,18 +1356,6 @@
         "title": "70~73쪽 05.도함수의 활용(2)",
         "position": 6,
         "durationSec": 441
-      },
-      {
-        "videoId": "LOYOXfZo2aI",
-        "title": "74~87쪽 도함수의 활용(3)",
-        "position": 7,
-        "durationSec": 3111
-      },
-      {
-        "videoId": "Mem_ygTXPbc",
-        "title": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
-        "position": 8,
-        "durationSec": 6868
       }
     ],
     "permissions": {
@@ -1440,8 +1364,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-08-24T02:54:46.417Z",
-    "lastSyncedAt": "2026-08-24T02:54:46.417Z"
+    "updatedAt": "2026-08-09T17:16:35.398Z",
+    "lastSyncedAt": "2026-08-09T17:16:35.398Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1494,18 +1418,6 @@
         "title": "72~73쪽 05.도함수의 활용(2)",
         "position": 6,
         "durationSec": 402
-      },
-      {
-        "videoId": "LOYOXfZo2aI",
-        "title": "74~87쪽 도함수의 활용(3)",
-        "position": 7,
-        "durationSec": 3111
-      },
-      {
-        "videoId": "wv3zq-MHNEg",
-        "title": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
-        "position": 8,
-        "durationSec": 6107
       }
     ],
     "permissions": {
@@ -1514,8 +1426,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-08-24T02:55:02.241Z",
-    "lastSyncedAt": "2026-08-24T02:55:02.241Z"
+    "updatedAt": "2026-08-09T17:16:37.868Z",
+    "lastSyncedAt": "2026-08-09T17:16:37.868Z"
   },
   {
     "id": "lec_mqkscmibfht",
@@ -2459,12 +2371,6 @@
         "title": "40~45쪽 원의 중심에서 현까지의 거리와 현의 길이 + 원의 접선의 성질",
         "position": 4,
         "durationSec": 3330
-      },
-      {
-        "videoId": "AIZEPOlYqh8",
-        "title": "45~50쪽 원의 접선의 성질, 삼각형의 내접원, 원에 외접하는 사각형",
-        "position": 5,
-        "durationSec": 3824
       }
     ],
     "permissions": {
@@ -2473,7 +2379,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-29T22:56:32.707Z",
-    "updatedAt": "2026-08-19T12:33:33.227Z",
-    "lastSyncedAt": "2026-08-19T12:33:33.227Z"
+    "updatedAt": "2026-08-12T11:39:01.586Z",
+    "lastSyncedAt": "2026-08-12T11:39:01.586Z"
   }
 ]

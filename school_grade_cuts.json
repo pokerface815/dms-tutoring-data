@@ -1201,47 +1201,5 @@
       "중간": true,
       "기말": true
     }
-  },
-  {
-    "id": "scut_mt5c55vfmca",
-    "school": "살레시오고",
-    "gradeLevel": "고1",
-    "year": 2026,
-    "semester": "2",
-    "subject": "공통수학2",
-    "cutsByExamKind": {},
-    "averagesByExamKind": {},
-    "notesByExamKind": {},
-    "examInfoByExamKind": {},
-    "commentsByExamKind": {},
-    "teacher": "",
-    "textbookPublisher": "",
-    "supplementaryBook": "개념루트, 자이스토리 내신기출",
-    "extraNote": "",
-    "studentInputEnabledByExamKind": {
-      "중간": true,
-      "기말": true
-    }
-  },
-  {
-    "id": "scut_mt5c5pl47sa",
-    "school": "국제고",
-    "gradeLevel": "고1",
-    "year": 2026,
-    "semester": "2",
-    "subject": "공통수학2",
-    "cutsByExamKind": {},
-    "averagesByExamKind": {},
-    "notesByExamKind": {},
-    "examInfoByExamKind": {},
-    "commentsByExamKind": {},
-    "teacher": "",
-    "textbookPublisher": "",
-    "supplementaryBook": "개념+유형",
-    "extraNote": "",
-    "studentInputEnabledByExamKind": {
-      "중간": true,
-      "기말": true
-    }
   }
 ]

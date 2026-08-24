@@ -1,5 +1,20 @@
 [
   {
+    "id": "lesson_1780185291295_v0t1tj",
+    "classId": "cls_1779986589959_uaer45",
+    "date": "2026-05-31",
+    "content": "각 학교 부교재 풀이",
+    "studentNotes": [
+      {
+        "studentId": "s_1777546978791_hsee5a",
+        "note": "ㅁㄴㅇㄹㄴㅇㄹ"
+      }
+    ],
+    "taskBatchId": "t_mpt0dol8",
+    "createdAt": "2026-05-30T23:54:51.293Z",
+    "updatedAt": "2026-05-30T23:55:26.012Z"
+  },
+  {
     "id": "lesson_1780150570128_lr54q1",
     "classId": "cls_1779987510578_5e6to7",
     "date": "2026-05-30",
@@ -21,21 +36,6 @@
     "taskBatchId": "t_mpt0dts4",
     "createdAt": "2026-05-30T14:16:10.128Z",
     "updatedAt": "2026-05-30T23:55:32.739Z"
-  },
-  {
-    "id": "lesson_1780185291295_v0t1tj",
-    "classId": "cls_1779986589959_uaer45",
-    "date": "2026-05-31",
-    "content": "각 학교 부교재 풀이",
-    "studentNotes": [
-      {
-        "studentId": "s_1777546978791_hsee5a",
-        "note": "ㅁㄴㅇㄹㄴㅇㄹ"
-      }
-    ],
-    "taskBatchId": "t_mpt0dol8",
-    "createdAt": "2026-05-30T23:54:51.293Z",
-    "updatedAt": "2026-05-30T23:55:26.012Z"
   },
   {
     "id": "lesson_1780190478572_c6hscq",
@@ -61,16 +61,6 @@
     "taskBatchId": null,
     "createdAt": "2026-05-31T10:04:29.001Z",
     "updatedAt": "2026-05-31T10:04:29.001Z"
-  },
-  {
-    "id": "lesson_1780314001686_vqaban",
-    "classId": "cls_1780310883451_eliu81",
-    "date": "2026-06-01",
-    "content": "8단원 등차수열과 등비수열 - 서술형 완성하기",
-    "studentNotes": [],
-    "taskBatchId": null,
-    "createdAt": "2026-06-01T11:40:01.686Z",
-    "updatedAt": "2026-06-01T14:07:30.244Z"
   },
   {
     "id": "lesson_1780314584317_0av73m",
@@ -113,6 +103,16 @@
     "updatedAt": "2026-06-01T12:28:50.954Z"
   },
   {
+    "id": "lesson_1780314001686_vqaban",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-01",
+    "content": "8단원 등차수열과 등비수열 - 서술형 완성하기",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-01T11:40:01.686Z",
+    "updatedAt": "2026-06-01T14:07:30.244Z"
+  },
+  {
     "id": "lesson_1780499220708_08g6xk",
     "classId": "cls_1780355764530_wxb5as",
     "date": "2026-06-02",
@@ -132,16 +132,6 @@
     "updatedAt": "2026-06-03T15:08:18.479Z"
   },
   {
-    "id": "lesson_1780499284766_03g44z",
-    "classId": "cls_1780355764530_wxb5as",
-    "date": "2026-06-03",
-    "content": "에버랜드",
-    "studentNotes": [],
-    "taskBatchId": "t_mpz6kxoh",
-    "createdAt": "2026-06-03T15:08:04.766Z",
-    "updatedAt": "2026-06-04T07:35:39.137Z"
-  },
-  {
     "id": "lesson_1780500319551_fpti7u",
     "classId": "cls_1780355764530_wxb5as",
     "date": "2026-06-01",
@@ -150,6 +140,16 @@
     "taskBatchId": null,
     "createdAt": "2026-06-03T15:25:19.551Z",
     "updatedAt": "2026-06-03T15:52:42.152Z"
+  },
+  {
+    "id": "lesson_1780499284766_03g44z",
+    "classId": "cls_1780355764530_wxb5as",
+    "date": "2026-06-03",
+    "content": "에버랜드",
+    "studentNotes": [],
+    "taskBatchId": "t_mpz6kxoh",
+    "createdAt": "2026-06-03T15:08:04.766Z",
+    "updatedAt": "2026-06-04T07:35:39.137Z"
   },
   {
     "id": "lesson_1780558953094_8uqypk",
@@ -165,17 +165,6 @@
     "taskBatchId": "t_mpz73nj3",
     "createdAt": "2026-06-04T07:42:33.094Z",
     "updatedAt": "2026-06-04T07:50:12.447Z"
-  },
-  {
-    "id": "lesson_1780568864986_p6qtl9",
-    "classId": "cls_1780310883451_eliu81",
-    "date": "2026-06-04",
-    "content": "1. 6월 모의고사\n- 73점(1등급컷 80~84점 예상)\n- 2문제(19, 21번) 찍어서 맞춤(-8점)\n- 틀린 문제 : 12, 17, 20, 27, 28, 29, 30번",
-    "studentNotes": [],
-    "taskBatchId": "t_mpzhnd0m",
-    "createdAt": "2026-06-04T10:27:44.985Z",
-    "updatedAt": "2026-07-13T18:46:02.205Z",
-    "important": true
   },
   {
     "id": "lesson_1780634146536_ppxoms",
@@ -218,14 +207,24 @@
     "updatedAt": "2026-06-08T08:23:28.277Z"
   },
   {
-    "id": "lesson_1780910730396_c4nf4t",
-    "classId": "cls_1780910683163_gtovnl",
+    "id": "lesson_1780913212394_88bita",
+    "classId": "cls_1780309030966_ingi3o",
     "date": "2026-06-08",
-    "content": "시험 대비 시작\n학교 교과서 변형문제 프린트 풀이",
+    "content": "대수 - 수열의 귀납적 정의, 수학적 귀납법 수업영상으로 마무리\n미적분1 - 도함수의 활용(함수의 그래프 + 함수의 최대,최소)",
     "studentNotes": [],
     "taskBatchId": null,
-    "createdAt": "2026-06-08T09:25:30.396Z",
-    "updatedAt": "2026-06-10T13:46:52.991Z"
+    "createdAt": "2026-06-08T10:06:52.394Z",
+    "updatedAt": "2026-06-08T10:06:52.394Z"
+  },
+  {
+    "id": "lesson_1780919677088_ubd33m",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-08",
+    "content": "부교재 수열의 합 풀이",
+    "studentNotes": [],
+    "taskBatchId": "t_mq55ldi8",
+    "createdAt": "2026-06-08T11:54:37.088Z",
+    "updatedAt": "2026-06-08T11:54:37.088Z"
   },
   {
     "id": "lesson_1780912943607_zgs5oj",
@@ -248,24 +247,14 @@
     "updatedAt": "2026-06-09T05:00:21.774Z"
   },
   {
-    "id": "lesson_1780913212394_88bita",
+    "id": "lesson_1781084897820_6t25qp",
     "classId": "cls_1780309030966_ingi3o",
-    "date": "2026-06-08",
-    "content": "대수 - 수열의 귀납적 정의, 수학적 귀납법 수업영상으로 마무리\n미적분1 - 도함수의 활용(함수의 그래프 + 함수의 최대,최소)",
+    "date": "2026-06-10",
+    "content": "대수 - 등차수열의 일반항, 합",
     "studentNotes": [],
     "taskBatchId": null,
-    "createdAt": "2026-06-08T10:06:52.394Z",
-    "updatedAt": "2026-06-08T10:06:52.394Z"
-  },
-  {
-    "id": "lesson_1780919677088_ubd33m",
-    "classId": "cls_1780310883451_eliu81",
-    "date": "2026-06-08",
-    "content": "부교재 수열의 합 풀이",
-    "studentNotes": [],
-    "taskBatchId": "t_mq55ldi8",
-    "createdAt": "2026-06-08T11:54:37.088Z",
-    "updatedAt": "2026-06-08T11:54:37.088Z"
+    "createdAt": "2026-06-10T09:48:17.820Z",
+    "updatedAt": "2026-06-10T09:48:17.820Z"
   },
   {
     "id": "lesson_1781084856739_74xo7h",
@@ -276,16 +265,6 @@
     "taskBatchId": null,
     "createdAt": "2026-06-10T09:47:36.739Z",
     "updatedAt": "2026-06-10T10:41:04.207Z"
-  },
-  {
-    "id": "lesson_1781084897820_6t25qp",
-    "classId": "cls_1780309030966_ingi3o",
-    "date": "2026-06-10",
-    "content": "대수 - 등차수열의 일반항, 합",
-    "studentNotes": [],
-    "taskBatchId": null,
-    "createdAt": "2026-06-10T09:48:17.820Z",
-    "updatedAt": "2026-06-10T09:48:17.820Z"
   },
   {
     "id": "lesson_1781095712691_4j831x",
@@ -308,14 +287,14 @@
     "updatedAt": "2026-06-10T13:46:23.984Z"
   },
   {
-    "id": "lesson_1781099203656_op7db6",
-    "classId": "cls_1780309335387_ry7cd9",
-    "date": "2026-06-10",
-    "content": "결석 - 주말에 보충 예정",
+    "id": "lesson_1780910730396_c4nf4t",
+    "classId": "cls_1780910683163_gtovnl",
+    "date": "2026-06-08",
+    "content": "시험 대비 시작\n학교 교과서 변형문제 프린트 풀이",
     "studentNotes": [],
     "taskBatchId": null,
-    "createdAt": "2026-06-10T13:46:43.656Z",
-    "updatedAt": "2026-06-10T13:47:24.317Z"
+    "createdAt": "2026-06-08T09:25:30.396Z",
+    "updatedAt": "2026-06-10T13:46:52.991Z"
   },
   {
     "id": "lesson_1781099220316_21ausp",
@@ -326,6 +305,16 @@
     "taskBatchId": null,
     "createdAt": "2026-06-10T13:47:00.316Z",
     "updatedAt": "2026-06-10T13:47:11.968Z"
+  },
+  {
+    "id": "lesson_1781099203656_op7db6",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-06-10",
+    "content": "결석 - 주말에 보충 예정",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-06-10T13:46:43.656Z",
+    "updatedAt": "2026-06-10T13:47:24.317Z"
   },
   {
     "id": "lesson_1781353022211_7isgf5",
@@ -528,16 +517,6 @@
     "updatedAt": "2026-07-06T10:08:25.768Z"
   },
   {
-    "id": "lesson_1783332526990_2begwk",
-    "classId": "cls_1780309335387_ry7cd9",
-    "date": "2026-07-06",
-    "content": "공수2(개+유) - 삼각형의 무게중심",
-    "studentNotes": [],
-    "taskBatchId": null,
-    "createdAt": "2026-07-06T10:08:46.990Z",
-    "updatedAt": "2026-07-08T10:10:26.666Z"
-  },
-  {
     "id": "lesson_1783332535928_2snfu5",
     "classId": "cls_1780910683163_gtovnl",
     "date": "2026-07-06",
@@ -566,6 +545,16 @@
     "taskBatchId": null,
     "createdAt": "2026-07-08T10:09:13.254Z",
     "updatedAt": "2026-07-08T10:09:13.254Z"
+  },
+  {
+    "id": "lesson_1783332526990_2begwk",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-07-06",
+    "content": "공수2(개+유) - 삼각형의 무게중심",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-06T10:08:46.990Z",
+    "updatedAt": "2026-07-08T10:10:26.666Z"
   },
   {
     "id": "lesson_1783505411049_3jfkw3",
@@ -598,28 +587,6 @@
     "updatedAt": "2026-07-08T10:24:55.231Z"
   },
   {
-    "id": "lesson_1783513030551_guhpzz",
-    "classId": "cls_1780310883451_eliu81",
-    "date": "2026-07-08",
-    "content": "♣︎ 기말고사 반성 및 오답 풀이 ♣︎\n\n73.8점(1등급) - 1등급컷 69점 정도\n중간고사 때 1등급컷이 80점이었으니 기말고사가 좀 더 어려웠던 시험이었습니다.\n1등급컷이 낮아진 이유 중 하나가 계산이 복잡한 문항이 다수 포함되어 시간이 부족했을 것 같습니다.\n\n객관식 4개 틀리고, 서술형(20점 만점)에서 8점 감점 되었음.\n\n계산 실수로 틀린 문항이 2개, 찍어서 맞춘 문항이 3개 있습니다.",
-    "studentNotes": [],
-    "taskBatchId": null,
-    "createdAt": "2026-07-08T12:17:10.551Z",
-    "updatedAt": "2026-07-13T18:36:52.785Z",
-    "important": true
-  },
-  {
-    "id": "lesson_1783939483857_a32bxc",
-    "classId": "cls_1780310883451_eliu81",
-    "date": "2026-07-11",
-    "content": "미적분1 수업 시작\n ~ 23쪽  함수의 극한의 성질",
-    "studentNotes": [],
-    "taskBatchId": "t_mrjlbauq",
-    "createdAt": "2026-07-13T10:44:43.857Z",
-    "updatedAt": "2026-07-13T19:04:48.590Z",
-    "important": false
-  },
-  {
     "id": "lesson_1783939508472_vzka4c",
     "classId": "cls_1780309370989_i1lo00",
     "date": "2026-07-13",
@@ -648,6 +615,39 @@
     "taskBatchId": null,
     "createdAt": "2026-07-13T10:46:25.233Z",
     "updatedAt": "2026-07-13T10:46:25.233Z"
+  },
+  {
+    "id": "lesson_1783513030551_guhpzz",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-08",
+    "content": "♣︎ 기말고사 반성 및 오답 풀이 ♣︎\n\n73.8점(1등급) - 1등급컷 69점 정도\n중간고사 때 1등급컷이 80점이었으니 기말고사가 좀 더 어려웠던 시험이었습니다.\n1등급컷이 낮아진 이유 중 하나가 계산이 복잡한 문항이 다수 포함되어 시간이 부족했을 것 같습니다.\n\n객관식 4개 틀리고, 서술형(20점 만점)에서 8점 감점 되었음.\n\n계산 실수로 틀린 문항이 2개, 찍어서 맞춘 문항이 3개 있습니다.",
+    "studentNotes": [],
+    "taskBatchId": null,
+    "createdAt": "2026-07-08T12:17:10.551Z",
+    "updatedAt": "2026-07-13T18:36:52.785Z",
+    "important": true
+  },
+  {
+    "id": "lesson_1780568864986_p6qtl9",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-06-04",
+    "content": "1. 6월 모의고사\n- 73점(1등급컷 80~84점 예상)\n- 2문제(19, 21번) 찍어서 맞춤(-8점)\n- 틀린 문제 : 12, 17, 20, 27, 28, 29, 30번",
+    "studentNotes": [],
+    "taskBatchId": "t_mpzhnd0m",
+    "createdAt": "2026-06-04T10:27:44.985Z",
+    "updatedAt": "2026-07-13T18:46:02.205Z",
+    "important": true
+  },
+  {
+    "id": "lesson_1783939483857_a32bxc",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-07-11",
+    "content": "미적분1 수업 시작\n ~ 23쪽  함수의 극한의 성질",
+    "studentNotes": [],
+    "taskBatchId": "t_mrjlbauq",
+    "createdAt": "2026-07-13T10:44:43.857Z",
+    "updatedAt": "2026-07-13T19:04:48.590Z",
+    "important": false
   },
   {
     "id": "lesson_1783967080336_xn6ltt",
@@ -782,17 +782,6 @@
     "updatedAt": "2026-07-29T05:55:24.526Z"
   },
   {
-    "id": "lesson_1785307854557_1p0ci1",
-    "classId": "cls_1780309335387_ry7cd9",
-    "date": "2026-07-29",
-    "content": "쎈B 공수2 :  ~ 25쪽 조립제법",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
-    "createdAt": "2026-07-29T06:50:54.557Z",
-    "updatedAt": "2026-08-07T06:19:10.531Z"
-  },
-  {
     "id": "lesson_1785366867466_2tlrdi",
     "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-29",
@@ -824,6 +813,17 @@
     "taskBatchId": null,
     "createdAt": "2026-08-07T05:28:40.408Z",
     "updatedAt": "2026-08-07T05:28:40.408Z"
+  },
+  {
+    "id": "lesson_1785307854557_1p0ci1",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-07-29",
+    "content": "쎈B 공수2 :  ~ 25쪽 조립제법",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-07-29T06:50:54.557Z",
+    "updatedAt": "2026-08-07T06:19:10.531Z"
   },
   {
     "id": "lesson_1786083577107_ph4y41",
@@ -901,5 +901,71 @@
     "taskBatchId": "t_msq3hwt3",
     "createdAt": "2026-08-12T12:58:30.615Z",
     "updatedAt": "2026-08-12T12:58:30.615Z"
+  },
+  {
+    "id": "lesson_1786704663348_ybrk19",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-14",
+    "content": "~150쪽 도함수의 활용(3)\n- 부등식에의 활용\n- 속도와 가속도",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_mssttph0",
+    "createdAt": "2026-08-14T10:51:03.348Z",
+    "updatedAt": "2026-08-14T10:51:03.348Z"
+  },
+  {
+    "id": "lesson_1787132791365_pee77d",
+    "classId": "cls_1780309370989_i1lo00",
+    "date": "2026-08-19",
+    "content": "17~19쪽 시험에 꼭 나오는 문제 풀면서 질문\n22쪽까지 풀어져 있음",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-08-19T09:46:31.365Z",
+    "updatedAt": "2026-08-19T09:46:31.365Z"
+  },
+  {
+    "id": "lesson_1787132891608_no8gig",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-08-19",
+    "content": "쎈B ~55쪽 이차방정식",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-08-19T09:48:11.608Z",
+    "updatedAt": "2026-08-19T09:48:11.608Z"
+  },
+  {
+    "id": "lesson_1787144385403_0ullqj",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-19",
+    "content": "학교부교재 ~21쪽 고난도 문항\n개념원리, 모의고사 질문\n부교재 풀어온 부분까지 질문 + 고난도 문항 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_mt03mh6j",
+    "createdAt": "2026-08-19T12:59:45.403Z",
+    "updatedAt": "2026-08-19T12:59:45.403Z"
+  },
+  {
+    "id": "lesson_1787450230421_rzoxzj",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-22",
+    "content": "학교 부교재 1단원 마무리.\n2단원 ~40번까지 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_mt55psph",
+    "createdAt": "2026-08-23T01:57:10.421Z",
+    "updatedAt": "2026-08-23T01:57:10.421Z"
+  },
+  {
+    "id": "lesson_1787593371146_c6i766",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-25",
+    "content": "학교 부교재 2단원 마무리",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_mt7ixssq",
+    "createdAt": "2026-08-24T17:42:51.146Z",
+    "updatedAt": "2026-08-24T17:42:51.146Z"
   }
 ]

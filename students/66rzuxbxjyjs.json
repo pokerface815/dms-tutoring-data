@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T02:55:38.049Z",
+  "generatedAt": "2026-08-24T11:25:01.138Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -384,6 +384,12 @@
       "missedAt": "2026-08-22T15:28:26.432Z",
       "confirmed": false,
       "confirmedAt": null
+    },
+    "task_1786424522089_qt5lo2__1": {
+      "comment": "내일 다시 한번 올려주세요~",
+      "commentAt": "2026-08-24T11:24:54.458Z",
+      "confirmed": false,
+      "confirmedAt": null
     }
   },
   "tasks": [
@@ -468,28 +474,28 @@
       "assignedAt": "2026-08-12T17:34:32.731Z"
     },
     {
-      "assignmentId": "task_1786879331314_7jr5oa",
+      "assignmentId": "task_1787561854526_mk89ue",
       "round": 1,
       "title": "라이트쎈 공수1 매일 2장씩(제출일 8/29(토))",
       "dueDate": "2026-08-29",
       "isRepeat": false,
-      "assignedAt": "2026-08-16T11:22:11.314Z"
+      "assignedAt": "2026-08-24T08:57:34.526Z"
     },
     {
-      "assignmentId": "task_1787020493907_ld4rqg",
+      "assignmentId": "task_1787561854526_oegpfq",
       "round": 1,
       "title": "라이트쎈 공수1 매일 2장씩(제출일 9/1(화))",
       "dueDate": "2026-09-01",
       "isRepeat": false,
-      "assignedAt": "2026-08-18T02:34:53.907Z"
+      "assignedAt": "2026-08-24T08:57:34.526Z"
     },
     {
-      "assignmentId": "task_1787185872351_7azlz5",
+      "assignmentId": "task_1787561854526_r20dy9",
       "round": 1,
       "title": "라이트쎈 공수1 매일 2장씩(제출일 9/3(목))",
       "dueDate": "2026-09-03",
       "isRepeat": false,
-      "assignedAt": "2026-08-20T00:31:12.351Z"
+      "assignedAt": "2026-08-24T08:57:34.526Z"
     }
   ],
   "myGrades": []

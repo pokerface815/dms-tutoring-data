@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T17:31:02.760Z",
+  "generatedAt": "2026-08-24T17:31:34.869Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -24,7 +24,7 @@
             {
               "title": "오답노트 풀이 + 2단원 마무리하기",
               "dueDate": "2026-08-24",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -113,9 +113,9 @@
         }
       ],
       "completionRate": {
-        "done": 4,
+        "done": 5,
         "total": 8,
-        "percent": 50
+        "percent": 63
       },
       "noteStages": {
         "1": {

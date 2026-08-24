@@ -3935,5 +3935,16 @@
     "batchId": "t_mt55psph",
     "repeat": null,
     "fromLesson": "lesson_1787450230421_rzoxzj"
+  },
+  {
+    "id": "task_1787593371146_xsnvum",
+    "type": "task",
+    "studentId": "s_1777547047005_uo92w5",
+    "title": "함수의 연속 고난도 문항 마무리 + 3단원 풀이 시작",
+    "dueDate": "2026-08-26",
+    "assignedAt": "2026-08-24T17:42:51.146Z",
+    "batchId": "t_mt7ixssq",
+    "repeat": null,
+    "fromLesson": "lesson_1787593371146_c6i766"
   }
 ]

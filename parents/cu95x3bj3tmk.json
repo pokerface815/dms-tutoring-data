@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T02:54:54.260Z",
+  "generatedAt": "2026-08-24T11:25:20.497Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -206,18 +206,6 @@
             }
           ],
           "hasLesson": false
-        },
-        {
-          "date": "2026-08-19",
-          "weekday": "수",
-          "className": "박유솔 개별",
-          "content": "쎈B ~55쪽 이차방정식",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "important": false,
-          "extraAssignments": [],
-          "hasLesson": true
         },
         {
           "date": "2026-08-18",

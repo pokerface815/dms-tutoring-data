@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-23T01:57:20.838Z",
+  "generatedAt": "2026-08-24T11:27:52.038Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,42 +12,6 @@
       "ym": "2026-08",
       "label": "2026년 8월",
       "lessons": [
-        {
-          "date": "2026-08-22",
-          "weekday": "토",
-          "className": "조예나 개별",
-          "content": "학교 부교재 1단원 마무리.\n2단원 ~40번까지 풀이",
-          "task": "오답노트 풀이 + 2단원 마무리하기",
-          "taskDue": "2026-08-24",
-          "myNote": "",
-          "important": false,
-          "extraAssignments": [],
-          "hasLesson": true
-        },
-        {
-          "date": "2026-08-19",
-          "weekday": "수",
-          "className": "조예나 개별",
-          "content": "학교부교재 ~21쪽 고난도 문항\n개념원리, 모의고사 질문\n부교재 풀어온 부분까지 질문 + 고난도 문항 풀이",
-          "task": "1단원 다 끝내오기 + 2단원도 풀 수 있는만큼 풀어오기",
-          "taskDue": "2026-08-22",
-          "myNote": "",
-          "important": false,
-          "extraAssignments": [],
-          "hasLesson": true
-        },
-        {
-          "date": "2026-08-14",
-          "weekday": "금",
-          "className": "조예나 개별",
-          "content": "~150쪽 도함수의 활용(3)\n- 부등식에의 활용\n- 속도와 가속도",
-          "task": "152쪽까지 풀어서 오기, 25년 9월 모의고사 4점짜리 풀기",
-          "taskDue": "2026-08-19",
-          "myNote": "",
-          "important": false,
-          "extraAssignments": [],
-          "hasLesson": true
-        },
         {
           "date": "2026-08-12",
           "weekday": "수",
@@ -98,17 +62,11 @@
         }
       ],
       "completionRate": {
-        "done": 4,
-        "total": 7,
-        "percent": 57
+        "done": 3,
+        "total": 5,
+        "percent": 60
       },
-      "noteStages": {
-        "1": {
-          "done": 1,
-          "total": 1,
-          "percent": 100
-        }
-      }
+      "noteStages": null
     },
     {
       "ym": "2026-07",

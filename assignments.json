@@ -3857,7 +3857,7 @@
         "stage": 2,
         "planned": "2026-08-24",
         "actualDone": true,
-        "doneAt": "2026-08-24T17:30:47.629Z",
+        "doneAt": "2026-08-24T17:30:49.908Z",
         "missed": false,
         "missedAt": null
       },
@@ -3894,8 +3894,10 @@
       {
         "stage": 2,
         "planned": "2026-08-24",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-08-24T17:30:51.159Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 3,

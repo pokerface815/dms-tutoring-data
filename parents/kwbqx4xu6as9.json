@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T15:26:44.648Z",
+  "generatedAt": "2026-08-24T11:24:47.825Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -117,7 +117,7 @@
             {
               "title": "RPM 공통수학1 매일 2장씩(제출일 8/22(토))",
               "dueDate": "2026-08-22",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -138,18 +138,6 @@
             }
           ],
           "hasLesson": false
-        },
-        {
-          "date": "2026-08-19",
-          "weekday": "수",
-          "className": "서준우 개별",
-          "content": "17~19쪽 시험에 꼭 나오는 문제 풀면서 질문\n22쪽까지 풀어져 있음",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "important": false,
-          "extraAssignments": [],
-          "hasLesson": true
         },
         {
           "date": "2026-08-18",
@@ -268,9 +256,9 @@
         }
       ],
       "completionRate": {
-        "done": 2,
+        "done": 3,
         "total": 8,
-        "percent": 25
+        "percent": 38
       },
       "noteStages": null
     },

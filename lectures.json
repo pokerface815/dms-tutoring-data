@@ -1349,9 +1349,15 @@
       },
       {
         "videoId": "2uO24hSkCak",
-        "title": "3",
+        "title": "147~157쪽 질문(278번)+ 함수의 그래프(삼,사차함수의 그래프의 개형 및 특징)",
         "position": 9,
         "durationSec": 6016
+      },
+      {
+        "videoId": "7TPbWeVSe2s",
+        "title": "158~177쪽 삼,사차함수의 비율관계 + 함수의최댓값과 최솟값 + 방정식에의 활용",
+        "position": 10,
+        "durationSec": 5794
       }
     ],
     "permissions": {
@@ -1360,8 +1366,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-08-22T15:26:36.078Z",
-    "lastSyncedAt": "2026-08-22T15:26:36.078Z"
+    "updatedAt": "2026-08-24T02:54:34.465Z",
+    "lastSyncedAt": "2026-08-24T02:54:34.465Z"
   },
   {
     "id": "lec_mrq99fx1qmz",
@@ -1420,6 +1426,12 @@
         "title": "74~87쪽 도함수의 활용(3)",
         "position": 7,
         "durationSec": 3111
+      },
+      {
+        "videoId": "Mem_ygTXPbc",
+        "title": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
+        "position": 8,
+        "durationSec": 6868
       }
     ],
     "permissions": {
@@ -1428,8 +1440,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-08-18T09:23:51.297Z",
-    "lastSyncedAt": "2026-08-18T09:23:51.297Z"
+    "updatedAt": "2026-08-24T02:54:46.417Z",
+    "lastSyncedAt": "2026-08-24T02:54:46.417Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1488,6 +1500,12 @@
         "title": "74~87쪽 도함수의 활용(3)",
         "position": 7,
         "durationSec": 3111
+      },
+      {
+        "videoId": "wv3zq-MHNEg",
+        "title": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
+        "position": 8,
+        "durationSec": 6107
       }
     ],
     "permissions": {
@@ -1496,8 +1514,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-08-18T09:23:54.316Z",
-    "lastSyncedAt": "2026-08-18T09:23:54.316Z"
+    "updatedAt": "2026-08-24T02:55:02.241Z",
+    "lastSyncedAt": "2026-08-24T02:55:02.241Z"
   },
   {
     "id": "lec_mqkscmibfht",

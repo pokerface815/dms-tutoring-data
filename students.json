@@ -865,6 +865,34 @@
     ]
   },
   {
+    "id": "s_1783141077746_ni5332",
+    "name": "손아현",
+    "school": "전사고",
+    "grade": "고2",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-9331-5994",
+    "parentPhone": "010-8614-5994",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "sh6vd3qrcfab"
+  },
+  {
     "id": "s_1783145087770_b6wsph",
     "name": "송린우",
     "school": "경신여고",
@@ -1416,6 +1444,41 @@
     ]
   },
   {
+    "id": "s_1785155932586_9cmims",
+    "name": "이지호",
+    "school": "국제고",
+    "grade": "고1",
+    "classes": [
+      "cls_1783735589810_tlwac7"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-3523-9432",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "psczdq3zn5zn",
+    "classHistory": [
+      {
+        "classId": "cls_1783735589810_tlwac7",
+        "from": "2026-07-27",
+        "to": null
+      }
+    ]
+  },
+  {
     "id": "s_1786082844440_z9486d",
     "name": "남경원",
     "school": "살레시오중",
@@ -1477,37 +1540,6 @@
       {
         "classId": "cls_1783741486590_iyer5b",
         "from": "2026-08-10",
-        "to": null
-      }
-    ]
-  },
-  {
-    "id": "s_1787133495327_6gsbhy",
-    "name": "신다은",
-    "school": "양산중",
-    "grade": "중3",
-    "classes": [
-      "cls_1787133475648_yvri1s"
-    ],
-    "memo": "",
-    "days": [
-      "월",
-      "수",
-      "금"
-    ],
-    "studentPhone": "010-2460-6354",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": false,
-    "showMakeNote": false,
-    "pageCode": "tg3capbhfdzf",
-    "classHistory": [
-      {
-        "classId": "cls_1787133475648_yvri1s",
-        "from": "2026-08-19",
         "to": null
       }
     ]

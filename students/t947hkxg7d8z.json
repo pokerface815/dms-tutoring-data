@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T12:45:54.160Z",
+  "generatedAt": "2026-08-24T12:50:08.628Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -64,19 +64,7 @@
       "missedAt": null
     }
   ],
-  "overdue": [
-    {
-      "assignmentId": "a_1787575545328_x5saa0",
-      "noteName": "조예나_올림포스 유형편_01.함수의 극한",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-08-22",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "overdue": [],
   "upcoming": [
     {
       "assignmentId": "a_1787575545328_x5saa0",
@@ -91,6 +79,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1787575545328_x5saa0",
+      "noteName": "조예나_올림포스 유형편_01.함수의 극한",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-08-22",
+      "done": true,
+      "doneAt": "2026-08-24T12:50:01.851Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1780924991578_sd6w86",
       "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~36번)",
@@ -435,18 +435,6 @@
       "plannedDate": "2026-05-20",
       "done": true,
       "doneAt": "2026-06-14T01:48:25.099Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1779115376279_zzxgy1",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙( ~고난도3번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-05-18",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:24.897Z",
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"

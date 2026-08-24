@@ -1165,9 +1165,21 @@
       },
       {
         "videoId": "z7KaxKJfoFU",
-        "title": "1",
+        "title": "72~86쪽 원의 접선의 방정식 + 평행이동",
         "position": 10,
         "durationSec": 4471
+      },
+      {
+        "videoId": "NopZT7E63Dg",
+        "title": "89~90쪽 대칭이동 개념 설명",
+        "position": 11,
+        "durationSec": 1065
+      },
+      {
+        "videoId": "hU9NhJANwBw",
+        "title": "85~96쪽 평행이동 + 대칭이동",
+        "position": 12,
+        "durationSec": 4333
       }
     ],
     "permissions": {
@@ -1176,8 +1188,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-08-22T15:26:25.503Z",
-    "lastSyncedAt": "2026-08-22T15:26:25.503Z"
+    "updatedAt": "2026-08-24T02:54:06.033Z",
+    "lastSyncedAt": "2026-08-24T02:54:06.033Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1251,9 +1263,15 @@
       },
       {
         "videoId": "7OOH7WN1haM",
-        "title": "2",
+        "title": "72~84쪽 질문(유형편 25쪽 38번) + 원의 접선의 방정식 + 평행이동",
         "position": 10,
         "durationSec": 4558
+      },
+      {
+        "videoId": "hU9NhJANwBw",
+        "title": "85~96쪽 평행이동 + 대칭이동",
+        "position": 11,
+        "durationSec": 4333
       }
     ],
     "permissions": {
@@ -1262,8 +1280,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-08-22T15:26:28.254Z",
-    "lastSyncedAt": "2026-08-22T15:26:28.254Z"
+    "updatedAt": "2026-08-24T02:54:10.560Z",
+    "lastSyncedAt": "2026-08-24T02:54:10.560Z"
   },
   {
     "id": "lec_mririwvdtb6",

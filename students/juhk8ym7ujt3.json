@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T11:28:08.739Z",
+  "generatedAt": "2026-08-24T17:31:29.547Z",
   "student": {
     "id": "s_1787570844823_nbqosc",
     "classes": [
@@ -12,7 +12,7 @@
     "class": "",
     "showMakeNote": false
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,

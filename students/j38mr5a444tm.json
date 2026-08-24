@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T11:25:07.084Z",
+  "generatedAt": "2026-08-24T12:45:59.573Z",
   "student": {
     "id": "s_1784357925964_vuz436",
     "classes": [
@@ -263,7 +263,7 @@
       "method": "강의 시청",
       "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
       "reflection": "",
-      "seconds": 656,
+      "seconds": 1623,
       "startedAt": 1787569406251,
       "createdAt": "2026-08-24T11:06:32.026Z",
       "autoRecorded": true
@@ -443,9 +443,9 @@
         "lectureTitle": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
         "videoTitle": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
         "durationSec": 6868,
-        "lastPosition": 2895,
-        "lastWatchedAt": "2026-08-24T11:24:04.965Z",
-        "watchedSec": 656
+        "lastPosition": 4650,
+        "lastWatchedAt": "2026-08-24T11:41:44.810Z",
+        "watchedSec": 1623
       }
     },
     "daily": {
@@ -492,7 +492,7 @@
         "Rwl3S2aA19M": 131
       },
       "2026-08-24": {
-        "Mem_ygTXPbc": 656
+        "Mem_ygTXPbc": 1623
       }
     }
   },

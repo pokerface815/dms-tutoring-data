@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T11:27:46.306Z",
+  "generatedAt": "2026-08-24T17:30:53.795Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -422,8 +422,44 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1787328040228_s2ftfb",
+      "noteName": "송유림_개념루트_전체",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-08-29",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
+    {
+      "assignmentId": "a_1787328040228_s2ftfb",
+      "noteName": "송유림_개념루트_전체",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-08-24",
+      "done": true,
+      "doneAt": "2026-08-24T17:30:43.954Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1787328040228_s2ftfb",
+      "noteName": "송유림_개념루트_전체",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-08-22",
+      "done": true,
+      "doneAt": "2026-08-21T16:01:07.034Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1779281960451_f7td1x",
       "noteName": "송유림_종합 오답노트 (2개 합본 · 2026-05-20)",
@@ -522,9 +558,9 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
-    "done": 0,
-    "percent": 0,
+    "total": 2,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-08-24",
     "endDate": "2026-08-30"
   },

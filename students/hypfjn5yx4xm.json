@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T02:54:29.272Z",
+  "generatedAt": "2026-08-24T11:27:54.025Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -133,46 +133,10 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1787383648855_t3lvvs",
-      "noteName": "이경주_올림포스 기출문제집_01.함수의 극한",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-08-24",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
-  "upcoming": [
-    {
-      "assignmentId": "a_1787383648855_t3lvvs",
-      "noteName": "이경주_올림포스 기출문제집_01.함수의 극한",
-      "subject": "미적분Ⅰ",
-      "round": 3,
-      "plannedDate": "2026-08-29",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "upcoming": [],
   "completed": [
-    {
-      "assignmentId": "a_1787383648855_t3lvvs",
-      "noteName": "이경주_올림포스 기출문제집_01.함수의 극한",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-08-22",
-      "done": true,
-      "doneAt": "2026-08-22T11:13:54.804Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
     {
       "assignmentId": "a_1782031302470_7xoavo",
       "noteName": "이경주_개념루트_재오답_6월21일",
@@ -520,10 +484,22 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1780674000953_zztmxb",
+      "noteName": "이경주_수매씽 유형_수학적 귀납법( ~2390번)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-06",
+      "done": true,
+      "doneAt": "2026-06-06T12:01:54.228Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
   "weekProgress": {
-    "total": 2,
+    "total": 0,
     "done": 0,
     "percent": 0,
     "startDate": "2026-08-24",

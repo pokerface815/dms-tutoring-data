@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-22T11:14:04.243Z",
+  "generatedAt": "2026-08-24T02:54:29.272Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -133,9 +133,33 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1787383648855_t3lvvs",
+      "noteName": "이경주_올림포스 기출문제집_01.함수의 극한",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-08-24",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1787383648855_t3lvvs",
+      "noteName": "이경주_올림포스 기출문제집_01.함수의 극한",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-08-29",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1787383648855_t3lvvs",
@@ -499,11 +523,11 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
-    "done": 1,
-    "percent": 100,
-    "startDate": "2026-08-17",
-    "endDate": "2026-08-23"
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-08-24",
+    "endDate": "2026-08-30"
   },
   "teacherConfirms": {
     "a_1779199815812_kc9oc2__3": {

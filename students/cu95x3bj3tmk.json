@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T11:25:22.543Z",
+  "generatedAt": "2026-08-24T17:31:15.109Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -377,12 +377,28 @@
       "assignedAt": "2026-08-24T08:57:34.526Z"
     },
     {
+      "assignmentId": "task_1786879331314_4kf6it",
+      "round": 1,
+      "title": "공수2 강의 영상 보기(제출일 8/29(토))",
+      "dueDate": "2026-08-29",
+      "isRepeat": false,
+      "assignedAt": "2026-08-16T11:22:11.314Z"
+    },
+    {
       "assignmentId": "task_1787561854526_5djosw",
       "round": 1,
       "title": "공수2 강의 영상 보기(제출일 8/30(일))",
       "dueDate": "2026-08-30",
       "isRepeat": false,
       "assignedAt": "2026-08-24T08:57:34.526Z"
+    },
+    {
+      "assignmentId": "task_1786879331314_f7a6hz",
+      "round": 1,
+      "title": "공수2 강의 영상 보기(제출일 8/30(일))",
+      "dueDate": "2026-08-30",
+      "isRepeat": false,
+      "assignedAt": "2026-08-16T11:22:11.314Z"
     },
     {
       "assignmentId": "task_1787561854526_7ard3a",
@@ -393,12 +409,28 @@
       "assignedAt": "2026-08-24T08:57:34.526Z"
     },
     {
+      "assignmentId": "task_1787020493907_z7j0o4",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/1(화))",
+      "dueDate": "2026-09-01",
+      "isRepeat": false,
+      "assignedAt": "2026-08-18T02:34:53.907Z"
+    },
+    {
       "assignmentId": "task_1787561854526_ipr528",
       "round": 1,
       "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/3(목))",
       "dueDate": "2026-09-03",
       "isRepeat": false,
       "assignedAt": "2026-08-24T08:57:34.526Z"
+    },
+    {
+      "assignmentId": "task_1787185872351_wcq93u",
+      "round": 1,
+      "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/3(목))",
+      "dueDate": "2026-09-03",
+      "isRepeat": false,
+      "assignedAt": "2026-08-20T00:31:12.351Z"
     },
     {
       "assignmentId": "task_1787561854526_r0hk5o",
@@ -409,12 +441,28 @@
       "assignedAt": "2026-08-24T08:57:34.526Z"
     },
     {
+      "assignmentId": "task_1787327683775_6k742s",
+      "round": 1,
+      "title": "공수2 강의 영상 보기(제출일 9/5(토))",
+      "dueDate": "2026-09-05",
+      "isRepeat": false,
+      "assignedAt": "2026-08-21T15:54:43.775Z"
+    },
+    {
       "assignmentId": "task_1787561854526_5iooa6",
       "round": 1,
       "title": "공수2 강의 영상 보기(제출일 9/6(일))",
       "dueDate": "2026-09-06",
       "isRepeat": false,
       "assignedAt": "2026-08-24T08:57:34.526Z"
+    },
+    {
+      "assignmentId": "task_1787414924615_bcgfst",
+      "round": 1,
+      "title": "공수2 강의 영상 보기(제출일 9/6(일))",
+      "dueDate": "2026-09-06",
+      "isRepeat": false,
+      "assignedAt": "2026-08-22T16:08:44.615Z"
     }
   ],
   "myGrades": []

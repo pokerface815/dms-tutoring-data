@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-22T03:35:32.560Z",
+  "generatedAt": "2026-08-24T02:55:47.816Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -259,8 +259,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-17",
-    "endDate": "2026-08-23"
+    "startDate": "2026-08-24",
+    "endDate": "2026-08-30"
   },
   "teacherConfirms": {},
   "tasks": [],

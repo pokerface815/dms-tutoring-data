@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T01:19:38.973Z",
+  "generatedAt": "2026-08-25T09:58:00.745Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -134,15 +134,6 @@
         "id": "effort_ms46hwma1lh",
         "startedAt": 1785214249865,
         "seconds": 2481,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms15qqenu2l",
-        "startedAt": 1785031227724,
-        "seconds": 1192,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",

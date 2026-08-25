@@ -3908,39 +3908,5 @@
     "batchId": "t_mt7ixssq",
     "repeat": null,
     "fromLesson": "lesson_1787593371146_c6i766"
-  },
-  {
-    "id": "a_1787651866485_h0al6q",
-    "noteId": "note_1787651858836_xh2slq",
-    "noteName": "테스트",
-    "studentId": "s_1780190418387_a11waf",
-    "subject": "미적분Ⅰ",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-08-25",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-08-27",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 3,
-        "planned": "2026-09-01",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 4,
-        "planned": "2026-09-15",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-08-25T09:57:46.485Z"
   }
 ]

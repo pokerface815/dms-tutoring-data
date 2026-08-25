@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T17:30:59.257Z",
+  "generatedAt": "2026-08-25T13:56:11.349Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -232,15 +232,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms1v4h494bo",
-        "startedAt": 1785074115533,
-        "seconds": 3218,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
         "reflection": ""
       }
     ]

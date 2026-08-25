@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-25T10:14:20.396Z",
+  "generatedAt": "2026-08-25T12:05:47.188Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -73,7 +73,7 @@
   "syncedLectureWatch": {
     "videos": {
       "ouu9eZPx_nI": {
-        "sessionCount": 5,
+        "sessionCount": 4,
         "lectureId": "lec_ms6op29vnfs",
         "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
         "videoTitle": "36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
@@ -89,8 +89,18 @@
         "videoTitle": "40~45쪽 원의 중심에서 현까지의 거리와 현의 길이 + 원의 접선의 성질",
         "durationSec": 3330,
         "lastPosition": 3329,
-        "lastWatchedAt": "2026-08-18T13:20:56.695Z",
+        "lastWatchedAt": "2026-08-18T13:21:03.140Z",
         "watchedSec": 3190
+      },
+      "pyGUfURMW4g": {
+        "sessionCount": 1,
+        "lectureId": "lec_ms6op29vnfs",
+        "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
+        "videoTitle": "1",
+        "durationSec": 3806,
+        "lastPosition": 2,
+        "lastWatchedAt": "2026-08-25T11:52:12.044Z",
+        "watchedSec": 3
       }
     },
     "daily": {
@@ -103,6 +113,9 @@
       "2026-08-18": {
         "ouu9eZPx_nI": 434,
         "Q-yzoV1QA2s": 3190
+      },
+      "2026-08-25": {
+        "pyGUfURMW4g": 3
       }
     }
   },
@@ -171,9 +184,9 @@
     },
     "task_1786424522089_sl2c1m__1": {
       "comment": "뭐야? 왜 맨날 2페이지만 올리는거지? 2장이면 4페이지인데?",
-      "commentAt": "2026-08-25T10:14:13.900Z",
-      "confirmed": false,
-      "confirmedAt": null
+      "commentAt": "2026-08-25T12:05:38.454Z",
+      "confirmed": true,
+      "confirmedAt": "2026-08-25T12:05:38.456Z"
     }
   },
   "tasks": [

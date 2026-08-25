@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T17:30:51.952Z",
-  "studentCount": 53,
+  "generatedAt": "2026-08-25T10:05:31.790Z",
+  "studentCount": 54,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -578,6 +578,17 @@
     {
       "id": "s_1787570844823_nbqosc",
       "name": "신다은",
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "recent3mSec": 0,
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
+      "id": "s_1787652322129_vt0acc",
+      "name": "문현승",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,

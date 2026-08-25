@@ -1574,5 +1574,40 @@
         "to": null
       }
     ]
+  },
+  {
+    "id": "s_1787652322129_vt0acc",
+    "name": "문현승",
+    "school": "창평고",
+    "grade": "고1",
+    "classes": [
+      "cls_1787652303196_9khxnz"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-9964-7661",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": false,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "dss8rumu5e4x",
+    "classHistory": [
+      {
+        "classId": "cls_1787652303196_9khxnz",
+        "from": "2026-08-25",
+        "to": null
+      }
+    ]
   }
 ]

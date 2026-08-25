@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T12:35:17.804Z",
+  "generatedAt": "2026-08-25T13:31:30.082Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -300,21 +300,21 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-25T12:26:44.233Z",
+    "uploadedAt": "2026-08-25T12:27:54.556Z",
     "summary": {
-      "todaySec": 315,
-      "weekSec": 315,
-      "monthSec": 656,
+      "todaySec": 385,
+      "weekSec": 385,
+      "monthSec": 726,
       "streak": 1,
       "bySubjectMonth": {
-        "공통수학1": 656
+        "공통수학1": 726
       }
     },
     "logs": [
       {
         "id": "effort_mt8mxmcad57",
         "startedAt": 1787660093633,
-        "seconds": 214,
+        "seconds": 284,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",

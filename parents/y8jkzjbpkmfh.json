@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T02:54:33.712Z",
+  "generatedAt": "2026-08-25T12:05:50.882Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -243,15 +243,6 @@
         "id": "effort_ms1rebjulpz",
         "startedAt": 1785067937823,
         "seconds": 1829,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms1qu8wydrz",
-        "startedAt": 1785066111242,
-        "seconds": 235,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",

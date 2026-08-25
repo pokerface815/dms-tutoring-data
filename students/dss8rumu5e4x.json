@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-25T10:05:35.398Z",
+  "generatedAt": "2026-08-25T10:13:25.649Z",
   "student": {
     "id": "s_1787652322129_vt0acc",
     "classes": [
@@ -8,7 +8,7 @@
     ],
     "name": "문현승",
     "school": "창평고",
-    "grade": "고1",
+    "grade": "기타",
     "class": "",
     "showMakeNote": true
   },

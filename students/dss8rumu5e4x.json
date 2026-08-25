@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-08-25T10:05:35.398Z",
+  "student": {
+    "id": "s_1787652322129_vt0acc",
+    "classes": [
+      "cls_1787652303196_9khxnz"
+    ],
+    "name": "문현승",
+    "school": "창평고",
+    "grade": "고1",
+    "class": "",
+    "showMakeNote": true
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-08-24",
+    "endDate": "2026-08-30"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

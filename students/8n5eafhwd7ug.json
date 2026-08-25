@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-25T10:12:05.532Z",
+  "generatedAt": "2026-08-25T10:14:20.396Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -170,8 +170,10 @@
       "confirmedAt": "2026-08-22T11:14:55.712Z"
     },
     "task_1786424522089_sl2c1m__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-08-25T10:11:58.325Z"
+      "comment": "뭐야? 왜 맨날 2페이지만 올리는거지? 2장이면 4페이지인데?",
+      "commentAt": "2026-08-25T10:14:13.900Z",
+      "confirmed": false,
+      "confirmedAt": null
     }
   },
   "tasks": [

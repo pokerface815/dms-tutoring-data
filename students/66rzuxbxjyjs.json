@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-25T12:35:20.257Z",
+  "generatedAt": "2026-08-25T13:31:31.169Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -195,7 +195,7 @@
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
       "reflection": "",
-      "seconds": 214,
+      "seconds": 284,
       "startedAt": 1787660093633,
       "createdAt": "2026-08-25T12:22:27.418Z",
       "autoRecorded": true
@@ -290,9 +290,9 @@
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
         "durationSec": 4174,
-        "lastPosition": 2211,
-        "lastWatchedAt": "2026-08-25T12:26:44.222Z",
-        "watchedSec": 664
+        "lastPosition": 2281,
+        "lastWatchedAt": "2026-08-25T13:23:19.905Z",
+        "watchedSec": 734
       },
       "aa5XlDPSuus": {
         "sessionCount": 1,
@@ -345,7 +345,7 @@
         "e1HzWUZt0c8": 349
       },
       "2026-08-25": {
-        "e1HzWUZt0c8": 315
+        "e1HzWUZt0c8": 385
       }
     }
   },

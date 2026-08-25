@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T02:55:47.816Z",
+  "generatedAt": "2026-08-25T09:58:02.465Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -190,20 +190,20 @@
         "watchedSec": 1
       },
       "OIDvXwg6tkg": {
-        "sessionCount": 8,
+        "sessionCount": 7,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
         "durationSec": 5879,
-        "lastPosition": 0,
+        "lastPosition": 5878,
         "lastWatchedAt": "2026-08-17T05:10:54.843Z",
         "watchedSec": 3883
       },
       "Owo2_OgWPto": {
-        "sessionCount": 5,
+        "sessionCount": 2,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "82~99쪽 미분가능성과 연속성, 도함수(+다항함수의 도함수), 곱의 미분법",
+        "videoTitle": "3",
         "durationSec": 6101,
         "lastPosition": 6092,
         "lastWatchedAt": "2026-08-22T01:58:42.455Z",

@@ -3908,5 +3908,39 @@
     "batchId": "t_mt7ixssq",
     "repeat": null,
     "fromLesson": "lesson_1787593371146_c6i766"
+  },
+  {
+    "id": "a_1787666163828_1y94lw",
+    "noteId": "note_1787666151681_7q8p2p",
+    "noteName": "조예나_올림포스 유형편_02.함수의 연속",
+    "studentId": "s_1777547047005_uo92w5",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-08-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-08-28",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-02",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-16",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-08-25T13:56:03.828Z"
   }
 ]

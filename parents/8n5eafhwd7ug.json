@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T17:31:27.772Z",
+  "generatedAt": "2026-08-25T01:19:40.494Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -266,7 +266,66 @@
     }
   ],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-08-18T13:20:56.700Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 4120,
+      "streak": 0,
+      "bySubjectMonth": {
+        "중3": 4120
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_msymrde3e17",
+        "startedAt": 1787055422343,
+        "seconds": 3190,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "쎈B 중3-2 (26년 7월 ~ ) — 40~45쪽 원의 중심에서 현까지의 거리와 현의 길이 + 원의 접선의 성질",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msyf4mhcwlm",
+        "startedAt": 1787042580594,
+        "seconds": 413,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "쎈B 중3-2 (26년 7월 ~ ) — 36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msva2oxh10n",
+        "startedAt": 1786852699129,
+        "seconds": 344,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "쎈B 중3-2 (26년 7월 ~ ) — 36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msv9wcz53ai",
+        "startedAt": 1786852512233,
+        "seconds": 111,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "쎈B 중3-2 (26년 7월 ~ ) — 36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msv9qqje01v",
+        "startedAt": 1786852242899,
+        "seconds": 62,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "쎈B 중3-2 (26년 7월 ~ ) — 36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

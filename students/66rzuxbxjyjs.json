@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-25T12:05:49.123Z",
+  "generatedAt": "2026-08-25T12:06:29.992Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -389,8 +389,8 @@
       "confirmedAt": null
     },
     "task_1786424522089_qt5lo2__1": {
-      "comment": "내일 다시 한번 올려주세요~",
-      "commentAt": "2026-08-24T11:24:54.458Z",
+      "comment": "4페이지 맞춰서 장 수 추가해서 다시 한번 올려주세요~",
+      "commentAt": "2026-08-25T12:06:23.591Z",
       "confirmed": false,
       "confirmedAt": null
     }

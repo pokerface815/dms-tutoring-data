@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T17:31:13.235Z",
+  "generatedAt": "2026-08-25T01:19:35.055Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -8,7 +8,7 @@
     ],
     "name": "문대승",
     "school": "창평고",
-    "grade": "고3",
+    "grade": "기타",
     "class": "",
     "showMakeNote": true
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T17:31:22.069Z",
+  "generatedAt": "2026-08-25T12:35:17.804Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -300,17 +300,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-18T07:42:54.278Z",
+    "uploadedAt": "2026-08-25T12:26:44.233Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 341,
-      "streak": 0,
+      "todaySec": 315,
+      "weekSec": 315,
+      "monthSec": 656,
+      "streak": 1,
       "bySubjectMonth": {
-        "공통수학1": 341
+        "공통수학1": 656
       }
     },
     "logs": [
+      {
+        "id": "effort_mt8mxmcad57",
+        "startedAt": 1787660093633,
+        "seconds": 214,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mt8migtb0bn",
+        "startedAt": 1787659227200,
+        "seconds": 101,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
+        "reflection": ""
+      },
       {
         "id": "effort_msucxodhpng",
         "startedAt": 1786796683955,

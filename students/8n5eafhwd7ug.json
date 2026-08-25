@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-25T12:35:23.808Z",
+  "generatedAt": "2026-08-25T13:31:33.771Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -98,9 +98,9 @@
         "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
         "videoTitle": "1",
         "durationSec": 3806,
-        "lastPosition": 2,
-        "lastWatchedAt": "2026-08-25T11:52:12.044Z",
-        "watchedSec": 3
+        "lastPosition": 700,
+        "lastWatchedAt": "2026-08-25T13:11:08.613Z",
+        "watchedSec": 50
       }
     },
     "daily": {
@@ -115,7 +115,7 @@
         "Q-yzoV1QA2s": 3190
       },
       "2026-08-25": {
-        "pyGUfURMW4g": 3
+        "pyGUfURMW4g": 50
       }
     }
   },
@@ -181,6 +181,10 @@
     "task_1786115074362_gvsg5t__1": {
       "confirmed": true,
       "confirmedAt": "2026-08-22T11:14:55.712Z"
+    },
+    "task_1786424522089_sl2c1m__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-08-25T12:35:36.136Z"
     }
   },
   "tasks": [

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T11:25:18.752Z",
+  "generatedAt": "2026-08-25T09:58:05.869Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -183,24 +183,6 @@
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms1bwv62b7k",
-        "startedAt": 1785041880861,
-        "seconds": 2532,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms185doznwh",
-        "startedAt": 1785035531726,
-        "seconds": 447,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
         "reflection": ""
       }
     ]

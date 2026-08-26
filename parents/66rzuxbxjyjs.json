@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T13:31:30.082Z",
+  "generatedAt": "2026-08-26T06:35:49.931Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -259,8 +259,8 @@
       ],
       "completionRate": {
         "done": 7,
-        "total": 8,
-        "percent": 88
+        "total": 9,
+        "percent": 78
       },
       "noteStages": null
     },
@@ -300,17 +300,53 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-25T12:27:54.556Z",
+    "uploadedAt": "2026-08-25T14:22:39.238Z",
     "summary": {
-      "todaySec": 385,
-      "weekSec": 385,
-      "monthSec": 726,
+      "todaySec": 0,
+      "weekSec": 1692,
+      "monthSec": 2033,
       "streak": 1,
       "bySubjectMonth": {
-        "공통수학1": 726
+        "공통수학1": 2033
       }
     },
     "logs": [
+      {
+        "id": "effort_mt8r3auv7sa",
+        "startedAt": 1787667468492,
+        "seconds": 288,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mt8qvxw8qup",
+        "startedAt": 1787667125046,
+        "seconds": 335,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mt8qn42fugm",
+        "startedAt": 1787666695921,
+        "seconds": 413,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mt8qgadotvt",
+        "startedAt": 1787666373478,
+        "seconds": 271,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+        "reflection": ""
+      },
       {
         "id": "effort_mt8mxmcad57",
         "startedAt": 1787660093633,

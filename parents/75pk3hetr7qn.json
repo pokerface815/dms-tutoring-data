@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T10:21:40.420Z",
+  "generatedAt": "2026-08-26T12:16:20.545Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,21 +11,21 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-26T09:36:12.249Z",
+    "uploadedAt": "2026-08-26T10:39:41.750Z",
     "summary": {
-      "todaySec": 875,
-      "weekSec": 875,
-      "monthSec": 10751,
+      "todaySec": 5126,
+      "weekSec": 5126,
+      "monthSec": 15002,
       "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 10751
+        "미적분Ⅰ": 15002
       }
     },
     "logs": [
       {
         "id": "effort_mt9w6o1ps5p",
         "startedAt": 1787736481792,
-        "seconds": 875,
+        "seconds": 5126,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 100~121쪽 173번 질문 + 미분계수 마무리 + 도함수의 활용(1) - 접선의 방정식",

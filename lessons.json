@@ -967,5 +967,16 @@
     "taskBatchId": "t_mt7ixssq",
     "createdAt": "2026-08-24T17:42:51.146Z",
     "updatedAt": "2026-08-24T17:42:51.146Z"
+  },
+  {
+    "id": "lesson_1787739695318_74f9jk",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-08-26",
+    "content": "공수2 - 도형의 방정식 마무리 했음. 집합 들어갈 차례\n공수1 - 65쪽 이차방정식과 이차함수까지 문제 다 풀고, 오답만 하면 됨. 여러가지 방정식 들어갈 차례",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-08-26T10:21:35.318Z",
+    "updatedAt": "2026-08-26T10:21:35.318Z"
   }
 ]

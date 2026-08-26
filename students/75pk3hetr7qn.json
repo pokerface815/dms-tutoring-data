@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-25T13:31:28.138Z",
+  "generatedAt": "2026-08-26T10:21:42.255Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -144,6 +144,17 @@
       "startedAt": 1787363933314,
       "createdAt": "2026-08-22T01:59:56.665Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mt9w6o1ps5p",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 100~121쪽 173번 질문 + 미분계수 마무리 + 도함수의 활용(1) - 접선의 방정식",
+      "reflection": "",
+      "seconds": 875,
+      "startedAt": 1787736481792,
+      "createdAt": "2026-08-26T09:29:12.254Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -200,7 +211,7 @@
         "watchedSec": 3883
       },
       "Owo2_OgWPto": {
-        "sessionCount": 4,
+        "sessionCount": 5,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "82~99쪽 미분가능성과 연속성, 도함수(+다항함수의 도함수), 곱의 미분법",
@@ -210,14 +221,14 @@
         "watchedSec": 4809
       },
       "vmMXmgNPh5w": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "100~121쪽 173번 질문 + 미분계수 마무리 + 도함수의 활용(1) - 접선의 방정식",
         "durationSec": 5949,
-        "lastPosition": 935,
-        "lastWatchedAt": "2026-08-22T02:09:24.047Z",
-        "watchedSec": 1213
+        "lastPosition": 1662,
+        "lastWatchedAt": "2026-08-26T09:36:12.244Z",
+        "watchedSec": 2088
       }
     },
     "daily": {
@@ -247,6 +258,9 @@
       "2026-08-22": {
         "Owo2_OgWPto": 2344,
         "vmMXmgNPh5w": 1213
+      },
+      "2026-08-26": {
+        "vmMXmgNPh5w": 875
       }
     }
   },

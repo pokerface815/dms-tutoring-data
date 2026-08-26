@@ -562,8 +562,8 @@
   "66rzuxbxjyjs__task_1786424522089_qt5lo2__1": {
     "comment": "4페이지 맞춰서 장 수 추가해서 다시 한번 올려주세요~",
     "commentAt": "2026-08-25T12:06:23.591Z",
-    "confirmed": false,
-    "confirmedAt": null
+    "confirmed": true,
+    "confirmedAt": "2026-08-26T06:55:32.207Z"
   },
   "cu95x3bj3tmk__task_1786265760643_dwxzvi__1": {
     "missed": true,
@@ -582,5 +582,9 @@
   "cu95x3bj3tmk__task_1786424522089_7opvm9__1": {
     "confirmed": true,
     "confirmedAt": "2026-08-26T06:55:17.037Z"
+  },
+  "kwbqx4xu6as9__task_1786424522088_8ir0be__1": {
+    "confirmed": true,
+    "confirmedAt": "2026-08-26T06:55:30.341Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T02:55:51.135Z",
+  "generatedAt": "2026-08-26T12:16:18.295Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -254,6 +254,17 @@
       "startedAt": 1786255022172,
       "createdAt": "2026-08-09T05:58:21.378Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mt9zl5ay8b1",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
+      "reflection": "",
+      "seconds": 1544,
+      "startedAt": 1787742020612,
+      "createdAt": "2026-08-26T11:04:26.650Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -290,7 +301,7 @@
         "watchedSec": 447
       },
       "2auObqsjN-s": {
-        "sessionCount": 7,
+        "sessionCount": 6,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "13~23쪽 선분의 내분점",
@@ -306,7 +317,7 @@
         "videoTitle": "135~141쪽 미지수가 2개인 연립이차방정식",
         "durationSec": 3563,
         "lastPosition": 3562,
-        "lastWatchedAt": "2026-08-09T05:54:32.759Z",
+        "lastWatchedAt": "2026-08-16T03:10:17.155Z",
         "watchedSec": 2266
       },
       "HC4J2dxRE8A": {
@@ -325,12 +336,12 @@
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "143~145쪽 부정방정식",
         "durationSec": 3939,
-        "lastPosition": 1655,
-        "lastWatchedAt": "2026-08-16T03:17:05.975Z",
-        "watchedSec": 961
+        "lastPosition": 3103,
+        "lastWatchedAt": "2026-08-26T11:39:45.352Z",
+        "watchedSec": 2505
       },
       "r2Yofj6CofI": {
-        "sessionCount": 2,
+        "sessionCount": 1,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "36~41쪽 정점을 지나는 직선 질문(유형편 13쪽) + 두  직선의 평행과 수직",
@@ -340,7 +351,7 @@
         "watchedSec": 1977
       },
       "tsLcsUgBKZ0": {
-        "sessionCount": 4,
+        "sessionCount": 1,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
@@ -395,13 +406,13 @@
         "2auObqsjN-s": 1227,
         "tsLcsUgBKZ0": 6
       },
+      "2026-08-06": {
+        "Vpbwe1ellrc": 16
+      },
       "2026-08-05": {
         "tsLcsUgBKZ0": 1437,
         "4uqVjzd4CXc": 14,
         "2auObqsjN-s": 23
-      },
-      "2026-08-06": {
-        "Vpbwe1ellrc": 16
       },
       "2026-08-07": {
         "4Ug5EcsKyFA": 22,
@@ -417,6 +428,9 @@
       },
       "2026-08-16": {
         "iwleCBdeEjY": 3
+      },
+      "2026-08-26": {
+        "iwleCBdeEjY": 1544
       }
     }
   },

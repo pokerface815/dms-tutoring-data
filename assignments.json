@@ -3942,5 +3942,39 @@
       }
     ],
     "createdAt": "2026-08-25T13:56:03.828Z"
+  },
+  {
+    "id": "a_1787726098114_zzpdkx",
+    "noteId": "note_1787726086884_i6ypwv",
+    "noteName": "송유림_올림포스 유형편_전체",
+    "studentId": "s_1777538277049_9le2r7",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-08-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-08-28",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-02",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-16",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-08-26T06:34:58.114Z"
   }
 ]

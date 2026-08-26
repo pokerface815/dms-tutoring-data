@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T09:58:05.869Z",
+  "generatedAt": "2026-08-26T06:35:53.349Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -174,15 +174,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 135~141쪽 미지수가 2개인 연립이차방정식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms2u2g8pdxb",
-        "startedAt": 1785132856997,
-        "seconds": 85,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
         "reflection": ""
       }
     ]

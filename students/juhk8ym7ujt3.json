@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-26T06:35:58.525Z",
+  "generatedAt": "2026-08-26T10:21:46.619Z",
   "student": {
     "id": "s_1787570844823_nbqosc",
     "classes": [
@@ -34,20 +34,31 @@
       "startedAt": 1787697825764,
       "createdAt": "2026-08-25T22:44:54.233Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mt9ux1ab9k8",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "중3-1 라이트쎈(26년 1~3월) — 147~150쪽 이차함수의 일반형의 그래프",
+      "reflection": "",
+      "seconds": 96,
+      "startedAt": 1787734345506,
+      "createdAt": "2026-08-26T08:53:43.235Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "xc3kRwSvPd0": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_ms6ocqvgtdh",
         "lectureTitle": "중3-1 라이트쎈(26년 1~3월)",
         "videoTitle": "147~150쪽 이차함수의 일반형의 그래프",
         "durationSec": 3007,
-        "lastPosition": 1569,
-        "lastWatchedAt": "2026-08-25T23:10:14.793Z",
-        "watchedSec": 1602
+        "lastPosition": 1692,
+        "lastWatchedAt": "2026-08-26T08:54:09.546Z",
+        "watchedSec": 1698
       },
       "mbPPlUSCv1c": {
         "sessionCount": 1,
@@ -62,7 +73,7 @@
     },
     "daily": {
       "2026-08-26": {
-        "xc3kRwSvPd0": 1602,
+        "xc3kRwSvPd0": 1698,
         "mbPPlUSCv1c": 584
       }
     }

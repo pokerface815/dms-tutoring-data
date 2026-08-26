@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-25T13:31:33.771Z",
+  "generatedAt": "2026-08-26T06:35:55.002Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -67,6 +67,17 @@
       "startedAt": 1787055422343,
       "createdAt": "2026-08-18T12:19:54.123Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mt8rd95orml",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "쎈B 중3-2 (26년 7월 ~ ) — 52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",
+      "reflection": "",
+      "seconds": 95,
+      "startedAt": 1787667511758,
+      "createdAt": "2026-08-25T14:26:35.292Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -93,14 +104,14 @@
         "watchedSec": 3190
       },
       "pyGUfURMW4g": {
-        "sessionCount": 1,
+        "sessionCount": 3,
         "lectureId": "lec_ms6op29vnfs",
         "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
-        "videoTitle": "1",
+        "videoTitle": "52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",
         "durationSec": 3806,
-        "lastPosition": 700,
-        "lastWatchedAt": "2026-08-25T13:11:08.613Z",
-        "watchedSec": 50
+        "lastPosition": 1025,
+        "lastWatchedAt": "2026-08-25T14:28:47.667Z",
+        "watchedSec": 149
       }
     },
     "daily": {
@@ -115,7 +126,7 @@
         "Q-yzoV1QA2s": 3190
       },
       "2026-08-25": {
-        "pyGUfURMW4g": 50
+        "pyGUfURMW4g": 149
       }
     }
   },

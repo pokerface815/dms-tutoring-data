@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T10:21:48.306Z",
+  "generatedAt": "2026-08-26T12:16:17.069Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,18 +11,27 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-16T03:25:50.887Z",
+    "uploadedAt": "2026-08-26T11:39:45.356Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 11071,
-      "streak": 0,
+      "todaySec": 1544,
+      "weekSec": 1544,
+      "monthSec": 12615,
+      "streak": 1,
       "bySubjectMonth": {
         "공통수학2": 10638,
-        "공통수학1": 433
+        "공통수학1": 1977
       }
     },
     "logs": [
+      {
+        "id": "effort_mt9zl5ay8b1",
+        "startedAt": 1787742020612,
+        "seconds": 1544,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
+        "reflection": ""
+      },
       {
         "id": "effort_msle618i2sd",
         "startedAt": 1786255022172,

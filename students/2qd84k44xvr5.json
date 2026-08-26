@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-26T06:35:32.458Z",
+  "generatedAt": "2026-08-26T09:37:19.722Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -420,19 +420,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1787726098114_zzpdkx",
-      "noteName": "송유림_올림포스 유형편_전체",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-08-26",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -459,6 +447,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1787726098114_zzpdkx",
+      "noteName": "송유림_올림포스 유형편_전체",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-08-26",
+      "done": true,
+      "doneAt": "2026-08-26T09:37:12.122Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1787328040228_s2ftfb",
       "noteName": "송유림_개념루트_전체",
@@ -582,8 +582,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 1,
-    "percent": 25,
+    "done": 2,
+    "percent": 50,
     "startDate": "2026-08-24",
     "endDate": "2026-08-30"
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T09:37:27.114Z",
+  "generatedAt": "2026-08-26T10:21:44.162Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -168,6 +168,18 @@
             }
           ],
           "hasLesson": false
+        },
+        {
+          "date": "2026-08-26",
+          "weekday": "수",
+          "className": "박유솔 개별",
+          "content": "공수2 - 도형의 방정식 마무리 했음. 집합 들어갈 차례\n공수1 - 65쪽 이차방정식과 이차함수까지 문제 다 풀고, 오답만 하면 됨. 여러가지 방정식 들어갈 차례",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
         },
         {
           "date": "2026-08-25",
@@ -567,17 +579,35 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-12T09:34:13.122Z",
+    "uploadedAt": "2026-08-26T09:05:04.996Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 4020,
-      "streak": 0,
+      "todaySec": 1982,
+      "weekSec": 1982,
+      "monthSec": 6002,
+      "streak": 1,
       "bySubjectMonth": {
-        "공통수학2": 4020
+        "공통수학2": 6002
       }
     },
     "logs": [
+      {
+        "id": "effort_mt9v5ytsayq",
+        "startedAt": 1787734775855,
+        "seconds": 324,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 95~107쪽 점과 직선에 대한 대칭이동, 집합",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mt9u94svu55",
+        "startedAt": 1787733244637,
+        "seconds": 1658,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 89~94쪽 대칭이동",
+        "reflection": ""
+      },
       {
         "id": "effort_msnd6mg5txq",
         "startedAt": 1786374304121,

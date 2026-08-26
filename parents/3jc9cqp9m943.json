@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T09:37:29.023Z",
+  "generatedAt": "2026-08-26T10:21:48.306Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -156,15 +156,6 @@
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms31pqzsb5h",
-        "startedAt": 1785145657641,
-        "seconds": 642,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
         "reflection": ""
       }
     ]

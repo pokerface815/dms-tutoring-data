@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T06:35:42.291Z",
+  "generatedAt": "2026-08-26T09:37:23.179Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -115,7 +115,7 @@
             {
               "title": "RPM 공통수학1 매일 2장씩(제출일 8/25(화))",
               "dueDate": "2026-08-25",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -283,9 +283,9 @@
         }
       ],
       "completionRate": {
-        "done": 3,
+        "done": 4,
         "total": 9,
-        "percent": 33
+        "percent": 44
       },
       "noteStages": null
     },

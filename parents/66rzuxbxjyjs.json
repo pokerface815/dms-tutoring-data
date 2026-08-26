@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T06:35:49.931Z",
+  "generatedAt": "2026-08-26T06:55:39.790Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -115,7 +115,7 @@
             {
               "title": "라이트쎈 공수1 매일 2장씩(제출일 8/25(화))",
               "dueDate": "2026-08-25",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -258,9 +258,9 @@
         }
       ],
       "completionRate": {
-        "done": 7,
+        "done": 8,
         "total": 9,
-        "percent": 78
+        "percent": 89
       },
       "noteStages": null
     },

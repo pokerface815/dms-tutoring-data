@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T13:31:32.545Z",
+  "generatedAt": "2026-08-26T06:35:56.855Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -258,9 +258,9 @@
         }
       ],
       "completionRate": {
-        "done": 7,
-        "total": 8,
-        "percent": 88
+        "done": 8,
+        "total": 9,
+        "percent": 89
       },
       "noteStages": null
     }
@@ -268,17 +268,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-18T13:20:56.700Z",
+    "uploadedAt": "2026-08-25T14:28:16.401Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 4120,
-      "streak": 0,
+      "weekSec": 95,
+      "monthSec": 4215,
+      "streak": 1,
       "bySubjectMonth": {
-        "중3": 4120
+        "중3": 4215
       }
     },
     "logs": [
+      {
+        "id": "effort_mt8rd95orml",
+        "startedAt": 1787667511758,
+        "seconds": 95,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "쎈B 중3-2 (26년 7월 ~ ) — 52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",
+        "reflection": ""
+      },
       {
         "id": "effort_msymrde3e17",
         "startedAt": 1787055422343,

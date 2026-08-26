@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T06:35:30.505Z",
+  "generatedAt": "2026-08-26T10:21:49.493Z",
   "studentCount": 54,
   "rankings": [
     {
@@ -182,11 +182,11 @@
     {
       "id": "s_1780309359751_gjl2s0",
       "name": "박유솔",
-      "totalSec": 9372,
-      "weekSec": 0,
-      "monthSec": 4020,
-      "recent3mSec": 9372,
-      "streak": 0,
+      "totalSec": 11354,
+      "weekSec": 1982,
+      "monthSec": 6002,
+      "recent3mSec": 11354,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -512,11 +512,11 @@
     {
       "id": "s_1784437736068_jgkmca",
       "name": "조해인",
-      "totalSec": 23022,
-      "weekSec": 0,
-      "monthSec": 9876,
-      "recent3mSec": 23022,
-      "streak": 0,
+      "totalSec": 23897,
+      "weekSec": 875,
+      "monthSec": 10751,
+      "recent3mSec": 23897,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -578,10 +578,10 @@
     {
       "id": "s_1787570844823_nbqosc",
       "name": "신다은",
-      "totalSec": 2145,
-      "weekSec": 2145,
-      "monthSec": 2145,
-      "recent3mSec": 2145,
+      "totalSec": 2241,
+      "weekSec": 2241,
+      "monthSec": 2241,
+      "recent3mSec": 2241,
       "streak": 1,
       "nickname": "",
       "publicNickname": false

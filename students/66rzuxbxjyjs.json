@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-25T13:31:31.169Z",
+  "generatedAt": "2026-08-26T06:35:48.139Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -199,6 +199,50 @@
       "startedAt": 1787660093633,
       "createdAt": "2026-08-25T12:22:27.418Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mt8qgadotvt",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+      "reflection": "",
+      "seconds": 271,
+      "startedAt": 1787666373478,
+      "createdAt": "2026-08-25T14:00:57.228Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mt8qn42fugm",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
+      "reflection": "",
+      "seconds": 413,
+      "startedAt": 1787666695921,
+      "createdAt": "2026-08-25T14:06:15.639Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mt8qvxw8qup",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+      "reflection": "",
+      "seconds": 335,
+      "startedAt": 1787667125046,
+      "createdAt": "2026-08-25T14:13:07.544Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mt8r3auv7sa",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+      "reflection": "",
+      "seconds": 288,
+      "startedAt": 1787667468492,
+      "createdAt": "2026-08-25T14:18:50.935Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -285,24 +329,24 @@
         "watchedSec": 903
       },
       "e1HzWUZt0c8": {
-        "sessionCount": 5,
+        "sessionCount": 7,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
         "durationSec": 4174,
-        "lastPosition": 2281,
-        "lastWatchedAt": "2026-08-25T13:23:19.905Z",
-        "watchedSec": 734
+        "lastPosition": 3545,
+        "lastWatchedAt": "2026-08-25T14:12:00.696Z",
+        "watchedSec": 1157
       },
       "aa5XlDPSuus": {
-        "sessionCount": 1,
+        "sessionCount": 5,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "128~131쪽 오메가의 성질",
         "durationSec": 4626,
-        "lastPosition": 1,
-        "lastWatchedAt": "2026-08-03T01:09:25.426Z",
-        "watchedSec": 2
+        "lastPosition": 1086,
+        "lastWatchedAt": "2026-08-25T14:27:45.041Z",
+        "watchedSec": 899
       }
     },
     "daily": {
@@ -345,7 +389,8 @@
         "e1HzWUZt0c8": 349
       },
       "2026-08-25": {
-        "e1HzWUZt0c8": 385
+        "e1HzWUZt0c8": 808,
+        "aa5XlDPSuus": 897
       }
     }
   },

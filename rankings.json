@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T13:31:35.108Z",
+  "generatedAt": "2026-08-26T06:35:30.505Z",
   "studentCount": 54,
   "rankings": [
     {
@@ -468,10 +468,10 @@
     {
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
-      "totalSec": 11387,
-      "weekSec": 385,
-      "monthSec": 726,
-      "recent3mSec": 11387,
+      "totalSec": 12694,
+      "weekSec": 1692,
+      "monthSec": 2033,
+      "recent3mSec": 12694,
       "streak": 1,
       "nickname": "",
       "publicNickname": false
@@ -494,7 +494,7 @@
       "weekSec": 1623,
       "monthSec": 8233,
       "recent3mSec": 42579,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -556,11 +556,11 @@
     {
       "id": "s_1786082844440_z9486d",
       "name": "남경원",
-      "totalSec": 4120,
-      "weekSec": 0,
-      "monthSec": 4120,
-      "recent3mSec": 4120,
-      "streak": 0,
+      "totalSec": 4215,
+      "weekSec": 95,
+      "monthSec": 4215,
+      "recent3mSec": 4215,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -578,11 +578,11 @@
     {
       "id": "s_1787570844823_nbqosc",
       "name": "신다은",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
+      "totalSec": 2145,
+      "weekSec": 2145,
+      "monthSec": 2145,
+      "recent3mSec": 2145,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

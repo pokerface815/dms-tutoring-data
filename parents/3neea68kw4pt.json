@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T01:19:37.074Z",
+  "generatedAt": "2026-08-26T06:35:44.271Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -243,15 +243,6 @@
         "subject": "기하",
         "method": "문제 풀이",
         "content": "공간도형",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms2ln3g43e4",
-        "startedAt": 1785117457337,
-        "seconds": 1340,
-        "subject": "미적분Ⅰ",
-        "method": "문제 풀이",
-        "content": "쎈B",
         "reflection": ""
       }
     ]

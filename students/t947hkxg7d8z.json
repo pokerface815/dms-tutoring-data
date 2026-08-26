@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-25T13:56:13.114Z",
+  "generatedAt": "2026-08-26T06:35:36.147Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,9 +51,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1787666163828_1y94lw",
       "noteName": "조예나_올림포스 유형편_02.함수의 연속",
@@ -64,7 +62,10 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1787666163828_1y94lw",
       "noteName": "조예나_올림포스 유형편_02.함수의 연속",

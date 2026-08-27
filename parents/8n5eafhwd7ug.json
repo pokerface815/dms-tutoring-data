@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T17:51:05.704Z",
+  "generatedAt": "2026-08-27T13:28:16.721Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -98,7 +98,7 @@
             {
               "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/27(목))",
               "dueDate": "2026-08-27",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false

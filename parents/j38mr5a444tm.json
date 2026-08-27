@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T06:35:51.607Z",
+  "generatedAt": "2026-08-27T13:28:18.674Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -11,17 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-24T11:41:27.144Z",
+    "uploadedAt": "2026-08-27T12:56:14.914Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 1623,
-      "monthSec": 8233,
-      "streak": 0,
+      "todaySec": 2476,
+      "weekSec": 4099,
+      "monthSec": 10709,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 8233
+        "미적분Ⅰ": 10709
       }
     },
     "logs": [
+      {
+        "id": "effort_mtbh74hr1ir",
+        "startedAt": 1787832237193,
+        "seconds": 2476,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
+        "reflection": ""
+      },
       {
         "id": "effort_mt74s4pmk9t",
         "startedAt": 1787569406251,
@@ -101,42 +110,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms4cv3gqzgf",
-        "startedAt": 1785224906779,
-        "seconds": 1072,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms4abr94zqk",
-        "startedAt": 1785220653173,
-        "seconds": 1513,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms48syt5z74",
-        "startedAt": 1785218103355,
-        "seconds": 1420,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms46hwma1lh",
-        "startedAt": 1785214249865,
-        "seconds": 2481,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
         "reflection": ""
       }
     ]

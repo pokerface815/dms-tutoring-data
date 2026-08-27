@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-26T12:16:18.295Z",
+  "generatedAt": "2026-08-27T00:47:59.957Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -261,9 +261,20 @@
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
       "reflection": "",
-      "seconds": 1544,
+      "seconds": 2149,
       "startedAt": 1787742020612,
       "createdAt": "2026-08-26T11:04:26.650Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mta19hotlhe",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 150~159쪽 일차부등식, 연립일차부등식",
+      "reflection": "",
+      "seconds": 1426,
+      "startedAt": 1787744994628,
+      "createdAt": "2026-08-26T11:51:22.061Z",
       "autoRecorded": true
     }
   ],
@@ -321,14 +332,14 @@
         "watchedSec": 2266
       },
       "HC4J2dxRE8A": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "150~159쪽 일차부등식, 연립일차부등식",
         "durationSec": 3211,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-07-27T08:44:09.436Z",
-        "watchedSec": 0
+        "lastPosition": 1678,
+        "lastWatchedAt": "2026-08-26T13:04:40.946Z",
+        "watchedSec": 1426
       },
       "iwleCBdeEjY": {
         "sessionCount": 3,
@@ -336,9 +347,9 @@
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "143~145쪽 부정방정식",
         "durationSec": 3939,
-        "lastPosition": 3103,
-        "lastWatchedAt": "2026-08-26T11:39:45.352Z",
-        "watchedSec": 2505
+        "lastPosition": 3859,
+        "lastWatchedAt": "2026-08-26T11:49:50.280Z",
+        "watchedSec": 3110
       },
       "r2Yofj6CofI": {
         "sessionCount": 1,
@@ -430,7 +441,8 @@
         "iwleCBdeEjY": 3
       },
       "2026-08-26": {
-        "iwleCBdeEjY": 1544
+        "iwleCBdeEjY": 2149,
+        "HC4J2dxRE8A": 1426
       }
     }
   },

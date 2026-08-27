@@ -1243,5 +1243,28 @@
       "중간": true,
       "기말": true
     }
+  },
+  {
+    "id": "scut_mtbkci950ar",
+    "school": "중앙여고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "2",
+    "subject": "미적분1",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "함수의 극한, 연속, 도함수와 미분계수, 도함수의 활용(1),(2) (접선의 방정식, 함수의 최대,최소)"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념루트",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

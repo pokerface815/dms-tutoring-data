@@ -1305,6 +1305,21 @@
       "중간": true,
       "기말": true
     },
-    "pdfsByExamKind": {}
+    "pdfsByExamKind": {
+      "중간": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1787837771/mmfhslmyxbfouewa5i5y.jpg",
+          "name": "중앙여고2 시험범위.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-08-27T13:36:11.956Z"
+        },
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1787837772/akbnob0x4k43hfps2uvz.jpg",
+          "name": "중앙여고2 시험 시간표.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-08-27T13:36:13.199Z"
+        }
+      ]
+    }
   }
 ]

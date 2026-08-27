@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T17:50:58.918Z",
+  "generatedAt": "2026-08-27T13:28:22.267Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -201,33 +201,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 36~43쪽 03.미분계수와 도함수 34~77번",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms4lfuwo693",
-        "startedAt": 1785239228959,
-        "seconds": 2797,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms4erodxyd6",
-        "startedAt": 1785228096873,
-        "seconds": 208,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms4dlfinypb",
-        "startedAt": 1785226103086,
-        "seconds": 687,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
         "reflection": ""
       }
     ]

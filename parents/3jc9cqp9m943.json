@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T17:51:04.666Z",
+  "generatedAt": "2026-08-27T00:47:58.345Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,22 +11,31 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-26T11:39:45.356Z",
+    "uploadedAt": "2026-08-26T12:51:26.216Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 1544,
-      "monthSec": 12615,
+      "weekSec": 3575,
+      "monthSec": 14646,
       "streak": 1,
       "bySubjectMonth": {
         "공통수학2": 10638,
-        "공통수학1": 1977
+        "공통수학1": 4008
       }
     },
     "logs": [
       {
+        "id": "effort_mta19hotlhe",
+        "startedAt": 1787744994628,
+        "seconds": 1426,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 150~159쪽 일차부등식, 연립일차부등식",
+        "reflection": ""
+      },
+      {
         "id": "effort_mt9zl5ay8b1",
         "startedAt": 1787742020612,
-        "seconds": 1544,
+        "seconds": 2149,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",

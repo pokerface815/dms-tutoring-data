@@ -1282,5 +1282,28 @@
         }
       ]
     }
+  },
+  {
+    "id": "scut_mtbkfobltil",
+    "school": "중앙여고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "2",
+    "subject": "기하",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "~ 공간도형"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

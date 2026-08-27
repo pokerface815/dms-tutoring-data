@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-27T00:48:09.543Z",
+  "generatedAt": "2026-08-27T13:33:31.071Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -216,15 +216,6 @@
         "subject": "독서",
         "method": "기타",
         "content": "아비투스",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms4jh698q1m",
-        "startedAt": 1785227109286,
-        "seconds": 8970,
-        "subject": "기하",
-        "method": "문제 풀이",
-        "content": "공간도형과 공간좌표",
         "reflection": ""
       }
     ]

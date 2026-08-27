@@ -2836,8 +2836,8 @@
       {
         "stage": 4,
         "planned": "2026-08-14",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-08-27T00:47:53.217Z"
       }
     ],
     "createdAt": "2026-07-24T05:03:37.425Z"

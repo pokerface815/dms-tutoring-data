@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T13:55:04.638Z",
+  "generatedAt": "2026-08-27T00:48:09.543Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -225,15 +225,6 @@
         "subject": "기하",
         "method": "문제 풀이",
         "content": "공간도형과 공간좌표",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms3ppoi1g0f",
-        "startedAt": 1785182568166,
-        "seconds": 3525,
-        "subject": "기하",
-        "method": "문제 풀이",
-        "content": "삼수선 정리",
         "reflection": ""
       }
     ]

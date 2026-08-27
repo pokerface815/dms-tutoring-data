@@ -1304,6 +1304,7 @@
     "studentInputEnabledByExamKind": {
       "중간": true,
       "기말": true
-    }
+    },
+    "pdfsByExamKind": {}
   }
 ]

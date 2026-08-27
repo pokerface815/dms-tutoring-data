@@ -1281,7 +1281,20 @@
           "uploadedAt": "2026-08-27T13:33:38.109Z"
         }
       ],
-      "중간": []
+      "중간": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1787837624/ckqcbphsttdzyngx5vfb.jpg",
+          "name": "중앙여고2 시험범위.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-08-27T13:33:45.423Z"
+        },
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1787837625/lgxwsvxpakk3btququys.jpg",
+          "name": "중앙여고2 시험 시간표.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-08-27T13:33:46.651Z"
+        }
+      ]
     }
   }
 ]

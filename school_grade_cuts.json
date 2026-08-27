@@ -1254,7 +1254,7 @@
     "cutsByExamKind": {},
     "averagesByExamKind": {},
     "notesByExamKind": {
-      "중간": "함수의 극한, 연속, 도함수와 미분계수, 도함수의 활용(1),(2) (접선의 방정식, 함수의 최대,최소)"
+      "중간": "~ 함수의 최대, 최소 (도함수의 활용2)"
     },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
@@ -1267,20 +1267,6 @@
       "기말": true
     },
     "pdfsByExamKind": {
-      "기말": [
-        {
-          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1787837616/qfgwx4k2eamimihqh6fr.jpg",
-          "name": "중앙여고2 시험범위.jpeg",
-          "type": "image",
-          "uploadedAt": "2026-08-27T13:33:36.946Z"
-        },
-        {
-          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1787837617/yykxbcakby8qdqjz6lwl.jpg",
-          "name": "중앙여고2 시험 시간표.jpeg",
-          "type": "image",
-          "uploadedAt": "2026-08-27T13:33:38.109Z"
-        }
-      ],
       "중간": [
         {
           "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1787837624/ckqcbphsttdzyngx5vfb.jpg",

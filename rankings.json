@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-27T13:28:23.956Z",
+  "generatedAt": "2026-08-29T02:09:29.524Z",
   "studentCount": 54,
   "rankings": [
     {
@@ -186,7 +186,7 @@
       "weekSec": 1982,
       "monthSec": 6002,
       "recent3mSec": 11354,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -490,11 +490,11 @@
     {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
-      "totalSec": 45055,
-      "weekSec": 4099,
-      "monthSec": 10709,
-      "recent3mSec": 45055,
-      "streak": 1,
+      "totalSec": 52074,
+      "weekSec": 11118,
+      "monthSec": 17728,
+      "recent3mSec": 52074,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },
@@ -516,7 +516,7 @@
       "weekSec": 5126,
       "monthSec": 15002,
       "recent3mSec": 28148,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -527,7 +527,7 @@
       "weekSec": 3575,
       "monthSec": 14646,
       "recent3mSec": 22812,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -582,7 +582,7 @@
       "weekSec": 2241,
       "monthSec": 2241,
       "recent3mSec": 2241,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },

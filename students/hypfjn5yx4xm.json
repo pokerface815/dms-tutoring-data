@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T17:31:04.343Z",
+  "generatedAt": "2026-08-29T02:09:38.833Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -133,9 +133,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1787383648855_t3lvvs",
       "noteName": "이경주_올림포스 기출문제집_01.함수의 극한",
@@ -148,6 +146,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1787383648855_t3lvvs",

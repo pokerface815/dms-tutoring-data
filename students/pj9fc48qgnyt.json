@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T02:55:18.223Z",
+  "generatedAt": "2026-08-29T03:35:12.658Z",
   "student": {
     "id": "s_1783145087770_b6wsph",
     "classes": [
@@ -25,6 +25,15 @@
         "lastPosition": 0,
         "lastWatchedAt": "2026-07-16T07:55:23.085Z",
         "watchedSec": 0
+      },
+      "7TPbWeVSe2s": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "158~177쪽 삼,사차함수의 비율관계 + 함수의최댓값과 최솟값 + 방정식에의 활용",
+        "durationSec": 5794,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-08-29T01:18:12.877Z"
       }
     },
     "daily": {}

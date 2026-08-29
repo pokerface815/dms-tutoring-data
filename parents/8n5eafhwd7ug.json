@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T02:10:04.430Z",
+  "generatedAt": "2026-08-29T06:37:50.785Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -25,11 +25,6 @@
               "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/3(목))",
               "dueDate": "2026-09-03",
               "isConfirmed": false
-            },
-            {
-              "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/3(목))",
-              "dueDate": "2026-09-03",
-              "isConfirmed": false
             }
           ],
           "hasLesson": false
@@ -43,11 +38,6 @@
           "taskDue": "",
           "myNote": "",
           "extraAssignments": [
-            {
-              "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/1(화))",
-              "dueDate": "2026-09-01",
-              "isConfirmed": false
-            },
             {
               "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/1(화))",
               "dueDate": "2026-09-01",
@@ -73,11 +63,6 @@
           "taskDue": "",
           "myNote": "",
           "extraAssignments": [
-            {
-              "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/29(토))",
-              "dueDate": "2026-08-29",
-              "isConfirmed": false
-            },
             {
               "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/29(토))",
               "dueDate": "2026-08-29",
@@ -268,17 +253,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-25T14:28:16.401Z",
+    "uploadedAt": "2026-08-29T05:31:04.188Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 95,
-      "monthSec": 4215,
-      "streak": 0,
+      "todaySec": 91,
+      "weekSec": 186,
+      "monthSec": 4306,
+      "streak": 1,
       "bySubjectMonth": {
-        "중3": 4215
+        "중3": 4306
       }
     },
     "logs": [
+      {
+        "id": "effort_mtdxz1y53bq",
+        "startedAt": 1787975163703,
+        "seconds": 91,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "쎈B 중3-2 (26년 7월 ~ ) — 52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",
+        "reflection": ""
+      },
       {
         "id": "effort_mt8rd95orml",
         "startedAt": 1787667511758,

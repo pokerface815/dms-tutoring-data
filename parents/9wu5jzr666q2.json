@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T00:34:26.600Z",
+  "generatedAt": "2026-08-29T02:09:50.897Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -19,17 +19,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_ms5vn90o3mz",
-        "startedAt": 1785316907997,
-        "seconds": 3728,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "11시 수업 - 공통수학2 (26년 7월 ~ ) — 36~41쪽 정점을 지나는 직선 추가 설명 + 두 직선의 평행과 수직",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

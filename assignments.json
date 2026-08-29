@@ -3853,5 +3853,39 @@
       }
     ],
     "createdAt": "2026-08-29T09:20:32.779Z"
+  },
+  {
+    "id": "a_1787995303095_1ilaio",
+    "noteId": "note_1787995295933_ol9cxv",
+    "noteName": "김규림_개념루트_미분계수와 도함수(~220번)",
+    "studentId": "s_1777546978791_hsee5a",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-08-29",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-08-31",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-05",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-19",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-08-29T09:21:43.095Z"
   }
 ]

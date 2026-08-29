@@ -1321,5 +1321,28 @@
         }
       ]
     }
+  },
+  {
+    "id": "scut_mtdqsl4vn9w",
+    "school": "동신고",
+    "gradeLevel": "고1",
+    "year": 2026,
+    "semester": "2",
+    "subject": "공통수학2",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "도형의 방정식, 집합(아직 미정)"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "기출픽",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

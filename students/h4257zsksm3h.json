@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-29T09:20:45.182Z",
+  "generatedAt": "2026-08-29T14:30:22.191Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -105,22 +105,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1787995232779_c1207r",
       "noteName": "이현승_자이스토리(~D72)",
       "subject": "미적분Ⅰ",
       "round": 1,
       "plannedDate": "2026-08-29",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-08-29T14:30:03.554Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1782403702902_w22008",
       "noteName": "이현승_자이스토리_수열의 합( ~I161번)",
@@ -220,8 +220,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-08-24",
     "endDate": "2026-08-30"
   },

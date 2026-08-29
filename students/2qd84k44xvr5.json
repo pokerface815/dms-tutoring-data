@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-26T09:37:19.722Z",
+  "generatedAt": "2026-08-29T02:09:31.494Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -420,20 +420,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
-    {
-      "assignmentId": "a_1787726098114_zzpdkx",
-      "noteName": "송유림_올림포스 유형편_전체",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-08-28",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
+  "today": [
     {
       "assignmentId": "a_1787328040228_s2ftfb",
       "noteName": "송유림_개념루트_전체",
@@ -446,6 +433,20 @@
       "missedAt": null
     }
   ],
+  "overdue": [
+    {
+      "assignmentId": "a_1787726098114_zzpdkx",
+      "noteName": "송유림_올림포스 유형편_전체",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-08-28",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1787726098114_zzpdkx",

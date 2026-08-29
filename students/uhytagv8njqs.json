@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-29T09:21:53.545Z",
+  "generatedAt": "2026-08-29T14:30:16.952Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -70,22 +70,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1787995303095_1ilaio",
       "noteName": "김규림_개념루트_미분계수와 도함수(~220번)",
       "subject": "미적분Ⅰ",
       "round": 1,
       "plannedDate": "2026-08-29",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-08-29T14:30:02.027Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1782392259014_cocd12",
       "noteName": "김규림_개념루트_전체 오답_6월25일",
@@ -377,8 +377,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-08-24",
     "endDate": "2026-08-30"
   },

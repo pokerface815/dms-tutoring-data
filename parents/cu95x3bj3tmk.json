@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T02:09:45.643Z",
+  "generatedAt": "2026-08-29T06:37:39.813Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -25,11 +25,6 @@
               "title": "공수2 강의 영상 보기(제출일 9/6(일))",
               "dueDate": "2026-09-06",
               "isConfirmed": false
-            },
-            {
-              "title": "공수2 강의 영상 보기(제출일 9/6(일))",
-              "dueDate": "2026-09-06",
-              "isConfirmed": false
             }
           ],
           "hasLesson": false
@@ -43,11 +38,6 @@
           "taskDue": "",
           "myNote": "",
           "extraAssignments": [
-            {
-              "title": "공수2 강의 영상 보기(제출일 9/5(토))",
-              "dueDate": "2026-09-05",
-              "isConfirmed": false
-            },
             {
               "title": "공수2 강의 영상 보기(제출일 9/5(토))",
               "dueDate": "2026-09-05",
@@ -69,11 +59,6 @@
               "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/3(목))",
               "dueDate": "2026-09-03",
               "isConfirmed": false
-            },
-            {
-              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/3(목))",
-              "dueDate": "2026-09-03",
-              "isConfirmed": false
             }
           ],
           "hasLesson": false
@@ -87,11 +72,6 @@
           "taskDue": "",
           "myNote": "",
           "extraAssignments": [
-            {
-              "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/1(화))",
-              "dueDate": "2026-09-01",
-              "isConfirmed": false
-            },
             {
               "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/1(화))",
               "dueDate": "2026-09-01",
@@ -121,11 +101,6 @@
               "title": "공수2 강의 영상 보기(제출일 8/30(일))",
               "dueDate": "2026-08-30",
               "isConfirmed": false
-            },
-            {
-              "title": "공수2 강의 영상 보기(제출일 8/30(일))",
-              "dueDate": "2026-08-30",
-              "isConfirmed": false
             }
           ],
           "hasLesson": false
@@ -139,11 +114,6 @@
           "taskDue": "",
           "myNote": "",
           "extraAssignments": [
-            {
-              "title": "공수2 강의 영상 보기(제출일 8/29(토))",
-              "dueDate": "2026-08-29",
-              "isConfirmed": false
-            },
             {
               "title": "공수2 강의 영상 보기(제출일 8/29(토))",
               "dueDate": "2026-08-29",

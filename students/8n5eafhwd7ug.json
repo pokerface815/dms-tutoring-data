@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-29T11:22:45.151Z",
+  "generatedAt": "2026-08-29T14:30:25.311Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -95,7 +95,7 @@
   "syncedLectureWatch": {
     "videos": {
       "ouu9eZPx_nI": {
-        "sessionCount": 4,
+        "sessionCount": 5,
         "lectureId": "lec_ms6op29vnfs",
         "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
         "videoTitle": "36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
@@ -115,7 +115,7 @@
         "watchedSec": 3190
       },
       "pyGUfURMW4g": {
-        "sessionCount": 4,
+        "sessionCount": 3,
         "lectureId": "lec_ms6op29vnfs",
         "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
         "videoTitle": "52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",

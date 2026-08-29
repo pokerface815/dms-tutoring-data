@@ -978,5 +978,16 @@
     "taskBatchId": null,
     "createdAt": "2026-08-26T10:21:35.318Z",
     "updatedAt": "2026-08-26T10:21:35.318Z"
+  },
+  {
+    "id": "lesson_1787989843879_wvlw4i",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-26",
+    "content": "오답노트 풀이 & 부교재 3단원 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-08-29T07:50:43.879Z",
+    "updatedAt": "2026-08-29T07:50:43.879Z"
   }
 ]

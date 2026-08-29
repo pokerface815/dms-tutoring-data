@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T11:14:07.834Z",
+  "generatedAt": "2026-08-29T02:09:52.521Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -19,26 +19,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_ms5lyzejhdj",
-        "startedAt": 1785300634790,
-        "seconds": 2512,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "공통수학2 개념+유형 (26년 1, 2월) — 52~57쪽 원의 방정식(1)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms5jn8uw9y0",
-        "startedAt": 1785296738344,
-        "seconds": 2712,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

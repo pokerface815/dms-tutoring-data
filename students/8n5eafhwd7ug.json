@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-27T13:28:14.774Z",
+  "generatedAt": "2026-08-29T06:37:49.015Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -78,6 +78,17 @@
       "startedAt": 1787667511758,
       "createdAt": "2026-08-25T14:26:35.292Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mtdxz1y53bq",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "쎈B 중3-2 (26년 7월 ~ ) — 52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",
+      "reflection": "",
+      "seconds": 91,
+      "startedAt": 1787975163703,
+      "createdAt": "2026-08-29T05:30:20.957Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -104,14 +115,14 @@
         "watchedSec": 3190
       },
       "pyGUfURMW4g": {
-        "sessionCount": 3,
+        "sessionCount": 4,
         "lectureId": "lec_ms6op29vnfs",
         "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
         "videoTitle": "52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",
         "durationSec": 3806,
-        "lastPosition": 1025,
-        "lastWatchedAt": "2026-08-25T14:28:47.667Z",
-        "watchedSec": 149
+        "lastPosition": 1171,
+        "lastWatchedAt": "2026-08-29T05:31:04.182Z",
+        "watchedSec": 240
       }
     },
     "daily": {
@@ -127,6 +138,9 @@
       },
       "2026-08-25": {
         "pyGUfURMW4g": 149
+      },
+      "2026-08-29": {
+        "pyGUfURMW4g": 91
       }
     }
   },
@@ -292,14 +306,6 @@
       "assignedAt": "2026-08-24T08:57:34.526Z"
     },
     {
-      "assignmentId": "task_1786879331314_n00h3c",
-      "round": 1,
-      "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/29(토))",
-      "dueDate": "2026-08-29",
-      "isRepeat": false,
-      "assignedAt": "2026-08-16T11:22:11.314Z"
-    },
-    {
       "assignmentId": "task_1787561854526_vbk9pu",
       "round": 1,
       "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/1(화))",
@@ -308,28 +314,12 @@
       "assignedAt": "2026-08-24T08:57:34.526Z"
     },
     {
-      "assignmentId": "task_1787020493907_mo2rud",
-      "round": 1,
-      "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/1(화))",
-      "dueDate": "2026-09-01",
-      "isRepeat": false,
-      "assignedAt": "2026-08-18T02:34:53.907Z"
-    },
-    {
       "assignmentId": "task_1787561854526_fo8qmb",
       "round": 1,
       "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/3(목))",
       "dueDate": "2026-09-03",
       "isRepeat": false,
       "assignedAt": "2026-08-24T08:57:34.526Z"
-    },
-    {
-      "assignmentId": "task_1787185872351_dixhx5",
-      "round": 1,
-      "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/3(목))",
-      "dueDate": "2026-09-03",
-      "isRepeat": false,
-      "assignedAt": "2026-08-20T00:31:12.351Z"
     }
   ],
   "myGrades": []

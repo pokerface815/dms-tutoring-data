@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T02:54:39.212Z",
+  "generatedAt": "2026-08-29T09:20:45.182Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -105,7 +105,19 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1787995232779_c1207r",
+      "noteName": "이현승_자이스토리(~D72)",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-08-29",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [],
   "completed": [
@@ -207,7 +219,7 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 1,
     "done": 0,
     "percent": 0,
     "startDate": "2026-08-24",

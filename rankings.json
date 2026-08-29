@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T02:09:29.524Z",
+  "generatedAt": "2026-08-29T06:37:52.871Z",
   "studentCount": 54,
   "rankings": [
     {
@@ -490,11 +490,11 @@
     {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
-      "totalSec": 52074,
-      "weekSec": 11118,
-      "monthSec": 17728,
-      "recent3mSec": 52074,
-      "streak": 2,
+      "totalSec": 52530,
+      "weekSec": 11574,
+      "monthSec": 18184,
+      "recent3mSec": 52530,
+      "streak": 3,
       "nickname": "",
       "publicNickname": false
     },
@@ -556,11 +556,11 @@
     {
       "id": "s_1786082844440_z9486d",
       "name": "남경원",
-      "totalSec": 4215,
-      "weekSec": 95,
-      "monthSec": 4215,
-      "recent3mSec": 4215,
-      "streak": 0,
+      "totalSec": 4306,
+      "weekSec": 186,
+      "monthSec": 4306,
+      "recent3mSec": 4306,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

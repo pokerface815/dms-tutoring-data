@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-29T03:35:18.562Z",
+  "generatedAt": "2026-08-29T14:30:15.142Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -420,22 +420,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1787328040228_s2ftfb",
       "noteName": "송유림_개념루트_전체",
       "subject": "미적분Ⅰ",
       "round": 3,
       "plannedDate": "2026-08-29",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-08-29T14:30:08.004Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1787726098114_zzpdkx",
       "noteName": "송유림_올림포스 유형편_전체",
@@ -583,8 +583,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 3,
-    "percent": 75,
+    "done": 4,
+    "percent": 100,
     "startDate": "2026-08-24",
     "endDate": "2026-08-30"
   },

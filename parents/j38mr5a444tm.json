@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-27T13:28:18.674Z",
+  "generatedAt": "2026-08-29T02:09:59.493Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -11,17 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-27T12:56:14.914Z",
+    "uploadedAt": "2026-08-28T07:45:26.602Z",
     "summary": {
-      "todaySec": 2476,
-      "weekSec": 4099,
-      "monthSec": 10709,
-      "streak": 1,
+      "todaySec": 0,
+      "weekSec": 11118,
+      "monthSec": 17728,
+      "streak": 2,
       "bySubjectMonth": {
-        "미적분Ⅰ": 10709
+        "미적분Ⅰ": 17728
       }
     },
     "logs": [
+      {
+        "id": "effort_mtcmttcl0ez",
+        "startedAt": 1787902233454,
+        "seconds": 7019,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
+        "reflection": ""
+      },
       {
         "id": "effort_mtbh74hr1ir",
         "startedAt": 1787832237193,
@@ -83,33 +92,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms5hro5ul90",
-        "startedAt": 1785293590342,
-        "seconds": 315,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms5ev05tza8",
-        "startedAt": 1785288751380,
-        "seconds": 4492,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_ms5eh01d6bu",
-        "startedAt": 1785288150591,
-        "seconds": 4244,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
         "reflection": ""
       }
     ]

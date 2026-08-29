@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T03:35:21.996Z",
+  "generatedAt": "2026-08-29T07:50:16.721Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -13,8 +13,8 @@
       "label": "2026년 8월",
       "lessons": [
         {
-          "date": "2026-08-25",
-          "weekday": "화",
+          "date": "2026-08-24",
+          "weekday": "월",
           "className": "조예나 개별",
           "content": "학교 부교재 2단원 마무리",
           "task": "함수의 연속 고난도 문항 마무리 + 3단원 풀이 시작",

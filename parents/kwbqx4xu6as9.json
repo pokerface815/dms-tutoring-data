@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-28T14:22:43.322Z",
+  "generatedAt": "2026-08-29T06:37:35.781Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -25,11 +25,6 @@
               "title": "RPM 공통수학1 매일 2장씩(제출일 9/3(목))",
               "dueDate": "2026-09-03",
               "isConfirmed": false
-            },
-            {
-              "title": "RPM 공통수학1 매일 2장씩(제출일 9/3(목))",
-              "dueDate": "2026-09-03",
-              "isConfirmed": false
             }
           ],
           "hasLesson": false
@@ -43,11 +38,6 @@
           "taskDue": "",
           "myNote": "",
           "extraAssignments": [
-            {
-              "title": "RPM 공통수학1 매일 2장씩(제출일 9/1(화))",
-              "dueDate": "2026-09-01",
-              "isConfirmed": false
-            },
             {
               "title": "RPM 공통수학1 매일 2장씩(제출일 9/1(화))",
               "dueDate": "2026-09-01",
@@ -73,11 +63,6 @@
           "taskDue": "",
           "myNote": "",
           "extraAssignments": [
-            {
-              "title": "RPM 공통수학1 매일 2장씩(제출일 8/29(토))",
-              "dueDate": "2026-08-29",
-              "isConfirmed": false
-            },
             {
               "title": "RPM 공통수학1 매일 2장씩(제출일 8/29(토))",
               "dueDate": "2026-08-29",

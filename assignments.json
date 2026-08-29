@@ -3819,5 +3819,39 @@
       }
     ],
     "createdAt": "2026-08-26T06:34:58.114Z"
+  },
+  {
+    "id": "a_1787995232779_c1207r",
+    "noteId": "note_1787995219847_f4svia",
+    "noteName": "이현승_자이스토리(~D72)",
+    "studentId": "s_1778638262495_alq1jg",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-08-29",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-08-31",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-05",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-19",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-08-29T09:20:32.779Z"
   }
 ]

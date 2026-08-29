@@ -3558,61 +3558,6 @@
     "fromLesson": "lesson_1786704663348_ybrk19"
   },
   {
-    "id": "task_1786879331314_02gqhx",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 공통수학1 매일 2장씩(제출일 8/29(토))",
-    "dueDate": "2026-08-29",
-    "assignedAt": "2026-08-16T11:22:11.314Z",
-    "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-29",
-    "templateId": "tpl_msii1jytso0e",
-    "repeat": null
-  },
-  {
-    "id": "task_1786879331314_n00h3c",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/29(토))",
-    "dueDate": "2026-08-29",
-    "assignedAt": "2026-08-16T11:22:11.314Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-29",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1786879331314_4kf6it",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "공수2 강의 영상 보기(제출일 8/29(토))",
-    "dueDate": "2026-08-29",
-    "assignedAt": "2026-08-16T11:22:11.314Z",
-    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-08-29",
-    "templateId": "tpl_msikdzm6sssq",
-    "repeat": null
-  },
-  {
-    "id": "task_1786879331314_f7a6hz",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "공수2 강의 영상 보기(제출일 8/30(일))",
-    "dueDate": "2026-08-30",
-    "assignedAt": "2026-08-16T11:22:11.314Z",
-    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-08-30",
-    "templateId": "tpl_msikdzm6sssq",
-    "repeat": null
-  },
-  {
-    "id": "task_1786879331314_7jr5oa",
-    "type": "task",
-    "studentId": "s_1783936051988_psto4h",
-    "title": "라이트쎈 공수1 매일 2장씩(제출일 8/29(토))",
-    "dueDate": "2026-08-29",
-    "assignedAt": "2026-08-16T11:22:11.314Z",
-    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-08-29",
-    "templateId": "tpl_msiknm2uyylh",
-    "repeat": null
-  },
-  {
     "id": "a_1786926779621_iyqwa8",
     "noteId": "note_1786926767754_swpwag",
     "noteName": "김채린_개념루트_미분계수와 도함수(~173번)",
@@ -3653,50 +3598,6 @@
     "createdAt": "2026-08-17T00:32:59.621Z"
   },
   {
-    "id": "task_1787020493907_j7gxkc",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 공통수학1 매일 2장씩(제출일 9/1(화))",
-    "dueDate": "2026-09-01",
-    "assignedAt": "2026-08-18T02:34:53.907Z",
-    "batchId": "tplbatch_tpl_msii1jytso0e_2026-09-01",
-    "templateId": "tpl_msii1jytso0e",
-    "repeat": null
-  },
-  {
-    "id": "task_1787020493907_mo2rud",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/1(화))",
-    "dueDate": "2026-09-01",
-    "assignedAt": "2026-08-18T02:34:53.907Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-09-01",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1787020493907_z7j0o4",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/1(화))",
-    "dueDate": "2026-09-01",
-    "assignedAt": "2026-08-18T02:34:53.907Z",
-    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-09-01",
-    "templateId": "tpl_msik5bhq57rt",
-    "repeat": null
-  },
-  {
-    "id": "task_1787020493907_ld4rqg",
-    "type": "task",
-    "studentId": "s_1783936051988_psto4h",
-    "title": "라이트쎈 공수1 매일 2장씩(제출일 9/1(화))",
-    "dueDate": "2026-09-01",
-    "assignedAt": "2026-08-18T02:34:53.907Z",
-    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-09-01",
-    "templateId": "tpl_msiknm2uyylh",
-    "repeat": null
-  },
-  {
     "id": "task_1787144385403_x3r9er",
     "type": "task",
     "studentId": "s_1777547047005_uo92w5",
@@ -3706,61 +3607,6 @@
     "batchId": "t_mt03mh6j",
     "repeat": null,
     "fromLesson": "lesson_1787144385403_0ullqj"
-  },
-  {
-    "id": "task_1787185872351_lnj435",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 공통수학1 매일 2장씩(제출일 9/3(목))",
-    "dueDate": "2026-09-03",
-    "assignedAt": "2026-08-20T00:31:12.351Z",
-    "batchId": "tplbatch_tpl_msii1jytso0e_2026-09-03",
-    "templateId": "tpl_msii1jytso0e",
-    "repeat": null
-  },
-  {
-    "id": "task_1787185872351_dixhx5",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/3(목))",
-    "dueDate": "2026-09-03",
-    "assignedAt": "2026-08-20T00:31:12.351Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-09-03",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1787185872351_wcq93u",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/3(목))",
-    "dueDate": "2026-09-03",
-    "assignedAt": "2026-08-20T00:31:12.351Z",
-    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-09-03",
-    "templateId": "tpl_msik5bhq57rt",
-    "repeat": null
-  },
-  {
-    "id": "task_1787185872351_7azlz5",
-    "type": "task",
-    "studentId": "s_1783936051988_psto4h",
-    "title": "라이트쎈 공수1 매일 2장씩(제출일 9/3(목))",
-    "dueDate": "2026-09-03",
-    "assignedAt": "2026-08-20T00:31:12.351Z",
-    "batchId": "tplbatch_tpl_msiknm2uyylh_2026-09-03",
-    "templateId": "tpl_msiknm2uyylh",
-    "repeat": null
-  },
-  {
-    "id": "task_1787327683775_6k742s",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "공수2 강의 영상 보기(제출일 9/5(토))",
-    "dueDate": "2026-09-05",
-    "assignedAt": "2026-08-21T15:54:43.775Z",
-    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-09-05",
-    "templateId": "tpl_msikdzm6sssq",
-    "repeat": null
   },
   {
     "id": "a_1787328040228_s2ftfb",
@@ -3875,17 +3721,6 @@
       }
     ],
     "createdAt": "2026-08-22T12:07:51.109Z"
-  },
-  {
-    "id": "task_1787414924615_bcgfst",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "공수2 강의 영상 보기(제출일 9/6(일))",
-    "dueDate": "2026-09-06",
-    "assignedAt": "2026-08-22T16:08:44.615Z",
-    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-09-06",
-    "templateId": "tpl_msikdzm6sssq",
-    "repeat": null
   },
   {
     "id": "task_1787450230421_ere8pn",

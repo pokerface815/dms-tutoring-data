@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T06:35:38.092Z",
+  "generatedAt": "2026-08-29T06:37:29.592Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -89,17 +89,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_ms723jzoslc",
-        "startedAt": 1785388242550,
-        "seconds": 130,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

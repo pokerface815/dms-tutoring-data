@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T02:09:59.493Z",
+  "generatedAt": "2026-08-29T06:37:47.403Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -11,17 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-28T07:45:26.602Z",
+    "uploadedAt": "2026-08-29T05:14:43.550Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 11118,
-      "monthSec": 17728,
-      "streak": 2,
+      "todaySec": 456,
+      "weekSec": 11574,
+      "monthSec": 18184,
+      "streak": 3,
       "bySubjectMonth": {
-        "미적분Ⅰ": 17728
+        "미적분Ⅰ": 18184
       }
     },
     "logs": [
+      {
+        "id": "effort_mtdx5e0imzn",
+        "startedAt": 1787979790069,
+        "seconds": 456,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
+        "reflection": ""
+      },
       {
         "id": "effort_mtcmttcl0ez",
         "startedAt": 1787902233454,

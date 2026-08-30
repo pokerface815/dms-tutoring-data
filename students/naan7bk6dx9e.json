@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-24T02:55:53.093Z",
+  "generatedAt": "2026-08-30T03:28:18.939Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -98,6 +98,16 @@
         "lastPosition": 3767,
         "lastWatchedAt": "2026-08-22T02:13:06.948Z",
         "watchedSec": 59
+      },
+      "hU9NhJANwBw": {
+        "sessionCount": 3,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "85~96쪽 평행이동 + 대칭이동",
+        "durationSec": 4333,
+        "lastPosition": 4002,
+        "lastWatchedAt": "2026-08-30T03:12:45.585Z",
+        "watchedSec": 6
       }
     },
     "daily": {
@@ -112,6 +122,9 @@
       },
       "2026-08-22": {
         "kldz7U32DcI": 59
+      },
+      "2026-08-30": {
+        "hU9NhJANwBw": 6
       }
     }
   },

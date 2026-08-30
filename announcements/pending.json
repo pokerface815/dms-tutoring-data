@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "ann_mtg4c1js4t89",
+    "createdAt": "2026-08-30T18:03:57.016Z",
+    "target": "both",
+    "message": "(페이지 링크 발송)",
+    "recipients": [
+      {
+        "name": "문대승",
+        "type": "student",
+        "phone": "010-9327-7661",
+        "message": "문대승 학생 전용 학습 페이지입니다.\n\nhttps://math-notes-app.vercel.app/student.html?code=3neea68kw4pt\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
+      },
+      {
+        "name": "문대승",
+        "type": "parent",
+        "phone": "010-9327-7661",
+        "message": "문대승 학생 학부모님 안내 페이지입니다.\n\nhttps://math-notes-app.vercel.app/parent.html?code=3neea68kw4pt\n\n※ 이 번호를 연락처에 저장하시면 위 주소가 링크로 눌러집니다. (저장 전에는 주소를 복사해 인터넷 주소창에 붙여넣어 접속해 주세요.)"
+      }
+    ],
+    "status": "pending"
+  }
+]

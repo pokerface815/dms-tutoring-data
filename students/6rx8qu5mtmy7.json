@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-28T14:22:35.548Z",
+  "generatedAt": "2026-08-30T17:59:05.073Z",
   "student": {
     "id": "s_1783741677433_iezolt",
     "classes": [
@@ -134,8 +134,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-24",
-    "endDate": "2026-08-30"
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-06"
   },
   "teacherConfirms": {},
   "tasks": [],

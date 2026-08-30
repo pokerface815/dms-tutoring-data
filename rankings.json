@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-30T03:35:26.910Z",
+  "generatedAt": "2026-08-30T15:06:59.543Z",
   "studentCount": 55,
   "rankings": [
     {
@@ -11,8 +11,8 @@
       "monthSec": 10627,
       "recent3mSec": 33376,
       "streak": 0,
-      "nickname": "파송송계란탁",
-      "publicNickname": true
+      "nickname": "",
+      "publicNickname": false
     },
     {
       "id": "s_1777546951753_p3pskl",
@@ -183,7 +183,7 @@
       "id": "s_1780309359751_gjl2s0",
       "name": "박유솔",
       "totalSec": 11354,
-      "weekSec": 1982,
+      "weekSec": 0,
       "monthSec": 6002,
       "recent3mSec": 11354,
       "streak": 0,
@@ -469,7 +469,7 @@
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
       "totalSec": 12694,
-      "weekSec": 1692,
+      "weekSec": 0,
       "monthSec": 2033,
       "recent3mSec": 12694,
       "streak": 0,
@@ -491,10 +491,10 @@
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
       "totalSec": 52530,
-      "weekSec": 11574,
+      "weekSec": 0,
       "monthSec": 18184,
       "recent3mSec": 52530,
-      "streak": 3,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -513,7 +513,7 @@
       "id": "s_1784437736068_jgkmca",
       "name": "조해인",
       "totalSec": 28148,
-      "weekSec": 5126,
+      "weekSec": 0,
       "monthSec": 15002,
       "recent3mSec": 28148,
       "streak": 0,
@@ -523,11 +523,11 @@
     {
       "id": "s_1784950950171_2ycwdo",
       "name": "남옥빈",
-      "totalSec": 22812,
-      "weekSec": 3575,
-      "monthSec": 14646,
-      "recent3mSec": 22812,
-      "streak": 0,
+      "totalSec": 31106,
+      "weekSec": 0,
+      "monthSec": 22940,
+      "recent3mSec": 31106,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -556,11 +556,11 @@
     {
       "id": "s_1786082844440_z9486d",
       "name": "남경원",
-      "totalSec": 4306,
-      "weekSec": 186,
-      "monthSec": 4306,
-      "recent3mSec": 4306,
-      "streak": 1,
+      "totalSec": 4824,
+      "weekSec": 0,
+      "monthSec": 4824,
+      "recent3mSec": 4824,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },
@@ -578,11 +578,11 @@
     {
       "id": "s_1787570844823_nbqosc",
       "name": "신다은",
-      "totalSec": 2241,
-      "weekSec": 2241,
-      "monthSec": 2241,
-      "recent3mSec": 2241,
-      "streak": 0,
+      "totalSec": 4447,
+      "weekSec": 0,
+      "monthSec": 4447,
+      "recent3mSec": 4447,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

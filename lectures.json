@@ -1076,15 +1076,13 @@
       }
     ],
     "permissions": {
-      "type": "restricted",
+      "type": "all",
       "grades": [],
       "classIds": [],
-      "studentIds": [
-        "s_1778638262495_alq1jg"
-      ]
+      "studentIds": []
     },
     "createdAt": "2026-06-19T10:28:36.728Z",
-    "updatedAt": "2026-08-24T12:49:01.948Z",
+    "updatedAt": "2026-08-30T02:03:36.036Z",
     "lastSyncedAt": "2026-08-24T12:49:01.948Z",
     "textbook": "개념+유형",
     "memo": ""

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-29T06:37:34.112Z",
+  "generatedAt": "2026-08-30T01:49:39.466Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -173,12 +173,6 @@
       "confirmed": true,
       "confirmedAt": "2026-05-28T06:30:43.311Z"
     },
-    "task_1779969246743_sslvtg__20260526": {
-      "comment": "잘 되고 있는 것 맞지?ㅋ",
-      "commentAt": "2026-05-28T12:31:27.445Z",
-      "confirmed": true,
-      "confirmedAt": "2026-05-28T12:31:27.446Z"
-    },
     "task_1780044346438_o1f994__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-01T09:54:08.752Z"
@@ -195,9 +189,19 @@
       "confirmed": false,
       "confirmedAt": null
     },
-    "task_1786080212309_pybx7j__1": {
+    "task_1786080212309_2unu0a__1": {
       "missed": true,
-      "missedAt": "2026-08-10T09:45:21.132Z",
+      "missedAt": "2026-08-16T14:36:50.070Z",
+      "confirmed": false,
+      "confirmedAt": null
+    },
+    "task_1786080212309_7cduv9__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-08-12T09:49:06.336Z"
+    },
+    "task_1786080212309_i7uwr1__1": {
+      "missed": true,
+      "missedAt": "2026-08-19T09:33:52.822Z",
       "confirmed": false,
       "confirmedAt": null
     },
@@ -207,31 +211,21 @@
       "confirmed": false,
       "confirmedAt": null
     },
-    "task_1786080212309_7cduv9__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-08-12T09:49:06.336Z"
-    },
-    "task_1786080212309_2unu0a__1": {
+    "task_1786080212309_pybx7j__1": {
       "missed": true,
-      "missedAt": "2026-08-16T14:36:50.070Z",
-      "confirmed": false,
-      "confirmedAt": null
-    },
-    "task_1786080212309_wjh278__1": {
-      "missed": true,
-      "missedAt": "2026-08-16T14:37:35.428Z",
-      "confirmed": false,
-      "confirmedAt": null
-    },
-    "task_1786080212309_i7uwr1__1": {
-      "missed": true,
-      "missedAt": "2026-08-19T09:33:52.822Z",
+      "missedAt": "2026-08-10T09:45:21.132Z",
       "confirmed": false,
       "confirmedAt": null
     },
     "task_1786080212309_ueq55d__1": {
       "confirmed": true,
       "confirmedAt": "2026-08-22T11:14:46.125Z"
+    },
+    "task_1786080212309_wjh278__1": {
+      "missed": true,
+      "missedAt": "2026-08-16T14:37:35.428Z",
+      "confirmed": false,
+      "confirmedAt": null
     },
     "task_1786115074362_1dw7c1__1": {
       "confirmed": true,
@@ -246,6 +240,12 @@
       "missedAt": "2026-08-28T14:22:37.980Z",
       "confirmed": false,
       "confirmedAt": null
+    },
+    "task_1779969246743_sslvtg__20260526": {
+      "comment": "잘 되고 있는 것 맞지?ㅋ",
+      "commentAt": "2026-05-28T12:31:27.445Z",
+      "confirmed": true,
+      "confirmedAt": "2026-05-28T12:31:27.446Z"
     }
   },
   "tasks": [

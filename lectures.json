@@ -107,13 +107,13 @@
       }
     ],
     "permissions": {
-      "type": "none",
+      "type": "all",
       "grades": [],
       "classIds": [],
       "studentIds": []
     },
     "createdAt": "2026-06-22T06:42:13.411Z",
-    "updatedAt": "2026-08-24T12:48:56.536Z",
+    "updatedAt": "2026-08-30T01:49:19.626Z",
     "lastSyncedAt": "2026-08-24T12:48:56.536Z"
   },
   {

@@ -1,0 +1,16 @@
+{
+  "id": "ann_mtfwu9qsk1by",
+  "sentAt": "2026-08-30T23:34:27.594314+09:00",
+  "target": "student",
+  "message": "테스트",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "문대승",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

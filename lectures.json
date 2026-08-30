@@ -1182,8 +1182,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-08-24T12:49:02.602Z",
-    "lastSyncedAt": "2026-08-24T12:49:02.602Z"
+    "updatedAt": "2026-08-30T03:28:11.090Z",
+    "lastSyncedAt": "2026-08-30T03:28:11.090Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1266,6 +1266,12 @@
         "title": "85~96쪽 평행이동 + 대칭이동",
         "position": 11,
         "durationSec": 4333
+      },
+      {
+        "videoId": "X9rTcY67qnM",
+        "title": "2",
+        "position": 12,
+        "durationSec": 4179
       }
     ],
     "permissions": {
@@ -1274,8 +1280,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-08-24T12:49:03.321Z",
-    "lastSyncedAt": "2026-08-24T12:49:03.321Z"
+    "updatedAt": "2026-08-30T03:28:13.848Z",
+    "lastSyncedAt": "2026-08-30T03:28:13.848Z"
   },
   {
     "id": "lec_mririwvdtb6",
@@ -1352,6 +1358,12 @@
         "title": "158~177쪽 삼,사차함수의 비율관계 + 함수의최댓값과 최솟값 + 방정식에의 활용",
         "position": 10,
         "durationSec": 5794
+      },
+      {
+        "videoId": "mcNskwieZjE",
+        "title": "3",
+        "position": 11,
+        "durationSec": 3729
       }
     ],
     "permissions": {
@@ -1360,8 +1372,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-08-24T12:49:04.027Z",
-    "lastSyncedAt": "2026-08-24T12:49:04.027Z"
+    "updatedAt": "2026-08-30T03:28:19.012Z",
+    "lastSyncedAt": "2026-08-30T03:28:19.012Z"
   },
   {
     "id": "lec_mrq99fx1qmz",

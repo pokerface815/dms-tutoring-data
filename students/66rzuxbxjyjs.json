@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T01:49:48.516Z",
+  "generatedAt": "2026-08-30T17:59:08.244Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -15,338 +15,338 @@
   "syncedEffortLogs": [
     {
       "id": "effort_mrj7i9f4oal",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 73~82쪽 음수의 제곱근, 이차방정식",
-      "reflection": "",
       "seconds": 102,
-      "startedAt": 1783946085127,
+      "subject": "공통수학1",
       "createdAt": "2026-07-13T12:36:39.856Z",
+      "startedAt": 1783946085127,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrj7pz11p6m",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 73~82쪽 음수의 제곱근, 이차방정식",
-      "reflection": "",
       "seconds": 133,
-      "startedAt": 1783946490442,
+      "subject": "공통수학1",
       "createdAt": "2026-07-13T12:42:39.637Z",
+      "startedAt": 1783946490442,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrj7vj1ufbg",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 62~68쪽 복소수의 뜻과 사칙연산",
-      "reflection": "",
       "seconds": 985,
-      "startedAt": 1783946751494,
+      "subject": "공통수학1",
       "createdAt": "2026-07-13T12:46:58.866Z",
+      "startedAt": 1783946751494,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrq6apuaotm",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 69~72쪽 i의 거듭제곱",
-      "reflection": "",
       "seconds": 1729,
-      "startedAt": 1784349653892,
+      "subject": "공통수학1",
       "createdAt": "2026-07-18T09:37:11.506Z",
+      "startedAt": 1784349653892,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrr9yvd3qpe",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 73~82쪽 음수의 제곱근, 이차방정식",
-      "reflection": "",
       "seconds": 949,
-      "startedAt": 1784433978905,
+      "subject": "공통수학1",
       "createdAt": "2026-07-19T04:07:43.431Z",
+      "startedAt": 1784433978905,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrup2ocu0d2",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
-      "reflection": "",
       "seconds": 244,
-      "startedAt": 1784640770329,
+      "subject": "공통수학1",
       "createdAt": "2026-07-21T13:33:53.742Z",
+      "startedAt": 1784640770329,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mryfpe7ltb8",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 95~105쪽 이차방정식과 이차함수의 관계",
-      "reflection": "",
       "seconds": 138,
-      "startedAt": 1784866510929,
+      "subject": "공통수학1",
       "createdAt": "2026-07-24T04:22:42.225Z",
+      "startedAt": 1784866510929,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mryg4l5gnqi",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
-      "reflection": "",
       "seconds": 577,
-      "startedAt": 1784867565475,
+      "subject": "공통수학1",
       "createdAt": "2026-07-24T04:34:31.060Z",
+      "startedAt": 1784867565475,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrygr4ib8n0",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 95~105쪽 이차방정식과 이차함수의 관계",
-      "reflection": "",
       "seconds": 106,
-      "startedAt": 1784868601267,
+      "subject": "공통수학1",
       "createdAt": "2026-07-24T04:52:02.579Z",
+      "startedAt": 1784868601267,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrygyst0cit",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 95~105쪽 이차방정식과 이차함수의 관계",
-      "reflection": "",
       "seconds": 1053,
-      "startedAt": 1784869007141,
+      "subject": "공통수학1",
       "createdAt": "2026-07-24T04:58:00.660Z",
+      "startedAt": 1784869007141,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_ms04hfl3mkt",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",
-      "reflection": "",
       "seconds": 664,
-      "startedAt": 1784968967753,
+      "subject": "공통수학1",
       "createdAt": "2026-07-25T08:44:07.335Z",
+      "startedAt": 1784968967753,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_ms05cge8ugx",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",
-      "reflection": "",
       "seconds": 753,
-      "startedAt": 1784970334064,
+      "subject": "공통수학1",
       "createdAt": "2026-07-25T09:08:14.720Z",
+      "startedAt": 1784970334064,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_ms0cvtrtfss",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 106~112쪽 이차함수의 최대, 최소",
-      "reflection": "",
       "seconds": 2325,
-      "startedAt": 1784983155043,
+      "subject": "공통수학1",
       "createdAt": "2026-07-25T12:39:15.833Z",
+      "startedAt": 1784983155043,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_ms5gzzaevv5",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 113~121쪽 삼차방정식과 사차방정식",
-      "reflection": "",
       "seconds": 903,
-      "startedAt": 1785292027849,
+      "subject": "공통수학1",
       "createdAt": "2026-07-29T02:33:18.950Z",
+      "startedAt": 1785292027849,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_msucxodhpng",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
-      "reflection": "",
       "seconds": 341,
-      "startedAt": 1786796683955,
+      "subject": "공통수학1",
       "createdAt": "2026-08-15T12:33:47.429Z",
+      "startedAt": 1786796683955,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mt8migtb0bn",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
-      "reflection": "",
       "seconds": 101,
-      "startedAt": 1787659227200,
+      "subject": "공통수학1",
       "createdAt": "2026-08-25T12:10:40.415Z",
+      "startedAt": 1787659227200,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mt8mxmcad57",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
-      "reflection": "",
       "seconds": 284,
-      "startedAt": 1787660093633,
+      "subject": "공통수학1",
       "createdAt": "2026-08-25T12:22:27.418Z",
+      "startedAt": 1787660093633,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mt8qgadotvt",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
-      "reflection": "",
       "seconds": 271,
-      "startedAt": 1787666373478,
+      "subject": "공통수학1",
       "createdAt": "2026-08-25T14:00:57.228Z",
+      "startedAt": 1787666373478,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mt8qn42fugm",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
-      "reflection": "",
       "seconds": 413,
-      "startedAt": 1787666695921,
+      "subject": "공통수학1",
       "createdAt": "2026-08-25T14:06:15.639Z",
+      "startedAt": 1787666695921,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mt8qvxw8qup",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
-      "reflection": "",
       "seconds": 335,
-      "startedAt": 1787667125046,
+      "subject": "공통수학1",
       "createdAt": "2026-08-25T14:13:07.544Z",
+      "startedAt": 1787667125046,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mt8r3auv7sa",
-      "subject": "공통수학1",
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
-      "reflection": "",
       "seconds": 288,
-      "startedAt": 1787667468492,
+      "subject": "공통수학1",
       "createdAt": "2026-08-25T14:18:50.935Z",
+      "startedAt": 1787667468492,
+      "reflection": "",
       "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
-      "LoUhX_HhA3k": {
-        "sessionCount": 6,
-        "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
-        "videoTitle": "73~82쪽 음수의 제곱근, 이차방정식",
-        "durationSec": 3968,
-        "lastPosition": 3924,
-        "lastWatchedAt": "2026-07-21T12:39:29.398Z",
-        "watchedSec": 1212
-      },
-      "TSZXX0ck6Mw": {
-        "sessionCount": 5,
-        "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
-        "videoTitle": "62~68쪽 복소수의 뜻과 사칙연산",
-        "durationSec": 3864,
-        "lastPosition": 3752,
-        "lastWatchedAt": "2026-07-18T04:40:52.478Z",
-        "watchedSec": 1031
-      },
       "Fndr8I_jCAk": {
-        "sessionCount": 1,
         "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "160~167쪽 절댓값 기호를 포함한 일차부등식의 풀이 + 이차부등식",
+        "watchedSec": 0,
         "durationSec": 4455,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-07-13T12:34:35.960Z",
-        "watchedSec": 0
-      },
-      "_x8xEiOR850": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
-        "videoTitle": "69~72쪽 i의 거듭제곱",
-        "durationSec": 4000,
-        "lastPosition": 3999,
-        "lastWatchedAt": "2026-07-19T03:48:38.243Z",
-        "watchedSec": 1729
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-07-13T12:34:35.960Z"
+      },
+      "LoUhX_HhA3k": {
+        "lectureId": "lec_mqkr9zowwph",
+        "videoTitle": "73~82쪽 음수의 제곱근, 이차방정식",
+        "watchedSec": 1212,
+        "durationSec": 3968,
+        "lastPosition": 3924,
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "sessionCount": 6,
+        "lastWatchedAt": "2026-07-21T12:39:29.398Z"
       },
       "Lwm2o1aNceI": {
-        "watchedSec": 846,
-        "lastPosition": 3463,
-        "sessionCount": 3,
         "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "84~94쪽 이차방정식의 판별식, 근과 계수의 관계",
+        "watchedSec": 846,
         "durationSec": 4395,
+        "lastPosition": 3463,
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "sessionCount": 3,
         "lastWatchedAt": "2026-07-24T04:49:47.644Z"
       },
       "TE0dmnIF-aU": {
-        "sessionCount": 6,
         "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "95~105쪽 이차방정식과 이차함수의 관계",
+        "watchedSec": 1325,
         "durationSec": 4202,
         "lastPosition": 4201,
-        "lastWatchedAt": "2026-07-24T06:31:50.553Z",
-        "watchedSec": 1325
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "sessionCount": 6,
+        "lastWatchedAt": "2026-07-24T06:31:50.553Z"
       },
-      "sJH5b7SkTL4": {
+      "TSZXX0ck6Mw": {
+        "lectureId": "lec_mqkr9zowwph",
+        "videoTitle": "62~68쪽 복소수의 뜻과 사칙연산",
+        "watchedSec": 1031,
+        "durationSec": 3864,
+        "lastPosition": 3752,
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "sessionCount": 5,
-        "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
-        "videoTitle": "106~112쪽 이차함수의 최대, 최소",
-        "durationSec": 4137,
-        "lastPosition": 3502,
-        "lastWatchedAt": "2026-07-29T02:27:06.434Z",
-        "watchedSec": 3750
+        "lastWatchedAt": "2026-07-18T04:40:52.478Z"
       },
-      "iENXvreBGuU": {
+      "_x8xEiOR850": {
+        "lectureId": "lec_mqkr9zowwph",
+        "videoTitle": "69~72쪽 i의 거듭제곱",
+        "watchedSec": 1729,
+        "durationSec": 4000,
+        "lastPosition": 3999,
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "sessionCount": 1,
-        "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
-        "videoTitle": "113~121쪽 삼차방정식과 사차방정식",
-        "durationSec": 4135,
-        "lastPosition": 4129,
-        "lastWatchedAt": "2026-07-29T03:44:57.019Z",
-        "watchedSec": 903
-      },
-      "e1HzWUZt0c8": {
-        "sessionCount": 7,
-        "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
-        "videoTitle": "122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
-        "durationSec": 4174,
-        "lastPosition": 3545,
-        "lastWatchedAt": "2026-08-25T14:12:00.696Z",
-        "watchedSec": 1157
+        "lastWatchedAt": "2026-07-19T03:48:38.243Z"
       },
       "aa5XlDPSuus": {
-        "sessionCount": 5,
         "lectureId": "lec_mqkr9zowwph",
-        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "128~131쪽 오메가의 성질",
+        "watchedSec": 899,
         "durationSec": 4626,
         "lastPosition": 1086,
-        "lastWatchedAt": "2026-08-25T14:27:45.041Z",
-        "watchedSec": 899
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "sessionCount": 5,
+        "lastWatchedAt": "2026-08-25T14:27:45.041Z"
+      },
+      "e1HzWUZt0c8": {
+        "lectureId": "lec_mqkr9zowwph",
+        "videoTitle": "122~127쪽 상반방정식의 풀이, 삼차방정식의 근과 계수의 관계",
+        "watchedSec": 1157,
+        "durationSec": 4174,
+        "lastPosition": 3545,
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "sessionCount": 7,
+        "lastWatchedAt": "2026-08-25T14:12:00.696Z"
+      },
+      "iENXvreBGuU": {
+        "lectureId": "lec_mqkr9zowwph",
+        "videoTitle": "113~121쪽 삼차방정식과 사차방정식",
+        "watchedSec": 903,
+        "durationSec": 4135,
+        "lastPosition": 4129,
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-07-29T03:44:57.019Z"
+      },
+      "sJH5b7SkTL4": {
+        "lectureId": "lec_mqkr9zowwph",
+        "videoTitle": "106~112쪽 이차함수의 최대, 최소",
+        "watchedSec": 3750,
+        "durationSec": 4137,
+        "lastPosition": 3502,
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "sessionCount": 5,
+        "lastWatchedAt": "2026-07-29T02:27:06.434Z"
       }
     },
     "daily": {
@@ -359,8 +359,8 @@
         "_x8xEiOR850": 470
       },
       "2026-07-19": {
-        "_x8xEiOR850": 1259,
-        "LoUhX_HhA3k": 952
+        "LoUhX_HhA3k": 952,
+        "_x8xEiOR850": 1259
       },
       "2026-07-21": {
         "Lwm2o1aNceI": 269
@@ -369,8 +369,8 @@
         "TE0dmnIF-aU": 8
       },
       "2026-07-24": {
-        "TE0dmnIF-aU": 1317,
-        "Lwm2o1aNceI": 577
+        "Lwm2o1aNceI": 577,
+        "TE0dmnIF-aU": 1317
       },
       "2026-07-25": {
         "sJH5b7SkTL4": 3380
@@ -379,8 +379,8 @@
         "sJH5b7SkTL4": 362
       },
       "2026-07-29": {
-        "sJH5b7SkTL4": 8,
-        "iENXvreBGuU": 903
+        "iENXvreBGuU": 903,
+        "sJH5b7SkTL4": 8
       },
       "2026-08-03": {
         "aa5XlDPSuus": 2
@@ -389,8 +389,8 @@
         "e1HzWUZt0c8": 349
       },
       "2026-08-25": {
-        "e1HzWUZt0c8": 808,
-        "aa5XlDPSuus": 897
+        "aa5XlDPSuus": 897,
+        "e1HzWUZt0c8": 808
       }
     }
   },
@@ -403,8 +403,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-24",
-    "endDate": "2026-08-30"
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-06"
   },
   "teacherConfirms": {
     "task_1786084600710_00nbcx__1": {

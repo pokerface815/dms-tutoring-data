@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-29T03:35:14.353Z",
+  "generatedAt": "2026-08-30T17:59:22.121Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -276,6 +276,50 @@
       "startedAt": 1787744994628,
       "createdAt": "2026-08-26T11:51:22.061Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mtfl1ako4py",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 150~159쪽 일차부등식, 연립일차부등식",
+      "reflection": "",
+      "seconds": 1139,
+      "startedAt": 1788080556336,
+      "createdAt": "2026-08-30T09:03:42.792Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mtfn5l85dk7",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 160~167쪽 절댓값 기호를 포함한 일차부등식의 풀이 + 이차부등식",
+      "reflection": "",
+      "seconds": 3512,
+      "startedAt": 1788084108966,
+      "createdAt": "2026-08-30T10:03:02.453Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mtfq7a29mhu",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 168~172쪽 이차부등식의 해의 조건",
+      "reflection": "",
+      "seconds": 1811,
+      "startedAt": 1788088836501,
+      "createdAt": "2026-08-30T11:28:20.145Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mtfrl7848nk",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 170~174쪽 이차부등식의 해의 조건",
+      "reflection": "",
+      "seconds": 1832,
+      "startedAt": 1788091524062,
+      "createdAt": "2026-08-30T12:07:09.268Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -332,14 +376,14 @@
         "watchedSec": 2266
       },
       "HC4J2dxRE8A": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "150~159쪽 일차부등식, 연립일차부등식",
         "durationSec": 3211,
-        "lastPosition": 1678,
-        "lastWatchedAt": "2026-08-29T01:38:38.536Z",
-        "watchedSec": 1426
+        "lastPosition": 3202,
+        "lastWatchedAt": "2026-08-30T10:01:47.375Z",
+        "watchedSec": 2565
       },
       "iwleCBdeEjY": {
         "sessionCount": 3,
@@ -390,6 +434,46 @@
         "lastPosition": 4289,
         "lastWatchedAt": "2026-08-08T00:33:32.850Z",
         "watchedSec": 2584
+      },
+      "Fndr8I_jCAk": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "160~167쪽 절댓값 기호를 포함한 일차부등식의 풀이 + 이차부등식",
+        "durationSec": 4455,
+        "lastPosition": 4430,
+        "lastWatchedAt": "2026-08-30T11:20:34.459Z",
+        "watchedSec": 3512
+      },
+      "WtWbMzSLbw4": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "168~172쪽 이차부등식의 해의 조건",
+        "durationSec": 3902,
+        "lastPosition": 3883,
+        "lastWatchedAt": "2026-08-30T12:04:13.497Z",
+        "watchedSec": 1811
+      },
+      "ydH6yIbuHy0": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "164~167쪽 이차부등식",
+        "durationSec": 2340,
+        "lastPosition": 636,
+        "lastWatchedAt": "2026-08-30T12:04:47.275Z",
+        "watchedSec": 17
+      },
+      "HRD255HqJQw": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqkr9zowwph",
+        "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
+        "videoTitle": "170~174쪽 이차부등식의 해의 조건",
+        "durationSec": 4350,
+        "lastPosition": 4005,
+        "lastWatchedAt": "2026-08-30T12:41:37.344Z",
+        "watchedSec": 1843
       }
     },
     "daily": {
@@ -443,6 +527,13 @@
       "2026-08-26": {
         "iwleCBdeEjY": 2149,
         "HC4J2dxRE8A": 1426
+      },
+      "2026-08-30": {
+        "HC4J2dxRE8A": 1139,
+        "Fndr8I_jCAk": 3512,
+        "WtWbMzSLbw4": 1811,
+        "ydH6yIbuHy0": 17,
+        "HRD255HqJQw": 1843
       }
     }
   },
@@ -455,8 +546,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-24",
-    "endDate": "2026-08-30"
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-06"
   },
   "teacherConfirms": {},
   "tasks": [],

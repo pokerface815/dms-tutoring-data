@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-25T12:05:52.554Z",
+  "generatedAt": "2026-08-30T01:49:43.000Z",
   "student": {
     "id": "s_1780190418387_a11waf",
     "classes": [
@@ -554,7 +554,8 @@
         "videoTitle": "기하-1-1 포물선의 정의",
         "durationSec": 1106,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-08-25T11:10:18.458Z"
+        "lastWatchedAt": "2026-08-25T11:10:18.458Z",
+        "watchedSec": 0
       }
     },
     "daily": {
@@ -614,53 +615,37 @@
       "confirmed": true,
       "confirmedAt": "2026-06-04T07:03:29.735Z"
     },
-    "task_1780558953094_rez4nc__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-06-04T07:49:54.280Z"
-    },
     "task_1780558539137_0pojf0__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-04T07:49:55.631Z"
+    },
+    "task_1780558953094_rez4nc__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-04T07:49:54.280Z"
     },
     "task_1780559412447_wqzyjy__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-04T08:30:03.371Z"
     },
-    "task_1780562282260_czwguk__20260605": {
+    "task_1780562198827_w2n5ap__1": {
       "confirmed": true,
-      "confirmedAt": "2026-06-04T10:10:07.408Z"
-    },
-    "task_1780562258086_nepwxw__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-06-04T10:10:09.154Z"
+      "confirmedAt": "2026-06-04T10:10:12.400Z"
     },
     "task_1780562221556_d0fx4n__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-04T10:10:10.720Z"
     },
-    "task_1780562198827_w2n5ap__1": {
+    "task_1780562258086_nepwxw__1": {
       "confirmed": true,
-      "confirmedAt": "2026-06-04T10:10:12.400Z"
-    },
-    "task_1780562282260_czwguk__20260606": {
-      "confirmed": true,
-      "confirmedAt": "2026-06-04T14:58:25.211Z"
-    },
-    "task_1780626028556_p0iasm__20260606": {
-      "confirmed": true,
-      "confirmedAt": "2026-06-05T02:35:52.596Z"
-    },
-    "task_1780626028556_p0iasm__20260607": {
-      "confirmed": true,
-      "confirmedAt": "2026-06-05T02:45:27.825Z"
-    },
-    "task_1781088257205_vuu08f__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-06-10T13:29:30.417Z"
+      "confirmedAt": "2026-06-04T10:10:09.154Z"
     },
     "task_1780670793023_kh56qh__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-20T15:13:47.727Z"
+    },
+    "task_1781088257205_vuu08f__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-10T13:29:30.417Z"
     },
     "task_1782009623936_vg1gxb__1": {
       "confirmed": true,
@@ -673,6 +658,22 @@
     "task_1782787120020_658o2v__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-30T06:53:19.409Z"
+    },
+    "task_1780562282260_czwguk__20260605": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-04T10:10:07.408Z"
+    },
+    "task_1780562282260_czwguk__20260606": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-04T14:58:25.211Z"
+    },
+    "task_1780626028556_p0iasm__20260606": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-05T02:35:52.596Z"
+    },
+    "task_1780626028556_p0iasm__20260607": {
+      "confirmed": true,
+      "confirmedAt": "2026-06-05T02:45:27.825Z"
     }
   },
   "tasks": [

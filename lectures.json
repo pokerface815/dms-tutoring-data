@@ -1174,6 +1174,18 @@
         "title": "85~96쪽 평행이동 + 대칭이동",
         "position": 12,
         "durationSec": 4333
+      },
+      {
+        "videoId": "AXNfV92WoR0",
+        "title": "97~105쪽 직선에 대한 대칭이동, 집합의 뜻과 표현",
+        "position": 13,
+        "durationSec": 4096
+      },
+      {
+        "videoId": "2D7RSh_zgO0",
+        "title": "106~114쪽 유한집합의 원소의 개수, 집합 사이의 포함관계, 부분집합의 관계",
+        "position": 14,
+        "durationSec": 3760
       }
     ],
     "permissions": {
@@ -1182,8 +1194,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-08-30T03:28:11.090Z",
-    "lastSyncedAt": "2026-08-30T03:28:11.090Z"
+    "updatedAt": "2026-08-30T17:57:50.127Z",
+    "lastSyncedAt": "2026-08-30T17:57:50.127Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1269,9 +1281,15 @@
       },
       {
         "videoId": "X9rTcY67qnM",
-        "title": "2",
+        "title": "97~106쪽 직선에 대한 대칭이동, 집합의 뜻과 표현",
         "position": 12,
         "durationSec": 4179
+      },
+      {
+        "videoId": "UAwWqGoqdYs",
+        "title": "107~114쪽 유한집합의 원소의 개수, 집합 사이의 포함관계, 부분집합의 개수",
+        "position": 13,
+        "durationSec": 4266
       }
     ],
     "permissions": {
@@ -1280,8 +1298,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-08-30T03:28:13.848Z",
-    "lastSyncedAt": "2026-08-30T03:28:13.848Z"
+    "updatedAt": "2026-08-30T17:57:52.387Z",
+    "lastSyncedAt": "2026-08-30T17:57:52.387Z"
   },
   {
     "id": "lec_mririwvdtb6",
@@ -1361,9 +1379,15 @@
       },
       {
         "videoId": "mcNskwieZjE",
-        "title": "3",
+        "title": "178~183쪽 부등식에의 활용",
         "position": 11,
         "durationSec": 3729
+      },
+      {
+        "videoId": "SwslyvrUY6Q",
+        "title": "186~195쪽 속도와 가속도",
+        "position": 12,
+        "durationSec": 4501
       }
     ],
     "permissions": {
@@ -1372,8 +1396,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-08-30T03:28:19.012Z",
-    "lastSyncedAt": "2026-08-30T03:28:19.012Z"
+    "updatedAt": "2026-08-30T17:57:58.356Z",
+    "lastSyncedAt": "2026-08-30T17:57:58.356Z"
   },
   {
     "id": "lec_mrq99fx1qmz",
@@ -1437,16 +1461,13 @@
         "videoId": "Mem_ygTXPbc",
         "title": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
         "position": 8,
-        "durationSec": 6868,
-        "materials": [
-          {
-            "name": "올림포스 기출_01.함수의 극한_8월21,22일_compressed.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1787576356/po87idgw3jga2x4vbn47.pdf",
-            "publicId": "po87idgw3jga2x4vbn47",
-            "resourceType": "image",
-            "uploadedAt": "2026-08-24T12:59:17.777Z"
-          }
-        ]
+        "durationSec": 6868
+      },
+      {
+        "videoId": "34YQNYlPaB8",
+        "title": "프린트 \"올림포스 기출_02.함수의 연속\" 풀이",
+        "position": 9,
+        "durationSec": 6156
       }
     ],
     "permissions": {
@@ -1455,8 +1476,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-08-24T12:59:17.777Z",
-    "lastSyncedAt": "2026-08-24T12:49:04.712Z"
+    "updatedAt": "2026-08-30T17:58:02.084Z",
+    "lastSyncedAt": "2026-08-30T17:58:02.084Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1521,6 +1542,12 @@
         "title": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
         "position": 8,
         "durationSec": 6107
+      },
+      {
+        "videoId": "7LtG4Dc90v8",
+        "title": "프린트 \"올림포스 기출_02.함수의 연속\" 풀이",
+        "position": 9,
+        "durationSec": 3052
       }
     ],
     "permissions": {
@@ -1529,8 +1556,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-08-24T12:49:05.383Z",
-    "lastSyncedAt": "2026-08-24T12:49:05.383Z"
+    "updatedAt": "2026-08-30T17:58:05.626Z",
+    "lastSyncedAt": "2026-08-30T17:58:05.626Z"
   },
   {
     "id": "lec_mqkscmibfht",

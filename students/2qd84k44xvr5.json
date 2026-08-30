@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T01:56:25.684Z",
+  "generatedAt": "2026-08-30T15:07:01.585Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -15,368 +15,368 @@
   "syncedEffortLogs": [
     {
       "id": "effort_mqxbviucle5",
-      "startedAt": 1782619624143,
+      "method": "문제 풀이",
+      "content": "문풀",
       "endedAt": 1782623281143,
       "seconds": 3657,
       "subject": "수학",
-      "method": "문제 풀이",
-      "content": "문풀",
+      "createdAt": "2026-06-28T05:08:01.188Z",
+      "startedAt": 1782619624143,
       "reflection": "그저그럼",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-28T05:08:01.188Z"
+      "sharedWithParent": false
     },
     {
       "id": "effort_mrbnki5q7n9",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-      "reflection": "",
       "seconds": 227,
-      "startedAt": 1783489223523,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-08T05:44:08.942Z",
+      "startedAt": 1783489223523,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrcspyv74hq",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-      "reflection": "",
       "seconds": 109,
-      "startedAt": 1783558493972,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-09T00:56:08.131Z",
+      "startedAt": 1783558493972,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrd3gjkw9ld",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-      "reflection": "",
       "seconds": 1481,
-      "startedAt": 1783575819336,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-09T05:56:44.192Z",
+      "startedAt": 1783575819336,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrp6ssacz1g",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-      "reflection": "",
       "seconds": 2454,
-      "startedAt": 1784307733491,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-17T17:03:28.308Z",
+      "startedAt": 1784307733491,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrp7piqmh19",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
-      "reflection": "",
       "seconds": 2582,
-      "startedAt": 1784309268413,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-17T17:28:55.582Z",
+      "startedAt": 1784309268413,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrr6361zxyc",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
-      "reflection": "",
       "seconds": 1697,
-      "startedAt": 1784393970232,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-19T02:19:05.447Z",
+      "startedAt": 1784393970232,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrr6qex74f0",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
-      "reflection": "",
       "seconds": 655,
-      "startedAt": 1784428531631,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-19T02:37:10.027Z",
+      "startedAt": 1784428531631,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrr70jcr8pc",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
-      "reflection": "",
       "seconds": 785,
-      "startedAt": 1784428975789,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-19T02:45:02.331Z",
+      "startedAt": 1784428975789,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_ms5fh2enjy5",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
-      "reflection": "",
       "seconds": 622,
-      "startedAt": 1785289694071,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-29T01:50:36.911Z",
+      "startedAt": 1785289694071,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_ms739i2yujg",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
-      "reflection": "",
       "seconds": 4448,
-      "startedAt": 1785390161370,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-30T05:44:20.938Z",
+      "startedAt": 1785390161370,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_ms75cof3ybj",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
-      "reflection": "",
       "seconds": 3484,
-      "startedAt": 1785393625130,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-30T06:42:48.351Z",
+      "startedAt": 1785393625130,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_ms777214pls",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
-      "reflection": "",
       "seconds": 548,
-      "startedAt": 1785396773449,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-30T07:34:25.288Z",
+      "startedAt": 1785396773449,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_msaenfem8eb",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
-      "reflection": "",
       "seconds": 681,
-      "startedAt": 1785590697446,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-08-01T13:26:24.958Z",
+      "startedAt": 1785590697446,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_msaewlxoh2r",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
-      "reflection": "",
       "seconds": 1932,
-      "startedAt": 1785591135922,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-08-01T13:33:33.324Z",
+      "startedAt": 1785591135922,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_msafk4r40yb",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
-      "reflection": "",
       "seconds": 1590,
-      "startedAt": 1785592191452,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-08-01T13:51:50.800Z",
+      "startedAt": 1785592191452,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mshms4fe0xe",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
-      "reflection": "",
       "seconds": 1859,
-      "startedAt": 1786027637095,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-08-06T14:48:24.170Z",
+      "startedAt": 1786027637095,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mshndho7htg",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
-      "reflection": "",
       "seconds": 2215,
-      "startedAt": 1786028600816,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-08-06T15:05:01.111Z",
+      "startedAt": 1786028600816,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_msho2skaiac",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
-      "reflection": "",
       "seconds": 65,
-      "startedAt": 1786029827687,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-08-06T15:24:41.626Z",
+      "startedAt": 1786029827687,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_msisvs0r0vn",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
-      "reflection": "",
       "seconds": 2285,
-      "startedAt": 1786098326764,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-08-07T10:26:58.587Z",
+      "startedAt": 1786098326764,
+      "reflection": "",
       "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
-      "MUY1NAZSfLw": {
-        "sessionCount": 4,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-        "durationSec": 4799,
-        "lastPosition": 4700,
-        "lastWatchedAt": "2026-07-09T06:14:16.542Z",
-        "watchedSec": 4821
-      },
-      "AJE79srmVL8": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-        "durationSec": 5620,
-        "lastPosition": 5538,
-        "lastWatchedAt": "2026-07-17T17:27:46.624Z",
-        "watchedSec": 2454
-      },
-      "Fqe7TRl46mA": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
-        "durationSec": 5351,
-        "lastPosition": 2704,
-        "lastWatchedAt": "2026-07-17T17:51:31.342Z",
-        "watchedSec": 2582
-      },
-      "WhKzMT5MG0A": {
-        "sessionCount": 3,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "31~39쪽 지난 과제 질의응답, 함수의 연속",
-        "durationSec": 4809,
-        "lastPosition": 3816,
-        "lastWatchedAt": "2026-07-29T01:58:33.637Z",
-        "watchedSec": 2319
-      },
-      "JlBX5IRj9d8": {
-        "sessionCount": 2,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
-        "durationSec": 3456,
-        "lastPosition": 3366,
-        "lastWatchedAt": "2026-07-19T02:42:54.268Z",
-        "watchedSec": 663
-      },
       "7pfVUyQLMjs": {
-        "sessionCount": 1,
         "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+        "watchedSec": 785,
         "durationSec": 5213,
         "lastPosition": 4535,
-        "lastWatchedAt": "2026-07-19T02:51:34.453Z",
-        "watchedSec": 785
-      },
-      "KuzIK3RkqvM": {
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "52~59쪽 평균변화율과 미분계수",
-        "durationSec": 4899,
-        "lastPosition": 4871,
-        "lastWatchedAt": "2026-07-30T06:26:25.895Z",
-        "watchedSec": 4448
+        "lastWatchedAt": "2026-07-19T02:51:34.453Z"
       },
-      "okVxIoEMccc": {
-        "sessionCount": 3,
+      "AJE79srmVL8": {
         "lectureId": "lec_mqkscmibfht",
+        "videoTitle": "19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "watchedSec": 2454,
+        "durationSec": 5620,
+        "lastPosition": 5538,
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "60~67쪽 미분가능성과 연속성, 도함수",
-        "durationSec": 5321,
-        "lastPosition": 5298,
-        "lastWatchedAt": "2026-07-30T07:32:47.532Z",
-        "watchedSec": 3493
-      },
-      "pJC_OdUw6QE": {
-        "sessionCount": 2,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
-        "durationSec": 4227,
-        "lastPosition": 4226,
-        "lastWatchedAt": "2026-08-01T13:32:14.478Z",
-        "watchedSec": 1229
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-07-17T17:27:46.624Z"
       },
       "EgHfNAsg_mk": {
-        "sessionCount": 1,
         "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "82~85쪽 접선의 방정식 - 기울기가 주어질 때, 곡선 밖의 한 점에서 그은 접선의 방정식",
+        "watchedSec": 1932,
         "durationSec": 4814,
         "lastPosition": 4677,
-        "lastWatchedAt": "2026-08-01T13:49:49.734Z",
-        "watchedSec": 1932
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-08-01T13:49:49.734Z"
+      },
+      "Fqe7TRl46mA": {
+        "lectureId": "lec_mqkscmibfht",
+        "videoTitle": "25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
+        "watchedSec": 2582,
+        "durationSec": 5351,
+        "lastPosition": 2704,
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-07-17T17:51:31.342Z"
+      },
+      "JlBX5IRj9d8": {
+        "lectureId": "lec_mqkscmibfht",
+        "videoTitle": "40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+        "watchedSec": 663,
+        "durationSec": 3456,
+        "lastPosition": 3366,
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 2,
+        "lastWatchedAt": "2026-07-19T02:42:54.268Z"
+      },
+      "KuzIK3RkqvM": {
+        "lectureId": "lec_mqkscmibfht",
+        "videoTitle": "52~59쪽 평균변화율과 미분계수",
+        "watchedSec": 4448,
+        "durationSec": 4899,
+        "lastPosition": 4871,
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-07-30T06:26:25.895Z"
+      },
+      "MUY1NAZSfLw": {
+        "lectureId": "lec_mqkscmibfht",
+        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "watchedSec": 4821,
+        "durationSec": 4799,
+        "lastPosition": 4700,
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 4,
+        "lastWatchedAt": "2026-07-09T06:14:16.542Z"
+      },
+      "WhKzMT5MG0A": {
+        "lectureId": "lec_mqkscmibfht",
+        "videoTitle": "31~39쪽 지난 과제 질의응답, 함수의 연속",
+        "watchedSec": 2319,
+        "durationSec": 4809,
+        "lastPosition": 3816,
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 3,
+        "lastWatchedAt": "2026-07-29T01:58:33.637Z"
       },
       "lWOw-Kjk3mk": {
-        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "watchedSec": 3449,
         "durationSec": 5070,
         "lastPosition": 5067,
-        "lastWatchedAt": "2026-08-06T15:03:18.029Z",
-        "watchedSec": 3449
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 2,
+        "lastWatchedAt": "2026-08-06T15:03:18.029Z"
       },
       "m9wVSEc3BX8": {
-        "sessionCount": 1,
         "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "watchedSec": 2215,
         "durationSec": 4149,
         "lastPosition": 4084,
-        "lastWatchedAt": "2026-08-06T15:23:43.752Z",
-        "watchedSec": 2215
-      },
-      "wKbSmCx25Cs": {
-        "sessionCount": 2,
-        "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "108~110쪽 삼차함수와 사차함수의 그래프",
-        "durationSec": 4935,
-        "lastPosition": 4679,
-        "lastWatchedAt": "2026-08-07T10:53:58.383Z",
-        "watchedSec": 2350
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-08-06T15:23:43.752Z"
       },
       "megu-Gxod_Q": {
-        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+        "watchedSec": 11,
         "durationSec": 4900,
         "lastPosition": 3664,
-        "lastWatchedAt": "2026-08-16T13:10:11.819Z",
-        "watchedSec": 11
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 2,
+        "lastWatchedAt": "2026-08-16T13:10:11.819Z"
+      },
+      "okVxIoEMccc": {
+        "lectureId": "lec_mqkscmibfht",
+        "videoTitle": "60~67쪽 미분가능성과 연속성, 도함수",
+        "watchedSec": 3493,
+        "durationSec": 5321,
+        "lastPosition": 5298,
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 3,
+        "lastWatchedAt": "2026-07-30T07:32:47.532Z"
+      },
+      "pJC_OdUw6QE": {
+        "lectureId": "lec_mqkscmibfht",
+        "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "watchedSec": 1229,
+        "durationSec": 4227,
+        "lastPosition": 4226,
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 2,
+        "lastWatchedAt": "2026-08-01T13:32:14.478Z"
+      },
+      "wKbSmCx25Cs": {
+        "lectureId": "lec_mqkscmibfht",
+        "videoTitle": "108~110쪽 삼차함수와 사차함수의 그래프",
+        "watchedSec": 2350,
+        "durationSec": 4935,
+        "lastPosition": 4679,
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 2,
+        "lastWatchedAt": "2026-08-07T10:53:58.383Z"
       }
     },
     "daily": {
@@ -391,9 +391,9 @@
         "Fqe7TRl46mA": 2582
       },
       "2026-07-19": {
-        "WhKzMT5MG0A": 1697,
+        "7pfVUyQLMjs": 785,
         "JlBX5IRj9d8": 663,
-        "7pfVUyQLMjs": 785
+        "WhKzMT5MG0A": 1697
       },
       "2026-07-29": {
         "WhKzMT5MG0A": 622
@@ -404,9 +404,9 @@
         "pJC_OdUw6QE": 548
       },
       "2026-08-01": {
-        "pJC_OdUw6QE": 681,
         "EgHfNAsg_mk": 1932,
-        "lWOw-Kjk3mk": 1590
+        "lWOw-Kjk3mk": 1590,
+        "pJC_OdUw6QE": 681
       },
       "2026-08-06": {
         "lWOw-Kjk3mk": 1469
@@ -414,15 +414,27 @@
       "2026-08-07": {
         "lWOw-Kjk3mk": 390,
         "m9wVSEc3BX8": 2215,
-        "wKbSmCx25Cs": 2350,
-        "megu-Gxod_Q": 11
+        "megu-Gxod_Q": 11,
+        "wKbSmCx25Cs": 2350
       }
     }
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1787726098114_zzpdkx",
+      "noteName": "송유림_올림포스 유형편_전체",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-09-02",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1787328040228_s2ftfb",
@@ -582,11 +594,11 @@
     }
   ],
   "weekProgress": {
-    "total": 4,
-    "done": 4,
-    "percent": 100,
-    "startDate": "2026-08-24",
-    "endDate": "2026-08-30"
+    "total": 1,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-06"
   },
   "teacherConfirms": {},
   "tasks": [],

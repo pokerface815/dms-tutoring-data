@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T02:10:02.854Z",
+  "generatedAt": "2026-08-30T17:59:24.017Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,18 +11,54 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-26T12:51:26.216Z",
+    "uploadedAt": "2026-08-30T12:41:37.347Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 3575,
-      "monthSec": 14646,
-      "streak": 0,
+      "weekSec": 0,
+      "monthSec": 22940,
+      "streak": 1,
       "bySubjectMonth": {
         "공통수학2": 10638,
-        "공통수학1": 4008
+        "공통수학1": 12302
       }
     },
     "logs": [
+      {
+        "id": "effort_mtfrl7848nk",
+        "startedAt": 1788091524062,
+        "seconds": 1832,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 170~174쪽 이차부등식의 해의 조건",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mtfq7a29mhu",
+        "startedAt": 1788088836501,
+        "seconds": 1811,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 168~172쪽 이차부등식의 해의 조건",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mtfn5l85dk7",
+        "startedAt": 1788084108966,
+        "seconds": 3512,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 160~167쪽 절댓값 기호를 포함한 일차부등식의 풀이 + 이차부등식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mtfl1ako4py",
+        "startedAt": 1788080556336,
+        "seconds": 1139,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 150~159쪽 일차부등식, 연립일차부등식",
+        "reflection": ""
+      },
       {
         "id": "effort_mta19hotlhe",
         "startedAt": 1787744994628,

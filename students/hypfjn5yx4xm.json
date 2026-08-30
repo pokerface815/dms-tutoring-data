@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T01:56:42.795Z",
+  "generatedAt": "2026-08-30T17:58:01.318Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -499,11 +499,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-08-24",
-    "endDate": "2026-08-30"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-06"
   },
   "teacherConfirms": {
     "a_1779199815812_kc9oc2__3": {

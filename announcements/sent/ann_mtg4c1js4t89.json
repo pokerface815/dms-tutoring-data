@@ -1,0 +1,21 @@
+{
+  "id": "ann_mtg4c1js4t89",
+  "sentAt": "2026-08-31T03:04:10.757663+09:00",
+  "target": "both",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "문대승",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "문대승",
+      "type": "parent",
+      "ok": true
+    }
+  ],
+  "okCount": 2,
+  "failCount": 0
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T01:49:53.546Z",
+  "generatedAt": "2026-08-30T17:59:28.904Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -89,13 +89,35 @@
       "startedAt": 1787975163703,
       "createdAt": "2026-08-29T05:30:20.957Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mtfof370szg",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-2 개념원리 — 13. 산점도(~끝)",
+      "reflection": "",
+      "seconds": 61,
+      "startedAt": 1788085914340,
+      "createdAt": "2026-08-30T10:38:25.260Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mtfpazxv9bi",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "쎈B 중3-2 (26년 7월 ~ ) — 52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",
+      "reflection": "",
+      "seconds": 457,
+      "startedAt": 1788086320759,
+      "createdAt": "2026-08-30T11:03:14.035Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "ouu9eZPx_nI": {
-        "sessionCount": 5,
+        "sessionCount": 4,
         "lectureId": "lec_ms6op29vnfs",
         "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
         "videoTitle": "36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
@@ -115,14 +137,24 @@
         "watchedSec": 3190
       },
       "pyGUfURMW4g": {
-        "sessionCount": 3,
+        "sessionCount": 5,
         "lectureId": "lec_ms6op29vnfs",
         "lectureTitle": "쎈B 중3-2 (26년 7월 ~ )",
         "videoTitle": "52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",
         "durationSec": 3806,
-        "lastPosition": 1171,
-        "lastWatchedAt": "2026-08-29T05:31:04.182Z",
-        "watchedSec": 240
+        "lastPosition": 1917,
+        "lastWatchedAt": "2026-08-30T12:17:05.900Z",
+        "watchedSec": 697
+      },
+      "yuCm0Ffok2A": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqoum7ssed7",
+        "lectureTitle": "2024 1,2월 중3-2 개념원리",
+        "videoTitle": "13. 산점도(~끝)",
+        "durationSec": 3793,
+        "lastPosition": 292,
+        "lastWatchedAt": "2026-08-30T10:38:26.846Z",
+        "watchedSec": 61
       }
     },
     "daily": {
@@ -141,6 +173,10 @@
       },
       "2026-08-29": {
         "pyGUfURMW4g": 91
+      },
+      "2026-08-30": {
+        "yuCm0Ffok2A": 61,
+        "pyGUfURMW4g": 457
       }
     }
   },
@@ -153,8 +189,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-24",
-    "endDate": "2026-08-30"
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-06"
   },
   "teacherConfirms": {
     "task_1786083194758_2f29t7__1": {

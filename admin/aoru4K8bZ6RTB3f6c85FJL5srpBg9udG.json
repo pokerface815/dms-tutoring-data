@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T10:13:24.301Z",
+  "generatedAt": "2026-08-30T03:35:28.631Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 54,
+  "studentCount": 55,
   "baseUrl": "",
   "students": [
     {
@@ -490,6 +490,15 @@
       "className": "문현승 개별",
       "studentPageCode": "dss8rumu5e4x",
       "parentPageCode": "dss8rumu5e4x"
+    },
+    {
+      "id": "s_1788060919633_kwwkkl",
+      "name": "안나현",
+      "grade": "고1",
+      "school": "국제고",
+      "className": "토,일 12시 30분",
+      "studentPageCode": "rztzhcetvx9w",
+      "parentPageCode": "rztzhcetvx9w"
     }
   ]
 }

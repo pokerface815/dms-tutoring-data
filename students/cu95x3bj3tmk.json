@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-29T06:37:37.723Z",
+  "generatedAt": "2026-08-30T01:49:44.850Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -270,33 +270,15 @@
     "endDate": "2026-08-30"
   },
   "teacherConfirms": {
-    "task_1786084151694_hangm0__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-08-08T14:46:40.204Z"
-    },
-    "task_1786084151694_goxe85__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-08-09T13:48:10.646Z"
-    },
-    "task_1786083747183_uq339a__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-08-12T09:49:15.026Z"
-    },
     "task_1786083747183_0qybmu__1": {
       "missed": true,
       "missedAt": "2026-08-16T14:37:08.319Z",
       "confirmed": false,
       "confirmedAt": null
     },
-    "task_1786084151694_bovfxx__1": {
+    "task_1786083747183_fz38ib__1": {
       "missed": true,
-      "missedAt": "2026-08-18T02:36:16.336Z",
-      "confirmed": false,
-      "confirmedAt": null
-    },
-    "task_1786084151694_l0nysc__1": {
-      "missed": true,
-      "missedAt": "2026-08-18T02:36:19.836Z",
+      "missedAt": "2026-08-22T15:28:23.517Z",
       "confirmed": false,
       "confirmedAt": null
     },
@@ -304,9 +286,27 @@
       "confirmed": true,
       "confirmedAt": "2026-08-19T09:33:49.972Z"
     },
-    "task_1786083747183_fz38ib__1": {
+    "task_1786083747183_uq339a__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-08-12T09:49:15.026Z"
+    },
+    "task_1786084151694_bovfxx__1": {
       "missed": true,
-      "missedAt": "2026-08-22T15:28:23.517Z",
+      "missedAt": "2026-08-18T02:36:16.336Z",
+      "confirmed": false,
+      "confirmedAt": null
+    },
+    "task_1786084151694_goxe85__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-08-09T13:48:10.646Z"
+    },
+    "task_1786084151694_hangm0__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-08-08T14:46:40.204Z"
+    },
+    "task_1786084151694_l0nysc__1": {
+      "missed": true,
+      "missedAt": "2026-08-18T02:36:19.836Z",
       "confirmed": false,
       "confirmedAt": null
     },

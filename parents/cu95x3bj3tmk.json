@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-30T01:57:20.814Z",
+  "generatedAt": "2026-08-30T17:58:24.958Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -389,8 +389,8 @@
       ],
       "completionRate": {
         "done": 6,
-        "total": 13,
-        "percent": 46
+        "total": 14,
+        "percent": 43
       },
       "noteStages": null
     },
@@ -552,7 +552,7 @@
     "uploadedAt": "2026-08-26T09:05:04.996Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 1982,
+      "weekSec": 0,
       "monthSec": 6002,
       "streak": 0,
       "bySubjectMonth": {
@@ -628,15 +628,15 @@
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",
-      "date": "2026-08-01",
       "type": "closed",
+      "date": "2026-08-01",
+      "endDate": "2026-08-05",
       "title": "학원 방학",
-      "images": [],
+      "content": "",
       "target": {
         "kind": "all"
       },
-      "content": "",
-      "endDate": "2026-08-05",
+      "images": [],
       "createdAt": "2026-07-07T09:05:29.025Z",
       "updatedAt": "2026-07-07T09:38:04.506Z"
     }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T06:37:32.613Z",
+  "generatedAt": "2026-08-30T01:49:37.955Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -8,6 +8,19 @@
     "grade": "고2"
   },
   "months": [
+    {
+      "ym": "2026-08",
+      "label": "2026년 8월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 1,
+          "total": 1,
+          "percent": 100
+        }
+      }
+    },
     {
       "ym": "2026-06",
       "label": "2026년 6월",
@@ -66,17 +79,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_ms858sds11i",
-        "startedAt": 1785454010911,
-        "seconds": 3207,
-        "subject": "확률과 통계",
-        "method": "강의 시청",
-        "content": "확률과 통계(22개정) 개념+유형 (26년 1,2월)_완강 — 26~33쪽 이항정리, 이항계수의 성질",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

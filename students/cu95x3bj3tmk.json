@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T17:58:23.293Z",
+  "generatedAt": "2026-08-31T09:27:59.997Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -147,116 +147,7 @@
     }
   ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": {
-    "videos": {
-      "bDNSxRCdNRY": {
-        "sessionCount": 4,
-        "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
-        "videoTitle": "30~34쪽 직선의 방정식",
-        "durationSec": 4548,
-        "lastPosition": 164,
-        "lastWatchedAt": "2026-07-13T07:27:52.599Z",
-        "watchedSec": 163
-      },
-      "QR6A3YfFpqM": {
-        "sessionCount": 7,
-        "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
-        "videoTitle": "35~40쪽 두 직선의 평행과 수직",
-        "durationSec": 3902,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-07-22T07:37:26.217Z",
-        "watchedSec": 2589
-      },
-      "jIjscjI_q2c": {
-        "sessionCount": 3,
-        "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
-        "videoTitle": "41~48쪽 점과 직선 사이의 거리",
-        "durationSec": 4266,
-        "lastPosition": 4265,
-        "lastWatchedAt": "2026-07-27T07:20:56.744Z",
-        "watchedSec": 2648
-      },
-      "Ea3QmY3z6_c": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
-        "videoTitle": "52~57쪽 원의 방정식(1)",
-        "durationSec": 4404,
-        "lastPosition": 4403,
-        "lastWatchedAt": "2026-08-09T11:21:09.240Z",
-        "watchedSec": 1689
-      },
-      "QyhWoi7qA4s": {
-        "sessionCount": 2,
-        "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
-        "videoTitle": "58~63쪽 원의 방정식 (2)",
-        "durationSec": 4621,
-        "lastPosition": 1185,
-        "lastWatchedAt": "2026-08-09T11:33:56.192Z",
-        "watchedSec": 315
-      },
-      "AYuLMKDmn9E": {
-        "sessionCount": 2,
-        "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
-        "videoTitle": "67~75쪽 원과 직선의 위치 관계, 원의 접선의 방정식",
-        "durationSec": 3803,
-        "lastPosition": 2875,
-        "lastWatchedAt": "2026-08-10T15:13:59.287Z",
-        "watchedSec": 2016
-      },
-      "osQ4LqYmx9k": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
-        "videoTitle": "89~94쪽 대칭이동",
-        "durationSec": 3926,
-        "lastPosition": 3826,
-        "lastWatchedAt": "2026-08-26T08:59:31.880Z",
-        "watchedSec": 1658
-      },
-      "thUXUcQsoDI": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
-        "videoTitle": "95~107쪽 점과 직선에 대한 대칭이동, 집합",
-        "durationSec": 3739,
-        "lastPosition": 2907,
-        "lastWatchedAt": "2026-08-26T09:05:04.999Z",
-        "watchedSec": 324
-      }
-    },
-    "daily": {
-      "2026-07-13": {
-        "bDNSxRCdNRY": 163
-      },
-      "2026-07-22": {
-        "QR6A3YfFpqM": 2589,
-        "jIjscjI_q2c": 657
-      },
-      "2026-07-27": {
-        "jIjscjI_q2c": 1991
-      },
-      "2026-08-09": {
-        "Ea3QmY3z6_c": 1689,
-        "QyhWoi7qA4s": 315
-      },
-      "2026-08-10": {
-        "AYuLMKDmn9E": 1817
-      },
-      "2026-08-11": {
-        "AYuLMKDmn9E": 199
-      },
-      "2026-08-26": {
-        "osQ4LqYmx9k": 1658,
-        "thUXUcQsoDI": 324
-      }
-    }
-  },
+  "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

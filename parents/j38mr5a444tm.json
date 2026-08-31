@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:29:43.425Z",
+  "generatedAt": "2026-08-31T14:38:29.814Z",
   "showCompletionRate": true,
-  "showNoteStages": false,
+  "showNoteStages": true,
   "student": {
     "name": "위재완",
     "grade": "고2"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T17:57:54.805Z",
+  "generatedAt": "2026-08-31T09:27:09.461Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -12,63 +12,9 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [
-    {
-      "id": "effort_mrrgniuqt1x",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
-      "reflection": "",
-      "seconds": 1039,
-      "startedAt": 1784445159244,
-      "createdAt": "2026-07-19T07:14:51.314Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_ms1gptsiaaw",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
-      "reflection": "",
-      "seconds": 702,
-      "startedAt": 1785049952835,
-      "createdAt": "2026-07-26T07:14:20.562Z",
-      "autoRecorded": true
-    }
-  ],
+  "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": {
-    "videos": {
-      "WhKzMT5MG0A": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "31~39쪽 지난 과제 질의응답, 함수의 연속",
-        "durationSec": 4809,
-        "lastPosition": 4313,
-        "lastWatchedAt": "2026-07-19T23:35:39.755Z",
-        "watchedSec": 1039
-      },
-      "KuzIK3RkqvM": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "52~59쪽 평균변화율과 미분계수",
-        "durationSec": 4899,
-        "lastPosition": 4700,
-        "lastWatchedAt": "2026-07-26T07:25:59.411Z",
-        "watchedSec": 702
-      }
-    },
-    "daily": {
-      "2026-07-19": {
-        "WhKzMT5MG0A": 1039
-      },
-      "2026-07-26": {
-        "KuzIK3RkqvM": 702
-      }
-    }
-  },
+  "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
   "today": [
     {

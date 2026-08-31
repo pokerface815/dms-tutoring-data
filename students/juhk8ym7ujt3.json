@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T13:20:29.955Z",
+  "generatedAt": "2026-08-31T14:38:15.823Z",
   "student": {
     "id": "s_1787570844823_nbqosc",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "양산중",
     "grade": "중3",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {

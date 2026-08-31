@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T09:30:10.561Z",
+  "generatedAt": "2026-08-31T13:20:29.955Z",
   "student": {
     "id": "s_1787570844823_nbqosc",
     "classes": [
@@ -78,6 +78,17 @@
       "startedAt": 1788094397696,
       "createdAt": "2026-08-30T12:54:42.503Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mtgxmjv3reo",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-1 개념원리 — 14. 이차함수의 식 구하기(~p.212)",
+      "reflection": "",
+      "seconds": 4005,
+      "startedAt": 1788162235506,
+      "createdAt": "2026-08-31T07:43:56.175Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -124,14 +135,14 @@
         "watchedSec": 548
       },
       "sjdcYwTHUak": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqoulk4jd0e",
         "lectureTitle": "2024 1,2월 중3-1 개념원리",
         "videoTitle": "14. 이차함수의 식 구하기(~p.212)",
         "durationSec": 4922,
-        "lastPosition": 2046,
-        "lastWatchedAt": "2026-08-30T13:30:06.375Z",
-        "watchedSec": 1592
+        "lastPosition": 4864,
+        "lastWatchedAt": "2026-08-31T08:21:25.971Z",
+        "watchedSec": 5597
       }
     },
     "daily": {
@@ -143,6 +154,9 @@
         "rD2lw_UDlmA": 66,
         "eFgGb6Wrm7E": 548,
         "sjdcYwTHUak": 1592
+      },
+      "2026-08-31": {
+        "sjdcYwTHUak": 4005
       }
     }
   },

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:28:34.299Z",
+  "generatedAt": "2026-08-31T14:39:27.496Z",
   "showCompletionRate": true,
-  "showNoteStages": false,
+  "showNoteStages": true,
   "student": {
     "name": "박은준",
     "grade": "중3"

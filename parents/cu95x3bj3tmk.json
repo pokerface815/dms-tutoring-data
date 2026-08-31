@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:28:02.012Z",
+  "generatedAt": "2026-08-31T13:20:44.631Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -100,7 +100,7 @@
             {
               "title": "공수2 강의 영상 보기(제출일 8/30(일))",
               "dueDate": "2026-08-30",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -117,7 +117,7 @@
             {
               "title": "공수2 강의 영상 보기(제출일 8/29(토))",
               "dueDate": "2026-08-29",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -388,9 +388,9 @@
         }
       ],
       "completionRate": {
-        "done": 6,
+        "done": 8,
         "total": 14,
-        "percent": 43
+        "percent": 57
       },
       "noteStages": null
     },

@@ -1482,5 +1482,28 @@
       "중간": true,
       "기말": true
     }
+  },
+  {
+    "id": "scut_mth2o7uba75",
+    "school": "살레시오중",
+    "gradeLevel": "중2",
+    "year": 2026,
+    "semester": "2",
+    "subject": "중2-2",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "삼각형과 사각형의 성질"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "비상",
+    "supplementaryBook": "",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

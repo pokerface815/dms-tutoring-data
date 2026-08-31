@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T09:27:35.365Z",
+  "generatedAt": "2026-08-31T13:20:42.046Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -16,19 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1787995232779_c1207r",
-      "noteName": "이현승_자이스토리(~D72)",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-08-31",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -44,6 +32,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1787995232779_c1207r",
+      "noteName": "이현승_자이스토리(~D72)",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-08-31",
+      "done": true,
+      "doneAt": "2026-08-31T13:20:29.849Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1787995232779_c1207r",
       "noteName": "이현승_자이스토리(~D72)",
@@ -155,8 +155,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-08-31",
     "endDate": "2026-09-06"
   },

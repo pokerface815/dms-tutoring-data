@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:28:27.581Z",
+  "generatedAt": "2026-08-31T14:39:20.241Z",
   "showCompletionRate": true,
-  "showNoteStages": false,
+  "showNoteStages": true,
   "student": {
     "name": "이도겸",
     "grade": "중3"

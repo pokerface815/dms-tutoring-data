@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:30:19.058Z",
+  "generatedAt": "2026-08-31T14:39:34.885Z",
   "showCompletionRate": true,
-  "showNoteStages": false,
+  "showNoteStages": true,
   "student": {
     "name": "안나현",
     "grade": "고1"

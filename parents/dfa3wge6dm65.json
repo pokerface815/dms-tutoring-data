@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-30T01:57:33.501Z",
+  "generatedAt": "2026-08-31T09:28:17.188Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -94,15 +94,15 @@
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",
-      "date": "2026-08-01",
       "type": "closed",
+      "date": "2026-08-01",
+      "endDate": "2026-08-05",
       "title": "학원 방학",
-      "images": [],
+      "content": "",
       "target": {
         "kind": "all"
       },
-      "content": "",
-      "endDate": "2026-08-05",
+      "images": [],
       "createdAt": "2026-07-07T09:05:29.025Z",
       "updatedAt": "2026-07-07T09:38:04.506Z"
     }

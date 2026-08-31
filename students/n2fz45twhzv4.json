@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T17:58:11.380Z",
+  "generatedAt": "2026-08-31T09:27:39.111Z",
   "student": {
     "id": "s_1778768401651_7hlihp",
     "classes": [
@@ -12,44 +12,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [
-    {
-      "id": "effort_mqtsdmalr71",
-      "startedAt": 1782407807803,
-      "endedAt": 1782409134621,
-      "seconds": 1317,
-      "subject": "수학",
-      "method": "문제 풀이",
-      "content": "개념루트",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-25T17:38:54.621Z"
-    },
-    {
-      "id": "effort_mqucttlbcq7",
-      "startedAt": 1782441966585,
-      "endedAt": 1782443482895,
-      "seconds": 1509,
-      "subject": "수학",
-      "method": "문제 풀이",
-      "content": "개념루트",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-26T03:11:22.895Z"
-    },
-    {
-      "id": "effort_mqyrj0qru31",
-      "startedAt": 1782710000359,
-      "endedAt": 1782710037891,
-      "seconds": 31,
-      "subject": "수학",
-      "method": "문제 풀이",
-      "content": "테트",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-29T05:13:57.891Z"
-    }
-  ],
+  "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,

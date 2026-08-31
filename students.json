@@ -449,7 +449,7 @@
     ],
     "showCompletionRate": true,
     "showTestResults": true,
-    "showMakeNote": false,
+    "showMakeNote": true,
     "showNoteStages": true,
     "classHistory": [
       {
@@ -515,7 +515,7 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "pageCode": "cu95x3bj3tmk",
-    "showMakeNote": false,
+    "showMakeNote": true,
     "flagged": false,
     "showNoteStages": true,
     "classHistory": [
@@ -545,7 +545,10 @@
     "notifyStudent": false,
     "notifyParent": false,
     "pageCode": "rgb8kevqmdtt",
-    "showMakeNote": false
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1780314459772_slkq6q",
@@ -566,7 +569,10 @@
     "notifyStudent": false,
     "notifyParent": false,
     "pageCode": "dhm4znbjqs4z",
-    "showMakeNote": false
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1780314459772_u5kn1l",
@@ -587,7 +593,10 @@
     "notifyStudent": false,
     "notifyParent": false,
     "pageCode": "vcsyut7aa9yx",
-    "showMakeNote": false
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1780314459772_58a78m",
@@ -608,7 +617,10 @@
     "notifyStudent": false,
     "notifyParent": false,
     "pageCode": "dfa3wge6dm65",
-    "showMakeNote": false
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1780314459772_frngyj",
@@ -629,7 +641,10 @@
     "notifyStudent": false,
     "notifyParent": false,
     "pageCode": "t644dsvutyb8",
-    "showMakeNote": false
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1780314459772_jsjhe4",
@@ -650,7 +665,10 @@
     "notifyStudent": false,
     "notifyParent": false,
     "pageCode": "wmad574kw6zz",
-    "showMakeNote": false
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1780314459772_hl9biz",
@@ -671,7 +689,10 @@
     "notifyStudent": false,
     "notifyParent": false,
     "pageCode": "sujrjyha99fe",
-    "showMakeNote": false
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1780314459772_wcllxa",
@@ -692,7 +713,10 @@
     "notifyStudent": false,
     "notifyParent": false,
     "pageCode": "rhu3ug525wup",
-    "showMakeNote": false
+    "showMakeNote": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true
   },
   {
     "id": "s_1780633652940_9hqjzx",
@@ -714,9 +738,9 @@
     "notifyParent": false,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showMakeNote": false,
+    "showMakeNote": true,
     "pageCode": "3dqm5z9tex4t",
-    "showNoteStages": false,
+    "showNoteStages": true,
     "classHistory": [
       {
         "classId": "cls_1780311125071_i1638e",
@@ -944,7 +968,7 @@
     "notifyParent": false,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showNoteStages": false,
+    "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "vk5cmg9pumy3"
   },
@@ -1056,7 +1080,7 @@
     "notifyParent": false,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showNoteStages": false,
+    "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "grpsp8y3wcjn"
   },
@@ -1168,7 +1192,7 @@
     "notifyParent": false,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showNoteStages": false,
+    "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "6rx8qu5mtmy7"
   },
@@ -1221,7 +1245,7 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "showNoteStages": true,
-    "showMakeNote": false,
+    "showMakeNote": true,
     "pageCode": "66rzuxbxjyjs",
     "classHistory": [
       {
@@ -1291,7 +1315,7 @@
     "notifyParent": false,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showNoteStages": false,
+    "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "j38mr5a444tm",
     "classHistory": [
@@ -1499,7 +1523,7 @@
     "showCompletionRate": true,
     "showTestResults": true,
     "showNoteStages": true,
-    "showMakeNote": false,
+    "showMakeNote": true,
     "pageCode": "8n5eafhwd7ug",
     "classHistory": [
       {
@@ -1564,8 +1588,8 @@
     "notifyParent": false,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showNoteStages": false,
-    "showMakeNote": false,
+    "showNoteStages": true,
+    "showMakeNote": true,
     "pageCode": "juhk8ym7ujt3",
     "classHistory": [
       {
@@ -1634,7 +1658,7 @@
     "notifyParent": false,
     "showCompletionRate": true,
     "showTestResults": true,
-    "showNoteStages": false,
+    "showNoteStages": true,
     "showMakeNote": true,
     "pageCode": "rztzhcetvx9w",
     "classHistory": [

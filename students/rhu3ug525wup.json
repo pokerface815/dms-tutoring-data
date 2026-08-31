@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T09:28:29.387Z",
+  "generatedAt": "2026-08-31T14:39:22.190Z",
   "student": {
     "id": "s_1780314459772_wcllxa",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "",
     "grade": "중3",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,

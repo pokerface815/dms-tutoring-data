@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T09:27:42.331Z",
+  "generatedAt": "2026-08-31T14:59:39.944Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -18,7 +18,19 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1788188372881_q392at",
+      "noteName": "지유진_올림포스 유형편_01.함수의 극한, 02.함수의 연속",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-09-05",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1780674822191_a4avvt",
@@ -166,7 +178,7 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 1,
     "done": 0,
     "percent": 0,
     "startDate": "2026-08-31",

@@ -1413,5 +1413,28 @@
       "중간": true,
       "기말": true
     }
+  },
+  {
+    "id": "scut_mth1gy2571c",
+    "school": "일곡중",
+    "gradeLevel": "중3",
+    "year": 2026,
+    "semester": "2",
+    "subject": "중3-2",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "이차함수, 삼각비"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

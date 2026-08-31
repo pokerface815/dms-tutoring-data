@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:30:12.328Z",
+  "generatedAt": "2026-08-31T13:20:28.688Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -11,17 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-30T13:29:49.630Z",
+    "uploadedAt": "2026-08-31T08:21:13.457Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 4447,
-      "streak": 1,
+      "todaySec": 4005,
+      "weekSec": 4005,
+      "monthSec": 8452,
+      "streak": 2,
       "bySubjectMonth": {
-        "중3": 4447
+        "중3": 8452
       }
     },
     "logs": [
+      {
+        "id": "effort_mtgxmjv3reo",
+        "startedAt": 1788162235506,
+        "seconds": 4005,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "2024 1,2월 중3-1 개념원리 — 14. 이차함수의 식 구하기(~p.212)",
+        "reflection": ""
+      },
       {
         "id": "effort_mtftacsnxgk",
         "startedAt": 1788094397696,

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T17:58:58.418Z",
+  "generatedAt": "2026-08-31T09:29:12.938Z",
   "student": {
     "id": "s_1783735695213_xbid51",
     "classes": [
@@ -37,38 +37,7 @@
     }
   ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": {
-    "videos": {
-      "jIjscjI_q2c": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
-        "videoTitle": "41~48쪽 점과 직선 사이의 거리",
-        "durationSec": 4266,
-        "lastPosition": 4265,
-        "lastWatchedAt": "2026-07-29T08:53:51.248Z",
-        "watchedSec": 2898
-      },
-      "kldz7U32DcI": {
-        "sessionCount": 1,
-        "lectureId": "lec_mrg80i3ervi",
-        "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
-        "videoTitle": "67~71쪽 연습문제 질문(66쪽) + 원과 직선의 위치관계",
-        "durationSec": 4133,
-        "lastPosition": 4132,
-        "lastWatchedAt": "2026-08-19T12:27:27.236Z",
-        "watchedSec": 3774
-      }
-    },
-    "daily": {
-      "2026-07-29": {
-        "jIjscjI_q2c": 2898
-      },
-      "2026-08-19": {
-        "kldz7U32DcI": 3774
-      }
-    }
-  },
+  "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:29:14.661Z",
+  "generatedAt": "2026-08-31T14:38:35.884Z",
   "showCompletionRate": true,
-  "showNoteStages": false,
+  "showNoteStages": true,
   "student": {
     "name": "정호연",
     "grade": "고1"

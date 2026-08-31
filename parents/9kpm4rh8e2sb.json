@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-30T01:56:55.282Z",
+  "generatedAt": "2026-08-31T09:27:33.761Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -61,60 +61,29 @@
     }
   ],
   "tests": [],
-  "effortLogs": {
-    "enabled": true,
-    "uploadedAt": "2026-08-07T14:17:53.457Z",
-    "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 377,
-      "streak": 0,
-      "bySubjectMonth": {
-        "미적분Ⅰ": 377
-      }
-    },
-    "logs": [
-      {
-        "id": "effort_msj13vxsvqu",
-        "startedAt": 1786112120950,
-        "seconds": 205,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msbhq8h0ctq",
-        "startedAt": 1785656298284,
-        "seconds": 172,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
-        "reflection": ""
-      }
-    ]
-  },
+  "effortLogs": null,
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",
-      "date": "2026-08-01",
       "type": "closed",
+      "date": "2026-08-01",
+      "endDate": "2026-08-05",
       "title": "학원 방학",
-      "images": [],
+      "content": "",
       "target": {
         "kind": "all"
       },
-      "content": "",
-      "endDate": "2026-08-05",
+      "images": [],
       "createdAt": "2026-07-07T09:05:29.025Z",
       "updatedAt": "2026-07-07T09:38:04.506Z"
     },
     {
       "id": "ae_1786459949232_vpvqe",
-      "date": "2026-08-15",
       "type": "closed",
+      "date": "2026-08-15",
+      "endDate": "2026-08-16",
       "title": "고등 수업 휴업",
-      "images": [],
+      "content": "",
       "target": {
         "kind": "class",
         "classIds": [
@@ -125,17 +94,17 @@
           "cls_1783741486590_iyer5b"
         ]
       },
-      "content": "",
-      "endDate": "2026-08-16",
+      "images": [],
       "createdAt": "2026-08-11T14:52:29.232Z",
       "updatedAt": "2026-08-11T14:52:29.232Z"
     },
     {
       "id": "ae_1786459975890_rm505",
-      "date": "2026-08-17",
       "type": "event",
+      "date": "2026-08-17",
+      "endDate": "",
       "title": "16일 수업 보충",
-      "images": [],
+      "content": "",
       "target": {
         "kind": "class",
         "classIds": [
@@ -146,8 +115,7 @@
           "cls_1783741486590_iyer5b"
         ]
       },
-      "content": "",
-      "endDate": "",
+      "images": [],
       "createdAt": "2026-08-11T14:52:55.890Z",
       "updatedAt": "2026-08-11T14:52:55.890Z"
     }

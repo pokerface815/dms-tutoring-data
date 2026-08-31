@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T11:28:10.405Z",
+  "generatedAt": "2026-08-31T09:30:12.328Z",
   "showCompletionRate": true,
   "showNoteStages": false,
   "student": {
@@ -9,7 +9,75 @@
   },
   "months": [],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-08-30T13:29:49.630Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 4447,
+      "streak": 1,
+      "bySubjectMonth": {
+        "중3": 4447
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mtftacsnxgk",
+        "startedAt": 1788094397696,
+        "seconds": 1592,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "2024 1,2월 중3-1 개념원리 — 14. 이차함수의 식 구하기(~p.212)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mtfsxjo9wrw",
+        "startedAt": 1788093712448,
+        "seconds": 548,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "2024 1,2월 중3-1 개념원리 — 13. 이차함수의 일반형(~p.205)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mtfst6wq33s",
+        "startedAt": 1788093564075,
+        "seconds": 66,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "2024 1,2월 중3-1 개념원리 — 12. 이차함수의 그래프(~p.193)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mt9ux1ab9k8",
+        "startedAt": 1787734345506,
+        "seconds": 96,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "중3-1 라이트쎈(26년 1~3월) — 147~150쪽 이차함수의 일반형의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mt9963bt6xc",
+        "startedAt": 1787697825764,
+        "seconds": 1561,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "중3-1 라이트쎈(26년 1~3월) — 147~150쪽 이차함수의 일반형의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mt98t2i8rda",
+        "startedAt": 1787697212067,
+        "seconds": 584,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "중3-1 라이트쎈(26년 1~3월) — 146~147쪽 이차함수의 일반형의 그래프",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T17:58:55.245Z",
+  "generatedAt": "2026-08-31T09:29:05.358Z",
   "student": {
     "id": "s_1783735608548_k885g4",
     "classes": [
@@ -12,50 +12,9 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [
-    {
-      "id": "effort_ms5p2aadzji",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
-      "reflection": "",
-      "seconds": 133,
-      "startedAt": 1785305804268,
-      "createdAt": "2026-07-29T06:19:03.445Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_ms5p82r0e2q",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
-      "reflection": "",
-      "seconds": 2895,
-      "startedAt": 1785306089849,
-      "createdAt": "2026-07-29T06:23:33.612Z",
-      "autoRecorded": true
-    }
-  ],
+  "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": {
-    "videos": {
-      "jIjscjI_q2c": {
-        "sessionCount": 2,
-        "lectureId": "lec_mqoujc2nsde",
-        "lectureTitle": "공통수학2 개념+유형 (26년 1, 2월)",
-        "videoTitle": "41~48쪽 점과 직선 사이의 거리",
-        "durationSec": 4266,
-        "lastPosition": 4205,
-        "lastWatchedAt": "2026-07-29T09:49:11.795Z",
-        "watchedSec": 3028
-      }
-    },
-    "daily": {
-      "2026-07-29": {
-        "jIjscjI_q2c": 3028
-      }
-    }
-  },
+  "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

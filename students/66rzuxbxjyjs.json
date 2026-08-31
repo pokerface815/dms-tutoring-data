@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T13:20:46.244Z",
+  "generatedAt": "2026-08-31T14:38:27.812Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -10,7 +10,7 @@
     "school": "중앙중",
     "grade": "중3",
     "class": "",
-    "showMakeNote": false
+    "showMakeNote": true
   },
   "syncedEffortLogs": [
     {

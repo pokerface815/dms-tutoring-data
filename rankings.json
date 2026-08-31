@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T13:20:32.658Z",
+  "generatedAt": "2026-08-31T14:38:37.677Z",
   "studentCount": 55,
   "rankings": [
     {
@@ -17,21 +17,21 @@
     {
       "id": "s_1777546951753_p3pskl",
       "name": "김채린",
-      "totalSec": 0,
+      "totalSec": 24417,
       "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
+      "monthSec": 17543,
+      "recent3mSec": 24417,
       "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "오레오잉",
+      "publicNickname": true
     },
     {
       "id": "s_1777546978791_hsee5a",
       "name": "김규림",
-      "totalSec": 0,
+      "totalSec": 1741,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 1741,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -39,13 +39,13 @@
     {
       "id": "s_1777547014208_7l30nn",
       "name": "박다윤",
-      "totalSec": 0,
+      "totalSec": 25351,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 25351,
       "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "두다다다다다ㅏ다쿵",
+      "publicNickname": true
     },
     {
       "id": "s_1777547047005_uo92w5",
@@ -61,10 +61,10 @@
     {
       "id": "s_1778325875686_1uoe4b",
       "name": "이경주",
-      "totalSec": 0,
+      "totalSec": 259,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 259,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -72,21 +72,21 @@
     {
       "id": "s_1778397156600_clkd2u",
       "name": "서연준",
-      "totalSec": 0,
+      "totalSec": 35004,
       "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
+      "monthSec": 9147,
+      "recent3mSec": 35004,
       "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "😎",
+      "publicNickname": true
     },
     {
       "id": "s_1778402500926_7fxigp",
       "name": "정찬민",
-      "totalSec": 0,
+      "totalSec": 4355,
       "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
+      "monthSec": 3657,
+      "recent3mSec": 4355,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -94,10 +94,10 @@
     {
       "id": "s_1778404886523_0ag055",
       "name": "박다인",
-      "totalSec": 0,
+      "totalSec": 22727,
       "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
+      "monthSec": 377,
+      "recent3mSec": 22727,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -105,10 +105,10 @@
     {
       "id": "s_1778638262495_alq1jg",
       "name": "이현승",
-      "totalSec": 0,
+      "totalSec": 8738,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 8738,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -116,13 +116,13 @@
     {
       "id": "s_1778768401651_7hlihp",
       "name": "김현민",
-      "totalSec": 0,
+      "totalSec": 2857,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 2857,
       "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "HK2",
+      "publicNickname": true
     },
     {
       "id": "s_1778849219765_v88lqq",
@@ -160,10 +160,10 @@
     {
       "id": "s_1779948611035_qbdt5h",
       "name": "서준우",
-      "totalSec": 0,
+      "totalSec": 4126,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 4126,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -215,13 +215,13 @@
     {
       "id": "s_1780314459772_u5kn1l",
       "name": "문현빈",
-      "totalSec": 0,
+      "totalSec": 2275,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 2275,
       "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "타이거즈",
+      "publicNickname": true
     },
     {
       "id": "s_1780314459772_58a78m",
@@ -237,24 +237,24 @@
     {
       "id": "s_1780314459772_frngyj",
       "name": "고승민",
-      "totalSec": 0,
+      "totalSec": 4742,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 4742,
       "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "살레시안",
+      "publicNickname": true
     },
     {
       "id": "s_1780314459772_jsjhe4",
       "name": "왕예진",
-      "totalSec": 0,
+      "totalSec": 1090,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 1090,
       "streak": 0,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "Q.E.D",
+      "publicNickname": true
     },
     {
       "id": "s_1780314459772_hl9biz",
@@ -303,10 +303,10 @@
     {
       "id": "s_1780825552050_3a3ma5",
       "name": "노태원",
-      "totalSec": 0,
+      "totalSec": 635,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 635,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -369,10 +369,10 @@
     {
       "id": "s_1783505825104_ci241f",
       "name": "정찬영",
-      "totalSec": 0,
+      "totalSec": 8498,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 8498,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -380,10 +380,10 @@
     {
       "id": "s_1783735608548_k885g4",
       "name": "원지율",
-      "totalSec": 0,
+      "totalSec": 3028,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 3028,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -413,10 +413,10 @@
     {
       "id": "s_1783736188808_37ty47",
       "name": "박현진",
-      "totalSec": 0,
+      "totalSec": 7052,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 7052,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -424,10 +424,10 @@
     {
       "id": "s_1783741551628_vw0d5m",
       "name": "박하윤",
-      "totalSec": 0,
+      "totalSec": 7206,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 7206,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -435,10 +435,10 @@
     {
       "id": "s_1783741639936_epkpt5",
       "name": "송시욱",
-      "totalSec": 0,
+      "totalSec": 2516,
       "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
+      "monthSec": 2516,
+      "recent3mSec": 2516,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -446,10 +446,10 @@
     {
       "id": "s_1783741677433_iezolt",
       "name": "박소이",
-      "totalSec": 0,
+      "totalSec": 5673,
       "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
+      "monthSec": 3691,
+      "recent3mSec": 5673,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -457,10 +457,10 @@
     {
       "id": "s_1783822161933_05uu7m",
       "name": "김도윤",
-      "totalSec": 0,
+      "totalSec": 81,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 81,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -534,10 +534,10 @@
     {
       "id": "s_1785035974019_bc13fy",
       "name": "조한결",
-      "totalSec": 0,
+      "totalSec": 4059,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 0,
+      "recent3mSec": 4059,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

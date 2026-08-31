@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T17:57:58.750Z",
+  "generatedAt": "2026-08-31T09:27:17.196Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -12,44 +12,9 @@
     "class": "개별수업",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
-  "syncedEffortDeletedIds": [
-    "effort_mqqowytm8k3",
-    "effort_mqqpkpuz2xh",
-    "effort_mqsuozgb1mo"
-  ],
-  "syncedLectureWatch": {
-    "videos": {
-      "Q0tpK6iwvJc": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqks8brpdcl",
-        "lectureTitle": "대수 개념+유형 (26년 1월 ~ )_완강",
-        "videoTitle": "228~233쪽 수학적 귀납법. 교재 끝.",
-        "durationSec": 3326,
-        "lastPosition": 99,
-        "lastWatchedAt": "2026-06-23T13:57:04.539Z",
-        "watchedSec": 99
-      },
-      "MUY1NAZSfLw": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-        "durationSec": 4799,
-        "lastPosition": 83,
-        "lastWatchedAt": "2026-06-25T01:55:54.712Z",
-        "watchedSec": 83
-      }
-    },
-    "daily": {
-      "2026-06-23": {
-        "Q0tpK6iwvJc": 99
-      },
-      "2026-06-25": {
-        "MUY1NAZSfLw": 83
-      }
-    }
-  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

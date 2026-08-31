@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:28:20.506Z",
+  "generatedAt": "2026-08-31T14:39:11.960Z",
   "showCompletionRate": true,
-  "showNoteStages": false,
+  "showNoteStages": true,
   "student": {
     "name": "고승민",
     "grade": "중3"
@@ -90,7 +90,18 @@
       "comment": ""
     }
   ],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-06-25T11:24:18.476Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "streak": 0,
+      "bySubjectMonth": {}
+    },
+    "logs": []
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

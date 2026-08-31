@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:28:17.188Z",
+  "generatedAt": "2026-08-31T14:39:08.058Z",
   "showCompletionRate": true,
-  "showNoteStages": false,
+  "showNoteStages": true,
   "student": {
     "name": "장경원",
     "grade": "중3"

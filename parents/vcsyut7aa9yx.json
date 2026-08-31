@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:28:13.550Z",
+  "generatedAt": "2026-08-31T14:39:04.162Z",
   "showCompletionRate": true,
-  "showNoteStages": false,
+  "showNoteStages": true,
   "student": {
     "name": "문현빈",
     "grade": "중3"
@@ -90,7 +90,18 @@
       "comment": ""
     }
   ],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-06-25T17:03:02.512Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "streak": 0,
+      "bySubjectMonth": {}
+    },
+    "logs": []
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

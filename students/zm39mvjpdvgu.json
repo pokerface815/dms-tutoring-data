@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T17:58:46.656Z",
+  "generatedAt": "2026-08-31T09:28:47.522Z",
   "student": {
     "id": "s_1780833414231_dup17p",
     "classes": [
@@ -12,36 +12,9 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": {
-    "videos": {
-      "MUY1NAZSfLw": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-        "durationSec": 4799,
-        "lastPosition": 18,
-        "lastWatchedAt": "2026-07-12T05:15:33.421Z",
-        "watchedSec": 19
-      },
-      "GNgvRzCn-Dc": {
-        "sessionCount": 1,
-        "lectureId": "lec_ms3cw1y06x4",
-        "lectureTitle": "(2022개정) 기하",
-        "videoTitle": "기하-1-4 포물선과 직선의 위치 관계",
-        "durationSec": 530,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-08-23T05:10:47.419Z"
-      }
-    },
-    "daily": {
-      "2026-07-12": {
-        "MUY1NAZSfLw": 19
-      }
-    }
-  },
+  "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

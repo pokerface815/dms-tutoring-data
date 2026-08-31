@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T17:58:06.494Z",
+  "generatedAt": "2026-08-31T09:27:28.559Z",
   "student": {
     "id": "s_1778402500926_7fxigp",
     "classes": [
@@ -12,66 +12,9 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [
-    {
-      "id": "effort_mrr51dvphca",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-      "reflection": "",
-      "seconds": 698,
-      "startedAt": 1784425720577,
-      "createdAt": "2026-07-19T01:49:42.662Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_msg0b7mi0ha",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
-      "reflection": "",
-      "seconds": 3657,
-      "startedAt": 1785927442012,
-      "createdAt": "2026-08-05T11:31:37.434Z",
-      "autoRecorded": true
-    }
-  ],
+  "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": {
-    "videos": {
-      "MUY1NAZSfLw": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-        "durationSec": 4799,
-        "lastPosition": 667,
-        "lastWatchedAt": "2026-07-19T01:55:00.237Z",
-        "watchedSec": 698
-      },
-      "OIDvXwg6tkg": {
-        "sessionCount": 3,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
-        "durationSec": 5879,
-        "lastPosition": 3088,
-        "lastWatchedAt": "2026-08-06T03:50:24.021Z",
-        "watchedSec": 3667
-      }
-    },
-    "daily": {
-      "2026-07-19": {
-        "MUY1NAZSfLw": 698
-      },
-      "2026-08-05": {
-        "OIDvXwg6tkg": 3636
-      },
-      "2026-08-06": {
-        "OIDvXwg6tkg": 31
-      }
-    }
-  },
+  "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

@@ -3901,5 +3901,39 @@
       }
     ],
     "createdAt": "2026-08-29T09:21:43.095Z"
+  },
+  {
+    "id": "a_1788188372881_q392at",
+    "noteId": "note_1788188352778_dokr1t",
+    "noteName": "지유진_올림포스 유형편_01.함수의 극한, 02.함수의 연속",
+    "studentId": "s_1778849219765_v88lqq",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-05",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-07",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-12",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-26",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-08-31T14:59:32.881Z"
   }
 ]

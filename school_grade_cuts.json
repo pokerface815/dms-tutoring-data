@@ -1505,5 +1505,28 @@
       "중간": true,
       "기말": true
     }
+  },
+  {
+    "id": "scut_mth2q48s021",
+    "school": "숭일중",
+    "gradeLevel": "중2",
+    "year": 2026,
+    "semester": "2",
+    "subject": "중2-2",
+    "cutsByExamKind": {},
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "일차함수와 그 그래프, 삼각형과 사각형의 성질, 도형의 닮음"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

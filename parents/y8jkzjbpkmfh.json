@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:27:26.861Z",
+  "generatedAt": "2026-09-01T09:36:25.278Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -46,7 +46,100 @@
     }
   ],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-08-15T11:48:18.363Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "streak": 0,
+      "bySubjectMonth": {}
+    },
+    "logs": [
+      {
+        "id": "effort_msuazgzu3xt",
+        "startedAt": 1786793874530,
+        "seconds": 514,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msrljfcoq4r",
+        "startedAt": 1786630204481,
+        "seconds": 1015,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msrk6qfixx2",
+        "startedAt": 1786627891807,
+        "seconds": 2173,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msld6nx09bh",
+        "startedAt": 1786253361125,
+        "seconds": 218,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msiod09rzki",
+        "startedAt": 1786089383670,
+        "seconds": 2224,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msilidbup2y",
+        "startedAt": 1786085942740,
+        "seconds": 385,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
+      {
+        "id": "effort_msfts0hn59f",
+        "startedAt": 1785918437103,
+        "seconds": 920,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mse7myrpy5v",
+        "startedAt": 1785820795497,
+        "seconds": 779,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mse6in1ntn3",
+        "startedAt": 1785818927140,
+        "seconds": 919,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

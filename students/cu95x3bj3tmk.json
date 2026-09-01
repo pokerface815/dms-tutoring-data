@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T14:38:33.751Z",
+  "generatedAt": "2026-09-01T09:36:36.203Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -465,22 +465,6 @@
       "round": 1,
       "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/3(목))",
       "dueDate": "2026-09-03",
-      "isRepeat": false,
-      "assignedAt": "2026-08-24T08:57:34.526Z"
-    },
-    {
-      "assignmentId": "task_1787561854526_r0hk5o",
-      "round": 1,
-      "title": "공수2 강의 영상 보기(제출일 9/5(토))",
-      "dueDate": "2026-09-05",
-      "isRepeat": false,
-      "assignedAt": "2026-08-24T08:57:34.526Z"
-    },
-    {
-      "assignmentId": "task_1787561854526_5iooa6",
-      "round": 1,
-      "title": "공수2 강의 영상 보기(제출일 9/6(일))",
-      "dueDate": "2026-09-06",
       "isRepeat": false,
       "assignedAt": "2026-08-24T08:57:34.526Z"
     }

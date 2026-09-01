@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T14:38:31.608Z",
+  "generatedAt": "2026-09-01T09:36:37.371Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,40 +12,6 @@
       "ym": "2026-09",
       "label": "2026년 9월",
       "lessons": [
-        {
-          "date": "2026-09-06",
-          "weekday": "일",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "공수2 강의 영상 보기(제출일 9/6(일))",
-              "dueDate": "2026-09-06",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
-        {
-          "date": "2026-09-05",
-          "weekday": "토",
-          "className": "",
-          "content": "",
-          "task": "",
-          "taskDue": "",
-          "myNote": "",
-          "extraAssignments": [
-            {
-              "title": "공수2 강의 영상 보기(제출일 9/5(토))",
-              "dueDate": "2026-09-05",
-              "isConfirmed": false
-            }
-          ],
-          "hasLesson": false
-        },
         {
           "date": "2026-09-03",
           "weekday": "목",
@@ -553,11 +519,9 @@
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
-      "monthSec": 6002,
+      "monthSec": 0,
       "streak": 0,
-      "bySubjectMonth": {
-        "공통수학2": 6002
-      }
+      "bySubjectMonth": {}
     },
     "logs": [
       {

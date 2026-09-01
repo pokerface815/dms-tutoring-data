@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T09:36:42.679Z",
+  "generatedAt": "2026-09-01T16:44:50.421Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -47,7 +47,11 @@
           "hasLesson": false
         }
       ],
-      "completionRate": null,
+      "completionRate": {
+        "done": 0,
+        "total": 1,
+        "percent": 0
+      },
       "noteStages": null
     },
     {
@@ -285,15 +289,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-30T06:42:24.139Z",
+    "uploadedAt": "2026-09-01T14:23:15.527Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "weekSec": 4652,
+      "monthSec": 4652,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학1": 4652
+      }
     },
     "logs": [
+      {
+        "id": "effort_mtiqcwnqzwb",
+        "startedAt": 1788270855793,
+        "seconds": 519,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mtiqa60kdok",
+        "startedAt": 1788266700391,
+        "seconds": 4133,
+        "subject": "공통수학1",
+        "method": "기타",
+        "content": "~127p",
+        "reflection": ""
+      },
       {
         "id": "effort_mt8r3auv7sa",
         "startedAt": 1787667468492,

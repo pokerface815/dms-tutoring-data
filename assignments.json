@@ -3448,28 +3448,6 @@
     "repeat": null
   },
   {
-    "id": "task_1787561854526_7ard3a",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/1(화))",
-    "dueDate": "2026-09-01",
-    "assignedAt": "2026-08-24T08:57:34.526Z",
-    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-09-01",
-    "templateId": "tpl_msik5bhq57rt",
-    "repeat": null
-  },
-  {
-    "id": "task_1787561854526_ipr528",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "쎈 공수1 매일 1장씩 풀기(더 풀어도 됨^^)(제출일 9/3(목))",
-    "dueDate": "2026-09-03",
-    "assignedAt": "2026-08-24T08:57:34.526Z",
-    "batchId": "tplbatch_tpl_msik5bhq57rt_2026-09-03",
-    "templateId": "tpl_msik5bhq57rt",
-    "repeat": null
-  },
-  {
     "id": "task_1787561854526_8xqzvq",
     "type": "task",
     "studentId": "s_1780309359751_gjl2s0",

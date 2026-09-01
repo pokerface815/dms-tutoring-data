@@ -3492,28 +3492,6 @@
     "repeat": null
   },
   {
-    "id": "task_1787561854526_r0hk5o",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "공수2 강의 영상 보기(제출일 9/5(토))",
-    "dueDate": "2026-09-05",
-    "assignedAt": "2026-08-24T08:57:34.526Z",
-    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-09-05",
-    "templateId": "tpl_msikdzm6sssq",
-    "repeat": null
-  },
-  {
-    "id": "task_1787561854526_5iooa6",
-    "type": "task",
-    "studentId": "s_1780309359751_gjl2s0",
-    "title": "공수2 강의 영상 보기(제출일 9/6(일))",
-    "dueDate": "2026-09-06",
-    "assignedAt": "2026-08-24T08:57:34.526Z",
-    "batchId": "tplbatch_tpl_msikdzm6sssq_2026-09-06",
-    "templateId": "tpl_msikdzm6sssq",
-    "repeat": null
-  },
-  {
     "id": "task_1787561854526_mk89ue",
     "type": "task",
     "studentId": "s_1783936051988_psto4h",

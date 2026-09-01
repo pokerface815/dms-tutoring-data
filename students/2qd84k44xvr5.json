@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T09:27:01.552Z",
+  "generatedAt": "2026-09-01T16:44:54.270Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -420,9 +420,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1787726098114_zzpdkx",
       "noteName": "송유림_올림포스 유형편_전체",
@@ -435,6 +433,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1787328040228_s2ftfb",

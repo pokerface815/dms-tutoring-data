@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T09:19:43.837Z",
+  "generatedAt": "2026-09-02T11:56:47.270Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -168,15 +168,6 @@
         "id": "effort_msdtfym33r2",
         "startedAt": 1785796963613,
         "seconds": 469,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msd4wnw57xp",
-        "startedAt": 1785755749280,
-        "seconds": 1743,
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",

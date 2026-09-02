@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T09:27:21.185Z",
+  "generatedAt": "2026-09-02T15:09:27.154Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -12,9 +12,126 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [
+    {
+      "id": "effort_ms2qmcy6v08",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
+      "reflection": "",
+      "seconds": 129,
+      "startedAt": 1785127073393,
+      "createdAt": "2026-07-27T04:39:21.102Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms723jzoslc",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
+      "reflection": "",
+      "seconds": 130,
+      "startedAt": 1785388242550,
+      "createdAt": "2026-07-30T05:11:43.860Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "wKbSmCx25Cs": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "108~110쪽 삼차함수와 사차함수의 그래프",
+        "durationSec": 4935,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-05T01:49:05.191Z",
+        "watchedSec": 0
+      },
+      "MUY1NAZSfLw": {
+        "sessionCount": 6,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "durationSec": 4799,
+        "lastPosition": 234,
+        "lastWatchedAt": "2026-08-16T12:42:43.099Z",
+        "watchedSec": 73
+      },
+      "7pfVUyQLMjs": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
+        "durationSec": 5213,
+        "lastPosition": 2225,
+        "lastWatchedAt": "2026-07-22T03:50:25.887Z",
+        "watchedSec": 5
+      },
+      "KuzIK3RkqvM": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "52~59쪽 평균변화율과 미분계수",
+        "durationSec": 4899,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-22T04:05:18.078Z",
+        "watchedSec": 1
+      },
+      "okVxIoEMccc": {
+        "sessionCount": 5,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "60~67쪽 미분가능성과 연속성, 도함수",
+        "durationSec": 5321,
+        "lastPosition": 2701,
+        "lastWatchedAt": "2026-07-30T06:14:35.736Z",
+        "watchedSec": 271
+      },
+      "JlBX5IRj9d8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
+        "durationSec": 3456,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-30T05:10:25.440Z",
+        "watchedSec": 0
+      },
+      "pJC_OdUw6QE": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
+        "durationSec": 4227,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-07-30T16:58:43.902Z",
+        "watchedSec": 0
+      }
+    },
+    "daily": {
+      "2026-07-05": {
+        "MUY1NAZSfLw": 25
+      },
+      "2026-07-08": {
+        "MUY1NAZSfLw": 48
+      },
+      "2026-07-14": {
+        "7pfVUyQLMjs": 3
+      },
+      "2026-07-22": {
+        "7pfVUyQLMjs": 2,
+        "KuzIK3RkqvM": 1
+      },
+      "2026-07-27": {
+        "okVxIoEMccc": 129
+      },
+      "2026-07-30": {
+        "okVxIoEMccc": 142
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
@@ -497,6 +614,18 @@
       "teacherEdited": false,
       "sourceSubmittedAt": "2026-07-08T08:45:46.968Z",
       "createdAt": "2026-07-07T12:01:33.781Z"
+    },
+    {
+      "id": "grade_mtk8evlbykg",
+      "type": "mock",
+      "year": 2026,
+      "gradeLevel": "고2",
+      "month": 9,
+      "elective": "",
+      "mathScore": 72,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-09-02T15:09:12.431Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-02T15:09:22.965Z",
+  "generatedAt": "2026-09-02T15:10:25.548Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,7 +51,19 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1788361818007_5y56d7",
+      "noteName": "조예나_올림포스 유형편_03.미분계수와 도함수",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-09-03",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [
     {
       "assignmentId": "a_1787666163828_1y94lw",
@@ -65,7 +77,19 @@
       "missedAt": null
     }
   ],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1788361818007_5y56d7",
+      "noteName": "조예나_올림포스 유형편_03.미분계수와 도함수",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-09-05",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1787400471109_psbqsx",
@@ -429,7 +453,7 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
+    "total": 3,
     "done": 0,
     "percent": 0,
     "startDate": "2026-08-31",

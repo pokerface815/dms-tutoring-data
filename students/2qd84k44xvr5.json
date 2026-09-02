@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-01T16:44:54.270Z",
+  "generatedAt": "2026-09-02T13:40:03.516Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -677,6 +677,18 @@
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-06-16T02:21:50.926Z"
+    },
+    {
+      "id": "grade_mtk584e94r3",
+      "type": "mock",
+      "year": 2026,
+      "gradeLevel": "고2",
+      "month": 9,
+      "elective": "",
+      "mathScore": 76,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-09-02T13:39:58.401Z"
     }
   ]
 }

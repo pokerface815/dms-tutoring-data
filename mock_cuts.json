@@ -11,5 +11,18 @@
       null
     ],
     "elective": ""
+  },
+  {
+    "id": "mcut_mtk56m6a",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "month": 9,
+    "elective": "",
+    "cuts": [
+      84,
+      72,
+      60,
+      null
+    ]
   }
 ]

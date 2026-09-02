@@ -3869,5 +3869,39 @@
       }
     ],
     "createdAt": "2026-08-31T14:59:32.881Z"
+  },
+  {
+    "id": "a_1788361818007_5y56d7",
+    "noteId": "note_1788361808948_n2nyfz",
+    "noteName": "조예나_올림포스 유형편_03.미분계수와 도함수",
+    "studentId": "s_1777547047005_uo92w5",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-03",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-05",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-10",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-24",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-02T15:10:18.007Z"
   }
 ]

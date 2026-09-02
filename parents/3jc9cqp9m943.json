@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T09:36:48.808Z",
+  "generatedAt": "2026-09-02T09:19:43.837Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -177,33 +177,6 @@
         "id": "effort_msd4wnw57xp",
         "startedAt": 1785755749280,
         "seconds": 1743,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mscm972lzhe",
-        "startedAt": 1785724428522,
-        "seconds": 483,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mscgqq1nvr9",
-        "startedAt": 1785715166174,
-        "seconds": 107,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 8~12쪽 두 점 사이의 거리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mscgmcsa503",
-        "startedAt": 1785714963773,
-        "seconds": 80,
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",

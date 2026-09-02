@@ -1064,7 +1064,9 @@
     "subject": "미적분1",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "함수의 극한, 함수의 연속, 미분계수와 도함수"
+    },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
     "teacher": "",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T09:27:13.405Z",
+  "generatedAt": "2026-09-02T13:39:44.285Z",
   "student": {
     "id": "s_1777547014208_7l30nn",
     "classes": [
@@ -12,7 +12,80 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mqqswg1jm3c",
+      "startedAt": 1782227000455,
+      "endedAt": 1782228614455,
+      "seconds": 1614,
+      "subject": "수학",
+      "method": "문제 풀이",
+      "content": "확통마더텅56-74",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-23T15:30:14.455Z"
+    },
+    {
+      "id": "effort_mqvtt05vq6c",
+      "startedAt": 1782528270682,
+      "endedAt": 1782532464403,
+      "seconds": 4175,
+      "subject": "영어",
+      "method": "문제 풀이",
+      "content": "모의고사공부",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-27T03:54:24.403Z"
+    },
+    {
+      "id": "effort_mqvzyj5dp8a",
+      "startedAt": 1782541008534,
+      "endedAt": 1782542799985,
+      "seconds": 1452,
+      "subject": "국어",
+      "method": "문제 풀이",
+      "content": "자습서",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-27T06:46:39.985Z"
+    },
+    {
+      "id": "effort_mqwit8cccrk",
+      "startedAt": 1782568790221,
+      "endedAt": 1782574465404,
+      "seconds": 5654,
+      "subject": "국어",
+      "method": "문제 풀이",
+      "content": "22.3, 24.6 모의고사",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-27T15:34:25.404Z"
+    },
+    {
+      "id": "effort_mqx828ewf12",
+      "startedAt": 1782611889020,
+      "endedAt": 1782616875800,
+      "seconds": 4703,
+      "subject": "국어",
+      "method": "문제 풀이",
+      "content": "25.6,26,6 모의고사",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-28T03:21:15.802Z"
+    },
+    {
+      "id": "effort_mqxxguz7bin",
+      "startedAt": 1782648810895,
+      "endedAt": 1782659548627,
+      "seconds": 7753,
+      "subject": "영어, 수학",
+      "method": "문제 풀이",
+      "content": "영어 부교재 수학 복습 3회",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-06-28T15:12:28.628Z"
+    }
+  ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
@@ -312,6 +385,18 @@
       "teacherEdited": false,
       "sourceSubmittedAt": "2026-07-23T17:18:06.002Z",
       "createdAt": "2026-07-25T10:49:12.115Z"
+    },
+    {
+      "id": "grade_mtk57piiykd",
+      "type": "mock",
+      "year": 2026,
+      "gradeLevel": "고2",
+      "month": 9,
+      "elective": "",
+      "mathScore": 86,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-09-02T13:39:39.114Z"
     }
   ]
 }

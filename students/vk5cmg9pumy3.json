@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T09:28:58.161Z",
+  "generatedAt": "2026-09-03T11:51:00.908Z",
   "student": {
     "id": "s_1783476674835_bt1qix",
     "classes": [
@@ -12,9 +12,22 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "ZoRsUDeXQDU": {
+        "sessionCount": 1,
+        "lectureId": "lec_ms3cw1y06x4",
+        "lectureTitle": "(2022개정) 기하",
+        "videoTitle": "기하-1-7 타원의 방정식",
+        "durationSec": 1504,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-09-03T08:45:33.677Z"
+      }
+    },
+    "daily": {}
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

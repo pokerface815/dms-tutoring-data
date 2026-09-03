@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T09:36:43.888Z",
+  "generatedAt": "2026-09-03T11:51:23.605Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -63,15 +63,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msehjku6slp",
-        "startedAt": 1785837441355,
-        "seconds": 1517,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 8~14쪽(개념+유형) 함수의 수렴과 발산, 우극한과 좌극한",
         "reflection": ""
       }
     ]

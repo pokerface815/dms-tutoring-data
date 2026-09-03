@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T15:09:29.294Z",
+  "generatedAt": "2026-09-03T12:53:25.248Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -289,17 +289,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-09-01T22:30:01.004Z",
+    "uploadedAt": "2026-09-03T12:49:48.288Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 4655,
-      "monthSec": 4655,
-      "streak": 0,
+      "todaySec": 287,
+      "weekSec": 4942,
+      "monthSec": 4942,
+      "streak": 1,
       "bySubjectMonth": {
-        "공통수학1": 4655
+        "공통수학1": 4942
       }
     },
     "logs": [
+      {
+        "id": "effort_mtli9pt2d2q",
+        "startedAt": 1788438482910,
+        "seconds": 287,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+        "reflection": ""
+      },
       {
         "id": "effort_mtiqcwnqzwb",
         "startedAt": 1788270855793,

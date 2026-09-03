@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-03T11:51:18.544Z",
+  "generatedAt": "2026-09-03T12:53:34.026Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -70,19 +70,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1788436255652_0adyjl",
-      "noteName": "김규림_개념루트_도함수의 활용(1), (2)",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-09-03",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -109,6 +97,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1788436255652_0adyjl",
+      "noteName": "김규림_개념루트_도함수의 활용(1), (2)",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-09-03",
+      "done": true,
+      "doneAt": "2026-09-03T12:53:18.932Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1787995303095_1ilaio",
       "noteName": "김규림_개념루트_미분계수와 도함수(~220번)",
@@ -424,8 +424,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 1,
-    "percent": 25,
+    "done": 2,
+    "percent": 50,
     "startDate": "2026-08-31",
     "endDate": "2026-09-06"
   },

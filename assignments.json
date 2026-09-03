@@ -3907,5 +3907,39 @@
       }
     ],
     "createdAt": "2026-09-02T15:10:18.007Z"
+  },
+  {
+    "id": "a_1788436255652_0adyjl",
+    "noteId": "note_1788436241997_qtp9i9",
+    "noteName": "김규림_개념루트_도함수의 활용(1), (2)",
+    "studentId": "s_1777546978791_hsee5a",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-03",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-05",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-10",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-24",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-03T11:50:55.652Z"
   }
 ]

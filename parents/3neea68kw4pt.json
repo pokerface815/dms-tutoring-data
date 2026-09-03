@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T09:36:34.693Z",
+  "generatedAt": "2026-09-03T11:51:21.758Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -204,15 +204,6 @@
         "subject": "미적분Ⅰ",
         "method": "문제 풀이",
         "content": "쎈B",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mse81y7l3np",
-        "startedAt": 1785821167486,
-        "seconds": 391,
-        "subject": "독서",
-        "method": "기타",
-        "content": "아비투스",
         "reflection": ""
       }
     ]

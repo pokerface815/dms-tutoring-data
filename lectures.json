@@ -2513,6 +2513,24 @@
         "title": "52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",
         "position": 6,
         "durationSec": 3806
+      },
+      {
+        "videoId": "gLVtHqQHvZM",
+        "title": "58~62쪽 질문 + 원주각의 성질, 원주각의 크기와 호의 길이",
+        "position": 7,
+        "durationSec": 3755
+      },
+      {
+        "videoId": "FvZmqxrixSs",
+        "title": "65~70쪽네 점이 한 원 위에 있을 조건, 원에 내접하는 사각형의 성질",
+        "position": 8,
+        "durationSec": 3441
+      },
+      {
+        "videoId": "VfUyxGbzdi0",
+        "title": "71~76쪽 사각형이 원에 내접하기 위한 조건, 접선과 현이 이루는 각",
+        "position": 9,
+        "durationSec": 3530
       }
     ],
     "permissions": {
@@ -2521,7 +2539,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-29T22:56:32.707Z",
-    "updatedAt": "2026-08-25T13:33:32.779Z",
-    "lastSyncedAt": "2026-08-25T13:33:32.779Z"
+    "updatedAt": "2026-09-03T02:20:13.756Z",
+    "lastSyncedAt": "2026-09-03T02:20:13.756Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T11:51:25.268Z",
+  "generatedAt": "2026-09-04T07:58:57.845Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -135,15 +135,6 @@
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 13~23쪽 선분의 내분점",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msfea04xbct",
-        "startedAt": 1785892185477,
-        "seconds": 1422,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
         "reflection": ""
       }
     ]

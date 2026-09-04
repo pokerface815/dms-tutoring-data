@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T11:51:21.758Z",
+  "generatedAt": "2026-09-04T07:58:52.635Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -179,15 +179,35 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-30T18:05:39.469Z",
+    "uploadedAt": "2026-09-03T21:42:44.184Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "todaySec": 8935,
+      "weekSec": 9434,
+      "monthSec": 9434,
+      "streak": 2,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 9434
+      }
     },
     "logs": [
+      {
+        "id": "effort_mtm1wt72y7u",
+        "startedAt": 1788461635923,
+        "seconds": 8935,
+        "subject": "미적분Ⅰ",
+        "method": "문제 풀이",
+        "content": "수업 준비",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mtlnrszo9uj",
+        "startedAt": 1788447502966,
+        "seconds": 499,
+        "subject": "미적분Ⅰ",
+        "method": "문제 풀이",
+        "content": "주말 수업 준비",
+        "reflection": ""
+      },
       {
         "id": "effort_msoeglycv9q",
         "startedAt": 1786431961745,

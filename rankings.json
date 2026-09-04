@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T12:53:29.242Z",
+  "generatedAt": "2026-09-04T07:58:45.174Z",
   "studentCount": 55,
   "rankings": [
     {
@@ -171,11 +171,11 @@
     {
       "id": "s_1780190418387_a11waf",
       "name": "문대승",
-      "totalSec": 92039,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 81575,
-      "streak": 0,
+      "totalSec": 101473,
+      "weekSec": 9434,
+      "monthSec": 9434,
+      "recent3mSec": 91009,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },
@@ -468,10 +468,10 @@
     {
       "id": "s_1783936051988_psto4h",
       "name": "박은유",
-      "totalSec": 17636,
-      "weekSec": 4942,
-      "monthSec": 4942,
-      "recent3mSec": 17636,
+      "totalSec": 18339,
+      "weekSec": 5645,
+      "monthSec": 5645,
+      "recent3mSec": 18339,
       "streak": 1,
       "nickname": "",
       "publicNickname": false

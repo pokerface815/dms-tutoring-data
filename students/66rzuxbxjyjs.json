@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-03T12:53:27.174Z",
+  "generatedAt": "2026-09-04T07:58:54.348Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -273,9 +273,20 @@
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
       "reflection": "",
-      "seconds": 287,
+      "seconds": 554,
       "startedAt": 1788438482910,
       "createdAt": "2026-09-03T12:32:53.990Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mtljhfuadpf",
+      "subject": "공통수학1",
+      "method": "강의 시청",
+      "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
+      "reflection": "",
+      "seconds": 436,
+      "startedAt": 1788440733889,
+      "createdAt": "2026-09-03T13:06:53.938Z",
       "autoRecorded": true
     }
   ],
@@ -373,14 +384,14 @@
         "watchedSec": 1165
       },
       "aa5XlDPSuus": {
-        "sessionCount": 8,
+        "sessionCount": 9,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "128~131쪽 오메가의 성질",
         "durationSec": 4626,
-        "lastPosition": 3117,
-        "lastWatchedAt": "2026-09-03T12:52:20.714Z",
-        "watchedSec": 1747
+        "lastPosition": 4625,
+        "lastWatchedAt": "2026-09-03T13:53:34.457Z",
+        "watchedSec": 2450
       }
     },
     "daily": {
@@ -434,7 +445,7 @@
         "aa5XlDPSuus": 3
       },
       "2026-09-03": {
-        "aa5XlDPSuus": 287
+        "aa5XlDPSuus": 990
       }
     }
   },

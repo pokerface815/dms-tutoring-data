@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T09:36:27.521Z",
+  "generatedAt": "2026-09-05T02:07:30.280Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -102,17 +102,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_msg0b7mi0ha",
-        "startedAt": 1785927442012,
-        "seconds": 3657,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

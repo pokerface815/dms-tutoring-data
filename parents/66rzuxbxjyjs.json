@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-04T07:58:55.919Z",
+  "generatedAt": "2026-09-05T02:07:38.715Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -24,7 +24,7 @@
             {
               "title": "라이트쎈 공수1 매일 2장씩(제출일 9/3(목))",
               "dueDate": "2026-09-03",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -41,16 +41,16 @@
             {
               "title": "라이트쎈 공수1 매일 2장씩(제출일 9/1(화))",
               "dueDate": "2026-09-01",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
         }
       ],
       "completionRate": {
-        "done": 0,
+        "done": 2,
         "total": 2,
-        "percent": 0
+        "percent": 100
       },
       "noteStages": null
     },
@@ -294,7 +294,7 @@
       "todaySec": 0,
       "weekSec": 5645,
       "monthSec": 5645,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "공통수학1": 5645
       }

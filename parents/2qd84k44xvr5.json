@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T15:16:57.242Z",
+  "generatedAt": "2026-09-05T15:20:51.848Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -109,24 +109,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mshndho7htg",
-        "startedAt": 1786028600816,
-        "seconds": 2215,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mshms4fe0xe",
-        "startedAt": 1786027637095,
-        "seconds": 1859,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
         "reflection": ""
       }
     ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-05T08:15:09.977Z",
+  "generatedAt": "2026-09-05T11:29:46.054Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -289,21 +289,21 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-09-05T06:13:51.614Z",
+    "uploadedAt": "2026-09-05T07:05:02.754Z",
     "summary": {
-      "todaySec": 494,
-      "weekSec": 6139,
-      "monthSec": 6139,
+      "todaySec": 1481,
+      "weekSec": 7126,
+      "monthSec": 7126,
       "streak": 1,
       "bySubjectMonth": {
-        "공통수학1": 6139
+        "공통수학1": 7126
       }
     },
     "logs": [
       {
         "id": "effort_mtnw76zh1wl",
         "startedAt": 1788582975559,
-        "seconds": 494,
+        "seconds": 1481,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 135~141쪽 미지수가 2개인 연립이차방정식",

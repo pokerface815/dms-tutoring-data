@@ -1290,6 +1290,12 @@
         "title": "107~114쪽 유한집합의 원소의 개수, 집합 사이의 포함관계, 부분집합의 개수",
         "position": 13,
         "durationSec": 4266
+      },
+      {
+        "videoId": "jicJRyoMdgU",
+        "title": "2",
+        "position": 14,
+        "durationSec": 3541
       }
     ],
     "permissions": {
@@ -1298,8 +1304,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-08-30T17:57:52.387Z",
-    "lastSyncedAt": "2026-08-30T17:57:52.387Z"
+    "updatedAt": "2026-09-05T11:29:40.876Z",
+    "lastSyncedAt": "2026-09-05T11:29:40.876Z"
   },
   {
     "id": "lec_mririwvdtb6",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-03T12:53:34.026Z",
+  "generatedAt": "2026-09-05T02:07:24.834Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -70,9 +70,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1787995303095_1ilaio",
       "noteName": "김규림_개념루트_미분계수와 도함수(~220번)",
@@ -96,6 +94,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1788436255652_0adyjl",

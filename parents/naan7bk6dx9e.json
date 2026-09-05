@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:29:57.451Z",
+  "generatedAt": "2026-09-05T15:20:45.144Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -9,7 +9,30 @@
   },
   "months": [],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-09-05T12:36:59.115Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 677,
+      "monthSec": 677,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학2": 677
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mtoctxeznew",
+        "startedAt": 1788610943751,
+        "seconds": 677,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 97~106쪽 직선에 대한 대칭이동, 집합의 뜻과 표현",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

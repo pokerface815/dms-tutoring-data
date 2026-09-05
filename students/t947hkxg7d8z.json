@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-05T02:07:26.720Z",
+  "generatedAt": "2026-09-05T15:21:02.736Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,7 +51,8 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [
     {
       "assignmentId": "a_1788361818007_5y56d7",
       "noteName": "조예나_올림포스 유형편_03.미분계수와 도함수",
@@ -64,7 +65,6 @@
       "missedAt": null
     }
   ],
-  "overdue": [],
   "upcoming": [],
   "completed": [
     {

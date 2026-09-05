@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T09:29:55.662Z",
+  "generatedAt": "2026-09-05T15:20:46.767Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -12,7 +12,41 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": null,
+  "syncedEffortLogs": [
+    {
+      "id": "effort_ms2xrfaj2l1",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
+      "reflection": "",
+      "seconds": 1714,
+      "startedAt": 1785139050112,
+      "createdAt": "2026-07-27T07:59:14.731Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_ms2zs8lg98h",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 33~35쪽 정점을 지나는 직선의 방정식",
+      "reflection": "",
+      "seconds": 2345,
+      "startedAt": 1785141865175,
+      "createdAt": "2026-07-27T08:55:51.940Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mtoctxeznew",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 97~106쪽 직선에 대한 대칭이동, 집합의 뜻과 표현",
+      "reflection": "",
+      "seconds": 677,
+      "startedAt": 1788610943751,
+      "createdAt": "2026-09-05T12:23:57.803Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
@@ -77,14 +111,44 @@
         "watchedSec": 59
       },
       "hU9NhJANwBw": {
-        "sessionCount": 3,
+        "sessionCount": 4,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "85~96쪽 평행이동 + 대칭이동",
         "durationSec": 4333,
-        "lastPosition": 4002,
-        "lastWatchedAt": "2026-08-30T03:12:45.585Z",
-        "watchedSec": 6
+        "lastPosition": 4008,
+        "lastWatchedAt": "2026-09-05T12:21:16.114Z",
+        "watchedSec": 12
+      },
+      "UAwWqGoqdYs": {
+        "sessionCount": 3,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "107~114쪽 유한집합의 원소의 개수, 집합 사이의 포함관계, 부분집합의 개수",
+        "durationSec": 4266,
+        "lastPosition": 1379,
+        "lastWatchedAt": "2026-09-05T12:22:22.820Z",
+        "watchedSec": 25
+      },
+      "X9rTcY67qnM": {
+        "sessionCount": 2,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "97~106쪽 직선에 대한 대칭이동, 집합의 뜻과 표현",
+        "durationSec": 4179,
+        "lastPosition": 4175,
+        "lastWatchedAt": "2026-09-05T12:37:11.946Z",
+        "watchedSec": 680
+      },
+      "jicJRyoMdgU": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "2",
+        "durationSec": 3541,
+        "lastPosition": 22,
+        "lastWatchedAt": "2026-09-05T12:21:57.200Z",
+        "watchedSec": 12
       }
     },
     "daily": {
@@ -102,6 +166,12 @@
       },
       "2026-08-30": {
         "hU9NhJANwBw": 6
+      },
+      "2026-09-05": {
+        "X9rTcY67qnM": 680,
+        "hU9NhJANwBw": 6,
+        "UAwWqGoqdYs": 25,
+        "jicJRyoMdgU": 12
       }
     }
   },

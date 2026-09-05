@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-05T02:07:33.945Z",
+  "generatedAt": "2026-09-05T08:15:56.487Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -16,22 +16,22 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1788188372881_q392at",
       "noteName": "지유진_올림포스 유형편_01.함수의 극한, 02.함수의 연속",
       "subject": "미적분Ⅰ",
       "round": 1,
       "plannedDate": "2026-09-05",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-05T08:15:48.628Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1780674822191_a4avvt",
       "noteName": "지유진_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
@@ -179,8 +179,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-08-31",
     "endDate": "2026-09-06"
   },

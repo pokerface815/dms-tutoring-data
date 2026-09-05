@@ -3983,5 +3983,39 @@
       }
     ],
     "createdAt": "2026-09-05T08:15:04.863Z"
+  },
+  {
+    "id": "a_1788621639977_kp85nh",
+    "noteId": "note_1788621628691_tfian0",
+    "noteName": "지유진_올림포스 유형편_03.미분계수와 도함수",
+    "studentId": "s_1778849219765_v88lqq",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-06",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-08",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-27",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-05T15:20:39.977Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-05T11:29:49.615Z",
+  "generatedAt": "2026-09-05T15:20:54.926Z",
   "studentCount": 55,
   "rankings": [
     {
@@ -175,7 +175,7 @@
       "weekSec": 9434,
       "monthSec": 9434,
       "recent3mSec": 91009,
-      "streak": 2,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -534,11 +534,11 @@
     {
       "id": "s_1785035974019_bc13fy",
       "name": "조한결",
-      "totalSec": 4059,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 4059,
-      "streak": 0,
+      "totalSec": 4736,
+      "weekSec": 677,
+      "monthSec": 677,
+      "recent3mSec": 4736,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

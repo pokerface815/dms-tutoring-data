@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T14:59:39.944Z",
+  "generatedAt": "2026-09-05T02:07:33.945Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -16,9 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1788188372881_q392at",
       "noteName": "지유진_올림포스 유형편_01.함수의 극한, 02.함수의 연속",
@@ -31,6 +29,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1780674822191_a4avvt",

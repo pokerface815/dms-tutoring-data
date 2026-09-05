@@ -3945,5 +3945,39 @@
       }
     ],
     "createdAt": "2026-09-03T11:50:55.652Z"
+  },
+  {
+    "id": "a_1788596104863_me5l3h",
+    "noteId": "note_1788596096032_mif8k4",
+    "noteName": "이경주_올림포스 기출문제집_03.미분계수",
+    "studentId": "s_1778325875686_1uoe4b",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-05",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-07",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-12",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-26",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-05T08:15:04.863Z"
   }
 ]

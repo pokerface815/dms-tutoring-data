@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T09:29:48.726Z",
+  "generatedAt": "2026-09-05T08:15:14.334Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -201,17 +201,17 @@
         "watchedSec": 1
       },
       "OIDvXwg6tkg": {
-        "sessionCount": 8,
+        "sessionCount": 9,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
         "durationSec": 5879,
-        "lastPosition": 5878,
-        "lastWatchedAt": "2026-08-17T05:10:54.843Z",
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-09-05T05:02:17.063Z",
         "watchedSec": 3883
       },
       "Owo2_OgWPto": {
-        "sessionCount": 5,
+        "sessionCount": 4,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "82~99쪽 미분가능성과 연속성, 도함수(+다항함수의 도함수), 곱의 미분법",
@@ -221,7 +221,7 @@
         "watchedSec": 4809
       },
       "vmMXmgNPh5w": {
-        "sessionCount": 2,
+        "sessionCount": 1,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "100~121쪽 173번 질문 + 미분계수 마무리 + 도함수의 활용(1) - 접선의 방정식",

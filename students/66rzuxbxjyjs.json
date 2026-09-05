@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-05T08:15:11.391Z",
+  "generatedAt": "2026-09-05T11:29:47.919Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -295,7 +295,7 @@
       "method": "강의 시청",
       "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 135~141쪽 미지수가 2개인 연립이차방정식",
       "reflection": "",
-      "seconds": 494,
+      "seconds": 1481,
       "startedAt": 1788582975559,
       "createdAt": "2026-09-05T04:38:23.261Z",
       "autoRecorded": true
@@ -410,9 +410,9 @@
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "135~141쪽 미지수가 2개인 연립이차방정식",
         "durationSec": 3563,
-        "lastPosition": 1833,
-        "lastWatchedAt": "2026-09-05T06:13:53.556Z",
-        "watchedSec": 494
+        "lastPosition": 3409,
+        "lastWatchedAt": "2026-09-05T07:05:02.699Z",
+        "watchedSec": 1481
       }
     },
     "daily": {
@@ -469,7 +469,7 @@
         "aa5XlDPSuus": 990
       },
       "2026-09-05": {
-        "Vpbwe1ellrc": 494
+        "Vpbwe1ellrc": 1481
       }
     }
   },

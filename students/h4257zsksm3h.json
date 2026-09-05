@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-05T02:07:32.373Z",
+  "generatedAt": "2026-09-05T15:21:07.972Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -105,7 +105,8 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [
     {
       "assignmentId": "a_1787995232779_c1207r",
       "noteName": "이현승_자이스토리(~D72)",
@@ -118,7 +119,6 @@
       "missedAt": null
     }
   ],
-  "overdue": [],
   "upcoming": [],
   "completed": [
     {

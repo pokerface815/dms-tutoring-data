@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-05T15:21:07.972Z",
+  "generatedAt": "2026-09-06T00:31:03.247Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -106,21 +106,21 @@
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1787995232779_c1207r",
       "noteName": "이현승_자이스토리(~D72)",
       "subject": "미적분Ⅰ",
       "round": 3,
       "plannedDate": "2026-09-05",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-06T00:30:43.582Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1787995232779_c1207r",
       "noteName": "이현승_자이스토리(~D72)",
@@ -244,8 +244,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-08-31",
     "endDate": "2026-09-06"
   },

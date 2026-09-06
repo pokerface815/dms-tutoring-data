@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-06T00:31:01.546Z",
+  "generatedAt": "2026-09-06T00:39:15.537Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,7 +11,20 @@
     {
       "ym": "2026-09",
       "label": "2026년 9월",
-      "lessons": [],
+      "lessons": [
+        {
+          "date": "2026-09-05",
+          "weekday": "토",
+          "className": "조예나 개별",
+          "content": "오답노트 풀이 + 4단원 상 문제 질문",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        }
+      ],
       "completionRate": null,
       "noteStages": {
         "1": {

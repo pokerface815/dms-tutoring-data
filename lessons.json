@@ -1011,5 +1011,16 @@
     "taskBatchId": null,
     "createdAt": "2026-09-06T00:39:22.715Z",
     "updatedAt": "2026-09-06T00:39:22.715Z"
+  },
+  {
+    "id": "lesson_1788655194111_zr7f51",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-08-29",
+    "content": "오답노트 + 3단원 고난도 문항 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-09-06T00:39:54.111Z",
+    "updatedAt": "2026-09-06T00:39:54.111Z"
   }
 ]

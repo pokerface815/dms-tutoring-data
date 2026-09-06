@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-05T15:21:02.736Z",
+  "generatedAt": "2026-09-06T00:30:59.767Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -52,21 +52,21 @@
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1788361818007_5y56d7",
       "noteName": "조예나_올림포스 유형편_03.미분계수와 도함수",
       "subject": "미적분Ⅰ",
       "round": 2,
       "plannedDate": "2026-09-05",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-06T00:30:46.158Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788361818007_5y56d7",
       "noteName": "조예나_올림포스 유형편_03.미분계수와 도함수",
@@ -414,24 +414,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1779287559980_ge3q7f",
-      "noteName": "조예나_올림포스 유형편_사인법칙과 코사인법칙(고난도 4,5,6번)",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-10",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:27.055Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 3,
-    "done": 2,
-    "percent": 67,
+    "done": 3,
+    "percent": 100,
     "startDate": "2026-08-31",
     "endDate": "2026-09-06"
   },

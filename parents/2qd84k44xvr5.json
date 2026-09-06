@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-05T15:20:51.848Z",
+  "generatedAt": "2026-09-06T00:30:54.472Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -97,15 +97,6 @@
         "id": "effort_msisvs0r0vn",
         "startedAt": 1786098326764,
         "seconds": 2285,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msho2skaiac",
-        "startedAt": 1786029827687,
-        "seconds": 65,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-31T14:38:15.823Z",
+  "generatedAt": "2026-09-07T04:45:54.703Z",
   "student": {
     "id": "s_1787570844823_nbqosc",
     "classes": [
@@ -89,6 +89,28 @@
       "startedAt": 1788162235506,
       "createdAt": "2026-08-31T07:43:56.175Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mtpjkmmniys",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-2 개념원리 — 01. 삼각비(~p.13)",
+      "reflection": "",
+      "seconds": 2965,
+      "startedAt": 1788682692274,
+      "createdAt": "2026-09-06T08:20:27.407Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mtpmea7z5uk",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-2 개념원리 — 02. 삼각비의 값(~p.20)",
+      "reflection": "",
+      "seconds": 2737,
+      "startedAt": 1788687508070,
+      "createdAt": "2026-09-06T09:39:30.239Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -143,6 +165,26 @@
         "lastPosition": 4864,
         "lastWatchedAt": "2026-08-31T08:21:25.971Z",
         "watchedSec": 5597
+      },
+      "7w9fl-NrIoY": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqoum7ssed7",
+        "lectureTitle": "2024 1,2월 중3-2 개념원리",
+        "videoTitle": "01. 삼각비(~p.13)",
+        "durationSec": 3777,
+        "lastPosition": 3770,
+        "lastWatchedAt": "2026-09-06T09:38:24.642Z",
+        "watchedSec": 2965
+      },
+      "hFqEPCyOznA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqoum7ssed7",
+        "lectureTitle": "2024 1,2월 중3-2 개념원리",
+        "videoTitle": "02. 삼각비의 값(~p.20)",
+        "durationSec": 4359,
+        "lastPosition": 4358,
+        "lastWatchedAt": "2026-09-06T10:47:30.599Z",
+        "watchedSec": 2737
       }
     },
     "daily": {
@@ -157,6 +199,10 @@
       },
       "2026-08-31": {
         "sjdcYwTHUak": 4005
+      },
+      "2026-09-06": {
+        "7w9fl-NrIoY": 2965,
+        "hFqEPCyOznA": 2737
       }
     }
   },
@@ -169,8 +215,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-31",
-    "endDate": "2026-09-06"
+    "startDate": "2026-09-07",
+    "endDate": "2026-09-13"
   },
   "teacherConfirms": {},
   "tasks": [],

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-05T15:20:45.144Z",
+  "generatedAt": "2026-09-07T04:45:48.113Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -14,9 +14,9 @@
     "uploadedAt": "2026-09-05T12:36:59.115Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 677,
+      "weekSec": 0,
       "monthSec": 677,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "공통수학2": 677
       }

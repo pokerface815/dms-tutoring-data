@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-05T11:29:47.919Z",
+  "generatedAt": "2026-09-07T04:45:32.380Z",
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [
@@ -482,8 +482,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-31",
-    "endDate": "2026-09-06"
+    "startDate": "2026-09-07",
+    "endDate": "2026-09-13"
   },
   "teacherConfirms": {
     "task_1786084600710_00nbcx__1": {

@@ -4027,5 +4027,39 @@
       }
     ],
     "createdAt": "2026-09-05T15:20:39.977Z"
+  },
+  {
+    "id": "a_1788784391213_mdra34",
+    "noteId": "note_1788784372916_a9vhw0",
+    "noteName": "박다인_올림포스 기출_1, 2, 3단원",
+    "studentId": "s_1778404886523_0ag055",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-07",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-09",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-14",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-28",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-07T12:33:11.213Z"
   }
 ]

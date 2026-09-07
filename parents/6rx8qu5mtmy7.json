@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-05T08:15:25.736Z",
+  "generatedAt": "2026-09-07T21:16:03.858Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -36,24 +36,6 @@
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 2",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mskmmipdhqk",
-        "startedAt": 1786208766414,
-        "seconds": 930,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mskmfpbcqi1",
-        "startedAt": 1786208397337,
-        "seconds": 103,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
         "reflection": ""
       }
     ]

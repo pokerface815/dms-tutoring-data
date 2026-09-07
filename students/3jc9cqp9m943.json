@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-02T12:58:15.684Z",
+  "generatedAt": "2026-09-07T04:45:42.926Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -546,8 +546,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-08-31",
-    "endDate": "2026-09-06"
+    "startDate": "2026-09-07",
+    "endDate": "2026-09-13"
   },
   "teacherConfirms": {},
   "tasks": [],

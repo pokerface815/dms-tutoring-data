@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:44:11.921Z",
+  "generatedAt": "2026-09-07T21:15:50.468Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -353,22 +353,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1786926779621_iyqwa8",
       "noteName": "김채린_개념루트_미분계수와 도함수(~173번)",
       "subject": "미적분Ⅰ",
       "round": 4,
       "plannedDate": "2026-09-07",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-07T21:15:37.859Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1786926779621_iyqwa8",
       "noteName": "김채린_개념루트_미분계수와 도함수(~173번)",
@@ -660,8 +660,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

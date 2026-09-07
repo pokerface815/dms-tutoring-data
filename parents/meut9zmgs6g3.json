@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T09:36:32.929Z",
+  "generatedAt": "2026-09-07T04:44:40.457Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -79,15 +79,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 3",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msjroojgcvz",
-        "startedAt": 1786156779193,
-        "seconds": 1697,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
         "reflection": ""
       }
     ]

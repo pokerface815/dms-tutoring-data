@@ -4069,5 +4069,39 @@
       }
     ],
     "createdAt": "2026-09-07T12:33:11.213Z"
+  },
+  {
+    "id": "a_1788822475299_1v601k",
+    "noteId": "note_1788822462887_x248jq",
+    "noteName": "김채린_올림포스 유형편_01~04단원",
+    "studentId": "s_1777546951753_p3pskl",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-08",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-10",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-29",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-07T23:07:55.299Z"
   }
 ]

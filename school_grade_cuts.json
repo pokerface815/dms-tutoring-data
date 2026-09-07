@@ -1185,7 +1185,9 @@
     "subject": "기하",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "이차곡선, 공간도형"
+    },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
     "teacher": "",
@@ -1434,7 +1436,7 @@
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
     "teacher": "",
-    "textbookPublisher": "",
+    "textbookPublisher": "지학사",
     "supplementaryBook": "",
     "extraNote": "",
     "studentInputEnabledByExamKind": {

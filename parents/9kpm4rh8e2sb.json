@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T09:36:29.260Z",
+  "generatedAt": "2026-09-07T04:44:30.221Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -71,17 +71,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_msj13vxsvqu",
-        "startedAt": 1786112120950,
-        "seconds": 205,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

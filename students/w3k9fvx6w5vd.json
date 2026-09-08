@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T21:15:59.929Z",
+  "generatedAt": "2026-09-08T15:16:46.422Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -16,19 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1788621639977_kp85nh",
-      "noteName": "지유진_올림포스 유형편_03.미분계수와 도함수",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-09-08",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -55,6 +43,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1788621639977_kp85nh",
+      "noteName": "지유진_올림포스 유형편_03.미분계수와 도함수",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-09-08",
+      "done": true,
+      "doneAt": "2026-09-08T15:16:31.600Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788188372881_q392at",
       "noteName": "지유진_올림포스 유형편_01.함수의 극한, 02.함수의 연속",
@@ -238,8 +238,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 1,
-    "percent": 25,
+    "done": 2,
+    "percent": 50,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

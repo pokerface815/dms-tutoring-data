@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T21:15:57.313Z",
+  "generatedAt": "2026-09-08T15:16:44.448Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -307,9 +307,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1788784391213_mdra34",
       "noteName": "박다인_올림포스 기출_1, 2, 3단원",
@@ -322,6 +320,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1788784391213_mdra34",

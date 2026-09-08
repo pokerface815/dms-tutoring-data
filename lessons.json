@@ -1022,5 +1022,16 @@
     "taskBatchId": null,
     "createdAt": "2026-09-06T00:39:54.111Z",
     "updatedAt": "2026-09-06T00:39:54.111Z"
+  },
+  {
+    "id": "lesson_1788873596710_b4ujna",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-09-07",
+    "content": "부교재 4단원 상 문제 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-09-08T13:19:56.710Z",
+    "updatedAt": "2026-09-08T13:19:56.710Z"
   }
 ]

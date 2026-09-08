@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-07T04:45:44.972Z",
+  "generatedAt": "2026-09-08T13:19:44.391Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -72,33 +72,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msle618i2sd",
-        "startedAt": 1786255022172,
-        "seconds": 255,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msle3mnfqm3",
-        "startedAt": 1786254874988,
-        "seconds": 61,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msle142xjau",
-        "startedAt": 1786254711348,
-        "seconds": 117,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 135~141쪽 미지수가 2개인 연립이차방정식",
         "reflection": ""
       }
     ]

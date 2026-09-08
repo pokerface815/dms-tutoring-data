@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T09:37:05.086Z",
+  "generatedAt": "2026-09-08T13:19:37.237Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -525,24 +525,6 @@
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 67~75쪽 원과 직선의 위치 관계, 원의 접선의 방정식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mslpsqlmspx",
-        "startedAt": 1786274509967,
-        "seconds": 315,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 58~63쪽 원의 방정식 (2)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mslnbg2aptd",
-        "startedAt": 1786270308311,
-        "seconds": 1689,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 52~57쪽 원의 방정식(1)",
         "reflection": ""
       }
     ]

@@ -1218,7 +1218,9 @@
     "subject": "미적분1",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "함수의 극한, 연속, 미분계수와 도함수, 도함수의 활용(1)"
+    },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
     "teacher": "",
@@ -1228,6 +1230,16 @@
     "studentInputEnabledByExamKind": {
       "중간": true,
       "기말": true
+    },
+    "pdfsByExamKind": {
+      "중간": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1788873565/gsugpajphvvqcca3hfzk.jpg",
+          "name": "문정여고 미적분1.jpeg",
+          "type": "image",
+          "uploadedAt": "2026-09-08T13:19:25.854Z"
+        }
+      ]
     }
   },
   {

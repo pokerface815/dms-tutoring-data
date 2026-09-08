@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T23:08:02.543Z",
+  "generatedAt": "2026-09-08T15:16:40.423Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -353,19 +353,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1788822475299_1v601k",
-      "noteName": "김채린_올림포스 유형편_01~04단원",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-09-08",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -381,6 +369,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1788822475299_1v601k",
+      "noteName": "김채린_올림포스 유형편_01~04단원",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-09-08",
+      "done": true,
+      "doneAt": "2026-09-08T15:16:32.605Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1786926779621_iyqwa8",
       "noteName": "김채린_개념루트_미분계수와 도함수(~173번)",
@@ -684,8 +684,8 @@
   ],
   "weekProgress": {
     "total": 3,
-    "done": 1,
-    "percent": 33,
+    "done": 2,
+    "percent": 67,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

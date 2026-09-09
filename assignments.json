@@ -4141,5 +4141,39 @@
       }
     ],
     "createdAt": "2026-09-09T09:40:00.992Z"
+  },
+  {
+    "id": "a_1788961176656_e4y6lf",
+    "noteId": "note_1788961162609_d0vk7a",
+    "noteName": "조예나_올림포스 유형편_04.도함수의 활용",
+    "studentId": "s_1777547047005_uo92w5",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-09",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-11",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-16",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-30",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-09T13:39:36.656Z"
   }
 ]

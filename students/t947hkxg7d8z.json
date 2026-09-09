@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:44:18.709Z",
+  "generatedAt": "2026-09-09T13:39:45.583Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,7 +51,19 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1788961176656_e4y6lf",
+      "noteName": "조예나_올림포스 유형편_04.도함수의 활용",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-09-09",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [
     {
@@ -60,6 +72,17 @@
       "subject": "미적분Ⅰ",
       "round": 3,
       "plannedDate": "2026-09-10",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1788961176656_e4y6lf",
+      "noteName": "조예나_올림포스 유형편_04.도함수의 활용",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-09-11",
       "done": false,
       "doneAt": null,
       "missed": false,
@@ -440,7 +463,7 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
+    "total": 4,
     "done": 0,
     "percent": 0,
     "startDate": "2026-09-07",

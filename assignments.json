@@ -4107,5 +4107,39 @@
       }
     ],
     "createdAt": "2026-09-07T23:07:55.299Z"
+  },
+  {
+    "id": "a_1788946800992_5oo75w",
+    "noteId": "note_1788946789317_jl7uv4",
+    "noteName": "박하윤_개념+유형 유형편_도형의 방정식",
+    "studentId": "s_1783741551628_vw0d5m",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-09",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-11",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-16",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-09-30",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-09T09:40:00.992Z"
   }
 ]

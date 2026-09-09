@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:45:54.703Z",
+  "generatedAt": "2026-09-09T09:40:29.451Z",
   "student": {
     "id": "s_1787570844823_nbqosc",
     "classes": [
@@ -111,6 +111,17 @@
       "startedAt": 1788687508070,
       "createdAt": "2026-09-06T09:39:30.239Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mtt8mf41bsp",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-2 개념원리 — 03. 임의의 예각의 삼각비의 값(~p.33)",
+      "reflection": "",
+      "seconds": 2375,
+      "startedAt": 1788906239233,
+      "createdAt": "2026-09-08T22:24:59.905Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -185,6 +196,16 @@
         "lastPosition": 4358,
         "lastWatchedAt": "2026-09-06T10:47:30.599Z",
         "watchedSec": 2737
+      },
+      "MUD4xRQMTx0": {
+        "sessionCount": 3,
+        "lectureId": "lec_mqoum7ssed7",
+        "lectureTitle": "2024 1,2월 중3-2 개념원리",
+        "videoTitle": "03. 임의의 예각의 삼각비의 값(~p.33)",
+        "durationSec": 5336,
+        "lastPosition": 4232,
+        "lastWatchedAt": "2026-09-08T23:04:52.884Z",
+        "watchedSec": 2411
       }
     },
     "daily": {
@@ -203,6 +224,9 @@
       "2026-09-06": {
         "7w9fl-NrIoY": 2965,
         "hFqEPCyOznA": 2737
+      },
+      "2026-09-09": {
+        "MUD4xRQMTx0": 2411
       }
     }
   },

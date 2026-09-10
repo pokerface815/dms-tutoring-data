@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-10T00:15:42.116Z",
+  "generatedAt": "2026-09-10T07:35:24.850Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,19 +51,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1788361818007_5y56d7",
-      "noteName": "조예나_올림포스 유형편_03.미분계수와 도함수",
-      "subject": "미적분Ⅰ",
-      "round": 3,
-      "plannedDate": "2026-09-10",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -90,6 +78,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1788361818007_5y56d7",
+      "noteName": "조예나_올림포스 유형편_03.미분계수와 도함수",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-09-10",
+      "done": true,
+      "doneAt": "2026-09-10T07:35:11.540Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788961176656_e4y6lf",
       "noteName": "조예나_올림포스 유형편_04.도함수의 활용",
@@ -437,24 +437,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1779542958590_b0w63c",
-      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~33번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-05-25",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:27.839Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 4,
-    "done": 1,
-    "percent": 25,
+    "done": 2,
+    "percent": 50,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

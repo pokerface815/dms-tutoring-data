@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T09:40:31.047Z",
+  "generatedAt": "2026-09-10T00:15:27.318Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,21 +11,21 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-09-08T23:04:25.668Z",
+    "uploadedAt": "2026-09-09T10:25:35.625Z",
     "summary": {
-      "todaySec": 2375,
-      "weekSec": 2375,
-      "monthSec": 8077,
+      "todaySec": 0,
+      "weekSec": 2381,
+      "monthSec": 8083,
       "streak": 1,
       "bySubjectMonth": {
-        "중3": 8077
+        "중3": 8083
       }
     },
     "logs": [
       {
         "id": "effort_mtt8mf41bsp",
         "startedAt": 1788906239233,
-        "seconds": 2375,
+        "seconds": 2381,
         "subject": "중3",
         "method": "강의 시청",
         "content": "2024 1,2월 중3-2 개념원리 — 03. 임의의 예각의 삼각비의 값(~p.33)",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-10T00:15:40.309Z",
+  "generatedAt": "2026-09-10T07:35:23.130Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -70,22 +70,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1788436255652_0adyjl",
       "noteName": "김규림_개념루트_도함수의 활용(1), (2)",
       "subject": "미적분Ⅰ",
       "round": 3,
       "plannedDate": "2026-09-10",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-10T07:35:12.079Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788436255652_0adyjl",
       "noteName": "김규림_개념루트_도함수의 활용(1), (2)",
@@ -437,8 +437,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

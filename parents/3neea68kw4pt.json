@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-07T04:44:47.215Z",
+  "generatedAt": "2026-09-10T07:35:26.955Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -206,15 +206,6 @@
         "subject": "미적분Ⅰ",
         "method": "문제 풀이",
         "content": "주말 수업 준비",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msoeglycv9q",
-        "startedAt": 1786431961745,
-        "seconds": 4410,
-        "subject": "미적분Ⅰ",
-        "method": "문제 풀이",
-        "content": "쎈B, 거리곱",
         "reflection": ""
       }
     ]

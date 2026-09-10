@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:44:15.225Z",
+  "generatedAt": "2026-09-10T00:15:40.309Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -70,9 +70,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1788436255652_0adyjl",
       "noteName": "김규림_개념루트_도함수의 활용(1), (2)",
@@ -85,6 +83,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1788436255652_0adyjl",

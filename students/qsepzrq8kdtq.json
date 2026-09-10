@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-08T15:16:40.423Z",
+  "generatedAt": "2026-09-10T00:15:38.442Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -353,9 +353,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1788822475299_1v601k",
       "noteName": "김채린_올림포스 유형편_01~04단원",
@@ -368,6 +366,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1788822475299_1v601k",

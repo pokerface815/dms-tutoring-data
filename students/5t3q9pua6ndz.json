@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-09T09:40:27.777Z",
+  "generatedAt": "2026-09-10T00:15:49.552Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -148,19 +148,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1788946800992_5oo75w",
-      "noteName": "박하윤_개념+유형 유형편_도형의 방정식",
-      "subject": "공통수학2",
-      "round": 1,
-      "plannedDate": "2026-09-09",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -175,11 +163,24 @@
       "missedAt": null
     }
   ],
-  "completed": [],
+  "completed": [
+    {
+      "assignmentId": "a_1788946800992_5oo75w",
+      "noteName": "박하윤_개념+유형 유형편_도형의 방정식",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-09-09",
+      "done": true,
+      "doneAt": "2026-09-10T00:15:20.913Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    }
+  ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

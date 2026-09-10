@@ -1,15 +1,40 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:29:21.374Z",
+  "generatedAt": "2026-09-10T00:15:51.176Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
     "name": "박하윤",
     "grade": "고1"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-09",
+      "label": "2026년 9월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 1,
+          "total": 1,
+          "percent": 100
+        }
+      }
+    }
+  ],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-07-29T05:42:31.545Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "streak": 0,
+      "bySubjectMonth": {}
+    },
+    "logs": []
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

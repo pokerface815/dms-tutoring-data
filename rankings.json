@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T09:40:23.824Z",
+  "generatedAt": "2026-09-10T00:15:32.524Z",
   "studentCount": 55,
   "rankings": [
     {
@@ -578,10 +578,10 @@
     {
       "id": "s_1787570844823_nbqosc",
       "name": "신다은",
-      "totalSec": 16529,
-      "weekSec": 2375,
-      "monthSec": 8077,
-      "recent3mSec": 16529,
+      "totalSec": 16535,
+      "weekSec": 2381,
+      "monthSec": 8083,
+      "recent3mSec": 16535,
       "streak": 1,
       "nickname": "",
       "publicNickname": false

@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:44:57.583Z",
+  "generatedAt": "2026-09-11T07:17:01.549Z",
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1780314459772_frngyj",
     "classes": [
@@ -12,20 +17,7 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [
-    {
-      "id": "effort_mqtezlop4n9",
-      "startedAt": 1782381894263,
-      "endedAt": 1782386645641,
-      "seconds": 4742,
-      "subject": "수학",
-      "method": "문제 풀이",
-      "content": "프린트",
-      "reflection": "",
-      "sharedWithParent": false,
-      "createdAt": "2026-06-25T11:24:05.641Z"
-    }
-  ],
+  "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,

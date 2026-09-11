@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:45:14.476Z",
+  "generatedAt": "2026-09-11T07:16:24.110Z",
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1783145087770_b6wsph",
     "classes": [

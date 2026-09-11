@@ -4187,5 +4187,27 @@
       }
     ],
     "createdAt": "2026-09-09T13:39:36.656Z"
+  },
+  {
+    "id": "a_1789090762429_puyfrw",
+    "noteId": "note_1789090735751_y4xqhg",
+    "noteName": "김규림_개념루트_전체_재오답",
+    "studentId": "s_1777546978791_hsee5a",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-11",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-13",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-11T01:39:22.429Z"
   }
 ]

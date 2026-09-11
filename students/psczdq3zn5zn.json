@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:45:49.680Z",
+  "generatedAt": "2026-09-11T07:17:35.910Z",
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1785155932586_9cmims",
     "classes": [

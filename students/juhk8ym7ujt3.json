@@ -1,11 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T07:15:47.147Z",
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-09-11T11:24:16.284Z",
   "student": {
     "id": "s_1787570844823_nbqosc",
     "classes": [
@@ -123,7 +118,7 @@
       "method": "강의 시청",
       "content": "2024 1,2월 중3-2 개념원리 — 03. 임의의 예각의 삼각비의 값(~p.33)",
       "reflection": "",
-      "seconds": 2383,
+      "seconds": 2381,
       "startedAt": 1788906239233,
       "createdAt": "2026-09-08T22:24:59.905Z",
       "autoRecorded": true
@@ -166,13 +161,13 @@
   "syncedLectureWatch": {
     "videos": {
       "xc3kRwSvPd0": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_ms6ocqvgtdh",
         "lectureTitle": "중3-1 라이트쎈(26년 1~3월)",
         "videoTitle": "147~150쪽 이차함수의 일반형의 그래프",
         "durationSec": 3007,
         "lastPosition": 1692,
-        "lastWatchedAt": "2026-08-26T08:54:09.546Z",
+        "lastWatchedAt": "2026-08-26T08:54:09.551Z",
         "watchedSec": 1698
       },
       "mbPPlUSCv1c": {
@@ -236,7 +231,7 @@
         "watchedSec": 2737
       },
       "MUD4xRQMTx0": {
-        "sessionCount": 4,
+        "sessionCount": 3,
         "lectureId": "lec_mqoum7ssed7",
         "lectureTitle": "2024 1,2월 중3-2 개념원리",
         "videoTitle": "03. 임의의 예각의 삼각비의 값(~p.33)",

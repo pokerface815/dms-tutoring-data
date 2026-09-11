@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:45:06.045Z",
+  "generatedAt": "2026-09-11T07:17:10.714Z",
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1780825523674_8dwstz",
     "classes": [
@@ -12,7 +17,7 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,

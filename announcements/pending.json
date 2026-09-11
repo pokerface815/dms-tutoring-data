@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "ann_mtwwj99v3bi7",
+    "createdAt": "2026-09-11T11:57:41.684Z",
+    "target": "member",
+    "message": "대승님, 오답노트 교사 계정이 승인되었습니다. 이제 로그인해서 사용하실 수 있어요.\n\n로그인: https://math-notes-app.vercel.app/teacher.html",
+    "recipients": [
+      {
+        "memberId": "6af11827-b5c4-4151-a778-e6ad07734fc6",
+        "name": "대승",
+        "type": "member",
+        "phone": "01093277661",
+        "message": "대승님, 오답노트 교사 계정이 승인되었습니다. 이제 로그인해서 사용하실 수 있어요.\n\n로그인: https://math-notes-app.vercel.app/teacher.html"
+      }
+    ],
+    "status": "pending"
+  }
+]

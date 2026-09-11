@@ -1,0 +1,16 @@
+{
+  "id": "ann_mtwrgvrsnr1s",
+  "sentAt": "2026-09-11T18:36:11.417110+09:00",
+  "target": "member",
+  "message": "문대승님, 오답노트 교사 계정이 승인되었습니다. 이제 로그인해서 사용하실 수 있어요.\n\n로그인: https://math-notes-app.vercel.app/teacher.html",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "문대승",
+      "type": "member",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-10T00:15:28.976Z",
+  "generatedAt": "2026-09-11T07:15:47.147Z",
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1787570844823_nbqosc",
     "classes": [
@@ -118,9 +123,42 @@
       "method": "강의 시청",
       "content": "2024 1,2월 중3-2 개념원리 — 03. 임의의 예각의 삼각비의 값(~p.33)",
       "reflection": "",
-      "seconds": 2381,
+      "seconds": 2383,
       "startedAt": 1788906239233,
       "createdAt": "2026-09-08T22:24:59.905Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mtw2ajczqgz",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-2 개념원리 — 04-1. 길이구하기1(p.36~37)",
+      "reflection": "",
+      "seconds": 110,
+      "startedAt": 1789076983418,
+      "createdAt": "2026-09-10T21:51:06.371Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mtw2fmhbwq6",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-2 개념원리 — 04-1. 길이구하기1(p.36~37)",
+      "reflection": "",
+      "seconds": 839,
+      "startedAt": 1789077214098,
+      "createdAt": "2026-09-10T21:55:03.695Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mtw2xk93efe",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-2 개념원리 — 04-2. 길이구하기2(p.40~42)",
+      "reflection": "",
+      "seconds": 655,
+      "startedAt": 1789078079070,
+      "createdAt": "2026-09-10T22:09:00.615Z",
       "autoRecorded": true
     }
   ],
@@ -198,14 +236,34 @@
         "watchedSec": 2737
       },
       "MUD4xRQMTx0": {
-        "sessionCount": 3,
+        "sessionCount": 4,
         "lectureId": "lec_mqoum7ssed7",
         "lectureTitle": "2024 1,2월 중3-2 개념원리",
         "videoTitle": "03. 임의의 예각의 삼각비의 값(~p.33)",
         "durationSec": 5336,
-        "lastPosition": 4238,
-        "lastWatchedAt": "2026-09-09T10:25:35.624Z",
-        "watchedSec": 2417
+        "lastPosition": 4243,
+        "lastWatchedAt": "2026-09-10T21:52:47.360Z",
+        "watchedSec": 2423
+      },
+      "nyOGgojNXz8": {
+        "sessionCount": 3,
+        "lectureId": "lec_mqoum7ssed7",
+        "lectureTitle": "2024 1,2월 중3-2 개념원리",
+        "videoTitle": "04-1. 길이구하기1(p.36~37)",
+        "durationSec": 1607,
+        "lastPosition": 1606,
+        "lastWatchedAt": "2026-09-10T22:07:57.305Z",
+        "watchedSec": 958
+      },
+      "wgS5OiMPXNA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqoum7ssed7",
+        "lectureTitle": "2024 1,2월 중3-2 개념원리",
+        "videoTitle": "04-2. 길이구하기2(p.40~42)",
+        "durationSec": 2125,
+        "lastPosition": 2046,
+        "lastWatchedAt": "2026-09-10T22:25:06.532Z",
+        "watchedSec": 655
       }
     },
     "daily": {
@@ -227,6 +285,11 @@
       },
       "2026-09-09": {
         "MUD4xRQMTx0": 2417
+      },
+      "2026-09-11": {
+        "MUD4xRQMTx0": 6,
+        "nyOGgojNXz8": 958,
+        "wgS5OiMPXNA": 655
       }
     }
   },

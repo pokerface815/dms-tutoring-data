@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-11T01:39:48.370Z",
+  "generatedAt": "2026-09-11T07:15:45.231Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,21 +11,48 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-09-09T10:25:35.625Z",
+    "uploadedAt": "2026-09-10T22:25:02.988Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 2381,
-      "monthSec": 8083,
-      "streak": 0,
+      "todaySec": 1604,
+      "weekSec": 3987,
+      "monthSec": 9689,
+      "streak": 1,
       "bySubjectMonth": {
-        "중3": 8083
+        "중3": 9689
       }
     },
     "logs": [
       {
+        "id": "effort_mtw2xk93efe",
+        "startedAt": 1789078079070,
+        "seconds": 655,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "2024 1,2월 중3-2 개념원리 — 04-2. 길이구하기2(p.40~42)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mtw2fmhbwq6",
+        "startedAt": 1789077214098,
+        "seconds": 839,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "2024 1,2월 중3-2 개념원리 — 04-1. 길이구하기1(p.36~37)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mtw2ajczqgz",
+        "startedAt": 1789076983418,
+        "seconds": 110,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "2024 1,2월 중3-2 개념원리 — 04-1. 길이구하기1(p.36~37)",
+        "reflection": ""
+      },
+      {
         "id": "effort_mtt8mf41bsp",
         "startedAt": 1788906239233,
-        "seconds": 2381,
+        "seconds": 2383,
         "subject": "중3",
         "method": "강의 시청",
         "content": "2024 1,2월 중3-2 개념원리 — 03. 임의의 예각의 삼각비의 값(~p.33)",
@@ -117,15 +144,15 @@
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",
-      "type": "closed",
       "date": "2026-08-01",
-      "endDate": "2026-08-05",
+      "type": "closed",
       "title": "학원 방학",
-      "content": "",
+      "images": [],
       "target": {
         "kind": "all"
       },
-      "images": [],
+      "content": "",
+      "endDate": "2026-08-05",
       "createdAt": "2026-07-07T09:05:29.025Z",
       "updatedAt": "2026-07-07T09:38:04.506Z"
     }

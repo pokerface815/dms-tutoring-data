@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-08T15:16:46.422Z",
+  "generatedAt": "2026-09-11T07:16:18.791Z",
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [

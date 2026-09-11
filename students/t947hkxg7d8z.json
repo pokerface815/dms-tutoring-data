@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-10T07:35:24.850Z",
+  "generatedAt": "2026-09-11T01:39:43.683Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,9 +51,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1788961176656_e4y6lf",
       "noteName": "조예나_올림포스 유형편_04.도함수의 활용",
@@ -64,7 +62,10 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1787400471109_psbqsx",
       "noteName": "조예나_올림포스 유형평_01.함수의 극한",

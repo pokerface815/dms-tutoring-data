@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:45:41.081Z",
+  "generatedAt": "2026-09-11T07:16:01.688Z",
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [

@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:45:57.981Z",
+  "generatedAt": "2026-09-11T07:17:39.501Z",
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1787652322129_vt0acc",
     "classes": [

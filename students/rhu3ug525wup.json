@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:45:02.836Z",
+  "generatedAt": "2026-09-11T07:17:07.228Z",
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1780314459772_wcllxa",
     "classes": [

@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:45:32.380Z",
+  "generatedAt": "2026-09-11T07:15:58.211Z",
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1783936051988_psto4h",
     "classes": [

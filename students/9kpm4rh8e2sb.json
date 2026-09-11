@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-10T00:15:45.843Z",
+  "generatedAt": "2026-09-11T07:16:43.843Z",
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -12,151 +17,7 @@
     "class": "토,일 6시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [
-    {
-      "id": "effort_mralwoac381",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-      "reflection": "",
-      "seconds": 180,
-      "startedAt": 1783426006842,
-      "createdAt": "2026-07-07T12:09:51.348Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mrkkz4wi4cv",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-      "reflection": "",
-      "seconds": 4141,
-      "startedAt": 1784029190682,
-      "createdAt": "2026-07-14T11:41:28.338Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mrkn59halqw",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-      "reflection": "",
-      "seconds": 75,
-      "startedAt": 1784032848699,
-      "createdAt": "2026-07-14T12:42:13.438Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mrnd1zohnsu",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 25~30쪽 부정형 (무한대)-(무한대), (무한대)*0, 함수의 극한의 응용",
-      "reflection": "",
-      "seconds": 5112,
-      "startedAt": 1784197298595,
-      "createdAt": "2026-07-16T10:23:03.137Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mrrisnrxh03",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 31~39쪽 지난 과제 질의응답, 함수의 연속",
-      "reflection": "",
-      "seconds": 1757,
-      "startedAt": 1784448786445,
-      "createdAt": "2026-07-19T08:14:50.205Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mrvhwuumidk",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 52~59쪽 평균변화율과 미분계수",
-      "reflection": "",
-      "seconds": 5864,
-      "startedAt": 1784689208179,
-      "createdAt": "2026-07-22T03:01:11.086Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_ms1inpw0m97",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
-      "reflection": "",
-      "seconds": 1072,
-      "startedAt": 1785053224487,
-      "createdAt": "2026-07-26T08:08:41.424Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_ms1jaibui2q",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 60~67쪽 미분가능성과 연속성, 도함수",
-      "reflection": "",
-      "seconds": 1491,
-      "startedAt": 1785054323324,
-      "createdAt": "2026-07-26T08:26:24.714Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_ms4awn6yfuh",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 40~46쪽 중간테스트 문제풀이 + 연속함수의 성질",
-      "reflection": "",
-      "seconds": 708,
-      "startedAt": 1785221628239,
-      "createdAt": "2026-07-28T06:54:59.434Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_ms60zscs739",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 23~35쪽 02.함수의 연속 24번 ~ 03.미분계수와 도함수 29번",
-      "reflection": "",
-      "seconds": 1663,
-      "startedAt": 1785325918235,
-      "createdAt": "2026-07-29T11:53:02.284Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_ms64yxnkqs6",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 68~81쪽 도함수 관련 문제풀이, 도함수의 활용(접선의 방정식)",
-      "reflection": "",
-      "seconds": 287,
-      "startedAt": 1785332553884,
-      "createdAt": "2026-07-29T13:44:20.960Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_msbhq8h0ctq",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
-      "reflection": "",
-      "seconds": 172,
-      "startedAt": 1785656298284,
-      "createdAt": "2026-08-02T07:40:20.964Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_msj13vxsvqu",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
-      "reflection": "",
-      "seconds": 205,
-      "startedAt": 1786112120950,
-      "createdAt": "2026-08-07T14:17:13.840Z",
-      "autoRecorded": true
-    }
-  ],
+  "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {

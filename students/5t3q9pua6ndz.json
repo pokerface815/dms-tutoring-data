@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-10T00:15:49.552Z",
+  "generatedAt": "2026-09-11T01:39:46.752Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -148,9 +148,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1788946800992_5oo75w",
       "noteName": "박하윤_개념+유형 유형편_도형의 방정식",
@@ -163,6 +161,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1788946800992_5oo75w",

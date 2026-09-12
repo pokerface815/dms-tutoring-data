@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-08T13:19:35.492Z",
+  "generatedAt": "2026-09-12T17:45:54.160Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -64,24 +64,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msrljfcoq4r",
-        "startedAt": 1786630204481,
-        "seconds": 1015,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msrk6qfixx2",
-        "startedAt": 1786627891807,
-        "seconds": 2173,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
         "reflection": ""
       }
     ]

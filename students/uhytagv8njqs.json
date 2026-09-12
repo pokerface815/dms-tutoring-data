@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T11:24:22.525Z",
+  "generatedAt": "2026-09-12T17:45:47.599Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -70,9 +70,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1789090762429_puyfrw",
       "noteName": "김규림_개념루트_전체_재오답",
@@ -85,6 +83,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1789090762429_puyfrw",

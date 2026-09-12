@@ -1,11 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T07:16:12.740Z",
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-09-12T03:55:02.280Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -543,12 +538,24 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1789185294792_cko2vx",
+      "noteName": "남옥빈_개념루트_원의 방정식(~275번)",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-09-12",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [],
   "completed": [],
   "weekProgress": {
-    "total": 0,
+    "total": 1,
     "done": 0,
     "percent": 0,
     "startDate": "2026-09-07",

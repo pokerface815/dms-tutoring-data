@@ -1603,7 +1603,9 @@
     "subject": "공통수학2",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "도형의 방정식, 집합의 뜻과 집합 사이의 포함 관계"
+    },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
     "teacher": "",

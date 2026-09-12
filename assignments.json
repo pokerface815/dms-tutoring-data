@@ -4277,5 +4277,33 @@
       }
     ],
     "createdAt": "2026-09-12T06:13:35.243Z"
+  },
+  {
+    "id": "a_1789199343191_m43ppu",
+    "noteId": "note_1789199295309_m7nsyl",
+    "noteName": "지유진_교과서 미래엔",
+    "studentId": "s_1778849219765_v88lqq",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-12",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-14",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-19",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-12T07:49:03.191Z"
   }
 ]

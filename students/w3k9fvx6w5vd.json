@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-12T07:49:18.249Z",
+  "generatedAt": "2026-09-12T17:45:55.684Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -18,31 +18,6 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [
     {
-      "assignmentId": "a_1788188372881_q392at",
-      "noteName": "지유진_올림포스 유형편_01.함수의 극한, 02.함수의 연속",
-      "subject": "미적분Ⅰ",
-      "round": 3,
-      "plannedDate": "2026-09-12",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
-      "assignmentId": "a_1789199343191_m43ppu",
-      "noteName": "지유진_교과서 미래엔",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-09-12",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [
-    {
       "assignmentId": "a_1788621639977_kp85nh",
       "noteName": "지유진_올림포스 유형편_03.미분계수와 도함수",
       "subject": "미적분Ⅰ",
@@ -54,7 +29,33 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
+    {
+      "assignmentId": "a_1789199343191_m43ppu",
+      "noteName": "지유진_교과서 미래엔",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-09-12",
+      "done": true,
+      "doneAt": "2026-09-12T17:45:36.261Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1788188372881_q392at",
+      "noteName": "지유진_올림포스 유형편_01.함수의 극한, 02.함수의 연속",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-09-12",
+      "done": true,
+      "doneAt": "2026-09-12T17:45:32.268Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788621639977_kp85nh",
       "noteName": "지유진_올림포스 유형편_03.미분계수와 도함수",
@@ -250,8 +251,8 @@
   ],
   "weekProgress": {
     "total": 5,
-    "done": 2,
-    "percent": 40,
+    "done": 4,
+    "percent": 80,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

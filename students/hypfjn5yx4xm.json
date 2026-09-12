@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T11:24:26.175Z",
+  "generatedAt": "2026-09-12T02:06:38.881Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -50,14 +50,14 @@
         "watchedSec": 0
       },
       "MUY1NAZSfLw": {
-        "sessionCount": 8,
+        "sessionCount": 10,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
         "durationSec": 4799,
         "lastPosition": 234,
-        "lastWatchedAt": "2026-09-10T15:43:38.080Z",
-        "watchedSec": 73
+        "lastWatchedAt": "2026-09-11T16:25:15.047Z",
+        "watchedSec": 74
       },
       "7pfVUyQLMjs": {
         "sessionCount": 1,
@@ -129,13 +129,14 @@
       },
       "2026-07-30": {
         "okVxIoEMccc": 142
+      },
+      "2026-09-12": {
+        "MUY1NAZSfLw": 1
       }
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1787383648855_t3lvvs",
       "noteName": "이경주_올림포스 기출문제집_01.함수의 극한",
@@ -159,6 +160,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1788596104863_me5l3h",

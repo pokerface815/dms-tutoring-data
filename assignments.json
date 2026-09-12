@@ -4215,5 +4215,39 @@
       }
     ],
     "createdAt": "2026-09-11T01:39:22.429Z"
+  },
+  {
+    "id": "a_1789185294792_cko2vx",
+    "noteId": "note_1789185287647_ylxkhs",
+    "noteName": "남옥빈_개념루트_원의 방정식(~275번)",
+    "studentId": "s_1784950950171_2ycwdo",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-12",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-14",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-10-03",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-12T03:54:54.792Z"
   }
 ]

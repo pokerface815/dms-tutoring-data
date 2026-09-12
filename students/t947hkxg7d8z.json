@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T11:24:24.374Z",
+  "generatedAt": "2026-09-12T02:06:35.467Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,9 +51,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1787400471109_psbqsx",
       "noteName": "조예나_올림포스 유형평_01.함수의 극한",
@@ -66,6 +64,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1788961176656_e4y6lf",

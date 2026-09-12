@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-12T02:06:40.808Z",
+  "generatedAt": "2026-09-12T07:49:18.249Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -22,6 +22,17 @@
       "noteName": "지유진_올림포스 유형편_01.함수의 극한, 02.함수의 연속",
       "subject": "미적분Ⅰ",
       "round": 3,
+      "plannedDate": "2026-09-12",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1789199343191_m43ppu",
+      "noteName": "지유진_교과서 미래엔",
+      "subject": "미적분Ⅰ",
+      "round": 1,
       "plannedDate": "2026-09-12",
       "done": false,
       "doneAt": null,
@@ -238,9 +249,9 @@
     }
   ],
   "weekProgress": {
-    "total": 4,
+    "total": 5,
     "done": 2,
-    "percent": 50,
+    "percent": 40,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

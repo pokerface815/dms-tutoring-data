@@ -4249,5 +4249,33 @@
       }
     ],
     "createdAt": "2026-09-12T03:54:54.792Z"
+  },
+  {
+    "id": "a_1789193615243_v0x9mk",
+    "noteId": "note_1789193588155_7r7hie",
+    "noteName": "국보민_개념루트_미분계수와 도함수(~210번)",
+    "studentId": "s_1780833414231_dup17p",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-12",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-14",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-19",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-12T06:13:35.243Z"
   }
 ]

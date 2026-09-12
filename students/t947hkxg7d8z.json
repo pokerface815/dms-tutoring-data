@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-12T02:06:35.467Z",
+  "generatedAt": "2026-09-12T17:45:49.462Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,22 +51,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1787400471109_psbqsx",
       "noteName": "조예나_올림포스 유형평_01.함수의 극한",
       "subject": "미적분Ⅰ",
       "round": 4,
       "plannedDate": "2026-09-12",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-12T17:45:31.651Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788961176656_e4y6lf",
       "noteName": "조예나_올림포스 유형편_04.도함수의 활용",
@@ -414,24 +414,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1779542958590_b0w63c",
-      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~33번)",
-      "subject": "대수",
-      "round": 4,
-      "plannedDate": "2026-06-13",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:28.222Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 4,
-    "done": 3,
-    "percent": 75,
+    "done": 4,
+    "percent": 100,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

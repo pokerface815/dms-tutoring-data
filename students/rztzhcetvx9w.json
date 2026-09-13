@@ -1,11 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T07:16:03.621Z",
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-09-13T15:05:31.142Z",
   "student": {
     "id": "s_1788060919633_kwwkkl",
     "classes": [
@@ -29,8 +24,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-13"
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20"
   },
   "teacherConfirms": {},
   "tasks": [],

@@ -4445,5 +4445,39 @@
       }
     ],
     "createdAt": "2026-09-13T06:33:50.146Z"
+  },
+  {
+    "id": "a_1789282219809_yhgv09",
+    "noteId": "note_1789282201933_61r0q9",
+    "noteName": "조해인_마더텅_함수의 연속(~57쪽 64번)",
+    "studentId": "s_1784437736068_jgkmca",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-10-04",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-13T06:50:19.809Z"
   }
 ]

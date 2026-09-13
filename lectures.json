@@ -1194,8 +1194,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-08-30T17:57:50.127Z",
-    "lastSyncedAt": "2026-08-30T17:57:50.127Z"
+    "updatedAt": "2026-09-13T02:21:50.698Z",
+    "lastSyncedAt": "2026-09-13T02:21:50.698Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1293,9 +1293,15 @@
       },
       {
         "videoId": "jicJRyoMdgU",
-        "title": "2",
+        "title": "118~119쪽 연습문제(117쪽) 풀이 + 집합의 연산 개념 설명",
         "position": 14,
         "durationSec": 3541
+      },
+      {
+        "videoId": "B7g9lGH38_k",
+        "title": "121~131쪽 집합의 연산법칙 + 유한집합의 원소의 개수",
+        "position": 15,
+        "durationSec": 4686
       }
     ],
     "permissions": {
@@ -1304,8 +1310,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-09-05T11:29:40.876Z",
-    "lastSyncedAt": "2026-09-05T11:29:40.876Z"
+    "updatedAt": "2026-09-13T02:21:46.960Z",
+    "lastSyncedAt": "2026-09-13T02:21:46.960Z"
   },
   {
     "id": "lec_mririwvdtb6",

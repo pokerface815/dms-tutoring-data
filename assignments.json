@@ -4321,5 +4321,39 @@
       }
     ],
     "createdAt": "2026-09-12T07:49:03.191Z"
+  },
+  {
+    "id": "a_1789274491474_diqj0s",
+    "noteId": "note_1789274483283_bswx2l",
+    "noteName": "조한결_개념루트_직선의 방정식(~106번)",
+    "studentId": "s_1785035974019_bc13fy",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-10-04",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-13T04:41:31.474Z"
   }
 ]

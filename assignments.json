@@ -4355,5 +4355,33 @@
       }
     ],
     "createdAt": "2026-09-13T04:41:31.474Z"
+  },
+  {
+    "id": "a_1789274797841_ap3n40",
+    "noteId": "note_1789274783913_jhzb50",
+    "noteName": "박소이_수학의 왕도_직선의 방정식(~56쪽 유제3-2)",
+    "studentId": "s_1783741677433_iezolt",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-20",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-13T04:46:37.841Z"
   }
 ]

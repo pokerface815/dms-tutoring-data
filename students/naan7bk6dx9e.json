@@ -1,11 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T07:15:54.627Z",
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-09-13T04:41:54.726Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -181,12 +176,24 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1789274491474_diqj0s",
+      "noteName": "조한결_개념루트_직선의 방정식(~106번)",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-09-13",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [],
   "completed": [],
   "weekProgress": {
-    "total": 0,
+    "total": 1,
     "done": 0,
     "percent": 0,
     "startDate": "2026-09-07",

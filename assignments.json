@@ -4417,5 +4417,33 @@
       }
     ],
     "createdAt": "2026-09-13T05:51:06.390Z"
+  },
+  {
+    "id": "a_1789281230146_owfh1t",
+    "noteId": "note_1789281182603_hp0h3f",
+    "noteName": "이지수_올림포스 유형편_01.함수의 극한",
+    "studentId": "s_1783476674835_bt1qix",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-20",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-13T06:33:50.146Z"
   }
 ]

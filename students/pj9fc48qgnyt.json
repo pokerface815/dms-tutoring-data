@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T05:51:37.008Z",
+  "generatedAt": "2026-09-13T08:32:01.994Z",
   "student": {
     "id": "s_1783145087770_b6wsph",
     "classes": [
@@ -39,26 +39,27 @@
     "daily": {}
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1789278666390_ejls4e",
       "noteName": "송린우_마더텅_함수의 극한(~45쪽 198번)",
       "subject": "미적분Ⅰ",
       "round": 1,
       "plannedDate": "2026-09-13",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-13T08:31:49.793Z",
       "missed": false,
-      "missedAt": null
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

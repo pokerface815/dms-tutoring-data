@@ -4493,5 +4493,33 @@
       }
     ],
     "createdAt": "2026-09-13T06:50:19.809Z"
+  },
+  {
+    "id": "a_1789288422558_3277iq",
+    "noteId": "note_1789288357402_xzk7u3",
+    "noteName": "김시현_올림포스 기출_전체",
+    "studentId": "s_1779005266373_7iq1b8",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-20",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-13T08:33:42.558Z"
   }
 ]

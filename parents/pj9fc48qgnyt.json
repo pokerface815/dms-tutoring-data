@@ -1,13 +1,27 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:28:56.417Z",
+  "generatedAt": "2026-09-13T15:04:47.627Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
     "name": "송린우",
     "grade": "고2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-09",
+      "label": "2026년 9월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 1,
+          "total": 1,
+          "percent": 100
+        }
+      }
+    }
+  ],
   "tests": [],
   "effortLogs": null,
   "academyEvents": [

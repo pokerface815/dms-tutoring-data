@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-12T17:46:01.084Z",
+  "generatedAt": "2026-09-13T04:41:43.828Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -356,7 +356,7 @@
         "watchedSec": 447
       },
       "2auObqsjN-s": {
-        "sessionCount": 6,
+        "sessionCount": 10,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "13~23쪽 선분의 내분점",
@@ -376,7 +376,7 @@
         "watchedSec": 2266
       },
       "HC4J2dxRE8A": {
-        "sessionCount": 3,
+        "sessionCount": 1,
         "lectureId": "lec_mqkr9zowwph",
         "lectureTitle": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강",
         "videoTitle": "150~159쪽 일차부등식, 연립일차부등식",
@@ -406,7 +406,7 @@
         "watchedSec": 1977
       },
       "tsLcsUgBKZ0": {
-        "sessionCount": 1,
+        "sessionCount": 3,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
@@ -414,6 +414,16 @@
         "lastPosition": 2826,
         "lastWatchedAt": "2026-08-05T09:56:09.895Z",
         "watchedSec": 1437
+      },
+      "4Ug5EcsKyFA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrg7ztilap8",
+        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
+        "durationSec": 4290,
+        "lastPosition": 4289,
+        "lastWatchedAt": "2026-08-08T00:33:32.850Z",
+        "watchedSec": 2584
       },
       "4uqVjzd4CXc": {
         "sessionCount": 1,
@@ -424,16 +434,6 @@
         "lastPosition": 254,
         "lastWatchedAt": "2026-08-05T01:06:53.155Z",
         "watchedSec": 14
-      },
-      "4Ug5EcsKyFA": {
-        "sessionCount": 3,
-        "lectureId": "lec_mrg7ztilap8",
-        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
-        "videoTitle": "44~48쪽 연습문제 질문(48쪽) + 점과 직선 사이의 거리",
-        "durationSec": 4290,
-        "lastPosition": 4289,
-        "lastWatchedAt": "2026-08-08T00:33:32.850Z",
-        "watchedSec": 2584
       },
       "Fndr8I_jCAk": {
         "sessionCount": 1,
@@ -504,15 +504,15 @@
       "2026-08-06": {
         "Vpbwe1ellrc": 16
       },
-      "2026-08-05": {
-        "tsLcsUgBKZ0": 1437,
-        "4uqVjzd4CXc": 14,
-        "2auObqsjN-s": 23
-      },
       "2026-08-07": {
         "4Ug5EcsKyFA": 22,
         "2auObqsjN-s": 550,
         "r2Yofj6CofI": 1950
+      },
+      "2026-08-05": {
+        "tsLcsUgBKZ0": 1437,
+        "4uqVjzd4CXc": 14,
+        "2auObqsjN-s": 23
       },
       "2026-08-08": {
         "4Ug5EcsKyFA": 2562

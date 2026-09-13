@@ -1,11 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T07:17:07.228Z",
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-09-13T15:04:35.041Z",
   "student": {
     "id": "s_1780314459772_wcllxa",
     "classes": [
@@ -29,8 +24,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-13"
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20"
   },
   "teacherConfirms": {
     "task_1780314584317_vyzie5__1": {

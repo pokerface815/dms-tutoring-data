@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T06:34:01.074Z",
+  "generatedAt": "2026-09-13T08:32:13.326Z",
   "student": {
     "id": "s_1783476674835_bt1qix",
     "classes": [
@@ -29,26 +29,27 @@
     "daily": {}
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1789281230146_owfh1t",
       "noteName": "이지수_올림포스 유형편_01.함수의 극한",
       "subject": "미적분Ⅰ",
       "round": 1,
       "plannedDate": "2026-09-13",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-13T08:31:50.411Z",
       "missed": false,
-      "missedAt": null
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-12T17:45:47.599Z",
+  "generatedAt": "2026-09-13T08:31:58.009Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -70,22 +70,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1789090762429_puyfrw",
       "noteName": "김규림_개념루트_전체_재오답",
       "subject": "미적분Ⅰ",
       "round": 2,
       "plannedDate": "2026-09-13",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-13T08:31:47.044Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789090762429_puyfrw",
       "noteName": "김규림_개념루트_전체_재오답",
@@ -433,24 +433,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1778408570246_sklo64",
-      "noteName": "김규림_개념루트_삼각함수의 그래프",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-05-11",
-      "done": true,
-      "doneAt": "2026-05-11T14:23:28.939Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 3,
-    "done": 2,
-    "percent": 67,
+    "done": 3,
+    "percent": 100,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

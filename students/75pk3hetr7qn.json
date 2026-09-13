@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T06:50:26.500Z",
+  "generatedAt": "2026-09-13T08:32:16.173Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -265,26 +265,27 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1789282219809_yhgv09",
       "noteName": "조해인_마더텅_함수의 연속(~57쪽 64번)",
       "subject": "미적분Ⅰ",
       "round": 1,
       "plannedDate": "2026-09-13",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-13T08:31:51.060Z",
       "missed": false,
-      "missedAt": null
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

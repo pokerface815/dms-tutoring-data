@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T08:58:43.716Z",
+  "generatedAt": "2026-09-13T15:03:59.085Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -166,7 +166,30 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1789289795408_92n1tv",
+      "noteName": "이경주_올림포스 기출_접선의 방정식",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-09-15",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1789289795408_92n1tv",
+      "noteName": "이경주_올림포스 기출_접선의 방정식",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-09-20",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1789289795408_92n1tv",
@@ -530,11 +553,11 @@
     }
   ],
   "weekProgress": {
-    "total": 4,
-    "done": 4,
-    "percent": 100,
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-13"
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20"
   },
   "teacherConfirms": {
     "a_1779199815812_kc9oc2__3": {

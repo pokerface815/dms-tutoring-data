@@ -1,11 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T07:17:05.469Z",
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-09-13T15:04:33.518Z",
   "student": {
     "id": "s_1780314459772_hl9biz",
     "classes": [
@@ -29,8 +24,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-13"
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20"
   },
   "teacherConfirms": {
     "task_1780314584317_0z59rx__1": {

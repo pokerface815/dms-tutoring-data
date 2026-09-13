@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T04:41:53.068Z",
+  "generatedAt": "2026-09-13T08:57:04.751Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -164,7 +164,19 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1789289795408_92n1tv",
+      "noteName": "이경주_올림포스 기출_접선의 방정식",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-09-13",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [],
   "completed": [
@@ -530,9 +542,9 @@
     }
   ],
   "weekProgress": {
-    "total": 3,
+    "total": 4,
     "done": 3,
-    "percent": 100,
+    "percent": 75,
     "startDate": "2026-09-07",
     "endDate": "2026-09-13"
   },

@@ -1488,20 +1488,46 @@
         "videoId": "34YQNYlPaB8",
         "title": "프린트 \"올림포스 기출_02.함수의 연속\" 풀이",
         "position": 9,
-        "durationSec": 6156
+        "durationSec": 6156,
+        "materials": [
+          {
+            "name": "올림포스 기출_02.함수의 연속_8월 29,30일_compressed.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311831/ycj4e1roxltijfx0ezou.pdf",
+            "publicId": "ycj4e1roxltijfx0ezou",
+            "resourceType": "image",
+            "uploadedAt": "2026-09-13T15:03:52.238Z"
+          }
+        ]
       },
       {
         "videoId": "0td5Yy0m5Y4",
         "title": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이 (4,5단원 1등급 문제 제외)",
         "position": 10,
         "durationSec": 5678,
-        "materials": []
+        "materials": [
+          {
+            "name": "올림포스 기출_03.미분계수~05.접선의 방정식 _compressed.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311838/dmyexyog3girrhprsvke.pdf",
+            "publicId": "dmyexyog3girrhprsvke",
+            "resourceType": "image",
+            "uploadedAt": "2026-09-13T15:03:59.343Z"
+          }
+        ]
       },
       {
         "videoId": "DvuupuqvEY8",
         "title": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이_4,5단원 1등급 문제",
         "position": 11,
-        "durationSec": 4425
+        "durationSec": 4425,
+        "materials": [
+          {
+            "name": "올림포스 기출_03.미분계수~05.접선의 방정식 _compressed.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311848/lsgtjmphfhhrv4awfisy.pdf",
+            "publicId": "lsgtjmphfhhrv4awfisy",
+            "resourceType": "image",
+            "uploadedAt": "2026-09-13T15:04:08.789Z"
+          }
+        ]
       }
     ],
     "permissions": {
@@ -1510,7 +1536,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-09-13T15:03:44.301Z",
+    "updatedAt": "2026-09-13T15:04:08.789Z",
     "lastSyncedAt": "2026-09-13T11:45:42.317Z"
   },
   {
@@ -1575,25 +1601,61 @@
         "videoId": "wv3zq-MHNEg",
         "title": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
         "position": 8,
-        "durationSec": 6107
+        "durationSec": 6107,
+        "materials": [
+          {
+            "name": "올림포스 기출_01.함수의 극한_8월21,22일_compressed.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311864/unoviay9gfpktjuhqupk.pdf",
+            "publicId": "unoviay9gfpktjuhqupk",
+            "resourceType": "image",
+            "uploadedAt": "2026-09-13T15:04:25.476Z"
+          }
+        ]
       },
       {
         "videoId": "7LtG4Dc90v8",
         "title": "프린트 \"올림포스 기출_02.함수의 연속\" 풀이",
         "position": 9,
-        "durationSec": 3052
+        "durationSec": 3052,
+        "materials": [
+          {
+            "name": "올림포스 기출_02.함수의 연속_8월 29,30일_compressed.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311871/ep2e64kknr5ec5odglra.pdf",
+            "publicId": "ep2e64kknr5ec5odglra",
+            "resourceType": "image",
+            "uploadedAt": "2026-09-13T15:04:32.533Z"
+          }
+        ]
       },
       {
         "videoId": "Cz4u8BWoVj4",
         "title": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이 (4,5단원 1등급 문제 제외)",
         "position": 10,
-        "durationSec": 5463
+        "durationSec": 5463,
+        "materials": [
+          {
+            "name": "올림포스 기출_03.미분계수~05.접선의 방정식 _compressed.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311895/diwr2ov9gxx4avdm5pql.pdf",
+            "publicId": "diwr2ov9gxx4avdm5pql",
+            "resourceType": "image",
+            "uploadedAt": "2026-09-13T15:04:55.775Z"
+          }
+        ]
       },
       {
         "videoId": "DvuupuqvEY8",
         "title": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이_4,5단원 1등급 문제",
         "position": 11,
-        "durationSec": 4425
+        "durationSec": 4425,
+        "materials": [
+          {
+            "name": "올림포스 기출_03.미분계수~05.접선의 방정식 _compressed.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311906/k8whz05jkkkvgaweqnuh.pdf",
+            "publicId": "k8whz05jkkkvgaweqnuh",
+            "resourceType": "image",
+            "uploadedAt": "2026-09-13T15:05:06.533Z"
+          }
+        ]
       }
     ],
     "permissions": {
@@ -1602,7 +1664,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-09-13T11:45:45.817Z",
+    "updatedAt": "2026-09-13T15:05:06.533Z",
     "lastSyncedAt": "2026-09-13T11:45:45.817Z"
   },
   {

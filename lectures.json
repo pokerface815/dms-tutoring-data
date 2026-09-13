@@ -1473,7 +1473,16 @@
         "videoId": "Mem_ygTXPbc",
         "title": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
         "position": 8,
-        "durationSec": 6868
+        "durationSec": 6868,
+        "materials": [
+          {
+            "name": "올림포스 기출_01.함수의 극한_8월21,22일_compressed.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311818/ydsshusyt3eqtzs5tbie.pdf",
+            "publicId": "ydsshusyt3eqtzs5tbie",
+            "resourceType": "image",
+            "uploadedAt": "2026-09-13T15:03:38.601Z"
+          }
+        ]
       },
       {
         "videoId": "34YQNYlPaB8",
@@ -1485,7 +1494,8 @@
         "videoId": "0td5Yy0m5Y4",
         "title": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이 (4,5단원 1등급 문제 제외)",
         "position": 10,
-        "durationSec": 5678
+        "durationSec": 5678,
+        "materials": []
       },
       {
         "videoId": "DvuupuqvEY8",
@@ -1500,7 +1510,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-09-13T11:45:42.317Z",
+    "updatedAt": "2026-09-13T15:03:44.301Z",
     "lastSyncedAt": "2026-09-13T11:45:42.317Z"
   },
   {

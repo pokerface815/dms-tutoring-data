@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T08:32:16.173Z",
+  "generatedAt": "2026-09-13T15:05:14.042Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -267,7 +267,30 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1789282219809_yhgv09",
+      "noteName": "조해인_마더텅_함수의 연속(~57쪽 64번)",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-09-15",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1789282219809_yhgv09",
+      "noteName": "조해인_마더텅_함수의 연속(~57쪽 64번)",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-09-20",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1789282219809_yhgv09",
@@ -283,11 +306,11 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
-    "done": 1,
-    "percent": 100,
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-13"
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20"
   },
   "teacherConfirms": {},
   "tasks": [],

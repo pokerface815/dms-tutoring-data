@@ -1,11 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T07:16:16.744Z",
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-09-13T15:05:22.314Z",
   "student": {
     "id": "s_1786082844440_z9486d",
     "classes": [
@@ -194,8 +189,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-13"
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20"
   },
   "teacherConfirms": {
     "task_1786083194758_2f29t7__1": {
@@ -256,17 +251,17 @@
       "confirmed": true,
       "confirmedAt": "2026-08-27T13:28:07.232Z"
     },
-    "task_1787561854526_fo8qmb__1": {
+    "task_1787561854526_x8bu7e__1": {
       "confirmed": true,
-      "confirmedAt": "2026-09-02T12:58:08.986Z"
+      "confirmedAt": "2026-08-29T11:22:38.201Z"
     },
     "task_1787561854526_vbk9pu__1": {
       "confirmed": true,
       "confirmedAt": "2026-09-02T12:58:04.951Z"
     },
-    "task_1787561854526_x8bu7e__1": {
+    "task_1787561854526_fo8qmb__1": {
       "confirmed": true,
-      "confirmedAt": "2026-08-29T11:22:38.201Z"
+      "confirmedAt": "2026-09-02T12:58:08.986Z"
     }
   },
   "tasks": [

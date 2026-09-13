@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-11T11:24:28.091Z",
+  "generatedAt": "2026-09-13T04:41:56.257Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -131,6 +131,16 @@
         "lastPosition": 0,
         "lastWatchedAt": "2026-07-29T05:43:08.016Z",
         "watchedSec": 0
+      },
+      "H2iaIqdnKt8": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqoujc2nsde",
+        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
+        "videoTitle": "118~123쪽 집합의 연산",
+        "durationSec": 4814,
+        "lastPosition": 1730,
+        "lastWatchedAt": "2026-09-12T07:07:50.233Z",
+        "watchedSec": 14
       }
     },
     "daily": {
@@ -144,6 +154,9 @@
       "2026-07-29": {
         "jIjscjI_q2c": 2712,
         "Ea3QmY3z6_c": 2517
+      },
+      "2026-09-12": {
+        "H2iaIqdnKt8": 14
       }
     }
   },

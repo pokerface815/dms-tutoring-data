@@ -1,13 +1,27 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-11T07:15:59.994Z",
+  "generatedAt": "2026-09-13T15:05:15.087Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
     "name": "조해인",
     "grade": "고2"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-09",
+      "label": "2026년 9월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 1,
+          "total": 1,
+          "percent": 100
+        }
+      }
+    }
+  ],
   "tests": [],
   "effortLogs": {
     "enabled": true,
@@ -88,24 +102,25 @@
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",
-      "date": "2026-08-01",
       "type": "closed",
+      "date": "2026-08-01",
+      "endDate": "2026-08-05",
       "title": "학원 방학",
-      "images": [],
+      "content": "",
       "target": {
         "kind": "all"
       },
-      "content": "",
-      "endDate": "2026-08-05",
+      "images": [],
       "createdAt": "2026-07-07T09:05:29.025Z",
       "updatedAt": "2026-07-07T09:38:04.506Z"
     },
     {
       "id": "ae_1786459949232_vpvqe",
-      "date": "2026-08-15",
       "type": "closed",
+      "date": "2026-08-15",
+      "endDate": "2026-08-16",
       "title": "고등 수업 휴업",
-      "images": [],
+      "content": "",
       "target": {
         "kind": "class",
         "classIds": [
@@ -116,17 +131,17 @@
           "cls_1783741486590_iyer5b"
         ]
       },
-      "content": "",
-      "endDate": "2026-08-16",
+      "images": [],
       "createdAt": "2026-08-11T14:52:29.232Z",
       "updatedAt": "2026-08-11T14:52:29.232Z"
     },
     {
       "id": "ae_1786459975890_rm505",
-      "date": "2026-08-17",
       "type": "event",
+      "date": "2026-08-17",
+      "endDate": "",
       "title": "16일 수업 보충",
-      "images": [],
+      "content": "",
       "target": {
         "kind": "class",
         "classIds": [
@@ -137,8 +152,7 @@
           "cls_1783741486590_iyer5b"
         ]
       },
-      "content": "",
-      "endDate": "",
+      "images": [],
       "createdAt": "2026-08-11T14:52:55.890Z",
       "updatedAt": "2026-08-11T14:52:55.890Z"
     }

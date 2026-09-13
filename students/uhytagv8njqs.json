@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T08:31:58.009Z",
+  "generatedAt": "2026-09-13T15:03:51.813Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -72,7 +72,19 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1787995303095_1ilaio",
+      "noteName": "김규림_개념루트_미분계수와 도함수(~220번)",
+      "subject": "미적분Ⅰ",
+      "round": 4,
+      "plannedDate": "2026-09-19",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1789090762429_puyfrw",
@@ -436,11 +448,11 @@
     }
   ],
   "weekProgress": {
-    "total": 3,
-    "done": 3,
-    "percent": 100,
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-13"
+    "total": 1,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20"
   },
   "teacherConfirms": {
     "task_1780833206589_ybwbrw__1": {

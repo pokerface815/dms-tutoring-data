@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T04:41:56.257Z",
+  "generatedAt": "2026-09-13T15:05:00.484Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -163,7 +163,19 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1788946800992_5oo75w",
+      "noteName": "박하윤_개념+유형 유형편_도형의 방정식",
+      "subject": "공통수학2",
+      "round": 3,
+      "plannedDate": "2026-09-16",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1788946800992_5oo75w",
@@ -191,11 +203,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-13"
+    "total": 1,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-20"
   },
   "teacherConfirms": {},
   "tasks": [],

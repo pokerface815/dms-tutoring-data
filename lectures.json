@@ -1560,6 +1560,12 @@
         "title": "프린트 \"올림포스 기출_02.함수의 연속\" 풀이",
         "position": 9,
         "durationSec": 3052
+      },
+      {
+        "videoId": "Cz4u8BWoVj4",
+        "title": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이 (4,5단원 1등급 문제 제외)",
+        "position": 10,
+        "durationSec": 5463
       }
     ],
     "permissions": {
@@ -1568,8 +1574,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-08-30T17:58:05.626Z",
-    "lastSyncedAt": "2026-08-30T17:58:05.626Z"
+    "updatedAt": "2026-09-13T02:21:56.987Z",
+    "lastSyncedAt": "2026-09-13T02:21:56.987Z"
   },
   {
     "id": "lec_mqkscmibfht",

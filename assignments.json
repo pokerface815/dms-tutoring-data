@@ -4383,5 +4383,39 @@
       }
     ],
     "createdAt": "2026-09-13T04:46:37.841Z"
+  },
+  {
+    "id": "a_1789278666390_ejls4e",
+    "noteId": "note_1789278656423_8kzwkl",
+    "noteName": "송린우_마더텅_함수의 극한(~45쪽 198번)",
+    "studentId": "s_1783145087770_b6wsph",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-10-04",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-13T05:51:06.390Z"
   }
 ]

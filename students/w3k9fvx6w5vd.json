@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T15:04:10.857Z",
+  "generatedAt": "2026-09-14T13:02:49.028Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -16,19 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1789199343191_m43ppu",
-      "noteName": "지유진_교과서 미래엔",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-09-14",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -44,6 +32,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1789199343191_m43ppu",
+      "noteName": "지유진_교과서 미래엔",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-09-14",
+      "done": true,
+      "doneAt": "2026-09-14T13:02:37.782Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788621639977_kp85nh",
       "noteName": "지유진_올림포스 유형편_03.미분계수와 도함수",
@@ -275,8 +275,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

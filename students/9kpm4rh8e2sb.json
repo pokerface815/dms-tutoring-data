@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T15:04:05.512Z",
+  "generatedAt": "2026-09-14T13:02:46.782Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -307,22 +307,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1788784391213_mdra34",
       "noteName": "박다인_올림포스 기출_1, 2, 3단원",
       "subject": "미적분Ⅰ",
       "round": 3,
       "plannedDate": "2026-09-14",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-14T13:02:31.427Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788784391213_mdra34",
       "noteName": "박다인_올림포스 기출_1, 2, 3단원",
@@ -662,8 +662,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

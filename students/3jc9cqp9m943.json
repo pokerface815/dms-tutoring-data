@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T15:05:16.762Z",
+  "generatedAt": "2026-09-14T13:02:52.731Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -538,19 +538,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1789185294792_cko2vx",
-      "noteName": "남옥빈_개념루트_원의 방정식(~275번)",
-      "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-09-14",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -570,6 +558,18 @@
       "assignmentId": "a_1789185294792_cko2vx",
       "noteName": "남옥빈_개념루트_원의 방정식(~275번)",
       "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-09-14",
+      "done": true,
+      "doneAt": "2026-09-14T13:02:32.063Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1789185294792_cko2vx",
+      "noteName": "남옥빈_개념루트_원의 방정식(~275번)",
+      "subject": "공통수학2",
       "round": 1,
       "plannedDate": "2026-09-12",
       "done": true,
@@ -581,8 +581,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

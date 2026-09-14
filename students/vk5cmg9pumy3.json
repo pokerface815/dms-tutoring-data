@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T15:04:49.261Z",
+  "generatedAt": "2026-09-14T13:01:33.841Z",
   "student": {
     "id": "s_1783476674835_bt1qix",
     "classes": [
@@ -23,7 +23,8 @@
         "videoTitle": "기하-1-7 타원의 방정식",
         "durationSec": 1504,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-09-03T08:45:33.677Z"
+        "lastWatchedAt": "2026-09-03T08:45:33.677Z",
+        "watchedSec": 0
       }
     },
     "daily": {}

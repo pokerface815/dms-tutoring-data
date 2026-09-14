@@ -4553,5 +4553,33 @@
       }
     ],
     "createdAt": "2026-09-13T08:56:35.408Z"
+  },
+  {
+    "id": "a_1789390878938_hktl4a",
+    "noteId": "note_1789390799226_j3phoj",
+    "noteName": "조예나_교과서 미래엔",
+    "studentId": "s_1777547047005_uo92w5",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-14",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-16",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-21",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-14T13:01:18.938Z"
   }
 ]

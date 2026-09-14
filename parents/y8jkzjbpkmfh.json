@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-12T17:45:54.160Z",
+  "generatedAt": "2026-09-14T13:01:50.287Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -56,17 +56,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_msuazgzu3xt",
-        "startedAt": 1786793874530,
-        "seconds": 514,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

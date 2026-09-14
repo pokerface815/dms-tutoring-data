@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-14T13:01:48.400Z",
+  "generatedAt": "2026-09-14T13:02:45.553Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,19 +51,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1789390878938_hktl4a",
-      "noteName": "조예나_교과서 미래엔",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-09-14",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -101,6 +89,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1789390878938_hktl4a",
+      "noteName": "조예나_교과서 미래엔",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-09-14",
+      "done": true,
+      "doneAt": "2026-09-14T13:02:38.690Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1787400471109_psbqsx",
       "noteName": "조예나_올림포스 유형평_01.함수의 극한",
@@ -448,24 +448,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1780153722620_6lfbh5",
-      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~65번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-05-31",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:28.609Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 4,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 25,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

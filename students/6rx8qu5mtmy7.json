@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T15:05:03.043Z",
+  "generatedAt": "2026-09-15T15:03:47.310Z",
   "student": {
     "id": "s_1783741677433_iezolt",
     "classes": [
@@ -149,8 +149,7 @@
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [],
-  "upcoming": [
+  "overdue": [
     {
       "assignmentId": "a_1789274797841_ap3n40",
       "noteName": "박소이_수학의 왕도_직선의 방정식(~56쪽 유제3-2)",
@@ -161,7 +160,9 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "upcoming": [
     {
       "assignmentId": "a_1789274797841_ap3n40",
       "noteName": "박소이_수학의 왕도_직선의 방정식(~56쪽 유제3-2)",

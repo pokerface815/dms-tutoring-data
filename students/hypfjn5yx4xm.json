@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-15T15:03:28.641Z",
+  "generatedAt": "2026-09-15T17:19:21.792Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -166,19 +166,7 @@
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [
-    {
-      "assignmentId": "a_1789289795408_92n1tv",
-      "noteName": "이경주_올림포스 기출_접선의 방정식",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-09-15",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "overdue": [],
   "upcoming": [
     {
       "assignmentId": "a_1789289795408_92n1tv",
@@ -193,6 +181,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1789289795408_92n1tv",
+      "noteName": "이경주_올림포스 기출_접선의 방정식",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-09-15",
+      "done": true,
+      "doneAt": "2026-09-15T17:19:11.339Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789289795408_92n1tv",
       "noteName": "이경주_올림포스 기출_접선의 방정식",
@@ -540,24 +540,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1780739488448_kksi0o",
-      "noteName": "이경주_수매씽 유형_재오답(1260~2139번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-13",
-      "done": true,
-      "doneAt": "2026-06-13T14:14:25.347Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

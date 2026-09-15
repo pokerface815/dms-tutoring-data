@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-14T13:01:26.007Z",
+  "generatedAt": "2026-09-15T15:03:28.641Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -166,8 +166,7 @@
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [],
-  "upcoming": [
+  "overdue": [
     {
       "assignmentId": "a_1789289795408_92n1tv",
       "noteName": "이경주_올림포스 기출_접선의 방정식",
@@ -178,7 +177,9 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "upcoming": [
     {
       "assignmentId": "a_1789289795408_92n1tv",
       "noteName": "이경주_올림포스 기출_접선의 방정식",

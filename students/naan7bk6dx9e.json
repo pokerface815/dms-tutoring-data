@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T15:05:18.043Z",
+  "generatedAt": "2026-09-15T15:03:56.853Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -177,8 +177,7 @@
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [],
-  "upcoming": [
+  "overdue": [
     {
       "assignmentId": "a_1789274491474_diqj0s",
       "noteName": "조한결_개념루트_직선의 방정식(~106번)",
@@ -189,7 +188,9 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "upcoming": [
     {
       "assignmentId": "a_1789274491474_diqj0s",
       "noteName": "조한결_개념루트_직선의 방정식(~106번)",

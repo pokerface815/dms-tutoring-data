@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-11T07:16:14.920Z",
+  "generatedAt": "2026-09-15T15:04:00.546Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -319,48 +319,21 @@
         "method": "강의 시청",
         "content": "쎈B 중3-2 (26년 7월 ~ ) — 36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
         "reflection": ""
-      },
-      {
-        "id": "effort_msva2oxh10n",
-        "startedAt": 1786852699129,
-        "seconds": 344,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "쎈B 중3-2 (26년 7월 ~ ) — 36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msv9wcz53ai",
-        "startedAt": 1786852512233,
-        "seconds": 111,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "쎈B 중3-2 (26년 7월 ~ ) — 36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msv9qqje01v",
-        "startedAt": 1786852242899,
-        "seconds": 62,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "쎈B 중3-2 (26년 7월 ~ ) — 36~36쪽 과제 질문 + 원의 중심과 현의 수직이등분선",
-        "reflection": ""
       }
     ]
   },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",
-      "date": "2026-08-01",
       "type": "closed",
+      "date": "2026-08-01",
+      "endDate": "2026-08-05",
       "title": "학원 방학",
-      "images": [],
+      "content": "",
       "target": {
         "kind": "all"
       },
-      "content": "",
-      "endDate": "2026-08-05",
+      "images": [],
       "createdAt": "2026-07-07T09:05:29.025Z",
       "updatedAt": "2026-07-07T09:38:04.506Z"
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-14T13:01:24.050Z",
+  "generatedAt": "2026-09-15T15:03:34.835Z",
   "student": {
     "id": "s_1779005266373_7iq1b8",
     "classes": [
@@ -17,8 +17,7 @@
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [],
-  "upcoming": [
+  "overdue": [
     {
       "assignmentId": "a_1789288422558_3277iq",
       "noteName": "김시현_올림포스 기출_전체",
@@ -29,7 +28,9 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "upcoming": [
     {
       "assignmentId": "a_1789288422558_3277iq",
       "noteName": "김시현_올림포스 기출_전체",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-14T13:01:33.841Z",
+  "generatedAt": "2026-09-15T15:03:42.827Z",
   "student": {
     "id": "s_1783476674835_bt1qix",
     "classes": [
@@ -31,8 +31,7 @@
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [],
-  "upcoming": [
+  "overdue": [
     {
       "assignmentId": "a_1789281230146_owfh1t",
       "noteName": "이지수_올림포스 유형편_01.함수의 극한",
@@ -43,7 +42,9 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "upcoming": [
     {
       "assignmentId": "a_1789281230146_owfh1t",
       "noteName": "이지수_올림포스 유형편_01.함수의 극한",

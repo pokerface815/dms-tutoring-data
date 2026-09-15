@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-15T15:03:47.310Z",
+  "generatedAt": "2026-09-15T17:19:31.189Z",
   "student": {
     "id": "s_1783741677433_iezolt",
     "classes": [
@@ -149,19 +149,7 @@
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [
-    {
-      "assignmentId": "a_1789274797841_ap3n40",
-      "noteName": "박소이_수학의 왕도_직선의 방정식(~56쪽 유제3-2)",
-      "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-09-15",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "overdue": [],
   "upcoming": [
     {
       "assignmentId": "a_1789274797841_ap3n40",
@@ -180,6 +168,18 @@
       "assignmentId": "a_1789274797841_ap3n40",
       "noteName": "박소이_수학의 왕도_직선의 방정식(~56쪽 유제3-2)",
       "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-09-15",
+      "done": true,
+      "doneAt": "2026-09-15T17:19:06.922Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1789274797841_ap3n40",
+      "noteName": "박소이_수학의 왕도_직선의 방정식(~56쪽 유제3-2)",
+      "subject": "공통수학2",
       "round": 1,
       "plannedDate": "2026-09-13",
       "done": true,
@@ -191,8 +191,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

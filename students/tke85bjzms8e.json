@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T15:04:03.390Z",
+  "generatedAt": "2026-09-16T23:00:43.102Z",
   "student": {
     "id": "s_1778402500926_7fxigp",
     "classes": [
@@ -34,6 +34,17 @@
       "startedAt": 1785927442012,
       "createdAt": "2026-08-05T11:31:37.434Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mu48lrsl1im",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 122~143쪽 과제 질문(219번) + 롤의 정리, 평균값정리 + 함수의 증가와 감소, 극대와 감소",
+      "reflection": "",
+      "seconds": 2646,
+      "startedAt": 1789571275146,
+      "createdAt": "2026-09-16T15:09:57.621Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -58,6 +69,35 @@
         "lastPosition": 3088,
         "lastWatchedAt": "2026-08-06T03:50:24.021Z",
         "watchedSec": 3667
+      },
+      "HxJ3gc3rJ-Q": {
+        "sessionCount": 2,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "122~143쪽 과제 질문(219번) + 롤의 정리, 평균값정리 + 함수의 증가와 감소, 극대와 감소",
+        "durationSec": 7049,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-09-16T15:59:07.378Z",
+        "watchedSec": 2646
+      },
+      "7cynhZXGGM4": {
+        "sessionCount": 2,
+        "lectureId": "lec_ms3cw1y06x4",
+        "lectureTitle": "(2022개정) 기하",
+        "videoTitle": "기하-1-1 포물선의 정의",
+        "durationSec": 1106,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-09-16T15:59:28.390Z",
+        "watchedSec": 0
+      },
+      "51cQ9_8A4Ss": {
+        "sessionCount": 1,
+        "lectureId": "lec_ms3cw1y06x4",
+        "lectureTitle": "(2022개정) 기하",
+        "videoTitle": "기하-2-11 직선과 평면이 이루는 각",
+        "durationSec": 632,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-09-16T15:59:31.827Z"
       }
     },
     "daily": {
@@ -69,6 +109,9 @@
       },
       "2026-08-06": {
         "OIDvXwg6tkg": 31
+      },
+      "2026-09-17": {
+        "HxJ3gc3rJ-Q": 2646
       }
     }
   },

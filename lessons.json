@@ -1044,5 +1044,16 @@
     "taskBatchId": null,
     "createdAt": "2026-09-16T14:08:59.525Z",
     "updatedAt": "2026-09-16T14:08:59.525Z"
+  },
+  {
+    "id": "lesson_1789567757317_gxr0ir",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-09-14",
+    "content": "교과서 마무리",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-09-16T14:09:17.317Z",
+    "updatedAt": "2026-09-16T14:09:17.317Z"
   }
 ]

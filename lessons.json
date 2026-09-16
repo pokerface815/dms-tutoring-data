@@ -1055,5 +1055,16 @@
     "taskBatchId": null,
     "createdAt": "2026-09-16T14:09:17.317Z",
     "updatedAt": "2026-09-16T14:09:17.317Z"
+  },
+  {
+    "id": "lesson_1789567770725_7udimg",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-09-09",
+    "content": "부교재 마무리 & 교과서 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-09-16T14:09:30.725Z",
+    "updatedAt": "2026-09-16T14:09:30.725Z"
   }
 ]

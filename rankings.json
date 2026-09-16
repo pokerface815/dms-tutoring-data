@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-13T15:03:46.116Z",
+  "generatedAt": "2026-09-16T23:00:46.523Z",
   "studentCount": 55,
   "rankings": [
     {
@@ -83,11 +83,11 @@
     {
       "id": "s_1778402500926_7fxigp",
       "name": "정찬민",
-      "totalSec": 4355,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 4355,
-      "streak": 0,
+      "totalSec": 7001,
+      "weekSec": 2646,
+      "monthSec": 2646,
+      "recent3mSec": 7001,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

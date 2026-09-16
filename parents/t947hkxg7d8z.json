@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T14:09:06.553Z",
+  "generatedAt": "2026-09-16T14:09:23.965Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -17,6 +17,18 @@
           "weekday": "수",
           "className": "조예나 개별",
           "content": "오답노트 & 추가 프린트 풀이",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
+        {
+          "date": "2026-09-14",
+          "weekday": "월",
+          "className": "조예나 개별",
+          "content": "교과서 마무리",
           "task": "",
           "taskDue": "",
           "myNote": "",

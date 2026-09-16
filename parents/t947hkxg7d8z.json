@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T15:03:26.647Z",
+  "generatedAt": "2026-09-16T14:09:06.553Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-09",
       "label": "2026년 9월",
       "lessons": [
+        {
+          "date": "2026-09-16",
+          "weekday": "수",
+          "className": "조예나 개별",
+          "content": "오답노트 & 추가 프린트 풀이",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-09-07",
           "weekday": "월",

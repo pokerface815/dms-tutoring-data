@@ -1033,5 +1033,16 @@
     "taskBatchId": null,
     "createdAt": "2026-09-08T13:19:56.710Z",
     "updatedAt": "2026-09-08T13:19:56.710Z"
+  },
+  {
+    "id": "lesson_1789567739525_raktkn",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-09-16",
+    "content": "오답노트 & 추가 프린트 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-09-16T14:08:59.525Z",
+    "updatedAt": "2026-09-16T14:08:59.525Z"
   }
 ]

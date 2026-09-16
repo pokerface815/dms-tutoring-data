@@ -4677,5 +4677,33 @@
       }
     ],
     "createdAt": "2026-09-16T12:18:40.738Z"
+  },
+  {
+    "id": "a_1789599604791_m6u5yk",
+    "noteId": "note_1789599567817_l07qra",
+    "noteName": "박다인_올림포스 기출_05.접선의 방정식(~17번)",
+    "studentId": "s_1778404886523_0ag055",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-17",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-24",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-16T23:00:04.791Z"
   }
 ]

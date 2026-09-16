@@ -1066,5 +1066,16 @@
     "taskBatchId": null,
     "createdAt": "2026-09-16T14:09:30.725Z",
     "updatedAt": "2026-09-16T14:09:30.725Z"
+  },
+  {
+    "id": "lesson_1789567778049_wnbcsv",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-09-12",
+    "content": "교과서 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-09-16T14:09:38.049Z",
+    "updatedAt": "2026-09-16T14:09:38.049Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-16T12:17:58.464Z",
+  "generatedAt": "2026-09-16T12:18:47.649Z",
   "student": {
     "id": "s_1783735663261_629qgf",
     "classes": [
@@ -27,6 +27,17 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
+    },
+    {
+      "assignmentId": "a_1789561120738_ojnj2y",
+      "noteName": "이지우_수학의 왕도_직선의 방정식",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-09-16",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
     }
   ],
   "overdue": [],
@@ -41,11 +52,22 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
+    },
+    {
+      "assignmentId": "a_1789561120738_ojnj2y",
+      "noteName": "이지우_수학의 왕도_직선의 방정식",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-09-18",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
     }
   ],
   "completed": [],
   "weekProgress": {
-    "total": 2,
+    "total": 4,
     "done": 0,
     "percent": 0,
     "startDate": "2026-09-14",

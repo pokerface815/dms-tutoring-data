@@ -1,13 +1,27 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T09:29:10.948Z",
+  "generatedAt": "2026-09-16T23:00:54.222Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
     "name": "이지우",
     "grade": "고1"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-09",
+      "label": "2026년 9월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 2,
+          "total": 2,
+          "percent": 100
+        }
+      }
+    }
+  ],
   "tests": [],
   "effortLogs": null,
   "academyEvents": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-16T23:00:52.466Z",
+  "generatedAt": "2026-09-17T10:48:53.241Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -307,19 +307,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1789599604791_m6u5yk",
-      "noteName": "박다인_올림포스 기출_05.접선의 방정식(~17번)",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-09-17",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -335,6 +323,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1789599604791_m6u5yk",
+      "noteName": "박다인_올림포스 기출_05.접선의 방정식(~17번)",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-09-17",
+      "done": true,
+      "doneAt": "2026-09-17T10:48:45.548Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788784391213_mdra34",
       "noteName": "박다인_올림포스 기출_1, 2, 3단원",
@@ -686,8 +686,8 @@
   ],
   "weekProgress": {
     "total": 3,
-    "done": 1,
-    "percent": 33,
+    "done": 2,
+    "percent": 67,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

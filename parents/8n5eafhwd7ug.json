@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T10:48:55.072Z",
+  "generatedAt": "2026-09-18T06:56:12.486Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -300,15 +300,6 @@
         "subject": "중3",
         "method": "강의 시청",
         "content": "쎈B 중3-2 (26년 7월 ~ ) — 52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",
-        "reflection": ""
-      },
-      {
-        "id": "effort_msymrde3e17",
-        "startedAt": 1787055422343,
-        "seconds": 3190,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "쎈B 중3-2 (26년 7월 ~ ) — 40~45쪽 원의 중심에서 현까지의 거리와 현의 길이 + 원의 접선의 성질",
         "reflection": ""
       }
     ]

@@ -1,0 +1,24 @@
+[
+  {
+    "run_at": "2026-09-18T16:00:44.998938+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 1,
+      "failed": 0,
+      "total": 1
+    },
+    "entries": [
+      {
+        "student_id": "s_1783735663261_629qgf",
+        "student_name": "이지우",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-4917",
+        "text_length": 52,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

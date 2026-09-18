@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-13T15:05:27.804Z",
+  "generatedAt": "2026-09-18T06:56:15.945Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,17 +11,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-09-11T07:43:27.740Z",
+    "uploadedAt": "2026-09-17T21:56:12.764Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 9687,
-      "streak": 0,
+      "todaySec": 1303,
+      "weekSec": 1303,
+      "monthSec": 10992,
+      "streak": 1,
       "bySubjectMonth": {
-        "중3": 9687
+        "중3": 10992
       }
     },
     "logs": [
+      {
+        "id": "effort_mu61pdgwwd2",
+        "startedAt": 1789680668455,
+        "seconds": 1303,
+        "subject": "중3",
+        "method": "강의 시청",
+        "content": "2024 1,2월 중3-2 개념원리 — 05. 넓이구하기(~p.56)",
+        "reflection": ""
+      },
       {
         "id": "effort_mtw2xk93efe",
         "startedAt": 1789078079070,
@@ -52,7 +61,7 @@
       {
         "id": "effort_mtt8mf41bsp",
         "startedAt": 1788906239233,
-        "seconds": 2381,
+        "seconds": 2383,
         "subject": "중3",
         "method": "강의 시청",
         "content": "2024 1,2월 중3-2 개념원리 — 03. 임의의 예각의 삼각비의 값(~p.33)",

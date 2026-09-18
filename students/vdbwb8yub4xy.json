@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-18T06:56:10.875Z",
+  "generatedAt": "2026-09-18T09:41:16.230Z",
   "student": {
     "id": "s_1783735663261_629qgf",
     "classes": [
@@ -16,33 +16,34 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1789561070712_qexp35",
-      "noteName": "이지우_수학의 왕도_평면좌표",
-      "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-09-18",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1789561120738_ojnj2y",
       "noteName": "이지우_수학의 왕도_직선의 방정식",
       "subject": "공통수학2",
       "round": 2,
       "plannedDate": "2026-09-18",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-18T09:41:08.539Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1789561070712_qexp35",
+      "noteName": "이지우_수학의 왕도_평면좌표",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-09-18",
+      "done": true,
+      "doneAt": "2026-09-18T09:41:07.447Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789561120738_ojnj2y",
       "noteName": "이지우_수학의 왕도_직선의 방정식",
@@ -70,8 +71,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 2,
-    "percent": 50,
+    "done": 4,
+    "percent": 100,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

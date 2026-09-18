@@ -1583,12 +1583,12 @@
     "cutsByExamKind": {},
     "averagesByExamKind": {},
     "notesByExamKind": {
-      "중간": "이차함수 y=a(x-p)^2 ~ 끝,"
+      "중간": "이차함수, 원과 직선"
     },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
     "teacher": "",
-    "textbookPublisher": "비상 (김원경)",
+    "textbookPublisher": "비상",
     "supplementaryBook": "",
     "extraNote": "",
     "studentInputEnabledByExamKind": {

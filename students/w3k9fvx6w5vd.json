@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-14T13:02:49.028Z",
+  "generatedAt": "2026-09-19T04:22:23.925Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -16,9 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1789199343191_m43ppu",
       "noteName": "지유진_교과서 미래엔",
@@ -31,6 +29,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1789199343191_m43ppu",

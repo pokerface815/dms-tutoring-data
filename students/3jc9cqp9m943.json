@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-19T04:22:32.163Z",
+  "generatedAt": "2026-09-19T04:37:05.457Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -560,6 +560,17 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
+    },
+    {
+      "assignmentId": "a_1789792612063_g7h7h4",
+      "noteName": "남옥빈_개념루트_도형의 이동(~351번)",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-09-19",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
     }
   ],
   "overdue": [],
@@ -591,9 +602,9 @@
     }
   ],
   "weekProgress": {
-    "total": 3,
+    "total": 4,
     "done": 1,
-    "percent": 33,
+    "percent": 25,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

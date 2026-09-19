@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-19T04:22:01.118Z",
+  "generatedAt": "2026-09-19T08:00:49.662Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -70,22 +70,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1787995303095_1ilaio",
       "noteName": "김규림_개념루트_미분계수와 도함수(~220번)",
       "subject": "미적분Ⅰ",
       "round": 4,
       "plannedDate": "2026-09-19",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-19T08:00:37.510Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789090762429_puyfrw",
       "noteName": "김규림_개념루트_전체_재오답",
@@ -433,24 +433,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1778926017708_ls6p14",
-      "noteName": "김규림_개념루트_사인법칙과 코사인법칙( ~ 595번)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-05-16",
-      "done": true,
-      "doneAt": "2026-05-17T08:09:15.017Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

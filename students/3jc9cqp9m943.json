@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-14T13:02:52.731Z",
+  "generatedAt": "2026-09-19T04:22:32.163Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -538,9 +538,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1789185294792_cko2vx",
       "noteName": "남옥빈_개념루트_원의 방정식(~275번)",
@@ -551,8 +549,21 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
+    },
+    {
+      "assignmentId": "a_1789791704456_fcoga1",
+      "noteName": "남옥빈_자이스토리 내신기출_~C.120",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-09-19",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1789185294792_cko2vx",
@@ -580,9 +591,9 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
+    "total": 3,
     "done": 1,
-    "percent": 50,
+    "percent": 33,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-15T17:19:21.792Z",
+  "generatedAt": "2026-09-19T04:22:02.734Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -116,7 +116,8 @@
         "videoTitle": "기하-2-11 직선과 평면이 이루는 각",
         "durationSec": 632,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-09-12T02:06:34.908Z"
+        "lastWatchedAt": "2026-09-12T02:06:34.908Z",
+        "watchedSec": 0
       },
       "YPadSZ_ftKQ": {
         "sessionCount": 1,
@@ -125,7 +126,8 @@
         "videoTitle": "기하-2-5 직선과 평면의 평행에 대한 성질",
         "durationSec": 1331,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-09-12T02:06:41.205Z"
+        "lastWatchedAt": "2026-09-12T02:06:41.205Z",
+        "watchedSec": 0
       },
       "7LtG4Dc90v8": {
         "sessionCount": 1,

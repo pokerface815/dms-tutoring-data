@@ -4745,5 +4745,39 @@
       }
     ],
     "createdAt": "2026-09-19T04:21:44.456Z"
+  },
+  {
+    "id": "a_1789792612063_g7h7h4",
+    "noteId": "note_1789792605141_7aqswo",
+    "noteName": "남옥빈_개념루트_도형의 이동(~351번)",
+    "studentId": "s_1784950950171_2ycwdo",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-21",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-10-10",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-19T04:36:52.063Z"
   }
 ]

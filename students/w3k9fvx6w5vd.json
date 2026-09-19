@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-19T04:22:23.925Z",
+  "generatedAt": "2026-09-19T08:00:54.887Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -16,22 +16,22 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1789199343191_m43ppu",
       "noteName": "지유진_교과서 미래엔",
       "subject": "미적분Ⅰ",
       "round": 3,
       "plannedDate": "2026-09-19",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-19T08:00:39.694Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789199343191_m43ppu",
       "noteName": "지유진_교과서 미래엔",
@@ -275,8 +275,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

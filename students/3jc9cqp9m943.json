@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-19T08:00:57.976Z",
+  "generatedAt": "2026-09-19T08:36:04.227Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -610,7 +610,14 @@
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },
-  "teacherConfirms": {},
+  "teacherConfirms": {
+    "a_1789185294792_cko2vx__3": {
+      "comment": "참 잘 했어요~~ㅋㅋ",
+      "commentAt": "2026-09-19T08:35:57.341Z",
+      "confirmed": true,
+      "confirmedAt": "2026-09-19T08:35:57.344Z"
+    }
+  },
   "tasks": [],
   "myGrades": []
 }

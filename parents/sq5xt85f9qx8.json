@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T06:51:55.269Z",
+  "generatedAt": "2026-09-19T04:22:30.588Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -45,15 +45,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 54~66쪽 81번 풀이 + 연속함수의 성질 + 최대 최소의 정리, 사잇값 정리(실근의 존재성)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mszyt67dgbk",
-        "startedAt": 1787136204285,
-        "seconds": 841,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
         "reflection": ""
       }
     ]

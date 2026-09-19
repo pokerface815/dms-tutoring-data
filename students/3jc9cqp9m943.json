@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-19T04:37:05.457Z",
+  "generatedAt": "2026-09-19T08:00:57.976Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -538,17 +538,21 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
-      "assignmentId": "a_1789185294792_cko2vx",
-      "noteName": "남옥빈_개념루트_원의 방정식(~275번)",
+      "assignmentId": "a_1789792612063_g7h7h4",
+      "noteName": "남옥빈_개념루트_도형의 이동(~351번)",
       "subject": "공통수학2",
-      "round": 3,
+      "round": 1,
       "plannedDate": "2026-09-19",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-19T08:00:42.413Z",
       "missed": false,
-      "missedAt": null
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1789791704456_fcoga1",
@@ -556,26 +560,24 @@
       "subject": "공통수학2",
       "round": 1,
       "plannedDate": "2026-09-19",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-19T08:00:41.763Z",
       "missed": false,
-      "missedAt": null
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
-      "assignmentId": "a_1789792612063_g7h7h4",
-      "noteName": "남옥빈_개념루트_도형의 이동(~351번)",
+      "assignmentId": "a_1789185294792_cko2vx",
+      "noteName": "남옥빈_개념루트_원의 방정식(~275번)",
       "subject": "공통수학2",
-      "round": 1,
+      "round": 3,
       "plannedDate": "2026-09-19",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-19T08:00:38.568Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789185294792_cko2vx",
       "noteName": "남옥빈_개념루트_원의 방정식(~275번)",
@@ -603,8 +605,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 1,
-    "percent": 25,
+    "done": 4,
+    "percent": 100,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

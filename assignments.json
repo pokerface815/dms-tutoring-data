@@ -4711,5 +4711,39 @@
       }
     ],
     "createdAt": "2026-09-16T23:00:04.791Z"
+  },
+  {
+    "id": "a_1789791704456_fcoga1",
+    "noteId": "note_1789791689716_lrk3gr",
+    "noteName": "남옥빈_자이스토리 내신기출_~C.120",
+    "studentId": "s_1784950950171_2ycwdo",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-21",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-10-10",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-19T04:21:44.456Z"
   }
 ]

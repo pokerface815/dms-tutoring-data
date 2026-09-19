@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-17T10:48:53.241Z",
+  "generatedAt": "2026-09-19T04:22:18.601Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -155,6 +155,17 @@
       "startedAt": 1786112120950,
       "createdAt": "2026-08-07T14:17:13.840Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mu6ya6f03k5",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이 (4,5단원 1등급 문제 제외)",
+      "reflection": "",
+      "seconds": 459,
+      "startedAt": 1789735361274,
+      "createdAt": "2026-09-18T12:44:19.068Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -269,6 +280,36 @@
         "lastPosition": 2178,
         "lastWatchedAt": "2026-08-07T14:17:53.456Z",
         "watchedSec": 205
+      },
+      "DvuupuqvEY8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq9a1wrhru",
+        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이_4,5단원 1등급 문제",
+        "durationSec": 4425,
+        "lastPosition": 1076,
+        "lastWatchedAt": "2026-09-18T12:42:40.055Z",
+        "watchedSec": 11
+      },
+      "Cz4u8BWoVj4": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq9a1wrhru",
+        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이 (4,5단원 1등급 문제 제외)",
+        "durationSec": 5463,
+        "lastPosition": 992,
+        "lastWatchedAt": "2026-09-18T12:50:54.303Z",
+        "watchedSec": 459
+      },
+      "0td5Yy0m5Y4": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq99fx1qmz",
+        "lectureTitle": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이 (4,5단원 1등급 문제 제외)",
+        "durationSec": 5678,
+        "lastPosition": 2930,
+        "lastWatchedAt": "2026-09-18T12:52:14.670Z",
+        "watchedSec": 9
       }
     },
     "daily": {
@@ -303,13 +344,16 @@
       },
       "2026-08-07": {
         "m9wVSEc3BX8": 205
+      },
+      "2026-09-18": {
+        "DvuupuqvEY8": 11,
+        "Cz4u8BWoVj4": 459,
+        "0td5Yy0m5Y4": 9
       }
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1789599604791_m6u5yk",
       "noteName": "박다인_올림포스 기출_05.접선의 방정식(~17번)",
@@ -322,6 +366,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1789599604791_m6u5yk",

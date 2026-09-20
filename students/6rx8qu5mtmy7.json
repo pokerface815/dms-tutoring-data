@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-20T02:29:09.578Z",
+  "generatedAt": "2026-09-20T04:42:27.518Z",
   "student": {
     "id": "s_1783741677433_iezolt",
     "classes": [
@@ -159,6 +159,17 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
+    },
+    {
+      "assignmentId": "a_1789879340748_z460hv",
+      "noteName": "박소이_수학의 왕도_원의 방정식",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-09-20",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
     }
   ],
   "overdue": [],
@@ -190,9 +201,9 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
+    "total": 3,
     "done": 1,
-    "percent": 50,
+    "percent": 33,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

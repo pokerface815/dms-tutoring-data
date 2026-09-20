@@ -4851,5 +4851,39 @@
       }
     ],
     "createdAt": "2026-09-20T04:42:20.748Z"
+  },
+  {
+    "id": "a_1789879421607_zq6abf",
+    "noteId": "note_1789879412327_vfzeof",
+    "noteName": "송시욱_개념루트_원의 방정식(186~201번)",
+    "studentId": "s_1783741639936_epkpt5",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-27",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-10-11",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-20T04:43:41.607Z"
   }
 ]

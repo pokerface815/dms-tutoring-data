@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-20T02:29:01.464Z",
+  "generatedAt": "2026-09-20T09:54:40.677Z",
   "student": {
     "id": "s_1779005266373_7iq1b8",
     "classes": [
@@ -16,22 +16,22 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1789288422558_3277iq",
       "noteName": "김시현_올림포스 기출_전체",
       "subject": "미적분Ⅰ",
       "round": 3,
       "plannedDate": "2026-09-20",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-20T09:54:27.771Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789288422558_3277iq",
       "noteName": "김시현_올림포스 기출_전체",
@@ -155,8 +155,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

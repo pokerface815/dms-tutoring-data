@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-19T08:00:56.445Z",
+  "generatedAt": "2026-09-20T06:17:33.987Z",
   "student": {
     "id": "s_1780833414231_dup17p",
     "classes": [
@@ -43,7 +43,19 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1789885047234_3ozwgm",
+      "noteName": "국보민_개념루트_미분계수와 도함수(211~264번)",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-09-20",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [],
   "completed": [
@@ -85,9 +97,9 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
+    "total": 3,
     "done": 2,
-    "percent": 100,
+    "percent": 67,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

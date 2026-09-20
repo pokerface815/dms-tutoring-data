@@ -1661,6 +1661,16 @@
     "studentInputEnabledByExamKind": {
       "중간": true,
       "기말": true
+    },
+    "pdfsByExamKind": {
+      "중간": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789905415/cyfofxtxgq1rbwansgyl.png",
+          "name": "경신 기하.png",
+          "type": "image",
+          "uploadedAt": "2026-09-20T11:56:55.728Z"
+        }
+      ]
     }
   }
 ]

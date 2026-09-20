@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-16T14:10:14.998Z",
+  "generatedAt": "2026-09-20T02:29:08.078Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -164,7 +164,19 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1789871325868_bp1zku",
+      "noteName": "박하윤_개념+유형 개념편_ ~집합 138쪽",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-09-20",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [],
   "completed": [
@@ -206,9 +218,9 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
+    "total": 2,
     "done": 1,
-    "percent": 100,
+    "percent": 50,
     "startDate": "2026-09-14",
     "endDate": "2026-09-20"
   },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-15T17:19:33.759Z",
+  "generatedAt": "2026-09-20T02:29:11.324Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -265,9 +265,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1789282219809_yhgv09",
       "noteName": "조해인_마더텅_함수의 연속(~57쪽 64번)",
@@ -280,6 +278,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1789282219809_yhgv09",

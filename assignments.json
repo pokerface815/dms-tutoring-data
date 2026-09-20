@@ -4823,5 +4823,33 @@
       }
     ],
     "createdAt": "2026-09-20T02:28:45.868Z"
+  },
+  {
+    "id": "a_1789879340748_z460hv",
+    "noteId": "note_1789879322498_j5m7ba",
+    "noteName": "박소이_수학의 왕도_원의 방정식",
+    "studentId": "s_1783741677433_iezolt",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-27",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-20T04:42:20.748Z"
   }
 ]

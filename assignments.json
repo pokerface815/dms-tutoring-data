@@ -4795,5 +4795,33 @@
       }
     ],
     "createdAt": "2026-09-19T04:36:52.063Z"
+  },
+  {
+    "id": "a_1789871325868_bp1zku",
+    "noteId": "note_1789871307210_7lgmh7",
+    "noteName": "박하윤_개념+유형 개념편_ ~집합 138쪽",
+    "studentId": "s_1783741551628_vw0d5m",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-27",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-20T02:28:45.868Z"
   }
 ]

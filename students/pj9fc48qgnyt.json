@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-15T17:19:26.528Z",
+  "generatedAt": "2026-09-20T02:29:04.821Z",
   "student": {
     "id": "s_1783145087770_b6wsph",
     "classes": [
@@ -39,9 +39,7 @@
     "daily": {}
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1789278666390_ejls4e",
       "noteName": "송린우_마더텅_함수의 극한(~45쪽 198번)",
@@ -54,6 +52,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1789278666390_ejls4e",

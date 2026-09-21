@@ -1,13 +1,27 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-08T13:19:39.245Z",
+  "generatedAt": "2026-09-21T00:48:50.721Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
     "name": "송시욱",
     "grade": "고1"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-09",
+      "label": "2026년 9월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 1,
+          "total": 1,
+          "percent": 100
+        }
+      }
+    }
+  ],
   "tests": [],
   "effortLogs": {
     "enabled": true,

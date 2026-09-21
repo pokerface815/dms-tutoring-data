@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T00:49:22.070Z",
+  "generatedAt": "2026-09-21T15:58:31.267Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-09",
       "label": "2026년 9월",
       "lessons": [
+        {
+          "date": "2026-09-21",
+          "weekday": "월",
+          "className": "조예나 개별",
+          "content": "오답노트 및 부교재 선별문항 풀이",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-09-20",
           "weekday": "일",
@@ -124,8 +136,8 @@
       "completionRate": null,
       "noteStages": {
         "1": {
-          "done": 3,
-          "total": 3,
+          "done": 4,
+          "total": 4,
           "percent": 100
         },
         "2": {
@@ -134,8 +146,8 @@
           "percent": 100
         },
         "3": {
-          "done": 3,
-          "total": 3,
+          "done": 4,
+          "total": 4,
           "percent": 100
         },
         "4": {

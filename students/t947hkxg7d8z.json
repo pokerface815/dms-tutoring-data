@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-16T14:10:11.996Z",
+  "generatedAt": "2026-09-21T00:47:44.821Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,9 +51,33 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1789390878938_hktl4a",
+      "noteName": "조예나_교과서 미래엔",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-09-21",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1788361818007_5y56d7",
+      "noteName": "조예나_올림포스 유형편_03.미분계수와 도함수",
+      "subject": "미적분Ⅰ",
+      "round": 4,
+      "plannedDate": "2026-09-24",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1789390878938_hktl4a",
@@ -417,11 +441,11 @@
     }
   ],
   "weekProgress": {
-    "total": 4,
-    "done": 4,
-    "percent": 100,
-    "startDate": "2026-09-14",
-    "endDate": "2026-09-20"
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-21",
+    "endDate": "2026-09-27"
   },
   "teacherConfirms": {
     "a_1779287559980_ge3q7f__3": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-20T09:54:49.479Z",
+  "generatedAt": "2026-09-21T00:49:06.798Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -218,11 +218,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-09-14",
-    "endDate": "2026-09-20"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-21",
+    "endDate": "2026-09-27"
   },
   "teacherConfirms": {},
   "tasks": [],

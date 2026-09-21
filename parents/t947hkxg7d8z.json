@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T23:00:50.629Z",
+  "generatedAt": "2026-09-21T00:47:46.415Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-09",
       "label": "2026년 9월",
       "lessons": [
+        {
+          "date": "2026-09-19",
+          "weekday": "토",
+          "className": "조예나 개별",
+          "content": "취약 유형 복습\n함수의 극한, 연속 진위 판별 문제",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-09-16",
           "weekday": "수",

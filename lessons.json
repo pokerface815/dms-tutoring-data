@@ -1099,5 +1099,16 @@
     "taskBatchId": null,
     "createdAt": "2026-09-21T00:48:08.980Z",
     "updatedAt": "2026-09-21T00:48:08.980Z"
+  },
+  {
+    "id": "lesson_1790006303970_d7rvaf",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-09-21",
+    "content": "오답노트 및 부교재 선별문항 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-09-21T15:58:23.970Z",
+    "updatedAt": "2026-09-21T15:58:23.970Z"
   }
 ]

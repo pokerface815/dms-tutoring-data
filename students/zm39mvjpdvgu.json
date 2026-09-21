@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T12:17:52.777Z",
+  "generatedAt": "2026-09-21T15:58:33.211Z",
   "student": {
     "id": "s_1780833414231_dup17p",
     "classes": [
@@ -44,9 +44,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1789885047234_3ozwgm",
       "noteName": "국보민_개념루트_미분계수와 도함수(211~264번)",
@@ -57,7 +55,10 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1789885047234_3ozwgm",
       "noteName": "국보민_개념루트_미분계수와 도함수(211~264번)",

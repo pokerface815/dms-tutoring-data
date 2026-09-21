@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T00:48:52.360Z",
+  "generatedAt": "2026-09-21T15:58:38.692Z",
   "student": {
     "id": "s_1783741677433_iezolt",
     "classes": [
@@ -148,9 +148,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1789879340748_z460hv",
       "noteName": "박소이_수학의 왕도_원의 방정식",
@@ -161,7 +159,10 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1789879340748_z460hv",
       "noteName": "박소이_수학의 왕도_원의 방정식",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T00:48:49.613Z",
+  "generatedAt": "2026-09-21T15:58:36.771Z",
   "student": {
     "id": "s_1783741639936_epkpt5",
     "classes": [
@@ -46,9 +46,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1789879421607_zq6abf",
       "noteName": "송시욱_개념루트_원의 방정식(186~201번)",
@@ -59,7 +57,10 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1789879421607_zq6abf",
       "noteName": "송시욱_개념루트_원의 방정식(186~201번)",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-19T08:00:51.563Z",
+  "generatedAt": "2026-09-21T00:47:55.424Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -355,7 +355,19 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1789599604791_m6u5yk",
+      "noteName": "박다인_올림포스 기출_05.접선의 방정식(~17번)",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-09-24",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1789599604791_m6u5yk",
@@ -719,11 +731,11 @@
     }
   ],
   "weekProgress": {
-    "total": 3,
-    "done": 3,
-    "percent": 100,
-    "startDate": "2026-09-14",
-    "endDate": "2026-09-20"
+    "total": 1,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-21",
+    "endDate": "2026-09-27"
   },
   "teacherConfirms": {},
   "tasks": [],

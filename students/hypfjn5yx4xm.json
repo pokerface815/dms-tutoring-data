@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-20T09:54:39.086Z",
+  "generatedAt": "2026-09-21T00:47:47.928Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -169,7 +169,19 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1788596104863_me5l3h",
+      "noteName": "이경주_올림포스 기출문제집_03.미분계수",
+      "subject": "미적분Ⅰ",
+      "round": 4,
+      "plannedDate": "2026-09-26",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1789289795408_92n1tv",
@@ -533,11 +545,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-09-14",
-    "endDate": "2026-09-20"
+    "total": 1,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-21",
+    "endDate": "2026-09-27"
   },
   "teacherConfirms": {
     "a_1779199815812_kc9oc2__3": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T00:49:14.465Z",
+  "generatedAt": "2026-09-21T12:17:28.370Z",
   "student": {
     "id": "s_1787570844823_nbqosc",
     "classes": [
@@ -118,7 +118,7 @@
       "method": "강의 시청",
       "content": "2024 1,2월 중3-2 개념원리 — 03. 임의의 예각의 삼각비의 값(~p.33)",
       "reflection": "",
-      "seconds": 2383,
+      "seconds": 2381,
       "startedAt": 1788906239233,
       "createdAt": "2026-09-08T22:24:59.905Z",
       "autoRecorded": true
@@ -166,19 +166,30 @@
       "startedAt": 1789680668455,
       "createdAt": "2026-09-17T21:32:20.720Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_muawd8vx35m",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-2 개념원리 — 05. 넓이구하기(~p.56)",
+      "reflection": "",
+      "seconds": 1588,
+      "startedAt": 1789973981898,
+      "createdAt": "2026-09-21T07:01:47.709Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
       "xc3kRwSvPd0": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_ms6ocqvgtdh",
         "lectureTitle": "중3-1 라이트쎈(26년 1~3월)",
         "videoTitle": "147~150쪽 이차함수의 일반형의 그래프",
         "durationSec": 3007,
         "lastPosition": 1692,
-        "lastWatchedAt": "2026-08-26T08:54:09.546Z",
+        "lastWatchedAt": "2026-08-26T08:54:09.551Z",
         "watchedSec": 1698
       },
       "mbPPlUSCv1c": {
@@ -242,7 +253,7 @@
         "watchedSec": 2737
       },
       "MUD4xRQMTx0": {
-        "sessionCount": 4,
+        "sessionCount": 3,
         "lectureId": "lec_mqoum7ssed7",
         "lectureTitle": "2024 1,2월 중3-2 개념원리",
         "videoTitle": "03. 임의의 예각의 삼각비의 값(~p.33)",
@@ -272,14 +283,14 @@
         "watchedSec": 655
       },
       "im_eTohOmXY": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqoum7ssed7",
         "lectureTitle": "2024 1,2월 중3-2 개념원리",
         "videoTitle": "05. 넓이구하기(~p.56)",
         "durationSec": 4639,
-        "lastPosition": 4510,
-        "lastWatchedAt": "2026-09-17T21:56:18.128Z",
-        "watchedSec": 1303
+        "lastPosition": 4638,
+        "lastWatchedAt": "2026-09-21T08:18:27.634Z",
+        "watchedSec": 2891
       }
     },
     "daily": {
@@ -309,6 +320,9 @@
       },
       "2026-09-18": {
         "im_eTohOmXY": 1303
+      },
+      "2026-09-21": {
+        "im_eTohOmXY": 1588
       }
     }
   },

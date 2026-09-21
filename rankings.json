@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T02:28:52.270Z",
+  "generatedAt": "2026-09-21T00:47:37.509Z",
   "studentCount": 55,
   "rankings": [
     {
@@ -84,7 +84,7 @@
       "id": "s_1778402500926_7fxigp",
       "name": "정찬민",
       "totalSec": 7001,
-      "weekSec": 2646,
+      "weekSec": 0,
       "monthSec": 2646,
       "recent3mSec": 7001,
       "streak": 0,
@@ -95,7 +95,7 @@
       "id": "s_1778404886523_0ag055",
       "name": "박다인",
       "totalSec": 23186,
-      "weekSec": 459,
+      "weekSec": 0,
       "monthSec": 459,
       "recent3mSec": 23186,
       "streak": 0,
@@ -579,7 +579,7 @@
       "id": "s_1787570844823_nbqosc",
       "name": "신다은",
       "totalSec": 19444,
-      "weekSec": 1303,
+      "weekSec": 0,
       "monthSec": 10992,
       "recent3mSec": 19444,
       "streak": 0,

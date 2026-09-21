@@ -1077,5 +1077,16 @@
     "taskBatchId": null,
     "createdAt": "2026-09-16T14:09:38.049Z",
     "updatedAt": "2026-09-16T14:09:38.049Z"
+  },
+  {
+    "id": "lesson_1789951650394_lkh3w7",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-09-19",
+    "content": "취약 유형 복습\n함수의 극한, 연속 진위 판별 문제",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-09-21T00:47:30.394Z",
+    "updatedAt": "2026-09-21T00:47:30.394Z"
   }
 ]

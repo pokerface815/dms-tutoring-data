@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T00:49:05.669Z",
+  "generatedAt": "2026-09-21T12:22:01.471Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -538,30 +538,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1789791704456_fcoga1",
-      "noteName": "남옥빈_자이스토리 내신기출_~C.120",
-      "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-09-21",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
-      "assignmentId": "a_1789792612063_g7h7h4",
-      "noteName": "남옥빈_개념루트_도형의 이동(~351번)",
-      "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-09-21",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -588,6 +565,30 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1789792612063_g7h7h4",
+      "noteName": "남옥빈_개념루트_도형의 이동(~351번)",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-09-21",
+      "done": true,
+      "doneAt": "2026-09-21T12:21:49.274Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1789791704456_fcoga1",
+      "noteName": "남옥빈_자이스토리 내신기출_~C.120",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-09-21",
+      "done": true,
+      "doneAt": "2026-09-21T12:21:47.747Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789792612063_g7h7h4",
       "noteName": "남옥빈_개념루트_도형의 이동(~351번)",
@@ -651,8 +652,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 0,
-    "percent": 0,
+    "done": 2,
+    "percent": 50,
     "startDate": "2026-09-21",
     "endDate": "2026-09-27"
   },

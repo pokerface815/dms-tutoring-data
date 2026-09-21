@@ -1088,5 +1088,16 @@
     "taskBatchId": null,
     "createdAt": "2026-09-21T00:47:30.394Z",
     "updatedAt": "2026-09-21T00:47:30.394Z"
+  },
+  {
+    "id": "lesson_1789951688980_z7hs6p",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-09-20",
+    "content": "부교재 전체 선별문항 프린트",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-09-21T00:48:08.980Z",
+    "updatedAt": "2026-09-21T00:48:08.980Z"
   }
 ]

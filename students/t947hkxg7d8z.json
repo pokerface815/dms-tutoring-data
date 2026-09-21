@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T12:17:55.633Z",
+  "generatedAt": "2026-09-21T12:21:59.550Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,30 +51,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1789390878938_hktl4a",
-      "noteName": "조예나_교과서 미래엔",
-      "subject": "미적분Ⅰ",
-      "round": 3,
-      "plannedDate": "2026-09-21",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
-      "assignmentId": "a_1789993041699_6i6m9b",
-      "noteName": "조예나_RPM_2.함수의 연속",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-09-21",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -101,6 +78,30 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1789993041699_6i6m9b",
+      "noteName": "조예나_RPM_2.함수의 연속",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-09-21",
+      "done": true,
+      "doneAt": "2026-09-21T12:21:53.046Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1789390878938_hktl4a",
+      "noteName": "조예나_교과서 미래엔",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-09-21",
+      "done": true,
+      "doneAt": "2026-09-21T12:21:47.147Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789390878938_hktl4a",
       "noteName": "조예나_교과서 미래엔",
@@ -436,36 +437,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1780325196252_vl7pxy",
-      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-08",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:30.088Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1780325196252_vl7pxy",
-      "noteName": "조예나_올림포스 유형편_등차수열과 등비수열( ~고난도3번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-06-03",
-      "done": true,
-      "doneAt": "2026-06-14T01:48:29.623Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 4,
-    "done": 0,
-    "percent": 0,
+    "done": 2,
+    "percent": 50,
     "startDate": "2026-09-21",
     "endDate": "2026-09-27"
   },

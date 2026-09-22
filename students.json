@@ -1668,5 +1668,40 @@
         "to": null
       }
     ]
+  },
+  {
+    "id": "s_1790074374851_96xx1y",
+    "name": "장하늘",
+    "school": "경신여고",
+    "grade": "고1",
+    "classes": [
+      "cls_1790074357169_fmjal9"
+    ],
+    "memo": "",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "studentPhone": "010-9679-6785",
+    "parentPhone": "",
+    "notifyStudent": true,
+    "notifyParent": true,
+    "showCompletionRate": true,
+    "showTestResults": true,
+    "showNoteStages": true,
+    "showMakeNote": true,
+    "pageCode": "httmhsxzhjqp",
+    "classHistory": [
+      {
+        "classId": "cls_1790074357169_fmjal9",
+        "from": "2026-09-22",
+        "to": null
+      }
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T15:58:36.771Z",
+  "generatedAt": "2026-09-22T15:31:11.378Z",
   "student": {
     "id": "s_1783741639936_epkpt5",
     "classes": [
@@ -46,19 +46,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1789879421607_zq6abf",
-      "noteName": "송시욱_개념루트_원의 방정식(186~201번)",
-      "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-09-22",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -78,6 +66,18 @@
       "assignmentId": "a_1789879421607_zq6abf",
       "noteName": "송시욱_개념루트_원의 방정식(186~201번)",
       "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-09-22",
+      "done": true,
+      "doneAt": "2026-09-22T15:30:43.115Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1789879421607_zq6abf",
+      "noteName": "송시욱_개념루트_원의 방정식(186~201번)",
+      "subject": "공통수학2",
       "round": 1,
       "plannedDate": "2026-09-20",
       "done": true,
@@ -89,8 +89,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-09-21",
     "endDate": "2026-09-27"
   },

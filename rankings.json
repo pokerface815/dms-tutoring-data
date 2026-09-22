@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T12:17:40.625Z",
-  "studentCount": 55,
+  "generatedAt": "2026-09-22T10:53:04.838Z",
+  "studentCount": 56,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -600,6 +600,17 @@
     {
       "id": "s_1788060919633_kwwkkl",
       "name": "안나현",
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "recent3mSec": 0,
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
+      "id": "s_1790074374851_96xx1y",
+      "name": "장하늘",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,

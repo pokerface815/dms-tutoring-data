@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-22T10:53:10.608Z",
+  "student": {
+    "id": "s_1790074374851_96xx1y",
+    "classes": [
+      "cls_1790074357169_fmjal9"
+    ],
+    "name": "장하늘",
+    "school": "경신여고",
+    "grade": "고1",
+    "class": "",
+    "showMakeNote": true
+  },
+  "syncedEffortLogs": null,
+  "syncedEffortDeletedIds": null,
+  "syncedLectureWatch": null,
+  "syncedLectureDeletedVideoIds": null,
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [],
+  "weekProgress": {
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-21",
+    "endDate": "2026-09-27"
+  },
+  "teacherConfirms": {},
+  "tasks": [],
+  "myGrades": []
+}

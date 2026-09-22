@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-30T03:35:28.631Z",
+  "generatedAt": "2026-09-22T10:53:06.538Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 55,
+  "studentCount": 56,
   "baseUrl": "",
   "students": [
     {
@@ -499,6 +499,15 @@
       "className": "토,일 12시 30분",
       "studentPageCode": "rztzhcetvx9w",
       "parentPageCode": "rztzhcetvx9w"
+    },
+    {
+      "id": "s_1790074374851_96xx1y",
+      "name": "장하늘",
+      "grade": "고1",
+      "school": "경신여고",
+      "className": "장하늘 개인",
+      "studentPageCode": "httmhsxzhjqp",
+      "parentPageCode": "httmhsxzhjqp"
     }
   ]
 }

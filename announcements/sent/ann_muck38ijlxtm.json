@@ -1,0 +1,16 @@
+{
+  "id": "ann_muck38ijlxtm",
+  "sentAt": "2026-09-22T19:53:50.962936+09:00",
+  "target": "student",
+  "message": "(페이지 링크 발송)",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "장하늘",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T15:58:34.869Z",
+  "generatedAt": "2026-09-22T15:31:08.007Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -164,19 +164,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1789871325868_bp1zku",
-      "noteName": "박하윤_개념+유형 개념편_ ~집합 138쪽",
-      "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-09-22",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -192,6 +180,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1789871325868_bp1zku",
+      "noteName": "박하윤_개념+유형 개념편_ ~집합 138쪽",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-09-22",
+      "done": true,
+      "doneAt": "2026-09-22T15:30:41.243Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789871325868_bp1zku",
       "noteName": "박하윤_개념+유형 개념편_ ~집합 138쪽",
@@ -243,8 +243,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-09-21",
     "endDate": "2026-09-27"
   },

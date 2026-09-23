@@ -1400,6 +1400,30 @@
         "title": "186~195쪽 속도와 가속도",
         "position": 12,
         "durationSec": 4501
+      },
+      {
+        "videoId": "JxzPzzpNzew",
+        "title": "200~215쪽(개념루트) 부정적분",
+        "position": 13,
+        "durationSec": 2230
+      },
+      {
+        "videoId": "9uxXNH4fUT8",
+        "title": "220~231쪽(개념루트) 정적분",
+        "position": 14,
+        "durationSec": 2515
+      },
+      {
+        "videoId": "jNwrnSQMusc",
+        "title": "232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "position": 15,
+        "durationSec": 1035
+      },
+      {
+        "videoId": "O3ZpodBk5B8",
+        "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
+        "position": 16,
+        "durationSec": 1348
       }
     ],
     "permissions": {
@@ -1408,8 +1432,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-09-13T02:22:02.968Z",
-    "lastSyncedAt": "2026-09-13T02:22:02.968Z"
+    "updatedAt": "2026-09-23T18:50:51.163Z",
+    "lastSyncedAt": "2026-09-23T18:50:51.163Z"
   },
   {
     "id": "lec_mrq99fx1qmz",
@@ -1473,61 +1497,49 @@
         "videoId": "Mem_ygTXPbc",
         "title": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
         "position": 8,
-        "durationSec": 6868,
-        "materials": [
-          {
-            "name": "올림포스 기출_01.함수의 극한_8월21,22일_compressed.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311818/ydsshusyt3eqtzs5tbie.pdf",
-            "publicId": "ydsshusyt3eqtzs5tbie",
-            "resourceType": "image",
-            "uploadedAt": "2026-09-13T15:03:38.601Z"
-          }
-        ]
+        "durationSec": 6868
       },
       {
         "videoId": "34YQNYlPaB8",
         "title": "프린트 \"올림포스 기출_02.함수의 연속\" 풀이",
         "position": 9,
-        "durationSec": 6156,
-        "materials": [
-          {
-            "name": "올림포스 기출_02.함수의 연속_8월 29,30일_compressed.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311831/ycj4e1roxltijfx0ezou.pdf",
-            "publicId": "ycj4e1roxltijfx0ezou",
-            "resourceType": "image",
-            "uploadedAt": "2026-09-13T15:03:52.238Z"
-          }
-        ]
+        "durationSec": 6156
       },
       {
         "videoId": "0td5Yy0m5Y4",
         "title": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이 (4,5단원 1등급 문제 제외)",
         "position": 10,
-        "durationSec": 5678,
-        "materials": [
-          {
-            "name": "올림포스 기출_03.미분계수~05.접선의 방정식 _compressed.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311838/dmyexyog3girrhprsvke.pdf",
-            "publicId": "dmyexyog3girrhprsvke",
-            "resourceType": "image",
-            "uploadedAt": "2026-09-13T15:03:59.343Z"
-          }
-        ]
+        "durationSec": 5678
       },
       {
         "videoId": "DvuupuqvEY8",
         "title": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이_4,5단원 1등급 문제",
         "position": 11,
-        "durationSec": 4425,
-        "materials": [
-          {
-            "name": "올림포스 기출_03.미분계수~05.접선의 방정식 _compressed.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311848/lsgtjmphfhhrv4awfisy.pdf",
-            "publicId": "lsgtjmphfhhrv4awfisy",
-            "resourceType": "image",
-            "uploadedAt": "2026-09-13T15:04:08.789Z"
-          }
-        ]
+        "durationSec": 4425
+      },
+      {
+        "videoId": "JxzPzzpNzew",
+        "title": "200~215쪽(개념루트) 부정적분",
+        "position": 12,
+        "durationSec": 2230
+      },
+      {
+        "videoId": "9uxXNH4fUT8",
+        "title": "220~231쪽(개념루트) 정적분",
+        "position": 13,
+        "durationSec": 2515
+      },
+      {
+        "videoId": "jNwrnSQMusc",
+        "title": "232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "position": 14,
+        "durationSec": 1035
+      },
+      {
+        "videoId": "O3ZpodBk5B8",
+        "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
+        "position": 15,
+        "durationSec": 1348
       }
     ],
     "permissions": {
@@ -1536,8 +1548,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-09-13T15:04:08.789Z",
-    "lastSyncedAt": "2026-09-13T11:45:42.317Z"
+    "updatedAt": "2026-09-23T18:50:54.501Z",
+    "lastSyncedAt": "2026-09-23T18:50:54.501Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1601,61 +1613,49 @@
         "videoId": "wv3zq-MHNEg",
         "title": "프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
         "position": 8,
-        "durationSec": 6107,
-        "materials": [
-          {
-            "name": "올림포스 기출_01.함수의 극한_8월21,22일_compressed.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311864/unoviay9gfpktjuhqupk.pdf",
-            "publicId": "unoviay9gfpktjuhqupk",
-            "resourceType": "image",
-            "uploadedAt": "2026-09-13T15:04:25.476Z"
-          }
-        ]
+        "durationSec": 6107
       },
       {
         "videoId": "7LtG4Dc90v8",
         "title": "프린트 \"올림포스 기출_02.함수의 연속\" 풀이",
         "position": 9,
-        "durationSec": 3052,
-        "materials": [
-          {
-            "name": "올림포스 기출_02.함수의 연속_8월 29,30일_compressed.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311871/ep2e64kknr5ec5odglra.pdf",
-            "publicId": "ep2e64kknr5ec5odglra",
-            "resourceType": "image",
-            "uploadedAt": "2026-09-13T15:04:32.533Z"
-          }
-        ]
+        "durationSec": 3052
       },
       {
         "videoId": "Cz4u8BWoVj4",
         "title": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이 (4,5단원 1등급 문제 제외)",
         "position": 10,
-        "durationSec": 5463,
-        "materials": [
-          {
-            "name": "올림포스 기출_03.미분계수~05.접선의 방정식 _compressed.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311895/diwr2ov9gxx4avdm5pql.pdf",
-            "publicId": "diwr2ov9gxx4avdm5pql",
-            "resourceType": "image",
-            "uploadedAt": "2026-09-13T15:04:55.775Z"
-          }
-        ]
+        "durationSec": 5463
       },
       {
         "videoId": "DvuupuqvEY8",
         "title": "프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이_4,5단원 1등급 문제",
         "position": 11,
-        "durationSec": 4425,
-        "materials": [
-          {
-            "name": "올림포스 기출_03.미분계수~05.접선의 방정식 _compressed.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789311906/k8whz05jkkkvgaweqnuh.pdf",
-            "publicId": "k8whz05jkkkvgaweqnuh",
-            "resourceType": "image",
-            "uploadedAt": "2026-09-13T15:05:06.533Z"
-          }
-        ]
+        "durationSec": 4425
+      },
+      {
+        "videoId": "JxzPzzpNzew",
+        "title": "200~215쪽(개념루트) 부정적분",
+        "position": 12,
+        "durationSec": 2230
+      },
+      {
+        "videoId": "9uxXNH4fUT8",
+        "title": "220~231쪽(개념루트) 정적분",
+        "position": 13,
+        "durationSec": 2515
+      },
+      {
+        "videoId": "jNwrnSQMusc",
+        "title": "232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "position": 14,
+        "durationSec": 1035
+      },
+      {
+        "videoId": "O3ZpodBk5B8",
+        "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
+        "position": 15,
+        "durationSec": 1348
       }
     ],
     "permissions": {
@@ -1664,8 +1664,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-09-13T15:05:06.533Z",
-    "lastSyncedAt": "2026-09-13T11:45:45.817Z"
+    "updatedAt": "2026-09-23T18:50:58.503Z",
+    "lastSyncedAt": "2026-09-23T18:50:58.503Z"
   },
   {
     "id": "lec_mqkscmibfht",

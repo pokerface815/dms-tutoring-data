@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T00:47:55.424Z",
+  "generatedAt": "2026-09-23T18:51:14.369Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -353,9 +353,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1789599604791_m6u5yk",
       "noteName": "박다인_올림포스 기출_05.접선의 방정식(~17번)",
@@ -368,6 +366,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1789599604791_m6u5yk",

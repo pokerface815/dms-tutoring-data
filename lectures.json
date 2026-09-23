@@ -1770,6 +1770,30 @@
         "title": "135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
         "position": 15,
         "durationSec": 6826
+      },
+      {
+        "videoId": "9uxXNH4fUT8",
+        "title": "220~231쪽(개념루트) 정적분",
+        "position": 16,
+        "durationSec": 2515
+      },
+      {
+        "videoId": "JxzPzzpNzew",
+        "title": "200~215쪽(개념루트) 부정적분",
+        "position": 17,
+        "durationSec": 2230
+      },
+      {
+        "videoId": "O3ZpodBk5B8",
+        "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
+        "position": 18,
+        "durationSec": 1348
+      },
+      {
+        "videoId": "jNwrnSQMusc",
+        "title": "232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "position": 19,
+        "durationSec": 1035
       }
     ],
     "permissions": {
@@ -1778,8 +1802,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-19T10:28:12.659Z",
-    "updatedAt": "2026-08-24T12:49:06.153Z",
-    "lastSyncedAt": "2026-08-24T12:49:06.153Z",
+    "updatedAt": "2026-09-23T18:53:19.244Z",
+    "lastSyncedAt": "2026-09-23T18:53:19.244Z",
     "textbook": "개념+유형",
     "memo": ""
   },

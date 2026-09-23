@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T15:03:50.715Z",
+  "generatedAt": "2026-09-23T11:19:32.902Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -42,15 +42,6 @@
         "id": "effort_mtbh74hr1ir",
         "startedAt": 1787832237193,
         "seconds": 2476,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 프린트 \"올림포스 기출_01.함수의 극한\" 풀이",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mt74s4pmk9t",
-        "startedAt": 1787569406251,
-        "seconds": 1623,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 프린트 \"올림포스 기출_01.함수의 극한\" 풀이",

@@ -1,13 +1,27 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T10:53:12.326Z",
+  "generatedAt": "2026-09-23T18:51:20.524Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
     "name": "장하늘",
     "grade": "고1"
   },
-  "months": [],
+  "months": [
+    {
+      "ym": "2026-09",
+      "label": "2026년 9월",
+      "lessons": [],
+      "completionRate": null,
+      "noteStages": {
+        "1": {
+          "done": 0,
+          "total": 1,
+          "percent": 0
+        }
+      }
+    }
+  ],
   "tests": [],
   "effortLogs": null,
   "academyEvents": [

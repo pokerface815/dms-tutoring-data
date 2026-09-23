@@ -1685,7 +1685,9 @@
     "notesByExamKind": {
       "중간": "도형의 방정식, 집합 전체"
     },
-    "examInfoByExamKind": {},
+    "examInfoByExamKind": {
+      "중간": "교과서, 부교재, 23~25년 9월 모의(시험 범위 해당)"
+    },
     "commentsByExamKind": {},
     "teacher": "",
     "textbookPublisher": "비상",

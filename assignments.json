@@ -4985,5 +4985,33 @@
       }
     ],
     "createdAt": "2026-09-21T12:17:21.699Z"
+  },
+  {
+    "id": "a_1790171825608_vtvg3u",
+    "noteId": "note_1790171813012_p2h32d",
+    "noteName": "장하늘_완자 기출픽_평면좌표(~17쪽 66번)",
+    "studentId": "s_1790074374851_96xx1y",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-25",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-09-30",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-23T13:57:05.608Z"
   }
 ]

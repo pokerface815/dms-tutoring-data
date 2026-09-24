@@ -9247,7 +9247,7 @@ function updateDiffHideUI() {
   document.getElementById('u_diff').disabled = diffHide;
 }
 
-// ===== Enter 키로 "저장 후 다음 문제" =====
+// ===== Enter 키로 "저장" =====
 document.addEventListener('keydown', (e) => {
   // 단일 사진 뷰어가 가장 우선 (가장 위에 떠 있으므로)
   const singleViewer = document.getElementById('singlePhotoViewer');
@@ -9373,7 +9373,7 @@ document.addEventListener('keydown', (e) => {
   e.preventDefault();
   // 기본 포커스 해제 (input의 변경을 확정시킴)
   if (ae && typeof ae.blur === 'function') ae.blur();
-  saveProblemAndNext();
+  saveProblem();
 });
 
 // ===== 클립보드 붙여넣기 =====

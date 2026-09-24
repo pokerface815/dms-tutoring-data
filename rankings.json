@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T15:30:59.099Z",
-  "studentCount": 56,
+  "generatedAt": "2026-09-24T02:22:45.937Z",
+  "studentCount": 49,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -312,30 +312,8 @@
       "publicNickname": false
     },
     {
-      "id": "s_1780833047673_dy7d3f",
-      "name": "조은별",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
       "id": "s_1780833414231_dup17p",
       "name": "국보민",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1783141077746_ni5332",
-      "name": "손아현",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
@@ -411,17 +389,6 @@
       "publicNickname": false
     },
     {
-      "id": "s_1783736188808_37ty47",
-      "name": "박현진",
-      "totalSec": 7052,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 7052,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
       "id": "s_1783741551628_vw0d5m",
       "name": "박하윤",
       "totalSec": 7206,
@@ -472,17 +439,6 @@
       "weekSec": 0,
       "monthSec": 7126,
       "recent3mSec": 19820,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1784351071584_hs9hej",
-      "name": "손예서",
-      "totalSec": 7519,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 7519,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -543,17 +499,6 @@
       "publicNickname": false
     },
     {
-      "id": "s_1785155932586_9cmims",
-      "name": "이지호",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
       "id": "s_1786082844440_z9486d",
       "name": "남경원",
       "totalSec": 4824,
@@ -582,28 +527,6 @@
       "weekSec": 1588,
       "monthSec": 12578,
       "recent3mSec": 21030,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1787652322129_vt0acc",
-      "name": "문현승",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1788060919633_kwwkkl",
-      "name": "안나현",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

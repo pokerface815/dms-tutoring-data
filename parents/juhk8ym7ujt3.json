@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T15:30:51.866Z",
+  "generatedAt": "2026-09-25T10:28:04.185Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -128,33 +128,6 @@
         "subject": "중3",
         "method": "강의 시청",
         "content": "2024 1,2월 중3-1 개념원리 — 12. 이차함수의 그래프(~p.193)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mt9ux1ab9k8",
-        "startedAt": 1787734345506,
-        "seconds": 96,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "중3-1 라이트쎈(26년 1~3월) — 147~150쪽 이차함수의 일반형의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mt9963bt6xc",
-        "startedAt": 1787697825764,
-        "seconds": 1561,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "중3-1 라이트쎈(26년 1~3월) — 147~150쪽 이차함수의 일반형의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mt98t2i8rda",
-        "startedAt": 1787697212067,
-        "seconds": 584,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "중3-1 라이트쎈(26년 1~3월) — 146~147쪽 이차함수의 일반형의 그래프",
         "reflection": ""
       }
     ]

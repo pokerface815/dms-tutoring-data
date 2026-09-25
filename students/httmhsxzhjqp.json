@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-23T18:51:18.570Z",
+  "generatedAt": "2026-09-25T10:28:06.349Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -16,21 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [
-    {
-      "assignmentId": "a_1790171825608_vtvg3u",
-      "noteName": "장하늘_완자 기출픽_평면좌표(~17쪽 66번)",
-      "subject": "공통수학2",
-      "round": 1,
-      "plannedDate": "2026-09-23",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1790171825608_vtvg3u",
       "noteName": "장하늘_완자 기출픽_평면좌표(~17쪽 66번)",
@@ -43,11 +29,26 @@
       "missedAt": null
     }
   ],
-  "completed": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
+    {
+      "assignmentId": "a_1790171825608_vtvg3u",
+      "noteName": "장하늘_완자 기출픽_평면좌표(~17쪽 66번)",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-09-23",
+      "done": true,
+      "doneAt": "2026-09-25T10:27:38.067Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    }
+  ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-09-21",
     "endDate": "2026-09-27"
   },

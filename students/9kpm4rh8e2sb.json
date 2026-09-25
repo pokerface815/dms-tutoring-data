@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-23T18:51:14.369Z",
+  "generatedAt": "2026-09-25T10:27:52.749Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -353,22 +353,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1789599604791_m6u5yk",
       "noteName": "박다인_올림포스 기출_05.접선의 방정식(~17번)",
       "subject": "미적분Ⅰ",
       "round": 3,
       "plannedDate": "2026-09-24",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-25T10:27:37.244Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789599604791_m6u5yk",
       "noteName": "박다인_올림포스 기출_05.접선의 방정식(~17번)",
@@ -716,24 +716,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1778404955321_ulqgty",
-      "noteName": "박다인_수매씽 유형_06. 삼각함수의 그래프",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-05-11",
-      "done": true,
-      "doneAt": "2026-05-11T12:06:49.322Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-09-21",
     "endDate": "2026-09-27"
   },

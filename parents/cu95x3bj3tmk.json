@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-11T07:16:25.720Z",
+  "generatedAt": "2026-09-25T10:27:56.573Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -481,39 +481,20 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_mt9v5ytsayq",
-        "startedAt": 1787734775855,
-        "seconds": 324,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 95~107쪽 점과 직선에 대한 대칭이동, 집합",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mt9u94svu55",
-        "startedAt": 1787733244637,
-        "seconds": 1658,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업 — 89~94쪽 대칭이동",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",
-      "date": "2026-08-01",
       "type": "closed",
+      "date": "2026-08-01",
+      "endDate": "2026-08-05",
       "title": "학원 방학",
-      "images": [],
+      "content": "",
       "target": {
         "kind": "all"
       },
-      "content": "",
-      "endDate": "2026-08-05",
+      "images": [],
       "createdAt": "2026-07-07T09:05:29.025Z",
       "updatedAt": "2026-07-07T09:38:04.506Z"
     }

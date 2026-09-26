@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T15:58:40.547Z",
+  "generatedAt": "2026-09-26T07:12:57.633Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -78,24 +78,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 150~159쪽 일차부등식, 연립일차부등식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mta19hotlhe",
-        "startedAt": 1787744994628,
-        "seconds": 1426,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 150~159쪽 일차부등식, 연립일차부등식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mt9zl5ay8b1",
-        "startedAt": 1787742020612,
-        "seconds": 2149,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 143~145쪽 부정방정식",
         "reflection": ""
       }
     ]

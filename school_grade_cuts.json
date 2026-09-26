@@ -1141,7 +1141,9 @@
     "subject": "미적분1",
     "cutsByExamKind": {},
     "averagesByExamKind": {},
-    "notesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "함수의 극한, 연속, 미분계수와 도함수, 접선의 방정식, 평균값 정리"
+    },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
     "teacher": "",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-26T14:34:31.292Z",
+  "generatedAt": "2026-09-26T14:35:07.813Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -29,21 +29,21 @@
       "missedAt": null
     }
   ],
-  "overdue": [
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1790171825608_vtvg3u",
       "noteName": "장하늘_완자 기출픽_평면좌표(~17쪽 66번)",
       "subject": "공통수학2",
       "round": 2,
       "plannedDate": "2026-09-25",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-26T14:35:00.881Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1790171825608_vtvg3u",
       "noteName": "장하늘_완자 기출픽_평면좌표(~17쪽 66번)",
@@ -59,8 +59,8 @@
   ],
   "weekProgress": {
     "total": 3,
-    "done": 1,
-    "percent": 33,
+    "done": 2,
+    "percent": 67,
     "startDate": "2026-09-21",
     "endDate": "2026-09-27"
   },

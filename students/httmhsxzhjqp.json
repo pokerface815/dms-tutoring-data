@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-25T10:28:06.349Z",
+  "generatedAt": "2026-09-26T07:12:59.255Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -16,7 +16,8 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [
     {
       "assignmentId": "a_1790171825608_vtvg3u",
       "noteName": "장하늘_완자 기출픽_평면좌표(~17쪽 66번)",
@@ -29,7 +30,6 @@
       "missedAt": null
     }
   ],
-  "overdue": [],
   "upcoming": [],
   "completed": [
     {

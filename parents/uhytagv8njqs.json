@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T10:27:47.148Z",
+  "generatedAt": "2026-09-27T03:55:58.267Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -175,15 +175,27 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-07-26T07:25:39.623Z",
+    "uploadedAt": "2026-09-27T03:18:31.048Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "todaySec": 2286,
+      "weekSec": 2286,
+      "monthSec": 2286,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 2286
+      }
     },
-    "logs": []
+    "logs": [
+      {
+        "id": "effort_muj7mpkmvh7",
+        "startedAt": 1790476692358,
+        "seconds": 2286,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 200~215쪽(개념루트) 부정적분",
+        "reflection": ""
+      }
+    ]
   },
   "academyEvents": [
     {

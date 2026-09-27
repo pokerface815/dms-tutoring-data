@@ -9800,8 +9800,21 @@ async function toggleFavorite(id) {
   const p = problems.find(x => x.id === id);
   if (!p) return;
   p.favorite = !p.favorite;
-  if (window.__cloudMode && typeof cloudUpsertProblem === 'function') {
-    try { await cloudUpsertProblem(p); } catch (e) { console.warn('즐겨찾기 클라우드 저장 실패', e); }
+  if (window.__cloudMode) {
+    // 계정별 개인 즐겨찾기: problem_favorites 테이블에 저장(문제 행/공유와 무관)
+    try {
+      var sb = window.sbClient; var uid = window.currentUser && window.currentUser.id;
+      if (!window.__myFavSet) window.__myFavSet = new Set();
+      if (p.favorite) {
+        window.__myFavSet.add(id);
+        var ir = await sb.from('problem_favorites').upsert({ user_id: uid, problem_id: id }, { onConflict: 'user_id,problem_id' });
+        if (ir.error) throw new Error(ir.error.message);
+      } else {
+        window.__myFavSet.delete(id);
+        var dr = await sb.from('problem_favorites').delete().eq('user_id', uid).eq('problem_id', id);
+        if (dr.error) throw new Error(dr.error.message);
+      }
+    } catch (e) { console.warn('즐겨찾기 클라우드 저장 실패', e); }
   } else {
     await saveIndex();
   }
@@ -32564,23 +32577,36 @@ document.addEventListener('DOMContentLoaded', function(){
     if(window.__cloudMode){ alert('백필은 "로컬 폴더를 연 상태"에서 실행하세요. (로컬 원본을 온라인에 반영)'); return; }
     if(typeof problems==='undefined'||!problems||!problems.length){ alert('로컬 폴더를 열고 실행하세요.'); return; }
     if(!confirm('로컬의 유형·크기·즐겨찾기를 온라인 문제에 반영(백필)합니다.\n계속할까요?')) return;
+    var uid = window.currentUser.id;
     var targets=problems.filter(function(p){ return p&&p.id; });
     prog('백필 점검 '+targets.length+'개...'); log('--- 백필(유형·크기·즐겨찾기) 시작 ---');
     var ok=0, fail=0, done=0;
+    var favRows=[];   // 즐겨찾기는 계정별 problem_favorites 로 반영(공유 안 됨)
     for(var i=0;i<targets.length;i++){
       var p=targets[i]; var upd={};
       var pat=(p.pattern!=null&&p.pattern!=='')?p.pattern:(p.type||'');
       if(pat) upd.type=pat;
       if(p.size&&String(p.size).trim()!==''&&String(p.size)!=='1x1') upd.size=String(p.size);
-      if(p.favorite) upd.favorite=true;
+      if(p.favorite) favRows.push({ user_id: uid, problem_id: p.id });
       if(Object.keys(upd).length===0) continue;
       done++; prog('백필 반영 '+done+' (성공 '+ok+', 실패 '+fail+')');
       try{ var r=await sb.from('problems').update(upd).eq('id',p.id); if(r.error) throw new Error(r.error.message); ok++; if(ok%50===0) log('...'+ok+'개 완료'); }
       catch(e){ fail++; log('실패 '+(p&&p.id)+': '+e.message); }
     }
-    prog('백필 완료: 반영 '+ok+'개'+(fail?(', 실패 '+fail+'개'):'')+' (점검 '+targets.length+'개)');
-    log('=== 백필 완료: 성공 '+ok+', 실패 '+fail+' ===');
-    alert('백필 완료 — 유형·크기·즐겨찾기를 '+ok+'개 문제에 반영했습니다.'+(fail?(' (실패 '+fail+')'):''));
+    // 즐겨찾기: 내 계정의 개인 즐겨찾기로 일괄 반영
+    var favOk=0;
+    if(favRows.length){
+      log('즐겨찾기 '+favRows.length+'개 → 내 계정 개인 즐겨찾기로 반영 중...');
+      for(var fi=0; fi<favRows.length; fi+=500){
+        var fchunk=favRows.slice(fi, fi+500);
+        try{ var fr=await sb.from('problem_favorites').upsert(fchunk, { onConflict:'user_id,problem_id' }); if(fr.error) throw new Error(fr.error.message); favOk+=fchunk.length; }
+        catch(e){ log('즐겨찾기 반영 실패: '+e.message); }
+      }
+      log('즐겨찾기 반영 완료: '+favOk+'개');
+    }
+    prog('백필 완료: 유형·크기 '+ok+'개'+(fail?(', 실패 '+fail+'개'):'')+' / 즐겨찾기 '+favOk+'개 (점검 '+targets.length+'개)');
+    log('=== 백필 완료: 유형·크기 '+ok+', 즐겨찾기 '+favOk+', 실패 '+fail+' ===');
+    alert('백필 완료 — 유형·크기 '+ok+'개, 즐겨찾기 '+favOk+'개 반영했습니다.'+(fail?(' (실패 '+fail+')'):''));
   }
 
   async function publishStudentPagesToCloud(){
@@ -32620,6 +32646,22 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <script>
 /* ===== 클라우드 모드: 폴더 없이 Supabase 문제DB 불러오기 (조회/노트 작성용) ===== */
+// 로그인한 계정의 개인 즐겨찾기 목록을 Set 으로 로드 (공유와 무관, 계정마다 따로)
+async function loadMyFavorites(){
+  var sb = window.sbClient;
+  if(!sb || !window.currentUser){ window.__myFavSet = new Set(); return; }
+  var s = new Set(); var from = 0;
+  while(true){
+    var r = await sb.from('problem_favorites').select('problem_id')
+              .eq('user_id', window.currentUser.id).range(from, from+999);
+    if(r.error){ console.warn('즐겨찾기 로드 오류', r.error); break; }
+    (r.data||[]).forEach(function(x){ s.add(x.problem_id); });
+    if(!r.data || r.data.length < 1000) break;
+    from += 1000;
+  }
+  window.__myFavSet = s;
+}
+window.loadMyFavorites = loadMyFavorites;
 function _dbRowToProblem(r){
   return {
     id: r.id,
@@ -32633,7 +32675,7 @@ function _dbRowToProblem(r){
     size: (r.size!=null ? String(r.size) : ''),
     category: r.category||'', examYear: r.exam_year||'', examTerm: r.exam_term||'', examSchool: r.exam_school||'', examType: r.exam_type||'', examGrade: r.exam_grade||'', examScope: r.exam_scope||'',
     sortOrder: (typeof r.sort_order==='number'? r.sort_order : 0),
-    favorite: !!r.favorite,
+    favorite: (window.__myFavSet ? window.__myFavSet.has(r.id) : false),  // 계정별 개인 즐겨찾기(공유 안 됨)
     shared: !!r.shared,          // 전체 공유(모든 교사) 여부
     sharedWith: Array.isArray(r.shared_with) ? r.shared_with : [],  // 지정 공유 대상 아이디들
     ownerId: r.owner_id || ''    // 소유자 (남의 공유문제 읽기전용 판별용)
@@ -32657,7 +32699,7 @@ async function cloudUpsertProblem(rec){
     answer_text: rec.answerText||null, sol_text: rec.solText||null,
     size: (rec.size!=null && String(rec.size).trim()!=='' ? String(rec.size) : null),
     sort_order: (typeof rec.sortOrder==='number'? rec.sortOrder : 0),
-    favorite: !!rec.favorite,
+    // 즐겨찾기는 문제 행에 저장하지 않음(계정별 problem_favorites 테이블에서 관리 → 공유 안 됨)
     // 비관리자(발급 교사)가 만든 문제는 자동 전체공유 → 교사끼리 자료 중복 방지
     shared: (!(window.currentProfile && window.currentProfile.can_admin)) ? true : !!rec.shared,
     shared_with: Array.isArray(rec.sharedWith) ? rec.sharedWith : [],
@@ -32846,6 +32888,7 @@ window.enterCloudMode = async function(){
       if(!r.data || r.data.length < 1000) break;
       from += 1000;
     }
+    try { await loadMyFavorites(); } catch(e){ console.warn('즐겨찾기 로드 실패', e); }
     problems = all.map(_dbRowToProblem);
 
     // 2) 저장된 노트 로드

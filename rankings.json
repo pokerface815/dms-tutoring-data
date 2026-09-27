@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T02:22:45.937Z",
+  "generatedAt": "2026-09-27T03:56:10.027Z",
   "studentCount": 49,
   "rankings": [
     {
@@ -28,11 +28,11 @@
     {
       "id": "s_1777546978791_hsee5a",
       "name": "김규림",
-      "totalSec": 1741,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 1741,
-      "streak": 0,
+      "totalSec": 4027,
+      "weekSec": 2286,
+      "monthSec": 2286,
+      "recent3mSec": 4027,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

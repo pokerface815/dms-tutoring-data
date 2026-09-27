@@ -5081,5 +5081,33 @@
       }
     ],
     "createdAt": "2026-09-27T04:17:02.859Z"
+  },
+  {
+    "id": "a_1790483755560_h6jdsn",
+    "noteId": "note_1790483743985_s5c56z",
+    "noteName": "조한결_자이스토리_A.평면좌표(~ A.64)",
+    "studentId": "s_1785035974019_bc13fy",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-27",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-09-29",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-10-04",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-27T04:35:55.560Z"
   }
 ]

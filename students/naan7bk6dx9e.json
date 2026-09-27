@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-27T04:36:02.439Z",
+  "generatedAt": "2026-09-27T04:36:17.595Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -176,22 +176,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1790483755560_h6jdsn",
       "noteName": "조한결_자이스토리_A.평면좌표(~ A.64)",
       "subject": "공통수학2",
       "round": 1,
       "plannedDate": "2026-09-27",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-27T04:36:10.559Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1790482622859_03a0qn",
       "noteName": "조한결_개념루트_직선의 방정식(~ 175번)",
@@ -243,8 +243,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-09-21",
     "endDate": "2026-09-27"
   },

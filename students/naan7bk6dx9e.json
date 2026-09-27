@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-27T04:17:10.073Z",
+  "generatedAt": "2026-09-27T04:17:49.858Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -176,22 +176,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1790482622859_03a0qn",
       "noteName": "조한결_개념루트_직선의 방정식(~ 175번)",
       "subject": "공통수학2",
       "round": 1,
       "plannedDate": "2026-09-27",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-27T04:17:43.023Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789274491474_diqj0s",
       "noteName": "조한결_개념루트_직선의 방정식(~106번)",
@@ -231,8 +231,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-09-21",
     "endDate": "2026-09-27"
   },

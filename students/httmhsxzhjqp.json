@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-26T14:35:07.813Z",
+  "generatedAt": "2026-09-27T03:56:01.728Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -16,22 +16,22 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1790433259616_v59xdp",
       "noteName": "장하늘_완자 기출픽_직선의 방정식(~ 107번)",
       "subject": "공통수학2",
       "round": 1,
       "plannedDate": "2026-09-26",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-27T03:55:53.155Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1790171825608_vtvg3u",
       "noteName": "장하늘_완자 기출픽_평면좌표(~17쪽 66번)",
@@ -59,8 +59,8 @@
   ],
   "weekProgress": {
     "total": 3,
-    "done": 2,
-    "percent": 67,
+    "done": 3,
+    "percent": 100,
     "startDate": "2026-09-21",
     "endDate": "2026-09-27"
   },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-25T10:27:45.373Z",
+  "generatedAt": "2026-09-27T03:56:00.087Z",
   "student": {
     "id": "s_1777546978791_hsee5a",
     "classes": [
@@ -34,6 +34,17 @@
       "startedAt": 1785049952835,
       "createdAt": "2026-07-26T07:14:20.562Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_muj7mpkmvh7",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 200~215쪽(개념루트) 부정적분",
+      "reflection": "",
+      "seconds": 2286,
+      "startedAt": 1790476692358,
+      "createdAt": "2026-09-27T02:39:14.422Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -58,6 +69,26 @@
         "lastPosition": 4700,
         "lastWatchedAt": "2026-07-26T07:25:59.411Z",
         "watchedSec": 702
+      },
+      "9uxXNH4fUT8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "220~231쪽(개념루트) 정적분",
+        "durationSec": 2515,
+        "lastPosition": 19,
+        "lastWatchedAt": "2026-09-27T02:38:01.799Z",
+        "watchedSec": 20
+      },
+      "JxzPzzpNzew": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "200~215쪽(개념루트) 부정적분",
+        "durationSec": 2230,
+        "lastPosition": 2229,
+        "lastWatchedAt": "2026-09-27T03:18:35.159Z",
+        "watchedSec": 2286
       }
     },
     "daily": {
@@ -66,6 +97,10 @@
       },
       "2026-07-26": {
         "KuzIK3RkqvM": 702
+      },
+      "2026-09-27": {
+        "9uxXNH4fUT8": 20,
+        "JxzPzzpNzew": 2286
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-27T04:17:49.858Z",
+  "generatedAt": "2026-09-27T04:36:02.439Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -176,7 +176,19 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1790483755560_h6jdsn",
+      "noteName": "조한결_자이스토리_A.평면좌표(~ A.64)",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-09-27",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [],
   "completed": [
@@ -230,9 +242,9 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
+    "total": 2,
     "done": 1,
-    "percent": 100,
+    "percent": 50,
     "startDate": "2026-09-21",
     "endDate": "2026-09-27"
   },

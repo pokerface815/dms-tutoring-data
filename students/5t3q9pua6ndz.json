@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-22T15:31:08.007Z",
+  "generatedAt": "2026-09-27T03:56:17.916Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -164,9 +164,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1789871325868_bp1zku",
       "noteName": "박하윤_개념+유형 개념편_ ~집합 138쪽",
@@ -179,6 +177,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1789871325868_bp1zku",

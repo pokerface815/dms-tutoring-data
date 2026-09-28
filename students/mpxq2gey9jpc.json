@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T00:48:27.085Z",
+  "generatedAt": "2026-09-28T08:50:15.724Z",
   "student": {
     "id": "s_1780825552050_3a3ma5",
     "classes": [
@@ -60,13 +60,13 @@
         "watchedSec": 0
       },
       "druHHRnA4jk": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "3",
+        "videoTitle": "38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
         "durationSec": 5637,
-        "lastPosition": 1,
-        "lastWatchedAt": "2026-07-26T10:16:41.540Z",
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-09-27T09:55:48.796Z",
         "watchedSec": 1
       },
       "4oCcIG5bOxY": {
@@ -102,8 +102,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-09-21",
-    "endDate": "2026-09-27"
+    "startDate": "2026-09-28",
+    "endDate": "2026-10-04"
   },
   "teacherConfirms": {},
   "tasks": [],

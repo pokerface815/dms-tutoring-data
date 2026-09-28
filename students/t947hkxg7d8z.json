@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-28T08:49:30.125Z",
+  "generatedAt": "2026-09-28T09:45:37.282Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,19 +51,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1789993041699_6i6m9b",
-      "noteName": "조예나_RPM_2.함수의 연속",
-      "subject": "미적분Ⅰ",
-      "round": 3,
-      "plannedDate": "2026-09-28",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -79,6 +67,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1789993041699_6i6m9b",
+      "noteName": "조예나_RPM_2.함수의 연속",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-09-28",
+      "done": true,
+      "doneAt": "2026-09-28T09:45:28.062Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788361818007_5y56d7",
       "noteName": "조예나_올림포스 유형편_03.미분계수와 도함수",
@@ -426,24 +426,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1780924991578_sd6w86",
-      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~36번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-06-15",
-      "done": true,
-      "doneAt": "2026-06-15T12:09:48.877Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 2,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 50,
     "startDate": "2026-09-28",
     "endDate": "2026-10-04"
   },

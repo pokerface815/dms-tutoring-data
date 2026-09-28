@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-27T03:56:06.939Z",
+  "generatedAt": "2026-09-28T08:50:38.773Z",
   "student": {
     "id": "s_1783741677433_iezolt",
     "classes": [
@@ -148,22 +148,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1789879340748_z460hv",
       "noteName": "박소이_수학의 왕도_원의 방정식",
       "subject": "공통수학2",
       "round": 3,
       "plannedDate": "2026-09-27",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-28T08:49:09.641Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789879340748_z460hv",
       "noteName": "박소이_수학의 왕도_원의 방정식",
@@ -226,11 +226,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 1,
-    "percent": 50,
-    "startDate": "2026-09-21",
-    "endDate": "2026-09-27"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-28",
+    "endDate": "2026-10-04"
   },
   "teacherConfirms": {},
   "tasks": [],

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-28T08:51:10.522Z",
+  "generatedAt": "2026-09-28T09:45:40.525Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -16,19 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1790433259616_v59xdp",
-      "noteName": "장하늘_완자 기출픽_직선의 방정식(~ 107번)",
-      "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-09-28",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -55,6 +43,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1790433259616_v59xdp",
+      "noteName": "장하늘_완자 기출픽_직선의 방정식(~ 107번)",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-09-28",
+      "done": true,
+      "doneAt": "2026-09-28T09:45:30.096Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1790433259616_v59xdp",
       "noteName": "장하늘_완자 기출픽_직선의 방정식(~ 107번)",
@@ -94,8 +94,8 @@
   ],
   "weekProgress": {
     "total": 3,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 33,
     "startDate": "2026-09-28",
     "endDate": "2026-10-04"
   },

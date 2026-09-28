@@ -4094,8 +4094,10 @@
       {
         "stage": 4,
         "planned": "2026-09-28",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-09-28T09:45:27.670Z",
+        "missed": false,
+        "missedAt": null
       }
     ],
     "createdAt": "2026-09-07T12:33:11.213Z"
@@ -4994,8 +4996,10 @@
       {
         "stage": 3,
         "planned": "2026-09-28",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-09-28T09:45:28.062Z",
+        "missed": false,
+        "missedAt": null
       }
     ],
     "createdAt": "2026-09-21T12:17:21.699Z"
@@ -5050,8 +5054,10 @@
       {
         "stage": 2,
         "planned": "2026-09-28",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-09-28T09:45:30.096Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 3,

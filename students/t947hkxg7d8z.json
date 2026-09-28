@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-25T10:27:48.996Z",
+  "generatedAt": "2026-09-28T08:49:30.125Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,9 +51,33 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1789993041699_6i6m9b",
+      "noteName": "조예나_RPM_2.함수의 연속",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-09-28",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1788961176656_e4y6lf",
+      "noteName": "조예나_올림포스 유형편_04.도함수의 활용",
+      "subject": "미적분Ⅰ",
+      "round": 4,
+      "plannedDate": "2026-09-30",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1788361818007_5y56d7",
@@ -417,11 +441,11 @@
     }
   ],
   "weekProgress": {
-    "total": 4,
-    "done": 4,
-    "percent": 100,
-    "startDate": "2026-09-21",
-    "endDate": "2026-09-27"
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-28",
+    "endDate": "2026-10-04"
   },
   "teacherConfirms": {
     "a_1779287559980_ge3q7f__3": {

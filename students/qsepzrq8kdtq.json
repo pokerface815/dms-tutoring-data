@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-21T00:47:40.210Z",
+  "generatedAt": "2026-09-28T08:49:22.388Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -355,7 +355,19 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1788822475299_1v601k",
+      "noteName": "김채린_올림포스 유형편_01~04단원",
+      "subject": "미적분Ⅰ",
+      "round": 4,
+      "plannedDate": "2026-09-29",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1788822475299_1v601k",
@@ -695,11 +707,11 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 1,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-09-21",
-    "endDate": "2026-09-27"
+    "startDate": "2026-09-28",
+    "endDate": "2026-10-04"
   },
   "teacherConfirms": {
     "task_1784794099894_94ldcq__1": {

@@ -1,0 +1,94 @@
+[
+  {
+    "run_at": "2026-09-28T16:00:45.530820+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 8,
+      "failed": 0,
+      "total": 8
+    },
+    "entries": [
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 32,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1778404886523_0ag055",
+        "student_name": "박다인",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-3505",
+        "text_length": 37,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1778849219765_v88lqq",
+        "student_name": "지유진",
+        "category": "overdue",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-4079",
+        "text_length": 40,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1780833414231_dup17p",
+        "student_name": "국보민",
+        "category": "overdue",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-3721",
+        "text_length": 43,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1783741551628_vw0d5m",
+        "student_name": "박하윤",
+        "category": "overdue",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-2612",
+        "text_length": 38,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1783741639936_epkpt5",
+        "student_name": "송시욱",
+        "category": "overdue",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-0945",
+        "text_length": 40,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1783741677433_iezolt",
+        "student_name": "박소이",
+        "category": "overdue",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-1318",
+        "text_length": 32,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1790074374851_96xx1y",
+        "student_name": "장하늘",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6785",
+        "text_length": 42,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

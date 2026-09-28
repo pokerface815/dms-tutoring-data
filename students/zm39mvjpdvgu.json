@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-27T03:56:16.183Z",
+  "generatedAt": "2026-09-28T08:50:17.665Z",
   "student": {
     "id": "s_1780833414231_dup17p",
     "classes": [
@@ -44,22 +44,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1789885047234_3ozwgm",
       "noteName": "국보민_개념루트_미분계수와 도함수(211~264번)",
       "subject": "미적분Ⅰ",
       "round": 3,
       "plannedDate": "2026-09-27",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-28T08:49:10.959Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789885047234_3ozwgm",
       "noteName": "국보민_개념루트_미분계수와 도함수(211~264번)",
@@ -122,11 +122,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 1,
-    "percent": 50,
-    "startDate": "2026-09-21",
-    "endDate": "2026-09-27"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-09-28",
+    "endDate": "2026-10-04"
   },
   "teacherConfirms": {
     "task_1780833488960_0g2lyw__1": {

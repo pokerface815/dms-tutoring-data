@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-28T08:51:08.909Z",
+  "generatedAt": "2026-09-29T16:58:57.714Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -101,33 +101,6 @@
         "subject": "중3",
         "method": "강의 시청",
         "content": "2024 1,2월 중3-1 개념원리 — 14. 이차함수의 식 구하기(~p.212)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtftacsnxgk",
-        "startedAt": 1788094397696,
-        "seconds": 1592,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-1 개념원리 — 14. 이차함수의 식 구하기(~p.212)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtfsxjo9wrw",
-        "startedAt": 1788093712448,
-        "seconds": 548,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-1 개념원리 — 13. 이차함수의 일반형(~p.205)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtfst6wq33s",
-        "startedAt": 1788093564075,
-        "seconds": 66,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-1 개념원리 — 12. 이차함수의 그래프(~p.193)",
         "reflection": ""
       }
     ]

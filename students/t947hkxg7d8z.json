@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-28T09:45:37.282Z",
+  "generatedAt": "2026-09-29T16:58:50.935Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,9 +51,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1788961176656_e4y6lf",
       "noteName": "조예나_올림포스 유형편_04.도함수의 활용",
@@ -66,6 +64,8 @@
       "missedAt": null
     }
   ],
+  "overdue": [],
+  "upcoming": [],
   "completed": [
     {
       "assignmentId": "a_1789993041699_6i6m9b",

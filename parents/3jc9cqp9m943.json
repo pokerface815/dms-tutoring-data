@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T09:58:23.131Z",
+  "generatedAt": "2026-09-29T10:51:50.291Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -60,15 +60,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 168~172쪽 이차부등식의 해의 조건",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtfn5l85dk7",
-        "startedAt": 1788084108966,
-        "seconds": 3512,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 160~167쪽 절댓값 기호를 포함한 일차부등식의 풀이 + 이차부등식",
         "reflection": ""
       }
     ]

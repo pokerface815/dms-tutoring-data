@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-28T08:51:03.656Z",
+  "generatedAt": "2026-09-29T10:51:51.683Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -265,26 +265,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_mtfpazxv9bi",
-        "startedAt": 1788086320759,
-        "seconds": 457,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "쎈B 중3-2 (26년 7월 ~ ) — 52~57쪽 질문 + 원주각과 중심각의 크기 + 원주각의 성질",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtfof370szg",
-        "startedAt": 1788085914340,
-        "seconds": 61,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-2 개념원리 — 13. 산점도(~끝)",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

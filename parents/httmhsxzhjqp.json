@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T10:52:03.343Z",
+  "generatedAt": "2026-09-29T10:52:12.082Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-09",
       "label": "2026년 9월",
       "lessons": [
+        {
+          "date": "2026-09-27",
+          "weekday": "일",
+          "className": "장하늘 개인",
+          "content": "모의 기출 풀이(집)",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-09-26",
           "weekday": "토",

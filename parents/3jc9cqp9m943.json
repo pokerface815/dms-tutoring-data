@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T03:56:03.289Z",
+  "generatedAt": "2026-09-29T09:58:23.131Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -69,15 +69,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 160~167쪽 절댓값 기호를 포함한 일차부등식의 풀이 + 이차부등식",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtfl1ako4py",
-        "startedAt": 1788080556336,
-        "seconds": 1139,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 150~159쪽 일차부등식, 연립일차부등식",
         "reflection": ""
       }
     ]

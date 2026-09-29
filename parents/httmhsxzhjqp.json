@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T09:58:26.836Z",
+  "generatedAt": "2026-09-29T10:51:53.528Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,7 +11,20 @@
     {
       "ym": "2026-09",
       "label": "2026년 9월",
-      "lessons": [],
+      "lessons": [
+        {
+          "date": "2026-09-26",
+          "weekday": "토",
+          "className": "장하늘 개인",
+          "content": "학원에 와서 부교재 풀이",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        }
+      ],
       "completionRate": null,
       "noteStages": {
         "1": {

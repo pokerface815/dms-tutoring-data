@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-28T08:49:22.388Z",
+  "generatedAt": "2026-09-29T09:58:14.557Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -355,20 +355,20 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1788822475299_1v601k",
       "noteName": "김채린_올림포스 유형편_01~04단원",
       "subject": "미적분Ⅰ",
       "round": 4,
       "plannedDate": "2026-09-29",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-29T09:58:02.799Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788822475299_1v601k",
       "noteName": "김채린_올림포스 유형편_01~04단원",
@@ -708,8 +708,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-09-28",
     "endDate": "2026-10-04"
   },

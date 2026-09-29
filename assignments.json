@@ -5133,5 +5133,33 @@
       }
     ],
     "createdAt": "2026-09-27T04:35:55.560Z"
+  },
+  {
+    "id": "a_1790683854211_lox852",
+    "noteId": "note_1790683845077_snfbcg",
+    "noteName": "장하늘_완자 기출픽_직선의 방정식( ~ 149번)",
+    "studentId": "s_1790074374851_96xx1y",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-09-29",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-10-01",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-10-06",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-09-29T12:10:54.211Z"
   }
 ]

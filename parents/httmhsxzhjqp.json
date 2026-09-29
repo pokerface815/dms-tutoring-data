@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T10:51:53.528Z",
+  "generatedAt": "2026-09-29T10:52:03.343Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -16,7 +16,7 @@
           "date": "2026-09-26",
           "weekday": "토",
           "className": "장하늘 개인",
-          "content": "학원에 와서 부교재 풀이",
+          "content": "부교재 풀이(학원)",
           "task": "",
           "taskDue": "",
           "myNote": "",

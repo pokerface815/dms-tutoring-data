@@ -1132,5 +1132,16 @@
     "taskBatchId": null,
     "createdAt": "2026-09-29T10:52:05.562Z",
     "updatedAt": "2026-09-29T10:52:05.562Z"
+  },
+  {
+    "id": "lesson_1790679139354_ut0snb",
+    "classId": "cls_1790074357169_fmjal9",
+    "date": "2026-09-29",
+    "content": "23년 모의 기출 풀이(집)",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-09-29T10:52:19.354Z",
+    "updatedAt": "2026-09-29T10:52:19.354Z"
   }
 ]

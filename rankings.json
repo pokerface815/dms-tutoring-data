@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-28T08:49:18.675Z",
+  "generatedAt": "2026-09-29T09:58:12.839Z",
   "studentCount": 49,
   "rankings": [
     {
@@ -32,7 +32,7 @@
       "weekSec": 0,
       "monthSec": 4966,
       "recent3mSec": 6707,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },

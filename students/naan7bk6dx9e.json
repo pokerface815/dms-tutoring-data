@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-28T08:50:58.466Z",
+  "generatedAt": "2026-09-29T09:58:24.866Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -180,28 +180,6 @@
   "overdue": [],
   "upcoming": [
     {
-      "assignmentId": "a_1790482622859_03a0qn",
-      "noteName": "조한결_개념루트_직선의 방정식(~ 175번)",
-      "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-09-29",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
-      "assignmentId": "a_1790483755560_h6jdsn",
-      "noteName": "조한결_자이스토리_A.평면좌표(~ A.64)",
-      "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-09-29",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
       "assignmentId": "a_1789274491474_diqj0s",
       "noteName": "조한결_개념루트_직선의 방정식(~106번)",
       "subject": "공통수학2",
@@ -236,6 +214,30 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1790483755560_h6jdsn",
+      "noteName": "조한결_자이스토리_A.평면좌표(~ A.64)",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-09-29",
+      "done": true,
+      "doneAt": "2026-09-29T09:58:05.016Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1790482622859_03a0qn",
+      "noteName": "조한결_개념루트_직선의 방정식(~ 175번)",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-09-29",
+      "done": true,
+      "doneAt": "2026-09-29T09:58:03.508Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1790483755560_h6jdsn",
       "noteName": "조한결_자이스토리_A.평면좌표(~ A.64)",
@@ -299,8 +301,8 @@
   ],
   "weekProgress": {
     "total": 5,
-    "done": 0,
-    "percent": 0,
+    "done": 2,
+    "percent": 40,
     "startDate": "2026-09-28",
     "endDate": "2026-10-04"
   },

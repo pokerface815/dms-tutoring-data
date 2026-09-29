@@ -1110,5 +1110,16 @@
     "taskBatchId": null,
     "createdAt": "2026-09-21T15:58:23.970Z",
     "updatedAt": "2026-09-21T15:58:23.970Z"
+  },
+  {
+    "id": "lesson_1790679102975_tku87s",
+    "classId": "cls_1790074357169_fmjal9",
+    "date": "2026-09-26",
+    "content": "학원에 와서 부교재 풀이",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-09-29T10:51:42.975Z",
+    "updatedAt": "2026-09-29T10:51:42.975Z"
   }
 ]

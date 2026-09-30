@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-29T16:58:50.935Z",
+  "generatedAt": "2026-09-30T12:05:45.436Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -51,22 +51,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1788961176656_e4y6lf",
       "noteName": "조예나_올림포스 유형편_04.도함수의 활용",
       "subject": "미적분Ⅰ",
       "round": 4,
       "plannedDate": "2026-09-30",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-09-30T12:05:37.724Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789993041699_6i6m9b",
       "noteName": "조예나_RPM_2.함수의 연속",
@@ -414,24 +414,12 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1781536830575_5ol8ni",
-      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
-      "subject": "대수",
-      "round": 1,
-      "plannedDate": "2026-06-16",
-      "done": true,
-      "doneAt": "2026-06-16T10:44:02.034Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-09-28",
     "endDate": "2026-10-04"
   },

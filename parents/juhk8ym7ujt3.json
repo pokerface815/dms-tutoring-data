@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T16:58:57.714Z",
+  "generatedAt": "2026-09-30T12:05:49.378Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -92,15 +92,6 @@
         "subject": "중3",
         "method": "강의 시청",
         "content": "2024 1,2월 중3-2 개념원리 — 01. 삼각비(~p.13)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtgxmjv3reo",
-        "startedAt": 1788162235506,
-        "seconds": 4005,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-1 개념원리 — 14. 이차함수의 식 구하기(~p.212)",
         "reflection": ""
       }
     ]

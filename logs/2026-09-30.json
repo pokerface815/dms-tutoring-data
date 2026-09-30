@@ -1,0 +1,44 @@
+[
+  {
+    "run_at": "2026-09-30T16:00:36.621124+09:00",
+    "dry_run": false,
+    "test_mode": false,
+    "summary": {
+      "sent": 3,
+      "failed": 0,
+      "total": 3
+    },
+    "entries": [
+      {
+        "student_id": "s_1777547047005_uo92w5",
+        "student_name": "조예나",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6145",
+        "text_length": 39,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1783741551628_vw0d5m",
+        "student_name": "박하윤",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-2612",
+        "text_length": 37,
+        "dry_run": false,
+        "result": "sent"
+      },
+      {
+        "student_id": "s_1790074374851_96xx1y",
+        "student_name": "장하늘",
+        "category": "today",
+        "recipient_type": "student",
+        "to_number_masked": "010-****-6785",
+        "text_length": 41,
+        "dry_run": false,
+        "result": "sent"
+      }
+    ]
+  }
+]

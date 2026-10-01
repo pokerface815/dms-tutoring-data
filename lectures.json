@@ -1424,6 +1424,12 @@
         "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
         "position": 16,
         "durationSec": 1348
+      },
+      {
+        "videoId": "ROGD4n-9mrY",
+        "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
+        "position": 17,
+        "durationSec": 3455
       }
     ],
     "permissions": {
@@ -1432,8 +1438,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-09-23T18:50:51.163Z",
-    "lastSyncedAt": "2026-09-23T18:50:51.163Z"
+    "updatedAt": "2026-10-01T13:41:07.341Z",
+    "lastSyncedAt": "2026-10-01T13:41:07.341Z"
   },
   {
     "id": "lec_mrq99fx1qmz",
@@ -1540,6 +1546,12 @@
         "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
         "position": 15,
         "durationSec": 1348
+      },
+      {
+        "videoId": "ROGD4n-9mrY",
+        "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
+        "position": 16,
+        "durationSec": 3455
       }
     ],
     "permissions": {
@@ -1548,8 +1560,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-09-23T18:50:54.501Z",
-    "lastSyncedAt": "2026-09-23T18:50:54.501Z"
+    "updatedAt": "2026-10-01T13:41:09.603Z",
+    "lastSyncedAt": "2026-10-01T13:41:09.603Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1656,6 +1668,12 @@
         "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
         "position": 15,
         "durationSec": 1348
+      },
+      {
+        "videoId": "ROGD4n-9mrY",
+        "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
+        "position": 16,
+        "durationSec": 3455
       }
     ],
     "permissions": {
@@ -1664,8 +1682,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-09-23T18:50:58.503Z",
-    "lastSyncedAt": "2026-09-23T18:50:58.503Z"
+    "updatedAt": "2026-10-01T13:41:11.297Z",
+    "lastSyncedAt": "2026-10-01T13:41:11.297Z"
   },
   {
     "id": "lec_mqkscmibfht",
@@ -1772,28 +1790,34 @@
         "durationSec": 6826
       },
       {
-        "videoId": "9uxXNH4fUT8",
-        "title": "220~231쪽(개념루트) 정적분",
-        "position": 16,
-        "durationSec": 2515
-      },
-      {
         "videoId": "JxzPzzpNzew",
         "title": "200~215쪽(개념루트) 부정적분",
-        "position": 17,
+        "position": 16,
         "durationSec": 2230
       },
       {
-        "videoId": "O3ZpodBk5B8",
-        "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
-        "position": 18,
-        "durationSec": 1348
+        "videoId": "9uxXNH4fUT8",
+        "title": "220~231쪽(개념루트) 정적분",
+        "position": 17,
+        "durationSec": 2515
       },
       {
         "videoId": "jNwrnSQMusc",
         "title": "232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
-        "position": 19,
+        "position": 18,
         "durationSec": 1035
+      },
+      {
+        "videoId": "O3ZpodBk5B8",
+        "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
+        "position": 19,
+        "durationSec": 1348
+      },
+      {
+        "videoId": "ROGD4n-9mrY",
+        "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
+        "position": 20,
+        "durationSec": 3455
       }
     ],
     "permissions": {
@@ -1802,8 +1826,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-19T10:28:12.659Z",
-    "updatedAt": "2026-09-23T18:53:19.244Z",
-    "lastSyncedAt": "2026-09-23T18:53:19.244Z",
+    "updatedAt": "2026-10-01T13:41:14.897Z",
+    "lastSyncedAt": "2026-10-01T13:41:14.897Z",
     "textbook": "개념+유형",
     "memo": ""
   },

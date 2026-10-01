@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T09:58:12.839Z",
+  "generatedAt": "2026-10-01T05:36:17.207Z",
   "studentCount": 49,
   "rankings": [
     {
@@ -9,7 +9,7 @@
       "totalSec": 33376,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 29719,
+      "recent3mSec": 10627,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -20,7 +20,7 @@
       "totalSec": 24417,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 24417,
+      "recent3mSec": 17543,
       "streak": 0,
       "nickname": "오레오잉",
       "publicNickname": true
@@ -30,8 +30,8 @@
       "name": "김규림",
       "totalSec": 6707,
       "weekSec": 0,
-      "monthSec": 4966,
-      "recent3mSec": 6707,
+      "monthSec": 0,
+      "recent3mSec": 4966,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -64,7 +64,7 @@
       "totalSec": 259,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 259,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -75,7 +75,7 @@
       "totalSec": 35004,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 35004,
+      "recent3mSec": 9147,
       "streak": 0,
       "nickname": "😎",
       "publicNickname": true
@@ -85,8 +85,8 @@
       "name": "정찬민",
       "totalSec": 7001,
       "weekSec": 0,
-      "monthSec": 2646,
-      "recent3mSec": 7001,
+      "monthSec": 0,
+      "recent3mSec": 6303,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -96,8 +96,8 @@
       "name": "박다인",
       "totalSec": 23186,
       "weekSec": 0,
-      "monthSec": 459,
-      "recent3mSec": 23186,
+      "monthSec": 0,
+      "recent3mSec": 836,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -108,7 +108,7 @@
       "totalSec": 8738,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 8738,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -141,7 +141,7 @@
       "totalSec": 8744,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 8744,
+      "recent3mSec": 5196,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -163,7 +163,7 @@
       "totalSec": 4126,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 4126,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -173,8 +173,8 @@
       "name": "문대승",
       "totalSec": 101473,
       "weekSec": 0,
-      "monthSec": 9434,
-      "recent3mSec": 91009,
+      "monthSec": 0,
+      "recent3mSec": 17930,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -185,7 +185,7 @@
       "totalSec": 11354,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 11354,
+      "recent3mSec": 6002,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -350,7 +350,7 @@
       "totalSec": 8498,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 8498,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -361,7 +361,7 @@
       "totalSec": 3028,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 3028,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -383,7 +383,7 @@
       "totalSec": 6672,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 6672,
+      "recent3mSec": 3774,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -394,7 +394,7 @@
       "totalSec": 7206,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 7206,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -416,7 +416,7 @@
       "totalSec": 6068,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 6068,
+      "recent3mSec": 4086,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -427,7 +427,7 @@
       "totalSec": 81,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 81,
+      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -437,8 +437,8 @@
       "name": "박은유",
       "totalSec": 19820,
       "weekSec": 0,
-      "monthSec": 7126,
-      "recent3mSec": 19820,
+      "monthSec": 0,
+      "recent3mSec": 9159,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -449,7 +449,7 @@
       "totalSec": 52530,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 52530,
+      "recent3mSec": 18184,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -471,7 +471,7 @@
       "totalSec": 28148,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 28148,
+      "recent3mSec": 15002,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -482,7 +482,7 @@
       "totalSec": 31106,
       "weekSec": 0,
       "monthSec": 0,
-      "recent3mSec": 31106,
+      "recent3mSec": 22940,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -492,8 +492,8 @@
       "name": "조한결",
       "totalSec": 4736,
       "weekSec": 0,
-      "monthSec": 677,
-      "recent3mSec": 4736,
+      "monthSec": 0,
+      "recent3mSec": 677,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -525,7 +525,7 @@
       "name": "신다은",
       "totalSec": 21030,
       "weekSec": 0,
-      "monthSec": 12578,
+      "monthSec": 0,
       "recent3mSec": 21030,
       "streak": 0,
       "nickname": "",

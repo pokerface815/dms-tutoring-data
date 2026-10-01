@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T05:36:29.509Z",
+  "generatedAt": "2026-10-01T13:41:25.112Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -332,15 +332,6 @@
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtiqa60kdok",
-        "startedAt": 1788266700391,
-        "seconds": 4133,
-        "subject": "공통수학1",
-        "method": "기타",
-        "content": "~127p",
         "reflection": ""
       }
     ]

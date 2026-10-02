@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T13:41:25.112Z",
+  "generatedAt": "2026-10-02T07:53:05.608Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -320,15 +320,6 @@
         "id": "effort_mtli9pt2d2q",
         "startedAt": 1788438482910,
         "seconds": 554,
-        "subject": "공통수학1",
-        "method": "강의 시청",
-        "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtiqcwnqzwb",
-        "startedAt": 1788270855793,
-        "seconds": 522,
         "subject": "공통수학1",
         "method": "강의 시청",
         "content": "공통수학1 개념+유형 12시 30분 수업 (26년 1월 ~ )_완강 — 128~131쪽 오메가의 성질",

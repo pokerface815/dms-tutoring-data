@@ -5199,5 +5199,33 @@
       }
     ],
     "createdAt": "2026-10-02T07:52:57.425Z"
+  },
+  {
+    "id": "a_1790999390063_a6cx46",
+    "noteId": "note_1790999376204_r43sug",
+    "noteName": "남옥빈_자이스토리 내신기출_도형의 이동(~D101)",
+    "studentId": "s_1784950950171_2ycwdo",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-10-03",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-10-05",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-10-10",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-10-03T03:49:50.063Z"
   }
 ]

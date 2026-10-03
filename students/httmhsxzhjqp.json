@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-02T07:53:07.411Z",
+  "generatedAt": "2026-10-03T03:50:04.926Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -18,6 +18,19 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [
     {
+      "assignmentId": "a_1790433259616_v59xdp",
+      "noteName": "장하늘_완자 기출픽_직선의 방정식(~ 107번)",
+      "subject": "공통수학2",
+      "round": 3,
+      "plannedDate": "2026-10-03",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "overdue": [
+    {
       "assignmentId": "a_1790927577425_buzp2u",
       "noteName": "장하늘_완자 기출픽_원의 방정식(~p.53 227번)",
       "subject": "공통수학2",
@@ -29,19 +42,7 @@
       "missedAt": null
     }
   ],
-  "overdue": [],
   "upcoming": [
-    {
-      "assignmentId": "a_1790433259616_v59xdp",
-      "noteName": "장하늘_완자 기출픽_직선의 방정식(~ 107번)",
-      "subject": "공통수학2",
-      "round": 3,
-      "plannedDate": "2026-10-03",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
     {
       "assignmentId": "a_1790927577425_buzp2u",
       "noteName": "장하늘_완자 기출픽_원의 방정식(~p.53 227번)",

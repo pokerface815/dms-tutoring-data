@@ -117,7 +117,9 @@
     "order": 16,
     "createdAt": "2026-07-13T09:47:15.043Z",
     "lessonSlot": 11,
-    "slot": 9
+    "slot": 9,
+    "archived": true,
+    "endedAt": 1791001665063
   },
   {
     "id": "cls_1786082821970_09kcz5",

@@ -143,7 +143,9 @@
     "name": "문현승 개별",
     "memo": "",
     "order": 19,
-    "createdAt": "2026-08-25T10:05:03.196Z"
+    "createdAt": "2026-08-25T10:05:03.196Z",
+    "archived": true,
+    "endedAt": 1791001678078
   },
   {
     "id": "cls_1790074357169_fmjal9",

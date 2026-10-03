@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T02:22:47.758Z",
+  "generatedAt": "2026-10-03T04:27:45.116Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 49,
+  "studentCount": 48,
   "baseUrl": "",
   "students": [
     {
@@ -355,15 +355,6 @@
       "className": "토,일 11시",
       "studentPageCode": "wnz5zhutjnyt",
       "parentPageCode": "wnz5zhutjnyt"
-    },
-    {
-      "id": "s_1783936051988_psto4h",
-      "name": "박은유",
-      "grade": "중3",
-      "school": "중앙중",
-      "className": "박은유 개별",
-      "studentPageCode": "66rzuxbxjyjs",
-      "parentPageCode": "66rzuxbxjyjs"
     },
     {
       "id": "s_1784357925964_vuz436",

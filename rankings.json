@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T05:36:17.207Z",
-  "studentCount": 49,
+  "generatedAt": "2026-10-03T04:27:43.553Z",
+  "studentCount": 48,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -428,17 +428,6 @@
       "weekSec": 0,
       "monthSec": 0,
       "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1783936051988_psto4h",
-      "name": "박은유",
-      "totalSec": 19820,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 9159,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

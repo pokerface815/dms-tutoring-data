@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-30T12:05:47.518Z",
+  "generatedAt": "2026-10-04T11:01:34.872Z",
+  "branding": {
+    "name": "매쓰피아",
+    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
+  },
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -12,63 +21,7 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [
-    {
-      "id": "effort_mrx8fhmom2v",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
-      "reflection": "",
-      "seconds": 160,
-      "startedAt": 1784794165448,
-      "createdAt": "2026-07-23T08:11:16.608Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mrx8jvaqa6l",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
-      "reflection": "",
-      "seconds": 151,
-      "startedAt": 1784794384411,
-      "createdAt": "2026-07-23T08:14:40.946Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mrx8olli2di",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
-      "reflection": "",
-      "seconds": 1671,
-      "startedAt": 1784794620798,
-      "createdAt": "2026-07-23T08:18:21.654Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_ms5jn8uw9y0",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
-      "reflection": "",
-      "seconds": 2712,
-      "startedAt": 1785296738344,
-      "createdAt": "2026-07-29T03:47:23.672Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_ms5lyzejhdj",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "공통수학2 개념+유형 (26년 1, 2월) — 52~57쪽 원의 방정식(1)",
-      "reflection": "",
-      "seconds": 2512,
-      "startedAt": 1785300634790,
-      "createdAt": "2026-07-29T04:52:30.523Z",
-      "autoRecorded": true
-    }
-  ],
+  "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {

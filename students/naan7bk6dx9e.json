@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T02:30:20.675Z",
+  "generatedAt": "2026-10-04T11:01:57.865Z",
+  "branding": {
+    "name": "매쓰피아",
+    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
+  },
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -178,17 +187,6 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [
     {
-      "assignmentId": "a_1789274491474_diqj0s",
-      "noteName": "조한결_개념루트_직선의 방정식(~106번)",
-      "subject": "공통수학2",
-      "round": 4,
-      "plannedDate": "2026-10-04",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
       "assignmentId": "a_1790482622859_03a0qn",
       "noteName": "조한결_개념루트_직선의 방정식(~ 175번)",
       "subject": "공통수학2",
@@ -214,6 +212,18 @@
   "overdue": [],
   "upcoming": [],
   "completed": [
+    {
+      "assignmentId": "a_1789274491474_diqj0s",
+      "noteName": "조한결_개념루트_직선의 방정식(~106번)",
+      "subject": "공통수학2",
+      "round": 4,
+      "plannedDate": "2026-10-04",
+      "done": true,
+      "doneAt": "2026-10-04T10:59:14.768Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1790483755560_h6jdsn",
       "noteName": "조한결_자이스토리_A.평면좌표(~ A.64)",
@@ -301,8 +311,8 @@
   ],
   "weekProgress": {
     "total": 5,
-    "done": 2,
-    "percent": 40,
+    "done": 3,
+    "percent": 60,
     "startDate": "2026-09-28",
     "endDate": "2026-10-04"
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T05:36:24.478Z",
+  "generatedAt": "2026-10-04T11:00:10.483Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -89,28 +89,7 @@
     }
   ],
   "tests": [],
-  "effortLogs": {
-    "enabled": true,
-    "uploadedAt": "2026-09-18T12:50:52.237Z",
-    "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
-    },
-    "logs": [
-      {
-        "id": "effort_mu6ya6f03k5",
-        "startedAt": 1789735361274,
-        "seconds": 459,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 프린트 \"올림포스 기출_03.미분계수~05.접선의 방정식\" 풀이 (4,5단원 1등급 문제 제외)",
-        "reflection": ""
-      }
-    ]
-  },
+  "effortLogs": null,
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T09:37:40.868Z",
+  "generatedAt": "2026-10-04T11:00:30.887Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -455,18 +455,7 @@
       "comment": "최근에 본 테스트 모두 준우가 약한 단원 위주로 출제하고 있어서 오답이 많은 편입니다. 이차부등식 단원은 시험에 대한 예고가 되지 않아서 유독 많이 틀린 것 같습니다."
     }
   ],
-  "effortLogs": {
-    "enabled": true,
-    "uploadedAt": "2026-08-07T06:27:28.426Z",
-    "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
-    },
-    "logs": []
-  },
+  "effortLogs": null,
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

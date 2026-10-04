@@ -1,15 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T11:01:54.698Z",
-  "branding": {
-    "name": "매쓰피아",
-    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
-  },
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-10-04T16:29:07.304Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -547,9 +538,55 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1790999390063_a6cx46",
+      "noteName": "남옥빈_자이스토리 내신기출_도형의 이동(~D101)",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-10-05",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1789791704456_fcoga1",
+      "noteName": "남옥빈_자이스토리 내신기출_~C.120",
+      "subject": "공통수학2",
+      "round": 4,
+      "plannedDate": "2026-10-10",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1789792612063_g7h7h4",
+      "noteName": "남옥빈_개념루트_도형의 이동(~351번)",
+      "subject": "공통수학2",
+      "round": 4,
+      "plannedDate": "2026-10-10",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1790999390063_a6cx46",
+      "noteName": "남옥빈_자이스토리 내신기출_도형의 이동(~D101)",
+      "subject": "공통수학2",
+      "round": 3,
+      "plannedDate": "2026-10-10",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
     {
       "assignmentId": "a_1789185294792_cko2vx",
@@ -685,11 +722,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-09-28",
-    "endDate": "2026-10-04"
+    "total": 4,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-11"
   },
   "teacherConfirms": {
     "a_1789185294792_cko2vx__3": {

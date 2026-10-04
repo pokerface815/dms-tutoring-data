@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T05:36:26.170Z",
+  "generatedAt": "2026-10-04T02:30:13.860Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -187,26 +187,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_mtm1wt72y7u",
-        "startedAt": 1788461635923,
-        "seconds": 8935,
-        "subject": "미적분Ⅰ",
-        "method": "문제 풀이",
-        "content": "수업 준비",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtlnrszo9uj",
-        "startedAt": 1788447502966,
-        "seconds": 499,
-        "subject": "미적분Ⅰ",
-        "method": "문제 풀이",
-        "content": "주말 수업 준비",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

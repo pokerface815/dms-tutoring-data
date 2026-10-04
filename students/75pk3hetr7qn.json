@@ -1,15 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T11:01:51.147Z",
-  "branding": {
-    "name": "매쓰피아",
-    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
-  },
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-10-04T16:29:03.508Z",
   "student": {
     "id": "s_1784437736068_jgkmca",
     "classes": [
@@ -210,20 +201,20 @@
         "watchedSec": 1
       },
       "OIDvXwg6tkg": {
-        "sessionCount": 10,
+        "sessionCount": 7,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
         "durationSec": 5879,
-        "lastPosition": 0,
+        "lastPosition": 5878,
         "lastWatchedAt": "2026-09-13T05:53:27.101Z",
         "watchedSec": 3883
       },
       "Owo2_OgWPto": {
-        "sessionCount": 4,
+        "sessionCount": 2,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "82~99쪽 미분가능성과 연속성, 도함수(+다항함수의 도함수), 곱의 미분법",
+        "videoTitle": "3",
         "durationSec": 6101,
         "lastPosition": 6092,
         "lastWatchedAt": "2026-08-22T01:58:42.455Z",
@@ -274,22 +265,22 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1789282219809_yhgv09",
       "noteName": "조해인_마더텅_함수의 연속(~57쪽 64번)",
       "subject": "미적분Ⅰ",
       "round": 4,
       "plannedDate": "2026-10-04",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-10-04T16:27:41.946Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1789282219809_yhgv09",
       "noteName": "조해인_마더텅_함수의 연속(~57쪽 64번)",
@@ -328,11 +319,11 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
+    "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-09-28",
-    "endDate": "2026-10-04"
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-11"
   },
   "teacherConfirms": {},
   "tasks": [],

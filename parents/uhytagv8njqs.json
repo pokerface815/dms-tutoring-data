@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T05:36:19.203Z",
+  "generatedAt": "2026-10-04T10:59:45.806Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -173,37 +173,7 @@
     }
   ],
   "tests": [],
-  "effortLogs": {
-    "enabled": true,
-    "uploadedAt": "2026-09-27T08:11:54.118Z",
-    "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
-    },
-    "logs": [
-      {
-        "id": "effort_mujhyqawzg2",
-        "startedAt": 1790493648591,
-        "seconds": 2680,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 220~231쪽(개념루트) 정적분",
-        "reflection": ""
-      },
-      {
-        "id": "effort_muj7mpkmvh7",
-        "startedAt": 1790476692358,
-        "seconds": 2286,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 200~215쪽(개념루트) 부정적분",
-        "reflection": ""
-      }
-    ]
-  },
+  "effortLogs": null,
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

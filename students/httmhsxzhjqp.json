@@ -1,15 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T11:02:09.678Z",
-  "branding": {
-    "name": "매쓰피아",
-    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
-  },
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-10-04T16:29:17.476Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -25,22 +16,45 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1790683854211_lox852",
+      "noteName": "장하늘_완자 기출픽_직선의 방정식( ~ 149번)",
+      "subject": "공통수학2",
+      "round": 3,
+      "plannedDate": "2026-10-06",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
     {
       "assignmentId": "a_1790927577425_buzp2u",
       "noteName": "장하늘_완자 기출픽_원의 방정식(~p.53 227번)",
       "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-10-04",
+      "round": 3,
+      "plannedDate": "2026-10-09",
       "done": false,
       "doneAt": null,
       "missed": false,
       "missedAt": null
     }
   ],
-  "overdue": [],
-  "upcoming": [],
   "completed": [
+    {
+      "assignmentId": "a_1790927577425_buzp2u",
+      "noteName": "장하늘_완자 기출픽_원의 방정식(~p.53 227번)",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-10-04",
+      "done": true,
+      "doneAt": "2026-10-04T16:27:44.125Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1790433259616_v59xdp",
       "noteName": "장하늘_완자 기출픽_직선의 방정식(~ 107번)",
@@ -151,11 +165,11 @@
     }
   ],
   "weekProgress": {
-    "total": 7,
-    "done": 6,
-    "percent": 86,
-    "startDate": "2026-09-28",
-    "endDate": "2026-10-04"
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-11"
   },
   "teacherConfirms": {},
   "tasks": [],

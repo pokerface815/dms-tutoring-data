@@ -1430,6 +1430,12 @@
         "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
         "position": 17,
         "durationSec": 3455
+      },
+      {
+        "videoId": "XagAr-A2uHs",
+        "title": "272~281쪽(개념루트) 정적분의 활용 - 속도와 거리",
+        "position": 18,
+        "durationSec": 1506
       }
     ],
     "permissions": {
@@ -1438,8 +1444,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-10-01T13:41:07.341Z",
-    "lastSyncedAt": "2026-10-01T13:41:07.341Z"
+    "updatedAt": "2026-10-04T07:50:32.183Z",
+    "lastSyncedAt": "2026-10-04T07:50:32.183Z"
   },
   {
     "id": "lec_mrq99fx1qmz",
@@ -1552,6 +1558,12 @@
         "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
         "position": 16,
         "durationSec": 3455
+      },
+      {
+        "videoId": "XagAr-A2uHs",
+        "title": "272~281쪽(개념루트) 정적분의 활용 - 속도와 거리",
+        "position": 17,
+        "durationSec": 1506
       }
     ],
     "permissions": {
@@ -1560,8 +1572,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-10-01T13:41:09.603Z",
-    "lastSyncedAt": "2026-10-01T13:41:09.603Z"
+    "updatedAt": "2026-10-04T07:50:34.619Z",
+    "lastSyncedAt": "2026-10-04T07:50:34.619Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1674,6 +1686,12 @@
         "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
         "position": 16,
         "durationSec": 3455
+      },
+      {
+        "videoId": "XagAr-A2uHs",
+        "title": "272~281쪽(개념루트) 정적분의 활용 - 속도와 거리",
+        "position": 17,
+        "durationSec": 1506
       }
     ],
     "permissions": {
@@ -1682,8 +1700,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-10-01T13:41:11.297Z",
-    "lastSyncedAt": "2026-10-01T13:41:11.297Z"
+    "updatedAt": "2026-10-04T07:50:36.435Z",
+    "lastSyncedAt": "2026-10-04T07:50:36.435Z"
   },
   {
     "id": "lec_mqkscmibfht",
@@ -1818,6 +1836,12 @@
         "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
         "position": 20,
         "durationSec": 3455
+      },
+      {
+        "videoId": "XagAr-A2uHs",
+        "title": "272~281쪽(개념루트) 정적분의 활용 - 속도와 거리",
+        "position": 21,
+        "durationSec": 1506
       }
     ],
     "permissions": {
@@ -1826,8 +1850,8 @@
       "studentIds": []
     },
     "createdAt": "2026-06-19T10:28:12.659Z",
-    "updatedAt": "2026-10-01T13:41:14.897Z",
-    "lastSyncedAt": "2026-10-01T13:41:14.897Z",
+    "updatedAt": "2026-10-04T07:50:38.032Z",
+    "lastSyncedAt": "2026-10-04T07:50:38.032Z",
     "textbook": "개념+유형",
     "memo": ""
   },

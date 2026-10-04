@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-28T08:49:32.012Z",
+  "generatedAt": "2026-10-04T10:59:53.479Z",
+  "branding": {
+    "name": "매쓰피아",
+    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
+  },
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -50,14 +59,14 @@
         "watchedSec": 0
       },
       "MUY1NAZSfLw": {
-        "sessionCount": 13,
+        "sessionCount": 10,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
         "durationSec": 4799,
-        "lastPosition": 235,
-        "lastWatchedAt": "2026-09-22T15:37:58.057Z",
-        "watchedSec": 75
+        "lastPosition": 234,
+        "lastWatchedAt": "2026-09-11T16:25:15.047Z",
+        "watchedSec": 74
       },
       "7pfVUyQLMjs": {
         "sessionCount": 1,
@@ -138,9 +147,6 @@
         "lastPosition": 1845,
         "lastWatchedAt": "2026-09-12T02:07:27.213Z",
         "watchedSec": 3
-      },
-      "Fqe7TRl46mA": {
-        "sessionCount": 1
       }
     },
     "daily": {
@@ -166,9 +172,6 @@
       "2026-09-12": {
         "MUY1NAZSfLw": 1,
         "7LtG4Dc90v8": 3
-      },
-      "2026-09-23": {
-        "MUY1NAZSfLw": 1
       }
     }
   },

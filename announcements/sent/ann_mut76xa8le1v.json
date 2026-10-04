@@ -1,0 +1,16 @@
+{
+  "id": "ann_mut76xa8le1v",
+  "sentAt": "2026-10-04T11:24:50.579930+09:00",
+  "target": "member",
+  "message": "황훈님, 오답노트 교사 계정이 승인되었습니다. 이제 로그인해서 사용하실 수 있어요.\n\n로그인: https://math-notes-app.vercel.app/teacher.html",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "황훈",
+      "type": "member",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

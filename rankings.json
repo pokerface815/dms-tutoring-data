@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-03T04:27:43.553Z",
-  "studentCount": 48,
+  "generatedAt": "2026-10-04T02:30:11.607Z",
+  "studentCount": 47,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -417,17 +417,6 @@
       "weekSec": 0,
       "monthSec": 0,
       "recent3mSec": 4086,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1783822161933_05uu7m",
-      "name": "김도윤",
-      "totalSec": 81,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-06T05:28:18.861Z",
+  "generatedAt": "2026-10-06T23:32:50.997Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -16,30 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1790683854211_lox852",
-      "noteName": "장하늘_완자 기출픽_직선의 방정식( ~ 149번)",
-      "subject": "공통수학2",
-      "round": 3,
-      "plannedDate": "2026-10-06",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
-      "assignmentId": "a_1791264485752_q905r1",
-      "noteName": "장하늘_완자 기출픽_원과 직선의 위치관계(~p.68 298번)",
-      "subject": "공통수학2",
-      "round": 1,
-      "plannedDate": "2026-10-06",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -66,6 +43,30 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1791264485752_q905r1",
+      "noteName": "장하늘_완자 기출픽_원과 직선의 위치관계(~p.68 298번)",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-10-06",
+      "done": true,
+      "doneAt": "2026-10-06T23:32:42.162Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1790683854211_lox852",
+      "noteName": "장하늘_완자 기출픽_직선의 방정식( ~ 149번)",
+      "subject": "공통수학2",
+      "round": 3,
+      "plannedDate": "2026-10-06",
+      "done": true,
+      "doneAt": "2026-10-06T23:32:40.742Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1790927577425_buzp2u",
       "noteName": "장하늘_완자 기출픽_원의 방정식(~p.53 227번)",
@@ -189,8 +190,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 0,
-    "percent": 0,
+    "done": 2,
+    "percent": 50,
     "startDate": "2026-10-05",
     "endDate": "2026-10-11"
   },

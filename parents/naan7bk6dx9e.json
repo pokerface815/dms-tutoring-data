@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T16:29:10.827Z",
+  "generatedAt": "2026-10-06T05:28:17.040Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -61,17 +61,7 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_mtoctxeznew",
-        "startedAt": 1788610943751,
-        "seconds": 677,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 97~106쪽 직선에 대한 대칭이동, 집합의 뜻과 표현",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

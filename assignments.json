@@ -5037,8 +5037,10 @@
       {
         "stage": 3,
         "planned": "2026-10-06",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-10-06T23:32:40.742Z",
+        "missed": false,
+        "missedAt": null
       }
     ],
     "createdAt": "2026-09-29T12:10:54.211Z"
@@ -5117,8 +5119,10 @@
       {
         "stage": 1,
         "planned": "2026-10-06",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-10-06T23:32:42.162Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,

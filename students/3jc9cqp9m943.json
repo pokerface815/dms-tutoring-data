@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-06T05:28:13.515Z",
+  "generatedAt": "2026-10-07T11:48:56.769Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -538,9 +538,32 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1791373729776_r88ydw",
+      "noteName": "남옥빈_자이스토리 내신기출_E.집합의 뜻과 표현",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-10-07",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [
+    {
+      "assignmentId": "a_1791373729776_r88ydw",
+      "noteName": "남옥빈_자이스토리 내신기출_E.집합의 뜻과 표현",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-10-09",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
     {
       "assignmentId": "a_1789791704456_fcoga1",
       "noteName": "남옥빈_자이스토리 내신기출_~C.120",
@@ -722,9 +745,9 @@
     }
   ],
   "weekProgress": {
-    "total": 4,
+    "total": 6,
     "done": 1,
-    "percent": 25,
+    "percent": 17,
     "startDate": "2026-10-05",
     "endDate": "2026-10-11"
   },

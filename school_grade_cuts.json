@@ -1360,7 +1360,14 @@
     "year": 2026,
     "semester": "2",
     "subject": "기하",
-    "cutsByExamKind": {},
+    "cutsByExamKind": {
+      "중간": [
+        89,
+        null,
+        null,
+        null
+      ]
+    },
     "averagesByExamKind": {},
     "notesByExamKind": {},
     "examInfoByExamKind": {},

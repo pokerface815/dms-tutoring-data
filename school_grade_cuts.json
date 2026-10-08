@@ -1752,5 +1752,35 @@
         }
       ]
     }
+  },
+  {
+    "id": "scut_muzh6zpbjgy",
+    "school": "문정여고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "2",
+    "subject": "기하",
+    "cutsByExamKind": {
+      "중간": [
+        88.1,
+        null,
+        null,
+        null
+      ]
+    },
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "이차곡선, 공간도형"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "",
+    "textbookPublisher": "",
+    "supplementaryBook": "",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

@@ -1162,7 +1162,14 @@
     "year": 2026,
     "semester": "2",
     "subject": "미적분1",
-    "cutsByExamKind": {},
+    "cutsByExamKind": {
+      "중간": [
+        57.3,
+        null,
+        null,
+        null
+      ]
+    },
     "averagesByExamKind": {},
     "notesByExamKind": {
       "중간": "함수의 연속, 극한, 미분계수와 도함수, 접선의 방정식, 평균값 정리"

@@ -1202,14 +1202,21 @@
     "year": 2026,
     "semester": "2",
     "subject": "기하",
-    "cutsByExamKind": {},
+    "cutsByExamKind": {
+      "중간": [
+        82.5,
+        null,
+        null,
+        null
+      ]
+    },
     "averagesByExamKind": {},
     "notesByExamKind": {
       "중간": "이차곡선, 공간도형"
     },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
-    "teacher": "",
+    "teacher": "김근홍",
     "textbookPublisher": "미래엔",
     "supplementaryBook": "올림포스",
     "extraNote": "",

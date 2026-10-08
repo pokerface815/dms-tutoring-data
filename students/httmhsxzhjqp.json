@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-08T05:34:48.026Z",
+  "generatedAt": "2026-10-08T11:33:12.920Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -16,19 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1791264485752_q905r1",
-      "noteName": "장하늘_완자 기출픽_원과 직선의 위치관계(~p.68 298번)",
-      "subject": "공통수학2",
-      "round": 2,
-      "plannedDate": "2026-10-08",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
@@ -44,6 +32,18 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1791264485752_q905r1",
+      "noteName": "장하늘_완자 기출픽_원과 직선의 위치관계(~p.68 298번)",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-10-08",
+      "done": true,
+      "doneAt": "2026-10-08T11:33:05.674Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1791264485752_q905r1",
       "noteName": "장하늘_완자 기출픽_원과 직선의 위치관계(~p.68 298번)",
@@ -191,8 +191,8 @@
   ],
   "weekProgress": {
     "total": 4,
-    "done": 2,
-    "percent": 50,
+    "done": 3,
+    "percent": 75,
     "startDate": "2026-10-05",
     "endDate": "2026-10-11"
   },

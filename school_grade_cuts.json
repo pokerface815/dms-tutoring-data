@@ -1242,7 +1242,14 @@
     "year": 2026,
     "semester": "2",
     "subject": "미적분1",
-    "cutsByExamKind": {},
+    "cutsByExamKind": {
+      "기말": [
+        72,
+        null,
+        null,
+        null
+      ]
+    },
     "averagesByExamKind": {},
     "notesByExamKind": {
       "중간": "함수의 극한, 연속, 미분계수와 도함수, 도함수의 활용(1)"

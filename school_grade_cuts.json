@@ -1321,7 +1321,14 @@
     "year": 2026,
     "semester": "2",
     "subject": "미적분1",
-    "cutsByExamKind": {},
+    "cutsByExamKind": {
+      "중간": [
+        69,
+        null,
+        null,
+        null
+      ]
+    },
     "averagesByExamKind": {},
     "notesByExamKind": {
       "중간": "~ 함수의 최대, 최소 (도함수의 활용2)"

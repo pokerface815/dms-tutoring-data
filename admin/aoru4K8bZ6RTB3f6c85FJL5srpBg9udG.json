@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T02:30:12.658Z",
+  "generatedAt": "2026-10-10T00:13:06.057Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 47,
+  "studentCount": 46,
   "baseUrl": "",
   "students": [
     {
@@ -337,15 +337,6 @@
       "className": "토,일 12시 30분",
       "studentPageCode": "msbmdr3h36yz",
       "parentPageCode": "msbmdr3h36yz"
-    },
-    {
-      "id": "s_1783741677433_iezolt",
-      "name": "박소이",
-      "grade": "고1",
-      "school": "동신여고",
-      "className": "토,일 12시 30분",
-      "studentPageCode": "6rx8qu5mtmy7",
-      "parentPageCode": "6rx8qu5mtmy7"
     },
     {
       "id": "s_1784357925964_vuz436",

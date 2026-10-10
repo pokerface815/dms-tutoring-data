@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T23:32:49.221Z",
+  "generatedAt": "2026-10-10T00:10:57.782Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -63,15 +63,6 @@
         "subject": "중3",
         "method": "강의 시청",
         "content": "2024 1,2월 중3-2 개념원리 — 04-1. 길이구하기1(p.36~37)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtt8mf41bsp",
-        "startedAt": 1788906239233,
-        "seconds": 2381,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-2 개념원리 — 03. 임의의 예각의 삼각비의 값(~p.33)",
         "reflection": ""
       }
     ]

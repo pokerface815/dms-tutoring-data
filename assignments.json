@@ -4264,40 +4264,6 @@
     "createdAt": "2026-09-13T04:41:31.474Z"
   },
   {
-    "id": "a_1789274797841_ap3n40",
-    "noteId": "note_1789274783913_jhzb50",
-    "noteName": "박소이_수학의 왕도_직선의 방정식(~56쪽 유제3-2)",
-    "studentId": "s_1783741677433_iezolt",
-    "subject": "공통수학2",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-09-13",
-        "actualDone": true,
-        "doneAt": "2026-09-13T08:31:48.726Z",
-        "missed": false,
-        "missedAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-09-15",
-        "actualDone": true,
-        "doneAt": "2026-09-15T17:19:06.922Z",
-        "missed": false,
-        "missedAt": null
-      },
-      {
-        "stage": 3,
-        "planned": "2026-09-20",
-        "actualDone": true,
-        "doneAt": "2026-09-20T09:54:24.406Z",
-        "missed": false,
-        "missedAt": null
-      }
-    ],
-    "createdAt": "2026-09-13T04:46:37.841Z"
-  },
-  {
     "id": "a_1789278666390_ejls4e",
     "noteId": "note_1789278656423_8kzwkl",
     "noteName": "송린우_마더텅_함수의 극한(~45쪽 198번)",
@@ -4732,40 +4698,6 @@
       }
     ],
     "createdAt": "2026-09-20T02:28:45.868Z"
-  },
-  {
-    "id": "a_1789879340748_z460hv",
-    "noteId": "note_1789879322498_j5m7ba",
-    "noteName": "박소이_수학의 왕도_원의 방정식",
-    "studentId": "s_1783741677433_iezolt",
-    "subject": "공통수학2",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-09-20",
-        "actualDone": true,
-        "doneAt": "2026-09-20T09:54:30.604Z",
-        "missed": false,
-        "missedAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-09-22",
-        "actualDone": true,
-        "doneAt": "2026-09-22T15:30:41.894Z",
-        "missed": false,
-        "missedAt": null
-      },
-      {
-        "stage": 3,
-        "planned": "2026-09-27",
-        "actualDone": true,
-        "doneAt": "2026-09-28T08:49:09.641Z",
-        "missed": false,
-        "missedAt": null
-      }
-    ],
-    "createdAt": "2026-09-20T04:42:20.748Z"
   },
   {
     "id": "a_1789879421607_zq6abf",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-10T00:10:57.782Z",
+  "generatedAt": "2026-10-11T01:51:24.678Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -36,33 +36,6 @@
         "subject": "중3",
         "method": "강의 시청",
         "content": "2024 1,2월 중3-2 개념원리 — 05. 넓이구하기(~p.56)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtw2xk93efe",
-        "startedAt": 1789078079070,
-        "seconds": 655,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-2 개념원리 — 04-2. 길이구하기2(p.40~42)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtw2fmhbwq6",
-        "startedAt": 1789077214098,
-        "seconds": 839,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-2 개념원리 — 04-1. 길이구하기1(p.36~37)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mtw2ajczqgz",
-        "startedAt": 1789076983418,
-        "seconds": 110,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-2 개념원리 — 04-1. 길이구하기1(p.36~37)",
         "reflection": ""
       }
     ]

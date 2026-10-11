@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-10T00:10:54.310Z",
+  "generatedAt": "2026-10-11T01:51:22.394Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -538,17 +538,21 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
-      "assignmentId": "a_1789791704456_fcoga1",
-      "noteName": "남옥빈_자이스토리 내신기출_~C.120",
+      "assignmentId": "a_1790999390063_a6cx46",
+      "noteName": "남옥빈_자이스토리 내신기출_도형의 이동(~D101)",
       "subject": "공통수학2",
-      "round": 4,
+      "round": 3,
       "plannedDate": "2026-10-10",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-10-11T01:51:10.383Z",
       "missed": false,
-      "missedAt": null
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
       "assignmentId": "a_1789792612063_g7h7h4",
@@ -556,26 +560,24 @@
       "subject": "공통수학2",
       "round": 4,
       "plannedDate": "2026-10-10",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-10-11T01:51:09.600Z",
       "missed": false,
-      "missedAt": null
+      "missedAt": null,
+      "doneType": "submitted"
     },
     {
-      "assignmentId": "a_1790999390063_a6cx46",
-      "noteName": "남옥빈_자이스토리 내신기출_도형의 이동(~D101)",
+      "assignmentId": "a_1789791704456_fcoga1",
+      "noteName": "남옥빈_자이스토리 내신기출_~C.120",
       "subject": "공통수학2",
-      "round": 3,
+      "round": 4,
       "plannedDate": "2026-10-10",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-10-11T01:51:08.866Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1791373729776_r88ydw",
       "noteName": "남옥빈_자이스토리 내신기출_E.집합의 뜻과 표현",
@@ -747,8 +749,8 @@
   ],
   "weekProgress": {
     "total": 6,
-    "done": 3,
-    "percent": 50,
+    "done": 6,
+    "percent": 100,
     "startDate": "2026-10-05",
     "endDate": "2026-10-11"
   },

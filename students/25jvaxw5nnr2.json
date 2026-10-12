@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T16:29:13.964Z",
+  "generatedAt": "2026-10-12T10:48:02.128Z",
   "student": {
     "id": "s_1786359648617_00qsgi",
     "classes": [
@@ -24,8 +24,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-10-05",
-    "endDate": "2026-10-11"
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-18"
   },
   "teacherConfirms": {},
   "tasks": [],

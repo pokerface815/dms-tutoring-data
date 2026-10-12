@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-11T01:51:22.394Z",
+  "generatedAt": "2026-10-12T10:47:57.130Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -748,11 +748,11 @@
     }
   ],
   "weekProgress": {
-    "total": 6,
-    "done": 6,
-    "percent": 100,
-    "startDate": "2026-10-05",
-    "endDate": "2026-10-11"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-18"
   },
   "teacherConfirms": {
     "a_1789185294792_cko2vx__3": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T16:27:53.952Z",
+  "generatedAt": "2026-10-12T10:46:42.136Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -710,8 +710,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-10-05",
-    "endDate": "2026-10-11"
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-18"
   },
   "teacherConfirms": {
     "task_1784794099894_94ldcq__1": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T10:46:47.671Z",
+  "generatedAt": "2026-10-12T10:48:08.085Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -807,6 +807,21 @@
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-07-08T02:24:07.383Z"
+    },
+    {
+      "id": "grade_mv54og6s654",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "2",
+      "subject": "미적분1",
+      "examKind": "중간",
+      "score": 67.8,
+      "grade": 2,
+      "rank": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-10-12T10:47:32.596Z"
     }
   ]
 }

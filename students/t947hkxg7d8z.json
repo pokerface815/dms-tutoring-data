@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T10:48:08.085Z",
+  "generatedAt": "2026-10-12T10:52:41.333Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -802,8 +802,8 @@
       "examKind": "기말",
       "score": 78.7,
       "grade": 1,
-      "rank": null,
-      "percent": null,
+      "rank": "17/234",
+      "percent": 7.26,
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-07-08T02:24:07.383Z"

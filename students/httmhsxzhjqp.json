@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-10T00:10:59.519Z",
+  "generatedAt": "2026-10-12T10:48:06.325Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -190,11 +190,11 @@
     }
   ],
   "weekProgress": {
-    "total": 4,
-    "done": 4,
-    "percent": 100,
-    "startDate": "2026-10-05",
-    "endDate": "2026-10-11"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-18"
   },
   "teacherConfirms": {},
   "tasks": [],

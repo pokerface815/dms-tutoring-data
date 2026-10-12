@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-11T01:51:20.530Z",
+  "generatedAt": "2026-10-12T10:47:48.011Z",
   "student": {
     "id": "s_1783741639936_epkpt5",
     "classes": [
@@ -100,11 +100,11 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
-    "done": 1,
-    "percent": 100,
-    "startDate": "2026-10-05",
-    "endDate": "2026-10-11"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-18"
   },
   "teacherConfirms": {},
   "tasks": [],

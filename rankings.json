@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-10T00:13:04.245Z",
+  "generatedAt": "2026-10-13T18:17:19.489Z",
   "studentCount": 46,
   "rankings": [
     {
@@ -94,11 +94,11 @@
     {
       "id": "s_1778404886523_0ag055",
       "name": "박다인",
-      "totalSec": 23186,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 836,
-      "streak": 0,
+      "totalSec": 30868,
+      "weekSec": 1085,
+      "monthSec": 7682,
+      "recent3mSec": 8518,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

@@ -2711,6 +2711,24 @@
         "title": "71~76쪽 사각형이 원에 내접하기 위한 조건, 접선과 현이 이루는 각",
         "position": 9,
         "durationSec": 3530
+      },
+      {
+        "videoId": "T1pK5CWzWFY",
+        "title": "79~84쪽 대푯값(평균, 중앙값, 최빈값), 편차",
+        "position": 10,
+        "durationSec": 2639
+      },
+      {
+        "videoId": "BfJyqnDbd9I",
+        "title": "84~87쪽 산포도(분산, 표준편차)",
+        "position": 11,
+        "durationSec": 2623
+      },
+      {
+        "videoId": "LhvvgyHinZE",
+        "title": "87~92쪽 대푯값과 산포도의 이해 + 산점도",
+        "position": 12,
+        "durationSec": 3445
       }
     ],
     "permissions": {
@@ -2719,7 +2737,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-29T22:56:32.707Z",
-    "updatedAt": "2026-09-03T02:20:13.756Z",
-    "lastSyncedAt": "2026-09-03T02:20:13.756Z"
+    "updatedAt": "2026-10-13T12:02:47.056Z",
+    "lastSyncedAt": "2026-10-13T12:02:47.056Z"
   }
 ]

@@ -2729,6 +2729,12 @@
         "title": "87~92쪽 대푯값과 산포도의 이해 + 산점도",
         "position": 12,
         "durationSec": 3445
+      },
+      {
+        "videoId": "2IUGloWfwaY",
+        "title": "92쪽 ~ 끝. 산점도의 이해 + 상관관계",
+        "position": 13,
+        "durationSec": 1344
       }
     ],
     "permissions": {
@@ -2737,7 +2743,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-29T22:56:32.707Z",
-    "updatedAt": "2026-10-13T12:02:47.056Z",
-    "lastSyncedAt": "2026-10-13T12:02:47.056Z"
+    "updatedAt": "2026-10-14T08:52:58.687Z",
+    "lastSyncedAt": "2026-10-14T08:52:58.687Z"
   }
 ]

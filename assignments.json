@@ -5102,5 +5102,71 @@
       }
     ],
     "createdAt": "2026-10-07T11:48:49.776Z"
+  },
+  {
+    "id": "task_1792069433219_7ldsa3",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/18(일))",
+    "dueDate": "2026-10-18",
+    "assignedAt": "2026-10-15T13:03:53.219Z",
+    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-10-18",
+    "templateId": "tpl_mv9jvcebah40",
+    "repeat": null
+  },
+  {
+    "id": "task_1792069433219_p9ctwo",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/20(화))",
+    "dueDate": "2026-10-20",
+    "assignedAt": "2026-10-15T13:03:53.219Z",
+    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-10-20",
+    "templateId": "tpl_mv9jvcebah40",
+    "repeat": null
+  },
+  {
+    "id": "task_1792069433219_itl707",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/22(목))",
+    "dueDate": "2026-10-22",
+    "assignedAt": "2026-10-15T13:03:53.219Z",
+    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-10-22",
+    "templateId": "tpl_mv9jvcebah40",
+    "repeat": null
+  },
+  {
+    "id": "task_1792069433219_7h0jn4",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/25(일))",
+    "dueDate": "2026-10-25",
+    "assignedAt": "2026-10-15T13:03:53.219Z",
+    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-10-25",
+    "templateId": "tpl_mv9jvcebah40",
+    "repeat": null
+  },
+  {
+    "id": "task_1792069433219_c49yth",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/27(화))",
+    "dueDate": "2026-10-27",
+    "assignedAt": "2026-10-15T13:03:53.219Z",
+    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-10-27",
+    "templateId": "tpl_mv9jvcebah40",
+    "repeat": null
+  },
+  {
+    "id": "task_1792069433219_7mgd26",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/29(목))",
+    "dueDate": "2026-10-29",
+    "assignedAt": "2026-10-15T13:03:53.219Z",
+    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-10-29",
+    "templateId": "tpl_mv9jvcebah40",
+    "repeat": null
   }
 ]

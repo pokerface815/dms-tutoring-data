@@ -1782,5 +1782,35 @@
       "중간": true,
       "기말": true
     }
+  },
+  {
+    "id": "scut_mv9aj3ncjgz",
+    "school": "살레시오고",
+    "gradeLevel": "고2",
+    "year": 2026,
+    "semester": "2",
+    "subject": "미적분1",
+    "cutsByExamKind": {
+      "중간": [
+        75.4,
+        null,
+        null,
+        null
+      ]
+    },
+    "averagesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "함수의 극한 ~ 도함수의 극대, 극소"
+    },
+    "examInfoByExamKind": {},
+    "commentsByExamKind": {},
+    "teacher": "고민우",
+    "textbookPublisher": "",
+    "supplementaryBook": "개념루트, 자이스토리",
+    "extraNote": "",
+    "studentInputEnabledByExamKind": {
+      "중간": true,
+      "기말": true
+    }
   }
 ]

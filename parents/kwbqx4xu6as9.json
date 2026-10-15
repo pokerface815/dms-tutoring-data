@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T11:00:30.887Z",
+  "generatedAt": "2026-10-15T13:04:07.883Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -8,6 +8,116 @@
     "grade": "중2"
   },
   "months": [
+    {
+      "ym": "2026-10",
+      "label": "2026년 10월",
+      "lessons": [
+        {
+          "date": "2026-10-29",
+          "weekday": "목",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/29(목))",
+              "dueDate": "2026-10-29",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
+        {
+          "date": "2026-10-27",
+          "weekday": "화",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/27(화))",
+              "dueDate": "2026-10-27",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
+        {
+          "date": "2026-10-25",
+          "weekday": "일",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/25(일))",
+              "dueDate": "2026-10-25",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
+        {
+          "date": "2026-10-22",
+          "weekday": "목",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/22(목))",
+              "dueDate": "2026-10-22",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
+        {
+          "date": "2026-10-20",
+          "weekday": "화",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/20(화))",
+              "dueDate": "2026-10-20",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
+        {
+          "date": "2026-10-18",
+          "weekday": "일",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/18(일))",
+              "dueDate": "2026-10-18",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        }
+      ],
+      "completionRate": null,
+      "noteStages": null
+    },
     {
       "ym": "2026-08",
       "label": "2026년 8월",
@@ -455,7 +565,18 @@
       "comment": "최근에 본 테스트 모두 준우가 약한 단원 위주로 출제하고 있어서 오답이 많은 편입니다. 이차부등식 단원은 시험에 대한 예고가 되지 않아서 유독 많이 틀린 것 같습니다."
     }
   ],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-08-07T06:27:28.426Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "streak": 0,
+      "bySubjectMonth": {}
+    },
+    "logs": []
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

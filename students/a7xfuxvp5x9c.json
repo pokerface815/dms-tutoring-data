@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T10:47:04.880Z",
+  "generatedAt": "2026-10-15T13:03:58.609Z",
   "student": {
     "id": "s_1779005266373_7iq1b8",
     "classes": [
@@ -12,9 +12,75 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mv3f99cdjvw",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 220~231쪽(개념루트) 정적분",
+      "reflection": "",
+      "seconds": 117,
+      "startedAt": 1791697176560,
+      "createdAt": "2026-10-11T06:08:07.309Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mv9h2gem8e5",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 220~231쪽(개념루트) 정적분",
+      "reflection": "",
+      "seconds": 1928,
+      "startedAt": 1792064603421,
+      "createdAt": "2026-10-15T11:45:26.158Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mv9iox8rh2k",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+      "reflection": "",
+      "seconds": 1191,
+      "startedAt": 1792067358824,
+      "createdAt": "2026-10-15T12:30:54.027Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "9uxXNH4fUT8": {
+        "sessionCount": 2,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "220~231쪽(개념루트) 정적분",
+        "durationSec": 2515,
+        "lastPosition": 2514,
+        "lastWatchedAt": "2026-10-15T12:28:32.907Z",
+        "watchedSec": 2045
+      },
+      "jNwrnSQMusc": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "durationSec": 1035,
+        "lastPosition": 1034,
+        "lastWatchedAt": "2026-10-15T12:55:57.960Z",
+        "watchedSec": 1191
+      }
+    },
+    "daily": {
+      "2026-10-11": {
+        "9uxXNH4fUT8": 117
+      },
+      "2026-10-15": {
+        "9uxXNH4fUT8": 1928,
+        "jNwrnSQMusc": 1191
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

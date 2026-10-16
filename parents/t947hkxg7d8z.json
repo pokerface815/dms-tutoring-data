@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T13:14:38.821Z",
+  "generatedAt": "2026-10-16T00:33:53.630Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,18 @@
       "ym": "2026-10",
       "label": "2026년 10월",
       "lessons": [
+        {
+          "date": "2026-10-15",
+          "weekday": "목",
+          "className": "조예나 개별",
+          "content": "정적분",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "important": false,
+          "extraAssignments": [],
+          "hasLesson": true
+        },
         {
           "date": "2026-10-12",
           "weekday": "월",

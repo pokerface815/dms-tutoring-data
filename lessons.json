@@ -1154,5 +1154,16 @@
     "taskBatchId": null,
     "createdAt": "2026-10-13T18:17:11.959Z",
     "updatedAt": "2026-10-15T13:14:31.531Z"
+  },
+  {
+    "id": "lesson_1792110826500_dwjuwm",
+    "classId": "cls_1780310883451_eliu81",
+    "date": "2026-10-15",
+    "content": "정적분",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": null,
+    "createdAt": "2026-10-16T00:33:46.500Z",
+    "updatedAt": "2026-10-16T00:33:46.500Z"
   }
 ]

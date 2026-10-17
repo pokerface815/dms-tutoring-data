@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T07:05:28.451Z",
+  "generatedAt": "2026-10-17T07:05:39.848Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -274,8 +274,8 @@
       "score": 95,
       "grade": 1,
       "rank": 1,
-      "totalStudents": 62,
-      "percent": 1.61,
+      "totalStudents": 66,
+      "percent": 1.52,
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-10-17T06:55:37.428Z"

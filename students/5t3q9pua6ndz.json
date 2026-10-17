@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T03:45:22.714Z",
+  "generatedAt": "2026-10-17T03:46:10.865Z",
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -271,7 +271,7 @@
       "subject": "공통수학2",
       "examKind": "중간",
       "score": 39.7,
-      "grade": null,
+      "grade": 3,
       "rank": null,
       "percent": null,
       "reflection": "",

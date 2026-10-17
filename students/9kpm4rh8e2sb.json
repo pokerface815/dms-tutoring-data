@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-13T18:17:25.923Z",
+  "generatedAt": "2026-10-17T05:12:28.817Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -822,6 +822,7 @@
       "score": 51,
       "grade": null,
       "rank": null,
+      "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": true,
@@ -831,6 +832,7 @@
       "id": "grade_mtk7l6bcy2v",
       "type": "mock",
       "year": 2026,
+      "totalStudents": null,
       "gradeLevel": "고2",
       "month": 9,
       "elective": "",

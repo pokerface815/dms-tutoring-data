@@ -1282,7 +1282,14 @@
     "year": 2026,
     "semester": "2",
     "subject": "공통수학2",
-    "cutsByExamKind": {},
+    "cutsByExamKind": {
+      "중간": [
+        69,
+        47,
+        null,
+        null
+      ]
+    },
     "averagesByExamKind": {},
     "notesByExamKind": {
       "중간": "도형의 방정식, 집합"

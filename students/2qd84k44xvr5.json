@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T03:35:03.062Z",
+  "generatedAt": "2026-10-17T05:12:17.337Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -723,6 +723,7 @@
       "score": 67,
       "grade": 1,
       "rank": "9/",
+      "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": false,
@@ -732,6 +733,7 @@
       "id": "grade_mq84m2572m6",
       "type": "mock",
       "year": 2026,
+      "totalStudents": null,
       "gradeLevel": "고2",
       "month": 6,
       "mathScore": 84,
@@ -783,6 +785,7 @@
       "score": 83,
       "grade": 1,
       "rank": null,
+      "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": true,
@@ -792,6 +795,7 @@
       "id": "grade_mtk584e94r3",
       "type": "mock",
       "year": 2026,
+      "totalStudents": null,
       "gradeLevel": "고2",
       "month": 9,
       "elective": "",

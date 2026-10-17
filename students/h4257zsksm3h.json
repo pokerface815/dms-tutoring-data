@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T10:46:57.206Z",
+  "generatedAt": "2026-10-17T06:55:42.590Z",
   "student": {
     "id": "s_1778638262495_alq1jg",
     "classes": [
@@ -263,5 +263,22 @@
   },
   "teacherConfirms": {},
   "tasks": [],
-  "myGrades": []
+  "myGrades": [
+    {
+      "id": "grade_mvc1lgicytb",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "2",
+      "subject": "확률과 통계",
+      "examKind": "중간",
+      "score": 95,
+      "grade": 1,
+      "rank": 1,
+      "totalStudents": 62,
+      "percent": 1.61,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-10-17T06:55:37.428Z"
+    }
+  ]
 }

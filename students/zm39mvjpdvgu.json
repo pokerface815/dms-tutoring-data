@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T05:10:09.995Z",
+  "generatedAt": "2026-10-17T05:12:34.378Z",
   "student": {
     "id": "s_1780833414231_dup17p",
     "classes": [
@@ -155,6 +155,7 @@
       "score": null,
       "grade": 3,
       "rank": null,
+      "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": true,

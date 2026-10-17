@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T03:46:29.065Z",
+  "generatedAt": "2026-10-17T05:12:39.639Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -774,6 +774,7 @@
       "score": 51,
       "grade": 2,
       "rank": null,
+      "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": true,

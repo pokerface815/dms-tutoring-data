@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-13T18:17:23.587Z",
+  "generatedAt": "2026-10-17T05:12:26.813Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -670,6 +670,7 @@
       "id": "grade_mtk8evlbykg",
       "type": "mock",
       "year": 2026,
+      "totalStudents": null,
       "gradeLevel": "고2",
       "month": 9,
       "elective": "",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T10:47:29.565Z",
+  "generatedAt": "2026-10-17T05:12:32.666Z",
   "student": {
     "id": "s_1780825523674_8dwstz",
     "classes": [
@@ -77,6 +77,7 @@
       "score": 54,
       "grade": null,
       "rank": null,
+      "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": true,
@@ -92,6 +93,7 @@
       "score": 73,
       "grade": null,
       "rank": null,
+      "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": true,

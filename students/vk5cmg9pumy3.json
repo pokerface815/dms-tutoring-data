@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T05:07:49.559Z",
+  "generatedAt": "2026-10-17T05:12:36.150Z",
   "student": {
     "id": "s_1783476674835_bt1qix",
     "classes": [
@@ -91,6 +91,7 @@
       "score": 55,
       "grade": 2,
       "rank": null,
+      "totalStudents": null,
       "percent": null,
       "reflection": "",
       "teacherEdited": true,

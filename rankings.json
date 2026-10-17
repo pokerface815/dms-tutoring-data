@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T13:04:00.951Z",
+  "generatedAt": "2026-10-17T03:35:06.960Z",
   "studentCount": 46,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
       "name": "송유림",
-      "totalSec": 33376,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 10627,
-      "streak": 0,
+      "totalSec": 38831,
+      "weekSec": 5267,
+      "monthSec": 5455,
+      "recent3mSec": 16082,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -153,7 +153,7 @@
       "weekSec": 3119,
       "monthSec": 3236,
       "recent3mSec": 3236,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },

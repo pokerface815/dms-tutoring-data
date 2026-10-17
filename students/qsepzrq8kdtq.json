@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T03:47:23.038Z",
+  "generatedAt": "2026-10-17T03:48:04.630Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -792,11 +792,11 @@
       "examKind": "기말",
       "score": 67.5,
       "grade": 1,
-      "rank": 13,
+      "rank": "13",
       "totalStudents": 243,
-      "percent": 5.3,
+      "percent": null,
       "reflection": "",
-      "teacherEdited": false,
+      "teacherEdited": true,
       "sourceSubmittedAt": "2026-07-18T11:58:59.966Z",
       "createdAt": "2026-07-18T12:20:24.476Z"
     },

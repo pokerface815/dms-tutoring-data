@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T10:59:38.463Z",
+  "generatedAt": "2026-10-17T03:35:01.164Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -89,15 +89,54 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-09-06T06:30:41.980Z",
+    "uploadedAt": "2026-10-16T11:00:42.396Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "weekSec": 5267,
+      "monthSec": 5455,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 5455
+      }
     },
-    "logs": []
+    "logs": [
+      {
+        "id": "effort_mvaug2syaig",
+        "startedAt": 1792147592999,
+        "seconds": 832,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mv5yn24k6oa",
+        "startedAt": 1791852301238,
+        "seconds": 2172,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 220~231쪽(개념루트) 정적분",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mv4euytyk6y",
+        "startedAt": 1791758617972,
+        "seconds": 2263,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 200~215쪽(개념루트) 부정적분",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mv0xicqfzaf",
+        "startedAt": 1791548078545,
+        "seconds": 188,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 200~215쪽(개념루트) 부정적분",
+        "reflection": ""
+      }
+    ]
   },
   "academyEvents": [
     {

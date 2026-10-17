@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T03:47:07.707Z",
+  "generatedAt": "2026-10-17T03:47:23.038Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -860,6 +860,21 @@
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-10-17T03:47:02.594Z"
+    },
+    {
+      "id": "grade_mvbuv9it68v",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "2",
+      "subject": "기하",
+      "examKind": "중간",
+      "score": null,
+      "grade": null,
+      "rank": "6",
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-10-17T03:47:17.620Z"
     }
   ]
 }

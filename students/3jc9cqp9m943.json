@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T10:47:57.130Z",
+  "generatedAt": "2026-10-17T03:46:29.065Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -763,5 +763,21 @@
     }
   },
   "tasks": [],
-  "myGrades": []
+  "myGrades": [
+    {
+      "id": "grade_mvbuu42vtox",
+      "type": "naesin",
+      "year": 2026,
+      "semester": "2",
+      "subject": "공통수학2",
+      "examKind": "중간",
+      "score": 51,
+      "grade": 2,
+      "rank": null,
+      "percent": null,
+      "reflection": "",
+      "teacherEdited": true,
+      "createdAt": "2026-10-17T03:46:23.911Z"
+    }
+  ]
 }

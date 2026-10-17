@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-15T13:03:58.609Z",
+  "generatedAt": "2026-10-17T11:02:19.490Z",
   "student": {
     "id": "s_1779005266373_7iq1b8",
     "classes": [
@@ -13,6 +13,17 @@
     "showMakeNote": true
   },
   "syncedEffortLogs": [
+    {
+      "id": "effort_muthv7g2120",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 200~215쪽(개념루트) 부정적분",
+      "reflection": "",
+      "seconds": 2736,
+      "startedAt": 1791098396127,
+      "createdAt": "2026-10-04T07:23:28.754Z",
+      "autoRecorded": true
+    },
     {
       "id": "effort_mv3f99cdjvw",
       "subject": "미적분Ⅰ",
@@ -50,6 +61,16 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
+      "JxzPzzpNzew": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "200~215쪽(개념루트) 부정적분",
+        "durationSec": 2230,
+        "lastPosition": 2216,
+        "lastWatchedAt": "2026-10-04T08:37:11.818Z",
+        "watchedSec": 2736
+      },
       "9uxXNH4fUT8": {
         "sessionCount": 2,
         "lectureId": "lec_mririwvdtb6",
@@ -72,6 +93,9 @@
       }
     },
     "daily": {
+      "2026-10-04": {
+        "JxzPzzpNzew": 2736
+      },
       "2026-10-11": {
         "9uxXNH4fUT8": 117
       },

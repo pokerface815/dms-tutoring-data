@@ -5168,5 +5168,16 @@
     "batchId": "tplbatch_tpl_mv9jvcebah40_2026-10-29",
     "templateId": "tpl_mv9jvcebah40",
     "repeat": null
+  },
+  {
+    "id": "task_1792309380323_c9bknq",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 11/1(일))",
+    "dueDate": "2026-11-01",
+    "assignedAt": "2026-10-18T07:43:00.323Z",
+    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-01",
+    "templateId": "tpl_mv9jvcebah40",
+    "repeat": null
   }
 ]

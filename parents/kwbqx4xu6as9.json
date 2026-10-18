@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T13:04:07.883Z",
+  "generatedAt": "2026-10-18T07:43:11.288Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -8,6 +8,31 @@
     "grade": "중2"
   },
   "months": [
+    {
+      "ym": "2026-11",
+      "label": "2026년 11월",
+      "lessons": [
+        {
+          "date": "2026-11-01",
+          "weekday": "일",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 11/1(일))",
+              "dueDate": "2026-11-01",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        }
+      ],
+      "completionRate": null,
+      "noteStages": null
+    },
     {
       "ym": "2026-10",
       "label": "2026년 10월",

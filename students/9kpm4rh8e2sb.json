@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T05:12:28.817Z",
+  "generatedAt": "2026-10-18T07:42:25.549Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -210,6 +210,17 @@
       "startedAt": 1791892972836,
       "createdAt": "2026-10-13T12:03:58.615Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mvdfjz2nqeb",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 242~253쪽(개념루트) 정적분으로 정의된 함수",
+      "reflection": "",
+      "seconds": 2142,
+      "startedAt": 1792302829942,
+      "createdAt": "2026-10-18T06:14:08.975Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -384,6 +395,16 @@
         "lastPosition": 1034,
         "lastWatchedAt": "2026-10-13T12:17:49.561Z",
         "watchedSec": 1699
+      },
+      "O3ZpodBk5B8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "242~253쪽(개념루트) 정적분으로 정의된 함수",
+        "durationSec": 1348,
+        "lastPosition": 1347,
+        "lastWatchedAt": "2026-10-18T06:31:32.352Z",
+        "watchedSec": 2142
       }
     },
     "daily": {
@@ -433,6 +454,9 @@
       },
       "2026-10-13": {
         "jNwrnSQMusc": 1085
+      },
+      "2026-10-18": {
+        "O3ZpodBk5B8": 2142
       }
     }
   },

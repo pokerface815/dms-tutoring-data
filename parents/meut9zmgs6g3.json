@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T11:00:24.083Z",
+  "generatedAt": "2026-10-18T07:42:33.904Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -63,15 +63,27 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-08-23T03:35:55.407Z",
+    "uploadedAt": "2026-10-18T06:14:23.051Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "todaySec": 4459,
+      "weekSec": 4459,
+      "monthSec": 4459,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 4459
+      }
     },
-    "logs": []
+    "logs": [
+      {
+        "id": "effort_mvddf9lx9iy",
+        "startedAt": 1792300350801,
+        "seconds": 4459,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 3",
+        "reflection": ""
+      }
+    ]
   },
   "academyEvents": [
     {

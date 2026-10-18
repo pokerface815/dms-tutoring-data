@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-15T13:04:05.866Z",
+  "generatedAt": "2026-10-18T07:43:09.622Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -412,6 +412,14 @@
       "dueDate": "2026-10-29",
       "isRepeat": false,
       "assignedAt": "2026-10-15T13:03:53.219Z"
+    },
+    {
+      "assignmentId": "task_1792309380323_c9bknq",
+      "round": 1,
+      "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 11/1(일))",
+      "dueDate": "2026-11-01",
+      "isRepeat": false,
+      "assignedAt": "2026-10-18T07:43:00.323Z"
     }
   ],
   "myGrades": []

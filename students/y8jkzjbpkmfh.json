@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T10:46:51.719Z",
+  "generatedAt": "2026-10-18T07:42:39.037Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -408,6 +408,28 @@
       "startedAt": 1786793874530,
       "createdAt": "2026-08-15T11:39:11.946Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mvdhfxzv9d0",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 200~215쪽(개념루트) 부정적분",
+      "reflection": "",
+      "seconds": 1658,
+      "startedAt": 1792307150692,
+      "createdAt": "2026-10-18T07:07:00.187Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvdii783jo8",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 220~231쪽(개념루트) 정적분",
+      "reflection": "",
+      "seconds": 250,
+      "startedAt": 1792308941596,
+      "createdAt": "2026-10-18T07:36:45.075Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -582,6 +604,26 @@
         "lastPosition": 2597,
         "lastWatchedAt": "2026-08-15T11:48:38.389Z",
         "watchedSec": 1529
+      },
+      "JxzPzzpNzew": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq99fx1qmz",
+        "lectureTitle": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "200~215쪽(개념루트) 부정적분",
+        "durationSec": 2230,
+        "lastPosition": 2229,
+        "lastWatchedAt": "2026-10-18T07:35:40.271Z",
+        "watchedSec": 1658
+      },
+      "9uxXNH4fUT8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq99fx1qmz",
+        "lectureTitle": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "220~231쪽(개념루트) 정적분",
+        "durationSec": 2515,
+        "lastPosition": 250,
+        "lastWatchedAt": "2026-10-18T07:40:00.032Z",
+        "watchedSec": 250
       }
     },
     "daily": {
@@ -652,6 +694,10 @@
       },
       "2026-08-15": {
         "ugyX19AJiaA": 514
+      },
+      "2026-10-18": {
+        "JxzPzzpNzew": 1658,
+        "9uxXNH4fUT8": 250
       }
     }
   },

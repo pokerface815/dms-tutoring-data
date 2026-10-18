@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T11:02:21.346Z",
+  "generatedAt": "2026-10-18T01:10:28.042Z",
   "studentCount": 46,
   "rankings": [
     {
@@ -10,7 +10,7 @@
       "weekSec": 5267,
       "monthSec": 5455,
       "recent3mSec": 16082,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -61,11 +61,11 @@
     {
       "id": "s_1778325875686_1uoe4b",
       "name": "이경주",
-      "totalSec": 259,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
+      "totalSec": 334,
+      "weekSec": 75,
+      "monthSec": 75,
+      "recent3mSec": 75,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

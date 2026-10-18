@@ -1453,7 +1453,16 @@
         "videoId": "ROGD4n-9mrY",
         "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
         "position": 17,
-        "durationSec": 3455
+        "durationSec": 3455,
+        "materials": [
+          {
+            "name": "삼, 사차함수 넓이 공식.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1792309333/jhswhyhsbszse1n1fltv.pdf",
+            "publicId": "jhswhyhsbszse1n1fltv",
+            "resourceType": "image",
+            "uploadedAt": "2026-10-18T07:42:14.159Z"
+          }
+        ]
       },
       {
         "videoId": "XagAr-A2uHs",
@@ -1474,7 +1483,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-10-18T01:10:33.988Z",
+    "updatedAt": "2026-10-18T07:42:14.160Z",
     "lastSyncedAt": "2026-10-18T01:10:33.988Z"
   },
   {
@@ -1587,7 +1596,16 @@
         "videoId": "ROGD4n-9mrY",
         "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
         "position": 16,
-        "durationSec": 3455
+        "durationSec": 3455,
+        "materials": [
+          {
+            "name": "삼, 사차함수 넓이 공식.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1792309344/a3q3usv6kaukqzyas4vp.pdf",
+            "publicId": "a3q3usv6kaukqzyas4vp",
+            "resourceType": "image",
+            "uploadedAt": "2026-10-18T07:42:24.409Z"
+          }
+        ]
       },
       {
         "videoId": "XagAr-A2uHs",
@@ -1602,7 +1620,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-10-13T07:41:04.827Z",
+    "updatedAt": "2026-10-18T07:42:24.409Z",
     "lastSyncedAt": "2026-10-13T07:41:04.827Z"
   },
   {
@@ -1715,7 +1733,16 @@
         "videoId": "ROGD4n-9mrY",
         "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
         "position": 16,
-        "durationSec": 3455
+        "durationSec": 3455,
+        "materials": [
+          {
+            "name": "삼, 사차함수 넓이 공식.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1792309354/n7bfwbssvxxqieautnfs.pdf",
+            "publicId": "n7bfwbssvxxqieautnfs",
+            "resourceType": "image",
+            "uploadedAt": "2026-10-18T07:42:36.156Z"
+          }
+        ]
       },
       {
         "videoId": "XagAr-A2uHs",
@@ -1730,7 +1757,7 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-10-13T07:41:13.139Z",
+    "updatedAt": "2026-10-18T07:42:36.156Z",
     "lastSyncedAt": "2026-10-13T07:41:13.139Z"
   },
   {

@@ -1892,7 +1892,16 @@
         "videoId": "ROGD4n-9mrY",
         "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
         "position": 20,
-        "durationSec": 3455
+        "durationSec": 3455,
+        "materials": [
+          {
+            "name": "삼, 사차함수 넓이 공식.pdf",
+            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1792309367/t6dooar49brmzrrab257.pdf",
+            "publicId": "t6dooar49brmzrrab257",
+            "resourceType": "image",
+            "uploadedAt": "2026-10-18T07:42:47.859Z"
+          }
+        ]
       },
       {
         "videoId": "XagAr-A2uHs",
@@ -1907,7 +1916,7 @@
       "studentIds": []
     },
     "createdAt": "2026-06-19T10:28:12.659Z",
-    "updatedAt": "2026-10-13T07:41:15.743Z",
+    "updatedAt": "2026-10-18T07:42:47.859Z",
     "lastSyncedAt": "2026-10-13T07:41:15.743Z",
     "textbook": "개념+유형",
     "memo": ""

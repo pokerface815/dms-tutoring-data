@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T03:35:05.216Z",
+  "generatedAt": "2026-10-18T07:42:27.009Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -94,15 +94,27 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-09-16T15:58:48.860Z",
+    "uploadedAt": "2026-10-18T07:40:41.397Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "todaySec": 2915,
+      "weekSec": 2915,
+      "monthSec": 2915,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 2915
+      }
     },
-    "logs": []
+    "logs": [
+      {
+        "id": "effort_mvdhoxvhicp",
+        "startedAt": 1792307565245,
+        "seconds": 2915,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 158~177쪽 삼,사차함수의 비율관계 + 함수의최댓값과 최솟값 + 방정식에의 활용",
+        "reflection": ""
+      }
+    ]
   },
   "academyEvents": [
     {

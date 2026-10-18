@@ -1460,6 +1460,12 @@
         "title": "272~281쪽(개념루트) 정적분의 활용 - 속도와 거리",
         "position": 18,
         "durationSec": 1506
+      },
+      {
+        "videoId": "Q4JeWlNAgvA",
+        "title": "3",
+        "position": 19,
+        "durationSec": 3970
       }
     ],
     "permissions": {
@@ -1468,8 +1474,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-10-13T07:40:59.586Z",
-    "lastSyncedAt": "2026-10-13T07:40:59.586Z"
+    "updatedAt": "2026-10-18T01:10:33.988Z",
+    "lastSyncedAt": "2026-10-18T01:10:33.988Z"
   },
   {
     "id": "lec_mrq99fx1qmz",

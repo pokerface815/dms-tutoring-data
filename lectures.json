@@ -1186,6 +1186,24 @@
         "title": "106~114쪽 유한집합의 원소의 개수, 집합 사이의 포함관계, 부분집합의 관계",
         "position": 14,
         "durationSec": 3760
+      },
+      {
+        "videoId": "0rb4KOWB4U8",
+        "title": "118~130쪽 집합의 연산(다른 영상 참고), 집합의 연산법칙",
+        "position": 15,
+        "durationSec": 4257
+      },
+      {
+        "videoId": "ZA6LQHIbY8s",
+        "title": "131~134쪽 유한집합의 원소의 개수",
+        "position": 16,
+        "durationSec": 2774
+      },
+      {
+        "videoId": "vspPK52JPmc",
+        "title": "1",
+        "position": 17,
+        "durationSec": 4140
       }
     ],
     "permissions": {
@@ -1194,8 +1212,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-09-13T02:22:08.994Z",
-    "lastSyncedAt": "2026-09-13T02:22:08.994Z"
+    "updatedAt": "2026-10-18T01:10:11.829Z",
+    "lastSyncedAt": "2026-10-18T01:10:11.829Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1302,6 +1320,12 @@
         "title": "121~131쪽 집합의 연산법칙 + 유한집합의 원소의 개수",
         "position": 15,
         "durationSec": 4686
+      },
+      {
+        "videoId": "tdWjVCgc9aU",
+        "title": "2",
+        "position": 16,
+        "durationSec": 3867
       }
     ],
     "permissions": {
@@ -1310,8 +1334,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-09-13T02:21:46.960Z",
-    "lastSyncedAt": "2026-09-13T02:21:46.960Z"
+    "updatedAt": "2026-10-18T01:10:15.080Z",
+    "lastSyncedAt": "2026-10-18T01:10:15.080Z"
   },
   {
     "id": "lec_mririwvdtb6",

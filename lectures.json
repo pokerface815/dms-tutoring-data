@@ -1201,9 +1201,15 @@
       },
       {
         "videoId": "vspPK52JPmc",
-        "title": "1",
+        "title": "140~145쪽 명제와 조건 + \"p이면 q이다\"의 참, 거짓",
         "position": 17,
         "durationSec": 4140
+      },
+      {
+        "videoId": "B2-htS9Pn6E",
+        "title": "146~155쪽 \"모든\"이나 \"어떤\"을 포함한 명제 + 명제의 역과 대우 + 삼단논법",
+        "position": 18,
+        "durationSec": 4160
       }
     ],
     "permissions": {
@@ -1212,8 +1218,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-10-18T01:10:11.829Z",
-    "lastSyncedAt": "2026-10-18T01:10:11.829Z"
+    "updatedAt": "2026-10-19T12:59:38.233Z",
+    "lastSyncedAt": "2026-10-19T12:59:38.233Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1323,9 +1329,15 @@
       },
       {
         "videoId": "tdWjVCgc9aU",
-        "title": "2",
+        "title": "176~183쪽 함수의 뜻, 함수의 그래프, 일대일함수, 일대일대응",
         "position": 16,
         "durationSec": 3867
+      },
+      {
+        "videoId": "wmYqaheSI4E",
+        "title": "183~190쪽 여러 가지 함수, 함수의 개수",
+        "position": 17,
+        "durationSec": 3934
       }
     ],
     "permissions": {
@@ -1334,8 +1346,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-10-18T01:10:15.080Z",
-    "lastSyncedAt": "2026-10-18T01:10:15.080Z"
+    "updatedAt": "2026-10-19T12:59:35.774Z",
+    "lastSyncedAt": "2026-10-19T12:59:35.774Z"
   },
   {
     "id": "lec_mririwvdtb6",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T05:28:17.040Z",
+  "generatedAt": "2026-10-19T12:17:09.387Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -53,15 +53,27 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-09-05T12:36:59.115Z",
+    "uploadedAt": "2026-10-19T12:14:43.074Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "todaySec": 1467,
+      "weekSec": 1467,
+      "monthSec": 1467,
+      "streak": 1,
+      "bySubjectMonth": {
+        "공통수학2": 1467
+      }
     },
-    "logs": []
+    "logs": [
+      {
+        "id": "effort_mvf6wxf7zq0",
+        "startedAt": 1792410406387,
+        "seconds": 1467,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 2",
+        "reflection": ""
+      }
+    ]
   },
   "academyEvents": [
     {

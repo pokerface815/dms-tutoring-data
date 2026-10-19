@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T09:33:16.139Z",
+  "generatedAt": "2026-10-19T10:54:50.009Z",
   "student": {
     "id": "s_1777547047005_uo92w5",
     "classes": [
@@ -821,9 +821,9 @@
       "examKind": "중간",
       "score": 67.8,
       "grade": 2,
-      "rank": null,
-      "totalStudents": null,
-      "percent": null,
+      "rank": 42,
+      "totalStudents": 229,
+      "percent": 18.34,
       "reflection": "",
       "teacherEdited": true,
       "createdAt": "2026-10-12T10:47:32.596Z"

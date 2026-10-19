@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-18T07:43:09.622Z",
+  "generatedAt": "2026-10-19T09:33:23.631Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -163,8 +163,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-10-12",
-    "endDate": "2026-10-18"
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25"
   },
   "teacherConfirms": {
     "task_1779949209580_wpk6og__1": {
@@ -250,6 +250,10 @@
     "task_1787561854525_5cj4cd__1": {
       "confirmed": true,
       "confirmedAt": "2026-08-31T13:20:23.684Z"
+    },
+    "task_1792069433219_7ldsa3__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-10-19T09:31:13.869Z"
     }
   },
   "tasks": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T10:48:06.325Z",
+  "generatedAt": "2026-10-19T09:31:54.512Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -12,9 +12,39 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mvdji91741o",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 22. 명제",
+      "reflection": "",
+      "seconds": 154,
+      "startedAt": 1792309864764,
+      "createdAt": "2026-10-18T08:04:47.035Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "jIpwtf4tEck": {
+        "sessionCount": 2,
+        "lectureId": "lec_ms5pj8rig4h",
+        "lectureTitle": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업",
+        "videoTitle": "22. 명제",
+        "durationSec": 5157,
+        "lastPosition": 3467,
+        "lastWatchedAt": "2026-10-18T08:12:08.072Z",
+        "watchedSec": 160
+      }
+    },
+    "daily": {
+      "2026-10-18": {
+        "jIpwtf4tEck": 160
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
@@ -193,8 +223,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-10-12",
-    "endDate": "2026-10-18"
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25"
   },
   "teacherConfirms": {},
   "tasks": [],

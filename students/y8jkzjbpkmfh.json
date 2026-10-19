@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-18T07:42:39.037Z",
+  "generatedAt": "2026-10-19T09:31:18.875Z",
   "student": {
     "id": "s_1778397156600_clkd2u",
     "classes": [
@@ -426,7 +426,7 @@
       "method": "강의 시청",
       "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 220~231쪽(개념루트) 정적분",
       "reflection": "",
-      "seconds": 250,
+      "seconds": 1893,
       "startedAt": 1792308941596,
       "createdAt": "2026-10-18T07:36:45.075Z",
       "autoRecorded": true
@@ -621,9 +621,9 @@
         "lectureTitle": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
         "videoTitle": "220~231쪽(개념루트) 정적분",
         "durationSec": 2515,
-        "lastPosition": 250,
-        "lastWatchedAt": "2026-10-18T07:40:00.032Z",
-        "watchedSec": 250
+        "lastPosition": 2434,
+        "lastWatchedAt": "2026-10-18T08:16:48.705Z",
+        "watchedSec": 1893
       }
     },
     "daily": {
@@ -697,7 +697,7 @@
       },
       "2026-10-18": {
         "JxzPzzpNzew": 1658,
-        "9uxXNH4fUT8": 250
+        "9uxXNH4fUT8": 1893
       }
     }
   },
@@ -855,8 +855,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-10-12",
-    "endDate": "2026-10-18"
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25"
   },
   "teacherConfirms": {},
   "tasks": [],

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T09:31:56.595Z",
+  "generatedAt": "2026-10-19T12:17:14.568Z",
   "student": {
     "id": "s_1787570844823_nbqosc",
     "classes": [
@@ -177,6 +177,28 @@
       "startedAt": 1789973981898,
       "createdAt": "2026-09-21T07:01:47.709Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mvf2bylqixm",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-2 개념원리 — 06. 원의 현, 접선(1) (~p.70)",
+      "reflection": "",
+      "seconds": 995,
+      "startedAt": 1792402686686,
+      "createdAt": "2026-10-19T09:39:32.462Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvf3twox59h",
+      "subject": "중3",
+      "method": "강의 시청",
+      "content": "2024 1,2월 중3-2 개념원리 — 06. 원의 현, 접선(1) (~p.70)",
+      "reflection": "",
+      "seconds": 992,
+      "startedAt": 1792405227337,
+      "createdAt": "2026-10-19T10:21:29.409Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -291,6 +313,16 @@
         "lastPosition": 4638,
         "lastWatchedAt": "2026-09-21T08:18:27.634Z",
         "watchedSec": 2891
+      },
+      "H8nUQOFEyVc": {
+        "sessionCount": 2,
+        "lectureId": "lec_mqoum7ssed7",
+        "lectureTitle": "2024 1,2월 중3-2 개념원리",
+        "videoTitle": "06. 원의 현, 접선(1) (~p.70)",
+        "durationSec": 4388,
+        "lastPosition": 4387,
+        "lastWatchedAt": "2026-10-19T10:49:55.782Z",
+        "watchedSec": 1987
       }
     },
     "daily": {
@@ -323,6 +355,9 @@
       },
       "2026-09-21": {
         "im_eTohOmXY": 1588
+      },
+      "2026-10-19": {
+        "H8nUQOFEyVc": 1987
       }
     }
   },

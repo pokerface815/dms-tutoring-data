@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T09:32:04.140Z",
+  "generatedAt": "2026-10-19T12:17:11.238Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -44,6 +44,17 @@
       "seconds": 677,
       "startedAt": 1788610943751,
       "createdAt": "2026-09-05T12:23:57.803Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvf6wxf7zq0",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 2",
+      "reflection": "",
+      "seconds": 1467,
+      "startedAt": 1792410406387,
+      "createdAt": "2026-10-19T11:47:49.171Z",
       "autoRecorded": true
     }
   ],
@@ -151,14 +162,14 @@
         "watchedSec": 12
       },
       "tdWjVCgc9aU": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mrg7ztilap8",
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "2",
         "durationSec": 3867,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-10-18T03:39:37.050Z",
-        "watchedSec": 2
+        "lastPosition": 1301,
+        "lastWatchedAt": "2026-10-19T12:14:43.073Z",
+        "watchedSec": 1469
       }
     },
     "daily": {
@@ -185,6 +196,9 @@
       },
       "2026-10-18": {
         "tdWjVCgc9aU": 2
+      },
+      "2026-10-19": {
+        "tdWjVCgc9aU": 1467
       }
     }
   },

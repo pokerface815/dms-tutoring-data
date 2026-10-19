@@ -2811,5 +2811,31 @@
     "createdAt": "2026-07-29T22:56:32.707Z",
     "updatedAt": "2026-10-14T08:53:22.179Z",
     "lastSyncedAt": "2026-10-14T08:53:22.179Z"
+  },
+  {
+    "id": "lec_mvf7yhgomua",
+    "title": "개념루트 공통수학1(26년 10월 ~)",
+    "youtubePlaylistId": "PLQSEE1BjQ3Xo",
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLQSEE1BjQ3Xo",
+    "subject": "공통수학1",
+    "textbook": "개념루트",
+    "memo": "",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Dllxfn8SrNQ/mqdefault.jpg",
+    "videos": [
+      {
+        "videoId": "Dllxfn8SrNQ",
+        "title": "8~19쪽 다항식의 덧셈과 뺄셈, 곱셈",
+        "position": 0,
+        "durationSec": 3428
+      }
+    ],
+    "permissions": {
+      "type": "all",
+      "classIds": [],
+      "studentIds": []
+    },
+    "createdAt": "2026-10-19T12:17:01.416Z",
+    "updatedAt": "2026-10-19T12:17:01.416Z",
+    "lastSyncedAt": "2026-10-19T12:17:01.416Z"
   }
 ]

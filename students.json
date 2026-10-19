@@ -440,9 +440,9 @@
       "금"
     ],
     "studentPhone": "010-2644-4189",
-    "parentPhone": "010-9327-7661",
+    "parentPhone": "010-9908-4189",
     "notifyStudent": true,
-    "notifyParent": false,
+    "notifyParent": true,
     "pageCode": "kwbqx4xu6as9",
     "classes": [
       "cls_1780309370989_i1lo00"

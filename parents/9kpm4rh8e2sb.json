@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T09:31:26.436Z",
+  "generatedAt": "2026-10-19T12:17:06.590Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -91,17 +91,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-10-18T06:31:30.695Z",
+    "uploadedAt": "2026-10-19T12:15:01.945Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 9824,
-      "streak": 1,
+      "todaySec": 1284,
+      "weekSec": 1284,
+      "monthSec": 11108,
+      "streak": 2,
       "bySubjectMonth": {
-        "미적분Ⅰ": 9824
+        "미적분Ⅰ": 11108
       }
     },
     "logs": [
+      {
+        "id": "effort_mvf7ihhgyno",
+        "startedAt": 1792411412850,
+        "seconds": 1284,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 258~271쪽(개념루트) 정적분의 활용 - 넓이",
+        "reflection": ""
+      },
       {
         "id": "effort_mvdfjz2nqeb",
         "startedAt": 1792302829942,

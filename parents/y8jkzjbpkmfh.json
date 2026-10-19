@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T07:42:37.309Z",
+  "generatedAt": "2026-10-19T09:31:22.959Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,21 +48,21 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-10-18T07:40:00.035Z",
+    "uploadedAt": "2026-10-18T08:16:47.435Z",
     "summary": {
-      "todaySec": 1908,
-      "weekSec": 1908,
-      "monthSec": 1908,
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 3551,
       "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 1908
+        "미적분Ⅰ": 3551
       }
     },
     "logs": [
       {
         "id": "effort_mvdii783jo8",
         "startedAt": 1792308941596,
-        "seconds": 250,
+        "seconds": 1893,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 220~231쪽(개념루트) 정적분",

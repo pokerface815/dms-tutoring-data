@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-18T07:42:21.199Z",
+  "generatedAt": "2026-10-19T09:31:35.514Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -137,8 +137,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-10-12",
-    "endDate": "2026-10-18"
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25"
   },
   "teacherConfirms": {
     "task_1784786830937_2hurv7__1": {

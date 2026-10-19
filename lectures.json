@@ -1427,54 +1427,51 @@
       },
       {
         "videoId": "JxzPzzpNzew",
-        "title": "200~215쪽(개념루트) 부정적분",
+        "title": "[개념루트, 사전 촬영] 200~215쪽 부정적분",
         "position": 13,
         "durationSec": 2230
       },
       {
         "videoId": "9uxXNH4fUT8",
-        "title": "220~231쪽(개념루트) 정적분",
+        "title": "[개념루트, 사전 촬영] 220~231쪽 정적분",
         "position": 14,
         "durationSec": 2515
       },
       {
         "videoId": "jNwrnSQMusc",
-        "title": "232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "title": "[개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
         "position": 15,
         "durationSec": 1035
       },
       {
         "videoId": "O3ZpodBk5B8",
-        "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
+        "title": "[개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
         "position": 16,
         "durationSec": 1348
       },
       {
         "videoId": "ROGD4n-9mrY",
-        "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
+        "title": "[개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
         "position": 17,
-        "durationSec": 3455,
-        "materials": [
-          {
-            "name": "삼, 사차함수 넓이 공식.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1792309333/jhswhyhsbszse1n1fltv.pdf",
-            "publicId": "jhswhyhsbszse1n1fltv",
-            "resourceType": "image",
-            "uploadedAt": "2026-10-18T07:42:14.159Z"
-          }
-        ]
+        "durationSec": 3455
       },
       {
         "videoId": "XagAr-A2uHs",
-        "title": "272~281쪽(개념루트) 정적분의 활용 - 속도와 거리",
+        "title": "[개념루트, 사전 촬영] 272~281쪽 정적분의 활용 - 속도와 거리",
         "position": 18,
         "durationSec": 1506
       },
       {
         "videoId": "Q4JeWlNAgvA",
-        "title": "3",
+        "title": "200~215쪽 부정적분",
         "position": 19,
         "durationSec": 3970
+      },
+      {
+        "videoId": "ZuDVvGsnFW4",
+        "title": "220~231쪽 정적분",
+        "position": 20,
+        "durationSec": 3698
       }
     ],
     "permissions": {
@@ -1483,8 +1480,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-10-18T07:42:14.160Z",
-    "lastSyncedAt": "2026-10-18T01:10:33.988Z"
+    "updatedAt": "2026-10-19T12:59:21.923Z",
+    "lastSyncedAt": "2026-10-19T12:59:21.923Z"
   },
   {
     "id": "lec_mrq99fx1qmz",
@@ -1570,46 +1567,37 @@
       },
       {
         "videoId": "JxzPzzpNzew",
-        "title": "200~215쪽(개념루트) 부정적분",
+        "title": "[개념루트, 사전 촬영] 200~215쪽 부정적분",
         "position": 12,
         "durationSec": 2230
       },
       {
         "videoId": "9uxXNH4fUT8",
-        "title": "220~231쪽(개념루트) 정적분",
+        "title": "[개념루트, 사전 촬영] 220~231쪽 정적분",
         "position": 13,
         "durationSec": 2515
       },
       {
         "videoId": "jNwrnSQMusc",
-        "title": "232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "title": "[개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
         "position": 14,
         "durationSec": 1035
       },
       {
         "videoId": "O3ZpodBk5B8",
-        "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
+        "title": "[개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
         "position": 15,
         "durationSec": 1348
       },
       {
         "videoId": "ROGD4n-9mrY",
-        "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
+        "title": "[개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
         "position": 16,
-        "durationSec": 3455,
-        "materials": [
-          {
-            "name": "삼, 사차함수 넓이 공식.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1792309344/a3q3usv6kaukqzyas4vp.pdf",
-            "publicId": "a3q3usv6kaukqzyas4vp",
-            "resourceType": "image",
-            "uploadedAt": "2026-10-18T07:42:24.409Z"
-          }
-        ]
+        "durationSec": 3455
       },
       {
         "videoId": "XagAr-A2uHs",
-        "title": "272~281쪽(개념루트) 정적분의 활용 - 속도와 거리",
+        "title": "[개념루트, 사전 촬영] 272~281쪽 정적분의 활용 - 속도와 거리",
         "position": 17,
         "durationSec": 1506
       }
@@ -1620,8 +1608,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:10.837Z",
-    "updatedAt": "2026-10-18T07:42:24.409Z",
-    "lastSyncedAt": "2026-10-13T07:41:04.827Z"
+    "updatedAt": "2026-10-19T12:59:25.396Z",
+    "lastSyncedAt": "2026-10-19T12:59:25.396Z"
   },
   {
     "id": "lec_mrq9a1wrhru",
@@ -1707,46 +1695,37 @@
       },
       {
         "videoId": "JxzPzzpNzew",
-        "title": "200~215쪽(개념루트) 부정적분",
+        "title": "[개념루트, 사전 촬영] 200~215쪽 부정적분",
         "position": 12,
         "durationSec": 2230
       },
       {
         "videoId": "9uxXNH4fUT8",
-        "title": "220~231쪽(개념루트) 정적분",
+        "title": "[개념루트, 사전 촬영] 220~231쪽 정적분",
         "position": 13,
         "durationSec": 2515
       },
       {
         "videoId": "jNwrnSQMusc",
-        "title": "232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "title": "[개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
         "position": 14,
         "durationSec": 1035
       },
       {
         "videoId": "O3ZpodBk5B8",
-        "title": "242~253쪽(개념루트) 정적분으로 정의된 함수",
+        "title": "[개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
         "position": 15,
         "durationSec": 1348
       },
       {
         "videoId": "ROGD4n-9mrY",
-        "title": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
+        "title": "[개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
         "position": 16,
-        "durationSec": 3455,
-        "materials": [
-          {
-            "name": "삼, 사차함수 넓이 공식.pdf",
-            "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1792309354/n7bfwbssvxxqieautnfs.pdf",
-            "publicId": "n7bfwbssvxxqieautnfs",
-            "resourceType": "image",
-            "uploadedAt": "2026-10-18T07:42:36.156Z"
-          }
-        ]
+        "durationSec": 3455
       },
       {
         "videoId": "XagAr-A2uHs",
-        "title": "272~281쪽(개념루트) 정적분의 활용 - 속도와 거리",
+        "title": "[개념루트, 사전 촬영] 272~281쪽 정적분의 활용 - 속도와 거리",
         "position": 17,
         "durationSec": 1506
       }
@@ -1757,8 +1736,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-18T11:00:39.338Z",
-    "updatedAt": "2026-10-18T07:42:36.156Z",
-    "lastSyncedAt": "2026-10-13T07:41:13.139Z"
+    "updatedAt": "2026-10-19T12:59:28.040Z",
+    "lastSyncedAt": "2026-10-19T12:59:28.040Z"
   },
   {
     "id": "lec_mqkscmibfht",

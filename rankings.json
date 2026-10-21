@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T09:41:38.412Z",
-  "studentCount": 46,
+  "generatedAt": "2026-10-21T13:17:30.458Z",
+  "studentCount": 43,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -191,17 +191,6 @@
       "publicNickname": false
     },
     {
-      "id": "s_1780314459772_3emo5z",
-      "name": "강화진",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
       "id": "s_1780314459772_slkq6q",
       "name": "김소윤",
       "totalSec": 0,
@@ -222,17 +211,6 @@
       "streak": 0,
       "nickname": "타이거즈",
       "publicNickname": true
-    },
-    {
-      "id": "s_1780314459772_58a78m",
-      "name": "장경원",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
     },
     {
       "id": "s_1780314459772_frngyj",
@@ -461,17 +439,6 @@
       "weekSec": 2165,
       "monthSec": 2165,
       "recent3mSec": 2842,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1786082844440_z9486d",
-      "name": "남경원",
-      "totalSec": 4824,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 4824,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

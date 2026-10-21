@@ -1392,17 +1392,6 @@
     "repeat": null
   },
   {
-    "id": "task_1780314584317_4ja9dn",
-    "type": "task",
-    "studentId": "s_1780314459772_3emo5z",
-    "title": "프린트 101쪽까지 마무리 해오기",
-    "dueDate": "2026-06-05",
-    "assignedAt": "2026-06-01T11:49:44.317Z",
-    "batchId": "t_mpv5c4xp",
-    "repeat": null,
-    "fromLesson": "lesson_1780314584317_0av73m"
-  },
-  {
     "id": "task_1780314584317_h8eaq9",
     "type": "task",
     "studentId": "s_1780314459772_slkq6q",
@@ -1417,17 +1406,6 @@
     "id": "task_1780314584317_shnpdd",
     "type": "task",
     "studentId": "s_1780314459772_u5kn1l",
-    "title": "프린트 101쪽까지 마무리 해오기",
-    "dueDate": "2026-06-05",
-    "assignedAt": "2026-06-01T11:49:44.317Z",
-    "batchId": "t_mpv5c4xp",
-    "repeat": null,
-    "fromLesson": "lesson_1780314584317_0av73m"
-  },
-  {
-    "id": "task_1780314584317_v5ka40",
-    "type": "task",
-    "studentId": "s_1780314459772_58a78m",
     "title": "프린트 101쪽까지 마무리 해오기",
     "dueDate": "2026-06-05",
     "assignedAt": "2026-06-01T11:49:44.317Z",
@@ -1795,17 +1773,6 @@
     "repeat": null
   },
   {
-    "id": "task_1780907008277_xqvsm0",
-    "type": "task",
-    "studentId": "s_1780314459772_3emo5z",
-    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
-    "dueDate": "2026-06-10",
-    "assignedAt": "2026-06-08T08:23:28.277Z",
-    "batchId": "t_mq4y1u6t",
-    "repeat": null,
-    "fromLesson": "lesson_1780907008277_7dgplb"
-  },
-  {
     "id": "task_1780907008277_n4ky01",
     "type": "task",
     "studentId": "s_1780314459772_slkq6q",
@@ -1820,17 +1787,6 @@
     "id": "task_1780907008277_yujtny",
     "type": "task",
     "studentId": "s_1780314459772_u5kn1l",
-    "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
-    "dueDate": "2026-06-10",
-    "assignedAt": "2026-06-08T08:23:28.277Z",
-    "batchId": "t_mq4y1u6t",
-    "repeat": null,
-    "fromLesson": "lesson_1780907008277_7dgplb"
-  },
-  {
-    "id": "task_1780907008277_hqho9m",
-    "type": "task",
-    "studentId": "s_1780314459772_58a78m",
     "title": "교과서 변형문제 남은 부분 풀이 및 오답에 대한 쌍둥이 문제 풀이",
     "dueDate": "2026-06-10",
     "assignedAt": "2026-06-08T08:23:28.277Z",
@@ -2954,72 +2910,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786083194758_2f29t7",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/8(토))",
-    "dueDate": "2026-08-08",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-08",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1786083194758_m1cf0h",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/11(화))",
-    "dueDate": "2026-08-11",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-11",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1786083194758_vz5ie3",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/13(목))",
-    "dueDate": "2026-08-13",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-13",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1786083194758_ixy9sh",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/15(토))",
-    "dueDate": "2026-08-15",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-15",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1786083194758_jq35aq",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/18(화))",
-    "dueDate": "2026-08-18",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-18",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1786083194758_b5r7gp",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/20(목))",
-    "dueDate": "2026-08-20",
-    "assignedAt": "2026-08-07T06:13:14.758Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-20",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
     "id": "task_1786083747183_uq339a",
     "type": "task",
     "studentId": "s_1780309359751_gjl2s0",
@@ -3108,17 +2998,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786087952046_au47kq",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/7(금))",
-    "dueDate": "2026-08-07",
-    "assignedAt": "2026-08-07T07:32:32.047Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-07",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
     "id": "task_1786115074362_1dw7c1",
     "type": "task",
     "studentId": "s_1779948611035_qbdt5h",
@@ -3127,17 +3006,6 @@
     "assignedAt": "2026-08-07T15:04:34.362Z",
     "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-22",
     "templateId": "tpl_msii1jytso0e",
-    "repeat": null
-  },
-  {
-    "id": "task_1786115074362_gvsg5t",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/22(토))",
-    "dueDate": "2026-08-22",
-    "assignedAt": "2026-08-07T15:04:34.362Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-22",
-    "templateId": "tpl_msijth8l1w9f",
     "repeat": null
   },
   {
@@ -3196,17 +3064,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786424522089_sl2c1m",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/25(화))",
-    "dueDate": "2026-08-25",
-    "assignedAt": "2026-08-11T05:02:02.089Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-25",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
     "id": "task_1786424522089_7opvm9",
     "type": "task",
     "studentId": "s_1780309359751_gjl2s0",
@@ -3240,17 +3097,6 @@
     "repeat": null
   },
   {
-    "id": "task_1786556072731_auy3mh",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/27(목))",
-    "dueDate": "2026-08-27",
-    "assignedAt": "2026-08-12T17:34:32.731Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-27",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
     "id": "task_1786556072731_py0j5w",
     "type": "task",
     "studentId": "s_1780309359751_gjl2s0",
@@ -3270,39 +3116,6 @@
     "assignedAt": "2026-08-24T08:57:34.525Z",
     "batchId": "tplbatch_tpl_msii1jytso0e_2026-08-29",
     "templateId": "tpl_msii1jytso0e",
-    "repeat": null
-  },
-  {
-    "id": "task_1787561854526_x8bu7e",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 8/29(토))",
-    "dueDate": "2026-08-29",
-    "assignedAt": "2026-08-24T08:57:34.526Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-08-29",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1787561854526_vbk9pu",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/1(화))",
-    "dueDate": "2026-09-01",
-    "assignedAt": "2026-08-24T08:57:34.526Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-09-01",
-    "templateId": "tpl_msijth8l1w9f",
-    "repeat": null
-  },
-  {
-    "id": "task_1787561854526_fo8qmb",
-    "type": "task",
-    "studentId": "s_1786082844440_z9486d",
-    "title": "쎈 중3-2 매일 2장씩 풀기(제출일 9/3(목))",
-    "dueDate": "2026-09-03",
-    "assignedAt": "2026-08-24T08:57:34.526Z",
-    "batchId": "tplbatch_tpl_msijth8l1w9f_2026-09-03",
-    "templateId": "tpl_msijth8l1w9f",
     "repeat": null
   },
   {

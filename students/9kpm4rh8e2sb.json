@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T12:17:07.872Z",
+  "generatedAt": "2026-10-21T09:41:44.709Z",
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -228,7 +228,7 @@
       "method": "강의 시청",
       "content": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 258~271쪽(개념루트) 정적분의 활용 - 넓이",
       "reflection": "",
-      "seconds": 1284,
+      "seconds": 4483,
       "startedAt": 1792411412850,
       "createdAt": "2026-10-19T12:04:34.948Z",
       "autoRecorded": true
@@ -423,9 +423,9 @@
         "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
         "videoTitle": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
         "durationSec": 3455,
-        "lastPosition": 996,
-        "lastWatchedAt": "2026-10-19T12:15:01.941Z",
-        "watchedSec": 1284
+        "lastPosition": 3454,
+        "lastWatchedAt": "2026-10-19T12:44:52.632Z",
+        "watchedSec": 4483
       },
       "XagAr-A2uHs": {
         "sessionCount": 1
@@ -483,7 +483,7 @@
         "O3ZpodBk5B8": 2142
       },
       "2026-10-19": {
-        "ROGD4n-9mrY": 1284
+        "ROGD4n-9mrY": 4483
       }
     }
   },

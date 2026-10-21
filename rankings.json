@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T12:17:17.104Z",
+  "generatedAt": "2026-10-21T09:41:38.412Z",
   "studentCount": 46,
   "rankings": [
     {
@@ -76,7 +76,7 @@
       "weekSec": 0,
       "monthSec": 3551,
       "recent3mSec": 12698,
-      "streak": 1,
+      "streak": 0,
       "nickname": "😎",
       "publicNickname": true
     },
@@ -87,18 +87,18 @@
       "weekSec": 0,
       "monthSec": 8349,
       "recent3mSec": 14652,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1778404886523_0ag055",
       "name": "박다인",
-      "totalSec": 34294,
-      "weekSec": 1284,
-      "monthSec": 11108,
-      "recent3mSec": 11944,
-      "streak": 2,
+      "totalSec": 37493,
+      "weekSec": 4483,
+      "monthSec": 14307,
+      "recent3mSec": 15143,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -142,7 +142,7 @@
       "weekSec": 0,
       "monthSec": 4459,
       "recent3mSec": 9655,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -351,7 +351,7 @@
       "weekSec": 0,
       "monthSec": 1972,
       "recent3mSec": 1972,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -402,11 +402,11 @@
     {
       "id": "s_1783741639936_epkpt5",
       "name": "송시욱",
-      "totalSec": 2516,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 2516,
-      "streak": 0,
+      "totalSec": 5955,
+      "weekSec": 3439,
+      "monthSec": 3439,
+      "recent3mSec": 5955,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },
@@ -457,11 +457,11 @@
     {
       "id": "s_1785035974019_bc13fy",
       "name": "조한결",
-      "totalSec": 6203,
-      "weekSec": 1467,
-      "monthSec": 1467,
-      "recent3mSec": 2144,
-      "streak": 1,
+      "totalSec": 6901,
+      "weekSec": 2165,
+      "monthSec": 2165,
+      "recent3mSec": 2842,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -494,7 +494,7 @@
       "weekSec": 1987,
       "monthSec": 1987,
       "recent3mSec": 23017,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -505,7 +505,7 @@
       "weekSec": 0,
       "monthSec": 154,
       "recent3mSec": 154,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     }

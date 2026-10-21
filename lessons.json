@@ -1165,5 +1165,16 @@
     "taskBatchId": null,
     "createdAt": "2026-10-16T00:33:46.500Z",
     "updatedAt": "2026-10-16T00:33:46.500Z"
+  },
+  {
+    "id": "lesson_1792576262326_ex2lzs",
+    "classId": "cls_1780309335387_ry7cd9",
+    "date": "2026-10-21",
+    "content": "~86쪽 일차부등식",
+    "studentNotes": [],
+    "important": false,
+    "taskBatchId": "t_mvhxmg8m",
+    "createdAt": "2026-10-21T09:51:02.325Z",
+    "updatedAt": "2026-10-21T09:51:02.325Z"
   }
 ]

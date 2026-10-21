@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T09:41:55.287Z",
+  "generatedAt": "2026-10-21T13:17:35.658Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -134,7 +134,7 @@
             {
               "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/20(화))",
               "dueDate": "2026-10-20",
-              "isConfirmed": false
+              "isConfirmed": true
             }
           ],
           "hasLesson": false
@@ -158,9 +158,9 @@
         }
       ],
       "completionRate": {
-        "done": 1,
+        "done": 2,
         "total": 2,
-        "percent": 50
+        "percent": 100
       },
       "noteStages": null
     },

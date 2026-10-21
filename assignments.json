@@ -5179,5 +5179,16 @@
     "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-01",
     "templateId": "tpl_mv9jvcebah40",
     "repeat": null
+  },
+  {
+    "id": "task_1792575690730_pk37cb",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/3(화))",
+    "dueDate": "2026-11-03",
+    "assignedAt": "2026-10-21T09:41:30.730Z",
+    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-03",
+    "templateId": "tpl_mv9jvcebah40",
+    "repeat": null
   }
 ]

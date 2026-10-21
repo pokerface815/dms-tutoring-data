@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T09:33:26.298Z",
+  "generatedAt": "2026-10-21T09:51:11.985Z",
   "student": {
     "id": "s_1780309359751_gjl2s0",
     "classes": [
@@ -451,6 +451,14 @@
       "dueDate": "2026-08-30",
       "isRepeat": false,
       "assignedAt": "2026-08-24T08:57:34.526Z"
+    },
+    {
+      "assignmentId": "task_1792576262326_ubtbbg",
+      "round": 1,
+      "title": "이차부등식까지 풀어오기",
+      "dueDate": "2026-10-23",
+      "isRepeat": false,
+      "assignedAt": "2026-10-21T09:51:02.325Z"
     }
   ],
   "myGrades": []

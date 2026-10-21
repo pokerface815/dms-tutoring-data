@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T12:17:11.238Z",
+  "generatedAt": "2026-10-21T09:42:03.621Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -52,7 +52,7 @@
       "method": "강의 시청",
       "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 2",
       "reflection": "",
-      "seconds": 1467,
+      "seconds": 2165,
       "startedAt": 1792410406387,
       "createdAt": "2026-10-19T11:47:49.171Z",
       "autoRecorded": true
@@ -167,9 +167,9 @@
         "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
         "videoTitle": "2",
         "durationSec": 3867,
-        "lastPosition": 1301,
-        "lastWatchedAt": "2026-10-19T12:14:43.073Z",
-        "watchedSec": 1469
+        "lastPosition": 1994,
+        "lastWatchedAt": "2026-10-19T12:46:12.858Z",
+        "watchedSec": 2167
       }
     },
     "daily": {
@@ -198,7 +198,7 @@
         "tdWjVCgc9aU": 2
       },
       "2026-10-19": {
-        "tdWjVCgc9aU": 1467
+        "tdWjVCgc9aU": 2165
       }
     }
   },

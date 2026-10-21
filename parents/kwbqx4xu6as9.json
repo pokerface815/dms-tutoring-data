@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T09:33:24.918Z",
+  "generatedAt": "2026-10-21T09:41:55.287Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,23 @@
       "ym": "2026-11",
       "label": "2026년 11월",
       "lessons": [
+        {
+          "date": "2026-11-03",
+          "weekday": "화",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/3(화))",
+              "dueDate": "2026-11-03",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
         {
           "date": "2026-11-01",
           "weekday": "일",
@@ -142,8 +159,8 @@
       ],
       "completionRate": {
         "done": 1,
-        "total": 1,
-        "percent": 100
+        "total": 2,
+        "percent": 50
       },
       "noteStages": null
     },

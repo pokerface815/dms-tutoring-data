@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T12:17:12.789Z",
+  "generatedAt": "2026-10-21T09:42:07.649Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -13,10 +13,10 @@
     "enabled": true,
     "uploadedAt": "2026-10-19T10:43:05.072Z",
     "summary": {
-      "todaySec": 1987,
+      "todaySec": 0,
       "weekSec": 1987,
       "monthSec": 1987,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "중3": 1987
       }
@@ -38,15 +38,6 @@
         "subject": "중3",
         "method": "강의 시청",
         "content": "2024 1,2월 중3-2 개념원리 — 06. 원의 현, 접선(1) (~p.70)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_muawd8vx35m",
-        "startedAt": 1789973981898,
-        "seconds": 1588,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-2 개념원리 — 05. 넓이구하기(~p.56)",
         "reflection": ""
       }
     ]

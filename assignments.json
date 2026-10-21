@@ -5190,5 +5190,16 @@
     "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-03",
     "templateId": "tpl_mv9jvcebah40",
     "repeat": null
+  },
+  {
+    "id": "task_1792576262326_ubtbbg",
+    "type": "task",
+    "studentId": "s_1780309359751_gjl2s0",
+    "title": "이차부등식까지 풀어오기",
+    "dueDate": "2026-10-23",
+    "assignedAt": "2026-10-21T09:51:02.325Z",
+    "batchId": "t_mvhxmg8m",
+    "repeat": null,
+    "fromLesson": "lesson_1792576262326_ex2lzs"
   }
 ]

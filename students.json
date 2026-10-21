@@ -527,30 +527,6 @@
     ]
   },
   {
-    "id": "s_1780314459772_3emo5z",
-    "name": "강화진",
-    "school": "",
-    "grade": "중3",
-    "classes": [
-      "cls_1780311125071_i1638e"
-    ],
-    "days": [
-      "월",
-      "수",
-      "금"
-    ],
-    "memo": "",
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
-    "pageCode": "rgb8kevqmdtt",
-    "showMakeNote": true,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true
-  },
-  {
     "id": "s_1780314459772_slkq6q",
     "name": "김소윤",
     "school": "",
@@ -593,30 +569,6 @@
     "notifyStudent": false,
     "notifyParent": false,
     "pageCode": "vcsyut7aa9yx",
-    "showMakeNote": true,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true
-  },
-  {
-    "id": "s_1780314459772_58a78m",
-    "name": "장경원",
-    "school": "",
-    "grade": "중3",
-    "classes": [
-      "cls_1780311125071_i1638e"
-    ],
-    "days": [
-      "월",
-      "수",
-      "금"
-    ],
-    "memo": "",
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
-    "pageCode": "dfa3wge6dm65",
     "showMakeNote": true,
     "showCompletionRate": true,
     "showTestResults": true,
@@ -1249,37 +1201,6 @@
       {
         "classId": "cls_1783741486590_iyer5b",
         "from": "2026-07-26",
-        "to": null
-      }
-    ]
-  },
-  {
-    "id": "s_1786082844440_z9486d",
-    "name": "남경원",
-    "school": "살레시오중",
-    "grade": "중3",
-    "classes": [
-      "cls_1786082821970_09kcz5"
-    ],
-    "memo": "",
-    "days": [
-      "월",
-      "수",
-      "금"
-    ],
-    "studentPhone": "010-5948-9641",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
-    "pageCode": "8n5eafhwd7ug",
-    "classHistory": [
-      {
-        "classId": "cls_1786082821970_09kcz5",
-        "from": "2026-08-07",
         "to": null
       }
     ]

@@ -5048,5 +5048,16 @@
       }
     ],
     "createdAt": "2026-10-22T14:09:18.548Z"
+  },
+  {
+    "id": "task_1792679755341_sr087a",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/5(목))",
+    "dueDate": "2026-11-05",
+    "assignedAt": "2026-10-22T14:35:55.341Z",
+    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-05",
+    "templateId": "tpl_mv9jvcebah40",
+    "repeat": null
   }
 ]

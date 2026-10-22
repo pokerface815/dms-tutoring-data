@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T13:17:30.458Z",
+  "generatedAt": "2026-10-22T15:41:02.743Z",
   "studentCount": 43,
   "rankings": [
     {
@@ -325,11 +325,11 @@
     {
       "id": "s_1783505825104_ci241f",
       "name": "정찬영",
-      "totalSec": 10470,
-      "weekSec": 0,
-      "monthSec": 1972,
-      "recent3mSec": 1972,
-      "streak": 0,
+      "totalSec": 12264,
+      "weekSec": 1794,
+      "monthSec": 3766,
+      "recent3mSec": 3766,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -384,7 +384,7 @@
       "weekSec": 3439,
       "monthSec": 3439,
       "recent3mSec": 5955,
-      "streak": 2,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -413,11 +413,11 @@
     {
       "id": "s_1784437736068_jgkmca",
       "name": "조해인",
-      "totalSec": 28148,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 15002,
-      "streak": 0,
+      "totalSec": 28274,
+      "weekSec": 126,
+      "monthSec": 126,
+      "recent3mSec": 15128,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

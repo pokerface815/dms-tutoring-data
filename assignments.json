@@ -5014,5 +5014,39 @@
     "batchId": "t_mvhxmg8m",
     "repeat": null,
     "fromLesson": "lesson_1792576262326_ex2lzs"
+  },
+  {
+    "id": "a_1792678158548_2s96sk",
+    "noteId": "note_1792678139872_jfg0gq",
+    "noteName": "지유진_올림포스 유형편_도함수의 활용",
+    "studentId": "s_1778849219765_v88lqq",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-10-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-10-24",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-10-29",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-11-12",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-10-22T14:09:18.548Z"
   }
 ]

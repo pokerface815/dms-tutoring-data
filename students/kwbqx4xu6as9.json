@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-21T13:17:34.011Z",
+  "generatedAt": "2026-10-22T14:36:03.265Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -436,6 +436,14 @@
       "dueDate": "2026-11-03",
       "isRepeat": false,
       "assignedAt": "2026-10-21T09:41:30.730Z"
+    },
+    {
+      "assignmentId": "task_1792679755341_sr087a",
+      "round": 1,
+      "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/5(목))",
+      "dueDate": "2026-11-05",
+      "isRepeat": false,
+      "assignedAt": "2026-10-22T14:35:55.341Z"
     }
   ],
   "myGrades": []

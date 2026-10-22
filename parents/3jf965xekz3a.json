@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T09:41:57.585Z",
+  "generatedAt": "2026-10-22T15:40:51.645Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -41,17 +41,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-10-18T04:32:22.698Z",
+    "uploadedAt": "2026-10-22T14:20:58.182Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 1972,
-      "streak": 0,
+      "weekSec": 1794,
+      "monthSec": 3766,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 1972
+        "미적분Ⅰ": 3766
       }
     },
     "logs": [
+      {
+        "id": "effort_mvjma8v72ha",
+        "startedAt": 1792678081033,
+        "seconds": 764,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvjln1xz2xq",
+        "startedAt": 1792676989789,
+        "seconds": 1030,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "reflection": ""
+      },
       {
         "id": "effort_mvdb68rbwv8",
         "startedAt": 1792296566963,

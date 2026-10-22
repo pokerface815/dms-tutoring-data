@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T09:31:35.514Z",
+  "generatedAt": "2026-10-22T15:40:53.781Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -79,6 +79,28 @@
       "startedAt": 1792296566963,
       "createdAt": "2026-10-18T04:11:29.879Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mvjln1xz2xq",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+      "reflection": "",
+      "seconds": 1030,
+      "startedAt": 1792676989789,
+      "createdAt": "2026-10-22T13:51:07.415Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvjma8v72ha",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+      "reflection": "",
+      "seconds": 764,
+      "startedAt": 1792678081033,
+      "createdAt": "2026-10-22T14:09:09.475Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -113,6 +135,26 @@
         "lastPosition": 2176,
         "lastWatchedAt": "2026-10-18T04:32:22.694Z",
         "watchedSec": 1972
+      },
+      "jNwrnSQMusc": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "[개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "durationSec": 1035,
+        "lastPosition": 1034,
+        "lastWatchedAt": "2026-10-22T14:07:49.602Z",
+        "watchedSec": 1030
+      },
+      "O3ZpodBk5B8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "[개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+        "durationSec": 1348,
+        "lastPosition": 767,
+        "lastWatchedAt": "2026-10-22T14:23:49.468Z",
+        "watchedSec": 764
       }
     },
     "daily": {
@@ -125,6 +167,10 @@
       },
       "2026-10-18": {
         "JxzPzzpNzew": 1255
+      },
+      "2026-10-22": {
+        "jNwrnSQMusc": 1030,
+        "O3ZpodBk5B8": 764
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-22T15:41:06.822Z",
+  "generatedAt": "2026-10-23T12:32:18.967Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -16,7 +16,19 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1792758731411_jdc68i",
+      "noteName": "지유진_올림포스 유형편_부정적분과 정적분",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-10-23",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [
     {
@@ -25,6 +37,17 @@
       "subject": "미적분Ⅰ",
       "round": 2,
       "plannedDate": "2026-10-24",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1792758731411_jdc68i",
+      "noteName": "지유진_올림포스 유형편_부정적분과 정적분",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-10-25",
       "done": false,
       "doneAt": null,
       "missed": false,
@@ -322,9 +345,9 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
+    "total": 4,
     "done": 1,
-    "percent": 50,
+    "percent": 25,
     "startDate": "2026-10-19",
     "endDate": "2026-10-25"
   },

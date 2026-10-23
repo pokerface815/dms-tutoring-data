@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-22T14:36:03.265Z",
+  "generatedAt": "2026-10-23T08:43:08.964Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -404,6 +404,14 @@
       "dueDate": "2026-10-25",
       "isRepeat": false,
       "assignedAt": "2026-10-15T13:03:53.219Z"
+    },
+    {
+      "assignmentId": "task_1792744981527_ls8oy1",
+      "round": 1,
+      "title": "주간테스트 오답문항 풀어서 올리기",
+      "dueDate": "2026-10-25",
+      "isRepeat": false,
+      "assignedAt": "2026-10-23T08:43:01.527Z"
     },
     {
       "assignmentId": "task_1792069433219_c49yth",

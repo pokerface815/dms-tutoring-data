@@ -5105,5 +5105,39 @@
       }
     ],
     "createdAt": "2026-10-23T10:45:53.362Z"
+  },
+  {
+    "id": "a_1792758731411_jdc68i",
+    "noteId": "note_1792758721293_843z3x",
+    "noteName": "지유진_올림포스 유형편_부정적분과 정적분",
+    "studentId": "s_1778849219765_v88lqq",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-10-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-10-25",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-10-30",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-11-13",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-10-23T12:32:11.411Z"
   }
 ]

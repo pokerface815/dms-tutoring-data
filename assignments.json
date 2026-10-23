@@ -5061,5 +5061,15 @@
     "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-05",
     "templateId": "tpl_mv9jvcebah40",
     "repeat": null
+  },
+  {
+    "id": "task_1792744981527_ls8oy1",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "주간테스트 오답문항 풀어서 올리기",
+    "dueDate": "2026-10-25",
+    "assignedAt": "2026-10-23T08:43:01.527Z",
+    "batchId": "t_mvkq2ot3",
+    "repeat": null
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T15:41:11.224Z",
+  "generatedAt": "2026-10-23T08:43:10.488Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -116,6 +116,23 @@
           "extraAssignments": [
             {
               "title": "RPM 2장씩 풀어서 오답 수정해서 사진 보내기(제출일 10/25(일))",
+              "dueDate": "2026-10-25",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
+        {
+          "date": "2026-10-23",
+          "weekday": "금",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "주간테스트 오답문항 풀어서 올리기",
               "dueDate": "2026-10-25",
               "isConfirmed": false
             }

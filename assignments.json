@@ -5071,5 +5071,39 @@
     "assignedAt": "2026-10-23T08:43:01.527Z",
     "batchId": "t_mvkq2ot3",
     "repeat": null
+  },
+  {
+    "id": "a_1792752353362_ve6c3a",
+    "noteId": "note_1792752345602_kbas4b",
+    "noteName": "장하늘_완자 기출픽_09.명제",
+    "studentId": "s_1790074374851_96xx1y",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-10-23",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-10-25",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-10-30",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-11-13",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-10-23T10:45:53.362Z"
   }
 ]

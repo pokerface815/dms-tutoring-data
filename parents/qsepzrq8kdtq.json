@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T10:59:42.293Z",
+  "generatedAt": "2026-10-26T11:50:59.075Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -141,7 +141,75 @@
     }
   ],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-10-26T11:35:16.667Z",
+    "summary": {
+      "todaySec": 1981,
+      "weekSec": 1981,
+      "monthSec": 9446,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 9446
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mvp67r2j6ae",
+        "startedAt": 1793013746164,
+        "seconds": 929,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvoovcjudgr",
+        "startedAt": 1792984744237,
+        "seconds": 1052,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mv3w2iu0jkg",
+        "startedAt": 1791727074019,
+        "seconds": 2054,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mv3vl928jn2",
+        "startedAt": 1791726232834,
+        "seconds": 1364,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mv33ssfwhcf",
+        "startedAt": 1791679536407,
+        "seconds": 2199,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 220~231쪽(개념루트) 정적분",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mv14czak894",
+        "startedAt": 1791559587153,
+        "seconds": 1848,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 200~215쪽(개념루트) 부정적분",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

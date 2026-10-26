@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T11:47:18.605Z",
+  "generatedAt": "2026-10-26T11:51:18.963Z",
   "studentCount": 43,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
       "name": "송유림",
-      "totalSec": 38831,
+      "totalSec": 40728,
       "weekSec": 0,
-      "monthSec": 5455,
-      "recent3mSec": 16082,
+      "monthSec": 7352,
+      "recent3mSec": 17979,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -17,11 +17,11 @@
     {
       "id": "s_1777546951753_p3pskl",
       "name": "김채린",
-      "totalSec": 24417,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 17543,
-      "streak": 0,
+      "totalSec": 33863,
+      "weekSec": 1981,
+      "monthSec": 9446,
+      "recent3mSec": 26989,
+      "streak": 1,
       "nickname": "오레오잉",
       "publicNickname": true
     },
@@ -171,10 +171,10 @@
     {
       "id": "s_1780190418387_a11waf",
       "name": "문대승",
-      "totalSec": 101473,
+      "totalSec": 103891,
       "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 17930,
+      "monthSec": 2418,
+      "recent3mSec": 20348,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -369,11 +369,11 @@
     {
       "id": "s_1783741551628_vw0d5m",
       "name": "박하윤",
-      "totalSec": 7206,
+      "totalSec": 18144,
       "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
+      "monthSec": 10938,
+      "recent3mSec": 10938,
+      "streak": 3,
       "nickname": "",
       "publicNickname": false
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T11:00:34.591Z",
+  "generatedAt": "2026-10-26T11:51:11.124Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -179,15 +179,27 @@
   ],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-09-05T00:38:15.433Z",
+    "uploadedAt": "2026-10-23T08:55:52.893Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
-      "monthSec": 0,
+      "monthSec": 2418,
       "streak": 0,
-      "bySubjectMonth": {}
+      "bySubjectMonth": {
+        "공통수학1": 2418
+      }
     },
-    "logs": []
+    "logs": [
+      {
+        "id": "effort_mvkp12u9dqj",
+        "startedAt": 1792743126777,
+        "seconds": 2418,
+        "subject": "공통수학1",
+        "method": "강의 시청",
+        "content": "개념루트 공통수학1(26년 10월 ~) — 20~23쪽 공통부분이 있는 식의 전개, 곱셈공식의 변형",
+        "reflection": ""
+      }
+    ]
   },
   "academyEvents": [
     {

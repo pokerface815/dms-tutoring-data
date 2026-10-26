@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-23T12:32:18.967Z",
+  "generatedAt": "2026-10-26T11:47:45.879Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -16,27 +16,15 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [
-    {
-      "assignmentId": "a_1792758731411_jdc68i",
-      "noteName": "지유진_올림포스 유형편_부정적분과 정적분",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-10-23",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "today": [],
   "overdue": [],
   "upcoming": [
     {
       "assignmentId": "a_1792678158548_2s96sk",
       "noteName": "지유진_올림포스 유형편_도함수의 활용",
       "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-10-24",
+      "round": 3,
+      "plannedDate": "2026-10-29",
       "done": false,
       "doneAt": null,
       "missed": false,
@@ -46,8 +34,8 @@
       "assignmentId": "a_1792758731411_jdc68i",
       "noteName": "지유진_올림포스 유형편_부정적분과 정적분",
       "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-10-25",
+      "round": 3,
+      "plannedDate": "2026-10-30",
       "done": false,
       "doneAt": null,
       "missed": false,
@@ -55,6 +43,42 @@
     }
   ],
   "completed": [
+    {
+      "assignmentId": "a_1792758731411_jdc68i",
+      "noteName": "지유진_올림포스 유형편_부정적분과 정적분",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-10-25",
+      "done": true,
+      "doneAt": "2026-10-26T11:47:10.289Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1792758731411_jdc68i",
+      "noteName": "지유진_올림포스 유형편_부정적분과 정적분",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-10-23",
+      "done": true,
+      "doneAt": "2026-10-26T11:47:08.159Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1792678158548_2s96sk",
+      "noteName": "지유진_올림포스 유형편_도함수의 활용",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-10-24",
+      "done": true,
+      "doneAt": "2026-10-26T11:47:01.971Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1792678158548_2s96sk",
       "noteName": "지유진_올림포스 유형편_도함수의 활용",
@@ -345,11 +369,11 @@
     }
   ],
   "weekProgress": {
-    "total": 4,
-    "done": 1,
-    "percent": 25,
-    "startDate": "2026-10-19",
-    "endDate": "2026-10-25"
+    "total": 2,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-01"
   },
   "teacherConfirms": {},
   "tasks": [],

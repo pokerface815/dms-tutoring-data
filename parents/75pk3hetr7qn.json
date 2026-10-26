@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T15:40:56.044Z",
+  "generatedAt": "2026-10-26T11:48:52.352Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -51,9 +51,9 @@
     "uploadedAt": "2026-10-22T12:22:24.174Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 126,
+      "weekSec": 0,
       "monthSec": 126,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "미적분Ⅰ": 126
       }

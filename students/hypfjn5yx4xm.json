@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:47:31.071Z",
+  "generatedAt": "2026-10-26T11:51:16.397Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -61,13 +61,13 @@
         "watchedSec": 0
       },
       "MUY1NAZSfLw": {
-        "sessionCount": 21,
+        "sessionCount": 22,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
         "durationSec": 4799,
         "lastPosition": 235,
-        "lastWatchedAt": "2026-10-17T14:00:42.625Z",
+        "lastWatchedAt": "2026-10-25T04:45:37.810Z",
         "watchedSec": 75
       },
       "7pfVUyQLMjs": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T11:01:36.997Z",
+  "generatedAt": "2026-10-26T11:51:03.074Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -38,7 +38,102 @@
     }
   ],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-10-25T14:17:05.788Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 10938,
+      "streak": 3,
+      "bySubjectMonth": {
+        "공통수학2": 10938
+      }
+    },
+    "logs": [
+      {
+        "id": "effort_mvnvszqfjm8",
+        "startedAt": 1792935939077,
+        "seconds": 1596,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 27. 코시 슈바르츠 부등식",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvnqm58wpsy",
+        "startedAt": 1792927130812,
+        "seconds": 3983,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 26. 산술평균과 기하평균의 관계",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvl41izcpy9",
+        "startedAt": 1792768350458,
+        "seconds": 1749,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 26. 산술평균과 기하평균의 관계",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvl3c3dcppr",
+        "startedAt": 1792767137932,
+        "seconds": 1063,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 25. 명제의 증명",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mv35xasxcuw",
+        "startedAt": 1791683077592,
+        "seconds": 282,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 25. 명제의 증명",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mv33xytu1y2",
+        "startedAt": 1791679613045,
+        "seconds": 84,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 25. 명제의 증명",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mv33ryedxrg",
+        "startedAt": 1791679493430,
+        "seconds": 64,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 22. 명제",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mutbpmzxm33",
+        "startedAt": 1791088165876,
+        "seconds": 1315,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 22. 명제",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mutb1fc0c1f",
+        "startedAt": 1791086963286,
+        "seconds": 802,
+        "subject": "공통수학2",
+        "method": "강의 시청",
+        "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 22. 명제",
+        "reflection": ""
+      }
+    ]
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

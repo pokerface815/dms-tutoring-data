@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T09:32:00.436Z",
+  "generatedAt": "2026-10-26T11:48:54.423Z",
   "student": {
     "id": "s_1784950950171_2ycwdo",
     "classes": [
@@ -751,8 +751,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-10-19",
-    "endDate": "2026-10-25"
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-01"
   },
   "teacherConfirms": {
     "a_1789185294792_cko2vx__3": {

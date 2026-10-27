@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:47:51.756Z",
+  "generatedAt": "2026-10-27T10:34:10.812Z",
   "student": {
     "id": "s_1779005266373_7iq1b8",
     "classes": [
@@ -90,6 +90,19 @@
         "lastPosition": 2216,
         "lastWatchedAt": "2026-10-04T08:37:11.818Z",
         "watchedSec": 2736
+      },
+      "SwslyvrUY6Q": {
+        "sessionCount": 1
+      },
+      "mcNskwieZjE": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "178~183쪽 부등식에의 활용",
+        "durationSec": 3729,
+        "lastPosition": 1984,
+        "lastWatchedAt": "2026-10-26T12:17:52.329Z",
+        "watchedSec": 4
       }
     },
     "daily": {
@@ -102,6 +115,9 @@
       },
       "2026-10-04": {
         "JxzPzzpNzew": 2736
+      },
+      "2026-10-26": {
+        "mcNskwieZjE": 4
       }
     }
   },

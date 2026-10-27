@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:51:01.250Z",
+  "generatedAt": "2026-10-27T10:34:07.627Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -250,9 +250,20 @@
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
       "reflection": "",
-      "seconds": 929,
+      "seconds": 1618,
       "startedAt": 1793013746164,
       "createdAt": "2026-10-26T11:25:56.300Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvp93a85977",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+      "reflection": "",
+      "seconds": 132,
+      "startedAt": 1793018722504,
+      "createdAt": "2026-10-26T12:46:26.693Z",
       "autoRecorded": true
     }
   ],
@@ -355,19 +366,19 @@
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "108~110쪽 삼차함수와 사차함수의 그래프",
         "durationSec": 4935,
-        "lastPosition": 3321,
-        "lastWatchedAt": "2026-10-26T11:35:23.975Z",
-        "watchedSec": 5222
+        "lastPosition": 4840,
+        "lastWatchedAt": "2026-10-26T11:58:29.371Z",
+        "watchedSec": 5911
       },
       "megu-Gxod_Q": {
-        "sessionCount": 2,
+        "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
         "durationSec": 4900,
-        "lastPosition": 4825,
-        "lastWatchedAt": "2026-08-10T12:38:19.949Z",
-        "watchedSec": 1347
+        "lastPosition": 435,
+        "lastWatchedAt": "2026-10-26T13:55:47.649Z",
+        "watchedSec": 1479
       },
       "1NBwUeuJ4II": {
         "sessionCount": 1,
@@ -448,7 +459,8 @@
         "wKbSmCx25Cs": 45
       },
       "2026-10-26": {
-        "wKbSmCx25Cs": 1981
+        "wKbSmCx25Cs": 2670,
+        "megu-Gxod_Q": 132
       }
     }
   },

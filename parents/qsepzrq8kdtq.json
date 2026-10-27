@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T11:50:59.075Z",
+  "generatedAt": "2026-10-27T10:34:05.999Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -143,21 +143,30 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-10-26T11:35:16.667Z",
+    "uploadedAt": "2026-10-26T12:47:01.436Z",
     "summary": {
-      "todaySec": 1981,
-      "weekSec": 1981,
-      "monthSec": 9446,
+      "todaySec": 0,
+      "weekSec": 2802,
+      "monthSec": 10267,
       "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 9446
+        "미적분Ⅰ": 10267
       }
     },
     "logs": [
       {
+        "id": "effort_mvp93a85977",
+        "startedAt": 1793018722504,
+        "seconds": 132,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+        "reflection": ""
+      },
+      {
         "id": "effort_mvp67r2j6ae",
         "startedAt": 1793013746164,
-        "seconds": 929,
+        "seconds": 1618,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T10:34:12.377Z",
+  "generatedAt": "2026-10-28T08:00:10.111Z",
   "studentCount": 43,
   "rankings": [
     {
@@ -17,13 +17,13 @@
     {
       "id": "s_1777546951753_p3pskl",
       "name": "김채린",
-      "totalSec": 34684,
-      "weekSec": 2802,
-      "monthSec": 10267,
-      "recent3mSec": 27810,
+      "totalSec": 34777,
+      "weekSec": 2895,
+      "monthSec": 10360,
+      "recent3mSec": 27903,
       "streak": 1,
-      "nickname": "오레오잉",
-      "publicNickname": true
+      "nickname": "",
+      "publicNickname": false
     },
     {
       "id": "s_1777546978791_hsee5a",
@@ -94,11 +94,11 @@
     {
       "id": "s_1778404886523_0ag055",
       "name": "박다인",
-      "totalSec": 37493,
-      "weekSec": 0,
-      "monthSec": 14307,
-      "recent3mSec": 15143,
-      "streak": 0,
+      "totalSec": 39473,
+      "weekSec": 1980,
+      "monthSec": 16287,
+      "recent3mSec": 17123,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -303,11 +303,11 @@
     {
       "id": "s_1783145087770_b6wsph",
       "name": "송린우",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
+      "totalSec": 9028,
+      "weekSec": 9028,
+      "monthSec": 9028,
+      "recent3mSec": 9028,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

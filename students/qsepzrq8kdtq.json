@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-27T10:34:07.627Z",
+  "generatedAt": "2026-10-28T08:00:00.188Z",
   "student": {
     "id": "s_1777546951753_p3pskl",
     "classes": [
@@ -265,11 +265,32 @@
       "startedAt": 1793018722504,
       "createdAt": "2026-10-26T12:46:26.693Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mvr8y17boud",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+      "reflection": "",
+      "seconds": 93,
+      "startedAt": 1793139328649,
+      "createdAt": "2026-10-27T22:17:54.071Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
+      "ELcNM4V5h4E": {
+        "sessionCount": 1,
+        "lectureId": "lec_mrq9a1wrhru",
+        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "videoTitle": "5",
+        "durationSec": 2768,
+        "lastPosition": 2581,
+        "lastWatchedAt": "2026-07-18T17:18:00.103Z",
+        "watchedSec": 268
+      },
       "JlBX5IRj9d8": {
         "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
@@ -289,16 +310,6 @@
         "lastPosition": 4462,
         "lastWatchedAt": "2026-07-18T19:02:24.486Z",
         "watchedSec": 511
-      },
-      "ELcNM4V5h4E": {
-        "sessionCount": 1,
-        "lectureId": "lec_mrq9a1wrhru",
-        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
-        "videoTitle": "5",
-        "durationSec": 2768,
-        "lastPosition": 2581,
-        "lastWatchedAt": "2026-07-18T17:18:00.103Z",
-        "watchedSec": 268
       },
       "pJC_OdUw6QE": {
         "sessionCount": 1,
@@ -321,7 +332,7 @@
         "watchedSec": 3218
       },
       "lWOw-Kjk3mk": {
-        "sessionCount": 4,
+        "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "86~96쪽 평균값 정리, 함수의 증가와 감소",
@@ -341,7 +352,7 @@
         "watchedSec": 2838
       },
       "ugyX19AJiaA": {
-        "sessionCount": 3,
+        "sessionCount": 1,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "124~134쪽 부등식에의 활용, 속도와 가속도",
@@ -351,7 +362,7 @@
         "watchedSec": 2972
       },
       "m9wVSEc3BX8": {
-        "sessionCount": 5,
+        "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "97~107쪽 함수의 극대와 극소, 함수의 그래프",
@@ -361,12 +372,12 @@
         "watchedSec": 6816
       },
       "wKbSmCx25Cs": {
-        "sessionCount": 6,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "108~110쪽 삼차함수와 사차함수의 그래프",
         "durationSec": 4935,
-        "lastPosition": 4840,
+        "lastPosition": 4881,
         "lastWatchedAt": "2026-10-26T11:58:29.371Z",
         "watchedSec": 5911
       },
@@ -376,9 +387,9 @@
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
         "durationSec": 4900,
-        "lastPosition": 435,
-        "lastWatchedAt": "2026-10-26T13:55:47.649Z",
-        "watchedSec": 1479
+        "lastPosition": 4692,
+        "lastWatchedAt": "2026-10-27T22:19:21.996Z",
+        "watchedSec": 1574
       },
       "1NBwUeuJ4II": {
         "sessionCount": 1,
@@ -413,9 +424,9 @@
     },
     "daily": {
       "2026-07-19": {
+        "ELcNM4V5h4E": 268,
         "JlBX5IRj9d8": 565,
-        "7pfVUyQLMjs": 511,
-        "ELcNM4V5h4E": 268
+        "7pfVUyQLMjs": 511
       },
       "2026-07-25": {
         "pJC_OdUw6QE": 2
@@ -461,6 +472,9 @@
       "2026-10-26": {
         "wKbSmCx25Cs": 2670,
         "megu-Gxod_Q": 132
+      },
+      "2026-10-28": {
+        "megu-Gxod_Q": 95
       }
     }
   },

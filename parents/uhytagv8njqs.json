@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T10:59:45.806Z",
+  "generatedAt": "2026-10-28T08:00:14.608Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -173,7 +173,18 @@
     }
   ],
   "tests": [],
-  "effortLogs": null,
+  "effortLogs": {
+    "enabled": true,
+    "uploadedAt": "2026-09-27T08:11:54.118Z",
+    "summary": {
+      "todaySec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "streak": 0,
+      "bySubjectMonth": {}
+    },
+    "logs": []
+  },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

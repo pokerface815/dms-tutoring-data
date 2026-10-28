@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T10:34:05.999Z",
+  "generatedAt": "2026-10-28T07:59:58.217Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -143,17 +143,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-10-26T12:47:01.436Z",
+    "uploadedAt": "2026-10-27T22:19:19.785Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 2802,
-      "monthSec": 10267,
+      "todaySec": 93,
+      "weekSec": 2895,
+      "monthSec": 10360,
       "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 10267
+        "미적분Ⅰ": 10360
       }
     },
     "logs": [
+      {
+        "id": "effort_mvr8y17boud",
+        "startedAt": 1793139328649,
+        "seconds": 93,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+        "reflection": ""
+      },
       {
         "id": "effort_mvp93a85977",
         "startedAt": 1793018722504,

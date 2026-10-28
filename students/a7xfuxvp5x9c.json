@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-27T10:34:10.812Z",
+  "generatedAt": "2026-10-28T08:00:02.359Z",
   "student": {
     "id": "s_1779005266373_7iq1b8",
     "classes": [
@@ -92,7 +92,9 @@
         "watchedSec": 2736
       },
       "SwslyvrUY6Q": {
-        "sessionCount": 1
+        "sessionCount": 1,
+        "watchedSec": 0,
+        "lastPosition": 0
       },
       "mcNskwieZjE": {
         "sessionCount": 1,

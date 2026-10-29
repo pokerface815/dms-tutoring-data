@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:47:45.879Z",
+  "generatedAt": "2026-10-29T02:29:08.410Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -16,9 +16,7 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1792678158548_2s96sk",
       "noteName": "지유진_올림포스 유형편_도함수의 활용",
@@ -29,7 +27,10 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1792758731411_jdc68i",
       "noteName": "지유진_올림포스 유형편_부정적분과 정적분",

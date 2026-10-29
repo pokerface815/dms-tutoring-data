@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T08:00:16.720Z",
+  "generatedAt": "2026-10-29T12:26:15.512Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,40 @@
       "ym": "2026-11",
       "label": "2026년 11월",
       "lessons": [
+        {
+          "date": "2026-11-12",
+          "weekday": "목",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/12(목))",
+              "dueDate": "2026-11-12",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
+        {
+          "date": "2026-11-10",
+          "weekday": "화",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/10(화))",
+              "dueDate": "2026-11-10",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
         {
           "date": "2026-11-08",
           "weekday": "일",

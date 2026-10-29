@@ -5041,8 +5041,10 @@
       {
         "stage": 3,
         "planned": "2026-10-29",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-10-29T12:26:03.286Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 4,
@@ -5158,6 +5160,28 @@
     "dueDate": "2026-11-08",
     "assignedAt": "2026-10-26T11:46:57.144Z",
     "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-08",
+    "templateId": "tpl_mv9jvcebah40",
+    "repeat": null
+  },
+  {
+    "id": "task_1793276748265_vrlfs0",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/10(화))",
+    "dueDate": "2026-11-10",
+    "assignedAt": "2026-10-29T12:25:48.265Z",
+    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-10",
+    "templateId": "tpl_mv9jvcebah40",
+    "repeat": null
+  },
+  {
+    "id": "task_1793276748265_de868b",
+    "type": "task",
+    "studentId": "s_1779948611035_qbdt5h",
+    "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/12(목))",
+    "dueDate": "2026-11-12",
+    "assignedAt": "2026-10-29T12:25:48.265Z",
+    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-12",
     "templateId": "tpl_mv9jvcebah40",
     "repeat": null
   }

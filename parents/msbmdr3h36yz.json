@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T11:48:43.929Z",
+  "generatedAt": "2026-10-31T16:30:49.371Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -46,57 +46,7 @@
     }
   ],
   "tests": [],
-  "effortLogs": {
-    "enabled": true,
-    "uploadedAt": "2026-10-21T08:13:05.417Z",
-    "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 3439,
-      "streak": 0,
-      "bySubjectMonth": {
-        "공통수학2": 3439
-      }
-    },
-    "logs": [
-      {
-        "id": "effort_mvhtznc7z4x",
-        "startedAt": 1792570084639,
-        "seconds": 410,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 176~183쪽 함수의 뜻, 함수의 그래프, 일대일함수, 일대일대응",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvgr2p2s5r7",
-        "startedAt": 1792504679086,
-        "seconds": 1084,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 176~183쪽 함수의 뜻, 함수의 그래프, 일대일함수, 일대일대응",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvgp5gao4wb",
-        "startedAt": 1792501473748,
-        "seconds": 1850,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 176~183쪽 함수의 뜻, 함수의 그래프, 일대일함수, 일대일대응",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvgoshviw3o",
-        "startedAt": 1792500823207,
-        "seconds": 95,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 176~183쪽 함수의 뜻, 함수의 그래프, 일대일함수, 일대일대응",
-        "reflection": ""
-      }
-    ]
-  },
+  "effortLogs": null,
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:49:07.682Z",
+  "generatedAt": "2026-10-31T00:43:04.129Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -48,20 +48,20 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1792752353362_ve6c3a",
       "noteName": "장하늘_완자 기출픽_09.명제",
       "subject": "공통수학2",
       "round": 3,
       "plannedDate": "2026-10-30",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-10-31T00:42:35.824Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1792752353362_ve6c3a",
       "noteName": "장하늘_완자 기출픽_09.명제",
@@ -257,8 +257,8 @@
   ],
   "weekProgress": {
     "total": 1,
-    "done": 0,
-    "percent": 0,
+    "done": 1,
+    "percent": 100,
     "startDate": "2026-10-26",
     "endDate": "2026-11-01"
   },

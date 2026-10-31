@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:51:16.397Z",
+  "generatedAt": "2026-10-31T16:29:39.668Z",
+  "branding": {
+    "name": "매쓰피아",
+    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
+  },
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -34,17 +43,6 @@
       "startedAt": 1785388242550,
       "createdAt": "2026-07-30T05:11:43.860Z",
       "autoRecorded": true
-    },
-    {
-      "id": "effort_mvcgu9q03co",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 124~134쪽 부등식에의 활용, 속도와 가속도",
-      "reflection": "",
-      "seconds": 75,
-      "startedAt": 1792245660510,
-      "createdAt": "2026-10-17T14:02:22.776Z",
-      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -61,14 +59,14 @@
         "watchedSec": 0
       },
       "MUY1NAZSfLw": {
-        "sessionCount": 22,
+        "sessionCount": 10,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
         "durationSec": 4799,
-        "lastPosition": 235,
-        "lastWatchedAt": "2026-10-25T04:45:37.810Z",
-        "watchedSec": 75
+        "lastPosition": 234,
+        "lastWatchedAt": "2026-09-11T16:25:15.047Z",
+        "watchedSec": 74
       },
       "7pfVUyQLMjs": {
         "sessionCount": 1,
@@ -149,31 +147,6 @@
         "lastPosition": 1845,
         "lastWatchedAt": "2026-09-12T02:07:27.213Z",
         "watchedSec": 3
-      },
-      "Fqe7TRl46mA": {
-        "sessionCount": 1,
-        "watchedSec": 0,
-        "lastPosition": 0
-      },
-      "AJE79srmVL8": {
-        "sessionCount": 3,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
-        "durationSec": 5620,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-10-13T13:27:59.780Z",
-        "watchedSec": 0
-      },
-      "ugyX19AJiaA": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "124~134쪽 부등식에의 활용, 속도와 가속도",
-        "durationSec": 4757,
-        "lastPosition": 3069,
-        "lastWatchedAt": "2026-10-17T15:38:17.080Z",
-        "watchedSec": 75
       }
     },
     "daily": {
@@ -199,12 +172,6 @@
       "2026-09-12": {
         "MUY1NAZSfLw": 1,
         "7LtG4Dc90v8": 3
-      },
-      "2026-09-23": {
-        "MUY1NAZSfLw": 1
-      },
-      "2026-10-17": {
-        "ugyX19AJiaA": 75
       }
     }
   },

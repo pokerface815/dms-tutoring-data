@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:48:35.841Z",
+  "generatedAt": "2026-10-31T16:30:41.724Z",
+  "branding": {
+    "name": "매쓰피아",
+    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
+  },
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1783735663261_629qgf",
     "classes": [

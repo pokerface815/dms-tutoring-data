@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-29T12:26:10.826Z",
+  "generatedAt": "2026-10-31T00:43:16.219Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -18,20 +18,20 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1792758731411_jdc68i",
       "noteName": "지유진_올림포스 유형편_부정적분과 정적분",
       "subject": "미적분Ⅰ",
       "round": 3,
       "plannedDate": "2026-10-30",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-10-31T00:42:36.676Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1792678158548_2s96sk",
       "noteName": "지유진_올림포스 유형편_도함수의 활용",
@@ -371,8 +371,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-10-26",
     "endDate": "2026-11-01"
   },

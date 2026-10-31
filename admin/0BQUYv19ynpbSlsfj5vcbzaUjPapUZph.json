@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T10:59:34.793Z",
+  "generatedAt": "2026-10-31T16:29:26.397Z",
   "adminCode": "0BQUYv19ynpbSlsfj5vcbzaUjPapUZph",
-  "studentCount": 47,
+  "studentCount": 43,
   "baseUrl": "",
   "students": [
     {
@@ -159,15 +159,6 @@
       "parentPageCode": "cu95x3bj3tmk"
     },
     {
-      "id": "s_1780314459772_3emo5z",
-      "name": "강화진",
-      "grade": "중3",
-      "school": "",
-      "className": "월,수,금 중3 5시 수업",
-      "studentPageCode": "rgb8kevqmdtt",
-      "parentPageCode": "rgb8kevqmdtt"
-    },
-    {
       "id": "s_1780314459772_slkq6q",
       "name": "김소윤",
       "grade": "중3",
@@ -184,15 +175,6 @@
       "className": "월,수,금 중3 5시 수업",
       "studentPageCode": "vcsyut7aa9yx",
       "parentPageCode": "vcsyut7aa9yx"
-    },
-    {
-      "id": "s_1780314459772_58a78m",
-      "name": "장경원",
-      "grade": "중3",
-      "school": "",
-      "className": "월,수,금 중3 5시 수업",
-      "studentPageCode": "dfa3wge6dm65",
-      "parentPageCode": "dfa3wge6dm65"
     },
     {
       "id": "s_1780314459772_frngyj",
@@ -339,15 +321,6 @@
       "parentPageCode": "msbmdr3h36yz"
     },
     {
-      "id": "s_1783741677433_iezolt",
-      "name": "박소이",
-      "grade": "고1",
-      "school": "동신여고",
-      "className": "토,일 12시 30분",
-      "studentPageCode": "6rx8qu5mtmy7",
-      "parentPageCode": "6rx8qu5mtmy7"
-    },
-    {
       "id": "s_1784357925964_vuz436",
       "name": "위재완",
       "grade": "고2",
@@ -391,15 +364,6 @@
       "className": "토,일 12시 30분",
       "studentPageCode": "naan7bk6dx9e",
       "parentPageCode": "naan7bk6dx9e"
-    },
-    {
-      "id": "s_1786082844440_z9486d",
-      "name": "남경원",
-      "grade": "중3",
-      "school": "살레시오중",
-      "className": "남경원 개별",
-      "studentPageCode": "8n5eafhwd7ug",
-      "parentPageCode": "8n5eafhwd7ug"
     },
     {
       "id": "s_1786359648617_00qsgi",

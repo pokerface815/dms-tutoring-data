@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:51:14.853Z",
+  "generatedAt": "2026-10-31T00:43:02.237Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -101,6 +101,29 @@
       "startedAt": 1792678081033,
       "createdAt": "2026-10-22T14:09:09.475Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mvtnvjy587s",
+      "startedAt": 1793284297448,
+      "endedAt": 1793285484989,
+      "seconds": 1176,
+      "subject": "수학",
+      "method": "문제 풀이",
+      "content": "ㅅ",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-10-29T14:51:24.991Z"
+    },
+    {
+      "id": "effort_mvto4vjnhlv",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+      "reflection": "",
+      "seconds": 565,
+      "startedAt": 1793285825013,
+      "createdAt": "2026-10-29T14:58:39.923Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -147,14 +170,14 @@
         "watchedSec": 1030
       },
       "O3ZpodBk5B8": {
-        "sessionCount": 1,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "sessionCount": 2,
+        "lectureId": "lec_mrq99fx1qmz",
+        "lectureTitle": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
         "videoTitle": "[개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
         "durationSec": 1348,
-        "lastPosition": 767,
-        "lastWatchedAt": "2026-10-23T01:37:16.784Z",
-        "watchedSec": 764
+        "lastPosition": 1335,
+        "lastWatchedAt": "2026-10-29T15:12:00.419Z",
+        "watchedSec": 1329
       }
     },
     "daily": {
@@ -171,6 +194,12 @@
       "2026-10-22": {
         "jNwrnSQMusc": 1030,
         "O3ZpodBk5B8": 764
+      },
+      "2026-10-29": {
+        "O3ZpodBk5B8": 166
+      },
+      "2026-10-30": {
+        "O3ZpodBk5B8": 399
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T02:29:05.374Z",
+  "generatedAt": "2026-10-31T00:42:56.156Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -143,21 +143,39 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-10-27T22:19:19.785Z",
+    "uploadedAt": "2026-10-30T12:57:43.309Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 2895,
-      "monthSec": 10360,
+      "weekSec": 7448,
+      "monthSec": 14913,
       "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 10360
+        "미적분Ⅰ": 14913
       }
     },
     "logs": [
       {
+        "id": "effort_mvuz1n12gss",
+        "startedAt": 1793364584838,
+        "seconds": 779,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
+        "reflection": ""
+      },
+      {
         "id": "effort_mvr8y17boud",
         "startedAt": 1793139328649,
         "seconds": 93,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvqnkfbef9z",
+        "startedAt": 1793103501989,
+        "seconds": 3774,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",

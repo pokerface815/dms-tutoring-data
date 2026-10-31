@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T00:43:22.699Z",
+  "generatedAt": "2026-10-31T16:30:02.288Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -12,6 +12,23 @@
       "ym": "2026-11",
       "label": "2026년 11월",
       "lessons": [
+        {
+          "date": "2026-11-15",
+          "weekday": "일",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/15(일))",
+              "dueDate": "2026-11-15",
+              "isConfirmed": false
+            }
+          ],
+          "hasLesson": false
+        },
         {
           "date": "2026-11-12",
           "weekday": "목",
@@ -696,18 +713,7 @@
       "comment": "최근에 본 테스트 모두 준우가 약한 단원 위주로 출제하고 있어서 오답이 많은 편입니다. 이차부등식 단원은 시험에 대한 예고가 되지 않아서 유독 많이 틀린 것 같습니다."
     }
   ],
-  "effortLogs": {
-    "enabled": true,
-    "uploadedAt": "2026-08-07T06:27:28.426Z",
-    "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
-    },
-    "logs": []
-  },
+  "effortLogs": null,
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",

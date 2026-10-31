@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-28T08:00:05.810Z",
+  "generatedAt": "2026-10-31T16:29:46.391Z",
+  "branding": {
+    "name": "매쓰피아",
+    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
+  },
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1778404886523_0ag055",
     "classes": [
@@ -166,83 +175,6 @@
       "startedAt": 1789735361274,
       "createdAt": "2026-09-18T12:44:19.068Z",
       "autoRecorded": true
-    },
-    {
-      "id": "effort_mutkobkgbiq",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 200~215쪽(개념루트) 부정적분",
-      "reflection": "",
-      "seconds": 2738,
-      "startedAt": 1791103217349,
-      "createdAt": "2026-10-04T08:42:06.353Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mv1yux23k39",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 220~231쪽(개념루트) 정적분",
-      "reflection": "",
-      "seconds": 3245,
-      "startedAt": 1791610811318,
-      "createdAt": "2026-10-10T05:41:18.171Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mv203xcf8gb",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
-      "reflection": "",
-      "seconds": 614,
-      "startedAt": 1791612911479,
-      "createdAt": "2026-10-10T06:16:18.063Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mv6mulg7bld",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
-      "reflection": "",
-      "seconds": 1085,
-      "startedAt": 1791892972836,
-      "createdAt": "2026-10-13T12:03:58.615Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mvdfjz2nqeb",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 242~253쪽(개념루트) 정적분으로 정의된 함수",
-      "reflection": "",
-      "seconds": 2142,
-      "startedAt": 1792302829942,
-      "createdAt": "2026-10-18T06:14:08.975Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mvf7ihhgyno",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — 258~271쪽(개념루트) 정적분의 활용 - 넓이",
-      "reflection": "",
-      "seconds": 4483,
-      "startedAt": 1792411412850,
-      "createdAt": "2026-10-19T12:04:34.948Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mvqn8gpvknm",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "미적분1 개념+유형 (26년 1,2월) — 272~281쪽(개념루트) 정적분의 활용 - 속도와 거리",
-      "reflection": "",
-      "seconds": 1980,
-      "startedAt": 1793102946352,
-      "createdAt": "2026-10-27T12:10:09.187Z",
-      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -387,66 +319,6 @@
         "lastPosition": 2930,
         "lastWatchedAt": "2026-09-18T12:52:14.670Z",
         "watchedSec": 9
-      },
-      "JxzPzzpNzew": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "200~215쪽(개념루트) 부정적분",
-        "durationSec": 2230,
-        "lastPosition": 2229,
-        "lastWatchedAt": "2026-10-04T09:42:17.724Z",
-        "watchedSec": 2738
-      },
-      "9uxXNH4fUT8": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "220~231쪽(개념루트) 정적분",
-        "durationSec": 2515,
-        "lastPosition": 2514,
-        "lastWatchedAt": "2026-10-10T06:15:01.349Z",
-        "watchedSec": 3245
-      },
-      "jNwrnSQMusc": {
-        "sessionCount": 2,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
-        "durationSec": 1035,
-        "lastPosition": 1034,
-        "lastWatchedAt": "2026-10-13T12:17:49.561Z",
-        "watchedSec": 1699
-      },
-      "O3ZpodBk5B8": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "242~253쪽(개념루트) 정적분으로 정의된 함수",
-        "durationSec": 1348,
-        "lastPosition": 1347,
-        "lastWatchedAt": "2026-10-18T06:31:32.352Z",
-        "watchedSec": 2142
-      },
-      "ROGD4n-9mrY": {
-        "sessionCount": 5,
-        "lectureId": "lec_mrq9a1wrhru",
-        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
-        "videoTitle": "258~271쪽(개념루트) 정적분의 활용 - 넓이",
-        "durationSec": 3455,
-        "lastPosition": 3454,
-        "lastWatchedAt": "2026-10-19T12:44:52.632Z",
-        "watchedSec": 4483
-      },
-      "XagAr-A2uHs": {
-        "sessionCount": 2,
-        "watchedSec": 1980,
-        "lastPosition": 1505,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "272~281쪽(개념루트) 정적분의 활용 - 속도와 거리",
-        "durationSec": 1506,
-        "lastWatchedAt": "2026-10-27T12:25:55.770Z"
       }
     },
     "daily": {
@@ -486,25 +358,6 @@
         "DvuupuqvEY8": 11,
         "Cz4u8BWoVj4": 459,
         "0td5Yy0m5Y4": 9
-      },
-      "2026-10-04": {
-        "JxzPzzpNzew": 2738
-      },
-      "2026-10-10": {
-        "9uxXNH4fUT8": 3245,
-        "jNwrnSQMusc": 614
-      },
-      "2026-10-13": {
-        "jNwrnSQMusc": 1085
-      },
-      "2026-10-18": {
-        "O3ZpodBk5B8": 2142
-      },
-      "2026-10-19": {
-        "ROGD4n-9mrY": 4483
-      },
-      "2026-10-27": {
-        "XagAr-A2uHs": 1980
       }
     }
   },

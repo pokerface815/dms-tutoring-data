@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:51:05.278Z",
+  "generatedAt": "2026-10-31T16:30:45.389Z",
+  "branding": {
+    "name": "매쓰피아",
+    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
+  },
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1783741551628_vw0d5m",
     "classes": [
@@ -12,162 +21,7 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [
-    {
-      "id": "effort_mrx8fhmom2v",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 24~28쪽 연습문제 질문(15쪽) + 삼각형의 무게중심",
-      "reflection": "",
-      "seconds": 160,
-      "startedAt": 1784794165448,
-      "createdAt": "2026-07-23T08:11:16.608Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mrx8jvaqa6l",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
-      "reflection": "",
-      "seconds": 151,
-      "startedAt": 1784794384411,
-      "createdAt": "2026-07-23T08:14:40.946Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mrx8olli2di",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 28~32쪽 연습문제 질문(27쪽) + 직선의 방정식",
-      "reflection": "",
-      "seconds": 1671,
-      "startedAt": 1784794620798,
-      "createdAt": "2026-07-23T08:18:21.654Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_ms5jn8uw9y0",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "공통수학2 개념+유형 (26년 1, 2월) — 41~48쪽 점과 직선 사이의 거리",
-      "reflection": "",
-      "seconds": 2712,
-      "startedAt": 1785296738344,
-      "createdAt": "2026-07-29T03:47:23.672Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_ms5lyzejhdj",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "공통수학2 개념+유형 (26년 1, 2월) — 52~57쪽 원의 방정식(1)",
-      "reflection": "",
-      "seconds": 2512,
-      "startedAt": 1785300634790,
-      "createdAt": "2026-07-29T04:52:30.523Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mutb1fc0c1f",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 22. 명제",
-      "reflection": "",
-      "seconds": 802,
-      "startedAt": 1791086963286,
-      "createdAt": "2026-10-04T04:12:21.600Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mutbpmzxm33",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 22. 명제",
-      "reflection": "",
-      "seconds": 1315,
-      "startedAt": 1791088165876,
-      "createdAt": "2026-10-04T04:31:11.277Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mv33ryedxrg",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 22. 명제",
-      "reflection": "",
-      "seconds": 64,
-      "startedAt": 1791679493430,
-      "createdAt": "2026-10-11T00:46:44.197Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mv33xytu1y2",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 25. 명제의 증명",
-      "reflection": "",
-      "seconds": 84,
-      "startedAt": 1791679613045,
-      "createdAt": "2026-10-11T00:51:24.690Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mv35xasxcuw",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 25. 명제의 증명",
-      "reflection": "",
-      "seconds": 282,
-      "startedAt": 1791683077592,
-      "createdAt": "2026-10-11T01:46:52.785Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mvl3c3dcppr",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 25. 명제의 증명",
-      "reflection": "",
-      "seconds": 1063,
-      "startedAt": 1792767137932,
-      "createdAt": "2026-10-23T14:54:15.312Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mvl41izcpy9",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 26. 산술평균과 기하평균의 관계",
-      "reflection": "",
-      "seconds": 1749,
-      "startedAt": 1792768350458,
-      "createdAt": "2026-10-23T15:14:01.944Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mvnqm58wpsy",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 26. 산술평균과 기하평균의 관계",
-      "reflection": "",
-      "seconds": 3983,
-      "startedAt": 1792927130812,
-      "createdAt": "2026-10-25T11:21:27.824Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mvnvszqfjm8",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 27. 코시 슈바르츠 부등식",
-      "reflection": "",
-      "seconds": 1596,
-      "startedAt": 1792935939077,
-      "createdAt": "2026-10-25T13:46:45.351Z",
-      "autoRecorded": true
-    }
-  ],
+  "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
@@ -240,56 +94,6 @@
         "lastPosition": 1729,
         "lastWatchedAt": "2026-09-15T22:30:10.458Z",
         "watchedSec": 43
-      },
-      "jIpwtf4tEck": {
-        "sessionCount": 3,
-        "lectureId": "lec_ms5pj8rig4h",
-        "lectureTitle": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업",
-        "videoTitle": "22. 명제",
-        "durationSec": 5157,
-        "lastPosition": 4297,
-        "lastWatchedAt": "2026-10-11T00:46:46.195Z",
-        "watchedSec": 2181
-      },
-      "2lHfBxgTyq4": {
-        "sessionCount": 1,
-        "lectureId": "lec_ms5pj8rig4h",
-        "lectureTitle": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업",
-        "videoTitle": "24. 명제의 역, 대우",
-        "durationSec": 4566,
-        "lastPosition": 2686,
-        "lastWatchedAt": "2026-10-11T00:44:52.116Z",
-        "watchedSec": 13
-      },
-      "RMagOXxUoPg": {
-        "sessionCount": 6,
-        "lectureId": "lec_ms5pj8rig4h",
-        "lectureTitle": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업",
-        "videoTitle": "25. 명제의 증명",
-        "durationSec": 3627,
-        "lastPosition": 3458,
-        "lastWatchedAt": "2026-10-25T11:18:48.389Z",
-        "watchedSec": 1432
-      },
-      "oWkjgYpRUxU": {
-        "sessionCount": 5,
-        "lectureId": "lec_ms5pj8rig4h",
-        "lectureTitle": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업",
-        "videoTitle": "26. 산술평균과 기하평균의 관계",
-        "durationSec": 4896,
-        "lastPosition": 3894,
-        "lastWatchedAt": "2026-10-25T15:15:16.157Z",
-        "watchedSec": 5787
-      },
-      "gLnBI8RWwa0": {
-        "sessionCount": 4,
-        "lectureId": "lec_ms5pj8rig4h",
-        "lectureTitle": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업",
-        "videoTitle": "27. 코시 슈바르츠 부등식",
-        "durationSec": 2848,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-10-25T14:17:23.441Z",
-        "watchedSec": 1601
       }
     },
     "daily": {
@@ -309,29 +113,6 @@
       },
       "2026-09-16": {
         "H2iaIqdnKt8": 29
-      },
-      "2026-10-04": {
-        "jIpwtf4tEck": 2117
-      },
-      "2026-10-11": {
-        "2lHfBxgTyq4": 13,
-        "jIpwtf4tEck": 64,
-        "RMagOXxUoPg": 366
-      },
-      "2026-10-23": {
-        "RMagOXxUoPg": 337
-      },
-      "2026-10-24": {
-        "RMagOXxUoPg": 726,
-        "oWkjgYpRUxU": 1749
-      },
-      "2026-10-25": {
-        "oWkjgYpRUxU": 3995,
-        "RMagOXxUoPg": 3,
-        "gLnBI8RWwa0": 1601
-      },
-      "2026-10-26": {
-        "oWkjgYpRUxU": 43
       }
     }
   },

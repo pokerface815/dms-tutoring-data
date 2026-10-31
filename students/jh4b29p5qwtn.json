@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:48:20.020Z",
+  "generatedAt": "2026-10-31T16:30:25.725Z",
+  "branding": {
+    "name": "매쓰피아",
+    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
+  },
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1780825523674_8dwstz",
     "classes": [
@@ -12,7 +21,7 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": null,
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,

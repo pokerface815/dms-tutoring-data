@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:48:56.591Z",
+  "generatedAt": "2026-10-31T16:31:02.863Z",
+  "branding": {
+    "name": "매쓰피아",
+    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
+  },
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -44,17 +53,6 @@
       "seconds": 677,
       "startedAt": 1788610943751,
       "createdAt": "2026-09-05T12:23:57.803Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mvf6wxf7zq0",
-      "subject": "공통수학2",
-      "method": "강의 시청",
-      "content": "12시 30분 수업 - 공통수학2 (26년 7월 ~ ) — 2",
-      "reflection": "",
-      "seconds": 2165,
-      "startedAt": 1792410406387,
-      "createdAt": "2026-10-19T11:47:49.171Z",
       "autoRecorded": true
     }
   ],
@@ -160,16 +158,6 @@
         "lastPosition": 22,
         "lastWatchedAt": "2026-09-05T12:21:57.200Z",
         "watchedSec": 12
-      },
-      "tdWjVCgc9aU": {
-        "sessionCount": 2,
-        "lectureId": "lec_mrg7ztilap8",
-        "lectureTitle": "12시 30분 수업 - 공통수학2 (26년 7월 ~ )",
-        "videoTitle": "2",
-        "durationSec": 3867,
-        "lastPosition": 1994,
-        "lastWatchedAt": "2026-10-19T12:46:12.858Z",
-        "watchedSec": 2167
       }
     },
     "daily": {
@@ -193,12 +181,6 @@
         "hU9NhJANwBw": 6,
         "UAwWqGoqdYs": 25,
         "jicJRyoMdgU": 12
-      },
-      "2026-10-18": {
-        "tdWjVCgc9aU": 2
-      },
-      "2026-10-19": {
-        "tdWjVCgc9aU": 2165
       }
     }
   },

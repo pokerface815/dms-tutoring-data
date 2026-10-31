@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-28T08:00:02.359Z",
+  "generatedAt": "2026-10-31T00:42:47.836Z",
   "student": {
     "id": "s_1779005266373_7iq1b8",
     "classes": [
@@ -56,6 +56,17 @@
       "startedAt": 1792067358824,
       "createdAt": "2026-10-15T12:30:54.027Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mvvmscbm3zl",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 147~157쪽 질문(278번)+ 함수의 그래프(삼,사차함수의 그래프의 개형 및 특징)",
+      "reflection": "",
+      "seconds": 86,
+      "startedAt": 1793404516239,
+      "createdAt": "2026-10-30T23:56:27.874Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -92,19 +103,34 @@
         "watchedSec": 2736
       },
       "SwslyvrUY6Q": {
-        "sessionCount": 1,
-        "watchedSec": 0,
-        "lastPosition": 0
+        "sessionCount": 2,
+        "watchedSec": 14,
+        "lastPosition": 24,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "186~195쪽 속도와 가속도",
+        "durationSec": 4501,
+        "lastWatchedAt": "2026-10-30T12:38:57.302Z"
       },
       "mcNskwieZjE": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mririwvdtb6",
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
         "videoTitle": "178~183쪽 부등식에의 활용",
         "durationSec": 3729,
-        "lastPosition": 1984,
-        "lastWatchedAt": "2026-10-26T12:17:52.329Z",
-        "watchedSec": 4
+        "lastPosition": 1985,
+        "lastWatchedAt": "2026-10-30T23:57:57.415Z",
+        "watchedSec": 6
+      },
+      "2uO24hSkCak": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "147~157쪽 질문(278번)+ 함수의 그래프(삼,사차함수의 그래프의 개형 및 특징)",
+        "durationSec": 6016,
+        "lastPosition": 3546,
+        "lastWatchedAt": "2026-10-30T23:57:28.503Z",
+        "watchedSec": 86
       }
     },
     "daily": {
@@ -120,6 +146,13 @@
       },
       "2026-10-26": {
         "mcNskwieZjE": 4
+      },
+      "2026-10-30": {
+        "SwslyvrUY6Q": 14
+      },
+      "2026-10-31": {
+        "2uO24hSkCak": 86,
+        "mcNskwieZjE": 2
       }
     }
   },

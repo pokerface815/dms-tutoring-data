@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T11:48:28.049Z",
+  "generatedAt": "2026-10-31T00:43:11.472Z",
   "student": {
     "id": "s_1783476674835_bt1qix",
     "classes": [
@@ -25,9 +25,34 @@
         "lastPosition": 0,
         "lastWatchedAt": "2026-09-03T08:45:33.677Z",
         "watchedSec": 0
+      },
+      "Q4JeWlNAgvA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "200~215쪽 부정적분",
+        "durationSec": 3970,
+        "lastPosition": 802,
+        "lastWatchedAt": "2026-10-30T17:36:08.741Z",
+        "watchedSec": 4
+      },
+      "ZuDVvGsnFW4": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "220~231쪽 정적분",
+        "durationSec": 3698,
+        "lastPosition": 21,
+        "lastWatchedAt": "2026-10-30T17:36:30.817Z",
+        "watchedSec": 25
       }
     },
-    "daily": {}
+    "daily": {
+      "2026-10-31": {
+        "Q4JeWlNAgvA": 4,
+        "ZuDVvGsnFW4": 25
+      }
+    }
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],

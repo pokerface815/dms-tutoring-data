@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T02:29:03.652Z",
+  "generatedAt": "2026-10-31T00:43:09.632Z",
   "studentCount": 43,
   "rankings": [
     {
@@ -17,13 +17,13 @@
     {
       "id": "s_1777546951753_p3pskl",
       "name": "김채린",
-      "totalSec": 34777,
-      "weekSec": 2895,
-      "monthSec": 10360,
-      "recent3mSec": 27903,
+      "totalSec": 39330,
+      "weekSec": 7448,
+      "monthSec": 14913,
+      "recent3mSec": 32456,
       "streak": 1,
-      "nickname": "",
-      "publicNickname": false
+      "nickname": "오레오잉",
+      "publicNickname": true
     },
     {
       "id": "s_1777546978791_hsee5a",
@@ -149,11 +149,11 @@
     {
       "id": "s_1779005266373_7iq1b8",
       "name": "김시현",
-      "totalSec": 5972,
-      "weekSec": 0,
-      "monthSec": 5972,
-      "recent3mSec": 5972,
-      "streak": 0,
+      "totalSec": 6058,
+      "weekSec": 86,
+      "monthSec": 6058,
+      "recent3mSec": 6058,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -292,11 +292,11 @@
     {
       "id": "s_1780833414231_dup17p",
       "name": "국보민",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
+      "totalSec": 2018,
+      "weekSec": 2018,
+      "monthSec": 2018,
+      "recent3mSec": 2018,
+      "streak": 2,
       "nickname": "",
       "publicNickname": false
     },
@@ -325,10 +325,10 @@
     {
       "id": "s_1783505825104_ci241f",
       "name": "정찬영",
-      "totalSec": 12264,
-      "weekSec": 0,
-      "monthSec": 3766,
-      "recent3mSec": 3766,
+      "totalSec": 14005,
+      "weekSec": 1741,
+      "monthSec": 5507,
+      "recent3mSec": 5507,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -413,11 +413,11 @@
     {
       "id": "s_1784437736068_jgkmca",
       "name": "조해인",
-      "totalSec": 28274,
-      "weekSec": 0,
-      "monthSec": 126,
-      "recent3mSec": 15128,
-      "streak": 0,
+      "totalSec": 30039,
+      "weekSec": 1765,
+      "monthSec": 1891,
+      "recent3mSec": 16893,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },

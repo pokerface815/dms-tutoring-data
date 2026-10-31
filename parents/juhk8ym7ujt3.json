@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T11:49:05.653Z",
+  "generatedAt": "2026-10-31T16:31:13.874Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -11,36 +11,15 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-10-19T10:43:05.072Z",
+    "uploadedAt": "2026-09-21T07:39:37.531Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
-      "monthSec": 1987,
+      "monthSec": 0,
       "streak": 0,
-      "bySubjectMonth": {
-        "중3": 1987
-      }
+      "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_mvf3twox59h",
-        "startedAt": 1792405227337,
-        "seconds": 992,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-2 개념원리 — 06. 원의 현, 접선(1) (~p.70)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvf2bylqixm",
-        "startedAt": 1792402686686,
-        "seconds": 995,
-        "subject": "중3",
-        "method": "강의 시청",
-        "content": "2024 1,2월 중3-2 개념원리 — 06. 원의 현, 접선(1) (~p.70)",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {

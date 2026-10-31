@@ -1496,6 +1496,12 @@
         "title": "220~231쪽 정적분",
         "position": 20,
         "durationSec": 3698
+      },
+      {
+        "videoId": "Jrb1xjn_y74",
+        "title": "3",
+        "position": 21,
+        "durationSec": 5773
       }
     ],
     "permissions": {
@@ -1504,8 +1510,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-10-19T12:59:21.923Z",
-    "lastSyncedAt": "2026-10-19T12:59:21.923Z"
+    "updatedAt": "2026-10-31T14:20:30.098Z",
+    "lastSyncedAt": "2026-10-31T14:20:30.098Z"
   },
   {
     "id": "lec_mrq99fx1qmz",

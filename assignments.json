@@ -5102,8 +5102,10 @@
       {
         "stage": 3,
         "planned": "2026-10-30",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-10-31T00:42:35.824Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 4,
@@ -5140,8 +5142,10 @@
       {
         "stage": 3,
         "planned": "2026-10-30",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": true,
+        "doneAt": "2026-10-31T00:42:36.676Z",
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 4,

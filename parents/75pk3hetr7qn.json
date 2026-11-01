@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T16:30:57.001Z",
+  "generatedAt": "2026-11-01T08:45:47.651Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,15 +48,70 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-09-05T05:02:24.554Z",
+    "uploadedAt": "2026-10-31T01:54:15.071Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
+      "weekSec": 5097,
       "monthSec": 0,
-      "streak": 0,
+      "streak": 1,
       "bySubjectMonth": {}
     },
-    "logs": []
+    "logs": [
+      {
+        "id": "effort_mvvqkwaahdv",
+        "startedAt": 1793410884545,
+        "seconds": 963,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvvp110ftqs",
+        "startedAt": 1793408300243,
+        "seconds": 2369,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 220~231쪽 정적분",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvv78pvvavg",
+        "startedAt": 1793376936991,
+        "seconds": 367,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 200~215쪽 부정적분",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvv5xd45pzo",
+        "startedAt": 1793376146052,
+        "seconds": 892,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 200~215쪽 부정적분",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvv5h2jccyo",
+        "startedAt": 1793375449822,
+        "seconds": 506,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 200~215쪽 부정적분",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvjgkmp1ih9",
+        "startedAt": 1792668479753,
+        "seconds": 126,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 200~215쪽 부정적분",
+        "reflection": ""
+      }
+    ]
   },
   "academyEvents": [
     {

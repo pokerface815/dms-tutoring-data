@@ -1,15 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-31T16:29:56.485Z",
-  "branding": {
-    "name": "매쓰피아",
-    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
-  },
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-11-01T08:45:43.700Z",
   "student": {
     "id": "s_1778908285779_1cmzde",
     "classes": [
@@ -76,10 +67,181 @@
       "startedAt": 1787452519560,
       "createdAt": "2026-08-23T02:37:10.412Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mvddf9lx9iy",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 3",
+      "reflection": "",
+      "seconds": 4459,
+      "startedAt": 1792300350801,
+      "createdAt": "2026-10-18T05:14:30.117Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvvrd4hfx9b",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+      "reflection": "",
+      "seconds": 86,
+      "startedAt": 1793412236223,
+      "createdAt": "2026-10-31T02:04:35.955Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvvrmq4ndxw",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 220~231쪽 정적분",
+      "reflection": "",
+      "seconds": 3499,
+      "startedAt": 1793412673965,
+      "createdAt": "2026-10-31T02:12:03.911Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvvt8aqr7mp",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+      "reflection": "",
+      "seconds": 1366,
+      "startedAt": 1793415359895,
+      "createdAt": "2026-10-31T02:56:50.019Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvvts3q818i",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+      "reflection": "",
+      "seconds": 1852,
+      "startedAt": 1793416284254,
+      "createdAt": "2026-10-31T03:12:14.048Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "MUY1NAZSfLw": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "durationSec": 4799,
+        "lastPosition": 3661,
+        "lastWatchedAt": "2026-07-11T06:17:23.789Z",
+        "watchedSec": 3134
+      },
+      "4oCcIG5bOxY": {
+        "sessionCount": 3,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
+        "durationSec": 5173,
+        "lastPosition": 5066,
+        "lastWatchedAt": "2026-07-25T04:20:41.720Z",
+        "watchedSec": 414
+      },
+      "OIDvXwg6tkg": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
+        "durationSec": 5879,
+        "lastPosition": 3811,
+        "lastWatchedAt": "2026-08-08T02:58:03.173Z",
+        "watchedSec": 1697
+      },
+      "2uO24hSkCak": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "3",
+        "durationSec": 6016,
+        "lastPosition": 5199,
+        "lastWatchedAt": "2026-08-23T03:36:02.103Z",
+        "watchedSec": 3499
+      },
+      "Q4JeWlNAgvA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "3",
+        "durationSec": 3970,
+        "lastPosition": 3967,
+        "lastWatchedAt": "2026-10-18T06:14:24.951Z",
+        "watchedSec": 4459
+      },
+      "jNwrnSQMusc": {
+        "sessionCount": 3,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "[개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "durationSec": 1035,
+        "lastPosition": 1034,
+        "lastWatchedAt": "2026-10-31T03:11:13.182Z",
+        "watchedSec": 1452
+      },
+      "9uxXNH4fUT8": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "[개념루트, 사전 촬영] 220~231쪽 정적분",
+        "durationSec": 2515,
+        "lastPosition": 2,
+        "lastWatchedAt": "2026-10-31T02:11:12.663Z",
+        "watchedSec": 3
+      },
+      "ZuDVvGsnFW4": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "220~231쪽 정적분",
+        "durationSec": 3698,
+        "lastPosition": 3655,
+        "lastWatchedAt": "2026-10-31T02:55:46.031Z",
+        "watchedSec": 3499
+      },
+      "O3ZpodBk5B8": {
+        "sessionCount": 2,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "[개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+        "durationSec": 1348,
+        "lastPosition": 1344,
+        "lastWatchedAt": "2026-10-31T04:03:55.819Z",
+        "watchedSec": 1853
+      }
+    },
+    "daily": {
+      "2026-07-11": {
+        "MUY1NAZSfLw": 3134
+      },
+      "2026-07-25": {
+        "4oCcIG5bOxY": 414
+      },
+      "2026-08-08": {
+        "OIDvXwg6tkg": 1697
+      },
+      "2026-08-23": {
+        "2uO24hSkCak": 3499
+      },
+      "2026-10-18": {
+        "Q4JeWlNAgvA": 4459
+      },
+      "2026-10-31": {
+        "jNwrnSQMusc": 1452,
+        "9uxXNH4fUT8": 3,
+        "ZuDVvGsnFW4": 3499,
+        "O3ZpodBk5B8": 1853
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

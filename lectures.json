@@ -1216,6 +1216,12 @@
         "title": "1",
         "position": 19,
         "durationSec": 2293
+      },
+      {
+        "videoId": "R3f_QNAv69c",
+        "title": "11",
+        "position": 20,
+        "durationSec": 3338
       }
     ],
     "permissions": {
@@ -1224,8 +1230,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-10-31T14:20:21.158Z",
-    "lastSyncedAt": "2026-10-31T14:20:21.158Z"
+    "updatedAt": "2026-11-01T08:45:27.273Z",
+    "lastSyncedAt": "2026-11-01T08:45:27.273Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1350,6 +1356,12 @@
         "title": "2",
         "position": 18,
         "durationSec": 4507
+      },
+      {
+        "videoId": "9or26OwDvwg",
+        "title": "22",
+        "position": 19,
+        "durationSec": 3637
       }
     ],
     "permissions": {
@@ -1358,8 +1370,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-10-31T14:20:24.076Z",
-    "lastSyncedAt": "2026-10-31T14:20:24.076Z"
+    "updatedAt": "2026-11-01T08:45:23.953Z",
+    "lastSyncedAt": "2026-11-01T08:45:23.953Z"
   },
   {
     "id": "lec_mririwvdtb6",
@@ -1510,8 +1522,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-10-31T14:20:30.098Z",
-    "lastSyncedAt": "2026-10-31T14:20:30.098Z"
+    "updatedAt": "2026-11-01T08:45:34.256Z",
+    "lastSyncedAt": "2026-11-01T08:45:34.256Z"
   },
   {
     "id": "lec_mrq99fx1qmz",

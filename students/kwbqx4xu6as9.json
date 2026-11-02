@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-02T00:48:57.793Z",
+  "generatedAt": "2026-11-02T00:52:35.009Z",
   "student": {
     "id": "s_1779948611035_qbdt5h",
     "classes": [
@@ -460,54 +460,6 @@
       "dueDate": "2026-11-01",
       "isRepeat": false,
       "assignedAt": "2026-10-18T07:43:00.323Z"
-    },
-    {
-      "assignmentId": "task_1792575690730_pk37cb",
-      "round": 1,
-      "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/3(화))",
-      "dueDate": "2026-11-03",
-      "isRepeat": false,
-      "assignedAt": "2026-10-21T09:41:30.730Z"
-    },
-    {
-      "assignmentId": "task_1792679755341_sr087a",
-      "round": 1,
-      "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/5(목))",
-      "dueDate": "2026-11-05",
-      "isRepeat": false,
-      "assignedAt": "2026-10-22T14:35:55.341Z"
-    },
-    {
-      "assignmentId": "task_1793015217144_8ylrzi",
-      "round": 1,
-      "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/8(일))",
-      "dueDate": "2026-11-08",
-      "isRepeat": false,
-      "assignedAt": "2026-10-26T11:46:57.144Z"
-    },
-    {
-      "assignmentId": "task_1793276748265_vrlfs0",
-      "round": 1,
-      "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/10(화))",
-      "dueDate": "2026-11-10",
-      "isRepeat": false,
-      "assignedAt": "2026-10-29T12:25:48.265Z"
-    },
-    {
-      "assignmentId": "task_1793276748265_de868b",
-      "round": 1,
-      "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/12(목))",
-      "dueDate": "2026-11-12",
-      "isRepeat": false,
-      "assignedAt": "2026-10-29T12:25:48.265Z"
-    },
-    {
-      "assignmentId": "task_1793580490737_yqfvdi",
-      "round": 1,
-      "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/15(일))",
-      "dueDate": "2026-11-15",
-      "isRepeat": false,
-      "assignedAt": "2026-11-02T00:48:10.737Z"
     }
   ],
   "myGrades": []

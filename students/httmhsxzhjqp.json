@@ -1,15 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-31T16:31:15.732Z",
-  "branding": {
-    "name": "매쓰피아",
-    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
-  },
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-11-02T00:49:58.548Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -21,9 +12,96 @@
     "class": "",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mvdji91741o",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 22. 명제",
+      "reflection": "",
+      "seconds": 154,
+      "startedAt": 1792309864764,
+      "createdAt": "2026-10-18T08:04:47.035Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvxlejlk2zh",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 29. 여러가지 함수",
+      "reflection": "",
+      "seconds": 2201,
+      "startedAt": 1793523061689,
+      "createdAt": "2026-11-01T08:53:16.856Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvxo36y61j7",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 29. 여러가지 함수",
+      "reflection": "",
+      "seconds": 239,
+      "startedAt": 1793527614394,
+      "createdAt": "2026-11-01T10:08:26.094Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mvxon1unr1h",
+      "subject": "공통수학2",
+      "method": "강의 시청",
+      "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 30. 합성함수",
+      "reflection": "",
+      "seconds": 399,
+      "startedAt": 1793528200745,
+      "createdAt": "2026-11-01T10:23:52.607Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "jIpwtf4tEck": {
+        "sessionCount": 2,
+        "lectureId": "lec_ms5pj8rig4h",
+        "lectureTitle": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업",
+        "videoTitle": "22. 명제",
+        "durationSec": 5157,
+        "lastPosition": 3467,
+        "lastWatchedAt": "2026-10-18T08:12:08.072Z",
+        "watchedSec": 160
+      },
+      "PqIZP9AYgTg": {
+        "sessionCount": 3,
+        "lectureId": "lec_ms5pj8rig4h",
+        "lectureTitle": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업",
+        "videoTitle": "29. 여러가지 함수",
+        "durationSec": 3912,
+        "lastPosition": 3717,
+        "lastWatchedAt": "2026-11-01T10:16:32.842Z",
+        "watchedSec": 2440
+      },
+      "0PfuEK4N4Rg": {
+        "sessionCount": 2,
+        "lectureId": "lec_ms5pj8rig4h",
+        "lectureTitle": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업",
+        "videoTitle": "30. 합성함수",
+        "durationSec": 4302,
+        "lastPosition": 3598,
+        "lastWatchedAt": "2026-11-01T10:44:49.488Z",
+        "watchedSec": 443
+      }
+    },
+    "daily": {
+      "2026-10-18": {
+        "jIpwtf4tEck": 160
+      },
+      "2026-11-01": {
+        "PqIZP9AYgTg": 2440,
+        "0PfuEK4N4Rg": 443
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
@@ -235,11 +313,11 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
-    "done": 1,
-    "percent": 100,
-    "startDate": "2026-10-26",
-    "endDate": "2026-11-01"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-08"
   },
   "teacherConfirms": {},
   "tasks": [],

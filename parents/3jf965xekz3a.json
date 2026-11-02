@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T08:45:51.659Z",
+  "generatedAt": "2026-11-02T00:49:31.546Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -41,31 +41,24 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-10-29T15:11:58.218Z",
+    "uploadedAt": "2026-11-01T05:12:00.748Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 1741,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "weekSec": 0,
+      "monthSec": 2,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 2
+      }
     },
     "logs": [
       {
-        "id": "effort_mvto4vjnhlv",
-        "startedAt": 1793285825013,
-        "seconds": 565,
+        "id": "effort_mvxdhzont11",
+        "startedAt": 1793509907296,
+        "seconds": 2,
         "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvtnvjy587s",
-        "startedAt": 1793284297448,
-        "seconds": 1176,
-        "subject": "수학",
         "method": "문제 풀이",
-        "content": "ㅅ",
+        "content": "개념루트",
         "reflection": ""
       },
       {

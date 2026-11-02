@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T08:45:35.290Z",
+  "generatedAt": "2026-11-02T00:48:24.909Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -143,17 +143,44 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-11-01T02:56:39.943Z",
+    "uploadedAt": "2026-11-01T23:02:52.671Z",
     "summary": {
-      "todaySec": 104,
-      "weekSec": 2999,
-      "monthSec": 104,
-      "streak": 1,
+      "todaySec": 1941,
+      "weekSec": 1941,
+      "monthSec": 5277,
+      "streak": 2,
       "bySubjectMonth": {
-        "미적분Ⅰ": 104
+        "미적분Ⅰ": 5277
       }
     },
     "logs": [
+      {
+        "id": "effort_mvy2hwj3i25",
+        "startedAt": 1793551797642,
+        "seconds": 1079,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 242~253쪽(개념루트) 정적분으로 정의된 함수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvy1t9bulp9",
+        "startedAt": 1793550694374,
+        "seconds": 862,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvxxidwv0bc",
+        "startedAt": 1793543417229,
+        "seconds": 3232,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 220~231쪽(개념루트) 정적분",
+        "reflection": ""
+      },
       {
         "id": "effort_mvx8nwuym5l",
         "startedAt": 1793501737349,
@@ -164,9 +191,27 @@
         "reflection": ""
       },
       {
+        "id": "effort_mvuz1n12gss",
+        "startedAt": 1793364584838,
+        "seconds": 779,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
+        "reflection": ""
+      },
+      {
         "id": "effort_mvr8y17boud",
         "startedAt": 1793139328649,
         "seconds": 93,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvqnkfbef9z",
+        "startedAt": 1793103501989,
+        "seconds": 3774,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",

@@ -4994,17 +4994,6 @@
     "repeat": null
   },
   {
-    "id": "task_1792575690730_pk37cb",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/3(화))",
-    "dueDate": "2026-11-03",
-    "assignedAt": "2026-10-21T09:41:30.730Z",
-    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-03",
-    "templateId": "tpl_mv9jvcebah40",
-    "repeat": null
-  },
-  {
     "id": "task_1792576262326_ubtbbg",
     "type": "task",
     "studentId": "s_1780309359751_gjl2s0",
@@ -5054,17 +5043,6 @@
       }
     ],
     "createdAt": "2026-10-22T14:09:18.548Z"
-  },
-  {
-    "id": "task_1792679755341_sr087a",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/5(목))",
-    "dueDate": "2026-11-05",
-    "assignedAt": "2026-10-22T14:35:55.341Z",
-    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-05",
-    "templateId": "tpl_mv9jvcebah40",
-    "repeat": null
   },
   {
     "id": "task_1792744981527_ls8oy1",
@@ -5155,49 +5133,5 @@
       }
     ],
     "createdAt": "2026-10-23T12:32:11.411Z"
-  },
-  {
-    "id": "task_1793015217144_8ylrzi",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/8(일))",
-    "dueDate": "2026-11-08",
-    "assignedAt": "2026-10-26T11:46:57.144Z",
-    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-08",
-    "templateId": "tpl_mv9jvcebah40",
-    "repeat": null
-  },
-  {
-    "id": "task_1793276748265_vrlfs0",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/10(화))",
-    "dueDate": "2026-11-10",
-    "assignedAt": "2026-10-29T12:25:48.265Z",
-    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-10",
-    "templateId": "tpl_mv9jvcebah40",
-    "repeat": null
-  },
-  {
-    "id": "task_1793276748265_de868b",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/12(목))",
-    "dueDate": "2026-11-12",
-    "assignedAt": "2026-10-29T12:25:48.265Z",
-    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-12",
-    "templateId": "tpl_mv9jvcebah40",
-    "repeat": null
-  },
-  {
-    "id": "task_1793580490737_yqfvdi",
-    "type": "task",
-    "studentId": "s_1779948611035_qbdt5h",
-    "title": "RPM 2장씩 풀기(채점+오답 수정)(제출일 11/15(일))",
-    "dueDate": "2026-11-15",
-    "assignedAt": "2026-11-02T00:48:10.737Z",
-    "batchId": "tplbatch_tpl_mv9jvcebah40_2026-11-15",
-    "templateId": "tpl_mv9jvcebah40",
-    "repeat": null
   }
 ]

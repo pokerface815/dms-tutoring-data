@@ -1,15 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-31T16:29:52.413Z",
-  "branding": {
-    "name": "매쓰피아",
-    "logoUrl": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1789783489/monsajz494y8iuqwupsa.png"
-  },
-  "features": {
-    "effort": true,
-    "lectures": true,
-    "grades": true
-  },
+  "generatedAt": "2026-11-02T00:48:49.261Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -379,11 +370,11 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-10-26",
-    "endDate": "2026-11-01"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-08"
   },
   "teacherConfirms": {},
   "tasks": [],

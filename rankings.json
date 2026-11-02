@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T00:48:18.838Z",
+  "generatedAt": "2026-11-02T00:50:00.785Z",
   "studentCount": 43,
   "rankings": [
     {
@@ -17,13 +17,13 @@
     {
       "id": "s_1777546951753_p3pskl",
       "name": "김채린",
-      "totalSec": 34881,
-      "weekSec": 0,
-      "monthSec": 104,
-      "recent3mSec": 10464,
-      "streak": 1,
-      "nickname": "",
-      "publicNickname": false
+      "totalSec": 44607,
+      "weekSec": 1941,
+      "monthSec": 5277,
+      "recent3mSec": 20190,
+      "streak": 2,
+      "nickname": "오레오잉",
+      "publicNickname": true
     },
     {
       "id": "s_1777546978791_hsee5a",
@@ -83,11 +83,11 @@
     {
       "id": "s_1778402500926_7fxigp",
       "name": "정찬민",
-      "totalSec": 15350,
+      "totalSec": 22843,
       "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 10995,
-      "streak": 0,
+      "monthSec": 7493,
+      "recent3mSec": 18488,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -325,11 +325,11 @@
     {
       "id": "s_1783505825104_ci241f",
       "name": "정찬영",
-      "totalSec": 14005,
+      "totalSec": 12266,
       "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 5507,
-      "streak": 0,
+      "monthSec": 2,
+      "recent3mSec": 3768,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -468,11 +468,11 @@
     {
       "id": "s_1790074374851_96xx1y",
       "name": "장하늘",
-      "totalSec": 154,
+      "totalSec": 2993,
       "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 154,
-      "streak": 0,
+      "monthSec": 2839,
+      "recent3mSec": 2993,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     }

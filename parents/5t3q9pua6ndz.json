@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T08:45:55.528Z",
+  "generatedAt": "2026-11-03T07:57:25.814Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -107,24 +107,6 @@
         "id": "effort_mv33ryedxrg",
         "startedAt": 1791679493430,
         "seconds": 64,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 22. 명제",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mutbpmzxm33",
-        "startedAt": 1791088165876,
-        "seconds": 1315,
-        "subject": "공통수학2",
-        "method": "강의 시청",
-        "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 22. 명제",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mutb1fc0c1f",
-        "startedAt": 1791086963286,
-        "seconds": 802,
         "subject": "공통수학2",
         "method": "강의 시청",
         "content": "개념+유형_공통수학2( ~ 합성함수, 역함수)_24년 하반기 수업 — 22. 명제",

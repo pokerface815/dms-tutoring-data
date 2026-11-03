@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-02T00:48:20.781Z",
+  "generatedAt": "2026-11-03T12:51:44.490Z",
   "student": {
     "id": "s_1777538277049_9le2r7",
     "classes": [
@@ -288,6 +288,28 @@
       "startedAt": 1792830987407,
       "createdAt": "2026-10-24T08:37:33.712Z",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mw0jo8owuwa",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
+      "reflection": "",
+      "seconds": 350,
+      "startedAt": 1793701626742,
+      "createdAt": "2026-11-03T10:28:08.576Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mw0nixajfpq",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
+      "reflection": "",
+      "seconds": 3500,
+      "startedAt": 1793708076628,
+      "createdAt": "2026-11-03T12:15:58.987Z",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -472,6 +494,16 @@
         "lastPosition": 1347,
         "lastWatchedAt": "2026-10-24T08:57:26.103Z",
         "watchedSec": 1903
+      },
+      "ROGD4n-9mrY": {
+        "sessionCount": 3,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "[개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
+        "durationSec": 3455,
+        "lastPosition": 3028,
+        "lastWatchedAt": "2026-11-03T12:50:43.754Z",
+        "watchedSec": 3853
       }
     },
     "daily": {
@@ -526,6 +558,9 @@
       },
       "2026-10-24": {
         "O3ZpodBk5B8": 1903
+      },
+      "2026-11-03": {
+        "ROGD4n-9mrY": 3853
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T00:48:43.279Z",
+  "generatedAt": "2026-11-03T11:03:57.811Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -152,15 +152,6 @@
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "미적분1 개념+유형 (26년 1,2월) — 220~231쪽(개념루트) 정적분",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mutkobkgbiq",
-        "startedAt": 1791103217349,
-        "seconds": 2738,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 200~215쪽(개념루트) 부정적분",
         "reflection": ""
       }
     ]

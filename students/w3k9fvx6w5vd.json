@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-02T00:48:49.261Z",
+  "generatedAt": "2026-11-03T07:57:05.842Z",
   "student": {
     "id": "s_1778849219765_v88lqq",
     "classes": [
@@ -12,9 +12,61 @@
     "class": "토,일 4시",
     "showMakeNote": true
   },
-  "syncedEffortLogs": [],
+  "syncedEffortLogs": [
+    {
+      "id": "effort_mw01adc82ev",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
+      "reflection": "",
+      "seconds": 1562,
+      "startedAt": 1793670740968,
+      "createdAt": "2026-11-03T01:53:28.328Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mw02tnsr7y9",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 272~281쪽 정적분의 활용 - 속도와 거리",
+      "reflection": "",
+      "seconds": 1575,
+      "startedAt": 1793673324674,
+      "createdAt": "2026-11-03T02:36:27.963Z",
+      "autoRecorded": true
+    }
+  ],
   "syncedEffortDeletedIds": null,
-  "syncedLectureWatch": null,
+  "syncedLectureWatch": {
+    "videos": {
+      "ROGD4n-9mrY": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "[개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
+        "durationSec": 3455,
+        "lastPosition": 2533,
+        "lastWatchedAt": "2026-11-03T02:35:22.779Z",
+        "watchedSec": 1562
+      },
+      "XagAr-A2uHs": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "[개념루트, 사전 촬영] 272~281쪽 정적분의 활용 - 속도와 거리",
+        "durationSec": 1506,
+        "lastPosition": 1492,
+        "lastWatchedAt": "2026-11-03T03:05:53.633Z",
+        "watchedSec": 1575
+      }
+    },
+    "daily": {
+      "2026-11-03": {
+        "ROGD4n-9mrY": 1562,
+        "XagAr-A2uHs": 1575
+      }
+    }
+  },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],

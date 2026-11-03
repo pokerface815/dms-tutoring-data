@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T00:49:31.546Z",
+  "generatedAt": "2026-11-03T07:57:09.974Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -41,12 +41,12 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-11-01T05:12:00.748Z",
+    "uploadedAt": "2026-11-02T12:43:34.791Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
       "monthSec": 2,
-      "streak": 1,
+      "streak": 0,
       "bySubjectMonth": {
         "미적분Ⅰ": 2
       }
@@ -59,6 +59,33 @@
         "subject": "미적분Ⅰ",
         "method": "문제 풀이",
         "content": "개념루트",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvto4vjnhlv",
+        "startedAt": 1793285825013,
+        "seconds": 565,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvz92k92exo",
+        "startedAt": 1793285496854,
+        "seconds": 337897,
+        "subject": "사회",
+        "method": "문제 풀이",
+        "content": "숙제",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mvtnvjy587s",
+        "startedAt": 1793284297448,
+        "seconds": 1176,
+        "subject": "수학",
+        "method": "문제 풀이",
+        "content": "ㅅ",
         "reflection": ""
       },
       {

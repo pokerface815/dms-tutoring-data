@@ -1406,7 +1406,10 @@
       ]
     },
     "averagesByExamKind": {},
-    "notesByExamKind": {},
+    "notesByExamKind": {
+      "중간": "이차곡선 ~ 공간도형",
+      "기말": "공간좌표 ~ 벡터"
+    },
     "examInfoByExamKind": {},
     "commentsByExamKind": {},
     "teacher": "",
@@ -1430,6 +1433,14 @@
           "name": "중앙여고2 시험 시간표.jpeg",
           "type": "image",
           "uploadedAt": "2026-08-27T13:36:13.199Z"
+        }
+      ],
+      "기말": [
+        {
+          "url": "https://res.cloudinary.com/dyjtnb4he/image/upload/v1793692820/ebdnkktbi1fdilaw1s5c.pdf",
+          "name": "2026학년도 2학년 2학기 2차 정기시험 범위_.pdf",
+          "type": "pdf",
+          "uploadedAt": "2026-11-03T08:00:20.668Z"
         }
       ]
     }

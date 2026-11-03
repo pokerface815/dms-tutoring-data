@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T00:50:00.785Z",
+  "generatedAt": "2026-11-03T07:57:18.569Z",
   "studentCount": 43,
   "rankings": [
     {
@@ -87,7 +87,7 @@
       "weekSec": 0,
       "monthSec": 7493,
       "recent3mSec": 18488,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -127,11 +127,11 @@
     {
       "id": "s_1778849219765_v88lqq",
       "name": "지유진",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
-      "streak": 0,
+      "totalSec": 3137,
+      "weekSec": 3137,
+      "monthSec": 3137,
+      "recent3mSec": 3137,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -149,11 +149,11 @@
     {
       "id": "s_1779005266373_7iq1b8",
       "name": "김시현",
-      "totalSec": 6058,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 6058,
-      "streak": 0,
+      "totalSec": 7386,
+      "weekSec": 1328,
+      "monthSec": 1328,
+      "recent3mSec": 7386,
+      "streak": 1,
       "nickname": "",
       "publicNickname": false
     },
@@ -318,18 +318,18 @@
       "weekSec": 0,
       "monthSec": 2777,
       "recent3mSec": 2777,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
     {
       "id": "s_1783505825104_ci241f",
       "name": "정찬영",
-      "totalSec": 12266,
+      "totalSec": 351904,
       "weekSec": 0,
       "monthSec": 2,
-      "recent3mSec": 3768,
-      "streak": 1,
+      "recent3mSec": 343406,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -472,7 +472,7 @@
       "weekSec": 0,
       "monthSec": 2839,
       "recent3mSec": 2993,
-      "streak": 1,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     }

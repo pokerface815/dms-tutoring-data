@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T08:45:57.443Z",
+  "generatedAt": "2026-11-03T12:51:41.632Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -89,15 +89,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-10-24T08:57:24.488Z",
+    "uploadedAt": "2026-11-03T12:50:43.756Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "streak": 0,
-      "bySubjectMonth": {}
+      "todaySec": 3850,
+      "weekSec": 3850,
+      "monthSec": 3850,
+      "streak": 1,
+      "bySubjectMonth": {
+        "미적분Ⅰ": 3850
+      }
     },
     "logs": [
+      {
+        "id": "effort_mw0nixajfpq",
+        "startedAt": 1793708076628,
+        "seconds": 3500,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mw0jo8owuwa",
+        "startedAt": 1793701626742,
+        "seconds": 350,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
+        "reflection": ""
+      },
       {
         "id": "effort_mvm5bij4wh8",
         "startedAt": 1792830987407,

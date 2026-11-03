@@ -5133,5 +5133,39 @@
       }
     ],
     "createdAt": "2026-10-23T12:32:11.411Z"
+  },
+  {
+    "id": "a_1793703830138_76r66c",
+    "noteId": "note_1793703819699_qzk6u1",
+    "noteName": "장하늘_완자 기출픽_함수, 합성함수와 역함수(~833번)",
+    "studentId": "s_1790074374851_96xx1y",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-11-03",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-11-05",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-11-10",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-11-24",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-11-03T11:03:50.138Z"
   }
 ]

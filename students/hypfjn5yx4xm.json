@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-02T00:48:33.529Z",
+  "generatedAt": "2026-11-03T07:57:23.615Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -61,17 +61,17 @@
         "watchedSec": 0
       },
       "MUY1NAZSfLw": {
-        "sessionCount": 5,
+        "sessionCount": 22,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
         "durationSec": 4799,
         "lastPosition": 235,
-        "lastWatchedAt": "2026-09-22T15:37:58.057Z",
+        "lastWatchedAt": "2026-10-25T05:41:42.566Z",
         "watchedSec": 75
       },
       "7pfVUyQLMjs": {
-        "sessionCount": 2,
+        "sessionCount": 1,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
@@ -154,6 +154,26 @@
         "sessionCount": 1,
         "watchedSec": 0,
         "lastPosition": 0
+      },
+      "AJE79srmVL8": {
+        "sessionCount": 3,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "19~24쪽 함수의 극한에 대한 성질, 부정형 0/0, (무한대)/(무한대) 꼴",
+        "durationSec": 5620,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-10-13T13:27:59.780Z",
+        "watchedSec": 0
+      },
+      "ugyX19AJiaA": {
+        "sessionCount": 1,
+        "lectureId": "lec_mqkscmibfht",
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "videoTitle": "124~134쪽 부등식에의 활용, 속도와 가속도",
+        "durationSec": 4757,
+        "lastPosition": 3069,
+        "lastWatchedAt": "2026-10-17T15:38:17.080Z",
+        "watchedSec": 75
       },
       "RtINl49-Rmk": {
         "sessionCount": 1,
@@ -252,11 +272,14 @@
         "okVxIoEMccc": 142
       },
       "2026-09-12": {
-        "7LtG4Dc90v8": 3,
-        "MUY1NAZSfLw": 1
+        "MUY1NAZSfLw": 1,
+        "7LtG4Dc90v8": 3
       },
       "2026-09-23": {
         "MUY1NAZSfLw": 1
+      },
+      "2026-10-17": {
+        "ugyX19AJiaA": 75
       },
       "2026-10-04": {
         "JxzPzzpNzew": 506

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-02T00:49:29.683Z",
+  "generatedAt": "2026-11-03T07:57:12.233Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -103,6 +103,29 @@
       "autoRecorded": true
     },
     {
+      "id": "effort_mvtnvjy587s",
+      "startedAt": 1793284297448,
+      "endedAt": 1793285484989,
+      "seconds": 1176,
+      "subject": "수학",
+      "method": "문제 풀이",
+      "content": "ㅅ",
+      "reflection": "",
+      "sharedWithParent": false,
+      "createdAt": "2026-10-29T14:51:24.991Z"
+    },
+    {
+      "id": "effort_mvto4vjnhlv",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+      "reflection": "",
+      "seconds": 565,
+      "startedAt": 1793285825013,
+      "createdAt": "2026-10-29T14:58:39.923Z",
+      "autoRecorded": true
+    },
+    {
       "id": "effort_mvxdhzont11",
       "startedAt": 1793509907296,
       "endedAt": 1793509920742,
@@ -113,6 +136,18 @@
       "reflection": "없음",
       "sharedWithParent": false,
       "createdAt": "2026-11-01T05:12:00.743Z"
+    },
+    {
+      "id": "effort_mvz92k92exo",
+      "startedAt": 1793285496854,
+      "endedAt": 1793623414789,
+      "seconds": 337897,
+      "subject": "사회",
+      "method": "문제 풀이",
+      "content": "숙제",
+      "reflection": "없",
+      "sharedWithParent": false,
+      "createdAt": "2026-11-02T12:43:34.790Z"
     }
   ],
   "syncedEffortDeletedIds": null,

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T02:17:38.655Z",
+  "generatedAt": "2026-11-04T02:17:52.752Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 42,
+  "studentCount": 41,
   "baseUrl": "",
   "students": [
     {
@@ -355,15 +355,6 @@
       "className": "토,일 12시 30분",
       "studentPageCode": "naan7bk6dx9e",
       "parentPageCode": "naan7bk6dx9e"
-    },
-    {
-      "id": "s_1786359648617_00qsgi",
-      "name": "이나윤",
-      "grade": "고1",
-      "school": "국제고",
-      "className": "토,일 12시 30분",
-      "studentPageCode": "25jvaxw5nnr2",
-      "parentPageCode": "25jvaxw5nnr2"
     },
     {
       "id": "s_1787570844823_nbqosc",

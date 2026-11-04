@@ -647,30 +647,6 @@
     "showNoteStages": true
   },
   {
-    "id": "s_1780314459772_wcllxa",
-    "name": "조아라",
-    "school": "",
-    "grade": "중3",
-    "classes": [
-      "cls_1780311125071_i1638e"
-    ],
-    "days": [
-      "월",
-      "수",
-      "금"
-    ],
-    "memo": "",
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
-    "pageCode": "rhu3ug525wup",
-    "showMakeNote": true,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true
-  },
-  {
     "id": "s_1780633652940_9hqjzx",
     "name": "박은준",
     "school": "살레시오중",

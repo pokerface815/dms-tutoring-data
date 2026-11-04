@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T12:51:41.632Z",
+  "generatedAt": "2026-11-04T01:51:39.828Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -89,21 +89,30 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-11-03T12:50:43.756Z",
+    "uploadedAt": "2026-11-03T14:57:03.060Z",
     "summary": {
-      "todaySec": 3850,
-      "weekSec": 3850,
-      "monthSec": 3850,
+      "todaySec": 0,
+      "weekSec": 5576,
+      "monthSec": 5576,
       "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 3850
+        "미적분Ⅰ": 5576
       }
     },
     "logs": [
       {
+        "id": "effort_mw0shthfr9t",
+        "startedAt": 1793716441969,
+        "seconds": 1291,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 272~281쪽 정적분의 활용 - 속도와 거리",
+        "reflection": ""
+      },
+      {
         "id": "effort_mw0nixajfpq",
         "startedAt": 1793708076628,
-        "seconds": 3500,
+        "seconds": 3935,
         "subject": "미적분Ⅰ",
         "method": "강의 시청",
         "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",

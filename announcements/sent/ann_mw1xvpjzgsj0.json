@@ -1,0 +1,16 @@
+{
+  "id": "ann_mw1xvpjzgsj0",
+  "sentAt": "2026-11-04T18:53:52.348558+09:00",
+  "target": "student",
+  "message": "오답노트 만드는 링크를 새로 발송해줄테니,\n주어진 링크로 홈화면 바로가기를 새로 만들어주세요.",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "장하늘",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 1,
+  "failCount": 0
+}

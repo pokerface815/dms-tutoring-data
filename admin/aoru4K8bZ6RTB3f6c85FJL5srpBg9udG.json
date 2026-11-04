@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T13:17:32.010Z",
+  "generatedAt": "2026-11-04T02:17:38.655Z",
   "adminCode": "aoru4K8bZ6RTB3f6c85FJL5srpBg9udG",
-  "studentCount": 43,
+  "studentCount": 42,
   "baseUrl": "",
   "students": [
     {
@@ -202,15 +202,6 @@
       "className": "월,수,금 중3 5시 수업",
       "studentPageCode": "sujrjyha99fe",
       "parentPageCode": "sujrjyha99fe"
-    },
-    {
-      "id": "s_1780314459772_wcllxa",
-      "name": "조아라",
-      "grade": "중3",
-      "school": "",
-      "className": "월,수,금 중3 5시 수업",
-      "studentPageCode": "rhu3ug525wup",
-      "parentPageCode": "rhu3ug525wup"
     },
     {
       "id": "s_1780633652940_9hqjzx",

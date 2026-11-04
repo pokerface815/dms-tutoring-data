@@ -1,0 +1,86 @@
+{
+  "id": "ann_mw1xr083t8re",
+  "sentAt": "2026-11-04T18:51:32.747015+09:00",
+  "target": "student",
+  "message": "오답노트 만드는 링크를 새로 발송해줄테니,\n주어진 링크로 홈화면 바로가기를 새로 만들어주세요.",
+  "dry_run": false,
+  "results": [
+    {
+      "name": "김규림",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "김시현",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "김채린",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "김현민",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "노태원",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "박다윤",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "박다인",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "서연준",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "송유림",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "이현승",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "정시우",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "정찬민",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "조예나",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "지유진",
+      "type": "student",
+      "ok": true
+    },
+    {
+      "name": "이경주",
+      "type": "student",
+      "ok": true
+    }
+  ],
+  "okCount": 15,
+  "failCount": 0
+}

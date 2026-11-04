@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-03T07:57:12.233Z",
+  "generatedAt": "2026-11-04T01:51:37.778Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -148,6 +148,18 @@
       "reflection": "없",
       "sharedWithParent": false,
       "createdAt": "2026-11-02T12:43:34.790Z"
+    },
+    {
+      "id": "effort_mw0quuoz8rt",
+      "startedAt": 1793623451306,
+      "endedAt": 1793713754339,
+      "seconds": 90253,
+      "subject": "국어",
+      "method": "기타",
+      "content": "내일은 국어왕 3개년 분석",
+      "reflection": "어려운게 없음",
+      "sharedWithParent": false,
+      "createdAt": "2026-11-03T13:49:14.339Z"
     }
   ],
   "syncedEffortDeletedIds": null,

@@ -1517,9 +1517,15 @@
       },
       {
         "videoId": "Jrb1xjn_y74",
-        "title": "3",
+        "title": "258~267쪽 정적분의 활용 - 넓이",
         "position": 21,
         "durationSec": 5773
+      },
+      {
+        "videoId": "yNd0OWlj1fk",
+        "title": "269~281쪽 정적분의 활용 - 역함수의 그래프와 넓이, 속도와 거리",
+        "position": 22,
+        "durationSec": 5063
       }
     ],
     "permissions": {
@@ -1528,8 +1534,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-13T05:09:16.393Z",
-    "updatedAt": "2026-11-01T08:45:34.256Z",
-    "lastSyncedAt": "2026-11-01T08:45:34.256Z"
+    "updatedAt": "2026-11-04T01:51:57.532Z",
+    "lastSyncedAt": "2026-11-04T01:51:57.532Z"
   },
   {
     "id": "lec_mrq99fx1qmz",

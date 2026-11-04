@@ -1213,13 +1213,13 @@
       },
       {
         "videoId": "wSOGPMxbKDc",
-        "title": "1",
+        "title": "176~182쪽 함수의 뜻, 함수의 그래프",
         "position": 19,
         "durationSec": 2293
       },
       {
         "videoId": "R3f_QNAv69c",
-        "title": "11",
+        "title": "183~190쪽 여러 가지 함수(일대일함수, 일대일대응, 항등함수, 상수함수) + 함수의 개수",
         "position": 20,
         "durationSec": 3338
       }
@@ -1230,8 +1230,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:32.378Z",
-    "updatedAt": "2026-11-01T08:45:27.273Z",
-    "lastSyncedAt": "2026-11-01T08:45:27.273Z"
+    "updatedAt": "2026-11-04T01:51:30.368Z",
+    "lastSyncedAt": "2026-11-04T01:51:30.368Z"
   },
   {
     "id": "lec_mrg7ztilap8",
@@ -1353,14 +1353,20 @@
       },
       {
         "videoId": "bK96I-ORh9U",
-        "title": "2",
+        "title": "194~199쪽 과제 질의응답 + 합성함수(화면 돌아감 - 아래 영상으로 보는걸 추천)",
         "position": 18,
         "durationSec": 4507
       },
       {
-        "videoId": "9or26OwDvwg",
-        "title": "22",
+        "videoId": "0PfuEK4N4Rg",
+        "title": "30. 합성함수",
         "position": 19,
+        "durationSec": 4302
+      },
+      {
+        "videoId": "9or26OwDvwg",
+        "title": "200쪽 합성함수의 그래프",
+        "position": 20,
         "durationSec": 3637
       }
     ],
@@ -1370,8 +1376,8 @@
       "studentIds": []
     },
     "createdAt": "2026-07-11T10:27:00.525Z",
-    "updatedAt": "2026-11-01T08:45:23.953Z",
-    "lastSyncedAt": "2026-11-01T08:45:23.953Z"
+    "updatedAt": "2026-11-04T01:51:41.496Z",
+    "lastSyncedAt": "2026-11-04T01:51:41.496Z"
   },
   {
     "id": "lec_mririwvdtb6",

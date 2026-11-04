@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "ann_mw1xvpjzgsj0",
+    "createdAt": "2026-11-04T09:53:37.823Z",
+    "target": "student",
+    "message": "오답노트 만드는 링크를 새로 발송해줄테니,\n주어진 링크로 홈화면 바로가기를 새로 만들어주세요.",
+    "recipients": [
+      {
+        "name": "장하늘",
+        "type": "student",
+        "phone": "010-9679-6785",
+        "message": "오답노트 만드는 링크를 새로 발송해줄테니,\n주어진 링크로 홈화면 바로가기를 새로 만들어주세요."
+      }
+    ],
+    "status": "pending"
+  }
+]

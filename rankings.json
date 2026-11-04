@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T02:17:36.783Z",
-  "studentCount": 42,
+  "generatedAt": "2026-11-04T02:17:51.266Z",
+  "studentCount": 41,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -428,17 +428,6 @@
       "weekSec": 0,
       "monthSec": 0,
       "recent3mSec": 2842,
-      "streak": 0,
-      "nickname": "",
-      "publicNickname": false
-    },
-    {
-      "id": "s_1786359648617_00qsgi",
-      "name": "이나윤",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
       "streak": 0,
       "nickname": "",
       "publicNickname": false

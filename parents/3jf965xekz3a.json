@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T07:57:09.974Z",
+  "generatedAt": "2026-11-04T01:51:35.656Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -41,17 +41,27 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-11-02T12:43:34.791Z",
+    "uploadedAt": "2026-11-03T13:49:14.342Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 2,
+      "weekSec": 90253,
+      "monthSec": 90255,
       "streak": 0,
       "bySubjectMonth": {
-        "미적분Ⅰ": 2
+        "미적분Ⅰ": 2,
+        "국어": 90253
       }
     },
     "logs": [
+      {
+        "id": "effort_mw0quuoz8rt",
+        "startedAt": 1793623451306,
+        "seconds": 90253,
+        "subject": "국어",
+        "method": "기타",
+        "content": "내일은 국어왕 3개년 분석",
+        "reflection": ""
+      },
       {
         "id": "effort_mvxdhzont11",
         "startedAt": 1793509907296,

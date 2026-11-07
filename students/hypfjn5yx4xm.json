@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-03T07:57:23.615Z",
+  "generatedAt": "2026-11-07T07:09:41.121Z",
   "student": {
     "id": "s_1778325875686_1uoe4b",
     "classes": [
@@ -36,6 +36,28 @@
       "autoRecorded": true
     },
     {
+      "id": "effort_muthdo4mj17",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 200~215쪽(개념루트) 부정적분",
+      "reflection": "",
+      "seconds": 493,
+      "startedAt": 1791097706751,
+      "createdAt": "2026-10-04T07:09:50.566Z",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mv3jpr7lr50",
+      "subject": "미적분Ⅰ",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+      "reflection": "",
+      "seconds": 492,
+      "startedAt": 1791706232859,
+      "createdAt": "2026-10-11T08:12:55.425Z",
+      "autoRecorded": true
+    },
+    {
       "id": "effort_mvcgu9q03co",
       "subject": "미적분Ⅰ",
       "method": "강의 시청",
@@ -61,7 +83,7 @@
         "watchedSec": 0
       },
       "MUY1NAZSfLw": {
-        "sessionCount": 22,
+        "sessionCount": 5,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
@@ -71,7 +93,7 @@
         "watchedSec": 75
       },
       "7pfVUyQLMjs": {
-        "sessionCount": 1,
+        "sessionCount": 2,
         "lectureId": "lec_mqkscmibfht",
         "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "videoTitle": "47쪽 과제 질의응답(유형편17쪽 21번, 개념편 50쪽 18번) + 사잇값 정리",
@@ -155,6 +177,86 @@
         "watchedSec": 0,
         "lastPosition": 0
       },
+      "RtINl49-Rmk": {
+        "sessionCount": 1,
+        "lectureId": "lec_ms3cw1y06x4",
+        "lectureTitle": "(2022개정) 기하",
+        "videoTitle": "기하-2-14 공간에서 점의 좌표",
+        "durationSec": 1313,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-10-04T07:07:49.333Z",
+        "watchedSec": 0
+      },
+      "JxzPzzpNzew": {
+        "sessionCount": 3,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "200~215쪽(개념루트) 부정적분",
+        "durationSec": 2230,
+        "lastPosition": 1100,
+        "lastWatchedAt": "2026-10-04T07:29:37.680Z",
+        "watchedSec": 506
+      },
+      "9uxXNH4fUT8": {
+        "sessionCount": 2,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "220~231쪽(개념루트) 정적분",
+        "durationSec": 2515,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-10-11T08:10:31.003Z",
+        "watchedSec": 0
+      },
+      "2qDf1b5X4V8": {
+        "sessionCount": 1,
+        "lectureId": "lec_ms3cw1y06x4",
+        "lectureTitle": "(2022개정) 기하",
+        "videoTitle": "기하-1-12 쌍곡선의 방정식",
+        "durationSec": 1079,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-10-11T08:09:04.539Z",
+        "watchedSec": 0
+      },
+      "7cynhZXGGM4": {
+        "sessionCount": 1,
+        "lectureId": "lec_ms3cw1y06x4",
+        "lectureTitle": "(2022개정) 기하",
+        "videoTitle": "기하-1-1 포물선의 정의",
+        "durationSec": 1106,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-10-11T08:09:27.970Z",
+        "watchedSec": 0
+      },
+      "6wETQ_BC7b0": {
+        "sessionCount": 1,
+        "lectureId": "lec_ms3cw1y06x4",
+        "lectureTitle": "(2022개정) 기하",
+        "videoTitle": "기하-1-2포물선의 방정식",
+        "durationSec": 1350,
+        "lastPosition": 35,
+        "lastWatchedAt": "2026-10-11T08:10:06.049Z",
+        "watchedSec": 16
+      },
+      "jNwrnSQMusc": {
+        "sessionCount": 3,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강",
+        "videoTitle": "[개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
+        "durationSec": 1035,
+        "lastPosition": 732,
+        "lastWatchedAt": "2026-11-04T11:09:07.928Z",
+        "watchedSec": 511
+      },
+      "ZuDVvGsnFW4": {
+        "sessionCount": 1,
+        "lectureId": "lec_mririwvdtb6",
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "videoTitle": "220~231쪽 정적분",
+        "durationSec": 3698,
+        "lastPosition": 0,
+        "lastWatchedAt": "2026-11-01T16:19:52.794Z",
+        "watchedSec": 0
+      },
       "AJE79srmVL8": {
         "sessionCount": 3,
         "lectureId": "lec_mqkscmibfht",
@@ -174,81 +276,6 @@
         "lastPosition": 3069,
         "lastWatchedAt": "2026-10-17T15:38:17.080Z",
         "watchedSec": 75
-      },
-      "RtINl49-Rmk": {
-        "sessionCount": 1,
-        "lectureId": "lec_ms3cw1y06x4",
-        "lectureTitle": "(2022개정) 기하",
-        "videoTitle": "기하-2-14 공간에서 점의 좌표",
-        "durationSec": 1313,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-10-04T07:07:49.333Z"
-      },
-      "JxzPzzpNzew": {
-        "sessionCount": 3,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "200~215쪽(개념루트) 부정적분",
-        "durationSec": 2230,
-        "lastPosition": 1100,
-        "lastWatchedAt": "2026-10-04T07:29:37.680Z",
-        "watchedSec": 506
-      },
-      "9uxXNH4fUT8": {
-        "sessionCount": 2,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "220~231쪽(개념루트) 정적분",
-        "durationSec": 2515,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-10-11T08:10:31.003Z"
-      },
-      "2qDf1b5X4V8": {
-        "sessionCount": 1,
-        "lectureId": "lec_ms3cw1y06x4",
-        "lectureTitle": "(2022개정) 기하",
-        "videoTitle": "기하-1-12 쌍곡선의 방정식",
-        "durationSec": 1079,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-10-11T08:09:04.539Z"
-      },
-      "7cynhZXGGM4": {
-        "sessionCount": 1,
-        "lectureId": "lec_ms3cw1y06x4",
-        "lectureTitle": "(2022개정) 기하",
-        "videoTitle": "기하-1-1 포물선의 정의",
-        "durationSec": 1106,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-10-11T08:09:27.970Z"
-      },
-      "6wETQ_BC7b0": {
-        "sessionCount": 1,
-        "lectureId": "lec_ms3cw1y06x4",
-        "lectureTitle": "(2022개정) 기하",
-        "videoTitle": "기하-1-2포물선의 방정식",
-        "durationSec": 1350,
-        "lastPosition": 35,
-        "lastWatchedAt": "2026-10-11T08:10:06.049Z",
-        "watchedSec": 16
-      },
-      "jNwrnSQMusc": {
-        "sessionCount": 2,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "[개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
-        "durationSec": 1035,
-        "lastPosition": 732,
-        "lastWatchedAt": "2026-11-01T16:20:18.798Z",
-        "watchedSec": 511
-      },
-      "ZuDVvGsnFW4": {
-        "sessionCount": 1,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "220~231쪽 정적분",
-        "durationSec": 3698,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-11-01T16:19:52.794Z"
       }
     },
     "daily": {
@@ -272,14 +299,11 @@
         "okVxIoEMccc": 142
       },
       "2026-09-12": {
-        "MUY1NAZSfLw": 1,
-        "7LtG4Dc90v8": 3
+        "7LtG4Dc90v8": 3,
+        "MUY1NAZSfLw": 1
       },
       "2026-09-23": {
         "MUY1NAZSfLw": 1
-      },
-      "2026-10-17": {
-        "ugyX19AJiaA": 75
       },
       "2026-10-04": {
         "JxzPzzpNzew": 506
@@ -290,6 +314,9 @@
       },
       "2026-11-02": {
         "jNwrnSQMusc": 19
+      },
+      "2026-10-17": {
+        "ugyX19AJiaA": 75
       }
     }
   },

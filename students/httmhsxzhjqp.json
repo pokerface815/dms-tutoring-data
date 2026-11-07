@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-03T12:51:46.728Z",
+  "generatedAt": "2026-11-07T07:09:45.580Z",
   "student": {
     "id": "s_1790074374851_96xx1y",
     "classes": [
@@ -105,20 +105,20 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1793703830138_76r66c",
       "noteName": "장하늘_완자 기출픽_함수, 합성함수와 역함수(~833번)",
       "subject": "공통수학2",
       "round": 2,
       "plannedDate": "2026-11-05",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-11-07T07:09:19.459Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1793703830138_76r66c",
       "noteName": "장하늘_완자 기출픽_함수, 합성함수와 역함수(~833번)",
@@ -338,8 +338,8 @@
   ],
   "weekProgress": {
     "total": 2,
-    "done": 1,
-    "percent": 50,
+    "done": 2,
+    "percent": 100,
     "startDate": "2026-11-02",
     "endDate": "2026-11-08"
   },

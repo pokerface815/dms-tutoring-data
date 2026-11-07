@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T07:57:16.395Z",
+  "generatedAt": "2026-11-07T07:09:31.035Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -94,17 +94,26 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-11-01T08:29:55.478Z",
+    "uploadedAt": "2026-11-05T17:08:05.792Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 0,
-      "monthSec": 7493,
-      "streak": 0,
+      "weekSec": 1910,
+      "monthSec": 9403,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 7493
+        "미적분Ⅰ": 9403
       }
     },
     "logs": [
+      {
+        "id": "effort_mw3s8kgpkkl",
+        "startedAt": 1793897373681,
+        "seconds": 1910,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강 — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+        "reflection": ""
+      },
       {
         "id": "effort_mvxiuxkrqyt",
         "startedAt": 1793518855054,

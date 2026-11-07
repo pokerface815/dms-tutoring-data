@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T01:51:35.656Z",
+  "generatedAt": "2026-11-07T07:09:35.353Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -41,18 +41,27 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-11-03T13:49:14.342Z",
+    "uploadedAt": "2026-11-05T11:45:20.111Z",
     "summary": {
       "todaySec": 0,
-      "weekSec": 90253,
-      "monthSec": 90255,
+      "weekSec": 255527,
+      "monthSec": 255529,
       "streak": 0,
       "bySubjectMonth": {
         "미적분Ⅰ": 2,
-        "국어": 90253
+        "국어": 255527
       }
     },
     "logs": [
+      {
+        "id": "effort_mw3hb7qkzoi",
+        "startedAt": 1793713828842,
+        "seconds": 165274,
+        "subject": "국어",
+        "method": "문제 풀이",
+        "content": "화언",
+        "reflection": ""
+      },
       {
         "id": "effort_mw0quuoz8rt",
         "startedAt": 1793623451306,

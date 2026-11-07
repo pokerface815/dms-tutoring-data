@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-04T01:51:37.778Z",
+  "generatedAt": "2026-11-07T07:09:37.247Z",
   "student": {
     "id": "s_1783505825104_ci241f",
     "classes": [
@@ -160,6 +160,18 @@
       "reflection": "어려운게 없음",
       "sharedWithParent": false,
       "createdAt": "2026-11-03T13:49:14.339Z"
+    },
+    {
+      "id": "effort_mw3hb7qkzoi",
+      "startedAt": 1793713828842,
+      "endedAt": 1793879120108,
+      "seconds": 165274,
+      "subject": "국어",
+      "method": "문제 풀이",
+      "content": "화언",
+      "reflection": "없",
+      "sharedWithParent": false,
+      "createdAt": "2026-11-05T11:45:20.108Z"
     }
   ],
   "syncedEffortDeletedIds": null,

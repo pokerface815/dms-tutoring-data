@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T01:51:44.126Z",
+  "generatedAt": "2026-11-07T07:09:26.968Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -143,17 +143,35 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-11-01T23:02:52.671Z",
+    "uploadedAt": "2026-11-06T16:40:31.285Z",
     "summary": {
-      "todaySec": 0,
-      "weekSec": 1941,
-      "monthSec": 5277,
-      "streak": 0,
+      "todaySec": 1190,
+      "weekSec": 3131,
+      "monthSec": 6467,
+      "streak": 1,
       "bySubjectMonth": {
-        "미적분Ⅰ": 5277
+        "미적분Ⅰ": 6467
       }
     },
     "logs": [
+      {
+        "id": "effort_mw56uwsa6eq",
+        "startedAt": 1793982447518,
+        "seconds": 1118,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 258~271쪽(개념루트) 정적분의 활용 - 넓이",
+        "reflection": ""
+      },
+      {
+        "id": "effort_mw56rkrq9i1",
+        "startedAt": 1793982297148,
+        "seconds": 72,
+        "subject": "미적분Ⅰ",
+        "method": "강의 시청",
+        "content": "미적분1 개념+유형 (26년 1,2월) — 258~271쪽(개념루트) 정적분의 활용 - 넓이",
+        "reflection": ""
+      },
       {
         "id": "effort_mvy2hwj3i25",
         "startedAt": 1793551797642,

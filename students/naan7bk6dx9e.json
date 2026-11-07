@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-02T00:49:52.772Z",
+  "generatedAt": "2026-11-07T07:09:49.773Z",
   "student": {
     "id": "s_1785035974019_bc13fy",
     "classes": [
@@ -170,6 +170,16 @@
         "lastPosition": 1994,
         "lastWatchedAt": "2026-10-31T01:52:18.113Z",
         "watchedSec": 2167
+      },
+      "vspPK52JPmc": {
+        "sessionCount": 2,
+        "lectureId": "lec_mrg80i3ervi",
+        "lectureTitle": "11시 수업 - 공통수학2 (26년 7월 ~ )",
+        "videoTitle": "140~145쪽 명제와 조건 + \"p이면 q이다\"의 참, 거짓",
+        "durationSec": 4140,
+        "lastPosition": 10,
+        "lastWatchedAt": "2026-11-05T11:23:18.346Z",
+        "watchedSec": 9
       }
     },
     "daily": {
@@ -199,6 +209,9 @@
       },
       "2026-10-19": {
         "tdWjVCgc9aU": 2165
+      },
+      "2026-11-05": {
+        "vspPK52JPmc": 9
       }
     }
   },

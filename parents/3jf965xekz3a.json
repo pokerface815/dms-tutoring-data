@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-07T07:09:35.353Z",
+  "generatedAt": "2026-11-08T03:02:27.381Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -39,134 +39,28 @@
     }
   ],
   "tests": [],
-  "effortLogs": {
-    "enabled": true,
-    "uploadedAt": "2026-11-05T11:45:20.111Z",
-    "summary": {
-      "todaySec": 0,
-      "weekSec": 255527,
-      "monthSec": 255529,
-      "streak": 0,
-      "bySubjectMonth": {
-        "미적분Ⅰ": 2,
-        "국어": 255527
-      }
-    },
-    "logs": [
-      {
-        "id": "effort_mw3hb7qkzoi",
-        "startedAt": 1793713828842,
-        "seconds": 165274,
-        "subject": "국어",
-        "method": "문제 풀이",
-        "content": "화언",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mw0quuoz8rt",
-        "startedAt": 1793623451306,
-        "seconds": 90253,
-        "subject": "국어",
-        "method": "기타",
-        "content": "내일은 국어왕 3개년 분석",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvxdhzont11",
-        "startedAt": 1793509907296,
-        "seconds": 2,
-        "subject": "미적분Ⅰ",
-        "method": "문제 풀이",
-        "content": "개념루트",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvto4vjnhlv",
-        "startedAt": 1793285825013,
-        "seconds": 565,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "4시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ ) — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvz92k92exo",
-        "startedAt": 1793285496854,
-        "seconds": 337897,
-        "subject": "사회",
-        "method": "문제 풀이",
-        "content": "숙제",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvtnvjy587s",
-        "startedAt": 1793284297448,
-        "seconds": 1176,
-        "subject": "수학",
-        "method": "문제 풀이",
-        "content": "ㅅ",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvjma8v72ha",
-        "startedAt": 1792678081033,
-        "seconds": 764,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvjln1xz2xq",
-        "startedAt": 1792676989789,
-        "seconds": 1030,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvdb68rbwv8",
-        "startedAt": 1792296566963,
-        "seconds": 1255,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 200~215쪽(개념루트) 부정적분",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mv0zm13lnyd",
-        "startedAt": 1791551612823,
-        "seconds": 717,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 200~215쪽(개념루트) 부정적분",
-        "reflection": ""
-      }
-    ]
-  },
+  "effortLogs": null,
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",
-      "type": "closed",
       "date": "2026-08-01",
-      "endDate": "2026-08-05",
+      "type": "closed",
       "title": "학원 방학",
-      "content": "",
+      "images": [],
       "target": {
         "kind": "all"
       },
-      "images": [],
+      "content": "",
+      "endDate": "2026-08-05",
       "createdAt": "2026-07-07T09:05:29.025Z",
       "updatedAt": "2026-07-07T09:38:04.506Z"
     },
     {
       "id": "ae_1786459949232_vpvqe",
-      "type": "closed",
       "date": "2026-08-15",
-      "endDate": "2026-08-16",
+      "type": "closed",
       "title": "고등 수업 휴업",
-      "content": "",
+      "images": [],
       "target": {
         "kind": "class",
         "classIds": [
@@ -177,17 +71,17 @@
           "cls_1783741486590_iyer5b"
         ]
       },
-      "images": [],
+      "content": "",
+      "endDate": "2026-08-16",
       "createdAt": "2026-08-11T14:52:29.232Z",
       "updatedAt": "2026-08-11T14:52:29.232Z"
     },
     {
       "id": "ae_1786459975890_rm505",
-      "type": "event",
       "date": "2026-08-17",
-      "endDate": "",
+      "type": "event",
       "title": "16일 수업 보충",
-      "content": "",
+      "images": [],
       "target": {
         "kind": "class",
         "classIds": [
@@ -198,7 +92,8 @@
           "cls_1783741486590_iyer5b"
         ]
       },
-      "images": [],
+      "content": "",
+      "endDate": "",
       "createdAt": "2026-08-11T14:52:55.890Z",
       "updatedAt": "2026-08-11T14:52:55.890Z"
     }

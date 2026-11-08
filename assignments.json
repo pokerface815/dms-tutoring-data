@@ -5243,10 +5243,10 @@
       {
         "stage": 2,
         "doneAt": "2026-11-08T16:09:05.633Z",
-        "planned": "2026-11-08",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-08",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 3,
@@ -5289,33 +5289,33 @@
   {
     "id": "a_1794138705414_z3mnid",
     "noteId": "note_1794138691606_9lvpcq",
-    "noteName": "테스트",
-    "studentId": "s_1780190418387_a11waf",
     "subject": "중2",
+    "noteName": "테스트",
     "schedule": [
       {
         "stage": 1,
+        "doneAt": null,
         "planned": "2026-11-08",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 2,
+        "doneAt": null,
         "planned": "2026-11-10",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-08T11:51:45.414Z"
+    "createdAt": "2026-11-08T11:51:45.414Z",
+    "studentId": "s_1780190418387_a11waf"
   },
   {
     "id": "task_1794139495541_si4njg",
     "type": "task",
-    "studentId": "s_1780190418387_a11waf",
     "title": "테스트",
-    "dueDate": "2026-11-09",
-    "assignedAt": "2026-11-08T12:04:55.541Z",
+    "repeat": null,
     "batchId": "t_mw7sbyph",
-    "repeat": null
+    "dueDate": "2026-11-09",
+    "studentId": "s_1780190418387_a11waf",
+    "assignedAt": "2026-11-08T12:04:55.541Z"
   }
 ]

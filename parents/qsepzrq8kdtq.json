@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-07T07:09:26.968Z",
+  "generatedAt": "2026-11-08T03:00:40.455Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -141,187 +141,28 @@
     }
   ],
   "tests": [],
-  "effortLogs": {
-    "enabled": true,
-    "uploadedAt": "2026-11-06T16:40:31.285Z",
-    "summary": {
-      "todaySec": 1190,
-      "weekSec": 3131,
-      "monthSec": 6467,
-      "streak": 1,
-      "bySubjectMonth": {
-        "미적분Ⅰ": 6467
-      }
-    },
-    "logs": [
-      {
-        "id": "effort_mw56uwsa6eq",
-        "startedAt": 1793982447518,
-        "seconds": 1118,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 258~271쪽(개념루트) 정적분의 활용 - 넓이",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mw56rkrq9i1",
-        "startedAt": 1793982297148,
-        "seconds": 72,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 258~271쪽(개념루트) 정적분의 활용 - 넓이",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvy2hwj3i25",
-        "startedAt": 1793551797642,
-        "seconds": 1079,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 242~253쪽(개념루트) 정적분으로 정의된 함수",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvy1t9bulp9",
-        "startedAt": 1793550694374,
-        "seconds": 862,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 232~237쪽(개념루트) 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvxxidwv0bc",
-        "startedAt": 1793543417229,
-        "seconds": 3232,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 220~231쪽(개념루트) 정적분",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvx8nwuym5l",
-        "startedAt": 1793501737349,
-        "seconds": 104,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 220~231쪽(개념루트) 정적분",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvuz1n12gss",
-        "startedAt": 1793364584838,
-        "seconds": 779,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 135~152쪽 시각에 대한 길이, 넓이, 부피의 변화율 + 부정적분, 부정적분의 계산",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvr8y17boud",
-        "startedAt": 1793139328649,
-        "seconds": 93,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvqnkfbef9z",
-        "startedAt": 1793103501989,
-        "seconds": 3774,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvp93a85977",
-        "startedAt": 1793018722504,
-        "seconds": 132,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 118~123쪽 과제 질의응답 (삼차함수의 비율 관계 활용)+ 방정식에의 활용",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvp67r2j6ae",
-        "startedAt": 1793013746164,
-        "seconds": 1618,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvoovcjudgr",
-        "startedAt": 1792984744237,
-        "seconds": 1052,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 108~110쪽 삼차함수와 사차함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mv3w2iu0jkg",
-        "startedAt": 1791727074019,
-        "seconds": 2054,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 97~107쪽 함수의 극대와 극소, 함수의 그래프",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mv3vl928jn2",
-        "startedAt": 1791726232834,
-        "seconds": 1364,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 86~96쪽 평균값 정리, 함수의 증가와 감소",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mv33ssfwhcf",
-        "startedAt": 1791679536407,
-        "seconds": 2199,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 220~231쪽(개념루트) 정적분",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mv14czak894",
-        "startedAt": 1791559587153,
-        "seconds": 1848,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "미적분1 개념+유형 (26년 1,2월) — 200~215쪽(개념루트) 부정적분",
-        "reflection": ""
-      }
-    ]
-  },
+  "effortLogs": null,
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",
-      "type": "closed",
       "date": "2026-08-01",
-      "endDate": "2026-08-05",
+      "type": "closed",
       "title": "학원 방학",
-      "content": "",
+      "images": [],
       "target": {
         "kind": "all"
       },
-      "images": [],
+      "content": "",
+      "endDate": "2026-08-05",
       "createdAt": "2026-07-07T09:05:29.025Z",
       "updatedAt": "2026-07-07T09:38:04.506Z"
     },
     {
       "id": "ae_1786459949232_vpvqe",
-      "type": "closed",
       "date": "2026-08-15",
-      "endDate": "2026-08-16",
+      "type": "closed",
       "title": "고등 수업 휴업",
-      "content": "",
+      "images": [],
       "target": {
         "kind": "class",
         "classIds": [
@@ -332,17 +173,17 @@
           "cls_1783741486590_iyer5b"
         ]
       },
-      "images": [],
+      "content": "",
+      "endDate": "2026-08-16",
       "createdAt": "2026-08-11T14:52:29.232Z",
       "updatedAt": "2026-08-11T14:52:29.232Z"
     },
     {
       "id": "ae_1786459975890_rm505",
-      "type": "event",
       "date": "2026-08-17",
-      "endDate": "",
+      "type": "event",
       "title": "16일 수업 보충",
-      "content": "",
+      "images": [],
       "target": {
         "kind": "class",
         "classIds": [
@@ -353,7 +194,8 @@
           "cls_1783741486590_iyer5b"
         ]
       },
-      "images": [],
+      "content": "",
+      "endDate": "",
       "createdAt": "2026-08-11T14:52:55.890Z",
       "updatedAt": "2026-08-11T14:52:55.890Z"
     }

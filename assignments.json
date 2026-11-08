@@ -5305,5 +5305,15 @@
       }
     ],
     "createdAt": "2026-11-08T11:51:45.414Z"
+  },
+  {
+    "id": "task_1794139495541_si4njg",
+    "type": "task",
+    "studentId": "s_1780190418387_a11waf",
+    "title": "테스트",
+    "dueDate": "2026-11-09",
+    "assignedAt": "2026-11-08T12:04:55.541Z",
+    "batchId": "t_mw7sbyph",
+    "repeat": null
   }
 ]

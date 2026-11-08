@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T00:49:48.610Z",
+  "generatedAt": "2026-11-08T03:03:00.336Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -48,7 +48,7 @@
   "tests": [],
   "effortLogs": {
     "enabled": true,
-    "uploadedAt": "2026-10-31T01:54:15.071Z",
+    "uploadedAt": "2026-09-05T05:02:24.554Z",
     "summary": {
       "todaySec": 0,
       "weekSec": 0,
@@ -56,85 +56,29 @@
       "streak": 0,
       "bySubjectMonth": {}
     },
-    "logs": [
-      {
-        "id": "effort_mvvqkwaahdv",
-        "startedAt": 1793410884545,
-        "seconds": 963,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 232~237쪽 여러 가지 정적분(우함수, 기함수, 주기함수, 평행이동)",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvvp110ftqs",
-        "startedAt": 1793408300243,
-        "seconds": 2369,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 220~231쪽 정적분",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvv78pvvavg",
-        "startedAt": 1793376936991,
-        "seconds": 367,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 200~215쪽 부정적분",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvv5xd45pzo",
-        "startedAt": 1793376146052,
-        "seconds": 892,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 200~215쪽 부정적분",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvv5h2jccyo",
-        "startedAt": 1793375449822,
-        "seconds": 506,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 200~215쪽 부정적분",
-        "reflection": ""
-      },
-      {
-        "id": "effort_mvjgkmp1ih9",
-        "startedAt": 1792668479753,
-        "seconds": 126,
-        "subject": "미적분Ⅰ",
-        "method": "강의 시청",
-        "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 200~215쪽 부정적분",
-        "reflection": ""
-      }
-    ]
+    "logs": []
   },
   "academyEvents": [
     {
       "id": "ae_1783415129025_5edyn",
-      "type": "closed",
       "date": "2026-08-01",
-      "endDate": "2026-08-05",
+      "type": "closed",
       "title": "학원 방학",
-      "content": "",
+      "images": [],
       "target": {
         "kind": "all"
       },
-      "images": [],
+      "content": "",
+      "endDate": "2026-08-05",
       "createdAt": "2026-07-07T09:05:29.025Z",
       "updatedAt": "2026-07-07T09:38:04.506Z"
     },
     {
       "id": "ae_1786459949232_vpvqe",
-      "type": "closed",
       "date": "2026-08-15",
-      "endDate": "2026-08-16",
+      "type": "closed",
       "title": "고등 수업 휴업",
-      "content": "",
+      "images": [],
       "target": {
         "kind": "class",
         "classIds": [
@@ -145,17 +89,17 @@
           "cls_1783741486590_iyer5b"
         ]
       },
-      "images": [],
+      "content": "",
+      "endDate": "2026-08-16",
       "createdAt": "2026-08-11T14:52:29.232Z",
       "updatedAt": "2026-08-11T14:52:29.232Z"
     },
     {
       "id": "ae_1786459975890_rm505",
-      "type": "event",
       "date": "2026-08-17",
-      "endDate": "",
+      "type": "event",
       "title": "16일 수업 보충",
-      "content": "",
+      "images": [],
       "target": {
         "kind": "class",
         "classIds": [
@@ -166,7 +110,8 @@
           "cls_1783741486590_iyer5b"
         ]
       },
-      "images": [],
+      "content": "",
+      "endDate": "",
       "createdAt": "2026-08-11T14:52:55.890Z",
       "updatedAt": "2026-08-11T14:52:55.890Z"
     }

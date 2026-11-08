@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-07T07:09:32.981Z",
+  "generatedAt": "2026-11-08T03:01:02.684Z",
+  "branding": {
+    "name": "문대승 수학학원",
+    "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
+  },
+  "features": {
+    "effort": true,
+    "lectures": true,
+    "grades": true
+  },
   "student": {
     "id": "s_1778402500926_7fxigp",
     "classes": [
@@ -15,184 +24,89 @@
   "syncedEffortLogs": [
     {
       "id": "effort_mrr51dvphca",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-      "reflection": "",
       "seconds": 698,
-      "startedAt": 1784425720577,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-19T01:49:42.662Z",
+      "startedAt": 1784425720577,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_msg0b7mi0ha",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
-      "reflection": "",
       "seconds": 3657,
-      "startedAt": 1785927442012,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-08-05T11:31:37.434Z",
+      "startedAt": 1785927442012,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mu48lrsl1im",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 122~143쪽 과제 질문(219번) + 롤의 정리, 평균값정리 + 함수의 증가와 감소, 극대와 감소",
-      "reflection": "",
       "seconds": 2646,
-      "startedAt": 1789571275146,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-09-16T15:09:57.621Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mvdhoxvhicp",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 158~177쪽 삼,사차함수의 비율관계 + 함수의최댓값과 최솟값 + 방정식에의 활용",
+      "startedAt": 1789571275146,
       "reflection": "",
-      "seconds": 8349,
-      "startedAt": 1792307565245,
-      "createdAt": "2026-10-18T07:13:59.933Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mvxhtfwev8g",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 200~215쪽 부정적분",
-      "reflection": "",
-      "seconds": 3271,
-      "startedAt": 1793517110800,
-      "createdAt": "2026-11-01T07:12:53.438Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mvxiuxkrqyt",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — [개념루트, 사전 촬영] 220~231쪽 정적분",
-      "reflection": "",
-      "seconds": 4222,
-      "startedAt": 1793518855054,
-      "createdAt": "2026-11-01T07:42:02.619Z",
-      "autoRecorded": true
-    },
-    {
-      "id": "effort_mw3s8kgpkkl",
-      "subject": "미적분Ⅰ",
-      "method": "강의 시청",
-      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강 — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
-      "reflection": "",
-      "seconds": 1910,
-      "startedAt": 1793897373681,
-      "createdAt": "2026-11-05T16:51:12.409Z",
       "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
-      "MUY1NAZSfLw": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-        "durationSec": 4799,
-        "lastPosition": 667,
-        "lastWatchedAt": "2026-07-19T01:55:00.237Z",
-        "watchedSec": 698
-      },
-      "OIDvXwg6tkg": {
-        "sessionCount": 3,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
-        "durationSec": 5879,
-        "lastPosition": 3088,
-        "lastWatchedAt": "2026-08-06T03:50:24.021Z",
-        "watchedSec": 3667
-      },
-      "HxJ3gc3rJ-Q": {
-        "sessionCount": 2,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "122~143쪽 과제 질문(219번) + 롤의 정리, 평균값정리 + 함수의 증가와 감소, 극대와 감소",
-        "durationSec": 7049,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-09-16T15:59:07.378Z",
-        "watchedSec": 2646
-      },
-      "7cynhZXGGM4": {
-        "sessionCount": 2,
-        "lectureId": "lec_ms3cw1y06x4",
-        "lectureTitle": "(2022개정) 기하",
-        "videoTitle": "기하-1-1 포물선의 정의",
-        "durationSec": 1106,
-        "lastPosition": 0,
-        "lastWatchedAt": "2026-09-16T15:59:28.390Z",
-        "watchedSec": 0
-      },
       "51cQ9_8A4Ss": {
-        "sessionCount": 1,
         "lectureId": "lec_ms3cw1y06x4",
-        "lectureTitle": "(2022개정) 기하",
         "videoTitle": "기하-2-11 직선과 평면이 이루는 각",
         "durationSec": 632,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-09-16T15:59:31.827Z",
-        "watchedSec": 0
-      },
-      "7TPbWeVSe2s": {
+        "lectureTitle": "(2022개정) 기하",
         "sessionCount": 1,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "158~177쪽 삼,사차함수의 비율관계 + 함수의최댓값과 최솟값 + 방정식에의 활용",
-        "durationSec": 5794,
-        "lastPosition": 5739,
-        "lastWatchedAt": "2026-10-18T08:34:16.200Z",
-        "watchedSec": 8349
+        "lastWatchedAt": "2026-09-16T15:59:31.827Z"
       },
-      "mcNskwieZjE": {
+      "7cynhZXGGM4": {
+        "lectureId": "lec_ms3cw1y06x4",
+        "videoTitle": "기하-1-1 포물선의 정의",
+        "watchedSec": 0,
+        "durationSec": 1106,
+        "lastPosition": 0,
+        "lectureTitle": "(2022개정) 기하",
+        "sessionCount": 2,
+        "lastWatchedAt": "2026-09-16T15:59:28.390Z"
+      },
+      "HxJ3gc3rJ-Q": {
+        "lectureId": "lec_mririwvdtb6",
+        "videoTitle": "122~143쪽 과제 질문(219번) + 롤의 정리, 평균값정리 + 함수의 증가와 감소, 극대와 감소",
+        "watchedSec": 2646,
+        "durationSec": 7049,
+        "lastPosition": 0,
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
+        "sessionCount": 2,
+        "lastWatchedAt": "2026-09-16T15:59:07.378Z"
+      },
+      "MUY1NAZSfLw": {
+        "lectureId": "lec_mqkscmibfht",
+        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "watchedSec": 698,
+        "durationSec": 4799,
+        "lastPosition": 667,
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
         "sessionCount": 1,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "178~183쪽 부등식에의 활용",
-        "durationSec": 3729,
-        "lastPosition": 2,
-        "lastWatchedAt": "2026-10-18T08:38:05.712Z",
-        "watchedSec": 3
+        "lastWatchedAt": "2026-07-19T01:55:00.237Z"
       },
-      "JxzPzzpNzew": {
-        "sessionCount": 1,
+      "OIDvXwg6tkg": {
         "lectureId": "lec_mririwvdtb6",
+        "videoTitle": "72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
+        "watchedSec": 3667,
+        "durationSec": 5879,
+        "lastPosition": 3088,
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "[개념루트, 사전 촬영] 200~215쪽 부정적분",
-        "durationSec": 2230,
-        "lastPosition": 2229,
-        "lastWatchedAt": "2026-11-01T07:40:06.590Z",
-        "watchedSec": 3271
-      },
-      "9uxXNH4fUT8": {
         "sessionCount": 3,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ )",
-        "videoTitle": "[개념루트, 사전 촬영] 220~231쪽 정적분",
-        "durationSec": 2515,
-        "lastPosition": 2500,
-        "lastWatchedAt": "2026-11-01T08:29:56.812Z",
-        "watchedSec": 4222
-      },
-      "O3ZpodBk5B8": {
-        "sessionCount": 1,
-        "lectureId": "lec_mririwvdtb6",
-        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강",
-        "videoTitle": "[개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
-        "durationSec": 1348,
-        "lastPosition": 1329,
-        "lastWatchedAt": "2026-11-05T17:08:07.435Z",
-        "watchedSec": 1910
+        "lastWatchedAt": "2026-08-06T03:50:24.021Z"
       }
     },
     "daily": {
@@ -207,17 +121,6 @@
       },
       "2026-09-17": {
         "HxJ3gc3rJ-Q": 2646
-      },
-      "2026-10-18": {
-        "7TPbWeVSe2s": 8349,
-        "mcNskwieZjE": 3
-      },
-      "2026-11-01": {
-        "JxzPzzpNzew": 3271,
-        "9uxXNH4fUT8": 4222
-      },
-      "2026-11-06": {
-        "O3ZpodBk5B8": 1910
       }
     }
   },

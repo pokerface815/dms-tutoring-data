@@ -1,158 +1,173 @@
 [
   {
     "id": "cls_1780309335387_ry7cd9",
-    "name": "박유솔 개별",
     "memo": "월 - 공수2 개념, 수 - 공수1 문풀",
-    "order": 5,
-    "createdAt": "2026-06-01T10:22:15.387Z",
+    "name": "박유솔 개별",
     "slot": 6,
-    "showInParent": true,
-    "lessonSlot": 8
+    "order": 5,
+    "endedAt": 1794106945646,
+    "archived": true,
+    "createdAt": "2026-06-01T10:22:15.387Z",
+    "lessonSlot": 8,
+    "showInParent": true
   },
   {
     "id": "cls_1780309370989_i1lo00",
-    "name": "서준우 개별",
     "memo": "월 - 중등심화, 수 - 공수1",
-    "order": 6,
-    "createdAt": "2026-06-01T10:22:50.989Z",
+    "name": "서준우 개별",
     "slot": 3,
-    "showInParent": true,
-    "lessonSlot": 5
+    "order": 6,
+    "endedAt": 1794106943997,
+    "archived": true,
+    "createdAt": "2026-06-01T10:22:50.989Z",
+    "lessonSlot": 5,
+    "showInParent": true
   },
   {
     "id": "cls_1780310019938_5xpe6o",
-    "name": "토,일 2시",
     "memo": "",
-    "showInParent": true,
+    "name": "토,일 2시",
+    "slot": 7,
     "order": 7,
     "createdAt": "2026-06-01T10:33:39.938Z",
-    "slot": 7,
-    "lessonSlot": 7
+    "lessonSlot": 1,
+    "showInParent": true
   },
   {
     "id": "cls_1780310061018_vay6zf",
-    "name": "토,일 4시",
     "memo": "",
-    "showInParent": true,
+    "name": "토,일 4시",
+    "slot": 10,
     "order": 8,
     "createdAt": "2026-06-01T10:34:21.018Z",
-    "slot": 10,
-    "lessonSlot": 10
+    "lessonSlot": 4,
+    "showInParent": true
   },
   {
     "id": "cls_1780310095581_j36rd5",
-    "name": "토,일 6시",
     "memo": "",
-    "showInParent": true,
+    "name": "토,일 6시",
+    "slot": 13,
     "order": 9,
     "createdAt": "2026-06-01T10:34:55.581Z",
-    "slot": 13,
-    "lessonSlot": 13
+    "lessonSlot": 7,
+    "showInParent": true
   },
   {
     "id": "cls_1780310883451_eliu81",
-    "name": "조예나 개별",
     "memo": "",
-    "showInParent": true,
+    "name": "조예나 개별",
+    "slot": 2,
     "order": 10,
     "createdAt": "2026-06-01T10:48:03.451Z",
-    "slot": 2,
-    "lessonSlot": 2
+    "lessonSlot": 2,
+    "showInParent": true
   },
   {
     "id": "cls_1780311125071_i1638e",
-    "name": "월,수,금 중3 5시 수업",
     "memo": "",
-    "showInParent": true,
+    "name": "월,수,금 중3 5시 수업",
+    "slot": 0,
     "order": 11,
+    "endedAt": 1794106940501,
+    "archived": true,
     "createdAt": "2026-06-01T10:52:05.071Z",
     "lessonSlot": 0,
-    "slot": 0
+    "showInParent": true
   },
   {
     "id": "cls_1780355764530_wxb5as",
-    "name": "S",
     "memo": "",
-    "order": 12,
-    "createdAt": "2026-06-01T23:16:04.530Z",
-    "lessonSlot": 6,
+    "name": "S",
     "slot": 6,
+    "order": 12,
+    "endedAt": 1787575874287,
     "archived": true,
-    "endedAt": 1787575874287
+    "createdAt": "2026-06-01T23:16:04.530Z",
+    "lessonSlot": 6
   },
   {
     "id": "cls_1780910683163_gtovnl",
-    "name": "박은준 개별",
     "memo": "",
-    "showInParent": true,
-    "order": 13,
-    "createdAt": "2026-06-08T09:24:43.163Z",
+    "name": "박은준 개별",
     "slot": 11,
-    "lessonSlot": 11,
+    "order": 13,
+    "endedAt": 1785183848038,
     "archived": true,
-    "endedAt": 1785183848038
+    "createdAt": "2026-06-08T09:24:43.163Z",
+    "lessonSlot": 11,
+    "showInParent": true
   },
   {
     "id": "cls_1783735589810_tlwac7",
-    "name": "토,일 11시",
     "memo": "",
+    "name": "토,일 11시",
+    "slot": 1,
     "order": 14,
+    "endedAt": 1794106953747,
+    "archived": true,
     "createdAt": "2026-07-11T02:06:29.810Z",
-    "lessonSlot": 1,
-    "slot": 1
+    "lessonSlot": 1
   },
   {
     "id": "cls_1783741486590_iyer5b",
-    "name": "토,일 12시 30분",
     "memo": "",
+    "name": "토,일 12시 30분",
+    "slot": 4,
     "order": 15,
+    "endedAt": 1794106955901,
+    "archived": true,
     "createdAt": "2026-07-11T03:44:46.590Z",
-    "lessonSlot": 4,
-    "slot": 4
+    "lessonSlot": 4
   },
   {
     "id": "cls_1783936035043_cn165h",
-    "name": "박은유 개별",
     "memo": "",
-    "order": 16,
-    "createdAt": "2026-07-13T09:47:15.043Z",
-    "lessonSlot": 11,
+    "name": "박은유 개별",
     "slot": 9,
+    "order": 16,
+    "endedAt": 1791001665063,
     "archived": true,
-    "endedAt": 1791001665063
+    "createdAt": "2026-07-13T09:47:15.043Z",
+    "lessonSlot": 11
   },
   {
     "id": "cls_1786082821970_09kcz5",
-    "name": "남경원 개별",
     "memo": "",
+    "name": "남경원 개별",
+    "slot": 9,
     "order": 17,
+    "endedAt": 1794106947350,
+    "archived": true,
     "createdAt": "2026-08-07T06:07:01.970Z",
-    "lessonSlot": 14,
-    "slot": 9
+    "lessonSlot": 14
   },
   {
     "id": "cls_1787570825333_7l5oq4",
-    "name": "신다은 개별",
     "memo": "",
+    "name": "신다은 개별",
+    "slot": 12,
     "order": 18,
-    "createdAt": "2026-08-24T11:27:05.333Z",
-    "slot": 12
+    "endedAt": 1794106949630,
+    "archived": true,
+    "createdAt": "2026-08-24T11:27:05.333Z"
   },
   {
     "id": "cls_1787652303196_9khxnz",
-    "name": "문현승 개별",
     "memo": "",
+    "name": "문현승 개별",
     "order": 19,
-    "createdAt": "2026-08-25T10:05:03.196Z",
+    "endedAt": 1791001678078,
     "archived": true,
-    "endedAt": 1791001678078
+    "createdAt": "2026-08-25T10:05:03.196Z"
   },
   {
     "id": "cls_1790074357169_fmjal9",
-    "name": "장하늘 개인",
     "memo": "",
+    "name": "장하늘 개인",
+    "slot": 5,
     "order": 20,
     "createdAt": "2026-09-22T10:52:37.169Z",
-    "slot": 5
+    "lessonSlot": 5
   }
 ]

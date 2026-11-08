@@ -5283,5 +5283,27 @@
     ],
     "createdAt": "2026-11-08T02:54:37.856Z",
     "studentId": "s_1780190418387_a11waf"
+  },
+  {
+    "id": "a_1794138705414_z3mnid",
+    "noteId": "note_1794138691606_9lvpcq",
+    "noteName": "테스트",
+    "studentId": "s_1780190418387_a11waf",
+    "subject": "중2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-11-08",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-11-10",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-11-08T11:51:45.414Z"
   }
 ]

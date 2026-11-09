@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-08T03:01:34.195Z",
+  "generatedAt": "2026-11-09T15:02:20.380Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -620,28 +620,65 @@
   "syncedLectureDeletedVideoIds": [
     "AJE79srmVL8"
   ],
-  "today": [
+  "today": [],
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
+    {
+      "assignmentId": "a_1794138705414_z3mnid",
+      "noteName": "테스트",
+      "subject": "중2",
+      "round": 2,
+      "plannedDate": "2026-11-10",
+      "done": true,
+      "doneAt": "2026-11-09T08:23:39.624Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1794106477856_k97wue",
+      "noteName": "올림포스 기출문제집_미적분1_10단원",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-11-10",
+      "done": true,
+      "doneAt": "2026-11-09T08:23:38.208Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1794106477856_k97wue",
       "noteName": "올림포스 기출문제집_미적분1_10단원",
       "subject": "미적분Ⅰ",
       "round": 1,
       "plannedDate": "2026-11-08",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-11-09T08:23:18.308Z",
       "missed": false,
-      "missedAt": null
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1794138705414_z3mnid",
+      "noteName": "테스트",
+      "subject": "중2",
+      "round": 1,
+      "plannedDate": "2026-11-08",
+      "done": true,
+      "doneAt": "2026-11-09T08:23:15.800Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
-  "overdue": [],
-  "upcoming": [],
-  "completed": [],
   "weekProgress": {
-    "total": 1,
-    "done": 0,
-    "percent": 0,
-    "startDate": "2026-11-02",
-    "endDate": "2026-11-08"
+    "total": 2,
+    "done": 2,
+    "percent": 100,
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-15"
   },
   "teacherConfirms": {
     "task_1780499298479_b3ko7f__1": {
@@ -743,6 +780,18 @@
     "task_1780626028556_p0iasm__20260607": {
       "confirmed": true,
       "confirmedAt": "2026-06-05T02:45:27.825Z"
+    },
+    "task_1794139495541_si4njg__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-11-08T18:50:15.019Z"
+    },
+    "a_1794106477856_k97wue__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-11-08T18:50:15.903Z"
+    },
+    "a_1794138705414_z3mnid__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-11-08T18:50:16.765Z"
     }
   },
   "tasks": [
@@ -777,6 +826,14 @@
       "dueDate": "2026-07-01",
       "isRepeat": false,
       "assignedAt": "2026-06-30T02:38:40.020Z"
+    },
+    {
+      "assignmentId": "task_1794139495541_si4njg",
+      "round": 1,
+      "title": "테스트",
+      "dueDate": "2026-11-09",
+      "isRepeat": false,
+      "assignedAt": "2026-11-08T12:04:55.541Z"
     }
   ],
   "myGrades": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-08T03:02:12.723Z",
+  "generatedAt": "2026-11-09T15:02:24.894Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -25,25 +25,25 @@
   "syncedEffortDeletedIds": null,
   "syncedLectureWatch": {
     "videos": {
-      "MUY1NAZSfLw": {
-        "sessionCount": 1,
-        "lectureId": "lec_mqkscmibfht",
-        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
-        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-        "durationSec": 4799,
-        "lastPosition": 18,
-        "lastWatchedAt": "2026-07-12T05:15:33.421Z",
-        "watchedSec": 19
-      },
       "GNgvRzCn-Dc": {
-        "sessionCount": 1,
         "lectureId": "lec_ms3cw1y06x4",
-        "lectureTitle": "(2022개정) 기하",
         "videoTitle": "기하-1-4 포물선과 직선의 위치 관계",
+        "watchedSec": 0,
         "durationSec": 530,
         "lastPosition": 0,
-        "lastWatchedAt": "2026-08-23T05:10:47.419Z",
-        "watchedSec": 0
+        "lectureTitle": "(2022개정) 기하",
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-08-23T05:10:47.419Z"
+      },
+      "MUY1NAZSfLw": {
+        "lectureId": "lec_mqkscmibfht",
+        "videoTitle": "8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
+        "watchedSec": 19,
+        "durationSec": 4799,
+        "lastPosition": 18,
+        "lectureTitle": "미적분1 개념+유형 (26년 1,2월)",
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-07-12T05:15:33.421Z"
       }
     },
     "daily": {
@@ -134,8 +134,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-11-02",
-    "endDate": "2026-11-08"
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-15"
   },
   "teacherConfirms": {
     "task_1780833488960_0g2lyw__1": {

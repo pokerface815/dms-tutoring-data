@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-08T03:01:22.593Z",
+  "generatedAt": "2026-11-09T15:02:04.670Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -24,57 +24,57 @@
   "syncedEffortLogs": [
     {
       "id": "effort_mrfx57mlunm",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "미적분1 개념+유형 (26년 1,2월) — 8~16쪽 함수의 수렴과 발산, 우극한과 좌극한, 합성함수의 극한",
-      "reflection": "",
       "seconds": 3134,
-      "startedAt": 1783747299998,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-11T05:23:16.318Z",
+      "startedAt": 1783747299998,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrzuraedkp8",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
-      "reflection": "",
       "seconds": 168,
-      "startedAt": 1784952600667,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-25T04:11:51.013Z",
+      "startedAt": 1784952600667,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mrzuy5x5ymx",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 18~29쪽(개념루트) 합성함수의 극한, 함수의 극한에 대한 성질",
-      "reflection": "",
       "seconds": 246,
-      "startedAt": 1784952959574,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-07-25T04:17:11.801Z",
+      "startedAt": 1784952959574,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_msjroojgcvz",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 72~81쪽 연습문제 질문(69,70쪽) + 평균변화율, 미분계수",
-      "reflection": "",
       "seconds": 1697,
-      "startedAt": 1786156779193,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-08-08T02:41:14.044Z",
+      "startedAt": 1786156779193,
+      "reflection": "",
       "autoRecorded": true
     },
     {
       "id": "effort_mt5758jwm0b",
-      "subject": "미적분Ⅰ",
       "method": "강의 시청",
       "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7월 ~ ) — 3",
-      "reflection": "",
       "seconds": 3499,
-      "startedAt": 1787452519560,
+      "subject": "미적분Ⅰ",
       "createdAt": "2026-08-23T02:37:10.412Z",
+      "startedAt": 1787452519560,
+      "reflection": "",
       "autoRecorded": true
     }
   ],
@@ -174,8 +174,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-11-02",
-    "endDate": "2026-11-08"
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-15"
   },
   "teacherConfirms": {},
   "tasks": [],

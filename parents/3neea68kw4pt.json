@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T03:01:36.055Z",
+  "generatedAt": "2026-11-09T15:02:18.300Z",
   "showCompletionRate": true,
   "showNoteStages": true,
   "student": {
@@ -8,6 +8,41 @@
     "grade": "기타"
   },
   "months": [
+    {
+      "ym": "2026-11",
+      "label": "2026년 11월",
+      "lessons": [
+        {
+          "date": "2026-11-08",
+          "weekday": "일",
+          "className": "",
+          "content": "",
+          "task": "",
+          "taskDue": "",
+          "myNote": "",
+          "extraAssignments": [
+            {
+              "title": "테스트",
+              "dueDate": "2026-11-09",
+              "isConfirmed": true
+            }
+          ],
+          "hasLesson": false
+        }
+      ],
+      "completionRate": {
+        "done": 1,
+        "total": 1,
+        "percent": 100
+      },
+      "noteStages": {
+        "1": {
+          "done": 2,
+          "total": 2,
+          "percent": 100
+        }
+      }
+    },
     {
       "ym": "2026-06",
       "label": "2026년 6월",

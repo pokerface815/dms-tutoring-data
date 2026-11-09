@@ -5280,9 +5280,11 @@
       },
       {
         "stage": 2,
-        "doneAt": null,
+        "doneAt": "2026-11-09T08:23:38.208Z",
         "planned": "2026-11-10",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       }
     ],
     "createdAt": "2026-11-08T02:54:37.856Z",
@@ -5304,9 +5306,11 @@
       },
       {
         "stage": 2,
-        "doneAt": null,
+        "doneAt": "2026-11-09T08:23:39.624Z",
         "planned": "2026-11-10",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       }
     ],
     "createdAt": "2026-11-08T11:51:45.414Z",

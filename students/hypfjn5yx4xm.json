@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-08T03:00:54.796Z",
+  "generatedAt": "2026-11-09T15:02:15.898Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -108,6 +108,16 @@
         "sessionCount": 10,
         "lastWatchedAt": "2026-09-11T16:25:15.047Z"
       },
+      "ROGD4n-9mrY": {
+        "lectureId": "lec_mririwvdtb6",
+        "videoTitle": "[개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
+        "watchedSec": 19,
+        "durationSec": 3455,
+        "lastPosition": 2257,
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강",
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-11-08T17:02:49.548Z"
+      },
       "YPadSZ_ftKQ": {
         "lectureId": "lec_ms3cw1y06x4",
         "videoTitle": "기하-2-5 직선과 평면의 평행에 대한 성질",
@@ -121,11 +131,12 @@
       "ZuDVvGsnFW4": {
         "lectureId": "lec_mririwvdtb6",
         "videoTitle": "220~231쪽 정적분",
+        "watchedSec": 0,
         "durationSec": 3698,
         "lastPosition": 0,
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강",
         "sessionCount": 1,
-        "lastWatchedAt": "2026-11-04T13:18:55.695Z"
+        "lastWatchedAt": "2026-11-04T13:18:55.697Z"
       },
       "okVxIoEMccc": {
         "lectureId": "lec_mqkscmibfht",
@@ -181,6 +192,9 @@
       "2026-09-12": {
         "7LtG4Dc90v8": 3,
         "MUY1NAZSfLw": 1
+      },
+      "2026-11-09": {
+        "ROGD4n-9mrY": 19
       }
     }
   },
@@ -554,8 +568,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-11-02",
-    "endDate": "2026-11-08"
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-15"
   },
   "teacherConfirms": {
     "a_1779199815812_kc9oc2__3": {

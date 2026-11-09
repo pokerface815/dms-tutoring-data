@@ -5273,18 +5273,18 @@
       {
         "stage": 1,
         "doneAt": "2026-11-09T08:23:18.308Z",
-        "planned": "2026-11-08",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-08",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 2,
         "doneAt": "2026-11-09T08:23:38.208Z",
-        "planned": "2026-11-10",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-10",
+        "missedAt": null,
+        "actualDone": true
       }
     ],
     "createdAt": "2026-11-08T02:54:37.856Z",
@@ -5299,18 +5299,18 @@
       {
         "stage": 1,
         "doneAt": "2026-11-09T08:23:15.800Z",
-        "planned": "2026-11-08",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-08",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 2,
         "doneAt": "2026-11-09T08:23:39.624Z",
-        "planned": "2026-11-10",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-10",
+        "missedAt": null,
+        "actualDone": true
       }
     ],
     "createdAt": "2026-11-08T11:51:45.414Z",
@@ -5329,35 +5329,35 @@
   {
     "id": "a_1794236503461_7i9zx4",
     "noteId": "note_1794236491870_x6twaj",
-    "noteName": "조예나_올림포스 유형편_ ~ 05.부정적분과 정적분 21번",
-    "studentId": "s_1777547047005_uo92w5",
     "subject": "미적분Ⅰ",
+    "noteName": "조예나_올림포스 유형편_ ~ 05.부정적분과 정적분 21번",
     "schedule": [
       {
         "stage": 1,
+        "doneAt": null,
         "planned": "2026-11-10",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 2,
+        "doneAt": null,
         "planned": "2026-11-12",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 3,
+        "doneAt": null,
         "planned": "2026-11-17",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 4,
+        "doneAt": null,
         "planned": "2026-12-01",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-09T15:01:43.461Z"
+    "createdAt": "2026-11-09T15:01:43.461Z",
+    "studentId": "s_1777547047005_uo92w5"
   }
 ]

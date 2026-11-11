@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-09T15:02:20.380Z",
+  "generatedAt": "2026-11-11T12:56:49.963Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -500,6 +500,15 @@
         "sessionCount": 1,
         "lastWatchedAt": "2026-08-25T11:10:18.458Z"
       },
+      "9uxXNH4fUT8": {
+        "lectureId": "lec_mririwvdtb6",
+        "videoTitle": "[개념루트, 사전 촬영] 220~231쪽 정적분",
+        "durationSec": 2515,
+        "lastPosition": 0,
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강",
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-11-10T14:50:19.770Z"
+      },
       "FNL671dXsGI": {
         "lectureId": "lec_mqks8brpdcl",
         "videoTitle": "8~12쪽 거듭제곱과 거듭제곱근",
@@ -681,6 +690,14 @@
     "endDate": "2026-11-15"
   },
   "teacherConfirms": {
+    "a_1794106477856_k97wue__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-11-08T18:50:15.903Z"
+    },
+    "a_1794138705414_z3mnid__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-11-08T18:50:16.765Z"
+    },
     "task_1780499298479_b3ko7f__1": {
       "confirmed": true,
       "confirmedAt": "2026-06-03T16:48:44.178Z"
@@ -765,6 +782,10 @@
       "confirmed": true,
       "confirmedAt": "2026-08-30T16:42:03.385Z"
     },
+    "task_1794139495541_si4njg__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-11-08T18:50:15.019Z"
+    },
     "task_1780562282260_czwguk__20260605": {
       "confirmed": true,
       "confirmedAt": "2026-06-04T10:10:07.408Z"
@@ -780,18 +801,6 @@
     "task_1780626028556_p0iasm__20260607": {
       "confirmed": true,
       "confirmedAt": "2026-06-05T02:45:27.825Z"
-    },
-    "task_1794139495541_si4njg__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-11-08T18:50:15.019Z"
-    },
-    "a_1794106477856_k97wue__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-11-08T18:50:15.903Z"
-    },
-    "a_1794138705414_z3mnid__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-11-08T18:50:16.765Z"
     }
   },
   "tasks": [

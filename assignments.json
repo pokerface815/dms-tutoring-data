@@ -5136,9 +5136,11 @@
       },
       {
         "stage": 3,
-        "doneAt": null,
+        "doneAt": "2026-11-11T14:07:28.842Z",
         "planned": "2026-11-10",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 4,
@@ -5334,9 +5336,11 @@
     "schedule": [
       {
         "stage": 1,
-        "doneAt": null,
+        "doneAt": "2026-11-11T14:07:30.756Z",
         "planned": "2026-11-10",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,

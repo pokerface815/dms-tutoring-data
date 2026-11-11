@@ -5387,5 +5387,33 @@
       }
     ],
     "createdAt": "2026-11-11T12:56:44.659Z"
+  },
+  {
+    "id": "a_1794401845853_jeumsc",
+    "noteId": "note_1794401833720_izvkhu",
+    "noteName": "김규림_개념루트_연습문제 3단계",
+    "studentId": "s_1777546978791_hsee5a",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-11-11",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-11-13",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-11-18",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-11-11T12:57:25.853Z"
   }
 ]

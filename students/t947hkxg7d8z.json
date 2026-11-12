@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-08T03:00:50.391Z",
+  "generatedAt": "2026-11-12T04:51:08.511Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -29,30 +29,6 @@
   "overdue": [],
   "upcoming": [],
   "completed": [
-    {
-      "assignmentId": "a_1793805504726_a0ouez",
-      "noteName": "조예나_올림포스 유형편_도함수의 활용(~79번)",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-11-07",
-      "done": true,
-      "doneAt": "2026-11-07T14:01:59.792Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1793805504726_a0ouez",
-      "noteName": "조예나_올림포스 유형편_도함수의 활용(~79번)",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-11-05",
-      "done": true,
-      "doneAt": "2026-11-05T15:31:20.787Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
     {
       "assignmentId": "a_1788961176656_e4y6lf",
       "noteName": "조예나_올림포스 유형편_04.도함수의 활용",
@@ -388,14 +364,38 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1781628866853_g8jo39",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법(고난도 3,4,5)",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-06-19",
+      "done": true,
+      "doneAt": "2026-06-19T22:39:17.828Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1781536830575_5ol8ni",
+      "noteName": "조예나_올림포스 유형편_수열의 합과 수학적 귀납법( ~끝)",
+      "subject": "대수",
+      "round": 2,
+      "plannedDate": "2026-06-18",
+      "done": true,
+      "doneAt": "2026-06-19T09:55:32.647Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
   "weekProgress": {
-    "total": 2,
-    "done": 2,
-    "percent": 100,
-    "startDate": "2026-11-02",
-    "endDate": "2026-11-08"
+    "total": 0,
+    "done": 0,
+    "percent": 0,
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-15"
   },
   "teacherConfirms": {
     "a_1779287559980_ge3q7f__3": {

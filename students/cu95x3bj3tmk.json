@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-08T03:01:37.906Z",
+  "generatedAt": "2026-11-12T04:51:48.835Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -166,8 +166,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-11-02",
-    "endDate": "2026-11-08"
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-15"
   },
   "teacherConfirms": {
     "task_1786083747183_0qybmu__1": {
@@ -230,13 +230,13 @@
       "confirmed": true,
       "confirmedAt": "2026-08-28T14:22:29.519Z"
     },
-    "task_1787561854526_5djosw__1": {
-      "confirmed": true,
-      "confirmedAt": "2026-08-31T13:20:37.968Z"
-    },
     "task_1787561854526_8xqzvq__1": {
       "confirmed": true,
       "confirmedAt": "2026-08-31T13:20:34.373Z"
+    },
+    "task_1787561854526_5djosw__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-08-31T13:20:37.968Z"
     },
     "task_1792576262326_ubtbbg__1": {
       "confirmed": true,

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T16:29:26.397Z",
+  "generatedAt": "2026-11-12T04:50:49.742Z",
   "adminCode": "0BQUYv19ynpbSlsfj5vcbzaUjPapUZph",
-  "studentCount": 43,
+  "studentCount": 41,
   "baseUrl": "",
   "students": [
     {
@@ -204,15 +204,6 @@
       "parentPageCode": "sujrjyha99fe"
     },
     {
-      "id": "s_1780314459772_wcllxa",
-      "name": "조아라",
-      "grade": "중3",
-      "school": "",
-      "className": "월,수,금 중3 5시 수업",
-      "studentPageCode": "rhu3ug525wup",
-      "parentPageCode": "rhu3ug525wup"
-    },
-    {
       "id": "s_1780633652940_9hqjzx",
       "name": "박은준",
       "grade": "중3",
@@ -364,15 +355,6 @@
       "className": "토,일 12시 30분",
       "studentPageCode": "naan7bk6dx9e",
       "parentPageCode": "naan7bk6dx9e"
-    },
-    {
-      "id": "s_1786359648617_00qsgi",
-      "name": "이나윤",
-      "grade": "고1",
-      "school": "국제고",
-      "className": "토,일 12시 30분",
-      "studentPageCode": "25jvaxw5nnr2",
-      "parentPageCode": "25jvaxw5nnr2"
     },
     {
       "id": "s_1787570844823_nbqosc",

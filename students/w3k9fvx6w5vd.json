@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-09T15:01:48.832Z",
+  "generatedAt": "2026-11-12T04:51:31.338Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -55,9 +55,7 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
-  "overdue": [],
-  "upcoming": [
+  "today": [
     {
       "assignmentId": "a_1792678158548_2s96sk",
       "noteName": "지유진_올림포스 유형편_도함수의 활용",
@@ -68,7 +66,10 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
+    }
+  ],
+  "overdue": [],
+  "upcoming": [
     {
       "assignmentId": "a_1792758731411_jdc68i",
       "noteName": "지유진_올림포스 유형편_부정적분과 정적분",
@@ -79,44 +80,9 @@
       "doneAt": null,
       "missed": false,
       "missedAt": null
-    },
-    {
-      "assignmentId": "a_1793892773242_9vihjc",
-      "noteName": "지유진_올림포스 유형편_정적분의 활용",
-      "subject": "미적분Ⅰ",
-      "round": 3,
-      "plannedDate": "2026-11-13",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
     }
   ],
   "completed": [
-    {
-      "assignmentId": "a_1793892773242_9vihjc",
-      "noteName": "지유진_올림포스 유형편_정적분의 활용",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-11-08",
-      "done": true,
-      "doneAt": "2026-11-08T16:09:05.633Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1793892773242_9vihjc",
-      "noteName": "지유진_올림포스 유형편_정적분의 활용",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-11-06",
-      "done": true,
-      "doneAt": "2026-11-06T11:08:50.733Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
     {
       "assignmentId": "a_1792758731411_jdc68i",
       "noteName": "지유진_올림포스 유형편_부정적분과 정적분",
@@ -452,10 +418,22 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1778849252765_2tk887",
+      "noteName": "지유진_올림포스 유형편_사인법칙과 코사인법칙",
+      "subject": "대수",
+      "round": 1,
+      "plannedDate": "2026-05-16",
+      "done": true,
+      "doneAt": "2026-05-17T08:09:12.352Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
     }
   ],
   "weekProgress": {
-    "total": 3,
+    "total": 2,
     "done": 0,
     "percent": 0,
     "startDate": "2026-11-09",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-09T15:02:13.613Z",
+  "generatedAt": "2026-11-12T04:50:51.519Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -431,44 +431,8 @@
   "syncedLectureDeletedVideoIds": null,
   "today": [],
   "overdue": [],
-  "upcoming": [
-    {
-      "assignmentId": "a_1793794630870_c60w4k",
-      "noteName": "송유림_개념루트_289~594번_1차 오답",
-      "subject": "미적분Ⅰ",
-      "round": 3,
-      "plannedDate": "2026-11-11",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "upcoming": [],
   "completed": [
-    {
-      "assignmentId": "a_1793794630870_c60w4k",
-      "noteName": "송유림_개념루트_289~594번_1차 오답",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-11-06",
-      "done": true,
-      "doneAt": "2026-11-06T11:08:49.669Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1793794630870_c60w4k",
-      "noteName": "송유림_개념루트_289~594번_1차 오답",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-11-04",
-      "done": true,
-      "doneAt": "2026-11-04T13:16:49.200Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
     {
       "assignmentId": "a_1787726098114_zzpdkx",
       "noteName": "송유림_올림포스 유형편_전체",
@@ -663,7 +627,7 @@
     }
   ],
   "weekProgress": {
-    "total": 1,
+    "total": 0,
     "done": 0,
     "percent": 0,
     "startDate": "2026-11-09",

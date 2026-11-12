@@ -1,11 +1,6 @@
 [
   {
     "id": "s_1777538277049_9le2r7",
-    "name": "송유림",
-    "school": "숭일고",
-    "grade": "고2",
-    "class": "토,일 6시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -15,26 +10,26 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-6482-4837",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "2qd84k44xvr5",
+    "memo": "",
+    "name": "송유림",
+    "class": "토,일 6시",
+    "grade": "고2",
+    "school": "숭일고",
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
+    "pageCode": "2qd84k44xvr5",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "010-6482-4837",
+    "notifyStudent": true,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1777546951753_p3pskl",
-    "name": "김채린",
-    "school": "숭일고",
-    "grade": "고2",
-    "class": "토,일 6시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -44,26 +39,26 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-2585-7708",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "qsepzrq8kdtq",
+    "memo": "",
+    "name": "김채린",
+    "class": "토,일 6시",
+    "grade": "고2",
+    "school": "숭일고",
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
+    "pageCode": "qsepzrq8kdtq",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "010-2585-7708",
+    "notifyStudent": true,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1777546978791_hsee5a",
-    "name": "김규림",
-    "school": "중앙여고",
-    "grade": "고2",
-    "class": "토,일 6시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -73,26 +68,26 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-6236-2155",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "uhytagv8njqs",
+    "memo": "",
+    "name": "김규림",
+    "class": "토,일 6시",
+    "grade": "고2",
+    "school": "중앙여고",
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
-    "showCompletionRate": true,
-    "showTestResults": true,
+    "pageCode": "uhytagv8njqs",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showNoteStages": true
+    "studentPhone": "010-6236-2155",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1777547014208_7l30nn",
-    "name": "박다윤",
-    "school": "경신여고",
-    "grade": "고2",
-    "class": "토,일 6시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -102,26 +97,26 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-8312-2591",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "86wtsdncpk8h",
+    "memo": "",
+    "name": "박다윤",
+    "class": "토,일 6시",
+    "grade": "고2",
+    "school": "경신여고",
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
+    "pageCode": "86wtsdncpk8h",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "010-8312-2591",
+    "notifyStudent": true,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1777547047005_uo92w5",
-    "name": "조예나",
-    "school": "문정여고",
-    "grade": "고2",
-    "class": "개별수업",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -131,33 +126,33 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-2997-6145",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "t947hkxg7d8z",
+    "memo": "",
+    "name": "조예나",
+    "class": "개별수업",
+    "grade": "고2",
+    "school": "문정여고",
     "classes": [
       "cls_1780310883451_eliu81"
     ],
-    "showMakeNote": true,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
+    "pageCode": "t947hkxg7d8z",
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1780310883451_eliu81",
+        "to": null,
         "from": "",
-        "to": null
+        "classId": "cls_1780310883451_eliu81"
       }
-    ]
+    ],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-2997-6145",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1778325875686_1uoe4b",
-    "name": "이경주",
-    "school": "국제고",
-    "grade": "고2",
-    "class": "토,일 4시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -167,26 +162,26 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-2626-1429",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "hypfjn5yx4xm",
+    "memo": "",
+    "name": "이경주",
+    "class": "토,일 4시",
+    "grade": "고2",
+    "school": "국제고",
     "classes": [
       "cls_1780310061018_vay6zf"
     ],
+    "pageCode": "hypfjn5yx4xm",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "010-2626-1429",
+    "notifyStudent": true,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1778397156600_clkd2u",
-    "name": "서연준",
-    "school": "살레시오고",
-    "grade": "고2",
-    "class": "토,일 4시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -196,27 +191,27 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-2127-2159",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "y8jkzjbpkmfh",
+    "memo": "",
+    "name": "서연준",
+    "class": "토,일 4시",
+    "grade": "고2",
+    "school": "살레시오고",
     "classes": [
       "cls_1780310061018_vay6zf"
     ],
+    "flagged": false,
+    "pageCode": "y8jkzjbpkmfh",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
-    "showTestResults": true,
+    "studentPhone": "010-2127-2159",
+    "notifyStudent": true,
     "showNoteStages": true,
-    "flagged": false
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1778402500926_7fxigp",
-    "name": "정찬민",
-    "school": "살레시오고",
-    "grade": "고2",
-    "class": "토,일 6시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -226,33 +221,33 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-4894-3873",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "tke85bjzms8e",
+    "memo": "",
+    "name": "정찬민",
+    "class": "토,일 6시",
+    "grade": "고2",
+    "school": "살레시오고",
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
-    "showMakeNote": true,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
+    "pageCode": "tke85bjzms8e",
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1780310095581_j36rd5",
+        "to": null,
         "from": "",
-        "to": null
+        "classId": "cls_1780310095581_j36rd5"
       }
-    ]
+    ],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-4894-3873",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1778404886523_0ag055",
-    "name": "박다인",
-    "school": "국제고",
-    "grade": "고2",
-    "class": "토,일 6시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -262,26 +257,26 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-3571-3505",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "9kpm4rh8e2sb",
+    "memo": "",
+    "name": "박다인",
+    "class": "토,일 6시",
+    "grade": "고2",
+    "school": "국제고",
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
+    "pageCode": "9kpm4rh8e2sb",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "010-3571-3505",
+    "notifyStudent": true,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1778638262495_alq1jg",
-    "name": "이현승",
-    "school": "살레시오고",
-    "grade": "고2",
-    "class": "토,일 6시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -291,26 +286,26 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-7654-9592",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "h4257zsksm3h",
+    "memo": "",
+    "name": "이현승",
+    "class": "토,일 6시",
+    "grade": "고2",
+    "school": "살레시오고",
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
+    "pageCode": "h4257zsksm3h",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "010-7654-9592",
+    "notifyStudent": true,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1778768401651_7hlihp",
-    "name": "김현민",
-    "school": "살레시오고",
-    "grade": "고2",
-    "class": "토,일 6시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -320,26 +315,26 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-2533-7613",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "n2fz45twhzv4",
+    "memo": "",
+    "name": "김현민",
+    "class": "토,일 6시",
+    "grade": "고2",
+    "school": "살레시오고",
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
+    "pageCode": "n2fz45twhzv4",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "010-2533-7613",
+    "notifyStudent": true,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1778849219765_v88lqq",
-    "name": "지유진",
-    "school": "문정여고",
-    "grade": "고2",
-    "class": "토,일 4시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -349,26 +344,26 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-3621-4079",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "w3k9fvx6w5vd",
+    "memo": "",
+    "name": "지유진",
+    "class": "토,일 4시",
+    "grade": "고2",
+    "school": "문정여고",
     "classes": [
       "cls_1780310061018_vay6zf"
     ],
+    "pageCode": "w3k9fvx6w5vd",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "010-3621-4079",
+    "notifyStudent": true,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1778908285779_1cmzde",
-    "name": "서은영",
-    "school": "경신여고",
-    "grade": "고2",
-    "class": "토,일 2시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -378,33 +373,33 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-2165-0889",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "meut9zmgs6g3",
+    "memo": "",
+    "name": "서은영",
+    "class": "토,일 2시",
+    "grade": "고2",
+    "school": "경신여고",
     "classes": [
       "cls_1780310019938_5xpe6o"
     ],
-    "showMakeNote": true,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
+    "pageCode": "meut9zmgs6g3",
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1780310019938_5xpe6o",
+        "to": null,
         "from": "",
-        "to": null
+        "classId": "cls_1780310019938_5xpe6o"
       }
-    ]
+    ],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-2165-0889",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1779005266373_7iq1b8",
-    "name": "김시현",
-    "school": "국제고",
-    "grade": "고2",
-    "class": "토,일 4시",
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -414,283 +409,281 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-6227-9746",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "pageCode": "a7xfuxvp5x9c",
+    "memo": "",
+    "name": "김시현",
+    "class": "토,일 4시",
+    "grade": "고2",
+    "school": "국제고",
     "classes": [
       "cls_1780310061018_vay6zf"
     ],
+    "pageCode": "a7xfuxvp5x9c",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "010-6227-9746",
+    "notifyStudent": true,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1779948611035_qbdt5h",
-    "name": "서준우",
-    "school": "살레시오중",
-    "grade": "중2",
-    "class": "고등선행",
-    "memo": "",
     "days": [
       "월",
       "수",
       "금"
     ],
-    "studentPhone": "010-2644-4189",
-    "parentPhone": "010-9908-4189",
-    "notifyStudent": true,
-    "notifyParent": true,
-    "pageCode": "kwbqx4xu6as9",
+    "memo": "",
+    "name": "서준우",
+    "class": "고등선행",
+    "grade": "중2",
+    "school": "살레시오중",
     "classes": [
       "cls_1780309370989_i1lo00"
     ],
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showMakeNote": true,
-    "showNoteStages": true,
+    "pageCode": "kwbqx4xu6as9",
+    "parentPhone": "010-9908-4189",
     "classHistory": [
       {
-        "classId": "cls_1780309370989_i1lo00",
+        "to": null,
         "from": "",
-        "to": null
+        "classId": "cls_1780309370989_i1lo00"
       }
-    ]
+    ],
+    "notifyParent": true,
+    "showMakeNote": true,
+    "studentPhone": "010-2644-4189",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1780190418387_a11waf",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "memo": "",
     "name": "문대승",
-    "school": "창평고",
     "grade": "기타",
+    "school": "창평고",
     "classes": [
       "cls_1780355764530_wxb5as"
     ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-9327-7661",
-    "parentPhone": "010-9327-7661",
-    "notifyStudent": true,
-    "notifyParent": true,
-    "showCompletionRate": true,
     "pageCode": "3neea68kw4pt",
-    "showTestResults": true,
-    "showMakeNote": true,
-    "showNoteStages": true,
+    "parentPhone": "010-9327-7661",
     "classHistory": [
       {
-        "classId": "cls_1780355764530_wxb5as",
+        "to": null,
         "from": "",
-        "to": null
+        "classId": "cls_1780355764530_wxb5as"
       }
-    ]
+    ],
+    "notifyParent": true,
+    "showMakeNote": true,
+    "studentPhone": "010-9327-7661",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1780309359751_gjl2s0",
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "memo": "",
     "name": "박유솔",
-    "school": "숭일중",
     "grade": "중3",
+    "school": "숭일중",
     "classes": [
       "cls_1780309335387_ry7cd9"
     ],
-    "memo": "",
-    "days": [
-      "월",
-      "수",
-      "금"
-    ],
-    "studentPhone": "010-8579-2198",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "pageCode": "cu95x3bj3tmk",
-    "showMakeNote": true,
     "flagged": false,
-    "showNoteStages": true,
+    "pageCode": "cu95x3bj3tmk",
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1780309335387_ry7cd9",
+        "to": null,
         "from": "",
-        "to": null
+        "classId": "cls_1780309335387_ry7cd9"
       }
-    ]
+    ],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-8579-2198",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1780314459772_slkq6q",
-    "name": "김소윤",
-    "school": "",
-    "grade": "중3",
-    "classes": [
-      "cls_1780311125071_i1638e"
-    ],
     "days": [
       "월",
       "수",
       "금"
     ],
     "memo": "",
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
+    "name": "김소윤",
+    "grade": "중3",
+    "school": "",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "pageCode": "dhm4znbjqs4z",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "",
+    "notifyStudent": false,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1780314459772_u5kn1l",
-    "name": "문현빈",
-    "school": "",
-    "grade": "중3",
-    "classes": [
-      "cls_1780311125071_i1638e"
-    ],
     "days": [
       "월",
       "수",
       "금"
     ],
     "memo": "",
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
+    "name": "문현빈",
+    "grade": "중3",
+    "school": "",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "pageCode": "vcsyut7aa9yx",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "",
+    "notifyStudent": false,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1780314459772_frngyj",
-    "name": "고승민",
-    "school": "",
-    "grade": "중3",
-    "classes": [
-      "cls_1780311125071_i1638e"
-    ],
     "days": [
       "월",
       "수",
       "금"
     ],
     "memo": "",
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
+    "name": "고승민",
+    "grade": "중3",
+    "school": "",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "pageCode": "t644dsvutyb8",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "",
+    "notifyStudent": false,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1780314459772_jsjhe4",
-    "name": "왕예진",
-    "school": "",
-    "grade": "중3",
-    "classes": [
-      "cls_1780311125071_i1638e"
-    ],
     "days": [
       "월",
       "수",
       "금"
     ],
     "memo": "",
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
+    "name": "왕예진",
+    "grade": "중3",
+    "school": "",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "pageCode": "wmad574kw6zz",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "",
+    "notifyStudent": false,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1780314459772_hl9biz",
-    "name": "이도겸",
-    "school": "",
-    "grade": "중3",
-    "classes": [
-      "cls_1780311125071_i1638e"
-    ],
     "days": [
       "월",
       "수",
       "금"
     ],
     "memo": "",
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
+    "name": "이도겸",
+    "grade": "중3",
+    "school": "",
+    "classes": [
+      "cls_1780311125071_i1638e"
+    ],
     "pageCode": "sujrjyha99fe",
+    "parentPhone": "",
+    "notifyParent": false,
     "showMakeNote": true,
-    "showCompletionRate": true,
+    "studentPhone": "",
+    "notifyStudent": false,
+    "showNoteStages": true,
     "showTestResults": true,
-    "showNoteStages": true
+    "showCompletionRate": true
   },
   {
     "id": "s_1780633652940_9hqjzx",
+    "days": [
+      "월",
+      "수",
+      "금"
+    ],
+    "memo": "",
     "name": "박은준",
-    "school": "살레시오중",
     "grade": "중3",
+    "school": "살레시오중",
     "classes": [
       "cls_1780311125071_i1638e"
     ],
-    "memo": "",
-    "days": [
-      "월",
-      "수",
-      "금"
-    ],
-    "studentPhone": "",
-    "parentPhone": "",
-    "notifyStudent": false,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showMakeNote": true,
     "pageCode": "3dqm5z9tex4t",
-    "showNoteStages": true,
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1780311125071_i1638e",
+        "to": null,
         "from": "",
-        "to": null
+        "classId": "cls_1780311125071_i1638e"
       },
       {
-        "classId": "cls_1780910683163_gtovnl",
+        "to": "2026-07-28",
         "from": "",
-        "to": "2026-07-28"
+        "classId": "cls_1780910683163_gtovnl"
       }
-    ]
+    ],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "",
+    "notifyStudent": false,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1780825523674_8dwstz",
-    "name": "정시우",
-    "school": "살레시오고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780310095581_j36rd5"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -700,25 +693,25 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-4092-0577",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showMakeNote": true,
+    "memo": "",
+    "name": "정시우",
+    "grade": "고2",
+    "school": "살레시오고",
+    "classes": [
+      "cls_1780310095581_j36rd5"
+    ],
     "pageCode": "jh4b29p5qwtn",
-    "showNoteStages": true
+    "parentPhone": "",
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-4092-0577",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1780825552050_3a3ma5",
-    "name": "노태원",
-    "school": "살레시오고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780310095581_j36rd5"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -728,33 +721,33 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-5891-0633",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showMakeNote": true,
+    "memo": "",
+    "name": "노태원",
+    "grade": "고2",
+    "school": "살레시오고",
+    "classes": [
+      "cls_1780310095581_j36rd5"
+    ],
+    "flagged": false,
     "pageCode": "mpxq2gey9jpc",
-    "showNoteStages": true,
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1780310095581_j36rd5",
+        "to": null,
         "from": "",
-        "to": null
+        "classId": "cls_1780310095581_j36rd5"
       }
     ],
-    "flagged": false
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-5891-0633",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1780833414231_dup17p",
-    "name": "국보민",
-    "school": "숭일고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780310019938_5xpe6o"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -764,32 +757,32 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-2736-3721",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showMakeNote": true,
+    "memo": "",
+    "name": "국보민",
+    "grade": "고2",
+    "school": "숭일고",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
     "pageCode": "zm39mvjpdvgu",
-    "showNoteStages": true,
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1780310019938_5xpe6o",
+        "to": null,
         "from": "",
-        "to": null
+        "classId": "cls_1780310019938_5xpe6o"
       }
-    ]
+    ],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-2736-3721",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1783145087770_b6wsph",
-    "name": "송린우",
-    "school": "경신여고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780310019938_5xpe6o"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -799,25 +792,25 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-4221-2189",
+    "memo": "",
+    "name": "송린우",
+    "grade": "고2",
+    "school": "경신여고",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
+    "pageCode": "pj9fc48qgnyt",
     "parentPhone": "010-4602-7578",
-    "notifyStudent": true,
     "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
     "showMakeNote": true,
-    "pageCode": "pj9fc48qgnyt"
+    "studentPhone": "010-4221-2189",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1783476674835_bt1qix",
-    "name": "이지수",
-    "school": "문정여고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780310019938_5xpe6o"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -827,25 +820,25 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-3082-2716",
+    "memo": "",
+    "name": "이지수",
+    "grade": "고2",
+    "school": "문정여고",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
+    "pageCode": "vk5cmg9pumy3",
     "parentPhone": "",
-    "notifyStudent": true,
     "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
     "showMakeNote": true,
-    "pageCode": "vk5cmg9pumy3"
+    "studentPhone": "010-3082-2716",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1783505825104_ci241f",
-    "name": "정찬영",
-    "school": "인성고",
-    "grade": "고2",
-    "classes": [
-      "cls_1780310019938_5xpe6o"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -855,25 +848,25 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-6660-1487",
+    "memo": "",
+    "name": "정찬영",
+    "grade": "고2",
+    "school": "인성고",
+    "classes": [
+      "cls_1780310019938_5xpe6o"
+    ],
+    "pageCode": "3jf965xekz3a",
     "parentPhone": "",
-    "notifyStudent": true,
     "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
     "showMakeNote": true,
-    "pageCode": "3jf965xekz3a"
+    "studentPhone": "010-6660-1487",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1783735608548_k885g4",
-    "name": "원지율",
-    "school": "고려고",
-    "grade": "고1",
-    "classes": [
-      "cls_1783735589810_tlwac7"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -883,25 +876,25 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-8603-3794",
+    "memo": "",
+    "name": "원지율",
+    "grade": "고1",
+    "school": "고려고",
+    "classes": [
+      "cls_1783735589810_tlwac7"
+    ],
+    "pageCode": "6u3nac2y9tbh",
     "parentPhone": "",
-    "notifyStudent": true,
     "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
     "showMakeNote": true,
-    "pageCode": "6u3nac2y9tbh"
+    "studentPhone": "010-8603-3794",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1783735663261_629qgf",
-    "name": "이지우",
-    "school": "동신여고",
-    "grade": "고1",
-    "classes": [
-      "cls_1783735589810_tlwac7"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -911,53 +904,53 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-6206-4917",
+    "memo": "",
+    "name": "이지우",
+    "grade": "고1",
+    "school": "동신여고",
+    "classes": [
+      "cls_1783735589810_tlwac7"
+    ],
+    "pageCode": "vdbwb8yub4xy",
     "parentPhone": "",
-    "notifyStudent": true,
     "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
     "showMakeNote": true,
-    "pageCode": "vdbwb8yub4xy"
+    "studentPhone": "010-6206-4917",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1783735695213_xbid51",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "memo": "",
     "name": "정호연",
-    "school": "동신고",
     "grade": "고1",
+    "school": "동신고",
     "classes": [
       "cls_1783735589810_tlwac7"
     ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-8801-7945",
+    "pageCode": "grpsp8y3wcjn",
     "parentPhone": "",
-    "notifyStudent": true,
     "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
     "showMakeNote": true,
-    "pageCode": "grpsp8y3wcjn"
+    "studentPhone": "010-8801-7945",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1783741551628_vw0d5m",
-    "name": "박하윤",
-    "school": "국제고",
-    "grade": "고1",
-    "classes": [
-      "cls_1783741486590_iyer5b"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -967,25 +960,25 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-6862-2612",
+    "memo": "",
+    "name": "박하윤",
+    "grade": "고1",
+    "school": "국제고",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
+    "pageCode": "5t3q9pua6ndz",
     "parentPhone": "",
-    "notifyStudent": true,
     "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
     "showMakeNote": true,
-    "pageCode": "5t3q9pua6ndz"
+    "studentPhone": "010-6862-2612",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1783741639936_epkpt5",
-    "name": "송시욱",
-    "school": "살레시오고",
-    "grade": "고1",
-    "classes": [
-      "cls_1783741486590_iyer5b"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -995,131 +988,131 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-5074-0945",
+    "memo": "",
+    "name": "송시욱",
+    "grade": "고1",
+    "school": "살레시오고",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
+    "pageCode": "msbmdr3h36yz",
     "parentPhone": "",
-    "notifyStudent": true,
     "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
     "showMakeNote": true,
-    "pageCode": "msbmdr3h36yz"
+    "studentPhone": "010-5074-0945",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1784357925964_vuz436",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "memo": "",
     "name": "위재완",
-    "school": "고려고",
     "grade": "고2",
+    "school": "고려고",
     "classes": [
       "cls_1780310061018_vay6zf"
     ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-5354-1353",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
+    "flagged": false,
     "pageCode": "j38mr5a444tm",
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1780310061018_vay6zf",
+        "to": null,
         "from": "2026-07-18",
-        "to": null
+        "classId": "cls_1780310061018_vay6zf"
       }
     ],
-    "flagged": false
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-5354-1353",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1784366227996_b7yw4o",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "memo": "",
     "name": "김주원",
-    "school": "고려고",
     "grade": "고2",
+    "school": "고려고",
     "classes": [
       "cls_1780310095581_j36rd5"
     ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-8610-6275",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
     "pageCode": "bxjqbb5n4ndg",
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1780310095581_j36rd5",
+        "to": null,
         "from": "2026-07-18",
-        "to": null
+        "classId": "cls_1780310095581_j36rd5"
       }
-    ]
+    ],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-8610-6275",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1784437736068_jgkmca",
+    "days": [
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토",
+      "일"
+    ],
+    "memo": "",
     "name": "조해인",
-    "school": "경신여고",
     "grade": "고2",
+    "school": "경신여고",
     "classes": [
       "cls_1780310019938_5xpe6o"
     ],
-    "memo": "",
-    "days": [
-      "월",
-      "화",
-      "수",
-      "목",
-      "금",
-      "토",
-      "일"
-    ],
-    "studentPhone": "010-4652-9734",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
     "pageCode": "75pk3hetr7qn",
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1780310019938_5xpe6o",
+        "to": null,
         "from": "2026-07-19",
-        "to": null
+        "classId": "cls_1780310019938_5xpe6o"
       }
-    ]
+    ],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-4652-9734",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1784950950171_2ycwdo",
-    "name": "남옥빈",
-    "school": "살레시오고",
-    "grade": "고1",
-    "classes": [
-      "cls_1783741486590_iyer5b"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -1129,32 +1122,32 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-5960-9641",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
+    "memo": "",
+    "name": "남옥빈",
+    "grade": "고1",
+    "school": "살레시오고",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
     "pageCode": "3jc9cqp9m943",
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1783741486590_iyer5b",
+        "to": null,
         "from": "2026-07-25",
-        "to": null
+        "classId": "cls_1783741486590_iyer5b"
       }
-    ]
+    ],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-5960-9641",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1785035974019_bc13fy",
-    "name": "조한결",
-    "school": "살레시오고",
-    "grade": "고1",
-    "classes": [
-      "cls_1783741486590_iyer5b"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -1164,63 +1157,63 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-7542-0271",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
+    "memo": "",
+    "name": "조한결",
+    "grade": "고1",
+    "school": "살레시오고",
+    "classes": [
+      "cls_1783741486590_iyer5b"
+    ],
     "pageCode": "naan7bk6dx9e",
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1783741486590_iyer5b",
+        "to": null,
         "from": "2026-07-26",
-        "to": null
+        "classId": "cls_1783741486590_iyer5b"
       }
-    ]
+    ],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-7542-0271",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1787570844823_nbqosc",
-    "name": "신다은",
-    "school": "양산중",
-    "grade": "중3",
-    "classes": [
-      "cls_1787570825333_7l5oq4"
-    ],
-    "memo": "",
     "days": [
       "월",
       "수",
       "금"
     ],
-    "studentPhone": "010-2460-6354",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
+    "memo": "",
+    "name": "신다은",
+    "grade": "중3",
+    "school": "양산중",
+    "classes": [
+      "cls_1787570825333_7l5oq4"
+    ],
     "pageCode": "juhk8ym7ujt3",
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1787570825333_7l5oq4",
+        "to": null,
         "from": "2026-08-24",
-        "to": null
+        "classId": "cls_1787570825333_7l5oq4"
       }
-    ]
+    ],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-2460-6354",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   },
   {
     "id": "s_1790074374851_96xx1y",
-    "name": "장하늘",
-    "school": "경신여고",
-    "grade": "고1",
-    "classes": [
-      "cls_1790074357169_fmjal9"
-    ],
-    "memo": "",
     "days": [
       "월",
       "화",
@@ -1230,21 +1223,28 @@
       "토",
       "일"
     ],
-    "studentPhone": "010-9679-6785",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": true,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
+    "memo": "",
+    "name": "장하늘",
+    "grade": "고1",
+    "school": "경신여고",
+    "classes": [
+      "cls_1790074357169_fmjal9"
+    ],
     "pageCode": "httmhsxzhjqp",
+    "parentPhone": "",
     "classHistory": [
       {
-        "classId": "cls_1790074357169_fmjal9",
+        "to": null,
         "from": "2026-09-22",
-        "to": null
+        "classId": "cls_1790074357169_fmjal9"
       }
-    ]
+    ],
+    "notifyParent": true,
+    "showMakeNote": true,
+    "studentPhone": "010-9679-6785",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   }
 ]

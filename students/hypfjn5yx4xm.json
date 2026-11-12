@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-09T15:02:15.898Z",
+  "generatedAt": "2026-11-12T04:51:12.911Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -108,6 +108,15 @@
         "sessionCount": 10,
         "lastWatchedAt": "2026-09-11T16:25:15.047Z"
       },
+      "RHJzwrezWTA": {
+        "lectureId": "lec_mqoujc2nsde",
+        "videoTitle": "8~13쪽 두 점 사이의 거리",
+        "durationSec": 3666,
+        "lastPosition": 0,
+        "lectureTitle": "공통수학2 개념+유형( ~ 집합의 연산 )_26년 1, 2월 수업",
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-11-09T15:39:39.914Z"
+      },
       "ROGD4n-9mrY": {
         "lectureId": "lec_mririwvdtb6",
         "videoTitle": "[개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
@@ -117,6 +126,15 @@
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강",
         "sessionCount": 1,
         "lastWatchedAt": "2026-11-08T17:02:49.548Z"
+      },
+      "XagAr-A2uHs": {
+        "lectureId": "lec_mrq9a1wrhru",
+        "videoTitle": "[개념루트, 사전 촬영] 272~281쪽 정적분의 활용 - 속도와 거리",
+        "durationSec": 1506,
+        "lastPosition": 0,
+        "lectureTitle": "6시 수업 - 미적분1 쎈B 문풀 (26년 7월 ~ )",
+        "sessionCount": 1,
+        "lastWatchedAt": "2026-11-09T15:39:46.367Z"
       },
       "YPadSZ_ftKQ": {
         "lectureId": "lec_ms3cw1y06x4",

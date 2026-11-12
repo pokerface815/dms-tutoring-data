@@ -1,1180 +1,1180 @@
 [
   {
     "id": "lesson_1780185291295_v0t1tj",
-    "classId": "cls_1779986589959_uaer45",
     "date": "2026-05-31",
+    "classId": "cls_1779986589959_uaer45",
     "content": "각 학교 부교재 풀이",
+    "createdAt": "2026-05-30T23:54:51.293Z",
+    "updatedAt": "2026-05-30T23:55:26.012Z",
+    "taskBatchId": "t_mpt0dol8",
     "studentNotes": [
       {
-        "studentId": "s_1777546978791_hsee5a",
-        "note": "ㅁㄴㅇㄹㄴㅇㄹ"
+        "note": "ㅁㄴㅇㄹㄴㅇㄹ",
+        "studentId": "s_1777546978791_hsee5a"
       }
-    ],
-    "taskBatchId": "t_mpt0dol8",
-    "createdAt": "2026-05-30T23:54:51.293Z",
-    "updatedAt": "2026-05-30T23:55:26.012Z"
+    ]
   },
   {
     "id": "lesson_1780150570128_lr54q1",
-    "classId": "cls_1779987510578_5e6to7",
     "date": "2026-05-30",
+    "classId": "cls_1779987510578_5e6to7",
     "content": "각 학교별 부교재 풀이",
+    "createdAt": "2026-05-30T14:16:10.128Z",
+    "updatedAt": "2026-05-30T23:55:32.739Z",
+    "taskBatchId": "t_mpt0dts4",
     "studentNotes": [
       {
-        "studentId": "s_1779005266373_7iq1b8",
-        "note": "ㅁㄴㅇㄹㄴㅇㄹ"
+        "note": "ㅁㄴㅇㄹㄴㅇㄹ",
+        "studentId": "s_1779005266373_7iq1b8"
       },
       {
-        "studentId": "s_1779811264964_kbtli4",
-        "note": "ㅁㄴㅇㄹ호ㅓㅗㅓ로ㅓ"
+        "note": "ㅁㄴㅇㄹ호ㅓㅗㅓ로ㅓ",
+        "studentId": "s_1779811264964_kbtli4"
       },
       {
-        "studentId": "s_1778397156600_clkd2u",
-        "note": "ㅁㄴㅇㄹㄴㅇㄹㄴㅁㅇㄹ"
+        "note": "ㅁㄴㅇㄹㄴㅇㄹㄴㅁㅇㄹ",
+        "studentId": "s_1778397156600_clkd2u"
       }
-    ],
-    "taskBatchId": "t_mpt0dts4",
-    "createdAt": "2026-05-30T14:16:10.128Z",
-    "updatedAt": "2026-05-30T23:55:32.739Z"
+    ]
   },
   {
     "id": "lesson_1780190478572_c6hscq",
-    "classId": "cls_1780190403417_b3vo4d",
     "date": "2026-05-31",
+    "classId": "cls_1780190403417_b3vo4d",
     "content": "모의고사 킬러 문항",
-    "studentNotes": [],
-    "taskBatchId": "t_mpt3g4bw",
     "createdAt": "2026-05-31T01:21:18.572Z",
-    "updatedAt": "2026-05-31T01:21:18.572Z"
+    "updatedAt": "2026-05-31T01:21:18.572Z",
+    "taskBatchId": "t_mpt3g4bw",
+    "studentNotes": []
   },
   {
     "id": "lesson_1780221869001_zym51o",
-    "classId": "cls_1780190403417_b3vo4d",
     "date": "2026-05-31",
+    "classId": "cls_1780190403417_b3vo4d",
     "content": "잘 되고 있나?",
+    "createdAt": "2026-05-31T10:04:29.001Z",
+    "updatedAt": "2026-05-31T10:04:29.001Z",
+    "taskBatchId": null,
     "studentNotes": [
       {
-        "studentId": "s_1780190418387_a11waf",
-        "note": "ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㄴㅇㄹ"
+        "note": "ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㄴㅇㄹ",
+        "studentId": "s_1780190418387_a11waf"
       }
-    ],
-    "taskBatchId": null,
-    "createdAt": "2026-05-31T10:04:29.001Z",
-    "updatedAt": "2026-05-31T10:04:29.001Z"
+    ]
   },
   {
     "id": "lesson_1780314584317_0av73m",
-    "classId": "cls_1780311125071_i1638e",
     "date": "2026-06-01",
+    "classId": "cls_1780311125071_i1638e",
     "content": "이차방정식의 풀이 - 제곱근에 의한 풀이방법, 완전제곱식에 의한 풀이방법, 근의 공식",
-    "studentNotes": [],
-    "taskBatchId": "t_mpv5c4xp",
     "createdAt": "2026-06-01T11:49:44.317Z",
-    "updatedAt": "2026-06-01T11:49:44.317Z"
+    "updatedAt": "2026-06-01T11:49:44.317Z",
+    "taskBatchId": "t_mpv5c4xp",
+    "studentNotes": []
   },
   {
     "id": "lesson_1780316833657_6o173p",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-06-01",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "일품 연립방정식의 풀이 및 활용\n부족한 부분 보충(채점, 오답, 질문)",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-01T12:27:13.656Z",
-    "updatedAt": "2026-06-01T12:27:13.656Z"
+    "updatedAt": "2026-06-01T12:27:13.656Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1780316879798_mqs374",
-    "classId": "cls_1780309030966_ingi3o",
     "date": "2026-06-01",
+    "classId": "cls_1780309030966_ingi3o",
     "content": "대수 개+유 유형편\n사인, 코사인법칙 질문 및 등차, 등비수열",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-01T12:27:59.798Z",
-    "updatedAt": "2026-06-01T12:27:59.798Z"
+    "updatedAt": "2026-06-01T12:27:59.798Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1780316930954_36o8vx",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-06-01",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "쎈B 공통수학1\n취약 단원인 복소수 단원 문제 풀이",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-01T12:28:50.954Z",
-    "updatedAt": "2026-06-01T12:28:50.954Z"
+    "updatedAt": "2026-06-01T12:28:50.954Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1780314001686_vqaban",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-01",
+    "classId": "cls_1780310883451_eliu81",
     "content": "8단원 등차수열과 등비수열 - 서술형 완성하기",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-01T11:40:01.686Z",
-    "updatedAt": "2026-06-01T14:07:30.244Z"
+    "updatedAt": "2026-06-01T14:07:30.244Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1780499220708_08g6xk",
-    "classId": "cls_1780355764530_wxb5as",
     "date": "2026-06-02",
+    "classId": "cls_1780355764530_wxb5as",
     "content": "이룸 퇴소\n서울 한강",
+    "createdAt": "2026-06-03T15:07:00.707Z",
+    "updatedAt": "2026-06-03T15:08:18.479Z",
+    "taskBatchId": "t_mpy7b7an",
     "studentNotes": [
       {
-        "studentId": "s_1780190418387_a11waf",
-        "note": "운전"
+        "note": "운전",
+        "studentId": "s_1780190418387_a11waf"
       },
       {
-        "studentId": "s_1780355782316_yrovp3",
-        "note": "유석 담당"
+        "note": "유석 담당",
+        "studentId": "s_1780355782316_yrovp3"
       }
-    ],
-    "taskBatchId": "t_mpy7b7an",
-    "createdAt": "2026-06-03T15:07:00.707Z",
-    "updatedAt": "2026-06-03T15:08:18.479Z"
+    ]
   },
   {
     "id": "lesson_1780500319551_fpti7u",
-    "classId": "cls_1780355764530_wxb5as",
     "date": "2026-06-01",
+    "classId": "cls_1780355764530_wxb5as",
     "content": "중3 수업\n고등 선행\n예나 수업",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-03T15:25:19.551Z",
-    "updatedAt": "2026-06-03T15:52:42.152Z"
+    "updatedAt": "2026-06-03T15:52:42.152Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1780499284766_03g44z",
-    "classId": "cls_1780355764530_wxb5as",
     "date": "2026-06-03",
+    "classId": "cls_1780355764530_wxb5as",
     "content": "에버랜드",
-    "studentNotes": [],
-    "taskBatchId": "t_mpz6kxoh",
     "createdAt": "2026-06-03T15:08:04.766Z",
-    "updatedAt": "2026-06-04T07:35:39.137Z"
+    "updatedAt": "2026-06-04T07:35:39.137Z",
+    "taskBatchId": "t_mpz6kxoh",
+    "studentNotes": []
   },
   {
     "id": "lesson_1780558953094_8uqypk",
-    "classId": "cls_1780355764530_wxb5as",
     "date": "2026-06-04",
+    "classId": "cls_1780355764530_wxb5as",
     "content": "중등, 확통 보충\n예나 수업",
+    "createdAt": "2026-06-04T07:42:33.094Z",
+    "updatedAt": "2026-06-04T07:50:12.447Z",
+    "taskBatchId": "t_mpz73nj3",
     "studentNotes": [
       {
-        "studentId": "s_1780190418387_a11waf",
-        "note": "진도 잘 챙기기"
+        "note": "진도 잘 챙기기",
+        "studentId": "s_1780190418387_a11waf"
       }
-    ],
-    "taskBatchId": "t_mpz73nj3",
-    "createdAt": "2026-06-04T07:42:33.094Z",
-    "updatedAt": "2026-06-04T07:50:12.447Z"
+    ]
   },
   {
     "id": "lesson_1780634146536_ppxoms",
-    "classId": "cls_1780355764530_wxb5as",
     "date": "2026-06-05",
+    "classId": "cls_1780355764530_wxb5as",
     "content": "주간테스트",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-05T04:35:46.536Z",
-    "updatedAt": "2026-06-05T04:35:46.536Z"
+    "updatedAt": "2026-06-05T04:35:46.536Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1780750860339_6kskr1",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-06",
+    "classId": "cls_1780310883451_eliu81",
     "content": "모의고사 오답(19, 28번) 질문\n부교재 풀이",
-    "studentNotes": [],
-    "taskBatchId": "t_mq2d31o3",
     "createdAt": "2026-06-06T13:01:00.339Z",
-    "updatedAt": "2026-06-06T13:01:00.339Z"
+    "updatedAt": "2026-06-06T13:01:00.339Z",
+    "taskBatchId": "t_mq2d31o3",
+    "studentNotes": []
   },
   {
     "id": "lesson_1780807335966_008yd8",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-06-07",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "<수업 보충>\n공수2 - 두 점 사이의 거리 마무리, 내분점 개념",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-07T04:42:15.966Z",
-    "updatedAt": "2026-06-07T04:42:36.274Z"
+    "updatedAt": "2026-06-07T04:42:36.274Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1780907008277_7dgplb",
-    "classId": "cls_1780311125071_i1638e",
     "date": "2026-06-08",
+    "classId": "cls_1780311125071_i1638e",
     "content": "시험대비 시작\n각 학교별 교과서 변형문제 풀이\n끝나는대로 추가 프린트 풀이 할 예정임.",
-    "studentNotes": [],
-    "taskBatchId": "t_mq4y1u6t",
     "createdAt": "2026-06-08T08:23:28.277Z",
-    "updatedAt": "2026-06-08T08:23:28.277Z"
+    "updatedAt": "2026-06-08T08:23:28.277Z",
+    "taskBatchId": "t_mq4y1u6t",
+    "studentNotes": []
   },
   {
     "id": "lesson_1780913212394_88bita",
-    "classId": "cls_1780309030966_ingi3o",
     "date": "2026-06-08",
+    "classId": "cls_1780309030966_ingi3o",
     "content": "대수 - 수열의 귀납적 정의, 수학적 귀납법 수업영상으로 마무리\n미적분1 - 도함수의 활용(함수의 그래프 + 함수의 최대,최소)",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-08T10:06:52.394Z",
-    "updatedAt": "2026-06-08T10:06:52.394Z"
+    "updatedAt": "2026-06-08T10:06:52.394Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1780919677088_ubd33m",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-08",
+    "classId": "cls_1780310883451_eliu81",
     "content": "부교재 수열의 합 풀이",
-    "studentNotes": [],
-    "taskBatchId": "t_mq55ldi8",
     "createdAt": "2026-06-08T11:54:37.088Z",
-    "updatedAt": "2026-06-08T11:54:37.088Z"
+    "updatedAt": "2026-06-08T11:54:37.088Z",
+    "taskBatchId": "t_mq55ldi8",
+    "studentNotes": []
   },
   {
     "id": "lesson_1780912943607_zgs5oj",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-06-08",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "공수1 개+유 유형편 누락부분 채우면서 질문\n다음 시간부터 기말고사 대비 시작",
-    "studentNotes": [],
-    "taskBatchId": "t_mq567wcd",
     "createdAt": "2026-06-08T10:02:23.607Z",
-    "updatedAt": "2026-06-08T12:12:07.933Z"
+    "updatedAt": "2026-06-08T12:12:07.933Z",
+    "taskBatchId": "t_mq567wcd",
+    "studentNotes": []
   },
   {
     "id": "lesson_1780913049250_l2t7rh",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-06-08",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "공수2\n두 점 사이의 거리 - 연습문제 실력UP 풀이\n내분점 - 수업영상 들은 부분 문제 풀이\n📝 다음 시간부터 시험 대비 시작",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-08T10:04:09.250Z",
-    "updatedAt": "2026-06-09T05:00:21.774Z"
+    "updatedAt": "2026-06-09T05:00:21.774Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781084897820_6t25qp",
-    "classId": "cls_1780309030966_ingi3o",
     "date": "2026-06-10",
+    "classId": "cls_1780309030966_ingi3o",
     "content": "대수 - 등차수열의 일반항, 합",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-10T09:48:17.820Z",
-    "updatedAt": "2026-06-10T09:48:17.820Z"
+    "updatedAt": "2026-06-10T09:48:17.820Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781084856739_74xo7h",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-06-10",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "교과서 상 문제 변형 프린트\n시험 대비 프린트 분출",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-10T09:47:36.739Z",
-    "updatedAt": "2026-06-10T10:41:04.207Z"
+    "updatedAt": "2026-06-10T10:41:04.207Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781095712691_4j831x",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-10",
+    "classId": "cls_1780310883451_eliu81",
     "content": "과제로 나간 오답노트 3개 풀이",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-10T12:48:32.691Z",
-    "updatedAt": "2026-06-10T12:48:32.691Z"
+    "updatedAt": "2026-06-10T12:48:32.691Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781099183984_voz5d5",
-    "classId": "cls_1780311125071_i1638e",
     "date": "2026-06-10",
+    "classId": "cls_1780311125071_i1638e",
     "content": "교과서 변형 문제 프린트 풀이 끝난 친구들에게 시험 대비 프린트 분출(각 학교 시험범위에 맞춰)",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-10T13:46:23.984Z",
-    "updatedAt": "2026-06-10T13:46:23.984Z"
+    "updatedAt": "2026-06-10T13:46:23.984Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1780910730396_c4nf4t",
-    "classId": "cls_1780910683163_gtovnl",
     "date": "2026-06-08",
+    "classId": "cls_1780910683163_gtovnl",
     "content": "시험 대비 시작\n학교 교과서 변형문제 프린트 풀이",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-08T09:25:30.396Z",
-    "updatedAt": "2026-06-10T13:46:52.991Z"
+    "updatedAt": "2026-06-10T13:46:52.991Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781099220316_21ausp",
-    "classId": "cls_1780910683163_gtovnl",
     "date": "2026-06-10",
+    "classId": "cls_1780910683163_gtovnl",
     "content": "조퇴 - 주말에 보충 예정",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-10T13:47:00.316Z",
-    "updatedAt": "2026-06-10T13:47:11.968Z"
+    "updatedAt": "2026-06-10T13:47:11.968Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781099203656_op7db6",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-06-10",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "결석 - 주말에 보충 예정",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-10T13:46:43.656Z",
-    "updatedAt": "2026-06-10T13:47:24.317Z"
+    "updatedAt": "2026-06-10T13:47:24.317Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781353022211_7isgf5",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-13",
+    "classId": "cls_1780310883451_eliu81",
     "content": "오답노트 반복 & 질문",
+    "createdAt": "2026-06-13T12:17:02.211Z",
+    "updatedAt": "2026-06-14T01:19:47.259Z",
+    "taskBatchId": "t_mqd3k37f",
     "studentNotes": [
       {
-        "studentId": "s_1777547047005_uo92w5",
-        "note": "시그마 부분이 약하니, 추가 보충 필요함."
+        "note": "시그마 부분이 약하니, 추가 보충 필요함.",
+        "studentId": "s_1777547047005_uo92w5"
       }
-    ],
-    "taskBatchId": "t_mqd3k37f",
-    "createdAt": "2026-06-13T12:17:02.211Z",
-    "updatedAt": "2026-06-14T01:19:47.259Z"
+    ]
   },
   {
     "id": "lesson_1781525379490_852cgq",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-15",
+    "classId": "cls_1780310883451_eliu81",
     "content": "부교재 수열의 합과 수학적 귀납법 마무리.\n부교재 끝. \n복습 + 교과서",
+    "createdAt": "2026-06-15T12:09:39.490Z",
+    "updatedAt": "2026-06-15T12:17:41.378Z",
+    "taskBatchId": null,
     "studentNotes": [
       {
-        "studentId": "s_1777547047005_uo92w5",
-        "note": "Sn이 포함된 귀납적 정의에서 주의 사항 체크."
+        "note": "Sn이 포함된 귀납적 정의에서 주의 사항 체크.",
+        "studentId": "s_1777547047005_uo92w5"
       }
-    ],
-    "taskBatchId": null,
-    "createdAt": "2026-06-15T12:09:39.490Z",
-    "updatedAt": "2026-06-15T12:17:41.378Z"
+    ]
   },
   {
     "id": "lesson_1781607097929_kwldl8",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-06-12",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "주간테스트",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-16T10:51:37.929Z",
-    "updatedAt": "2026-06-16T10:51:37.929Z"
+    "updatedAt": "2026-06-16T10:51:37.929Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781607114660_rllcir",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-06-15",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "시험 대비 프린트 풀이",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-16T10:51:54.660Z",
-    "updatedAt": "2026-06-16T10:51:54.660Z"
+    "updatedAt": "2026-06-16T10:51:54.660Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781607126232_15r29f",
-    "classId": "cls_1780309030966_ingi3o",
     "date": "2026-06-15",
+    "classId": "cls_1780309030966_ingi3o",
     "content": "시험 대비 프린트 풀이",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-16T10:52:06.232Z",
-    "updatedAt": "2026-06-16T10:52:06.232Z"
+    "updatedAt": "2026-06-16T10:52:06.232Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781607133678_67toz6",
-    "classId": "cls_1780309030966_ingi3o",
     "date": "2026-06-12",
+    "classId": "cls_1780309030966_ingi3o",
     "content": "주간테스트",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-16T10:52:13.678Z",
-    "updatedAt": "2026-06-16T10:52:13.678Z"
+    "updatedAt": "2026-06-16T10:52:13.678Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781607151233_ecxc25",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-06-15",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "시험 대비 프린트 풀이",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-16T10:52:31.233Z",
-    "updatedAt": "2026-06-16T10:52:31.233Z"
+    "updatedAt": "2026-06-16T10:52:31.233Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781607170962_hlnidz",
-    "classId": "cls_1780910683163_gtovnl",
     "date": "2026-06-15",
+    "classId": "cls_1780910683163_gtovnl",
     "content": "시험 대비 프린트 풀이",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-16T10:52:50.962Z",
-    "updatedAt": "2026-06-16T10:52:50.962Z"
+    "updatedAt": "2026-06-16T10:52:50.962Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781607184789_b1rbz0",
-    "classId": "cls_1780311125071_i1638e",
     "date": "2026-06-12",
+    "classId": "cls_1780311125071_i1638e",
     "content": "주간테스트",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-16T10:53:04.789Z",
-    "updatedAt": "2026-06-16T10:53:04.789Z"
+    "updatedAt": "2026-06-16T10:53:04.789Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781607220115_rutju4",
-    "classId": "cls_1780311125071_i1638e",
     "date": "2026-06-15",
+    "classId": "cls_1780311125071_i1638e",
     "content": "시험 대비 프린트 풀이(학교별 출제범위, 개별 수준 고려)",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-16T10:53:40.115Z",
-    "updatedAt": "2026-06-16T10:53:40.115Z"
+    "updatedAt": "2026-06-16T10:53:40.115Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781864752563_tu8nz7",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-19",
+    "classId": "cls_1780310883451_eliu81",
     "content": "학교 부교재 마무리\n교과서 풀이 시작",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-19T10:25:52.563Z",
-    "updatedAt": "2026-06-19T10:25:52.563Z"
+    "updatedAt": "2026-06-19T10:25:52.563Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1781959263414_jf9cn4",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-20",
+    "classId": "cls_1780310883451_eliu81",
     "content": "학교 부교재 예상문제 4회분 분출\n1회 풀이",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-20T12:41:03.414Z",
-    "updatedAt": "2026-06-20T12:41:03.414Z"
+    "updatedAt": "2026-06-20T12:41:03.414Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1782018123846_reoyz5",
-    "classId": "cls_1780355764530_wxb5as",
     "date": "2026-06-24",
+    "classId": "cls_1780355764530_wxb5as",
     "content": "테스트",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-21T05:02:03.846Z",
-    "updatedAt": "2026-06-21T05:02:03.846Z"
+    "updatedAt": "2026-06-21T05:02:03.846Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1782146331100_lak8vs",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-22",
+    "classId": "cls_1780310883451_eliu81",
     "content": "학교 부교재 예상문제 2회 풀이\n오답노트 2회분 풀이",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-22T16:38:51.100Z",
-    "updatedAt": "2026-06-22T16:38:51.100Z"
+    "updatedAt": "2026-06-22T16:38:51.100Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1782317076811_57e6ob",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-24",
+    "classId": "cls_1780310883451_eliu81",
     "content": "학교 부교재 예상문제 3회 풀이\n오답노트 1회분 풀이",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-24T16:04:36.811Z",
-    "updatedAt": "2026-06-26T14:32:57.849Z"
+    "updatedAt": "2026-06-26T14:32:57.849Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1782565666011_noronw",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-27",
+    "classId": "cls_1780310883451_eliu81",
     "content": "학교 부교재 예상문제 2, 3회 오답 다시 풀이\n교과서 풀이",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-27T13:07:46.011Z",
-    "updatedAt": "2026-06-27T13:07:46.011Z"
+    "updatedAt": "2026-06-27T13:07:46.011Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1782750681828_tvgk47",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-29",
+    "classId": "cls_1780310883451_eliu81",
     "content": "교과서 마무리",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-06-29T16:31:21.828Z",
-    "updatedAt": "2026-06-29T16:31:21.828Z"
+    "updatedAt": "2026-06-29T16:31:21.828Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783229289019_jskbws",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-01",
+    "classId": "cls_1780310883451_eliu81",
     "content": "시험 직전 대비",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-05T05:28:09.019Z",
-    "updatedAt": "2026-07-05T05:28:09.019Z"
+    "updatedAt": "2026-07-05T05:28:09.019Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783332505768_jmmks0",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-07-06",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "조합 개념",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-06T10:08:25.768Z",
-    "updatedAt": "2026-07-06T10:08:25.768Z"
+    "updatedAt": "2026-07-06T10:08:25.768Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783332535928_2snfu5",
-    "classId": "cls_1780910683163_gtovnl",
     "date": "2026-07-06",
+    "classId": "cls_1780910683163_gtovnl",
     "content": "삼각비",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-06T10:08:55.928Z",
-    "updatedAt": "2026-07-06T10:08:55.928Z"
+    "updatedAt": "2026-07-06T10:08:55.928Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783503877035_dutjly",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-07-08",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "공수1 - 행렬만 하면 마무리\n일품(중2 1학기) 마무리 되었음.\n쎈(중3 2학기) - 원주각까지는 되어 있음.",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-08T09:44:37.034Z",
-    "updatedAt": "2026-07-08T09:44:37.034Z"
+    "updatedAt": "2026-07-08T09:44:37.034Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783505353254_caf3kt",
-    "classId": "cls_1780910683163_gtovnl",
     "date": "2026-07-08",
+    "classId": "cls_1780910683163_gtovnl",
     "content": "삼각비의 정의",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-08T10:09:13.254Z",
-    "updatedAt": "2026-07-08T10:09:13.254Z"
+    "updatedAt": "2026-07-08T10:09:13.254Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783332526990_2begwk",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-07-06",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "공수2(개+유) - 삼각형의 무게중심",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-06T10:08:46.990Z",
-    "updatedAt": "2026-07-08T10:10:26.666Z"
+    "updatedAt": "2026-07-08T10:10:26.666Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783505411049_3jfkw3",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-07-08",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "쎈B 공수1 - 10쪽 다항식의 연산",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-08T10:10:11.049Z",
-    "updatedAt": "2026-07-08T10:10:37.450Z"
+    "updatedAt": "2026-07-08T10:10:37.450Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783505548275_yc29cg",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-07-10",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "주간테스트(공수1 경우의 수)",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-08T10:12:28.275Z",
-    "updatedAt": "2026-07-08T10:12:28.275Z"
+    "updatedAt": "2026-07-08T10:12:28.275Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783506295231_mndvzy",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-07-10",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "주간테스트(공수2 - 두 점사이의 거리, 무게중심)",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-08T10:24:55.231Z",
-    "updatedAt": "2026-07-08T10:24:55.231Z"
+    "updatedAt": "2026-07-08T10:24:55.231Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783939508472_vzka4c",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-07-13",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "공수1 행렬 마무리.\nRPM 시작",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-13T10:45:08.472Z",
-    "updatedAt": "2026-07-13T10:45:08.472Z"
+    "updatedAt": "2026-07-13T10:45:08.472Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783939549834_wcsngd",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-07-13",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "공수2 삼각형의 무게중심",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-13T10:45:49.834Z",
-    "updatedAt": "2026-07-13T10:45:49.834Z"
+    "updatedAt": "2026-07-13T10:45:49.834Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783939585233_fxidtr",
-    "classId": "cls_1783936035043_cn165h",
     "date": "2026-07-13",
+    "classId": "cls_1783936035043_cn165h",
     "content": "라이트쎈 복소수\n과제는 영상 1개 보고 + 라이트쎈 풀어오기",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-13T10:46:25.233Z",
-    "updatedAt": "2026-07-13T10:46:25.233Z"
+    "updatedAt": "2026-07-13T10:46:25.233Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1783513030551_guhpzz",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-08",
+    "classId": "cls_1780310883451_eliu81",
     "content": "♣︎ 기말고사 반성 및 오답 풀이 ♣︎\n\n73.8점(1등급) - 1등급컷 69점 정도\n중간고사 때 1등급컷이 80점이었으니 기말고사가 좀 더 어려웠던 시험이었습니다.\n1등급컷이 낮아진 이유 중 하나가 계산이 복잡한 문항이 다수 포함되어 시간이 부족했을 것 같습니다.\n\n객관식 4개 틀리고, 서술형(20점 만점)에서 8점 감점 되었음.\n\n계산 실수로 틀린 문항이 2개, 찍어서 맞춘 문항이 3개 있습니다.",
-    "studentNotes": [],
-    "taskBatchId": null,
     "createdAt": "2026-07-08T12:17:10.551Z",
+    "important": true,
     "updatedAt": "2026-10-16T08:45:28.743Z",
-    "important": true
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1780568864986_p6qtl9",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-06-04",
+    "classId": "cls_1780310883451_eliu81",
     "content": "1. 6월 모의고사\n- 73점(1등급컷 80~84점 예상)\n- 2문제(19, 21번) 찍어서 맞춤(-8점)\n- 틀린 문제 : 12, 17, 20, 27, 28, 29, 30번",
-    "studentNotes": [],
-    "taskBatchId": "t_mpzhnd0m",
     "createdAt": "2026-06-04T10:27:44.985Z",
+    "important": true,
     "updatedAt": "2026-07-13T18:46:02.205Z",
-    "important": true
+    "taskBatchId": "t_mpzhnd0m",
+    "studentNotes": []
   },
   {
     "id": "lesson_1783939483857_a32bxc",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-11",
+    "classId": "cls_1780310883451_eliu81",
     "content": "미적분1 수업 시작\n ~ 23쪽  함수의 극한의 성질",
-    "studentNotes": [],
-    "taskBatchId": "t_mrjlbauq",
     "createdAt": "2026-07-13T10:44:43.857Z",
+    "important": false,
     "updatedAt": "2026-07-13T19:04:48.590Z",
-    "important": false
+    "taskBatchId": "t_mrjlbauq",
+    "studentNotes": []
   },
   {
     "id": "lesson_1783967080336_xn6ltt",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-13",
+    "classId": "cls_1780310883451_eliu81",
     "content": "기말고사 재시험 문항 대비 복습\n~ 27쪽 함수의 극한(부정형 4가지)",
-    "studentNotes": [],
-    "taskBatchId": "t_mrjlch08",
     "createdAt": "2026-07-13T18:24:40.336Z",
+    "important": false,
     "updatedAt": "2026-07-13T19:17:02.108Z",
-    "important": false
+    "taskBatchId": "t_mrjlch08",
+    "studentNotes": []
   },
   {
     "id": "lesson_1784166614960_b3betk",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-15",
+    "classId": "cls_1780310883451_eliu81",
     "content": "~35쪽 연습문제 풀이\n함수의 극한의 응용(미정계수의 결정, 함수의 극한의 대소 관계)",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_mrmurb32",
     "createdAt": "2026-07-16T01:50:14.960Z",
-    "updatedAt": "2026-07-16T01:50:51.614Z"
+    "important": false,
+    "updatedAt": "2026-07-16T01:50:51.614Z",
+    "taskBatchId": "t_mrmurb32",
+    "studentNotes": []
   },
   {
     "id": "lesson_1784364509852_oflso3",
-    "classId": "cls_1783936035043_cn165h",
     "date": "2026-07-16",
+    "classId": "cls_1783936035043_cn165h",
     "content": "중3-2 테스트",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-07-18T08:48:29.852Z",
-    "updatedAt": "2026-07-18T08:48:29.852Z"
+    "important": false,
+    "updatedAt": "2026-07-18T08:48:29.852Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1784374992921_igfxrk",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-18",
+    "classId": "cls_1780310883451_eliu81",
     "content": "추가 프린트 문제 풀이",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_mrqass9l",
     "createdAt": "2026-07-18T11:43:12.921Z",
-    "updatedAt": "2026-07-18T11:43:12.921Z"
+    "important": false,
+    "updatedAt": "2026-07-18T11:43:12.921Z",
+    "taskBatchId": "t_mrqass9l",
+    "studentNotes": []
   },
   {
     "id": "lesson_1784560545784_jj3buj",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-20",
+    "classId": "cls_1780310883451_eliu81",
     "content": "~ 47쪽 함수의 연속",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_mrtd9trs",
     "createdAt": "2026-07-20T15:15:45.784Z",
-    "updatedAt": "2026-07-20T15:15:45.784Z"
+    "important": false,
+    "updatedAt": "2026-07-20T15:15:45.784Z",
+    "taskBatchId": "t_mrtd9trs",
+    "studentNotes": []
   },
   {
     "id": "lesson_1784787228102_tfdcoa",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-22",
+    "classId": "cls_1780310883451_eliu81",
     "content": "~ 63쪽 평균변화율과 미분계수",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_mrx48eyu",
     "createdAt": "2026-07-23T06:13:48.102Z",
-    "updatedAt": "2026-07-23T06:13:48.102Z"
+    "important": false,
+    "updatedAt": "2026-07-23T06:13:48.102Z",
+    "taskBatchId": "t_mrx48eyu",
+    "studentNotes": []
   },
   {
     "id": "lesson_1784983604781_kb22xc",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-25",
+    "classId": "cls_1780310883451_eliu81",
     "content": "~79쪽 미분가능성과 연속, 도함수",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_ms0d5g6l",
     "createdAt": "2026-07-25T12:46:44.781Z",
-    "updatedAt": "2026-07-25T12:46:44.781Z"
+    "important": false,
+    "updatedAt": "2026-07-25T12:46:44.781Z",
+    "taskBatchId": "t_ms0d5g6l",
+    "studentNotes": []
   },
   {
     "id": "lesson_1785132186030_ctnqcz",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-07-22",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "가족여행",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-07-27T06:03:06.030Z",
-    "updatedAt": "2026-07-27T06:03:06.030Z"
+    "important": false,
+    "updatedAt": "2026-07-27T06:03:06.030Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1785132191509_ddikuu",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-07-24",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "가족여행",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-07-27T06:03:11.509Z",
-    "updatedAt": "2026-07-27T06:03:11.509Z"
+    "important": false,
+    "updatedAt": "2026-07-27T06:03:11.509Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1785149841925_k311fq",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-07-27",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "RPM\n경우의 수 - 순열 오답\n행렬\n다항식의 계산",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-07-27T10:57:21.925Z",
-    "updatedAt": "2026-07-27T10:57:21.925Z"
+    "important": false,
+    "updatedAt": "2026-07-27T10:57:21.925Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1785182324771_wp4hfx",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-27",
+    "classId": "cls_1780310883451_eliu81",
     "content": "~95쪽 \n도함수 마무리\n도함수의 활용(1) 접선의 방정식",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_ms3ngpib",
     "createdAt": "2026-07-27T19:58:44.770Z",
-    "updatedAt": "2026-07-27T19:58:44.770Z"
+    "important": false,
+    "updatedAt": "2026-07-27T19:58:44.770Z",
+    "taskBatchId": "t_ms3ngpib",
+    "studentNotes": []
   },
   {
     "id": "lesson_1785304524526_8srq0g",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-28",
+    "classId": "cls_1780310883451_eliu81",
     "content": "진도부분 문제 풀이",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-07-29T05:55:24.526Z",
-    "updatedAt": "2026-07-29T05:55:24.526Z"
+    "important": false,
+    "updatedAt": "2026-07-29T05:55:24.526Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1785366867466_2tlrdi",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-07-29",
+    "classId": "cls_1780310883451_eliu81",
     "content": "~99쪽 롤의 정리, 평균값 정리",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_ms6pc3ka",
     "createdAt": "2026-07-29T23:14:27.466Z",
-    "updatedAt": "2026-07-29T23:14:27.466Z"
+    "important": false,
+    "updatedAt": "2026-07-29T23:14:27.466Z",
+    "taskBatchId": "t_ms6pc3ka",
+    "studentNotes": []
   },
   {
     "id": "lesson_1785672922720_njiea1",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-08-02",
+    "classId": "cls_1780310883451_eliu81",
     "content": "~ 114쪽\n함수의 증가와 감소, 극대와 극소",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_msbrjxb4",
     "createdAt": "2026-08-02T12:15:22.720Z",
-    "updatedAt": "2026-08-02T12:15:22.720Z"
+    "important": false,
+    "updatedAt": "2026-08-02T12:15:22.720Z",
+    "taskBatchId": "t_msbrjxb4",
+    "studentNotes": []
   },
   {
     "id": "lesson_1786080520408_340b2l",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-08-07",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "교재 검사\n1. 풀어진 곳 - 순열(오답 체크 + 질문)",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-08-07T05:28:40.408Z",
-    "updatedAt": "2026-08-07T05:28:40.408Z"
+    "important": false,
+    "updatedAt": "2026-08-07T05:28:40.408Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1785307854557_1p0ci1",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-07-29",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "쎈B 공수2 :  ~ 25쪽 조립제법",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-07-29T06:50:54.557Z",
-    "updatedAt": "2026-08-07T06:19:10.531Z"
+    "important": false,
+    "updatedAt": "2026-08-07T06:19:10.531Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1786083577107_ph4y41",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-08-07",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "쎈 공수2\n ~ 27쪽 조립제법",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-08-07T06:19:37.107Z",
-    "updatedAt": "2026-08-07T06:19:49.615Z"
+    "important": false,
+    "updatedAt": "2026-08-07T06:19:49.615Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1786324937145_hw0dfx",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-08-08",
+    "classId": "cls_1780310883451_eliu81",
     "content": "~124쪽 함수의 그래프\n삼차, 사차함수의 그래프의 개형 및 비율관계",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_msmjquux",
     "createdAt": "2026-08-10T01:22:17.144Z",
-    "updatedAt": "2026-08-10T01:22:17.144Z"
+    "important": false,
+    "updatedAt": "2026-08-10T01:22:17.144Z",
+    "taskBatchId": "t_msmjquux",
+    "studentNotes": []
   },
   {
     "id": "lesson_1786354621586_25wgc0",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-08-10",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "공수2 원의 접선의 방정식",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-08-10T09:37:01.586Z",
-    "updatedAt": "2026-08-10T09:37:01.586Z"
+    "important": false,
+    "updatedAt": "2026-08-10T09:37:01.586Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1786366504426_9l3brm",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-08-10",
+    "classId": "cls_1780310883451_eliu81",
     "content": "~139쪽 함수의 최대, 최소 + 방정식에의 활용",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_msn8hsdm",
     "createdAt": "2026-08-10T12:55:04.426Z",
-    "updatedAt": "2026-08-10T12:55:04.426Z"
+    "important": false,
+    "updatedAt": "2026-08-10T12:55:04.426Z",
+    "taskBatchId": "t_msn8hsdm",
+    "studentNotes": []
   },
   {
     "id": "lesson_1786528001157_80b442",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-08-12",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "쎈 ~38쪽 켤레복소수",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-08-12T09:46:41.157Z",
-    "updatedAt": "2026-08-12T09:46:48.896Z"
+    "important": false,
+    "updatedAt": "2026-08-12T09:46:48.896Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1786529351544_8sk07c",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-08-12",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "~19쪽 곱셈공식, 변형",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-08-12T10:09:11.544Z",
-    "updatedAt": "2026-08-12T10:09:11.544Z"
+    "important": false,
+    "updatedAt": "2026-08-12T10:09:11.544Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1786539510615_4jff8r",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-08-12",
+    "classId": "cls_1780310883451_eliu81",
     "content": "과제에서 질의응답 + 추가 설명",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_msq3hwt3",
     "createdAt": "2026-08-12T12:58:30.615Z",
-    "updatedAt": "2026-08-12T12:58:30.615Z"
+    "important": false,
+    "updatedAt": "2026-08-12T12:58:30.615Z",
+    "taskBatchId": "t_msq3hwt3",
+    "studentNotes": []
   },
   {
     "id": "lesson_1786704663348_ybrk19",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-08-14",
+    "classId": "cls_1780310883451_eliu81",
     "content": "~150쪽 도함수의 활용(3)\n- 부등식에의 활용\n- 속도와 가속도",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_mssttph0",
     "createdAt": "2026-08-14T10:51:03.348Z",
-    "updatedAt": "2026-08-14T10:51:03.348Z"
+    "important": false,
+    "updatedAt": "2026-08-14T10:51:03.348Z",
+    "taskBatchId": "t_mssttph0",
+    "studentNotes": []
   },
   {
     "id": "lesson_1787132791365_pee77d",
-    "classId": "cls_1780309370989_i1lo00",
     "date": "2026-08-19",
+    "classId": "cls_1780309370989_i1lo00",
     "content": "17~19쪽 시험에 꼭 나오는 문제 풀면서 질문\n22쪽까지 풀어져 있음",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-08-19T09:46:31.365Z",
-    "updatedAt": "2026-08-19T09:46:31.365Z"
+    "important": false,
+    "updatedAt": "2026-08-19T09:46:31.365Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1787132891608_no8gig",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-08-19",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "쎈B ~55쪽 이차방정식",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-08-19T09:48:11.608Z",
-    "updatedAt": "2026-08-19T09:48:11.608Z"
+    "important": false,
+    "updatedAt": "2026-08-19T09:48:11.608Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1787144385403_0ullqj",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-08-19",
+    "classId": "cls_1780310883451_eliu81",
     "content": "학교부교재 ~21쪽 고난도 문항\n개념원리, 모의고사 질문\n부교재 풀어온 부분까지 질문 + 고난도 문항 풀이",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_mt03mh6j",
     "createdAt": "2026-08-19T12:59:45.403Z",
-    "updatedAt": "2026-08-19T12:59:45.403Z"
+    "important": false,
+    "updatedAt": "2026-08-19T12:59:45.403Z",
+    "taskBatchId": "t_mt03mh6j",
+    "studentNotes": []
   },
   {
     "id": "lesson_1787450230421_rzoxzj",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-08-22",
+    "classId": "cls_1780310883451_eliu81",
     "content": "학교 부교재 1단원 마무리.\n2단원 ~40번까지 풀이",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_mt55psph",
     "createdAt": "2026-08-23T01:57:10.421Z",
-    "updatedAt": "2026-08-23T01:57:10.421Z"
+    "important": false,
+    "updatedAt": "2026-08-23T01:57:10.421Z",
+    "taskBatchId": "t_mt55psph",
+    "studentNotes": []
   },
   {
     "id": "lesson_1787593371146_c6i766",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-08-24",
+    "classId": "cls_1780310883451_eliu81",
     "content": "학교 부교재 2단원 마무리",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_mt7ixssq",
     "createdAt": "2026-08-24T17:42:51.146Z",
-    "updatedAt": "2026-08-29T07:50:08.301Z"
+    "important": false,
+    "updatedAt": "2026-08-29T07:50:08.301Z",
+    "taskBatchId": "t_mt7ixssq",
+    "studentNotes": []
   },
   {
     "id": "lesson_1787739695318_74f9jk",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-08-26",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "공수2 - 도형의 방정식 마무리 했음. 집합 들어갈 차례\n공수1 - 65쪽 이차방정식과 이차함수까지 문제 다 풀고, 오답만 하면 됨. 여러가지 방정식 들어갈 차례",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-08-26T10:21:35.318Z",
-    "updatedAt": "2026-08-26T10:21:35.318Z"
+    "important": false,
+    "updatedAt": "2026-08-26T10:21:35.318Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1787989843879_wvlw4i",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-08-26",
+    "classId": "cls_1780310883451_eliu81",
     "content": "오답노트 풀이 & 부교재 3단원 풀이",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-08-29T07:50:43.879Z",
-    "updatedAt": "2026-08-29T07:50:43.879Z"
+    "important": false,
+    "updatedAt": "2026-08-29T07:50:43.879Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1788655148386_4dl80v",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-09-05",
+    "classId": "cls_1780310883451_eliu81",
     "content": "오답노트 풀이 + 4단원 상 문제 질문",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-06T00:39:08.386Z",
-    "updatedAt": "2026-09-06T00:39:08.386Z"
+    "important": false,
+    "updatedAt": "2026-09-06T00:39:08.386Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1788655162715_ieeysx",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-09-02",
+    "classId": "cls_1780310883451_eliu81",
     "content": "오답노트 풀이 + 3단원 마무리",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-06T00:39:22.715Z",
-    "updatedAt": "2026-09-06T00:39:22.715Z"
+    "important": false,
+    "updatedAt": "2026-09-06T00:39:22.715Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1788655194111_zr7f51",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-08-29",
+    "classId": "cls_1780310883451_eliu81",
     "content": "오답노트 + 3단원 고난도 문항 풀이",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-06T00:39:54.111Z",
-    "updatedAt": "2026-09-06T00:39:54.111Z"
+    "important": false,
+    "updatedAt": "2026-09-06T00:39:54.111Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1788873596710_b4ujna",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-09-07",
+    "classId": "cls_1780310883451_eliu81",
     "content": "부교재 4단원 상 문제 풀이",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-08T13:19:56.710Z",
-    "updatedAt": "2026-09-08T13:19:56.710Z"
+    "important": false,
+    "updatedAt": "2026-09-08T13:19:56.710Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1789567739525_raktkn",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-09-16",
+    "classId": "cls_1780310883451_eliu81",
     "content": "오답노트 & 추가 프린트 풀이",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-16T14:08:59.525Z",
-    "updatedAt": "2026-09-16T14:08:59.525Z"
+    "important": false,
+    "updatedAt": "2026-09-16T14:08:59.525Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1789567757317_gxr0ir",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-09-14",
+    "classId": "cls_1780310883451_eliu81",
     "content": "교과서 마무리",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-16T14:09:17.317Z",
-    "updatedAt": "2026-09-16T14:09:17.317Z"
+    "important": false,
+    "updatedAt": "2026-09-16T14:09:17.317Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1789567770725_7udimg",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-09-09",
+    "classId": "cls_1780310883451_eliu81",
     "content": "부교재 마무리 & 교과서 풀이",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-16T14:09:30.725Z",
-    "updatedAt": "2026-09-16T14:09:30.725Z"
+    "important": false,
+    "updatedAt": "2026-09-16T14:09:30.725Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1789567778049_wnbcsv",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-09-12",
+    "classId": "cls_1780310883451_eliu81",
     "content": "교과서 풀이",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-16T14:09:38.049Z",
-    "updatedAt": "2026-09-16T14:09:38.049Z"
+    "important": false,
+    "updatedAt": "2026-09-16T14:09:38.049Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1789951650394_lkh3w7",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-09-19",
+    "classId": "cls_1780310883451_eliu81",
     "content": "취약 유형 복습\n함수의 극한, 연속 진위 판별 문제",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-21T00:47:30.394Z",
-    "updatedAt": "2026-09-21T00:47:30.394Z"
+    "important": false,
+    "updatedAt": "2026-09-21T00:47:30.394Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1789951688980_z7hs6p",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-09-20",
+    "classId": "cls_1780310883451_eliu81",
     "content": "부교재 전체 선별문항 프린트",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-21T00:48:08.980Z",
-    "updatedAt": "2026-09-21T00:48:08.980Z"
+    "important": false,
+    "updatedAt": "2026-09-21T00:48:08.980Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1790006303970_d7rvaf",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-09-21",
+    "classId": "cls_1780310883451_eliu81",
     "content": "오답노트 및 부교재 선별문항 풀이",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-21T15:58:23.970Z",
-    "updatedAt": "2026-09-21T15:58:23.970Z"
+    "important": false,
+    "updatedAt": "2026-09-21T15:58:23.970Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1790679102975_tku87s",
-    "classId": "cls_1790074357169_fmjal9",
     "date": "2026-09-26",
+    "classId": "cls_1790074357169_fmjal9",
     "content": "부교재 풀이(학원)",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-29T10:51:42.975Z",
-    "updatedAt": "2026-09-29T10:51:56.620Z"
+    "important": false,
+    "updatedAt": "2026-09-29T10:51:56.620Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1790679125562_8quvzh",
-    "classId": "cls_1790074357169_fmjal9",
     "date": "2026-09-27",
+    "classId": "cls_1790074357169_fmjal9",
     "content": "부교재 풀이 + 24년 9월 모의 기출 풀이(집)",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-29T10:52:05.562Z",
-    "updatedAt": "2026-09-29T10:52:30.112Z"
+    "important": false,
+    "updatedAt": "2026-09-29T10:52:30.112Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1790679139354_ut0snb",
-    "classId": "cls_1790074357169_fmjal9",
     "date": "2026-09-29",
+    "classId": "cls_1790074357169_fmjal9",
     "content": "23년 9월 모의 기출 풀이(집)",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-09-29T10:52:19.354Z",
-    "updatedAt": "2026-09-29T10:52:36.195Z"
+    "important": false,
+    "updatedAt": "2026-09-29T10:52:36.195Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1791915431960_fjd66v",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-10-12",
+    "classId": "cls_1780310883451_eliu81",
     "content": "※ 중간고사 반성\n\n67.8점 (1등급 컷 74점)\n\n객관식에서는 최고 난이도 문항(5.8점) 2문제를 모두 틀렸지만, 그다음 난이도 문항(5.5점) 3문제 중 2문제는 정확하게 풀어 맞혔습니다.\n\n서술형은 비교적 평이하게 출제되었으나, 시간에 쫓겨 급하게 푸는 바람에 20점 만점에 14점을 받았습니다.\n이번 시험에서는 찍어서 맞춘 문제는 없었다고 합니다.\n\n충분히 풀 수 있었던 4점 문항 1개와 5.1점 문항 1개를 놓친 점이 아쉬웠고, 서술형 점수에도 약간의 아쉬움이 남습니다.\n시험 중 시간 안배에 대해서도 한 번 더 조언하도록 하겠습니다.",
-    "studentNotes": [],
-    "important": true,
-    "taskBatchId": null,
     "createdAt": "2026-10-13T18:17:11.959Z",
-    "updatedAt": "2026-10-16T00:35:44.829Z"
+    "important": true,
+    "updatedAt": "2026-10-16T00:35:44.829Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1792110826500_dwjuwm",
-    "classId": "cls_1780310883451_eliu81",
     "date": "2026-10-15",
+    "classId": "cls_1780310883451_eliu81",
     "content": "정적분",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": null,
     "createdAt": "2026-10-16T00:33:46.500Z",
-    "updatedAt": "2026-10-16T00:33:46.500Z"
+    "important": false,
+    "updatedAt": "2026-10-16T00:33:46.500Z",
+    "taskBatchId": null,
+    "studentNotes": []
   },
   {
     "id": "lesson_1792576262326_ex2lzs",
-    "classId": "cls_1780309335387_ry7cd9",
     "date": "2026-10-21",
+    "classId": "cls_1780309335387_ry7cd9",
     "content": "~86쪽 일차부등식",
-    "studentNotes": [],
-    "important": false,
-    "taskBatchId": "t_mvhxmg8m",
     "createdAt": "2026-10-21T09:51:02.325Z",
-    "updatedAt": "2026-10-21T09:51:02.325Z"
+    "important": false,
+    "updatedAt": "2026-10-21T09:51:02.325Z",
+    "taskBatchId": "t_mvhxmg8m",
+    "studentNotes": []
   }
 ]

@@ -5014,9 +5014,11 @@
       },
       {
         "stage": 4,
-        "doneAt": null,
+        "doneAt": "2026-11-12T08:22:20.255Z",
         "planned": "2026-11-12",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       }
     ],
     "createdAt": "2026-10-22T14:09:18.548Z",
@@ -5216,9 +5218,11 @@
       },
       {
         "stage": 3,
-        "doneAt": null,
+        "doneAt": "2026-11-12T08:22:20.871Z",
         "planned": "2026-11-12",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 4,
@@ -5346,9 +5350,11 @@
       },
       {
         "stage": 2,
-        "doneAt": null,
+        "doneAt": "2026-11-12T08:22:21.488Z",
         "planned": "2026-11-12",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 3,

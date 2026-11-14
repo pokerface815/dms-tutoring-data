@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T13:58:16.182Z",
+  "generatedAt": "2026-11-14T14:10:30.882Z",
   "studentCount": 41,
   "rankings": [
     {
@@ -149,10 +149,10 @@
     {
       "id": "s_1779005266373_7iq1b8",
       "name": "김시현",
-      "totalSec": 568,
-      "weekSec": 568,
-      "monthSec": 568,
-      "recent3mSec": 568,
+      "totalSec": 661,
+      "weekSec": 661,
+      "monthSec": 661,
+      "recent3mSec": 661,
       "streak": 1,
       "nickname": "",
       "publicNickname": false

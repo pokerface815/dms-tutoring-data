@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-12T04:54:46.433Z",
+  "generatedAt": "2026-11-14T13:58:13.484Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -844,6 +844,39 @@
       "dueDate": "2026-11-09",
       "isRepeat": false,
       "assignedAt": "2026-11-08T12:04:55.541Z"
+    }
+  ],
+  "pendingSchedule": [],
+  "taskDefs": [
+    {
+      "assignmentId": "task_1780670793023_kh56qh",
+      "title": "반복 과제 확인(제출일 6/6(토))",
+      "assignedAt": "2026-06-05T14:46:33.023Z",
+      "dueDate": "2026-06-06"
+    },
+    {
+      "assignmentId": "task_1782009623936_vg1gxb",
+      "title": "학부모 페이지 테스트",
+      "assignedAt": "2026-06-21T02:40:23.935Z",
+      "dueDate": "2026-06-24"
+    },
+    {
+      "assignmentId": "task_1782174981058_6nzm9i",
+      "title": "테스트",
+      "assignedAt": "2026-06-23T00:36:21.058Z",
+      "dueDate": "2026-06-23"
+    },
+    {
+      "assignmentId": "task_1782787120020_658o2v",
+      "title": "테스트",
+      "assignedAt": "2026-06-30T02:38:40.020Z",
+      "dueDate": "2026-07-01"
+    },
+    {
+      "assignmentId": "task_1794139495541_si4njg",
+      "title": "테스트",
+      "assignedAt": "2026-11-08T12:04:55.541Z",
+      "dueDate": "2026-11-09"
     }
   ],
   "myGrades": [

@@ -5483,69 +5483,69 @@
   {
     "id": "a_1794649621454_knot17",
     "noteId": "note_1794649606687_p9xuiq",
-    "noteName": "이현승_자이스토리_F. 도함수의 활용(3)",
-    "studentId": "s_1778638262495_alq1jg",
     "subject": "미적분Ⅰ",
+    "noteName": "이현승_자이스토리_F. 도함수의 활용(3)",
     "schedule": [
       {
         "stage": 1,
+        "doneAt": null,
         "planned": "2026-11-14",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 2,
+        "doneAt": null,
         "planned": "2026-11-16",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 3,
+        "doneAt": null,
         "planned": "2026-11-21",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 4,
+        "doneAt": null,
         "planned": "2026-12-05",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-14T09:47:01.454Z"
+    "createdAt": "2026-11-14T09:47:01.454Z",
+    "studentId": "s_1778638262495_alq1jg"
   },
   {
     "id": "a_1794664630382_h5w8kp",
     "noteId": "note_1794664594091_jxpnag",
-    "noteName": "박다인_올림포스 기출_6, 7, 8단원",
-    "studentId": "s_1778404886523_0ag055",
     "subject": "미적분Ⅰ",
+    "noteName": "박다인_올림포스 기출_6, 7, 8단원",
     "schedule": [
       {
         "stage": 1,
+        "doneAt": null,
         "planned": "2026-11-14",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 2,
+        "doneAt": null,
         "planned": "2026-11-16",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 3,
+        "doneAt": null,
         "planned": "2026-11-21",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 4,
+        "doneAt": null,
         "planned": "2026-12-05",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-14T13:57:10.382Z"
+    "createdAt": "2026-11-14T13:57:10.382Z",
+    "studentId": "s_1778404886523_0ag055"
   }
 ]

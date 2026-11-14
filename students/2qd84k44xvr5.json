@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-12T04:50:51.519Z",
+  "generatedAt": "2026-11-14T13:57:22.264Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -434,6 +434,66 @@
   "upcoming": [],
   "completed": [
     {
+      "assignmentId": "a_1794405292029_o8mv6e",
+      "noteName": "송유림_올림포스 유형편_전체",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-11-13",
+      "done": true,
+      "doneAt": "2026-11-14T05:02:03.389Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1794405292029_o8mv6e",
+      "noteName": "송유림_올림포스 유형편_전체",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-11-11",
+      "done": true,
+      "doneAt": "2026-11-12T04:54:39.543Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1793794630870_c60w4k",
+      "noteName": "송유림_개념루트_289~594번_1차 오답",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-11-11",
+      "done": true,
+      "doneAt": "2026-11-12T04:54:33.624Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1793794630870_c60w4k",
+      "noteName": "송유림_개념루트_289~594번_1차 오답",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-11-06",
+      "done": true,
+      "doneAt": "2026-11-06T11:08:49.669Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1793794630870_c60w4k",
+      "noteName": "송유림_개념루트_289~594번_1차 오답",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-11-04",
+      "done": true,
+      "doneAt": "2026-11-04T13:16:49.200Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
       "assignmentId": "a_1787726098114_zzpdkx",
       "noteName": "송유림_올림포스 유형편_전체",
       "subject": "미적분Ⅰ",
@@ -627,14 +687,50 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
-    "done": 0,
-    "percent": 0,
+    "total": 3,
+    "done": 3,
+    "percent": 100,
     "startDate": "2026-11-09",
     "endDate": "2026-11-15"
   },
   "teacherConfirms": {},
   "tasks": [],
+  "pendingSchedule": [
+    {
+      "assignmentId": "a_1793794630870_c60w4k",
+      "noteName": "송유림_개념루트_289~594번_1차 오답",
+      "subject": "미적분Ⅰ",
+      "round": 4,
+      "plannedDate": "2026-11-25",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794405292029_o8mv6e",
+      "noteName": "송유림_올림포스 유형편_전체",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-11-18",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794405292029_o8mv6e",
+      "noteName": "송유림_올림포스 유형편_전체",
+      "subject": "미적분Ⅰ",
+      "round": 4,
+      "plannedDate": "2026-12-02",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "taskDefs": [],
   "myGrades": [
     {
       "id": "grade_mq844lanqrg",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-14T13:57:15.988Z",
+  "generatedAt": "2026-11-14T14:10:28.940Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -43,6 +43,17 @@
       "startedAt": 1794664205912,
       "reflection": "",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mwgguk07tye",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강 — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+      "seconds": 93,
+      "subject": "미적분Ⅰ",
+      "createdAt": "2026-11-14T13:53:23.143Z",
+      "startedAt": 1794664335176,
+      "reflection": "",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -51,11 +62,12 @@
       "O3ZpodBk5B8": {
         "lectureId": "lec_mririwvdtb6",
         "videoTitle": "[개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+        "watchedSec": 94,
         "durationSec": 1348,
-        "lastPosition": 0,
+        "lastPosition": 125,
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강",
-        "sessionCount": 1,
-        "lastWatchedAt": "2026-11-14T13:52:09.989Z"
+        "sessionCount": 3,
+        "lastWatchedAt": "2026-11-14T13:53:55.939Z"
       },
       "druHHRnA4jk": {
         "lectureId": "lec_mririwvdtb6",
@@ -79,6 +91,7 @@
     },
     "daily": {
       "2026-11-14": {
+        "O3ZpodBk5B8": 94,
         "jNwrnSQMusc": 568
       }
     }

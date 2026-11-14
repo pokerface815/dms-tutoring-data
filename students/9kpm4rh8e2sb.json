@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-09T15:02:11.167Z",
+  "generatedAt": "2026-11-14T13:58:07.574Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -362,7 +362,19 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [],
+  "today": [
+    {
+      "assignmentId": "a_1794664630382_h5w8kp",
+      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-11-14",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "overdue": [],
   "upcoming": [],
   "completed": [
@@ -728,7 +740,7 @@
     }
   ],
   "weekProgress": {
-    "total": 0,
+    "total": 1,
     "done": 0,
     "percent": 0,
     "startDate": "2026-11-09",
@@ -736,6 +748,53 @@
   },
   "teacherConfirms": {},
   "tasks": [],
+  "pendingSchedule": [
+    {
+      "assignmentId": "a_1794664630382_h5w8kp",
+      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-11-14",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794664630382_h5w8kp",
+      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-11-16",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794664630382_h5w8kp",
+      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-11-21",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794664630382_h5w8kp",
+      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
+      "subject": "미적분Ⅰ",
+      "round": 4,
+      "plannedDate": "2026-12-05",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "taskDefs": [],
   "myGrades": [
     {
       "id": "grade_mralkjlugaq",

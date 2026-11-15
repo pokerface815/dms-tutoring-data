@@ -5581,5 +5581,39 @@
       }
     ],
     "createdAt": "2026-11-14T15:05:49.618Z"
+  },
+  {
+    "id": "a_1794744497735_kpncbb",
+    "noteId": "note_1794744476950_4kvblt",
+    "noteName": "장하늘_완자 기출픽_09.명제",
+    "studentId": "s_1790074374851_96xx1y",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-11-15",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-11-17",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-11-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 4,
+        "planned": "2026-12-06",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-11-15T12:08:17.735Z"
   }
 ]

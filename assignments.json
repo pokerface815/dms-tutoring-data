@@ -5489,10 +5489,10 @@
       {
         "stage": 1,
         "doneAt": "2026-11-15T03:03:44.771Z",
-        "planned": "2026-11-14",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-14",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 2,
@@ -5525,10 +5525,10 @@
       {
         "stage": 1,
         "doneAt": "2026-11-15T03:03:45.444Z",
-        "planned": "2026-11-14",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-14",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 2,
@@ -5555,65 +5555,67 @@
   {
     "id": "a_1794668749618_ytky49",
     "noteId": "note_1794668731370_sgmv1i",
-    "noteName": "조예나_올림포스 유형편_ ~ 05.부정적분과 정적분 86번",
-    "studentId": "s_1777547047005_uo92w5",
     "subject": "미적분Ⅰ",
+    "noteName": "조예나_올림포스 유형편_ ~ 05.부정적분과 정적분 86번",
     "schedule": [
       {
         "stage": 1,
+        "doneAt": "2026-11-16T11:18:32.471Z",
+        "missed": false,
         "planned": "2026-11-15",
-        "actualDone": false,
+        "missedAt": null,
+        "actualDone": true
+      },
+      {
+        "stage": 2,
         "doneAt": null,
+        "planned": "2026-11-17",
+        "actualDone": false
+      },
+      {
+        "stage": 3,
+        "doneAt": null,
+        "planned": "2026-11-22",
+        "actualDone": false
+      }
+    ],
+    "createdAt": "2026-11-14T15:05:49.618Z",
+    "studentId": "s_1777547047005_uo92w5"
+  },
+  {
+    "id": "a_1794744497735_kpncbb",
+    "noteId": "note_1794744476950_4kvblt",
+    "subject": "공통수학2",
+    "noteName": "장하늘_완자 기출픽_09.명제",
+    "schedule": [
+      {
+        "stage": 1,
+        "doneAt": "2026-11-16T11:18:33.996Z",
+        "planned": "2026-11-15",
+        "actualDone": true,
         "missed": false,
         "missedAt": null
       },
       {
         "stage": 2,
+        "doneAt": null,
         "planned": "2026-11-17",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 3,
+        "doneAt": null,
         "planned": "2026-11-22",
-        "actualDone": false,
-        "doneAt": null
-      }
-    ],
-    "createdAt": "2026-11-14T15:05:49.618Z"
-  },
-  {
-    "id": "a_1794744497735_kpncbb",
-    "noteId": "note_1794744476950_4kvblt",
-    "noteName": "장하늘_완자 기출픽_09.명제",
-    "studentId": "s_1790074374851_96xx1y",
-    "subject": "공통수학2",
-    "schedule": [
-      {
-        "stage": 1,
-        "planned": "2026-11-15",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 2,
-        "planned": "2026-11-17",
-        "actualDone": false,
-        "doneAt": null
-      },
-      {
-        "stage": 3,
-        "planned": "2026-11-22",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 4,
+        "doneAt": null,
         "planned": "2026-12-06",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-15T12:08:17.735Z"
+    "createdAt": "2026-11-15T12:08:17.735Z",
+    "studentId": "s_1790074374851_96xx1y"
   }
 ]

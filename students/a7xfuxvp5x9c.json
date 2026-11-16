@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-15T03:03:52.650Z",
+  "generatedAt": "2026-11-16T15:06:37.647Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -54,6 +54,28 @@
       "startedAt": 1794664335176,
       "reflection": "",
       "autoRecorded": true
+    },
+    {
+      "id": "effort_mwhucvaqq93",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강 — [개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
+      "seconds": 731,
+      "subject": "미적분Ⅰ",
+      "createdAt": "2026-11-15T12:59:18.770Z",
+      "startedAt": 1794744316233,
+      "reflection": "",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mwhuugs2y1m",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강 — [개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
+      "seconds": 1372,
+      "subject": "미적분Ⅰ",
+      "createdAt": "2026-11-15T13:12:59.762Z",
+      "startedAt": 1794748316000,
+      "reflection": "",
+      "autoRecorded": true
     }
   ],
   "syncedEffortDeletedIds": null,
@@ -62,16 +84,27 @@
       "O3ZpodBk5B8": {
         "lectureId": "lec_mririwvdtb6",
         "videoTitle": "[개념루트, 사전 촬영] 242~253쪽 정적분으로 정의된 함수",
-        "watchedSec": 94,
+        "watchedSec": 825,
         "durationSec": 1348,
-        "lastPosition": 125,
+        "lastPosition": 1318,
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강",
-        "sessionCount": 3,
-        "lastWatchedAt": "2026-11-14T18:37:48.253Z"
+        "sessionCount": 4,
+        "lastWatchedAt": "2026-11-15T13:11:51.607Z"
+      },
+      "ROGD4n-9mrY": {
+        "lectureId": "lec_mririwvdtb6",
+        "videoTitle": "[개념루트, 사전 촬영] 258~271쪽 정적분의 활용 - 넓이",
+        "watchedSec": 1372,
+        "durationSec": 3455,
+        "lastPosition": 1723,
+        "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강",
+        "sessionCount": 2,
+        "lastWatchedAt": "2026-11-15T15:15:08.034Z"
       },
       "druHHRnA4jk": {
         "lectureId": "lec_mririwvdtb6",
         "videoTitle": "38~52쪽 54번 풀이 + 함수의 극한의 응용, 함수의 극한의 대소 관계 + 함수의 연속",
+        "watchedSec": 0,
         "durationSec": 5637,
         "lastPosition": 0,
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강",
@@ -93,6 +126,13 @@
       "2026-11-14": {
         "O3ZpodBk5B8": 94,
         "jNwrnSQMusc": 568
+      },
+      "2026-11-15": {
+        "O3ZpodBk5B8": 731,
+        "ROGD4n-9mrY": 1299
+      },
+      "2026-11-16": {
+        "ROGD4n-9mrY": 73
       }
     }
   },
@@ -238,8 +278,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-11-09",
-    "endDate": "2026-11-15"
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-22"
   },
   "teacherConfirms": {},
   "tasks": [],

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-15T12:08:23.448Z",
+  "generatedAt": "2026-11-16T15:06:40.294Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -63,6 +63,17 @@
       "subject": "미적분Ⅰ",
       "createdAt": "2026-11-14T07:15:24.610Z",
       "startedAt": 1794640385989,
+      "reflection": "",
+      "autoRecorded": true
+    },
+    {
+      "id": "effort_mwhjpo2jtgd",
+      "method": "강의 시청",
+      "content": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강 — [개념루트, 사전 촬영] 272~281쪽 정적분의 활용 - 속도와 거리",
+      "seconds": 2135,
+      "subject": "미적분Ⅰ",
+      "createdAt": "2026-11-15T08:01:20.155Z",
+      "startedAt": 1794728390836,
       "reflection": "",
       "autoRecorded": true
     }
@@ -133,12 +144,12 @@
       "XagAr-A2uHs": {
         "lectureId": "lec_mririwvdtb6",
         "videoTitle": "[개념루트, 사전 촬영] 272~281쪽 정적분의 활용 - 속도와 거리",
-        "watchedSec": 0,
+        "watchedSec": 2135,
         "durationSec": 1506,
-        "lastPosition": 0,
+        "lastPosition": 1308,
         "lectureTitle": "2시 수업 - 미적분1 개념 강의_개념루트 (26년 7~10월)_완강",
         "sessionCount": 1,
-        "lastWatchedAt": "2026-11-15T07:42:44.360Z"
+        "lastWatchedAt": "2026-11-15T08:41:11.236Z"
       }
     },
     "daily": {
@@ -156,6 +167,9 @@
       },
       "2026-11-14": {
         "ROGD4n-9mrY": 5086
+      },
+      "2026-11-15": {
+        "XagAr-A2uHs": 2135
       }
     }
   },
@@ -457,8 +471,8 @@
     "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-11-09",
-    "endDate": "2026-11-15"
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-22"
   },
   "teacherConfirms": {},
   "tasks": [],

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T14:10:30.882Z",
+  "generatedAt": "2026-11-16T15:07:10.831Z",
   "studentCount": 41,
   "rankings": [
     {
@@ -83,11 +83,11 @@
     {
       "id": "s_1778402500926_7fxigp",
       "name": "정찬민",
-      "totalSec": 12087,
-      "weekSec": 5086,
-      "monthSec": 5086,
-      "recent3mSec": 7732,
-      "streak": 1,
+      "totalSec": 14222,
+      "weekSec": 0,
+      "monthSec": 7221,
+      "recent3mSec": 9867,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },
@@ -128,7 +128,7 @@
       "id": "s_1778849219765_v88lqq",
       "name": "지유진",
       "totalSec": 459,
-      "weekSec": 459,
+      "weekSec": 0,
       "monthSec": 459,
       "recent3mSec": 459,
       "streak": 0,
@@ -149,11 +149,11 @@
     {
       "id": "s_1779005266373_7iq1b8",
       "name": "김시현",
-      "totalSec": 661,
-      "weekSec": 661,
-      "monthSec": 661,
-      "recent3mSec": 661,
-      "streak": 1,
+      "totalSec": 2764,
+      "weekSec": 0,
+      "monthSec": 2764,
+      "recent3mSec": 2764,
+      "streak": 0,
       "nickname": "",
       "publicNickname": false
     },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-14T13:58:07.574Z",
+  "generatedAt": "2026-11-16T15:07:04.430Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -362,22 +362,46 @@
     }
   },
   "syncedLectureDeletedVideoIds": null,
-  "today": [
+  "today": [],
+  "overdue": [
     {
       "assignmentId": "a_1794664630382_h5w8kp",
       "noteName": "박다인_올림포스 기출_6, 7, 8단원",
       "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-11-14",
+      "round": 2,
+      "plannedDate": "2026-11-16",
       "done": false,
       "doneAt": null,
       "missed": false,
       "missedAt": null
     }
   ],
-  "overdue": [],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "assignmentId": "a_1794664630382_h5w8kp",
+      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
+      "subject": "미적분Ⅰ",
+      "round": 3,
+      "plannedDate": "2026-11-21",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
   "completed": [
+    {
+      "assignmentId": "a_1794664630382_h5w8kp",
+      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
+      "subject": "미적분Ⅰ",
+      "round": 1,
+      "plannedDate": "2026-11-14",
+      "done": true,
+      "doneAt": "2026-11-15T03:03:45.444Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1788784391213_mdra34",
       "noteName": "박다인_올림포스 기출_1, 2, 3단원",
@@ -725,41 +749,18 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1778404955321_ulqgty",
-      "noteName": "박다인_수매씽 유형_06. 삼각함수의 그래프",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-05-17",
-      "done": true,
-      "doneAt": "2026-05-17T13:17:11.565Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
-    "total": 1,
+    "total": 2,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-11-09",
-    "endDate": "2026-11-15"
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-22"
   },
   "teacherConfirms": {},
   "tasks": [],
   "pendingSchedule": [
-    {
-      "assignmentId": "a_1794664630382_h5w8kp",
-      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
-      "subject": "미적분Ⅰ",
-      "round": 1,
-      "plannedDate": "2026-11-14",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
     {
       "assignmentId": "a_1794664630382_h5w8kp",
       "noteName": "박다인_올림포스 기출_6, 7, 8단원",

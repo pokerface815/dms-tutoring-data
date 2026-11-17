@@ -5364,9 +5364,11 @@
       },
       {
         "stage": 3,
-        "doneAt": null,
+        "doneAt": "2026-11-17T08:25:41.636Z",
         "planned": "2026-11-17",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 4,
@@ -5572,9 +5574,11 @@
       },
       {
         "stage": 2,
-        "doneAt": null,
+        "doneAt": "2026-11-17T08:25:43.642Z",
         "planned": "2026-11-17",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 3,
@@ -5630,9 +5634,11 @@
     "schedule": [
       {
         "stage": 1,
-        "doneAt": null,
+        "doneAt": "2026-11-17T08:25:45.457Z",
         "planned": "2026-11-17",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,

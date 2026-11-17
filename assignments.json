@@ -5591,10 +5591,10 @@
       {
         "stage": 1,
         "doneAt": "2026-11-16T11:18:33.996Z",
-        "planned": "2026-11-15",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-15",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 2,
@@ -5621,29 +5621,29 @@
   {
     "id": "a_1794841592456_9sy0b2",
     "noteId": "note_1794841569923_91t41m",
-    "noteName": "조예나_올림포스 유형편_ ~ 06.정적분의 활용 12번",
-    "studentId": "s_1777547047005_uo92w5",
     "subject": "미적분Ⅰ",
+    "noteName": "조예나_올림포스 유형편_ ~ 06.정적분의 활용 12번",
     "schedule": [
       {
         "stage": 1,
+        "doneAt": null,
         "planned": "2026-11-17",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 2,
+        "doneAt": null,
         "planned": "2026-11-19",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 3,
+        "doneAt": null,
         "planned": "2026-11-24",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-16T15:06:32.456Z"
+    "createdAt": "2026-11-16T15:06:32.456Z",
+    "studentId": "s_1777547047005_uo92w5"
   }
 ]

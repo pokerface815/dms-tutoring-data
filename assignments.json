@@ -5670,9 +5670,11 @@
     "schedule": [
       {
         "stage": 1,
-        "doneAt": null,
+        "doneAt": "2026-11-18T12:39:53.586Z",
         "planned": "2026-11-17",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 2,

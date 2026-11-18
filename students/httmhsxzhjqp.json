@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-12T04:53:17.537Z",
+  "generatedAt": "2026-11-18T12:40:01.704Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -26,14 +26,37 @@
   "syncedLectureWatch": null,
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [],
-  "upcoming": [
+  "overdue": [
     {
-      "assignmentId": "a_1792752353362_ve6c3a",
+      "assignmentId": "a_1794744497735_kpncbb",
       "noteName": "장하늘_완자 기출픽_09.명제",
       "subject": "공통수학2",
-      "round": 4,
-      "plannedDate": "2026-11-13",
+      "round": 2,
+      "plannedDate": "2026-11-17",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "upcoming": [
+    {
+      "assignmentId": "a_1794916459917_0h4e06",
+      "noteName": "장하늘_완자 기출픽_10. 명제의 증명",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-11-19",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794744497735_kpncbb",
+      "noteName": "장하늘_완자 기출픽_09.명제",
+      "subject": "공통수학2",
+      "round": 3,
+      "plannedDate": "2026-11-22",
       "done": false,
       "doneAt": null,
       "missed": false,
@@ -42,13 +65,49 @@
   ],
   "completed": [
     {
+      "assignmentId": "a_1794916459917_0h4e06",
+      "noteName": "장하늘_완자 기출픽_10. 명제의 증명",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-11-17",
+      "done": true,
+      "doneAt": "2026-11-18T12:39:53.586Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1794744497735_kpncbb",
+      "noteName": "장하늘_완자 기출픽_09.명제",
+      "subject": "공통수학2",
+      "round": 1,
+      "plannedDate": "2026-11-15",
+      "done": true,
+      "doneAt": "2026-11-16T11:18:33.996Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1792752353362_ve6c3a",
+      "noteName": "장하늘_완자 기출픽_09.명제",
+      "subject": "공통수학2",
+      "round": 4,
+      "plannedDate": "2026-11-13",
+      "done": true,
+      "doneAt": "2026-11-14T05:01:58.992Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
       "assignmentId": "a_1793703830138_76r66c",
       "noteName": "장하늘_완자 기출픽_함수, 합성함수와 역함수(~833번)",
       "subject": "공통수학2",
       "round": 3,
       "plannedDate": "2026-11-10",
       "done": true,
-      "doneAt": "2026-11-12T04:50:27.872Z",
+      "doneAt": "2026-11-11T14:07:28.842Z",
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
@@ -60,7 +119,7 @@
       "round": 2,
       "plannedDate": "2026-11-05",
       "done": true,
-      "doneAt": "2026-11-07T07:09:19.459Z",
+      "doneAt": "2026-11-05T15:31:22.611Z",
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
@@ -283,13 +342,98 @@
     }
   ],
   "weekProgress": {
-    "total": 2,
+    "total": 4,
     "done": 1,
-    "percent": 50,
-    "startDate": "2026-11-09",
-    "endDate": "2026-11-15"
+    "percent": 25,
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-22"
   },
-  "teacherConfirms": {},
+  "teacherConfirms": {
+    "a_1794916459917_0h4e06__1": {
+      "confirmed": true,
+      "confirmedAt": "2026-11-18T12:39:53.586Z"
+    }
+  },
   "tasks": [],
+  "pendingSchedule": [
+    {
+      "assignmentId": "a_1793703830138_76r66c",
+      "noteName": "장하늘_완자 기출픽_함수, 합성함수와 역함수(~833번)",
+      "subject": "공통수학2",
+      "round": 4,
+      "plannedDate": "2026-11-24",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794744497735_kpncbb",
+      "noteName": "장하늘_완자 기출픽_09.명제",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-11-17",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794744497735_kpncbb",
+      "noteName": "장하늘_완자 기출픽_09.명제",
+      "subject": "공통수학2",
+      "round": 3,
+      "plannedDate": "2026-11-22",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794744497735_kpncbb",
+      "noteName": "장하늘_완자 기출픽_09.명제",
+      "subject": "공통수학2",
+      "round": 4,
+      "plannedDate": "2026-12-06",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794916459917_0h4e06",
+      "noteName": "장하늘_완자 기출픽_10. 명제의 증명",
+      "subject": "공통수학2",
+      "round": 2,
+      "plannedDate": "2026-11-19",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794916459917_0h4e06",
+      "noteName": "장하늘_완자 기출픽_10. 명제의 증명",
+      "subject": "공통수학2",
+      "round": 3,
+      "plannedDate": "2026-11-24",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    },
+    {
+      "assignmentId": "a_1794916459917_0h4e06",
+      "noteName": "장하늘_완자 기출픽_10. 명제의 증명",
+      "subject": "공통수학2",
+      "round": 4,
+      "plannedDate": "2026-12-08",
+      "done": false,
+      "doneAt": null,
+      "missed": false,
+      "missedAt": null
+    }
+  ],
+  "taskDefs": [],
   "myGrades": []
 }

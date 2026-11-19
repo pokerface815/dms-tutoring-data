@@ -5755,5 +5755,33 @@
       }
     ],
     "createdAt": "2026-11-19T07:28:47.624Z"
+  },
+  {
+    "id": "a_1795132253043_kpk4g7",
+    "noteId": "note_1795132129944_wdqyhz",
+    "noteName": "김채린_개념루트_전체",
+    "studentId": "s_1777546951753_p3pskl",
+    "subject": "미적분Ⅰ",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-11-20",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-11-22",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-11-27",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-11-19T23:50:53.043Z"
   }
 ]

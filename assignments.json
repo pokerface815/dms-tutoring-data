@@ -5727,5 +5727,33 @@
       }
     ],
     "createdAt": "2026-11-18T12:46:28.632Z"
+  },
+  {
+    "id": "a_1795073327624_u5yaab",
+    "noteId": "note_1795073286364_9lv8vw",
+    "noteName": "장하늘_11, 13단원 일부 재오답",
+    "studentId": "s_1790074374851_96xx1y",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-11-19",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-11-21",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-11-26",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-11-19T07:28:47.624Z"
   }
 ]

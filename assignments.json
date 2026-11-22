@@ -5405,10 +5405,10 @@
       {
         "stage": 3,
         "doneAt": "2026-11-18T11:04:36.667Z",
-        "planned": "2026-11-18",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-18",
+        "missedAt": null,
+        "actualDone": true
       }
     ],
     "createdAt": "2026-11-11T12:56:44.659Z",
@@ -5439,10 +5439,10 @@
       {
         "stage": 3,
         "doneAt": "2026-11-18T11:04:37.943Z",
-        "planned": "2026-11-18",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-18",
+        "missedAt": null,
+        "actualDone": true
       }
     ],
     "createdAt": "2026-11-11T12:57:25.853Z",
@@ -5473,10 +5473,10 @@
       {
         "stage": 3,
         "doneAt": "2026-11-18T11:04:39.285Z",
-        "planned": "2026-11-18",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-18",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 4,
@@ -5513,10 +5513,10 @@
       {
         "stage": 3,
         "doneAt": "2026-11-21T14:25:43.102Z",
-        "planned": "2026-11-21",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-21",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 4,
@@ -5553,10 +5553,10 @@
       {
         "stage": 3,
         "doneAt": "2026-11-21T14:25:43.871Z",
-        "planned": "2026-11-21",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-21",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 4,
@@ -5617,10 +5617,10 @@
       {
         "stage": 2,
         "doneAt": "2026-11-18T13:39:47.924Z",
-        "planned": "2026-11-17",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-17",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 3,
@@ -5655,10 +5655,10 @@
       {
         "stage": 2,
         "doneAt": "2026-11-21T06:56:30.604Z",
-        "planned": "2026-11-19",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-19",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 3,
@@ -5679,18 +5679,18 @@
       {
         "stage": 1,
         "doneAt": "2026-11-18T12:39:53.586Z",
-        "planned": "2026-11-17",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-17",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 2,
         "doneAt": "2026-11-21T06:56:32.038Z",
-        "planned": "2026-11-19",
-        "actualDone": true,
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-19",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 3,
@@ -5711,125 +5711,125 @@
   {
     "id": "a_1795005988632_2xth9c",
     "noteId": "note_1795005973335_qfqme5",
-    "noteName": "장하늘_완자 기출픽_11.함수",
-    "studentId": "s_1790074374851_96xx1y",
     "subject": "공통수학2",
+    "noteName": "장하늘_완자 기출픽_11.함수",
     "schedule": [
       {
         "stage": 1,
-        "planned": "2026-11-19",
-        "actualDone": true,
         "doneAt": "2026-11-21T06:56:32.863Z",
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-19",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 2,
-        "planned": "2026-11-21",
-        "actualDone": true,
         "doneAt": "2026-11-21T14:25:44.911Z",
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-21",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 3,
+        "doneAt": null,
         "planned": "2026-11-26",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-18T12:46:28.632Z"
+    "createdAt": "2026-11-18T12:46:28.632Z",
+    "studentId": "s_1790074374851_96xx1y"
   },
   {
     "id": "a_1795073327624_u5yaab",
     "noteId": "note_1795073286364_9lv8vw",
-    "noteName": "장하늘_11, 13단원 일부 재오답",
-    "studentId": "s_1790074374851_96xx1y",
     "subject": "공통수학2",
+    "noteName": "장하늘_11, 13단원 일부 재오답",
     "schedule": [
       {
         "stage": 1,
-        "planned": "2026-11-19",
-        "actualDone": true,
         "doneAt": "2026-11-21T06:56:34.012Z",
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-19",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 2,
-        "planned": "2026-11-21",
-        "actualDone": true,
         "doneAt": "2026-11-21T14:25:47.162Z",
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-21",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 3,
+        "doneAt": null,
         "planned": "2026-11-26",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-19T07:28:47.624Z"
+    "createdAt": "2026-11-19T07:28:47.624Z",
+    "studentId": "s_1790074374851_96xx1y"
   },
   {
     "id": "a_1795132253043_kpk4g7",
     "noteId": "note_1795132129944_wdqyhz",
-    "noteName": "김채린_개념루트_전체",
-    "studentId": "s_1777546951753_p3pskl",
     "subject": "미적분Ⅰ",
+    "noteName": "김채린_개념루트_전체",
     "schedule": [
       {
         "stage": 1,
-        "planned": "2026-11-20",
-        "actualDone": true,
         "doneAt": "2026-11-21T06:56:35.030Z",
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-20",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 2,
+        "doneAt": null,
         "planned": "2026-11-22",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 3,
+        "doneAt": null,
         "planned": "2026-11-27",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-19T23:50:53.043Z"
+    "createdAt": "2026-11-19T23:50:53.043Z",
+    "studentId": "s_1777546951753_p3pskl"
   },
   {
     "id": "a_1795132567367_x45vmu",
     "noteId": "note_1795132518641_i49nqj",
-    "noteName": "김채린_올림포스 유형편_전체",
-    "studentId": "s_1777546951753_p3pskl",
     "subject": "미적분Ⅰ",
+    "noteName": "김채린_올림포스 유형편_전체",
     "schedule": [
       {
         "stage": 1,
-        "planned": "2026-11-20",
-        "actualDone": true,
         "doneAt": "2026-11-21T06:56:35.771Z",
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-20",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 2,
+        "doneAt": null,
         "planned": "2026-11-22",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 3,
+        "doneAt": null,
         "planned": "2026-11-27",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-19T23:56:07.367Z"
+    "createdAt": "2026-11-19T23:56:07.367Z",
+    "studentId": "s_1777546951753_p3pskl"
   }
 ]

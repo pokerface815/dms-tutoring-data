@@ -5843,31 +5843,31 @@
   {
     "id": "a_1795445695450_x7wgjm",
     "noteId": "note_1795445682453_4u63jl",
-    "noteName": "조예나_올림포스 유형편_ ~끝",
-    "studentId": "s_1777547047005_uo92w5",
     "subject": "미적분Ⅰ",
+    "noteName": "조예나_올림포스 유형편_ ~끝",
     "schedule": [
       {
         "stage": 1,
-        "planned": "2026-11-23",
-        "actualDone": true,
         "doneAt": "2026-11-24T01:14:15.852Z",
         "missed": false,
-        "missedAt": null
+        "planned": "2026-11-23",
+        "missedAt": null,
+        "actualDone": true
       },
       {
         "stage": 2,
+        "doneAt": null,
         "planned": "2026-11-25",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 3,
+        "doneAt": null,
         "planned": "2026-11-30",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-23T14:54:55.450Z"
+    "createdAt": "2026-11-23T14:54:55.450Z",
+    "studentId": "s_1777547047005_uo92w5"
   }
 ]

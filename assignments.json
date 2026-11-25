@@ -5875,5 +5875,33 @@
     ],
     "createdAt": "2026-11-23T14:54:55.450Z",
     "studentId": "s_1777547047005_uo92w5"
+  },
+  {
+    "id": "a_1795606023480_aq26p1",
+    "noteId": "note_1795606011527_l7vk3p",
+    "noteName": "장하늘_완자 기출픽_합성함수와 역함수 재오답",
+    "studentId": "s_1790074374851_96xx1y",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-11-25",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-11-27",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-12-02",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-11-25T11:27:03.480Z"
   }
 ]

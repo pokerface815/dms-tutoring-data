@@ -5919,5 +5919,33 @@
     "assignedAt": "2026-11-26T09:28:54.451Z",
     "batchId": "t_mwxconn7",
     "repeat": null
+  },
+  {
+    "id": "a_1795691368243_92n2uh",
+    "noteId": "note_1795691348847_j579pj",
+    "noteName": "장하늘_10.명제의 증명, 14.무리함수",
+    "studentId": "s_1790074374851_96xx1y",
+    "subject": "공통수학2",
+    "schedule": [
+      {
+        "stage": 1,
+        "planned": "2026-11-26",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 2,
+        "planned": "2026-11-28",
+        "actualDone": false,
+        "doneAt": null
+      },
+      {
+        "stage": 3,
+        "planned": "2026-12-03",
+        "actualDone": false,
+        "doneAt": null
+      }
+    ],
+    "createdAt": "2026-11-26T11:09:28.243Z"
   }
 ]

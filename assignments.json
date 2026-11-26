@@ -5913,39 +5913,39 @@
   {
     "id": "task_1795685334451_ebly1h",
     "type": "task",
-    "studentId": "s_1795685308557_y6l5pv",
     "title": "프린트 풀이",
-    "dueDate": "2026-11-27",
-    "assignedAt": "2026-11-26T09:28:54.451Z",
+    "repeat": null,
     "batchId": "t_mwxconn7",
-    "repeat": null
+    "dueDate": "2026-11-27",
+    "studentId": "s_1795685308557_y6l5pv",
+    "assignedAt": "2026-11-26T09:28:54.451Z"
   },
   {
     "id": "a_1795691368243_92n2uh",
     "noteId": "note_1795691348847_j579pj",
-    "noteName": "장하늘_10.명제의 증명, 14.무리함수",
-    "studentId": "s_1790074374851_96xx1y",
     "subject": "공통수학2",
+    "noteName": "장하늘_10.명제의 증명, 14.무리함수",
     "schedule": [
       {
         "stage": 1,
+        "doneAt": null,
         "planned": "2026-11-26",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 2,
+        "doneAt": null,
         "planned": "2026-11-28",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       },
       {
         "stage": 3,
+        "doneAt": null,
         "planned": "2026-12-03",
-        "actualDone": false,
-        "doneAt": null
+        "actualDone": false
       }
     ],
-    "createdAt": "2026-11-26T11:09:28.243Z"
+    "createdAt": "2026-11-26T11:09:28.243Z",
+    "studentId": "s_1790074374851_96xx1y"
   }
 ]

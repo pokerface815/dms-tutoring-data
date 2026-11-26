@@ -5909,5 +5909,15 @@
     ],
     "createdAt": "2026-11-25T11:27:03.480Z",
     "studentId": "s_1790074374851_96xx1y"
+  },
+  {
+    "id": "task_1795685334451_ebly1h",
+    "type": "task",
+    "studentId": "s_1795685308557_y6l5pv",
+    "title": "프린트 풀이",
+    "dueDate": "2026-11-27",
+    "assignedAt": "2026-11-26T09:28:54.451Z",
+    "batchId": "t_mwxconn7",
+    "repeat": null
   }
 ]

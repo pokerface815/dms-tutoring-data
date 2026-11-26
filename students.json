@@ -1249,25 +1249,25 @@
   },
   {
     "id": "s_1795685308557_y6l5pv",
-    "name": "이채윤",
-    "school": "문화중",
-    "grade": "중2",
-    "classes": [],
-    "memo": "",
     "days": [
       "월",
       "수",
       "금"
     ],
-    "studentPhone": "010-5211-6303",
-    "parentPhone": "",
-    "notifyStudent": true,
-    "notifyParent": false,
-    "showCompletionRate": true,
-    "showTestResults": true,
-    "showNoteStages": true,
-    "showMakeNote": true,
+    "memo": "",
+    "name": "이채윤",
+    "grade": "중2",
+    "school": "문화중",
+    "classes": [],
     "pageCode": "w3djdg7km6pt",
-    "classHistory": []
+    "parentPhone": "",
+    "classHistory": [],
+    "notifyParent": false,
+    "showMakeNote": true,
+    "studentPhone": "010-5211-6303",
+    "notifyStudent": true,
+    "showNoteStages": true,
+    "showTestResults": true,
+    "showCompletionRate": true
   }
 ]

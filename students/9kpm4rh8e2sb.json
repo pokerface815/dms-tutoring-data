@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-16T15:07:04.430Z",
+  "generatedAt": "2026-11-28T14:03:23.869Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -363,33 +363,33 @@
   },
   "syncedLectureDeletedVideoIds": null,
   "today": [],
-  "overdue": [
-    {
-      "assignmentId": "a_1794664630382_h5w8kp",
-      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-11-16",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
-  "upcoming": [
+  "overdue": [],
+  "upcoming": [],
+  "completed": [
     {
       "assignmentId": "a_1794664630382_h5w8kp",
       "noteName": "박다인_올림포스 기출_6, 7, 8단원",
       "subject": "미적분Ⅰ",
       "round": 3,
       "plannedDate": "2026-11-21",
-      "done": false,
-      "doneAt": null,
+      "done": true,
+      "doneAt": "2026-11-21T14:25:43.871Z",
       "missed": false,
-      "missedAt": null
-    }
-  ],
-  "completed": [
+      "missedAt": null,
+      "doneType": "submitted"
+    },
+    {
+      "assignmentId": "a_1794664630382_h5w8kp",
+      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
+      "subject": "미적분Ⅰ",
+      "round": 2,
+      "plannedDate": "2026-11-16",
+      "done": true,
+      "doneAt": "2026-11-17T08:25:29.758Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1794664630382_h5w8kp",
       "noteName": "박다인_올림포스 기출_6, 7, 8단원",
@@ -725,64 +725,18 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1778926078603_csiw8v",
-      "noteName": "박다인_수매씽 유형_삼각함수의 그래프( ~ 1376번)",
-      "subject": "대수",
-      "round": 3,
-      "plannedDate": "2026-05-23",
-      "done": true,
-      "doneAt": "2026-05-23T12:48:06.148Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1778926078603_csiw8v",
-      "noteName": "박다인_수매씽 유형_삼각함수의 그래프( ~ 1376번)",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-05-18",
-      "done": true,
-      "doneAt": "2026-05-18T12:46:31.108Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
-    "total": 2,
+    "total": 0,
     "done": 0,
     "percent": 0,
-    "startDate": "2026-11-16",
-    "endDate": "2026-11-22"
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-29"
   },
   "teacherConfirms": {},
   "tasks": [],
   "pendingSchedule": [
-    {
-      "assignmentId": "a_1794664630382_h5w8kp",
-      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
-      "subject": "미적분Ⅰ",
-      "round": 2,
-      "plannedDate": "2026-11-16",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
-    {
-      "assignmentId": "a_1794664630382_h5w8kp",
-      "noteName": "박다인_올림포스 기출_6, 7, 8단원",
-      "subject": "미적분Ⅰ",
-      "round": 3,
-      "plannedDate": "2026-11-21",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    },
     {
       "assignmentId": "a_1794664630382_h5w8kp",
       "noteName": "박다인_올림포스 기출_6, 7, 8단원",

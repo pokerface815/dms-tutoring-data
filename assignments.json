@@ -5950,9 +5950,11 @@
       },
       {
         "stage": 2,
-        "doneAt": null,
+        "doneAt": "2026-11-28T14:02:53.301Z",
         "planned": "2026-11-28",
-        "actualDone": false
+        "actualDone": true,
+        "missed": false,
+        "missedAt": null
       },
       {
         "stage": 3,

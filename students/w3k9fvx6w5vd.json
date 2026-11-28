@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-16T15:06:58.005Z",
+  "generatedAt": "2026-11-28T14:03:11.607Z",
   "branding": {
     "name": "문대승 수학학원",
     "logoUrl": "https://lmovapwsusqzwwgbdfti.supabase.co/storage/v1/object/public/branding/logo_683f60e7-3ae3-4fbd-bbf6-962044edac32_1793720290129.webp"
@@ -59,6 +59,18 @@
   "overdue": [],
   "upcoming": [],
   "completed": [
+    {
+      "assignmentId": "a_1793892773242_9vihjc",
+      "noteName": "지유진_올림포스 유형편_정적분의 활용",
+      "subject": "미적분Ⅰ",
+      "round": 4,
+      "plannedDate": "2026-11-27",
+      "done": true,
+      "doneAt": "2026-11-27T17:26:33.320Z",
+      "missed": false,
+      "missedAt": null,
+      "doneType": "submitted"
+    },
     {
       "assignmentId": "a_1793892773242_9vihjc",
       "noteName": "지유진_올림포스 유형편_정적분의 활용",
@@ -406,42 +418,18 @@
       "missed": false,
       "missedAt": null,
       "doneType": "submitted"
-    },
-    {
-      "assignmentId": "a_1779519466437_4zcqh7",
-      "noteName": "지유진_올림포스 유형편_등차수열과 등비수열",
-      "subject": "대수",
-      "round": 2,
-      "plannedDate": "2026-05-25",
-      "done": true,
-      "doneAt": "2026-05-25T16:42:49.788Z",
-      "missed": false,
-      "missedAt": null,
-      "doneType": "submitted"
     }
   ],
   "weekProgress": {
-    "total": 0,
-    "done": 0,
-    "percent": 0,
-    "startDate": "2026-11-16",
-    "endDate": "2026-11-22"
+    "total": 1,
+    "done": 1,
+    "percent": 100,
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-29"
   },
   "teacherConfirms": {},
   "tasks": [],
-  "pendingSchedule": [
-    {
-      "assignmentId": "a_1793892773242_9vihjc",
-      "noteName": "지유진_올림포스 유형편_정적분의 활용",
-      "subject": "미적분Ⅰ",
-      "round": 4,
-      "plannedDate": "2026-11-27",
-      "done": false,
-      "doneAt": null,
-      "missed": false,
-      "missedAt": null
-    }
-  ],
+  "pendingSchedule": [],
   "taskDefs": [],
   "myGrades": []
 }

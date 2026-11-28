@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T15:07:10.831Z",
-  "studentCount": 41,
+  "generatedAt": "2026-11-28T14:03:30.104Z",
+  "studentCount": 42,
   "rankings": [
     {
       "id": "s_1777538277049_9le2r7",
@@ -281,10 +281,10 @@
     {
       "id": "s_1780833414231_dup17p",
       "name": "국보민",
-      "totalSec": 0,
-      "weekSec": 0,
-      "monthSec": 0,
-      "recent3mSec": 0,
+      "totalSec": 2088,
+      "weekSec": 2088,
+      "monthSec": 2088,
+      "recent3mSec": 2088,
       "streak": 0,
       "nickname": "",
       "publicNickname": false
@@ -446,6 +446,17 @@
     {
       "id": "s_1790074374851_96xx1y",
       "name": "장하늘",
+      "totalSec": 0,
+      "weekSec": 0,
+      "monthSec": 0,
+      "recent3mSec": 0,
+      "streak": 0,
+      "nickname": "",
+      "publicNickname": false
+    },
+    {
+      "id": "s_1795685308557_y6l5pv",
+      "name": "이채윤",
       "totalSec": 0,
       "weekSec": 0,
       "monthSec": 0,
